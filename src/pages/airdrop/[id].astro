@@ -85,18 +85,15 @@ const { airdrop } = Astro.props;
           <h2 class="text-2xl font-bold text-slate-900 mb-4">Step-by-Step Airdrop Guide</h2>
           <div class="bg-blue-50 border border-blue-100 rounded-2xl p-6 mb-8">
             <ol class="list-decimal list-outside ml-4 space-y-4 text-slate-700 font-medium">
-              <li>Visit the <strong>{airdrop.name}</strong> testnet platform using our referral link.</li>
-              <li>Connect your Web3 wallet (MetaMask or Rabby).</li>
-              <li>Request testnet tokens from the official faucet provided on their dashboard.</li>
-              <li>Complete at least 5 cross-chain swap transactions to build volume.</li>
-              <li>Provide liquidity in any of the available pools (USDC/ETH recommended).</li>
-              <li>Join their Discord server and verify your wallet in the <code>#airdrop-verify</code> channel.</li>
+              {airdrop.steps && airdrop.steps.map((step) => (
+                <li>{step}</li>
+              ))}
             </ol>
           </div>
 
           <h2 class="text-2xl font-bold text-slate-900 mb-4">Project Overview & Funding</h2>
           <p class="text-slate-600 mb-6 leading-relaxed">
-            {airdrop.name} is building the next generation of decentralized infrastructure. By solving the liquidity fragmentation problem across various Layer 2 rollups, they are positioning themselves as a critical piece of the future Web3 ecosystem. The team has officially confirmed that <strong>15% of the total token supply</strong> is allocated for community airdrops and early testers.
+            {airdrop.overview}
           </p>
 
           <!-- SEO Table -->
@@ -111,15 +108,15 @@ const { airdrop } = Astro.props;
               <tbody class="divide-y divide-slate-100 text-slate-600">
                 <tr>
                   <td class="px-6 py-4 font-medium text-slate-900">Total Funding</td>
-                  <td class="px-6 py-4">$45.5 Million</td>
+                  <td class="px-6 py-4">{airdrop.funding || 'Undisclosed'}</td>
                 </tr>
                 <tr>
                   <td class="px-6 py-4 font-medium text-slate-900">Lead Investors</td>
-                  <td class="px-6 py-4">Binance Labs, Paradigm, a16z</td>
+                  <td class="px-6 py-4">{airdrop.investors || 'N/A'}</td>
                 </tr>
                 <tr>
                   <td class="px-6 py-4 font-medium text-slate-900">Airdrop Allocation</td>
-                  <td class="px-6 py-4">15% of Total Supply</td>
+                  <td class="px-6 py-4">{airdrop.allocation || 'Speculative'}</td>
                 </tr>
                 <tr>
                   <td class="px-6 py-4 font-medium text-slate-900">Blockchain</td>
