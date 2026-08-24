@@ -23,20 +23,35 @@ const { title } = Astro.props;
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 		<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
 		
-		<!-- OneSignal Push Notifications -->
+		<!-- OneSignal Web Push -->
 		<script src="https://cdn.onesignal.com/sdks/web/v16/OneSignalSDK.page.js" defer></script>
-		<script is:inline>
+		<script>
 			window.OneSignalDeferred = window.OneSignalDeferred || [];
-			OneSignalDeferred.push(function(OneSignal) {
-				OneSignal.init({
-					appId: "YOUR_ONESIGNAL_APP_ID",
-					safari_web_id: "web.onesignal.auto.YOUR_SAFARI_ID",
-					notifyButton: {
-						enable: true,
-					},
+			OneSignalDeferred.push(async function(OneSignal) {
+				await OneSignal.init({
+					appId: "YOUR-ONESIGNAL-APP-ID",
 				});
 			});
 		</script>
+		<!-- Language Auto-Detector -->
+		<script>
+			(function() {
+				// Only run on root path to avoid redirect loops
+				if (window.location.pathname === '/') {
+					const storedLang = localStorage.getItem('preferredLang');
+					if (storedLang) return; // User already chose a language
+					
+					const userLang = navigator.language || navigator.userLanguage;
+					const langCode = userLang.split('-')[0].toLowerCase();
+					
+					const supportedLangs = ['tr', 'ru', 'es', 'hi', 'id', 'vi', 'pt', 'zh', 'tl'];
+					if (supportedLangs.includes(langCode)) {
+						window.location.replace('/' + langCode + '/');
+					}
+				}
+			})();
+		</script>
+
 		<script is:inline>
 			if (localStorage.getItem('theme') === 'dark' || (!('theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
 				document.documentElement.classList.add('dark');
