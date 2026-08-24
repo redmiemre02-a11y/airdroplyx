@@ -1,0 +1,53 @@
+---
+import '../styles/global.css';
+import Footer from '../components/Footer.astro';
+import CookieBanner from '../components/CookieBanner.astro';
+
+interface Props {
+	title: string;
+}
+
+const { title } = Astro.props;
+---
+
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="description" content="Crypto Airdrops & Free Drops" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+		<meta name="generator" content={Astro.generator} />
+		<title>{title}</title>
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+		
+		<!-- OneSignal Push Notifications -->
+		<script src="https://cdn.onesignal.com/sdks/web/v16/OneSignalSDK.page.js" defer></script>
+		<script is:inline>
+			window.OneSignalDeferred = window.OneSignalDeferred || [];
+			OneSignalDeferred.push(function(OneSignal) {
+				OneSignal.init({
+					appId: "YOUR_ONESIGNAL_APP_ID",
+					safari_web_id: "web.onesignal.auto.YOUR_SAFARI_ID",
+					notifyButton: {
+						enable: true,
+					},
+				});
+			});
+		</script>
+		<script is:inline>
+			if (localStorage.getItem('theme') === 'dark' || (!('theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+				document.documentElement.classList.add('dark');
+			} else {
+				document.documentElement.classList.remove('dark');
+			}
+		</script>
+	</head>
+	<body class="bg-[#f3f4f6] dark:bg-slate-900 text-[#334155] dark:text-slate-300 font-['Inter',sans-serif] antialiased flex flex-col min-h-screen transition-colors duration-300">
+		<slot />
+		<Footer />
+		<CookieBanner />
+	</body>
+</html>

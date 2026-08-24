@@ -1,0 +1,70 @@
+---
+import type { Airdrop } from '../data/airdrops';
+
+interface Props {
+  airdrop: Airdrop;
+}
+
+const { airdrop } = Astro.props;
+
+const statusBadgeColor = airdrop.status === 'active' ? 'bg-emerald-50 text-emerald-600 border-emerald-200' : 
+                         airdrop.status === 'upcoming' ? 'bg-amber-50 text-amber-600 border-amber-200' : 
+                         'bg-slate-50 text-slate-500 border-slate-200';
+---
+
+<div class="bg-white rounded-2xl p-5 border border-slate-200 shadow-sm hover:shadow-xl hover:-translate-y-1 transition-all duration-300 group relative mb-5">
+  
+  {airdrop.featured && (
+    <div class="absolute -top-3 -right-3 inline-flex items-center gap-1.5 bg-gradient-to-r from-orange-400 to-red-500 rounded-full px-3 py-1 text-[11px] font-bold text-white shadow-lg shadow-orange-500/30 z-10">
+      <svg xmlns="http://www.w3.org/2000/svg" class="w-3 h-3" viewBox="0 0 24 24" fill="currentColor" stroke="none"><path d="M17.5 11.2c-.3-.3-.8-.3-1.1 0-1.8 1.8-3.4 3.7-3.4 6.3 0 1.9 1.6 3.5 3.5 3.5s3.5-1.6 3.5-3.5c0-2.6-1.6-4.5-3.4-6.3zm-10-2.4c-1.8 1.8-3.4 3.7-3.4 6.3 0 1.9 1.6 3.5 3.5 3.5s3.5-1.6 3.5-3.5c0-2.6-1.6-4.5-3.4-6.3-.3-.3-.8-.3-1.1 0zM12 2C7.6 2 4 5.6 4 10s3.6 8 8 8 8-3.6 8-8-3.6-8-8-8zm0 14c-3.3 0-6-2.7-6-6s2.7-6 6-6 6 2.7 6 6-2.7 6-6 6z"/></svg>
+      <span>HOT</span>
+    </div>
+  )}
+
+  <div class="flex items-start gap-4">
+    <!-- Logo Box -->
+    <div class="w-[72px] h-[72px] rounded-xl bg-slate-50 border border-slate-100 flex items-center justify-center shrink-0 p-2 shadow-inner">
+      <img src={airdrop.logo} alt={airdrop.name} class="w-full h-full object-contain drop-shadow-sm group-hover:scale-110 transition-transform duration-300" loading="lazy" />
+    </div>
+
+    <!-- Content -->
+    <div class="flex-1 min-w-0">
+      <h3 class="text-[18px] font-bold text-slate-900 mb-1 truncate group-hover:text-blue-600 transition-colors">
+        <a href={`/airdrop/${airdrop.id}`} class="before:absolute before:inset-0">{airdrop.name}</a>
+      </h3>
+      
+      <div class="inline-flex items-center gap-1.5 text-[13px] font-medium text-slate-600 bg-slate-100 px-2.5 py-1 rounded-md mb-3">
+        <svg class="w-4 h-4 text-slate-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+        <span>{airdrop.reward}</span>
+      </div>
+      
+      <p class="text-[14px] text-slate-500 line-clamp-2 leading-relaxed">
+        {airdrop.description}
+      </p>
+    </div>
+  </div>
+
+  <!-- Bottom Row -->
+  <div class="mt-4 pt-4 border-t border-slate-100 flex flex-wrap items-center justify-between gap-3 relative z-20">
+    <div class="flex items-center gap-2">
+      <span class={`text-[11px] font-extrabold uppercase px-3 py-1 rounded-full border tracking-wide ${statusBadgeColor}`}>
+        {airdrop.status}
+      </span>
+      <span class="text-[11px] font-bold uppercase px-3 py-1 rounded-full border bg-slate-50 border-slate-200 text-slate-600 tracking-wide hidden sm:inline-block">
+        {airdrop.category}
+      </span>
+      {airdrop.status === 'active' && (
+        <span class="flex items-center gap-1.5 text-[11px] font-bold text-red-500 bg-red-50 px-3 py-1 rounded-full border border-red-100 animate-pulse">
+          <svg class="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+          Ends in 3d 14h
+        </span>
+      )}
+    </div>
+    
+    <a href={`/airdrop/${airdrop.id}`} class="text-sm font-bold text-blue-600 hover:text-blue-700 flex items-center gap-1 group/btn relative z-30">
+      Guide
+      <svg class="w-4 h-4 group-hover/btn:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path></svg>
+    </a>
+  </div>
+
+</div>
