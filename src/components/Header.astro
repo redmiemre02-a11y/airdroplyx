@@ -7,11 +7,11 @@
       <div class="flex gap-3">
         <span class="text-gray-400 font-medium">Select Language:</span>
         <div class="flex gap-2 font-medium">
-          <a href="#" class="hover:text-blue-400 transition-colors">EN</a>
-          <a href="#" class="hover:text-blue-400 transition-colors">TR</a>
-          <a href="#" class="hover:text-blue-400 transition-colors">RU</a>
-          <a href="#" class="hover:text-blue-400 transition-colors">ES</a>
-          <a href="#" class="text-gray-500 hover:text-white transition-colors">... +6</a>
+          <button onclick="switchLang('en')" class="hover:text-blue-400 transition-colors cursor-pointer">EN</button>
+          <button onclick="switchLang('tr')" class="hover:text-blue-400 transition-colors cursor-pointer">TR</button>
+          <button onclick="switchLang('ru')" class="hover:text-blue-400 transition-colors cursor-pointer">RU</button>
+          <button onclick="switchLang('es')" class="hover:text-blue-400 transition-colors cursor-pointer">ES</button>
+          <span class="text-gray-500 hover:text-white transition-colors cursor-help" title="More languages available dynamically">... +6</span>
         </div>
       </div>
       <div class="flex gap-4">
@@ -20,6 +20,23 @@
       </div>
     </div>
   </div>
+
+  <script is:inline>
+    function switchLang(lang) {
+      localStorage.setItem('preferredLang', lang);
+      const path = window.location.pathname;
+      const parts = path.split('/').filter(Boolean);
+      const supportedLangs = ['en', 'tr', 'ru', 'es', 'hi', 'id', 'vi', 'pt', 'zh', 'tl'];
+      
+      if (parts.length > 0 && supportedLangs.includes(parts[0])) {
+        parts[0] = lang;
+        window.location.href = '/' + parts.join('/') + (parts.length > 0 ? '/' : '');
+      } else {
+        // If no language in URL (e.g. root /), just prepend it
+        window.location.href = '/' + lang + (path === '/' ? '/' : path);
+      }
+    }
+  </script>
 
   <!-- Main Navbar -->
   <div class="max-w-[1200px] mx-auto px-4 flex items-center justify-between h-[72px]">
