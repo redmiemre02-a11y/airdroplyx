@@ -23,5 +23,18 @@ export const airdrops = [
     funding: '$46.0M+',
     investors: 'Founders Fund, Pantera Capital, Coinbase',
     refLink: 'https://app.ondoperps.xyz/?ref=CR2GND'
+  },
+  {
+    id: 'nowa-protocol',
+    name: 'Nowa Finance',
+    logo: 'https://airdrops.io/wp-content/uploads/2026/08/Nowa-logo.jpg.webp',
+    description: 'Onchain financing protocol built around Buy Now, Pay Later (BNPL) crypto trading on ZK-Rollup.',
+    reward: 'Confirmed Airdrop & Points',
+    category: 'DeFi / BNPL / L2',
+    featured: false,
+    endTime: '2026-10-30T23:59:59Z',
+    funding: 'TBA',
+    investors: 'Top Tier VCs',
+    refLink: 'https://app.nowa.finance/?ref=NOWA_EA519B'
   }
 ];
