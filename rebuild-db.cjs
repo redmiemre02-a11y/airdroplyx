@@ -1,0 +1,132 @@
+const fs = require('fs');
+
+const dowEn = {
+  reward: "Potential TGE", category: "Layer 0 / RWA",
+  overview: "Dow Protocol is rapidly emerging as a pioneer in the Real World Asset (RWA) space by solving a massive problem in global e-commerce. Currently, sellers on massive marketplaces like Amazon often have to wait anywhere from 14 to 28 days for their sales proceeds to clear. This creates a severe liquidity crunch.\n\nTo bridge this gap, Dow Protocol leverages blockchain technology to move working capital lending on-chain. They advance stablecoin funding to these merchants against their pending receivables.\n\nThe project recently secured a massive $10.5 Million in a seed funding round led by industry giants including Animoca Brands, MH Ventures, and Mapleblock.",
+  strategy: "Dow Protocol is unique because the yield comes directly from real-world merchant interest rather than unsustainable token emissions. Our strategy here is twofold: First, immediately lock in the free social points (Task XP). Second, provide liquidity to the stablecoin vaults if available.",
+  steps: [
+    "Navigate to the Official Dow Protocol Points Dashboard.",
+    "Connect your X (Twitter) Account to grant you your first 50 XP.",
+    "Publish a High-Quality Post about Dow Protocol.",
+    "Link your Telegram and Discord Accounts.",
+    "Provide Liquidity to the Stablecoin Vaults (Optional but High-Value).",
+    "Maximize Earnings with Referrals."
+  ],
+  faqs: [
+    { question: "When is the Dow Protocol token launch (TGE)?", answer: "The Dow Protocol team has not yet announced an official date for their Token Generation Event (TGE)." },
+    { question: "Is it completely free to participate?", answer: "Yes, the social farming aspect is 100% free." }
+  ]
+};
+
+const dowTr = {
+  reward: "Potansiyel TGE", category: "RWA / DeFi",
+  overview: "Dow Protocol, küresel e-ticaretteki devasa bir sorunu çözerek Gerçek Dünya Varlıkları (RWA) alanında hızla öncü konuma yükseliyor. Amazon gibi pazar yerlerindeki satıcılar, gelirleri için 14-28 gün bekliyor. Dow Protocol bu açığı blockchain ile kapatıyor.\n\nProje Animoca Brands öncülüğünde 10.5 Milyon Dolar yatırım aldı. TGE öncesi başlatılan 'Dow XP Programı' ile erken kullanıcıları devasa airdroplarla ödüllendirecekler.",
+  strategy: "Sosyal görevleri hızla tamamlayıp ücretsiz XP toplamak ve boştaki stablecoinleri 90 günlük havuzlara kilitleyerek airdrop çarpanı elde etmek ana stratejimizdir.",
+  steps: ["Resmi Dow Protocol Puan Paneline Gidin.", "X (Twitter) Hesabınızı Bağlayın.", "Dow Protocol Hakkında Kaliteli Bir Gönderi Paylaşın.", "Telegram ve Discord Hesaplarınızı Bağlayın.", "Stablecoin Havuzlarına Likidite Sağlayın.", "Referanslarla Kazancınızı Katlayın."],
+  faqs: [
+    { question: "TGE ne zaman?", answer: "Henüz resmi bir TGE tarihi açıklanmadı." },
+    { question: "Katılmak ücretsiz mi?", answer: "Sosyal görevler ücretsizdir. Havuz yatırımları stablecoin gerektirir." }
+  ]
+};
+
+const ondoEn = {
+  reward: "Weekly USDC & Points", category: "DeFi / RWA",
+  overview: "Ondo Perps is a revolutionary perpetual futures trading platform built by the team behind Ondo Finance. It offers 24/7 leveraged trading on tokenized U.S. equities, ETFs, and commodities. The platform's main differentiator is support for tokenized securities as collateral.\n\nBacked by an enormous $46M in funding from giants like Founders Fund, Pantera Capital, and Coinbase Ventures, the platform is currently offering weekly USDC rewards and a massive Ondo Points program for active traders.",
+  strategy: "The strategy for Ondo Perps revolves around consistent volume rather than one-time deposits. Since they snapshot weekly for USDC rewards and Ondo Points, you should aim to make a few leveraged trades every week. Using our referral link is also critical.",
+  steps: [
+    "Visit the <a href=\"https://app.ondoperps.xyz/?ref=CR2GND\" target=\"_blank\">Ondo Perps trading app</a> using our referral link.",
+    "Connect your Web3 Wallet (MetaMask, Rabby) on the required network.",
+    "Deposit collateral (USDC or supported tokenized securities).",
+    "Open long or short positions on tokenized U.S. Equities, ETFs, or commodities.",
+    "Navigate to the Rewards dashboard to track your Ondo Points.",
+    "Grab your unique referral link from the dashboard and invite other traders."
+  ],
+  faqs: [
+    { question: "When is the Ondo Perps Airdrop?", answer: "No token airdrop has been scheduled yet. However, the Ondo Points program is active." },
+    { question: "Is it free to participate?", answer: "No, trading requires depositing actual collateral and paying fees." }
+  ]
+};
+
+const ondoTr = {
+  reward: "Haftalık USDC & Puan", category: "DeFi / RWA",
+  overview: "Ondo Perps, Ondo Finance ekibi tarafından inşa edilen devrim niteliğinde bir vadeli işlem (perpetual) platformudur. Tokenize edilmiş ABD hisse senetleri, ETF'ler ve emtialar üzerinde 7/24 kaldıraçlı işlem imkanı sunar.\n\nFounders Fund, Pantera Capital ve Coinbase Ventures gibi devlerden toplam 46 Milyon Dolar yatırım alan proje, şu anda aktif yatırımcılara haftalık USDC ödülleri ve devasa bir Ondo Puan programı sunuyor.",
+  strategy: "Ana strateji düzenli işlem hacmi (volume) yaratmaktır. Her hafta birkaç kaldıraçlı işlem yapmayı hedeflemelisiniz.",
+  steps: [
+    "Komisyon indirimine hak kazanmak için <a href=\"https://app.ondoperps.xyz/?ref=CR2GND\" target=\"_blank\">referans linkimizi (CR2GND)</a> kullanarak Ondo Perps'e gidin.",
+    "Web3 Cüzdanınızı bağlayın.",
+    "Ticaret hesabınıza teminat yatırın.",
+    "Long veya short pozisyonları açın.",
+    "Ödüller (Rewards) paneline gidin.",
+    "Kendi referans linkinizi alıp diğerlerini davet edin."
+  ],
+  faqs: [
+    { question: "Airdrop ne zaman?", answer: "Henüz resmi bir tarih yok ancak Puan programı devrede." }
+  ]
+};
+
+const nowaEn = {
+  reward: "Nowa Points & Airdrop", category: "DeFi / BNPL / ZK-Rollup",
+  overview: "Nowa Finance is revolutionizing the decentralized finance (DeFi) space by introducing an on-chain Buy Now, Pay Later (BNPL) protocol. It allows you to buy real spot assets today, settle the balance on your own schedule, and take full ownership once the debt is cleared. Unlike traditional finance, approval runs entirely on the collateral you post rather than a credit check, making it truly permissionless and decentralized.\n\nThe protocol operates on its own dedicated Nowa L2, an Ethereum-compatible ZK-Rollup. This means lighting-fast transactions and virtually zero gas fees compared to Ethereum mainnet. The team has officially confirmed a highly lucrative rewards program where early adopters can earn Nowa Points by completing social tasks, trading on the platform, and staking assets.",
+  strategy: "The primary strategy to maximize your Nowa airdrop allocation is to generate volume through the BNPL feature and complete all available social quests. Early users who consistently trade and stake on the Nowa L2 testnet/mainnet will likely receive a massive multiplier on their final token allocation. Using our specific referral link also grants you a head start with bonus points.",
+  steps: [
+    "Visit the <a href=\"https://app.nowa.finance/?ref=NOWA_EA519B\" target=\"_blank\">Nowa Finance App</a> using our exclusive referral link (NOWA_EA519B) to lock in your bonus multiplier.",
+    "Connect your Web3 Wallet (MetaMask or Rabby) and switch to the required network.",
+    "Complete the mandatory social tasks (Follow Nowa on X/Twitter, Join their Telegram and Discord).",
+    "Deposit your initial collateral (USDC or ETH) to establish your credit line.",
+    "Execute a Buy Now, Pay Later trade. Buy a spot asset and pay the remainder over time to generate protocol volume.",
+    "Navigate to the Earn section to stake your assets and generate passive yield while farming points.",
+    "Grab your unique referral link from the dashboard and invite friends to earn a percentage of their points."
+  ],
+  faqs: [
+    { question: "When is the Nowa Finance TGE?", answer: "The Token Generation Event (TGE) date is currently TBA, but the points campaign is fully live." },
+    { question: "Is the ZK-Rollup safe?", answer: "Nowa L2 uses zero-knowledge proofs settled on Ethereum Sepolia/Mainnet, inheriting Ethereum security." },
+    { question: "What happens if I do not pay later?", answer: "If your collateral ratio drops below the maintenance margin, your position will be liquidated by the smart contract automatically." }
+  ]
+};
+
+const nowaTr = {
+  reward: "Nowa Puanı & Airdrop", category: "DeFi / BNPL",
+  overview: "Nowa Finance, merkeziyetsiz finans (DeFi) dünyasında 'Şimdi Al, Sonra Öde' (BNPL) modelini zincir üstüne taşıyarak devrim yaratıyor. Bu sistem sayesinde bugün gerçek spot varlıklar satın alabilir, bakiyeyi kendi planınıza göre ödeyebilir ve borç kapandığında tam mülkiyeti alabilirsiniz. Kredi notunuz değil, yatırdığınız teminat baz alınır; bu da sistemi tamamen izinsiz ve merkeziyetsiz yapar.\n\nProtokol, Ethereum uyumlu bir ZK-Rollup olan kendi Nowa L2 ağı üzerinde çalışır. Bu sayede işlemler ışık hızında gerçekleşir ve gas ücretleri neredeyse sıfırdır. Ekip, sosyal görevleri tamamlayan, platformda işlem yapan ve varlık kilitleyen (staking) erken kullanıcıların Nowa Puanları kazanacağı devasa bir ödül programını resmen onayladı.",
+  strategy: "Nowa airdrop tahsisinizi maksimize etmenin temel stratejisi, BNPL özelliğini kullanarak hacim yaratmak ve mevcut tüm sosyal görevleri eksiksiz tamamlamaktır. Nowa L2 üzerinde düzenli işlem yapan ve stake eden erken kullanıcılar muhtemelen devasa bir airdrop çarpanı alacaktır.",
+  steps: [
+    "Özel bonus puanlarınızı garantilemek için referans linkimizi kullanarak <a href=\"https://app.nowa.finance/?ref=NOWA_EA519B\" target=\"_blank\">Nowa Finance Uygulamasına</a> gidin (Kod: NOWA_EA519B).",
+    "Web3 Cüzdanınızı bağlayın ve istenen ağa geçiş yapın.",
+    "Zorunlu sosyal görevleri tamamlayın (X/Twitter, Telegram, Discord).",
+    "Kredi limitinizi oluşturmak için ilk teminatınızı (USDC veya ETH) yatırın.",
+    "Bir 'Şimdi Al, Sonra Öde' işlemi gerçekleştirin ve hacim yaratın.",
+    "Pasif gelir elde etmek için Earn bölümüne giderek varlıklarınızı stake edin.",
+    "Kendi referans linkinizi alın ve arkadaşlarınızı davet edin."
+  ],
+  faqs: [
+    { question: "Token Çıkışı ne zaman?", answer: "Tarih henüz açıklanmadı, ancak puan kampanyası tüm hızıyla devam ediyor." },
+    { question: "Borcumu ödemezsem ne olur?", answer: "Eğer teminat oranınız sürdürme marjının altına düşerse, pozisyonunuz otomatik olarak likide edilir." }
+  ]
+};
+
+const langs = ['en', 'tr', 'ru', 'es', 'hi', 'id', 'vi', 'pt', 'zh', 'tl'];
+
+let output = 'import { airdrops } from "./airdrops";\n\nexport const i18n_airdrops = {\n';
+
+langs.forEach(lang => {
+  let dow = lang === 'tr' ? dowTr : dowEn;
+  let ondo = lang === 'tr' ? ondoTr : ondoEn;
+  let nowa = lang === 'tr' ? nowaTr : nowaEn;
+
+  // We must escape newlines for the overview JSON strings
+  const stringifyAndEscape = (obj) => {
+    let str = JSON.stringify(obj);
+    // When we write this to a .ts file, a literal newline in a JSON string is invalid. We must write "\\n"
+    // JSON.stringify already turns actual newlines into "\n", which becomes "\\n" when written.
+    return str;
+  }
+
+  output += "  " + lang + ": airdrops.map(a => {\n";
+  output += "    if (a.id === 'dow-protocol') return { ...a, ..." + stringifyAndEscape(dow) + " };\n";
+  output += "    if (a.id === 'ondo-perps') return { ...a, ..." + stringifyAndEscape(ondo) + " };\n";
+  output += "    if (a.id === 'nowa-protocol') return { ...a, ..." + stringifyAndEscape(nowa) + " };\n";
+  output += "    return a;\n";
+  output += "  }),\n";
+});
+
+output += "};\n";
+fs.writeFileSync('src/data/i18n_airdrops.ts', output, 'utf8');
