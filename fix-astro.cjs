@@ -1,4 +1,6 @@
----
+﻿const fs = require('fs');
+
+const fileContent = ---
 import Layout from '../../../layouts/Layout.astro';
 import Header from '../../../components/Header.astro';
 import Footer from '../../../components/Footer.astro';
@@ -19,7 +21,7 @@ const { lang, id } = Astro.params;
 const { airdrop } = Astro.props;
 
 const uiTranslations = {
-  en: { steps: 'Step-by-Step Airdrop Guide', overview: 'Project Overview & Funding', metric: 'Metric', details: 'Details', funding: 'Total Funding', investors: 'Lead Investors', allocation: 'Airdrop Allocation', blockchain: 'Blockchain', strategy: 'Editor\'s Airdrop Strategy', faq: 'Frequently Asked Questions', sentiment: 'What\'s your sentiment on', sentimentSub: 'Join 2,451 other hunters in predicting the airdrop size.', bullish: 'Bullish', bearish: 'Bearish' },
+  en: { steps: 'Step-by-Step Airdrop Guide', overview: 'Project Overview & Funding', metric: 'Metric', details: 'Details', funding: 'Total Funding', investors: 'Lead Investors', allocation: 'Airdrop Allocation', blockchain: 'Blockchain', strategy: 'Editor\\'s Airdrop Strategy', faq: 'Frequently Asked Questions', sentiment: 'What\\'s your sentiment on', sentimentSub: 'Join 2,451 other hunters in predicting the airdrop size.', bullish: 'Bullish', bearish: 'Bearish' },
   tr: { steps: 'Adım Adım Airdrop Rehberi', overview: 'Proje Özeti ve Fonlama', metric: 'Metrik', details: 'Detaylar', funding: 'Toplanan Fon', investors: 'Lider Yatırımcılar', allocation: 'Airdrop Payı', blockchain: 'Ağ (Blockchain)', strategy: 'Editörün Airdrop Stratejisi', faq: 'Sıkça Sorulan Sorular', sentiment: 'Hakkındaki düşünceniz nedir?', sentimentSub: 'Airdrop potansiyelini tahmin eden 2.451 avcıya katılın.', bullish: 'Kazandırır', bearish: 'Zaman Kaybı' },
   ru: { steps: 'Пошаговое руководство', overview: 'Обзор проекта и финансирование', metric: 'Метрика', details: 'Детали', funding: 'Общее финансирование', investors: 'Главные инвесторы', allocation: 'Доля Airdrop', blockchain: 'Блокчейн', strategy: 'Стратегия редактора', faq: 'Часто задаваемые вопросы', sentiment: 'Что вы думаете о', sentimentSub: 'Присоединяйтесь к 2451 охотнику.', bullish: 'Бычий', bearish: 'Медвежий' },
   es: { steps: 'Guía paso a paso del Airdrop', overview: 'Descripción del proyecto y financiación', metric: 'Métrica', details: 'Detalles', funding: 'Financiación total', investors: 'Inversores principales', allocation: 'Asignación de Airdrop', blockchain: 'Blockchain', strategy: 'Estrategia del editor', faq: 'Preguntas frecuentes', sentiment: '¿Cuál es su opinión sobre', sentimentSub: 'Únete a otros 2.451 cazadores.', bullish: 'Alcista', bearish: 'Bajista' },
@@ -34,7 +36,7 @@ const uiTranslations = {
 const ui = uiTranslations[lang] || uiTranslations.en;
 ---
 
-<Layout title={`${airdrop.name} Airdrop Guide | airdroplyx`}>
+<Layout title={\\ Airdrop Guide | airdroplyx\}>
   <Header />
 
   <main class="flex-grow bg-slate-50 py-12">
@@ -69,7 +71,7 @@ const ui = uiTranslations[lang] || uiTranslations.en;
 
           <h2 class="text-2xl font-bold text-slate-900 mb-4">{ui.overview}</h2>
           <div class="text-slate-600 mb-8 space-y-4 leading-relaxed">
-            {airdrop.overview?.split('\n\n').map((paragraph) => (
+            {airdrop.overview?.split('\\n\\n').map((paragraph) => (
               <p>{paragraph}</p>
             ))}
           </div>
@@ -166,3 +168,6 @@ const ui = uiTranslations[lang] || uiTranslations.en;
 
   <Footer />
 </Layout>
+;
+
+fs.writeFileSync('src/pages/[lang]/airdrop/[id].astro', fileContent, 'utf8');
