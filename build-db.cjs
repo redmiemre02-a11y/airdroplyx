@@ -1,0 +1,106 @@
+
+const fs = require('fs');
+
+const dowEnOverview = 'Dow Protocol is rapidly emerging as a pioneer in the Real World Asset (RWA) space by solving a massive problem in global e-commerce. Currently, sellers on massive marketplaces like Amazon often have to wait anywhere from 14 to 28 days for their sales proceeds to clear. This creates a severe liquidity crunch because their advertising, logistics, and inventory bills continue to pile up in the meantime.\n\nTo bridge this gap, Dow Protocol leverages blockchain technology to move working capital lending on-chain. They advance stablecoin funding to these merchants against their pending receivables. The process is highly secure and automated, as Dow collects the repayment directly from the merchant\'s platform balance once the funds clear.\n\nThe project recently secured a massive $10.5 Million in a seed funding round led by industry giants including Animoca Brands, MH Ventures, and Mapleblock. With this war chest, they are expanding their vaults on both the BNB Chain and Sui network. To bootstrap liquidity and user adoption ahead of their highly anticipated Token Generation Event (TGE), they have launched the "Dow XP Program". This program heavily rewards early adopters, community members, and liquidity providers.';
+const dowEnStrategy = 'Dow Protocol is unique because the underlying business model is already proven. The yield comes directly from real-world merchant interest rather than unsustainable token emissions. Our strategy here is twofold: First, immediately lock in the free social points (Task XP) by connecting your X, Discord, and Telegram. Second, if you have idle stablecoins, parking a small portion into their 90-day vaults could serve as a massive multiplier for the airdrop, as liquidity providers are historically rewarded the most in RWA protocols.';
+const dowEnSteps = [
+  'Navigate to the Official Dow Protocol Points Dashboard: Start by visiting the official Dow Protocol web app. You will need a secure Web3 wallet.',
+  'Connect your X (Twitter) Account: This is the mandatory gateway step. Linking your X account will instantly grant you your first 50 XP.',
+  'Publish a High-Quality Post about Dow Protocol: The platform requires you to write a post on X about them. To get approved quickly, avoid copy-pasting spam.',
+  'Link your Telegram and Discord Accounts: Scroll down the quest list and connect your Telegram and Discord accounts.',
+  'Provide Liquidity to the Stablecoin Vaults (Optional but High-Value): Keep an eye on their subscription windows. When a vault opens, deposit stablecoins.',
+  'Maximize Earnings with Referrals: Once your X post is approved, grab your referral link. Share it with your crypto network.'
+];
+const dowEnFaqs = [
+  { question: 'When is the Dow Protocol token launch (TGE)?', answer: 'The Dow Protocol team has not yet announced an official date for their Token Generation Event (TGE).' },
+  { question: 'Is it completely free to participate?', answer: 'Yes, the social farming aspect is 100% free. However, participating in the vault deposits requires actual stablecoins.' },
+  { question: 'How do I unlock my referral link?', answer: 'Your referral link remains locked until you complete the X (Twitter) posting task.' }
+];
+
+const dowTr = {
+  reward: 'Potansiyel Kazanç', category: 'RWA / DeFi',
+  overview: 'Dow Protocol, küresel e-ticaretteki devasa bir sorunu çözerek Gerçek Dünya Varlıkları (RWA) alanında hızla öncü konuma yükseliyor. Şu anda Amazon gibi pazar yerlerindeki satıcılar, gelirleri için 14-28 gün bekliyor. Dow Protocol bu açığı blockchain ile kapatıyor ve satıcılara stablecoin fonlaması sağlıyor.\n\nProje Animoca Brands öncülüğünde 10.5 Milyon Dolar yatırım aldı. TGE öncesi başlatılan "Dow XP Programı" ile erken kullanıcıları devasa airdroplarla ödüllendirecekler.',
+  strategy: 'Dow Protocol\'ün getirisi gerçek ticari kâr paylarından geliyor. Stratejimiz: Sosyal görevleri hızla tamamlayıp ücretsiz XP toplamak ve boştaki stablecoinleri 90 günlük havuzlara kilitleyerek airdrop çarpanı elde etmek.',
+  steps: ['Resmi Dow Protocol Puan Paneline Gidin ve Web3 cüzdanınızı bağlayın.', 'X (Twitter) Hesabınızı Bağlayın: İlk 50 XP\'yi kazandırır.', 'Dow Protocol Hakkında Kaliteli Bir Gönderi Paylaşın.', 'Telegram ve Discord Hesaplarınızı Bağlayın.', 'Stablecoin Havuzlarına Likidite Sağlayın (İsteğe Bağlı ama Yüksek Kazançlı).', 'Referanslarla Kazancınızı Katlayın.'],
+  faqs: [
+    { question: 'Dow Protocol token lansmanı (TGE) ne zaman?', answer: 'Henüz resmi bir TGE tarihi açıklanmadı. Ana odak Dow XP toplamaktır.' },
+    { question: 'Katılmak tamamen ücretsiz mi?', answer: 'Sosyal görevler ücretsizdir. Havuz yatırımları stablecoin gerektirir.' },
+    { question: 'Referans linkimin kilidini nasıl açarım?', answer: 'X (Twitter) görevini tamamlayıp onaylandıktan sonra açılır.' }
+  ]
+};
+
+const ondoEn = {
+  overview: 'Ondo Perps is a revolutionary perpetual futures trading platform built by the team behind Ondo Finance. It offers 24/7 leveraged trading on tokenized U.S. equities, ETFs, and commodities. The platform\'s main differentiator is support for tokenized securities as collateral.\n\nExisting RWA perps venues force traders to post stablecoins, locking up capital twice when they already hold the underlying asset. Ondo Perps allows you to trade efficiently using your tokenized holdings.\n\nBacked by an enormous $46M in funding from giants like Founders Fund, Pantera Capital, and Coinbase Ventures, the platform is currently offering weekly USDC rewards and a massive Ondo Points program for active traders.',
+  strategy: 'The strategy for Ondo Perps revolves around consistent volume rather than one-time deposits. Since they snapshot weekly for USDC rewards and Ondo Points, you should aim to make a few leveraged trades every week. Using our referral link is also critical to exponentially multiply your points accumulation and unlock trading fee discounts.',
+  steps: [
+    'Visit the <a href="https://app.ondoperps.xyz/?ref=CR2GND" target="_blank">Ondo Perps trading app</a> using our referral link to ensure you qualify for the welcome bonus.',
+    'Connect your Web3 Wallet (MetaMask, Rabby) on the required network.',
+    'Deposit collateral (USDC or supported tokenized securities) into your trading account.',
+    'Open long or short positions on tokenized U.S. Equities, ETFs, or commodities. Aim for consistent weekly volume.',
+    'Navigate to the Rewards dashboard to track your Ondo Points and weekly USDC payouts.',
+    'Grab your unique referral link from the dashboard and invite other traders.'
+  ],
+  faqs: [
+    { question: 'When is the Ondo Perps Airdrop?', answer: 'No token airdrop has been scheduled yet. However, the Ondo Points program is active, and points programs historically precede major token distributions.' },
+    { question: 'Is it free to participate?', answer: 'No, trading requires depositing actual collateral and paying standard network gas and trading fees. Margin trading also involves liquidation risk.' },
+    { question: 'Who can use Ondo Perps?', answer: 'Ondo Perps is available to most global users, but is strictly restricted in the United States, Panama, and other heavily regulated jurisdictions.' }
+  ]
+};
+
+const ondoTr = {
+  reward: 'Haftalık USDC & Puan', category: 'DeFi / RWA',
+  overview: 'Ondo Perps, Ondo Finance ekibi tarafından inşa edilen devrim niteliğinde bir vadeli işlem (perpetual) platformudur. Tokenize edilmiş ABD hisse senetleri, ETF\'ler ve emtialar üzerinde 7/24 kaldıraçlı işlem imkanı sunar. Platformun en büyük farkı, tokenize menkul kıymetleri teminat olarak kabul etmesidir.\n\nMevcut RWA platformları yatırımcıları stablecoin yatırmaya zorlayarak sermayeyi iki kez kilitler. Ondo Perps ise elinizdeki tokenize varlıkları doğrudan teminat olarak kullanarak çok daha verimli işlem yapmanızı sağlar.\n\nFounders Fund, Pantera Capital ve Coinbase Ventures gibi devlerden toplam 46 Milyon Dolar yatırım alan proje, şu anda aktif yatırımcılara haftalık USDC ödülleri ve devasa bir Ondo Puan programı sunuyor.',
+  strategy: 'Ondo Perps için ana strateji, tek seferlik büyük bir yatırımdan ziyade düzenli işlem hacmi (volume) yaratmaktır. Haftalık olarak USDC ödülleri ve Ondo Puanları için anlık görüntü (snapshot) alındığından, her hafta birkaç kaldıraçlı işlem yapmayı hedeflemelisiniz. Puan birikiminizi katlamak ve komisyon indirimi almak için referans linkimizi kullanmanız kritik önem taşır.',
+  steps: [
+    'Hoş geldin bonusuna ve komisyon indirimine hak kazanmak için <a href="https://app.ondoperps.xyz/?ref=CR2GND" target="_blank">referans linkimizi (CR2GND)</a> kullanarak Ondo Perps ticaret uygulamasına gidin.',
+    'Web3 Cüzdanınızı (MetaMask, Rabby vb.) gerekli ağ üzerinde bağlayın.',
+    'Ticaret hesabınıza teminat (USDC veya desteklenen tokenize menkul kıymetler) yatırın.',
+    'Tokenize ABD Hisse Senetleri, ETF\'ler veya emtialar üzerinde long (alış) veya short (satış) pozisyonları açın. Düzenli haftalık hacim hedefleyin.',
+    'Ondo Puanlarınızı ve haftalık USDC ödemelerinizi takip etmek için Ödüller (Rewards) paneline gidin.',
+    'Panelden size özel referans linkinizi alın ve diğer yatırımcıları davet edin.'
+  ],
+  faqs: [
+    { question: 'Ondo Perps Airdrop\'u ne zaman?', answer: 'Henüz resmi bir token airdrop tarihi planlanmadı. Ancak Ondo Puan programı aktif ve tarihsel olarak puan programları her zaman büyük token dağıtımlarının habercisi olmuştur.' },
+    { question: 'Katılmak ücretsiz mi?', answer: 'Hayır, işlem yapmak için gerçek teminat yatırmanız, ağ ücretlerini (gas) ve işlem komisyonlarını ödemeniz gerekir. Ayrıca marjin ticareti likidasyon riski taşır.' },
+    { question: 'Ondo Perps\'i kimler kullanabilir?', answer: 'Ondo Perps çoğu küresel kullanıcıya açıktır, ancak Amerika Birleşik Devletleri, Panama ve diğer sıkı denetlenen bölgelerde kesinlikle yasaktır.' }
+  ]
+};
+
+// Simplified fallbacks
+const dowDefault = {
+  reward: 'Potential TGE', category: 'RWA / DeFi',
+  overview: 'Dow Protocol is rapidly emerging as a pioneer in the Real World Asset (RWA) space by solving a massive problem in global e-commerce.',
+  strategy: 'Lock in the free social points (Task XP) and provide liquidity to stablecoin vaults.',
+  steps: ['Visit Dow Protocol Dashboard.', 'Connect X Account.', 'Post about Dow.', 'Connect Telegram/Discord.', 'Provide Liquidity.', 'Refer friends.'],
+  faqs: [{ question: 'TGE Date?', answer: 'TBA' }]
+};
+
+const ondoDefault = {
+  reward: 'Weekly USDC & Points', category: 'DeFi / RWA',
+  overview: 'Ondo Perps is a massive perpetual futures trading platform for RWA. Backed by $46M from Coinbase & Founders Fund.',
+  strategy: 'Trade weekly to accumulate Ondo Points and USDC rewards using our referral link.',
+  steps: ['Visit Ondo Perps with ref CR2GND', 'Connect wallet', 'Deposit collateral', 'Trade weekly', 'Refer friends'],
+  faqs: [{ question: 'Is it free?', answer: 'No, trading involves real funds and risk.' }]
+};
+
+const langs = ['en', 'tr', 'ru', 'es', 'hi', 'id', 'vi', 'pt', 'zh', 'tl'];
+
+let output = `import { airdrops } from './airdrops';\n\nexport const i18n_airdrops = {\n`;
+
+langs.forEach(lang => {
+  let dow = lang === 'tr' ? dowTr : (lang === 'en' ? {
+    reward: 'Potential TGE', category: 'Layer 0 / RWA',
+    overview: dowEnOverview, strategy: dowEnStrategy, steps: dowEnSteps, faqs: dowEnFaqs
+  } : dowDefault);
+  
+  let ondo = lang === 'tr' ? ondoTr : (lang === 'en' ? ondoEn : ondoDefault);
+
+  output += `  ${lang}: airdrops.map(a => {
+    if (a.id === 'dow-protocol') return { ...a, ...${JSON.stringify(dow)} };
+    if (a.id === 'ondo-perps') return { ...a, ...${JSON.stringify(ondo)} };
+    return a;
+  }),\n`;
+});
+
+output += `};\n`;
+fs.writeFileSync('src/data/i18n_airdrops.ts', output, 'utf8');
