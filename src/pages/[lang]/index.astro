@@ -14,9 +14,9 @@ const { lang } = Astro.params;
 
 
 const drops = i18n_airdrops[lang] || i18n_airdrops.en;
-const latestAirdrops = drops.filter(a => a.status === 'active' || a.status === 'upcoming');
+const latestAirdrops = drops;
 const hottestAirdrops = drops.filter(a => a.featured);
-const potentialAirdrops = drops.filter(a => a.status === 'upcoming' || a.category === 'Layer 2');
+const potentialAirdrops = drops.filter(a => !a.featured || a.category.includes('L2'));
 ---
 
 <Layout title="Crypto Airdrops 2026 » Verified Farming Guides & Free Drops">
