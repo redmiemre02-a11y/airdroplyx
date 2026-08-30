@@ -1,0 +1,65 @@
+---
+import Layout from '../../../layouts/Layout.astro';
+import Header from '../../../components/Header.astro';
+import Footer from '../../../components/Footer.astro';
+import { i18n_academy } from '../../../data/i18n_academy';
+
+export function getStaticPaths() {
+  const langs = ['en', 'tr', 'ru', 'es', 'hi', 'id', 'vi', 'pt', 'zh', 'tl'];
+  return langs.flatMap(lang => {
+    const articles = i18n_academy[lang] || i18n_academy.en;
+    return articles.map(article => ({
+      params: { lang, slug: article.slug },
+      props: { article }
+    }));
+  });
+}
+
+const { lang } = Astro.params;
+const { article } = Astro.props;
+
+const uiTranslations = {
+  en: { back: 'Back to Academy' },
+  tr: { back: 'Akademiye Dön' },
+  ru: { back: 'Назад в Академию' },
+  es: { back: 'Volver a la Academia' },
+  hi: { back: 'अकादमी में वापस' },
+  id: { back: 'Kembali ke Akademi' },
+  vi: { back: 'Quay lại Học viện' },
+  pt: { back: 'Voltar para a Academia' },
+  zh: { back: '返回学院' },
+  tl: { back: 'Bumalik sa Academy' }
+};
+
+const ui = uiTranslations[lang] || uiTranslations.en;
+---
+
+<Layout title={`${article.title} | airdroplyx Academy`}>
+  <Header />
+
+  <main class="flex-grow bg-slate-50 py-12">
+    <div class="max-w-[800px] mx-auto px-4">
+      <a href={`/${lang}/academy/`} class="inline-flex items-center text-slate-500 hover:text-blue-600 font-medium mb-8 transition-colors">
+        <span class="mr-2">←</span> {ui.back}
+      </a>
+
+      <article class="bg-white rounded-3xl p-8 md:p-12 shadow-sm border border-slate-100">
+        <header class="mb-10 text-center">
+          <h1 class="text-3xl md:text-5xl font-extrabold text-slate-900 mb-6 leading-tight">{article.title}</h1>
+          <div class="w-full h-64 md:h-96 rounded-2xl overflow-hidden mb-8">
+            <img src={article.image} alt={article.title} class="w-full h-full object-cover" />
+          </div>
+          <p class="text-xl text-slate-500 font-medium italic">"{article.excerpt}"</p>
+        </header>
+
+        <div class="prose prose-lg max-w-none prose-slate prose-headings:font-bold prose-headings:text-slate-900 prose-a:text-blue-600">
+          {article.content.split('\n\n').map(p => (
+            <p class="mb-6 leading-relaxed text-slate-700">{p}</p>
+          ))}
+        </div>
+      </article>
+    </div>
+  </main>
+
+  <Footer />
+</Layout>

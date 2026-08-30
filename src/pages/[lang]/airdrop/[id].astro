@@ -117,9 +117,12 @@ const ui = uiTranslations[lang] || uiTranslations.en;
           <h2 class="text-2xl font-bold text-slate-900 mb-4">{ui.steps}</h2>
           <div class="bg-blue-50 border border-blue-100 rounded-2xl p-8 mb-12">
             <ol class="list-decimal list-outside ml-4 space-y-6 text-slate-800 font-medium leading-relaxed">
-              {airdrop.steps && airdrop.steps.map((step) => (
-                <li class="pl-2">{step}</li>
-              ))}
+              {airdrop.steps && airdrop.steps.map((step, index) => (
+  <li class="pl-2 flex items-start gap-4 step-item transition-all duration-300">
+    <input type="checkbox" class="mt-1.5 w-5 h-5 rounded border-slate-300 text-blue-600 focus:ring-blue-500 cursor-pointer" />
+    <span class="flex-1">{step}</span>
+  </li>
+))}
             </ol>
           </div>
 
@@ -165,4 +168,31 @@ const ui = uiTranslations[lang] || uiTranslations.en;
   </main>
 
   <Footer />
+
+<script is:inline>
+  document.addEventListener('DOMContentLoaded', () => {
+    const steps = document.querySelectorAll('.step-item');
+    const airdropId = window.location.pathname.split('/').filter(Boolean).pop();
+    
+    steps.forEach((step, index) => {
+      const checkbox = step.querySelector('input[type="checkbox"]');
+      const storageKey = `airdroplyx_${airdropId}_step_${index}`;
+      
+      if (localStorage.getItem(storageKey) === 'true') {
+        checkbox.checked = true;
+        step.classList.add('opacity-50', 'line-through');
+      }
+      
+      checkbox.addEventListener('change', (e) => {
+        localStorage.setItem(storageKey, e.target.checked);
+        if (e.target.checked) {
+          step.classList.add('opacity-50', 'line-through');
+        } else {
+          step.classList.remove('opacity-50', 'line-through');
+        }
+      });
+    });
+  });
+</script>
+
 </Layout>

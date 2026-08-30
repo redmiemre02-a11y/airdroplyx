@@ -1,0 +1,71 @@
+---
+import Layout from '../../../layouts/Layout.astro';
+import Header from '../../../components/Header.astro';
+import Footer from '../../../components/Footer.astro';
+import { i18n_academy } from '../../../data/i18n_academy';
+
+export function getStaticPaths() {
+  const langs = ['en', 'tr', 'ru', 'es', 'hi', 'id', 'vi', 'pt', 'zh', 'tl'];
+  return langs.map(lang => ({ params: { lang } }));
+}
+
+const { lang } = Astro.params;
+const articles = i18n_academy[lang] || i18n_academy.en;
+
+const uiTranslations = {
+  en: { title: 'Airdrop Academy', subtitle: 'Learn the fundamentals of crypto airdrops, security, and Web3 tools.', readMore: 'Read Article' },
+  tr: { title: 'Airdrop Akademi', subtitle: 'Kripto airdroplarının temellerini, güvenliği ve Web3 araçlarını öğrenin.', readMore: 'Makaleyi Oku' },
+  ru: { title: 'Академия Airdrop', subtitle: 'Изучите основы крипто-аирдропов, безопасность и инструменты Web3.', readMore: 'Читать статью' },
+  es: { title: 'Academia Airdrop', subtitle: 'Aprenda los fundamentos de los airdrops criptográficos, seguridad y herramientas Web3.', readMore: 'Leer Artículo' },
+  hi: { title: 'एयरड्रॉप अकादमी', subtitle: 'क्रिप्टो एयरड्रॉप्स, सुरक्षा और Web3 टूल के मूल सिद्धांतों को जानें।', readMore: 'लेख पढ़ें' },
+  id: { title: 'Akademi Airdrop', subtitle: 'Pelajari dasar-dasar airdrop kripto, keamanan, dan alat Web3.', readMore: 'Baca Artikel' },
+  vi: { title: 'Học viện Airdrop', subtitle: 'Tìm hiểu các nguyên tắc cơ bản về airdrop tiền điện tử, bảo mật và các công cụ Web3.', readMore: 'Đọc bài viết' },
+  pt: { title: 'Academia Airdrop', subtitle: 'Aprenda os fundamentos dos airdrops de criptomoedas, segurança e ferramentas Web3.', readMore: 'Ler o Artigo' },
+  zh: { title: '空投学院', subtitle: '了解加密空投、安全性和 Web3 工具的基础知识。', readMore: '阅读文章' },
+  tl: { title: 'Airdrop Academy', subtitle: 'Matutunan ang mga pangunahing kaalaman sa crypto airdrops, seguridad, at Web3 tools.', readMore: 'Basahin ang Artikulo' }
+};
+
+const ui = uiTranslations[lang] || uiTranslations.en;
+---
+
+<Layout title={`${ui.title} | airdroplyx`}>
+  <Header />
+
+  <main class="flex-grow bg-slate-50 py-16">
+    <div class="max-w-[1200px] mx-auto px-4">
+      <div class="text-center mb-16">
+        <h1 class="text-4xl md:text-5xl font-extrabold text-slate-900 mb-4">{ui.title}</h1>
+        <p class="text-xl text-slate-600 max-w-2xl mx-auto">{ui.subtitle}</p>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        {articles.map((article) => (
+          <article class="bg-white rounded-3xl overflow-hidden shadow-sm border border-slate-100 hover:shadow-md transition-shadow group">
+            <a href={`/${lang}/academy/${article.slug}/`} class="block relative h-48 overflow-hidden">
+              <img 
+                src={article.image} 
+                alt={article.title} 
+                class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+              />
+            </a>
+            <div class="p-6">
+              <h2 class="text-xl font-bold text-slate-900 mb-3 line-clamp-2">
+                <a href={`/${lang}/academy/${article.slug}/`} class="hover:text-blue-600 transition-colors">
+                  {article.title}
+                </a>
+              </h2>
+              <p class="text-slate-600 text-sm mb-6 line-clamp-3">
+                {article.excerpt}
+              </p>
+              <a href={`/${lang}/academy/${article.slug}/`} class="inline-flex items-center text-blue-600 font-bold hover:text-blue-800 transition-colors">
+                {ui.readMore} <span class="ml-2">→</span>
+              </a>
+            </div>
+          </article>
+        ))}
+      </div>
+    </div>
+  </main>
+
+  <Footer />
+</Layout>
