@@ -17,6 +17,8 @@ export function getStaticPaths() {
 
 const { lang, id } = Astro.params;
 const { airdrop } = Astro.props;
+const allDrops = i18n_airdrops[lang] || i18n_airdrops.en;
+const relatedAirdrops = allDrops.filter(a => a.id !== airdrop.id).slice(0, 3);
 
 const uiTranslations = {
   en: { steps: 'Step-by-Step Airdrop Guide', overview: 'Project Overview & Funding', metric: 'Metric', details: 'Details', funding: 'Total Funding', investors: 'Lead Investors', allocation: 'Airdrop Allocation', blockchain: 'Blockchain', strategy: 'Editor\'s Airdrop Strategy', faq: 'Frequently Asked Questions', sentiment: 'What\'s your sentiment on', sentimentSub: 'Join 2,451 other hunters in predicting the airdrop size.', bullish: 'Bullish', bearish: 'Bearish' },
@@ -164,6 +166,26 @@ const ui = uiTranslations[lang] || uiTranslations.en;
           </a>
         </div>
       </div>
+    
+      {relatedAirdrops.length > 0 && (
+        <div class="mt-20 border-t border-slate-200 pt-16">
+          <h3 class="text-2xl font-extrabold text-slate-900 mb-8">Related Airdrops</h3>
+          <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+            {relatedAirdrops.map(related => (
+              <a href={`/${lang}/airdrop/${related.id}`} class="bg-white rounded-2xl p-6 shadow-sm border border-slate-100 hover:shadow-md transition-all group block">
+                <div class="flex items-center gap-4 mb-4">
+                  <img src={related.logo} alt={related.name} class="w-12 h-12 rounded-xl object-cover" />
+                  <div>
+                    <h4 class="font-bold text-slate-900 group-hover:text-blue-600 transition-colors">{related.name}</h4>
+                    <span class="text-xs font-bold text-slate-500 uppercase">{related.category}</span>
+                  </div>
+                </div>
+                <p class="text-sm text-slate-600 line-clamp-2">{related.description}</p>
+              </a>
+            ))}
+          </div>
+        </div>
+      )}
     </div>
   </main>
 

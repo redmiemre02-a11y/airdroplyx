@@ -59,7 +59,17 @@ const { title } = Astro.props;
 				document.documentElement.classList.remove('dark');
 			}
 		</script>
-	</head>
+	<!-- OneSignal Push Notifications -->
+    <script src="https://cdn.onesignal.com/sdks/web/v16/OneSignalSDK.page.js" defer></script>
+    <script>
+      window.OneSignalDeferred = window.OneSignalDeferred || [];
+      OneSignalDeferred.push(async function(OneSignal) {
+        await OneSignal.init({
+          appId: "fe3434ff-e2df-4d5f-9faa-6859e830cb97",
+        });
+      });
+    </script>
+  </head>
 	<body class="bg-[#f3f4f6] dark:bg-slate-900 text-[#334155] dark:text-slate-300 font-['Inter',sans-serif] antialiased flex flex-col min-h-screen transition-colors duration-300">
 		<slot />
 		<Footer />
