@@ -1,0 +1,65 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import Header from '../../components/Header.astro';
+import { academyArticles } from '../../data/academy';
+---
+
+<Layout title="Crypto Airdrop Academy: 10 Master Guides (2026) | Airdroplyx" description="Free comprehensive educational courses and tutorials on crypto airdrops, testnets, Web3 security, and DeFi yield farming.">
+  <Header />
+
+  <main class="max-w-[1200px] mx-auto px-4 py-12">
+    <!-- Header -->
+    <div class="text-center max-w-3xl mx-auto mb-16">
+      <span class="text-xs font-bold text-blue-600 uppercase tracking-widest bg-blue-50 dark:bg-blue-900/30 px-3 py-1 rounded-full">
+        Educational Center
+      </span>
+      <h1 class="text-4xl md:text-5xl font-black text-slate-900 dark:text-white mt-4 mb-4 tracking-tight">
+        Airdroplyx Academy
+      </h1>
+      <p class="text-base md:text-lg text-slate-600 dark:text-slate-300 leading-relaxed">
+        Everything you need to know about hunting retroactive airdrops, navigating testnets, and avoiding scams. 100% free curriculum.
+      </p>
+    </div>
+
+    <!-- Articles Grid -->
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-16">
+      {academyArticles.map((article, index) => (
+        <article class="bg-white dark:bg-slate-800 rounded-3xl border border-slate-200 dark:border-slate-700 overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300 group flex flex-col">
+          <a href={`/academy/${article.slug}`} class="aspect-video w-full overflow-hidden bg-slate-100 block">
+            <img 
+              src={article.image} 
+              alt={article.title} 
+              class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+              loading="lazy"
+            />
+          </a>
+          
+          <div class="p-6 flex-1 flex flex-col justify-between">
+            <div>
+              <div class="flex items-center gap-2 mb-3">
+                <span class="text-[11px] font-bold text-slate-400 uppercase">Lesson #{index + 1}</span>
+                <span class="text-slate-300">•</span>
+                <span class="text-[11px] font-semibold text-emerald-600 dark:text-emerald-400">Beginner to Pro</span>
+              </div>
+              <h2 class="text-xl font-bold text-slate-900 dark:text-white group-hover:text-blue-600 transition-colors mb-3 leading-snug">
+                <a href={`/academy/${article.slug}`}>
+                  {article.title}
+                </a>
+              </h2>
+              <p class="text-sm text-slate-600 dark:text-slate-300 line-clamp-3 leading-relaxed">
+                {article.excerpt}
+              </p>
+            </div>
+
+            <div class="pt-6 border-t border-slate-100 dark:border-slate-700 mt-6 flex items-center justify-between">
+              <span class="text-xs text-slate-400 font-medium">5 min read</span>
+              <a href={`/academy/${article.slug}`} class="text-sm font-bold text-blue-600 hover:text-blue-700 flex items-center gap-1">
+                Read Lesson →
+              </a>
+            </div>
+          </div>
+        </article>
+      ))}
+    </div>
+  </main>
+</Layout>

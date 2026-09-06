@@ -1,47 +1,29 @@
 ---
 ---
 <header class="bg-white border-b border-gray-200 sticky top-0 z-50 shadow-sm">
-  <!-- Top Bar (Languages & Socials) -->
-  <div class="bg-slate-900 text-white text-xs py-1.5">
+  <!-- Top Announcement Bar -->
+  <div class="bg-slate-900 text-white text-xs py-2">
     <div class="max-w-[1200px] mx-auto px-4 flex justify-between items-center">
-      <div class="flex gap-3">
-        <span class="text-gray-400 font-medium">Select Language:</span>
-        <div class="flex gap-2 font-medium">
-          <button onclick="switchLang('en')" class="hover:text-blue-400 transition-colors cursor-pointer">EN</button>
-          <button onclick="switchLang('tr')" class="hover:text-blue-400 transition-colors cursor-pointer">TR</button>
-          <button onclick="switchLang('ru')" class="hover:text-blue-400 transition-colors cursor-pointer">RU</button>
-          <button onclick="switchLang('es')" class="hover:text-blue-400 transition-colors cursor-pointer">ES</button>
-          <span class="text-gray-500 hover:text-white transition-colors cursor-help" title="More languages available dynamically">... +6</span>
-        </div>
+      <div class="flex items-center gap-2">
+        <span class="inline-block w-2 h-2 rounded-full bg-emerald-400 animate-pulse"></span>
+        <span class="text-slate-300 font-medium">Verified Crypto Airdrops & Testnet Guides • 100% Free Access</span>
       </div>
-      <div class="flex gap-4">
-        <a href="#" class="hover:text-blue-400 transition-colors">Twitter</a>
-        <a href="#" class="hover:text-blue-400 transition-colors">Telegram</a>
+      <div class="flex gap-4 items-center">
+        <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" class="text-slate-400 hover:text-white transition-colors flex items-center gap-1">
+          <span>Twitter / X</span>
+        </a>
+        <span class="text-slate-700">|</span>
+        <a href="https://telegram.org" target="_blank" rel="noopener noreferrer" class="text-slate-400 hover:text-white transition-colors flex items-center gap-1">
+          <span>Telegram</span>
+        </a>
       </div>
     </div>
   </div>
 
-  <script is:inline>
-    function switchLang(lang) {
-      localStorage.setItem('preferredLang', lang);
-      const path = window.location.pathname;
-      const parts = path.split('/').filter(Boolean);
-      const supportedLangs = ['en', 'tr', 'ru', 'es', 'hi', 'id', 'vi', 'pt', 'zh', 'tl'];
-      
-      if (parts.length > 0 && supportedLangs.includes(parts[0])) {
-        parts[0] = lang;
-        window.location.href = '/' + parts.join('/') + (parts.length > 0 ? '/' : '');
-      } else {
-        // If no language in URL (e.g. root /), just prepend it
-        window.location.href = '/' + lang + (path === '/' ? '/' : path);
-      }
-    }
-  </script>
-
   <!-- Main Navbar -->
   <div class="max-w-[1200px] mx-auto px-4 flex items-center justify-between h-[72px]">
     <!-- Logo -->
-    <a href="/" class="flex items-center gap-2">
+    <a href="/" class="flex items-center gap-2.5">
       <img src="/logo.jpg" alt="Airdroplyx Logo" class="w-10 h-10 rounded-xl shadow-md object-cover" />
       <span class="text-slate-900 font-extrabold text-2xl tracking-tight">
         airdroplyx
@@ -51,10 +33,10 @@
     <!-- Navigation -->
     <nav class="hidden md:flex h-full">
       <ul class="flex h-full">
-        <li><a href="/" class="flex items-center h-full px-5 text-[15px] font-bold text-slate-700 uppercase hover:text-blue-600 border-b-2 border-transparent hover:border-blue-600 transition-all">Latest</a></li>
-        <li><a href="/" class="flex items-center h-full px-5 text-[15px] font-bold text-slate-700 uppercase hover:text-blue-600 border-b-2 border-transparent hover:border-blue-600 transition-all">Hottest</a></li>
-        <li><a href="/" class="flex items-center h-full px-5 text-[15px] font-bold text-slate-700 uppercase hover:text-blue-600 border-b-2 border-transparent hover:border-blue-600 transition-all">Potential</a></li>
-        <li><a href="#" onclick="window.location.href = '/' + (localStorage.getItem('preferredLang') || 'en') + '/academy/'" class="flex items-center h-full px-5 text-[15px] font-bold text-slate-700 uppercase hover:text-blue-600 border-b-2 border-transparent hover:border-blue-600 transition-all">Academy</a></li>
+        <li><a href="/" class="flex items-center h-full px-5 text-[15px] font-bold text-slate-700 uppercase hover:text-blue-600 border-b-2 border-transparent hover:border-blue-600 transition-all">Home</a></li>
+        <li><a href="/#latest" class="flex items-center h-full px-5 text-[15px] font-bold text-slate-700 uppercase hover:text-blue-600 border-b-2 border-transparent hover:border-blue-600 transition-all">Latest Drops</a></li>
+        <li><a href="/#hottest" class="flex items-center h-full px-5 text-[15px] font-bold text-slate-700 uppercase hover:text-blue-600 border-b-2 border-transparent hover:border-blue-600 transition-all">Hottest</a></li>
+        <li><a href="/academy" class="flex items-center h-full px-5 text-[15px] font-bold text-slate-700 uppercase hover:text-blue-600 border-b-2 border-transparent hover:border-blue-600 transition-all">Academy</a></li>
       </ul>
     </nav>
     
@@ -66,14 +48,14 @@
       </div>
       
       <!-- Dark Mode Toggle -->
-      <button id="theme-toggle" class="p-2 rounded-full text-slate-500 hover:text-slate-900 dark:text-slate-400 dark:hover:text-white hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors">
+      <button id="theme-toggle" class="p-2 rounded-full text-slate-500 hover:text-slate-900 dark:text-slate-400 dark:hover:text-white hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors" aria-label="Toggle Theme">
         <svg id="theme-toggle-dark-icon" class="hidden w-5 h-5" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M17.293 13.293A8 8 0 016.707 2.707a8.001 8.001 0 1010.586 10.586z"></path></svg>
         <svg id="theme-toggle-light-icon" class="hidden w-5 h-5" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M10 2a1 1 0 011 1v1a1 1 0 11-2 0V3a1 1 0 011-1zm4 8a4 4 0 11-8 0 4 4 0 018 0zm-.464 4.95l.707.707a1 1 0 001.414-1.414l-.707-.707a1 1 0 00-1.414 1.414zm2.12-10.607a1 1 0 010 1.414l-.706.707a1 1 0 11-1.414-1.414l.707-.707a1 1 0 011.414 0zM17 11a1 1 0 100-2h-1a1 1 0 100 2h1zm-7 4a1 1 0 011 1v1a1 1 0 11-2 0v-1a1 1 0 011-1zM5.05 6.464A1 1 0 106.465 5.05l-.708-.707a1 1 0 00-1.414 1.414l.707.707zm1.414 8.486l-.707.707a1 1 0 01-1.414-1.414l.707-.707a1 1 0 011.414 1.414zM4 11a1 1 0 100-2H3a1 1 0 000 2h1z" fill-rule="evenodd" clip-rule="evenodd"></path></svg>
       </button>
 
-      <button onclick="alert(\'Newsletter subscription coming soon!\')" class="bg-blue-600 hover:bg-blue-700 text-white px-5 py-2 rounded-full font-bold text-sm shadow-md shadow-blue-500/20 transition-all">
+      <a href="#newsletter" class="bg-blue-600 hover:bg-blue-700 text-white px-5 py-2 rounded-full font-bold text-sm shadow-md shadow-blue-500/20 transition-all text-center">
         Subscribe
-      </button>
+      </a>
     </div>
   </div>
 </header>

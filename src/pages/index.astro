@@ -3,118 +3,133 @@ import Layout from '../layouts/Layout.astro';
 import Header from '../components/Header.astro';
 import AirdropCard from '../components/AirdropCard.astro';
 import { airdrops } from '../data/airdrops';
+import { academyArticles } from '../data/academy';
 
-const latestAirdrops = airdrops.filter(a => a.status === 'active' || a.status === 'upcoming');
+const latestAirdrops = airdrops;
 const hottestAirdrops = airdrops.filter(a => a.featured);
-const potentialAirdrops = airdrops.filter(a => a.status === 'upcoming' || a.category === 'Layer 2');
 ---
 
-<Layout title="Crypto Airdrops 2026 » Verified Farming Guides & Free Drops">
+<Layout title="Crypto Airdrops 2026 » Verified Guides, Free Tokens & Testnets | Airdroplyx">
   <Header />
   
   <!-- Hero Section -->
-  <div class="bg-gradient-to-b from-slate-900 to-slate-800 text-white py-16 mb-12 border-b-4 border-blue-600">
+  <div class="bg-gradient-to-b from-slate-950 via-slate-900 to-slate-800 text-white py-16 md:py-20 border-b-4 border-blue-600">
     <div class="max-w-[1200px] mx-auto px-4 text-center">
-      <h1 class="text-4xl md:text-5xl font-extrabold tracking-tight mb-6">
-        Claim Your Share of <span class="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-indigo-400">Crypto Airdrops</span>
+      <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-blue-500/10 border border-blue-400/20 text-blue-400 text-xs font-semibold uppercase tracking-wider mb-6">
+        <span>⚡</span> Updated Hourly • Verified Opportunities
+      </div>
+      <h1 class="text-4xl md:text-6xl font-black tracking-tight mb-6 leading-tight">
+        Claim Your Share of <span class="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 via-indigo-300 to-purple-400">Crypto Airdrops</span>
       </h1>
-      <p class="text-lg text-slate-300 max-w-2xl mx-auto mb-8 leading-relaxed">
-        Your ultimate multi-lingual guide to the best cryptocurrency airdrops, bounties, and yield farming opportunities. Verified and updated daily.
+      <p class="text-base md:text-xl text-slate-300 max-w-2xl mx-auto mb-8 leading-relaxed">
+        Your trusted source for verified cryptocurrency airdrops, testnet incentives, and DeFi yield strategies. Zero guesswork, zero scams.
       </p>
       
       <!-- Newsletter inside Hero -->
-      <form class="flex flex-col sm:flex-row gap-3 max-w-lg mx-auto bg-white/10 p-2 rounded-2xl backdrop-blur-sm border border-white/20">
-        <input type="email" placeholder="Enter your email address..." class="flex-1 bg-white rounded-xl px-4 py-3 text-slate-900 placeholder-slate-500 focus:outline-none focus:ring-2 focus:ring-blue-500" required />
-        <button class="bg-blue-600 hover:bg-blue-500 text-white font-bold rounded-xl px-6 py-3 transition-colors shadow-lg shadow-blue-500/30">
+      <form id="newsletter" class="flex flex-col sm:flex-row gap-3 max-w-lg mx-auto bg-white/10 p-2 rounded-2xl backdrop-blur-sm border border-white/20 shadow-2xl">
+        <input type="email" placeholder="Enter your email address..." class="flex-1 bg-white rounded-xl px-4 py-3 text-slate-900 placeholder-slate-500 focus:outline-none focus:ring-2 focus:ring-blue-500 text-sm md:text-base" required />
+        <button type="submit" class="bg-blue-600 hover:bg-blue-500 text-white font-bold rounded-xl px-6 py-3 transition-colors shadow-lg shadow-blue-500/30 whitespace-nowrap">
           Subscribe Free
         </button>
       </form>
-      <p class="text-xs text-slate-400 mt-4">Join 25,000+ subscribers. No spam, ever.</p>
+      <p class="text-xs text-slate-400 mt-4">Join 25,000+ airdrop hunters. Daily alerts, no spam.</p>
     </div>
   </div>
 
-  <div class="max-w-[1200px] mx-auto px-4 mb-20">
+  <!-- Main Content Area -->
+  <main class="max-w-[1200px] mx-auto px-4 py-16">
     
-    <!-- Advanced Filter System -->
-    <div class="mb-10 pb-6 border-b border-slate-200">
-      <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-4 mb-4">
-        <h3 class="text-lg font-bold text-slate-800 dark:text-white flex items-center gap-2">
-          <svg class="w-5 h-5 text-blue-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 4a1 1 0 011-1h16a1 1 0 011 1v2.586a1 1 0 01-.293.707l-6.414 6.414a1 1 0 00-.293.707V17l-4 4v-6.586a1 1 0 00-.293-.707L3.293 7.293A1 1 0 013 6.586V4z"></path></svg>
-          Advanced Filters
-        </h3>
-        <div class="flex items-center gap-2 text-sm text-slate-500 dark:text-slate-400">
-          <span>Sort by:</span>
-          <select class="bg-slate-100 dark:bg-slate-800 border-transparent rounded-lg px-3 py-1.5 focus:ring-2 focus:ring-blue-500 outline-none">
-            <option>Latest Added</option>
-            <option>Highest Value</option>
-            <option>Ending Soon</option>
-          </select>
-        </div>
-      </div>
+    <!-- Airdrops Section -->
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-10 mb-20">
       
-      <!-- Tags -->
-      <div class="flex flex-wrap gap-2">
-        <button class="px-4 py-1.5 rounded-full bg-blue-600 text-white text-sm font-bold shadow-md shadow-blue-500/20 transition-transform active:scale-95">All Airdrops</button>
-        <button class="px-4 py-1.5 rounded-full bg-slate-100 dark:bg-slate-800 text-slate-600 dark:text-slate-300 hover:bg-slate-200 dark:hover:bg-slate-700 text-sm font-semibold transition-transform active:scale-95">🔥 Hottest</button>
-        <button class="px-4 py-1.5 rounded-full bg-slate-100 dark:bg-slate-800 text-slate-600 dark:text-slate-300 hover:bg-slate-200 dark:hover:bg-slate-700 text-sm font-semibold transition-transform active:scale-95">Solana</button>
-        <button class="px-4 py-1.5 rounded-full bg-slate-100 dark:bg-slate-800 text-slate-600 dark:text-slate-300 hover:bg-slate-200 dark:hover:bg-slate-700 text-sm font-semibold transition-transform active:scale-95">Ethereum (L2)</button>
-        <button class="px-4 py-1.5 rounded-full bg-slate-100 dark:bg-slate-800 text-slate-600 dark:text-slate-300 hover:bg-slate-200 dark:hover:bg-slate-700 text-sm font-semibold transition-transform active:scale-95">DeFi</button>
-        <button class="px-4 py-1.5 rounded-full bg-slate-100 dark:bg-slate-800 text-slate-600 dark:text-slate-300 hover:bg-slate-200 dark:hover:bg-slate-700 text-sm font-semibold transition-transform active:scale-95">Gaming / NFT</button>
-        <button class="px-4 py-1.5 rounded-full bg-slate-100 dark:bg-slate-800 text-slate-600 dark:text-slate-300 hover:bg-slate-200 dark:hover:bg-slate-700 text-sm font-semibold transition-transform active:scale-95">Cost: Free</button>
-      </div>
-    </div>
-
-    <!-- Main Grid Layout -->
-    <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-      
-      <!-- Column 1: Latest -->
-      <div class="col-span-1">
-        <div class="flex items-center gap-2 mb-6 border-b border-slate-200 pb-3">
-          <div class="w-8 h-8 rounded-lg bg-blue-100 flex items-center justify-center text-blue-600">
-            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+      <!-- Latest Drops -->
+      <section id="latest" class="space-y-6">
+        <div class="flex items-center justify-between border-b border-slate-200 dark:border-slate-700 pb-4">
+          <div class="flex items-center gap-3">
+            <div class="w-10 h-10 rounded-xl bg-blue-100 dark:bg-blue-900/40 flex items-center justify-center text-blue-600 dark:text-blue-400 font-bold text-lg">
+              ⚡
+            </div>
+            <div>
+              <h2 class="text-xl font-extrabold text-slate-900 dark:text-white uppercase tracking-tight">Latest Airdrops</h2>
+              <p class="text-xs text-slate-500">Freshly added and active campaigns</p>
+            </div>
           </div>
-          <h2 class="text-[22px] font-extrabold text-slate-800 tracking-tight uppercase">Latest Drops</h2>
+          <span class="text-xs font-semibold bg-slate-100 dark:bg-slate-800 text-slate-600 dark:text-slate-300 px-3 py-1 rounded-full">
+            {latestAirdrops.length} Active
+          </span>
         </div>
+
         <div class="flex flex-col gap-4">
           {latestAirdrops.map(airdrop => (
             <AirdropCard airdrop={airdrop} />
           ))}
         </div>
-      </div>
+      </section>
 
-      <!-- Column 2: Hottest -->
-      <div class="col-span-1">
-        <div class="flex items-center gap-2 mb-6 border-b border-slate-200 pb-3">
-          <div class="w-8 h-8 rounded-lg bg-orange-100 flex items-center justify-center text-orange-600">
-            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M17.5 11.2c-.3-.3-.8-.3-1.1 0-1.8 1.8-3.4 3.7-3.4 6.3 0 1.9 1.6 3.5 3.5 3.5s3.5-1.6 3.5-3.5c0-2.6-1.6-4.5-3.4-6.3zm-10-2.4c-1.8 1.8-3.4 3.7-3.4 6.3 0 1.9 1.6 3.5 3.5 3.5s3.5-1.6 3.5-3.5c0-2.6-1.6-4.5-3.4-6.3-.3-.3-.8-.3-1.1 0zM12 2C7.6 2 4 5.6 4 10s3.6 8 8 8 8-3.6 8-8-3.6-8-8-8zm0 14c-3.3 0-6-2.7-6-6s2.7-6 6-6 6 2.7 6 6-2.7 6-6 6z"></path></svg>
+      <!-- Hottest Drops -->
+      <section id="hottest" class="space-y-6">
+        <div class="flex items-center justify-between border-b border-slate-200 dark:border-slate-700 pb-4">
+          <div class="flex items-center gap-3">
+            <div class="w-10 h-10 rounded-xl bg-orange-100 dark:bg-orange-900/40 flex items-center justify-center text-orange-600 dark:text-orange-400 font-bold text-lg">
+              🔥
+            </div>
+            <div>
+              <h2 class="text-xl font-extrabold text-slate-900 dark:text-white uppercase tracking-tight">Featured & Confirmed</h2>
+              <p class="text-xs text-slate-500">Highest funding & confirmed token pools</p>
+            </div>
           </div>
-          <h2 class="text-[22px] font-extrabold text-slate-800 tracking-tight uppercase">Hottest Drops</h2>
+          <span class="text-xs font-semibold bg-orange-100 dark:bg-orange-900/40 text-orange-700 dark:text-orange-300 px-3 py-1 rounded-full">
+            Top Tier
+          </span>
         </div>
+
         <div class="flex flex-col gap-4">
           {hottestAirdrops.map(airdrop => (
             <AirdropCard airdrop={airdrop} />
           ))}
         </div>
-      </div>
-
-      <!-- Column 3: Potential -->
-      <div class="col-span-1">
-        <div class="flex items-center gap-2 mb-6 border-b border-slate-200 pb-3">
-          <div class="w-8 h-8 rounded-lg bg-purple-100 flex items-center justify-center text-purple-600">
-            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M13 10V3L4 14h7v7l9-11h-7z"></path></svg>
-          </div>
-          <h2 class="text-[22px] font-extrabold text-slate-800 tracking-tight uppercase">Potential</h2>
-        </div>
-        <div class="flex flex-col gap-4">
-          {potentialAirdrops.map(airdrop => (
-            <AirdropCard airdrop={airdrop} />
-          ))}
-        </div>
-      </div>
+      </section>
 
     </div>
-  </div>
 
-  
+    <!-- Academy Section (AdSense & SEO Booster) -->
+    <section class="mt-16 pt-12 border-t border-slate-200 dark:border-slate-800">
+      <div class="flex flex-col md:flex-row md:items-end justify-between mb-8">
+        <div>
+          <span class="text-blue-600 font-bold text-xs uppercase tracking-wider">Learn & Earn</span>
+          <h2 class="text-2xl md:text-3xl font-extrabold text-slate-900 dark:text-white tracking-tight mt-1">
+            Airdrop Academy Guides
+          </h2>
+          <p class="text-sm text-slate-500 dark:text-slate-400 mt-1">
+            Master the art of Web3 retroactive farming with our complete educational tutorials.
+          </p>
+        </div>
+        <a href="/academy" class="mt-4 md:mt-0 text-sm font-bold text-blue-600 hover:text-blue-700 flex items-center gap-1 group">
+          View all 10 tutorials <span class="group-hover:translate-x-1 transition-transform">→</span>
+        </a>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+        {academyArticles.slice(0, 3).map(article => (
+          <a href={`/academy/${article.slug}`} class="bg-white dark:bg-slate-800 rounded-2xl border border-slate-200 dark:border-slate-700 overflow-hidden hover:shadow-lg transition-all group flex flex-col">
+            <div class="aspect-video w-full overflow-hidden bg-slate-100">
+              <img src={article.image} alt={article.title} class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" />
+            </div>
+            <div class="p-5 flex-1 flex flex-col justify-between">
+              <div>
+                <h3 class="font-bold text-base text-slate-900 dark:text-white group-hover:text-blue-600 transition-colors line-clamp-2 mb-2">
+                  {article.title}
+                </h3>
+                <p class="text-xs text-slate-500 dark:text-slate-400 line-clamp-3 leading-relaxed">
+                  {article.excerpt}
+                </p>
+              </div>
+              <span class="text-xs font-bold text-blue-600 mt-4 inline-block">Read Full Guide →</span>
+            </div>
+          </a>
+        ))}
+      </div>
+    </section>
+
+  </main>
 </Layout>
-
