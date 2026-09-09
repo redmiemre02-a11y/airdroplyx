@@ -269,5 +269,41 @@ export const airdrops: Airdrop[] = [
       { question: 'What happens if I miss a day of Sweepbird?', answer: 'Your daily streak multiplier resets to zero, but all previously earned XP remains permanently credited to your account balance.' },
       { question: 'How does the deflationary burn mechanism work?', answer: 'Every ecosystem transaction incurs a 5% fee: exactly 2.5% is permanently destroyed (burned) from the total supply, and 2.5% is distributed to holders in liquid USDT.' }
     ]
+  },
+  {
+    id: 'allox',
+    name: 'AlloX',
+    logo: 'https://airdrops.io/wp-content/uploads/2026/07/AlloX-logo.jpg.webp',
+    description: 'AI-powered capital allocation platform transforming market narratives into automated token portfolios.',
+    reward: 'Gems & Points ($1 Gem = $5 $ALLOX)',
+    category: 'AI / DeFi / BSC',
+    featured: true,
+    status: 'active',
+    endTime: '2026-11-30T23:59:59Z',
+    funding: '$2.5M Seed',
+    investors: 'Cryptorank, Tier 1 Web3 Angels',
+    refLink: 'https://app.allox.ai',
+    overview: 'AlloX is an innovative AI-driven capital allocation and automated portfolio construction platform built for decentralized finance. Navigating fast-moving crypto market cycles historically required manual token research, constant chart monitoring, and emotional execution. AlloX automates this entire process through machine learning models trained on on-chain liquidity velocity, social sentiment, and whale accumulation metrics.\n\nInstead of picking individual tokens manually, users select a strategic narrative—such as Artificial Intelligence (AI), Real World Assets (RWA), Decentralized Physical Infrastructure (DePIN), or Layer 2 Rollups—alongside their preferred risk profile. The AlloX algorithm autonomously constructs and executes a rebalanced, risk-adjusted basket of on-chain assets in a single transaction directly through the user\'s non-custodial wallet.\n\nThe project successfully closed a $2.5 Million seed round and has launched an expansive dual-tier rewards program. Early adopters earn baseline Points alongside high-value Gems, with the core team explicitly committing to a launch valuation benchmark where 1 Gem equals $5 in $ALLOX tokens upon the Token Generation Event (TGE).',
+    tokenomics: 'The native governance and utility asset of the ecosystem is the $ALLOX token. $ALLOX powers decentralized governance proposals, algorithmic fee discounts, and platform yield enhancements.\n\nThe official tokenomics structure explicitly ties accumulated Points and Gems directly to the $ALLOX airdrop distribution scheduled for Q4 2026. Gems represent the highest-value reward asset: the development team has announced that each earned Gem corresponds to an anticipated $5 USD equivalent value in $ALLOX at token generation.\n\nAdditionally, staking $ALLOX grants holders passive dividend shares derived from platform portfolio rebalancing fees, creating organic long-term token demand.',
+    sybilSafety: 'AlloX enforces on-chain volume validation and wallet interaction criteria to exclude Sybil farming rings. Because portfolio creation executes directly on BNB Chain smart contracts, empty bot wallets without real transaction history are filtered out.\n\nTo ensure top-tier qualification, maintain at least one active automated portfolio, claim your daily check-in bonus consistently, and link authentic Twitter and Discord accounts to your profile.',
+    strategy: 'The most lucrative strategy on AlloX combines daily engagement with strategic on-chain volume. First, connect your wallet to immediately secure the 5,000-point welcome bonus, and link your social accounts for an additional 2,000 points.\n\nSecond, take part in the "Prove Your Portfolio" campaign: building one on-chain portfolio per day and sharing your portfolio card on X/Twitter qualifies you for a share of the $100,000 Gem pool while awarding 250 points daily. Volume is paramount: Gem accrual scales permanently with lifetime on-chain volume, so building early volume compounds your rewards throughout the campaign.',
+    steps: [
+      'Visit the official <a href="https://app.allox.ai" target="_blank" rel="noopener noreferrer">AlloX Platform dApp</a>.',
+      'Connect your Web3 Wallet (MetaMask, Rabby, or OKX Web3 Wallet) to immediately trigger your 5,000-point welcome allocation.',
+      'Complete initial profile tasks: link your Twitter/X and Discord accounts to claim an additional 2,000 points.',
+      'Navigate to "Create Portfolio" and select a market theme (e.g., AI Agents, RWA, or Blue-Chip DeFi).',
+      'Select your risk parameter, deposit funds on BNB Chain, and deploy your automated AI basket.',
+      'Participate in the "Prove Your Portfolio" campaign: deploy one daily portfolio and share the on-chain badge to earn from the $100,000 Gem prize pool.',
+      'Claim your Daily Check-in bonus to keep your compounding activity streak active.',
+      'Navigate to the Referrals dashboard, activate your link, and earn up to $100 per qualified friend plus 5% lifetime commissions.'
+    ],
+    faqs: [
+      { question: 'What is the conversion rate for AlloX Gems?', answer: 'The AlloX team has officially benchmarked that 1 Gem is designed to equal $5 worth of $ALLOX tokens upon the TGE token launch.' },
+      { question: 'Is the AlloX airdrop completely free to join?', answer: 'The welcome bonus (5,000 points), daily check-in streak, and social tasks are 100% free. Creating actual portfolios and earning volume-based Gems requires deploying capital on BNB Chain.' },
+      { question: 'When is the AlloX token launch (TGE)?', answer: 'The $ALLOX Token Generation Event is targeted for late 2026, with airdrop claims opening simultaneously with initial exchange listings.' },
+      { question: 'How does the AlloX referral program work?', answer: 'The referral system features 3 stacking tracks: instant cash rewards up to $100 per invite, a permanent 5% override on second-tier referral earnings, and milestone cash bonuses up to $600.' },
+      { question: 'Which blockchain does AlloX operate on?', answer: 'AlloX operates natively on BNB Smart Chain (BSC) with cross-chain routing expanding to Ethereum, Arbitrum, and Solana.' },
+      { question: 'Are user funds safe inside AlloX portfolios?', answer: 'Yes. AlloX is non-custodial; assets remain in your self-custodial wallet and in audited decentralized smart contracts without centralized custody risk.' }
+    ]
   }
 ];
