@@ -233,5 +233,41 @@ export const airdrops: Airdrop[] = [
       { question: 'When is the Dow Protocol TGE?', answer: 'The Token Generation Event (TGE) and official token launch are slated for late 2026.' },
       { question: 'Which blockchain does Dow Protocol use?', answer: 'Dow Protocol is engineered with Layer 0 cross-chain interoperability, supporting Ethereum, BNB Chain, and Arbitrum.' }
     ]
+  },
+  {
+    id: 'sweep-finance',
+    name: 'Sweep Finance',
+    logo: 'https://airdrops.io/wp-content/uploads/2026/07/Sweep-Finance-logo.png.webp',
+    description: 'Web3 gaming and prediction market ecosystem distributing 270,000,000 $SWEEP tokens (27% of total supply).',
+    reward: '270,000,000 $SWEEP (27% Supply)',
+    category: 'Gaming / DeFi',
+    featured: true,
+    status: 'active',
+    endTime: '2026-12-15T23:59:59Z',
+    funding: 'Fairlaunch & Treasury',
+    investors: 'Community & Web3 Angels',
+    refLink: 'https://sweep.finance/?referrer_code=6A4FS9W7',
+    overview: 'Sweep Finance is a decentralized Web3 gaming, entertainment, and prediction market ecosystem engineered around the native $SWEEP token. The platform delivers an integrated suite of rapid-session decentralized games—such as Crash, Flip, Tower, and the popular arcade title Sweepbird—alongside an on-chain sports prediction protocol and SweePay, a borderless crypto payment processor.\n\nTraditional online gaming protocols frequently suffer from inflationary token designs and extractive operator models. Sweep solves this through an automated deflationary fee engine: every transaction executed across the ecosystem carries a standard 5% platform fee. Crucially, 50% of this fee is immediately routed to an immutable contract address for permanent token burns, while the remaining 50% is distributed directly to eligible community stakers in liquid USDT.\n\nThe fixed total supply is permanently capped at 999,666,333 $SWEEP tokens and can never be expanded. Sweep has formally committed a staggering 27% of the total network supply—roughly 270 Million tokens—to its public community airdrop and XP engagement campaign.',
+    tokenomics: 'The economic mechanics of $SWEEP are built on mathematical scarcity and structural fee distribution. Total token supply is hard-capped at 999,666,333 $SWEEP.\n\nThe official tokenomics allocation assigns exactly 27% (approximately 270,000,000 $SWEEP) to community airdrop participants who stack XP through daily engagement, social quests, and arcade gaming. Airdropped tokens follow a transparent vesting schedule: a 3-month cliff upon Token Generation Event (TGE), followed by 9 months of smooth, linear daily unlocking.\n\nBecause 2.5% of every transaction across the platform is permanently burned while another 2.5% pays out passive USDT yields to token stakers, the circulating supply faces constant deflationary pressure as platform user volume scales.',
+    sybilSafety: 'Sweep protects its 270 Million token allocation from automated bot networks by employing a dual-metric proof-of-humanity framework combining social verification and gameplay telemetry.\n\nIn Sweepbird and arcade gaming, game physics and tap intervals are analyzed client-side and verified on-chain to detect scripted bot automation. To ensure your account maintains pristine standing, play games naturally, maintain consecutive daily login streaks, and ensure your linked Twitter and Telegram accounts reflect genuine organic activity.',
+    strategy: 'To maximize your conversion rate of XP into $SWEEP tokens, focus heavily on daily consistency rather than one-time sprints. The Sweepbird streak system (Bird Tiers) rewards unbroken daily play: each consecutive day you log in and play at least one session advances your Bird Tier, granting permanent XP bonuses and rare profile badges. If you miss a day, the streak resets to zero, though earned XP remains permanent.\n\nAdditionally, strive for placement on the daily Sweepbird leaderboard (which resets at 00:00 UTC) where top 100 daily finishers take home up to +2,000 bonus XP. Pairing daily gameplay with social quests and inviting active friends creates a powerful compounding XP flywheel.',
+    steps: [
+      'Visit the official <a href="https://sweep.finance/?referrer_code=6A4FS9W7" target="_blank" rel="noopener noreferrer">Sweep Finance Portal</a> with referral code <strong>6A4FS9W7</strong>.',
+      'Connect your Web3 Wallet (MetaMask, Rabby, or WalletConnect) and complete account verification.',
+      'Navigate to the "Tasks" tab to complete initial community verification quests (Follow on X, join official Telegram).',
+      'Launch the "Sweepbird" arcade game from the games lobby and complete at least one game session daily to maintain your active streak.',
+      'Climb Bird Tiers through consecutive daily play to unlock permanent XP boosters and milestone achievement badges.',
+      'Compete for high-score rankings on the daily Sweepbird leaderboard before the 00:00 UTC reset to capture up to +2,000 bonus XP.',
+      'Explore prediction markets and arcade mini-games to generate additional on-chain activity XP.',
+      'Copy your personalized invitation link and refer fellow gamers to stack cumulative referral XP on every action they take.'
+    ],
+    faqs: [
+      { question: 'Is the Sweep Finance airdrop free to farm?', answer: 'Yes, 100% free. Signing up, completing social tasks, daily verification, referral loops, and playing Sweepbird are entirely free and earn real XP that converts directly into $SWEEP tokens.' },
+      { question: 'How many $SWEEP tokens are allocated to the airdrop?', answer: 'Approximately 270,000,000 $SWEEP tokens—equal to 27% of the entire fixed 999,666,333 supply—are reserved for community airdrop recipients.' },
+      { question: 'How does XP convert into $SWEEP tokens?', answer: 'Your cumulative XP total determines your proportional pro-rata share of the 270 Million token airdrop pool. The exact mathematical ratio will be published upon the conclusion of the campaign.' },
+      { question: 'What is the vesting schedule for airdropped tokens?', answer: 'Airdropped $SWEEP tokens follow a 3-month cliff after TGE listing, followed by 9 months of linear daily release to ensure long-term market stability.' },
+      { question: 'What happens if I miss a day of Sweepbird?', answer: 'Your daily streak multiplier resets to zero, but all previously earned XP remains permanently credited to your account balance.' },
+      { question: 'How does the deflationary burn mechanism work?', answer: 'Every ecosystem transaction incurs a 5% fee: exactly 2.5% is permanently destroyed (burned) from the total supply, and 2.5% is distributed to holders in liquid USDT.' }
+    ]
   }
 ];
