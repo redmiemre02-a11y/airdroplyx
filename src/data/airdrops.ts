@@ -134,5 +134,36 @@ export const airdrops: Airdrop[] = [
       { question: 'Is the airdrop free to farm?', answer: 'Building your Incentive Passport and minting the WISE Score only costs fractions of a cent in Sui gas fees. Vault deposits and NFTs are optional premium tiers.' },
       { question: 'Which networks are supported?', answer: 'TBook runs natively on Sui with integrations extending to TON and EVM ecosystems.' }
     ]
+  },
+  {
+    id: 'push-chain',
+    name: 'Push Chain',
+    logo: 'https://airdrops.io/wp-content/uploads/2026/07/Push-Chain-logo.jpg.webp',
+    description: 'Shared-state universal Layer 1 blockchain distributing 1,000,000,000 $PC tokens across Season 3 testnet quests.',
+    reward: '1,000,000,000 $PC Confirmed',
+    category: 'Layer 1 / Interop',
+    featured: true,
+    status: 'active',
+    endTime: '2026-11-15T23:59:59Z',
+    funding: '$10.1M+',
+    investors: 'Binance Labs, Jump Crypto, Tiger Global, Sandeep Nailwal',
+    refLink: 'https://portal.push.org/rewards?ref=c74a59c',
+    overview: 'Push Chain is a shared-state Layer 1 blockchain engineered by the creators of Push Protocol (formerly EPNS) as a universal execution layer. Instead of forcing developers to build fragmented versions of their dApps for Ethereum, Solana, and Cosmos, Push Chain enables teams to deploy once and reach users natively across any chain with automated wallet and gas abstraction.\n\nThe project previously raised over $10.1M from Tier 1 backers including Binance Labs, Jump Crypto, and Tiger Global. The official tokenomics allocate 10% (1,000,000,000 $PC) of the total 10 Billion supply for airdrop participants, with Season 3 rewards currently running live on testnet.',
+    strategy: 'Consistency is king in Season 3. Maintain an unbroken daily check-in streak to compound streak multipliers, use your daily Spin 2 Win wheel to hoard Rare Passes (which convert into Shiny Passes at TGE), and refer friends to unlock 16% tier-1 and 8% tier-2 XP kickbacks.',
+    steps: [
+      'Visit the <a href="https://portal.push.org/rewards?ref=c74a59c" target="_blank" rel="noopener noreferrer">Push Chain Rewards Portal</a> (Referral Code: <strong>c74a59c</strong>).',
+      'Connect your Web3 Wallet (MetaMask, Rabby, or Coinbase Wallet) to initiate your account.',
+      'Claim free testnet $PC tokens from the in-portal faucet (resets every 6 hours) to cover quest gas.',
+      'Check in daily to build your activity streak and unlock compounding XP bonuses.',
+      'Use your daily Spin 2 Win to win Rare Passes, bonus testnet tokens, and XP multipliers.',
+      'Complete weekly Universal App challenges across gaming, DeFi, and prediction apps.',
+      'Stack Rare Passes—all passes will be burned at TGE for high-tier allocation chances.',
+      'Share your personal invite link to earn 16% direct and 8% second-degree XP rewards.'
+    ],
+    faqs: [
+      { question: 'Is farming Push Chain completely free?', answer: 'Yes! Season 3 runs entirely on the Push Chain testnet using free faucet tokens. You never need to deposit real cryptocurrency.' },
+      { question: 'How many $PC tokens are allocated for the airdrop?', answer: '10% of the total 10 Billion $PC supply—equal to 1,000,000,000 $PC tokens—is formally reserved for community airdrop rewards.' },
+      { question: 'When is the Push Chain TGE and Mainnet?', answer: 'The Token Generation Event (TGE) and Mainnet launch are scheduled following the conclusion of the Season 3 testnet campaign.' }
+    ]
   }
 ];
