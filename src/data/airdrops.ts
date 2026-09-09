@@ -165,5 +165,36 @@ export const airdrops: Airdrop[] = [
       { question: 'How many $PC tokens are allocated for the airdrop?', answer: '10% of the total 10 Billion $PC supply—equal to 1,000,000,000 $PC tokens—is formally reserved for community airdrop rewards.' },
       { question: 'When is the Push Chain TGE and Mainnet?', answer: 'The Token Generation Event (TGE) and Mainnet launch are scheduled following the conclusion of the Season 3 testnet campaign.' }
     ]
+  },
+  {
+    id: 'wager-predict',
+    name: 'Wager Predict',
+    logo: 'https://airdrops.io/wp-content/uploads/2026/07/Wager-Predict-logo.jpg.webp',
+    description: 'Decentralized non-custodial prediction market on BNB Chain distributing 10% of $WP token supply.',
+    reward: '10% $WP Supply Confirmed',
+    category: 'Prediction Market / BSC',
+    featured: true,
+    status: 'active',
+    endTime: '2026-11-20T23:59:59Z',
+    funding: 'Community & Seed',
+    investors: 'BNB Chain Ecosystem Funds',
+    refLink: 'https://wagerpredict.com/app',
+    overview: 'Wager Predict is a non-custodial prediction market protocol built natively on BNB Smart Chain (BSC). Modeled after high-volume platforms like Polymarket, it allows users to trade binary YES or NO shares on real-world outcomes spanning cryptocurrency price targets, global sporting events, politics, and culture.\n\nAhead of their official mainnet beta and Token Generation Event (TGE), Wager Predict launched an incentivized testnet campaign where every participant can claim 10,000 free testnet USDC to trade risk-free. The project has formally committed 10% of the total $WP token supply directly to retroactive airdrop participants.',
+    strategy: 'Take advantage of the 100% free testnet funds by minting 10,000 test USDC and locking a portion into the 365-day LP vault for an immediate 8x point multiplier. Place daily diverse predictions across active categories rather than spamming high-frequency bets, and create a custom market to earn passive 0.5% lifelong creator fees on trading volume.',
+    steps: [
+      'Navigate to the <a href="https://wagerpredict.com/app" target="_blank" rel="noopener noreferrer">Wager Predict dApp</a>.',
+      'Connect your Web3 Wallet (MetaMask, Rabby, or Trust Wallet) and switch to the BNB Smart Chain Testnet.',
+      'Click the "Faucet" button in the navigation bar to claim 10,000 free testnet USDC and test BNB for gas.',
+      'Browse live prediction markets (Crypto, Sports, Tech) and buy YES or NO shares using your test USDC.',
+      'Head to the "LP Vault" tab and deposit test USDC into the staking pool. Choose the max lock duration for an 8x multiplier boost.',
+      'Navigate to "Create Market" to publish your own verified prediction question and earn 0.5% of lifetime volume fees.',
+      'Climb the Season 01 leaderboard by tracking your net PnL and completing user achievement badges.',
+      'Grab your unique referral link from your profile dashboard and invite other traders.'
+    ],
+    faqs: [
+      { question: 'Is the Wager Predict airdrop free to farm?', answer: 'Yes, 100% free. The entire incentivized campaign operates on the BSC Testnet using free faucet funds. No real money or deposits are required.' },
+      { question: 'How much of the $WP supply is allocated to airdrops?', answer: 'A verified 10% of the total $WP token supply is reserved exclusively for testnet traders, LP vault stakers, and top leaderboard participants.' },
+      { question: 'When will the $WP token launch (TGE)?', answer: 'The Token Generation Event (TGE) and airdrop snapshot are scheduled for Q4 2026 alongside the BNB Chain mainnet deployment.' }
+    ]
   }
 ];
