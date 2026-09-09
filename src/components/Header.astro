@@ -1,12 +1,13 @@
 ---
+import { airdrops } from '../data/airdrops';
 ---
-<header class="bg-white border-b border-gray-200 sticky top-0 z-50 shadow-sm">
+<header class="bg-white dark:bg-slate-900 border-b border-gray-200 dark:border-slate-800 sticky top-0 z-50 shadow-sm transition-colors duration-200">
   <!-- Top Announcement Bar -->
-  <div class="bg-slate-900 text-white text-xs py-2">
+  <div class="bg-slate-950 text-white text-xs py-2 border-b border-slate-800/80">
     <div class="max-w-[1200px] mx-auto px-4 flex justify-between items-center">
       <div class="flex items-center gap-2">
         <span class="inline-block w-2 h-2 rounded-full bg-emerald-400 animate-pulse"></span>
-        <span class="text-slate-300 font-medium">Verified Crypto Airdrops & Testnet Guides • 100% Free Access</span>
+        <span class="text-slate-300 font-medium">8 Verified Crypto Airdrops & Guides • Updated September 2026</span>
       </div>
       <div class="flex gap-4 items-center">
         <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" class="text-slate-400 hover:text-white transition-colors flex items-center gap-1">
@@ -25,7 +26,7 @@
     <!-- Logo -->
     <a href="/" class="flex items-center gap-2.5">
       <img src="/logo.jpg" alt="Airdroplyx Logo" class="w-10 h-10 rounded-xl shadow-md object-cover" />
-      <span class="text-slate-900 font-extrabold text-2xl tracking-tight">
+      <span class="text-slate-900 dark:text-white font-extrabold text-2xl tracking-tight">
         airdroplyx
       </span>
     </a>
@@ -33,18 +34,35 @@
     <!-- Navigation -->
     <nav class="hidden md:flex h-full">
       <ul class="flex h-full">
-        <li><a href="/" class="flex items-center h-full px-5 text-[15px] font-bold text-slate-700 uppercase hover:text-blue-600 border-b-2 border-transparent hover:border-blue-600 transition-all">Home</a></li>
-        <li><a href="/#latest" class="flex items-center h-full px-5 text-[15px] font-bold text-slate-700 uppercase hover:text-blue-600 border-b-2 border-transparent hover:border-blue-600 transition-all">Latest Drops</a></li>
-        <li><a href="/#hottest" class="flex items-center h-full px-5 text-[15px] font-bold text-slate-700 uppercase hover:text-blue-600 border-b-2 border-transparent hover:border-blue-600 transition-all">Hottest</a></li>
-        <li><a href="/academy" class="flex items-center h-full px-5 text-[15px] font-bold text-slate-700 uppercase hover:text-blue-600 border-b-2 border-transparent hover:border-blue-600 transition-all">Academy</a></li>
+        <li><a href="/" class="flex items-center h-full px-5 text-[15px] font-bold text-slate-700 dark:text-slate-200 uppercase hover:text-blue-600 border-b-2 border-transparent hover:border-blue-600 transition-all">Home</a></li>
+        <li><a href="/#latest" class="flex items-center h-full px-5 text-[15px] font-bold text-slate-700 dark:text-slate-200 uppercase hover:text-blue-600 border-b-2 border-transparent hover:border-blue-600 transition-all">Latest Drops</a></li>
+        <li><a href="/#hottest" class="flex items-center h-full px-5 text-[15px] font-bold text-slate-700 dark:text-slate-200 uppercase hover:text-blue-600 border-b-2 border-transparent hover:border-blue-600 transition-all">Hottest</a></li>
+        <li><a href="/academy" class="flex items-center h-full px-5 text-[15px] font-bold text-slate-700 dark:text-slate-200 uppercase hover:text-blue-600 border-b-2 border-transparent hover:border-blue-600 transition-all">Academy</a></li>
       </ul>
     </nav>
     
     <!-- Right Actions -->
     <div class="flex items-center gap-4">
-      <div class="hidden sm:flex relative">
-        <input type="text" placeholder="Search airdrops..." class="bg-gray-100 dark:bg-slate-800 border-transparent focus:bg-white dark:focus:bg-slate-700 focus:border-blue-500 focus:ring-2 focus:ring-blue-200 rounded-full py-2 pl-10 pr-4 text-sm w-48 transition-all outline-none dark:text-white" />
-        <svg class="absolute left-3 top-2.5 w-4 h-4 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path></svg>
+      <!-- Interactive Instant Search -->
+      <div class="relative">
+        <div class="relative">
+          <input 
+            type="text" 
+            id="airdrop-search"
+            placeholder="Search airdrops..." 
+            class="bg-gray-100 dark:bg-slate-800 border border-transparent focus:border-blue-500 focus:bg-white dark:focus:bg-slate-800 focus:ring-2 focus:ring-blue-200 rounded-full py-2 pl-9 pr-4 text-xs sm:text-sm w-36 sm:w-56 transition-all outline-none text-slate-900 dark:text-white" 
+            autocomplete="off"
+          />
+          <svg class="absolute left-3 top-2.5 w-4 h-4 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path></svg>
+        </div>
+
+        <!-- Search Results Dropdown -->
+        <div id="search-dropdown" class="hidden absolute right-0 mt-2 w-72 sm:w-80 bg-white dark:bg-slate-800 rounded-2xl shadow-2xl border border-slate-200 dark:border-slate-700 py-2 z-50 max-h-96 overflow-y-auto">
+          <div class="px-3 py-1.5 text-[11px] font-bold uppercase tracking-wider text-slate-400 border-b border-slate-100 dark:border-slate-700">
+            Airdrop Results
+          </div>
+          <div id="search-results-list" class="divide-y divide-slate-100 dark:divide-slate-700/50"></div>
+        </div>
       </div>
       
       <!-- Dark Mode Toggle -->
@@ -53,14 +71,65 @@
         <svg id="theme-toggle-light-icon" class="hidden w-5 h-5" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M10 2a1 1 0 011 1v1a1 1 0 11-2 0V3a1 1 0 011-1zm4 8a4 4 0 11-8 0 4 4 0 018 0zm-.464 4.95l.707.707a1 1 0 001.414-1.414l-.707-.707a1 1 0 00-1.414 1.414zm2.12-10.607a1 1 0 010 1.414l-.706.707a1 1 0 11-1.414-1.414l.707-.707a1 1 0 011.414 0zM17 11a1 1 0 100-2h-1a1 1 0 100 2h1zm-7 4a1 1 0 011 1v1a1 1 0 11-2 0v-1a1 1 0 011-1zM5.05 6.464A1 1 0 106.465 5.05l-.708-.707a1 1 0 00-1.414 1.414l.707.707zm1.414 8.486l-.707.707a1 1 0 01-1.414-1.414l.707-.707a1 1 0 011.414 1.414zM4 11a1 1 0 100-2H3a1 1 0 000 2h1z" fill-rule="evenodd" clip-rule="evenodd"></path></svg>
       </button>
 
-      <a href="#newsletter" class="bg-blue-600 hover:bg-blue-700 text-white px-5 py-2 rounded-full font-bold text-sm shadow-md shadow-blue-500/20 transition-all text-center">
+      <a href="#newsletter" class="hidden sm:inline-block bg-blue-600 hover:bg-blue-700 text-white px-5 py-2 rounded-full font-bold text-sm shadow-md shadow-blue-500/20 transition-all text-center">
         Subscribe
       </a>
     </div>
   </div>
 </header>
 
-<script>
+<script is:inline define:vars={{ airdropsData: airdrops.map(a => ({ id: a.id, name: a.name, logo: a.logo, category: a.category, reward: a.reward })) }}>
+  // Instant Search Engine
+  const searchInput = document.getElementById('airdrop-search');
+  const searchDropdown = document.getElementById('search-dropdown');
+  const resultsList = document.getElementById('search-results-list');
+
+  if (searchInput && searchDropdown && resultsList) {
+    searchInput.addEventListener('input', (e) => {
+      const query = e.target.value.toLowerCase().trim();
+      if (!query) {
+        searchDropdown.classList.add('hidden');
+        return;
+      }
+
+      const matches = airdropsData.filter(a => 
+        a.name.toLowerCase().includes(query) || 
+        a.category.toLowerCase().includes(query) ||
+        a.reward.toLowerCase().includes(query)
+      );
+
+      if (matches.length === 0) {
+        resultsList.innerHTML = '<div class="p-4 text-xs text-slate-400 text-center">No matching airdrops found.</div>';
+      } else {
+        resultsList.innerHTML = matches.map(item => `
+          <a href="/airdrop/${item.id}" class="flex items-center gap-3 p-3 hover:bg-slate-50 dark:hover:bg-slate-700/60 transition-colors">
+            <img src="${item.logo}" alt="${item.name}" class="w-8 h-8 rounded-lg object-contain bg-slate-50 dark:bg-slate-700 p-1 border border-slate-200 dark:border-slate-600 shrink-0" />
+            <div class="flex-1 min-w-0">
+              <div class="font-bold text-xs sm:text-sm text-slate-800 dark:text-white truncate">${item.name}</div>
+              <div class="text-[11px] text-emerald-600 dark:text-emerald-400 font-semibold truncate">${item.reward}</div>
+            </div>
+            <span class="text-[10px] uppercase font-bold text-slate-400 px-2 py-0.5 rounded bg-slate-100 dark:bg-slate-700">${item.category.split('/')[0]}</span>
+          </a>
+        `).join('');
+      }
+
+      searchDropdown.classList.remove('hidden');
+    });
+
+    document.addEventListener('click', (e) => {
+      if (!searchInput.contains(e.target) && !searchDropdown.contains(e.target)) {
+        searchDropdown.classList.add('hidden');
+      }
+    });
+
+    searchInput.addEventListener('focus', () => {
+      if (searchInput.value.trim()) {
+        searchDropdown.classList.remove('hidden');
+      }
+    });
+  }
+
+  // Theme Toggle
   const themeToggleBtn = document.getElementById('theme-toggle');
   const darkIcon = document.getElementById('theme-toggle-dark-icon');
   const lightIcon = document.getElementById('theme-toggle-light-icon');

@@ -14,7 +14,65 @@ const { airdrop } = Astro.props;
 const relatedAirdrops = airdrops.filter(a => a.id !== airdrop.id).slice(0, 3);
 ---
 
-<Layout title={`${airdrop.name} Airdrop Guide & Verification (2026) | Airdroplyx`} description={`Complete step-by-step guide to farming the confirmed ${airdrop.name} crypto airdrop. Verified requirements, funding stats, and strategy.`}>
+<Layout 
+  title={`${airdrop.name} Airdrop Guide & Verification (2026) | Airdroplyx`} 
+  description={`Complete step-by-step guide to farming the confirmed ${airdrop.name} crypto airdrop. Verified requirements, funding stats, and strategy.`}
+  image={airdrop.logo}
+>
+  <!-- Schema.org JSON-LD (HowTo, FAQPage, BreadcrumbList) -->
+  <script type="application/ld+json" set:html={JSON.stringify({
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://airdroplyx.com/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": airdrop.category,
+            "item": "https://airdroplyx.com/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": airdrop.name,
+            "item": `https://airdroplyx.com/airdrop/${airdrop.id}/`
+          }
+        ]
+      },
+      {
+        "@type": "HowTo",
+        "name": `How to Claim and Farm the ${airdrop.name} Airdrop`,
+        "description": airdrop.description,
+        "image": airdrop.logo,
+        "totalTime": "PT10M",
+        "step": airdrop.steps.map((step, idx) => ({
+          "@type": "HowToStep",
+          "position": idx + 1,
+          "name": `Step ${idx + 1}`,
+          "text": step.replace(/<[^>]*>/g, '')
+        }))
+      },
+      ...(airdrop.faqs && airdrop.faqs.length > 0 ? [{
+        "@type": "FAQPage",
+        "mainEntity": airdrop.faqs.map(faq => ({
+          "@type": "Question",
+          "name": faq.question,
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": faq.answer
+          }
+        }))
+      }] : [])
+    ]
+  })} />
+
   <Header />
   
   <main class="max-w-[1000px] mx-auto px-4 py-10">
