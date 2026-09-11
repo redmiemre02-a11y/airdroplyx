@@ -3,22 +3,31 @@ import Layout from '../layouts/Layout.astro';
 import Header from '../components/Header.astro';
 ---
 
-<Layout title="Terms of Service | Airdroplyx">
+<Layout title="Terms of Service | Airdroplyx" description="Terms of Service and legal disclosures governing the use of Airdroplyx.">
   <Header />
-  <main class="max-w-[800px] mx-auto px-4 py-16 prose prose-slate">
-    <h1>Terms of Service</h1>
-    <p>Last updated: {new Date().toLocaleDateString()}</p>
-    
-    <h2>1. Acceptance of Terms</h2>
-    <p>By accessing Airdroplyx, you agree to be bound by these Terms of Service.</p>
-    
-    <h2>2. Educational Purposes Only (No Financial Advice)</h2>
-    <p>The information provided on Airdroplyx is for educational and informational purposes only. We do not provide financial advice. Cryptocurrency investments and airdrop farming carry significant risk.</p>
-    
-    <h2>3. Accuracy of Information</h2>
-    <p>While we strive to provide accurate and up-to-date information, we cannot guarantee the reliability of any third-party airdrop or project listed on our site.</p>
-    
-    <h2>4. Limitation of Liability</h2>
-    <p>Airdroplyx shall not be liable for any losses, damages, or issues arising from your participation in any third-party airdrops or cryptocurrency investments.</p>
+  <main class="max-w-[850px] mx-auto px-4 py-16">
+    <div class="bg-white dark:bg-slate-800 rounded-3xl p-8 md:p-12 border border-slate-200 dark:border-slate-700 shadow-sm prose prose-slate dark:prose-invert max-w-none">
+      <h1 class="text-3xl md:text-4xl font-black text-slate-900 dark:text-white mb-2">Terms of Service</h1>
+      <p class="text-sm text-slate-400 mb-8">Effective Date: September 2026</p>
+      
+      <h2>1. Acceptance of Terms</h2>
+      <p>By accessing and using <strong>Airdroplyx</strong> (<a href="https://airdroplyx.com">https://airdroplyx.com</a>), you agree to comply with and be bound by these Terms of Service. If you disagree with any part of these terms, you must not use our platform.</p>
+      
+      <h2>2. Not Financial Advice (Educational Purposes Only)</h2>
+      <p>All content published on Airdroplyx—including airdrop farming guides, tokenomics analysis, strategy breakdowns, and Academy tutorials—is provided solely for educational and informational purposes. <strong>Nothing on this website constitutes financial, investment, legal, or tax advice.</strong></p>
+      <p>Cryptocurrency transactions, smart contract interactions, and decentralized yield farming involve substantial financial risk. You are solely responsible for conducting your own research and managing your private keys.</p>
+      
+      <h2>3. Third-Party Protocols and External Links</h2>
+      <p>Airdroplyx aggregates information regarding third-party protocols, decentralized applications (dApps), and blockchain networks. We do not own, operate, audit, or guarantee any third-party project listed on our site. Interacting with smart contracts or external websites is done entirely at your own risk.</p>
+      
+      <h2>4. Limitation of Liability</h2>
+      <p>Under no circumstances shall Airdroplyx, its creators, or contributors be held liable for any direct, indirect, incidental, or consequential damages resulting from lost funds, smart contract exploits, liquidation events, or failed airdrop distributions.</p>
+
+      <h2>5. Intellectual Property</h2>
+      <p>All original editorial text, research summaries, and website branding are the intellectual property of Airdroplyx. Project logos, trademarks, and third-party media remain the property of their respective owners.</p>
+
+      <h2>6. Governing Law</h2>
+      <p>These terms shall be governed and interpreted in accordance with applicable international commercial standards. Any disputes shall be resolved through good-faith mutual consultation.</p>
+    </div>
   </main>
 </Layout>

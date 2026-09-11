@@ -3,20 +3,34 @@ import Layout from '../layouts/Layout.astro';
 import Header from '../components/Header.astro';
 ---
 
-<Layout title="About Us | Airdroplyx">
+<Layout title="About Us | Airdroplyx" description="Learn about Airdroplyx, our research methodology, verification standards, and editorial team dedicated to discovering verified Web3 airdrops.">
   <Header />
-  <main class="max-w-[800px] mx-auto px-4 py-16 prose prose-slate">
-    <h1>About Airdroplyx</h1>
-    
-    <p>Welcome to Airdroplyx, your premier multi-lingual aggregator for cryptocurrency airdrops, bounties, and decentralized finance (DeFi) opportunities.</p>
-    
-    <h2>Our Mission</h2>
-    <p>Our mission is to democratize access to the Web3 ecosystem by making it easier for users globally to discover, verify, and participate in legitimate cryptocurrency airdrops without falling victim to scams.</p>
-    
-    <h2>What We Do</h2>
-    <p>We actively monitor the blockchain space to find projects that are giving away free tokens to their early adopters. We research these projects, verify their authenticity, and create easy-to-follow, step-by-step guides.</p>
-    
-    <h2>Global Reach</h2>
-    <p>We believe Web3 is global. That is why we provide our guides in 10 different languages, ensuring that non-English speakers have equal access to the best opportunities in the cryptocurrency space.</p>
+  <main class="max-w-[850px] mx-auto px-4 py-16">
+    <div class="bg-white dark:bg-slate-800 rounded-3xl p-8 md:p-12 border border-slate-200 dark:border-slate-700 shadow-sm prose prose-slate dark:prose-invert max-w-none">
+      <h1 class="text-3xl md:text-4xl font-black text-slate-900 dark:text-white mb-2">About Airdroplyx</h1>
+      <p class="text-base text-slate-500 mb-8">The Premier Hub for Verified Cryptocurrency Airdrops & Web3 Research</p>
+      
+      <p>Welcome to <strong>Airdroplyx</strong>, an independent cryptocurrency analytics and educational platform dedicated to tracking, verifying, and curating the most lucrative token airdrops, testnet incentives, and decentralized finance (DeFi) opportunities across the Web3 ecosystem.</p>
+      
+      <h2>Our Mission</h2>
+      <p>Our core mission is to make the emerging decentralized economy accessible to everyone. Every week, dozens of blockchain startups announce incentive programs, but participants often face misleading information, malicious wallet drainers, and wasted transaction fees. Airdroplyx eliminates the noise by subjecting every project to rigorous verification before publishing step-by-step guides.</p>
+      
+      <h2>Our Verification Methodology</h2>
+      <p>Before any project is featured on Airdroplyx, our research team conducts a multi-factor due diligence process:</p>
+      <ul>
+        <li><strong>Venture Capital & Funding Audit:</strong> We cross-reference institutional fundraising rounds via SEC filings, Crunchbase, and verifiable cryptographic announcements (e.g., funding from tier-1 funds like Coinbase Ventures, Binance Labs, and Pantera Capital).</li>
+        <li><strong>Smart Contract & Security Verification:</strong> We check protocol audits from reputable blockchain security firms (CertiK, OpenZeppelin, GoPlus) to minimize smart contract exposure.</li>
+        <li><strong>Sybil Defense & Eligibility Rules:</strong> We analyze team whitepapers and community roadmaps to ensure users are guided on proper organic wallet behavior, avoiding disqualification.</li>
+      </ul>
+
+      <h2>Airdroplyx Academy</h2>
+      <p>Beyond daily opportunity tracking, we believe long-term success requires education. Through our <strong>Airdrop Academy</strong>, we provide free beginner-to-advanced tutorials covering self-custody wallet hygiene, gas optimization, Layer 2 rollups, and anti-drainer security.</p>
+
+      <h2>Editorial Independence & Transparency</h2>
+      <p>While some guides may contain referral or partnership links that help support our free platform, all editorial research is conducted independently. We never accept payment to feature unverified or deceptive smart contracts.</p>
+
+      <h2>Get in Touch</h2>
+      <p>Have an inquiry, project submission, or feedback? Reach out to our research team directly via our <a href="/contact">Contact page</a> or email us at <a href="mailto:contact@airdroplyx.com">contact@airdroplyx.com</a>.</p>
+    </div>
   </main>
 </Layout>
