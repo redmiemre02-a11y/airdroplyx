@@ -53,10 +53,14 @@ const statusBadgeColor = airdrop.status === 'active' ? 'bg-emerald-50 text-emera
       <span class="text-[11px] font-bold uppercase px-3 py-1 rounded-full border bg-slate-50 border-slate-200 text-slate-600 tracking-wide hidden sm:inline-block">
         {airdrop.category}
       </span>
-      {airdrop.status === 'active' && (
+      {airdrop.publishDate && airdrop.publishDate > '2026-09-13' ? (
+        <span class="flex items-center gap-1 text-[11px] font-bold text-indigo-600 bg-indigo-50 px-3 py-1 rounded-full border border-indigo-200">
+          📅 Releases {new Date(airdrop.publishDate).toLocaleDateString('en-US', { month: 'short', day: 'numeric' })}
+        </span>
+      ) : airdrop.status === 'active' && (
         <span class="flex items-center gap-1.5 text-[11px] font-bold text-red-500 bg-red-50 px-3 py-1 rounded-full border border-red-100 animate-pulse">
           <svg class="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
-          Ends in 3d 14h
+          Active Drop
         </span>
       )}
     </div>

@@ -5,8 +5,16 @@ import AirdropCard from '../components/AirdropCard.astro';
 import { airdrops } from '../data/airdrops';
 import { academyArticles } from '../data/academy';
 
-const latestAirdrops = airdrops;
-const hottestAirdrops = airdrops.filter(a => a.featured);
+// Current anchor date
+const currentDate = '2026-09-13';
+
+// Active drops (published today or in the past)
+const activeAirdrops = airdrops.filter(a => !a.publishDate || a.publishDate <= currentDate);
+const latestAirdrops = activeAirdrops;
+const hottestAirdrops = activeAirdrops.filter(a => a.featured);
+
+// 1-Week Scheduled Drops (2 released each day for the upcoming week)
+const scheduledAirdrops = airdrops.filter(a => a.publishDate && a.publishDate > currentDate);
 ---
 
 <Layout title="Crypto Airdrops 2026 » Verified Guides, Free Tokens & Testnets | Airdroplyx">
@@ -91,6 +99,69 @@ const hottestAirdrops = airdrops.filter(a => a.featured);
       </section>
 
     </div>
+
+    <!-- 7-Day Drops Schedule Section (2 Drops per day) -->
+    {scheduledAirdrops.length > 0 && (
+      <section id="schedule" class="mb-20 bg-gradient-to-br from-slate-900 via-indigo-950 to-slate-900 rounded-3xl p-6 md:p-10 text-white border border-indigo-500/20 shadow-2xl relative overflow-hidden">
+        <div class="absolute top-0 right-0 -mt-10 -mr-10 w-64 h-64 bg-indigo-500/10 rounded-full blur-3xl pointer-events-none"></div>
+        <div class="flex flex-col md:flex-row md:items-end justify-between mb-8 relative z-10">
+          <div>
+            <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-indigo-500/20 border border-indigo-400/30 text-indigo-300 text-xs font-bold uppercase tracking-wider mb-3">
+              <span>📅</span> 1-Week Publishing Schedule
+            </div>
+            <h2 class="text-2xl md:text-3xl font-extrabold text-white tracking-tight">
+              Upcoming Airdrop Releases (2 Per Day)
+            </h2>
+            <p class="text-sm text-slate-300 mt-1 max-w-xl">
+              Curated roadmap of high-potential cryptocurrency airdrops unlocked daily. Explore comprehensive early research guides and prepare your wallets.
+            </p>
+          </div>
+          <span class="mt-4 md:mt-0 text-xs font-semibold bg-white/10 text-indigo-200 px-4 py-2 rounded-full border border-white/10">
+            {scheduledAirdrops.length} Drops Scheduled This Week
+          </span>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 relative z-10">
+          {scheduledAirdrops.map(airdrop => (
+            <div class="bg-white/5 hover:bg-white/10 border border-white/10 hover:border-indigo-400/40 rounded-2xl p-5 transition-all duration-300 flex flex-col justify-between group">
+              <div>
+                <div class="flex items-center justify-between gap-3 mb-4">
+                  <span class="inline-flex items-center gap-1.5 text-xs font-bold text-indigo-300 bg-indigo-500/20 border border-indigo-400/30 px-3 py-1 rounded-full">
+                    📅 Drops {airdrop.publishDate}
+                  </span>
+                  <span class="text-[11px] font-semibold text-slate-400 uppercase tracking-wider">
+                    {airdrop.category}
+                  </span>
+                </div>
+
+                <div class="flex items-center gap-3 mb-3">
+                  <div class="w-12 h-12 rounded-xl bg-white/10 border border-white/10 p-2 flex items-center justify-center shrink-0">
+                    <img src={airdrop.logo} alt={airdrop.name} class="w-full h-full object-contain" loading="lazy" />
+                  </div>
+                  <div>
+                    <h3 class="font-bold text-lg text-white group-hover:text-indigo-300 transition-colors">
+                      <a href={`/airdrop/${airdrop.id}`}>{airdrop.name}</a>
+                    </h3>
+                    <span class="text-xs text-emerald-400 font-medium">{airdrop.reward}</span>
+                  </div>
+                </div>
+
+                <p class="text-xs text-slate-300 line-clamp-2 mb-4 leading-relaxed">
+                  {airdrop.description}
+                </p>
+              </div>
+
+              <div class="pt-4 border-t border-white/10 flex items-center justify-between">
+                <span class="text-xs text-slate-400">Funding: <strong class="text-white">{airdrop.funding}</strong></span>
+                <a href={`/airdrop/${airdrop.id}`} class="text-xs font-bold text-indigo-400 group-hover:text-indigo-300 flex items-center gap-1">
+                  Preview Guide →
+                </a>
+              </div>
+            </div>
+          ))}
+        </div>
+      </section>
+    )}
 
     <!-- Academy Section (AdSense & SEO Booster) -->
     <section class="mt-16 pt-12 border-t border-slate-200 dark:border-slate-800">
