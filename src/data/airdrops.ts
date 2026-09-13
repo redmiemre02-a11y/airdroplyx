@@ -449,5 +449,113 @@ export const airdrops: Airdrop[] = [
       { question: 'What are the main dApps to interact with on Berachain testnet?', answer: 'The core native trinity includes BEX (decentralized exchange), Bend (lending and borrowing market), and Berps (perpetual futures trading platform).' },
       { question: 'When is the Berachain mainnet and token launch?', answer: 'Berachain mainnet is scheduled to launch in late 2026, accompanied by the genesis $BERA token distribution to testnet participants and community members.' }
     ]
+  },
+  {
+    id: 'hyperliquid',
+    name: 'Hyperliquid',
+    logo: 'https://airdrops.io/wp-content/uploads/2023/11/Hyperliquid-logo.png.webp',
+    description: 'Premier Layer 1 decentralized perpetual exchange with over $1B TVL and high-yield liquidity vaults.',
+    reward: 'Points Program & $HYPE Token Distribution',
+    category: 'Layer 1 / Perps / Orderbook',
+    featured: true,
+    status: 'active',
+    endTime: '2026-12-31T23:59:59Z',
+    funding: 'Community / Self-Funded Powerhouse',
+    investors: 'Autonomous Orderbook Engine, Top Market Makers',
+    refLink: 'https://app.hyperliquid.xyz',
+    overview: 'Hyperliquid is a custom-built, ultra-fast Layer 1 blockchain optimized specifically for financial trading and decentralized perpetual contracts. Unlike general-purpose blockchains that experience severe latency spikes during market volatility, Hyperliquid operates its own custom Tendermint-based consensus engine capable of processing up to 20,000 orders per second with sub-second finality.\n\nEvery order, cancellation, trade execution, and liquidation occurs fully on-chain with transparent deterministic pricing, completely eliminating front-running and MEV extraction. Traders enjoy a centralized-exchange (CEX) user experience with zero gas fees for order placement, deep liquidity across dozens of perpetual pairs, and spot market trading through a non-custodial Web3 wallet.\n\nThe platform has distributed weekly Points to active traders, vault depositors, and ecosystem participants. The native ecosystem token, $HYPE, is slated to anchor the entire Layer 1 proof-of-stake security model and grant governance over fee switches and perpetual listings.',
+    tokenomics: 'The native asset of the network is $HYPE. $HYPE will transition Hyperliquid from its foundation-operated validation set to a fully permissionless Proof-of-Stake consensus mechanism.\n\nThe team has explicitly structured the points program to reward organic capital and legitimate trading volume rather than wash bots. Point holders will receive proportional token allocations at the Token Generation Event (TGE).\n\nAdditionally, staking $HYPE allows token holders to capture platform protocol revenue, participate in validator delegations, and vote on new collateral assets and perps listings.',
+    sybilSafety: 'Hyperliquid utilizes sophisticated on-chain liquidity heuristics to identify and blacklist volume-farming sybils. Accounts executing rapid circular self-trades across identical strike prices or maintaining zero directional risk are flagged and penalized with reduced point multipliers.\n\nAuthentic volume generated across diverse market pairs, maintaining active collateral in the community HLP (Hyperliquidity Provider) vault, and long-term position management represent the safest and most rewarded interaction paths.',
+    strategy: 'To maximize point accumulation on Hyperliquid, adopt a balanced strategy combining organic trading volume with passive liquidity provision.\n\nFirst, bridge USDC via Arbitrum directly onto the Hyperliquid Layer 1.\n\nSecond, deposit a fraction of your capital into the native HLP vault. HLP earns platform trading fees while consistently generating passive weekly points.\n\nThird, trade high-conviction perpetual setups or spot pairs with sensible leverage. Points are updated and distributed every Thursday, scaling with cumulative organic volume and PnL performance.',
+    steps: [
+      'Visit the official <a href="https://app.hyperliquid.xyz" target="_blank" rel="noopener noreferrer">Hyperliquid Trading Portal</a>.',
+      'Connect your Web3 Wallet (MetaMask, Rabby, or WalletConnect) and sign the initial L1 agent onboarding transaction.',
+      'Deposit USDC from Arbitrum One to fund your non-custodial trading margin account with zero deposit fees.',
+      'Navigate to the "Vaults" tab and deposit a portion of capital into the flagship Hyperliquidity Provider (HLP) vault to earn passive yields.',
+      'Open and manage perpetual futures positions across major pairs (BTC, ETH, SOL) using conservative leverage.',
+      'Participate in Spot market trading to broaden your on-chain interaction profile across both orderbook mechanisms.',
+      'Track your cumulative points on the official leaderboard, updated every Thursday at 00:00 UTC.',
+      'Maintain active margin and compound HLP yields ahead of the $HYPE genesis distribution.'
+    ],
+    faqs: [
+      { question: 'What is Hyperliquid and why is it so popular?', answer: 'Hyperliquid is a custom Layer 1 blockchain built specifically for high-speed perpetual futures trading with zero gas fees, 20k TPS, sub-second finality, and complete on-chain transparency.' },
+      { question: 'How do Hyperliquid Points work?', answer: 'Points are distributed to users every Thursday at 00:00 UTC based on organic perpetual trading volume, PnL performance, and liquidity deposited into the community HLP vault.' },
+      { question: 'What is the HLP Vault?', answer: 'HLP (Hyperliquidity Provider) is the community-funded market-making vault on Hyperliquid. Depositors earn a share of trading fees and liquidations alongside weekly points.' },
+      { question: 'Do I need ETH for gas fees on Hyperliquid?', answer: 'No. Hyperliquid Layer 1 does not charge gas fees for placing or cancelling orders. You only need USDC on Arbitrum to deposit initial margin.' },
+      { question: 'What is the $HYPE token?', answer: '$HYPE is the native Proof-of-Stake consensus and governance token of the Hyperliquid Layer 1, capturing protocol revenue and securing the blockchain.' },
+      { question: 'How can I protect my account against sybil disqualification?', answer: 'Avoid automated wash trading bots with circular orderbooks. Focus on genuine directional trading, multi-asset spot trading, and holding capital inside HLP.' }
+    ]
+  },
+  {
+    id: 'sonic',
+    name: 'Sonic (Fantom)',
+    logo: 'https://airdrops.io/wp-content/uploads/2024/05/Sonic-logo.png.webp',
+    description: '10,000 TPS EVM Layer 1 with sub-second finality backed by Andre Cronje and a 200M $S airdrop pool.',
+    reward: '200,000,000 $S Token Community Pool',
+    category: 'Layer 1 / High-Speed EVM / DeFi',
+    featured: true,
+    status: 'active',
+    endTime: '2026-12-31T23:59:59Z',
+    funding: '$300M+ Treasury & Growth Fund',
+    investors: 'Andre Cronje, Hashed, Foundation Capital, Pantera',
+    refLink: 'https://www.soniclabs.com',
+    overview: 'Sonic (formerly known as Fantom) is the next evolution of high-performance decentralized computing, introducing a brand-new EVM Layer 1 architecture engineered by DeFi visionary Andre Cronje and the Sonic Labs core engineering team. Sonic achieves an astounding 10,000 transactions per second with true sub-second finality (approx. 700ms), solving the speed and cost bottlenecks that have historically plagued Ethereum Virtual Machine networks.\n\nPowered by the new Sonic Virtual Machine (SVM) and the Carmen state storage engine, Sonic reduces disk storage requirements by up to 90% while executing smart contracts at bare-metal hardware speeds. It also introduces the Fee Monetization (FeeM) model, enabling smart contract developers to receive up to 90% of the network transaction fees generated by their dApps.\n\nTo bootstrap ecosystem liquidity and reward the global Web3 community, Sonic Labs has officially announced a massive 200,000,000 $S token airdrop pool dedicated to testnet participants, bridged capital providers, and native DeFi users.',
+    tokenomics: 'The native currency of the network is the $S token, replacing the legacy $FTM token through a 1:1 upgrade gateway.\n\n$S powers transaction gas fees, validator staking, and governance over protocol parameters and FeeM distributions.\n\nOf the total ecosystem allocation, exactly 200,000,000 $S tokens are allocated to the community airdrop program. This pool is distributed across testnet milestone games, liquidity bridging incentives, and ecosystem dApp usage, with vesting schedules designed to align long-term network participants.',
+    sybilSafety: 'Sonic implements multi-tiered activity verification to prevent automated testnet bot script attacks. Faucet distribution incorporates IP and wallet screening, while on-chain rewards prioritize sustained multi-day activity over single-session spam.\n\nInteracting with official Sonic Arcade gaming dApps, completing genuine transactions across native DEXs, and bridging real capital via the Sonic Gateway ensure valid human standing for the mainnet airdrop claim.',
+    strategy: 'Capitalizing on the Sonic airdrop requires engaging with both the Sonic Testnet Arcade and the upcoming mainnet liquidity incentives.\n\nStart by connecting your EVM wallet to the Sonic Testnet and requesting free testnet $S tokens.\n\nNext, play the interactive games featured on the Sonic Arcade (such as Plinko, Mines, and Wheel) to collect points and generate on-chain proof-of-interaction.\n\nAdditionally, prepare to bridge capital into Sonic Mainnet using the official Sonic Gateway upon launch to tap into the high-multiplier liquidity provider airdrop allocations.',
+    steps: [
+      'Visit the official <a href="https://www.soniclabs.com" target="_blank" rel="noopener noreferrer">Sonic Labs Portal</a>.',
+      'Connect your Web3 Wallet (MetaMask, Rabby) and add the Sonic Testnet network.',
+      'Request free testnet $S tokens from the official Sonic Testnet Faucet.',
+      'Head over to the Sonic Arcade and interact with testnet dApps to complete daily gameplay challenges.',
+      'Deploy test smart contracts or execute swaps on featured testnet DEX protocols.',
+      'Monitor the Sonic Gateway bridging portal to migrate assets seamlessly upon mainnet activation.',
+      'Join the official Sonic Discord and Telegram communities to follow snapshot dates and campaign phases.',
+      'Verify your wallet eligibility on the official Sonic airdrop checker when the claim portal launches.'
+    ],
+    faqs: [
+      { question: 'What is Sonic and how is it related to Fantom?', answer: 'Sonic is the complete architectural reboot of Fantom, featuring the new Sonic Virtual Machine (SVM) capable of 10,000 TPS and sub-second finality. FTM tokens can be migrated 1:1 to the new $S token.' },
+      { question: 'How big is the Sonic airdrop allocation?', answer: 'Sonic Labs has officially committed 200,000,000 $S tokens exclusively for the community airdrop program.' },
+      { question: 'Is the Sonic Arcade testnet free to play?', answer: 'Yes, 100% free. Users can request testnet $S tokens from the official faucet to play arcade games and earn engagement points without spending real funds.' },
+      { question: 'What is Fee Monetization (FeeM)?', answer: 'FeeM is an innovative mechanism where developers receive up to 90% of all transaction fees generated by their smart contracts on Sonic, creating a direct sustainable business model.' },
+      { question: 'Will Fantom (FTM) holders automatically receive $S?', answer: 'Yes, FTM holders will be able to upgrade their tokens to $S 1:1 on a simple migration bridge upon mainnet genesis.' },
+      { question: 'When is the Sonic mainnet scheduled to launch?', answer: 'Sonic mainnet and the $S token airdrop are slated for late 2026, accompanied by the activation of the Sonic Gateway bridge.' }
+    ]
+  },
+  {
+    id: 'megaeth',
+    name: 'MegaETH',
+    logo: 'https://airdrops.io/wp-content/uploads/2024/07/MegaETH-logo.png.webp',
+    description: 'The world\'s first real-time blockchain capable of 100,000 TPS, backed by Vitalik Buterin and Dragonfly.',
+    reward: 'Early Ecosystem & Community Drop',
+    category: 'Layer 2 / Real-Time EVM / Vitalik Backed',
+    featured: true,
+    status: 'active',
+    endTime: '2026-12-31T23:59:59Z',
+    funding: '$20.0M Seed Round',
+    investors: 'Vitalik Buterin, Dragonfly Capital, Robot Ventures, Big Brain Holdings, Cobie',
+    refLink: 'https://megaeth.systems',
+    overview: 'MegaETH is the world\'s first "real-time" Ethereum Layer 2 blockchain, engineered to process transactions at 100,000 transactions per second with sub-millisecond response times. Built by MegaLabs, the network solves the ultimate performance barrier in decentralized finance by decoupling transaction execution from consensus and utilizing in-memory computing.\n\nWhile traditional blockchains suffer from disk I/O bottlenecks and sequential block production delays, MegaETH keeps the entire blockchain state in high-speed RAM, allowing smart contracts to compute updates instantaneously at Web2 interactive speeds. Ethereum co-founder Vitalik Buterin personally invested in the protocol, highlighting MegaETH as a crucial milestone in Ethereum\'s scaling roadmap.\n\nWith $20 Million in seed funding backed by Dragonfly Capital, Robot Ventures, and prominent crypto native luminaries, MegaETH is launching developer testnets and public community programs ahead of its anticipated mainnet release.',
+    tokenomics: 'The native asset will serve as the economic foundation of the real-time execution environment, securing sequencer decentralization, paying for hyper-optimized block space, and participating in governance.\n\nA substantial share of the network tokenomics is reserved for early ecosystem builders, community developers, and public testnet participants who stress-test the real-time execution engine.\n\nStaking incentives will align sequencers and node operators to maintain high-throughput state validity proofs posted back to Ethereum Layer 1.',
+    sybilSafety: 'MegaETH enforces strict Sybil mitigation frameworks across its community and testing environments. Because the network focuses on real-time interactive applications (such as high-frequency trading, on-chain gaming, and real-time social platforms), bot accounts executing repetitive, low-variance micro-transactions are automatically filtered out.\n\nMeaningful engagement—such as participating in developer testnet hackathons, claiming verified community credentials on Discord, and interacting with diverse dApp environments—is paramount for qualifying.',
+    strategy: 'Maximize your standing for the MegaETH ecosystem by becoming an early community adopter and participating in testnet stress tests.\n\nFirst, join the official MegaETH Discord server and follow official announcements on X (Twitter).\n\nSecond, participate in community events and technical AMAs to earn verified roles and early tester badges.\n\nThird, add the MegaETH testnet network to your wallet upon public launch, claim faucet tokens, and test high-throughput native dApps (such as on-chain CLOBs and games) designed specifically to test the 100k TPS engine.',
+    steps: [
+      'Visit the official <a href="https://megaeth.systems" target="_blank" rel="noopener noreferrer">MegaETH Website</a> and read the technical architecture whitepaper.',
+      'Join the official MegaETH Discord community and verify your account.',
+      'Participate actively in community discussions to earn early contributor badges and roles.',
+      'Follow @megaeth_labs on X (Twitter) for testnet launch announcements and faucet credentials.',
+      'Connect your Web3 wallet (MetaMask, Rabby) to the official MegaETH public testnet portal upon release.',
+      'Request testnet gas tokens and interact with real-time on-chain applications (gaming dApps, DEXs).',
+      'Report bugs or latency feedback through official community feedback channels.',
+      'Stay tuned for official mainnet snapshot dates and token allocation checkers.'
+    ],
+    faqs: [
+      { question: 'What is MegaETH and why is Vitalik Buterin an investor?', answer: 'MegaETH is the first real-time EVM blockchain capable of 100,000 TPS with sub-millisecond response times. Vitalik Buterin invested because MegaETH brings ultra-high performance to the Ethereum ecosystem without compromising Ethereum base layer security.' },
+      { question: 'How does MegaETH achieve 100,000 TPS?', answer: 'MegaETH decouples transaction execution from consensus, stores the entire state in high-speed RAM (in-memory computing), and compiles EVM bytecode directly into native machine code.' },
+      { question: 'Is the MegaETH testnet public yet?', answer: 'Developer and public testing phases are rolling out in stages throughout 2026. Community members can join Discord to obtain early testing access.' },
+      { question: 'How much funding did MegaETH raise?', answer: 'MegaETH raised $20 Million in a seed round led by Dragonfly Capital, with participation from Robot Ventures, Big Brain Holdings, Vitalik Buterin, and Cobie.' },
+      { question: 'Will there be a native MegaETH token?', answer: 'Yes, the decentralized sequencer network and governance of the real-time execution engine will be powered by a native network token.' },
+      { question: 'What types of applications will run on MegaETH?', answer: 'Real-time financial applications, high-frequency decentralized orderbooks, on-chain real-time multiplayer games, and high-throughput social protocols.' }
+    ]
   }
 ];
