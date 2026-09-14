@@ -76,5 +76,41 @@ export const academyArticles: AcademyArticle[] = [
     title: 'Sybil Protection Explained: How to Avoid Being Blacklisted',
     excerpt: 'Master the rules of airdrop eligibility algorithms and learn how to maintain an authentic, organic wallet reputation.',
     content: 'A "Sybil attack" occurs when a single user creates dozens of automated wallets to harvest an disproportionate share of an airdrop. To protect genuine community members, projects employ advanced clustering algorithms and AI heuristics to detect and disqualify Sybil clusters.\n\nTo avoid getting blacklisted, never fund multiple farming wallets from the same centralized exchange deposit address or in identical sequential amounts. Maintain diverse transaction volumes, vary interaction timings, and interact with established mainnet protocols to establish undeniable proof of humanity.'
+  },
+  {
+    slug: 'how-do-airdrop-snapshots-work',
+    image: 'https://images.unsplash.com/photo-1642543492481-44e81e3914a7?w=800&q=80',
+    title: 'How Do Airdrop Snapshots Work: Block Heights, Multipliers & Timing',
+    excerpt: 'Learn what happens when a crypto protocol takes a snapshot, how block heights trigger allocation formulas, and how multipliers reward genuine loyalty.',
+    content: 'An airdrop snapshot is the exact block height or timestamp at which a blockchain protocol records the ledger state to determine user eligibility and token allocations. Once a snapshot block passes, any subsequent swaps, liquidity deposits, or bridging actions will not count toward that specific distribution cycle.\n\nMost tier-1 protocols conduct unannounced snapshots to prevent mercenary capital from temporarily depositing funds right before an airdrop announcement. When querying on-chain activity, development teams extract detailed metrics: historical transaction frequency, unique days/weeks/months of activity, total volume transacted, and the variety of smart contracts interacted with.\n\nTo maximize your allocation before a snapshot occurs, focus on consistent, organic usage over time rather than a high-volume burst on a single weekend. Multipliers are frequently awarded to wallets that hold governance tokens, maintain active liquidity positions during volatile market periods, or possess ecosystem-specific domain names (like ENS or SNS).'
+  },
+  {
+    slug: 'what-is-depin-bandwidth-mining',
+    image: 'https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=800&q=80',
+    title: 'DePIN Bandwidth Mining: How to Earn Passive Crypto from Unused Internet',
+    excerpt: 'Explore the DePIN revolution with protocols like Grass and Nodepay, transforming idle residential internet into verifiable AI training rewards.',
+    content: 'Decentralized Physical Infrastructure Networks (DePIN) represent one of the fastest-growing categories in Web3, allowing everyday internet users to monetize real-world hardware resources like computation, storage, and residential bandwidth.\n\nLeading protocols such as Grass (Wynd Network) and Nodepay leverage lightweight browser extensions or desktop nodes to pool unused internet connectivity. This aggregated bandwidth is then securely routed to vetted artificial intelligence research labs for web scraping public AI training datasets—without ever accessing your personal files, browsing history, or private credentials.\n\nBecause bandwidth mining is zero-cost and runs passively in the background, it provides an ideal entry point for beginner airdrop participants. Network rewards are typically tracked via tier points and uptime multipliers, converting directly into native governance tokens upon the protocol\'s Token Generation Event (TGE).'
+  },
+  {
+    slug: 'bitcoin-staking-and-restaking',
+    image: 'https://images.unsplash.com/photo-1518770660439-4636190af475?w=800&q=80',
+    title: 'Bitcoin Staking & Restaking: Unlocking Native BTC Yield on Babylon',
+    excerpt: 'Discover how native Bitcoin self-custodial staking secures Proof-of-Stake blockchains without bridging or wrapping your BTC.',
+    content: 'Historically, Bitcoin has served as digital gold—an idle store of value sitting dormant in cold storage. To earn yield or interact with decentralized applications, BTC holders previously had to trust centralized custodians or bridge wrapped assets (like WBTC) onto external chains, introducing catastrophic smart contract risk.\n\nThe Babylon Protocol and Bitcoin staking ecosystem have revolutionized this paradigm by inventing cryptographic time-locking mechanisms on the native Bitcoin network. Users can lock native BTC in self-custodial Taproot scripts directly on Bitcoin Layer 1, allowing the locked capital to provide shared economic security to Proof-of-Stake (PoS) blockchains.\n\nIn return for securing external PoS networks, Bitcoin stakers earn staking yields and retroactive governance airdrops without ever giving up private key custody. Staking your BTC into early Babylon caps or liquid staking protocols like Mezo and Solv positions your portfolio at the center of the multitrillion-dollar Bitcoin DeFi expansion.'
+  },
+  {
+    slug: 'telegram-miniapp-airdrop-mechanics',
+    image: 'https://images.unsplash.com/photo-1614680376593-902f749f7ffc?w=800&q=80',
+    title: 'Telegram Mini-App Airdrops: Tap-to-Earn, TON Wallets & Profit-Per-Hour',
+    excerpt: 'Master the mechanics of Telegram crypto games and bots, TON wallet binding requirements, and how to maximize your token allocations before TGE.',
+    content: 'Telegram Mini-Apps have onboarded hundreds of millions of mainstream users into the TON (The Open Network) ecosystem through lightweight, gamified viral loops. Pioneers like Notcoin, Blum, Catizen, and MemeFi demonstrated that social gamification can deliver lucrative real-world airdrops directly to mobile users.\n\nHowever, modern Telegram airdrop formulas have evolved far beyond simplistic "Tap-to-Earn" coin balances. Today, protocols rank player allocations based on economic efficiency metrics—primarily Profit-Per-Hour (passive income generation), on-chain TON transaction history, squad referral quality, and daily check-in streaks.\n\nTo guarantee eligibility, players must bind an active non-custodial TON wallet (such as Tonkeeper or Telegram Wallet) and execute periodic on-chain transactions (such as minting proof-of-engagement badges or paying micro gas fees). Accounts relying strictly on automated clickers without on-chain wallet signatures are routinely filtered out by anti-bot verification systems.'
+  },
+  {
+    slug: 'multi-wallet-sybil-defense',
+    image: 'https://images.unsplash.com/photo-1563986768609-322da13575f3?w=800&q=80',
+    title: 'Multi-Wallet Airdrop Strategy: Sybil Defense & Safe Portfolio Scaling',
+    excerpt: 'Learn how advanced airdrop participants safely scale multiple portfolios using distinct deposit routes, CEX sub-accounts, and randomized transaction patterns.',
+    content: 'While managing multiple wallets is a legitimate strategy for institutional traders and power users to compartmentalize protocol risk, blockchain analytics firms employ sophisticated clustering heuristics to flag and disqualify synchronized farming networks.\n\nModern Sybil detection algorithms evaluate three critical signals: shared funding lineage, synchronized execution timing, and identical smart contract interaction trees. If Wallet A, B, and C are funded within minutes from the same source or execute identical transactions across identical protocols in matching amounts, algorithms flag them as a single entity.\n\nTo farm safely at scale, advanced users establish complete on-chain isolation. This entails funding each wallet from separate sub-accounts or independent exchange accounts, randomizing transaction timestamps across different days of the week, varying dollar amounts, and utilizing decentralized identity credentials like Gitcoin Passport, ENS names, and zkPass to establish undeniable, differentiated humanity proofs.'
   }
 ];
+
