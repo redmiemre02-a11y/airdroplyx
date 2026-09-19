@@ -24,7 +24,7 @@ export const airdrops: Airdrop[] = [
   {
     id: 'push-chain',
     name: 'Push Chain',
-    logo: 'https://airdrops.io/wp-content/uploads/2026/07/Push-Chain-logo.jpg.webp',
+    logo: '/images/airdrops/push-chain.svg',
     description: 'Shared-state universal Layer 1 blockchain distributing 1,000,000,000 $PC tokens across Season 3 testnet quests.',
     reward: '1,000,000,000 $PC Confirmed',
     category: 'Layer 1 / Interop',
@@ -60,7 +60,7 @@ export const airdrops: Airdrop[] = [
   {
     id: 'wager-predict',
     name: 'Wager Predict',
-    logo: 'https://airdrops.io/wp-content/uploads/2026/07/Wager-Predict-logo.jpg.webp',
+    logo: '/images/airdrops/wager-predict.svg',
     description: 'Decentralized non-custodial prediction market on BNB Chain distributing 10% of $WP token supply.',
     reward: '10% $WP Supply Confirmed',
     category: 'Prediction Market / BSC',
@@ -96,7 +96,7 @@ export const airdrops: Airdrop[] = [
   {
     id: 'tbook',
     name: 'TBook',
-    logo: 'https://airdrops.io/wp-content/uploads/2026/08/TBook-logo.png.webp',
+    logo: '/images/airdrops/tbook.svg',
     description: 'Embedded RWA liquidity layer and Web3 identity protocol distributing 750M $BOOK tokens.',
     reward: '750,000,000 $BOOK Confirmed',
     category: 'RWA / Identity / Sui',
@@ -132,7 +132,7 @@ export const airdrops: Airdrop[] = [
   {
     id: 'ondo-perps',
     name: 'Ondo Perps',
-    logo: 'https://airdrops.io/wp-content/uploads/2026/05/Ondo-Perps-logo.png.webp',
+    logo: '/images/airdrops/ondo-perps.png',
     description: 'Trade perpetual futures on tokenized U.S. equities, ETFs, and commodities backed by Ondo Finance.',
     reward: 'Weekly USDC & Ondo Points',
     category: 'DeFi / RWA',
@@ -168,7 +168,7 @@ export const airdrops: Airdrop[] = [
   {
     id: 'nowa-protocol',
     name: 'Nowa Finance',
-    logo: 'https://airdrops.io/wp-content/uploads/2026/08/Nowa-logo.jpg.webp',
+    logo: '/images/airdrops/nowa-protocol.svg',
     description: 'On-chain Buy Now, Pay Later (BNPL) decentralized finance protocol built on high-speed ZK-Rollup.',
     reward: 'Nowa Points & Airdrop',
     category: 'DeFi / BNPL / L2',
@@ -204,7 +204,7 @@ export const airdrops: Airdrop[] = [
   {
     id: 'dow-protocol',
     name: 'Dow Protocol',
-    logo: 'https://images.unsplash.com/photo-1614064641913-6b110b9a22d9?w=128&q=80',
+    logo: '/images/airdrops/dow-protocol.svg',
     description: 'RWA-backed decentralized e-commerce financing protocol advancing working capital on-chain.',
     reward: 'Confirmed Airdrop & XP',
     category: 'Layer 0 / RWA',
@@ -238,7 +238,7 @@ export const airdrops: Airdrop[] = [
   {
     id: 'sweep-finance',
     name: 'Sweep Finance',
-    logo: 'https://airdrops.io/wp-content/uploads/2026/07/Sweep-Finance-logo.png.webp',
+    logo: '/images/airdrops/sweep-finance.svg',
     description: 'Web3 gaming and prediction market ecosystem distributing 270,000,000 $SWEEP tokens (27% of total supply).',
     reward: '270,000,000 $SWEEP (27% Supply)',
     category: 'Gaming / DeFi',
@@ -274,7 +274,7 @@ export const airdrops: Airdrop[] = [
   {
     id: 'allox',
     name: 'AlloX',
-    logo: 'https://airdrops.io/wp-content/uploads/2026/07/AlloX-logo.jpg.webp',
+    logo: '/images/airdrops/allox.svg',
     description: 'AI-powered capital allocation platform transforming market narratives into automated token portfolios.',
     reward: 'Gems & Points ($1 Gem = $5 $ALLOX)',
     category: 'AI / DeFi / BSC',
@@ -310,7 +310,7 @@ export const airdrops: Airdrop[] = [
   {
     id: 'soneium',
     name: 'Soneium (Sony L2)',
-    logo: 'https://airdrops.io/wp-content/uploads/2024/08/ujzFVEj0_400x400.jpg.webp',
+    logo: '/images/airdrops/soneium.svg',
     description: 'Ethereum Layer 2 blockchain developed by Sony Block Solutions Labs with Optimism Superchain technology.',
     reward: 'Soneium Score & Ecosystem Drops',
     category: 'Layer 2 / Sony / Superchain',
@@ -346,7 +346,7 @@ export const airdrops: Airdrop[] = [
   {
     id: 'story-protocol',
     name: 'Story Protocol',
-    logo: 'https://airdrops.io/wp-content/uploads/2023/12/Story-Protocol-logo.png.webp',
+    logo: '/images/airdrops/story-protocol.svg',
     description: 'The World\'s Programmable IP Layer 1 blockchain backed by $140M from a16z and Polychain.',
     reward: 'Odyssey Testnet & $IP Token Rewards',
     category: 'Layer 1 / IP / a16z',
@@ -382,7 +382,7 @@ export const airdrops: Airdrop[] = [
   {
     id: 'monad',
     name: 'Monad',
-    logo: 'https://airdrops.io/wp-content/uploads/2023/11/Monad-logo.png.webp',
+    logo: '/images/airdrops/monad.svg',
     description: 'Ultra-high performance 10,000 TPS parallel EVM Layer 1 backed by $225M from Paradigm and Electric Capital.',
     reward: 'Early Ecosystem Points & $MON Token Airdrop',
     category: 'Layer 1 / Parallel EVM / Paradigm',
@@ -418,7 +418,7 @@ export const airdrops: Airdrop[] = [
   {
     id: 'berachain',
     name: 'Berachain',
-    logo: 'https://airdrops.io/wp-content/uploads/2023/04/Berachain-logo.png.webp',
+    logo: '/images/airdrops/berachain.png',
     description: 'Proof-of-Liquidity Layer 1 blockchain with $142M funding led by Polychain Capital and Framework Ventures.',
     reward: '$BERA / $BGT Governance & Testnet Airdrop',
     category: 'Layer 1 / Proof of Liquidity / DeFi',
@@ -454,7 +454,7 @@ export const airdrops: Airdrop[] = [
   {
     id: 'hyperliquid',
     name: 'Hyperliquid',
-    logo: 'https://airdrops.io/wp-content/uploads/2023/11/Hyperliquid-logo.png.webp',
+    logo: '/images/airdrops/hyperliquid.png',
     description: 'Premier Layer 1 decentralized perpetual exchange with over $1B TVL and high-yield liquidity vaults.',
     reward: 'Points Program & $HYPE Token Distribution',
     category: 'Layer 1 / Perps / Orderbook',
@@ -490,7 +490,7 @@ export const airdrops: Airdrop[] = [
   {
     id: 'sonic',
     name: 'Sonic (Fantom)',
-    logo: 'https://airdrops.io/wp-content/uploads/2024/05/Sonic-logo.png.webp',
+    logo: '/images/airdrops/sonic.png',
     description: '10,000 TPS EVM Layer 1 with sub-second finality backed by Andre Cronje and a 200M $S airdrop pool.',
     reward: '200,000,000 $S Token Community Pool',
     category: 'Layer 1 / High-Speed EVM / DeFi',
@@ -526,7 +526,7 @@ export const airdrops: Airdrop[] = [
   {
     id: 'megaeth',
     name: 'MegaETH',
-    logo: 'https://airdrops.io/wp-content/uploads/2024/07/MegaETH-logo.png.webp',
+    logo: '/images/airdrops/megaeth.svg',
     description: 'The world\'s first real-time blockchain capable of 100,000 TPS, backed by Vitalik Buterin and Dragonfly.',
     reward: 'Early Ecosystem & Community Drop',
     category: 'Layer 2 / Real-Time EVM / Vitalik Backed',
@@ -562,7 +562,7 @@ export const airdrops: Airdrop[] = [
   {
     id: 'blum',
     name: 'Blum',
-    logo: 'https://airdrops.io/wp-content/uploads/2024/05/Blum-logo.png.webp',
+    logo: '/images/airdrops/blum.jpg',
     description: 'Hybrid crypto exchange inside Telegram mini-app backed by Binance Labs MVB VII with 60M+ users.',
     reward: 'Blum Points ($BP) & Token Airdrop',
     category: 'Telegram / Mini-App / Binance Labs',
@@ -598,7 +598,7 @@ export const airdrops: Airdrop[] = [
   {
     id: 'tomarket',
     name: 'Tomarket',
-    logo: 'https://airdrops.io/wp-content/uploads/2024/07/Tomarket-logo.png.webp',
+    logo: '/images/airdrops/tomarket.jpg',
     description: 'Decentralized new-asset trading marketplace and mini-app backed by Bitget Wallet with 30M+ users.',
     reward: '$TOMA Token Community Airdrop',
     category: 'Telegram / Mini-App / Bitget',
@@ -634,7 +634,7 @@ export const airdrops: Airdrop[] = [
   {
     id: 'major',
     name: 'Major of Telegram',
-    logo: 'https://airdrops.io/wp-content/uploads/2024/07/Major-logo.png.webp',
+    logo: '/images/airdrops/major.jpg',
     description: 'First-ever rating and ranking game on Telegram natively integrated with TON blockchain and Stars.',
     reward: '$MAJOR Token Allocation on TON',
     category: 'Telegram / TON / Ranking Game',
@@ -670,7 +670,7 @@ export const airdrops: Airdrop[] = [
   {
     id: 'paws',
     name: 'PAWS',
-    logo: 'https://airdrops.io/wp-content/uploads/2024/11/PAWS-logo.png.webp',
+    logo: '/images/airdrops/paws.png',
     description: 'Viral Telegram mini-app rewarding your on-chain footprint across Dogs, Notcoin, and Hamster Kombat.',
     reward: '$PAWS Token Distribution',
     category: 'Telegram / TON / Footprint Rewards',
@@ -706,7 +706,7 @@ export const airdrops: Airdrop[] = [
   {
     id: 'linea',
     name: 'Linea',
-    logo: 'https://airdrops.io/wp-content/uploads/2023/03/Linea-logo.png.webp',
+    logo: '/images/airdrops/linea.png',
     description: 'Consensys zkEVM Layer 2 network backed by $725M funding, rewarding users with LXP and LXP-L points.',
     reward: 'LXP / LXP-L Points & $LINEA Token Airdrop',
     category: 'Layer 2 / zkEVM / Consensys',
@@ -742,7 +742,7 @@ export const airdrops: Airdrop[] = [
   {
     id: 'tapswap',
     name: 'TapSwap',
-    logo: 'https://airdrops.io/wp-content/uploads/2024/05/TapSwap-logo.png.webp',
+    logo: '/images/airdrops/tapswap.jpg',
     description: 'One of the world\'s largest Telegram mini-apps with 70M+ users, featuring Tappy Town and cinema secret codes.',
     reward: 'Taps, Tappy Town & $TAPS Token Distribution',
     category: 'Telegram / Tap-to-Earn / TON',
@@ -778,7 +778,7 @@ export const airdrops: Airdrop[] = [
   {
     id: 'yescoin',
     name: 'Yescoin',
-    logo: 'https://airdrops.io/wp-content/uploads/2024/06/Yescoin-logo.png.webp',
+    logo: '/images/airdrops/yescoin.jpg',
     description: 'The viral swipe-to-earn retro pixel game on Telegram & TON with over 35M+ active community members.',
     reward: 'YesPacs & $YES Token Airdrop Pool',
     category: 'Telegram / Swipe-to-Earn / TON',
@@ -814,7 +814,7 @@ export const airdrops: Airdrop[] = [
   {
     id: 'fuel',
     name: 'Fuel Network',
-    logo: 'https://airdrops.io/wp-content/uploads/2023/06/Fuel-Network-logo.png.webp',
+    logo: '/images/airdrops/fuel.svg',
     description: 'The world\'s fastest modular execution layer with $81.5M funding, powered by FuelVM and Sway language.',
     reward: 'Fuel Points & Ecosystem Token Distribution',
     category: 'Modular / Execution Layer / FuelVM',
@@ -850,7 +850,7 @@ export const airdrops: Airdrop[] = [
   {
     id: 'babylon',
     name: 'Babylon',
-    logo: 'https://airdrops.io/wp-content/uploads/2024/02/Babylon-logo.png.webp',
+    logo: '/images/airdrops/babylon.png',
     description: 'Pioneering Bitcoin Staking protocol with $70M funding from Paradigm and Polychain Capital.',
     reward: 'Pioneer Pass NFT & $BBN Token Rewards',
     category: 'Bitcoin Staking / PoS / Paradigm',
@@ -886,7 +886,7 @@ export const airdrops: Airdrop[] = [
   {
     id: 'grass',
     name: 'Grass (Wynd Network)',
-    logo: 'https://airdrops.io/wp-content/uploads/2023/12/Grass-logo.png.webp',
+    logo: '/images/airdrops/grass.svg',
     description: 'Decentralized AI data layer where users monetize idle internet bandwidth with $4.5M+ from Polychain.',
     reward: 'Grass Points & $GRASS Token Distribution',
     category: 'DePIN / AI / Solana',
@@ -922,7 +922,7 @@ export const airdrops: Airdrop[] = [
   {
     id: 'kinto',
     name: 'Kinto',
-    logo: 'https://airdrops.io/wp-content/uploads/2024/02/Kinto-logo.png.webp',
+    logo: '/images/airdrops/kinto.svg',
     description: 'The first KYC-compliant Layer 2 with native insurance and account abstraction on Arbitrum.',
     reward: 'Mining the Kinto Gold (K-Gold) & $KINT Token',
     category: 'Layer 2 / FinTech / KYC L2',
@@ -958,7 +958,7 @@ export const airdrops: Airdrop[] = [
   {
     id: 'scroll',
     name: 'Scroll',
-    logo: 'https://airdrops.io/wp-content/uploads/2023/03/Scroll-logo.png.webp',
+    logo: '/images/airdrops/scroll.png',
     description: 'Native zkEVM Layer 2 on Ethereum with $80M funding at a $1.8B valuation, featuring Scroll Marks.',
     reward: 'Scroll Marks, Badges & $SCR Token Airdrop',
     category: 'Layer 2 / zkEVM / Ethereum',
@@ -994,7 +994,7 @@ export const airdrops: Airdrop[] = [
   {
     id: 'eclipse',
     name: 'Eclipse',
-    logo: 'https://airdrops.io/wp-content/uploads/2024/03/Eclipse-logo.png.webp',
+    logo: '/images/airdrops/eclipse.svg',
     description: 'Ethereum\'s fastest Layer 2 powered by the Solana Virtual Machine (SVM) with $65M venture funding.',
     reward: 'Early Ecosystem & Testnet Token Drop',
     category: 'Layer 2 / SVM on Ethereum / Modular',
@@ -1030,7 +1030,7 @@ export const airdrops: Airdrop[] = [
   {
     id: 'io-net',
     name: 'io.net',
-    logo: 'https://airdrops.io/wp-content/uploads/2024/03/io.net-logo.png.webp',
+    logo: '/images/airdrops/io-net.svg',
     description: 'Decentralized GPU computing cluster for AI models backed by $30M from Hack VC and Multicoin.',
     reward: '$IO Token & Ignition Rewards',
     category: 'DePIN / AI Compute / Solana',
@@ -1067,7 +1067,7 @@ export const airdrops: Airdrop[] = [
   {
     id: 'nodepay',
     name: 'Nodepay',
-    logo: 'https://airdrops.io/wp-content/uploads/2024/05/Nodepay-logo.png.webp',
+    logo: '/images/airdrops/nodepay.svg',
     description: 'AI DePIN bandwidth network backed by Animoca Brands and Jump Crypto with 1M+ active nodes.',
     reward: 'Nodepay Points & Node Mining Airdrop',
     category: 'DePIN / AI / Bandwidth',
@@ -1104,7 +1104,7 @@ export const airdrops: Airdrop[] = [
   {
     id: 'catizen',
     name: 'Catizen',
-    logo: 'https://airdrops.io/wp-content/uploads/2024/04/Catizen-logo.png.webp',
+    logo: '/images/airdrops/catizen.jpg',
     description: 'Cat-breeding GameFi mini-app inside Telegram backed by Binance Labs with 40M+ players.',
     reward: '$CATI Token Airdrop Distribution',
     category: 'Telegram / GameFi / TON',
@@ -1141,7 +1141,7 @@ export const airdrops: Airdrop[] = [
   {
     id: 'memefi',
     name: 'MemeFi',
-    logo: 'https://airdrops.io/wp-content/uploads/2024/05/MemeFi-logo.png.webp',
+    logo: '/images/airdrops/memefi.jpg',
     description: 'PvP boss battle and clan war gaming mini-app on Telegram with 45M+ active users.',
     reward: '$MEMEFI Token Airdrop Pool',
     category: 'Telegram / GameFi / Linea & TON',
@@ -1178,7 +1178,7 @@ export const airdrops: Airdrop[] = [
   {
     id: 'bob-network',
     name: 'BOB (Build on Bitcoin)',
-    logo: 'https://airdrops.io/wp-content/uploads/2024/04/BOB-logo.png.webp',
+    logo: '/images/airdrops/bob-network.png',
     description: 'Hybrid Layer 2 combining Bitcoin security with Ethereum EVM compatibility backed by $10M from Castle Island.',
     reward: 'BOB Spice Points & Ecosystem Airdrop',
     category: 'Bitcoin Layer 2 / EVM / Hybrid',
@@ -1215,7 +1215,7 @@ export const airdrops: Airdrop[] = [
   {
     id: 'mezo',
     name: 'Mezo',
-    logo: 'https://airdrops.io/wp-content/uploads/2024/04/Mezo-logo.png.webp',
+    logo: '/images/airdrops/mezo.svg',
     description: 'The Bitcoin Economic Layer backed by $21M from Pantera Capital and Multicoin Capital.',
     reward: 'Mezo Mats Points & $MEZO Airdrop',
     category: 'Bitcoin Layer 2 / Economic Layer / Pantera',
@@ -1252,7 +1252,7 @@ export const airdrops: Airdrop[] = [
   {
     id: 'movement',
     name: 'Movement Labs',
-    logo: 'https://airdrops.io/wp-content/uploads/2024/04/Movement-Labs-logo.png.webp',
+    logo: '/images/airdrops/movement.svg',
     description: 'First Move-EVM Layer 2 on Ethereum with $38M funding from Polychain Capital and Hack VC.',
     reward: 'Movement Olympus Testnet & Token Airdrop',
     category: 'Layer 2 / Move-EVM / Modular',
@@ -1289,7 +1289,7 @@ export const airdrops: Airdrop[] = [
   {
     id: 'initia',
     name: 'Initia',
-    logo: 'https://airdrops.io/wp-content/uploads/2024/05/Initia-logo.png.webp',
+    logo: '/images/airdrops/initia.svg',
     description: 'Interwoven Rollup network with $22.5M funding from Binance Labs, Theory Ventures, and Delphi.',
     reward: 'Initia XP, Jennie NFT & Token Airdrop',
     category: 'Modular / Interwoven Rollups / Cosmos',
@@ -1326,7 +1326,7 @@ export const airdrops: Airdrop[] = [
   {
     id: 'drift-protocol',
     name: 'Drift Protocol',
-    logo: 'https://airdrops.io/wp-content/uploads/2024/01/Drift-Protocol-logo.png.webp',
+    logo: '/images/airdrops/drift-protocol.svg',
     description: 'Premier Solana decentralized perpetual and spot exchange with $300M+ TVL and $25M funding.',
     reward: 'Drift Fuel, Staking & $DRIFT Airdrop',
     category: 'Solana / Perps DEX / Lending',
@@ -1363,7 +1363,7 @@ export const airdrops: Airdrop[] = [
   {
     id: 'orderly',
     name: 'Orderly Network',
-    logo: 'https://airdrops.io/wp-content/uploads/2024/02/Orderly-Network-logo.png.webp',
+    logo: '/images/airdrops/orderly.svg',
     description: 'Omnichain shared orderbook infrastructure powering EVM and NEAR with $20M funding from Sequoia.',
     reward: 'Orderly Merits & $ORDER Token Airdrop',
     category: 'Omnichain / Orderbook / DeFi',
@@ -1400,7 +1400,7 @@ export const airdrops: Airdrop[] = [
   {
     id: 'mitosis',
     name: 'Mitosis',
-    logo: 'https://airdrops.io/wp-content/uploads/2024/05/Mitosis-logo.png.webp',
+    logo: '/images/airdrops/mitosis.svg',
     description: 'The ecosystem-owned liquidity protocol for modular blockchains with $7M funding from Amber Group.',
     reward: 'Mitosis Matrix & $MITO Token Airdrop',
     category: 'Modular / Liquidity Layer / Cross-Chain',
@@ -1437,7 +1437,7 @@ export const airdrops: Airdrop[] = [
   {
     id: 'x-empire',
     name: 'X Empire',
-    logo: 'https://airdrops.io/wp-content/uploads/2024/07/X-Empire-logo.png.webp',
+    logo: '/images/airdrops/x-empire.jpg',
     description: 'Billionaire stock exchange and business simulator mini-app on Telegram with 35M+ players.',
     reward: '$X Token Community Airdrop on TON',
     category: 'Telegram / Simulation / TON',
@@ -1474,7 +1474,7 @@ export const airdrops: Airdrop[] = [
   {
     id: 'plume-network',
     name: 'Plume Network',
-    logo: 'https://airdrops.io/wp-content/uploads/2024/05/Plume-Network-logo.png.webp',
+    logo: '/images/airdrops/plume-network.svg',
     description: 'The first modular Layer 2 dedicated to Real World Assets (RWAfi) with $10M from Haun Ventures.',
     reward: 'Plume Miles & $PLUME Token Airdrop',
     category: 'Modular / RWA / Layer 2',
@@ -1511,7 +1511,7 @@ export const airdrops: Airdrop[] = [
   {
     id: 'fractal-bitcoin',
     name: 'Fractal Bitcoin',
-    logo: 'https://airdrops.io/wp-content/uploads/2024/08/Fractal-Bitcoin-logo.png.webp',
+    logo: '/images/airdrops/fractal-bitcoin.svg',
     description: 'Bitcoin Layer 2 scaling with recursive virtualization backed by UniSat, supporting native BRC-20 and Runes.',
     reward: 'Fractal Testnet Mining & $FB Token Airdrop',
     category: 'Bitcoin Layer 2 / Virtualization / UniSat',
@@ -1548,7 +1548,7 @@ export const airdrops: Airdrop[] = [
   {
     id: 'aleo',
     name: 'Aleo',
-    logo: 'https://airdrops.io/wp-content/uploads/2023/04/Aleo-logo.png.webp',
+    logo: '/images/airdrops/aleo.svg',
     description: 'Zero-knowledge privacy Layer 1 blockchain backed by $298M from SoftBank, a16z, and Tiger Global, launching incentivized mainnet rewards.',
     reward: 'Mainnet Incentive Rewards & $ALEO Staking Distribution',
     category: 'Privacy / Zero-Knowledge Layer 1',
@@ -1584,7 +1584,7 @@ export const airdrops: Airdrop[] = [
   {
     id: 'symbiotic',
     name: 'Symbiotic',
-    logo: 'https://airdrops.io/wp-content/uploads/2024/06/Symbiotic-logo.png.webp',
+    logo: '/images/airdrops/symbiotic.svg',
     description: 'Permissionless shared security restaking protocol backed by Paradigm and Cyber Fund with multi-asset collateral deposits.',
     reward: 'Symbiotic Points & Future Protocol Governance Token',
     category: 'Restaking / Shared Security',
@@ -1618,7 +1618,7 @@ export const airdrops: Airdrop[] = [
   {
     id: 'karak',
     name: 'Karak',
-    logo: 'https://airdrops.io/wp-content/uploads/2024/04/Karak-logo.png.webp',
+    logo: '/images/airdrops/karak.png',
     description: 'Universal restaking layer for any asset, backed by $48M from Lightspeed, Pantera Capital, and Mubadala.',
     reward: 'Karak XP & Native Restaking Allocation',
     category: 'Restaking / Universal Security / Layer 2',
@@ -1651,7 +1651,7 @@ export const airdrops: Airdrop[] = [
   {
     id: 'particle-network',
     name: 'Particle Network',
-    logo: 'https://airdrops.io/wp-content/uploads/2024/05/Particle-Network-logo.png.webp',
+    logo: '/images/airdrops/particle-network.svg',
     description: 'Modular Layer 1 powering Universal Accounts and Chain Abstraction across all Web3 ecosystems, backed by $25M.',
     reward: 'Particle Pioneer PARTI Points & $PARTI Token',
     category: 'Chain Abstraction / Modular L1',
@@ -1684,7 +1684,7 @@ export const airdrops: Airdrop[] = [
   {
     id: 'sahara-ai',
     name: 'Sahara AI',
-    logo: 'https://airdrops.io/wp-content/uploads/2024/08/Sahara-AI-logo.png.webp',
+    logo: '/images/airdrops/sahara-ai.svg',
     description: 'Decentralized AI collaborative economy platform raising $43M led by Pantera Capital, Binance Labs, and Polychain.',
     reward: 'Sahara Points & Testnet Data Contributor Token Allocation',
     category: 'AI / Decentralized Compute / Data',
@@ -1717,7 +1717,7 @@ export const airdrops: Airdrop[] = [
   {
     id: 'hamster-kombat',
     name: 'Hamster Kombat',
-    logo: 'https://airdrops.io/wp-content/uploads/2024/06/Hamster-Kombat-logo.png.webp',
+    logo: '/images/airdrops/hamster-kombat.jpg',
     description: 'Record-shattering Telegram Mini-App with 300M+ players, featuring Season 2 token farming, diamond mining, and TON rewards.',
     reward: '$HMSTR Token Season Rewards & Diamond Mining',
     category: 'Telegram Mini-App / TON / Gaming',
@@ -1751,7 +1751,7 @@ export const airdrops: Airdrop[] = [
   {
     id: 'zora',
     name: 'Zora Network',
-    logo: 'https://airdrops.io/wp-content/uploads/2023/07/Zora-logo.png.webp',
+    logo: '/images/airdrops/zora.png',
     description: 'Creator-centric Ethereum Layer 2 built on the OP Stack, backed by $60M from Paradigm and Haun Ventures.',
     reward: 'Zora Sparks, Creator Rewards & Potential Governance Airdrop',
     category: 'Layer 2 / OP Stack / Creator Economy',
@@ -1785,7 +1785,7 @@ export const airdrops: Airdrop[] = [
   {
     id: 'farcaster',
     name: 'Farcaster',
-    logo: 'https://airdrops.io/wp-content/uploads/2024/05/Farcaster-logo.png.webp',
+    logo: '/images/airdrops/farcaster.svg',
     description: 'Sufficiently decentralized social network protocol valued at $1 Billion, backed by $180M led by Paradigm and a16z.',
     reward: 'Warpcast Power Badge, Moxie Points & Ecosystem Airdrops',
     category: 'SocialFi / Decentralized Social / Optimism',
@@ -1818,7 +1818,7 @@ export const airdrops: Airdrop[] = [
   {
     id: 'kakarot',
     name: 'Kakarot zkEVM',
-    logo: 'https://airdrops.io/wp-content/uploads/2023/06/Kakarot-logo.png.webp',
+    logo: '/images/airdrops/kakarot.svg',
     description: 'Zero-knowledge Ethereum Virtual Machine built on Cairo and Starknet, backed by Vitalik Buterin and StarkWare.',
     reward: 'Kakarot Testnet Quests & Native $KKRT Airdrop',
     category: 'zkEVM / Cairo / Starknet',
@@ -1851,7 +1851,7 @@ export const airdrops: Airdrop[] = [
   {
     id: 'lava-network',
     name: 'Lava Network',
-    logo: 'https://airdrops.io/wp-content/uploads/2024/02/Lava-Network-logo.png.webp',
+    logo: '/images/airdrops/lava-network.svg',
     description: 'Modular data access and decentralized RPC routing network backed by $15M from HashKey, Jump Capital, and Tribe.',
     reward: 'Magma Points & $LAVA Mainnet Token Distribution',
     category: 'Modular Infrastructure / RPC / Data Layer',
@@ -1884,7 +1884,7 @@ export const airdrops: Airdrop[] = [
   {
     id: 'dogs',
     name: 'Dogs',
-    logo: 'https://airdrops.io/wp-content/uploads/2024/07/Dogs-logo.png.webp',
+    logo: '/images/airdrops/dogs.jpg',
     description: 'The native meme coin of Telegram inspired by Pavel Durov\'s iconic mascot Spotty, rewarding users based on account age and activity.',
     reward: '$DOGS Token Airdrop & Community Allocations',
     category: 'Telegram Mini-App / TON / MemeFi',
@@ -1918,7 +1918,7 @@ export const airdrops: Airdrop[] = [
   {
     id: 'pixel-tap',
     name: 'Pixelverse (PixelTap)',
-    logo: 'https://airdrops.io/wp-content/uploads/2024/06/Pixelverse-logo.png.webp',
+    logo: '/images/airdrops/pixel-tap.jpg',
     description: 'Cyberpunk battle game on Telegram with 50M+ players, backed by $5.5M from Delphi Digital, Mechanism Capital, and Merit Circle.',
     reward: '$PIXFI Token Airdrop & Cybernetic Battle Rewards',
     category: 'Telegram Mini-App / TON / Gaming / PvP',
@@ -1952,7 +1952,7 @@ export const airdrops: Airdrop[] = [
   {
     id: 'cex-io-power-tap',
     name: 'CEX.IO Power Tap',
-    logo: 'https://airdrops.io/wp-content/uploads/2024/06/CEX.IO-logo.png.webp',
+    logo: '/images/airdrops/cex-io-power-tap.png',
     description: 'Official Telegram Tap-to-Earn game from regulated global crypto exchange CEX.IO, rewarding players with $CEXP tokens.',
     reward: '$CEXP Token Pre-Listing Allocations',
     category: 'Telegram Mini-App / Exchange / Tap-to-Earn',
@@ -1986,7 +1986,7 @@ export const airdrops: Airdrop[] = [
   {
     id: 'w-coin',
     name: 'W-Coin',
-    logo: 'https://airdrops.io/wp-content/uploads/2024/06/W-Coin-logo.png.webp',
+    logo: '/images/airdrops/w-coin.jpg',
     description: 'Viral community gaming ecosystem on Telegram with 20M+ users, featuring decentralized blockchain voting and native staking.',
     reward: '$WCOIN Token Distribution & Staking Yield',
     category: 'Telegram Mini-App / Multi-Chain / Community',
@@ -2020,7 +2020,7 @@ export const airdrops: Airdrop[] = [
   {
     id: 'seed-app',
     name: 'Seed App',
-    logo: 'https://airdrops.io/wp-content/uploads/2024/06/Seed-App-logo.png.webp',
+    logo: '/images/airdrops/seed-app.jpg',
     description: 'Nature-themed Telegram game with 15M+ users, featuring virtual tree planting, egg incubation, and $SEED token farming.',
     reward: '$SEED Token Airdrop & Rare Monster NFTs',
     category: 'Telegram Mini-App / TON / Play-to-Earn',
@@ -2054,7 +2054,7 @@ export const airdrops: Airdrop[] = [
   {
     id: 'banana-bot',
     name: 'Banana by CARV',
-    logo: 'https://airdrops.io/wp-content/uploads/2024/08/Banana-logo.png.webp',
+    logo: '/images/airdrops/banana-bot.jpg',
     description: 'Viral Telegram idle game powered by CARV ($50M valuation), allowing users to collect rare digital bananas with instant USDT cashouts.',
     reward: 'Instant USDT Cashouts, PEEL Tokens & $CARV Airdrop',
     category: 'Telegram Mini-App / CARV / Play-to-Earn',
@@ -2088,7 +2088,7 @@ export const airdrops: Airdrop[] = [
   {
     id: 'binance-moonbix',
     name: 'Binance Moonbix',
-    logo: 'https://airdrops.io/wp-content/uploads/2024/09/Moonbix-logo.png.webp',
+    logo: '/images/airdrops/binance-moonbix.jpg',
     description: 'Official space-exploration Telegram crypto game launched directly by Binance, rewarding early pilots with Points and exclusive token allocations.',
     reward: 'Moonbix Explorer Points & Binance Token Allocations',
     category: 'Telegram Mini-App / Binance / Space Game',
@@ -2123,7 +2123,7 @@ export const airdrops: Airdrop[] = [
   {
     id: 'okx-racer',
     name: 'OKX Racer',
-    logo: 'https://airdrops.io/wp-content/uploads/2024/07/OKX-Racer-logo.png.webp',
+    logo: '/images/airdrops/okx-racer.jpg',
     description: 'Official real-time Bitcoin price prediction Telegram Mini-App created directly by OKX, earning fuel points for upcoming platform rewards.',
     reward: 'OKX Racer Points & Future Token Drops',
     category: 'Telegram Mini-App / OKX / Bitcoin Predictor',
@@ -2157,7 +2157,7 @@ export const airdrops: Airdrop[] = [
   {
     id: 'vana-data-hero',
     name: 'Vana (Data Hero)',
-    logo: 'https://airdrops.io/wp-content/uploads/2024/09/Vana-logo.png.webp',
+    logo: '/images/airdrops/vana-data-hero.jpg',
     description: 'User-owned data Layer 1 backed by $25M from Paradigm and Coinbase Ventures, running the official Data Hero Telegram Mini-App.',
     reward: 'Vana Points & Satori Testnet Token Airdrop',
     category: 'Telegram Mini-App / AI Data L1 / Paradigm',
@@ -2191,7 +2191,7 @@ export const airdrops: Airdrop[] = [
   {
     id: 'hemi-network',
     name: 'Hemi Network',
-    logo: 'https://airdrops.io/wp-content/uploads/2024/09/Hemi-logo.png.webp',
+    logo: '/images/airdrops/hemi-network.svg',
     description: 'Modular Layer 2 powered by Bitcoin and Ethereum, founded by Jeff Garzik and backed by $15M from Binance Labs and Breyer Capital.',
     reward: 'Hemi Points & Testnet PoP Mining Token Airdrop',
     category: 'Modular L2 / Bitcoin + Ethereum / Binance Labs',
@@ -2225,7 +2225,7 @@ export const airdrops: Airdrop[] = [
   {
     id: 'matchquest',
     name: 'MatchQuest (Matchain)',
-    logo: 'https://airdrops.io/wp-content/uploads/2024/08/Matchain-logo.png.webp',
+    logo: '/images/airdrops/matchquest.jpg',
     description: 'Decentralized AI Layer 2 on BNB Chain with its viral Telegram Mini-App MatchQuest, mining MATCH points before TGE.',
     reward: 'MATCH Points & Genesis Airdrop',
     category: 'Telegram Mini-App / AI Layer 2 / BNB Chain',
@@ -2259,7 +2259,7 @@ export const airdrops: Airdrop[] = [
   {
     id: 'tabi-zoo',
     name: 'Tabi Zoo (Tabi Chain)',
-    logo: 'https://airdrops.io/wp-content/uploads/2024/07/Tabi-logo.png.webp',
+    logo: '/images/airdrops/tabi-zoo.jpg',
     description: 'Gamified Telegram island game on Tabi Chain (backed by $11M from Animoca Brands and Binance Labs), earning GG coins before mainnet.',
     reward: 'GG Coins & $TABI Token Airdrop',
     category: 'Telegram Mini-App / Modular Gaming / Binance Labs',

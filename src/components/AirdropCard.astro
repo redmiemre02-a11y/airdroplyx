@@ -23,8 +23,8 @@ const statusBadgeColor = airdrop.status === 'active' ? 'bg-emerald-50 text-emera
 
   <div class="flex items-start gap-4">
     <!-- Logo Box -->
-    <div class="w-[72px] h-[72px] rounded-xl bg-slate-50 border border-slate-100 flex items-center justify-center shrink-0 p-2 shadow-inner">
-      <img src={airdrop.logo} alt={airdrop.name} class="w-full h-full object-contain drop-shadow-sm group-hover:scale-110 transition-transform duration-300" loading="lazy" />
+    <div class="w-[72px] h-[72px] rounded-xl bg-slate-50 border border-slate-100 flex items-center justify-center shrink-0 p-1.5 shadow-inner overflow-hidden">
+      <img src={airdrop.logo} alt={airdrop.name} class="w-full h-full object-cover rounded-lg drop-shadow-sm group-hover:scale-110 transition-transform duration-300" loading="lazy" />
     </div>
 
     <!-- Content -->
