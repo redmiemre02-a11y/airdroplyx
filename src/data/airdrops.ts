@@ -2528,4 +2528,478 @@ export const airdrops: Airdrop[] = [
       { question: 'Which blockchain does DuckCoop use?', answer: 'DuckCoop operates natively on The Open Network (TON).' }
     ]
   }
+,
+  {
+    id: "not-pixel",
+    name: "Not Pixel",
+    logo: "/images/airdrops/not-pixel.jpg",
+    description: "Massive collaborative pixel battle canvas by the Notcoin team where millions of players paint pixels on a 1000x1000 grid to mine $PX tokens.",
+    reward: "$PX Token Allocation Pre-TGE",
+    category: "Telegram Mini-App / TON / GameFi",
+    featured: true,
+    status: "active",
+    publishDate: "2026-09-22",
+    endTime: "2026-11-30T23:59:59Z",
+    funding: "Incubated by Notcoin ($1B+ Ecosystem)",
+    investors: "Open Builders & TON Foundation",
+    refLink: "https://t.me/notpixel",
+    overview: "Not Pixel is the latest blockbuster creation from the original Notcoin team and Open Builders, representing the evolution of Telegram social gaming into a giant collaborative digital canvas. Inside the mini-app, millions of players compete and collaborate on a shared 1,000 x 1,000 pixel canvas, painting pixels in real time to claim territory and mine $PX tokens.\n\nEvery pixel painted grants immediate mining power and contributes to the user's passive $PX accumulation rate. Players can upgrade energy limits, painting recharge speeds, and color rewards to maximize their share of the upcoming $PX airdrop.\n\nWith the proven track record of Notcoin delivering the largest community airdrop in Web3 history, Not Pixel is currently one of the most anticipated and actively farmed pre-TGE projects on The Open Network (TON).",
+    tokenomics: "The $PX token will be minted on the TON blockchain with pure community distribution. Just like Notcoin ($NOT), there are no private venture capital allocations or predatory vesting schedules.",
+    sybilSafety: "Not Pixel employs canvas coordinate verification, energy cool-down timers, and Telegram account age heuristics. Avoid automated clickers or script injectors, as abnormal painting frequencies trigger shadowbans.",
+    strategy: "Paint pixels every time your energy refills, focus your upgrades on Painting Speed and Energy Cap first, join a squad to dominate canvas regions, and claim passive $PX every 8 hours.",
+    steps: [
+      "Open the official <a href=\"https://t.me/notpixel\" target=\"_blank\" rel=\"noopener noreferrer\">Not Pixel Telegram Bot</a>.",
+      "Select any coordinate on the 1000x1000 canvas and pick a color to paint your first pixel.",
+      "Claim your initial $PX mining bonus and explore the canvas zoom controls.",
+      "Head to the \"Boosts\" tab and upgrade \"Paint Reward\", \"Recharge Speed\", and \"Energy Limit\".",
+      "Join an active Squad in your country or community to participate in coordinated canvas art.",
+      "Complete partner tasks in the \"Tasks\" section to receive instant bonus energy refills.",
+      "Return every 8 hours to claim your accumulated passive $PX yield from the mining vault.",
+      "Connect your non-custodial TON wallet (Tonkeeper) ahead of the official snapshot announcement."
+],
+    faqs: [
+      {
+            "question": "What is Not Pixel?",
+            "answer": "Not Pixel is a viral canvas painting game created by the Notcoin team where users paint pixels to mine $PX tokens on TON."
+      },
+      {
+            "question": "Is Not Pixel free to play?",
+            "answer": "Yes, Not Pixel is 100% free to play inside Telegram without any mandatory deposits."
+      },
+      {
+            "question": "When is the Not Pixel ($PX) listing?",
+            "answer": "The $PX token generation event (TGE) is scheduled for Q4 2026 on major tier-1 crypto exchanges alongside TON DEXs."
+      }
+]
+  },
+  {
+    id: "bums",
+    name: "Bums",
+    logo: "/images/airdrops/bums.jpg",
+    description: "Viral Telegram street simulator where players evolve from an underdog street bum into a billionaire crypto mogul while farming $BUMS tokens.",
+    reward: "$BUMS Token Community Drop",
+    category: "Telegram Mini-App / TON / Tap-to-Earn",
+    featured: true,
+    status: "active",
+    publishDate: "2026-09-22",
+    endTime: "2026-12-15T23:59:59Z",
+    funding: "Community Backed",
+    investors: "TON Meme & GameFi Syndicate",
+    refLink: "https://t.me/bums",
+    overview: "Bums is an ultra-viral Telegram Mini-App on The Open Network (TON) that has captured over 10 million players worldwide with its gritty humor and addictive progression mechanics. In Bums, players start at rock bottom as a penniless street wanderer and work their way up through the criminal and business underworld to become an untouchable crypto titan.\n\nEvery tap and business upgrade increases your hourly passive revenue (Coins Per Hour), unlocking higher character tiers, luxury penthouses, customized street outfits, and crypto mining rigs.\n\nAhead of its anticipated exchange listing and token generation event (TGE), Bums is distributing the vast majority of its $BUMS token supply directly to active players based on their hourly profit and character level.",
+    tokenomics: "The $BUMS token operates natively on TON. Airdrop weight is calculated primarily based on hourly profit, character evolution rank, and daily mystery box streaks.",
+    sybilSafety: "Anti-cheat algorithms track tap cadence and daily check-in IP anomalies. Ensure you bind an active Tonkeeper wallet with genuine transaction history to pass Sybil screening.",
+    strategy: "Reinvest all tapped coins into the highest ROI business cards in the \"Upgrade\" menu to maximize Coins Per Hour, solve the daily Mystery Box combo, and maintain consecutive login streaks.",
+    steps: [
+      "Launch the official <a href=\"https://t.me/bums\" target=\"_blank\" rel=\"noopener noreferrer\">Bums Telegram Bot</a>.",
+      "Tap to earn your starting coin pool and upgrade your character appearance.",
+      "Navigate to the \"College / Business\" section and purchase passive income cards to boost your hourly profit.",
+      "Complete the daily \"Mystery Box\" card combination to unlock huge lump-sum coin bonuses.",
+      "Engage in daily expeditions and street battles to win rare gear and multipliers.",
+      "Finish official social quests under the \"Tasks\" menu to earn rapid coin injections.",
+      "Connect your TON wallet (Tonkeeper or Bitget Wallet) in the airdrop portal.",
+      "Monitor the in-game airdrop dashboard to track your eligibility rank for the $BUMS TGE."
+],
+    faqs: [
+      {
+            "question": "What is Bums Telegram game?",
+            "answer": "Bums is a viral character evolution and tap-to-earn game on TON where players grow from a street bum to a crypto billionaire."
+      },
+      {
+            "question": "How is the $BUMS airdrop calculated?",
+            "answer": "The airdrop is primarily determined by your passive profit per hour, character level, and daily activity streaks."
+      },
+      {
+            "question": "Do I need to pay anything to farm Bums?",
+            "answer": "No, Bums is completely free to play."
+      }
+]
+  },
+  {
+    id: "city-holder",
+    name: "CITY Holder",
+    logo: "/images/airdrops/city-holder.jpg",
+    description: "Premier Build-to-Earn virtual city simulator on TON where mayors construct skyscrapers, manage economies, and compete for $CITY token allocations.",
+    reward: "$CITY Token Allocations Pre-TGE",
+    category: "Telegram Mini-App / TON / Simulation",
+    featured: false,
+    status: "active",
+    publishDate: "2026-09-22",
+    endTime: "2026-12-31T23:59:59Z",
+    funding: "$3.5M Ecosystem Grants & Angel Round",
+    investors: "Web3 City Builders & TON Ventures",
+    refLink: "https://t.me/cityholder",
+    overview: "CITY Holder is the first comprehensive \"Build-to-Earn\" city construction and management simulator built directly inside Telegram on The Open Network (TON). Transforming traditional idle mechanics into deep macroeconomic strategy, CITY Holder tasks players with acting as city mayors, strategically designing zoning districts, infrastructure, parks, and financial centers.\n\nEach constructed building increases your city's population, happiness index, and hourly tax revenue. Mayors can join municipal alliances, participate in city vs city economic wars, and construct rare historical landmarks.\n\nWith millions of active mayors, CITY Holder has announced that its upcoming $CITY token airdrop will reward players based on total city population, treasury balance, and infrastructure milestones.",
+    tokenomics: "The $CITY token governs the CITY Holder metaverse, enables real-estate NFT trading, and provides yield staking for city mayors on TON.",
+    sybilSafety: "CITY Holder enforces realistic city build timers and daily municipal audits. Automated multi-account farming networks are filtered through Telegram verification and TON wallet reputation checks.",
+    strategy: "Balance residential buildings (population) with commercial and industrial infrastructure to optimize income, construct landmarks for permanent tax bonuses, and participate in daily town hall quizzes.",
+    steps: [
+      "Open the official <a href=\"https://t.me/cityholder\" target=\"_blank\" rel=\"noopener noreferrer\">CITY Holder Telegram Bot</a>.",
+      "Claim your mayoral charter and construct your first residential duplex.",
+      "Expand into commercial and industrial sectors to generate hourly tax revenue.",
+      "Build educational, medical, and entertainment facilities to maximize citizen happiness.",
+      "Join an active City Alliance or create your own megalopolis with friends.",
+      "Answer the daily \"City Quiz\" to earn instant construction grant bonuses.",
+      "Connect your TON wallet (Tonkeeper) in the city treasury tab.",
+      "Prepare your metropolitan empire for the verified $CITY snapshot and token distribution."
+],
+    faqs: [
+      {
+            "question": "What is CITY Holder?",
+            "answer": "CITY Holder is a strategic city-building simulator on Telegram where players earn $CITY tokens by developing virtual megalopolises."
+      },
+      {
+            "question": "What determines your airdrop size in CITY Holder?",
+            "answer": "City population, hourly tax revenue, constructed landmark tiers, and municipal alliance rank."
+      },
+      {
+            "question": "Is CITY Holder on the TON blockchain?",
+            "answer": "Yes, CITY Holder is built natively for The Open Network (TON)."
+      }
+]
+  },
+  {
+    id: "pocketfi",
+    name: "PocketFi (XPocket)",
+    logo: "/images/airdrops/pocketfi.jpg",
+    description: "Leading all-in-one cross-chain DeFi aggregator and swap protocol inside Telegram mining $SWITCH tokens with automated halving mechanics.",
+    reward: "$SWITCH Token Farming (Halving Active)",
+    category: "Telegram Mini-App / TON / DeFi",
+    featured: true,
+    status: "active",
+    publishDate: "2026-09-22",
+    endTime: "2026-11-15T23:59:59Z",
+    funding: "Incubated by George Lozovsky (ex-TON Core)",
+    investors: "TON DeFi Alliances & DEX Liquidity Providers",
+    refLink: "https://t.me/pocketfi_bot",
+    overview: "PocketFi (operating as XPocket) is a cutting-edge decentralized finance protocol and multi-chain swap platform operating seamlessly inside Telegram. Created by George Lozovsky and prominent TON builders, PocketFi solves the fragmentation of Web3 liquidity by allowing users to swap tokens across TON, Ethereum, Arbitrum, Optimism, and BNB Chain in a single click without leaving Telegram.\n\nAt the core of PocketFi's adoption model is $SWITCH—the native governance and fee-discount token mined by active participants. Unlike basic tap-to-earn games, PocketFi uses a real DeFi mining mechanic where tokens accumulate in your vault every hour and burn if not claimed within 6 hours.\n\nWith multiple halving milestones already executed, $SWITCH has become one of the most fundamentally grounded utility tokens in the entire Telegram ecosystem.",
+    tokenomics: "The $SWITCH token will power decentralized governance, cross-chain bridge fee sharing, and staking tiers across PocketFi's multichain DEX suite.",
+    sybilSafety: "PocketFi enforces strict on-chain validation. Users who execute actual token swaps or maintain active TON wallet balances receive substantially higher mining multipliers.",
+    strategy: "Claim mined $SWITCH at least once every 6 hours before the burn mechanism triggers, execute occasional micro-swaps on TON to boost your mining speed, and complete Big Pocket verification quests.",
+    steps: [
+      "Launch the official <a href=\"https://t.me/pocketfi_bot\" target=\"_blank\" rel=\"noopener noreferrer\">PocketFi Telegram Bot</a>.",
+      "Activate your mining account and claim your initial $SWITCH welcome allocation.",
+      "Claim your accumulated tokens every 5-6 hours before the vault auto-burns.",
+      "Navigate to the \"Boost\" section and complete social and ecosystem tasks.",
+      "Execute a swap on TON or EVM chains within PocketFi to permanently increase your mining speed.",
+      "Connect your non-custodial TON wallet (Tonkeeper or MyTonWallet).",
+      "Invite Web3 friends to form mining syndicates and earn referral boost percentages.",
+      "Hold your claimed $SWITCH safely in anticipation of the upcoming exchange listing."
+],
+    faqs: [
+      {
+            "question": "What is PocketFi ($SWITCH)?",
+            "answer": "PocketFi is a cross-chain DeFi aggregator inside Telegram that enables seamless swaps while allowing users to mine $SWITCH tokens."
+      },
+      {
+            "question": "Why do my $SWITCH tokens burn if not claimed?",
+            "answer": "PocketFi implements a 6-hour burn mechanism to reward active, engaged users and prevent inactive ghost accounts."
+      },
+      {
+            "question": "Is PocketFi built on TON?",
+            "answer": "Yes, PocketFi operates natively on TON and bridges liquidity with Ethereum, Arbitrum, and BNB Chain."
+      }
+]
+  },
+  {
+    id: "bombie",
+    name: "Bombie",
+    logo: "/images/airdrops/bombie.jpg",
+    description: "Post-apocalyptic zombie meme shooter by Pluto Studio (creators of Catizen) where survivors fight zombie hordes and open airdrop crates to earn $BOMBIE.",
+    reward: "$BOMBIE Token Allocation",
+    category: "Telegram Mini-App / TON / GameFi",
+    featured: false,
+    status: "active",
+    publishDate: "2026-09-22",
+    endTime: "2026-12-20T23:59:59Z",
+    funding: "Incubated by Pluto Studio ($CATI Ecosystem)",
+    investors: "Binance Labs, HashKey Capital & Animoca Brands",
+    refLink: "https://t.me/bombie_bot",
+    overview: "Bombie is a thrilling zombie-themed survival shooter and loot-box game built on The Open Network (TON), incubated under the Pluto Studio banner (the visionary team behind Catizen with 40M+ players and $CATI Binance listing). Set in a desolate zombie apocalypse, players equip heroic weapons, eradicate mutant waves, and unlock mystery airdrop crates filled with weapons, armor, and $BOMBIE tokens.\n\nThe game blends casual idle combat with competitive arena leaderboards and guild boss fights. Players can sell spare equipment to level up their supply air-drops, permanently raising the rarity and token value of subsequent crate openings.\n\nBacked by the institutional pedigree of Pluto Studio and Binance Labs backing, Bombie provides top-tier GameFi polish with guaranteed exchange visibility.",
+    tokenomics: "The $BOMBIE token will be distributed with 100% community focus, serving as the in-game currency for equipment enhancement, PvP tournament buy-ins, and guild staking.",
+    sybilSafety: "Bombie utilizes battle session integrity checks and equipment progression gates to prevent automated farming scripts.",
+    strategy: "Continuously open supply crates, recycle low-tier equipment to upgrade your Air Drop crate level, defeat stage bosses to advance story chapters, and bind your TON wallet.",
+    steps: [
+      "Open the official <a href=\"https://t.me/bombie_bot\" target=\"_blank\" rel=\"noopener noreferrer\">Bombie Telegram Bot</a>.",
+      "Tap to destroy your first mutant zombie and receive your rookie survival kit.",
+      "Open initial airdrop crates to equip firearms, armor, and combat accessories.",
+      "Sell low-tier gear to earn gold and level up your Air Drop crate tier.",
+      "Challenge world bosses and clear stages to multiply your combat power.",
+      "Complete daily survivor missions under the \"Earn\" tab for bonus crate keys.",
+      "Connect your Tonkeeper or OKX Wallet in the airdrop claim tab.",
+      "Compete on the global combat ranking board to secure top-tier $BOMBIE token allocations."
+],
+    faqs: [
+      {
+            "question": "Who created Bombie?",
+            "answer": "Bombie is developed under Pluto Studio, the creators behind Catizen which successfully listed on Binance, OKX, and Bybit."
+      },
+      {
+            "question": "What is the main goal in Bombie?",
+            "answer": "Open supply crates, upgrade gear, destroy zombies, and level up your Air Drop tier to earn $BOMBIE tokens."
+      },
+      {
+            "question": "Is Bombie free to play?",
+            "answer": "Yes, players can enjoy and earn in Bombie completely free of charge."
+      }
+]
+  },
+  {
+    id: "piggypiggy",
+    name: "PiggyPiggy",
+    logo: "/images/airdrops/piggypiggy.jpg",
+    description: "First workplace simulation mini-game on Telegram with 100% token allocation to the community, earning $PGC by completing daily corporate jobs.",
+    reward: "100% $PGC Token Community Airdrop",
+    category: "Telegram Mini-App / TON / GameFi",
+    featured: true,
+    status: "active",
+    publishDate: "2026-09-23",
+    endTime: "2026-11-20T23:59:59Z",
+    funding: "$3M Seed Funding Round",
+    investors: "Leading Web3 Angels & Gaming Guilds",
+    refLink: "https://t.me/PiggyPiggyOfficialBot",
+    overview: "PiggyPiggy is a comedic, highly addictive workplace simulation and corporate satire game operating natively on Telegram and The Open Network (TON). Over 5 million players have joined the corporate jungle as ambitious little piglets navigating the highs and lows of office life—from unpaid internships to executive boardroom power plays.\n\nWhat sets PiggyPiggy apart from standard clickers is its groundbreaking 100% community token distribution pledge. The project has allocated 100% of its native $PGC tokens directly to players through in-game salary contracts, with zero venture capital token dumps or private presales.\n\nPlayers earn real daily wages in $PGC by clocking into shifts, completing chores, pulling office pranks, and climbing the corporate ladder.",
+    tokenomics: "100% of the $PGC token supply is distributed to the community. $PGC is used for office promotions, luxury workplace perks, and governance voting.",
+    sybilSafety: "PiggyPiggy uses work-shift completion timers, CAPTCHAs, and Telegram account verification to prevent bot scripts from claiming office salaries.",
+    strategy: "Hire interns, complete your daily work shifts on schedule, collect your hourly salary, and upgrade your office role from intern to manager to CEO.",
+    steps: [
+      "Launch the official <a href=\"https://t.me/PiggyPiggyOfficialBot\" target=\"_blank\" rel=\"noopener noreferrer\">PiggyPiggy Telegram Bot</a>.",
+      "Sign your first corporate employment contract and receive your welcome bonus.",
+      "Clock into daily work shifts to earn your hourly salary in $PGC tokens.",
+      "Use earned earnings to purchase career promotions and unlock higher salary multipliers.",
+      "Complete funny office missions and collaborate with coworkers in corporate guilds.",
+      "Connect your non-custodial TON wallet (Tonkeeper) in the salary department.",
+      "Invite friends to join your company department and earn referral bonuses on their shifts.",
+      "Maintain an active work streak to maximize your final $PGC airdrop payout."
+],
+    faqs: [
+      {
+            "question": "What makes PiggyPiggy unique?",
+            "answer": "PiggyPiggy features a 100% community token distribution with 0% VC allocation, distributing all $PGC directly to players."
+      },
+      {
+            "question": "How do you earn $PGC in PiggyPiggy?",
+            "answer": "By clocking into daily shifts, completing office chores, and climbing the corporate ladder."
+      },
+      {
+            "question": "Which blockchain does PiggyPiggy use?",
+            "answer": "PiggyPiggy is deployed on The Open Network (TON)."
+      }
+]
+  },
+  {
+    id: "boinkers",
+    name: "Boinkers",
+    logo: "/images/airdrops/boinkers.jpg",
+    description: "Social chaos parody clicker and crypto spaceship simulator on TON where degens collect meme coins and launch shitcoins to the moon for $BOINK.",
+    reward: "$BOINK Token Airdrop Pre-TGE",
+    category: "Telegram Mini-App / TON / SocialFi",
+    featured: false,
+    status: "active",
+    publishDate: "2026-09-23",
+    endTime: "2026-12-10T23:59:59Z",
+    funding: "Backing from top crypto meme innovators",
+    investors: "Prominent Web3 & MemeFi Angels",
+    refLink: "https://t.me/boinker_bot",
+    overview: "Boinkers is a viral satirical social chaos game built on The Open Network (TON) that playfully lampoons the entire crypto culture and meme-coin frenzy. In Boinkers, players assemble an absurd squad of degenerate characters (\"Boinkers\"), harvest \"Shitcoins\", and fuel experimental rockets to launch their tokens all the way to the moon.\n\nThe game incorporates fortune wheels, base raids, and parody mini-games where players spin for rare multipliers, steal resources from rival space stations, and upgrade their rocket thrusters.\n\nWith millions of active players and a fast-growing community, Boinkers is distributing the $BOINK token to players based on rocket altitude records, coin treasury size, and wheel spin loyalty.",
+    tokenomics: "The $BOINK token powers the Boinkers meme ecosystem, lottery jackpot pools, and rocket launch tournaments on TON.",
+    sybilSafety: "Boinkers utilizes Telegram anti-bot verification and dynamic spin cooldowns to guarantee real human participation.",
+    strategy: "Spin the fortune wheel daily, harvest shitcoins to fuel your moon rocket, upgrade your Boinker crew members, and maintain daily check-in streaks.",
+    steps: [
+      "Open the official <a href=\"https://t.me/boinker_bot\" target=\"_blank\" rel=\"noopener noreferrer\">Boinkers Telegram Bot</a>.",
+      "Claim your starter Boinker character and spin the daily fortune wheel.",
+      "Harvest shitcoins to fuel your experimental moon rocket.",
+      "Upgrade your booster engines and launch your rocket to reach higher altitude tiers.",
+      "Raid rival bases and defend your treasury against incoming attacks.",
+      "Complete social partner missions under the \"Quests\" tab for extra spin charges.",
+      "Connect your TON wallet (Tonkeeper) in the space hangar.",
+      "Qualify for the guaranteed $BOINK token airdrop snapshot."
+],
+    faqs: [
+      {
+            "question": "What is Boinkers?",
+            "answer": "Boinkers is a satirical Telegram clicker and rocket simulation game where players harvest meme coins and earn $BOINK tokens."
+      },
+      {
+            "question": "Is Boinkers free to play?",
+            "answer": "Yes, Boinkers is completely free to play inside Telegram."
+      },
+      {
+            "question": "When is the $BOINK token launching?",
+            "answer": "The $BOINK TGE is scheduled for Q4 2026 on TON decentralized and centralized exchanges."
+      }
+]
+  },
+  {
+    id: "vertus",
+    name: "Vertus",
+    logo: "/images/airdrops/vertus.jpg",
+    description: "Decentralized next-generation Web3 dApp and crypto wallet on TON with automated storage mining yielding native $VERT tokens.",
+    reward: "$VERT Token Smart-Contract Mining",
+    category: "Telegram Mini-App / TON / Utility",
+    featured: false,
+    status: "active",
+    publishDate: "2026-09-24",
+    endTime: "2026-12-31T23:59:59Z",
+    funding: "TON Accelerator Program Grantee",
+    investors: "TON Ventures & Ecosystem Builders",
+    refLink: "https://t.me/vertus_app_bot",
+    overview: "Vertus represents the new wave of decentralized utility applications built directly into Telegram on The Open Network (TON). Rather than functioning as a simplistic tap clicker, Vertus is a full-featured, non-custodial Web3 wallet and decentralized storage mining protocol designed to onboard mainstream users into decentralized finance.\n\nInside Vertus, users activate an automated mining node that continuously generates $VERT tokens. Mining efficiency depends on storage capacity, farm settlement level, and on-chain activity. Similar to the wildly successful NEAR Protocol HOT wallet model, Vertus allows gasless transactions sponsored by ecosystem relays.\n\nWith over 3 million verified wallets created, Vertus is building foundational infrastructure that rewards long-term wallet participants with $VERT token allocations.",
+    tokenomics: "The $VERT token is the primary utility and gas-relayer token across the Vertus decentralized application ecosystem on TON.",
+    sybilSafety: "Vertus requires on-chain smart contract interactions to upgrade storage vaults, naturally filtering non-funded bot swarms.",
+    strategy: "Claim your mined $VERT before your storage vault fills up, reinvest earned tokens to upgrade \"Storage\" and \"Mining Speed\", and complete verification quests.",
+    steps: [
+      "Launch the official <a href=\"https://t.me/vertus_app_bot\" target=\"_blank\" rel=\"noopener noreferrer\">Vertus Telegram Bot</a>.",
+      "Create or import your decentralized TON wallet inside the mini-app.",
+      "Activate your initial storage container to start automatic $VERT mining.",
+      "Claim your mined tokens on schedule before the storage limit is reached.",
+      "Reinvest $VERT into upgrading your storage capacity (longer intervals between claims).",
+      "Upgrade your mining speed level to increase tokens earned per hour.",
+      "Complete partner missions under the \"Missions\" tab for immediate boost points.",
+      "Safely hold your $VERT balance in your on-chain wallet ahead of the listing date."
+],
+    faqs: [
+      {
+            "question": "What is Vertus?",
+            "answer": "Vertus is a decentralized Web3 wallet and storage mining dApp on TON that lets users mine $VERT tokens automatically."
+      },
+      {
+            "question": "Do I need to tap continuously to mine $VERT?",
+            "answer": "No, Vertus mines passively in the background; you only need to log in to claim when storage is full."
+      },
+      {
+            "question": "Is Vertus an official TON project?",
+            "answer": "Vertus is an approved participant in the TON Accelerator ecosystem."
+      }
+]
+  },
+  {
+    id: "bird-ton",
+    name: "BIRD (Bird TON)",
+    logo: "/images/airdrops/bird-ton.jpg",
+    description: "Retro arcade Flappy Bird arcade game on TON with over 5M players navigating obstacles, upgrading birds, and farming $BIRD tokens.",
+    reward: "$BIRD Token Airdrop Pre-TGE",
+    category: "Telegram Mini-App / TON / GameFi",
+    featured: false,
+    status: "active",
+    publishDate: "2026-09-24",
+    endTime: "2026-11-30T23:59:59Z",
+    funding: "TON Gaming Syndicate",
+    investors: "Leading Web3 Arcade & Telegram Incubators",
+    refLink: "https://t.me/birdtonbot",
+    overview: "BIRD (Bird TON) brings the globally beloved classic Flappy Bird mechanic to the Web3 era, built natively as a Telegram Mini-App on The Open Network (TON). Over 5 million players navigate pixel-art birds through pipes, avoiding obstacles and collecting in-game coins that convert directly into $BIRD token airdrop credits.\n\nBeyond skill-based arcade gameplay, BIRD features idle nesting mechanics where players hatch rare bird species, customize flight skins, and boost passive coin generation.\n\nWith an active competitive tournament scene and unannounced snapshot dates, BIRD offers a nostalgic, fun, and highly rewarding airdrop farming avenue for Telegram gamers.",
+    tokenomics: "The $BIRD token will launch on TON with community airdrops, tournament prize pool allocations, and NFT breeding utilities.",
+    sybilSafety: "Gameplay physics engines and pipe collision trackers mathematically identify automation scripts, ensuring genuine human high-scores.",
+    strategy: "Play arcade runs daily to set personal high scores, upgrade your bird's energy and passive nesting yield, and complete all partner social quests.",
+    steps: [
+      "Open the official <a href=\"https://t.me/birdtonbot\" target=\"_blank\" rel=\"noopener noreferrer\">BIRD Telegram Bot</a>.",
+      "Tap the screen to flap your wings and clear pipe obstacles in the arcade arena.",
+      "Collect in-game coins during flight and claim your daily check-in rewards.",
+      "Upgrade your Bird's energy capacity to enjoy more daily flight attempts.",
+      "Hatch new bird companions in the nesting tab to generate passive income.",
+      "Complete sponsor quests in the \"Tasks\" section for instant coin bonuses.",
+      "Connect your Tonkeeper wallet to link your on-chain player ID.",
+      "Climb the global leaderboard to secure tier-1 $BIRD token allocations."
+],
+    faqs: [
+      {
+            "question": "What is BIRD (Bird TON)?",
+            "answer": "BIRD is a Web3 arcade game on Telegram inspired by Flappy Bird where players fly through obstacles to earn $BIRD tokens."
+      },
+      {
+            "question": "Does gameplay skill affect my airdrop?",
+            "answer": "Yes, higher scores and tournament rankings earn bonus token allocations in addition to passive nesting yields."
+      },
+      {
+            "question": "Is BIRD free to play?",
+            "answer": "Yes, 100% free with energy refilling over time."
+      }
+]
+  },
+  {
+    id: "tapcoins",
+    name: "TapCoins",
+    logo: "/images/airdrops/tapcoins.jpg",
+    description: "Web3 education and blockchain knowledge mini-app on TON combining daily bounty combos, crypto quizzes, and mining teams ahead of $TAPCOINS listing.",
+    reward: "$TAPCOINS Community Token Airdrop",
+    category: "Telegram Mini-App / TON / Education & Mining",
+    featured: false,
+    status: "active",
+    publishDate: "2026-09-25",
+    endTime: "2026-12-15T23:59:59Z",
+    funding: "Self-Funded by TapCoins Foundation",
+    investors: "Web3 Education Alliance & TON Grants",
+    refLink: "https://t.me/tapcoinsbot",
+    overview: "TapCoins is an educational Web3 mining mini-app on The Open Network (TON) that gamifies blockchain learning for millions of Telegram users. Instead of mindless clicking, TapCoins rewards users for mastering blockchain fundamentals, DeFi mechanics, and crypto history through daily interactive quizzes and bounty card combos.\n\nPlayers assemble personalized crypto investment portfolios, upgrade mining hardware cards, and form mining guilds with friends to boost their collective profit per hour.\n\nAhead of its official token launch, TapCoins is conducting a transparent community airdrop rewarding users based on knowledge quiz scores, mining card levels, and daily streak consistency.",
+    tokenomics: "The $TAPCOINS token powers decentralized course certifications, staking rewards, and governance on TON.",
+    sybilSafety: "Quiz question randomization and timed answers eliminate bot farms, ensuring real knowledge-seekers reap the biggest rewards.",
+    strategy: "Solve the daily 3-card Bounty Combo every day for million-coin bonuses, complete all educational quizzes, and level up high-yield mining cards.",
+    steps: [
+      "Launch the official <a href=\"https://t.me/tapcoinsbot\" target=\"_blank\" rel=\"noopener noreferrer\">TapCoins Telegram Bot</a>.",
+      "Claim your student starter grant and complete the introductory crypto quiz.",
+      "Navigate to the \"Mine\" tab and upgrade blockchain knowledge and tech cards.",
+      "Input the daily 3-card Bounty Combo to claim millions of free coins.",
+      "Join an active team or invite classmates to unlock guild mining multipliers.",
+      "Complete partner quests in the \"Tasks\" section for rapid capital boosts.",
+      "Connect your TON wallet (Tonkeeper or Bitget Wallet) in settings.",
+      "Maintain your daily study streak to maximize your final $TAPCOINS airdrop distribution."
+],
+    faqs: [
+      {
+            "question": "What is TapCoins?",
+            "answer": "TapCoins is an educational crypto simulation game on Telegram where users learn Web3 concepts and earn $TAPCOINS tokens."
+      },
+      {
+            "question": "What is the Daily Bounty Combo?",
+            "answer": "A daily combination of 3 specific knowledge cards that grants massive instant coin rewards when unlocked."
+      },
+      {
+            "question": "Is TapCoins free to use?",
+            "answer": "Yes, TapCoins is completely free to participate in."
+      }
+]
+  },
+  {
+    id: "spell",
+    name: "Spell Wallet",
+    logo: "/images/airdrops/spell.jpg",
+    description: "Next-gen MPC wallet and magical potion brewing mini-app on TON where alchemists mix crystals, craft enchantments, and farm $MANA token airdrops.",
+    reward: "$MANA Token Airdrop Pre-TGE",
+    category: "Telegram Mini-App / TON / Utility & GameFi",
+    featured: false,
+    status: "active",
+    publishDate: "2026-09-25",
+    endTime: "2026-12-31T23:59:59Z",
+    funding: "Backed by Leading Web3 Security Angels",
+    investors: "DeFi Security Ventures & TON Builders",
+    refLink: "https://t.me/spell_wallet_bot",
+    overview: "Spell Wallet is an innovative hybrid combining an institutional-grade Multi-Party Computation (MPC) non-custodial wallet with a whimsical magic alchemy mini-app on The Open Network (TON). By cloaking complex cryptographic key management inside an enchanting fantasy theme, Spell Wallet makes on-chain security fun and accessible.\n\nInside the mini-app, players assume the role of an apprentice wizard, gathering mystical crystals, brewing magical potions, and casting spells that generate real on-chain $MANA tokens. Higher-level potions require rare ingredients obtained through on-chain transactions, partner quests, and daily rituals.\n\nWith security audited by leading Web3 firms, Spell Wallet is preparing for its $MANA token launch, granting early potion brewers significant governance and staking allocations.",
+    tokenomics: "The $MANA token is the fuel for spell-casting, gas fee discounts, and liquidity yield farming across the Spell ecosystem on TON.",
+    sybilSafety: "Spell Wallet's MPC key generation ensures one unique cryptographic identity per Telegram account, strictly filtering Sybil scripts.",
+    strategy: "Brew potions regularly to keep your cauldron active, upgrade your crystal harvester, complete daily magical rituals, and securely back up your MPC wallet key.",
+    steps: [
+      "Open the official <a href=\"https://t.me/spell_wallet_bot\" target=\"_blank\" rel=\"noopener noreferrer\">Spell Wallet Telegram Bot</a>.",
+      "Generate your secure MPC crypto wallet with one-tap cloud key backup.",
+      "Collect starting crystals and ignite your magical cauldron to brew potions.",
+      "Claim your brewed $MANA tokens when potion timers complete.",
+      "Upgrade your cauldron capacity and crystal extraction rate in the alchemy shop.",
+      "Complete wizard quests and partner tasks under the \"Grimoire\" section.",
+      "Connect your external TON wallet or use Spell's native MPC wallet for on-chain actions.",
+      "Prepare for the $MANA token generation event and exclusive alchemist airdrop."
+],
+    faqs: [
+      {
+            "question": "What is Spell Wallet?",
+            "answer": "Spell Wallet is an MPC-secured Web3 wallet and fantasy alchemy mini-app on TON that rewards users with $MANA tokens."
+      },
+      {
+            "question": "Is Spell Wallet safe?",
+            "answer": "Yes, it uses Multi-Party Computation (MPC) cryptography, eliminating single points of failure for private keys."
+      },
+      {
+            "question": "How do you earn $MANA?",
+            "answer": "By brewing potions in the alchemy cauldron, harvesting crystals, and completing quests."
+      }
+]
+  }
 ];
