@@ -3002,4 +3002,521 @@ export const airdrops: Airdrop[] = [
       }
 ]
   }
+,
+  {
+    id: "lost-dogs",
+    name: "Lost Dogs: The Way",
+    logo: "/images/airdrops/lost-dogs.jpg",
+    description: "First official interactive narrative game by Notcoin & Lost Dogs NFT collection on TON where moral choices yield daily $NOT and $WOOF rewards.",
+    reward: "$NOT & $WOOF Token Allocations",
+    category: "Telegram Mini-App / TON / GameFi",
+    featured: true,
+    status: "active",
+    publishDate: "2026-09-23",
+    endTime: "2026-11-20T23:59:59Z",
+    funding: "Backed by Notcoin ($1B+ Ecosystem) & Open Builders",
+    investors: "Notcoin Foundation & TON Ventures",
+    refLink: "https://t.me/lost_dogs_bot",
+    overview: "Lost Dogs: The Way is a groundbreaking narrative collaboration between the Notcoin team and the renowned Lost Dogs NFT collection on The Open Network (TON). Instead of standard mindless tap clicking, Lost Dogs introduces a psychological, game-theory-driven narrative where millions of players vote daily on one of three moral choices shaping the fate of a stranded canine pack.\n\nEvery 24 hours, players stake bones (or $NOT) on their predicted outcome. Depending on the round rules (e.g., majority choice, minority choice, or middle choice), winning voters split the daily reward pool of real $NOT tokens and accumulate $WOOF governance points.\n\nWith direct integration into the Notcoin ecosystem and endorsement from Sasha Plotvinov, Lost Dogs is one of the most innovative and lucrative social experiments on TON.",
+    tokenomics: "The game distributes real, liquid $NOT tokens immediately to daily winners, alongside $WOOF—the upcoming governance token for the decentralized Lost Dogs ecosystem on TON.",
+    sybilSafety: "Round voting requires genuine Telegram account verification and historical engagement. Coordinated voting rings are mitigated through dynamic round voting mechanics.",
+    strategy: "Analyze community sentiment in the official channel before placing your vote, allocate BONES strategically each round, and claim your converted $NOT and $WOOF before the 24-hour round closes.",
+    steps: [
+      "Open the official <a href=\"https://t.me/lost_dogs_bot\" target=\"_blank\" rel=\"noopener noreferrer\">Lost Dogs Telegram Bot</a>.",
+      "Review the daily narrative dilemma presented to the canine pack.",
+      "Select one of the 3 available choices based on the daily objective (Majority/Minority/Middle).",
+      "Allocate your free daily BONES (and optional $NOT) to back your decision.",
+      "Complete social partner quests under the \"Earn\" tab to receive extra voting bones.",
+      "Connect your Tonkeeper wallet to receive on-chain reward distributions.",
+      "Return every 24 hours to collect won $NOT and accumulated $WOOF points.",
+      "Maintain your daily participation streak to unlock bonus multipliers for the final $WOOF airdrop."
+],
+    faqs: [
+      {
+            "question": "What is Lost Dogs: The Way?",
+            "answer": "Lost Dogs is an interactive story game on TON co-created by Notcoin where players make daily decisions to win $NOT and farm $WOOF tokens."
+      },
+      {
+            "question": "How do you win $NOT in Lost Dogs?",
+            "answer": "By correctly predicting the winning moral choice each day according to the round rule (e.g., most popular or least popular)."
+      },
+      {
+            "question": "Is Lost Dogs free to play?",
+            "answer": "Yes, players receive free BONES daily without needing to spend crypto."
+      }
+]
+  },
+  {
+    id: "hrum",
+    name: "Hrum",
+    logo: "/images/airdrops/hrum.jpg",
+    description: "Viral daily fortune cookie mini-app created by the X Empire team where players crack cookies, guess famous quotes, and farm $HRUM tokens.",
+    reward: "$HRUM Token Airdrop Pre-TGE",
+    category: "Telegram Mini-App / TON / SocialFi",
+    featured: true,
+    status: "active",
+    publishDate: "2026-09-23",
+    endTime: "2026-12-15T23:59:59Z",
+    funding: "Incubated by X Empire Team (35M+ Users)",
+    investors: "TON Meme & SocialFi Syndicate",
+    refLink: "https://t.me/hrummebot",
+    overview: "Hrum is an enchanting, ultra-viral SocialFi mini-app created by the core team behind X Empire (over 35 million registered users). Built around the timeless charm of opening a daily fortune cookie, Hrum gives Telegram users a daily dose of philosophical wisdom, cryptographic prophecies, and instant $HRUM token rewards.\n\nEvery day, users crack open a fresh fortune cookie to reveal an inspirational quote or proverb. By correctly answering the daily \"Quote of the Day\" riddle (identifying the historical author), players multiply their token yield and earn rare fortune scrolls.\n\nWith zero intrusive ads, clean animations, and a confirmed token generation event on The Open Network (TON), Hrum is one of the fastest-growing casual communities in Web3.",
+    tokenomics: "The $HRUM token will be minted on TON with an overwhelming percentage dedicated to the community. Tokens will be distributed based on consecutive cookie streaks and riddle accuracy.",
+    sybilSafety: "Quote riddle timers and daily single-cookie limits prevent bot swarms from mass-generating rewards. Connect an authentic Tonkeeper wallet to pass Sybil audits.",
+    strategy: "Open your fortune cookie daily without breaking your streak, solve the \"Quote of the Day\" riddle within minutes of release, and complete the daily partner tasks under the \"Tasks\" tab.",
+    steps: [
+      "Launch the official <a href=\"https://t.me/hrummebot\" target=\"_blank\" rel=\"noopener noreferrer\">Hrum Telegram Bot</a>.",
+      "Tap the golden fortune cookie to crack it open and receive your daily $HRUM drop.",
+      "Read your fortune and proceed to the daily riddle section.",
+      "Enter the correct author name for the \"Quote of the Day\" to unlock extra bonus tokens.",
+      "Complete partner missions under the \"Tasks\" tab for immediate coin injections.",
+      "Invite friends to share fortunes and earn 10% bonus rewards on their claims.",
+      "Connect your non-custodial TON wallet (Tonkeeper) in settings.",
+      "Hold your claimed $HRUM tokens in anticipation of the upcoming exchange listing."
+],
+    faqs: [
+      {
+            "question": "Who created Hrum?",
+            "answer": "Hrum was developed by the team behind X Empire, one of the biggest Telegram tap-to-earn successes on TON."
+      },
+      {
+            "question": "What is the daily Quote of the Day?",
+            "answer": "A daily riddle where players identify the famous historical author of their fortune cookie quote for bonus $HRUM."
+      },
+      {
+            "question": "Is Hrum free?",
+            "answer": "Yes, cracking cookies and answering daily quotes is 100% free."
+      }
+]
+  },
+  {
+    id: "dropee",
+    name: "Dropee",
+    logo: "/images/airdrops/dropee.jpg",
+    description: "Fast-paced character evolution and tap-to-earn mini-app on TON featuring daily 3-card combos, question of the day, and $DROP token mining.",
+    reward: "$DROP Token Allocation Pre-TGE",
+    category: "Telegram Mini-App / TON / Tap-to-Earn",
+    featured: false,
+    status: "active",
+    publishDate: "2026-09-23",
+    endTime: "2026-12-31T23:59:59Z",
+    funding: "Community & Angel Backed",
+    investors: "Web3 Gaming Guilds & TON Builders",
+    refLink: "https://t.me/DropeeBot",
+    overview: "Dropee is a rapidly expanding tap-to-earn and character evolution simulator built on The Open Network (TON). In Dropee, players nurture an avatar from a tiny droplet into a legendary titan, unlocking specialized training gear, crypto hardware, and corporate sponsorships along the way.\n\nThe game incorporates daily high-value incentives including the \"Daily Combo\" (finding 3 secret cards in the shop) and the \"Question of the Day\" (testing Web3 knowledge). Players reinvest their earnings into passive income upgrades to build an automated hourly revenue engine.\n\nWith an active community exceeding 6 million players, Dropee is preparing for its $DROP token generation event (TGE) where hourly profit and completed streaks dictate airdrop tiers.",
+    tokenomics: "The $DROP token will serve as the governance and transaction token across the Dropee gaming ecosystem on TON.",
+    sybilSafety: "Anti-bot algorithms analyze tap cadence, streak reliability, and wallet history to filter multi-accounting farms.",
+    strategy: "Focus your coin spend on high-ROI passive cards in the \"Improve\" tab, solve the Daily Combo and Question of the Day every single day, and bind an active TON wallet.",
+    steps: [
+      "Open the official <a href=\"https://t.me/DropeeBot\" target=\"_blank\" rel=\"noopener noreferrer\">Dropee Telegram Bot</a>.",
+      "Tap to earn your starting coin balance and evolve your initial character.",
+      "Purchase passive income cards in the \"Improve\" section to raise your coins per hour.",
+      "Solve the Daily 3-Card Combo in the shop to claim huge coin bonuses.",
+      "Answer the Question of the Day under the quest tab for additional rewards.",
+      "Complete official partner tasks to earn immediate energy refills.",
+      "Connect your Tonkeeper or OKX Wallet in the airdrop tab.",
+      "Maximize your hourly profit ahead of the official $DROP snapshot date."
+],
+    faqs: [
+      {
+            "question": "What is Dropee?",
+            "answer": "Dropee is a character evolution and tap-to-earn game on Telegram where players earn $DROP tokens on TON."
+      },
+      {
+            "question": "How do you get the Daily Combo?",
+            "answer": "By upgrading the three specific secret cards revealed daily across the community."
+      },
+      {
+            "question": "Is Dropee free to play?",
+            "answer": "Yes, completely free inside Telegram."
+      }
+]
+  },
+  {
+    id: "clayton",
+    name: "Clayton Game",
+    logo: "/images/airdrops/clayton.jpg",
+    description: "Premier Web3 arcade mini-app on TON featuring stacking games, 2048, and daily challenges where players farm Clayton points ahead of $CLAY launch.",
+    reward: "$CLAY Token Airdrop Pre-TGE",
+    category: "Telegram Mini-App / TON / Gaming Hub",
+    featured: false,
+    status: "active",
+    publishDate: "2026-09-23",
+    endTime: "2026-11-30T23:59:59Z",
+    funding: "TON Community Fund Grantee",
+    investors: "TON Ventures & Web3 Gaming Angels",
+    refLink: "https://t.me/claytoncoinbot",
+    overview: "Clayton Game is a vibrant, multi-game Web3 arcade built natively on The Open Network (TON). Starring the playful mascot Clayton the Dog, the mini-app features a suite of classic puzzle and dexterity games—including tower stacking, 2048, and color matching—that convert player skill into valuable Clayton Points.\n\nUnlike repetitive clickers, Clayton rewards genuine gameplay mastery and daily engagement. Players can participate in seasonal tournaments, upgrade their mascot's home, and complete collaborative community missions.\n\nWith over 2 million active gamers and backing from key TON ecosystem players, Clayton is gearing up for the launch of its native $CLAY utility and governance token.",
+    tokenomics: "The $CLAY token powers arcade tournaments, NFT cosmetics, and staking yields within the Clayton gaming universe on TON.",
+    sybilSafety: "Gameplay physics and puzzle completion logs verify that real humans are playing each game session rather than automated headless scripts.",
+    strategy: "Play the daily arcade mini-games to hit top score thresholds, complete the daily check-in calendar, and invite Web3 friends to build your Clayton pack.",
+    steps: [
+      "Launch the official <a href=\"https://t.me/claytoncoinbot\" target=\"_blank\" rel=\"noopener noreferrer\">Clayton Telegram Bot</a>.",
+      "Claim your welcome Clayton mascot and collect your starting energy tickets.",
+      "Play the Stack or 2048 mini-games to convert your game scores into Clayton points.",
+      "Check in consecutively every day to claim compounding point multipliers.",
+      "Complete partner missions and social follow tasks under the \"Earn\" tab.",
+      "Connect your non-custodial TON wallet (Tonkeeper) in the settings menu.",
+      "Compete in leaderboard tournaments to win exclusive $CLAY airdrop allocations.",
+      "Keep your wallet connected ahead of the official token distribution."
+],
+    faqs: [
+      {
+            "question": "What is Clayton Game?",
+            "answer": "Clayton is a skill-based arcade gaming hub on TON where players play puzzle mini-games to farm $CLAY tokens."
+      },
+      {
+            "question": "What games are inside Clayton?",
+            "answer": "Tower Stacking, 2048, and dexterity puzzle mini-games."
+      },
+      {
+            "question": "Is Clayton on the TON blockchain?",
+            "answer": "Yes, Clayton is deployed natively on The Open Network (TON)."
+      }
+]
+  },
+  {
+    id: "dejendog",
+    name: "DejenDog (Djdog)",
+    logo: "/images/airdrops/dejendog.jpg",
+    description: "Official Telegram Mini-App by HashKey Group (regulated Hong Kong exchange unicorn) distributing confirmed $HSK ecosystem token airdrops.",
+    reward: "$HSK HashKey Ecosystem Token Airdrop",
+    category: "Telegram Mini-App / Exchange Ecosystem / GameFi",
+    featured: true,
+    status: "active",
+    publishDate: "2026-09-23",
+    endTime: "2026-11-15T23:59:59Z",
+    funding: "Backed by HashKey Group ($1.2B+ Unicorn)",
+    investors: "HashKey Capital & Global Tier-1 Web3 Funds",
+    refLink: "https://t.me/dejendogbot",
+    overview: "DejenDog (Djdog) is the official Telegram gaming portal backed by HashKey Group—the multi-billion-dollar licensed crypto financial services giant and operator of Hong Kong's premier regulated digital asset exchange. DejenDog brings institutional firepower to Telegram gaming by directly rewarding players with $HSK—the native ecosystem token of HashKey Chain and HashKey Exchange.\n\nIn DejenDog, players adopt a musical DJ dog mascot, upgrading turntables, mixing tracks, and completing exchange literacy quests. Every level-up and tapped beat directly converts into Eligibility Points for the verified $HSK token distribution.\n\nBecause $HSK is the flagship platform token of a fully licensed exchange (comparable to BNB for Binance), DejenDog is considered one of the most reliable and fundamentally backed airdrop campaigns in Web3.",
+    tokenomics: "The $HSK token operates across Ethereum and HashKey Chain, offering trading fee discounts, launchpool access, and governance across all HashKey Group business units.",
+    sybilSafety: "HashKey requires verified Web3 wallet binding and exchange KYC integration for top-tier reward tiers, completely filtering automated bot syndicates.",
+    strategy: "Upgrade your DJ turntable to maximize automatic beat production, complete all official HashKey exchange social quests, and link your verified EVM or TON wallet.",
+    steps: [
+      "Open the official <a href=\"https://t.me/dejendogbot\" target=\"_blank\" rel=\"noopener noreferrer\">DejenDog Telegram Bot</a>.",
+      "Adopt your rookie DJ dog and spin the decks to produce your first beats.",
+      "Upgrade your sound systems and turntable cards to boost passive hourly beat generation.",
+      "Navigate to the \"Tasks\" section and complete official HashKey verification missions.",
+      "Connect your non-custodial crypto wallet (MetaMask, OKX, or Tonkeeper).",
+      "Invite friends to form DJ crews and earn referral royalties on their generated beats.",
+      "Check in daily to claim your consecutive login streak bonus.",
+      "Prepare for the official $HSK airdrop distribution directly into your linked wallet."
+],
+    faqs: [
+      {
+            "question": "What is DejenDog (Djdog)?",
+            "answer": "DejenDog is the official Telegram game by HashKey Group distributing $HSK ecosystem tokens to players."
+      },
+      {
+            "question": "What is $HSK?",
+            "answer": "$HSK is the native utility and fee-discount token for the entire HashKey Group ecosystem, including its regulated crypto exchange."
+      },
+      {
+            "question": "Is DejenDog backed by a real company?",
+            "answer": "Yes, HashKey Group is a regulated Web3 financial conglomerate valued at over $1.2 Billion."
+      }
+]
+  },
+  {
+    id: "zencoin",
+    name: "ZenCoin (ZenAI)",
+    logo: "/images/airdrops/zencoin.jpg",
+    description: "Calming meditation tap-to-earn game and AI agent swarm framework onboarding millions to Web3 with $ZEN token allocations.",
+    reward: "$ZEN / $ZAI Token Allocation",
+    category: "Telegram Mini-App / TON & Solana / AI & GameFi",
+    featured: false,
+    status: "active",
+    publishDate: "2026-09-24",
+    endTime: "2026-12-25T23:59:59Z",
+    funding: "$2.8M Seed Round",
+    investors: "Solana Ventures & Web3 AI Angel Syndicate",
+    refLink: "https://t.me/thezencoin_bot",
+    overview: "ZenCoin (evolving into ZenAI / ZAI) takes a uniquely peaceful approach to the high-stress world of crypto airdrops. Instead of frantic tapping, ZenCoin invites players to tap a virtual Tibetan singing bowl or temple gong, fostering mindfulness while passively mining $ZEN tokens.\n\nBehind its soothing exterior, ZenCoin is developing an AI agent framework designed to assist non-crypto natives (\"normies\") with automated on-chain portfolio rebalancing, cross-chain swaps, and intelligent airdrop tracking.\n\nWith over 5 million registered meditators, ZenCoin rewards players based on gong resonance harmony, monastery building levels, and mindfulness streaks ahead of its multi-chain token launch.",
+    tokenomics: "The $ZEN token fuels AI agent queries, premium meditation ambient themes, and staking yields across TON and Solana.",
+    sybilSafety: "Mindfulness cadence timers ensure that taps follow rhythmic, natural human intervals, discarding inhuman macro clicker frequencies.",
+    strategy: "Upgrade temple bells and wooden fish instruments to raise passive hourly resonance, maintain daily meditation streaks, and complete daily prayer card combos.",
+    steps: [
+      "Launch the official <a href=\"https://t.me/thezencoin_bot\" target=\"_blank\" rel=\"noopener noreferrer\">ZenCoin Telegram Bot</a>.",
+      "Tap the temple gong to initiate your first meditation mining session.",
+      "Upgrade your singing bowl and temple instruments to boost passive hourly yield.",
+      "Complete the daily \"Prayer Combo\" to unlock lump-sum token bonuses.",
+      "Finish official ecosystem tasks in the \"Earn\" tab for immediate coin boosts.",
+      "Connect your TON or Solana wallet in the temple treasury tab.",
+      "Invite fellow meditators to join your monastery and earn 10% referral bonuses.",
+      "Safeguard your $ZEN token balance in anticipation of the official TGE snapshot."
+],
+    faqs: [
+      {
+            "question": "What is ZenCoin?",
+            "answer": "ZenCoin is a calming meditation-themed tap game on Telegram that lets users mine $ZEN tokens while listening to temple sounds."
+      },
+      {
+            "question": "Which blockchains will $ZEN launch on?",
+            "answer": "ZenCoin / ZenAI is deploying across TON and Solana."
+      },
+      {
+            "question": "Is ZenCoin free to play?",
+            "answer": "Yes, completely free of charge."
+      }
+]
+  },
+  {
+    id: "aqua-protocol",
+    name: "Aqua Protocol",
+    logo: "/images/airdrops/aqua-protocol.jpg",
+    description: "Premier decentralized CDP borrowing protocol on TON minting overcollateralized stablecoins ($AquaUSD) with Aqua Points farming for $AQUA.",
+    reward: "Aqua Points & $AQUA Governance Airdrop",
+    category: "Telegram Mini-App / TON / DeFi & Stablecoins",
+    featured: false,
+    status: "active",
+    publishDate: "2026-09-24",
+    endTime: "2026-12-31T23:59:59Z",
+    funding: "TONcoin Fund & TON Accelerator Grantee",
+    investors: "TON Ventures, DWF Labs & Web3 DeFi Angels",
+    refLink: "https://t.me/aquaprotocolbot",
+    overview: "Aqua Protocol is a cornerstone DeFi infrastructure protocol on The Open Network (TON), creating native overcollateralized stablecoins for Telegram's 900+ million users. Operating as a decentralized Collateralized Debt Position (CDP) engine similar to MakerDAO on Ethereum, Aqua Protocol allows users to deposit TON and liquid staking tokens (tsTON, stTON) to mint $AquaUSD—a decentralized, censorship-resistant stablecoin pegged 1:1 to the US Dollar.\n\nThrough its official Telegram Mini-App, Aqua Protocol allows both DeFi power users and beginners to track borrowing health, farm Aqua Points, and simulate liquidity provision.\n\nBacked by official grants from the TON Foundation and TONcoin Fund, Aqua Protocol has allocated a substantial percentage of its upcoming $AQUA governance token to early testnet borrowers and Telegram community farmers.",
+    tokenomics: "The $AQUA token coordinates stability fee parameters, liquidator incentives, and protocol revenue sharing across the TON ecosystem.",
+    sybilSafety: "On-chain CDP operations and wallet balance verifications ensure that only genuine liquidity providers receive the largest airdrop multipliers.",
+    strategy: "Connect your Tonkeeper wallet, complete official onboarding quizzes, simulate or execute stablecoin minting, and refer active TON users to earn Aqua Points.",
+    steps: [
+      "Open the official <a href=\"https://t.me/aquaprotocolbot\" target=\"_blank\" rel=\"noopener noreferrer\">Aqua Protocol Telegram Bot</a>.",
+      "Connect your non-custodial TON wallet (Tonkeeper or MyTonWallet).",
+      "Learn about CDP borrowing and decentralized stablecoins through the interactive guide.",
+      "Claim your starter Aqua Points and explore protocol collateral options.",
+      "Deposit collateral or participate in testnet liquidity pools to earn high-tier point multipliers.",
+      "Complete partner quests and verification steps under the \"Missions\" tab.",
+      "Invite Web3 friends to mint $AquaUSD and earn referral commission on their generated points.",
+      "Monitor your leaderboard rank ahead of the $AQUA governance token airdrop."
+],
+    faqs: [
+      {
+            "question": "What is Aqua Protocol?",
+            "answer": "Aqua Protocol is a decentralized borrowing protocol on TON that mints overcollateralized $AquaUSD stablecoins."
+      },
+      {
+            "question": "Who backs Aqua Protocol?",
+            "answer": "Aqua Protocol is backed by TON Ventures, the TONcoin Fund, and the TON Accelerator."
+      },
+      {
+            "question": "What token is being airdropped?",
+            "answer": "Participants farm Aqua Points which will convert into $AQUA governance tokens."
+      }
+]
+  },
+  {
+    id: "bee-harvest",
+    name: "Bee Harvest",
+    logo: "/images/airdrops/bee-harvest.jpg",
+    description: "Idle yield farming bee colony simulation on TON where players manage honey combs, upgrade queens, and harvest real $AMBER tokens.",
+    reward: "$AMBER Token Airdrop Pre-TGE",
+    category: "Telegram Mini-App / TON / Simulation & DeFi",
+    featured: false,
+    status: "active",
+    publishDate: "2026-09-25",
+    endTime: "2026-12-15T23:59:59Z",
+    funding: "TON Gaming Fund & Community Syndicate",
+    investors: "AmberTON & TON GameFi Incubator",
+    refLink: "https://t.me/beeharvestbot",
+    overview: "Bee Harvest is a charming and mathematically sophisticated yield simulation game built on The Open Network (TON). Players take charge of a buzzing apiary, managing worker bees, upgrading the Queen Bee's genetics, and processing raw honey nectar into valuable $AMBER tokens.\n\nThe game bridges the gap between casual idle management and DeFi yield farming. Nectar production rates can be boosted through specialized flowers, hive expansions, and collaborative swarm raids where multiple players pool resources to unlock massive seasonal honey reserves.\n\nWith hundreds of thousands of active beekeepers, Bee Harvest is distributing $AMBER tokens directly to players who build thriving hives and maintain active honey harvesting cycles.",
+    tokenomics: "The $AMBER token powers hive marketplace trades, queen breeding, and staking pools across the AmberTON ecosystem on TON.",
+    sybilSafety: "Hive upgrade economics and honey harvest cooldowns make automated multi-account bots unprofitable compared to authentic active beekeeping.",
+    strategy: "Upgrade your Queen Bee first to boost base hive multiplier, expand comb capacity for longer offline storage, and reinvest honey into high-yield floral fields.",
+    steps: [
+      "Launch the official <a href=\"https://t.me/beeharvestbot\" target=\"_blank\" rel=\"noopener noreferrer\">Bee Harvest Telegram Bot</a>.",
+      "Claim your starter bee hive and collect your first batch of honey nectar.",
+      "Upgrade your Queen Bee to multiply the productivity of all worker bees.",
+      "Expand your honeycomb storage to increase maximum offline harvesting time.",
+      "Plant rare flowers in the apiary garden to unlock permanent yield multipliers.",
+      "Complete sponsor missions in the \"Tasks\" tab for instant nectar refills.",
+      "Connect your Tonkeeper wallet in the hive vault tab.",
+      "Harvest and convert your honey stores into guaranteed $AMBER token allocations."
+],
+    faqs: [
+      {
+            "question": "What is Bee Harvest?",
+            "answer": "Bee Harvest is a bee apiary management and yield simulator on TON where players farm $AMBER tokens."
+      },
+      {
+            "question": "Do I need to stay online constantly?",
+            "answer": "No, bees harvest honey automatically in the background up to your comb capacity limit."
+      },
+      {
+            "question": "Is Bee Harvest free to play?",
+            "answer": "Yes, completely free inside Telegram."
+      }
+]
+  },
+  {
+    id: "ton-kombat",
+    name: "TON Kombat",
+    logo: "/images/airdrops/ton-kombat.jpg",
+    description: "Action-packed House defense and guild battle Web3 RPG on TON where fighters train warriors, conquer rival houses, and mine $TOK tokens.",
+    reward: "$TOK Token Allocation Pre-TGE",
+    category: "Telegram Mini-App / TON / RPG & Battle",
+    featured: false,
+    status: "active",
+    publishDate: "2026-09-25",
+    endTime: "2026-12-31T23:59:59Z",
+    funding: "TON GameFi Syndicate & Angel Round",
+    investors: "Web3 Esports & TON Gaming Angels",
+    refLink: "https://t.me/Ton_kombat_bot",
+    overview: "TON Kombat is an adrenaline-fueled combat and territorial warfare RPG built natively on The Open Network (TON). Drawing inspiration from legendary fighting franchises, TON Kombat invites players to pledge allegiance to one of the Great Houses of Web3, train customized fighters, and battle rival houses for ultimate dominion over the TON realm.\n\nEvery tap and combat victory earns combat experience, weapons, and $TOK tokens. Players can join territorial House Wars, siege fortress keeps, and challenge global raid bosses with their guild companions.\n\nWith over 3 million warriors already enlisted, TON Kombat is distributing the $TOK token to reward martial prowess, house allegiance, and daily battle victories.",
+    tokenomics: "The $TOK token powers warrior armor upgrades, tournament prize pools, and territorial governance on TON.",
+    sybilSafety: "Battle engine inputs and matchmaking latency checks mathematically filter automated tap bots from winning PvP combat encounters.",
+    strategy: "Train your primary fighter's attack and defense attributes equally, participate in every daily House raid, and complete daily combat missions under the \"Quests\" menu.",
+    steps: [
+      "Open the official <a href=\"https://t.me/Ton_kombat_bot\" target=\"_blank\" rel=\"noopener noreferrer\">TON Kombat Telegram Bot</a>.",
+      "Select your warrior class and choose your allegiance to a Great House.",
+      "Tap to strike the training dummy and level up your combat attributes.",
+      "Equip weapons and armor earned through stage victories to multiply your power.",
+      "Join guild battles and coordinate with House members to conquer rival territories.",
+      "Finish sponsor quests in the \"Earn\" tab to receive rapid coin rewards.",
+      "Connect your non-custodial TON wallet (Tonkeeper or OKX Wallet).",
+      "Climb the global warrior leaderboards to claim top-tier $TOK token airdrop rewards."
+],
+    faqs: [
+      {
+            "question": "What is TON Kombat?",
+            "answer": "TON Kombat is a territorial RPG and fighting game on TON where players battle rival houses to earn $TOK tokens."
+      },
+      {
+            "question": "What are the Great Houses?",
+            "answer": "Factions within the game representing different Web3 philosophies that compete for territory and reward pools."
+      },
+      {
+            "question": "Is TON Kombat free to play?",
+            "answer": "Yes, completely free with stamina recharging over time."
+      }
+]
+  },
+  {
+    id: "cat-gold-miner",
+    name: "Cat Gold Miner",
+    logo: "/images/airdrops/cat-gold-miner.jpg",
+    description: "Addictive idle gold mine simulation on TON where feline entrepreneurs dig mines, process gold, and farm $CATGM tokens.",
+    reward: "$CATGM Token Airdrop Pre-TGE",
+    category: "Telegram Mini-App / TON / Idle Mining",
+    featured: false,
+    status: "active",
+    publishDate: "2026-09-26",
+    endTime: "2026-12-20T23:59:59Z",
+    funding: "$1.5M Seed Round",
+    investors: "GameFi Guilds & TON Ventures",
+    refLink: "https://t.me/catgoldminerbot",
+    overview: "Cat Gold Miner combines the irresistible cuteness of cats with the addictive depth of idle tycoon games, built directly inside Telegram on The Open Network (TON). Players manage a bustling underground gold mining complex operated entirely by ambitious feline miners, feline elevator operators, and warehouse managers.\n\nTo maximize gold throughput, players must strategically upgrade mine shafts, expand elevator capacity, and hire feline managers with special booster skills. Processed gold can be converted into $CATGM tokens and rare NFT mining machinery.\n\nWith over 4 million registered cat miners, Cat Gold Miner has confirmed that a large portion of its native $CATGM token supply will be distributed based on mine shaft depths and hourly gold revenue.",
+    tokenomics: "The $CATGM token serves as the core utility and dividend token for upgrading advanced mine shafts and trading equipment NFTs on TON.",
+    sybilSafety: "Automated anti-cheat mechanics analyze mine shaft progression sequences to verify genuine player gameplay.",
+    strategy: "Keep your mine shafts, elevator, and warehouse balanced at equal throughput capacities, activate manager boost skills during active sessions, and maintain daily login streaks.",
+    steps: [
+      "Launch the official <a href=\"https://t.me/catgoldminerbot\" target=\"_blank\" rel=\"noopener noreferrer\">Cat Gold Miner Telegram Bot</a>.",
+      "Dig your first mine shaft and assign your rookie feline miner to excavate gold.",
+      "Upgrade your elevator and warehouse to prevent transport bottlenecks.",
+      "Hire specialist cat managers to automate mining and unlock productivity boosts.",
+      "Dig deeper underground shafts to discover rare gems and high-value ore veins.",
+      "Complete partner tasks under the \"Tasks\" tab for instant cash injections.",
+      "Connect your Tonkeeper wallet in the mining headquarters.",
+      "Prepare your subterranean feline empire for the official $CATGM token snapshot."
+],
+    faqs: [
+      {
+            "question": "What is Cat Gold Miner?",
+            "answer": "Cat Gold Miner is an idle tycoon game on TON where players run cat-operated gold mines to earn $CATGM tokens."
+      },
+      {
+            "question": "What is the best way to earn in Cat Gold Miner?",
+            "answer": "By keeping your mine shafts, elevator, and warehouse equally upgraded for maximum gold throughput."
+      },
+      {
+            "question": "Is Cat Gold Miner free?",
+            "answer": "Yes, 100% free to play."
+      }
+]
+  },
+  {
+    id: "spinnercoin",
+    name: "SpinnerCoin",
+    logo: "/images/airdrops/spinnercoin.jpg",
+    description: "First fidget spinner P2E game on TON with NFT spinners, upgradeable ball-bearings, and spin velocity mining $SPN tokens.",
+    reward: "$SPN Token Allocation Pre-TGE",
+    category: "Telegram Mini-App / TON / P2E & NFTs",
+    featured: false,
+    status: "active",
+    publishDate: "2026-09-26",
+    endTime: "2026-12-15T23:59:59Z",
+    funding: "Self-Funded by SPN Foundation",
+    investors: "TON NFT Alliance & Community Incubators",
+    refLink: "https://t.me/spinnercoin_bot",
+    overview: "SpinnerCoin revives the iconic fidget spinner craze as an innovative Play-to-Earn and NFT gaming sensation on The Open Network (TON). In SpinnerCoin, players flick their finger across the screen to spin virtual fidget spinners, generating electricity and mining $SPN tokens based on RPM velocity and spin duration.\n\nPlayers can upgrade ceramic ball bearings, aerodynamic spinner wings, and magnetic stabilizers to keep their spinners rotating for hours even when offline. Rare spinners can be minted as unique on-chain TON NFTs with distinct visual effects and mining multipliers.\n\nWith over 3 million players spinning daily, SpinnerCoin provides a satisfying, tactile, and highly lucrative avenue to earn verified tokens on TON.",
+    tokenomics: "The $SPN token is the primary currency for minting NFT spinners, upgrading bearing parts, and entering global speed competitions on TON.",
+    sybilSafety: "Physical swipe gesture trajectories and touch velocity vectors are evaluated by on-device physics to discard automated clickers.",
+    strategy: "Upgrade bearing quality and offline spin duration to keep mining while away, solve the daily spinner combo, and mint your starter spinner on TON.",
+    steps: [
+      "Open the official <a href=\"https://t.me/spinnercoin_bot\" target=\"_blank\" rel=\"noopener noreferrer\">SpinnerCoin Telegram Bot</a>.",
+      "Swipe across the screen to launch your starter fidget spinner.",
+      "Earn $SPN coins with every revolution of the spinner bearings.",
+      "Reinvest earnings into \"Spin Speed\", \"Bearing Quality\", and \"Offline Time\" upgrades.",
+      "Mint your customized spinner as an on-chain NFT on the TON blockchain.",
+      "Complete partner missions under the \"Quests\" section for bonus coins.",
+      "Connect your non-custodial TON wallet (Tonkeeper).",
+      "Climb the global RPM leaderboards to maximize your $SPN airdrop allocation."
+],
+    faqs: [
+      {
+            "question": "What is SpinnerCoin?",
+            "answer": "SpinnerCoin is a fidget spinner game on TON where players spin virtual spinners to mine $SPN tokens."
+      },
+      {
+            "question": "Can I earn while offline in SpinnerCoin?",
+            "answer": "Yes, by upgrading your bearing friction and offline time attributes."
+      },
+      {
+            "question": "Is SpinnerCoin free to play?",
+            "answer": "Yes, every player starts with a free classic spinner."
+      }
+]
+  },
+  {
+    id: "frog-farm",
+    name: "Frog Farm",
+    logo: "/images/airdrops/frog-farm.jpg",
+    description: "First truly liquid meme farming game on TON where amphibians leap up the food chain, collect flies, and farm $CROAK tokens.",
+    reward: "$CROAK Token Airdrop Pre-TGE",
+    category: "Telegram Mini-App / TON / MemeFi",
+    featured: false,
+    status: "active",
+    publishDate: "2026-09-27",
+    endTime: "2026-12-31T23:59:59Z",
+    funding: "TON Meme Syndicate",
+    investors: "Leading TON MemeFi Angels & KuCoin Community",
+    refLink: "https://t.me/frogfarmbot",
+    overview: "Frog Farm is an energetic, humorous meme farming game built on The Open Network (TON). Embracing the legendary internet meme lore of frogs (from Pepe to modern Web3 mascots), Frog Farm puts players in charge of an ambitious amphibian pond where frogs catch insects, jump between lily pads, and generate $CROAK tokens.\n\nWhat sets Frog Farm apart is its emphasis on liquidity and real-time community tournaments. Players can trade farmed produce, challenge rival ponds in water-gun showdowns, and unlock rare frog skins with dynamic reward multipliers.\n\nWith hundreds of thousands of daily croakers, Frog Farm is distributing the $CROAK token to active pond managers ahead of upcoming decentralized exchange listings.",
+    tokenomics: "The $CROAK token is a community-first meme and utility token on TON, featuring zero team vesting lockups and decentralized liquidity pool burns.",
+    sybilSafety: "Lily pad leap timing and fly-catching mini-games verify real human reflexes, filtering headless bot scripts.",
+    strategy: "Catch flies regularly to keep your frog energised, upgrade lily pad yields, and complete all partner quests under the \"Missions\" tab.",
+    steps: [
+      "Launch the official <a href=\"https://t.me/frogfarmbot\" target=\"_blank\" rel=\"noopener noreferrer\">Frog Farm Telegram Bot</a>.",
+      "Adopt your starting frog and tap to catch passing flies in the pond.",
+      "Upgrade your lily pads and pond vegetation to boost passive $CROAK yield.",
+      "Enter frog jumping competitions to win bonus token pools.",
+      "Complete sponsor quests and social follows under the \"Missions\" tab.",
+      "Connect your Tonkeeper or OKX Wallet in settings.",
+      "Invite fellow meme degens to your pond and earn referral percentages.",
+      "Safely store your $CROAK tokens ahead of the official TGE snapshot."
+],
+    faqs: [
+      {
+            "question": "What is Frog Farm?",
+            "answer": "Frog Farm is a meme-themed farming and arcade game on TON where players catch flies to earn $CROAK tokens."
+      },
+      {
+            "question": "Which blockchain does Frog Farm use?",
+            "answer": "Frog Farm operates natively on The Open Network (TON)."
+      },
+      {
+            "question": "Is Frog Farm free?",
+            "answer": "Yes, 100% free to play inside Telegram."
+      }
+]
+  }
 ];
