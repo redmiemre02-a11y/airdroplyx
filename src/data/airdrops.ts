@@ -3519,4 +3519,478 @@ export const airdrops: Airdrop[] = [
       }
 ]
   }
+,
+  {
+    id: "duckchain",
+    name: "DuckChain",
+    logo: "/images/airdrops/duckchain.jpg",
+    description: "First Consumer Layer 2 on TON powered by Arbitrum Orbit bringing EVM liquidity and AI mini-apps to Telegram with DuckChain Stars mining.",
+    reward: "DuckChain Stars & $DUCK Token Airdrop",
+    category: "Layer 2 / TON / Infrastructure",
+    featured: true,
+    status: "active",
+    publishDate: "2026-09-24",
+    endTime: "2026-12-31T23:59:59Z",
+    funding: "Incubated by Arbitrum Orbit & TON Foundation",
+    investors: "Offchain Labs, TON Ventures & Global Tier-1 VCs",
+    refLink: "https://t.me/DuckChain_bot",
+    overview: "DuckChain is a revolutionary milestone in Telegram blockchain architecture, operating as the very first Consumer Layer 2 blockchain built for The Open Network (TON). Powered by Arbitrum Orbit technology in collaboration with Offchain Labs, DuckChain bridges the massive 900+ million Telegram user base with full Ethereum Virtual Machine (EVM) compatibility and multi-chain liquidity.\n\nInside the DuckChain Telegram Mini-App, users can generate decentralized cross-chain wallets, mint DuckChain Testnet Stars, bridge assets seamlessly between TON and EVM chains, and interact with AI-driven mini-apps with zero gas friction.\n\nBacked by heavyweight venture funds and official recognition from the TON ecosystem, DuckChain has allocated a major portion of its native $DUCK governance token to active testnet bridge users, Star holders, and Telegram community participants.",
+    tokenomics: "The $DUCK token serves as the native gas and governance token of the DuckChain L2 network, funding decentralized sequencer operations and consumer dApp grants.",
+    sybilSafety: "DuckChain evaluates on-chain bridge transactions, testnet smart contract deploys, and Telegram account verification to prevent bot farm exploitation.",
+    strategy: "Claim daily DuckChain Stars inside the bot, execute daily testnet bridge transfers between TON and DuckChain, and complete partner quests in the \"Ecosystem\" tab.",
+    steps: [
+      "Launch the official <a href=\"https://t.me/DuckChain_bot\" target=\"_blank\" rel=\"noopener noreferrer\">DuckChain Telegram Bot</a>.",
+      "Claim your starter DuckChain Stars and activate your L2 wallet address.",
+      "Navigate to the \"Bridge\" tab and bridge testnet TON to DuckChain EVM.",
+      "Execute daily on-chain transactions and deploy testnet smart contracts.",
+      "Complete ecosystem partner missions under the \"Quests\" section.",
+      "Connect your non-custodial TON wallet (Tonkeeper or OKX Wallet).",
+      "Invite Web3 friends to join your Duck squad and earn referral Star bonuses.",
+      "Safeguard your accumulated Stars ahead of the official $DUCK mainnet airdrop snapshot."
+],
+    faqs: [
+      {
+            "question": "What is DuckChain?",
+            "answer": "DuckChain is the first EVM-compatible Consumer Layer 2 blockchain for TON, powered by Arbitrum Orbit."
+      },
+      {
+            "question": "What are DuckChain Stars?",
+            "answer": "Stars are loyalty points earned through daily bot interactions and testnet bridging that convert into $DUCK tokens."
+      },
+      {
+            "question": "Is DuckChain free to participate in?",
+            "answer": "Yes, testnet faucets and daily Stars are 100% free inside Telegram."
+      }
+]
+  },
+  {
+    id: "captain-tsubasa",
+    name: "Captain Tsubasa -RIVALS-",
+    logo: "/images/airdrops/captain-tsubasa.jpg",
+    description: "Official Captain Tsubasa anime Web3 game on Telegram backed by Animoca Brands where soccer fans train players, score goals, and farm $TSUBASA.",
+    reward: "$TSUBASA Token Airdrop Pre-TGE",
+    category: "Telegram Mini-App / TON / Anime GameFi",
+    featured: true,
+    status: "active",
+    publishDate: "2026-09-24",
+    endTime: "2026-11-30T23:59:59Z",
+    funding: "Official Anime IP License & Animoca Brands Backing",
+    investors: "Animoca Brands, TON Ventures & Web3 Gaming Guilds",
+    refLink: "https://t.me/TsubasaRivalsBot",
+    overview: "Captain Tsubasa -RIVALS- brings one of the most celebrated and beloved anime sports franchises in history to Telegram and The Open Network (TON). Officially licensed and developed in partnership with Web3 gaming powerhouse Animoca Brands, the game lets millions of manga and anime fans step onto the digital pitch alongside legendary heroes Tsubasa Ozora, Kojiro Hyuga, and Genzo Wakabayashi.\n\nPlayers train their soccer superstars, unlock iconic special moves like the \"Drive Shot\" and \"Tiger Shot\", and challenge rival stadiums in tactical soccer battles. Every victory, training drill, and stadium upgrade raises your team's hourly ball production.\n\nWith tier-1 exchange visibility and worldwide mainstream recognition, Captain Tsubasa -RIVALS- is distributing $TSUBASA tokens to players based on team rating, stadium prestige, and daily league wins.",
+    tokenomics: "The $TSUBASA token powers player NFT card upgrades, special technique mastery, and global championship tournament prize pools on TON.",
+    sybilSafety: "Tactical soccer match physics and team formation logic require genuine player strategic input, rendering generic clicker scripts ineffective.",
+    strategy: "Upgrade your training facilities to maximize passive hourly ball production, unlock iconic player cards in the stadium shop, and maintain daily training streaks.",
+    steps: [
+      "Open the official <a href=\"https://t.me/TsubasaRivalsBot\" target=\"_blank\" rel=\"noopener noreferrer\">Captain Tsubasa Telegram Bot</a>.",
+      "Recruit your rookie squad led by Tsubasa Ozora and kick off your first training drill.",
+      "Upgrade stadium facilities, training pitches, and tactical coaching cards.",
+      "Compete in league matches and execute signature special shots to win trophies.",
+      "Complete daily sponsor missions under the \"Quests\" tab for rapid coin boosts.",
+      "Connect your non-custodial TON wallet (Tonkeeper or MyTonWallet).",
+      "Invite fellow anime fans to join your soccer federation for referral multipliers.",
+      "Maintain top league standing ahead of the official $TSUBASA token generation event."
+],
+    faqs: [
+      {
+            "question": "Is Captain Tsubasa on Telegram an official game?",
+            "answer": "Yes, it is officially licensed and co-developed with Animoca Brands."
+      },
+      {
+            "question": "How do you earn $TSUBASA tokens?",
+            "answer": "By upgrading your stadium facilities, winning league matches, and raising your team rating."
+      },
+      {
+            "question": "Is Captain Tsubasa -RIVALS- free to play?",
+            "answer": "Yes, completely free to play inside Telegram."
+      }
+]
+  },
+  {
+    id: "storm-trade",
+    name: "Storm Trade",
+    logo: "/images/airdrops/storm-trade.jpg",
+    description: "Premier decentralized Perpetual DEX on TON featuring up to 50x leverage, social copy trading, and Storm Points farming for $STORM.",
+    reward: "Storm Points & $STORM Token Airdrop",
+    category: "Telegram Mini-App / TON / Perpetual DEX",
+    featured: true,
+    status: "active",
+    publishDate: "2026-09-24",
+    endTime: "2026-11-15T23:59:59Z",
+    funding: "TON Accelerator Grantee & DWF Labs Backed",
+    investors: "DWF Labs, TON Ventures & Leading Web3 DeFi Funds",
+    refLink: "https://t.me/storm_trade_bot",
+    overview: "Storm Trade is the undisputed leader in decentralized perpetual futures trading on The Open Network (TON). Seamlessly integrated into Telegram, Storm Trade allows over 500,000 active traders to trade crypto, forex, commodities, and pre-market tokens with up to 50x leverage directly through a native chat bot interface.\n\nBeyond trading, Storm Trade features a gamified mini-app where casual users can spin the \"Storm Spin\" wheel, provide liquidity to the decentralized vault (earning real USDT/TON yield), and participate in social trading competitions.\n\nWith over $500 Million in cumulative trading volume, Storm Trade is conducting its flagship community airdrop, converting accumulated Storm Points into native $STORM governance and revenue-sharing tokens.",
+    tokenomics: "The $STORM token captures 30% of all protocol trading fees, provides governance voting rights, and grants fee discount tiers for active traders.",
+    sybilSafety: "On-chain trade volume and liquidity vault deposits receive mathematical weight over zero-volume accounts, prioritizing authentic market participants.",
+    strategy: "Spin the daily Storm Spin wheel, execute low-risk micro-hedges to generate trading volume, deposit stablecoins into the liquidity vault for yield, and bind your Tonkeeper wallet.",
+    steps: [
+      "Launch the official <a href=\"https://t.me/storm_trade_bot\" target=\"_blank\" rel=\"noopener noreferrer\">Storm Trade Telegram Bot</a>.",
+      "Connect your non-custodial TON wallet (Tonkeeper, MyTonWallet, or OKX Wallet).",
+      "Spin the daily \"Storm Spin\" fortune wheel to win free Storm Points and vouchers.",
+      "Execute a trade on TON/USD or BTC/USD perpetual pairs to activate your trader tier.",
+      "Deposit TON or USDT into the liquidity vault to earn passive APR and point multipliers.",
+      "Complete verification tasks and social quests under the \"Rewards\" menu.",
+      "Invite trader friends to your trading syndicate to earn 15% referral fee rebates.",
+      "Accumulate Storm Points to qualify for the high-tier $STORM token airdrop allocation."
+],
+    faqs: [
+      {
+            "question": "What is Storm Trade?",
+            "answer": "Storm Trade is the premier decentralized perpetual futures exchange built natively on TON and Telegram."
+      },
+      {
+            "question": "Can I earn points without trading large sums?",
+            "answer": "Yes, daily Storm Spins, social quests, and micro-volume trades all generate eligible points."
+      },
+      {
+            "question": "Who backs Storm Trade?",
+            "answer": "Storm Trade is backed by DWF Labs, TON Ventures, and the TON Accelerator."
+      }
+]
+  },
+  {
+    id: "bemo",
+    name: "Bemo (bmTON)",
+    logo: "/images/airdrops/bemo.jpg",
+    description: "First and premier liquid staking protocol on TON where stakers deposit TON, receive yield-bearing bmTON, and farm stXP points for $BMO.",
+    reward: "stXP Points & $BMO Governance Airdrop",
+    category: "Telegram Mini-App / TON / Liquid Staking",
+    featured: false,
+    status: "active",
+    publishDate: "2026-09-24",
+    endTime: "2026-12-31T23:59:59Z",
+    funding: "Official TON Foundation Partner & Seed Round",
+    investors: "TON Ventures, DWF Labs & Top Tier Staking Angels",
+    refLink: "https://t.me/bemo_finance_bot",
+    overview: "Bemo is the foundational liquid staking protocol for The Open Network (TON), pioneering the liquid staking revolution that unlocked tens of millions of dollars in previously illiquid network stake. In Bemo, users stake their native TON tokens to secure the network validators, receiving bmTON in return—a yield-bearing receipt token that automatically accrues staking rewards while remaining fully liquid across TON DeFi.\n\nThrough its official Telegram Mini-App, Bemo hosts the \"stXP\" incentive program. Users earn stXP points by staking TON, holding bmTON, providing liquidity on DeDust or STON.fi, and completing staking literacy missions.\n\nBemo has confirmed that the upcoming $BMO governance token will be distributed directly to stXP point holders, granting ownership over protocol treasury revenues.",
+    tokenomics: "The $BMO token governs validator selection criteria, staking fee commission rates, and treasury distribution across the TON ecosystem.",
+    sybilSafety: "Staking points are mathematically proportional to staked capital and duration, inherently eliminating zero-cost Sybil bot manipulation.",
+    strategy: "Stake TON through the bot to mint bmTON, hold bmTON in your non-custodial wallet to generate daily stXP, and supply liquidity on TON DEXs for multiplier bonuses.",
+    steps: [
+      "Open the official <a href=\"https://t.me/bemo_finance_bot\" target=\"_blank\" rel=\"noopener noreferrer\">Bemo Telegram Bot</a>.",
+      "Connect your Tonkeeper or MyTonWallet non-custodial wallet.",
+      "Stake any amount of TON to receive yield-bearing bmTON tokens.",
+      "Claim your starter stXP point bonus in the incentive dashboard.",
+      "Complete staking educational missions under the \"Tasks\" tab.",
+      "Deploy bmTON into TON DEX liquidity pools (STON.fi or DeDust) for 2x point multipliers.",
+      "Invite Web3 friends to stake and earn referral commission on their generated stXP.",
+      "Hold your staked balance ahead of the official $BMO token generation event."
+],
+    faqs: [
+      {
+            "question": "What is Bemo on TON?",
+            "answer": "Bemo is the first liquid staking protocol on TON, allowing users to earn staking yields with liquid bmTON."
+      },
+      {
+            "question": "What are stXP points?",
+            "answer": "stXP are loyalty experience points earned by staking TON that will convert into $BMO governance tokens."
+      },
+      {
+            "question": "Is my TON locked when staking on Bemo?",
+            "answer": "No, bmTON is fully liquid and can be swapped back to TON at any time on decentralized exchanges."
+      }
+]
+  },
+  {
+    id: "watbird",
+    name: "GAMEE (WatBird)",
+    logo: "/images/airdrops/watbird.jpg",
+    description: "Largest gaming platform on Telegram with 50M+ players, backed by Animoca Brands, farming $WAT tokens through WatBird arcade games.",
+    reward: "$WAT Token Airdrop Pre-TGE",
+    category: "Telegram Mini-App / TON / Gaming Platform",
+    featured: true,
+    status: "active",
+    publishDate: "2026-09-24",
+    endTime: "2026-11-20T23:59:59Z",
+    funding: "Subsidiary of Animoca Brands ($5B+ Web3 Leader)",
+    investors: "Animoca Brands, Binance Labs, TON Ventures",
+    refLink: "https://t.me/gamee",
+    overview: "GAMEE is the undisputed titan of casual mobile gaming inside Telegram, boasting over 50 million registered players and serving as a flagship subsidiary of Animoca Brands. In 2024, GAMEE expanded deeply into The Open Network (TON) with the launch of WatBird—a whimsical mascot starring in an ecosystem of arcade challenges, mining nests, and viral community quests.\n\nPlayers mine WatPoints by participating in seasonal gaming episodes, completing partner missions with tier-1 Web3 brands, and hatching rare WatBird eggs. The entire GAMEE ecosystem is transitioning to the native $WAT token on TON.\n\nWith backing from Yat Siu and top institutional investors, GAMEE provides unparalleled gaming polish, proven legitimacy, and guaranteed tier-1 exchange listings.",
+    tokenomics: "The $WAT token powers gaming tournament buy-ins, NFT breeding, and VIP ecosystem staking on TON.",
+    sybilSafety: "Gameplay anti-cheat engines and Telegram account longevity verifications ensure only legitimate mobile gamers receive top reward tiers.",
+    strategy: "Check in daily to feed your WatBird, complete all sponsor quests under the \"Earn\" tab, mine WatPoints during active episodes, and link your Tonkeeper wallet.",
+    steps: [
+      "Launch the official <a href=\"https://t.me/gamee\" target=\"_blank\" rel=\"noopener noreferrer\">GAMEE Telegram Bot</a>.",
+      "Adopt your WatBird mascot and claim your starter WatPoints.",
+      "Play arcade mini-games to hit episode score thresholds and win token bundles.",
+      "Feed and level up your WatBird to increase its passive mining rate.",
+      "Complete partner quests in the \"Earn\" section to unlock rare egg drops.",
+      "Connect your non-custodial TON wallet (Tonkeeper).",
+      "Invite gamer friends to join your squad for referral mining boosts.",
+      "Convert your accumulated WatPoints into verified $WAT tokens upon TGE."
+],
+    faqs: [
+      {
+            "question": "What is GAMEE and WatBird?",
+            "answer": "GAMEE is the biggest gaming platform on Telegram (50M+ users), backed by Animoca Brands and farming $WAT on TON."
+      },
+      {
+            "question": "Who backs GAMEE?",
+            "answer": "GAMEE is a subsidiary of Animoca Brands and is supported by Binance Labs and TON Ventures."
+      },
+      {
+            "question": "Is GAMEE free to play?",
+            "answer": "Yes, 100% free with dozens of playable casual games."
+      }
+]
+  },
+  {
+    id: "vanilla-finance",
+    name: "Vanilla Finance (Superp)",
+    logo: "/images/airdrops/vanilla-finance.jpg",
+    description: "High-leverage meme perpetual DEX inside Telegram offering up to 10,000x leverage where traders tap and trade to farm $SUGAR airdrops.",
+    reward: "Cone Points & $SUGAR Token Airdrop",
+    category: "Telegram Mini-App / TON / Perps DEX",
+    featured: false,
+    status: "active",
+    publishDate: "2026-09-25",
+    endTime: "2026-12-15T23:59:59Z",
+    funding: "Backed by Paper Ventures & Web3 Angels",
+    investors: "Paper Ventures, ABCDE Capital & TON DeFi Builders",
+    refLink: "https://t.me/Vanilla_Finance_Bot",
+    overview: "Vanilla Finance (rebranded as Superp) is a decentralized perpetual exchange protocol built natively inside Telegram that brings extreme leverage and social trading to meme coin degens. Allowing leverage up to 10,000x on micro-positions, Vanilla Finance democratizes high-volatility trading with built-in liquidation protection mechanisms.\n\nInside the mini-app, users can participate in two parallel reward tracks: \"Tapping\" (mining Cone Points by tapping a virtual ice cream cone) and \"Trading\" (earning high-multiplier points by executing 1-minute prediction trades on Bitcoin and viral memes).\n\nWith hundreds of thousands of active traders, Vanilla Finance is distributing its native $SUGAR governance and fee-discount token to both tap miners and on-chain traders.",
+    tokenomics: "The $SUGAR token provides fee discounts, staking yields from protocol liquidation fees, and governance rights on TON.",
+    sybilSafety: "Trading volume verification and on-chain wallet signatures heavily prioritize active traders over idle clicker scripts.",
+    strategy: "Tap the ice cream cone daily to mine base Cone Points, execute low-capital micro-trades to multiply your reward tier, and complete all partner verification quests.",
+    steps: [
+      "Open the official <a href=\"https://t.me/Vanilla_Finance_Bot\" target=\"_blank\" rel=\"noopener noreferrer\">Vanilla Finance Telegram Bot</a>.",
+      "Tap the ice cream cone to mine your starter Cone Points.",
+      "Explore the 1-minute price prediction perps market with virtual or testnet funds.",
+      "Execute a micro-trade to unlock the \"Active Trader\" multiplier badge.",
+      "Complete social partner missions under the \"Tasks\" tab.",
+      "Connect your TON wallet (Tonkeeper or OKX Wallet) in settings.",
+      "Invite trader friends to earn 10% referral royalties on their mined cones.",
+      "Prepare your Cone Point balance for conversion into $SUGAR tokens upon listing."
+],
+    faqs: [
+      {
+            "question": "What is Vanilla Finance (Superp)?",
+            "answer": "Vanilla Finance is a high-leverage perpetual DEX inside Telegram where users tap and trade to earn $SUGAR tokens."
+      },
+      {
+            "question": "What is the 10,000x leverage feature?",
+            "answer": "An innovative micro-position trading model designed for high-volatility 1-minute market predictions."
+      },
+      {
+            "question": "Can I earn without risking real money?",
+            "answer": "Yes, tapping the ice cream cone and completing quests is 100% free."
+      }
+]
+  },
+  {
+    id: "sidekick",
+    name: "SideKick (SideFans)",
+    logo: "/images/airdrops/sidekick.jpg",
+    description: "First LiveFi live-streaming and social engagement platform on Telegram backed by YZi Labs with active $SIDE token farming.",
+    reward: "$SIDE Token Airdrop Pre-TGE",
+    category: "Telegram Mini-App / TON / LiveFi & Social",
+    featured: false,
+    status: "active",
+    publishDate: "2026-09-25",
+    endTime: "2026-12-20T23:59:59Z",
+    funding: "Incubated by YZi Labs & Top Gaming Funds",
+    investors: "YZi Labs, Web3 Creators Fund & TON SocialFi Partners",
+    refLink: "https://t.me/Sidekick_Fans_Bot",
+    overview: "SideKick (operating as SideFans) is pioneering the \"LiveFi\" frontier inside Telegram, bridging the explosive world of live-streaming creators with decentralized incentives on The Open Network (TON). Through SideKick, streamers and creators host interactive broadcast sessions where viewers cheer, vote, and tip using on-chain micro-transactions.\n\nInside the Telegram Mini-App, users collect daily Fan Passes, support their favorite gaming streamers, complete interactive stream challenges, and farm $SIDE tokens.\n\nBacked by YZi Labs and prominent media funds, SideKick is distributing $SIDE tokens to reward active viewers, content curators, and social community ambassadors ahead of its exchange listing.",
+    tokenomics: "The $SIDE token coordinates creator tipping revenue splits, fan club memberships, and exclusive creator live-show access on TON.",
+    sybilSafety: "Stream viewing duration proofs and social engagement verifications eliminate headless bot accounts from claiming creator rewards.",
+    strategy: "Check in daily to claim your Fan Pass, follow featured creators to earn viewer drops, participate in live voting polls, and bind your Tonkeeper wallet.",
+    steps: [
+      "Launch the official <a href=\"https://t.me/Sidekick_Fans_Bot\" target=\"_blank\" rel=\"noopener noreferrer\">SideKick Telegram Bot</a>.",
+      "Claim your official Fan Pass and receive your starter $SIDE reward allocation.",
+      "Browse featured Web3 creators and follow your favorite gaming streamers.",
+      "Participate in live-stream voting sessions and community polls.",
+      "Complete creator support tasks under the \"Missions\" section.",
+      "Connect your non-custodial TON wallet (Tonkeeper).",
+      "Invite friends to join the stream audience for referral reward bonuses.",
+      "Accumulate fan reputation to maximize your $SIDE airdrop payout."
+],
+    faqs: [
+      {
+            "question": "What is SideKick (SideFans)?",
+            "answer": "SideKick is a LiveFi live-streaming platform on Telegram that rewards viewers and creators with $SIDE tokens."
+      },
+      {
+            "question": "Who backs SideKick?",
+            "answer": "SideKick is incubated and backed by YZi Labs and Web3 creator investment funds."
+      },
+      {
+            "question": "Is SideKick free to use?",
+            "answer": "Yes, watching streams and earning points is completely free."
+      }
+]
+  },
+  {
+    id: "tapfantasy",
+    name: "Tap Fantasy TON",
+    logo: "/images/airdrops/tapfantasy.jpg",
+    description: "Premier MMORPG Web3 metaverse on TON with over 1M players, guild raids, NFT hero equipment, and dual token rewards ($MC & $TAP).",
+    reward: "$MC & $TAP Token Allocations",
+    category: "Telegram Mini-App / TON / MMORPG GameFi",
+    featured: false,
+    status: "active",
+    publishDate: "2026-09-26",
+    endTime: "2026-12-31T23:59:59Z",
+    funding: "$10M+ Raised Across Global Strategic Rounds",
+    investors: "Animoca Brands, Mirana Ventures, TON Ventures",
+    refLink: "https://t.me/TapFantasyGameBot",
+    overview: "Tap Fantasy is a critically acclaimed MMORPG Web3 gaming metaverse that has officially expanded to The Open Network (TON), bringing rich anime RPG adventure directly into Telegram. Over 1 million adventurers explore an enchanting fantasy open world, forming heroic guilds, battling dungeon bosses, and collecting rare equipment NFTs.\n\nUnlike simplistic tap clickers, Tap Fantasy features real multiplayer cooperative raids, player-versus-player arena combat, and a robust player-driven economy. Players can trade equipment NFTs on the open TON marketplace and farm $MC and $TAP tokens through daily quests.\n\nWith extensive backing from Animoca Brands and Mirana Ventures, Tap Fantasy offers one of the deepest, most immersive GameFi experiences on Telegram.",
+    tokenomics: "The $TAP token serves as the supreme governance token for tournament prize pools and land ownership, while $MC serves as the in-game currency.",
+    sybilSafety: "Dungeon boss encounters and equipment progression gates prevent automated farming bots from reaching lucrative loot tiers.",
+    strategy: "Assemble a balanced party of heroes (tank, healer, DPS), clear daily dungeon stages to loot rare gear, and complete all partner quests under the \"Events\" tab.",
+    steps: [
+      "Open the official <a href=\"https://t.me/TapFantasyGameBot\" target=\"_blank\" rel=\"noopener noreferrer\">Tap Fantasy Telegram Bot</a>.",
+      "Choose your starting hero class and embark on your fantasy journey.",
+      "Clear beginner dungeon chapters to collect gold, experience, and armor.",
+      "Equip rare weapons to boost your team's combat rating and unlock raid bosses.",
+      "Join an active guild to participate in weekly guild war prize pools.",
+      "Complete event tasks under the \"Quests\" menu for instant gem bonuses.",
+      "Connect your Tonkeeper wallet in settings to enable NFT loot trading.",
+      "Climb the seasonal arena rankings to secure top-tier $TAP token airdrop rewards."
+],
+    faqs: [
+      {
+            "question": "What is Tap Fantasy?",
+            "answer": "Tap Fantasy is a full-featured MMORPG game on TON and Telegram with anime heroes, dungeon raids, and NFT loot."
+      },
+      {
+            "question": "What tokens can I earn in Tap Fantasy?",
+            "answer": "Players farm $MC in-game currency and qualify for $TAP governance token airdrops."
+      },
+      {
+            "question": "Is Tap Fantasy free to play?",
+            "answer": "Yes, players can start their adventure and clear dungeons 100% free."
+      }
+]
+  },
+  {
+    id: "momo-ai",
+    name: "MomoAI",
+    logo: "/images/airdrops/momo-ai.jpg",
+    description: "Viral AI-powered tree growth and agent simulation game on Solana & TON with over 3M players harvesting fruit to farm $MTOS tokens.",
+    reward: "$MTOS Token Airdrop Pre-TGE",
+    category: "Telegram Mini-App / TON & Solana / AI & GameFi",
+    featured: false,
+    status: "active",
+    publishDate: "2026-09-26",
+    endTime: "2026-11-30T23:59:59Z",
+    funding: "$3M Strategic Round",
+    investors: "Solana Foundation, Web3 AI Syndicate & TON Angels",
+    refLink: "https://t.me/momo_ai_bot",
+    overview: "MomoAI is a viral digital growth simulation and AI agent gaming ecosystem deployed across TON and Solana. In MomoAI, players plant and cultivate a sacred World Tree, using AI agent assistants to nurture branches, harvest magical fruit, and defend their grove against pest swarms.\n\nEvery tree level-up increases your hourly Kiwi fruit yield, which converts into lucky draw cards, rare seed genetic mutations, and $MTOS token airdrop allocations. The game seamlessly integrates decentralized AI agent workflows to optimize player asset staking.\n\nWith over 3 million verified tree growers, MomoAI is preparing for its $MTOS token generation event (TGE) with guaranteed community distribution.",
+    tokenomics: "The $MTOS token powers AI agent upgrades, genetic seed breeding, and decentralized governance across TON and Solana.",
+    sybilSafety: "On-chain tree upgrade transactions and daily lucky card draw limits mathematically filter automated bot farms.",
+    strategy: "Reinvest all harvested fruit into upgrading your World Tree level to maximize hourly production, draw your daily lucky cards, and link your Tonkeeper wallet.",
+    steps: [
+      "Launch the official <a href=\"https://t.me/momo_ai_bot\" target=\"_blank\" rel=\"noopener noreferrer\">MomoAI Telegram Bot</a>.",
+      "Plant your starter World Tree seed and water it to begin growth.",
+      "Harvest Kiwi fruit produced by your tree branches every hour.",
+      "Reinvest fruit into leveling up your tree trunk for higher yield multipliers.",
+      "Draw your daily lucky cards under the \"Draw\" tab to win rare seed bonuses.",
+      "Complete official partner tasks in the \"Tasks\" section for instant fruit boosts.",
+      "Connect your non-custodial TON wallet (Tonkeeper).",
+      "Maintain an active tree cultivation streak ahead of the $MTOS token distribution."
+],
+    faqs: [
+      {
+            "question": "What is MomoAI?",
+            "answer": "MomoAI is an AI-powered World Tree growth game on Telegram where players harvest fruit to earn $MTOS tokens."
+      },
+      {
+            "question": "Which blockchains does MomoAI support?",
+            "answer": "MomoAI operates across both TON and Solana ecosystems."
+      },
+      {
+            "question": "Is MomoAI free to play?",
+            "answer": "Yes, watering your tree and harvesting fruit is completely free."
+      }
+]
+  },
+  {
+    id: "memes-lab",
+    name: "LAB Launcher (Memes Lab)",
+    logo: "/images/airdrops/memes-lab.jpg",
+    description: "Premier meme coin launchpad and SocialFi hub on TON rewarding all in-app creation, trading, and voting actions with $LAB token airdrops.",
+    reward: "$LAB Token Airdrop Pre-TGE",
+    category: "Telegram Mini-App / TON / Meme Launchpad",
+    featured: false,
+    status: "active",
+    publishDate: "2026-09-27",
+    endTime: "2026-12-31T23:59:59Z",
+    funding: "TON Meme Incubator & Community Syndicate",
+    investors: "TON Meme Fund, DeDust & Ecosystem DEX Angels",
+    refLink: "https://t.me/MemesLabBot",
+    overview: "LAB Launcher (operating under Memes Lab) is the high-velocity meme coin launchpad and SocialFi laboratory built directly inside Telegram on The Open Network (TON). Solving the opacity and rug-pull risks of meme trading, Memes Lab provides a 100% fair-launch bonding curve mechanism (similar to Pump.fun on Solana) where new community tokens launch with locked liquidity and zero team pre-mines.\n\nInside the mini-app, any in-app action—creating a meme token, voting on community proposals, or trading on the bonding curve—earns direct $LAB airdrop points.\n\nWith anticipation surrounding its native $LAB token launch, Memes Lab is rewarding the most active meme curators and degen traders across the TON blockchain.",
+    tokenomics: "The $LAB token captures a percentage of all launchpad trading fees, provides launch whitelist allocations, and governs curated meme rankings on TON.",
+    sybilSafety: "On-chain bonding curve interactions and verified TON wallet signatures filter Sybil bots from claiming protocol fee-sharing tokens.",
+    strategy: "Vote daily on trending meme tokens, participate in fair-launch bonding curve micro-trades, and complete all partner verification quests under the \"Missions\" tab.",
+    steps: [
+      "Open the official <a href=\"https://t.me/MemesLabBot\" target=\"_blank\" rel=\"noopener noreferrer\">LAB Launcher Telegram Bot</a>.",
+      "Activate your trader profile and claim your welcome $LAB points.",
+      "Explore trending community tokens launching on the fair bonding curve.",
+      "Vote on upcoming meme token concepts to boost your curator rating.",
+      "Complete partner missions and social follow tasks under the \"Missions\" tab.",
+      "Connect your Tonkeeper or OKX Wallet in settings.",
+      "Invite degen friends to the launchpad and earn referral shares on their trades.",
+      "Hold your accumulated $LAB point score ahead of the official TGE snapshot."
+],
+    faqs: [
+      {
+            "question": "What is LAB Launcher (Memes Lab)?",
+            "answer": "Memes Lab is a fair-launch meme coin launchpad on TON that rewards creators and traders with $LAB tokens."
+      },
+      {
+            "question": "How is it different from normal DEXs?",
+            "answer": "It uses fair bonding curves where liquidity is automatically locked and burned on DeDust/STON.fi upon curve completion."
+      },
+      {
+            "question": "Is it free to earn $LAB?",
+            "answer": "Yes, daily voting, check-ins, and social quests are 100% free."
+      }
+]
+  },
+  {
+    id: "pigs",
+    name: "Pigs House",
+    logo: "/images/airdrops/pigs.jpg",
+    description: "Viral community animal avatar and SocialFi movement on TON following Dogs and Cats, distributing $PIGS tokens based on Telegram account age.",
+    reward: "$PIGS Token Community Drop",
+    category: "Telegram Mini-App / TON / SocialFi",
+    featured: false,
+    status: "active",
+    publishDate: "2026-09-27",
+    endTime: "2026-11-30T23:59:59Z",
+    funding: "TON Meme Community Syndicate",
+    investors: "TON Meme Ecosystem Partners",
+    refLink: "https://t.me/pigshousebot",
+    overview: "Pigs House is the latest viral community phenomenon capturing millions of Telegram users on The Open Network (TON). Following the astronomical success of Dogs ($DOGS) and Cats ($CATS), Pigs House establishes the third major pillar of the Telegram animal meme triumvirate, celebrating genuine Telegram power users with instant $PIGS token allocations.\n\nUpon entering the bot, an algorithm calculates your Telegram account age, premium status, and messaging longevity, instantly granting a proportional starter bundle of $PIGS tokens. Users can build their pig pens, complete daily social raids, and join community squads.\n\nWith zero VC allocations and a pure community ethos, Pigs House provides a straightforward, zero-cost avenue to capitalize on the viral Telegram meme wave.",
+    tokenomics: "The $PIGS token is minted as a native Jetton on TON with 100% community distribution and zero investor lockup cliffs.",
+    sybilSafety: "Telegram account creation date checks, premium status multipliers, and daily CAPTCHA challenges prevent automated bot farms from claiming high-tier allocations.",
+    strategy: "Verify your account age immediately upon launch, maintain daily check-in streaks, complete all partner raids, and link your Tonkeeper wallet.",
+    steps: [
+      "Launch the official <a href=\"https://t.me/pigshousebot\" target=\"_blank\" rel=\"noopener noreferrer\">Pigs House Telegram Bot</a>.",
+      "Allow the bot to analyze your Telegram account age and membership status.",
+      "Claim your personalized $PIGS token allocation based on your account longevity.",
+      "Check in daily to build your consecutive login streak bonus.",
+      "Complete official social partner quests under the \"Tasks\" section.",
+      "Connect your non-custodial TON wallet (Tonkeeper or OKX Wallet).",
+      "Invite Telegram friends to join your sty and earn referral percentages.",
+      "Safeguard your $PIGS balance ahead of the official token distribution and exchange listing."
+],
+    faqs: [
+      {
+            "question": "What is Pigs House?",
+            "answer": "Pigs House is a viral Telegram SocialFi mini-app that rewards users with $PIGS tokens based on their account age."
+      },
+      {
+            "question": "How is my allocation decided?",
+            "answer": "Older Telegram accounts and Telegram Premium subscribers receive substantially higher $PIGS allocations."
+      },
+      {
+            "question": "Is Pigs House free?",
+            "answer": "Yes, 100% free without any mandatory payments."
+      }
+]
+  }
 ];
