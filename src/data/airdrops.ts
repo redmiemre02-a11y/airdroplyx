@@ -3993,4 +3993,435 @@ export const airdrops: Airdrop[] = [
       }
 ]
   }
+,
+  {
+    id: "stonfi",
+    name: "STON.fi",
+    logo: "/images/airdrops/stonfi.jpg",
+    description: "Premier decentralized AMM exchange on TON with over $100M+ TVL, zero slippage RFQ routing, and ongoing DEX liquidity rewards.",
+    reward: "STON DEX Farming & Liquidity Airdrops",
+    category: "Telegram Mini-App / TON / DEX",
+    featured: true,
+    status: "active",
+    publishDate: "2026-09-26",
+    endTime: "2026-12-31T23:59:59Z",
+    funding: "Backed by TOP (The Open Platform) & TON Foundation",
+    investors: "TONcoin Fund, Karatage & Top Tier Web3 Angels",
+    refLink: "https://t.me/stonfi_bot",
+    overview: "STON.fi is the undisputed titan of decentralized trading on The Open Network (TON), commanding over $100 Million in Total Value Locked (TVL) and processing the vast majority of all on-chain token swaps in Telegram. Operating as a next-generation Request for Quote (RFQ) and Automated Market Maker (AMM) protocol, STON.fi provides zero slippage, lightning-fast settlement, and direct cross-chain interoperability without bridging friction.\n\nInside its official Telegram Mini-App, users can swap native TON tokens, provide liquidity to high-APR farming farms, stake $STON for protocol fee sharing, and participate in ecosystem airdrop campaigns co-hosted with top TON projects.\n\nAs the liquidity backbone of TON, participating in STON.fi liquidity pools and swapping through the bot is widely recognized as one of the highest-yield airdrop qualification activities across Web3.",
+    tokenomics: "The $STON token governs protocol parameters, grants fee discounts, and shares 100% of protocol DAO swap fees with long-term stakers.",
+    sybilSafety: "On-chain trade volume and liquidity pool deposits inherently filter Sybil bot networks by requiring actual capital utilization.",
+    strategy: "Provide liquidity to core pairs (TON/USDT or STON/TON), stake LP tokens in the farming tab to earn bonus rewards, and execute regular token swaps via the Telegram bot.",
+    steps: [
+      "Open the official <a href=\"https://t.me/stonfi_bot\" target=\"_blank\" rel=\"noopener noreferrer\">STON.fi Telegram Bot</a>.",
+      "Connect your non-custodial TON wallet (Tonkeeper or MyTonWallet).",
+      "Execute a swap between TON and any verified ecosystem token.",
+      "Navigate to the \"Pools\" tab and deposit equal values of liquidity.",
+      "Stake your LP tokens in the active \"Farming\" pools to earn dual-token yields.",
+      "Participate in official partner trading competitions to earn bonus pool allocations.",
+      "Stake $STON in the governance portal for revenue-sharing APR.",
+      "Maintain active liquidity positions to qualify for upcoming ecosystem airdrop snapshots."
+],
+    faqs: [
+      {
+            "question": "What is STON.fi?",
+            "answer": "STON.fi is the largest decentralized Automated Market Maker exchange on The Open Network (TON)."
+      },
+      {
+            "question": "Do I need to leave Telegram to trade on STON.fi?",
+            "answer": "No, STON.fi functions as a complete trading terminal directly inside Telegram."
+      },
+      {
+            "question": "Is STON.fi audited?",
+            "answer": "Yes, STON.fi smart contracts have been rigorously audited by top security firms including CertiK."
+      }
+]
+  },
+  {
+    id: "tonstakers",
+    name: "Tonstakers",
+    logo: "/images/airdrops/tonstakers.jpg",
+    description: "Largest liquid staking protocol on TON with over $200M+ TVL where stakers deposit TON, receive yield-bearing tsTON, and farm ecosystem rewards.",
+    reward: "tsTON Yield & Ecosystem Points Airdrop",
+    category: "Telegram Mini-App / TON / Liquid Staking",
+    featured: true,
+    status: "active",
+    publishDate: "2026-09-26",
+    endTime: "2026-12-31T23:59:59Z",
+    funding: "TON Accelerator Winner & Core Ecosystem Infrastructure",
+    investors: "TON Ventures, First Stage Labs & Leading Staking Funds",
+    refLink: "https://t.me/tonstakers_bot",
+    overview: "Tonstakers is the premier liquid staking infrastructure on The Open Network (TON), holding the #1 position by Total Value Locked with over $200 Million in staked assets and more than 75,000 active stakers. Designed to maximize validator security while keeping capital productive, Tonstakers allows users to stake TON with zero lockup periods, receiving tsTON in return.\n\ntsTON automatically increases in value relative to TON as validator staking rewards compound every 18 hours. Furthermore, tsTON is deeply integrated across all major TON DeFi protocols (STON.fi, DeDust, EVAA Protocol) as the premier collateral asset.\n\nThrough its official Telegram Mini-App, Tonstakers rewards active liquid stakers with exclusive loyalty points and ecosystem partner allocations, making it a mandatory foundation for serious airdrop farmers.",
+    tokenomics: "tsTON is the decentralized yield-bearing liquid staking token on TON. Protocol governance will coordinate validator distribution and treasury reserves.",
+    sybilSafety: "Staking points scale directly with on-chain staked capital and time duration, completely preventing Sybil bot manipulation.",
+    strategy: "Stake TON through the bot to receive tsTON, deploy tsTON into STON.fi liquidity pools, and maintain your staking streak for compounding loyalty points.",
+    steps: [
+      "Launch the official <a href=\"https://t.me/tonstakers_bot\" target=\"_blank\" rel=\"noopener noreferrer\">Tonstakers Telegram Bot</a>.",
+      "Connect your Tonkeeper or OKX Wallet.",
+      "Stake TON with one tap to immediately mint yield-bearing tsTON.",
+      "Track your compounding annual percentage yield (APY) inside the dashboard.",
+      "Deploy tsTON into integrated DeFi lending and DEX pools for secondary yield.",
+      "Complete partner quests under the \"Earn\" section.",
+      "Invite Web3 friends to stake and earn referral commission on their rewards.",
+      "Hold tsTON safely to maximize your share of upcoming ecosystem token airdrops."
+],
+    faqs: [
+      {
+            "question": "What is Tonstakers?",
+            "answer": "Tonstakers is the leading liquid staking protocol on TON with over $200M in TVL, allowing users to earn staking yields with tsTON."
+      },
+      {
+            "question": "Can I unstake my TON anytime?",
+            "answer": "Yes, tsTON can be swapped back to TON instantly on DEXs or unstaked through protocol rounds."
+      },
+      {
+            "question": "Who audits Tonstakers?",
+            "answer": "Tonstakers smart contracts are audited by CertiK and verified by the TON Foundation."
+      }
+]
+  },
+  {
+    id: "wizzwoods",
+    name: "Wizzwoods",
+    logo: "/images/airdrops/wizzwoods.jpg",
+    description: "Enchanting pixel-art fantasy wizard simulation game on Berachain & TON where players craft magical potions, summon wizards, and farm $WIZZ.",
+    reward: "$WIZZ Token Allocation Pre-TGE",
+    category: "Telegram Mini-App / Berachain & TON / GameFi",
+    featured: true,
+    status: "active",
+    publishDate: "2026-09-26",
+    endTime: "2026-12-15T23:59:59Z",
+    funding: "$2.5M Seed Round",
+    investors: "Berachain Ecosystem Fund, Web3 Gaming Angels",
+    refLink: "https://t.me/WizzwoodsBot",
+    overview: "Wizzwoods is an enchanting, visually stunning pixel-art simulation and wizard tycoon game operating simultaneously across Berachain and The Open Network (TON). Stepping into the shoes of a magical forest arch-mage, players build enchanted academies, summon eccentric wizard apprentices, gather mystical herbs, and craft powerful potions.\n\nUnlike generic idle tap clickers, Wizzwoods features deep economic simulation: wizards must be assigned to specialized crafting workstations, upgraded with stat gear, and sent on expeditions to defeat forest monsters. Every potion sold and milestone reached generates raw magical energy convertible into $WIZZ tokens.\n\nWith over 3 million players and massive viral traction across Twitter and Telegram, Wizzwoods has confirmed that its native $WIZZ token generation event will reward top potion brewers and academy levels.",
+    tokenomics: "The $WIZZ token powers magical academy expansion, wizard NFT breeding, and guild tournament prize pools on Berachain and TON.",
+    sybilSafety: "Complex crafting recipes, wizard stamina management, and expedition combat require authentic player decision-making, filtering automated macro bots.",
+    strategy: "Assign wizards to optimal resource gathering nodes, balance potion production chains to level up your magic academy, and maintain daily check-in streaks.",
+    steps: [
+      "Open the official <a href=\"https://t.me/WizzwoodsBot\" target=\"_blank\" rel=\"noopener noreferrer\">Wizzwoods Telegram Bot</a>.",
+      "Claim your starter magic academy and summon your first rookie wizard.",
+      "Assign wizards to gather magical wood, mana crystals, and mystical mushrooms.",
+      "Brew complex potions in the alchemy laboratory to fulfill guild market orders.",
+      "Upgrade your central Wizard Statue to unlock higher resource tier caps.",
+      "Complete social partner missions under the \"Quests\" menu.",
+      "Connect your Tonkeeper wallet (and optional Berachain EVM wallet).",
+      "Climb the global magic leaderboard to secure high-tier $WIZZ airdrop allocations."
+],
+    faqs: [
+      {
+            "question": "What is Wizzwoods?",
+            "answer": "Wizzwoods is a pixel-art fantasy wizard simulation game on Berachain and TON where players run magical academies to earn $WIZZ tokens."
+      },
+      {
+            "question": "Which blockchains does Wizzwoods support?",
+            "answer": "Wizzwoods is deployed natively on both Berachain and The Open Network (TON)."
+      },
+      {
+            "question": "Is Wizzwoods free to play?",
+            "answer": "Yes, every player starts with a free academy and apprentice wizards."
+      }
+]
+  },
+  {
+    id: "uxlink",
+    name: "UXLINK",
+    logo: "/images/airdrops/uxlink.jpg",
+    description: "Premier Web3 social relationship infrastructure with 10M+ users connecting Telegram groups, SocialFi decentralized IDs, and $UXLINK rewards.",
+    reward: "$UXLINK Ecosystem Airdrop Season",
+    category: "Telegram Mini-App / TON & EVM / SocialFi",
+    featured: true,
+    status: "active",
+    publishDate: "2026-09-26",
+    endTime: "2026-11-30T23:59:59Z",
+    funding: "$15M+ Raised Across Institutional Rounds",
+    investors: "OKX Ventures, Animoca Brands, KuCoin Ventures",
+    refLink: "https://t.me/uxlink_bot",
+    overview: "UXLINK is the world's leading Web3 social platform and decentralized relationship infrastructure, bridging over 10 million registered users and thousands of Telegram community groups into decentralized finance. By transforming standard Telegram group chats into Web3 social trading hubs, UXLINK enables users to form decentralized social graphs, mint on-chain Social DIDs, and discover high-potential token opportunities alongside friends.\n\nInside the UXLINK Telegram Mini-App, users check in daily, connect their social graphs, execute decentralized swaps, and earn UXUY points convertible into $UXLINK ecosystem tokens.\n\nWith listings on OKX, Bybit, and top global exchanges, UXLINK is conducting extensive seasonal airdrops dedicated to active Telegram community ambassadors and social graph builders.",
+    tokenomics: "The $UXLINK token powers social protocol governance, developer dApp API access, and transaction gas fee subsidies across the UXLINK social network.",
+    sybilSafety: "Two-way social link verifications and Telegram group authenticity audits prevent Sybil farm rings from claiming high-tier social rewards.",
+    strategy: "Check in daily without breaking streaks, mint your decentralized Social DID, link your active Telegram community groups, and bind your Web3 wallet.",
+    steps: [
+      "Launch the official <a href=\"https://t.me/uxlink_bot\" target=\"_blank\" rel=\"noopener noreferrer\">UXLINK Telegram Bot</a>.",
+      "Verify your Telegram account and claim your starter UXUY points.",
+      "Mint your decentralized Social DID to establish your verified on-chain identity.",
+      "Check in daily under the \"Rewards\" tab to maintain your compounding streak multiplier.",
+      "Complete official ecosystem quests and follow partner channels.",
+      "Connect your non-custodial crypto wallet (OKX, MetaMask, or Tonkeeper).",
+      "Invite Web3 friends to form social link squads and earn referral royalties.",
+      "Redeem accumulated UXUY points for $UXLINK tokens during seasonal airdrop claims."
+],
+    faqs: [
+      {
+            "question": "What is UXLINK?",
+            "answer": "UXLINK is the largest Web3 social infrastructure on Telegram connecting over 10M users with SocialFi and trading tools."
+      },
+      {
+            "question": "Who backs UXLINK?",
+            "answer": "UXLINK is backed by OKX Ventures, Animoca Brands, and leading Web3 institutional funds."
+      },
+      {
+            "question": "Is UXLINK free to join?",
+            "answer": "Yes, creating a profile and earning daily points is 100% free."
+      }
+]
+  },
+  {
+    id: "dotcoin",
+    name: "Dotcoin",
+    logo: "/images/airdrops/dotcoin.jpg",
+    description: "Iconic tap-to-earn dot game on TON with over 15M players tapping to expand their dot, upgrading tech cards, and farming $DTC tokens.",
+    reward: "$DTC Token Allocation Pre-TGE",
+    category: "Telegram Mini-App / TON / Tap-to-Earn",
+    featured: false,
+    status: "active",
+    publishDate: "2026-09-27",
+    endTime: "2026-12-15T23:59:59Z",
+    funding: "Community Backed & TON Ecosystem Grants",
+    investors: "Leading TON MemeFi & Tap-to-Earn Angels",
+    refLink: "https://t.me/dotcoin_bot",
+    overview: "Dotcoin is one of the classic founding pillars of the Telegram tap-to-earn movement on The Open Network (TON), boasting a massive global community of over 15 million players. In Dotcoin, the gameplay is elegant yet fiercely competitive: players tap a pulsating central dot to expand its diameter and mine $DTC coins before the dot resets.\n\nAs players accumulate coins, they can invest in passive mining cards, enter high-stakes mini-games, and unlock multiplier zones. Dotcoin also features collaborative clan tournaments where players band together to dominate national leaderboards.\n\nAhead of its highly anticipated token generation event (TGE) on TON, Dotcoin is allocating its $DTC supply based on dot size milestones, card upgrade levels, and daily active streaks.",
+    tokenomics: "The $DTC token will operate natively on TON, serving as the in-game currency for clan battles, premium boost cards, and decentralized governance.",
+    sybilSafety: "Dynamic tap resistance physics and rhythm variance algorithms mathematically detect and shadowban automated screen clickers.",
+    strategy: "Tap rhythmically to expand the dot to maximum size without popping, reinvest all earnings into passive income cards in the shop, and maintain daily check-in streaks.",
+    steps: [
+      "Open the official <a href=\"https://t.me/dotcoin_bot\" target=\"_blank\" rel=\"noopener noreferrer\">Dotcoin Telegram Bot</a>.",
+      "Tap the pulsating dot to grow its diameter and mine starter $DTC coins.",
+      "Navigate to the \"Boost\" tab to upgrade tap capacity and recharge speed.",
+      "Purchase passive revenue cards under the \"Portfolio\" tab to earn coins while offline.",
+      "Play the daily mini-games for extra coin multiplier drops.",
+      "Complete partner missions under the \"Tasks\" section.",
+      "Connect your Tonkeeper wallet in settings.",
+      "Prepare your mined $DTC balance for the official exchange listing and snapshot."
+],
+    faqs: [
+      {
+            "question": "What is Dotcoin?",
+            "answer": "Dotcoin is a viral tap-to-earn game on TON where over 15M users tap to expand a dot and earn $DTC tokens."
+      },
+      {
+            "question": "Can I earn passively in Dotcoin?",
+            "answer": "Yes, by purchasing passive mining cards that generate coins even when you are offline."
+      },
+      {
+            "question": "Is Dotcoin free to play?",
+            "answer": "Yes, 100% free with energy refilling automatically."
+      }
+]
+  },
+  {
+    id: "rainbow-swap",
+    name: "Rainbow Swap",
+    logo: "/images/airdrops/rainbow-swap.jpg",
+    description: "Premier DEX aggregator on TON (Rainbow.ag) optimizing swap routes across STON.fi and DeDust with zero slippage and $RAIN token rewards.",
+    reward: "Rainbow Points & $RAIN Governance Airdrop",
+    category: "Telegram Mini-App / TON / DEX Aggregator",
+    featured: false,
+    status: "active",
+    publishDate: "2026-09-27",
+    endTime: "2026-12-31T23:59:59Z",
+    funding: "TON DeFi Accelerator Grantee",
+    investors: "TON Ventures & Ecosystem Liquidity Angels",
+    refLink: "https://t.me/rainbow_swap_bot",
+    overview: "Rainbow Swap (operating as Rainbow.ag) is the leading decentralized exchange aggregator built for The Open Network (TON). Much like 1inch on Ethereum or Jupiter on Solana, Rainbow Swap solves liquidity fragmentation by splitting and routing user trades across all available TON DEXs (including STON.fi, DeDust, and Megaton Finance) to guarantee the best execution price and lowest slippage.\n\nInside its Telegram Mini-App, users can execute one-tap swaps, set decentralized limit orders, and track real-time price charts across hundreds of TON tokens.\n\nThrough its official rewards program, Rainbow Swap distributes Rainbow Points to active traders and liquidity referrers, which will convert directly into $RAIN governance tokens upon TGE.",
+    tokenomics: "The $RAIN token will coordinate protocol fee rebates, decentralized router governance, and staking yield distributions on TON.",
+    sybilSafety: "On-chain swap transaction verification ensures that only users with real trading volume qualify for top-tier airdrop allocations.",
+    strategy: "Use Rainbow Swap for all your regular TON token swaps to get optimal pricing while simultaneously farming eligible volume points for the $RAIN airdrop.",
+    steps: [
+      "Launch the official <a href=\"https://t.me/rainbow_swap_bot\" target=\"_blank\" rel=\"noopener noreferrer\">Rainbow Swap Telegram Bot</a>.",
+      "Connect your non-custodial TON wallet (Tonkeeper or OKX Wallet).",
+      "Execute a token swap between TON and any ecosystem jetton.",
+      "Experience automated multi-DEX routing for optimal price execution.",
+      "Complete trading quests and verification tasks in the \"Rewards\" tab.",
+      "Invite trader friends to use the aggregator and earn referral volume commissions.",
+      "Check in daily to build your active trader loyalty streak.",
+      "Safeguard your accumulated Rainbow Points ahead of the $RAIN token distribution."
+],
+    faqs: [
+      {
+            "question": "What is Rainbow Swap?",
+            "answer": "Rainbow Swap is a multi-DEX aggregator on TON that finds the best swap rates across STON.fi, DeDust, and other exchanges."
+      },
+      {
+            "question": "Why use Rainbow Swap instead of a single DEX?",
+            "answer": "It automatically splits orders to give you lower slippage, better prices, and minimal gas fees."
+      },
+      {
+            "question": "What token is being airdropped?",
+            "answer": "Active aggregator users earn Rainbow Points that will convert into $RAIN governance tokens."
+      }
+]
+  },
+  {
+    id: "tomo",
+    name: "Tomo Wallet",
+    logo: "/images/airdrops/tomo.jpg",
+    description: "All-in-one multi-chain SocialFi wallet on TON, Linea, and Solana bringing one-click onboarding, crypto gifting, and Tomo Points farming.",
+    reward: "Tomo Points & $TOMO Token Airdrop",
+    category: "Telegram Mini-App / Multi-Chain / Social Wallet",
+    featured: false,
+    status: "active",
+    publishDate: "2026-09-28",
+    endTime: "2026-12-31T23:59:59Z",
+    funding: "$3.5M Seed Round",
+    investors: "Polychain Capital, Consensys & Solana Ventures",
+    refLink: "https://t.me/tomo_wallet_bot",
+    overview: "Tomo Wallet is an innovative multi-chain SocialFi and smart wallet operating seamlessly inside Telegram across TON, Linea, Ethereum, and Solana. Eliminating the friction of private key management, Tomo allows users to create decentralized non-custodial wallets using their existing social accounts or Telegram handle in less than 3 seconds.\n\nInside Tomo, users can send crypto red packets to friends in Telegram groups, execute cross-chain bridges, and purchase tokens directly using credit cards or Apple Pay.\n\nWith funding from tier-1 institutional investors including Polychain Capital, Tomo is preparing for the launch of its native $TOMO ecosystem token, rewarding early wallet creators and social transactors with substantial airdrop allocations.",
+    tokenomics: "The $TOMO token powers cross-chain gas fee sponsorships, wallet staking tiers, and decentralized governance voting across multiple chains.",
+    sybilSafety: "Social identity binding and on-chain transaction verifications prevent automated multi-wallet sybil networks from gaming the points system.",
+    strategy: "Create your decentralized Tomo wallet, execute occasional micro-transfers or red packet gifts in Telegram chats, and complete all onboarding missions.",
+    steps: [
+      "Open the official <a href=\"https://t.me/tomo_wallet_bot\" target=\"_blank\" rel=\"noopener noreferrer\">Tomo Wallet Telegram Bot</a>.",
+      "Generate your secure multi-chain wallet with one tap.",
+      "Claim your welcome Tomo Points in the reward center.",
+      "Send a small crypto gift or red packet to a friend inside Telegram.",
+      "Complete partner quests and verification steps under the \"Earn\" tab.",
+      "Bridge or swap small balances between supported chains (TON, Linea, Solana).",
+      "Invite friends to create their smart social wallet for referral bonuses.",
+      "Hold your Tomo Points safely ahead of the official $TOMO token generation event."
+],
+    faqs: [
+      {
+            "question": "What is Tomo Wallet?",
+            "answer": "Tomo is a multi-chain smart social wallet on Telegram supporting TON, Linea, and Solana with SocialFi features."
+      },
+      {
+            "question": "Who backs Tomo?",
+            "answer": "Tomo is backed by major Web3 venture funds including Polychain Capital and Consensys."
+      },
+      {
+            "question": "Is Tomo Wallet safe?",
+            "answer": "Yes, Tomo uses non-custodial smart contract wallets audited by leading blockchain security firms."
+      }
+]
+  },
+  {
+    id: "ton-fish",
+    name: "TON FISH",
+    logo: "/images/airdrops/ton-fish.jpg",
+    description: "Legendary pioneer meme ecosystem on TON featuring Ton Fish Box mystery chests, social quests, and partner airdrops for $FISH holders.",
+    reward: "$FISH & Ecosystem Partner Tokens",
+    category: "Telegram Mini-App / TON / MemeFi",
+    featured: false,
+    status: "active",
+    publishDate: "2026-09-28",
+    endTime: "2026-12-15T23:59:59Z",
+    funding: "Pioneer TON Meme Ecosystem Fund",
+    investors: "TON Foundation Community Partners & Meme Whales",
+    refLink: "https://t.me/tonfish_bot",
+    overview: "TON FISH ($FISH) is revered as the first, original decentralized meme token on The Open Network (TON), launched to demonstrate the power of pure community coordination long before the mainstream tap-to-earn wave arrived. Over time, TON FISH has evolved into a vast ecosystem encompassing Ton Rock NFTs, gaming integrations, and decentralized social portals.\n\nThrough its official Telegram bot and mini-app, TON FISH hosts the \"Fish Box\" and seasonal fishing expeditions where community members complete social raids, cast virtual fishing rods, and reel in $FISH tokens and partner project allocations.\n\nAs the historical cultural bedrock of TON meme culture, holding and farming TON FISH grants continuous exposure to partner airdrops across the entire ecosystem.",
+    tokenomics: "The $FISH token is fully minted on TON with 100% circulating supply, zero venture lockups, and automated liquidity burns.",
+    sybilSafety: "Social raid verifications and TON wallet age checks prioritize authentic community members over freshly generated bot accounts.",
+    strategy: "Check in daily to cast your virtual fishing rod, complete official Twitter/Telegram raids under the \"Tasks\" tab, and link your Tonkeeper wallet.",
+    steps: [
+      "Launch the official <a href=\"https://t.me/tonfish_bot\" target=\"_blank\" rel=\"noopener noreferrer\">TON FISH Telegram Bot</a>.",
+      "Verify your Telegram account and claim your starter fish bait.",
+      "Cast your fishing rod daily to reel in $FISH tokens and mystery ocean boxes.",
+      "Complete official community raid missions under the \"Tasks\" tab.",
+      "Connect your non-custodial TON wallet (Tonkeeper).",
+      "Invite fellow meme degens to your fishing squad for bonus bait refills.",
+      "Participate in collaborative community boss battles for massive pool drops.",
+      "Safeguard your $FISH tokens to maintain whitelist eligibility for partner airdrops."
+],
+    faqs: [
+      {
+            "question": "What is TON FISH?",
+            "answer": "TON FISH ($FISH) is the original, historic pioneer meme token on The Open Network (TON)."
+      },
+      {
+            "question": "Is $FISH already listed on exchanges?",
+            "answer": "Yes, $FISH is traded on STON.fi, DeDust, and centralized exchanges, but the bot continues to distribute seasonal rewards."
+      },
+      {
+            "question": "Is the bot free to use?",
+            "answer": "Yes, casting your daily fishing rod is 100% free inside Telegram."
+      }
+]
+  },
+  {
+    id: "gram-mining",
+    name: "Mining GRAM",
+    logo: "/images/airdrops/gram-mining.jpg",
+    description: "First 100% decentralized Proof-of-Work mineable token on TON allowing Telegram users to mine $GRAM using computational shares.",
+    reward: "Daily $GRAM Token Distribution",
+    category: "Telegram Mini-App / TON / PoW Mining",
+    featured: false,
+    status: "active",
+    publishDate: "2026-09-29",
+    endTime: "2026-12-31T23:59:59Z",
+    funding: "Pure Community Proof-of-Work Initiative",
+    investors: "100% Decentralized Miners Syndicate",
+    refLink: "https://t.me/gram_mining_bot",
+    overview: "Mining GRAM represents a groundbreaking technological achievement on The Open Network (TON): bringing true Proof-of-Work (PoW) computational token distribution directly into the Telegram environment. Inspired by the legendary original Vision of Telegram Open Network, $GRAM has no team pre-mine, no private investors, and zero VC allocations.\n\nEvery single $GRAM token in existence is mined through cryptographic smart contracts (\"PoW Givers\") on the TON blockchain. Through the official Telegram mining mini-app, users can participate in cloud-assisted or localized computational mining, submitting proof shares to receive direct on-chain $GRAM payouts.\n\nWith hundreds of thousands of miners and real liquidity on decentralized exchanges, Mining GRAM offers one of the most transparent, decentralized, and fundamentally honest token distribution models in Web3.",
+    tokenomics: "100% of $GRAM supply is distributed via PoW smart contracts with halving milestones designed to reward early computational participants.",
+    sybilSafety: "PoW mathematical proof requirements ensure that tokens cannot be generated through fake clicks or multiple accounts without real computational contribution.",
+    strategy: "Activate your mining session daily, reinvest mined $GRAM into higher hash-rate mining rigs, and withdraw accumulated tokens to your Tonkeeper wallet.",
+    steps: [
+      "Open the official <a href=\"https://t.me/gram_mining_bot\" target=\"_blank\" rel=\"noopener noreferrer\">Mining GRAM Telegram Bot</a>.",
+      "Initialize your mining worker and claim your starting hash-rate allocation.",
+      "Start your computational mining session to solve on-chain PoW cryptographic challenges.",
+      "Collect your mined $GRAM tokens into your internal mining vault.",
+      "Upgrade your mining hardware rigs to permanently raise your daily hash-rate.",
+      "Complete sponsor missions under the \"Tasks\" section for instant hash boosts.",
+      "Connect your non-custodial TON wallet (Tonkeeper).",
+      "Withdraw your earned $GRAM directly on-chain to trade on STON.fi or hold."
+],
+    faqs: [
+      {
+            "question": "What is $GRAM?",
+            "answer": "GRAM is the first 100% Proof-of-Work mineable token on The Open Network (TON), with zero pre-mine and zero VC allocations."
+      },
+      {
+            "question": "Do I need a GPU rig to mine in Telegram?",
+            "answer": "No, the Telegram mini-app allows users to participate in cloud mining pools directly from their phones."
+      },
+      {
+            "question": "Is $GRAM liquid on exchanges?",
+            "answer": "Yes, $GRAM is actively traded on STON.fi and major centralized exchanges."
+      }
+]
+  },
+  {
+    id: "tradoor",
+    name: "Tradoor (BLSH)",
+    logo: "/images/airdrops/tradoor.jpg",
+    description: "Next-generation decentralized options and leveraged perpetual trading protocol built natively on TON with gamified social trading leagues.",
+    reward: "BLSH Points & $DOOR Token Airdrop",
+    category: "Telegram Mini-App / TON / Options & DEX",
+    featured: false,
+    status: "active",
+    publishDate: "2026-09-29",
+    endTime: "2026-12-31T23:59:59Z",
+    funding: "TON DeFi Incubator & Angel Round",
+    investors: "TON Ventures & Leading Derivatives Market Makers",
+    refLink: "https://t.me/tradoor_bot",
+    overview: "Tradoor (operating the BLSH Bot) is a cutting-edge derivatives trading protocol designed specifically for The Open Network (TON). Bringing institutional options and perpetual contract architecture to Telegram, Tradoor allows users to speculate on crypto market movements with tailored risk-reward profiles, guaranteed stop-losses, and zero counterparty risk.\n\nInside its Telegram Mini-App, Tradoor gamifies derivatives with \"Buy Low, Sell High\" (BLSH) trading leagues, price prediction challenges, and daily spin wheels. Users accumulate BLSH Points by predicting price breakouts and executing testnet/mainnet micro-trades.\n\nWith backing from prominent TON ecosystem market makers, Tradoor is preparing for the launch of its native $DOOR governance token, rewarding early options traders and point farmers.",
+    tokenomics: "The $DOOR token governs protocol options parameters, reduces trading spreads, and yields a share of protocol liquidation revenue on TON.",
+    sybilSafety: "On-chain derivatives volume and trade settlement signatures filter non-trading bot farms from claiming high-tier governance allocations.",
+    strategy: "Spin the daily fortune wheel in the bot, participate in low-risk price prediction leagues, execute micro-hedges, and connect your Tonkeeper wallet.",
+    steps: [
+      "Launch the official <a href=\"https://t.me/tradoor_bot\" target=\"_blank\" rel=\"noopener noreferrer\">Tradoor Telegram Bot</a>.",
+      "Claim your rookie trader pass and spin the daily fortune wheel.",
+      "Enter the 5-minute price prediction arena to forecast Bitcoin and TON movements.",
+      "Execute a decentralized options or perp micro-trade to unlock active status.",
+      "Complete partner verification missions under the \"Rewards\" menu.",
+      "Connect your non-custodial TON wallet (Tonkeeper or OKX Wallet).",
+      "Invite trader friends to your league and earn 15% referral fee rebates.",
+      "Climb the BLSH leaderboard to maximize your $DOOR token airdrop allocation."
+],
+    faqs: [
+      {
+            "question": "What is Tradoor (BLSH)?",
+            "answer": "Tradoor is a decentralized options and derivatives trading protocol built natively on TON and Telegram."
+      },
+      {
+            "question": "Can I participate without risking significant capital?",
+            "answer": "Yes, daily prediction challenges, spin wheels, and social quests are completely free."
+      },
+      {
+            "question": "Which blockchain does Tradoor use?",
+            "answer": "Tradoor operates on The Open Network (TON)."
+      }
+]
+  }
 ];

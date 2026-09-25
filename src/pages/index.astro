@@ -6,7 +6,7 @@ import { airdrops } from '../data/airdrops';
 import { academyArticles } from '../data/academy';
 
 // Current anchor date
-const currentDate = '2026-09-24';
+const currentDate = '2026-09-26';
 
 // Active drops (published today or in the past, and currently active/pre-TGE)
 const activeAirdrops = airdrops.filter(a => (!a.publishDate || a.publishDate <= currentDate) && a.status === 'active');
