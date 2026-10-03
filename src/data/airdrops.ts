@@ -5285,5 +5285,555 @@ export const airdrops: Airdrop[] = [
             "answer": "Yes, 100% free to access inside Telegram."
       }
 ]
+  },
+  {
+    "id": "camp-network",
+    "name": "Camp Network",
+    "logo": "/images/airdrops/camp-network.svg",
+    "description": "Autonomous IP & Entertainment Modular Layer 2 backed by $4M from Maven 11, transforming web2 social data into on-chain monetization for creators and AI.",
+    "reward": "Incentivized Testnet XP & $CAMP Token Airdrop",
+    "category": "Modular L2 / IP & Entertainment / AI",
+    "featured": true,
+    "status": "active",
+    "publishDate": "2026-10-03",
+    "endTime": "2026-12-31T23:59:59Z",
+    "funding": "$4.0M Seed Round",
+    "investors": "Maven 11, OKX Ventures, Protagonist, Paper Ventures, HTX Ventures",
+    "refLink": "https://campaign.campnetwork.xyz",
+    "overview": "Camp Network is the pioneering modular Layer 2 blockchain engineered to unlock the value of \"digital IP and identity\" across the media, entertainment, and gaming landscape. By allowing users to seamlessly port their off-chain social footprints—from Spotify, TikTok, X (Twitter), and YouTube—directly on-chain, Camp creates a verifiable \"Digital Backpack\" that dApps and AI agents can query to deliver personalized experiences and monetization.\n\nBuilt on modular rollup architecture with Celestia data availability and Ethereum settlement, Camp eliminates the cold-start problem for consumer applications. Instead of starting from an empty address, users enter dApps with their rich social graphs and cultural taste profiles pre-authenticated.\n\nCamp Network raised $4M in seed funding led by Maven 11 with participation from OKX Ventures and prominent entertainment executives. The protocol's incentivized testnet rewards active participants who link their social identities, interact with testnet entertainment dApps, and earn Camp XP ahead of the mainnet Token Generation Event.",
+    "tokenomics": "The native $CAMP token powers the Camp Network economic ecosystem. It serves as gas token for Layer 2 execution, validator staking collateral for sequencer security, and decentralized protocol governance for ecosystem grant allocations and licensing treasury splits.",
+    "sybilSafety": "Camp Network utilizes strict social graph verification through its Digital Backpack architecture. Multi-account Sybil attempts are eliminated by requiring authenticated OAuth linkages to established Twitter, Spotify, or Discord accounts with minimum account age and activity thresholds.",
+    "strategy": "Connect your Web3 wallet to the Camp Network campaign portal, link your primary social profiles to establish your Digital Backpack, claim testnet tokens from the faucet, and participate in featured creator quests and testnet partner interactions.",
+    "steps": [
+      "Visit the official <a href=\"https://campaign.campnetwork.xyz\" target=\"_blank\" rel=\"noopener noreferrer\">Camp Network Campaign Hub</a>.",
+      "Connect your primary EVM wallet (MetaMask, Rabby, or OKX Wallet).",
+      "Authorize and link your social profiles (X/Twitter, Discord, Spotify) to create your Digital Backpack.",
+      "Claim testnet ETH and gas tokens from the official Camp Network faucet.",
+      "Interact with featured entertainment dApps on the Camp testnet ecosystem.",
+      "Complete social engagement quests and invite friends with your personalized referral link.",
+      "Earn daily login streak bonuses and rank up your Camp Level.",
+      "Monitor your accumulated Camp XP on the leaderboard ahead of the mainnet TGE snapshot."
+    ],
+    "faqs": [
+      {
+        "question": "What is Camp Network?",
+        "answer": "Camp Network is a modular Layer 2 blockchain built for entertainment, IP, and AI that turns Web2 social data into on-chain digital identities."
+      },
+      {
+        "question": "Who invested in Camp Network?",
+        "answer": "Camp Network raised $4 Million in a seed round led by Maven 11, with participation from OKX Ventures, Protagonist, and Paper Ventures."
+      },
+      {
+        "question": "What is the Digital Backpack?",
+        "answer": "The Digital Backpack is Camp's core identity primitive that bridges your Spotify, TikTok, and Twitter engagement into cryptographic on-chain credentials."
+      },
+      {
+        "question": "Is the Camp Network testnet free to farm?",
+        "answer": "Yes, 100% free. All transactions take place on the Camp testnet using free faucet tokens."
+      },
+      {
+        "question": "What are Camp XP used for?",
+        "answer": "Camp XP measures early testnet participation, social verification, and ecosystem usage, converting into $CAMP token allocations at mainnet launch."
+      },
+      {
+        "question": "When will Camp Network launch mainnet?",
+        "answer": "Camp Network mainnet and the $CAMP Token Generation Event are scheduled for late 2026."
+      }
+    ]
+  },
+  {
+    "id": "botanix",
+    "name": "Botanix Spiderchain",
+    "logo": "/images/airdrops/botanix.svg",
+    "description": "The first fully decentralized EVM Layer 2 built directly on Bitcoin, secured by Spiderchain multisig consensus and native BTC gas fees.",
+    "reward": "Arana Testnet XP & $BOTANIX Genesis Airdrop",
+    "category": "Bitcoin L2 / EVM / Restaking",
+    "featured": true,
+    "status": "active",
+    "publishDate": "2026-10-03",
+    "endTime": "2026-11-30T23:59:59Z",
+    "funding": "$11.5M Raised",
+    "investors": "Polychain Capital, Placeholder, UTXO Management, ABCDE, CMS Holdings",
+    "refLink": "https://botanixlabs.xyz",
+    "overview": "Botanix is the groundbreaking Layer 2 network bringing full Ethereum Virtual Machine (EVM) smart contract functionality directly to the Bitcoin blockchain. Unlike custodial sidechains or centralized bridges, Botanix introduces the \"Spiderchain\"—a decentralized, trustless network of rotating multisig validators distributed across Bitcoin's Proof-of-Work security.\n\nOn Botanix, Bitcoin ($BTC) is the native gas asset. Users deposit native BTC onto Bitcoin Layer 1, which the Spiderchain locks and mints as native synthetic BTC on Botanix L2. Developers can deploy any standard Ethereum smart contract, DeFi protocol, DEX, or NFT marketplace with zero code modifications while settling securely on Bitcoin.\n\nBotanix raised $11.5M from tier-one funds including Polychain Capital, Placeholder, and UTXO Management. The protocol is currently running its public Arana Testnet, inviting users to bridge testnet Bitcoin, deploy smart contracts, and explore the burgeoning BTC DeFi landscape.",
+    "tokenomics": "Botanix is powered by Bitcoin as its native execution gas, while the Spiderchain consensus security and decentralization are managed through the upcoming $BOTANIX governance and validator staking token.",
+    "sybilSafety": "Botanix evaluates on-chain bridge transactions, smart contract deployment authenticity, and multi-contract DeFi activity across Arana testnet dApps to identify genuine crypto natives.",
+    "strategy": "Add Botanix Arana Testnet to your wallet, obtain testnet BTC from the Bitcoin signet faucet, bridge BTC to Botanix via the Arana bridge, and interact with the ecosystem decentralized exchanges and lending protocols.",
+    "steps": [
+      "Visit the official <a href=\"https://botanixlabs.xyz\" target=\"_blank\" rel=\"noopener noreferrer\">Botanix Labs Hub</a>.",
+      "Add Botanix Arana Testnet network parameters to your MetaMask or Rabby wallet.",
+      "Acquire testnet Bitcoin (BTC) from the Bitcoin Signet/Botanix faucet.",
+      "Bridge testnet BTC into the Botanix Arana network via the official bridge.",
+      "Swap testnet BTC for stablecoins and ecosystem tokens on Arana DEXs.",
+      "Provide liquidity into automated market maker (AMM) pools and stake LP tokens.",
+      "Mint commemorative Botanix testnet NFTs on featured launchpads.",
+      "Complete community Galxe and Zealy quest milestones to solidify your retroactive score."
+    ],
+    "faqs": [
+      {
+        "question": "What is Botanix Spiderchain?",
+        "answer": "Botanix is a decentralized EVM-equivalent Layer 2 built on top of Bitcoin, using Bitcoin as its native gas token."
+      },
+      {
+        "question": "What is the Spiderchain?",
+        "answer": "The Spiderchain is Botanix's novel decentralized multisig architecture that secures staked BTC across rotating validator nodes on Bitcoin Layer 1."
+      },
+      {
+        "question": "Who backs Botanix Labs?",
+        "answer": "Botanix raised $11.5M led by Polychain Capital, Placeholder, and Bitcoin-native venture firm UTXO Management."
+      },
+      {
+        "question": "Do I need real Bitcoin to participate?",
+        "answer": "No, the current campaign runs on the Arana Testnet using free testnet Bitcoin."
+      },
+      {
+        "question": "What wallet should I use?",
+        "answer": "You can use MetaMask or Rabby Wallet configured for Botanix Arana RPC, alongside Unisat or Xverse for the Bitcoin side."
+      },
+      {
+        "question": "When is Botanix mainnet launching?",
+        "answer": "The Botanix Mainnet launch and Spiderchain validator genesis are targeted for Q4 2026."
+      }
+    ]
+  },
+  {
+    "id": "swell-l2",
+    "name": "Swell L2",
+    "logo": "/images/airdrops/swell-l2.svg",
+    "description": "The Restaked Rollup for Ethereum powered by Polygon CDK, EigenLayer, and Swell's $1B+ liquid staking and restaking ecosystem ($swETH & $rswETH).",
+    "reward": "Swell City Pearls & $SWELL Layer 2 Allocation",
+    "category": "Restaking L2 / EigenLayer / Polygon CDK",
+    "featured": true,
+    "status": "active",
+    "publishDate": "2026-10-03",
+    "endTime": "2026-11-15T23:59:59Z",
+    "funding": "$3.75M Funding + $1B+ TVL",
+    "investors": "Framework Ventures, IOSG Ventures, Maven 11, Apollo Capital, Bixin Ventures",
+    "refLink": "https://app.swellnetwork.io",
+    "overview": "Swell Network is one of the premier liquid staking and restaking titans on Ethereum, commanding over $1 Billion in Total Value Locked (TVL) through its liquid staking token ($swETH) and liquid restaking token ($rswETH). Building on this institutional foundation, Swell is launching \"Swell L2\"—the premier Restaked Rollup built with Polygon CDK and secured by EigenLayer Actively Validated Services (AVS).\n\nSwell L2 creates a native economic fly-wheel: staking and restaking yields from underlying assets are automatically rebated to L2 users and liquidity providers, offering superior native yields that traditional general-purpose L2s cannot match.\n\nSwell's gamified pre-launch campaign, \"Swell City\", allows participants to deposit assets, earn Pearls, farm EigenLayer restaking points, and qualify for substantial $SWELL token distributions upon L2 mainnet deployment.",
+    "tokenomics": "The $SWELL governance token governs the Swell DAO, directs liquid restaking collateral, secures Swell L2 sequencer nodes, and accrues value from protocol transaction fees and liquid staking commissions.",
+    "sybilSafety": "Swell relies on real capital commitments and on-chain restaking verification. Wallet positions holding $rswETH, $swETH, or deposit receipts inside Swell City are protected from multi-wallet Sybil exploitation.",
+    "strategy": "Restake ETH into $rswETH or deposit supported collateral (ETH, LSTs, LRTs) into the Swell City L2 pre-deposit vault to accumulate Pearls, Symbiotic/EigenLayer points, and ecosystem partner bonuses.",
+    "steps": [
+      "Visit the official <a href=\"https://app.swellnetwork.io\" target=\"_blank\" rel=\"noopener noreferrer\">Swell Network App</a>.",
+      "Connect your Ethereum wallet (MetaMask, Rabby, or WalletConnect).",
+      "Stake native ETH to mint $swETH or liquid restake to mint $rswETH.",
+      "Deposit $rswETH or $swETH into the Swell City L2 pre-launch vaults.",
+      "Collect Pearls that automatically accumulate every block based on your deposit size.",
+      "Provide liquidity on decentralized exchanges (Curve, Balancer, Uniswap) using Swell LRTs for amplified rewards.",
+      "Complete ecosystem partner quests on Swell City to unlock yield multipliers.",
+      "Claim your retroactive $SWELL airdrop allocation upon Swell L2 mainnet genesis."
+    ],
+    "faqs": [
+      {
+        "question": "What is Swell L2?",
+        "answer": "Swell L2 is a restaked rollup for Ethereum built with Polygon CDK, powered by AltLayer and secured by EigenLayer."
+      },
+      {
+        "question": "What are Swell City Pearls?",
+        "answer": "Pearls are loyalty reward points earned by staking, restaking, and depositing into the Swell L2 pre-launch ecosystem, redeemable for $SWELL."
+      },
+      {
+        "question": "What is the TVL of Swell Network?",
+        "answer": "Swell commands over $1 Billion in TVL across its liquid staking and restaking products."
+      },
+      {
+        "question": "Who invested in Swell?",
+        "answer": "Swell is backed by Framework Ventures, IOSG Ventures, Maven 11, and prominent DeFi angels."
+      },
+      {
+        "question": "Can I withdraw my restaked ETH?",
+        "answer": "Yes, withdrawals are fully supported on the Swell protocol through native unbonding queues or instant AMM liquidity."
+      },
+      {
+        "question": "What makes Swell L2 unique?",
+        "answer": "It is a Restaked Rollup that channels native Ethereum staking and restaking yield directly into the Layer 2 execution layer."
+      }
+    ]
+  },
+  {
+    "id": "milkyway",
+    "name": "MilkyWay",
+    "logo": "/images/airdrops/milkyway.svg",
+    "description": "The premier Liquid Staking Protocol for Celestia ($TIA) and modular rollups, backed by Binance Labs and Polychain Capital.",
+    "reward": "mPoints Season 2 & $MILK Governance Token Airdrop",
+    "category": "Celestia / Liquid Staking / Modular",
+    "featured": true,
+    "status": "active",
+    "publishDate": "2026-10-03",
+    "endTime": "2026-10-31T23:59:59Z",
+    "funding": "$5.0M Seed Round",
+    "investors": "Binance Labs, Polychain Capital, Hack VC, Nomad Capital, LongHash Ventures",
+    "refLink": "https://app.milkyway.zone",
+    "overview": "MilkyWay is the dominant liquid staking solution engineered specifically for the Celestia ($TIA) ecosystem and the broader modular blockchain stack. When users stake their $TIA on native Celestia, their tokens are locked for 21 days with zero liquidity. MilkyWay solves this capital inefficiency by issuing $milkTIA—a liquid staking token that earns native staking yields while remaining 100% liquid and composable across Rollups, Osmosis, EVM chains, and DeFi money markets.\n\nMilkyWay has established itself as the liquidity backbone of the modular revolution. The protocol raised $5 Million from Binance Labs, Polychain Capital, and Hack VC to expand from Celestia liquid staking into a comprehensive restaking and sovereign rollup module.\n\nThrough the ongoing \"mPoints\" campaign, users staking $TIA, providing liquidity for $milkTIA, and using $milkTIA as collateral on partner lending markets accumulate mPoints that directly determine allocations of the upcoming $MILK token.",
+    "tokenomics": "The $MILK token governs the MilkyWay protocol, validator curation sets, treasury fee switches, and staking commission distributions across modular rollups.",
+    "sybilSafety": "MilkyWay tracks real liquidity provision, time-weighted $milkTIA holdings, and cross-chain modular transactions across Osmosis, Arbitrum, and Celestia.",
+    "strategy": "Stake $TIA on MilkyWay to receive $milkTIA, deposit $milkTIA into high-multiplier DeFi liquidity pools (such as Osmosis, Levana, or Mars Protocol), and maintain active staking throughout the season.",
+    "steps": [
+      "Visit the official <a href=\"https://app.milkyway.zone\" target=\"_blank\" rel=\"noopener noreferrer\">MilkyWay Staking App</a>.",
+      "Connect your Keplr, Leap, or Cosmostation wallet.",
+      "Stake native Celestia ($TIA) to mint liquid $milkTIA tokens.",
+      "Supply $milkTIA to liquidity pools on Osmosis (such as milkTIA/TIA) to earn dual LP yield and mPoints.",
+      "Deposit $milkTIA into money market protocols to borrow stablecoins while retaining staking APR.",
+      "Participate in MilkyWay cross-chain bridges to Arbitrum or Mantle for ecosystem bonus points.",
+      "Track your accumulated mPoints on the official MilkyWay Leaderboard.",
+      "Claim your $MILK token allocation at the conclusion of the mPoints campaign."
+    ],
+    "faqs": [
+      {
+        "question": "What is MilkyWay?",
+        "answer": "MilkyWay is the leading liquid staking protocol for Celestia ($TIA), allowing holders to earn staking rewards while keeping tokens liquid via $milkTIA."
+      },
+      {
+        "question": "Who invested in MilkyWay?",
+        "answer": "MilkyWay raised $5 Million in seed funding co-led by Binance Labs and Polychain Capital, alongside Hack VC and Nomad Capital."
+      },
+      {
+        "question": "What are mPoints?",
+        "answer": "mPoints are retroactive reward points distributed to users who stake TIA, hold milkTIA, and provide DeFi liquidity."
+      },
+      {
+        "question": "What is the unbonding period for milkTIA?",
+        "answer": "You can either unbond natively (taking 21 days matching Celestia unbonding) or swap instantly on DEXs like Osmosis with zero wait time."
+      },
+      {
+        "question": "Is MilkyWay audited?",
+        "answer": "Yes, MilkyWay smart contracts and validator logic are audited by top-tier security firms including Oak Security and Halborn."
+      },
+      {
+        "question": "What can I do with $milkTIA in DeFi?",
+        "answer": "You can lend, borrow, provide liquidity on Osmosis and EVM L2s, and earn yield stacks on multiple modular protocols simultaneously."
+      }
+    ]
+  },
+  {
+    "id": "zircuit",
+    "name": "Zircuit",
+    "logo": "/images/airdrops/zircuit.svg",
+    "description": "AI-enabled modular ZK-Rollup with automated sequencer-level security backed by Pantera Capital and Binance Labs with $3.5B+ TVL.",
+    "reward": "Zircuit Points & $ZRC Governance Token Staking Airdrop",
+    "category": "AI ZK-Rollup / Layer 2 / Restaking",
+    "featured": true,
+    "status": "active",
+    "publishDate": "2026-10-03",
+    "endTime": "2026-12-31T23:59:59Z",
+    "funding": "$3.5B+ TVL / Binance Labs Backed",
+    "investors": "Pantera Capital, Binance Labs, Dragonfly Capital, Maelstrom (Arthur Hayes), Robot Ventures",
+    "refLink": "https://stake.zircuit.com",
+    "overview": "Zircuit is a next-generation Layer 2 ZK-Rollup that merges cutting-edge zero-knowledge proof architecture with AI-driven sequencer security. Traditional rollups are vulnerable to smart contract exploits and malicious transactions executing before detection. Zircuit integrates \"Sequencer-Level Security\" (SLS)—an AI machine learning sentinel operating within the sequencer that inspects transactions in the mempool and quarantines malicious exploits in real time.\n\nZircuit achieved staggering explosive adoption, surpassing $3.5 Billion in Total Value Locked (TVL) during its staking phase. Backed by heavyweight crypto venture firms Pantera Capital, Binance Labs, and Arthur Hayes' Maelstrom fund, Zircuit is poised to be one of the largest ZK-Rollup token distributions in crypto history.\n\nUsers deposit ETH, stablecoins, or liquid restaking tokens ($weETH, $ezETH, $rswETH) to earn native staking yields, 100% pass-through LRT points, and Zircuit Staking Points ahead of mainnet token claims.",
+    "tokenomics": "The $ZRC token is the governance and decentralized sequencer staking token of Zircuit, facilitating network fee burns, sequencer validator rotation, and AI security protocol upgrades.",
+    "sybilSafety": "Zircuit enforces capital staking minimums, time-lock weightings, and real-time behavioral telemetry, filtering out automated zero-balance bot networks.",
+    "strategy": "Deposit ETH, USDe, or popular liquid restaking tokens into the Zircuit Staking portal, migrate assets onto Zircuit Mainnet, and interact with native Zircuit ecosystem dApps.",
+    "steps": [
+      "Visit the official <a href=\"https://stake.zircuit.com\" target=\"_blank\" rel=\"noopener noreferrer\">Zircuit Staking Portal</a>.",
+      "Connect your Web3 wallet (MetaMask, Rabby, or Coinbase Wallet).",
+      "Select your preferred deposit asset (ETH, weETH, ezETH, USDe, or stablecoins).",
+      "Confirm the deposit transaction to start earning Zircuit Points automatically every hour.",
+      "Migrate or bridge assets to the live Zircuit Mainnet to activate maximum point multipliers.",
+      "Explore and interact with live DeFi protocols, DEXs, and NFT markets on Zircuit.",
+      "Refer friends using your personalized invite code to earn a 15% bonus on their generated points.",
+      "Claim your $ZRC token rewards on the official claim portal upon token generation."
+    ],
+    "faqs": [
+      {
+        "question": "What is Zircuit?",
+        "answer": "Zircuit is an EVM-compatible ZK-Rollup protected by AI-driven sequencer-level security, preventing hacks before transactions execute."
+      },
+      {
+        "question": "Who invested in Zircuit?",
+        "answer": "Zircuit is backed by Pantera Capital, Binance Labs, Dragonfly Capital, and Arthur Hayes' Maelstrom."
+      },
+      {
+        "question": "What assets can I stake in Zircuit?",
+        "answer": "You can stake ETH, liquid staking tokens (stETH), liquid restaking tokens (weETH, ezETH, rswETH), and Ethena USDe."
+      },
+      {
+        "question": "Do I lose my original LRT points when staking in Zircuit?",
+        "answer": "No! Zircuit guarantees 100% pass-through of all underlying points (Ether.fi, Renzo, Ethena) on top of earning Zircuit Points."
+      },
+      {
+        "question": "Can I withdraw my assets at any time?",
+        "answer": "Yes, staked assets can be withdrawn at any time with no lockup penalties."
+      },
+      {
+        "question": "What is Sequencer-Level Security (SLS)?",
+        "answer": "SLS is an AI engine built into the sequencer that inspects pending transactions and halts malicious exploits in the mempool."
+      }
+    ]
+  },
+  {
+    "id": "debank",
+    "name": "DeBank",
+    "logo": "/images/airdrops/debank.svg",
+    "description": "The premier Web3 portfolio tracker, social messenger, and DeBank Chain Layer 2 testnet backed by $25M from Sequoia China and Dragonfly.",
+    "reward": "DeBank Badges, Web3 XP & DeBank Chain Genesis Allocation",
+    "category": "Portfolio / SocialFi / Layer 2",
+    "featured": true,
+    "status": "active",
+    "publishDate": "2026-10-03",
+    "endTime": "2026-12-31T23:59:59Z",
+    "funding": "$25.0M Raised",
+    "investors": "Sequoia Capital China, Dragonfly Capital, HashKey Capital, Circle, Coinbase Ventures",
+    "refLink": "https://debank.com",
+    "overview": "DeBank is the undisputed industry standard for Web3 portfolio tracking, on-chain asset visualization, and decentralized social networking. Tracking over 50+ blockchains and thousands of DeFi protocols, DeBank is used daily by millions of crypto traders and institutional analysts to monitor whale wallets, track yield farming positions, and communicate across Web3.\n\nDeBank has expanded into a full-fledged Web3 social and infrastructure ecosystem featuring DeBank Stream, DeBank Hi (encrypted wallet-to-wallet messaging), and \"DeBank Chain\"—a high-throughput OP Stack Layer 2 engineered specifically for social interactions and micro-gas settlements.\n\nDeBank raised $25M at a $200M valuation led by Sequoia China. Active users collecting on-chain Web3 badges, maintaining active Web3 ID profiles, posting on DeBank Stream, and testing DeBank Chain testnet infrastructure are prime candidates for the anticipated ecosystem token distribution.",
+    "tokenomics": "The upcoming DeBank native token is designed to govern DeBank Chain, incentivize social creators on DeBank Stream, pay for encrypted decentralized messaging, and provide fee rebates across Rabby Wallet and DeBank services.",
+    "sybilSafety": "DeBank possesses the most advanced Sybil filtering in crypto, utilizing historical wallet TVL, address age, Rabby Desktop usage, and on-chain badge requirements to filter automated farms.",
+    "strategy": "Mint your DeBank Web3 ID, claim all eligible historical on-chain badges, maintain an active profile on DeBank Stream, send test messages on DeBank Hi, and bridge test funds to DeBank Chain.",
+    "steps": [
+      "Visit the official <a href=\"https://debank.com\" target=\"_blank\" rel=\"noopener noreferrer\">DeBank Web3 Portal</a>.",
+      "Connect your primary crypto wallet (or download the official Rabby Wallet developed by DeBank).",
+      "Mint your official DeBank Web3 ID to claim your unique on-chain username.",
+      "Navigate to the \"Badges\" tab and claim all eligible historical badges (Airdrop Hunter, Gas Spender, Whale, etc.).",
+      "Post updates, share analysis, and interact with other Web3 profiles on DeBank Stream.",
+      "Test the DeBank Hi messaging feature by sending an encrypted greeting to fellow users.",
+      "Add the DeBank Chain Testnet RPC to your wallet and interact with testnet bridge faucets.",
+      "Use Rabby Wallet for your daily DeFi transactions to maximize DeBank ecosystem affinity points."
+    ],
+    "faqs": [
+      {
+        "question": "What is DeBank?",
+        "answer": "DeBank is the leading multichain portfolio tracking platform, Web3 social network, and developer of Rabby Wallet and DeBank Chain."
+      },
+      {
+        "question": "Who invested in DeBank?",
+        "answer": "DeBank raised $25M led by Sequoia Capital China, alongside Dragonfly Capital, Circle, and HashKey Capital at a $200M valuation."
+      },
+      {
+        "question": "What are DeBank Badges?",
+        "answer": "Badges are non-transferable on-chain credentials awarded for real wallet achievements (such as Uniswap V3 LP, gas expenditure, and account age)."
+      },
+      {
+        "question": "What is DeBank Chain?",
+        "answer": "DeBank Chain is an OP Stack-based Layer 2 rollup engineered to minimize gas costs for decentralized social communication and asset tracking."
+      },
+      {
+        "question": "Does using Rabby Wallet help with DeBank?",
+        "answer": "Yes! Rabby Wallet was created by the DeBank team and natively integrates with DeBank badges and rewards."
+      },
+      {
+        "question": "Is it free to use DeBank?",
+        "answer": "Yes, portfolio tracking, badge claiming, and exploring stream posts are completely free."
+      }
+    ]
+  },
+  {
+    "id": "zerion",
+    "name": "Zerion",
+    "logo": "/images/airdrops/zerion.svg",
+    "description": "Premier smart contract wallet and portfolio management suite featuring Zerion DNA evolving avatars, ZERO Network L2, and $22.5M in venture backing.",
+    "reward": "Zerion DNA Evolution, XP Quests & ZERO Network Genesis Token",
+    "category": "Smart Wallet / ZERO L2 / DeFi",
+    "featured": true,
+    "status": "active",
+    "publishDate": "2026-10-03",
+    "endTime": "2026-12-31T23:59:59Z",
+    "funding": "$22.5M Raised",
+    "investors": "Placeholder, Wintermute, Mosaic Ventures, DCG, Lightspeed",
+    "refLink": "https://zerion.io",
+    "overview": "Zerion is one of the most beloved and widely used self-custodial Web3 smart wallets and portfolio management suites in existence. Founded in 2019, Zerion provides an intuitive interface for exploring DeFi, trading tokens across dozens of EVM chains, and managing NFT collections with bank-grade security.\n\nZerion introduced \"Zerion DNA\"—a first-of-its-kind dynamic, generative on-chain avatar that visually evolves based on the user's real wallet transactions, gas spent, DeFi activity, and longevity. Furthermore, Zerion announced \"ZERO Network\"—a zero-fee Layer 2 rollup built on Arbitrum Orbit technology that makes crypto transactions free for Zerion wallet users.\n\nHaving raised over $22.5 Million from Placeholder, Wintermute, and Mosaic Ventures, Zerion is rewarding loyal wallet users through ongoing XP quests, Zerion DNA level-ups, and early ZERO Network ecosystem interactions.",
+    "tokenomics": "The upcoming ZERO ecosystem token will power ZERO Network sequencer validation, gas subsidization pools, and Zerion DAO decentralized governance.",
+    "sybilSafety": "Zerion DNA levels and transaction history create natural Sybil resistance: higher-level DNA avatars require weeks of verifiable on-chain history across multiple chains.",
+    "strategy": "Download Zerion Wallet on mobile or browser extension, mint your Zerion DNA avatar, complete weekly Zerion XP quests, trade tokens using Zerion Swap, and bridge to ZERO Network.",
+    "steps": [
+      "Visit the official <a href=\"https://zerion.io\" target=\"_blank\" rel=\"noopener noreferrer\">Zerion Portal</a>.",
+      "Install the Zerion Wallet browser extension or mobile app.",
+      "Import or create your primary Web3 wallet address.",
+      "Mint your free dynamic Zerion DNA avatar on Ethereum/Polygon.",
+      "Complete in-app Zerion Quests to accumulate Zerion XP and level up your DNA avatar.",
+      "Perform multichain swaps and cross-chain bridges directly inside the Zerion interface.",
+      "Interact with ZERO Network testnet and claim zero-fee gas subsidies.",
+      "Maintain weekly active streaks to boost your multiplier ahead of the ZERO token snapshot."
+    ],
+    "faqs": [
+      {
+        "question": "What is Zerion?",
+        "answer": "Zerion is a premier non-custodial smart wallet and DeFi portfolio tracker founded in 2019, available on mobile and desktop."
+      },
+      {
+        "question": "What is Zerion DNA?",
+        "answer": "Zerion DNA is a dynamic generative NFT that evolves its visual appearance and rarity as you execute transactions and use Web3."
+      },
+      {
+        "question": "What is ZERO Network?",
+        "answer": "ZERO Network is an Arbitrum Orbit Layer 2 designed by Zerion to eliminate gas fees for verified wallet users."
+      },
+      {
+        "question": "Who invested in Zerion?",
+        "answer": "Zerion raised $22.5M from Placeholder, Wintermute, Mosaic Ventures, and Digital Currency Group."
+      },
+      {
+        "question": "Is Zerion DNA free to mint?",
+        "answer": "Yes, Zerion DNA is free to mint for any wallet user, requiring only network gas."
+      },
+      {
+        "question": "How do I earn Zerion XP?",
+        "answer": "You earn XP by completing in-wallet swapping quests, bridging, and maintaining transaction streaks."
+      }
+    ]
+  },
+  {
+    "id": "towns",
+    "name": "Towns",
+    "logo": "/images/airdrops/towns.svg",
+    "description": "Decentralized, end-to-end encrypted group chat protocol and digital town squares powered by River Protocol, backed by $25.5M from a16z crypto.",
+    "reward": "Towns Points & River Protocol Token Distribution",
+    "category": "DeSoc / Web3 Messaging / River Protocol",
+    "featured": true,
+    "status": "active",
+    "publishDate": "2026-10-03",
+    "endTime": "2026-11-30T23:59:59Z",
+    "funding": "$25.5M Series A led by a16z crypto",
+    "investors": "a16z crypto, Benchmark, Framework Ventures",
+    "refLink": "https://towns.com",
+    "overview": "Towns is the decentralized, encrypted group chat protocol created to liberate online communities from centralized tech monopolies. Conceived by the visionary founders of Houseparty and backed by a monumental $25.5 Million Series A led by Andreessen Horowitz (a16z crypto), Towns combines the best UX elements of Discord and Slack with genuine decentralized ownership.\n\nTowns operates on \"River Protocol\"—a custom decentralized communications network and smart contract framework built on Base Layer 2. In Towns, every group chat (\"Town\") is an autonomous on-chain space owned collectively by its members. Communities can gate channels with NFTs, sell membership passes, build custom bots, and communicate with end-to-end encryption without fear of deplatforming.\n\nTowns has launched its public alpha and points reward program. Community creators, active chat participants, and town node operators accumulate Towns Points that convert into retroactive rewards from River Protocol.",
+    "tokenomics": "The River Protocol native token secures the decentralized node network that stores and routes encrypted messages, governs protocol fee parameters, and settles space monetization.",
+    "sybilSafety": "Towns requires verified wallet authentication, passkey bindings, and monitors human conversation patterns inside active towns to prevent spam bot networks.",
+    "strategy": "Connect your wallet on towns.com, join verified active community towns, create your own on-chain town space, invite friends, and participate in daily discussions to earn points.",
+    "steps": [
+      "Visit the official <a href=\"https://towns.com\" target=\"_blank\" rel=\"noopener noreferrer\">Towns Web App</a>.",
+      "Connect your Web3 wallet (MetaMask, Coinbase Wallet, or Rabby) and create your on-chain handle.",
+      "Join featured public community towns (Web3 guilds, crypto builders, NFT spaces).",
+      "Create your own custom \"Town\" space on the Base network.",
+      "Set up membership rules or token-gated channels for your community.",
+      "Engage in daily discussions, reply in threads, and send encrypted reactions.",
+      "Invite active crypto friends to your town using your invitation link.",
+      "Track your accumulated Towns points and River Protocol activity on the dashboard."
+    ],
+    "faqs": [
+      {
+        "question": "What is Towns?",
+        "answer": "Towns is an end-to-end encrypted, decentralized community chat protocol that lets users own their group chats on-chain."
+      },
+      {
+        "question": "Who backs Towns?",
+        "answer": "Towns raised $25.5 Million in Series A funding led by a16z crypto, alongside Benchmark and Framework Ventures."
+      },
+      {
+        "question": "What is River Protocol?",
+        "answer": "River Protocol is the underlying decentralized communications network and Base L2 smart contract layer that powers Towns."
+      },
+      {
+        "question": "Are my messages private in Towns?",
+        "answer": "Yes! Towns uses end-to-end encryption (E2EE) so that only members of the space can read group messages."
+      },
+      {
+        "question": "Is Towns free to use?",
+        "answer": "Yes, joining towns, creating spaces, and chatting are 100% free with gasless account abstraction on Base."
+      },
+      {
+        "question": "When will the token launch?",
+        "answer": "The River Protocol and Towns ecosystem token generation event is expected in late 2026."
+      }
+    ]
+  },
+  {
+    "id": "sanctum",
+    "name": "Sanctum",
+    "logo": "/images/airdrops/sanctum.svg",
+    "description": "The unified liquid staking infrastructure powering Solana, enabling zero-slippage LST swaps, Infinity liquidity pool, and the Wonderland Season 2 campaign.",
+    "reward": "Wonderland Season 2 EXP & $CLOUD Token Allocation",
+    "category": "Solana LST / DeFi / Restaking",
+    "featured": true,
+    "status": "active",
+    "publishDate": "2026-10-03",
+    "endTime": "2026-11-30T23:59:59Z",
+    "funding": "$6.1M Raised",
+    "investors": "Dragonfly Capital, Solana Ventures, Jump Capital, CMS Holdings, Marin Digital",
+    "refLink": "https://app.sanctum.so",
+    "overview": "Sanctum is the foundational liquid staking protocol solving the liquidity fragmentation crisis across the Solana ecosystem. Traditionally, smaller validator Liquid Staking Tokens (LSTs) suffer from massive liquidity penalties and high slippage. Sanctum solves this with two revolutionary primitives: the Sanctum Reserve Pool and the \"Infinity Pool\"—a multi-LST liquidity pool that allows any Solana LST to be swapped for any other LST or native SOL with virtually zero slippage.\n\nSanctum powers hundreds of bespoke validator LSTs (such as bonkSOL, jupSOL, driftSOL, and picoSOL), unlocking a thriving creator economy on Solana. Backed by Dragonfly Capital and Solana Ventures, Sanctum has transformed into a core Pillar of Solana's DeFi architecture.\n\nFollowing its celebrated first airdrop season, Sanctum launched \"Wonderland Season 2\"—a gamified adventure where users adopt virtual pets, deposit into the Infinity pool, and earn EXP toward future $CLOUD allocations and partner token grants.",
+    "tokenomics": "The $CLOUD governance token governs the Sanctum protocol, determines validator LST whitelisting, directs Sanctum Reserve liquidity, and earns protocol performance fees.",
+    "sybilSafety": "Sanctum Wonderland enforces capital-weighted EXP generation and time-decay curves, rewarding sustained liquidity commitments over fleeting mercenary capital.",
+    "strategy": "Deposit SOL or any supported LST into the Sanctum Infinity Pool ($INF), adopt and level up your Wonderland Pets, and hold custom LSTs like jupSOL or bonkSOL.",
+    "steps": [
+      "Visit the official <a href=\"https://app.sanctum.so\" target=\"_blank\" rel=\"noopener noreferrer\">Sanctum App</a>.",
+      "Connect your Solana wallet (Phantom, Solflare, or Backpack).",
+      "Stake native SOL to mint custom LSTs or swap directly into $INF (Sanctum Infinity).",
+      "Enter the Wonderland Season 2 portal and adopt your ecosystem pet.",
+      "Earn EXP every minute based on your held $INF and custom LST balances.",
+      "Complete community quests and pet feeding milestones to unlock EXP multiplier tiers.",
+      "Deposit $INF into Solana DeFi protocols (Kamino, Marginfi, Drift) to stack dual yields.",
+      "Claim your $CLOUD token distribution and partner airdrops at season end."
+    ],
+    "faqs": [
+      {
+        "question": "What is Sanctum?",
+        "answer": "Sanctum is the unified liquidity layer for Solana liquid staking, enabling seamless, zero-slippage swaps between all Solana LSTs."
+      },
+      {
+        "question": "What is $INF (Infinity Pool)?",
+        "answer": "$INF is Sanctum's yield-bearing multi-LST liquidity token that accumulates staking rewards from multiple top Solana validators simultaneously."
+      },
+      {
+        "question": "Who invested in Sanctum?",
+        "answer": "Sanctum raised $6.1M from Dragonfly Capital, Solana Ventures, Jump Capital, and prominent Solana ecosystem founders."
+      },
+      {
+        "question": "What is Sanctum Wonderland?",
+        "answer": "Wonderland is Sanctum's gamified rewards campaign where holding LSTs levels up virtual pets and earns EXP toward token distributions."
+      },
+      {
+        "question": "What is the utility of $CLOUD?",
+        "answer": "The $CLOUD token governs the Sanctum Reserve Pool, directs LST validator delegations, and participates in protocol fee capture."
+      },
+      {
+        "question": "Can I swap back to SOL instantly?",
+        "answer": "Yes! Sanctum allows instantaneous un-staking with no multi-day epoch waiting periods via its deep Reserve Pool."
+      }
+    ]
+  },
+  {
+    "id": "kamino",
+    "name": "Kamino Finance",
+    "logo": "/images/airdrops/kamino.svg",
+    "description": "The premier lending, automated liquidity, and leverage hub of Solana with $2B+ TVL, running Season 3 of its flagship KMNO Points rewards.",
+    "reward": "Season 3 KMNO Points & Protocol Fee Share Boosters",
+    "category": "Solana Lending / Vaults / DeFi",
+    "featured": true,
+    "status": "active",
+    "publishDate": "2026-10-03",
+    "endTime": "2026-12-15T23:59:59Z",
+    "funding": "$2B+ TVL / Incubated by Hubble Protocol",
+    "investors": "Multicoin Capital, Jump Capital, DeFiance Capital, Solana Ventures",
+    "refLink": "https://app.kamino.finance",
+    "overview": "Kamino Finance is the dominant liquidity backbone of decentralized finance on Solana, managing over $2 Billion in Total Value Locked (TVL). Combining three powerful financial engines into a unified suite—Kamino Lend (money market for lending and borrowing), Kamino Liquidity (concentrated automated market maker vaults), and Kamino Multiply (one-click leveraged staking)—Kamino is the primary destination for yield on Solana.\n\nKamino's risk engine and liquidations are widely praised as the most battle-tested on Solana, handling market volatility flawlessly while securing billions in trading volume.\n\nFollowing its highly successful $KMNO Token Generation Event, Kamino is currently executing Season 3 of its Points program. Participants supplying collateral, borrowing assets, and providing automated liquidity earn daily KMNO Points alongside governance staking boosters.",
+    "tokenomics": "The $KMNO token governs the Kamino protocol risk parameters, sets asset loan-to-value (LTV) limits, and enables stakers to vote on revenue share distributions and fee burns.",
+    "sybilSafety": "Kamino measures time-weighted TVL, borrowing interest paid, and collateral health, preventing empty Sybil wallets from gaming point distributions.",
+    "strategy": "Supply SOL, USDC, or JitoSOL to Kamino Lend, borrow stablecoins against your collateral at safe LTV ratios (<50%), or enter automated LP vaults to stack maximum Season 3 KMNO points.",
+    "steps": [
+      "Visit the official <a href=\"https://app.kamino.finance\" target=\"_blank\" rel=\"noopener noreferrer\">Kamino Finance Portal</a>.",
+      "Connect your Solana wallet (Phantom, Solflare, or Backpack).",
+      "Navigate to \"Kamino Lend\" and supply collateral (SOL, USDC, USDT, or JitoSOL).",
+      "Borrow stablecoins or SOL against your deposit to unlock 5x-10x Kamino borrow point boosters.",
+      "Explore \"Kamino Liquidity\" vaults and deposit into automated concentrated liquidity pairs.",
+      "Utilize \"Multiply\" for automated looping on liquid staking tokens with one-click leverage.",
+      "Stake earned $KMNO tokens in the governance staking vault to receive ecosystem yield boosters.",
+      "Check your daily Season 3 points ranking on the official Kamino Leaderboard."
+    ],
+    "faqs": [
+      {
+        "question": "What is Kamino Finance?",
+        "answer": "Kamino is the leading lending, borrowing, and automated liquidity protocol on Solana with over $2 Billion in TVL."
+      },
+      {
+        "question": "What is Kamino Season 3?",
+        "answer": "Season 3 is Kamino's latest rewards program distributing ongoing $KMNO tokens to active lenders, borrowers, and liquidity providers."
+      },
+      {
+        "question": "Who backs Kamino Finance?",
+        "answer": "Kamino was incubated by Hubble Protocol and is backed by Multicoin Capital, Jump Capital, and Solana Ventures."
+      },
+      {
+        "question": "Which actions earn the highest points on Kamino?",
+        "answer": "Borrowing assets earns significantly higher point multipliers (up to 5x-10x) compared to simple deposits, reflecting higher protocol value."
+      },
+      {
+        "question": "Is Kamino Finance audited?",
+        "answer": "Yes, Kamino smart contracts undergo continuous security audits by leading firms including OtterSec and Sec3."
+      },
+      {
+        "question": "How does Kamino Multiply work?",
+        "answer": "Multiply automates flash loans to loop your LST collateral (like JitoSOL or mSOL) in a single transaction to amplify staking yields."
+      }
+    ]
   }
 ];

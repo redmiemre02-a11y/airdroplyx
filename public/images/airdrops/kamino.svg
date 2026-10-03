@@ -1,0 +1,11 @@
+<svg viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="100" height="100" rx="24" fill="#091428"/>
+  <path d="M30 26H42V74H30V26Z" fill="#00F5D4"/>
+  <path d="M42 50L64 26H78L52 54L78 74H64L42 53V50Z" fill="url(#kamino_grad)"/>
+  <defs>
+    <linearGradient id="kamino_grad" x1="42" y1="26" x2="78" y2="74" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#00F5D4"/>
+      <stop offset="1" stop-color="#7B2CBF"/>
+    </linearGradient>
+  </defs>
+</svg>
