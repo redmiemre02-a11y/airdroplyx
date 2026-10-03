@@ -4855,4 +4855,435 @@ export const airdrops: Airdrop[] = [
       }
 ]
   }
+,
+  {
+    id: "abstract",
+    name: "Abstract",
+    logo: "/images/airdrops/abstract.svg",
+    description: "Premier consumer Layer 2 built on ZK Stack by Pudgy Penguins & Igloo Inc ($11M+ funding) onboarding mainstream users with Abstract Global Wallet.",
+    reward: "Abstract XP & $ABS Token Airdrop Pre-TGE",
+    category: "Layer 2 / ZK Stack / Consumer L2",
+    featured: true,
+    status: "active",
+    publishDate: "2026-10-03",
+    endTime: "2026-12-31T23:59:59Z",
+    funding: "$11M+ Seed Round led by Peter Thiel's Founders Fund",
+    investors: "Founders Fund, Fenbushi Capital, 1kx & Web3 Angels",
+    refLink: "https://abs.xyz",
+    overview: "Abstract is the flagship Consumer Layer 2 blockchain built by Igloo Inc (the parent company of Pudgy Penguins) and Luca Netz, powered by Matter Labs' ZK Stack technology. Designed from the ground up to solve the UX hurdles of crypto, Abstract introduces the \"Abstract Global Wallet\" (AGW)—a seamless smart contract account that allows mainstream users to interact with gaming, social, and cultural dApps without seed phrases or gas token friction.\n\nAbstract leverages zero-knowledge cryptography to provide sub-second transaction finality, ultra-low fees, and native account abstraction across all consumer applications.\n\nWith anticipation surrounding its upcoming mainnet launch and native $ABS token distribution, early testnet participants, AGW minters, and ecosystem badge collectors stand at the forefront of the largest consumer L2 airdrop.",
+    tokenomics: "The $ABS token will serve as the native governance and sequencer staking token of the Abstract ZK-Rollup, funding consumer ecosystem grants and builder rebates.",
+    sybilSafety: "Abstract Global Wallet biometric binding and social credential verifications create a robust defense against automated bot farms.",
+    strategy: "Set up your Abstract Global Wallet at abs.xyz, mint your early adopter badge, interact with testnet consumer dApps, and complete official quest campaigns.",
+    steps: [
+      "Visit the official <a href=\"https://abs.xyz\" target=\"_blank\" rel=\"noopener noreferrer\">Abstract Portal</a>.",
+      "Create your Abstract Global Wallet (AGW) using social sign-in or passkeys.",
+      "Claim testnet ETH from the official Abstract Sepolia faucet.",
+      "Bridge testnet funds from Ethereum Sepolia to Abstract testnet.",
+      "Interact with featured ecosystem consumer dApps and mint testnet NFTs.",
+      "Complete social verification missions on the official quest board.",
+      "Refer friends to create their AGW and earn referral XP multipliers.",
+      "Maintain active on-chain testnet transactions ahead of the $ABS mainnet snapshot."
+],
+    faqs: [
+      {
+            "question": "What is Abstract?",
+            "answer": "Abstract is a consumer Layer 2 blockchain built on ZK Stack by Pudgy Penguins and Igloo Inc."
+      },
+      {
+            "question": "What is the Abstract Global Wallet (AGW)?",
+            "answer": "A smart contract wallet that enables one-click gasless onboarding across all Abstract applications."
+      },
+      {
+            "question": "Who backs Abstract?",
+            "answer": "Abstract is backed by Peter Thiel's Founders Fund, Fenbushi Capital, and top tier Web3 VCs."
+      }
+]
+  },
+  {
+    id: "ink",
+    name: "Ink (Kraken L2)",
+    logo: "/images/airdrops/ink.svg",
+    description: "Premier institutional Superchain Layer 2 built on Optimism's OP Stack by Kraken exchange delivering high-speed DeFi and zero-friction trading.",
+    reward: "Ink Genesis Points & $INK Token Airdrop",
+    category: "Layer 2 / OP Superchain / Kraken Ecosystem",
+    featured: true,
+    status: "active",
+    publishDate: "2026-10-03",
+    endTime: "2026-12-31T23:59:59Z",
+    funding: "Incubated by Kraken ($10B+ Regulated Exchange Giant)",
+    investors: "Kraken Ventures & Optimism Superchain Guild",
+    refLink: "https://inkonchain.com",
+    overview: "Ink is the groundbreaking Ethereum Layer 2 blockchain developed by Kraken—one of the oldest, largest, and most regulated cryptocurrency exchanges in existence. Built on Optimism's OP Stack and officially joining the Superchain ecosystem alongside Base and Optimism, Ink bridges institutional liquidity with open-source decentralized finance.\n\nInk provides sub-second block times, gas fees under a penny, and seamless native integration with Kraken's 10+ million verified global exchange users. From decentralized perps to institutional credit and automated yield vaults, Ink represents the premier institutional gateway to Web3.\n\nEarly participants bridging to the Ink testnet, deploying smart contracts, and interacting with genesis dApps are positioned to earn substantial early adopter rewards and ecosystem token allocations.",
+    tokenomics: "The $INK token will power decentralized sequencer governance, bridge security staking, and transaction fee rebates across the Superchain.",
+    sybilSafety: "On-chain testnet deployment verifications and Kraken exchange credential linking ensure genuine developers and liquidity providers are rewarded.",
+    strategy: "Add Ink Testnet to your MetaMask, bridge Sepolia ETH to Ink, interact with genesis ecosystem protocols, and complete quests on inkonchain.com.",
+    steps: [
+      "Visit the official <a href=\"https://inkonchain.com\" target=\"_blank\" rel=\"noopener noreferrer\">Ink Network Portal</a>.",
+      "Add Ink Sepolia Testnet RPC settings to your MetaMask or Rabby wallet.",
+      "Obtain Sepolia testnet ETH from public faucets.",
+      "Bridge testnet ETH to Ink using the official Ink native bridge.",
+      "Deploy a simple smart contract or mint testnet genesis tokens on Ink.",
+      "Interact with verified testnet dApps (swaps, liquidity pools, perps).",
+      "Follow official Ink channels on X and Discord for role verification.",
+      "Maintain weekly active transactions to qualify for the Ink Genesis airdrop snapshot."
+],
+    faqs: [
+      {
+            "question": "What is Ink?",
+            "answer": "Ink is an Ethereum Layer 2 blockchain built by Kraken on Optimism's OP Stack as part of the Superchain."
+      },
+      {
+            "question": "Is Ink officially backed by Kraken?",
+            "answer": "Yes, Ink is incubated and operated directly by Kraken exchange."
+      },
+      {
+            "question": "Is participating in the testnet free?",
+            "answer": "Yes, testnet faucets and bridging require zero real money."
+      }
+]
+  },
+  {
+    id: "magic-eden",
+    name: "Magic Eden ($ME)",
+    logo: "/images/airdrops/magic-eden.svg",
+    description: "Premier cross-chain NFT and digital asset marketplace across Solana, Bitcoin, and EVM distributing the highly anticipated $ME token.",
+    reward: "$ME Token Allocation Pre-TGE",
+    category: "Multi-Chain / DEX & NFT / Marketplace",
+    featured: true,
+    status: "active",
+    publishDate: "2026-10-03",
+    endTime: "2026-11-30T23:59:59Z",
+    funding: "$160M Raised ($1.6B Valuation) led by Paradigm & Sequoia",
+    investors: "Paradigm, Sequoia Capital, Lightspeed, Greylock",
+    refLink: "https://magiceden.io",
+    overview: "Magic Eden is the world's leading cross-chain digital asset marketplace and NFT trading platform, commanding dominant market share across Solana, Bitcoin Runes/Ordinals, Ethereum, Base, and Polygon. With over $6 Billion in cumulative trading volume, Magic Eden has unified digital culture and collector liquidity into a seamless multi-chain terminal.\n\nAt the core of Magic Eden's community expansion is the native $ME token, governed by the ME Foundation. Through its official Diamond loyalty program, users earn Diamonds for listing, bidding, purchasing, and using the official Magic Eden Multi-Chain Wallet.\n\nWith the $ME token generation event (TGE) officially confirmed, Diamond holders across Solana, Bitcoin, and EVM chains will receive one of the largest and most liquid marketplace airdrops in crypto history.",
+    tokenomics: "The $ME token governs the universal cross-chain trading protocol, provides fee discounts, and enables staking yields for active ecosystem traders.",
+    sybilSafety: "Marketplace trading volume and genuine wallet transactional history filter wash-trading bots and non-capitalized accounts.",
+    strategy: "Use the Magic Eden Wallet, list verified collections within 5% of floor price, make active collection bids to earn maximum Diamonds, and claim your loyalty drops.",
+    steps: [
+      "Visit the official <a href=\"https://magiceden.io\" target=\"_blank\" rel=\"noopener noreferrer\">Magic Eden Marketplace</a>.",
+      "Download and set up the official Magic Eden Multi-Chain Wallet.",
+      "Connect your wallet and check your historical Diamonds balance.",
+      "Place collection bids on verified Solana or Bitcoin Ordinals collections.",
+      "List NFTs from top collections close to floor price to accumulate listing Diamonds.",
+      "Complete daily loyalty quests under the \"Rewards\" section.",
+      "Refer collector friends to trade and earn referral Diamond percentages.",
+      "Prepare to claim your verified $ME token allocation upon TGE launch."
+],
+    faqs: [
+      {
+            "question": "What is the $ME token?",
+            "answer": "$ME is the upcoming official community and governance token for Magic Eden, the leading cross-chain marketplace."
+      },
+      {
+            "question": "How do Diamonds convert into $ME?",
+            "answer": "All accumulated Diamonds earned through trading, bidding, and wallet usage will convert into $ME tokens at TGE."
+      },
+      {
+            "question": "Which chains are supported?",
+            "answer": "Solana, Bitcoin (Ordinals/Runes), Ethereum, Base, and Polygon."
+      }
+]
+  },
+  {
+    id: "berasig",
+    name: "BeraSig",
+    logo: "/images/airdrops/berasig.jpg",
+    description: "Official Berachain Telegram smart wallet and farming portal where users mine Sugar, complete testnet quests, and farm $BERA rewards.",
+    reward: "Sugar Points & $BERA Ecosystem Airdrop",
+    category: "Telegram Mini-App / Berachain / Smart Wallet",
+    featured: true,
+    status: "active",
+    publishDate: "2026-10-03",
+    endTime: "2026-12-15T23:59:59Z",
+    funding: "Incubated by Berachain Ecosystem Builders",
+    investors: "Berachain Angels & Web3 Gaming Guilds",
+    refLink: "https://t.me/BerasigBot",
+    overview: "BeraSig is the premier non-custodial smart wallet and social farming portal built directly inside Telegram for the Berachain ecosystem. Recognizing that onboarding to high-throughput Layer 1 blockchains can be complex, BeraSig brings Berachain's iconic Proof-of-Liquidity consensus and meme culture to 900+ million Telegram users in a single tap.\n\nInside BeraSig, users create a decentralized Berachain wallet, claim daily testnet BERA tokens, and mine \"Sugar\" points through interactive bee and bear mini-games. Sugar points directly track user loyalty and determine allocation tiers for Berachain ecosystem partner airdrops.\n\nWith Berachain valued at over $1.5 Billion following massive Series B funding, BeraSig offers the single easiest, mobile-friendly gateway to secure verified $BERA ecosystem tokens.",
+    tokenomics: "Sugar points convert into BeraSig governance utilities, testnet reward allocations, and verified partner token airdrops on Berachain.",
+    sybilSafety: "On-chain Berachain testnet transactions and daily harvest cooldowns prevent automated bot scripts from draining reward pools.",
+    strategy: "Harvest Sugar daily inside the bot, claim testnet BERA from the built-in faucet, execute daily swaps on BEX, and complete all partner quests.",
+    steps: [
+      "Open the official <a href=\"https://t.me/BerasigBot\" target=\"_blank\" rel=\"noopener noreferrer\">BeraSig Telegram Bot</a>.",
+      "Generate your secure Berachain smart contract wallet with one tap.",
+      "Claim your daily testnet BERA allotment from the in-app faucet.",
+      "Activate your bee hive to begin continuous automated Sugar mining.",
+      "Reinvest Sugar into hive upgrades to boost your hourly mining rate.",
+      "Complete official Berachain ecosystem quests under the \"Tasks\" tab.",
+      "Invite Web3 friends to join your Bera tribe for referral boost multipliers.",
+      "Maintain your daily harvest streak ahead of the Berachain mainnet snapshot."
+],
+    faqs: [
+      {
+            "question": "What is BeraSig?",
+            "answer": "BeraSig is a Telegram-native smart wallet and social farming app built for the Berachain ecosystem."
+      },
+      {
+            "question": "What is Sugar in BeraSig?",
+            "answer": "Sugar is the in-game reward point mined inside the bot that will convert into ecosystem airdrop rewards."
+      },
+      {
+            "question": "Is BeraSig free to use?",
+            "answer": "Yes, creating a wallet and mining Sugar is 100% free inside Telegram."
+      }
+]
+  },
+  {
+    id: "cats-dogs",
+    name: "Cats&Dogs",
+    logo: "/images/airdrops/cats-dogs.jpg",
+    description: "Viral faction battle on TON where millions choose between Cats or Dogs to farm $FOOD tokens, complete daily raids, and earn airdrops.",
+    reward: "$FOOD Token Community Airdrop",
+    category: "Telegram Mini-App / TON / SocialFi",
+    featured: false,
+    status: "active",
+    publishDate: "2026-10-04",
+    endTime: "2026-11-30T23:59:59Z",
+    funding: "TON Meme Community Syndicate",
+    investors: "Leading TON MemeFi Angels & Animal Meme Alliances",
+    refLink: "https://t.me/catsdogs_game_bot",
+    overview: "Cats&Dogs is a viral social faction battle game built on The Open Network (TON) that creatively resolves the eternal internet debate: are cats or dogs the superior pet? Following the massive success of Dogs ($DOGS) and Cats ($CATS), Cats&Dogs unites both communities into an engaging competitive battlefield where players pledge allegiance to Team Cat or Team Dog.\n\nEvery 8 hours, players claim their bowl of $FOOD tokens, cast votes to propel their faction up the global leaderboard, and participate in collaborative community raid battles. Winning factions earn multiplier bonuses and rare cosmetic NFTs on TON.\n\nWith over 4 million active pet owners, Cats&Dogs has confirmed that the $FOOD token will launch as a native Jetton on TON with 100% community distribution.",
+    tokenomics: "The $FOOD token is minted natively on TON with zero VC presales, rewarding active faction loyalty and daily bowl claims.",
+    sybilSafety: "Telegram account verification and 8-hour claim intervals naturally eliminate automated multi-account clickers.",
+    strategy: "Claim your $FOOD bowl every 8 hours without letting it spoil, vote for your chosen faction to earn team win bonuses, and link your Tonkeeper wallet.",
+    steps: [
+      "Launch the official <a href=\"https://t.me/catsdogs_game_bot\" target=\"_blank\" rel=\"noopener noreferrer\">Cats&Dogs Telegram Bot</a>.",
+      "Choose your allegiance: Team Cat or Team Dog.",
+      "Claim your starter $FOOD token bundle based on your Telegram account age.",
+      "Check in every 8 hours to fill your pet's food bowl and claim tokens.",
+      "Vote in daily faction battles to help your team win territorial multipliers.",
+      "Complete partner quests and social raids in the \"Tasks\" section.",
+      "Connect your non-custodial TON wallet (Tonkeeper or OKX Wallet).",
+      "Hold your $FOOD token balance ahead of the official TGE snapshot date."
+],
+    faqs: [
+      {
+            "question": "What is Cats&Dogs?",
+            "answer": "Cats&Dogs is a viral Telegram game on TON where players choose cats or dogs to farm $FOOD tokens."
+      },
+      {
+            "question": "Can I switch teams in Cats&Dogs?",
+            "answer": "Team choice is permanent to maintain faction loyalty and competitive integrity."
+      },
+      {
+            "question": "Is Cats&Dogs free to play?",
+            "answer": "Yes, 100% free inside Telegram."
+      }
+]
+  },
+  {
+    id: "elixir",
+    name: "Elixir",
+    logo: "/images/airdrops/elixir.svg",
+    description: "Modular DPoS network powering orderbook liquidity with $800M valuation backed by Hack VC and Arthur Hayes, farming Potions for $ELX.",
+    reward: "Potions & $ELX Governance Token Airdrop",
+    category: "DeFi / Modular Liquidity / Orderbooks",
+    featured: false,
+    status: "active",
+    publishDate: "2026-10-04",
+    endTime: "2026-12-31T23:59:59Z",
+    funding: "$17.5M Raised at $800M Valuation led by Hack VC & Maelstrom",
+    investors: "Hack VC, Arthur Hayes (Maelstrom), NGC Ventures, AngelList",
+    refLink: "https://elixir.xyz",
+    overview: "Elixir is a high-performance modular delegated proof-of-stake (DPoS) network that is revolutionizing decentralized liquidity for orderbook exchanges. Historically, decentralized perpetual and spot orderbooks suffered from thin liquidity and high spreads compared to centralized exchanges. Elixir solves this by allowing everyday DeFi participants to supply liquidity directly into exchange orderbooks (such as dYdX, Vertex, Orderly, and Bluefin), earning institutional market-making yields.\n\nThrough its official \"Apothecary\" campaign, Elixir rewards liquidity providers with \"Potions\"—loyalty points that track capital contribution and staking duration.\n\nWith an $800 Million valuation and backing from top industry titans, the upcoming $ELX token generation event will distribute significant governance ownership to early Potion brewers.",
+    tokenomics: "The $ELX token secures the Elixir consensus network through validator staking, coordinates exchange integration grants, and captures protocol fees.",
+    sybilSafety: "Capital commitment requirements and smart contract liquidity lockups mathematically eliminate zero-cost Sybil bot attacks.",
+    strategy: "Supply USDC or ETH into Elixir Apothecary orderbook vaults, mint deUSD (decentralized synthetic dollar), and hold positions to brew maximum Potions.",
+    steps: [
+      "Visit the official <a href=\"https://elixir.xyz\" target=\"_blank\" rel=\"noopener noreferrer\">Elixir Apothecary Portal</a>.",
+      "Connect your Web3 wallet (MetaMask, Rabby, or Coinbase Wallet).",
+      "Supply USDC, ETH, or supported assets into verified exchange orderbook pools.",
+      "Mint deUSD to unlock higher seasonal Potion yield multipliers.",
+      "Track your real-time Potion accumulation in the Apothecary dashboard.",
+      "Complete ecosystem quests and verification tasks on the portal.",
+      "Refer fellow DeFi yield farmers to earn referral Potion bonuses.",
+      "Hold your liquidity positions ahead of the official $ELX mainnet airdrop."
+],
+    faqs: [
+      {
+            "question": "What is Elixir?",
+            "answer": "Elixir is a modular consensus network that supplies decentralized liquidity to orderbook exchanges."
+      },
+      {
+            "question": "What are Potions in Elixir?",
+            "answer": "Potions are loyalty experience points earned by providing liquidity that will convert into $ELX tokens."
+      },
+      {
+            "question": "Who backs Elixir?",
+            "answer": "Elixir is backed by Hack VC, Arthur Hayes (Maelstrom), and leading crypto funds at an $800M valuation."
+      }
+]
+  },
+  {
+    id: "puffer",
+    name: "Puffer Finance",
+    logo: "/images/airdrops/puffer.svg",
+    description: "Leading liquid restaking protocol on EigenLayer backed by Binance Labs ($24M funding) minting pufETH with Puffer Chapter points for $PUFFER.",
+    reward: "Puffer Chapter Points & $PUFFER Airdrop",
+    category: "Restaking / Ethereum / EigenLayer",
+    featured: false,
+    status: "active",
+    publishDate: "2026-10-05",
+    endTime: "2026-12-15T23:59:59Z",
+    funding: "$24M Raised led by Binance Labs, Electric Capital & Brevan Howard",
+    investors: "Binance Labs, Electric Capital, Brevan Howard Digital, Fidelity",
+    refLink: "https://puffer.fi",
+    overview: "Puffer Finance is the premier decentralized liquid restaking protocol (LRT) built on EigenLayer and Ethereum. Pioneering anti-slashing hardware technology and permissionless home validator architecture, Puffer makes restaking secure, decentralized, and accessible to anyone with as little as 1 ETH or stETH.\n\nWhen users deposit ETH or stETH into Puffer, they receive pufETH—a yield-bearing receipt token that simultaneously earns Ethereum PoS staking rewards, EigenLayer restaking yields, and Puffer Chapter loyalty points.\n\nWith over $1.5 Billion in TVL and heavyweight investment from Binance Labs and Brevan Howard, Puffer is conducting its multi-chapter rewards program leading to the governance launch of the $PUFFER token.",
+    tokenomics: "The $PUFFER token coordinates protocol validator selection, anti-slashing insurance pools, and DAO governance across Ethereum Layer 1 and UniFi L2.",
+    sybilSafety: "Restaking points require verified on-chain capital deposits, rendering zero-cost multi-wallet farming scripts completely ineffective.",
+    strategy: "Deposit stETH or native ETH to mint pufETH, deploy pufETH into verified DeFi partner pools (Pendle, Curve) for point multipliers, and complete Chapter quests.",
+    steps: [
+      "Visit the official <a href=\"https://puffer.fi\" target=\"_blank\" rel=\"noopener noreferrer\">Puffer Finance Portal</a>.",
+      "Connect your non-custodial Web3 wallet (MetaMask or Rabby).",
+      "Deposit ETH or stETH into the Puffer liquid restaking vault to mint pufETH.",
+      "Check your active Chapter points multiplier in the dashboard.",
+      "Deploy pufETH into integrated DeFi yield protocols (Pendle, Zircuit) for boosted APR.",
+      "Complete community follow quests and verify your Discord roles.",
+      "Invite fellow restakers to earn referral Chapter point percentages.",
+      "Hold pufETH safely to qualify for the high-tier $PUFFER token claim."
+],
+    faqs: [
+      {
+            "question": "What is Puffer Finance?",
+            "answer": "Puffer is a decentralized liquid restaking protocol on EigenLayer backed by Binance Labs."
+      },
+      {
+            "question": "What do I receive when I deposit into Puffer?",
+            "answer": "You receive pufETH, which accrues native staking, EigenLayer restaking, and Puffer points."
+      },
+      {
+            "question": "Who backs Puffer?",
+            "answer": "Puffer is backed by Binance Labs, Electric Capital, and Brevan Howard Digital."
+      }
+]
+  },
+  {
+    id: "chickcoop",
+    name: "Chicken Coop",
+    logo: "/images/airdrops/chickcoop.jpg",
+    description: "Whimsical idle poultry farming and egg hatching simulation on TON where players breed chickens, sell eggs, and farm $CHICK tokens.",
+    reward: "$CHICK Token Allocation Pre-TGE",
+    category: "Telegram Mini-App / TON / Idle Farm",
+    featured: false,
+    status: "active",
+    publishDate: "2026-10-05",
+    endTime: "2026-12-31T23:59:59Z",
+    funding: "TON Gaming Syndicate & Community Grants",
+    investors: "TON GameFi Builders & Ecosystem Incubators",
+    refLink: "https://t.me/chickencoop_bot",
+    overview: "Chicken Coop is an adorable, highly engaging idle farming and economic simulation game built directly inside Telegram on The Open Network (TON). Stepping into the role of a Web3 farm manager, players manage cozy chicken coops, nurture rare avian breeds, and harvest golden eggs that generate real on-chain $CHICK token value.\n\nThe game incorporates egg incubator timers, market supply-and-demand mechanics, and cross-breeding laboratories where players can hatch legendary rooster champions. Farm revenue scales based on coop capacity, feed quality, and hourly egg throughput.\n\nWith hundreds of thousands of active farmers, Chicken Coop has confirmed that its upcoming $CHICK token airdrop will reward top egg producers, coop levels, and daily active streaks.",
+    tokenomics: "The $CHICK token serves as the primary currency for upgrading advanced coop equipment, breeding rare birds, and participating in seasonal farming leagues on TON.",
+    sybilSafety: "Egg incubation cooldowns and farm throughput balance gates prevent automated clickers from skipping progression tiers.",
+    strategy: "Upgrade incubator capacity to hatch eggs faster, improve coop feed quality to increase egg value, and maintain daily check-in streaks.",
+    steps: [
+      "Launch the official <a href=\"https://t.me/chickencoop_bot\" target=\"_blank\" rel=\"noopener noreferrer\">Chicken Coop Telegram Bot</a>.",
+      "Claim your starter chicken coop and place your first egg in the incubator.",
+      "Hatch your rookie chick and feed it to begin daily egg production.",
+      "Sell harvested eggs in the local market to earn coins for coop upgrades.",
+      "Expand incubator capacity and unlock automated egg collection staff.",
+      "Complete partner missions under the \"Tasks\" tab for instant coin boosts.",
+      "Connect your Tonkeeper wallet in settings.",
+      "Climb the global egg production leaderboard to maximize your $CHICK airdrop."
+],
+    faqs: [
+      {
+            "question": "What is Chicken Coop?",
+            "answer": "Chicken Coop is an idle farming simulation on TON where players hatch eggs and manage coops to earn $CHICK tokens."
+      },
+      {
+            "question": "Do I need to tap continuously?",
+            "answer": "No, chickens lay eggs automatically; you only need to harvest and manage upgrades."
+      },
+      {
+            "question": "Is Chicken Coop free to play?",
+            "answer": "Yes, 100% free inside Telegram."
+      }
+]
+  },
+  {
+    id: "capybara",
+    name: "Capybara MEME",
+    logo: "/images/airdrops/capybara.jpg",
+    description: "The friendliest Telegram-native meme coin and clicker game on TON celebrating the beloved capybara mascot with $CAPY token airdrops.",
+    reward: "$CAPY Community Token Airdrop",
+    category: "Telegram Mini-App / TON / MemeFi",
+    featured: false,
+    status: "active",
+    publishDate: "2026-10-06",
+    endTime: "2026-12-15T23:59:59Z",
+    funding: "Community-Driven Meme Movement",
+    investors: "TON Meme Fund & Community Whales",
+    refLink: "https://t.me/capybara_meme_bot",
+    overview: "Capybara MEME ($CAPY) brings the universally beloved, ultra-chill capybara animal mascot to Telegram and The Open Network (TON). Known across internet lore as the friendliest animal that befriends all species, Capybara MEME captures this wholesome ethos in a lighthearted, community-first SocialFi clicker game.\n\nIn the game, players tap their relaxed capybara in hot spring baths, feed them fresh watermelons, and dress them in hilarious meme costumes. Every tap and lifestyle upgrade boosts your capybara's Chill Factor and hourly coin generation.\n\nAhead of its token generation event, Capybara MEME is distributing $CAPY tokens directly to community members who embrace the chill vibes and maintain daily check-in streaks.",
+    tokenomics: "The $CAPY token is a community-first Jetton on TON with zero team allocation presales and fair decentralized distribution.",
+    sybilSafety: "Chill Factor cadence timers and hot spring session limits mathematically filter robotic auto-clickers.",
+    strategy: "Upgrade hot spring amenities to increase passive hourly earnings, feed your capybara daily treats, and complete all partner quests under the \"Missions\" tab.",
+    steps: [
+      "Open the official <a href=\"https://t.me/capybara_meme_bot\" target=\"_blank\" rel=\"noopener noreferrer\">Capybara MEME Telegram Bot</a>.",
+      "Tap your chill capybara in the hot spring to collect your starter coins.",
+      "Upgrade hot spring temperature and watermelon snacks to boost passive revenue.",
+      "Dress your capybara in rare meme outfits for permanent multiplier bonuses.",
+      "Complete social partner missions under the \"Tasks\" section.",
+      "Connect your non-custodial TON wallet (Tonkeeper).",
+      "Invite friends to join the hot spring for referral coin percentages.",
+      "Safeguard your $CAPY coin balance ahead of the official exchange listing."
+],
+    faqs: [
+      {
+            "question": "What is Capybara MEME?",
+            "answer": "Capybara MEME is a friendly, relaxed meme clicker game on TON where players care for a capybara to earn $CAPY tokens."
+      },
+      {
+            "question": "Which blockchain does Capybara use?",
+            "answer": "Capybara MEME is deployed natively on The Open Network (TON)."
+      },
+      {
+            "question": "Is Capybara MEME free?",
+            "answer": "Yes, 100% free to play inside Telegram."
+      }
+]
+  },
+  {
+    id: "dechat",
+    name: "DeChat",
+    logo: "/images/airdrops/dechat.svg",
+    description: "Decentralized SocialFi communication protocol on BNB Chain and TON with encrypted messaging and Social2Earn rewards farming $CHAT.",
+    reward: "Chat Points & $CHAT Token Airdrop",
+    category: "Telegram Mini-App / SocialFi / Messaging",
+    featured: false,
+    status: "active",
+    publishDate: "2026-10-06",
+    endTime: "2026-12-31T23:59:59Z",
+    funding: "$3.5M Seed Round",
+    investors: "Animoca Brands, Gate Labs & DWF Ventures",
+    refLink: "https://t.me/dechat_bot",
+    overview: "DeChat is an open, secure Web3 communications protocol and decentralized SocialFi network powering end-to-end encrypted messaging, peer-to-peer audio/video streaming, and social payments across multiple blockchains. Operating as a decentralized Social2Earn ecosystem, DeChat rewards users for active chatting, group administration, and community curation.\n\nInside its Telegram Mini-App, users can connect their Web3 wallets, claim daily communication points, invite messaging circles, and participate in social staking pools.\n\nWith backing from Animoca Brands and listings on tier-1 crypto exchanges, DeChat is conducting ongoing seasonal airdrop campaigns to reward verified social contributors with native $CHAT tokens.",
+    tokenomics: "The $CHAT token powers encrypted messaging storage relays, Social DID minting, and VIP room creation across the DeChat network.",
+    sybilSafety: "Decentralized social graph audits and encrypted message handshake proofs filter multi-account spam syndicates.",
+    strategy: "Check in daily to claim base communication points, create a verified social profile, complete partner quests, and link your Web3 wallet.",
+    steps: [
+      "Launch the official <a href=\"https://t.me/dechat_bot\" target=\"_blank\" rel=\"noopener noreferrer\">DeChat Telegram Bot</a>.",
+      "Generate your decentralized Social DID profile with one click.",
+      "Check in daily under the rewards section to claim base Chat Points.",
+      "Complete official partner missions and follow verified community channels.",
+      "Connect your non-custodial Web3 wallet (MetaMask, OKX, or Tonkeeper).",
+      "Create social chat circles and invite friends for referral point bonuses.",
+      "Participate in seasonal Social2Earn events to multiply your points.",
+      "Redeem earned points for $CHAT token airdrops during official claim windows."
+],
+    faqs: [
+      {
+            "question": "What is DeChat?",
+            "answer": "DeChat is a decentralized Web3 messaging and SocialFi protocol that rewards users for communicating and connecting."
+      },
+      {
+            "question": "Who backs DeChat?",
+            "answer": "DeChat is backed by Animoca Brands, Gate Labs, and prominent Web3 venture funds."
+      },
+      {
+            "question": "Is DeChat free to use?",
+            "answer": "Yes, 100% free to access inside Telegram."
+      }
+]
+  }
 ];
