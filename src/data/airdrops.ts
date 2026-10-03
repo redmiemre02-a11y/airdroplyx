@@ -4424,4 +4424,435 @@ export const airdrops: Airdrop[] = [
       }
 ]
   }
+,
+  {
+    id: "evaa",
+    name: "EVAA Protocol",
+    logo: "/images/airdrops/evaa.jpg",
+    description: "Premier decentralized lending and liquidity market on TON with over $50M+ TVL where users supply assets, borrow, and farm EVAA XP for $EVAA.",
+    reward: "EVAA XP Points & $EVAA Governance Airdrop",
+    category: "Telegram Mini-App / TON / Lending & DeFi",
+    featured: true,
+    status: "active",
+    publishDate: "2026-10-03",
+    endTime: "2026-12-31T23:59:59Z",
+    funding: "TON Accelerator Winner & Animoca Brands Backed",
+    investors: "Animoca Brands, TON Ventures & Leading DeFi Angels",
+    refLink: "https://t.me/evaaprotocol_bot",
+    overview: "EVAA Protocol is the premier decentralized money market and lending infrastructure built natively on The Open Network (TON). Functioning as the Aave of the TON ecosystem, EVAA Protocol allows Telegram users to deposit TON, tsTON, USDT, and other native tokens to earn compounding supply yields or borrow assets using overcollateralized loans.\n\nInside its official Telegram Mini-App, users can manage loan-to-value health factors, supply liquidity with one tap, and farm EVAA XP points through the official supply-and-borrow incentive program.\n\nBacked by heavyweight Web3 investors including Animoca Brands, EVAA Protocol has allocated a substantial percentage of its upcoming $EVAA governance token to active lenders and borrowers ahead of its token generation event.",
+    tokenomics: "The $EVAA token governs interest rate models, reserve factor allocations, and protocol fee sharing across the TON blockchain.",
+    sybilSafety: "On-chain collateral deposits and active borrow interest rates inherently filter automated bot farms by requiring real capital commitment.",
+    strategy: "Supply TON or tsTON into EVAA markets to earn base APY plus EVAA XP points, borrow stablecoins against your collateral for point multipliers, and complete social verification quests.",
+    steps: [
+      "Open the official <a href=\"https://t.me/evaaprotocol_bot\" target=\"_blank\" rel=\"noopener noreferrer\">EVAA Protocol Telegram Bot</a>.",
+      "Connect your Tonkeeper or MyTonWallet non-custodial wallet.",
+      "Supply TON, tsTON, or USDT into the decentralized money market pool.",
+      "Borrow stablecoins against your deposited collateral to unlock 2x point multipliers.",
+      "Track your real-time EVAA XP points accumulation inside the dashboard.",
+      "Complete official educational missions under the \"Quests\" tab.",
+      "Invite Web3 friends to supply liquidity and earn referral point rebates.",
+      "Hold your active lending positions ahead of the official $EVAA token generation event."
+],
+    faqs: [
+      {
+            "question": "What is EVAA Protocol?",
+            "answer": "EVAA Protocol is the leading decentralized lending and borrowing market on The Open Network (TON)."
+      },
+      {
+            "question": "What are EVAA XP points?",
+            "answer": "EVAA XP are loyalty points earned by supplying and borrowing assets that will convert into $EVAA governance tokens."
+      },
+      {
+            "question": "Is EVAA Protocol safe?",
+            "answer": "Yes, EVAA smart contracts have undergone rigorous third-party audits by leading Web3 security firms."
+      }
+]
+  },
+  {
+    id: "xkucoin",
+    name: "xKuCoin",
+    logo: "/images/airdrops/xkucoin.jpg",
+    description: "Official Telegram Mini-App by KuCoin exchange where users tap, complete trading tasks, and farm points for exchange token distributions.",
+    reward: "KuCoin Points & Partner Token Airdrops",
+    category: "Telegram Mini-App / Exchange Ecosystem / Tap-to-Earn",
+    featured: true,
+    status: "active",
+    publishDate: "2026-10-03",
+    endTime: "2026-12-15T23:59:59Z",
+    funding: "Backed by KuCoin (Top Tier Global Exchange)",
+    investors: "KuCoin Ventures & Tier-1 Global Partners",
+    refLink: "https://t.me/xkucoinbot",
+    overview: "xKuCoin is the official Telegram gaming and trading portal launched by KuCoin—one of the largest and most respected cryptocurrency exchanges in the world with over 30 million global users. Bridging traditional exchange services with casual Telegram gaming, xKuCoin allows users to tap to mine points, feed an in-game mascot, and complete exchange literacy challenges.\n\nEvery tap and task completed earns points that determine a user's tier in exclusive KuCoin Launchpool allocations, fee discount vouchers, and partner token airdrop campaigns.\n\nBecause xKuCoin is backed directly by a top-tier global crypto exchange, it offers guaranteed transparency, immense liquidity, and verified reward payouts directly to users' linked KuCoin accounts.",
+    tokenomics: "Points earned in xKuCoin convert into platform rewards, KCS launchpool bonuses, and VIP trading fee rebates across KuCoin services.",
+    sybilSafety: "Exchange account binding and optional KYC verification completely prevent automated clicker swarms from gaming reward tiers.",
+    strategy: "Tap daily to exhaust your energy bar, link your KuCoin UID to unlock permanent point multipliers, and complete all partner quests under the \"Earn\" tab.",
+    steps: [
+      "Launch the official <a href=\"https://t.me/xkucoinbot\" target=\"_blank\" rel=\"noopener noreferrer\">xKuCoin Telegram Bot</a>.",
+      "Tap the screen to mine starter points and feed your mascot.",
+      "Upgrade your tapping power and energy recovery speed in the \"Boost\" tab.",
+      "Link your official KuCoin Exchange UID to activate bonus point multipliers.",
+      "Complete daily trading literacy quests and social tasks under the \"Tasks\" menu.",
+      "Connect your non-custodial crypto wallet or KuCoin Web3 wallet.",
+      "Invite trader friends to your squad to earn referral commission on their points.",
+      "Qualify for exclusive partner airdrops and exchange token distributions."
+],
+    faqs: [
+      {
+            "question": "What is xKuCoin?",
+            "answer": "xKuCoin is the official Telegram tap-to-earn mini-app created by KuCoin exchange."
+      },
+      {
+            "question": "Do I need a KuCoin account to play?",
+            "answer": "You can start playing for free inside Telegram, but linking a KuCoin account unlocks maximum reward multipliers."
+      },
+      {
+            "question": "Is xKuCoin safe?",
+            "answer": "Yes, it is developed and operated directly by KuCoin exchange."
+      }
+]
+  },
+  {
+    id: "durev",
+    name: "Povel Durev",
+    logo: "/images/airdrops/durev.jpg",
+    description: "Iconic satirical meme cult and SocialFi movement on TON celebrating Pavel Durov with community raids, games, and $DUREV rewards.",
+    reward: "$DUREV Community Token Airdrop",
+    category: "Telegram Mini-App / TON / MemeFi",
+    featured: true,
+    status: "active",
+    publishDate: "2026-10-03",
+    endTime: "2026-11-30T23:59:59Z",
+    funding: "TON Meme Community Syndicate",
+    investors: "Top TON Meme Whales & Community Backers",
+    refLink: "https://t.me/povel_durev_bot",
+    overview: "Povel Durev ($DUREV) is one of the most culturally significant and viral meme movements on The Open Network (TON). Created as an affectionate, humorous caricature of Telegram visionary Pavel Durov, Povel Durev rallied millions of passionate Telegram users around internet freedom, digital privacy, and decentralized memes.\n\nThrough its official Telegram Mini-App, Povel Durev combines hilarious narrative comics, community raid mechanics, and mini-games where users defend Pavel from censorship agents, earn virtual caviar and black t-shirts, and farm $DUREV tokens.\n\nWith active trading on STON.fi and major centralized exchanges, the Povel Durev mini-app continues to distribute substantial community rewards to dedicated freedom fighters on TON.",
+    tokenomics: "The $DUREV token is a 100% community-owned meme token on TON with burned liquidity pools and zero team vesting cliffs.",
+    sybilSafety: "Social raid engagement verifications and Telegram account age heuristics prioritize authentic meme community members over bot farms.",
+    strategy: "Participate in daily Telegram raid missions, play the meme defense mini-game, and hold $DUREV in your non-custodial TON wallet.",
+    steps: [
+      "Open the official <a href=\"https://t.me/povel_durev_bot\" target=\"_blank\" rel=\"noopener noreferrer\">Povel Durev Telegram Bot</a>.",
+      "Claim your rookie freedom fighter kit and black t-shirt avatar.",
+      "Participate in daily viral raid missions on Twitter/X and Telegram.",
+      "Play the interactive defense mini-game to earn bonus token allocations.",
+      "Complete partner quests under the \"Missions\" section.",
+      "Connect your Tonkeeper wallet in settings.",
+      "Invite fellow Telegram degens to join your squad for referral multipliers.",
+      "Hold your claimed $DUREV tokens to maintain whitelist eligibility for partner drops."
+],
+    faqs: [
+      {
+            "question": "What is Povel Durev ($DUREV)?",
+            "answer": "Povel Durev is a viral satirical meme token on TON honoring Telegram founder Pavel Durov."
+      },
+      {
+            "question": "Is $DUREV already traded?",
+            "answer": "Yes, $DUREV is actively traded on STON.fi, DeDust, and centralized exchanges, but the bot continues to distribute seasonal rewards."
+      },
+      {
+            "question": "Is the bot free to play?",
+            "answer": "Yes, 100% free inside Telegram."
+      }
+]
+  },
+  {
+    id: "bitget-wallet",
+    name: "Bitget Wallet Assistant",
+    logo: "/images/airdrops/bitget-wallet.jpg",
+    description: "Official Telegram bot by Bitget Wallet (30M+ users) providing seamless wallet tracking, gasless swaps, and BWB ecosystem rewards.",
+    reward: "BWB Points & Partner Airdrop Whitelists",
+    category: "Telegram Mini-App / Multi-Chain / Wallet Utility",
+    featured: true,
+    status: "active",
+    publishDate: "2026-10-03",
+    endTime: "2026-12-31T23:59:59Z",
+    funding: "Backed by Bitget ($100M+ Web3 Ecosystem)",
+    investors: "Bitget Global & Leading Web3 Institutional Funds",
+    refLink: "https://t.me/bitget_wallet_bot",
+    overview: "Bitget Wallet (formerly BitKeep) is Asia's premier non-custodial Web3 multi-chain wallet, serving over 30 million users across 100+ blockchains. Through its official Telegram Mini-App and Assistant, Bitget Wallet brings institutional-grade asset management, multi-chain swaps, and airdrop discovery directly into Telegram.\n\nUsers can connect their wallets, track portfolio balances in real time, execute cross-chain swaps with optimal routing, and participate in exclusive Bitget Wallet TaskHub campaigns.\n\nActive bot users accumulate BWB ecosystem points and secure guaranteed whitelists for tier-1 partner token airdrops launching across TON, Solana, and Ethereum Layer 2s.",
+    tokenomics: "The $BWB token powers ecosystem governance, gas fee subsidies across multiple chains, and VIP Launchpad allocations within Bitget Wallet.",
+    sybilSafety: "On-chain wallet address verification and historical activity screening ensure authentic Web3 users capture the largest reward shares.",
+    strategy: "Link your primary active crypto wallet, execute occasional token swaps within Telegram, and complete partner tasks in the TaskHub.",
+    steps: [
+      "Launch the official <a href=\"https://t.me/bitget_wallet_bot\" target=\"_blank\" rel=\"noopener noreferrer\">Bitget Wallet Telegram Bot</a>.",
+      "Connect your non-custodial Web3 wallet (Bitget Wallet, Tonkeeper, or MetaMask).",
+      "Verify your on-chain address to claim your starter BWB points bonus.",
+      "Explore the TaskHub and complete featured partner airdrop missions.",
+      "Execute a decentralized token swap to unlock active trader tier benefits.",
+      "Check in daily under the rewards tab to maintain your loyalty streak.",
+      "Invite Web3 friends to track their portfolios for referral point bonuses.",
+      "Safeguard your accumulated BWB points for seasonal ecosystem rewards."
+],
+    faqs: [
+      {
+            "question": "What is Bitget Wallet Assistant?",
+            "answer": "It is the official Telegram bot of Bitget Wallet, providing portfolio tracking, swaps, and airdrop rewards."
+      },
+      {
+            "question": "Who backs Bitget Wallet?",
+            "answer": "Bitget Wallet is backed by Bitget, one of the world's largest crypto derivatives exchanges."
+      },
+      {
+            "question": "Is it safe to connect my wallet?",
+            "answer": "Yes, it only requires public wallet address connection without ever exposing private keys."
+      }
+]
+  },
+  {
+    id: "open-league",
+    name: "The Open League",
+    logo: "/images/airdrops/open-league.jpg",
+    description: "Official TON Foundation ecosystem incentive program distributing millions of dollars in TON rewards to active community participants.",
+    reward: "TON Token Rewards & Soulbound Badges",
+    category: "Telegram Mini-App / TON Foundation / Ecosystem Rewards",
+    featured: false,
+    status: "active",
+    publishDate: "2026-10-04",
+    endTime: "2026-12-31T23:59:59Z",
+    funding: "Official TON Foundation Initiative ($100M+ Reward Pool)",
+    investors: "The Open Network (TON Foundation)",
+    refLink: "https://t.me/theopenleague_bot",
+    overview: "The Open League is the flagship, official ecosystem growth and incentive initiative designed by the TON Foundation to distribute tens of millions of dollars in real TON tokens to genuine Web3 participants. Operating across seasonal leagues (Token League, App League, DeFi League, and Degen League), The Open League rewards both developers and everyday Telegram users for active on-chain transactions.\n\nInside its official Telegram bot, users can mint their Open League SBT (Soulbound Token), track their on-chain activity tier, explore verified participating dApps, and claim seasonal reward drops.\n\nBecause The Open League is managed directly by the TON Foundation, rewards are paid in liquid TON tokens, making it the gold standard for verified, zero-risk airdrop hunting.",
+    tokenomics: "Rewards are distributed in native $TON tokens funded by the TON Foundation treasury to stimulate network transaction volume.",
+    sybilSafety: "Soulbound Token (SBT) minting and on-chain transactional proofs mathematically eliminate fake bot accounts from claiming prize pools.",
+    strategy: "Mint your Open League SBT badge, interact with top-ranked Open League apps (like STON.fi, EVAA, and DeDust), and maintain weekly on-chain activity.",
+    steps: [
+      "Open the official <a href=\"https://t.me/theopenleague_bot\" target=\"_blank\" rel=\"noopener noreferrer\">The Open League Telegram Bot</a>.",
+      "Connect your Tonkeeper or MyTonWallet non-custodial wallet.",
+      "Mint your official Open League Soulbound Token (SBT) badge on TON.",
+      "Explore the seasonal participating project leaderboards in the app.",
+      "Execute qualified on-chain transactions across featured Open League dApps.",
+      "Complete community quests and partner challenges to boost your rank.",
+      "Invite Web3 friends to join The Open League for referral tier multipliers.",
+      "Claim your native $TON token rewards at the conclusion of each league season."
+],
+    faqs: [
+      {
+            "question": "What is The Open League?",
+            "answer": "The Open League is the official community rewards program by the TON Foundation distributing millions in TON tokens."
+      },
+      {
+            "question": "What is the SBT badge?",
+            "answer": "A Soulbound Token minted on TON that verifies your authentic humanity and tracks your league tier."
+      },
+      {
+            "question": "What tokens do you earn?",
+            "answer": "Participants earn real, liquid $TON tokens."
+      }
+]
+  },
+  {
+    id: "cryptorank",
+    name: "CryptoRank Mini App",
+    logo: "/images/airdrops/cryptorank.jpg",
+    description: "Official Telegram mini-app from premier analytics platform CryptoRank.io allowing users to farm CR Points ahead of native token TGE.",
+    reward: "CR Points & $CR Token Airdrop Pre-TGE",
+    category: "Telegram Mini-App / Analytics & Tooling / Points Farming",
+    featured: false,
+    status: "active",
+    publishDate: "2026-10-04",
+    endTime: "2026-12-15T23:59:59Z",
+    funding: "Self-Funded by CryptoRank.io (Leading Research Portal)",
+    investors: "Web3 Analytics Syndicate & Data Partners",
+    refLink: "https://t.me/cryptorank_app_bot",
+    overview: "CryptoRank is one of the most trusted and heavily utilized crypto market data, fundraising analytics, and tokenomics platforms in the Web3 industry, relied upon by institutional investors, VC analysts, and retail traders worldwide. With its official Telegram Mini-App, CryptoRank has democratized its research ecosystem by allowing users to farm CR Points through active engagement.\n\nInside the mini-app, users can activate a 6-hour farming cycle, participate in market price prediction rounds, complete analytics research tasks, and build community squads.\n\nCryptoRank has confirmed that accumulated CR Points will convert into native $CR governance and utility tokens upon its upcoming token generation event (TGE), giving holders premium research access and airdrop allocations.",
+    tokenomics: "The $CR token will unlock institutional analytics features, API query credits, and launchpad allocations on CryptoRank.io.",
+    sybilSafety: "Timed 6-hour claim cycles and analytics research questions prevent automated headless bots from farming high-tier allocations.",
+    strategy: "Claim your farmed CR Points every 6 hours before the vault fills up, participate in daily price predictions, and complete all partner verification quests.",
+    steps: [
+      "Launch the official <a href=\"https://t.me/cryptorank_app_bot\" target=\"_blank\" rel=\"noopener noreferrer\">CryptoRank Telegram Bot</a>.",
+      "Activate your initial 6-hour farming session to begin generating CR Points.",
+      "Claim your accumulated points before the storage container fills up.",
+      "Participate in daily market prediction quizzes for bonus point injections.",
+      "Complete partner analytics missions under the \"Tasks\" section.",
+      "Connect your non-custodial Web3 wallet (Tonkeeper or MetaMask).",
+      "Invite Web3 analyst friends to your squad to earn referral point percentages.",
+      "Hold your CR Points safely in anticipation of the official $CR token TGE."
+],
+    faqs: [
+      {
+            "question": "What is CryptoRank Mini App?",
+            "answer": "It is the official Telegram farming app by CryptoRank.io, the renowned crypto market research platform."
+      },
+      {
+            "question": "How often do I need to claim in CryptoRank?",
+            "answer": "The farming container runs for 6 hours; log in to claim points and restart the timer."
+      },
+      {
+            "question": "Is CryptoRank free to use?",
+            "answer": "Yes, 100% free inside Telegram."
+      }
+]
+  },
+  {
+    id: "mexc",
+    name: "MEXC Market Bot",
+    logo: "/images/airdrops/mexc.jpg",
+    description: "Official MEXC crypto market and reward assistant inside Telegram with daily check-in tasks, trading fee rebates, and MX airdrop vouchers.",
+    reward: "MX Token Vouchers & Airdrop Whitelists",
+    category: "Telegram Mini-App / Exchange Assistant / Utility",
+    featured: false,
+    status: "active",
+    publishDate: "2026-10-05",
+    endTime: "2026-12-31T23:59:59Z",
+    funding: "Backed by MEXC Global (Top 10 Global Exchange)",
+    investors: "MEXC Pioneer & Global Crypto Funds",
+    refLink: "https://t.me/MEXCOfficial_Bot",
+    overview: "MEXC Global is widely recognized as the world's fastest-growing cryptocurrency exchange, famous for listing high-potential gems and early-stage crypto tokens ahead of other major centralized exchanges. Through its official Telegram Market Bot, MEXC provides real-time market alerts, meme token price tracking, and exclusive Telegram community reward campaigns.\n\nUsers can check in daily, participate in trading quizzes, link their MEXC UID, and claim exclusive vouchers for $MX—the exchange's native utility token that grants 100% free Kickstarter airdrop entries.\n\nWith hundreds of thousands of daily community members, the MEXC bot is an indispensable utility for token hunters seeking verified exchange airdrop campaigns.",
+    tokenomics: "The $MX token captures 40% of MEXC exchange profits via buyback and burns, and grants free access to dozens of new token Kickstarter airdrops every week.",
+    sybilSafety: "MEXC UID verification and exchange fraud monitoring algorithms prevent multi-account bot abuse.",
+    strategy: "Check in daily through the bot, bind your MEXC UID to unlock VIP trading perks, and claim $MX bonus vouchers for Kickstarter token entries.",
+    steps: [
+      "Open the official <a href=\"https://t.me/MEXCOfficial_Bot\" target=\"_blank\" rel=\"noopener noreferrer\">MEXC Telegram Bot</a>.",
+      "Claim your welcome reward voucher and explore market tracking features.",
+      "Link your MEXC account UID to verify your authentic trader profile.",
+      "Check in daily under the rewards section to build your loyalty streak.",
+      "Complete featured trading literacy tasks and community follow quests.",
+      "Participate in exclusive Telegram community token giveaways.",
+      "Invite trader friends to track markets and earn referral rebates.",
+      "Redeem earned vouchers for $MX tokens and free Kickstarter airdrop allocations."
+],
+    faqs: [
+      {
+            "question": "What is MEXC Market Bot?",
+            "answer": "It is the official Telegram market tracking and reward bot of MEXC Global exchange."
+      },
+      {
+            "question": "What is $MX token?",
+            "answer": "$MX is the flagship platform token of MEXC that gives holders free daily token airdrops via Kickstarter."
+      },
+      {
+            "question": "Is the bot free?",
+            "answer": "Yes, 100% free to use for market updates and rewards."
+      }
+]
+  },
+  {
+    id: "jetton-games",
+    name: "JetTon Games",
+    logo: "/images/airdrops/jetton-games.jpg",
+    description: "Licensed Telegram gaming and entertainment ecosystem on TON backed by TONcoin Fund with active token farming and loyalty staking.",
+    reward: "$JETTON Token Staking & Airdrop Rewards",
+    category: "Telegram Mini-App / TON / Gaming & Entertainment",
+    featured: false,
+    status: "active",
+    publishDate: "2026-10-05",
+    endTime: "2026-12-31T23:59:59Z",
+    funding: "TONcoin Fund & Web3 Gaming Syndicate",
+    investors: "TON Ventures, Top TON Gaming Angels",
+    refLink: "https://t.me/jetton_games_bot",
+    overview: "JetTon Games is a premier licensed entertainment and gaming platform built natively on The Open Network (TON). Fully integrated with Telegram and non-custodial TON wallets, JetTon offers a wide selection of casual games, tournament competitions, and provably fair entertainment with zero withdrawal delays.\n\nThe platform is powered by the $JETTON token—one of the earliest and most resilient utility tokens deployed on TON. Through its Telegram mini-app, users can participate in daily check-in streaks, complete partner quests, and stake $JETTON for protocol revenue sharing.\n\nWith official backing from the TONcoin Fund, JetTon Games offers a sustainable, revenue-backed gaming ecosystem with ongoing seasonal reward pools.",
+    tokenomics: "The $JETTON token powers in-game tournament buy-ins, NFT rewards, and shares platform revenue with long-term stakers.",
+    sybilSafety: "On-chain transaction verifications and session integrity checks filter non-participating bot accounts.",
+    strategy: "Check in daily to build your activity streak, complete all partner quests under the \"Tasks\" tab, and stake $JETTON for passive revenue dividends.",
+    steps: [
+      "Launch the official <a href=\"https://t.me/jetton_games_bot\" target=\"_blank\" rel=\"noopener noreferrer\">JetTon Games Telegram Bot</a>.",
+      "Connect your Tonkeeper or MyTonWallet non-custodial wallet.",
+      "Claim your starter loyalty points in the rewards dashboard.",
+      "Check in daily to maintain your compounding streak bonus.",
+      "Complete partner quests and social missions in the \"Tasks\" section.",
+      "Explore provably fair mini-games and tournament leaderboards.",
+      "Invite gaming friends to join your squad for referral royalties.",
+      "Stake your $JETTON balance to receive daily dividend distributions."
+],
+    faqs: [
+      {
+            "question": "What is JetTon Games?",
+            "answer": "JetTon Games is a licensed entertainment and gaming ecosystem built on The Open Network (TON)."
+      },
+      {
+            "question": "Who backs JetTon?",
+            "answer": "JetTon Games is backed by the TONcoin Fund and prominent TON ecosystem angels."
+      },
+      {
+            "question": "Is JetTon on the TON blockchain?",
+            "answer": "Yes, it operates natively on TON with instant wallet integration."
+      }
+]
+  },
+  {
+    id: "bingx",
+    name: "BingX Global Bot",
+    logo: "/images/airdrops/bingx.jpg",
+    description: "Official BingX trading and social bot inside Telegram offering crypto market tracking, daily reward bonuses, and copy-trading incentives.",
+    reward: "BingX Bonus Vouchers & Mystery Boxes",
+    category: "Telegram Mini-App / Exchange Assistant / Social Trading",
+    featured: false,
+    status: "active",
+    publishDate: "2026-10-06",
+    endTime: "2026-12-31T23:59:59Z",
+    funding: "Backed by BingX (Leading Global Crypto Exchange)",
+    investors: "BingX Ventures & Global Trading Partners",
+    refLink: "https://t.me/BingX_Global_Bot",
+    overview: "BingX is a globally recognized cryptocurrency exchange celebrated for pioneering crypto copy-trading and social investment networks, serving over 10 million users across 100+ countries. Through its official Telegram Bot and Mini-App, BingX delivers instant market alerts, futures price signals, and engaging community reward events.\n\nInside Telegram, users can complete daily check-ins, unlock mystery bonus boxes, link their BingX UID, and claim real crypto trading vouchers without leaving the chat app.\n\nWith extensive partnerships across Web3 and continuous seasonal community campaigns, the BingX Global Bot provides a secure, verified path to earn real crypto incentives.",
+    tokenomics: "Rewards are distributed in USDT bonus vouchers, trial funds, and token bundles directly deposited into users' verified BingX accounts.",
+    sybilSafety: "BingX UID binding and IP anomaly monitoring prevent multi-account bot farms from abusing bonus voucher pools.",
+    strategy: "Check in daily to unlock progressive mystery boxes, bind your BingX UID, and complete all social missions under the \"Rewards\" tab.",
+    steps: [
+      "Open the official <a href=\"https://t.me/BingX_Global_Bot\" target=\"_blank\" rel=\"noopener noreferrer\">BingX Global Telegram Bot</a>.",
+      "Open your welcome mystery box to reveal free trading vouchers.",
+      "Link your BingX account UID to verify your eligibility for cash bonuses.",
+      "Check in daily under the rewards section to build your streak.",
+      "Complete social partner missions and join official community channels.",
+      "Participate in seasonal trading prediction contests for prize pools.",
+      "Invite trader friends to track prices and earn referral rebates.",
+      "Redeem earned vouchers directly in your BingX trading account."
+],
+    faqs: [
+      {
+            "question": "What is BingX Global Bot?",
+            "answer": "It is the official Telegram assistant and reward portal of BingX exchange."
+      },
+      {
+            "question": "Do I get real crypto rewards?",
+            "answer": "Yes, rewards include real USDT bonus vouchers, trial funds, and token mystery boxes."
+      },
+      {
+            "question": "Is the bot free to use?",
+            "answer": "Yes, 100% free to access inside Telegram."
+      }
+]
+  },
+  {
+    id: "galxe",
+    name: "Galxe Campaign Bot",
+    logo: "/images/airdrops/galxe.jpg",
+    description: "Official Telegram quest tracking bot by leading Web3 credential network Galxe (Galxe Quest) delivering real-time task completion points.",
+    reward: "Galxe Loyalty Points & $G Token Multipliers",
+    category: "Telegram Mini-App / Multi-Chain / Quest & Loyalty",
+    featured: false,
+    status: "active",
+    publishDate: "2026-10-06",
+    endTime: "2026-12-31T23:59:59Z",
+    funding: "$25M+ Raised Across Global Strategic Rounds",
+    investors: "Multicoin Capital, Dragonfly, Spartan Group",
+    refLink: "https://t.me/GalxeBot",
+    overview: "Galxe (formerly Project Galaxy) is the undisputed powerhouse of Web3 credential networks and community loyalty infrastructure, boasting over 18 million unique users and powering over 5,000 partner reward campaigns. Through its official Galxe Telegram Campaign Bot, users can receive instant alerts for hot new token airdrop campaigns, verify Telegram task completions with one tap, and accumulate Galxe Loyalty Points.\n\nPoints earned across Galxe campaigns establish a verifiable on-chain reputation that tier-1 blockchain projects use to distribute millions in token airdrops.\n\nWith its native governance token $G listed on Binance, Coinbase, and OKX, holding an active Galxe credential profile is the single most essential requirement for every serious airdrop farmer in Web3.",
+    tokenomics: "The $G token serves as the universal governance and gas fee token for the Galxe Identity Protocol and Gravity blockchain.",
+    sybilSafety: "Galxe Passport, Web3 wallet binding, and social account age screening create the most formidable Sybil defense shield in Web3.",
+    strategy: "Link your primary Web3 wallet and Telegram handle, complete daily featured quests, and accumulate high loyalty point scores across top Layer 1/2 spaces.",
+    steps: [
+      "Launch the official <a href=\"https://t.me/GalxeBot\" target=\"_blank\" rel=\"noopener noreferrer\">Galxe Telegram Bot</a>.",
+      "Link your Galxe ID and verify your Telegram username.",
+      "Connect your non-custodial Web3 wallet (MetaMask, OKX, or Tonkeeper).",
+      "Receive instant notifications when high-value airdrop quests go live.",
+      "Verify Telegram channel joins and group memberships with one click.",
+      "Complete partner ecosystem quests to earn Galxe Loyalty Points.",
+      "Mint on-chain Galxe OATs (On-Chain Achievement Tokens) for verified campaigns.",
+      "Safeguard your Galxe reputation to maximize upcoming project airdrop allocations."
+],
+    faqs: [
+      {
+            "question": "What is Galxe Campaign Bot?",
+            "answer": "It is the official Telegram bot of Galxe, the largest Web3 quest and credential platform in crypto."
+      },
+      {
+            "question": "Why are Galxe points important?",
+            "answer": "Leading crypto projects use Galxe point rankings as the primary snapshot criteria for distributing token airdrops."
+      },
+      {
+            "question": "Is Galxe free to use?",
+            "answer": "Yes, joining campaigns and completing social tasks is completely free."
+      }
+]
+  }
 ];
