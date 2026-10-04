@@ -1,0 +1,11 @@
+<svg viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="100" height="100" rx="24" fill="#081412"/>
+  <circle cx="50" cy="50" r="34" stroke="#00D26A" stroke-width="3" stroke-dasharray="8 4"/>
+  <path d="M34 26H54C62 26 68 32 68 40C68 47 63 52 56 54L68 74H55L44 54H34V74H26V26H34ZM34 34V46H52C56.5 46 60 43.5 60 40C60 36.5 56.5 34 52 34H34Z" fill="url(#renzo_grad)"/>
+  <defs>
+    <linearGradient id="renzo_grad" x1="26" y1="26" x2="68" y2="74" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#00FFA3"/>
+      <stop offset="1" stop-color="#00B87A"/>
+    </linearGradient>
+  </defs>
+</svg>

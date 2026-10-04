@@ -5835,5 +5835,555 @@ export const airdrops: Airdrop[] = [
         "answer": "Multiply automates flash loans to loop your LST collateral (like JitoSOL or mSOL) in a single transaction to amplify staking yields."
       }
     ]
+  },
+  {
+    "id": "eigenlayer",
+    "name": "EigenLayer",
+    "logo": "/images/airdrops/eigenlayer.svg",
+    "description": "The monumental restaking protocol on Ethereum commanding $15B+ TVL, backed by $164.5M led by a16z crypto, securing Actively Validated Services (AVSs).",
+    "reward": "Programmatic Restaking Incentives & $EIGEN Staking Rewards",
+    "category": "Restaking / Ethereum / AVS",
+    "featured": true,
+    "status": "active",
+    "publishDate": "2026-10-04",
+    "endTime": "2026-12-31T23:59:59Z",
+    "funding": "$164.5M Raised",
+    "investors": "a16z crypto, Blockchain Capital, Polychain Capital, Coinbase Ventures, Hack VC",
+    "refLink": "https://app.eigenlayer.xyz",
+    "overview": "EigenLayer is the revolutionary protocol that pioneered \"Restaking\" on Ethereum, establishing an entirely new multi-billion dollar crypto primitive. Historically, new decentralized systems—such as bridges, oracles, rollups, and data availability layers—faced a multi-million dollar cold-start problem to bootstrap their own validator networks. EigenLayer solves this by allowing Ethereum stakers to \"restake\" their native $ETH or Liquid Staking Tokens (LSTs like stETH, rETH, cbETH) to extend Ethereum's cryptoeconomic security to external systems called Actively Validated Services (AVSs).\n\nWith over $15 Billion in Total Value Locked (TVL) and $164.5 Million in funding led by Andreessen Horowitz (a16z crypto), EigenLayer serves as the foundational security bedrock for the modular blockchain ecosystem.\n\nFollowing its initial token distribution, EigenLayer has transitioned into programmatic incentive distribution. Restakers delegating collateral to active AVS operators receive continuous programmatic reward streams, AVS partner airdrops, and governance staking rights through the universal $EIGEN coordination token.",
+    "tokenomics": "The $EIGEN token introduces \"intersubjective fault resolution\"—a mechanism that handles faults identifiable by human consensus that cannot be objectively verified on-chain. $EIGEN is used for restaking security, dispute slashing, and DAO governance over AVS admission parameters.",
+    "sybilSafety": "EigenLayer restaking is secured by cryptoeconomic capital. Only authentic on-chain ETH staking and liquid staking token deposits qualify, making Sybil bot spoofing economically unviable.",
+    "strategy": "Deposit native ETH or top LSTs into EigenLayer, delegate your restaked balance to reputable validator operators securing multiple high-yield AVSs, and stake $EIGEN tokens for programmatic rewards.",
+    "steps": [
+      "Visit the official <a href=\"https://app.eigenlayer.xyz\" target=\"_blank\" rel=\"noopener noreferrer\">EigenLayer Restaking App</a>.",
+      "Connect your Ethereum Web3 wallet (MetaMask, Rabby, or Ledger).",
+      "Select your collateral asset: Native Beacon Chain ETH or liquid staking tokens (stETH, rETH, mETH, etc.).",
+      "Deposit your chosen asset into the designated EigenLayer restaking pool.",
+      "Navigate to the \"Operators\" tab and delegate your restaked stake to a trusted high-uptime operator.",
+      "Inspect the \"AVS\" tab to ensure your chosen operator actively validates premier services like EigenDA.",
+      "Stake your native $EIGEN tokens to activate programmatic weekly rewards.",
+      "Monitor your accumulated rewards and claim AVS partner airdrop distributions on the dashboard."
+    ],
+    "faqs": [
+      {
+        "question": "What is EigenLayer and why is it important?",
+        "answer": "EigenLayer is Ethereum's premier restaking protocol, allowing stakers to repurpose staked ETH to secure external networks (AVSs) and earn additional yield."
+      },
+      {
+        "question": "Who invested in EigenLayer?",
+        "answer": "EigenLayer raised $164.5M in venture funding led by a16z crypto, alongside Blockchain Capital and Polychain Capital."
+      },
+      {
+        "question": "What are Actively Validated Services (AVSs)?",
+        "answer": "AVSs are decentralized protocols (such as bridges, oracles, rollups, and data availability networks) secured by restaked Ethereum."
+      },
+      {
+        "question": "What is the unique utility of the $EIGEN token?",
+        "answer": "$EIGEN enables intersubjective slashing, solving complex consensus and dispute challenges that pure math cannot verify on-chain."
+      },
+      {
+        "question": "Can I withdraw my restaked assets?",
+        "answer": "Yes, EigenLayer features a standard 7-day unbonding escrow period for withdrawals to protect AVS consensus security."
+      },
+      {
+        "question": "How do I earn ongoing rewards?",
+        "answer": "By delegating restaked ETH or staking $EIGEN with operators who validate active AVSs receiving programmatic token incentives."
+      }
+    ]
+  },
+  {
+    "id": "avail",
+    "name": "Avail",
+    "logo": "/images/airdrops/avail.svg",
+    "description": "The modular unification layer combining Avail DA, Nexus cross-rollup execution, and Fusion shared security backed by $75M from Founders Fund & Dragonfly.",
+    "reward": "Turing Quests & $AVAIL Ecosystem Token Allocations",
+    "category": "Modular DA / Interoperability / L1",
+    "featured": true,
+    "status": "active",
+    "publishDate": "2026-10-04",
+    "endTime": "2026-11-30T23:59:59Z",
+    "funding": "$75.0M Raised",
+    "investors": "Founders Fund (Peter Thiel), Dragonfly Capital, Cyber Fund, SevenX Ventures, Figment Capital",
+    "refLink": "https://availproject.org",
+    "overview": "Avail is the revolutionary modular infrastructure layer engineered to unify the fragmented Web3 rollup landscape. Spun out from Polygon and led by co-founder Anurag Arjun, Avail solves the trilemma of modular scalability through its three-pillar trinity: \"Avail DA\" (ultra-scalable Data Availability using KZG polynomial commitments and data availability sampling), \"Avail Nexus\" (a universal coordination rollup enabling trustless cross-chain message passing and liquidity unification), and \"Avail Fusion\" (cryptoeconomic shared security aggregating multi-token staking including BTC, ETH, and AVAIL).\n\nAvail successfully raised $75 Million in venture capital led by Peter Thiel's Founders Fund and Dragonfly Capital. As modular rollups proliferate across Ethereum, Bitcoin, and Cosmos, Avail serves as the central data backbone powering high-throughput execution.\n\nThrough the ongoing Turing ecosystem initiatives, developers and community members running light clients, bridging cross-chain assets through Nexus, and staking $AVAIL tokens participate in recurring ecosystem grants and partner protocol distributions.",
+    "tokenomics": "The $AVAIL token powers Avail DA transaction data verification fees, validator staking consensus, Avail Nexus cross-rollup settlement, and multi-asset Fusion staking collateral.",
+    "sybilSafety": "Avail emphasizes verifiable technical contributions: light client operation proofs, time-weighted validator nominations, and authenticated on-chain rollup deployments via the Avail SDK.",
+    "strategy": "Run an Avail light client on your PC/VPS, stake $AVAIL tokens on the Avail Staking dashboard, and interact with rollups built natively on Avail DA.",
+    "steps": [
+      "Visit the official <a href=\"https://availproject.org\" target=\"_blank\" rel=\"noopener noreferrer\">Avail Project Portal</a>.",
+      "Set up a Substrate-compatible wallet (SubWallet, Talisman, or Polkadot.js).",
+      "Download and run the one-click Avail Light Client to verify data availability locally.",
+      "Acquire $AVAIL tokens and navigate to the official Avail Staking dashboard.",
+      "Nominate active, high-performing validators to earn daily staking APR and network rewards.",
+      "Test cross-rollup bridging and message passing on the Avail Nexus testnet.",
+      "Deploy a test rollup using the Avail Rollup Toolkit and integrate Avail DA.",
+      "Participate in Avail community governance votes to qualify for future ecosystem partner allocations."
+    ],
+    "faqs": [
+      {
+        "question": "What is Avail?",
+        "answer": "Avail is a modular blockchain infrastructure layer providing ultra-scalable Data Availability (DA), cross-rollup unification (Nexus), and multi-asset security (Fusion)."
+      },
+      {
+        "question": "Who backs Avail?",
+        "answer": "Avail raised $75M led by Peter Thiel's Founders Fund and Dragonfly Capital, alongside prominent modular angel investors."
+      },
+      {
+        "question": "How is Avail DA different from other DA solutions?",
+        "answer": "Avail DA utilizes KZG commitments and Data Availability Sampling (DAS), allowing light clients to verify data validity instantly without downloading full blocks."
+      },
+      {
+        "question": "What is Avail Nexus?",
+        "answer": "Nexus is a zero-knowledge coordination hub that connects disparate rollups, enabling seamless cross-chain token transfers without centralized bridges."
+      },
+      {
+        "question": "Can I run an Avail light client on a regular laptop?",
+        "answer": "Yes! The Avail Light Client is extremely lightweight and can run seamlessly on a laptop, mobile device, or low-cost VPS."
+      },
+      {
+        "question": "What is Avail Fusion Security?",
+        "answer": "Fusion allows multiple premier crypto assets (such as BTC, ETH, and AVAIL) to be staked together to provide collective consensus security."
+      }
+    ]
+  },
+  {
+    "id": "taiko",
+    "name": "Taiko",
+    "logo": "/images/airdrops/taiko.svg",
+    "description": "The premier Type-1 Based Rollup on Ethereum providing 100% EVM equivalence, sequencer decentralization, and $37M in backing from Sequoia China.",
+    "reward": "Trailblazers Season 2 Points & $TAIKO Token Rewards",
+    "category": "Layer 2 / Based Rollup / zkEVM",
+    "featured": true,
+    "status": "active",
+    "publishDate": "2026-10-04",
+    "endTime": "2026-12-15T23:59:59Z",
+    "funding": "$37.0M Raised",
+    "investors": "Sequoia Capital China, Generative Ventures, Hashed, Wintermute, Presto Labs, KuCoin Ventures",
+    "refLink": "https://trailblazers.taiko.xyz",
+    "overview": "Taiko is the pioneering Type-1 zkEVM Ethereum Layer 2 blockchain engineered to achieve 100% opcode and cryptographic equivalence with Ethereum. Unlike standard Layer 2s that utilize centralized sequencers vulnerable to censorship or single points of failure, Taiko is a \"Based Rollup\"—meaning transaction sequencing is driven directly by Ethereum Layer 1 block proposers and validators. This architecture guarantees the exact same liveness, censorship resistance, and security guarantees as Ethereum itself.\n\nTaiko raised $37 Million across multiple funding rounds led by Sequoia Capital China, Generative Ventures, and Hashed. Taiko is currently operating its flagship gamified ecosystem campaign, \"Trailblazers Season 2\".\n\nUsers, liquidity providers, and dApp builders accumulate Trailblazers XP, level up their on-chain badges, and climb leaderboards across five distinct factions to claim allocations of the native $TAIKO governance token.",
+    "tokenomics": "The $TAIKO token is utilized for based sequencing bond staking, block proposer fees, decentralized dispute resolution, and Taiko DAO governance over protocol upgrades.",
+    "sybilSafety": "Taiko Trailblazers features automated on-chain transaction analysis, Gitcoin Passport verification thresholds, and volume-weighted fee metrics to filter automated bot rings.",
+    "strategy": "Bridge ETH to Taiko Mainnet via the canonical bridge, swap and provide liquidity on native DEXs (Ooga Booga, Izumi), mint community badges, and maintain daily transaction streaks in Trailblazers Season 2.",
+    "steps": [
+      "Visit the official <a href=\"https://trailblazers.taiko.xyz\" target=\"_blank\" rel=\"noopener noreferrer\">Taiko Trailblazers Hub</a>.",
+      "Connect your Ethereum wallet (MetaMask, Rabby, or Coinbase Wallet).",
+      "Bridge native ETH from Ethereum mainnet to Taiko via the official canonical bridge.",
+      "Select your Trailblazers Faction and mint your Season 2 Profile Badge.",
+      "Execute swaps and provide concentrated liquidity on Taiko decentralized exchanges.",
+      "Interact with featured ecosystem gaming, social, and NFT dApps on Taiko.",
+      "Complete weekly ecosystem quests to earn XP multipliers and mystery boxes.",
+      "Check your leaderboard ranking and claim your $TAIKO token rewards at season finale."
+    ],
+    "faqs": [
+      {
+        "question": "What is Taiko and what is a Based Rollup?",
+        "answer": "Taiko is a Type-1 zkEVM Layer 2 where block sequencing is handled directly by Ethereum L1 validators (Based Sequencing), eliminating centralized sequencers."
+      },
+      {
+        "question": "Who invested in Taiko?",
+        "answer": "Taiko raised $37M across rounds led by Sequoia Capital China, Generative Ventures, and Hashed."
+      },
+      {
+        "question": "What is Taiko Trailblazers Season 2?",
+        "answer": "Trailblazers is Taiko's official gamified community rewards season awarding $TAIKO tokens based on on-chain activity, LP provision, and dApp usage."
+      },
+      {
+        "question": "What does Type-1 EVM equivalence mean?",
+        "answer": "Type-1 means Taiko makes zero changes to the Ethereum system, allowing existing Ethereum smart contracts and developer tools to deploy without modification."
+      },
+      {
+        "question": "How do I bridge to Taiko?",
+        "answer": "You can bridge ETH using the canonical Taiko Bridge or fast third-party bridges like Owlto, Stargate, or Rhino.fi."
+      },
+      {
+        "question": "Are gas fees low on Taiko?",
+        "answer": "Yes! Thanks to EIP-4844 Ethereum blobs and zero-knowledge proof aggregation, transaction fees on Taiko are pennies."
+      }
+    ]
+  },
+  {
+    "id": "morph",
+    "name": "Morph",
+    "logo": "/images/airdrops/morph.svg",
+    "description": "The consumer-centric optimistic zkEVM Layer 2 featuring a decentralized sequencer network and responsive rollup architecture, backed by $20M led by Dragonfly.",
+    "reward": "Morph Points, Genesis Badges & $MORPH Governance Token",
+    "category": "Layer 2 / Consumer zkEVM / Bitget",
+    "featured": true,
+    "status": "active",
+    "publishDate": "2026-10-04",
+    "endTime": "2026-12-31T23:59:59Z",
+    "funding": "$20.0M Raised",
+    "investors": "Dragonfly Capital, Pantera Capital, Foresight Ventures, Spartan Group, MEXC",
+    "refLink": "https://morphl2.io",
+    "overview": "Morph is the next-generation Layer 2 blockchain specifically architected to bridge decentralized technology with everyday consumer applications. Incubated with significant strategic support from Bitget and backed by a $20 Million funding round led by Dragonfly Capital and Pantera Capital, Morph introduces a breakthrough hybrid scaling technology: \"Responsive Rollup\".\n\nResponsive Rollup combines the ultra-fast execution of Optimistic Rollups with the absolute finality and cryptographic validity of Zero-Knowledge proofs (zkEVM). Furthermore, Morph is among the first Ethereum Layer 2s to launch with a fully \"Decentralized Sequencer Network\" from day one, eradicating central points of failure and MEV exploitation.\n\nMorph's Incentivized Testnet and Genesis Points campaign invite users to experience high-speed consumer dApps—spanning social, gaming, AI, and payments—accumulating Morph Points that determine eligibility for the upcoming $MORPH token generation event.",
+    "tokenomics": "The $MORPH token powers sequencer node staking, network gas settlement, decentralized slashing governance, and consumer builder rebate grants.",
+    "sybilSafety": "Morph uses social identity binding, GitHub developer authentication, and minimum transaction diversity criteria to safeguard points from sybil exploiters.",
+    "strategy": "Add Morph Testnet/Mainnet to your wallet, bridge testnet ETH from Holesky, interact with Morph consumer dApps (gaming, prediction markets, DEXs), and claim daily check-in points on morphl2.io.",
+    "steps": [
+      "Visit the official <a href=\"https://morphl2.io\" target=\"_blank\" rel=\"noopener noreferrer\">Morph Network Portal</a>.",
+      "Connect your Web3 wallet and add the Morph network RPC configuration.",
+      "Bridge testnet funds from Ethereum Holesky to Morph via the official bridge.",
+      "Claim daily Morph Points check-in rewards on the Genesis dashboard.",
+      "Swap tokens and provide testnet liquidity on native Morph DEXs (BulbaSwap).",
+      "Mint official Morph Genesis NFTs and commemorative community badges.",
+      "Complete partner ecosystem quests across gaming and social platforms.",
+      "Track your points standing ahead of the $MORPH Token Generation Event."
+    ],
+    "faqs": [
+      {
+        "question": "What is Morph L2?",
+        "answer": "Morph is an optimistic zkEVM Layer 2 designed for consumer applications, featuring a decentralized sequencer network and responsive rollup architecture."
+      },
+      {
+        "question": "Who invested in Morph?",
+        "answer": "Morph raised $20M led by Dragonfly Capital, alongside Pantera Capital, Foresight Ventures, and Spartan Group."
+      },
+      {
+        "question": "What is a Decentralized Sequencer Network?",
+        "answer": "Instead of a single server controlling transaction order, Morph distributes sequencing across multiple independent validator nodes, preventing censorship."
+      },
+      {
+        "question": "Is Morph free to farm on testnet?",
+        "answer": "Yes! The current campaign operates on testnet using free Holesky faucet ETH."
+      },
+      {
+        "question": "What is the Morph Genesis Points campaign?",
+        "answer": "It is Morph's official pre-TGE rewards program that tracks dApp usage, bridge activity, and daily check-ins for $MORPH airdrop conversion."
+      },
+      {
+        "question": "What role does Bitget play in Morph?",
+        "answer": "Bitget is a key strategic incubation partner, providing liquidity, developer resources, and seamless exchange integration for Morph."
+      }
+    ]
+  },
+  {
+    "id": "manta-network",
+    "name": "Manta Network",
+    "logo": "/images/airdrops/manta-network.svg",
+    "description": "The pioneering modular ZK Layer 2 on Celestia providing ultra-low transaction costs and native DeFi yield, backed by $60M+ from Polychain & Binance Labs.",
+    "reward": "Renew Paradigm Points & $MANTA Ecosystem Rewards",
+    "category": "Modular L2 / Zero-Knowledge / Celestia",
+    "featured": true,
+    "status": "active",
+    "publishDate": "2026-10-04",
+    "endTime": "2026-11-30T23:59:59Z",
+    "funding": "$60.0M+ Raised",
+    "investors": "Polychain Capital, Binance Labs, CoinFund, SevenX Ventures, Qredo, Alliance DAO",
+    "refLink": "https://manta.network",
+    "overview": "Manta Network is the modular blockchain ecosystem engineered for zero-knowledge (ZK) applications, comprising \"Manta Pacific\"—the modular Ethereum Layer 2 built with Celestia data availability and the OP Stack—and \"Manta Atlantic\"—the fastest ZK Layer 1 on Polkadot.\n\nManta Pacific revolutionized Layer 2 economics by becoming the very first live rollup to integrate Celestia modular Data Availability (DA), reducing transaction fees for users by over 90% compared to legacy rollups. Backed by over $60 Million in venture funding from Polychain Capital, Binance Labs, and CoinFund, Manta has amassed hundreds of millions in TVL.\n\nBuilding upon its landmark \"New Paradigm\" airdrop campaign, Manta is running \"Renew Paradigm\"—allowing participants to deposit native yield-bearing assets (STONE and wUSDM), stake $MANTA tokens, and interact with ecosystem dApps to earn ongoing ecosystem reward allocations.",
+    "tokenomics": "The $MANTA token serves as the universal governance and utility token, powering network sequencer revenue sharing, developer grants, and staking incentives.",
+    "sybilSafety": "Manta evaluates real asset holding durations, time-weighted liquidity provision, and zkSBT privacy credential minting to eliminate Sybil bot clusters.",
+    "strategy": "Bridge ETH or USDC to Manta Pacific, stake $MANTA tokens in governance vaults, provide liquidity in high-multiplier DeFi pools, and collect ecosystem NFTs.",
+    "steps": [
+      "Visit the official <a href=\"https://manta.network\" target=\"_blank\" rel=\"noopener noreferrer\">Manta Network Portal</a>.",
+      "Connect your Web3 wallet and switch to the Manta Pacific Mainnet.",
+      "Bridge funds from Ethereum, Arbitrum, or BNB Chain using the canonical or third-party bridges.",
+      "Hold yield-bearing STONE (liquid staked ETH) or wUSDM to generate native base APR.",
+      "Deposit assets into featured Manta DeFi protocols (Aperture, QuickSwap, LayerBank).",
+      "Stake $MANTA tokens in governance staking to unlock fee-sharing yield pools.",
+      "Participate in Renew Paradigm quests to earn exclusive NFT mystery boxes.",
+      "Redeem accumulated points and boxes for $MANTA token rewards."
+    ],
+    "faqs": [
+      {
+        "question": "What is Manta Pacific?",
+        "answer": "Manta Pacific is a modular Layer 2 blockchain built for zero-knowledge applications, using Celestia for data availability to deliver ultra-low gas fees."
+      },
+      {
+        "question": "Who invested in Manta Network?",
+        "answer": "Manta raised over $60M from premier crypto investors including Polychain Capital, Binance Labs, and CoinFund."
+      },
+      {
+        "question": "Why are gas fees so low on Manta Pacific?",
+        "answer": "By replacing expensive Ethereum calldata with Celestia modular Data Availability, Manta cuts gas fees by up to 99%."
+      },
+      {
+        "question": "What is STONE?",
+        "answer": "STONE is StakeStone's liquid staking token natively integrated into Manta, delivering automatic Ethereum staking yield to wallet holders."
+      },
+      {
+        "question": "How do I participate in Renew Paradigm?",
+        "answer": "Deposit supported assets (STONE, wUSDM, MANTA) into participating ecosystem protocols to collect points and mystery boxes."
+      },
+      {
+        "question": "Is Manta Network EVM-compatible?",
+        "answer": "Yes! Manta Pacific is 100% EVM-compatible, allowing standard Solidity smart contracts and MetaMask wallets to work seamlessly."
+      }
+    ]
+  },
+  {
+    "id": "etherfi",
+    "name": "Ether.fi",
+    "logo": "/images/airdrops/etherfi.svg",
+    "description": "The #1 decentralized, non-custodial liquid restaking titan on Ethereum ($6B+ TVL) backed by Bullish and CoinFund, powering eETH and the Ether.fi Cash Visa card.",
+    "reward": "Loyalty Points, Ether.fi Cash & $ETHFI Season Allocations",
+    "category": "Liquid Restaking / EigenLayer / DeFi",
+    "featured": true,
+    "status": "active",
+    "publishDate": "2026-10-04",
+    "endTime": "2026-12-31T23:59:59Z",
+    "funding": "$32.3M Raised",
+    "investors": "Bullish, CoinFund, Amber Group, North Island Ventures, Version One, Chapter One",
+    "refLink": "https://app.ether.fi",
+    "overview": "Ether.fi is the undisputed market leader in Ethereum decentralized liquid restaking, managing over $6 Billion in Total Value Locked (TVL). Unlike custodial staking providers, Ether.fi is genuinely non-custodial: stakers maintain control of their private validator keys through advanced distributed validator technology (DVT). When users deposit ETH, they receive $eETH—a liquid restaking token that automatically earns native Ethereum staking yield AND restaking rewards from EigenLayer and Symbiotic.\n\nEther.fi raised $32.3 Million from top venture institutions including Bullish and CoinFund. The protocol has expanded beyond restaking into a full decentralized financial suite, introducing \"Ether.fi Cash\"—a real-world crypto credit card powered by Visa that allows users to spend their yield and crypto balances directly anywhere in the world.\n\nEther.fi is currently executing ongoing Seasons rewards, distributing millions of $ETHFI tokens to active stakers, automated Liquid vault depositors, and Ether.fi Cash cardholders.",
+    "tokenomics": "The $ETHFI token governs the Ether.fi DAO, directs treasury allocations, sets liquid vault strategies, and enables fee sharing on protocol revenues and credit card interchange fees.",
+    "sybilSafety": "Ether.fi requires genuine capital deposits and verifiable credit card KYC for Cash features, completely insulating reward pools from Sybil bot rings.",
+    "strategy": "Mint $eETH with native ETH, deposit into Ether.fi automated Liquid Yield Vaults (Market Neutral, Super Symbiotic), pre-order/use the Ether.fi Cash card, and stack multi-layered points.",
+    "steps": [
+      "Visit the official <a href=\"https://app.ether.fi\" target=\"_blank\" rel=\"noopener noreferrer\">Ether.fi Staking App</a>.",
+      "Connect your Web3 wallet (MetaMask, Rabby, or WalletConnect).",
+      "Stake native ETH to mint $eETH (native liquid restaking token).",
+      "Wrap your eETH into $weETH for seamless use across Layer 2s (Arbitrum, Base, Linea).",
+      "Deposit weETH into \"Ether.fi Liquid\" automated DeFi vaults to earn amplified yield and points.",
+      "Sign up for the \"Ether.fi Cash\" Visa credit card to earn cashback and points on real-world spending.",
+      "Stake $ETHFI governance tokens in the official DAO staking portal to earn protocol fee distributions.",
+      "Check your season point rankings on the official Ether.fi Portfolio dashboard."
+    ],
+    "faqs": [
+      {
+        "question": "What is Ether.fi?",
+        "answer": "Ether.fi is the premier decentralized liquid restaking protocol on Ethereum, enabling stakers to earn staking and restaking rewards while keeping validator key control."
+      },
+      {
+        "question": "What is $eETH?",
+        "answer": "$eETH is Ether.fi's rebasing liquid restaking token that natively compounds Ethereum staking APR and restaking points."
+      },
+      {
+        "question": "Who backs Ether.fi?",
+        "answer": "Ether.fi raised $32.3M led by Bullish and CoinFund, with backing from Amber Group and North Island Ventures."
+      },
+      {
+        "question": "What is Ether.fi Cash?",
+        "answer": "Ether.fi Cash is a Visa card that lets you borrow against your restaked crypto to spend at millions of merchants globally without selling assets."
+      },
+      {
+        "question": "What are Ether.fi Liquid Vaults?",
+        "answer": "Liquid Vaults are automated smart contract vaults that deploy your restaked assets across top DeFi protocols for maximum risk-adjusted yield."
+      },
+      {
+        "question": "Can I withdraw my ETH from Ether.fi?",
+        "answer": "Yes! Native unstaking is available directly through the app, or you can swap weETH to ETH instantly on decentralized exchanges."
+      }
+    ]
+  },
+  {
+    "id": "renzo",
+    "name": "Renzo Protocol",
+    "logo": "/images/airdrops/renzo.svg",
+    "description": "Cross-chain liquid restaking manager for EigenLayer and Symbiotic issuing ezETH across 10+ EVM blockchains backed by $19.2M from Binance Labs & Galaxy.",
+    "reward": "ezPoints Season 3 & $REZ Token Staking Yields",
+    "category": "Liquid Restaking / Cross-Chain / Symbiotic",
+    "featured": true,
+    "status": "active",
+    "publishDate": "2026-10-04",
+    "endTime": "2026-12-15T23:59:59Z",
+    "funding": "$19.2M Raised",
+    "investors": "Binance Labs, Galaxy Ventures, Brevan Howard Digital, Maven 11, OKX Ventures",
+    "refLink": "https://app.renzoprotocol.com",
+    "overview": "Renzo Protocol is the leading cross-chain Liquid Restaking Token (LRT) and Strategy Manager engineered to abstract the complexity of restaking across multiple blockchains and frameworks. By functioning as the interface to both EigenLayer and Symbiotic, Renzo enables users on Ethereum mainnet, Arbitrum, Base, BNB Chain, Linea, and Solana to restake native assets seamlessly without paying prohibitive Ethereum L1 gas fees.\n\nUsers deposit ETH or liquid staking tokens to receive $ezETH—the cross-chain restaking token that automatically captures optimal staking yields, Actively Validated Service (AVS) operator fees, and multi-network reward incentives. Renzo raised $19.2 Million from tier-1 institutions including Binance Labs, Galaxy Ventures, and Brevan Howard Digital.\n\nRenzo is currently executing Season 3 of its flagship \"ezPoints\" rewards program. Holding ezETH, providing DeFi liquidity on DEXs and money markets, and staking native $REZ tokens earn participants accelerated points toward future protocol distributions.",
+    "tokenomics": "The $REZ token governs the Renzo DAO, voting on AVS risk frameworks, operator whitelisting, cross-chain collateral additions, and protocol treasury fees.",
+    "sybilSafety": "Renzo tracks time-weighted balance holding and on-chain liquidity positions, ensuring points are attributed strictly to verifiable TVL commitments.",
+    "strategy": "Mint $ezETH directly on Layer 2s (Base, Arbitrum, Linea) to save gas, supply ezETH to lending protocols (Aave, Morpho) for points multipliers, and stake $REZ for governance rewards.",
+    "steps": [
+      "Visit the official <a href=\"https://app.renzoprotocol.com\" target=\"_blank\" rel=\"noopener noreferrer\">Renzo Protocol App</a>.",
+      "Connect your Web3 wallet (MetaMask, Rabby, or OKX Wallet).",
+      "Select your preferred network (Ethereum Mainnet, Arbitrum, Base, or BNB Chain).",
+      "Deposit native ETH or supported LSTs (stETH, wBETH) to mint $ezETH.",
+      "Provide ezETH liquidity on decentralized exchanges (Uniswap, Curve, PancakeSwap) to earn boosted ezPoints.",
+      "Supply ezETH into money market protocols (Morpho, Aave, Compound) to borrow stables while earning restaking yield.",
+      "Stake your native $REZ tokens in the official staking vault to qualify for partner AVS airdrops.",
+      "Track your daily point accrual and leaderboard position on the Renzo Portfolio tab."
+    ],
+    "faqs": [
+      {
+        "question": "What is Renzo Protocol?",
+        "answer": "Renzo is a cross-chain Strategy Manager and Liquid Restaking Protocol for EigenLayer and Symbiotic, issuing the liquid restaking token $ezETH."
+      },
+      {
+        "question": "Who invested in Renzo?",
+        "answer": "Renzo raised $19.2M from investors including Binance Labs, Galaxy Ventures, Brevan Howard Digital, and Maven 11."
+      },
+      {
+        "question": "Can I mint ezETH on Layer 2s?",
+        "answer": "Yes! Renzo was the first LRT to support native restaking deposits on Arbitrum, Base, BNB Chain, and Linea with minimal gas costs."
+      },
+      {
+        "question": "What is ezETH?",
+        "answer": "ezETH is Renzo's liquid restaking token that automatically compounds ETH staking yield and multi-protocol AVS restaking rewards."
+      },
+      {
+        "question": "What is Renzo ezPoints Season 3?",
+        "answer": "Season 3 is Renzo's continuous rewards program distributing $REZ and partner ecosystem allocations to loyal restakers."
+      },
+      {
+        "question": "How do I withdraw my assets from Renzo?",
+        "answer": "You can initiate an on-chain withdrawal directly through the Renzo app or swap ezETH back to ETH instantly via secondary AMM pools."
+      }
+    ]
+  },
+  {
+    "id": "zetachain",
+    "name": "ZetaChain",
+    "logo": "/images/airdrops/zetachain.svg",
+    "description": "Universal omnichain smart contract Layer 1 natively connecting Bitcoin, Ethereum, and Solana without bridges, backed by $27M from Blockchain.com & Human Capital.",
+    "reward": "Zeta XP 2.0 & $ZETA Ecosystem Grants",
+    "category": "Omnichain L1 / Cross-Chain / Smart Contracts",
+    "featured": true,
+    "status": "active",
+    "publishDate": "2026-10-04",
+    "endTime": "2026-12-31T23:59:59Z",
+    "funding": "$27.0M Raised",
+    "investors": "Blockchain.com, Human Capital, VY Capital, Jane Street, Sky9 Capital",
+    "refLink": "https://hub.zetachain.com/xp",
+    "overview": "ZetaChain is the foundational omnichain Layer 1 blockchain engineered to bring universal interoperability to the crypto landscape. Unlike traditional cross-chain bridges that rely on wrapped tokens or centralized multi-sigs, ZetaChain features \"Omnichain Smart Contracts\" that can natively read and write state across any connected blockchain—including non-smart contract chains like native Bitcoin, as well as Ethereum, BNB Chain, Polygon, and Solana.\n\nThrough ZetaChain's native cross-chain messaging and ZRC-20 token standard, developers can build a single dApp that accepts deposits in native Bitcoin, trades on an Ethereum AMM, and settles on Solana in one single transaction. ZetaChain raised $27 Million from prominent venture funds including Blockchain.com, Human Capital, and Jane Street.\n\nFollowing its successful Mainnet genesis, ZetaChain is running \"Zeta XP 2.0\"—a continuous gamified loyalty program rewarding users for executing cross-chain transactions, providing liquidity, and interacting with omnichain decentralized applications.",
+    "tokenomics": "The $ZETA token is used to pay gas fees on ZetaChain, secure the Proof-of-Stake consensus network through validator staking, and facilitate cross-chain value transfers.",
+    "sybilSafety": "Zeta XP requires wallet enrollment, verification of active cross-chain gas expenditure, and time-spaced transaction diversity to filter automated farming scripts.",
+    "strategy": "Enroll in the Zeta XP program on hub.zetachain.com, perform weekly cross-chain swaps between Bitcoin, Ethereum, and ZetaChain, provide LP in native pools, and complete ecosystem partner tasks.",
+    "steps": [
+      "Visit the official <a href=\"https://hub.zetachain.com/xp\" target=\"_blank\" rel=\"noopener noreferrer\">ZetaChain XP Hub</a>.",
+      "Connect your Web3 wallet (MetaMask, OKX Wallet, or Coinbase Wallet).",
+      "Enroll in the Zeta XP program to activate your on-chain activity tracker.",
+      "Perform native cross-chain token transfers between ZetaChain and supported networks (Ethereum, BNB Chain, Bitcoin).",
+      "Provide liquidity on native ZetaChain decentralized exchanges (Eddy Finance, ZetaSwap).",
+      "Stake $ZETA tokens with active PoS validators to earn native staking APR.",
+      "Complete weekly ecosystem quests to earn XP bonuses and level up your rank.",
+      "Claim your retroactive $ZETA rewards and partner token airdrops on the XP dashboard."
+    ],
+    "faqs": [
+      {
+        "question": "What is ZetaChain?",
+        "answer": "ZetaChain is a universal omnichain Layer 1 blockchain that enables smart contracts to natively interact with any chain, including Bitcoin and Ethereum."
+      },
+      {
+        "question": "Who invested in ZetaChain?",
+        "answer": "ZetaChain raised $27M from investors including Blockchain.com, Human Capital, VY Capital, and Jane Street."
+      },
+      {
+        "question": "How does ZetaChain connect to Bitcoin?",
+        "answer": "Through native threshold cryptography and TSS validator keys, ZetaChain smart contracts can hold and transfer native BTC directly on the Bitcoin network."
+      },
+      {
+        "question": "What is Zeta XP?",
+        "answer": "Zeta XP is an on-chain loyalty program that tracks user activity, cross-chain volume, and community contributions for reward allocations."
+      },
+      {
+        "question": "Do I need wrapped tokens to use ZetaChain?",
+        "answer": "No! ZetaChain eliminates wrapped tokens (like wBTC), allowing smart contracts to manage native assets directly."
+      },
+      {
+        "question": "How do I earn the most Zeta XP?",
+        "answer": "Perform weekly cross-chain swaps, provide liquidity in featured pools, and invite friends with your referral link."
+      }
+    ]
+  },
+  {
+    "id": "layerzero",
+    "name": "LayerZero",
+    "logo": "/images/airdrops/layerzero.svg",
+    "description": "The premier omnichain interoperability protocol connecting 80+ blockchains backed by $263M from a16z crypto, Sequoia, and Lightspeed.",
+    "reward": "Ecosystem RFP Distributions & Future $ZRO Community Allocations",
+    "category": "Interoperability / Omnichain / Infrastructure",
+    "featured": true,
+    "status": "active",
+    "publishDate": "2026-10-04",
+    "endTime": "2026-12-31T23:59:59Z",
+    "funding": "$263.0M Raised",
+    "investors": "a16z crypto, Sequoia Capital, Lightspeed, Circle Ventures, Samsung Next, OpenSea Ventures",
+    "refLink": "https://layerzero.network",
+    "overview": "LayerZero is the foundational omnichain messaging infrastructure powering the interconnected Web3 landscape. By introducing lightweight on-chain endpoints and Ultra Light Nodes (ULNs), LayerZero allows distinct blockchain networks—spanning Ethereum, Arbitrum, Base, Solana, Aptos, and 80+ other chains—to communicate seamlessly without centralized intermediaries or vulnerable monolithic bridges.\n\nLayerZero raised an unprecedented $263 Million in venture funding from a16z crypto, Sequoia Capital, and Lightspeed, reaching a $3 Billion valuation. The protocol powers foundational primitives including Stargate Finance (the premier omnichain liquidity bridge) and the Omnichain Fungible Token (OFT) standard used by major Web3 projects.\n\nFollowing its landmark Token Generation Event, LayerZero is distributing ongoing allocations through its community RFP (Request for Proposal) ecosystem grants and future snapshot initiatives, rewarding active cross-chain users, OFT holders, and $ZRO stakers.",
+    "tokenomics": "The $ZRO token governs the LayerZero protocol, votes on Security Stack configurations, directs treasury fee switches, and provides staking utility for cross-chain verifiers.",
+    "sybilSafety": "LayerZero implemented the most rigorous Sybil detection campaign in crypto history, featuring cryptographic clustering, bounty hunter verifications, and mandatory proof-of-donation.",
+    "strategy": "Bridge native assets using Stargate Finance across multiple diverse chains, hold and transfer OFT tokens (such as USDC, wstETH), stake $ZRO tokens for governance voting, and use LayerZero-powered applications.",
+    "steps": [
+      "Visit the official <a href=\"https://layerzero.network\" target=\"_blank\" rel=\"noopener noreferrer\">LayerZero Network Portal</a>.",
+      "Connect your Web3 wallet (MetaMask, Rabby, or Phantom).",
+      "Use Stargate Finance to bridge assets across unique chains (Ethereum, Arbitrum, Optimism, Base, Avalanche).",
+      "Interact with diverse LayerZero OFT tokens (such as bridging wstETH or bridged stablecoins).",
+      "Stake native $ZRO tokens on Stargate or Snapshot governance portals to participate in DAO voting.",
+      "Use LayerZero ecosystem bridges (Aptos Bridge, Core DAO Bridge, Harmony Bridge) for chain diversity.",
+      "Track your on-chain messages and transaction history using LayerZero Scan (layerzeroscan.com).",
+      "Qualify for partner protocol airdrops built directly on top of the LayerZero messaging protocol."
+    ],
+    "faqs": [
+      {
+        "question": "What is LayerZero?",
+        "answer": "LayerZero is an omnichain interoperability protocol that enables seamless, lightweight cross-chain communication across 80+ blockchains."
+      },
+      {
+        "question": "Who invested in LayerZero?",
+        "answer": "LayerZero raised $263M led by a16z crypto, Sequoia Capital, and Lightspeed at a $3 Billion valuation."
+      },
+      {
+        "question": "What is an Omnichain Fungible Token (OFT)?",
+        "answer": "OFT is a token standard that allows cryptocurrencies to move natively across blockchains without wrapping or liquidity pools."
+      },
+      {
+        "question": "What is Stargate Finance?",
+        "answer": "Stargate is the premier omnichain liquidity bridge built natively on LayerZero, enabling instant unified asset transfers."
+      },
+      {
+        "question": "How does LayerZero ensure security?",
+        "answer": "LayerZero uses a modular Decentralized Verifier Network (DVN), allowing dApps to choose custom combinations of verifiers (e.g. Polyhedra, Google Cloud, Axelar)."
+      },
+      {
+        "question": "How do I participate in future LayerZero rewards?",
+        "answer": "Stake $ZRO tokens, maintain organic cross-chain activity across diverse chains, and participate in LayerZero ecosystem partner dApps."
+      }
+    ]
+  },
+  {
+    "id": "blast",
+    "name": "Blast",
+    "logo": "/images/airdrops/blast.svg",
+    "description": "The native-yield Ethereum Layer 2 created by Pacman (Blur) offering automatic 4% on ETH and 5% on USDB, backed by Paradigm with over $1B+ in TVL.",
+    "reward": "Blast Phase 2 Points & Blast Gold Distribution",
+    "category": "Layer 2 / Native Yield / Paradigm",
+    "featured": true,
+    "status": "active",
+    "publishDate": "2026-10-04",
+    "endTime": "2026-12-31T23:59:59Z",
+    "funding": "$20.0M+ Raised / $1B+ TVL",
+    "investors": "Paradigm, Standard Crypto, eGirl Capital, Mechanism Capital, Andrew Kang",
+    "refLink": "https://blast.io",
+    "overview": "Blast is the revolutionary EVM-compatible Layer 2 blockchain created by Pacman—the founder of dominant NFT marketplace Blur—and backed by $20 Million from Paradigm and Standard Crypto. Blast revolutionized Layer 2 economics by introducing \"Native Yield\": while traditional L2s hold user deposits with 0% interest, Blast automatically yields 4% on ETH and 5% on USDB (stablecoin) natively in users' wallets through underlying MakerDAO and Lido staking integrations.\n\nCommanding over $1 Billion in Total Value Locked (TVL), Blast became one of the fastest-growing ecosystems in crypto history. Following its monumental initial airdrop, Blast launched \"Phase 2\"—a massive community expansion campaign.\n\nIn Phase 2, 50% of the upcoming token rewards are dedicated to user Points (earned by holding ETH and USDB balances) and 50% are dedicated to \"Blast Gold\" (allocated to leading dApps to distribute directly to active, engaging users).",
+    "tokenomics": "The $BLAST token serves as the native governance token of the Blast Layer 2 network, governing sequencer decentralization, ecosystem incentive distributions, and developer grant programs.",
+    "sybilSafety": "Blast measures real capital holdings, smart contract usage metrics, and dApp-level engagement to ensure Blast Gold is awarded exclusively to genuine active participants.",
+    "strategy": "Bridge ETH or USDB to Blast Mainnet to earn passive 4-5% native yield and daily Points, and interact with top Blast Gold-generating dApps (DEXs, GameFi, perps) to collect Blast Gold.",
+    "steps": [
+      "Visit the official <a href=\"https://blast.io\" target=\"_blank\" rel=\"noopener noreferrer\">Blast Portal</a>.",
+      "Connect your Web3 wallet and enter an active ecosystem invite code.",
+      "Bridge ETH or stablecoins from Ethereum to Blast via the canonical bridge.",
+      "Hold ETH or USDB in your wallet to automatically earn native 4-5% yield plus daily Blast Points.",
+      "Swap tokens and provide liquidity on leading Blast DEXs (Thruster, Ambient) to earn Blast Gold.",
+      "Trade decentralized perpetuals or play featured GameFi dApps distributing Gold rewards.",
+      "Invite active crypto friends using your squad referral link to earn squad point multipliers.",
+      "Redeem your accumulated Phase 2 Points and Blast Gold during the upcoming token claim window."
+    ],
+    "faqs": [
+      {
+        "question": "What is Blast and what makes it unique?",
+        "answer": "Blast is an Ethereum Layer 2 that natively generates 4% yield on ETH and 5% on USDB, automatically rebasing balances in user wallets."
+      },
+      {
+        "question": "Who invested in Blast?",
+        "answer": "Blast raised $20M led by Paradigm and Standard Crypto, created by Pacman (founder of Blur)."
+      },
+      {
+        "question": "What is the difference between Blast Points and Blast Gold?",
+        "answer": "Blast Points are earned by holding assets on Blast, while Blast Gold is awarded by decentralized applications for active usage and liquidity."
+      },
+      {
+        "question": "Where does the native yield come from?",
+        "answer": "ETH yield comes from Lido liquid staking, and USDB yield comes from MakerDAO T-bill yield protocols passed through 100% to users."
+      },
+      {
+        "question": "Can I withdraw from Blast at any time?",
+        "answer": "Yes! You can withdraw back to Ethereum via the canonical bridge (standard challenge period) or instantly via third-party bridges like Across."
+      },
+      {
+        "question": "How do I earn the most Blast Gold?",
+        "answer": "Interact with featured dApps that received large developer Gold allocations—such as Thruster Finance, Juice Finance, and fantasy.top."
+      }
+    ]
   }
 ];

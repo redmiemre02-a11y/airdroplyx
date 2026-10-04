@@ -1,0 +1,17 @@
+<svg viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="100" height="100" rx="24" fill="#080C1E"/>
+  <circle cx="50" cy="50" r="30" stroke="#0052FF" stroke-width="4" stroke-dasharray="6 6"/>
+  <circle cx="50" cy="50" r="18" fill="url(#avail_grad)"/>
+  <circle cx="50" cy="24" r="7" fill="#00D2FF"/>
+  <circle cx="74" cy="58" r="7" fill="#0052FF"/>
+  <circle cx="26" cy="58" r="7" fill="#3B82F6"/>
+  <line x1="50" y1="31" x2="50" y2="42" stroke="#00D2FF" stroke-width="3"/>
+  <line x1="68" y1="54" x2="59" y2="50" stroke="#0052FF" stroke-width="3"/>
+  <line x1="32" y1="54" x2="41" y2="50" stroke="#3B82F6" stroke-width="3"/>
+  <defs>
+    <linearGradient id="avail_grad" x1="32" y1="32" x2="68" y2="68" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#00D2FF"/>
+      <stop offset="1" stop-color="#0038FF"/>
+    </linearGradient>
+  </defs>
+</svg>
