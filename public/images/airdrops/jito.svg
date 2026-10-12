@@ -1,0 +1,17 @@
+<svg viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="100" height="100" rx="24" fill="#06140E"/>
+  <circle cx="50" cy="50" r="36" fill="url(#jito_glow)" fill-opacity="0.2"/>
+  <path d="M48 22H64V46C64 60 54 68 38 68H32V54H38C44 54 48 50 48 44V22Z" fill="url(#jito_grad)"/>
+  <polygon points="48,22 64,22 56,44 40,44" fill="#00FFA3"/>
+  <circle cx="36" cy="32" r="5" fill="#00FFA3"/>
+  <defs>
+    <linearGradient id="jito_grad" x1="32" y1="22" x2="64" y2="68" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#00FFA3"/>
+      <stop offset="1" stop-color="#10B981"/>
+    </linearGradient>
+    <radialGradient id="jito_glow" cx="50" cy="50" r="36" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#00FFA3"/>
+      <stop offset="1" stop-color="#06140E" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+</svg>

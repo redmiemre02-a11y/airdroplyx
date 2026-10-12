@@ -1,0 +1,16 @@
+<svg viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="100" height="100" rx="24" fill="#0D070D"/>
+  <circle cx="50" cy="50" r="36" fill="url(#infra_glow)" fill-opacity="0.25"/>
+  <path d="M50 22C44 32 30 46 30 58C30 70 39 78 50 78C61 78 70 70 70 58C70 46 56 32 50 22Z" fill="url(#infra_flame)"/>
+  <path d="M50 42C46 48 38 56 38 62C38 68 43 72 50 72C57 72 62 68 62 62C62 56 54 48 50 42Z" fill="#FFF0F5"/>
+  <defs>
+    <linearGradient id="infra_flame" x1="30" y1="22" x2="70" y2="78" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FF1E56"/>
+      <stop offset="1" stop-color="#FF4C29"/>
+    </linearGradient>
+    <radialGradient id="infra_glow" cx="50" cy="50" r="36" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FF1E56"/>
+      <stop offset="1" stop-color="#0D070D" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+</svg>

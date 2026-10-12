@@ -6385,5 +6385,555 @@ export const airdrops: Airdrop[] = [
         "answer": "Interact with featured dApps that received large developer Gold allocations—such as Thruster Finance, Juice Finance, and fantasy.top."
       }
     ]
+  },
+  {
+    "id": "sophon",
+    "name": "Sophon",
+    "logo": "/images/airdrops/sophon.svg",
+    "description": "The entertainment & gaming modular hyperchain built on ZK Stack and Avail DA, backed by $70M+ in capital from Paper Ventures, Maven 11, and Spartan Group.",
+    "reward": "Sophon Farming Points & $SOPH Token Genesis Airdrop",
+    "category": "Modular L2 / ZK Stack / Entertainment",
+    "featured": true,
+    "status": "active",
+    "publishDate": "2026-10-12",
+    "endTime": "2026-12-31T23:59:59Z",
+    "funding": "$70.0M+ Raised ($60M Nodes + $10M Seed)",
+    "investors": "Paper Ventures, Maven 11, Spartan Group, SevenX Ventures, OKX Ventures, HTX Ventures",
+    "refLink": "https://farm.sophon.xyz",
+    "overview": "Sophon is a high-throughput entertainment, gaming, and AI-centric modular hyperchain built using Matter Labs' ZK Stack technology and powered by Avail modular Data Availability. Designed to onboard hundreds of millions of mainstream consumers without traditional blockchain friction, Sophon combines sub-second zero-knowledge proof settlements, native account abstraction, and gasless transaction relays.\n\nSophon achieved monumental industry attention after raising over $70 Million—including a $10 Million institutional round led by Paper Ventures and Maven 11, followed by a staggering $60+ Million sold in decentralized Guardian Node licenses.\n\nSophon is currently running its official \"Farming Portal\"—allowing users to deposit supported crypto assets (BEAM, wstETH, eETH, sUSDe, and USDT) to earn Sophon Points that convert directly into native $SOPH token allocations ahead of Mainnet launch.",
+    "tokenomics": "The $SOPH token serves as the native gas asset, validator and sequencer staking collateral, and DAO governance token for the Sophon Hyperchain ecosystem.",
+    "sybilSafety": "Sophon enforces real capital commitments and time-weighted liquidity deposit metrics across farming vaults, rendering automated bot rings ineffective.",
+    "strategy": "Deposit supported assets (BEAM, wstETH, or eETH) into the Sophon Farming Portal on farm.sophon.xyz, delegate Guardian Node licenses to active operators, and complete ecosystem partner quests.",
+    "steps": [
+      "Visit the official <a href=\"https://farm.sophon.xyz\" target=\"_blank\" rel=\"noopener noreferrer\">Sophon Farming Portal</a>.",
+      "Connect your Ethereum Web3 wallet (MetaMask, Rabby, or WalletConnect).",
+      "Choose your deposit pool (wstETH, eETH, BEAM, sUSDe, or USDT).",
+      "Deposit assets into the farming pool to start earning Sophon Points automatically every block.",
+      "Acquire or delegate a Sophon Guardian Node license to earn amplified network rewards.",
+      "Participate in Sophon community social quests and connect your X/Twitter and Discord.",
+      "Refer friends using your personalized invite code to earn referral point boosters.",
+      "Claim your $SOPH token distribution upon mainnet hyperchain genesis."
+    ],
+    "faqs": [
+      {
+        "question": "What is Sophon?",
+        "answer": "Sophon is a modular entertainment and gaming hyperchain built on ZK Stack, utilizing Avail DA for scalable consumer applications."
+      },
+      {
+        "question": "How much funding did Sophon raise?",
+        "answer": "Sophon raised over $70 Million through a $10M seed round and a record-breaking $60M+ decentralized node sale."
+      },
+      {
+        "question": "What is the Sophon Farming Portal?",
+        "answer": "It is Sophon's official pre-mainnet program where users deposit crypto assets to farm Sophon Points redeemable for $SOPH."
+      },
+      {
+        "question": "Can I withdraw my deposited assets?",
+        "answer": "Yes! Staked assets in the farming portal can be withdrawn back to Ethereum mainnet at any time."
+      },
+      {
+        "question": "What are Guardian Nodes?",
+        "answer": "Guardian Nodes are decentralized validator nodes that secure the Sophon hyperchain and verify zero-knowledge state transitions."
+      },
+      {
+        "question": "When will the $SOPH token launch?",
+        "answer": "The Sophon mainnet launch and $SOPH Token Generation Event are scheduled for late 2026."
+      }
+    ]
+  },
+  {
+    "id": "caldera",
+    "name": "Caldera",
+    "logo": "/images/airdrops/caldera.svg",
+    "description": "The premier Rollup-as-a-Service (RaaS) and Metalayer unifying 50+ modular chains, backed by $24M from Peter Thiel's Founders Fund, Dragonfly, and Sequoia.",
+    "reward": "Metalayer Points, Quests & $CALDERA Token Allocation",
+    "category": "Modular RaaS / Metalayer / Infrastructure",
+    "featured": true,
+    "status": "active",
+    "publishDate": "2026-10-12",
+    "endTime": "2026-12-31T23:59:59Z",
+    "funding": "$24.0M Raised",
+    "investors": "Founders Fund (Peter Thiel), Dragonfly Capital, Sequoia Capital, Lattice, 1kx",
+    "refLink": "https://caldera.xyz",
+    "overview": "Caldera is the dominant Rollup-as-a-Service (RaaS) platform powering the modular rollup explosion. Caldera enables developers to deploy custom, production-grade rollups in minutes across all leading frameworks—including Arbitrum Orbit, Optimism OP Stack, Polygon CDK, and ZK Stack—settling on Ethereum or modular data layers like Celestia and EigenDA. Caldera already powers over 50 prominent live rollups, including Manta Pacific, Injective inEVM, ApeChain, and Treasure.\n\nTo solve the acute liquidity fragmentation across modular rollups, Caldera introduced the \"Metalayer\"—a universal coordination layer that connects all Caldera rollups with shared liquidity, sub-second cross-rollup message passing, and unified user accounts.\n\nBacked by $24 Million from Peter Thiel's Founders Fund, Dragonfly Capital, and Sequoia Capital, Caldera is rewarding community testers, cross-rollup bridge users, and developers who interact with Metalayer testnets.",
+    "tokenomics": "The $CALDERA token powers Metalayer shared sequencer staking, cross-rollup message verification fees, and decentralized governance over rollup templates.",
+    "sybilSafety": "Caldera evaluates cross-chain transaction diversity across multiple Caldera-powered rollups, requiring verifiable gas consumption and authentic bridge usage.",
+    "strategy": "Interact with Caldera-powered mainnets (Manta, ApeChain, Treasure), bridge funds through the Caldera Metalayer bridge, complete quests on caldera.xyz, and deploy testnet rollups.",
+    "steps": [
+      "Visit the official <a href=\"https://caldera.xyz\" target=\"_blank\" rel=\"noopener noreferrer\">Caldera Network Portal</a>.",
+      "Connect your Web3 wallet and explore the live Caldera Rollup Directory.",
+      "Interact with featured Caldera rollups (ApeChain, Kinto, Manta, Injective inEVM).",
+      "Bridge testnet and mainnet tokens across chains using the Caldera Metalayer bridge.",
+      "Deploy a one-click modular testnet rollup using the Caldera Rollup Sandbox.",
+      "Complete official community quests on the Caldera Galxe and Zealy hubs.",
+      "Participate in Caldera Discord community events and claim verified builder roles.",
+      "Track your Metalayer activity score ahead of the native token distribution."
+    ],
+    "faqs": [
+      {
+        "question": "What is Caldera?",
+        "answer": "Caldera is a leading Rollup-as-a-Service platform that lets teams launch customizable Arbitrum, OP Stack, and ZK rollups in minutes."
+      },
+      {
+        "question": "Who invested in Caldera?",
+        "answer": "Caldera raised $24 Million led by Peter Thiel's Founders Fund, alongside Dragonfly Capital and Sequoia Capital."
+      },
+      {
+        "question": "What is the Caldera Metalayer?",
+        "answer": "The Metalayer is an omnichain coordination layer that unifies liquidity and messaging across dozens of disparate rollups."
+      },
+      {
+        "question": "Which rollups use Caldera today?",
+        "answer": "Over 50 major rollups run on Caldera, including Manta Pacific, ApeChain, Treasure, Plume Network, and inEVM."
+      },
+      {
+        "question": "Do I need developer skills to farm Caldera?",
+        "answer": "No! Simply interacting with Caldera-powered chains and using the Metalayer bridge earns community eligibility."
+      },
+      {
+        "question": "When will the Caldera token launch?",
+        "answer": "The Metalayer genesis and $CALDERA token generation are anticipated in late 2026."
+      }
+    ]
+  },
+  {
+    "id": "hyperlane",
+    "name": "Hyperlane",
+    "logo": "/images/airdrops/hyperlane.svg",
+    "description": "The permissionless interoperability layer enabling seamless modular bridge execution and Warp Routes across 100+ chains, backed by $18.5M from Variant & Bain Capital.",
+    "reward": "Warp Route Volume, Message Badges & $HYPER Token Airdrop",
+    "category": "Interoperability / Modular Bridge / Cross-Chain",
+    "featured": true,
+    "status": "active",
+    "publishDate": "2026-10-12",
+    "endTime": "2026-11-30T23:59:59Z",
+    "funding": "$18.5M Seed Round",
+    "investors": "Variant, Bain Capital Crypto, Circle Ventures, Figment Capital, Robot Ventures",
+    "refLink": "https://hyperlane.xyz",
+    "overview": "Hyperlane is the first permissionless interoperability layer engineered for the modular blockchain paradigm. Unlike legacy bridges that require months of enterprise negotiations to connect a new chain, Hyperlane allows anyone to deploy an interoperability mailbox to any blockchain, rollup, or appchain in under five minutes.\n\nHyperlane powers \"Warp Routes\"—permissionless token bridges that enable zero-slippage cross-chain transfers between disparate environments like Ethereum EVMs, Solana SVMs, Cosmos CosmWasm, and Celestia rollups. Hyperlane is the primary bridge connecting major modular ecosystems including Injective, Celestia, Eclipse, Stride, and Arbitrum.\n\nHaving raised $18.5 Million from tier-1 crypto venture firms Variant and Bain Capital Crypto, Hyperlane is heavily utilized by active DeFi participants who bridge assets across modular chains and interact with Warp Routes.",
+    "tokenomics": "The upcoming $HYPER token will govern the Hyperlane Interchain Security Modules (ISMs), incentivize decentralized relayer operators, and settle cross-chain protocol fees.",
+    "sybilSafety": "Hyperlane tracks authentic on-chain message volume, unique origin/destination chain combinations, and interchain gas payments to filter out repetitive scripts.",
+    "strategy": "Use Hyperlane-powered bridges (Nexus Bridge, Injective Bridge, Merkly) to send messages across multiple unique chains (Celestia, Injective, Arbitrum, Base), and bridge native TIA or ETH.",
+    "steps": [
+      "Visit the official <a href=\"https://hyperlane.xyz\" target=\"_blank\" rel=\"noopener noreferrer\">Hyperlane Network Portal</a>.",
+      "Connect both EVM (MetaMask/Rabby) and Cosmos/Solana (Keplr/Phantom) wallets.",
+      "Bridge tokens across modular ecosystems using the official Nexus Warp Route interface.",
+      "Transfer native assets (such as TIA or INJ) between Celestia, Injective, and Arbitrum.",
+      "Interact with Hyperlane-powered ecosystem bridges like Merkly and Gas.zip for cross-chain gas refuel.",
+      "Deploy a permissionless Hyperlane Mailbox smart contract to a testnet rollup for developer points.",
+      "Track your on-chain messages and interchain activity on Hyperlane Explorer (explorer.hyperlane.xyz).",
+      "Earn community Discord roles and qualify for retroactive $HYPER distributions."
+    ],
+    "faqs": [
+      {
+        "question": "What is Hyperlane?",
+        "answer": "Hyperlane is the first permissionless interoperability framework that lets developers connect any blockchain, rollup, or L3 in minutes."
+      },
+      {
+        "question": "Who backs Hyperlane?",
+        "answer": "Hyperlane raised $18.5M from top funds including Variant, Bain Capital Crypto, Circle Ventures, and Robot Ventures."
+      },
+      {
+        "question": "What are Warp Routes?",
+        "answer": "Warp Routes are Hyperlane's permissionless token bridge contracts that allow ERC-20s, CW-20s, and SPL tokens to move across chains."
+      },
+      {
+        "question": "What ecosystems rely on Hyperlane?",
+        "answer": "Major modular ecosystems including Celestia, Injective, Eclipse (SVM), Arbitrum Orbit, and Manta rely on Hyperlane for bridging."
+      },
+      {
+        "question": "How do I check my Hyperlane volume?",
+        "answer": "Enter your wallet address into explorer.hyperlane.xyz to see every cross-chain message sent and origin/destination chains."
+      },
+      {
+        "question": "Is Hyperlane audited?",
+        "answer": "Yes! Hyperlane smart contracts and Interchain Security Modules have been audited by OpenZeppelin and Zellic."
+      }
+    ]
+  },
+  {
+    "id": "dawn",
+    "name": "Dawn Network",
+    "logo": "/images/airdrops/dawn.svg",
+    "description": "Decentralized Autonomous Wireless Network (DePIN) on Solana transforming home broadband into passive crypto earnings, backed by $33M led by Dragonfly Capital.",
+    "reward": "Validator Extension Points & $DAWN Token Mining",
+    "category": "DePIN / Solana / Bandwidth Mining",
+    "featured": true,
+    "status": "active",
+    "publishDate": "2026-10-12",
+    "endTime": "2026-12-31T23:59:59Z",
+    "funding": "$33.0M Raised",
+    "investors": "Dragonfly Capital, 6th Man Ventures, Wintermute, ParaFi Capital, Cyber Fund",
+    "refLink": "https://dawninternet.com",
+    "overview": "Dawn Network (Decentralized Autonomous Wireless Network) is a groundbreaking DePIN protocol built on Solana that is revolutionizing the multi-billion dollar Internet Service Provider (ISP) industry. Traditional telecom monopolies charge exorbitant fees for internet access while leaving unused residential bandwidth completely unmonetized. Dawn creates a decentralized, community-owned physical broadband infrastructure where households share and validate internet connectivity, earning passive crypto rewards in return.\n\nDeveloped by Andrena—a high-speed internet provider with years of real-world telecom experience—Dawn Network raised an impressive $33 Million across funding rounds led by Dragonfly Capital and 6th Man Ventures.\n\nDawn has launched its public \"Validator Extension\" for Google Chrome. Users install the lightweight browser extension to continuously verify connection speed and latency, earning Dawn Reward Points that will convert into native $DAWN tokens at TGE.",
+    "tokenomics": "The $DAWN token powers bandwidth validation incentives, pays for decentralized wireless data transmission, and enables DAO governance over regional broadband buildouts.",
+    "sybilSafety": "Dawn validates residential IP subnets, hardware telemetry, and real internet speed metrics, automatically flagging and penalizing data center proxies and virtual machines.",
+    "strategy": "Install the official Dawn Validator Chrome extension, create an account, keep the extension running passively while browsing, complete social verification tasks, and refer friends.",
+    "steps": [
+      "Visit the official <a href=\"https://dawninternet.com\" target=\"_blank\" rel=\"noopener noreferrer\">Dawn Internet Portal</a>.",
+      "Download and install the official \"DAWN Validator\" extension from the Chrome Web Store.",
+      "Create your Dawn account with email verification and an invite referral code.",
+      "Keep the extension active in your browser to passively earn points 24/7 based on network uptime.",
+      "Perform periodic speed tests through the extension to verify your broadband connection health.",
+      "Complete social verification tasks (follow Dawn on X/Twitter, join Discord and Telegram).",
+      "Share your referral code with friends to receive a percentage bonus on their validator uptime.",
+      "Monitor your rank on the Dawn Leaderboard ahead of the $DAWN Solana token launch."
+    ],
+    "faqs": [
+      {
+        "question": "What is Dawn Network?",
+        "answer": "Dawn is a Solana-based DePIN protocol that allows households to share, validate, and sell excess internet bandwidth for crypto rewards."
+      },
+      {
+        "question": "Who invested in Dawn?",
+        "answer": "Dawn raised $33 Million led by Dragonfly Capital, alongside 6th Man Ventures, Wintermute, and ParaFi Capital."
+      },
+      {
+        "question": "Does the extension slow down my internet or steal my data?",
+        "answer": "No! The validator extension only measures connection latency and packet availability; it never accesses your personal browsing data or reduces speeds."
+      },
+      {
+        "question": "Can I run Dawn on multiple devices?",
+        "answer": "You can run it on your home PC or laptop; points are calculated based on unique residential IP addresses."
+      },
+      {
+        "question": "Is Dawn completely free?",
+        "answer": "Yes, 100% free. No hardware purchases or deposits are required to earn points with the Chrome extension."
+      },
+      {
+        "question": "When is the $DAWN token launch?",
+        "answer": "The $DAWN token generation event on Solana is scheduled for late 2026."
+      }
+    ]
+  },
+  {
+    "id": "privasea",
+    "name": "Privasea",
+    "logo": "/images/airdrops/privasea.svg",
+    "description": "AI and DePIN network utilizing Fully Homomorphic Encryption (FHE) with biometric FaceID Proof-of-Humanity, backed by $10M from Binance Labs & MH Ventures.",
+    "reward": "Genesis Stars, Early Bird NFT & $PRAI Token Airdrop",
+    "category": "AI / FHE / DePIN / Proof of Humanity",
+    "featured": true,
+    "status": "active",
+    "publishDate": "2026-10-12",
+    "endTime": "2026-11-30T23:59:59Z",
+    "funding": "$10.0M Raised",
+    "investors": "Binance Labs, MH Ventures, K300 Ventures, Gate Labs, 1Client",
+    "refLink": "https://privasea.ai",
+    "overview": "Privasea is an AI-powered DePIN infrastructure protocol revolutionizing data privacy through Fully Homomorphic Encryption (FHE). In the AI era, training machine learning models requires massive data ingestion, often violating user privacy. Privasea introduces an FHE computation network where decentralized nodes process encrypted data without ever decrypting it, keeping sensitive data completely confidential throughout computation.\n\nPrivasea's flagship mobile application, \"ImHuman\", introduces biometric Proof-of-Humanity without storing raw biometric information. By encrypting facial vectors into cryptographic hashes using FHE, Privasea verifies authentic human uniqueness without exposing user identities or faces.\n\nPrivasea raised $10 Million across funding rounds from Binance Labs and MH Ventures. Users downloading the ImHuman app, completing biometric verification to mint an Early Bird NFT, and earning Genesis Stars are positioned for the upcoming $PRAI token airdrop.",
+    "tokenomics": "The $PRAI token powers FHE compute node compensation, pays for privacy-preserving AI inference fees, and governs Privasea DePIN network parameters.",
+    "sybilSafety": "Privasea features the strongest Sybil resistance in existence: FHE biometric FaceID verifies that each registered account corresponds to a unique living human.",
+    "strategy": "Download the ImHuman app on iOS or Android, execute biometric facial scanning to mint your Proof of Humanity NFT, collect daily Genesis Stars, and participate in DePIN testnet computing.",
+    "steps": [
+      "Visit the official <a href=\"https://privasea.ai\" target=\"_blank\" rel=\"noopener noreferrer\">Privasea AI Portal</a>.",
+      "Download the \"ImHuman\" mobile application from the Apple App Store or Google Play Store.",
+      "Create your decentralized account and back up your recovery credentials.",
+      "Complete the FHE-encrypted FaceID scan to verify your unique human identity.",
+      "Mint your biometric \"Early Bird / Proof of Humanity\" NFT on Arbitrum or Solana.",
+      "Check in daily within the app to claim Genesis Stars and loyalty streak rewards.",
+      "Connect your desktop or server to the Privasea DePIN testnet to earn computation worker rewards.",
+      "Redeem accumulated Genesis Stars for $PRAI tokens during the TGE claim period."
+    ],
+    "faqs": [
+      {
+        "question": "What is Privasea?",
+        "answer": "Privasea is a privacy-first AI and DePIN network utilizing Fully Homomorphic Encryption (FHE) to compute on encrypted data."
+      },
+      {
+        "question": "Who invested in Privasea?",
+        "answer": "Privasea raised $10M backed by Binance Labs, MH Ventures, K300 Ventures, and Gate Labs."
+      },
+      {
+        "question": "Is my biometric face scan safe?",
+        "answer": "Yes! Unlike Worldcoin, Privasea uses FHE to encrypt facial vector math so that no raw facial images or biometrics are ever stored or accessible."
+      },
+      {
+        "question": "What is the ImHuman app?",
+        "answer": "ImHuman is Privasea's mobile app that issues cryptographic Proof-of-Humanity NFTs to verified unique human users."
+      },
+      {
+        "question": "What are Genesis Stars?",
+        "answer": "Genesis Stars are loyalty reward points earned by checking in and using the ImHuman app, converting into $PRAI tokens."
+      },
+      {
+        "question": "Which networks does Privasea support?",
+        "answer": "Privasea supports Arbitrum, Solana, and EVM chains for its identity credentials and DePIN computing."
+      }
+    ]
+  },
+  {
+    "id": "mind-network",
+    "name": "Mind Network",
+    "logo": "/images/airdrops/mind-network.svg",
+    "description": "The Fully Homomorphic Encryption (FHE) Restaking Layer securing AI agents, PoS consensus, and decentralized subnets, backed by $10M from Binance Labs & Chainlink.",
+    "reward": "Citizen Z Pass, FHE Staking Points & $MIND Token Distribution",
+    "category": "FHE / Restaking / AI Security",
+    "featured": true,
+    "status": "active",
+    "publishDate": "2026-10-12",
+    "endTime": "2026-12-15T23:59:59Z",
+    "funding": "$10.0M Raised",
+    "investors": "Binance Labs, HashKey Capital, Chainlink, SevenX Ventures, Big Brain Holdings, Comma3 Ventures",
+    "refLink": "https://mindnetwork.xyz",
+    "overview": "Mind Network is the pioneering Fully Homomorphic Encryption (FHE) Restaking Layer engineered to bring military-grade cryptographic privacy and verifiable computation to AI networks and Proof-of-Stake blockchains. Traditional restaking protocols allow economic security to be delegated, but validator computations and voting remain transparent, exposing AI agents and consensus nodes to collusion and front-running.\n\nMind Network integrates FHE with restaking through EigenLayer, Symbiotic, and Babylon. By allowing calculations to be performed directly on encrypted data without decryption, Mind Network enables encrypted voting, private AI agent inference, and confidential rollup sequencing.\n\nMind Network raised $10 Million with backing from Binance Labs, HashKey Capital, and Chainlink. Through its \"Citizen Z\" and FHE Restaking campaigns, users staking restaked tokens (eETH, ezETH, LBTC) into FHE subnets accumulate points toward the $MIND token generation event.",
+    "tokenomics": "The $MIND token powers FHE encryption compute fees, validator consensus restaking, and decentralized DAO governance over privacy subnet parameters.",
+    "sybilSafety": "Mind Network requires verifiable cryptoeconomic staking collateral and Soulbound Citizen Z Pass credentials, completely eliminating zero-balance bot farming.",
+    "strategy": "Mint your free Citizen Z Pass on mindnetwork.xyz, restake supported assets (such as eETH, ezETH, or LBTC) into Mind FHE subnets, and vote in encrypted consensus rounds.",
+    "steps": [
+      "Visit the official <a href=\"https://mindnetwork.xyz\" target=\"_blank\" rel=\"noopener noreferrer\">Mind Network Portal</a>.",
+      "Connect your Web3 wallet (MetaMask, Rabby, or OKX Wallet).",
+      "Mint your non-transferable \"Citizen Z Pass\" on Ethereum or Arbitrum.",
+      "Navigate to the \"FHE Restaking\" dashboard and select a supported asset (eETH, ezETH, LBTC).",
+      "Deposit your restaked tokens into the Mind Network FHE Security Subnet.",
+      "Participate in encrypted consensus voting tasks to earn active subnet participation multipliers.",
+      "Complete partner quests on Galxe and Zealy to boost your Citizen Z tier.",
+      "Track your accumulated FHE Restaking Points and claim $MIND tokens upon TGE."
+    ],
+    "faqs": [
+      {
+        "question": "What is Mind Network?",
+        "answer": "Mind Network is the first FHE Restaking Layer that brings zero-trust encryption and confidential computing to AI networks and Proof-of-Stake chains."
+      },
+      {
+        "question": "Who invested in Mind Network?",
+        "answer": "Mind Network raised $10M from Binance Labs, HashKey Capital, Chainlink, SevenX Ventures, and Big Brain Holdings."
+      },
+      {
+        "question": "What does Fully Homomorphic Encryption (FHE) do?",
+        "answer": "FHE is a breakthrough cryptography standard that allows computations to be performed on encrypted data without ever decrypting it."
+      },
+      {
+        "question": "What is the Citizen Z Pass?",
+        "answer": "Citizen Z is Mind Network's early adopter credential that tracks on-chain participation, encrypted voting, and airdrop allocations."
+      },
+      {
+        "question": "What assets can I restake on Mind Network?",
+        "answer": "You can restake leading liquid restaking tokens including Ether.fi eETH, Renzo ezETH, Puffer pufETH, and Lombard LBTC."
+      },
+      {
+        "question": "Do I keep my underlying restaking points?",
+        "answer": "Yes! Depositing LRTs into Mind Network maintains 100% of underlying EigenLayer/Symbiotic points while stacking Mind Points."
+      }
+    ]
+  },
+  {
+    "id": "infrared",
+    "name": "Infrared Finance",
+    "logo": "/images/airdrops/infrared.svg",
+    "description": "The premier liquid staking protocol on Berachain maximizing Proof-of-Liquidity (PoL) yields via iBGT and iBERA, backed by Binance Labs incubation.",
+    "reward": "Infrared Points & $IRED Governance Token Airdrop",
+    "category": "Berachain / Liquid Staking / Proof-of-Liquidity",
+    "featured": true,
+    "status": "active",
+    "publishDate": "2026-10-12",
+    "endTime": "2026-12-31T23:59:59Z",
+    "funding": "$3.3M Seed + Binance Labs Incubation",
+    "investors": "Synergis Capital, Tribe Capital, Robot Ventures, Binance Labs, dao5, NGC Ventures",
+    "refLink": "https://infrared.finance",
+    "overview": "Infrared Finance is the foundational liquid staking protocol built specifically for Berachain's revolutionary Proof-of-Liquidity (PoL) consensus mechanism. On Berachain, governance and block rewards are driven by $BGT (Bera Governance Token)—an illiquid, non-transferable token earned exclusively by providing liquidity in approved decentralized pools. Stakers traditionally face a trade-off between participating in validator governance or retaining liquid capital.\n\nInfrared elegantly solves this through its dual liquid staking tokens: $iBGT (the liquid wrapper for Berachain's non-transferable BGT) and $iBERA (liquid staked BERA). By staking with Infrared, users socialize and auto-compound Proof-of-Liquidity validator bribe revenues, maximize block emissions, and maintain 100% composability across Berachain DeFi.\n\nInfrared raised $3.3 Million in seed funding led by Synergis Capital and Tribe Capital, alongside prestigious incubation by Binance Labs. Participants interacting with the Infrared testnet and depositing into pre-deposit vaults earn Infrared Points ahead of the $IRED token distribution.",
+    "tokenomics": "The $IRED token governs the Infrared DAO, determines validator delegation weights, directs bribe revenue treasury distributions, and shares protocol performance fees.",
+    "sybilSafety": "Infrared tracks verifiable Proof-of-Liquidity interactions, time-weighted testnet deposits, and genuine Berachain smart contract calls to eliminate automated bot spam.",
+    "strategy": "Add Berachain bArtio Testnet to your wallet, acquire testnet BERA from the official faucet, stake BERA into iBERA on Infrared, and stake LP tokens into Infrared vaults to earn iBGT and points.",
+    "steps": [
+      "Visit the official <a href=\"https://infrared.finance\" target=\"_blank\" rel=\"noopener noreferrer\">Infrared Finance Portal</a>.",
+      "Connect your Web3 wallet and add the Berachain bArtio Testnet network.",
+      "Claim testnet BERA tokens from the official Berachain faucet.",
+      "Stake testnet BERA on Infrared to mint liquid $iBERA tokens.",
+      "Provide liquidity on Berachain DEXs (BEX / Kodiak) in supported Proof-of-Liquidity pools.",
+      "Deposit your LP tokens into Infrared vaults to automatically earn and compound $iBGT.",
+      "Participate in community quests and claim verified roles on the Infrared Discord.",
+      "Monitor your accumulated Infrared Points and claim your $IRED airdrop upon Berachain mainnet launch."
+    ],
+    "faqs": [
+      {
+        "question": "What is Infrared Finance?",
+        "answer": "Infrared is the leading liquid staking protocol on Berachain, creating liquid wrappers (iBGT and iBERA) for Proof-of-Liquidity assets."
+      },
+      {
+        "question": "Who invested in Infrared?",
+        "answer": "Infrared raised $3.3M led by Synergis Capital and Tribe Capital, with strategic backing and incubation by Binance Labs."
+      },
+      {
+        "question": "What is iBGT?",
+        "answer": "iBGT makes Berachain's normally non-transferable governance token ($BGT) fully liquid, tradable, and yield-bearing across DeFi."
+      },
+      {
+        "question": "What is iBERA?",
+        "answer": "iBERA is Infrared's liquid staked version of Berachain's native gas token, earning PoL validator staking APR."
+      },
+      {
+        "question": "Is Infrared free to use on testnet?",
+        "answer": "Yes! All current interactions run on the Berachain bArtio testnet using free testnet tokens."
+      },
+      {
+        "question": "When will Infrared launch on mainnet?",
+        "answer": "Infrared will deploy on Berachain mainnet simultaneously with Berachain's official network genesis in late 2026."
+      }
+    ]
+  },
+  {
+    "id": "kodiak",
+    "name": "Kodiak Finance",
+    "logo": "/images/airdrops/kodiak.svg",
+    "description": "The native liquidity hub and automated concentrated DEX of Berachain driving the Proof-of-Liquidity flywheel with Panda Points, backed by Amber Group & dao5.",
+    "reward": "Panda Points & $KDK Governance Airdrop",
+    "category": "Berachain / DEX / Concentrated Liquidity",
+    "featured": true,
+    "status": "active",
+    "publishDate": "2026-10-12",
+    "endTime": "2026-12-15T23:59:59Z",
+    "funding": "$2.0M Seed Round",
+    "investors": "Amber Group, Shima Capital, dao5, Baboon VC, Ouroboros Capital",
+    "refLink": "https://kodiak.finance",
+    "overview": "Kodiak Finance is the premier decentralized exchange (DEX) and innovative liquidity hub built natively for Berachain. Combining concentrated liquidity market maker (CLMM) technology with automated liquidity management vaults (Islands), Kodiak is the cornerstone of Berachain's Proof-of-Liquidity (PoL) ecosystem.\n\nOn Kodiak, users and DAOs can execute ultra-low slippage swaps, provide automated concentrated liquidity without manual tick management, and deploy permissionless token launches via Kodiak Factory. Because Kodiak is tightly integrated into Berachain's validator set, Kodiak LP pools receive direct $BGT emissions from validators, driving maximum yield to liquidity providers.\n\nKodiak raised $2 Million in seed funding from leading crypto funds including Amber Group, Shima Capital, and dao5. Kodiak is running its official \"Panda Points\" campaign, rewarding users who swap, provide automated liquidity, and invite community members on the testnet.",
+    "tokenomics": "The $KDK token governs Kodiak DAO, earns a share of all protocol trading fees, and directs liquidity incentives and validator bribe voting across Berachain.",
+    "sybilSafety": "Kodiak evaluates authentic swap volume, liquidity retention duration, and diverse pool utilization on Berachain testnet to filter automated bots.",
+    "strategy": "Connect to Berachain testnet, execute swaps across diverse token pairs on Kodiak, deposit into automated concentrated \"Islands\" liquidity vaults, and climb the Panda Points leaderboard.",
+    "steps": [
+      "Visit the official <a href=\"https://kodiak.finance\" target=\"_blank\" rel=\"noopener noreferrer\">Kodiak Finance Portal</a>.",
+      "Connect your Web3 wallet and switch to Berachain bArtio Testnet.",
+      "Swap testnet BERA for HONEY, WETH, or USDT on the Kodiak Swap interface.",
+      "Navigate to \"Islands\" and deposit into automated concentrated liquidity pools (BERA-HONEY, WETH-HONEY).",
+      "Stake your Kodiak Island LP tokens to activate Proof-of-Liquidity BGT rewards and Panda Points.",
+      "Use the Kodiak Factory interface to test permissionless token deployment.",
+      "Complete social verification missions and claim Discord roles on the Kodiak community hub.",
+      "Redeem your Panda Points for $KDK tokens upon Berachain mainnet launch."
+    ],
+    "faqs": [
+      {
+        "question": "What is Kodiak Finance?",
+        "answer": "Kodiak is Berachain's premier DEX and automated concentrated liquidity protocol, optimizing yields for Proof-of-Liquidity."
+      },
+      {
+        "question": "Who invested in Kodiak?",
+        "answer": "Kodiak raised $2M from investors including Amber Group, Shima Capital, and dao5."
+      },
+      {
+        "question": "What are Kodiak Islands?",
+        "answer": "Islands are automated liquidity vaults that automatically rebalance concentrated liquidity positions to maximize trading fees without manual management."
+      },
+      {
+        "question": "What are Panda Points?",
+        "answer": "Panda Points are loyalty points earned by swapping, providing liquidity, and using Kodiak features, converting to $KDK tokens."
+      },
+      {
+        "question": "Does Kodiak support Uniswap V3 style liquidity?",
+        "answer": "Yes! Kodiak brings concentrated liquidity AMM technology to Berachain with automated rebalancing vaults."
+      },
+      {
+        "question": "Is Kodiak free to use?",
+        "answer": "Yes, current farming is completely free on the Berachain bArtio testnet using faucet tokens."
+      }
+    ]
+  },
+  {
+    "id": "jito",
+    "name": "Jito Network",
+    "logo": "/images/airdrops/jito.svg",
+    "description": "The dominant MEV liquid staking and restaking infrastructure titan of Solana ($10M Series A led by Multicoin Capital) commanding $2B+ TVL.",
+    "reward": "Jito Restaking VRT Vaults & $JTO Governance Multipliers",
+    "category": "Solana Restaking / MEV / Liquid Staking",
+    "featured": true,
+    "status": "active",
+    "publishDate": "2026-10-12",
+    "endTime": "2026-12-31T23:59:59Z",
+    "funding": "$10.0M Series A",
+    "investors": "Multicoin Capital, Framework Ventures, Solana Ventures, Delphi Digital, Robot Ventures",
+    "refLink": "https://jito.network",
+    "overview": "Jito Network is the foundational infrastructure titan of the Solana blockchain, pioneering both Maximum Extractable Value (MEV) capture and decentralized liquid restaking. By creating the Jito-Solana validator client—now run by over 80% of all active Solana validators—Jito eliminates spam transactions and redistributes MEV searcher tips directly to stakers in the form of elevated staking APR via $JitoSOL.\n\nCommanding over $2 Billion in Total Value Locked (TVL), Jito has expanded from liquid staking into \"Jito Restaking\"—the first modular multi-asset restaking protocol on Solana. Jito Restaking allows stakers to restake SOL, JitoSOL, and SPL tokens into Node Consensus Networks (NCNs) to secure off-chain oracles, cross-chain bridges, and decentralized sequencer networks.\n\nBacked by $10 Million led by Multicoin Capital and Framework Ventures, Jito is rewarding participants who deposit into Jito Restaking vaults (Vault Receipt Tokens / VRTs) and participate in Jito DAO governance.",
+    "tokenomics": "The $JTO token governs the Jito Foundation and DAO, sets JitoSOL MEV commission parameters, directs treasury distributions, and manages Jito Restaking NCN whitelisting.",
+    "sybilSafety": "Jito requires authentic Solana capital staking and time-weighted liquidity commitments across verified VRT vaults, preventing artificial Sybil manipulation.",
+    "strategy": "Stake SOL to mint $JitoSOL, deposit JitoSOL or supported collateral into Jito Restaking vaults on jito.network, and stake $JTO governance tokens for voting rewards.",
+    "steps": [
+      "Visit the official <a href=\"https://jito.network\" target=\"_blank\" rel=\"noopener noreferrer\">Jito Network Portal</a>.",
+      "Connect your Solana wallet (Phantom, Solflare, or Backpack).",
+      "Stake native SOL to mint yield-bearing $JitoSOL with MEV reward boosts.",
+      "Navigate to the \"Jito Restaking\" tab and explore active Node Consensus Network (NCN) vaults.",
+      "Deposit JitoSOL into restaking vaults to mint Vault Receipt Tokens (VRTs).",
+      "Provide JitoSOL liquidity on leading Solana DEXs (Orca, Raydium, Kamino) for dual yield.",
+      "Vote on active Jito DAO governance proposals using $JTO tokens.",
+      "Track your restaking yield and future NCN partner token distributions on the dashboard."
+    ],
+    "faqs": [
+      {
+        "question": "What is Jito Network?",
+        "answer": "Jito is Solana's leading MEV infrastructure and liquid restaking protocol, powering the Jito-Solana validator client and JitoSOL."
+      },
+      {
+        "question": "Who invested in Jito?",
+        "answer": "Jito raised $10M in Series A funding led by Multicoin Capital and Framework Ventures, alongside Solana Ventures."
+      },
+      {
+        "question": "What is JitoSOL?",
+        "answer": "JitoSOL is Solana's premier liquid staking token that earns both standard staking rewards and MEV tip distributions from validators."
+      },
+      {
+        "question": "What is Jito Restaking?",
+        "answer": "Jito Restaking brings modular restaking to Solana, allowing staked assets to secure external Node Consensus Networks (NCNs) for additional yield."
+      },
+      {
+        "question": "What are Vault Receipt Tokens (VRTs)?",
+        "answer": "VRTs are liquid restaking tokens minted when depositing assets into Jito Restaking vaults, representing your restaked position."
+      },
+      {
+        "question": "Can I swap JitoSOL back to SOL instantly?",
+        "answer": "Yes! You can unstake natively or swap JitoSOL to SOL instantly across all major Solana DEXs with deep liquidity."
+      }
+    ]
+  },
+  {
+    "id": "parcl",
+    "name": "Parcl",
+    "logo": "/images/airdrops/parcl.svg",
+    "description": "The decentralized real estate synthetic perpetual exchange on Solana delivering global property index exposure, backed by $11.6M from Dragonfly & Coinbase Ventures.",
+    "reward": "Season 4 Points, LP Multipliers & $PRCL Token Staking Yields",
+    "category": "Solana RWA / Real Estate / Synthetics",
+    "featured": true,
+    "status": "active",
+    "publishDate": "2026-10-12",
+    "endTime": "2026-12-31T23:59:59Z",
+    "funding": "$11.6M Raised",
+    "investors": "Dragonfly Capital, Coinbase Ventures, Solana Ventures, Archetype, ParaFi Capital",
+    "refLink": "https://app.parcl.co",
+    "overview": "Parcl is the pioneer of decentralized real estate synthetics and Real World Assets (RWA) on the Solana blockchain. Real estate is the world's largest asset class with over $300 Trillion in global value, yet it has historically been illiquid, gated, and inaccessible to everyday investors. Parcl solves this through its high-performance decentralized exchange powered by \"Parcl Labs Data Feeds\"—delivering real-time, median price-per-square-foot feeds for global metropolitan real estate markets including New York, London, Miami, Paris, and Tokyo.\n\nOn Parcl, traders can go long or short on entire city real estate markets with up to 10x leverage, zero physical carrying costs, and instant on-chain settlement. Backed by $11.6 Million from Dragonfly Capital, Coinbase Ventures, and Solana Ventures, Parcl has processed over $1.5 Billion in trading volume.\n\nFollowing its celebrated $PRCL token launch, Parcl is running \"Points Season 4\"—rewarding active real estate perpetual traders, liquidity pool providers (Parcl Liquidity Pool / LP), and $PRCL governance stakers with continuous ongoing token allocations.",
+    "tokenomics": "The $PRCL token governs the Parcl protocol, votes on new city market listings, directs liquidity incentive emissions, and accrues protocol fee share for long-term stakers.",
+    "sybilSafety": "Parcl tracks time-weighted liquidity provision in USDC, genuine leverage trading volume, and wallet activity consistency to ensure points accrue strictly to legitimate users.",
+    "strategy": "Deposit USDC into the Parcl Liquidity Pool (PLP) to earn passive yields and 4x-5x point multipliers, execute synthetic real estate trades on featured cities, and stake $PRCL tokens.",
+    "steps": [
+      "Visit the official <a href=\"https://app.parcl.co\" target=\"_blank\" rel=\"noopener noreferrer\">Parcl Trading Portal</a>.",
+      "Connect your Solana wallet (Phantom, Solflare, or Backpack).",
+      "Deposit USDC into the Parcl Liquidity Pool (PLP) to earn trading fees and daily LP points.",
+      "Open long or short positions on major real estate city markets (New York, Paris, Las Vegas).",
+      "Stake native $PRCL tokens in the governance staking vault to boost your points multiplier tier.",
+      "Maintain active open positions to maximize time-weighted trading volume points.",
+      "Join Parcl trading competitions and complete community milestone quests.",
+      "Collect your Season 4 rewards and token distributions on the Parcl Portfolio tab."
+    ],
+    "faqs": [
+      {
+        "question": "What is Parcl?",
+        "answer": "Parcl is a decentralized perpetual exchange on Solana that allows users to trade synthetic price indices of real-world cities and real estate markets."
+      },
+      {
+        "question": "Who invested in Parcl?",
+        "answer": "Parcl raised $11.6M from prominent investors including Dragonfly Capital, Coinbase Ventures, and Solana Ventures."
+      },
+      {
+        "question": "How do Parcl price feeds work?",
+        "answer": "Parcl Labs tracks real-time residential real estate transaction data across millions of properties, feeding median price-per-square-foot feeds on-chain."
+      },
+      {
+        "question": "What is the Parcl Liquidity Pool (PLP)?",
+        "answer": "PLP is the central counterparty liquidity pool where users deposit USDC to earn protocol trading fees and amplified points."
+      },
+      {
+        "question": "What leverage is available on Parcl?",
+        "answer": "Traders can trade city markets with up to 10x leverage using USDC collateral."
+      },
+      {
+        "question": "How do I participate in Season 4?",
+        "answer": "Provide USDC liquidity to the PLP, trade city indices, and stake $PRCL tokens to earn Season 4 points."
+      }
+    ]
   }
 ];
