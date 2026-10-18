@@ -6935,5 +6935,555 @@ export const airdrops: Airdrop[] = [
         "answer": "Provide USDC liquidity to the PLP, trade city indices, and stake $PRCL tokens to earn Season 4 points."
       }
     ]
+  },
+  {
+    "id": "nexus",
+    "name": "Nexus zkVM",
+    "logo": "/images/airdrops/nexus.svg",
+    "description": "The massively parallel Zero-Knowledge Virtual Machine building the verifiable internet, backed by $27.2M from Lightspeed and Pantera Capital.",
+    "reward": "Nexus Prover Points & $NEXUS Token Airdrop",
+    "category": "Zero-Knowledge / zkVM / Verifiable Compute",
+    "featured": true,
+    "status": "active",
+    "publishDate": "2026-10-18",
+    "endTime": "2026-12-31T23:59:59Z",
+    "funding": "$27.2M Raised ($25M Series A)",
+    "investors": "Lightspeed Venture Partners, Pantera Capital, Dragonfly Capital, Faction, SV Angel",
+    "refLink": "https://nexus.xyz",
+    "overview": "Nexus Labs is pioneering the world's most performant Zero-Knowledge Virtual Machine (zkVM) and decentralized prover network, engineered to make the entire global internet verifiable. Written in Rust and capable of proving general-purpose code at unprecedented speeds, the Nexus zkVM enables any computer—from a smartphone browser tab to enterprise cloud GPUs—to contribute computational proof cycles to the decentralized \"Verifiable Internet\".\n\nNexus raised a massive $25 Million Series A led by Lightspeed Venture Partners and Pantera Capital, following earlier investments from Dragonfly Capital. The network has already generated trillions of proof hashes across millions of connected provers globally.\n\nThrough the ongoing Nexus Beta Prover campaign, users can run the one-click in-browser prover or deploy the lightweight Rust CLI prover on their VPS/PC to earn Nexus Prover Points that directly qualify for the upcoming $NEXUS token distribution.",
+    "tokenomics": "The $NEXUS token serves as the core utility and settlement asset of the Nexus prover network, compensating proof generators, paying for verifiable computing queries, and securing network consensus.",
+    "sybilSafety": "Nexus validates cryptographic zero-knowledge proof calculations in real time. Points are awarded strictly in proportion to valid mathematical proofs submitted to the network, eliminating empty Sybil scripts.",
+    "strategy": "Launch the one-click browser prover on nexus.xyz, run the lightweight CLI prover on your desktop or VPS for 24/7 uptime, and connect your GitHub profile to qualify for developer multipliers.",
+    "steps": [
+      "Visit the official <a href=\"https://nexus.xyz\" target=\"_blank\" rel=\"noopener noreferrer\">Nexus Network Portal</a>.",
+      "Connect your Web3 wallet and create your decentralized prover profile.",
+      "Open the \"Nexus Web Prover\" tab to begin contributing proof computation directly in your browser.",
+      "For maximum point generation, install the Nexus CLI prover on your terminal or Linux VPS.",
+      "Authenticate your prover ID using your private node key.",
+      "Link your GitHub and social accounts to claim verification tier bonuses.",
+      "Track your generated proof cycles and position on the Nexus Global Prover Leaderboard.",
+      "Claim your $NEXUS token allocation during the official Token Generation Event."
+    ],
+    "faqs": [
+      {
+        "question": "What is Nexus zkVM?",
+        "answer": "Nexus is a massively parallel, high-speed Zero-Knowledge Virtual Machine designed to verify general computing and build the verifiable internet."
+      },
+      {
+        "question": "Who invested in Nexus Labs?",
+        "answer": "Nexus raised $27.2M led by Lightspeed Venture Partners and Pantera Capital, with backing from Dragonfly Capital and Faction."
+      },
+      {
+        "question": "How do I earn Nexus Prover Points?",
+        "answer": "You earn points by generating zero-knowledge proofs through the browser prover or running the lightweight CLI prover on your computer."
+      },
+      {
+        "question": "Does running the prover harm my computer?",
+        "answer": "No! The browser prover runs in an isolated WebAssembly sandbox, and the CLI prover allows you to configure exact CPU core limits."
+      },
+      {
+        "question": "Is Nexus completely free to farm?",
+        "answer": "Yes, 100% free. No cryptocurrency deposits or gas fees are required to contribute computing power."
+      },
+      {
+        "question": "When will the $NEXUS token launch?",
+        "answer": "The Nexus network mainnet transition and $NEXUS Token Generation Event are scheduled for late 2026."
+      }
+    ]
+  },
+  {
+    "id": "corn",
+    "name": "Corn",
+    "logo": "/images/airdrops/corn.svg",
+    "description": "The premier Ethereum Layer 2 using tokenized Bitcoin ($BTCN) as gas and unlocking native BTC yields, backed by $6.7M from Polychain & Binance Labs.",
+    "reward": "Corn Kernels & $CORN Token Airdrop",
+    "category": "Bitcoin L2 / Ethereum / Arbitrum Orbit",
+    "featured": true,
+    "status": "active",
+    "publishDate": "2026-10-18",
+    "endTime": "2026-12-15T23:59:59Z",
+    "funding": "$6.7M Seed Round",
+    "investors": "Polychain Capital, Binance Labs, Framework Ventures, HTX Ventures, Relayer Capital",
+    "refLink": "https://usecorn.com",
+    "overview": "Corn is a groundbreaking Ethereum Layer 2 network powered by Arbitrum Orbit technology that makes Bitcoin the center of decentralized finance. Traditionally, Bitcoin holders face fragmented bridges and wrapped tokens with zero native yield. Corn solves this by introducing $BTCN—a hybrid tokenized Bitcoin backed 1:1 by native BTC that serves as the actual gas fee asset of the entire Corn Layer 2 network.\n\nFurthermore, Corn aligns users, developers, and validators through its \"CROP\" tokenomics and \"Silo\" staking mechanisms. Backed by $6.7 Million in seed capital from Polychain Capital, Binance Labs, and Framework Ventures, Corn connects institutional Bitcoin liquidity directly to EVM DeFi.\n\nCorn is running its official \"Kernels\" points campaign. Users depositing Bitcoin (native BTC, WBTC, tBTC), Ethereum, or stablecoins earn daily Kernels, unlock community yield multipliers, and position themselves for the $CORN governance token airdrop.",
+    "tokenomics": "The $CORN token governs the Corn Layer 2 network, votes on Silo gauge emissions, directs protocol revenue sharing, and coordinates sequencer decentralization.",
+    "sybilSafety": "Corn measures real capital commitments through time-weighted TVL in Silo vaults and verified on-chain bridging, rendering automated bot rings ineffective.",
+    "strategy": "Deposit Bitcoin (WBTC, cbBTC, tBTC) or stablecoins into the Corn Silos on usecorn.com, interact with Corn ecosystem dApps, and invite community members to accumulate Kernels.",
+    "steps": [
+      "Visit the official <a href=\"https://usecorn.com\" target=\"_blank\" rel=\"noopener noreferrer\">Corn Network Portal</a>.",
+      "Connect your Web3 wallet (MetaMask, Rabby, or Coinbase Wallet).",
+      "Enter an active community invite code to unlock the Silo deposit interface.",
+      "Deposit supported assets (WBTC, tBTC, cbBTC, ETH, USDC) into the Corn Silos.",
+      "Start accumulating Corn Kernels automatically every single hour based on your deposit size.",
+      "Bridge funds into Corn Mainnet to test native gas transactions using $BTCN.",
+      "Interact with featured ecosystem protocols (Pendle, Camelot, ambient) deployed on Corn.",
+      "Redeem your accumulated Kernels for $CORN tokens at the season finale."
+    ],
+    "faqs": [
+      {
+        "question": "What is Corn?",
+        "answer": "Corn is an Ethereum Layer 2 built on Arbitrum Orbit that uses tokenized Bitcoin ($BTCN) as its native gas token and channels yield to BTC holders."
+      },
+      {
+        "question": "Who invested in Corn?",
+        "answer": "Corn raised $6.7M led by Polychain Capital, with participation from Binance Labs, Framework Ventures, and HTX Ventures."
+      },
+      {
+        "question": "What is $BTCN?",
+        "answer": "$BTCN is Corn's native gas token, backed 1:1 by Bitcoin from multiple custodial and decentralized custodians."
+      },
+      {
+        "question": "What are Corn Kernels?",
+        "answer": "Kernels are loyalty reward points earned by depositing assets into Corn Silos and using the L2 network, converting into $CORN."
+      },
+      {
+        "question": "Can I withdraw my assets from Corn Silos?",
+        "answer": "Yes! Deposited funds can be withdrawn at any time back to the Ethereum mainnet."
+      },
+      {
+        "question": "How do I earn the highest Kernel multipliers?",
+        "answer": "Depositing Bitcoin assets (WBTC/cbBTC) and maintaining weekly active streaks grants higher Kernel multiplier tiers."
+      }
+    ]
+  },
+  {
+    "id": "nubit",
+    "name": "Nubit",
+    "logo": "/images/airdrops/nubit.svg",
+    "description": "The first Bitcoin-native Data Availability (DA) layer scaling Bitcoin without hard forks, backed by $12M led by Polychain Capital.",
+    "reward": "Matrix Points, Alpha Testnet Badges & $NUBIT Airdrop",
+    "category": "Bitcoin DA / Modular / Infrastructure",
+    "featured": true,
+    "status": "active",
+    "publishDate": "2026-10-18",
+    "endTime": "2026-11-30T23:59:59Z",
+    "funding": "$12.0M Raised ($8M Seed)",
+    "investors": "Polychain Capital, Tribe Capital, Nomad Capital, Spartan Group, OKX Ventures",
+    "refLink": "https://nubit.org",
+    "overview": "Nubit is the first Bitcoin-native Data Availability (DA) layer engineered to scale the Bitcoin ecosystem to unlimited throughput without requiring hard forks or changes to Bitcoin's core protocol. Developed by a team of University of California Santa Barbara researchers, Nubit combines advanced cryptography with Bitcoin's immutable security to provide ultra-low-cost, high-throughput data availability for Bitcoin Layer 2s, Ordinals, Runes, and modular execution layers.\n\nNubit raised $12 Million across multiple rounds led by Polychain Capital, with participation from Tribe Capital, Nomad Capital, and Spartan Group. Nubit's architecture allows any developer to deploy a Bitcoin rollup with full data availability secured directly by Bitcoin's cryptoeconomic Proof-of-Stake.\n\nThrough its \"Community Matrix\" campaign and Alpha Testnet, Nubit is rewarding users who run one-click light nodes, bind Bitcoin wallets (UniSat, OKX, Xverse), and interact with ecosystem dApps with Matrix Points redeemable for $NUBIT.",
+    "tokenomics": "The $NUBIT token powers Data Availability posting fees, secures the Nubit validator network through PoS staking, and governs decentralized DA parameter adjustments.",
+    "sybilSafety": "Nubit requires verified Bitcoin wallet signatures, residential light node uptime verification, and authentic social authentication to eliminate Sybil bot farms.",
+    "strategy": "Connect your Bitcoin and EVM wallets to nubit.org, run a Nubit Light Node on your laptop or server, complete Matrix campaign quests, and bridge testnet assets.",
+    "steps": [
+      "Visit the official <a href=\"https://nubit.org\" target=\"_blank\" rel=\"noopener noreferrer\">Nubit Project Portal</a>.",
+      "Connect your Bitcoin wallet (UniSat, OKX Web3, or Xverse).",
+      "Enter the \"Community Matrix\" hub and complete onboarding identity tasks.",
+      "Download and run the one-click Nubit Light Node to verify data availability locally.",
+      "Maintain node uptime to earn continuous daily Matrix Point distributions.",
+      "Interact with featured ecosystem partner rollups and testnet applications.",
+      "Complete social verification tasks on the Nubit Galxe and Discord channels.",
+      "Track your ranking on the Matrix Leaderboard ahead of the $NUBIT token generation."
+    ],
+    "faqs": [
+      {
+        "question": "What is Nubit?",
+        "answer": "Nubit is the premier Bitcoin-native Data Availability layer that enables scalable rollups and applications directly on Bitcoin."
+      },
+      {
+        "question": "Who invested in Nubit?",
+        "answer": "Nubit raised $12M across rounds led by Polychain Capital, alongside Tribe Capital, Nomad Capital, and Spartan Group."
+      },
+      {
+        "question": "Can I run a Nubit Light Node on my personal computer?",
+        "answer": "Yes! The Nubit Light Node requires minimal CPU and RAM and can run smoothly on any personal laptop or low-cost cloud VPS."
+      },
+      {
+        "question": "What are Matrix Points?",
+        "answer": "Matrix Points measure user engagement, node uptime, and community contributions, converting directly into $NUBIT token rewards."
+      },
+      {
+        "question": "Does Nubit require real Bitcoin gas fees?",
+        "answer": "No, participating in the Alpha Testnet and running a light node is completely free."
+      },
+      {
+        "question": "How does Nubit secure data availability on Bitcoin?",
+        "answer": "Nubit utilizes Data Availability Sampling (DAS) combined with Bitcoin timestamping and cryptographic commitments on Bitcoin Layer 1."
+      }
+    ]
+  },
+  {
+    "id": "aethir",
+    "name": "Aethir",
+    "logo": "/images/airdrops/aethir.svg",
+    "description": "Enterprise-grade decentralized GPU cloud infrastructure (DePIN) powering AI and cloud gaming with $150M+ in ecosystem value, backed by Framework & HashKey.",
+    "reward": "Aethir Cloud Drop Season 3 & $ATH Staking Rewards",
+    "category": "DePIN / AI Compute / Cloud GPU",
+    "featured": true,
+    "status": "active",
+    "publishDate": "2026-10-18",
+    "endTime": "2026-12-31T23:59:59Z",
+    "funding": "$9.0M+ Funding ($150M Node Sale)",
+    "investors": "Framework Ventures, Sanctor Capital, HashKey Capital, Mirana Ventures, Animoca Brands",
+    "refLink": "https://aethir.com",
+    "overview": "Aethir is the market-leading enterprise decentralized cloud computing infrastructure (DePIN) network revolutionizing access to enterprise-grade GPUs (NVIDIA H100s, A100s, and RTX 4090s). With global demand for AI model training, inferencing, and cloud gaming skyrocketing, centralized cloud providers like AWS and Google Cloud suffer from severe GPU shortages and exorbitant markups. Aethir aggregates enterprise-grade idle GPUs from telecom giants and data centers globally into a unified, low-latency decentralized compute pool.\n\nAethir achieved massive industry prominence with over $150 Million in Checker Node sales, supported by venture funding from Framework Ventures, Sanctor Capital, and HashKey Capital. Aethir currently commands tens of thousands of top-tier GPUs actively serving enterprise AI clients.\n\nFollowing its explosive initial token distribution, Aethir launched \"Cloud Drop Season 3\"—rewarding active $ATH stakers, Checker Node delegators, and community ecosystem contributors with ongoing millions of $ATH token rewards.",
+    "tokenomics": "The $ATH token is the native utility asset paying for GPU computing power, rewarding Checker Node operators, and powering decentralized governance and staking yield pools.",
+    "sybilSafety": "Aethir utilizes enterprise hardware telemetry, staking locks, and KYC verification on node operators to guarantee authentic, high-value ecosystem participation.",
+    "strategy": "Stake $ATH tokens in the official Aethir Staking portal (ath.aethir.com), delegate Checker Node licenses to certified node pools, and complete social quests on Galxe.",
+    "steps": [
+      "Visit the official <a href=\"https://aethir.com\" target=\"_blank\" rel=\"noopener noreferrer\">Aethir DePIN Portal</a>.",
+      "Connect your Web3 wallet on the Arbitrum or Ethereum network.",
+      "Acquire $ATH tokens and navigate to the official Aethir Staking Hub.",
+      "Stake $ATH in flexible or locked pools to earn native staking APR and Cloud Drop tickets.",
+      "Delegate your Aethir Checker Node licenses to high-reputation node operators.",
+      "Complete ecosystem partner missions across gaming and AI dApps on the Aethir dashboard.",
+      "Participate in community governance votes to qualify for partner token airdrops.",
+      "Claim your Season 3 $ATH reward allocations during monthly claim windows."
+    ],
+    "faqs": [
+      {
+        "question": "What is Aethir?",
+        "answer": "Aethir is an enterprise decentralized cloud computing network (DePIN) aggregating high-end NVIDIA GPUs for AI model training and cloud gaming."
+      },
+      {
+        "question": "Who invested in Aethir?",
+        "answer": "Aethir raised $9M+ from Framework Ventures, Sanctor Capital, and HashKey Capital, alongside selling $150M+ in Checker Nodes."
+      },
+      {
+        "question": "What is Aethir Cloud Drop Season 3?",
+        "answer": "Season 3 is Aethir's ongoing rewards season distributing $ATH tokens to active stakers, node delegators, and community members."
+      },
+      {
+        "question": "What GPUs does Aethir offer?",
+        "answer": "Aethir hosts enterprise NVIDIA H100s, A100s, L40Ss, and high-performance consumer RTX series across distributed global data centers."
+      },
+      {
+        "question": "Can I stake $ATH tokens on Layer 2?",
+        "answer": "Yes! Aethir staking is natively hosted on Arbitrum for minimal transaction fees."
+      },
+      {
+        "question": "What are Checker Nodes?",
+        "answer": "Checker Nodes verify the computational integrity and service quality of GPU providers on the Aethir network."
+      }
+    ]
+  },
+  {
+    "id": "bouncebit",
+    "name": "BounceBit",
+    "logo": "/images/airdrops/bouncebit.svg",
+    "description": "The premier CeDeFi (Centralized-Decentralized Finance) Bitcoin restaking Layer 1 backed by Blockchain Capital and Binance Labs.",
+    "reward": "BounceBit Water Margin Points & $BB Restaking Rewards",
+    "category": "Bitcoin Restaking / CeDeFi / Layer 1",
+    "featured": true,
+    "status": "active",
+    "publishDate": "2026-10-18",
+    "endTime": "2026-11-30T23:59:59Z",
+    "funding": "$6.0M Raised + Binance Labs Backed",
+    "investors": "Blockchain Capital, Breyer Capital, Binance Labs, CMS Holdings, Bankless Ventures",
+    "refLink": "https://bouncebit.io",
+    "overview": "BounceBit is the pioneering CeDeFi (Centralized-Decentralized Finance) Layer 1 blockchain engineered specifically for Bitcoin restaking. While traditional Bitcoin lies dormant in cold storage without earning yield, BounceBit combines regulated centralized custody (Mainnet Digital and Ceffu) with decentralized EVM smart contract execution. Users deposit BTC to mint bounceBTC ($BBTC), generating native yields from funding rate arbitrage while simultaneously securing the Proof-of-Stake consensus of the BounceBit Layer 1 chain.\n\nBounceBit raised $6 Million in venture funding led by Blockchain Capital and Breyer Capital, alongside a strategic investment and listing incubation by Binance Labs. BounceBit introduces a unique dual-token PoS consensus secured by both native $BB and restaked $BTC.\n\nBounceBit is running ongoing CeDeFi campaigns, allowing users to deposit BTC, USDT, or FDUSD to earn institutional arbitrage yields, BounceBit points, and ecosystem partner token drops.",
+    "tokenomics": "The $BB token is the native gas token of the BounceBit PoS chain, participating in dual-token validator staking, CeDeFi club governance, and transaction fee rebates.",
+    "sybilSafety": "BounceBit enforces capital-backed regulated custody and on-chain restaking verification, insulating points and rewards from automated sybil exploits.",
+    "strategy": "Stake BTC, BBTC, or stablecoins in BounceBit CeDeFi vaults, delegate native $BB tokens to top PoS validators, and interact with the BounceBit App Store.",
+    "steps": [
+      "Visit the official <a href=\"https://bouncebit.io\" target=\"_blank\" rel=\"noopener noreferrer\">BounceBit CeDeFi Portal</a>.",
+      "Connect your Web3 wallet (MetaMask, Rabby, or Binance Web3 Wallet).",
+      "Deposit supported assets (BTC, WBTC, BTCB, USDT, or FDUSD) into BounceBit CeDeFi vaults.",
+      "Mint $BBTC and participate in the dual-token Proof-of-Stake validator delegation.",
+      "Stake native $BB tokens to earn baseline network staking APR and governance weight.",
+      "Explore the BounceBit App Store and use native decentralized applications.",
+      "Participate in community quests and liquidity events to boost your reward tiers.",
+      "Claim your accumulated staking yields and CeDeFi partner distributions on the dashboard."
+    ],
+    "faqs": [
+      {
+        "question": "What is BounceBit?",
+        "answer": "BounceBit is a CeDeFi Bitcoin restaking Layer 1 blockchain secured by both Bitcoin and the native $BB token."
+      },
+      {
+        "question": "Who invested in BounceBit?",
+        "answer": "BounceBit raised $6M led by Blockchain Capital and Breyer Capital, with strategic backing from Binance Labs."
+      },
+      {
+        "question": "What is CeDeFi?",
+        "answer": "CeDeFi combines the safety and deep yield generation of regulated institutional custody with the transparency of decentralized smart contracts."
+      },
+      {
+        "question": "What is $BBTC?",
+        "answer": "$BBTC is BounceBit's liquid restaked Bitcoin token that compounds delta-neutral funding arbitrage yields on-chain."
+      },
+      {
+        "question": "Can I withdraw my deposited BTC?",
+        "answer": "Yes! Deposited funds can be redeemed back to their origin chains (Ethereum, BNB Chain, or Bitcoin) through regulated custody channels."
+      },
+      {
+        "question": "How does dual-token staking work on BounceBit?",
+        "answer": "Validators must stake both $BB and $BBTC, ensuring Bitcoin directly contributes to network consensus and security."
+      }
+    ]
+  },
+  {
+    "id": "talus",
+    "name": "Talus Network",
+    "logo": "/images/airdrops/talus.svg",
+    "description": "The high-throughput blockchain for autonomous AI agents and verifiable on-chain decision making on Move, backed by $6M led by Polychain Capital.",
+    "reward": "Talus Genesis Points & $TALUS Token Distribution",
+    "category": "AI Agents / Move / Smart Contracts",
+    "featured": true,
+    "status": "active",
+    "publishDate": "2026-10-18",
+    "endTime": "2026-12-31T23:59:59Z",
+    "funding": "$6.0M Raised",
+    "investors": "Polychain Capital, dao5, Hash3, Animoca Brands, Foresight Ventures, Symbolic Capital",
+    "refLink": "https://talus.network",
+    "overview": "Talus Network is the premier decentralized platform engineered specifically for autonomous on-chain Artificial Intelligence (AI) agents. While traditional smart contracts are deterministic and passive, Talus introduces \"Smart Agents\"—autonomous programs capable of perceiving on-chain environments, managing crypto wallets, executing complex multi-step DeFi transactions, and coordinating with other agents without human intervention.\n\nBuilt on the lightning-fast Move programming language and CosmWasm consensus, Talus provides formal verification, parallel execution, and native cryptographic safety designed for AI-driven financial workflows. Talus raised $6 Million in funding led by heavyweight crypto fund Polychain Capital, with participation from dao5 and Animoca Brands.\n\nThrough its Genesis Testnet and \"Talus Hub\" campaign, users interact with autonomous AI agents, deploy custom AI workflows, and earn Talus Points qualifying for the upcoming $TALUS token airdrop.",
+    "tokenomics": "The $TALUS token powers autonomous AI agent transaction gas, pays for off-chain inference oracle feeds, secures Proof-of-Stake consensus, and governs agent registry standards.",
+    "sybilSafety": "Talus evaluates authentic Move smart contract deployments, unique AI agent interaction loops, and social graph authentication to filter out automated bots.",
+    "strategy": "Add Talus Testnet to your wallet, claim testnet tokens from the faucet, interact with autonomous AI agents on the Talus Hub, deploy an agent workflow, and complete Galxe tasks.",
+    "steps": [
+      "Visit the official <a href=\"https://talus.network\" target=\"_blank\" rel=\"noopener noreferrer\">Talus Network Hub</a>.",
+      "Connect your Web3 wallet and add the Talus Genesis Testnet RPC settings.",
+      "Request free testnet tokens from the official Talus faucet.",
+      "Navigate to the \"Talus Agent Hub\" and interact with live AI trading and social agents.",
+      "Deploy or customize your own automated smart agent using the Talus developer studio.",
+      "Execute cross-agent swaps and automated liquidity rebalancing on the testnet.",
+      "Complete community missions on the official Talus Galxe and Discord channels.",
+      "Monitor your Genesis activity score ahead of the $TALUS Token Generation Event."
+    ],
+    "faqs": [
+      {
+        "question": "What is Talus Network?",
+        "answer": "Talus is a Move-based blockchain built to enable autonomous AI agents to manage crypto assets and execute on-chain decisions."
+      },
+      {
+        "question": "Who invested in Talus Network?",
+        "answer": "Talus raised $6M led by Polychain Capital, with backing from dao5, Hash3, and Animoca Brands."
+      },
+      {
+        "question": "Why does Talus use the Move language?",
+        "answer": "Move treats assets as first-class resources and offers formal verification, preventing exploits and bugs in autonomous AI agent logic."
+      },
+      {
+        "question": "What are Smart Agents on Talus?",
+        "answer": "Smart Agents are AI-powered smart contracts that can autonomously monitor market conditions and trade on decentralized exchanges."
+      },
+      {
+        "question": "Is participating in the Talus testnet free?",
+        "answer": "Yes, 100% free. All tasks run on the Talus Genesis testnet using free faucet tokens."
+      },
+      {
+        "question": "When will the $TALUS token launch?",
+        "answer": "The Talus Network Mainnet launch and $TALUS token generation are scheduled for late 2026."
+      }
+    ]
+  },
+  {
+    "id": "kroma",
+    "name": "Kroma",
+    "logo": "/images/airdrops/kroma.svg",
+    "description": "The premier modular Ethereum Layer 2 powered by ZK Fault Proofs and transitioning to zkEVM, backed by $10M+ from Lightscale and gaming titan Wemade.",
+    "reward": "Kroma Spectrum Points, Prover Rewards & $KRO Airdrop",
+    "category": "Layer 2 / Modular zkEVM / Gaming",
+    "featured": true,
+    "status": "active",
+    "publishDate": "2026-10-18",
+    "endTime": "2026-11-30T23:59:59Z",
+    "funding": "$10.0M+ Raised",
+    "investors": "Lightscale, Wemade, Skynet Trading, Ceras Ventures, Presto Labs",
+    "refLink": "https://kroma.network",
+    "overview": "Kroma is the first modular Ethereum Layer 2 rollup with an active ZK Fault Proof system, developed by Lightscale and incubated by global gaming titan Wemade. While traditional optimistic rollups suffer from a lengthy 7-day challenge window for withdrawals, Kroma combines the speed and developer ergonomics of Optimistic rollups with the lightning-fast settlement of Zero-Knowledge proofs, drastically shortening dispute windows.\n\nKroma is actively transitioning into a universal Type-2 zkEVM, cementing itself as the primary gaming and consumer hub of Asia and the broader Web3 ecosystem. Kroma raised over $10 Million from institutional venture investors and has processed millions of on-chain transactions.\n\nKroma is running the \"Kroma Spectrum\" rewards program and Prover network incentives. Users bridging ETH, interacting with native gaming and DeFi dApps, and generating ZK dispute proofs earn Kroma Points that convert into native $KRO tokens.",
+    "tokenomics": "The $KRO token powers decentralized sequencer staking, ZK prover fee compensation, network gas rebates, and Kroma DAO governance.",
+    "sybilSafety": "Kroma uses on-chain transaction diversity, proof generation telemetry, and Wemade ecosystem gaming verification to eliminate empty bot accounts.",
+    "strategy": "Bridge ETH to Kroma Mainnet via the canonical bridge, swap on Kroma DEXs, play featured ecosystem games, and participate in Kroma Spectrum quests on kroma.network.",
+    "steps": [
+      "Visit the official <a href=\"https://kroma.network\" target=\"_blank\" rel=\"noopener noreferrer\">Kroma Network Portal</a>.",
+      "Connect your Web3 wallet (MetaMask, Rabby, or OKX Wallet).",
+      "Bridge ETH from Ethereum mainnet to Kroma using the official Kroma Bridge or Owlto.",
+      "Swap tokens and provide liquidity on native Kroma DEXs (iZiSwap, Superbridge).",
+      "Play featured ecosystem gaming dApps deployed on Kroma to earn daily activity points.",
+      "Mint official Kroma Genesis NFTs and community achievement badges.",
+      "Complete ecosystem partner challenges on the Kroma Spectrum quest dashboard.",
+      "Track your point standing and claim your $KRO token allocation upon season conclusion."
+    ],
+    "faqs": [
+      {
+        "question": "What is Kroma Network?",
+        "answer": "Kroma is an Ethereum Layer 2 rollup utilizing ZK Fault Proofs to dramatically speed up withdrawal times and optimize gaming throughput."
+      },
+      {
+        "question": "Who backs Kroma?",
+        "answer": "Kroma was developed by Lightscale and is backed by $10M+ from gaming powerhouse Wemade, Skynet Trading, and Presto Labs."
+      },
+      {
+        "question": "How do ZK Fault Proofs work on Kroma?",
+        "answer": "Instead of waiting 7 days for fraud challenges, Kroma uses zero-knowledge validity proofs to resolve disputes on Ethereum in hours."
+      },
+      {
+        "question": "What is Kroma Spectrum?",
+        "answer": "Kroma Spectrum is the official community rewards campaign distributing points to active dApp users and liquidity providers."
+      },
+      {
+        "question": "Are transaction fees cheap on Kroma?",
+        "answer": "Yes! Kroma implements EIP-4844 Ethereum blobs, reducing gas fees to less than one cent per transaction."
+      },
+      {
+        "question": "When is the $KRO token generation event?",
+        "answer": "The $KRO token launch and retroactive airdrop distribution are scheduled for Q4 2026."
+      }
+    ]
+  },
+  {
+    "id": "zeta-markets",
+    "name": "Zeta Markets",
+    "logo": "/images/airdrops/zeta-markets.svg",
+    "description": "High-performance decentralized perpetual exchange on Solana and creators of the ZX Layer 2 rollup, backed by $8.5M from Jump Capital & Electric Capital.",
+    "reward": "Z-Score Season 3 & $Z Token Staking Multipliers",
+    "category": "Solana Perps / ZX Layer 2 / DeFi",
+    "featured": true,
+    "status": "active",
+    "publishDate": "2026-10-18",
+    "endTime": "2026-12-15T23:59:59Z",
+    "funding": "$8.5M Raised",
+    "investors": "Jump Capital, Electric Capital, Wintermute, Solana Ventures, Airtree, Amber Group",
+    "refLink": "https://dex.zeta.markets",
+    "overview": "Zeta Markets is the premier institutional-grade decentralized perpetual contracts exchange on the Solana blockchain, processing over $10 Billion in cumulative trading volume. Delivering sub-second order book execution, deep liquidity, and up to 50x leverage across SOL, BTC, ETH, and trending crypto assets, Zeta provides the performance of a centralized exchange with the non-custodial security of DeFi.\n\nTo push the boundaries of decentralized throughput, Zeta Markets developed \"ZX\"—the first DeFi-centric Layer 2 scaling solution on Solana, enabling micro-second execution and zero gas fees for trading strategies. Zeta raised $8.5 Million from tier-1 crypto venture capital firms Jump Capital, Electric Capital, and Wintermute.\n\nFollowing its landmark $Z Token Generation Event, Zeta Markets is operating \"Z-Score Season 3\"—rewarding active perpetual traders, market makers, and $Z token stakers with continuous ongoing token rewards and trading fee discounts.",
+    "tokenomics": "The $Z token serves as the governance and economic foundation of Zeta Markets and ZX L2, enabling staking yield boosters, trading fee discounts, and protocol fee buybacks.",
+    "sybilSafety": "Zeta calculates points strictly based on real trading volume, taker fees paid, and time-weighted open interest, preventing zero-capital bot manipulation.",
+    "strategy": "Trade perpetual contracts on dex.zeta.markets, provide liquidity in market making vaults, stake native $Z tokens to unlock VIP fee tiers, and climb the Z-Score leaderboard.",
+    "steps": [
+      "Visit the official <a href=\"https://dex.zeta.markets\" target=\"_blank\" rel=\"noopener noreferrer\">Zeta Markets Portal</a>.",
+      "Connect your Solana Web3 wallet (Phantom, Solflare, or Backpack).",
+      "Deposit USDC into your Zeta cross-margin trading collateral account.",
+      "Execute long or short trades across major perpetual pairs (SOL, BTC, ETH, WIF) with leverage.",
+      "Stake native $Z tokens in the governance staking portal to unlock points multipliers.",
+      "Deposit funds into automated market-making vaults to earn passive yields and LP rewards.",
+      "Participate in seasonal trading competitions to win prize pool allocations.",
+      "Claim your ongoing Season 3 $Z token reward distributions on the rewards dashboard."
+    ],
+    "faqs": [
+      {
+        "question": "What is Zeta Markets?",
+        "answer": "Zeta Markets is a high-speed decentralized perpetuals DEX on Solana featuring deep liquidity and central limit order book execution."
+      },
+      {
+        "question": "Who invested in Zeta Markets?",
+        "answer": "Zeta raised $8.5M from investors including Jump Capital, Electric Capital, Wintermute, and Solana Ventures."
+      },
+      {
+        "question": "What is ZX?",
+        "answer": "ZX is the first dedicated DeFi Layer 2 rollup built on Solana, developed by Zeta to achieve sub-millisecond perps execution."
+      },
+      {
+        "question": "What is the utility of the $Z token?",
+        "answer": "$Z powers protocol governance, provides up to 50% trading fee discounts, and earns staking yield from protocol revenues."
+      },
+      {
+        "question": "What leverage can I trade with on Zeta?",
+        "answer": "Traders can trade major cryptocurrency perpetual contracts with up to 50x leverage."
+      },
+      {
+        "question": "How do I earn the most Z-Score points?",
+        "answer": "Z-Score is awarded based on taker volume and open interest; staking $Z multiplies your points generation rate."
+      }
+    ]
+  },
+  {
+    "id": "avantis",
+    "name": "Avantis",
+    "logo": "/images/airdrops/avantis.svg",
+    "description": "Advanced synthetics and decentralized perpetual contracts DEX on Base Layer 2, backed by $4M from Pantera Capital and Peter Thiel's Founders Fund.",
+    "reward": "Avantis XP Season 2 & $AVNT Governance Allocation",
+    "category": "Base L2 / Synthetics / Perps DEX",
+    "featured": true,
+    "status": "active",
+    "publishDate": "2026-10-18",
+    "endTime": "2026-12-31T23:59:59Z",
+    "funding": "$4.0M Seed Round",
+    "investors": "Pantera Capital, Founders Fund, Galaxy Digital, Base Ecosystem Fund, Modular Capital",
+    "refLink": "https://avantisfi.com",
+    "overview": "Avantis is the premier decentralized perpetual contracts and synthetic assets trading protocol built natively on Coinbase's Base Layer 2. While traditional DEXs restrict trading exclusively to crypto pairs, Avantis introduces universal synthetic liquidity: users can trade crypto (BTC, ETH, SOL), foreign exchange currencies (EUR/USD, GBP/USD), and real-world commodities (Gold, Silver, Crude Oil) with up to 100x leverage directly on-chain.\n\nAvantis operates on an innovative risk-tranche liquidity model (Avantis Liquidity Pools / ALP), allowing liquidity providers to choose their risk and reward parameters. Avantis raised $4 Million in seed funding led by Pantera Capital and Founders Fund, with direct strategic participation from Coinbase's Base Ecosystem Fund.\n\nAvantis is currently running \"Avantis XP Season 2\"—rewarding traders, liquidity providers, and community members with Avantis XP that determines eligibility for the upcoming $AVNT token distribution.",
+    "tokenomics": "The upcoming $AVNT token governs the Avantis protocol, directs protocol fee buybacks, determines risk-tier parameters for synthetic assets, and incentivizes liquidity providers.",
+    "sybilSafety": "Avantis measures real USDC volume traded, net fees generated, and time-weighted ALP deposits, ensuring points accrue to legitimate capital commitments.",
+    "strategy": "Bridge USDC to Base network, trade crypto, forex, and commodity perpetuals on avantisfi.com, deposit USDC into junior/senior ALP vaults, and complete weekly XP quests.",
+    "steps": [
+      "Visit the official <a href=\"https://avantisfi.com\" target=\"_blank\" rel=\"noopener noreferrer\">Avantis Finance Portal</a>.",
+      "Connect your Web3 wallet and switch to the Base Layer 2 network.",
+      "Deposit USDC into your Avantis margin trading balance.",
+      "Open long or short leveraged positions on crypto, foreign exchange (Forex), or commodity indices.",
+      "Deposit USDC into Avantis Liquidity Pools (ALP) to earn trading fee APR and passive LP XP.",
+      "Maintain active open trading positions to collect time-weighted volume points.",
+      "Complete partner quests and trading milestones on the Avantis XP leaderboard.",
+      "Qualify for the upcoming $AVNT governance token airdrop snapshot."
+    ],
+    "faqs": [
+      {
+        "question": "What is Avantis?",
+        "answer": "Avantis is a decentralized synthetics and perpetual DEX on Base, enabling leveraged trading across crypto, forex, and commodities."
+      },
+      {
+        "question": "Who invested in Avantis?",
+        "answer": "Avantis raised $4M from Pantera Capital, Peter Thiel's Founders Fund, Galaxy Digital, and the Base Ecosystem Fund."
+      },
+      {
+        "question": "What assets can I trade on Avantis?",
+        "answer": "You can trade cryptocurrencies, major foreign exchange pairs (EUR/USD, JPY/USD), and commodities like Gold and Oil with up to 100x leverage."
+      },
+      {
+        "question": "What are Avantis Liquidity Pools (ALP)?",
+        "answer": "ALP allows users to deposit USDC to act as the counterparty to traders, earning trading fees and high APY yields."
+      },
+      {
+        "question": "What are Avantis XP?",
+        "answer": "Avantis XP are loyalty reward points earned by trading, providing liquidity, and referring users, converting into $AVNT tokens."
+      },
+      {
+        "question": "Are gas fees low on Avantis?",
+        "answer": "Yes! Because Avantis is built on Base Layer 2, opening and closing positions costs pennies in gas fees."
+      }
+    ]
+  },
+  {
+    "id": "rivalz",
+    "name": "Rivalz Network",
+    "logo": "/images/airdrops/rivalz.svg",
+    "description": "AI-driven DePIN Rollup for trusted data intelligence and compliant AI agent coordination, backed by $9M from Delphi Ventures & Mechanism Capital.",
+    "reward": "rClient Node Points, Intel Fragments & $RIZ Token Airdrop",
+    "category": "AI DePIN / Modular Rollup / Dymension",
+    "featured": true,
+    "status": "active",
+    "publishDate": "2026-10-18",
+    "endTime": "2026-12-15T23:59:59Z",
+    "funding": "$9.0M Raised",
+    "investors": "Delphi Ventures, Mechanism Capital, Cogitent Ventures, Mask Network, D1 Ventures",
+    "refLink": "https://rivalz.ai",
+    "overview": "Rivalz Network is the first AI-driven DePIN Rollup engineered to create a verifiable, privacy-preserving Data Intelligence Layer for artificial intelligence. Today's AI models suffer from massive hallucinations, data contamination, and intellectual property theft. Rivalz introduces an ecosystem of modular rollups (built with Dymension and Celestia) and decentralized node infrastructure where data is validated, encrypted, and syndicated for autonomous AI agent consumption.\n\nRivalz operates the \"rClient\"—a lightweight, decentralized desktop node software that allows everyday users to share idle disk space and computational power to store and validate AI datasets, earning passive cryptocurrency rewards.\n\nBacked by $9 Million from leading crypto venture firms Delphi Ventures and Mechanism Capital, Rivalz is running its Incentivized Testnet. Users running rClient nodes, minting Data Fragments, and interacting with AI Intel hubs accumulate points toward the $RIZ token generation event.",
+    "tokenomics": "The $RIZ token serves as the native gas asset of the Rivalz RollApp, compensates rClient node operators for storage and validation, and powers data licensing fees.",
+    "sybilSafety": "Rivalz verifies hardware specs, residential network latency, and cryptographic proof-of-storage validations on rClient nodes to filter out emulated bots.",
+    "strategy": "Download and run the rClient node on your PC or Mac, complete social verification tasks on rivalz.ai, mint Data Fragment NFTs, and invite community members.",
+    "steps": [
+      "Visit the official <a href=\"https://rivalz.ai\" target=\"_blank\" rel=\"noopener noreferrer\">Rivalz Network Portal</a>.",
+      "Connect your Web3 wallet and create your decentralized AI profile.",
+      "Download and install the official \"rClient\" software for Windows, macOS, or Linux.",
+      "Allocate unused hard drive space (10GB-50GB) to the rClient to begin validating AI data.",
+      "Keep your node active to continuously earn daily Data Points and Intel Fragments.",
+      "Mint your free early adopter Identity NFT on the Rivalz dashboard.",
+      "Complete community quests on the Rivalz Galxe and Zealy campaign boards.",
+      "Redeem your accumulated points and Intel Fragments for $RIZ tokens at TGE."
+    ],
+    "faqs": [
+      {
+        "question": "What is Rivalz Network?",
+        "answer": "Rivalz is an AI DePIN Rollup creating a decentralized, verified data intelligence infrastructure for AI models and autonomous agents."
+      },
+      {
+        "question": "Who invested in Rivalz?",
+        "answer": "Rivalz raised $9M led by Delphi Ventures and Mechanism Capital, with backing from Mask Network and Cogitent Ventures."
+      },
+      {
+        "question": "What is the rClient?",
+        "answer": "The rClient is a lightweight desktop node software that lets users share unused storage space to store and validate AI datasets."
+      },
+      {
+        "question": "Does the rClient slow down my computer?",
+        "answer": "No! The rClient runs passively in the background using minimal CPU and only the disk space you explicitly allocate."
+      },
+      {
+        "question": "Is participating in Rivalz free?",
+        "answer": "Yes, 100% free. No cryptocurrency purchases or staking are required to earn points running the rClient."
+      },
+      {
+        "question": "When is the $RIZ token launch?",
+        "answer": "The Rivalz Network mainnet and $RIZ Token Generation Event are scheduled for late 2026."
+      }
+    ]
   }
 ];

@@ -1,0 +1,17 @@
+<svg viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="100" height="100" rx="24" fill="#0B130E"/>
+  <circle cx="50" cy="50" r="34" fill="url(#bounce_glow)" fill-opacity="0.2"/>
+  <path d="M30 40C30 30 40 24 50 24C60 24 70 30 70 40C70 48 64 54 56 56C66 58 72 65 72 74C72 84 62 90 50 90C38 90 28 84 28 74" stroke="url(#bounce_grad)" stroke-width="6" stroke-linecap="round"/>
+  <circle cx="50" cy="40" r="6" fill="#14F195"/>
+  <circle cx="50" cy="74" r="6" fill="#F7931A"/>
+  <defs>
+    <linearGradient id="bounce_grad" x1="28" y1="24" x2="72" y2="90" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#14F195"/>
+      <stop offset="1" stop-color="#F7931A"/>
+    </linearGradient>
+    <radialGradient id="bounce_glow" cx="50" cy="50" r="34" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#14F195"/>
+      <stop offset="1" stop-color="#0B130E" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+</svg>
