@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" fill="none">
+  <defs>
+    <linearGradient id="morphoGrad" x1="20" y1="20" x2="108" y2="108" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#2563EB" />
+      <stop offset="50%" stop-color="#0284C7" />
+      <stop offset="100%" stop-color="#38BDF8" />
+    </linearGradient>
+  </defs>
+  <rect width="128" height="128" rx="28" fill="#0A0F1D" />
+  <!-- Morpho Butterfly Wing Geometry -->
+  <path d="M64 36C52 24 32 30 32 50C32 68 64 92 64 92C64 92 96 68 96 50C96 30 76 24 64 36Z" fill="url(#morphoGrad)" />
+  <circle cx="48" cy="50" r="6" fill="#FFFFFF" fill-opacity="0.85" />
+  <circle cx="80" cy="50" r="6" fill="#FFFFFF" fill-opacity="0.85" />
+  <line x1="64" y1="36" x2="64" y2="92" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round" />
+</svg>

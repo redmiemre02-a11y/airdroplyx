@@ -9315,5 +9315,735 @@ export const airdrops: Airdrop[] = [
         "answer": "Renegade matches trades directly at the real-time midpoint price sourced from institutional feeds without taking bid-ask spread."
       }
     ]
+  },
+
+  {
+    "id": "citrea",
+    "name": "Citrea",
+    "category": "Layer 2",
+    "tier": "Tier 1",
+    "status": "Active",
+    "stage": "Testnet",
+    "potentialReward": "$1,200 - $7,000",
+    "cost": "Free (Testnet Faucet)",
+    "timeRequired": "15 mins / weekly",
+    "platform": "Web / Bitcoin & EVM",
+    "description": "The first Zero-Knowledge Rollup on Bitcoin utilizing BitVM to settle validity proofs directly on Bitcoin Layer 1, backed by $16.7M from Founders Fund and Galaxy.",
+    "logo": "/images/airdrops/citrea.svg",
+    "refLink": "https://citrea.xyz",
+    "tags": [
+      "Bitcoin L2",
+      "ZK Rollup",
+      "BitVM",
+      "Founders Fund",
+      "Type-2 zkEVM",
+      "Tier 1"
+    ],
+    "featured": true,
+    "startDate": "Feb 2024",
+    "endDate": "Q4 2025",
+    "requirements": [
+      "EVM Wallet (MetaMask, Rabby)",
+      "Citrea Public Testnet RPC",
+      "Testnet cBTC Faucet Tokens",
+      "Bridge & Swap Interactions"
+    ],
+    "overview": "Citrea is the first modular Zero-Knowledge Rollup to scale Bitcoin natively without sacrificing its fundamental decentralization or security principles. Powered by BitVM and built by Chainway, Citrea executes transactions off-chain inside an EVM-equivalent Type-2 zkEVM environment, batching thousands of transactions into succinct recursive zero-knowledge validity proofs that are verified and settled directly on Bitcoin’s base layer.\n\nCitrea secured $16.7 Million in venture capital across funding rounds led by Peter Thiel’s Founders Fund, with participation from Galaxy Digital, Delphi Ventures, and prominent Bitcoin ecosystem angel investors. Citrea solves Bitcoin’s expressive smart contract bottleneck by treating Bitcoin L1 as the ultimate settlement and data availability anchor while enabling full DeFi composability with $cBTC.\n\nThe project is currently conducting the Citrea Public Testnet. Community members, liquidity testers, and developers who bridge testnet Bitcoin (tBTC) into cBTC, deploy contracts, test lending protocols, and complete Citrea Origins community quests are primed for the native token genesis distribution.",
+    "tokenomics": "Citrea’s future decentralized rollup architecture requires a native utility and governance token to decentralize sequencer block proposal, incentivize zero-knowledge prover clusters, coordinate BitVM optimistic challenge peg-out relayers, and govern network parameters through the Citrea DAO.",
+    "sybilDefense": "Citrea tracks unique wallet deployment telemetry and faucet interaction graphs. Sybil farming swarms that cycle faucet dust through identical automated scripts without engaging with real DeFi smart contracts on the testnet are filtered out during snapshot qualification.",
+    "strategy": "To position for maximum Citrea genesis airdrop allocations:\n\n1. Add the Citrea Testnet RPC to your EVM wallet and request testnet cBTC through the official Citrea Faucet.\n2. Utilize the Citrea Testnet Bridge to deposit and withdraw mock Bitcoin between Bitcoin testnet and Citrea.\n3. Execute recurring swaps and liquidity provision on native Citrea testnet decentralized exchanges.\n4. Complete official developer tutorials, deploy a simple smart contract, and claim verified community roles in the Citrea Discord.",
+    "steps": [
+      "Navigate to the official <a href=\"https://citrea.xyz\" target=\"_blank\" rel=\"noopener noreferrer\">Citrea Portal</a> and review the BitVM rollup architecture.",
+      "Add the Citrea Testnet network configuration to your EVM wallet via the <a href=\"https://docs.citrea.xyz\" target=\"_blank\" rel=\"noopener noreferrer\">Citrea Documentation</a>.",
+      "Request testnet Bitcoin funds using the official <a href=\"https://citrea.xyz/bridge\" target=\"_blank\" rel=\"noopener noreferrer\">Citrea Faucet</a>.",
+      "Bridge mock Bitcoin from the testnet into Citrea cBTC using the <a href=\"https://citrea.xyz/bridge\" target=\"_blank\" rel=\"noopener noreferrer\">Citrea Bridge</a>.",
+      "Perform token swaps between cBTC and test tokens on ecosystem testnet DEXs.",
+      "Supply liquidity into automated market maker pools on the Citrea testnet.",
+      "Deploy a verified test smart contract on Citrea using Remix or Hardhat.",
+      "Join the Citrea Discord community and submit your testnet transaction hashes for community role verification."
+    ],
+    "faqs": [
+      {
+        "question": "What is Citrea and why is it unique?",
+        "answer": "Citrea is the first true ZK Rollup for Bitcoin that settles on Bitcoin Layer 1 using BitVM paradigm for trust-minimized bridge verification."
+      },
+      {
+        "question": "Who invested in Citrea?",
+        "answer": "Citrea raised $16.7M led by Peter Thiel’s Founders Fund, with backing from Galaxy Digital, Delphi Digital, and prominent crypto angels."
+      },
+      {
+        "question": "Is the Citrea testnet free to use?",
+        "answer": "Yes, Citrea is completely free to participate in using testnet Bitcoin and faucet cBTC."
+      },
+      {
+        "question": "What is cBTC?",
+        "answer": "cBTC is the native gas and currency asset of Citrea, backed 1:1 by Bitcoin bridged through trust-minimized BitVM bridges."
+      },
+      {
+        "question": "Does Citrea support Ethereum smart contracts?",
+        "answer": "Yes, Citrea is fully EVM-equivalent, meaning any Solidity contract or Ethereum developer tool (MetaMask, Hardhat, Foundry) works seamlessly."
+      },
+      {
+        "question": "When is Citrea mainnet expected to launch?",
+        "answer": "Citrea is targeting its public mainnet launch in 2025 following extensive security audits of its BitVM prover circuits."
+      }
+    ]
+  },
+
+  {
+    "id": "morpho",
+    "name": "Morpho",
+    "category": "DeFi",
+    "tier": "Tier 1",
+    "status": "Active",
+    "stage": "Mainnet",
+    "potentialReward": "$1,500 - $8,500",
+    "cost": "Gas fees (~$5 - $20 on Ethereum/Base)",
+    "timeRequired": "10 mins / weekly",
+    "platform": "Web / Multi-Chain",
+    "description": "Decentralized lending titan and permissionless primitive backed by $50M from a16z and Ribbit Capital, commanding over $2B in TVL with Morpho Rewards.",
+    "logo": "/images/airdrops/morpho.svg",
+    "refLink": "https://morpho.org",
+    "tags": [
+      "Lending",
+      "Permissionless",
+      "a16z",
+      "Ethereum",
+      "Base",
+      "Tier 1"
+    ],
+    "featured": true,
+    "startDate": "Jul 2022",
+    "endDate": "Q4 2025",
+    "requirements": [
+      "EVM Wallet (MetaMask, Rabby)",
+      "ETH, USDC or LST Collateral",
+      "Supply / Borrow on Morpho Vaults",
+      "Vote in Morpho DAO"
+    ],
+    "overview": "Morpho is a monumental decentralized lending primitive and financial layer that reimagines decentralized debt markets from first principles. Founded by Paul Frambot and backed by over $50 Million in venture capital led by Ribbit Capital and a16z crypto, Morpho has grown into one of the largest decentralized money markets in Web3 history, commanding over $2 Billion in Total Value Locked across Ethereum, Base, and layer-2 ecosystems.\n\nWhile legacy lending markets like Aave and Compound rely on rigid pooled liquidity with monolithic governance, Morpho Blue pioneered isolated, immutable, and permissionless lending markets. Morpho Blue allows anyone to create debt markets with custom risk profiles, oracles, and loan-to-value (LLTV) parameters with 99% less bytecode and zero governance interference. Layered on top, MetaMorpho provides automated risk curation vaults managed by institutional risk curators like Gauntlet and Steakhouse Financial.\n\nMorpho distributes non-transferable $MORPHO tokens to active suppliers and borrowers via the Morpho Rewards Program. With the Morpho DAO actively progressing toward enabling token transferability and launching public liquidity distribution, protocol participants holding accumulated $MORPHO balances are positioned for massive liquidity events.",
+    "tokenomics": "The $MORPHO token governance supply is capped at 1 Billion tokens. The Morpho Association allocated 27.5% to strategic investors, 15.2% to the founding team, and over 51% to the Morpho DAO Treasury and community liquidity incentives. Staked and delegated MORPHO grants direct governance voting power to approve risk curators and fee switches.",
+    "sybilDefense": "Morpho allocates rewards purely on capital-weighted and time-weighted liquidity utilization algorithms. Micro-wallet botting yields negligible returns compared to genuine depositors supplying USDC, ETH, or restaked LSTs into institutional MetaMorpho vaults.",
+    "strategy": "To accumulate high quantities of $MORPHO rewards:\n\n1. Deposit stablecoins (USDC/USDT) or restaked ETH (wstETH, weETH) into curated MetaMorpho Vaults on Ethereum mainnet or Base.\n2. Borrow assets against your supplied collateral to capture high reward APR multipliers.\n3. Utilize Base Layer 2 Morpho markets to farm rewards with sub-cent transaction fees.\n4. Delegate your accumulated $MORPHO voting power to participate in official Morpho DAO governance proposals.",
+    "steps": [
+      "Access the official <a href=\"https://morpho.org\" target=\"_blank\" rel=\"noopener noreferrer\">Morpho Portal</a>.",
+      "Launch the <a href=\"https://app.morpho.org\" target=\"_blank\" rel=\"noopener noreferrer\">Morpho App</a> and connect your EVM wallet.",
+      "Select your preferred network (Ethereum mainnet or Base for low gas fees).",
+      "Deposit USDC or ETH into a curated <a href=\"https://app.morpho.org/vaults\" target=\"_blank\" rel=\"noopener noreferrer\">MetaMorpho Vault</a>.",
+      "Borrow stablecoins against your collateral on an isolated Morpho Blue market.",
+      "Monitor your accrued $MORPHO rewards on the Morpho Rewards Dashboard.",
+      "Claim earned reward distributions according to your liquidity schedule.",
+      "Participate in Morpho governance delegation at <a href=\"https://governance.morpho.org\" target=\"_blank\" rel=\"noopener noreferrer\">Morpho Governance</a>."
+    ],
+    "faqs": [
+      {
+        "question": "What is Morpho Blue?",
+        "answer": "Morpho Blue is an immutable, minimalist lending primitive that enables permissionless market creation with isolated risk and independent price oracles."
+      },
+      {
+        "question": "Who invested in Morpho?",
+        "answer": "Morpho raised over $50M from elite venture funds including a16z crypto, Ribbit Capital, Variant, Coinbase Ventures, and Pantera Capital."
+      },
+      {
+        "question": "Is $MORPHO transferable yet?",
+        "answer": "MORPHO was initially launched as a non-transferable governance token to bootstrap long-term alignment, with transferability governance votes in progress."
+      },
+      {
+        "question": "Can I earn Morpho rewards on Base Layer 2?",
+        "answer": "Yes, Morpho is natively deployed on Base, allowing users to earn both Morpho rewards and Base ecosystem yield with sub-cent gas fees."
+      },
+      {
+        "question": "What are MetaMorpho Vaults?",
+        "answer": "MetaMorpho vaults are automated risk-managed vaults that allocate depositor funds across multiple Morpho Blue markets, managed by professional risk analysts."
+      },
+      {
+        "question": "How is Morpho safer than traditional lending pools?",
+        "answer": "Morpho Blue isolates risks per market; bad debt or an oracle failure in one market cannot contaminate or drain deposits in other isolated markets."
+      }
+    ]
+  },
+
+  {
+    "id": "solv-protocol",
+    "name": "Solv Protocol",
+    "category": "Restaking",
+    "tier": "Tier 1",
+    "status": "Active",
+    "stage": "Mainnet",
+    "potentialReward": "$1,000 - $6,000",
+    "cost": "Gas fees + BTC/ETH Deposit (~$10 - $30)",
+    "timeRequired": "10 mins",
+    "platform": "Web / Multi-Chain",
+    "description": "Decentralized Bitcoin reserve protocol issuing $SolvBTC with $1.5B+ TVL across Babylon and EVM chains, backed by Binance Labs, Blockchain Capital, and Nomura.",
+    "logo": "/images/airdrops/solv-protocol.svg",
+    "refLink": "https://solv.finance",
+    "tags": [
+      "Bitcoin Fi",
+      "SolvBTC",
+      "Babylon",
+      "Binance Labs",
+      "Liquid Staking",
+      "Tier 1"
+    ],
+    "featured": true,
+    "startDate": "Jan 2024",
+    "endDate": "Q4 2025",
+    "requirements": [
+      "EVM Wallet (MetaMask, Rabby)",
+      "BTC or WBTC / BTCB",
+      "Mint SolvBTC or SolvBTC.BBN",
+      "Earn Solv XP Points"
+    ],
+    "overview": "Solv Protocol is the preeminent decentralized Bitcoin reserve and liquid yield platform in Web3, managing over $1.5 Billion in Total Value Locked across more than 10 blockchains. Backed by $11 Million in funding from Binance Labs, Blockchain Capital, Nomura’s Laser Digital, Mirana Ventures, and Jump Crypto, Solv acts as the universal gateway connecting dormant Bitcoin liquidity to institutional yield generation.\n\nSolv created $SolvBTC—a liquid reserve Bitcoin token backed 1:1 by verified Bitcoin assets held across regulated institutional custodians. Solv expands this foundation with liquid restaking iterations including SolvBTC.BBN (liquid restaked on the Babylon Protocol), SolvBTC.ENA (earning Ethena synthetic dollar yield), and SolvBTC.CORE, transforming idle Bitcoin into a productive, yield-generating DeFi asset.\n\nSolv is executing the \"Solv Points\" and \"Solv Drop\" multi-season rewards campaigns. Users who deposit Bitcoin to mint SolvBTC, provide liquidity across partner DEXs (such as Uniswap, PancakeSwap, and Camelot), and participate in Babylon staking phases earn continuous XP multipliers redeemable for the future native governance token.",
+    "tokenomics": "The Solv native token will govern the Solv Decentralized Bitcoin Reserve, determine collateral onboarding criteria, manage staking yield distributions, and reward validator stakers across multi-chain Bitcoin ecosystems. Substantial proportions of genesis token allocations are dedicated to community depositors and points leaders.",
+    "sybilDefense": "Solv employs deposit-tier verification and duration multipliers. Points accumulate strictly proportional to the amount of BTC deposited multiplied by time held, neutralizing disposable low-balance bot swarms.",
+    "strategy": "To maximize Solv XP and qualify for Tier-1 airdrop brackets:\n\n1. Deposit WBTC, BTCB, or native BTC into Solv to mint SolvBTC on Arbitrum, BNB Chain, or Ethereum.\n2. Stake your SolvBTC into the SolvBTC.BBN vault to earn triple rewards: native Bitcoin staking yield, Babylon restaking points, and Solv XP.\n3. Supply SolvBTC into verified partner DeFi protocols like Pendle Finance or Merlin Chain for additional points multipliers.\n4. Retain deposits across official seasonal snapshot cutoffs to protect your accumulated loyalty tier.",
+    "steps": [
+      "Visit the official <a href=\"https://solv.finance\" target=\"_blank\" rel=\"noopener noreferrer\">Solv Protocol Portal</a>.",
+      "Connect your EVM wallet and select your preferred network (Arbitrum or BNB Chain for low gas).",
+      "Deposit WBTC or BTCB to mint liquid <a href=\"https://app.solv.finance\" target=\"_blank\" rel=\"noopener noreferrer\">SolvBTC</a>.",
+      "Restake your SolvBTC into the <a href=\"https://app.solv.finance/solv-btc/bbn\" target=\"_blank\" rel=\"noopener noreferrer\">SolvBTC.BBN Vault</a> for Babylon yield.",
+      "Check your active points balance and XP multipliers on the Solv Points Dashboard.",
+      "Deploy SolvBTC into Pendle Finance yield tokenization pools for leveraged point yield.",
+      "Complete ecosystem partner quests on Galxe and QuestN to earn bonus Solv badges.",
+      "Hold your SolvBTC tokens continuously in your self-custody wallet to lock in snapshot eligibility."
+    ],
+    "faqs": [
+      {
+        "question": "What is SolvBTC?",
+        "answer": "SolvBTC is a liquid Bitcoin reserve asset issued by Solv Protocol that is backed 1:1 by Bitcoin reserves, allowing BTC holders to earn DeFi yields."
+      },
+      {
+        "question": "What is SolvBTC.BBN?",
+        "answer": "SolvBTC.BBN is Solv’s liquid restaked Bitcoin token integrated with Babylon Protocol, earning Babylon restaking rewards and Solv XP simultaneously."
+      },
+      {
+        "question": "Who invested in Solv Protocol?",
+        "answer": "Solv Protocol raised $11M from tier-one venture investors including Binance Labs, Blockchain Capital, Laser Digital (Nomura), and Mirana Ventures."
+      },
+      {
+        "question": "Which blockchains support SolvBTC?",
+        "answer": "SolvBTC is deployed across Ethereum, Arbitrum, BNB Chain, Merlin Chain, Avalanche, Polygon, Base, and Mantle."
+      },
+      {
+        "question": "How do I redeem my original Bitcoin?",
+        "answer": "You can redeem SolvBTC for underlying WBTC/BTCB through the official Solv app redemption queue or swap immediately on DEXs like Uniswap."
+      },
+      {
+        "question": "Are Solv Protocol smart contracts secure?",
+        "answer": "Yes, Solv smart contracts have been thoroughly audited by leading security firms including Quantstamp, CertiK, SlowMist, and Salus."
+      }
+    ]
+  },
+
+  {
+    "id": "debridge",
+    "name": "deBridge",
+    "category": "Infrastructure",
+    "tier": "Tier 1",
+    "status": "Active",
+    "stage": "Mainnet",
+    "potentialReward": "$800 - $5,000",
+    "cost": "Gas & Bridge Fees (~$3 - $10)",
+    "timeRequired": "10 mins / weekly",
+    "platform": "Web / Multi-Chain & Solana",
+    "description": "High-performance cross-chain liquidity and messaging engine backed by $5.5M from ParaFi Capital, powering instant 0-slippage transfers and deBridge Points Season 2 ($DBR).",
+    "logo": "/images/airdrops/debridge.svg",
+    "refLink": "https://debridge.finance",
+    "tags": [
+      "Cross-Chain",
+      "Bridge",
+      "Solana",
+      "EVM",
+      "deBridge Points",
+      "Tier 1"
+    ],
+    "featured": true,
+    "startDate": "Jan 2024",
+    "endDate": "Q4 2025",
+    "requirements": [
+      "EVM or Solana Wallet",
+      "Assets to Bridge (ETH, SOL, USDC)",
+      "deBridge App Cross-Chain Transfers",
+      "deBridge Points Season 2 Tracking"
+    ],
+    "overview": "deBridge is a high-speed cross-chain interoperability and liquidity transport protocol designed for lightning-fast, zero-slippage cross-chain execution. Backed by $5.5 Million in funding led by ParaFi Capital with participation from Animoca Brands, Lemniscap, and Crypto.com Capital, deBridge has processed over $4 Billion in cross-chain volume and serves as the primary liquidity bridge between Solana and EVM blockchains.\n\ndeBridge’s core product, dePort and deSwap (powered by DLN - Decentralized Liquidity Network), operates via cross-chain limit orders that settle in seconds with zero MEV, zero slippage, and zero liquidity pool lockups. Rather than wrapping assets, deBridge facilitates direct native-to-native trades between Bitcoin, Solana, Ethereum, Arbitrum, Base, and Optimism.\n\nFollowing the massive success of its initial $DBR token distribution, deBridge launched deBridge Points Season 2. Users earn 100 deBridge points for every $1 paid in protocol fees, alongside boosted multiplier tiers for high-volume bridging, multi-chain route utilization, and partner dApp integration.",
+    "tokenomics": "The $DBR governance token has a maximum supply of 10 Billion tokens. 20% of the entire supply is dedicated to community airdrops (10% Season 1, with ongoing allocations for Season 2 and ecosystem expansion), 33% to ecosystem growth and DAO treasury, 26% to core contributors, and 21% to strategic foundation backers.",
+    "sybilDefense": "deBridge calculates points strictly based on real protocol fees paid. Because artificial dust transactions pay virtually zero protocol fees, automated bot swarms generate negligible points, naturally insulating genuine cross-chain users from dilution.",
+    "strategy": "To accumulate high ranks in deBridge Season 2:\n\n1. Use deBridge DLN to bridge native assets (SOL, ETH, USDC) between Solana and EVM chains like Arbitrum, Base, and Optimism.\n2. Prioritize larger transaction sizes to accumulate 100 points per $1 in protocol fees efficiently.\n3. Integrate deBridge widget inside community partner applications to earn referral fee splits.\n4. Stake your $DBR tokens in the deBridge Governance DAO to participate in fee share governance votes.",
+    "steps": [
+      "Navigate to the official <a href=\"https://debridge.finance\" target=\"_blank\" rel=\"noopener noreferrer\">deBridge Finance</a> portal.",
+      "Launch the <a href=\"https://app.debridge.finance\" target=\"_blank\" rel=\"noopener noreferrer\">deBridge App</a> and connect your EVM or Solana wallet.",
+      "Select source and destination chains (e.g., Solana to Base, or Arbitrum to Optimism).",
+      "Execute a cross-chain transfer of native USDC, SOL, or ETH with near-instant settlement.",
+      "View your earned Season 2 points and fee ranking on the deBridge Points Dashboard.",
+      "Refer trading friends or Web3 communities using your personal deBridge referral code.",
+      "Utilize deBridge IaaS API integrations or ecosystem partner dApps.",
+      "Stake your $DBR tokens to cast votes on cross-chain validator parameters."
+    ],
+    "faqs": [
+      {
+        "question": "What is deBridge DLN?",
+        "answer": "DLN (Decentralized Liquidity Network) is deBridge’s high-performance cross-chain trading infrastructure that uses 0-slippage limit orders instead of wrapped liquidity pools."
+      },
+      {
+        "question": "How are deBridge Season 2 points calculated?",
+        "answer": "Users earn 100 deBridge Points for every $1 paid in protocol fees, with additional bonus multipliers for consistent multi-chain usage."
+      },
+      {
+        "question": "Does deBridge support Solana?",
+        "answer": "Yes, deBridge is one of the fastest and most popular bridges connecting Solana with Ethereum and EVM Layer 2s."
+      },
+      {
+        "question": "Who are the investors behind deBridge?",
+        "answer": "deBridge raised $5.5M led by ParaFi Capital, with participation from Animoca Brands, Lemniscap, and prominent Web3 angels."
+      },
+      {
+        "question": "What is the utility of the $DBR token?",
+        "answer": "DBR is the native governance and staking token of deBridge, used to vote on validator sets, fee distribution, and chain integrations."
+      },
+      {
+        "question": "How fast do deBridge transactions settle?",
+        "answer": "Most native-to-native cross-chain swaps settle in less than 60 seconds thanks to deBridge’s peer-to-peer fulfillment engine."
+      }
+    ]
+  },
+
+  {
+    "id": "artela",
+    "name": "Artela Network",
+    "category": "Layer 1",
+    "tier": "Tier 2",
+    "status": "Active",
+    "stage": "Testnet",
+    "potentialReward": "$500 - $3,500",
+    "cost": "Free (Testnet Faucet)",
+    "timeRequired": "15 mins / weekly",
+    "platform": "Web / EVM++",
+    "description": "Extensible Layer 1 blockchain pioneering EVM++ and dual-VM Aspect programming for autonomous on-chain AI and DeFi agents, backed by $6M+ from Shima and SevenX.",
+    "logo": "/images/airdrops/artela.svg",
+    "refLink": "https://artela.network",
+    "tags": [
+      "EVM++",
+      "Dual-VM",
+      "Aspect Programming",
+      "AI Agents",
+      "Testnet",
+      "Tier 2"
+    ],
+    "featured": false,
+    "startDate": "Nov 2023",
+    "endDate": "Q4 2025",
+    "requirements": [
+      "EVM Wallet (MetaMask, Rabby)",
+      "Artela Testnet ART Faucet",
+      "StarQuest Quests Completion",
+      "Aspect Contract Interaction"
+    ],
+    "overview": "Artela Network is an extensible, high-performance Layer 1 blockchain engineered to break the boundaries of the Ethereum Virtual Machine through \"EVM++\" architecture. Backed by over $6 Million in seed funding from Shima Capital, SevenX Ventures, A&T Capital, and Big Brain Holdings, Artela introduces a revolutionary dual-VM execution model combining standard EVM smart contracts with WebAssembly (WASM) powered \"Aspects\".\n\nAspects are dynamic modular extensions that run natively within the blockchain’s base consensus layer. Unlike standard smart contracts that only execute when called by an external transaction, Aspects can autonomously trigger on-chain actions, intercept transactions, enforce real-time security rules, and power decentralized on-chain AI agents directly on-chain without relying on centralized off-chain bots.\n\nArtela is running the \"Artela StarQuest\" testnet incentives program. Participants complete on-chain missions, interact with dual-VM gaming dApps, bind ecosystem social profiles, and mint Renaissance NFTs to earn Cornerstone points and qualify for the upcoming $ART token genesis distribution.",
+    "tokenomics": "The $ART native token powers Artela’s consensus security via Proof-of-Stake validator staking, pays transaction gas fees for EVM and Aspect execution, and serves as the primary governance currency of the Artela Foundation.",
+    "sybilDefense": "The Artela StarQuest system incorporates Gitcoin Passport, Discord account age checks, and IP rate limits on testnet faucets. Repetitive single-interaction wallets with zero Aspect smart contract engagements are pruned from the final leaderboard.",
+    "strategy": "To position for maximum Artela ($ART) testnet incentives:\n\n1. Add Artela Testnet to MetaMask and claim testnet $ART from the official StarQuest Faucet.\n2. Complete all active missions on the Artela StarQuest portal to accumulate Cornerstone points.\n3. Interact with Aspect-enabled dApps (like Arthera gaming and AI agent demonstrations).\n4. Deploy a basic Aspect extension or participate in developer hackathons to unlock elite developer tier rewards.",
+    "steps": [
+      "Visit the official <a href=\"https://artela.network\" target=\"_blank\" rel=\"noopener noreferrer\">Artela Network Portal</a>.",
+      "Connect your EVM wallet to the <a href=\"https://starquest.artela.network\" target=\"_blank\" rel=\"noopener noreferrer\">Artela StarQuest Portal</a>.",
+      "Claim testnet ART tokens using the official Discord or web faucet.",
+      "Complete social onboarding tasks (linking Twitter/X and Discord).",
+      "Mint your exclusive Artela Renaissance Community NFT.",
+      "Execute on-chain transactions on Artela ecosystem testnet dApps.",
+      "Explore Aspect programming tutorials on the <a href=\"https://docs.artela.network\" target=\"_blank\" rel=\"noopener noreferrer\">Artela Docs</a>.",
+      "Check your accumulated Cornerstone points and rank on the StarQuest leaderboard."
+    ],
+    "faqs": [
+      {
+        "question": "What is EVM++ in Artela?",
+        "answer": "EVM++ is Artela’s enhanced blockchain architecture that unites EVM compatibility with WASM-based modular runtime extensions called Aspects."
+      },
+      {
+        "question": "Who invested in Artela Network?",
+        "answer": "Artela raised $6M+ in seed funding led by Shima Capital, SevenX Ventures, A&T Capital, and prominent Web3 angels."
+      },
+      {
+        "question": "Is Artela testnet free to participate in?",
+        "answer": "Yes, all activities in the Artela StarQuest campaign use free testnet tokens distributed via community faucets."
+      },
+      {
+        "question": "What are Aspects in Artela?",
+        "answer": "Aspects are programmable modules written in WebAssembly that execute natively inside block validation, enabling autonomous AI agents and real-time security."
+      },
+      {
+        "question": "What is the ticker symbol for Artela?",
+        "answer": "Artela’s native token will trade under the ticker symbol $ART."
+      },
+      {
+        "question": "Can I deploy existing Solidity contracts on Artela?",
+        "answer": "Yes, Artela is 100% EVM-compatible; any Solidity contract deployed on Ethereum or Polygon runs out of the box."
+      }
+    ]
+  },
+
+  {
+    "id": "bedrock",
+    "name": "Bedrock",
+    "category": "Restaking",
+    "tier": "Tier 1",
+    "status": "Active",
+    "stage": "Mainnet",
+    "potentialReward": "$800 - $4,500",
+    "cost": "Gas fees + BTC/ETH Deposit (~$10 - $25)",
+    "timeRequired": "10 mins",
+    "platform": "Web / Multi-Chain",
+    "description": "Multi-asset liquid restaking pioneer with $300M+ TVL ($uniBTC, $uniETH) backed by OKX Ventures and LongHash, unlocking Babylon and EigenLayer restaking yields.",
+    "logo": "/images/airdrops/bedrock.svg",
+    "refLink": "https://bedrock.technology",
+    "tags": [
+      "Restaking",
+      "uniBTC",
+      "Babylon",
+      "OKX Ventures",
+      "EigenLayer",
+      "Tier 1"
+    ],
+    "featured": true,
+    "startDate": "Jan 2024",
+    "endDate": "Q4 2025",
+    "requirements": [
+      "EVM Wallet (MetaMask, Rabby)",
+      "BTC or ETH Collateral",
+      "Mint uniBTC or uniETH",
+      "Earn Bedrock Diamonds"
+    ],
+    "overview": "Bedrock is an institutional multi-asset liquid restaking protocol developed to maximize yields across multiple foundational blockchain ecosystems. Backed by OKX Ventures, LongHash Ventures, Babylon, and Comma3 Ventures, Bedrock pioneered non-custodial liquid restaking solutions that have attracted over $300 Million in Total Value Locked.\n\nBedrock’s flagship asset is $uniBTC—the premier liquid restaked Bitcoin token integrated with Babylon Protocol. By staking native Bitcoin or wrapped Bitcoin through Bedrock, users receive uniBTC, allowing them to secure decentralized PoS networks via Babylon while simultaneously deploying uniBTC across major EVM DeFi protocols (such as Pendle, Curve, and Morpho) on Arbitrum, Optimism, and Ethereum.\n\nBedrock runs the \"Diamonds\" loyalty program. Depositors earn Bedrock Diamonds daily, combined with 100% of Babylon restaking points and boosted partner yields. Accumulated Diamonds directly dictate community airdrop allocations and fee-share tiers upon protocol governance token generation.",
+    "tokenomics": "Bedrock’s future native token will govern collateral whitelisting, distribute protocol restaking commission fees, incentivize node operators, and establish insurance reserve parameters for liquid restaked pools across uniBTC, uniETH, and uniIOTX.",
+    "sybilDefense": "Bedrock utilizes mathematical capital-by-duration calculations to allocate Diamonds. Micro-deposits generate negligible points, rendering automated Sybil wallet swarms ineffective compared to legitimate long-term holders.",
+    "strategy": "To maximize Bedrock Diamonds and capture multi-layer restaking rewards:\n\n1. Mint uniBTC by depositing WBTC or BTCB on Arbitrum, BNB Chain, or Ethereum.\n2. Stake uniBTC in Bedrock Babylon staking rounds to secure dual Babylon and Bedrock point accumulation.\n3. Deploy uniBTC into Pendle Finance liquidity pools for enhanced Diamond multipliers.\n4. Hold your uniBTC position continuously across monthly milestone snapshots.",
+    "steps": [
+      "Enter the official <a href=\"https://bedrock.technology\" target=\"_blank\" rel=\"noopener noreferrer\">Bedrock Technology Portal</a>.",
+      "Connect your EVM wallet and select your preferred blockchain network.",
+      "Deposit WBTC or BTCB to mint liquid <a href=\"https://app.bedrock.technology/unibtc\" target=\"_blank\" rel=\"noopener noreferrer\">uniBTC</a>.",
+      "Deposit ETH to mint liquid restaked <a href=\"https://app.bedrock.technology/unieth\" target=\"_blank\" rel=\"noopener noreferrer\">uniETH</a>.",
+      "Check your daily accumulated Bedrock Diamonds on the Bedrock Rewards tab.",
+      "Provide liquidity with uniBTC on Curve or Uniswap to compound fee yields.",
+      "Participate in Bedrock ecosystem campaigns on Galxe and TaskOn.",
+      "Retain your uniBTC balances in self-custody to guarantee snapshot eligibility."
+    ],
+    "faqs": [
+      {
+        "question": "What is uniBTC?",
+        "answer": "uniBTC is a liquid restaked Bitcoin token issued by Bedrock that represents Bitcoin staked in the Babylon Protocol to secure PoS chains."
+      },
+      {
+        "question": "Who are the investors in Bedrock?",
+        "answer": "Bedrock is backed by OKX Ventures, LongHash Ventures, Comma3 Ventures, and prominent ecosystem leaders."
+      },
+      {
+        "question": "What are Bedrock Diamonds?",
+        "answer": "Diamonds are Bedrock’s native loyalty reward points earned by holding or deploying uniBTC and uniETH in supported DeFi protocols."
+      },
+      {
+        "question": "Can I mint uniBTC on cheap Layer 2 networks?",
+        "answer": "Yes, Bedrock supports minting uniBTC on Arbitrum, Optimism, BNB Chain, and Mantle with minimal gas fees."
+      },
+      {
+        "question": "Does uniBTC also earn Babylon points?",
+        "answer": "Yes, holding uniBTC earns both native Babylon staking points and Bedrock Diamonds simultaneously."
+      },
+      {
+        "question": "How do I redeem my original Bitcoin from uniBTC?",
+        "answer": "You can redeem through Bedrock’s official unstaking queue or swap uniBTC directly for BTC on decentralized exchanges."
+      }
+    ]
+  },
+
+  {
+    "id": "lens-protocol",
+    "name": "Lens Protocol",
+    "category": "Social",
+    "tier": "Tier 1",
+    "status": "Active",
+    "stage": "Mainnet",
+    "potentialReward": "$1,000 - $6,500",
+    "cost": "Polygon Gas (<$1)",
+    "timeRequired": "10 mins / weekly",
+    "platform": "Web / Polygon",
+    "description": "The premier decentralized social graph protocol built by the Aave team ($15M funding from IDEO & General Catalyst), running Lens V2 and Bonsai scaling.",
+    "logo": "/images/airdrops/lens-protocol.svg",
+    "refLink": "https://lens.xyz",
+    "tags": [
+      "SocialFi",
+      "Decentralized Social",
+      "Aave",
+      "Polygon",
+      "NFT Profile",
+      "Tier 1"
+    ],
+    "featured": true,
+    "startDate": "May 2022",
+    "endDate": "Q4 2025",
+    "requirements": [
+      "EVM Wallet (Polygon)",
+      "Lens Profile NFT / Handle",
+      "Active Posting & Collecting on Lens Apps",
+      "Orb / Hey Social Interactions"
+    ],
+    "overview": "Lens Protocol is the foundational decentralized Web3 social graph protocol created by Stani Kulechov and the world-renowned Aave Companies team. Backed by $15 Million in funding from IDEO CoLab Ventures, General Catalyst, Blockchain Capital, and angel investors from Uniswap and Polygon, Lens empowers creators to truly own their social identity, follower graph, digital content, and monetization rails.\n\nBuilt on Polygon and scaled by Bonsai (Lens’s high-throughput off-chain data availability network handling thousands of social interactions per second at zero cost), Lens abstracts social interactions into composable, decentralized smart contracts. A user’s profile is a non-fungible token, publications can be collected as digital art, and open social actions allow third-party developers to embed tipping, voting, and DeFi lending directly into social feeds.\n\nLens is preparing for its community governance and token generation event. Users who actively create content, curate posts, collect digital publications on leading Lens frontends (such as Hey.xyz, Orb, and Phaver), and mint verified Lens V2 profiles are prime candidates for massive retroactive social airdrops.",
+    "tokenomics": "The future Lens native governance token will govern the open social graph registry, fee collection parameters from open actions, Bonsai validator and data availability nodes, and ecosystem creator grants through the Lens DAO.",
+    "sybilDefense": "Lens historically required strict whitelisting and Gitcoin Passport verification to mint profile handles. Automated spam bots posting low-effort copy-paste content without real engagement, comments, or collects are pruned by Lens graph algorithms.",
+    "strategy": "To position for top-tier Lens Protocol governance airdrops:\n\n1. Claim or acquire a verified Lens V2 profile handle on the official Lens Portal.\n2. Use decentralized social frontends like <a href=\"https://hey.xyz\" target=\"_blank\" rel=\"noopener noreferrer\">Hey.xyz</a> and <a href=\"https://orb.club\" target=\"_blank\" rel=\"noopener noreferrer\">Orb</a> to post, mirror, and comment weekly.\n3. Collect publications from popular Web3 creators to build on-chain collection history.\n4. Complete open action interactions such as tipping or minting commemorative posts.\n5. Link your Lens profile to Farcaster or Web3 identity passports to verify your human reputation.",
+    "steps": [
+      "Visit the official <a href=\"https://lens.xyz\" target=\"_blank\" rel=\"noopener noreferrer\">Lens Protocol Portal</a>.",
+      "Claim or verify your Lens Profile handle at <a href=\"https://lens.xyz/mint\" target=\"_blank\" rel=\"noopener noreferrer\">Lens Handle Portal</a>.",
+      "Connect your profile to the premier Web3 social frontend <a href=\"https://hey.xyz\" target=\"_blank\" rel=\"noopener noreferrer\">Hey.xyz</a>.",
+      "Publish original posts, share thoughts on crypto projects, and interact with the community.",
+      "Collect valuable publications and mint digital collectibles shared by other creators.",
+      "Download and test mobile social clients like <a href=\"https://orb.club\" target=\"_blank\" rel=\"noopener noreferrer\">Orb Club</a>.",
+      "Execute Open Actions such as on-chain tipping or participating in social micro-polls.",
+      "Maintain weekly social activity to build an authentic, verifiable on-chain social identity."
+    ],
+    "faqs": [
+      {
+        "question": "What is Lens Protocol?",
+        "answer": "Lens Protocol is an open, decentralized social graph that lets users own their profile, followers, and content as on-chain assets."
+      },
+      {
+        "question": "Who created Lens Protocol?",
+        "answer": "Lens was created by Stani Kulechov and the Aave team, raising $15M from top venture firms like IDEO CoLab and General Catalyst."
+      },
+      {
+        "question": "What is Bonsai in Lens?",
+        "answer": "Bonsai is Lens’s custom data availability and scaling layer that processes millions of social transactions with instant execution and zero gas."
+      },
+      {
+        "question": "Can I use Lens on mobile devices?",
+        "answer": "Yes, Lens apps like Orb, Phaver, and Buttrfly have native mobile apps available on iOS and Android."
+      },
+      {
+        "question": "Do I need a Lens profile NFT to participate?",
+        "answer": "Yes, having an active Lens profile handle is essential for interacting with the protocol and qualifying for community rewards."
+      },
+      {
+        "question": "What blockchain does Lens Protocol use?",
+        "answer": "Lens smart contracts settle natively on Polygon, utilizing Bonsai for high-throughput off-chain social data availability."
+      }
+    ]
+  },
+
+  {
+    "id": "across-protocol",
+    "name": "Across Protocol",
+    "category": "Infrastructure",
+    "tier": "Tier 1",
+    "status": "Active",
+    "stage": "Mainnet",
+    "potentialReward": "$600 - $3,500",
+    "cost": "Gas fees (~$2 - $8)",
+    "timeRequired": "10 mins / weekly",
+    "platform": "Web / Multi-Chain",
+    "description": "Premier intent-based cross-chain bridge powered by UMA’s optimistic oracle, delivering fastest settlement and lowest fees across Ethereum, Arbitrum, Base, and Blast.",
+    "logo": "/images/airdrops/across-protocol.svg",
+    "refLink": "https://across.to",
+    "tags": [
+      "Cross-Chain",
+      "Intent Bridge",
+      "Optimistic Oracle",
+      "UMA",
+      "ERC-7683",
+      "Tier 1"
+    ],
+    "featured": true,
+    "startDate": "Nov 2021",
+    "endDate": "Q4 2025",
+    "requirements": [
+      "EVM Wallet (MetaMask, Rabby)",
+      "Funds to Bridge (ETH, USDC, WBTC)",
+      "Bridge Transactions on Across",
+      "Staked ACX on Governance Portal"
+    ],
+    "overview": "Across Protocol is the premier intent-based cross-chain bridge and settlement network in decentralized finance, renowned for delivering the fastest execution times and lowest fees in Web3. Incubated by Risk Labs (the creators of UMA) and co-authors of the unified cross-chain standard ERC-7683 alongside Uniswap Labs, Across has processed tens of billions of dollars in cross-chain volume with a flawless security record.\n\nTraditional bridges rely on slow lock-and-mint mechanisms or expensive validator multisigs. Across operates via an innovative \"intent-based\" architecture where decentralized market makers (Relayers) front capital to users immediately on the destination chain. Relayers are later reimbursed asynchronously through a single global liquidity pool on Ethereum mainnet, verified optimistically by UMA’s dispute-free optimistic oracle.\n\nAcross rewards its community with regular protocol incentive distributions for its native token $ACX. Users who bridge across Layer 2 rollups (Arbitrum, Optimism, Base, Blast, Polygon), provide liquidity to Across pools, and stake $ACX to vote on bridge fee policies earn continuous yields and airdrop multiplier points.",
+    "tokenomics": "The $ACX token has a total supply of 1 Billion tokens. Allocations include 20% to community airdrops and user rewards, 25% to the protocol treasury, and remainder to foundation contributors and early backers. Staked ACX provides governance voting rights and boosted liquidity fee share.",
+    "sybilDefense": "Across evaluates bridge volume, fee contributions, and unique transaction diversity across diverse EVM rollups. Repetitive micro-transfers between identical addresses without organic wallet activity are disregarded during reward rounds.",
+    "strategy": "To position for maximum Across ($ACX) ecosystem rewards:\n\n1. Use Across as your default bridge for transferring ETH, USDC, or WBTC between Ethereum, Arbitrum, Optimism, Base, and Blast.\n2. Maintain consistent weekly bridging activity with volume milestones exceeding $2,500+.\n3. Deposit single-sided liquidity (such as USDC or WETH) into Across liquidity pools on Ethereum to earn base APY plus $ACX emissions.\n4. Stake your $ACX tokens in the Across Governance Portal to vote on DAO snapshot proposals.",
+    "steps": [
+      "Visit the official <a href=\"https://across.to\" target=\"_blank\" rel=\"noopener noreferrer\">Across Protocol Bridge</a>.",
+      "Connect your EVM wallet (MetaMask, Rabby, or Coinbase Wallet).",
+      "Select your origin and destination networks (such as Arbitrum to Base).",
+      "Choose the asset to bridge (ETH, USDC, or WBTC) and confirm the transfer.",
+      "Experience instant settlement as relayers fulfill your transfer within seconds.",
+      "Provide liquidity into the <a href=\"https://across.to/pool\" target=\"_blank\" rel=\"noopener noreferrer\">Across Liquidity Pools</a> to earn passive yield.",
+      "Stake earned $ACX tokens in the Across Rewards and Staking portal.",
+      "Cast on-chain votes on active Across DAO proposals at <a href=\"https://snapshot.org/#/across.eth\" target=\"_blank\" rel=\"noopener noreferrer\">Across Snapshot</a>."
+    ],
+    "faqs": [
+      {
+        "question": "What is an intent-based bridge?",
+        "answer": "An intent-based bridge allows relayers to fulfill user orders instantly from their own capital on the destination chain, making transfers orders of magnitude faster."
+      },
+      {
+        "question": "How is Across secured?",
+        "answer": "Across is secured by UMA’s optimistic oracle, which mathematically verifies that relayers correctly fulfilled user orders before reimbursing them on Layer 1."
+      },
+      {
+        "question": "What is ERC-7683?",
+        "answer": "ERC-7683 is a universal cross-chain intents standard co-authored by Across and Uniswap Labs to standardize cross-chain orders across all Web3 protocols."
+      },
+      {
+        "question": "Which networks are supported by Across?",
+        "answer": "Across supports Ethereum mainnet, Arbitrum, Optimism, Base, Blast, Polygon, Linea, Scroll, and ZKsync."
+      },
+      {
+        "question": "What is the ticker symbol for Across Protocol?",
+        "answer": "Across Protocol’s native governance and reward token trades under the ticker $ACX."
+      },
+      {
+        "question": "Why are Across fees lower than other bridges?",
+        "answer": "Across uses a single unified liquidity pool on Ethereum mainnet, maximizing capital efficiency and dramatically lowering rebalancing expenses."
+      }
+    ]
+  },
+
+  {
+    "id": "pipe-network",
+    "name": "Pipe Network",
+    "category": "DePIN",
+    "tier": "Tier 1",
+    "status": "Active",
+    "stage": "Testnet / Devnet",
+    "potentialReward": "$800 - $5,000",
+    "cost": "Free (Bandwidth / Node Setup)",
+    "timeRequired": "15 mins",
+    "platform": "Web / Solana & Desktop",
+    "description": "Next-generation decentralized Content Delivery Network (CDN) on Solana backed by $10M from Multicoin Capital and Robot Ventures, running community edge caching.",
+    "logo": "/images/airdrops/pipe-network.svg",
+    "refLink": "https://pipe.network",
+    "tags": [
+      "DePIN",
+      "Solana",
+      "CDN",
+      "Multicoin Capital",
+      "Edge Compute",
+      "Tier 1"
+    ],
+    "featured": true,
+    "startDate": "Oct 2024",
+    "endDate": "Q4 2025",
+    "requirements": [
+      "Solana Wallet (Phantom, Backpack)",
+      "Internet Bandwidth / Desktop Node",
+      "Run Pipe PoP (Point of Presence)",
+      "Join Community Discord"
+    ],
+    "overview": "Pipe Network is a decentralized Content Delivery Network (CDN) and edge compute protocol engineered natively on the Solana blockchain. Backed by $10 Million in funding led by Multicoin Capital with participation from Robot Ventures, Big Brain Holdings, and prominent DePIN founders, Pipe disrupts the multi-billion dollar centralized CDN monopoly (Cloudflare, Fastly, Akamai) by incentivizing everyday users to operate permissionless micro-Points of Presence (PoPs).\n\nModern internet applications demand ultra-low latency media streaming, gaming assets, and API caching. By decentralizing caching nodes to the physical edges of consumer broadband networks, Pipe delivers web assets faster and at a fraction of the cost of legacy centralized server farms, coordinating global bandwidth routing through Solana’s high-speed state machine.\n\nPipe is conducting its public Devnet and community edge node deployment program. Users who register their nodes, contribute unused upstream bandwidth as micro-caches, and run the lightweight Pipe node software earn continuous network points that directly convert into native Pipe governance tokens at TGE.",
+    "tokenomics": "The Pipe native token coordinates the decentralized bandwidth marketplace. Web publishers and streaming services pay in Pipe tokens to distribute content, while node operators stake tokens and receive token emissions based on verified bandwidth delivery and latency uptime metrics.",
+    "sybilDefense": "Pipe implements cryptographic proof-of-bandwidth and geographic geolocation verifications. Node spoofing or artificial latency manipulations are identified through distributed peer-verification probes and disqualified from reward distributions.",
+    "strategy": "To position for top-tier Pipe Network rewards:\n\n1. Register your interest and connect your Solana wallet on the official Pipe Network portal.\n2. Download and launch the lightweight Pipe PoP node application on your desktop or VPS.\n3. Ensure high internet uptime and low-latency connections to maximize data caching points.\n4. Participate in community benchmarking challenges and complete verified roles in the Pipe Discord.",
+    "steps": [
+      "Visit the official <a href=\"https://pipe.network\" target=\"_blank\" rel=\"noopener noreferrer\">Pipe Network Portal</a>.",
+      "Connect your Solana wallet (Phantom or Backpack) to create your node profile.",
+      "Sign up for the Pipe Node Operator whitelist and developer testnet.",
+      "Download the official Pipe PoP software client from the <a href=\"https://docs.pipe.network\" target=\"_blank\" rel=\"noopener noreferrer\">Pipe Documentation</a>.",
+      "Configure your node ports and initialize bandwidth sharing on your desktop or server.",
+      "Monitor your verified uptime and delivered cache metrics on the Pipe Dashboard.",
+      "Join the Pipe Network Discord to verify your node operator status.",
+      "Participate in weekly bandwidth stress-testing events to earn bonus points."
+    ],
+    "faqs": [
+      {
+        "question": "What is Pipe Network?",
+        "answer": "Pipe Network is a decentralized CDN on Solana that enables internet users to run localized edge caching nodes, creating a cheaper, faster alternative to Cloudflare."
+      },
+      {
+        "question": "Who invested in Pipe Network?",
+        "answer": "Pipe Network raised $10M in a funding round led by Multicoin Capital, with participation from Robot Ventures and leading angel investors."
+      },
+      {
+        "question": "What hardware do I need to run a Pipe node?",
+        "answer": "Pipe nodes are designed to be lightweight; any modern desktop computer, Mac, or cheap Linux VPS with a stable broadband connection can participate."
+      },
+      {
+        "question": "Does running a node affect my daily internet speed?",
+        "answer": "The Pipe node only utilizes a small slice of your idle upstream bandwidth and allows users to set custom bandwidth throttling limits."
+      },
+      {
+        "question": "Why is Pipe built on Solana?",
+        "answer": "Solana provides the sub-second finality, micro-transaction fees, and throughput required to coordinate thousands of global bandwidth micro-payments in real time."
+      },
+      {
+        "question": "When will Pipe Network tokens be distributed?",
+        "answer": "Token distribution is planned alongside the public mainnet launch following the conclusion of current Devnet testing phases."
+      }
+    ]
+  },
+
+  {
+    "id": "rabby-wallet",
+    "name": "Rabby Wallet",
+    "category": "Tooling",
+    "tier": "Tier 1",
+    "status": "Active",
+    "stage": "Mainnet",
+    "potentialReward": "$800 - $5,000",
+    "cost": "Gas fees (<$5 on L2s)",
+    "timeRequired": "10 mins / weekly",
+    "platform": "Browser Extension & Desktop",
+    "description": "Security-first multi-chain EVM wallet built by the DeBank team, featuring pre-transaction risk scanning and the ongoing Rabby Points rewards system.",
+    "logo": "/images/airdrops/rabby-wallet.svg",
+    "refLink": "https://rabby.io",
+    "tags": [
+      "Web3 Wallet",
+      "DeBank",
+      "Security",
+      "Rabby Points",
+      "EVM",
+      "Tier 1"
+    ],
+    "featured": true,
+    "startDate": "Jan 2024",
+    "endDate": "Q4 2025",
+    "requirements": [
+      "Install Rabby Extension",
+      "Import or Create EVM Wallet",
+      "Claim Initial Rabby Points",
+      "Perform In-Wallet Swaps & Bridges"
+    ],
+    "overview": "Rabby Wallet is an open-source, security-focused Web3 wallet for Ethereum and all EVM chains, developed by the industry-renowned DeBank team. Designed to replace outdated browser extensions like MetaMask, Rabby incorporates pre-transaction simulation, real-time risk rule checking, and multi-chain address balance management across more than 140 supported EVM blockchains.\n\nEvery time a user initiates a transaction on Rabby, the wallet simulates the execution before signing, warning users if an address is unverified, if a contract has rug-pull or phishing characteristics, or if approval amounts are excessively dangerous. With millions of active power traders and institutional DeFi investors, Rabby has become the gold standard interface for safe Web3 interaction.\n\nRabby is running the official \"Rabby Points\" loyalty program. Users earn instant points for migrating from MetaMask, claiming historical active trading badges, swapping tokens using Rabby’s built-in DEX aggregator, and utilizing the Rabby Cross-Chain Bridge. With DeBank’s massive backing ($25M from Sequoia China and Dragonfly), a Rabby token represents one of the most anticipated consumer airdrops in crypto.",
+    "tokenomics": "The prospective Rabby governance token will govern the open-source wallet registry, direct fee revenues generated from in-wallet swaps and bridges, incentivize third-party security audit integrations, and empower decentralized community voting.",
+    "sybilDefense": "Rabby’s point algorithm heavily rewards historical wallet age, previous MetaMask usage snapshots, and verified DeBank Web3 ID badges. Disposable fresh wallets receive zero initial migration points, significantly limiting multi-wallet Sybil exploitation.",
+    "strategy": "To position for maximum Rabby Wallet airdrop distributions:\n\n1. Download the official Rabby Wallet extension and import your primary active Ethereum/EVM wallet.\n2. Open the \"Rabby Points\" menu and claim all initial migration and loyalty points.\n3. Execute regular in-wallet token swaps using Rabby Swap on cheap networks (Base, Arbitrum, Polygon).\n4. Use the Rabby Bridge feature to transfer funds across chains to log verified in-wallet bridge volume.\n5. Claim daily Rabby Points sign-in bonuses and invite active DeFi users using your referral code.",
+    "steps": [
+      "Download and install the official <a href=\"https://rabby.io\" target=\"_blank\" rel=\"noopener noreferrer\">Rabby Wallet Extension</a>.",
+      "Import your existing EVM seed phrase or connect your Ledger/Trezor hardware wallet.",
+      "Click the \"Rabby Points\" tab in the wallet menu to claim your initial points.",
+      "Perform a token swap directly inside the wallet using the <a href=\"https://rabby.io\" target=\"_blank\" rel=\"noopener noreferrer\">Rabby Swap</a> aggregator.",
+      "Bridge funds across networks using the built-in Rabby Bridge tool.",
+      "Check in daily in the Rabby Points interface to accumulate continuous sign-in streaks.",
+      "Share your Rabby referral link with friends to earn bonus referral points.",
+      "Verify that your Rabby Wallet is set as your default browser wallet for daily Web3 dApp usage."
+    ],
+    "faqs": [
+      {
+        "question": "What makes Rabby Wallet safer than MetaMask?",
+        "answer": "Rabby simulates every transaction before you sign it, explicitly showing balance changes and warning you of malicious smart contracts or phishing risks."
+      },
+      {
+        "question": "Who created Rabby Wallet?",
+        "answer": "Rabby Wallet was built by the DeBank team, backed by top venture firms including Sequoia China, Dragonfly Capital, and Crypto.com Capital."
+      },
+      {
+        "question": "What are Rabby Points?",
+        "answer": "Rabby Points are loyalty points earned by using Rabby features (swaps, bridges, daily sign-ins) and migrating from MetaMask."
+      },
+      {
+        "question": "How do I earn initial points in Rabby?",
+        "answer": "You earn initial points based on your wallet’s historical Ethereum balance and activity, plus bonus points if you used MetaMask Swap in the past."
+      },
+      {
+        "question": "Is Rabby Wallet open source?",
+        "answer": "Yes, Rabby Wallet is 100% open source and has been comprehensively audited by SlowMist and leading Web3 security teams."
+      },
+      {
+        "question": "Does Rabby support hardware wallets?",
+        "answer": "Yes, Rabby has best-in-class support for Ledger, Trezor, Keystone, GridPlus, and BitBox02 hardware wallets."
+      }
+    ]
   }
 ];

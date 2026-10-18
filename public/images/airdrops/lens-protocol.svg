@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" fill="none">
+  <defs>
+    <linearGradient id="lensGrad" x1="20" y1="20" x2="108" y2="108" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#BEF264" />
+      <stop offset="50%" stop-color="#84CC16" />
+      <stop offset="100%" stop-color="#4D7C0F" />
+    </linearGradient>
+  </defs>
+  <rect width="128" height="128" rx="28" fill="#0A180E" />
+  <path d="M64 96V52" stroke="url(#lensGrad)" stroke-width="6" stroke-linecap="round" />
+  <path d="M64 52C54 36 34 38 34 56C34 74 64 80 64 80" stroke="url(#lensGrad)" stroke-width="5" stroke-linecap="round" fill="none" />
+  <path d="M64 44C74 28 94 30 94 48C94 66 64 74 64 74" stroke="url(#lensGrad)" stroke-width="5" stroke-linecap="round" fill="none" />
+  <circle cx="64" cy="30" r="7" fill="#BEF264" />
+</svg>

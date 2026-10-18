@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" fill="none">
+  <defs>
+    <linearGradient id="pipeGrad" x1="20" y1="20" x2="108" y2="108" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#14F195" />
+      <stop offset="100%" stop-color="#9945FF" />
+    </linearGradient>
+  </defs>
+  <rect width="128" height="128" rx="28" fill="#0E0818" />
+  <!-- DePIN Conduit Node System -->
+  <path d="M34 38H94V54H50V74H94V90H34V38Z" fill="url(#pipeGrad)" />
+  <circle cx="94" cy="46" r="6" fill="#14F195" />
+  <circle cx="94" cy="82" r="6" fill="#9945FF" />
+</svg>
