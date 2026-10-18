@@ -7485,5 +7485,555 @@ export const airdrops: Airdrop[] = [
         "answer": "The Rivalz Network mainnet and $RIZ Token Generation Event are scheduled for late 2026."
       }
     ]
+  },
+  {
+    "id": "succinct",
+    "name": "Succinct Labs (SP1 zkVM)",
+    "logo": "/images/airdrops/succinct.svg",
+    "description": "The hyper-performant open-source Zero-Knowledge VM (SP1) and decentralized prover network, backed by $55M led by Paradigm.",
+    "reward": "Succinct Prover Credits & $SP1 Token Airdrop",
+    "category": "Zero-Knowledge / zkVM / Paradigm",
+    "featured": true,
+    "status": "active",
+    "publishDate": "2026-10-18",
+    "endTime": "2026-12-31T23:59:59Z",
+    "funding": "$55.0M Raised",
+    "investors": "Paradigm, Robot Ventures, Geometry, Bankless Ventures, ZK Validator, Elad Gil",
+    "refLink": "https://succinct.xyz",
+    "overview": "Succinct Labs is on a mission to democratize zero-knowledge cryptography by replacing bespoke, complex ZK circuits with general-purpose, 100% open-source software verification. Succinct developed \"SP1\" (Succinct Processor 1)—the industry-standard general-purpose zkVM that allows any developer to write standard Rust code and generate ultra-fast zero-knowledge proofs. SP1 has already been adopted across leading Web3 giants including Celestia, Polygon, Taiko, Mantle, and Avail to verify rollup state transitions.\n\nSuccinct raised an impressive $55 Million funding round led by Paradigm, with participation from Robot Ventures and top cryptographers. Complementing SP1 is the \"Succinct Prover Network\"—a decentralized, permissionless marketplace where application developers submit proof requests and independent hardware operators bid to generate proofs.\n\nThrough the Succinct Testnet and Prover Network rollout, users and developers running proof-generation nodes or testing SP1 verifiable apps earn Prover Credits and point allocations toward the upcoming $SP1 token distribution.",
+    "tokenomics": "The $SP1 token settles proof-generation fees on the Succinct Prover Network, stakes into prover auction pools, and governs zkVM protocol feature additions and fee burns.",
+    "sybilSafety": "Succinct measures verifiable cryptographic zero-knowledge proof calculations and hardware benchmarking telemetry, preventing bot spoofing.",
+    "strategy": "Deploy or test SP1 Rust programs on the Succinct platform, run a local or cloud GPU prover node on the testnet, and complete developer quests on succinct.xyz.",
+    "steps": [
+      "Visit the official <a href=\"https://succinct.xyz\" target=\"_blank\" rel=\"noopener noreferrer\">Succinct Labs Portal</a>.",
+      "Connect your Web3 wallet and create your decentralized developer/prover account.",
+      "Explore the live \"Succinct Prover Network\" dashboard to view active proof jobs.",
+      "Clone the open-source SP1 repository from GitHub and compile sample Rust programs.",
+      "Submit proof generation requests via the Succinct Alpha Network.",
+      "Deploy an SP1 prover node on your Linux/GPU machine to fulfill decentralized proof requests.",
+      "Claim community developer roles on the Succinct Discord server.",
+      "Track your accumulated Prover Credits ahead of the $SP1 Token Generation Event."
+    ],
+    "faqs": [
+      {
+        "question": "What is Succinct Labs and SP1?",
+        "answer": "Succinct is the developer of SP1, an open-source zkVM that lets developers prove standard Rust programs using zero-knowledge cryptography."
+      },
+      {
+        "question": "Who invested in Succinct Labs?",
+        "answer": "Succinct raised $55M in funding led by Paradigm, alongside Robot Ventures, Geometry, and Bankless Ventures."
+      },
+      {
+        "question": "Which projects use SP1 today?",
+        "answer": "Industry titans including Celestia, Polygon, Taiko, Avail, and Mantle use SP1 to generate zero-knowledge proofs."
+      },
+      {
+        "question": "What is the Succinct Prover Network?",
+        "answer": "It is a decentralized marketplace connecting developers needing ZK proofs with hardware provers who earn fees generating them."
+      },
+      {
+        "question": "Do I need a GPU to participate?",
+        "answer": "Developers can use SP1 on standard CPUs, while prover network operators utilize GPUs for maximum performance."
+      },
+      {
+        "question": "When will the token launch?",
+        "answer": "The Succinct Prover Network mainnet launch and token generation event are targeted for late 2026."
+      }
+    ]
+  },
+  {
+    "id": "espresso",
+    "name": "Espresso Systems",
+    "logo": "/images/airdrops/espresso.svg",
+    "description": "The leading decentralized shared sequencing and fast confirmation layer for Ethereum rollups, backed by $60M led by a16z crypto & Electric Capital.",
+    "reward": "Espresso Testnet Quests, Node Delegation & $ESPR Token Distribution",
+    "category": "Shared Sequencer / Layer 2 / a16z",
+    "featured": true,
+    "status": "active",
+    "publishDate": "2026-10-18",
+    "endTime": "2026-12-31T23:59:59Z",
+    "funding": "$60.0M Raised",
+    "investors": "a16z crypto, Electric Capital, Coinbase Ventures, Polychain Capital, Sequoia Capital",
+    "refLink": "https://espressosys.com",
+    "overview": "Espresso Systems is the premier decentralized shared sequencing marketplace and data availability coordination layer for Ethereum rollups. Today, most Layer 2s operate single, centralized sequencers that control transaction order—introducing severe single points of failure, censorship risks, and liquidity fragmentation across rollups. Espresso replaces centralized sequencers with the \"Espresso Sequencer\"—a high-throughput, decentralized Proof-of-Stake consensus network (HotShot) that provides sub-second transaction pre-confirmations.\n\nEspresso enables disparate rollups (Arbitrum, Optimism OP Stack, Polygon CDK, and Cartesi) to interoperate seamlessly with shared sequencing and atomic composability. Espresso raised $60 Million across rounds led by Andreessen Horowitz (a16z crypto) and Electric Capital, with participation from Coinbase Ventures and Sequoia Capital.\n\nEspresso is operating its incentivized testnets (Gibraltar and Cortado), allowing node runners, restakers (via EigenLayer integration), and community testers to participate in shared sequencing and accumulate points toward the $ESPR token.",
+    "tokenomics": "The $ESPR token powers decentralized sequencer staking, secures HotShot consensus, settles sequencer transaction fees, and enables DAO governance over protocol parameters.",
+    "sybilSafety": "Espresso verifies real node uptime, cryptographic consensus signatures, and restaked capital validation via EigenLayer integration.",
+    "strategy": "Add Espresso-integrated testnet rollups to your wallet, execute cross-rollup swaps, run an Espresso validator/node on testnet, and complete community quests.",
+    "steps": [
+      "Visit the official <a href=\"https://espressosys.com\" target=\"_blank\" rel=\"noopener noreferrer\">Espresso Systems Portal</a>.",
+      "Connect your Web3 wallet and add the Espresso Gibraltar Testnet configuration.",
+      "Bridge testnet ETH into Espresso-sequenced rollups using testnet bridges.",
+      "Execute high-speed swaps and transfers to test sub-second HotShot pre-confirmations.",
+      "Set up an Espresso validator node or delegate restaked testnet assets to active operators.",
+      "Participate in cross-rollup atomic composability demonstrations.",
+      "Complete community missions on the Espresso Galxe and Discord channels.",
+      "Monitor your sequencer participation standing ahead of the $ESPR mainnet snapshot."
+    ],
+    "faqs": [
+      {
+        "question": "What is Espresso Systems?",
+        "answer": "Espresso is a decentralized shared sequencer network that gives rollups sub-second confirmation times, decentralization, and cross-chain composability."
+      },
+      {
+        "question": "Who invested in Espresso Systems?",
+        "answer": "Espresso raised $60M led by a16z crypto and Electric Capital, alongside Coinbase Ventures and Sequoia Capital."
+      },
+      {
+        "question": "What is HotShot consensus?",
+        "answer": "HotShot is Espresso's custom Proof-of-Stake consensus protocol capable of scaling to thousands of nodes with sub-second finality."
+      },
+      {
+        "question": "How does Espresso work with EigenLayer?",
+        "answer": "Espresso integrates with EigenLayer to allow Ethereum restakers to restake ETH to secure the shared sequencer network."
+      },
+      {
+        "question": "Which rollups are integrating Espresso?",
+        "answer": "Major rollup frameworks including Arbitrum Orbit, Polygon CDK, Caldera, and Cartesi are actively integrating Espresso."
+      },
+      {
+        "question": "Is participating in the testnet free?",
+        "answer": "Yes! The Espresso testnet is completely free to test and interact with using faucet tokens."
+      }
+    ]
+  },
+  {
+    "id": "lombard",
+    "name": "Lombard",
+    "logo": "/images/airdrops/lombard.svg",
+    "description": "The #1 Bitcoin liquid staking token ($LBTC) powered by Babylon and security consortium, commanding $1B+ TVL backed by $16M from Polychain.",
+    "reward": "Lux Points Season 2 & $LOMBARD Token Allocations",
+    "category": "Bitcoin Liquid Staking / Babylon / DeFi",
+    "featured": true,
+    "status": "active",
+    "publishDate": "2026-10-18",
+    "endTime": "2026-11-30T23:59:59Z",
+    "funding": "$16.0M Seed Round",
+    "investors": "Polychain Capital, Babylon, dao5, Franklin Templeton, Foresight Ventures, Mirana Ventures",
+    "refLink": "https://lombard.finance",
+    "overview": "Lombard is the undisputed market leader in Bitcoin liquid staking, commanding over $1 Billion in Total Value Locked (TVL) through its flagship token, $LBTC. Historically, staking Bitcoin on Babylon required locking assets with zero liquidity. Lombard bridges this liquidity gap by issuing $LBTC—a yield-bearing, cross-chain liquid Bitcoin token that earns native Babylon Proof-of-Stake yields while remaining 100% liquid and composable across Ethereum, Base, Solana, Arbitrum, and DeFi.\n\nLombard is secured by the \"Security Consortium\"—a decentralized consortium of industry titans (including Polychain Capital, Kiln, Galaxy, and Figment) that cryptographically verifies all Bitcoin deposits and mints.\n\nLombard raised $16 Million in seed funding led by Polychain Capital, with direct participation from Babylon and Franklin Templeton. Through its gamified \"Lux\" loyalty program, users minting LBTC, depositing into DeFi liquidity pools, and using LBTC across money markets accumulate Lux Points toward the native $LOMBARD token airdrop.",
+    "tokenomics": "The $LOMBARD token governs the Lombard Security Consortium, directs protocol fees, votes on cross-chain bridge whitelisting, and oversees Babylon restaking delegations.",
+    "sybilSafety": "Lombard enforces capital-backed Bitcoin deposits and verifiable time-weighted holding metrics across approved DeFi protocols, preventing Sybil bot farming.",
+    "strategy": "Deposit native BTC or WBTC/cbBTC on lombard.finance to mint $LBTC, supply LBTC to leading money markets (Morpho, Aave, Pendle) to earn boosted Lux Points.",
+    "steps": [
+      "Visit the official <a href=\"https://lombard.finance\" target=\"_blank\" rel=\"noopener noreferrer\">Lombard Finance Portal</a>.",
+      "Connect your Web3 wallet (MetaMask, Rabby, or OKX Wallet).",
+      "Stake native Bitcoin (BTC) or tokenized Bitcoin (WBTC, cbBTC) to mint liquid $LBTC.",
+      "Bridge $LBTC across supported networks (Ethereum, Base, Solana, Arbitrum).",
+      "Supply $LBTC into money markets (such as Morpho, Compound, or Aave) for lending APR.",
+      "Deposit LBTC into Pendle Finance yield pools to stack dual Lux Points and Pendle yields.",
+      "Complete community milestone quests on the Lombard Lux dashboard.",
+      "Redeem your accumulated Lux Points for $LOMBARD tokens upon token genesis."
+    ],
+    "faqs": [
+      {
+        "question": "What is Lombard and $LBTC?",
+        "answer": "Lombard is the leading Bitcoin liquid staking protocol issuing $LBTC, which earns Babylon staking yield while remaining liquid in DeFi."
+      },
+      {
+        "question": "Who invested in Lombard?",
+        "answer": "Lombard raised $16M led by Polychain Capital, with participation from Babylon, Franklin Templeton, and dao5."
+      },
+      {
+        "question": "What is the Security Consortium?",
+        "answer": "The Security Consortium is a multi-institutional council (Kiln, Galaxy, Polychain) that cryptographically verifies all Bitcoin backing $LBTC."
+      },
+      {
+        "question": "What are Lux Points?",
+        "answer": "Lux Points are loyalty rewards earned by minting and holding LBTC across DeFi protocols, converting into $LOMBARD tokens."
+      },
+      {
+        "question": "Can I redeem LBTC back to real Bitcoin?",
+        "answer": "Yes! Lombard supports 1:1 redemption of LBTC back to native Bitcoin or instant swaps on decentralized exchanges."
+      },
+      {
+        "question": "Which networks does LBTC support?",
+        "answer": "LBTC is available across Ethereum, Base, Arbitrum, Optimism, Solana, and Berachain."
+      }
+    ]
+  },
+  {
+    "id": "bitlayer",
+    "name": "Bitlayer",
+    "logo": "/images/airdrops/bitlayer.svg",
+    "description": "The premier Bitcoin Layer 2 network based on BitVM paradigm and Turing-complete smart contracts, backed by $16M led by Polychain Capital & Franklin Templeton.",
+    "reward": "Mining Pioneer Points, Bitlayer Badges & $BTR Airdrop",
+    "category": "Bitcoin L2 / BitVM / EVM",
+    "featured": true,
+    "status": "active",
+    "publishDate": "2026-10-18",
+    "endTime": "2026-12-15T23:59:59Z",
+    "funding": "$16.0M Raised",
+    "investors": "Polychain Capital, Franklin Templeton, Framework Ventures, ABCDE, Stake Capital",
+    "refLink": "https://bitlayer.org",
+    "overview": "Bitlayer is the first Bitcoin Layer 2 network engineered around the revolutionary BitVM paradigm, providing Turing-complete smart contract execution with Bitcoin Layer 1 cryptographic verification. Historically, Bitcoin sidechains required trust in centralized multisig federations. Bitlayer introduces the BitVM optimistic challenge mechanism: anyone on Bitcoin can challenge invalid Layer 2 transactions, inheriting Bitcoin's native Proof-of-Work security.\n\nBitlayer is 100% EVM-compatible, enabling developers from Ethereum, Arbitrum, and Polygon to deploy DeFi protocols, DEXs, and GameFi dApps onto Bitcoin without rewriting code. Bitlayer raised $16 Million from institutional giants including Polychain Capital, Framework Ventures, and Franklin Templeton.\n\nThrough its flagship \"Mining Pioneer\" incentive programs (Racer Center and Ecosystem Seasons), users bridging BTC, swapping on native DEXs, and collecting Bitlayer Racer Badges accumulate points that directly qualify for the upcoming $BTR token airdrop.",
+    "tokenomics": "The $BTR token governs the Bitlayer Layer 2 network, secures BitVM challenger staking, provides gas fee rebates, and directs ecosystem developer grants.",
+    "sybilSafety": "Bitlayer evaluates genuine on-chain bridging volume, smart contract execution diversity, and Racer badge milestones to eliminate automated bot rings.",
+    "strategy": "Bridge native BTC to Bitlayer via the official Bitlayer bridge, swap tokens on native DEXs (Macaron, BitSmiley), mint Racer achievement badges, and participate in Mining Pioneer quests.",
+    "steps": [
+      "Visit the official <a href=\"https://bitlayer.org\" target=\"_blank\" rel=\"noopener noreferrer\">Bitlayer Network Portal</a>.",
+      "Connect your Web3 wallet (MetaMask, OKX Wallet, or UniSat).",
+      "Bridge native Bitcoin from Bitcoin L1 to Bitlayer using the official canonical bridge.",
+      "Claim Bitlayer gas subsidies and explore the live Bitlayer dApp directory.",
+      "Swap tokens and provide liquidity on native Bitlayer AMMs (Macaron, Vanilla).",
+      "Participate in the \"Mining Pioneer\" quest center to mint exclusive community badges.",
+      "Supply assets to decentralized lending protocols on Bitlayer for passive yield.",
+      "Track your point standing on the Bitlayer Leaderboard ahead of the $BTR airdrop."
+    ],
+    "faqs": [
+      {
+        "question": "What is Bitlayer?",
+        "answer": "Bitlayer is the premier Bitcoin Layer 2 network using BitVM to enable EVM smart contracts secured by Bitcoin Layer 1."
+      },
+      {
+        "question": "Who invested in Bitlayer?",
+        "answer": "Bitlayer raised $16M led by Polychain Capital and Franklin Templeton, with backing from Framework Ventures and ABCDE."
+      },
+      {
+        "question": "What is BitVM?",
+        "answer": "BitVM is a computing paradigm that enables fraud-proof verification on Bitcoin without requiring changes to Bitcoin's consensus rules."
+      },
+      {
+        "question": "What is the Mining Pioneer program?",
+        "answer": "Mining Pioneer is Bitlayer's official rewards campaign distributing badges and points to active early bridge users and traders."
+      },
+      {
+        "question": "Can I use MetaMask with Bitlayer?",
+        "answer": "Yes! Bitlayer is 100% EVM-compatible and works seamlessly with MetaMask, Rabby, and standard Web3 wallets."
+      },
+      {
+        "question": "What token is used for gas on Bitlayer?",
+        "answer": "Native Bitcoin ($BTC) is used as the execution gas asset on the Bitlayer Layer 2 network."
+      }
+    ]
+  },
+  {
+    "id": "polymer",
+    "name": "Polymer Labs",
+    "logo": "/images/airdrops/polymer.svg",
+    "description": "The Ethereum Interoperability Hub connecting Layer 2 rollups using the Inter-Blockchain Communication (IBC) protocol, backed by $23M from Blockchain Capital.",
+    "reward": "Polymer Testnet XP & $POLY Token Distribution",
+    "category": "Interoperability / IBC / Ethereum Rollups",
+    "featured": true,
+    "status": "active",
+    "publishDate": "2026-10-18",
+    "endTime": "2026-11-30T23:59:59Z",
+    "funding": "$23.0M Series A",
+    "investors": "Blockchain Capital, Maven 11, Distributed Global, Digital Currency Group, Coinbase Ventures",
+    "refLink": "https://polymerlabs.org",
+    "overview": "Polymer Labs is building the premier Ethereum Interoperability Hub, bringing the gold standard of cross-chain communication—the Inter-Blockchain Communication (IBC) protocol—to the Ethereum Layer 2 rollup ecosystem. Today, bridging between Layer 2s (OP Stack, Arbitrum, Base, Scroll) relies on fragmented multisig bridges that are prone to catastrophic multi-million dollar exploits. Polymer establishes an Ethereum-secured rollup hub that routes verified IBC messages between all rollups with cryptographic zero-knowledge finality.\n\nPolymer raised $23 Million in Series A venture funding led by Blockchain Capital and Maven 11. By serving as an L2-to-L2 router, Polymer eliminates bridge security vulnerabilities and enables instant cross-rollup composability, lending, and liquidity sharing.\n\nPolymer is currently running its incentivized testnet campaigns. Community participants, developers testing cross-rollup applications, and users bridging testnet assets accumulate Polymer XP qualifying for the $POLY governance token distribution.",
+    "tokenomics": "The $POLY token powers interchain message routing fees, secures the Polymer hub through Proof-of-Stake staking, and governs protocol connection standards.",
+    "sybilSafety": "Polymer verifies unique interchain message proofs, developer GitHub activity, and multi-rollup testnet interactions to prevent bot manipulation.",
+    "strategy": "Add Polymer testnet to your wallet, bridge testnet assets between Base Sepolia and Optimism Sepolia using the Polymer IBC bridge, and complete developer missions on polymerlabs.org.",
+    "steps": [
+      "Visit the official <a href=\"https://polymerlabs.org\" target=\"_blank\" rel=\"noopener noreferrer\">Polymer Labs Portal</a>.",
+      "Connect your Web3 wallet and add the Polymer Hub testnet network.",
+      "Acquire Sepolia testnet ETH from public faucets.",
+      "Send cross-chain messages and tokens between OP Sepolia and Base Sepolia via Polymer IBC.",
+      "Deploy an interchain smart contract using the Polymer developer toolkit.",
+      "Participate in community verification tasks on the Polymer Discord and Galxe hubs.",
+      "Monitor your cross-chain message count on the Polymer Interchain Explorer.",
+      "Qualify for the upcoming $POLY token allocation snapshot."
+    ],
+    "faqs": [
+      {
+        "question": "What is Polymer Labs?",
+        "answer": "Polymer is an Ethereum Interoperability Hub that brings Cosmos IBC protocol security to connect Ethereum Layer 2 rollups."
+      },
+      {
+        "question": "Who invested in Polymer Labs?",
+        "answer": "Polymer raised $23M in Series A funding led by Blockchain Capital, alongside Maven 11 and Distributed Global."
+      },
+      {
+        "question": "Why is IBC better than traditional bridges?",
+        "answer": "IBC is a trust-minimized communication protocol that relies on cryptographic verification rather than centralized multisig custodians."
+      },
+      {
+        "question": "Which rollups does Polymer connect?",
+        "answer": "Polymer connects Optimism, Base, Arbitrum, Scroll, and other major EVM rollups."
+      },
+      {
+        "question": "Is testing Polymer free?",
+        "answer": "Yes! The entire testnet campaign operates on Sepolia testnet using free faucet tokens."
+      },
+      {
+        "question": "When will the $POLY token launch?",
+        "answer": "The Polymer mainnet launch and $POLY token distribution are targeted for late 2026."
+      }
+    ]
+  },
+  {
+    "id": "lorenzo",
+    "name": "Lorenzo Protocol",
+    "logo": "/images/airdrops/lorenzo.svg",
+    "description": "The premier Bitcoin liquid restaking layer issuing $stBTC and principal/yield separation tokens on Babylon, backed by Binance Labs & Polychain.",
+    "reward": "Lorenzo Points Season 2 & $LRZ Token Allocation",
+    "category": "Bitcoin Restaking / Babylon / Liquid Staking",
+    "featured": true,
+    "status": "active",
+    "publishDate": "2026-10-18",
+    "endTime": "2026-12-15T23:59:59Z",
+    "funding": "Backed by Binance Labs & Polychain Capital",
+    "investors": "Binance Labs, Polychain Capital, ArkStream Capital, Web3Port, Presto Labs",
+    "refLink": "https://lorenzo-protocol.xyz",
+    "overview": "Lorenzo Protocol is the premier Bitcoin liquid restaking protocol and liquidity layer engineered on top of Babylon. Lorenzo transforms Bitcoin into a dynamic capital asset through its liquid principal and yield separation architecture: when users deposit Bitcoin, Lorenzo issues liquid restaked Bitcoin ($stBTC), alongside tradable Yield Accumulating Tokens (YAT) and Liquid Principal Tokens (LPT).\n\nLorenzo enables stakers to capture Babylon Proof-of-Stake validator yields while deploying $stBTC across Ethereum, BNB Chain, and Layer 2 DeFi money markets. Backed by strategic investment from Binance Labs and Polychain Capital, Lorenzo has rapidly grown into a cornerstone of the emerging \"BTCFi\" ecosystem.\n\nLorenzo is operating Season 2 of its points rewards program. Stakers depositing BTC, WBTC, or BTCB into Lorenzo vaults earn daily Lorenzo Points, claim community reward boxes, and position themselves for the $LRZ governance token airdrop.",
+    "tokenomics": "The $LRZ token governs the Lorenzo DAO, directs Babylon validator delegations, decides on new asset vault collateral, and captures protocol staking commissions.",
+    "sybilSafety": "Lorenzo requires verifiable capital-backed Bitcoin deposits and continuous time-weighted vault lockup to earn points, preventing bot dilution.",
+    "strategy": "Deposit Bitcoin (BTC, WBTC, BTCB) into Lorenzo vaults on lorenzo-protocol.xyz, hold $stBTC, provide liquidity in DeFi pools, and open daily reward mystery boxes.",
+    "steps": [
+      "Visit the official <a href=\"https://lorenzo-protocol.xyz\" target=\"_blank\" rel=\"noopener noreferrer\">Lorenzo Protocol Portal</a>.",
+      "Connect your Web3 wallet (MetaMask, OKX Wallet, or Binance Web3 Wallet).",
+      "Select your origin network (Ethereum, BNB Chain, or Bitcoin) and deposit Bitcoin.",
+      "Mint liquid restaked Bitcoin ($stBTC) to start compounding Babylon restaking yield.",
+      "Supply $stBTC to participating decentralized exchanges and lending pools for point boosters.",
+      "Open your daily Lorenzo Reward Boxes on the points dashboard to earn bonus points.",
+      "Complete social verification tasks on the Lorenzo Galxe community hub.",
+      "Redeem your accumulated points for $LRZ tokens upon token generation."
+    ],
+    "faqs": [
+      {
+        "question": "What is Lorenzo Protocol?",
+        "answer": "Lorenzo is a Bitcoin liquid restaking layer that issues $stBTC to unlock native Babylon staking yields for Bitcoin holders."
+      },
+      {
+        "question": "Who backs Lorenzo Protocol?",
+        "answer": "Lorenzo is backed by top venture funds including Binance Labs, Polychain Capital, and ArkStream Capital."
+      },
+      {
+        "question": "What is $stBTC?",
+        "answer": "$stBTC is Lorenzo's liquid restaked Bitcoin token, representing staked BTC earning Babylon PoS yields."
+      },
+      {
+        "question": "What is Principal and Yield Separation?",
+        "answer": "Lorenzo splits staked positions into liquid principal tokens and yield tokens, allowing stakers to hedge or trade future Bitcoin yields."
+      },
+      {
+        "question": "Can I unstake my Bitcoin?",
+        "answer": "Yes! Stakers can withdraw their deposited Bitcoin back to their original wallet address through the unstaking interface."
+      },
+      {
+        "question": "Which chains support $stBTC?",
+        "answer": "$stBTC is deployed across Ethereum, BNB Chain, Arbitrum, and major Bitcoin Layer 2s."
+      }
+    ]
+  },
+  {
+    "id": "meteora",
+    "name": "Meteora",
+    "logo": "/images/airdrops/meteora.svg",
+    "description": "The dynamic liquidity engine and Dynamic Liquidity Market Maker (DLMM) of Solana created by the Jupiter ($JUP) team with MET points.",
+    "reward": "MET Points & $MET Governance Token Airdrop",
+    "category": "Solana DeFi / DLMM / Dynamic AMM",
+    "featured": true,
+    "status": "active",
+    "publishDate": "2026-10-18",
+    "endTime": "2026-12-31T23:59:59Z",
+    "funding": "Incubated by Jupiter ($JUP) Team / Multicoin Capital Backed",
+    "investors": "Jupiter Exchange, Multicoin Capital, Solana Ventures, DeFiance Capital",
+    "refLink": "https://meteora.ag",
+    "overview": "Meteora is the foundational liquidity backbone of the Solana blockchain, engineered by the renowned core team behind Jupiter ($JUP). In high-volatility markets, traditional Automated Market Makers (AMMs) suffer from severe impermanent loss and static fee structures that fail to capture trading surges. Meteora revolutionizes on-chain market making with its \"DLMM\" (Dynamic Liquidity Market Maker)—enabling liquidity providers to concentrate capital into discrete price bins with dynamic, volatility-adjusted fee tiers.\n\nPowering hundreds of millions in daily volume across trending Solana tokens, memecoins, and blue-chips, Meteora also introduced \"Dynamic AMM Pools\" and \"Multi-Token Pools\" that automatically compound lending yields from Kamino and Marginfi directly into LP positions.\n\nMeteora is running its official \"MET Points\" liquidity incentives program, awarding 10% of the upcoming $MET governance token supply directly to active liquidity providers based on LP fees generated.",
+    "tokenomics": "The $MET token governs the Meteora protocol, directs liquidity pool incentives, sets DLMM protocol fee switches, and aligns with the broader Jupiter ecosystem.",
+    "sybilSafety": "Meteora points are earned strictly in proportion to real trading fees generated by liquidity positions, completely neutralizing zero-fee bot farming.",
+    "strategy": "Provide liquidity into high-volume DLMM pools (SOL-USDC, JUP-SOL, trending tokens) on meteora.ag, earn dynamic trading fees, and accumulate daily MET Points.",
+    "steps": [
+      "Visit the official <a href=\"https://meteora.ag\" target=\"_blank\" rel=\"noopener noreferrer\">Meteora App</a>.",
+      "Connect your Solana Web3 wallet (Phantom, Solflare, or Backpack).",
+      "Navigate to \"DLMM\" pools and select a high-volume trading pair (such as SOL-USDC).",
+      "Choose your liquidity distribution strategy (Spot, Curve, or Bid-Ask).",
+      "Deposit liquidity to start earning dynamic volatility trading fees immediately.",
+      "Explore \"Alpha Vaults\" for new token launches with built-in anti-sniping protection.",
+      "Track your accumulated fees and daily ranking on the MET Points leaderboard.",
+      "Claim your $MET token distribution upon the official Token Generation Event."
+    ],
+    "faqs": [
+      {
+        "question": "What is Meteora?",
+        "answer": "Meteora is Solana's premier dynamic liquidity protocol and DLMM, built by the team behind Jupiter to optimize yield for liquidity providers."
+      },
+      {
+        "question": "What is DLMM (Dynamic Liquidity Market Maker)?",
+        "answer": "DLMM allows LPs to concentrate liquidity in zero-slippage price bins and charges dynamic fees that increase automatically during volatility."
+      },
+      {
+        "question": "Who built Meteora?",
+        "answer": "Meteora was developed and incubated by Meow and the core team behind Jupiter Exchange ($JUP)."
+      },
+      {
+        "question": "How do I earn MET Points?",
+        "answer": "MET Points are distributed to liquidity providers proportional to the trading fees generated by their active liquidity pools."
+      },
+      {
+        "question": "Can I withdraw my liquidity at any time?",
+        "answer": "Yes! Liquidity on Meteora is non-custodial and can be withdrawn with accumulated fees at any moment."
+      },
+      {
+        "question": "When will the $MET token launch?",
+        "answer": "The $MET Token Generation Event is scheduled to launch following the conclusion of the liquidity mining season in late 2026."
+      }
+    ]
+  },
+  {
+    "id": "mellow",
+    "name": "Mellow Protocol",
+    "logo": "/images/airdrops/mellow.svg",
+    "description": "The modular liquid restaking infrastructure powered by Symbiotic commanding $1B+ TVL, backed by Robot Ventures and ParaFi Capital.",
+    "reward": "Mellow Points & Symbiotic Restaking Rewards",
+    "category": "Restaking / Symbiotic / Modular LRT",
+    "featured": true,
+    "status": "active",
+    "publishDate": "2026-10-18",
+    "endTime": "2026-12-15T23:59:59Z",
+    "funding": "$2.75M Seed / $1B+ TVL",
+    "investors": "Robot Ventures, ParaFi Capital, Cyber Fund, Lemniscap, Primitive Ventures",
+    "refLink": "https://mellow.finance",
+    "overview": "Mellow Protocol is the flagship modular restaking infrastructure and Liquid Restaking Token (LRT) engine powering the Symbiotic restaking ecosystem. While first-generation restaking protocols impose rigid, one-size-fits-all risk profiles, Mellow introduces \"Modular Restaking Vaults\": independent risk managers (curators like Re7, MEV Capital, and Steakhouse) design bespoke vaults tailored to specific risk tolerances, collateral types, and Actively Validated Services (AVSs).\n\nMellow became the primary launchpad for Symbiotic restaking, quickly surging past $1 Billion in Total Value Locked (TVL). Mellow powers premier restaking tokens including amphrETH, rethETH, and steakLRT, giving depositors customized yield and restaking exposures.\n\nBacked by Robot Ventures, ParaFi Capital, and Cyber Fund, Mellow is rewarding participants who deposit ETH, stETH, or wBETH into Mellow vaults with Mellow Points alongside native Symbiotic restaking points.",
+    "tokenomics": "The upcoming Mellow governance token will govern protocol vault creation rules, manage risk curator whitelisting, and capture performance fees across restaking vaults.",
+    "sybilSafety": "Mellow tracks time-weighted restaked capital commitments on Ethereum mainnet, ensuring points are attributed strictly to verifiable TVL deposits.",
+    "strategy": "Deposit stETH, ETH, or wBETH into high-yield Mellow Restaking Vaults on mellow.finance to stack Mellow Points, Symbiotic points, and curator partner rewards.",
+    "steps": [
+      "Visit the official <a href=\"https://mellow.finance\" target=\"_blank\" rel=\"noopener noreferrer\">Mellow Finance Portal</a>.",
+      "Connect your Ethereum Web3 wallet (MetaMask, Rabby, or WalletConnect).",
+      "Browse active Symbiotic restaking vaults curated by top risk managers (Re7, MEV Capital).",
+      "Select your collateral asset (stETH, native ETH, or wBETH).",
+      "Deposit assets into your chosen vault to mint modular liquid restaking tokens.",
+      "Earn native staking yield, Symbiotic restaking points, and Mellow Points simultaneously.",
+      "Supply Mellow LRT tokens into secondary DeFi liquidity pools (Curve, Balancer) for boosted rewards.",
+      "Claim your retroactive token allocations during the Symbiotic/Mellow TGE."
+    ],
+    "faqs": [
+      {
+        "question": "What is Mellow Protocol?",
+        "answer": "Mellow is a modular liquid restaking protocol that allows decentralized risk curators to build custom restaking vaults on Symbiotic."
+      },
+      {
+        "question": "Who invested in Mellow?",
+        "answer": "Mellow raised $2.75M from investors including Robot Ventures, ParaFi Capital, Cyber Fund, and Lemniscap, commanding $1B+ in TVL."
+      },
+      {
+        "question": "How is Mellow related to Symbiotic?",
+        "answer": "Mellow is the primary liquid restaking infrastructure provider for the Symbiotic restaking network."
+      },
+      {
+        "question": "What are Curated Vaults on Mellow?",
+        "answer": "Vaults managed by professional risk managers (like Steakhouse and Re7) who actively balance restaking collateral across network networks."
+      },
+      {
+        "question": "Can I withdraw my restaked ETH?",
+        "answer": "Yes! Withdrawals are available directly through the Mellow vault interface subject to standard network unbonding periods."
+      },
+      {
+        "question": "Do I get multiple points from Mellow?",
+        "answer": "Yes! Depositing earns base staking yield, Symbiotic points, Mellow Points, and curator partner rewards all in one position."
+      }
+    ]
+  },
+  {
+    "id": "gradient",
+    "name": "Gradient Network",
+    "logo": "/images/airdrops/gradient.svg",
+    "description": "Decentralized edge compute and AI inference streaming network on Solana (DePIN) backed by Multicoin Capital & Pantera Capital.",
+    "reward": "Sentry Node Points, Edge Compute Rewards & $GRAD Airdrop",
+    "category": "DePIN / Solana / Edge AI Compute",
+    "featured": true,
+    "status": "active",
+    "publishDate": "2026-10-18",
+    "endTime": "2026-12-31T23:59:59Z",
+    "funding": "Funded by Multicoin Capital, Pantera Capital, and Sequoia",
+    "investors": "Multicoin Capital, Pantera Capital, Sequoia Capital China, Colosseum",
+    "refLink": "https://gradient.network",
+    "overview": "Gradient Network is a cutting-edge decentralized physical infrastructure network (DePIN) built on Solana that is revolutionizing edge compute, content delivery, and distributed artificial intelligence inference. Traditional AI computing relies entirely on centralized data centers, resulting in high latency and network bottlenecks. Gradient transforms everyday consumer devices—smartphones, laptops, and smart home appliances—into a global mesh network of \"Sentry Nodes\" that cache data and execute micro-AI inferences at the edge.\n\nIncubated with backing from premier crypto venture funds Multicoin Capital and Pantera Capital, Gradient provides the compute infrastructure necessary for decentralized applications, gaming, and real-time AI agents.\n\nGradient is running its open \"Sentry Node\" campaign. Users install the lightweight browser extension to contribute idle edge compute and connectivity, earning continuous Gradient Points that convert into native $GRAD tokens on Solana.",
+    "tokenomics": "The $GRAD token coordinates the Gradient decentralized compute network, paying node operators for bandwidth and compute, and enabling governance over edge network expansion.",
+    "sybilSafety": "Gradient verifies authentic residential IP connectivity, device hardware capability, and uptime consistency to filter out virtual machine proxies.",
+    "strategy": "Install the official Gradient Sentry Node browser extension, maintain active connectivity while browsing, complete social verification tasks, and refer friends for point multipliers.",
+    "steps": [
+      "Visit the official <a href=\"https://gradient.network\" target=\"_blank\" rel=\"noopener noreferrer\">Gradient Network Portal</a>.",
+      "Register an account using your email address and an invite referral code.",
+      "Download and install the official \"Gradient Sentry Node\" extension from the Chrome Web Store.",
+      "Log into the extension to begin validating network connectivity and earn points 24/7.",
+      "Complete social verification missions (link X/Twitter and join the Discord community).",
+      "Check your daily uptime score and edge compute contribution on the dashboard.",
+      "Share your referral link with friends to receive permanent uptime percentage bonuses.",
+      "Claim your $GRAD token distribution upon the Solana mainnet token generation event."
+    ],
+    "faqs": [
+      {
+        "question": "What is Gradient Network?",
+        "answer": "Gradient is a Solana-based DePIN protocol that turns consumer devices into a decentralized edge compute and AI inference network."
+      },
+      {
+        "question": "Who invested in Gradient Network?",
+        "answer": "Gradient is backed by top-tier venture firms including Multicoin Capital, Pantera Capital, and Sequoia Capital."
+      },
+      {
+        "question": "What is a Sentry Node?",
+        "answer": "A Sentry Node is a lightweight browser extension that shares idle edge connectivity to validate content delivery and AI tasks."
+      },
+      {
+        "question": "Does Gradient access my personal data or passwords?",
+        "answer": "No! The extension only operates as an encrypted network relay; it cannot read your browsing history, cookies, or personal data."
+      },
+      {
+        "question": "Is participating in Gradient free?",
+        "answer": "Yes, 100% free. No hardware purchases or cryptocurrency deposits are required."
+      },
+      {
+        "question": "When will the $GRAD token launch?",
+        "answer": "The Gradient Network Solana token generation event is scheduled for late 2026."
+      }
+    ]
+  },
+  {
+    "id": "marginfi",
+    "name": "Marginfi",
+    "logo": "/images/airdrops/marginfi.svg",
+    "description": "The premier decentralized lending, borrow, and leverage margin protocol on Solana, backed by $3M from Multicoin Capital & Pantera.",
+    "reward": "mrgn Points & $MFI Governance Token Distribution",
+    "category": "Solana Lending / Margin / Money Market",
+    "featured": true,
+    "status": "active",
+    "publishDate": "2026-10-18",
+    "endTime": "2026-12-31T23:59:59Z",
+    "funding": "$3.0M Seed Round",
+    "investors": "Multicoin Capital, Pantera Capital, Sino Global Capital, Solana Ventures",
+    "refLink": "https://app.marginfi.com",
+    "overview": "Marginfi is a cornerstone decentralized money market and margin protocol on the Solana blockchain. Built to solve capital inefficiency across Solana DeFi, Marginfi provides a unified liquidity platform for borrowing, lending, and managing risk across volatile assets. Featuring a state-of-the-art decentralized risk engine with isolated pools and liquidation mechanisms, Marginfi empowers traders to access high-leverage margin trading while protecting protocol solvency.\n\nMarginfi also pioneered \"LST\" (liquid staking token) optimizations and introduced \"mrgnSwap\" and the native yield-backed stablecoin $YBX. Backed by $3 Million from Multicoin Capital and Pantera Capital, Marginfi has processed billions in lending and borrowing volume.\n\nMarginfi operates its celebrated \"mrgn Points\" system. Users supplying capital earn 1 point per dollar deposited per day, while borrowers earn an accelerated 4 points per dollar borrowed per day, determining eligibility for the upcoming $MFI governance token.",
+    "tokenomics": "The $MFI token will govern the Marginfi protocol, decide collateral admission and loan-to-value (LTV) limits, and earn a share of protocol liquidation and lending fees.",
+    "sybilSafety": "Marginfi tracks verifiable on-chain capital deposits, borrowing interest paid, and collateral duration, preventing artificial bot manipulation.",
+    "strategy": "Supply SOL, USDC, or JitoSOL to Marginfi Lend, borrow stablecoins against your collateral at safe LTV ratios (<40%) to earn 4x points, and complete ecosystem quests.",
+    "steps": [
+      "Visit the official <a href=\"https://app.marginfi.com\" target=\"_blank\" rel=\"noopener noreferrer\">Marginfi App</a>.",
+      "Connect your Solana Web3 wallet (Phantom, Solflare, or Backpack).",
+      "Navigate to \"Lend\" and deposit collateral (SOL, USDC, USDT, or JitoSOL) to earn 1 point/dollar/day.",
+      "Borrow stablecoins against your deposit to unlock the accelerated 4 points/dollar/day borrow booster.",
+      "Mint native yield-bearing $YBX stablecoins using your restaked collateral.",
+      "Use the in-app swap feature (mrgnSwap) for low-slippage Jupiter routing.",
+      "Invite active crypto friends using your referral code to earn 10% of their generated points.",
+      "Monitor your ranking on the mrgn Points Leaderboard ahead of the $MFI token distribution."
+    ],
+    "faqs": [
+      {
+        "question": "What is Marginfi?",
+        "answer": "Marginfi is a leading decentralized lending and margin protocol on Solana with an advanced risk management engine."
+      },
+      {
+        "question": "Who invested in Marginfi?",
+        "answer": "Marginfi raised $3M from Multicoin Capital, Pantera Capital, and Solana Ventures."
+      },
+      {
+        "question": "How do mrgn Points work?",
+        "answer": "Lending earns 1 point per dollar per day; borrowing earns 4 points per dollar per day due to higher protocol utility."
+      },
+      {
+        "question": "What is $YBX?",
+        "answer": "$YBX is Marginfi's decentralized stablecoin backed by liquid staking tokens, generating natural staking yield for holders."
+      },
+      {
+        "question": "What happens if my loan-to-value (LTV) exceeds the limit?",
+        "answer": "If your collateral value drops too low, third-party liquidators will liquidate a portion of your position to restore health."
+      },
+      {
+        "question": "Can I withdraw my deposits at any time?",
+        "answer": "Yes! Deposits can be withdrawn at any time provided they are not being used to collateralize an active open borrow position."
+      }
+    ]
   }
 ];
