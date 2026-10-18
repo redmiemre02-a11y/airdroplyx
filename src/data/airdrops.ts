@@ -8585,5 +8585,735 @@ export const airdrops: Airdrop[] = [
         "answer": "Yes! You can withdraw your supplied assets at any time as long as your position remains safely collateralized."
       }
     ]
+  },
+
+  {
+    "id": "jupiter",
+    "name": "Jupiter Exchange",
+    "category": "DeFi",
+    "tier": "Tier 1",
+    "status": "Active",
+    "stage": "Mainnet",
+    "potentialReward": "$1,500 - $8,000",
+    "cost": "Gas / Trade Volume (Solana ~$5-$20)",
+    "timeRequired": "15 mins / weekly",
+    "platform": "Web / Solana",
+    "description": "Solana’s preeminent liquidity backbone and DEX aggregator driving over 70% of network volumes with annual Jupuary token drops and Active Staking Rewards (ASR).",
+    "logo": "/images/airdrops/jupiter.svg",
+    "refLink": "https://jup.ag",
+    "tags": [
+      "Solana",
+      "DEX Aggregator",
+      "Perpetuals",
+      "Active Staking",
+      "Jupuary",
+      "Tier 1"
+    ],
+    "featured": true,
+    "startDate": "Nov 2023",
+    "endDate": "Q1 2026",
+    "requirements": [
+      "Phantom or Solflare Solana Wallet",
+      "SOL for Transaction Fees",
+      "Swap and Perps Trading Activity",
+      "Staked JUP for Governance Votes"
+    ],
+    "overview": "Jupiter Exchange is the undisputed gravitational center of the Solana DeFi ecosystem, routing over 70% of all decentralized exchange trading volume on the network. Founded by Meow and built to deliver best-execution pricing through multi-hop dynamic smart routing, Jupiter aggregates liquidity from Raydium, Orca, Phoenix, Lifinity, and Meteora to guarantee minimal price slippage across thousands of Solana SPL pairs.\n\nBeyond basic spot swaps, Jupiter has rapidly scaled into a full-fledged financial super-app. Its flagship offerings include Jupiter Perps (a zero-price-impact LP-backed perpetual futures exchange with up to 100x leverage), Jupiter DCA (Automated Dollar-Cost Averaging smart contracts), Limit Orders, and the Jupiter LFG Launchpad—the premier on-chain capital formation platform responsible for launching top-tier Solana tokens like WEN, ZEUS, and SHARK.\n\nJupiter pioneered \"Jupuary\"—a community-first governance mandate that allocates millions of $JUP tokens each January to active traders, launchpad participants, and governance stakers. Additionally, the Active Staking Rewards (ASR) program streams quarterly rewards composed of launchpad partner tokens and $JUP directly to users who stake JUP and actively vote on DAO proposals.",
+    "tokenomics": "The $JUP token commands a 10 Billion total supply strictly divided 50/50 between the community and the core team. 40% of the entire supply is dedicated to multi-year community airdrops (Jupuary 1 through 4), with 10% reserved for community grants and liquidity. The remaining 50% is allocated to the team (20%), reserve (20%), and strategic early contributors (10%) locked across long-term cliff schedules. JUP stakers receive 100% of launchpad voting power and quarterly ASR yield pools.",
+    "sybilDefense": "Jupiter employs rigorous on-chain behavioral filtering to safeguard airdrop distributions against automated Sybil bots. Key defense criteria include minimum cumulative trading volume thresholds ($1,000+), wallet account age on Solana, natural transaction diversity across multiple liquidity pools, and consistent active participation in DAO governance voting rounds. Automated micro-transaction scripts and dust-recycling loops are systematically excluded from Jupuary snapshots.",
+    "strategy": "To achieve elite tier positioning in upcoming Jupuary airdrops and maximize Active Staking Rewards (ASR), execute this multi-pillar strategy:\n\n1. Consolidate your Solana spot trading on Jupiter Swap, maintaining recurring weekly swap volumes ($5,000+ cumulative).\n2. Set up automated Jupiter DCA orders (e.g., periodic SOL to USDC buys) to demonstrate organic, programmatic on-chain behavior.\n3. Deposit liquidity into the JLP (Jupiter Liquidity Pool) or trade perpetual contracts on Jupiter Perps.\n4. Stake a minimum of 50-250 $JUP tokens in the Jupiter Governance DAO and vote on every proposal to qualify for maximum quarterly ASR distributions.",
+    "steps": [
+      "Connect your verified Solana wallet (Phantom or Solflare) to the official <a href=\"https://jup.ag\" target=\"_blank\" rel=\"noopener noreferrer\">Jupiter Exchange</a> portal.",
+      "Perform regular multi-hop spot swaps between SOL, USDC, and high-conviction ecosystem tokens using the <a href=\"https://jup.ag/swap\" target=\"_blank\" rel=\"noopener noreferrer\">Jupiter Swap</a> engine.",
+      "Deploy an automated dollar-cost averaging strategy by setting up recurring orders on <a href=\"https://jup.ag/dca\" target=\"_blank\" rel=\"noopener noreferrer\">Jupiter DCA</a>.",
+      "Execute algorithmic limit orders for your intended entry targets on the <a href=\"https://jup.ag/limit\" target=\"_blank\" rel=\"noopener noreferrer\">Jupiter Limit Order</a> tab.",
+      "Trade BTC, ETH, or SOL perpetual contracts with risk management on <a href=\"https://jup.ag/perps\" target=\"_blank\" rel=\"noopener noreferrer\">Jupiter Perps</a>.",
+      "Provide collateral by minting JLP tokens to earn dynamic trading fee yields on <a href=\"https://jup.ag/perps-earn\" target=\"_blank\" rel=\"noopener noreferrer\">Jupiter Earn</a>.",
+      "Acquire $JUP on the open market and lock tokens in the <a href=\"https://vote.jup.ag\" target=\"_blank\" rel=\"noopener noreferrer\">Jupiter DAO Governance Portal</a>.",
+      "Cast on-chain votes on all active LFG Launchpad candidate proposals to secure your quarterly Active Staking Rewards (ASR)."
+    ],
+    "faqs": [
+      {
+        "question": "What is Jupuary and will there be more rounds?",
+        "answer": "Jupuary is Jupiter’s annual community airdrop event held every January. The Jupiter DAO ratified a 4-year distribution schedule allocating hundreds of millions of $JUP across Jupuary Season 2, Season 3, and Season 4 for active users."
+      },
+      {
+        "question": "What are Active Staking Rewards (ASR)?",
+        "answer": "ASR is an incentive mechanism where users who stake $JUP and actively cast votes on DAO proposals receive a quarterly payout basket containing $JUP tokens and Launchpad partner tokens."
+      },
+      {
+        "question": "Is there a minimum amount of JUP required to stake?",
+        "answer": "There is no strict minimum to stake and vote, but staking at least 50 to 200 JUP ensures meaningful governance weight and substantive ASR rewards."
+      },
+      {
+        "question": "Does trading on Jupiter Perps boost my airdrop tier?",
+        "answer": "Yes, Jupiter Perps generates significant protocol fees and volume, making Perps traders and JLP liquidity providers highly weighted in community reward distributions."
+      },
+      {
+        "question": "What is the un-staking cooldown period for $JUP?",
+        "answer": "Unstaking $JUP tokens from the governance contract requires a 30-day unstaking cooldown period, during which tokens remain locked and cannot vote."
+      },
+      {
+        "question": "Can I participate using mobile Solana wallets?",
+        "answer": "Yes, Jupiter is fully optimized for mobile devices through the built-in dApp browsers of Phantom, Solflare, and Backpack mobile apps."
+      }
+    ]
+  },
+
+  {
+    "id": "mantle",
+    "name": "Mantle Network",
+    "category": "Layer 2",
+    "tier": "Tier 1",
+    "status": "Active",
+    "stage": "Mainnet",
+    "potentialReward": "$1,000 - $6,500",
+    "cost": "Gas fees ($1 - $5)",
+    "timeRequired": "10 mins / weekly",
+    "platform": "Web / EVM",
+    "description": "High-throughput modular Ethereum Layer 2 backed by a $3.5B+ ecosystem treasury, featuring Mantle Rewards Station and institutional mETH liquid restaking.",
+    "logo": "/images/airdrops/mantle.svg",
+    "refLink": "https://www.mantle.xyz",
+    "tags": [
+      "Ethereum L2",
+      "Modular",
+      "EigenDA",
+      "mETH",
+      "Restaking",
+      "Tier 1"
+    ],
+    "featured": true,
+    "startDate": "Jul 2023",
+    "endDate": "Q4 2025",
+    "requirements": [
+      "EVM Wallet (MetaMask, Rabby)",
+      "ETH or MNT for Gas",
+      "Active Bridging & DeFi Utilization",
+      "MNT Staking on Rewards Station"
+    ],
+    "overview": "Mantle Network is a high-performance modular Ethereum Layer 2 rollup built by the Mantle Ecosystem (formerly BitDAO). Governed by one of the largest decentralized treasuries in Web3 history valued at over $3.5 Billion, Mantle combines an optimistic rollup execution layer with an innovative modular architecture powered by Mantle DA (integrated with EigenDA technology) to slash transaction data availability costs by over 90% compared to traditional rollups.\n\nMantle provides an EVM-equivalent development environment paired with ultra-low sub-cent gas fees paid natively in $MNT. Key ecosystem pillars include Mantle LSP (Liquid Staking Protocol), which has minted over $1.5B worth of mETH (now upgraded with cmETH restaking across Symbiotic and EigenLayer), creating the premier yield-bearing ETH derivative across decentralized finance.\n\nThe Mantle Rewards Station serves as the direct portal for community yield and token distributions. By locking $MNT in the Rewards Station, users earn daily lock-in power that directly converts into partner tokens, ecosystem airdrops, and synthetic assets from top-tier protocols launching exclusively on Mantle.",
+    "tokenomics": "The $MNT token powers the Mantle ecosystem with a circulating supply of roughly 3.26 Billion tokens. $MNT serves as the native gas asset on Mantle Network, the primary governance token of Mantle Governance DAO, and the core collateral asset for ecosystem liquidity seeding. Mantle’s treasury regularly authorizes multi-million dollar reward seasons and ecosystem grant funds derived directly from treasury yields.",
+    "sybilDefense": "Mantle implements on-chain Sybil filtering through duration-weighted lockup periods, minimum transaction value requirements, and wallet interaction history. Fast flash-deposit exploits are mitigated by snapshotting continuous block-by-block lock power rather than static point-in-time balances in the Rewards Station.",
+    "strategy": "To position for premier Mantle ecosystem airdrops and Rewards Station yields:\n\n1. Bridge ETH and $MNT from Ethereum mainnet to Mantle Network via the official Mantle Bridge.\n2. Stake ETH into Mantle LSP to receive mETH, yielding highest-tier native ETH staking APR.\n3. Lock $MNT tokens in the Mantle Rewards Station to accumulate lock-in power for rotating partner airdrops.\n4. Deploy mETH or cmETH into major Mantle DeFi protocols (such as Merchant Moe and Lendle) to generate multi-protocol points.",
+    "steps": [
+      "Bridge assets from Ethereum to Mantle Network using the <a href=\"https://bridge.mantle.xyz\" target=\"_blank\" rel=\"noopener noreferrer\">Official Mantle Bridge</a>.",
+      "Stake native ETH to mint high-yield mETH liquid staking tokens on <a href=\"https://meth.mantle.xyz\" target=\"_blank\" rel=\"noopener noreferrer\">Mantle LSP</a>.",
+      "Deposit and lock $MNT tokens in the <a href=\"https://rewards.mantle.xyz\" target=\"_blank\" rel=\"noopener noreferrer\">Mantle Rewards Station</a> to farm partner airdrops.",
+      "Swap tokens and provide concentrated liquidity on <a href=\"https://merchantmoe.com\" target=\"_blank\" rel=\"noopener noreferrer\">Merchant Moe DEX</a>.",
+      "Supply mETH or USDC collateral to earn lending yield on <a href=\"https://lendle.xyz\" target=\"_blank\" rel=\"noopener noreferrer\">Lendle Protocol</a>.",
+      "Bridge cmETH across leading restaking platforms to earn Symbiotic and Mantle combined points.",
+      "Participate in Mantle Moonshot community quest campaigns on official partner platforms.",
+      "Vote on Mantle Governance discussions and snapshot proposals at <a href=\"https://snapshot.org/#/mantle.eth\" target=\"_blank\" rel=\"noopener noreferrer\">Mantle DAO Snapshot</a>."
+    ],
+    "faqs": [
+      {
+        "question": "What is Mantle Rewards Station?",
+        "answer": "Mantle Rewards Station is an official yield aggregation dApp where $MNT holders lock their tokens to earn lock-in power, which can be claimed as airdropped partner tokens."
+      },
+      {
+        "question": "What token is used for gas fees on Mantle?",
+        "answer": "Mantle Network uses $MNT as its native gas token, costing fractions of a cent per transaction."
+      },
+      {
+        "question": "What is mETH and cmETH?",
+        "answer": "mETH is Mantle’s institutional liquid staked ETH. cmETH is the upgraded restaking receipt token that allows users to earn restaking yields across Symbiotic, Karak, and EigenLayer simultaneously."
+      },
+      {
+        "question": "Can I withdraw my locked MNT from Rewards Station at any time?",
+        "answer": "Yes, Rewards Station allows flexible withdrawal of your locked $MNT at any time, although withdrawing stops the accumulation of lock power."
+      },
+      {
+        "question": "Who backs the Mantle Network treasury?",
+        "answer": "Mantle is governed by Mantle DAO, born out of BitDAO, holding one of the largest treasuries in Web3 with over $3.5B in digital assets."
+      },
+      {
+        "question": "Is Mantle compatible with MetaMask and Rabby?",
+        "answer": "Yes, Mantle is an EVM-equivalent rollup and can be added to MetaMask, Rabby, or any Web3 EVM wallet with one click."
+      }
+    ]
+  },
+
+  {
+    "id": "aevo",
+    "name": "Aevo",
+    "category": "DeFi",
+    "tier": "Tier 1",
+    "status": "Active",
+    "stage": "Mainnet",
+    "potentialReward": "$800 - $5,000",
+    "cost": "Trading fees / Gas (~$10-$30)",
+    "timeRequired": "15 mins / weekly",
+    "platform": "Web / Optimism Rollup",
+    "description": "Premier high-performance decentralized options and perpetual futures DEX built on custom OP Stack rollup, backed by Paradigm, Dragonfly, and Coinbase Ventures.",
+    "logo": "/images/airdrops/aevo.svg",
+    "refLink": "https://app.aevo.xyz",
+    "tags": [
+      "Perpetuals",
+      "Options",
+      "OP Stack",
+      "Paradigm",
+      "Derivatives",
+      "Tier 1"
+    ],
+    "featured": true,
+    "startDate": "Apr 2023",
+    "endDate": "Q4 2025",
+    "requirements": [
+      "EVM Wallet (MetaMask, Rabby)",
+      "USDC for Trading Collateral",
+      "Perps / Pre-Launch Trading Volume",
+      "Aevo Staking for Fee Discounts"
+    ],
+    "overview": "Aevo is an institutional-grade decentralized derivatives exchange specializing in perpetual contracts, crypto options, and pre-launch markets. Built on a high-throughput custom Layer 2 rollup powered by the OP Stack and settling to Ethereum, Aevo combines the unmatched speed and latency of off-chain order matching with the trustless security of on-chain Ethereum settlement.\n\nOriginally incubated by the Ribbon Finance team and backed by premier venture capital giants including Paradigm, Dragonfly Capital, and Coinbase Ventures ($16.6M+ total funding), Aevo processed over $100 Billion in trading volume. It pioneered on-chain Pre-Launch Markets, allowing traders to speculate on high-profile unreleased tokens (such as Wormhole, JUP, and Starknet) prior to their public TGEs.\n\nAevo regularly runs seasonal trading incentive programs, rewarding volume milestones, trading streak consistency, and staking tiers with substantial $AEVO allocations and trading fee rebates. Users who stake $AEVO also receive governance voting power and a share of protocol exchange revenue.",
+    "tokenomics": "The $AEVO token has a maximum supply of 1 Billion tokens. Originally transitioned from Ribbon Finance ($RBN) via a 1:1 token migration, the protocol allocated 16% of total supply to the DAO treasury, 18.5% to strategic investors, 30% to core contributors, and over 10% to community trading incentives, airdrops, and ecosystem bootstrapping.",
+    "sybilDefense": "Aevo employs institutional wash-trading filters and latency arbitrage detection algorithms. Accounts executing rapid self-matching trades or artificial high-frequency maker/taker loops without economic exposure are flagged and disqualified from bonus multiplier tiers in seasonal rewards.",
+    "strategy": "To optimize rewards in Aevo ongoing trading campaigns:\n\n1. Deposit USDC directly onto Aevo via Arbitrum, Optimism, or Ethereum mainnet for zero-deposit fee bridging.\n2. Generate consistent organic trading volume ($10,000+ cumulative) across popular perpetual markets (BTC, ETH, SOL).\n3. Participate in active Pre-Launch Markets with reasonable position sizes to capture unique pre-market trading multipliers.\n4. Stake a portion of $AEVO tokens to unlock enhanced fee discounts, referral boosts, and governance yield.",
+    "steps": [
+      "Connect your EVM wallet to the <a href=\"https://app.aevo.xyz\" target=\"_blank\" rel=\"noopener noreferrer\">Aevo Exchange Portal</a>.",
+      "Deposit USDC collateral into your Aevo account via Arbitrum or Optimism for lightning-fast settlement.",
+      "Open and manage long or short perpetual futures positions on <a href=\"https://app.aevo.xyz/perpetual\" target=\"_blank\" rel=\"noopener noreferrer\">Aevo Perps</a>.",
+      "Explore and trade upcoming project tokens on <a href=\"https://app.aevo.xyz/pre-launch\" target=\"_blank\" rel=\"noopener noreferrer\">Aevo Pre-Launch Markets</a>.",
+      "Purchase European cash-settled options contracts on the <a href=\"https://app.aevo.xyz/options\" target=\"_blank\" rel=\"noopener noreferrer\">Aevo Options</a> terminal.",
+      "Lock $AEVO tokens in the staking contract to boost your reward multiplier tiers.",
+      "Generate your personal referral link and build trading volume with teammates to share fee rebates.",
+      "Monitor your seasonal volume progress and claim accumulated fee discounts in the Aevo Rewards dashboard."
+    ],
+    "faqs": [
+      {
+        "question": "What blockchain does Aevo operate on?",
+        "answer": "Aevo operates on a custom optimistic rollup built with the OP Stack that settles transactions directly to Ethereum mainnet."
+      },
+      {
+        "question": "What are Aevo Pre-Launch Markets?",
+        "answer": "Pre-Launch Markets are specialized perpetual futures contracts on tokens that have not yet launched or held a TGE, enabling price discovery before listing."
+      },
+      {
+        "question": "How are gas fees paid on Aevo?",
+        "answer": "Gas fees on the Aevo L2 rollup are gasless for end-users during active trading; trades settle instantly with minimal exchange taker/maker fees."
+      },
+      {
+        "question": "Who are the lead investors in Aevo?",
+        "answer": "Aevo is backed by top tier crypto venture firms including Paradigm, Dragonfly Capital, and Coinbase Ventures."
+      },
+      {
+        "question": "Can I trade options and perps with the same USDC collateral?",
+        "answer": "Yes, Aevo utilizes a unified margin system allowing cross-collateralization of USDC across both options and perpetual positions."
+      },
+      {
+        "question": "How do I convert old Ribbon ($RBN) tokens to $AEVO?",
+        "answer": "RBN holders can swap their tokens 1:1 for $AEVO anytime through the official migration portal with no expiration date."
+      }
+    ]
+  },
+
+  {
+    "id": "polyhedra",
+    "name": "Polyhedra Network",
+    "category": "Infrastructure",
+    "tier": "Tier 1",
+    "status": "Active",
+    "stage": "Mainnet",
+    "potentialReward": "$600 - $3,500",
+    "cost": "Gas fees (~$5 - $15)",
+    "timeRequired": "10 mins / weekly",
+    "platform": "Web / Multi-Chain",
+    "description": "Pioneering zero-knowledge interoperability infrastructure and zkBridge developer backed by $45M from Polychain Capital, Animoca Brands, and Binance Labs.",
+    "logo": "/images/airdrops/polyhedra.svg",
+    "refLink": "https://polyhedra.network",
+    "tags": [
+      "Zero-Knowledge",
+      "zkBridge",
+      "Interoperability",
+      "Polychain",
+      "Binance Labs",
+      "Tier 1"
+    ],
+    "featured": true,
+    "startDate": "Feb 2023",
+    "endDate": "Q4 2025",
+    "requirements": [
+      "EVM / BNB Chain Wallet",
+      "Gas tokens for source & destination chains",
+      "zkBridge Cross-Chain Transfers",
+      "Galxe / CyberID Quests"
+    ],
+    "overview": "Polyhedra Network is a foundational Web3 infrastructure protocol engineering next-generation scalability, interoperability, and privacy through cutting-edge Zero-Knowledge Proof (ZKP) technology. Backed by $45 Million in funding across rounds led by Polychain Capital, Binance Labs, and Animoca Brands, Polyhedra created deVirgo—a revolutionary distributed proof generation system that makes cryptographic verification orders of magnitude faster and cheaper.\n\nPolyhedra’s flagship product, zkBridge, provides trust-minimized, mathematically proven cross-chain messaging and asset transfers across more than 30 layer-1 and layer-2 blockchains including BNB Chain, Ethereum, Arbitrum, Polygon, and Bitcoin. Unlike traditional bridges that rely on multisig validator committees, zkBridge verifies state transitions using succinct zero-knowledge proofs directly on the destination chain.\n\nPolyhedra distributes community rewards, ecosystem grants, and retroactive staking drops for its native token $ZKJ. Users who utilize zkBridge for cross-chain messages, bridge multi-chain zkNFTs, and stake $ZKJ across supported chains earn ongoing loyalty rewards and ecosystem partner allocations.",
+    "tokenomics": "The native token $ZKJ (formerly Polyhedra Network token) has a total supply of 1 Billion tokens. Token utility encompasses governance voting, zkBridge cryptographic prover fee payments, and staking mechanisms that secure cross-chain relay networks. Significant allocations are set aside for community incentives, developer ecosystem grants, and retroactive bridge users.",
+    "sybilDefense": "Polyhedra analyzes cross-chain transaction graph complexity. Sybil bots that execute repetitive single-token dust bridge transfers between identical address clusters without secondary contract interactions on destination chains are filtered out from airdrop reward tiers.",
+    "strategy": "To position for maximum Polyhedra ($ZKJ) seasonal distributions and partner drops:\n\n1. Use zkBridge to transfer native assets (BNB, ETH, USDT) across at least 4 distinct chains (e.g., BNB Chain to Arbitrum, Base to Optimism).\n2. Mint and bridge cross-chain zkNFTs through the zkBridge Messenger and NFT portal.\n3. Execute cross-chain Bitcoin messaging interactions utilizing Polyhedra’s Bitcoin zkBridge module.\n4. Stake $ZKJ tokens on supported staking dashboards to qualify for validator fee sharing and ecosystem partner token drops.",
+    "steps": [
+      "Navigate to the official <a href=\"https://polyhedra.network\" target=\"_blank\" rel=\"noopener noreferrer\">Polyhedra Network</a> homepage.",
+      "Launch the <a href=\"https://zkbridge.com\" target=\"_blank\" rel=\"noopener noreferrer\">zkBridge Portal</a> and connect your EVM wallet.",
+      "Bridge tokens across different networks using the trustless <a href=\"https://zkbridge.com/token\" target=\"_blank\" rel=\"noopener noreferrer\">zkBridge Token Transfer</a> interface.",
+      "Mint a commemorative zero-knowledge NFT on the <a href=\"https://zkbridge.com/nft\" target=\"_blank\" rel=\"noopener noreferrer\">zkBridge NFT Creation Tool</a>.",
+      "Transfer your minted zkNFT across chains via zkBridge to verify zero-knowledge state proofs.",
+      "Send cross-chain text messages via the <a href=\"https://zkbridge.com/messenger\" target=\"_blank\" rel=\"noopener noreferrer\">zkBridge Messenger</a>.",
+      "Complete verified Polyhedra developer and ecosystem credentials on Galxe and QuestN.",
+      "Stake your $ZKJ tokens to participate in governance proposals and claim ecosystem partner drop allocations."
+    ],
+    "faqs": [
+      {
+        "question": "What makes zkBridge different from traditional bridges?",
+        "answer": "zkBridge does not rely on human or multisig trust assumptions. It proves block headers of the sender chain on the receiver chain using deVirgo zero-knowledge proofs."
+      },
+      {
+        "question": "What is the ticker symbol for Polyhedra Network?",
+        "answer": "Polyhedra Network’s native token trades under the ticker $ZKJ."
+      },
+      {
+        "question": "Which networks are supported by zkBridge?",
+        "answer": "zkBridge supports over 30 leading blockchains including Ethereum, BNB Chain, Arbitrum, Optimism, Polygon, Avalanche, Base, Linea, and Bitcoin."
+      },
+      {
+        "question": "What is the deVirgo proof system?",
+        "answer": "deVirgo is a distributed ZK-SNARK proving system invented by Polyhedra that scales proof generation across distributed hardware clusters with near-zero overhead."
+      },
+      {
+        "question": "Do I need high gas fees to bridge on zkBridge?",
+        "answer": "No, bridging between low-cost networks like BNB Chain, Arbitrum, or Base costs only fractions of a dollar in gas fees."
+      },
+      {
+        "question": "Who invested in Polyhedra Network?",
+        "answer": "Polyhedra raised $45M across multiple rounds from top venture firms including Polychain Capital, Binance Labs, Animoca Brands, and ABCDE."
+      }
+    ]
+  },
+
+  {
+    "id": "axiom",
+    "name": "Axiom",
+    "category": "Infrastructure",
+    "tier": "Tier 1",
+    "status": "Active",
+    "stage": "Mainnet",
+    "potentialReward": "$1,000 - $6,000",
+    "cost": "Testnet Free / Mainnet Gas (~$5 - $15)",
+    "timeRequired": "15 mins",
+    "platform": "Web / Ethereum",
+    "description": "Breakthrough ZK coprocessor for Ethereum backed by $20M from Paradigm and Standard Crypto, enabling smart contracts to compute over all historical Ethereum data.",
+    "logo": "/images/airdrops/axiom.svg",
+    "refLink": "https://www.axiom.xyz",
+    "tags": [
+      "ZK Coprocessor",
+      "Ethereum",
+      "Paradigm",
+      "Zero-Knowledge",
+      "Infrastructure",
+      "Tier 1"
+    ],
+    "featured": true,
+    "startDate": "Jan 2024",
+    "endDate": "Q4 2025",
+    "requirements": [
+      "Ethereum Wallet (MetaMask, Rabby)",
+      "ETH for Transaction Verification",
+      "Deploy ZK Historical Queries",
+      "Axiom V2 Explorer Interactivity"
+    ],
+    "overview": "Axiom is a pioneering Zero-Knowledge coprocessor for Ethereum that provides smart contracts with trustless, cryptographic access to the entire history of the Ethereum blockchain. In traditional EVM architectures, smart contracts can only access the current state and the last 256 block hashes due to strict computation and storage limits. Axiom eliminates this fundamental bottleneck using zero-knowledge proofs.\n\nCo-founded by Yi Sun and Jonathan Wang, Axiom raised $20 Million in a Series A funding round led by Paradigm and Standard Crypto. Using Axiom, developers and users can compute verifiable trustless queries over historical account balances, previous contract storage states, historic transactions, and event logs, proving results on-chain via a single ZK-SNARK.\n\nWith the launch of Axiom V2 on Ethereum mainnet, the protocol introduced Open Axiom and developer query environments. As decentralized protocols shift toward historic verifiable incentives (such as retroactive volume scoring, loyalty badges, and dynamic liquidity rewards), Axiom sits at the infrastructure core of trustless verifiable Web3 computation.",
+    "tokenomics": "While Axiom operates as an infrastructure coprocessor currently on mainnet, decentralized proof generation and query routing require an eventual decentralized prover and relayer coordination token. Early protocol query creators, prover node operators, and ecosystem application developers are expected to receive significant governance allocations.",
+    "sybilDefense": "Axiom’s verification engine intrinsically filters Sybil behavior because valid queries require mathematically rigorous proof generation against real on-chain cryptographic states. Empty repetitive queries without unique circuit executions are segregated by prover relayers.",
+    "strategy": "To position for potential retroactive Axiom incentives and developer drops:\n\n1. Connect your wallet to Axiom V2 Explorer and run a historical query against your own wallet history (e.g., historical gas spent or first Uniswap swap).\n2. Compile and execute an on-chain Axiom query circuit using the Axiom Web Studio.\n3. Integrate an Axiom query into an open-source test contract or claim historical loyalty proof credentials.\n4. Join the official Axiom Discord, complete developer testnet feedback surveys, and follow developer documentation updates.",
+    "steps": [
+      "Visit the official <a href=\"https://www.axiom.xyz\" target=\"_blank\" rel=\"noopener noreferrer\">Axiom Portal</a> and read the V2 architecture overview.",
+      "Connect your EVM wallet to the <a href=\"https://explorer.axiom.xyz\" target=\"_blank\" rel=\"noopener noreferrer\">Axiom V2 Explorer</a>.",
+      "Select a pre-built historical query circuit (such as historical balance verification or past event check).",
+      "Generate a ZK-SNARK proof on client hardware using Axiom’s zero-knowledge proving engine.",
+      "Submit the cryptographic proof on-chain to Ethereum mainnet or Sepolia testnet for smart contract callback verification.",
+      "Explore the <a href=\"https://docs.axiom.xyz\" target=\"_blank\" rel=\"noopener noreferrer\">Axiom Developer Docs</a> and run a custom query via Axiom CLI.",
+      "Verify your query receipt and on-chain transaction hash on Etherscan.",
+      "Join the Axiom community Discord to submit developer feedback and track prover network roadmap announcements."
+    ],
+    "faqs": [
+      {
+        "question": "What is a ZK coprocessor?",
+        "answer": "A ZK coprocessor allows smart contracts to offload heavy computations and historical data searches off-chain, verifying the cryptographic result on-chain with a succinct zero-knowledge proof."
+      },
+      {
+        "question": "Who are the investors backing Axiom?",
+        "answer": "Axiom is backed by $20M in Series A funding led by Paradigm, with participation from Standard Crypto, Robot Ventures, and prominent angel investors."
+      },
+      {
+        "question": "Can I use Axiom without being a software developer?",
+        "answer": "Yes, the Axiom V2 Explorer offers intuitive one-click query templates where regular users can verify historical wallet milestones without writing code."
+      },
+      {
+        "question": "Does running an Axiom query cost real Ethereum gas?",
+        "answer": "You can test queries on Sepolia testnet for completely free with faucet ETH, or execute on Ethereum mainnet by paying standard gas for the callback verification."
+      },
+      {
+        "question": "What kinds of historical data can Axiom verify?",
+        "answer": "Axiom can trustlessly prove any past Ethereum state: account balances, contract storage slots, historical transaction parameters, and emitted event logs since genesis block 0."
+      },
+      {
+        "question": "Will there be an Axiom token?",
+        "answer": "While not formally announced, decentralized ZK prover networks typically require a utility token to coordinate provers, pay verification fees, and govern circuit registries."
+      }
+    ]
+  },
+
+  {
+    "id": "kelp-dao",
+    "name": "Kelp DAO",
+    "category": "Restaking",
+    "tier": "Tier 1",
+    "status": "Active",
+    "stage": "Mainnet",
+    "potentialReward": "$1,000 - $5,500",
+    "cost": "Gas fees + ETH Deposit ($10 - $50)",
+    "timeRequired": "10 mins",
+    "platform": "Web / Multi-Chain",
+    "description": "Premier multi-chain liquid restaking protocol with $1B+ TVL ($rsETH) backed by Laser Digital & SCB Limited, farming Kelp Miles across EigenLayer and Symbiotic.",
+    "logo": "/images/airdrops/kelp-dao.svg",
+    "refLink": "https://kelpdao.xyz",
+    "tags": [
+      "Restaking",
+      "rsETH",
+      "EigenLayer",
+      "Symbiotic",
+      "Liquid Restaking",
+      "Tier 1"
+    ],
+    "featured": true,
+    "startDate": "Dec 2023",
+    "endDate": "Q4 2025",
+    "requirements": [
+      "EVM Wallet",
+      "ETH or LST (stETH, ETHx)",
+      "Mint rsETH",
+      "Participate in Kelp Miles Program"
+    ],
+    "overview": "Kelp DAO is one of the world’s leading multi-chain Liquid Restaking Protocols (LRT) with over $1 Billion in Total Value Locked. Created by the experienced Stader Labs core team and supported by Laser Digital (Nomura Group), SCB Limited, and leading institutional funds ($9M raised), Kelp DAO provides seamless liquid restaking through its flagship token, $rsETH.\n\nBy depositing native ETH or leading liquid staking tokens (stETH, ETHx, sfrxETH) into Kelp DAO, users receive $rsETH. Kelp DAO intelligently routes this staked collateral across underlying restaking networks including EigenLayer, Symbiotic, and Karak, while maintaining full liquidity for users to trade and deploy their capital across Layer 2 DeFi protocols.\n\nKelp DAO runs the high-yield \"Kelp Miles\" program, allowing depositors to earn stacked quadruple rewards: base Ethereum staking yield, 100% of EigenLayer/Symbiotic restaking points, native Kelp Miles toward the future $KEP / $KELP token distribution, and boosted partner DeFi incentives on Arbitrum, Base, Blast, and Scroll.",
+    "tokenomics": "Kelp DAO introduced $KEP (Kelp Earned Points token), the first liquid tokenized version of EigenLayer points, enabling instant secondary market liquidity for restaking points. Kelp DAO’s ultimate governance token will govern fee structures, restaking routing parameters, Actively Validated Service (AVS) delegation strategies, and treasury yield distributions.",
+    "sybilDefense": "Kelp DAO prevents Sybil manipulation through capital-weighted and duration-weighted point systems. Kelp Miles are calculated strictly based on deposited asset value multiplied by time held, making micro-wallet Sybil swarms mathematically ineffective compared to single consolidated positions.",
+    "strategy": "To maximize Kelp Miles and qualify for multi-layered airdrops:\n\n1. Deposit ETH or stETH directly on Ethereum mainnet or via cheap L2s (Arbitrum, Base) to mint $rsETH at zero-slippage.\n2. Hold or provide liquidity with $rsETH on supported automated market makers (Pendle, Curve, Balancer) for boosted Kelp Miles multipliers.\n3. Utilize Kelp Gain to auto-compound restaking yields across Symbiotic, Karak, and EigenLayer.\n4. Hold your position across seasonal milestone snapshots to retain maximum loyalty tier bonuses.",
+    "steps": [
+      "Visit the official <a href=\"https://kelpdao.xyz\" target=\"_blank\" rel=\"noopener noreferrer\">Kelp DAO Restaking Portal</a>.",
+      "Connect your EVM wallet (MetaMask, Rabby, or Rainbow).",
+      "Select your deposit asset (ETH, stETH, or ETHx) and choose your preferred network (Ethereum mainnet or Arbitrum).",
+      "Deposit collateral to mint liquid restaked <a href=\"https://kelpdao.xyz/restake\" target=\"_blank\" rel=\"noopener noreferrer\">rsETH</a>.",
+      "Check your accumulated Kelp Miles and EigenLayer points on the <a href=\"https://kelpdao.xyz/miles\" target=\"_blank\" rel=\"noopener noreferrer\">Kelp Miles Dashboard</a>.",
+      "Deposit rsETH into Pendle Finance pools to leverage your yield and points exposure.",
+      "Explore Kelp Gain vaults for automated multi-protocol restaking across Symbiotic.",
+      "Hold rsETH in your self-custody wallet to ensure qualification for all snapshot tiers."
+    ],
+    "faqs": [
+      {
+        "question": "What is rsETH?",
+        "answer": "rsETH is a liquid restaked token (LRT) issued by Kelp DAO that represents your underlying staked ETH plus accumulated staking and restaking rewards."
+      },
+      {
+        "question": "Can I mint rsETH on Layer 2 networks to save gas?",
+        "answer": "Yes, Kelp DAO supports native L2 minting of rsETH on Arbitrum, Optimism, Base, Scroll, and Blast with ultra-low transaction fees."
+      },
+      {
+        "question": "What rewards do I earn by holding rsETH?",
+        "answer": "You earn base Ethereum staking yield, restaking rewards from EigenLayer/Symbiotic, Kelp Miles, and additional DeFi protocol incentives."
+      },
+      {
+        "question": "What is the $KEP token?",
+        "answer": "KEP is a liquid ERC-20 token issued by Kelp DAO that tokenizes earned EigenLayer points, allowing users to trade or transfer their points on the open market."
+      },
+      {
+        "question": "How do I withdraw my original ETH from rsETH?",
+        "answer": "You can either unstake rsETH natively through Kelp DAO’s withdrawal queue or instantly swap rsETH for ETH on decentralized exchanges like Curve or Uniswap."
+      },
+      {
+        "question": "Is Kelp DAO smart contract code audited?",
+        "answer": "Yes, Kelp DAO has undergone comprehensive security audits by top smart contract audit firms including Sigma Prime, Code4rena, and MixBytes."
+      }
+    ]
+  },
+
+  {
+    "id": "redstone",
+    "name": "RedStone Oracles",
+    "category": "Infrastructure",
+    "tier": "Tier 1",
+    "status": "Active",
+    "stage": "Mainnet",
+    "potentialReward": "$800 - $4,500",
+    "cost": "Gas fees (~$2 - $10)",
+    "timeRequired": "10 mins / weekly",
+    "platform": "Web / Multi-Chain",
+    "description": "Next-generation modular low-latency oracle network backed by $22M from Arrington Capital and Lemniscap, running the RedStone Expedition Miners program.",
+    "logo": "/images/airdrops/redstone.svg",
+    "refLink": "https://redstone.finance",
+    "tags": [
+      "Oracles",
+      "Modular",
+      "EigenLayer AVS",
+      "Infrastructure",
+      "DeFi",
+      "Tier 1"
+    ],
+    "featured": true,
+    "startDate": "Oct 2023",
+    "endDate": "Q4 2025",
+    "requirements": [
+      "EVM Wallet",
+      "RedStone Discord Verification",
+      "RedStone Expedition Miners War-Points",
+      "Integrated DeFi dApp Activity"
+    ],
+    "overview": "RedStone Oracles is a modular, high-speed cross-chain oracle infrastructure engineered to deliver low-latency, cost-effective data feeds for smart contracts across more than 50 blockchains. Backed by $22 Million in venture funding led by Arrington Capital, Lemniscap, Blockchain Capital, and angel investors from Maven 11 and Coinbase, RedStone is the fastest-growing oracle provider across modern Layer 2s and restaking ecosystems.\n\nTraditional oracles push price updates constantly on-chain, consuming immense gas. RedStone revolutionized this by introducing modular \"Pull Oracles\" (RedStone Core)—where price data is packed off-chain into meta-transactions and only verified on-chain when a user executes a trade. Additionally, RedStone powers dedicated EigenLayer AVS validation, securing billions of dollars in restaked assets.\n\nThe protocol is running the \"RedStone Expedition\"—a multi-season gamified miners incentive program. Participants collect RedStone RSG (RedStone Gems) by completing community quests, participating in Discord roles, staking on partner testnets, and interacting with premier DeFi protocols that utilize RedStone data feeds (such as Morpho, Spark, Venus, and DeltaPrime).",
+    "tokenomics": "The RedStone native token will govern data provider registries, penalize malicious data feed reporting through slashing stakes, and pay for cryptographic data verification services across EVM, Non-EVM, and Rollup frameworks. Community miners, node operators, and early ecosystem testers hold major allocations in the genesis distribution plan.",
+    "sybilDefense": "The RedStone Expedition integrates Galxe Passport, Gitcoin Passport, and Discord account tenure checks alongside on-chain wallet verification. Automated bots that mass-generate disposable Discord accounts or deploy repetitive script calls are purged during seasonal gem audits.",
+    "strategy": "To rank among top miners in the RedStone Expedition:\n\n1. Connect your wallet and link your Discord account on the official RedStone Expedition portal to start tracking RSG gems.\n2. Participate actively in the RedStone Discord community to unlock higher Miner Tier roles (Deep Miner, Vein Master).\n3. Transact on DeFi protocols powered by RedStone feeds (e.g., Morpho Blue, Pendle, Venus, and Ether.fi).\n4. Complete official partner quests on Galxe and Zealy to claim bonus RSG multiplier boosts.",
+    "steps": [
+      "Enter the official <a href=\"https://redstone.finance\" target=\"_blank\" rel=\"noopener noreferrer\">RedStone Oracles Portal</a>.",
+      "Join the <a href=\"https://warpy.redstone.finance\" target=\"_blank\" rel=\"noopener noreferrer\">RedStone Expedition Dashboard</a> and connect your EVM wallet.",
+      "Link your verified Discord and Twitter/X accounts to initialize your Miner status.",
+      "Participate in weekly community activities to earn RSG (RedStone Gems) points.",
+      "Interact with lending and perpetual protocols that rely on RedStone data feeds like Morpho or Spark.",
+      "Complete verified developer quests on the official RedStone Galxe space.",
+      "Contribute technical articles, node guides, or community translations in the RedStone Discord.",
+      "Monitor your leaderboard rank on the RedStone Expedition leaderboard to maintain your tier standing."
+    ],
+    "faqs": [
+      {
+        "question": "What are RedStone Gems (RSG)?",
+        "answer": "RSG (RedStone Gems) are loyalty and activity points earned during the RedStone Expedition that track your overall contribution toward the protocol before token launch."
+      },
+      {
+        "question": "What is a Pull Oracle?",
+        "answer": "A Pull Oracle only fetches and verifies data on-chain when a user initiates a transaction, drastically reducing gas costs compared to traditional oracles that continuously push data."
+      },
+      {
+        "question": "Who invested in RedStone Oracles?",
+        "answer": "RedStone raised $22M from leading investors including Arrington Capital, Lemniscap, Blockchain Capital, SevenX Ventures, and Coinbase Ventures angels."
+      },
+      {
+        "question": "Is RedStone integrated with EigenLayer?",
+        "answer": "Yes, RedStone is secured by an EigenLayer Actively Validated Service (AVS), using restaked ETH to provide multi-billion dollar economic guarantees for price feeds."
+      },
+      {
+        "question": "Do I need programming skills to join the RedStone Expedition?",
+        "answer": "No, the RedStone Expedition offers various tracks for community members, DeFi users, content creators, and developers alike."
+      },
+      {
+        "question": "Which networks does RedStone support?",
+        "answer": "RedStone supports over 50 networks including Ethereum, Arbitrum, Base, Optimism, BNB Chain, Polygon, Avalanche, TON, and Solana."
+      }
+    ]
+  },
+
+  {
+    "id": "curvance",
+    "name": "Curvance",
+    "category": "DeFi",
+    "tier": "Tier 2",
+    "status": "Active",
+    "stage": "Testnet / Mainnet",
+    "potentialReward": "$500 - $3,000",
+    "cost": "Free on Testnet / Gas fees on Mainnet",
+    "timeRequired": "10 mins / weekly",
+    "platform": "Web / Multi-Chain",
+    "description": "Modular omni-chain liquidity and yield optimization money market backed by Wormhole and Offchain Labs, turning yield-bearing LP tokens into cross-chain collateral.",
+    "logo": "/images/airdrops/curvance.svg",
+    "refLink": "https://curvance.com",
+    "tags": [
+      "Omni-Chain",
+      "Money Market",
+      "Yield Aggregation",
+      "Wormhole",
+      "DeFi",
+      "Tier 2"
+    ],
+    "featured": false,
+    "startDate": "Jan 2024",
+    "endDate": "Q4 2025",
+    "requirements": [
+      "EVM Wallet (MetaMask, Rabby)",
+      "Testnet or Mainnet Gas",
+      "Supply LP Collateral",
+      "Borrow & Loop Yield Positions"
+    ],
+    "overview": "Curvance is a decentralized modular cross-chain money market engineered to maximize the capital efficiency of yield-bearing assets. While traditional lending protocols restrict collateral to standard base tokens, Curvance unlocks liquidity for complex LP tokens, liquid staking receipts (LSTs), and yield-generating vault shares from protocols like Curve, Convex, Balancer, and Pendle across multiple blockchains.\n\nBacked by $3.6 Million in seed funding with participation from Offchain Labs (Arbitrum creators), Wormhole, and key angel investors like Sandeep Nailwal (Polygon co-founder), Curvance utilizes Wormhole and LayerZero messaging to enable seamless cross-chain borrowing without requiring users to unwrap or sacrifice underlying farming yields.\n\nCurvance is running multi-phase community testing and early deposit campaigns. Users who supply collateral, test cross-chain borrow/repay flows, and earn Curvance CVG points qualify for genesis token allocations and fee share distributions upon full public mainnet release.",
+    "tokenomics": "The native token $CVE features a vote-escrowed ($veCVE) governance model inspired by Curve Finance. CVE holders who lock their tokens direct protocol emissions, vote on collateral parameter approvals, and receive a share of global protocol lending fees across all chains.",
+    "sybilDefense": "Curvance incorporates testnet telemetry tracking and mainnet deposit thresholds. Scripts executing rapid circular mock borrows on testnet without organic user behavior are pruned from point leaderboard snapshots.",
+    "strategy": "To position for maximum Curvance ($CVE) rewards:\n\n1. Connect your wallet to the Curvance dApp and complete all testnet and mainnet interaction steps.\n2. Supply yield-bearing collateral (such as stETH, pendle LP, or stable pools) into Curvance lending pools.\n3. Borrow stablecoins against your collateral to activate capital utilization metrics.\n4. Complete official Curvance Zealy quests and secure verified roles in the Curvance Discord.",
+    "steps": [
+      "Visit the official <a href=\"https://curvance.com\" target=\"_blank\" rel=\"noopener noreferrer\">Curvance Portal</a>.",
+      "Launch the <a href=\"https://app.curvance.com\" target=\"_blank\" rel=\"noopener noreferrer\">Curvance Application</a> and connect your EVM wallet.",
+      "Claim test tokens from the Curvance faucet if testing on Sepolia/Arbitrum testnets.",
+      "Deposit supported assets (ETH, USDC, or LP shares) into the Curvance Money Market.",
+      "Borrow stablecoins or secondary assets against your deposited collateral balance.",
+      "Repay a fraction of your borrowed loan to log complete lifecycle transactions.",
+      "Join the Curvance Discord community and verify your wallet address with Guild.xyz.",
+      "Complete social tasks and technical feedback forms on the Curvance Zealy quest board."
+    ],
+    "faqs": [
+      {
+        "question": "What is the main innovation behind Curvance?",
+        "answer": "Curvance allows users to use complex yield-bearing assets (like Curve/Pendle LPs) as collateral to borrow stablecoins cross-chain without giving up their underlying yield."
+      },
+      {
+        "question": "Who invested in Curvance?",
+        "answer": "Curvance raised $3.6M backed by Offchain Labs, Wormhole, Sandeep Nailwal, and prominent founders from leading DeFi protocols."
+      },
+      {
+        "question": "Is Curvance free to test?",
+        "answer": "Yes, Curvance features active testnet phases where all interactions can be performed with free testnet tokens."
+      },
+      {
+        "question": "What is the CVE token?",
+        "answer": "CVE is the future governance and utility token of Curvance, which utilizes a ve-tokenomics structure for fee distribution and gauge voting."
+      },
+      {
+        "question": "What cross-chain messaging protocol does Curvance use?",
+        "answer": "Curvance integrates Wormhole and LayerZero to facilitate seamless cross-chain collateralization and messaging."
+      },
+      {
+        "question": "Can my collateral be liquidated on Curvance?",
+        "answer": "Yes, like all decentralized lending markets, if the value of your collateral falls below the liquidation threshold, your position can be partially liquidated."
+      }
+    ]
+  },
+
+  {
+    "id": "tensor",
+    "name": "Tensor",
+    "category": "NFT",
+    "tier": "Tier 1",
+    "status": "Active",
+    "stage": "Mainnet",
+    "potentialReward": "$800 - $6,000",
+    "cost": "Trading fees / Solana gas (~$5 - $20)",
+    "timeRequired": "15 mins / weekly",
+    "platform": "Web / Solana",
+    "description": "The dominant pro-trader NFT marketplace on Solana ($3M funding from Placeholder & Solana Ventures), running continuous seasonal rewards and Tensorian loyalty drops.",
+    "logo": "/images/airdrops/tensor.svg",
+    "refLink": "https://www.tensor.trade",
+    "tags": [
+      "Solana",
+      "NFT Marketplace",
+      "Trading",
+      "TNSR",
+      "Tensorians",
+      "Tier 1"
+    ],
+    "featured": true,
+    "startDate": "Jan 2023",
+    "endDate": "Q4 2025",
+    "requirements": [
+      "Solana Wallet (Phantom, Backpack)",
+      "SOL for Trading & Fees",
+      "Listing, Bidding & Buying Solana NFTs",
+      "Tensorian Staking"
+    ],
+    "overview": "Tensor is the undisputed leader in Solana NFT marketplace volume, commanding over 70% of daily transactions and trade execution on the network. Built specifically for professional traders with real-time TradingView-style price charts, automated AMM bonding curves, and instantaneous bulk buy/sell execution, Tensor transformed Solana digital asset liquidity.\n\nFounded by Ilja Moisejevs and Richard Wu and backed by $3 Million in funding led by Placeholder VC with participation from Solana Ventures, Big Brain Holdings, and Raj Gokal, Tensor launched the native governance token $TNSR through the Tensor Foundation. Its inaugural Season airdrops delivered life-changing sums to thousands of active Solana collectors.\n\nTensor continues its aggressive community expansion through new seasonal trading rewards, automated Market Making rewards, and exclusive perks for holders of its official 10,000-piece PFP collection, the Tensorians. By placing bids, providing liquidity into collection AMMs, and staking Tensorians, traders earn ongoing treasure boxes and token distributions.",
+    "tokenomics": "The $TNSR token total supply is fixed at 1 Billion tokens. The community allocation accounts for 55% (with 12.5% released in the initial Season airdrop and the remainder allocated to future seasonal rewards and grants). 27% is allocated to core contributors, 9% to early investors, and 9% to protocol development reserves.",
+    "sybilDefense": "Tensor utilizes sophisticated wash-trading detection filters. Circular bidding networks and repeated zero-spread wash trades between self-owned wallets on low-tier NFT collections are strictly stripped of points and excluded from seasonal mystery box tiers.",
+    "strategy": "To capture top mystery boxes and maximize upcoming $TNSR distributions:\n\n1. Place competitive bids on the Top 50 Solana NFT collections on Tensor Trade within the 10% threshold of floor price.\n2. List verified Solana NFTs on Tensor at competitive prices to accumulate continuous listing points.\n3. Create automated liquidity pools using Tensor’s NFT AMM to earn market making fee yields and liquidity points.\n4. If capital allows, acquire and stake a Tensorian NFT to unlock a permanent points multiplier across all seasons.",
+    "steps": [
+      "Connect your Solana wallet to the <a href=\"https://www.tensor.trade\" target=\"_blank\" rel=\"noopener noreferrer\">Tensor Trade Portal</a>.",
+      "Browse the top trending Solana NFT collections on the <a href=\"https://www.tensor.trade/trade\" target=\"_blank\" rel=\"noopener noreferrer\">Tensor Trade Terminal</a>.",
+      "Place active bids close to the floor price on high-liquidity collections.",
+      "List eligible Solana NFTs from your wallet to earn passive listing points.",
+      "Deposit SOL and NFTs into an automated bonding curve via <a href=\"https://www.tensor.trade/swap\" target=\"_blank\" rel=\"noopener noreferrer\">Tensor AMM</a>.",
+      "Participate in Price Lock trading to hedge floor price risk.",
+      "Check your accumulated seasonal points and claimable mystery boxes in the Tensor Rewards tab.",
+      "Stake your $TNSR tokens on the Tensor Foundation governance portal to cast votes on fee parameters."
+    ],
+    "faqs": [
+      {
+        "question": "What is Tensor?",
+        "answer": "Tensor is the leading pro-trader NFT marketplace on the Solana blockchain, offering advanced analytics, AMM bonding curves, and high-frequency trading tools."
+      },
+      {
+        "question": "What is the ticker symbol for the Tensor token?",
+        "answer": "Tensor’s native governance token trades under the ticker symbol $TNSR."
+      },
+      {
+        "question": "What are Tensorians?",
+        "answer": "Tensorians is the official 10,000-piece PFP collection created by Tensor. Staking a Tensorian grants enhanced reward multipliers and exclusive DAO membership."
+      },
+      {
+        "question": "How do I earn points on Tensor?",
+        "answer": "You earn points primarily by placing bids within close proximity of collection floor prices, listing NFTs competitively, and creating AMM liquidity pools."
+      },
+      {
+        "question": "Who invested in Tensor?",
+        "answer": "Tensor raised $3M led by Placeholder VC, with participation from Solana Ventures, Big Brain Holdings, and prominent ecosystem angels."
+      },
+      {
+        "question": "Which Solana wallets are recommended for Tensor?",
+        "answer": "Phantom, Backpack, and Solflare are the most recommended wallets for seamless trading on Tensor."
+      }
+    ]
+  },
+
+  {
+    "id": "renegade",
+    "name": "Renegade",
+    "category": "DeFi",
+    "tier": "Tier 2",
+    "status": "Active",
+    "stage": "Mainnet / Testnet",
+    "potentialReward": "$600 - $4,000",
+    "cost": "Testnet Free / Mainnet Gas (~$5 - $15)",
+    "timeRequired": "10 mins / weekly",
+    "platform": "Web / Arbitrum",
+    "description": "Next-generation zero-knowledge decentralized dark pool backed by $3.4M from Dragonfly and Robot Ventures, eliminating MEV and slippage for on-chain trades.",
+    "logo": "/images/airdrops/renegade.svg",
+    "refLink": "https://renegade.fi",
+    "tags": [
+      "Dark Pool",
+      "Zero-Knowledge",
+      "MEV Protection",
+      "Dragonfly",
+      "Arbitrum",
+      "Tier 2"
+    ],
+    "featured": false,
+    "startDate": "Feb 2024",
+    "endDate": "Q4 2025",
+    "requirements": [
+      "EVM Wallet (MetaMask, Rabby)",
+      "Arbitrum ETH for Gas",
+      "Deposit into ZK Shielded Pool",
+      "Execute Anonymous Midpoint Swaps"
+    ],
+    "overview": "Renegade is an innovative zero-knowledge decentralized dark pool designed to solve the structural flaws of public on-chain trading: Maximal Extractable Value (MEV), front-running, sandwich attacks, and order-book information leakage. Built on Arbitrum and powered by multi-party computation (MPC) and collaborative ZK-SNARKs, Renegade allows institutional and retail traders to execute anonymous, zero-slippage midpoint trades without revealing balances, trade sizes, or prices prior to settlement.\n\nCo-founded by Christopher Bender and Joey Zacherl, Renegade raised $3.4 Million in seed funding led by Dragonfly Capital and former AngelList CEO Naval Ravikant, with participation from Robot Ventures, Balaji Srinivasan, and Tarun Chitra. Unlike Uniswap where orders sit exposed in the public mempool, Renegade keeps all pre-trade and post-trade state completely encrypted using threshold cryptography.\n\nRenegade is currently operational on Arbitrum mainnet and testnet. Users who deposit assets into Renegade’s shielded pool, execute midpoint trades across major pairs (ETH, BTC, USDC), and test liquidity matching circuits are positioned for early protocol incentives and genesis dark pool governance tokens.",
+    "tokenomics": "Decentralized dark pools require decentralized relayer networks and matching engine coordinators. Renegade’s future governance architecture will involve relayer staking, fee accrual from institutional crossing flows, and community reward incentives distributed to early liquidity contributors and testnet pioneers.",
+    "sybilDefense": "Renegade’s cryptographic state architecture naturally frustrates automated Sybil swarms, as generating collaborative ZK-SNARKs and MPC trade shares requires legitimate computational commitments. Zero-volume spam deposit scripts are flagged and excluded from reward queues.",
+    "strategy": "To position for Renegade early adopter rewards:\n\n1. Connect your EVM wallet to the Renegade dApp on Arbitrum.\n2. Deposit collateral (such as USDC or WETH) into your private Renegade balance.\n3. Execute atomic midpoint orders against other traders or the automated crossing engine.\n4. Maintain an active balance in the shielded dark pool and complete community feedback rounds in the Renegade Discord.",
+    "steps": [
+      "Navigate to the official <a href=\"https://renegade.fi\" target=\"_blank\" rel=\"noopener noreferrer\">Renegade Dark Pool Portal</a>.",
+      "Launch the <a href=\"https://trade.renegade.fi\" target=\"_blank\" rel=\"noopener noreferrer\">Renegade Trading App</a> and connect your EVM wallet.",
+      "Deposit ETH or USDC from Arbitrum into your encrypted, shielded account balance.",
+      "Place a limit or midpoint market order to swap between WETH and USDC without price impact.",
+      "Observe the zero-knowledge matching process executed via collaborative ZK-SNARKs.",
+      "Withdraw profits or rebalance your shielded portfolio back to your self-custody wallet.",
+      "Join the Renegade Discord server to verify your trader status and report user experience feedback.",
+      "Follow official announcements regarding the decentralized relayer network and reward campaigns."
+    ],
+    "faqs": [
+      {
+        "question": "What is a decentralized dark pool?",
+        "answer": "A dark pool is a private exchange where orders are completely hidden until execution. Renegade makes this decentralized using zero-knowledge proofs and MPC."
+      },
+      {
+        "question": "How does Renegade eliminate MEV and front-running?",
+        "answer": "Because orders are completely encrypted before and during execution, MEV searchers and block builders cannot see your price or trade size, making front-running impossible."
+      },
+      {
+        "question": "What blockchain does Renegade operate on?",
+        "answer": "Renegade is deployed natively on Arbitrum One, benefiting from fast block times and low transaction fees."
+      },
+      {
+        "question": "Who invested in Renegade?",
+        "answer": "Renegade raised $3.4M in seed funding led by Dragonfly Capital and Naval Ravikant, with backing from Robot Ventures and prominent angel investors."
+      },
+      {
+        "question": "Is my wallet balance visible on-chain when using Renegade?",
+        "answer": "No, balances deposited into Renegade are held in an encrypted state commitment; other traders and external blockchain observers cannot view your balance."
+      },
+      {
+        "question": "What pricing model does Renegade use?",
+        "answer": "Renegade matches trades directly at the real-time midpoint price sourced from institutional feeds without taking bid-ask spread."
+      }
+    ]
   }
 ];

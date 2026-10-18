@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" fill="none">
+  <defs>
+    <linearGradient id="tensorGrad" x1="20" y1="20" x2="108" y2="108" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#A3E635" />
+      <stop offset="50%" stop-color="#22C55E" />
+      <stop offset="100%" stop-color="#06B6D4" />
+    </linearGradient>
+  </defs>
+  <rect width="128" height="128" rx="28" fill="#0C0E14" />
+  <path d="M26 34H102V52H74V98H54V52H26V34Z" fill="url(#tensorGrad)" />
+  <rect x="82" y="80" width="16" height="16" fill="#EC4899" />
+  <rect x="30" y="80" width="12" height="12" fill="#38BDF8" />
+</svg>

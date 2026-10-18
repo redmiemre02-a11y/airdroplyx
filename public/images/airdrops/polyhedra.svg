@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" fill="none">
+  <defs>
+    <linearGradient id="polyGrad1" x1="30" y1="20" x2="98" y2="108" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#6366F1" />
+      <stop offset="50%" stop-color="#8B5CF6" />
+      <stop offset="100%" stop-color="#06B6D4" />
+    </linearGradient>
+  </defs>
+  <rect width="128" height="128" rx="28" fill="#070913" />
+  <!-- Polyhedral 3D facets -->
+  <polygon points="64,24 96,44 64,64 32,44" fill="#6366F1" fill-opacity="0.8" />
+  <polygon points="96,44 96,84 64,104 64,64" fill="#8B5CF6" fill-opacity="0.9" />
+  <polygon points="32,44 64,64 64,104 32,84" fill="#06B6D4" fill-opacity="0.75" />
+  <path d="M64 24L96 44V84L64 104L32 84V44Z" stroke="#FFFFFF" stroke-width="2" stroke-opacity="0.6" fill="none" />
+</svg>

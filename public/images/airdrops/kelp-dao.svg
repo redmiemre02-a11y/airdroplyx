@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" fill="none">
+  <defs>
+    <linearGradient id="kelpGrad" x1="24" y1="20" x2="104" y2="108" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#2DD4BF" />
+      <stop offset="50%" stop-color="#0D9488" />
+      <stop offset="100%" stop-color="#065F46" />
+    </linearGradient>
+  </defs>
+  <rect width="128" height="128" rx="28" fill="#041514" />
+  <path d="M48 104C48 70 80 76 80 44C80 28 66 22 56 22C46 22 40 30 40 40C40 58 84 56 84 86C84 100 70 106 58 106C52 106 48 104 48 104Z" stroke="url(#kelpGrad)" stroke-width="8" stroke-linecap="round" fill="none" />
+  <circle cx="56" cy="22" r="7" fill="#2DD4BF" />
+  <circle cx="72" cy="62" r="5" fill="#5EEAD4" />
+</svg>
