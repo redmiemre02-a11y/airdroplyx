@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" fill="none">
+  <defs>
+    <linearGradient id="archGrad" x1="20" y1="20" x2="108" y2="108" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#F7931A" />
+      <stop offset="100%" stop-color="#C2410C" />
+    </linearGradient>
+  </defs>
+  <rect width="128" height="128" rx="28" fill="#110B08" />
+  <!-- Architectural Bitcoin Archway -->
+  <path d="M36 96V60C36 42 48 30 64 30C80 30 92 42 92 60V96" stroke="url(#archGrad)" stroke-width="8" stroke-linecap="round" fill="none" />
+  <path d="M50 96V64C50 54 56 46 64 46C72 46 78 54 78 64V96" stroke="url(#archGrad)" stroke-width="4" stroke-linecap="round" fill="none" />
+  <circle cx="64" cy="64" r="6" fill="#F7931A" />
+</svg>

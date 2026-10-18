@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" fill="none">
+  <rect width="128" height="128" rx="28" fill="#0C0D14" />
+  <!-- Spectral Rainbow Arcs -->
+  <path d="M28 88C28 58 44 38 64 38C84 38 100 58 100 88" stroke="#EF4444" stroke-width="6" stroke-linecap="round" fill="none" />
+  <path d="M36 88C36 64 48 48 64 48C80 48 92 64 92 88" stroke="#F59E0B" stroke-width="5" stroke-linecap="round" fill="none" />
+  <path d="M44 88C44 70 52 58 64 58C76 58 84 70 84 88" stroke="#10B981" stroke-width="5" stroke-linecap="round" fill="none" />
+  <path d="M52 88C52 76 58 68 64 68C70 68 76 76 76 88" stroke="#3B82F6" stroke-width="5" stroke-linecap="round" fill="none" />
+  <path d="M60 88C60 82 62 78 64 78C66 78 68 82 68 88" stroke="#8B5CF6" stroke-width="4" stroke-linecap="round" fill="none" />
+</svg>

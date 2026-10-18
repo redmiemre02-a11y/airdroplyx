@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" fill="none">
+  <defs>
+    <linearGradient id="infGrad" x1="20" y1="20" x2="108" y2="108" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#FF3366" />
+      <stop offset="100%" stop-color="#C026D3" />
+    </linearGradient>
+  </defs>
+  <rect width="128" height="128" rx="28" fill="#120A1E" />
+  <path d="M42 36V92M42 36H56M42 92H56" stroke="url(#infGrad)" stroke-width="7" stroke-linecap="round" />
+  <circle cx="42" cy="24" r="5" fill="#FF3366" />
+  <line x1="68" y1="44" x2="98" y2="84" stroke="url(#infGrad)" stroke-width="7" stroke-linecap="round" />
+  <line x1="98" y1="44" x2="68" y2="84" stroke="url(#infGrad)" stroke-width="7" stroke-linecap="round" />
+</svg>

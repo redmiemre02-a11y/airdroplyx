@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" fill="none">
+  <defs>
+    <linearGradient id="polyGrad" x1="20" y1="20" x2="108" y2="108" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#A855F7" />
+      <stop offset="50%" stop-color="#6366F1" />
+      <stop offset="100%" stop-color="#06B6D4" />
+    </linearGradient>
+  </defs>
+  <rect width="128" height="128" rx="28" fill="#0A0818" />
+  <path d="M26 84C42 84 46 44 64 44C82 44 86 84 102 84" stroke="url(#polyGrad)" stroke-width="7" stroke-linecap="round" fill="none" />
+  <path d="M26 44C42 44 46 84 64 84C82 84 86 44 102 44" stroke="url(#polyGrad)" stroke-width="7" stroke-linecap="round" fill="none" stroke-opacity="0.6" />
+  <circle cx="64" cy="64" r="8" fill="#06B6D4" />
+</svg>

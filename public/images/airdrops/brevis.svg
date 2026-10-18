@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" fill="none">
+  <defs>
+    <linearGradient id="brevisGrad" x1="20" y1="20" x2="108" y2="108" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#10B981" />
+      <stop offset="100%" stop-color="#047857" />
+    </linearGradient>
+  </defs>
+  <rect width="128" height="128" rx="28" fill="#071410" />
+  <path d="M64 24L98 44V84L64 104L30 84V44L64 24Z" stroke="url(#brevisGrad)" stroke-width="6" fill="#0B241C" />
+  <path d="M64 44L82 56V76L64 86L46 76V56L64 44Z" fill="url(#brevisGrad)" />
+  <circle cx="64" cy="65" r="5" fill="#A7F3D0" />
+</svg>

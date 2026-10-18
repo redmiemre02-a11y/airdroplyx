@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" fill="none">
+  <defs>
+    <linearGradient id="usualGrad" x1="20" y1="20" x2="108" y2="108" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#F59E0B" />
+      <stop offset="50%" stop-color="#10B981" />
+      <stop offset="100%" stop-color="#065F46" />
+    </linearGradient>
+  </defs>
+  <rect width="128" height="128" rx="28" fill="#0A0C0E" />
+  <!-- Pill Capsule Shape -->
+  <rect x="36" y="32" width="56" height="64" rx="28" transform="rotate(-35 64 64)" stroke="url(#usualGrad)" stroke-width="6" fill="#151A1E" />
+  <line x1="42" y1="64" x2="86" y2="64" transform="rotate(-35 64 64)" stroke="url(#usualGrad)" stroke-width="5" />
+  <circle cx="56" cy="50" r="5" fill="#F59E0B" />
+  <circle cx="72" cy="78" r="5" fill="#10B981" />
+</svg>

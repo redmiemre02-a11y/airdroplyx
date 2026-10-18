@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" fill="none">
+  <defs>
+    <linearGradient id="heuristGrad" x1="20" y1="20" x2="108" y2="108" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#C084FC" />
+      <stop offset="50%" stop-color="#A855F7" />
+      <stop offset="100%" stop-color="#EC4899" />
+    </linearGradient>
+  </defs>
+  <rect width="128" height="128" rx="28" fill="#10081C" />
+  <!-- AI Neural Network Nodes -->
+  <line x1="64" y1="28" x2="36" y2="64" stroke="url(#heuristGrad)" stroke-width="4" />
+  <line x1="64" y1="28" x2="92" y2="64" stroke="url(#heuristGrad)" stroke-width="4" />
+  <line x1="36" y1="64" x2="50" y2="98" stroke="url(#heuristGrad)" stroke-width="4" />
+  <line x1="92" y1="64" x2="78" y2="98" stroke="url(#heuristGrad)" stroke-width="4" />
+  <line x1="36" y1="64" x2="92" y2="64" stroke="url(#heuristGrad)" stroke-width="3" stroke-dasharray="4 4" />
+  <circle cx="64" cy="28" r="8" fill="#C084FC" />
+  <circle cx="36" cy="64" r="7" fill="#A855F7" />
+  <circle cx="92" cy="64" r="7" fill="#A855F7" />
+  <circle cx="50" cy="98" r="7" fill="#EC4899" />
+  <circle cx="78" cy="98" r="7" fill="#EC4899" />
+</svg>
