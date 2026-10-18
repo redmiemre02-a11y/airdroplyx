@@ -8035,5 +8035,555 @@ export const airdrops: Airdrop[] = [
         "answer": "Yes! Deposits can be withdrawn at any time provided they are not being used to collateralize an active open borrow position."
       }
     ]
+  },
+  {
+    "id": "celestia",
+    "name": "Celestia",
+    "logo": "/images/airdrops/celestia.svg",
+    "description": "The foundational modular Data Availability network powering rollups, where staking $TIA qualifies for dozens of high-value ecosystem airdrops.",
+    "reward": "$TIA Staking Yields & Continuous Modular Rollup Airdrops",
+    "category": "Modular DA / Layer 1 / Ecosystem Staking",
+    "featured": true,
+    "status": "active",
+    "publishDate": "2026-10-18",
+    "endTime": "2026-12-31T23:59:59Z",
+    "funding": "$55.0M+ Raised",
+    "investors": "Bain Capital Crypto, Polychain Capital, Placeholder, Delphi Digital, Robot Ventures",
+    "refLink": "https://celestia.org",
+    "overview": "Celestia is the pioneer of the modular blockchain revolution. By decoupling execution from consensus and data availability, Celestia introduced the first modular Data Availability (DA) network. Instead of processing every smart contract transaction like monolithic blockchains, Celestia specializes purely in ordering transactions and guaranteeing that arbitrary data is published and provably available using Data Availability Sampling (DAS).\n\nThis breakthrough architecture enables developers to deploy custom execution rollups (Arbitrum, OP Stack, Sovereign Rollups) that scale to gigabytes per second with gas costs under a fraction of a cent. Celestia raised over $55 Million from visionary crypto funds including Bain Capital Crypto and Polychain Capital.\n\nStaking native $TIA has become the golden standard strategy for airdrop hunters. New modular rollups, bridges, and infrastructure networks (such as Dymension, AltLayer, Saga, MilkyWay, and Movement) frequently airdrop significant percentages of their genesis token supply directly to active, non-custodial $TIA stakers.",
+    "tokenomics": "The $TIA token is used to pay for blob data storage on Celestia DA, secure the Proof-of-Stake consensus network through validator staking, and participate in decentralized network governance.",
+    "sybilSafety": "Most modular airdrops enforcing TIA staking criteria filter out centralized exchange validators (Binance, Coinbase) and require minimum stake thresholds (e.g. 10 to 50 TIA) delegated to community validators.",
+    "strategy": "Acquire $TIA, transfer to a self-custodial Cosmos wallet (Keplr, Leap), delegate your stake to verified community validators outside the top 10 (with a commission <10%), and vote on active governance proposals.",
+    "steps": [
+      "Visit the official <a href=\"https://celestia.org\" target=\"_blank\" rel=\"noopener noreferrer\">Celestia Portal</a>.",
+      "Install a non-custodial Cosmos wallet (Keplr or Leap Wallet).",
+      "Acquire $TIA tokens on major exchanges and withdraw to your personal Celestia address.",
+      "Open the Keplr Staking dashboard and browse active Celestia validators.",
+      "Delegate your $TIA stake to reputable, non-exchange community validators (avoid centralized validators).",
+      "Maintain an active stake above community thresholds (recommended: 25-50+ TIA) for maximum airdrop qualification.",
+      "Participate actively in on-chain governance votes to demonstrate human authenticity.",
+      "Connect your Keplr wallet to upcoming modular RollApp airdrop claim portals."
+    ],
+    "faqs": [
+      {
+        "question": "What is Celestia and why is it so important?",
+        "answer": "Celestia is the first modular Data Availability layer, allowing rollups to scale infinitely by separating data availability from execution."
+      },
+      {
+        "question": "Why do so many projects airdrop to TIA stakers?",
+        "answer": "Because new modular rollups and infrastructure projects build on Celestia DA and want to bootstrap their community with verified modular crypto natives."
+      },
+      {
+        "question": "Which wallet should I use to stake TIA?",
+        "answer": "Always use a non-custodial wallet like Keplr or Leap; staking on centralized exchanges (like Binance) does NOT qualify for airdrops."
+      },
+      {
+        "question": "What is the unbonding period for TIA?",
+        "answer": "Celestia has a 21-day unbonding period when withdrawing staked tokens."
+      },
+      {
+        "question": "Which validators should I delegate to?",
+        "answer": "Choose independent, active community validators with 0% to 5% commission outside the top 10 to improve decentralization and airdrop odds."
+      },
+      {
+        "question": "How much TIA should I stake?",
+        "answer": "While requirements vary, keeping between 15 to 50+ TIA staked generally ensures eligibility across most modular ecosystem snapshots."
+      }
+    ]
+  },
+  {
+    "id": "dymension",
+    "name": "Dymension",
+    "logo": "/images/airdrops/dymension.svg",
+    "description": "The home of lightning-fast modular RollApps built on the Dymension RDK and IBC, where staking $DYM unlocks recurring RollApp token distributions.",
+    "reward": "$DYM Staking APR & Recurring RollApp Airdrops",
+    "category": "Modular RollApps / Settlement Hub / IBC",
+    "featured": true,
+    "status": "active",
+    "publishDate": "2026-10-18",
+    "endTime": "2026-12-31T23:59:59Z",
+    "funding": "$45.0M Raised",
+    "investors": "Big Brain Holdings, Stratos Technologies, Matchbox DAO, Shalom Meckenzie",
+    "refLink": "https://portal.dymension.xyz",
+    "overview": "Dymension is the foundational modular settlement and liquidity hub engineered to power an entire universe of application-specific rollups called \"RollApps\". Similar to how traditional websites operate on web servers, Dymension envisions a future where every crypto application, gaming world, and DeFi protocol runs on its own dedicated RollApp built with the Dymension RollApp Development Kit (RDK).\n\nDymension serves as the decentralized settlement layer, routing hub, and automated market maker (eAMM) that connects all RollApps via the Inter-Blockchain Communication (IBC) protocol, while leveraging modular Data Availability layers like Celestia and Avail. Dymension raised $45 Million in funding and launched with one of the most celebrated genesis token distributions in crypto history.\n\nStaking $DYM on the Dymension Portal grants continuous dual-benefit rewards: healthy native staking APR alongside recurring airdrops from new RollApps launching into the Dymension ecosystem (such as Rivalz, Nim Network, and gaming RollApps).",
+    "tokenomics": "The $DYM token secures the Dymension Settlement Hub through PoS validator staking, pays for cross-RollApp routing fees, and burns through eAMM transaction fee mechanisms.",
+    "sybilSafety": "RollApp developers filter out zero-balance scripts and multi-wallet farmers by requiring minimum $DYM staking tiers (e.g. 20-50+ DYM) and active on-chain IBC bridge activity.",
+    "strategy": "Stake $DYM with active community validators on portal.dymension.xyz, interact with live RollApps (swapping and providing liquidity on the Dymension eAMM), and vote on governance proposals.",
+    "steps": [
+      "Visit the official <a href=\"https://portal.dymension.xyz\" target=\"_blank\" rel=\"noopener noreferrer\">Dymension Portal</a>.",
+      "Connect your Web3 wallet (Keplr, Leap, or MetaMask configured for Dymension).",
+      "Acquire $DYM tokens and navigate to the \"Staking\" tab on the portal.",
+      "Delegate your $DYM stake to reputable non-exchange community validators.",
+      "Maintain an active stake above community thresholds (recommended: 30-50+ DYM) to qualify for future RollApp snapshots.",
+      "Explore live RollApps on the portal and bridge funds via IBC.",
+      "Swap tokens and provide liquidity in the Dymension native automated market maker (eAMM).",
+      "Check the RollApp Airdrop Center regularly to claim allocations from newly deployed RollApps."
+    ],
+    "faqs": [
+      {
+        "question": "What is Dymension?",
+        "answer": "Dymension is a modular settlement network and factory for RollApps—application-specific rollups with shared security and IBC connectivity."
+      },
+      {
+        "question": "What are RollApps?",
+        "answer": "RollApps are ultra-fast, customizable execution rollups built using Dymension's RDK, settling on Dymension while using external DA like Celestia."
+      },
+      {
+        "question": "Why does staking DYM yield airdrops?",
+        "answer": "New RollApps launching on Dymension routinely distribute tokens to $DYM stakers to bootstrap their liquidity and user base."
+      },
+      {
+        "question": "What is the unbonding period for DYM?",
+        "answer": "Dymension has a standard 21-day unbonding period when undelegating staked tokens."
+      },
+      {
+        "question": "Can I use MetaMask with Dymension?",
+        "answer": "Yes! Dymension supports both EVM addresses (via MetaMask/Rabby) and native Cosmos addresses (via Keplr)."
+      },
+      {
+        "question": "What is the Dymension eAMM?",
+        "answer": "The eAMM is Dymension's embedded Automated Market Maker that provides instant shared liquidity across all connected RollApps."
+      }
+    ]
+  },
+  {
+    "id": "altlayer",
+    "name": "AltLayer",
+    "logo": "/images/airdrops/altlayer.svg",
+    "description": "The open and decentralized protocol for Restaked Rollups and Rollups-as-a-Service, backed by $22.8M from Polychain & Binance Labs.",
+    "reward": "AltLayer Staking Rewards & Restaked Rollup AVS Airdrops",
+    "category": "Restaked Rollups / RaaS / EigenLayer",
+    "featured": true,
+    "status": "active",
+    "publishDate": "2026-10-18",
+    "endTime": "2026-12-31T23:59:59Z",
+    "funding": "$22.8M Raised",
+    "investors": "Polychain Capital, Binance Labs, Jump Crypto, Breyer Capital, Gavin Wood, Balaji Srinivasan",
+    "refLink": "https://stake.altlayer.io",
+    "overview": "AltLayer is a pioneering decentralized protocol that introduces \"Restaked Rollups\"—a novel framework that takes existing rollups (OP Stack, Arbitrum Orbit, Polygon CDK, ZK Stack) and supercharges them with enhanced security, decentralization, and fast finality by leveraging EigenLayer's restaking mechanism. AltLayer separates rollup security into three modular Actively Validated Services (AVSs): VITAL (decentralized state verification), MACH (fast finality confirmation), and SQUAD (decentralized sequencing).\n\nAltLayer raised $22.8 Million from tier-1 crypto venture funds led by Polychain Capital and Binance Labs, with angel backing from Ethereum co-founder Gavin Wood and Balaji Srinivasan. AltLayer also operates a leading Rollup-as-a-Service (RaaS) dashboard powering custom rollups across gaming, social, and DeFi.\n\nThrough its official staking portal on stake.altlayer.io, staking native $ALT tokens earns baseline staking APR while qualifying holders for continuous airdrops from partner restaked rollups and ecosystem AVS deployments.",
+    "tokenomics": "The $ALT token is used for economic bonding alongside restaked assets, pays for rollup deployment and sequencing fees, and provides decentralized governance rights in the AltLayer DAO.",
+    "sybilSafety": "AltLayer enforces cryptographic capital staking with time-locked unbonding delays on Ethereum and Arbitrum, insulating reward allocations from sybil bot rings.",
+    "strategy": "Stake native $ALT tokens into the official AltLayer Mach and reALT staking pools on stake.altlayer.io, participate in ecosystem rollup testnets, and vote in DAO governance.",
+    "steps": [
+      "Visit the official <a href=\"https://stake.altlayer.io\" target=\"_blank\" rel=\"noopener noreferrer\">AltLayer Staking Hub</a>.",
+      "Connect your Web3 wallet (MetaMask, Rabby, or WalletConnect).",
+      "Acquire native $ALT tokens on Ethereum or Arbitrum.",
+      "Deposit $ALT into the official Mach staking pool to mint auto-compounding $reALT.",
+      "Hold $reALT in your wallet to automatically qualify for multi-AVS partner token distributions.",
+      "Test rollups launched via the AltLayer Rollup-as-a-Service dashboard.",
+      "Participate in community governance votes on the AltLayer Snapshot space.",
+      "Claim your recurring partner rollup airdrops during designated claim windows."
+    ],
+    "faqs": [
+      {
+        "question": "What is AltLayer?",
+        "answer": "AltLayer is an open, decentralized protocol that provides Restaked Rollups and Rollups-as-a-Service (RaaS) for Ethereum and modular rollups."
+      },
+      {
+        "question": "Who invested in AltLayer?",
+        "answer": "AltLayer raised $22.8M from Polychain Capital, Binance Labs, Jump Crypto, Breyer Capital, and prominent Web3 angels."
+      },
+      {
+        "question": "What is a Restaked Rollup?",
+        "answer": "A Restaked Rollup combines rollup frameworks with restaking (via EigenLayer) to provide decentralized sequencing and sub-second finality."
+      },
+      {
+        "question": "What is reALT?",
+        "answer": "reALT is AltLayer's liquid auto-compounding restaked token, representing your staked ALT position across multiple AVS reward pools."
+      },
+      {
+        "question": "Can I stake ALT on Layer 2?",
+        "answer": "Yes! AltLayer staking is available on Arbitrum and Ethereum mainnet."
+      },
+      {
+        "question": "Do ALT stakers receive partner airdrops?",
+        "answer": "Yes! Projects launching Restaked Rollups on AltLayer frequently allocate a percentage of their genesis tokens to $ALT / $reALT stakers."
+      }
+    ]
+  },
+  {
+    "id": "pyth-network",
+    "name": "Pyth Network",
+    "logo": "/images/airdrops/pyth-network.svg",
+    "description": "The premier sub-second decentralized financial oracle network delivering real-time institutional price feeds, backed by $50M+.",
+    "reward": "$PYTH Staking Governance & Oracle Ecosystem Airdrops",
+    "category": "Oracle / Solana / Cross-Chain Infrastructure",
+    "featured": true,
+    "status": "active",
+    "publishDate": "2026-10-18",
+    "endTime": "2026-12-31T23:59:59Z",
+    "funding": "$50.0M+ Strategic Round",
+    "investors": "Delphi Digital, Multicoin Capital, Wintermute, Castle Island Ventures, Borderless Capital",
+    "refLink": "https://staking.pyth.network",
+    "overview": "Pyth Network is the dominant next-generation financial oracle network delivering sub-second real-time market data across 60+ blockchains. Unlike legacy oracles that rely on public node scraping and push latency, Pyth sources high-fidelity proprietary price feeds directly from over 100 first-party institutional market makers, centralized exchanges, and trading firms (including Jane Street, Cboe, Binance, OKX, and Jump Trading).\n\nSecuring over $5 Billion in Total Value Locked (TVL) across leading DeFi money markets, perpetuals, and structured products, Pyth raised a $50 Million strategic investment round with backing from Delphi Digital and Multicoin Capital.\n\nStaking native $PYTH tokens in the Pyth Governance portal (staking.pyth.network) has become one of the most profitable cross-chain airdrop vectors in crypto. Hundreds of decentralized protocols relying on Pyth price feeds allocate retroactive token distributions to verified $PYTH governance stakers.",
+    "tokenomics": "The $PYTH token governs the Pyth DAO, decides oracle update fee parameters, approves new data publisher reward mechanisms, and directs cross-chain oracle deployments.",
+    "sybilSafety": "Pyth Governance enforces capital locking with weekly epoch boundaries on Solana, requiring authentic on-chain participation in DAO voting proposals.",
+    "strategy": "Acquire $PYTH on Solana, deposit into the official Pyth Staking portal (staking.pyth.network), vote on active DAO proposals, and link your EVM wallet address to your Pyth profile.",
+    "steps": [
+      "Visit the official <a href=\"https://staking.pyth.network\" target=\"_blank\" rel=\"noopener noreferrer\">Pyth Network Staking Hub</a>.",
+      "Connect your Solana Web3 wallet (Phantom, Solflare, or Backpack).",
+      "Stake native $PYTH tokens into the governance staking contract (recommended: 1,000+ PYTH).",
+      "Navigate to the \"Governance\" tab and actively vote on pending Pyth DAO proposals.",
+      "Link your EVM wallet (MetaMask) to your Pyth profile to qualify for multichain partner drops.",
+      "Interact with premier DeFi dApps powered by Pyth price feeds across Solana, Arbitrum, and Base.",
+      "Maintain continuous staking across weekly epochs to maximize loyalty weighting.",
+      "Claim partner protocol airdrops when new oracle consumers snapshot Pyth governance stakers."
+    ],
+    "faqs": [
+      {
+        "question": "What is Pyth Network?",
+        "answer": "Pyth is a high-speed oracle network that delivers first-party financial price data from institutional market makers to smart contracts."
+      },
+      {
+        "question": "Who invested in Pyth Network?",
+        "answer": "Pyth raised $50M+ from Delphi Digital, Multicoin Capital, Wintermute, Castle Island Ventures, and major trading desks."
+      },
+      {
+        "question": "Why do projects airdrop to PYTH stakers?",
+        "answer": "DeFi protocols that use Pyth oracle data want to decentralize governance to verified oracle stakeholders and active crypto traders."
+      },
+      {
+        "question": "How much PYTH should I stake?",
+        "answer": "While requirements vary, staking between 500 to 2,000+ PYTH typically satisfies most partner protocol tier requirements."
+      },
+      {
+        "question": "What is the unbonding epoch for Pyth staking?",
+        "answer": "Unstaking PYTH takes effect at the start of the next Thursday weekly epoch (00:00 UTC)."
+      },
+      {
+        "question": "Do I have to vote on proposals?",
+        "answer": "Yes! Many partner airdrops require stakers to have voted on at least one or two DAO proposals to prove active human participation."
+      }
+    ]
+  },
+  {
+    "id": "wormhole",
+    "name": "Wormhole",
+    "logo": "/images/airdrops/wormhole.svg",
+    "description": "The industry-leading cross-chain messaging and interoperability protocol connecting 30+ top blockchains, backed by $225M at a $2.5B valuation.",
+    "reward": "$W Multichain Governance Staking & Partner Token Drops",
+    "category": "Interoperability / Cross-Chain / Messaging",
+    "featured": true,
+    "status": "active",
+    "publishDate": "2026-10-18",
+    "endTime": "2026-12-31T23:59:59Z",
+    "funding": "$225.0M Raised ($2.5B Valuation)",
+    "investors": "Brevan Howard, Coinbase Ventures, Multicoin Capital, Jump Crypto, Borderless Capital",
+    "refLink": "https://wormhole.com",
+    "overview": "Wormhole is the premier foundational interoperability platform powering multichain applications and bridges at scale. Processing over $40 Billion in cumulative cross-chain volume and hundreds of millions of verified messages, Wormhole connects more than 30 leading blockchains across Ethereum EVMs, Solana, Cosmos, Aptos, Sui, and Near.\n\nWormhole raised an extraordinary $225 Million funding round at a $2.5 Billion valuation, with backing from premier global institutions including Brevan Howard, Coinbase Ventures, and Multicoin Capital. Wormhole pioneered native cross-chain token transfers via NTT (Native Token Transfers), enabling projects to deploy native tokens across chains without wrapped token security risks.\n\nFollowing its historic $W token launch, Wormhole introduced \"Multi-Governance System\" and native staking on Tally and Solana. Staking $W tokens allows holders to vote on multichain parameters while qualifying for upcoming token distributions from protocols built with Wormhole NTT infrastructure.",
+    "tokenomics": "The $W token powers Wormhole decentralized multichain governance, determines cross-chain Guardian relayer parameters, and directs ecosystem grant funding.",
+    "sybilSafety": "Wormhole requires on-chain $W token locking across verified governance vaults and tracks authentic cross-chain transfer diversity to eliminate bot farming.",
+    "strategy": "Acquire and stake $W tokens on Solana or Ethereum via the official Wormhole Governance portal, vote on active DAO proposals, and use Wormhole-powered bridges (Portal Bridge, Mayan Finance).",
+    "steps": [
+      "Visit the official <a href=\"https://wormhole.com\" target=\"_blank\" rel=\"noopener noreferrer\">Wormhole Portal</a>.",
+      "Connect your Solana wallet (Phantom/Backpack) or EVM wallet (MetaMask/Rabby).",
+      "Navigate to the official Wormhole Governance Staking interface on Tally or Solana.",
+      "Delegate and stake your $W tokens to activate on-chain voting power.",
+      "Vote on active Wormhole DAO proposals to maintain an active governance record.",
+      "Execute cross-chain transfers using Wormhole-powered protocols like Mayan Finance and Portal Bridge.",
+      "Bridge assets across diverse chains (Solana, Ethereum, Arbitrum, Base) to build volume.",
+      "Claim partner protocol airdrop rewards from projects adopting Wormhole NTT."
+    ],
+    "faqs": [
+      {
+        "question": "What is Wormhole?",
+        "answer": "Wormhole is the leading cross-chain interoperability protocol, allowing developers to transfer tokens and messages across 30+ blockchains."
+      },
+      {
+        "question": "Who invested in Wormhole?",
+        "answer": "Wormhole raised $225M at a $2.5B valuation from Brevan Howard, Coinbase Ventures, Multicoin Capital, and Borderless Capital."
+      },
+      {
+        "question": "What is Native Token Transfers (NTT)?",
+        "answer": "NTT is Wormhole's open-source framework that lets tokens move natively across blockchains without wrapping or liquidity pools."
+      },
+      {
+        "question": "Where can I stake $W tokens?",
+        "answer": "You can stake $W on Solana (via the official staking hub) or on Ethereum/EVMs (via Tally governance)."
+      },
+      {
+        "question": "What benefits do $W stakers get?",
+        "answer": "Stakers earn multichain voting rights, participate in protocol revenue governance, and qualify for partner token distributions."
+      },
+      {
+        "question": "Is Wormhole secure?",
+        "answer": "Wormhole is secured by a Guardian network of 19 premier institutional validator nodes and has undergone dozens of security audits."
+      }
+    ]
+  },
+  {
+    "id": "ethena",
+    "name": "Ethena",
+    "logo": "/images/airdrops/ethena.svg",
+    "description": "The synthetic dollar protocol ($USDe) generating native yield via delta-neutral basis arbitrage commanding $3B+ TVL, backed by Dragonfly & Binance Labs.",
+    "reward": "Ethena Season 3 Sats & $ENA Governance Token Airdrop",
+    "category": "Synthetic Dollar / Basis Yield / DeFi",
+    "featured": true,
+    "status": "active",
+    "publishDate": "2026-10-18",
+    "endTime": "2026-12-31T23:59:59Z",
+    "funding": "$20.5M Raised / $3B+ TVL",
+    "investors": "Dragonfly Capital, Binance Labs, Arthur Hayes (Maelstrom), Brevan Howard, Franklin Templeton",
+    "refLink": "https://app.ethena.fi",
+    "overview": "Ethena is the fastest-growing synthetic dollar protocol in crypto history, commanding over $3 Billion in Total Value Locked (TVL) through its synthetic dollar token, $USDe. Traditional stablecoins rely on centralized bank deposits vulnerable to regulatory censorship. Ethena creates the \"Internet Bond\"—a crypto-native, censorship-resistant dollar that generates sustainable yield through delta-neutral cash-and-carry basis arbitrage, shorting ETH and BTC perpetual contracts against staked spot collateral.\n\nEthena raised $20.5 Million from tier-1 crypto investors led by Dragonfly Capital, Binance Labs, and Arthur Hayes' Maelstrom fund, alongside institutional backing from Franklin Templeton and Brevan Howard. Following its massive initial $ENA token launch, Ethena is executing \"Season 3\" of its rewards program.\n\nUsers holding $USDe, staking into $sUSDe (earning double-digit native base yield), locking $ENA tokens, or deploying $USDe across major DeFi integrations (Pendle, Morpho, Aave) accumulate daily Sats determining eligibility for multi-million dollar $ENA token distributions.",
+    "tokenomics": "The $ENA token governs the Ethena protocol, determines risk management parameters across hedging venues, votes on collateral asset whitelisting, and shares in protocol fee switches.",
+    "sybilSafety": "Ethena measures real capital deposits and continuous on-chain time-weighted holdings, preventing empty bot wallets from gaming Sats point distribution.",
+    "strategy": "Mint or buy $USDe, stake into $sUSDe on app.ethena.fi to earn native yield, lock $ENA tokens for maximum Sats multipliers (up to 30x), and deploy into Pendle yield markets.",
+    "steps": [
+      "Visit the official <a href=\"https://app.ethena.fi\" target=\"_blank\" rel=\"noopener noreferrer\">Ethena Finance Portal</a>.",
+      "Connect your Web3 wallet (MetaMask, Rabby, or WalletConnect).",
+      "Mint $USDe using collateral assets (USDC, USDT, ETH) or buy directly on DEXs.",
+      "Stake $USDe into $sUSDe to earn double-digit native internet bond APY plus daily Sats.",
+      "Navigate to the \"Liquidity\" tab and lock $ENA or $USDe for maximum 20x-30x Sats multipliers.",
+      "Deposit $USDe into Pendle Finance to trade yield and stack amplified Sats.",
+      "Supply $USDe as collateral on Morpho or Aave to borrow against your yield position.",
+      "Monitor your ranking on the Ethena Leaderboard ahead of the Season 3 token claim."
+    ],
+    "faqs": [
+      {
+        "question": "What is Ethena and $USDe?",
+        "answer": "Ethena is a synthetic dollar protocol that creates $USDe, backed by delta-neutral hedging on ETH/BTC to generate native yield."
+      },
+      {
+        "question": "Who invested in Ethena?",
+        "answer": "Ethena raised $20.5M led by Dragonfly Capital and Binance Labs, alongside Arthur Hayes, Brevan Howard, and Franklin Templeton."
+      },
+      {
+        "question": "Where does the yield come from?",
+        "answer": "Yield is generated from two sources: native Ethereum staking rewards plus the funding rate spread from shorting perpetual contracts."
+      },
+      {
+        "question": "What are Ethena Sats?",
+        "answer": "Sats are loyalty reward points earned by holding USDe, staking sUSDe, and locking ENA, converting into $ENA token airdrops."
+      },
+      {
+        "question": "What is the utility of the $ENA token?",
+        "answer": "$ENA is the governance token of Ethena, voting on risk parameters, custodian approvals, and protocol revenue switches."
+      },
+      {
+        "question": "Can I redeem USDe back to USDC/USD?",
+        "answer": "Yes! You can redeem USDe directly on the Ethena platform or swap instantly via deep Curve and Uniswap liquidity pools."
+      }
+    ]
+  },
+  {
+    "id": "pendle",
+    "name": "Pendle Finance",
+    "logo": "/images/airdrops/pendle.svg",
+    "description": "The premier yield-tokenization protocol commanding $4B+ TVL that enables splitting yield into Principal Tokens (PT) and Yield Tokens (YT).",
+    "reward": "Boros Margin Points, LRT Multipliers & $PENDLE Staking Yields",
+    "category": "Yield Tokenization / Fixed Yield / DeFi",
+    "featured": true,
+    "status": "active",
+    "publishDate": "2026-10-18",
+    "endTime": "2026-12-31T23:59:59Z",
+    "funding": "$4B+ TVL / Binance Labs Backed",
+    "investors": "Binance Labs, Mechanism Capital, HashKey Capital, Bixin Ventures, Spartan Group",
+    "refLink": "https://app.pendle.finance",
+    "overview": "Pendle Finance is the undisputed titan of decentralized yield tokenization and fixed income in Web3, commanding over $4 Billion in Total Value Locked (TVL). In traditional finance, the interest rate derivatives market is worth hundreds of trillions of dollars; Pendle brings this financial primitive on-chain by splitting any yield-bearing asset (such as stETH, eETH, ezETH, or USDe) into two separate tokens: Principal Token (PT) and Yield Token (YT).\n\nBuying PT allows investors to lock in guaranteed fixed annual percentage yields (APYs) with zero market risk, while buying YT allows airdrop hunters and yield traders to leverage future yields and airdrop points with up to 50x capital efficiency. Pendle received strategic backing from Binance Labs and has processed tens of billions in volume.\n\nPendle is expanding into \"Boros\"—a revolutionary margin trading protocol for funding rates and off-chain yields—while continuing to reward liquidity providers and vePENDLE stakers with protocol fees and partner airdrop multiplier stacks.",
+    "tokenomics": "The $PENDLE token powers protocol governance, with vePENDLE stakers voting on pool emission gauges and earning 80% of all swap and yield collection fees generated across all chains.",
+    "sybilSafety": "Pendle measures real capital deployed into AMM liquidity pools and PT/YT markets across Ethereum, Arbitrum, Mantle, and Base, preventing bot manipulation.",
+    "strategy": "Buy Yield Tokens (YT) for high-conviction airdrop assets (such as Lombard LBTC, Ethena USDe, Symbiotic LRTs) to farm points at 10x-30x leverage, or provide liquidity in Pendle pools.",
+    "steps": [
+      "Visit the official <a href=\"https://app.pendle.finance\" target=\"_blank\" rel=\"noopener noreferrer\">Pendle Finance App</a>.",
+      "Connect your Web3 wallet (MetaMask, Rabby, or WalletConnect).",
+      "Select your network (Ethereum Mainnet, Arbitrum, Base, or Mantle).",
+      "Browse the \"Markets\" tab to view active yield and airdrop point farming opportunities.",
+      "Purchase Yield Tokens (YT) of premier assets (e.g., YT-LBTC, YT-USDe) to farm underlying airdrop points with massive capital efficiency.",
+      "Alternatively, buy Principal Tokens (PT) to lock in guaranteed fixed APY (15-25%+) until maturity.",
+      "Provide liquidity in Pendle AMM pools to earn base swap fees, PENDLE emissions, and points.",
+      "Lock $PENDLE tokens into vePENDLE to vote on weekly pool gauges and earn protocol fee distributions."
+    ],
+    "faqs": [
+      {
+        "question": "What is Pendle Finance?",
+        "answer": "Pendle is a DeFi protocol that tokenizes future yield, allowing users to trade fixed yields (PT) and leveraged points (YT)."
+      },
+      {
+        "question": "What is the difference between PT and YT?",
+        "answer": "PT (Principal Token) guarantees your principal back at maturity with fixed yield; YT (Yield Token) gives you all future yield and airdrop points generated."
+      },
+      {
+        "question": "Why is Pendle so popular for airdrops?",
+        "answer": "Buying 1 YT gives you the airdrop points of 10 to 30 underlying tokens at a fraction of the cost, making points farming ultra-capital efficient."
+      },
+      {
+        "question": "Who invested in Pendle?",
+        "answer": "Pendle is backed by Binance Labs, Mechanism Capital, HashKey Capital, and Spartan Group with $4B+ in TVL."
+      },
+      {
+        "question": "What is vePENDLE?",
+        "answer": "vePENDLE is locked PENDLE used to direct weekly liquidity emissions and earn protocol fee revenue shares."
+      },
+      {
+        "question": "Which networks does Pendle support?",
+        "answer": "Pendle is deployed on Ethereum, Arbitrum, Base, BNB Chain, Mantle, and Optimism."
+      }
+    ]
+  },
+  {
+    "id": "saga",
+    "name": "Saga",
+    "logo": "/images/airdrops/saga.svg",
+    "description": "The Layer 1 protocol for automatically provisioning dedicated, high-throughput application blockspace (Chainlets), backed by $15M from Placeholder & Maven 11.",
+    "reward": "$SAGA Staking Vaults & Ecosystem Power-Drop Airdrops",
+    "category": "Modular L1 / Chainlets / Gaming Blockspace",
+    "featured": true,
+    "status": "active",
+    "publishDate": "2026-10-18",
+    "endTime": "2026-12-31T23:59:59Z",
+    "funding": "$15.0M Raised",
+    "investors": "Placeholder, Maven 11, LongHash Ventures, Samsung Next, Polygon Studios",
+    "refLink": "https://saga.xyz",
+    "overview": "Saga is a revolutionary modular Layer 1 protocol engineered to automate the deployment of dedicated, application-specific blockchains called \"Chainlets\". In traditional crypto environments, applications share congested blockspace, leading to unpredictable gas fee spikes and degraded user experiences. Saga allows developers to spin up autonomous, gasless, dedicated Chainlets in seconds with standardized shared security provided by Saga's validator set.\n\nSaga raised $15 Million across rounds led by Placeholder and Maven 11, with strategic backing from Samsung Next and Polygon Studios. Focusing heavily on Web3 gaming, entertainment, and consumer decentralized applications, Saga powers over 350+ partner projects building custom Chainlets.\n\nThrough its official \"Power-Drop\" campaigns and Saga Vaults staking platform, users staking native $SAGA tokens earn attractive staking yields while receiving continuous retroactive airdrops from partner gaming studios and ecosystem Chainlets.",
+    "tokenomics": "The $SAGA token powers Chainlet developer subscription fees, secures validator PoS consensus, and governs the Saga decentralized ecosystem and treasury.",
+    "sybilSafety": "Saga utilizes on-chain staking validation with periodic randomized snapshot blocks and minimum balance tiers to prevent multi-wallet sybil farming.",
+    "strategy": "Stake $SAGA tokens with active non-exchange validators on the Saga Staking portal (vaults.saga.xyz), vote on governance proposals, and claim recurring Power-Drops.",
+    "steps": [
+      "Visit the official <a href=\"https://saga.xyz\" target=\"_blank\" rel=\"noopener noreferrer\">Saga Network Portal</a>.",
+      "Connect your Keplr or Leap Cosmos wallet.",
+      "Acquire $SAGA tokens and navigate to the official Saga Vaults staking interface.",
+      "Delegate your $SAGA tokens to verified community validators outside the top 10.",
+      "Maintain an active stake (recommended: 20-50+ SAGA) to qualify for upcoming Power-Drop snapshots.",
+      "Deposit SAGA into thematic \"Saga Vaults\" to compound yield and partner allocations.",
+      "Vote on active Saga DAO governance proposals.",
+      "Claim partner gaming token airdrops on the Saga Airdrop Claim Center."
+    ],
+    "faqs": [
+      {
+        "question": "What is Saga?",
+        "answer": "Saga is a Layer 1 protocol that automatically provisions dedicated, gasless app-chains (Chainlets) for gaming and entertainment."
+      },
+      {
+        "question": "Who invested in Saga?",
+        "answer": "Saga raised $15M led by Placeholder and Maven 11, alongside Samsung Next and Polygon Studios."
+      },
+      {
+        "question": "What are Chainlets?",
+        "answer": "Chainlets are dedicated sovereign blockchains launched automatically on Saga, secured by Saga validators with zero gas fees for users."
+      },
+      {
+        "question": "What are Saga Power-Drops?",
+        "answer": "Power-Drops are recurring airdrops distributed by partner gaming studios and Chainlets directly to loyal $SAGA stakers."
+      },
+      {
+        "question": "What is the unbonding period for SAGA?",
+        "answer": "Saga has a standard 21-day unbonding period when undelegating staked tokens."
+      },
+      {
+        "question": "Can I use Keplr wallet with Saga?",
+        "answer": "Yes! Saga is natively supported in Keplr and Leap wallets."
+      }
+    ]
+  },
+  {
+    "id": "royco",
+    "name": "Royco",
+    "logo": "/images/airdrops/royco.svg",
+    "description": "The first Incentivized Action Market (IAM) creating an order book for negotiated yield and customized liquidity, backed by $4M from 1kx & Robot Ventures.",
+    "reward": "Royco Action Points & $ROYCO Token Airdrop",
+    "category": "Incentivized Action Market / Berachain / Yield",
+    "featured": true,
+    "status": "active",
+    "publishDate": "2026-10-18",
+    "endTime": "2026-12-31T23:59:59Z",
+    "funding": "$4.0M Seed Round",
+    "investors": "1kx, Robot Ventures, Polychain Capital, Hack VC, Arthur Hayes",
+    "refLink": "https://royco.org",
+    "overview": "Royco is the creator of the world's first \"Incentivized Action Market\" (IAM)—a breakthrough primitive that introduces order books for liquidity incentives and on-chain actions. Traditionally, protocols bootstrap liquidity using wasteful, open-ended airdrop points programs where yields are uncertain and mercenary farmers dump tokens immediately. Royco solves this by creating two-sided order books where protocols specify exact desired actions (e.g., providing $10M liquidity for 6 months), and liquidity providers bid or accept legally binding on-chain reward terms.\n\nBuilt natively to power liquidity across Berachain, Ethereum, and Arbitrum, Royco raised $4 Million in seed funding led by 1kx and Robot Ventures, with participation from Polychain Capital and Arthur Hayes.\n\nRoyco is operating its early adopter Action Points campaign. Users depositing assets into Royco IAM markets, fulfilling protocol action bids, and locking liquidity earn Royco Points ahead of the $ROYCO token generation event.",
+    "tokenomics": "The $ROYCO token will govern the Royco Protocol, decide market settlement parameters, capture protocol transaction fees, and provide staking utility for market curators.",
+    "sybilSafety": "Royco requires capital-backed deposits, binding smart contract action commitments, and verified time-locks, completely insulating rewards from automated sybil bots.",
+    "strategy": "Connect your wallet on royco.org, deposit into active Incentivized Action Markets (IAMs) on Berachain, Arbitrum, or Ethereum, earn negotiated yield plus Royco Points.",
+    "steps": [
+      "Visit the official <a href=\"https://royco.org\" target=\"_blank\" rel=\"noopener noreferrer\">Royco Protocol Portal</a>.",
+      "Connect your Web3 wallet (MetaMask, Rabby, or Coinbase Wallet).",
+      "Select your network (Berachain Testnet, Ethereum, or Arbitrum).",
+      "Browse active Incentivized Action Markets (IAMs) to view negotiated incentive APYs.",
+      "Deposit supported assets (USDC, ETH, BERA) to fulfill protocol liquidity bids.",
+      "Lock your position for the agreed market duration to earn guaranteed incentives.",
+      "Accumulate daily Royco Action Points based on your active capital deployed.",
+      "Claim your $ROYCO governance token allocation upon protocol mainnet TGE."
+    ],
+    "faqs": [
+      {
+        "question": "What is Royco?",
+        "answer": "Royco is the first Incentivized Action Market (IAM), allowing protocols and liquidity providers to negotiate incentives via order books."
+      },
+      {
+        "question": "Who invested in Royco?",
+        "answer": "Royco raised $4M from 1kx, Robot Ventures, Polychain Capital, Hack VC, and Arthur Hayes."
+      },
+      {
+        "question": "How is Royco different from standard liquidity mining?",
+        "answer": "On Royco, terms are fixed and negotiated in advance on-chain, eliminating unpredictable yield drops and mercenary capital dumps."
+      },
+      {
+        "question": "What ecosystems does Royco support?",
+        "answer": "Royco is a core pillar of Berachain Proof-of-Liquidity markets, as well as Ethereum and Arbitrum."
+      },
+      {
+        "question": "What are Royco Action Points?",
+        "answer": "Action Points reward early liquidity providers who fulfill action orders on the Royco platform."
+      },
+      {
+        "question": "Is my capital safe on Royco?",
+        "answer": "Royco smart contracts are non-custodial and undergo strict security audits by leading smart contract auditing firms."
+      }
+    ]
+  },
+  {
+    "id": "zerolend",
+    "name": "ZeroLend",
+    "logo": "/images/airdrops/zerolend.svg",
+    "description": "The dominant decentralized lending market on Linea, zkSync, and Manta commanding $200M+ TVL, backed by Morningstar Ventures.",
+    "reward": "Zero Gravity Season 2 Points & $ZERO Staking Boosters",
+    "category": "Lending / Linea / zkSync / Multi-Chain",
+    "featured": true,
+    "status": "active",
+    "publishDate": "2026-10-18",
+    "endTime": "2026-12-15T23:59:59Z",
+    "funding": "$3.0M Seed Round / $200M+ TVL",
+    "investors": "Morningstar Ventures, Momentum 6, GBV Capital, Banter Capital, Newman Capital",
+    "refLink": "https://zerolend.xyz",
+    "overview": "ZeroLend is the dominant decentralized lending protocol and money market built on leading Layer 2 networks, commanding over $200 Million in Total Value Locked (TVL). Modeled after Aave v3 and heavily customized with account abstraction, real-world assets (RWA), and liquid restaking token (LRT) integrations, ZeroLend is the primary liquidity destination on Linea, zkSync Era, Manta Pacific, and Blast.\n\nZeroLend raised $3 Million from top crypto investors including Morningstar Ventures and GBV Capital. Following its successful $ZERO Token Generation Event, ZeroLend launched \"Zero Gravity Season 2\"—distributing ongoing millions of $ZERO tokens to active lenders, borrowers, and $ZERO governance stakers.\n\nSupplying assets (ETH, stablecoins, LRTs) on ZeroLend allows users to stack multi-protocol rewards simultaneously: native lending APY, Layer 2 ecosystem points (Linea Voyage, zkSync points), and Zero Gravity rewards.",
+    "tokenomics": "The $ZERO token governs the ZeroLend DAO, sets collateral risk parameters, directs weekly liquidity emissions, and earns protocol revenue shares for veZERO stakers.",
+    "sybilSafety": "ZeroLend calculates rewards strictly based on verified on-chain capital supplied, borrow interest paid, and account longevity, preventing zero-balance bot farming.",
+    "strategy": "Supply ETH, USDC, or LRTs on Linea or zkSync on zerolend.xyz, borrow stablecoins at conservative LTV ratios, stake $ZERO into veZERO for fee sharing, and climb the Zero Gravity leaderboard.",
+    "steps": [
+      "Visit the official <a href=\"https://zerolend.xyz\" target=\"_blank\" rel=\"noopener noreferrer\">ZeroLend App</a>.",
+      "Connect your Web3 wallet and choose your network (Linea, zkSync, Manta, or Blast).",
+      "Deposit collateral (ETH, USDC, USDT, or wstETH) into the money market.",
+      "Earn native lending APR while automatically collecting Zero Gravity Season 2 points.",
+      "Borrow stablecoins against your collateral to unlock amplified borrow point multipliers.",
+      "Stake native $ZERO tokens in the veZERO staking vault to earn protocol revenue shares.",
+      "Supply LRT assets (weETH, ezETH) to stack both LRT points and ZeroLend points.",
+      "Claim your ongoing $ZERO reward distributions on the Zero Gravity dashboard."
+    ],
+    "faqs": [
+      {
+        "question": "What is ZeroLend?",
+        "answer": "ZeroLend is the leading decentralized lending protocol on Layer 2 networks including Linea, zkSync Era, and Manta Pacific."
+      },
+      {
+        "question": "Who invested in ZeroLend?",
+        "answer": "ZeroLend raised $3M from Morningstar Ventures, Momentum 6, GBV Capital, and Banter Capital with $200M+ in TVL."
+      },
+      {
+        "question": "What is Zero Gravity Season 2?",
+        "answer": "Zero Gravity Season 2 is ZeroLend's continuous rewards program distributing $ZERO tokens to active lenders and borrowers."
+      },
+      {
+        "question": "Can I stack Linea and zkSync points on ZeroLend?",
+        "answer": "Yes! Using ZeroLend on Linea or zkSync automatically qualifies you for official network rewards alongside ZeroLend points."
+      },
+      {
+        "question": "What is veZERO?",
+        "answer": "veZERO is vote-escrowed ZERO earned by staking, granting governance rights and protocol fee revenue distributions."
+      },
+      {
+        "question": "Can I withdraw my supplied collateral at any time?",
+        "answer": "Yes! You can withdraw your supplied assets at any time as long as your position remains safely collateralized."
+      }
+    ]
   }
 ];
