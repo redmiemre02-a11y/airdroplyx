@@ -10775,5 +10775,736 @@ export const airdrops: Airdrop[] = [
         "answer": "Heurist is building on the ZK Stack (ZKsync hyperchain) and utilizes EigenLayer restaking for economic security."
       }
     ]
+  },
+
+  {
+    "id": "dydx",
+    "name": "dYdX",
+    "category": "DeFi",
+    "tier": "Tier 1",
+    "status": "Active",
+    "stage": "Mainnet",
+    "potentialReward": "$1,500 - $9,000",
+    "cost": "USDC Collateral / Gas ($5 - $20)",
+    "timeRequired": "15 mins / weekly",
+    "platform": "Web / dYdX Chain",
+    "description": "The world’s largest decentralized perpetuals exchange with over $1 Trillion in cumulative volume, operating on sovereign dYdX Chain with active trading rewards and staking.",
+    "logo": "/images/airdrops/dydx.svg",
+    "refLink": "https://dydx.exchange",
+    "tags": [
+      "Perpetuals",
+      "Cosmos AppChain",
+      "Orderbook",
+      "Paradigm",
+      "a16z",
+      "Tier 1"
+    ],
+    "featured": true,
+    "startDate": "Oct 2023",
+    "endDate": "Q4 2025",
+    "requirements": [
+      "Keplr or EVM Wallet",
+      "USDC for Trading Collateral",
+      "Trade Perpetual Markets on dYdX Chain",
+      "Stake DYDX to Earn Protocol Fees in USDC"
+    ],
+    "overview": "dYdX is the undisputed institutional titan of decentralized derivatives trading, having processed over $1 Trillion in total trading volume since inception. Founded by Antonio Juliano and backed by over $65 Million in venture capital from elite institutions including Paradigm, Andreessen Horowitz (a16z), Polychain Capital, and Bain Capital Ventures, dYdX transitioned from an Ethereum Layer 2 into its own sovereign, high-throughput AppChain built on the Cosmos SDK with CometBFT consensus.\n\ndYdX Chain features a completely decentralized, off-chain order book and matching engine operated by proof-of-stake validators, offering instant sub-second order placement, zero gas fees for placing or canceling orders, and isolated/cross-margin trading with up to 50x leverage across hundreds of perpetual markets. Critically, 100% of all trading protocol fees generated across the entire exchange are distributed directly in native USDC to $DYDX token stakers.\n\nThe dYdX Operations Trust and community regularly conduct multi-million dollar seasonal trading incentive programs (such as the MegaVault liquidity program and Trading Seasons). Active perpetual traders and validator stakers earn continuous rewards, fee rebates, and partner tokens.",
+    "tokenomics": "The $DYDX token total supply is capped at 1 Billion tokens. Allocations include 50% to community trading incentives, liquidity providers, and retroactive airdrop distributions, 27.7% to past investors, 15.3% to founders and employees, and 7% to future consultants. Staked DYDX receives 100% of exchange trading fee revenues paid directly in USDC.",
+    "sybilDefense": "dYdX calculates seasonal trading rewards using sophisticated non-linear volume formulas, open interest multipliers, and strict wash-trading filters. Self-crossing orders and artificial spread exploitation loops are mathematically disqualified from reward point distributions.",
+    "strategy": "To capture top trading rewards and maximize continuous USDC fee yields:\n\n1. Bridge USDC from Ethereum, Arbitrum, or Solana to dYdX Chain via the official dYdX Bridge or Squid Router.\n2. Execute recurring weekly trading volume ($10,000+ cumulative) across liquid markets (BTC-USD, ETH-USD, SOL-USD).\n3. Deposit USDC into the dYdX MegaVault to act as a protocol-wide liquidity provider and earn automated market-making yield.\n4. Stake your $DYDX tokens with high-uptime validators on dYdX Chain to earn daily passive USDC protocol fee payouts.",
+    "steps": [
+      "Navigate to the official <a href=\"https://dydx.exchange\" target=\"_blank\" rel=\"noopener noreferrer\">dYdX Exchange Portal</a>.",
+      "Connect your Keplr, Leap, or EVM wallet (MetaMask, Rabby) using account abstraction.",
+      "Deposit native USDC into your dYdX Chain trading account via the <a href=\"https://trade.dydx.exchange\" target=\"_blank\" rel=\"noopener noreferrer\">dYdX Bridge</a>.",
+      "Open long or short perpetual futures contracts across high-volume crypto markets.",
+      "Supply liquidity to the <a href=\"https://dydx.exchange/megavault\" target=\"_blank\" rel=\"noopener noreferrer\">dYdX MegaVault</a> to capture market-making fee share.",
+      "Acquire $DYDX tokens and stake them on the dYdX Staking Dashboard to receive USDC payouts.",
+      "Check your rank and accrued reward points on the official Trading Rewards Leaderboard.",
+      "Vote on active governance proposals at the <a href=\"https://mintscan.io/dydx/proposals\" target=\"_blank\" rel=\"noopener noreferrer\">dYdX Governance Portal</a>."
+    ],
+    "faqs": [
+      {
+        "question": "What is dYdX Chain?",
+        "answer": "dYdX Chain is an independent proof-of-stake blockchain built on the Cosmos SDK that operates a 100% decentralized order book with zero gas fees for trades."
+      },
+      {
+        "question": "Who invested in dYdX?",
+        "answer": "dYdX raised over $65M from top venture funds including Paradigm, a16z crypto, Polychain Capital, and Bain Capital Crypto."
+      },
+      {
+        "question": "How do stakers earn fees on dYdX?",
+        "answer": "100% of protocol trading fees collected on dYdX Chain are streamed directly to $DYDX stakers in native USDC."
+      },
+      {
+        "question": "What is the dYdX MegaVault?",
+        "answer": "MegaVault is a decentralized liquidity pool where users deposit USDC to provide automated liquidity across all dYdX markets and earn high APY."
+      },
+      {
+        "question": "Do I pay gas fees for placing limit orders on dYdX?",
+        "answer": "No, placing, updating, and canceling orders on dYdX Chain is completely gasless."
+      },
+      {
+        "question": "Which wallets support dYdX Chain?",
+        "answer": "dYdX supports Keplr, Leap, and any EVM wallet (MetaMask, Rabby, Coinbase Wallet) via native wallet abstraction."
+      }
+    ]
+  },
+
+  {
+    "id": "phantom",
+    "name": "Phantom Wallet",
+    "category": "Tooling",
+    "tier": "Tier 1",
+    "status": "Active",
+    "stage": "Mainnet",
+    "potentialReward": "$1,500 - $8,000",
+    "cost": "Gas fees (<$1 on Solana)",
+    "timeRequired": "10 mins / weekly",
+    "platform": "iOS, Android & Browser Extension",
+    "description": "The undisputed #1 multi-chain consumer wallet for Solana, Bitcoin, and Ethereum backed by $118M from Paradigm and a16z, featuring in-wallet quests, swaps, and cross-chain bridging.",
+    "logo": "/images/airdrops/phantom.svg",
+    "refLink": "https://phantom.app",
+    "tags": [
+      "Web3 Wallet",
+      "Solana",
+      "Bitcoin",
+      "Ethereum",
+      "Paradigm",
+      "a16z",
+      "Tier 1"
+    ],
+    "featured": true,
+    "startDate": "Jan 2021",
+    "endDate": "Q4 2025",
+    "requirements": [
+      "Download Phantom Extension / App",
+      "Multi-Chain Activity (Solana, Bitcoin, Base)",
+      "In-Wallet Swaps & Cross-Chain Bridges",
+      "Complete In-App Quests & Collectibles"
+    ],
+    "overview": "Phantom is the premier non-custodial consumer crypto wallet, serving as the universal gateway to Web3 for over 10 Million active monthly users. Backed by $118 Million in funding led by Paradigm and Andreessen Horowitz (a16z), with participation from Variant, Jump Capital, and Solana Ventures, Phantom originally defined the Solana UX experience and has since expanded natively across Bitcoin (Ordinals & Runes), Ethereum, Base, and Polygon.\n\nPhantom combines institutional-grade security features—such as phishing blocklists, biometric passkeys, transaction simulation, and automatic spam NFT burn/hide mechanics—with a consumer-friendly mobile and desktop interface. Key built-in primitives include the Phantom In-Wallet Swap Engine, cross-chain bridging powered by Li.Fi and Wormhole, and interactive ecosystem quests.\n\nWith anticipation surrounding a potential native Phantom governance token, active users who utilize Phantom’s built-in swap aggregator, execute cross-chain transfers between Solana and EVM chains, and claim in-wallet ecosystem badge collectibles are positioned at the forefront of the most monumental consumer wallet airdrop in crypto history.",
+    "tokenomics": "The prospective Phantom token will decentralize the wallet’s open dApp ecosystem, govern developer API whitelists and security registries, redistribute swap aggregator routing revenues, and offer discounted in-wallet transaction fee tiers to active token stakers.",
+    "sybilDefense": "Phantom analyzes wallet creation history, biometric authentication tenure on mobile devices, transaction frequency across multiple chains, and cumulative in-wallet swap volume. Sybil clusters executing automated single-dollar dust transfers are systematically segregated from genuine consumer activity tiers.",
+    "strategy": "To position for top potential Phantom Wallet retroactive airdrop tiers:\n\n1. Install Phantom on both desktop and mobile, enabling biometric authentication and multi-chain addresses (Solana, Bitcoin, Ethereum).\n2. Execute recurring weekly swaps across popular tokens (SOL, USDC, ETH, BTC) directly inside Phantom’s swap tab.\n3. Utilize the built-in Cross-Chain Bridge feature to transfer funds between Solana and Base/Ethereum.\n4. Complete all active in-wallet Quests in the explore tab to collect commemorative NFTs and badges.\n5. Stake native SOL natively through Phantom’s built-in validator delegation interface.",
+    "steps": [
+      "Download and install the official <a href=\"https://phantom.app\" target=\"_blank\" rel=\"noopener noreferrer\">Phantom Wallet</a> on desktop and mobile.",
+      "Create a new multi-chain wallet or import your existing seed phrase.",
+      "Deposit SOL and USDC into your Solana address.",
+      "Perform a token swap directly inside the wallet using the <a href=\"https://phantom.app\" target=\"_blank\" rel=\"noopener noreferrer\">Phantom In-Wallet Swap</a> tab.",
+      "Bridge assets across Solana, Base, and Ethereum using Phantom’s built-in Cross-Chain Bridge.",
+      "Open the Explore tab and complete active ecosystem Quests to claim verified collectibles.",
+      "Stake a portion of your SOL natively with high-reputation validators inside the wallet.",
+      "Maintain continuous monthly trading activity to preserve active user tier status."
+    ],
+    "faqs": [
+      {
+        "question": "What is Phantom Wallet?",
+        "answer": "Phantom is the leading multi-chain self-custody Web3 wallet supporting Solana, Bitcoin, Ethereum, Base, and Polygon."
+      },
+      {
+        "question": "Who are the lead investors in Phantom?",
+        "answer": "Phantom raised $118M across multiple funding rounds led by Paradigm and a16z crypto, with participation from Variant and Jump Capital."
+      },
+      {
+        "question": "Does Phantom have an official token yet?",
+        "answer": "Phantom does not currently have an official token, making early and consistent in-wallet feature usage prime criteria for potential retroactive rewards."
+      },
+      {
+        "question": "What are Phantom In-Wallet Quests?",
+        "answer": "Quests are interactive onboarding campaigns located in Phantom’s explore tab that reward users with NFTs and partner perks for trying new dApps."
+      },
+      {
+        "question": "Is Phantom safe from phishing and scams?",
+        "answer": "Yes, Phantom includes real-time transaction simulation, malicious contract blocking, and automated spam NFT filtering."
+      },
+      {
+        "question": "Can I trade Bitcoin Ordinals and Runes on Phantom?",
+        "answer": "Yes, Phantom provides native support for viewing, storing, and sending Bitcoin Ordinals, Inscriptions, and Runes."
+      }
+    ]
+  },
+
+  {
+    "id": "stargate",
+    "name": "Stargate Finance",
+    "category": "Infrastructure",
+    "tier": "Tier 1",
+    "status": "Active",
+    "stage": "Mainnet",
+    "potentialReward": "$800 - $5,000",
+    "cost": "Gas & Bridge Fees (~$2 - $8)",
+    "timeRequired": "10 mins / weekly",
+    "platform": "Web / Multi-Chain",
+    "description": "The premier omnichain liquidity transport network powered by LayerZero, featuring Stargate V2 Hydra pools, unified liquidity, and $STG / veSTG staking.",
+    "logo": "/images/airdrops/stargate.svg",
+    "refLink": "https://stargate.finance",
+    "tags": [
+      "Omnichain",
+      "LayerZero",
+      "Bridge",
+      "Liquidity Pools",
+      "veSTG",
+      "Tier 1"
+    ],
+    "featured": true,
+    "startDate": "Mar 2022",
+    "endDate": "Q4 2025",
+    "requirements": [
+      "EVM Wallet",
+      "Stablecoins or ETH to Bridge",
+      "Use Stargate V2 Cross-Chain Transfers",
+      "Stake STG into veSTG for Governance"
+    ],
+    "overview": "Stargate Finance is the premier fully composable omnichain liquidity transport protocol in Web3, built on top of LayerZero’s cross-chain messaging primitives. Stargate pioneered the solution to the \"Bridging Trilemma,\" delivering instant guaranteed finality, unified liquidity pools across distinct blockchains, and native asset transfers without relying on wrapped synthetic tokens.\n\nWith the launch of Stargate V2, the protocol introduced ultra-efficient \"Hydra Pools\" and AI-driven dynamic transaction fee routing. Stargate V2 slashed transaction fees and gas overhead by over 95%, making cross-chain stablecoin and ETH transfers between Ethereum, Arbitrum, Optimism, Base, Avalanche, Polygon, BNB Chain, and Linea fast, cheap, and capital-efficient.\n\nStargate operates a comprehensive ecosystem governance model centered on $STG and vote-escrowed $veSTG. Users who bridge across multiple chains, supply liquidity to unified pools, and stake STG to vote on cross-chain gauge weights receive consistent fee shares, LayerZero ecosystem rewards, and partner airdrops.",
+    "tokenomics": "The $STG token commands a 1 Billion maximum supply. Token utility includes staking into veSTG to direct liquidity pool reward emissions, voting on new chain integrations, and capturing protocol bridging fee distributions across more than 20 supported blockchains.",
+    "sybilDefense": "Stargate evaluates bridging volume, fee contributions, and address diversity across source and destination chains. Automated bot scripts cycling dust funds in continuous loops without paying meaningful protocol fees are stripped from reward allocations.",
+    "strategy": "To position for maximum Stargate and LayerZero ecosystem rewards:\n\n1. Use Stargate V2 as your default bridge for transferring USDC, USDT, or ETH across Layer 2s (Arbitrum, Base, Optimism, Polygon).\n2. Maintain consistent weekly bridging activity with volume milestones exceeding $3,000+.\n3. Supply single-sided stablecoin liquidity into Stargate V2 Hydra pools to earn native base APY and $STG rewards.\n4. Lock $STG tokens into veSTG for at least 6 to 24 months to maximize governance voting weight on Snapshot.",
+    "steps": [
+      "Navigate to the official <a href=\"https://stargate.finance\" target=\"_blank\" rel=\"noopener noreferrer\">Stargate Finance Portal</a>.",
+      "Launch the <a href=\"https://stargate.finance/transfer\" target=\"_blank\" rel=\"noopener noreferrer\">Stargate V2 Transfer</a> dApp and connect your EVM wallet.",
+      "Select your origin and destination chains (e.g., Arbitrum to Base).",
+      "Transfer USDC, USDT, or ETH with instant guaranteed finality.",
+      "Supply liquidity into a unified Hydra pool on the <a href=\"https://stargate.finance/pool\" target=\"_blank\" rel=\"noopener noreferrer\">Stargate Pools</a> tab.",
+      "Lock $STG tokens in the Stargate Staking tab to receive $veSTG voting power.",
+      "Vote on active gauge weight proposals at <a href=\"https://snapshot.org/#/stgdao.eth\" target=\"_blank\" rel=\"noopener noreferrer\">Stargate DAO Snapshot</a>.",
+      "Hold positions across seasonal snapshots to secure partner ecosystem rewards."
+    ],
+    "faqs": [
+      {
+        "question": "What is Stargate V2?",
+        "answer": "Stargate V2 is the upgraded omnichain liquidity protocol featuring Hydra pools, dynamic fee algorithms, and over 95% lower bridging gas costs."
+      },
+      {
+        "question": "How does Stargate solve the Bridging Trilemma?",
+        "answer": "Stargate provides instant guaranteed finality, unified liquidity across chains, and native asset transfers without using risky wrapped tokens."
+      },
+      {
+        "question": "What is the relationship between Stargate and LayerZero?",
+        "answer": "Stargate was built by LayerZero Labs and serves as the flagship decentralized liquidity transport application powered by LayerZero messaging."
+      },
+      {
+        "question": "What is veSTG?",
+        "answer": "veSTG is vote-escrowed STG obtained by locking $STG tokens, granting governance voting rights and boosting liquidity mining rewards."
+      },
+      {
+        "question": "Which blockchains are supported by Stargate V2?",
+        "answer": "Stargate supports over 20 networks including Ethereum, Arbitrum, Optimism, Base, Polygon, Avalanche, BNB Chain, Linea, and Scroll."
+      },
+      {
+        "question": "Is there impermanent loss when providing liquidity on Stargate?",
+        "answer": "No, Stargate uses single-sided native asset liquidity pools (like pure USDC or pure ETH), eliminating impermanent loss."
+      }
+    ]
+  },
+
+  {
+    "id": "helium",
+    "name": "Helium Network",
+    "category": "DePIN",
+    "tier": "Tier 1",
+    "status": "Active",
+    "stage": "Mainnet",
+    "potentialReward": "$1,000 - $6,500",
+    "cost": "Free for mobile users / Hardware for Hotspots",
+    "timeRequired": "10 mins",
+    "platform": "Solana / Mobile & Hardware",
+    "description": "The world’s largest decentralized wireless network pioneering 5G cellular and IoT connectivity on Solana, backed by $365M from a16z and Multicoin Capital.",
+    "logo": "/images/airdrops/helium.svg",
+    "refLink": "https://helium.com",
+    "tags": [
+      "DePIN",
+      "Solana",
+      "5G Mobile",
+      "IoT",
+      "a16z",
+      "Multicoin",
+      "Tier 1"
+    ],
+    "featured": true,
+    "startDate": "Jul 2019",
+    "endDate": "Q4 2025",
+    "requirements": [
+      "Solana Wallet",
+      "Helium Mobile App or Hotspot Node",
+      "Enable Discovery Mapping on Mobile",
+      "Stake HNT or MOBILE"
+    ],
+    "overview": "Helium Network is the world’s largest and most successful Decentralized Physical Infrastructure Network (DePIN), connecting hundreds of thousands of individual wireless hotspots to deliver decentralized 5G cellular coverage and Internet of Things (IoT) connectivity globally. Backed by an astounding $365 Million in venture financing from Andreessen Horowitz (a16z), Tiger Global, Multicoin Capital, and Khosla Ventures, Helium migrated its entire consensus infrastructure to the Solana blockchain to achieve enterprise-grade scale and micro-transaction efficiency.\n\nHelium operates two primary sub-networks: Helium IoT (powered by $IOT tokens) and Helium Mobile (powered by $MOBILE tokens). Helium Mobile disrupted the traditional telecommunications industry by offering nationwide $20/month unlimited 5G phone plans backed by crowd-sourced citizen micro-cell towers and T-Mobile fallback coverage.\n\nHelium provides lucrative token distributions to active participants. Users who subscribe to Helium Mobile and enable Discovery Mapping (verifying real-world network coverage via background GPS location telemetry), deploy 5G Hotspots, or stake $HNT tokens in the Helium DAO earn daily rewards streamable directly to their Solana wallets.",
+    "tokenomics": "The Helium ecosystem operates around $HNT as the foundational network token, alongside subnet governance tokens $MOBILE and $IOT. HNT is burned to create Data Credits (DCs) used to pay for network data transfer, creating direct deflationary pressure as cellular usage expands.",
+    "sybilDefense": "Helium enforces cryptographic hardware attestation and dynamic proof-of-coverage (PoC) radio frequency / GPS location telemetry. Virtual machine spoofing and false location ping attacks are detected by Helium’s automated hexagon auditing algorithms, denying reward claims.",
+    "strategy": "To position for maximum Helium rewards and ecosystem token drops:\n\n1. Download the Helium Mobile App and subscribe to an active mobile plan or activate Discovery Mapping.\n2. Keep Discovery Mapping active during daily travels to continuously earn daily $MOBILE rewards.\n3. If you possess a suitable location, deploy an indoor or outdoor Helium Mobile 5G Hotspot to earn high-tier bandwidth rewards.\n4. Lock $HNT tokens into veHNT on Solana governance realms to vote on subnet reward emissions.",
+    "steps": [
+      "Visit the official <a href=\"https://helium.com\" target=\"_blank\" rel=\"noopener noreferrer\">Helium Network Portal</a>.",
+      "Download the Helium Mobile app on your iOS or Android device.",
+      "Sign up for an active plan and enable Discovery Mapping in settings.",
+      "Track your daily earned $MOBILE tokens on the Helium Mobile Dashboard.",
+      "Explore deploying hardware 5G micro-cells via <a href=\"https://helium.com/mine\" target=\"_blank\" rel=\"noopener noreferrer\">Helium Hotspot Deployment</a>.",
+      "Manage your tokens using a Solana wallet like Phantom or Solflare.",
+      "Lock $HNT on the Helium DAO Governance Realms portal to earn veHNT.",
+      "Cast on-chain votes on Helium Improvement Proposals (HIPs) to boost DAO participation scores."
+    ],
+    "faqs": [
+      {
+        "question": "What is Helium Network?",
+        "answer": "Helium is a decentralized wireless network on Solana that rewards individuals with tokens for deploying 5G cellular hotspots and verifying coverage."
+      },
+      {
+        "question": "Who invested in Helium Network?",
+        "answer": "Helium raised $365M from top venture firms including a16z, Tiger Global, Multicoin Capital, Khosla Ventures, and FirstMark."
+      },
+      {
+        "question": "What is Discovery Mapping in Helium Mobile?",
+        "answer": "Discovery Mapping allows mobile subscribers to earn $MOBILE tokens automatically by sharing background location data to map cellular coverage."
+      },
+      {
+        "question": "Why did Helium migrate to Solana?",
+        "answer": "Helium migrated to Solana in 2023 to leverage Solana’s sub-second finality, low fees, and state compression for managing millions of hotspots."
+      },
+      {
+        "question": "What is the relationship between HNT and MOBILE tokens?",
+        "answer": "HNT is the primary network token of the Helium ecosystem, while MOBILE is the subnet utility token governing the cellular 5G network."
+      },
+      {
+        "question": "Can I swap my earned MOBILE tokens for SOL or USDC?",
+        "answer": "Yes, MOBILE tokens can be swapped instantly for SOL, USDC, or HNT on Solana DEXs like Jupiter or Raydium."
+      }
+    ]
+  },
+
+  {
+    "id": "render",
+    "name": "Render Network",
+    "category": "AI",
+    "tier": "Tier 1",
+    "status": "Active",
+    "stage": "Mainnet",
+    "potentialReward": "$1,000 - $7,000",
+    "cost": "Free to trade / Hardware for Node Mining",
+    "timeRequired": "10 mins",
+    "platform": "Web / Solana & OctaneRender",
+    "description": "Premier decentralized GPU rendering and AI computation network on Solana backed by Multicoin Capital, powering Hollywood visual effects and generative AI workloads.",
+    "logo": "/images/airdrops/render.svg",
+    "refLink": "https://render.x.io",
+    "tags": [
+      "DePIN",
+      "AI Compute",
+      "GPU Rendering",
+      "Solana",
+      "Multicoin Capital",
+      "Tier 1"
+    ],
+    "featured": true,
+    "startDate": "Apr 2020",
+    "endDate": "Q4 2025",
+    "requirements": [
+      "Solana Wallet",
+      "NVIDIA GPU for Node Operators",
+      "OctaneRender Studio Activity",
+      "Hold or Stake RENDER on Solana"
+    ],
+    "overview": "Render Network is the world’s preeminent decentralized GPU computing and 3D rendering network, connecting artists, game developers, and AI researchers with idle consumer and enterprise GPU compute worldwide. Founded by Jules Urbach (CEO of OTOY) and backed by premier venture capital giants including Multicoin Capital, Alameda Research, and prominent Hollywood studio executives, Render migrated its core ledger to the Solana blockchain to support real-time AI inference and decentralized rendering streams.\n\nRender Network provides computational infrastructure for major productions from HBO, Apple, Netflix, and Marvel Studios through OTOY’s Emmy-award winning OctaneRender software. By tapping into millions of decentralized GPUs, Render delivers photorealistic 3D rendering, spatial computing environments for Apple Vision Pro, and large-scale AI diffusion model training at a fraction of cloud server costs.\n\nRender Network’s Burn-and-Mint Equilibrium (BME) model and community incentive pool allocate continuous $RENDER token emissions to GPU node operators, computational validators, and creative studio creators utilizing the network for generative AI rendering.",
+    "tokenomics": "The $RENDER token total supply is capped at roughly 536 Million tokens on Solana. The network utilizes a Burn-and-Mint Equilibrium model: customers burn RENDER to acquire non-fungible Render Credits to submit computational jobs, and node operators receive newly minted RENDER emissions based on verified work performed.",
+    "sybilDefense": "Proof of Render Work (PoRW) requires cryptographic frame rendering validation against deterministic ray-tracing hash outputs. Fake compute nodes cannot generate valid render frames without real GPU hardware calculation, completely preventing Sybil spoofing.",
+    "strategy": "To position for maximum Render Network rewards and ecosystem incentive grants:\n\n1. If you own an NVIDIA GPU (RTX 3070+), apply to become a decentralized node operator on the Render Network.\n2. Hold and stake $RENDER tokens on Solana to participate in Render Network Proposal (RNP) governance votes.\n3. Utilize OctaneRender or Render AI APIs to process creative rendering workloads.\n4. Participate in official community bounties and Render spatial computing creator competitions.",
+    "steps": [
+      "Visit the official <a href=\"https://render.x.io\" target=\"_blank\" rel=\"noopener noreferrer\">Render Network Portal</a>.",
+      "Explore the node operator onboarding guide at <a href=\"https://render.x.io/gpu-network\" target=\"_blank\" rel=\"noopener noreferrer\">Render GPU Network</a>.",
+      "Connect your compatible NVIDIA GPU hardware to the Render client software.",
+      "Manage and track your rendered frames and earned $RENDER on the Node Dashboard.",
+      "Acquire $RENDER on Solana and hold tokens in self-custody wallets like Phantom.",
+      "Explore spatial AI and 3D rendering integrations via OctaneRender Studio.",
+      "Vote on active Render Network Proposals (RNPs) at <a href=\"https://snapshot.org/#/renderdao.eth\" target=\"_blank\" rel=\"noopener noreferrer\">Render DAO Snapshot</a>.",
+      "Follow developer updates regarding the Render AI ecosystem expansion on Solana."
+    ],
+    "faqs": [
+      {
+        "question": "What is Render Network?",
+        "answer": "Render Network is a decentralized GPU computing network that connects clients needing 3D rendering and AI compute with GPU hardware providers."
+      },
+      {
+        "question": "Who founded Render Network?",
+        "answer": "Render was founded by Jules Urbach, the pioneer behind OTOY and OctaneRender, with backing from Multicoin Capital."
+      },
+      {
+        "question": "Why did Render migrate to Solana?",
+        "answer": "Render migrated to Solana to utilize its high transaction speed and low fees to coordinate micro-payments for streaming rendering and AI workloads."
+      },
+      {
+        "question": "What hardware do I need to become a Render node operator?",
+        "answer": "You need a PC with a modern NVIDIA GPU (RTX 3060 or higher) with at least 8GB of VRAM and a stable internet connection."
+      },
+      {
+        "question": "What is the ticker symbol for Render Network?",
+        "answer": "Render Network’s native token trades under the ticker symbol $RENDER on the Solana blockchain."
+      },
+      {
+        "question": "How are node operators paid?",
+        "answer": "Node operators are paid directly in $RENDER tokens based on the complexity and volume of compute tasks successfully completed."
+      }
+    ]
+  },
+
+  {
+    "id": "euler-finance",
+    "name": "Euler Finance",
+    "category": "DeFi",
+    "tier": "Tier 1",
+    "status": "Active",
+    "stage": "Mainnet",
+    "potentialReward": "$1,200 - $7,500",
+    "cost": "Gas fees + Deposit (~$10 - $25)",
+    "timeRequired": "10 mins / weekly",
+    "platform": "Web / Ethereum",
+    "description": "Modular lending architecture titan backed by $40M+ from Haun Ventures and Variant, launching Euler v2 with customizable risk vaults and reward points.",
+    "logo": "/images/airdrops/euler-finance.svg",
+    "refLink": "https://euler.finance",
+    "tags": [
+      "Lending",
+      "Modular DeFi",
+      "Euler v2",
+      "Haun Ventures",
+      "Vaults",
+      "Tier 1"
+    ],
+    "featured": true,
+    "startDate": "Jul 2024",
+    "endDate": "Q4 2025",
+    "requirements": [
+      "EVM Wallet (MetaMask, Rabby)",
+      "ETH / USDC Collateral",
+      "Deposit into Euler v2 Vaults",
+      "Borrow or Stake EUL"
+    ],
+    "overview": "Euler Finance is an institutional-grade, modular decentralized lending primitive engineered to offer unlimited flexibility, capital efficiency, and isolation for on-chain money markets. Backed by over $40 Million in funding across rounds led by Haun Ventures, Variant, FTX, and prominent crypto angel investors, Euler introduced \"Euler v2\"—a ground-up rebuild of decentralized lending architecture.\n\nEuler v2 is centered around the Euler Vault Kit (EVK) and the Ethereum Vault Connector (EVC). The EVK allows developers and risk managers to deploy custom lending vaults with bespoke collateral parameters, loan-to-value ratios, oracle integrations, and liquidation mechanisms. By decoupling lending vaults from monolithic liquidity pools, Euler v2 completely prevents cross-collateral systemic contagion.\n\nEuler is conducting its official v2 community incentive program. Depositors who supply collateral, borrow assets across curated vaults, and participate in Euler DAO governance receive $EUL rewards and ecosystem partner points, making Euler one of the highest-conviction modular DeFi airdrop opportunities.",
+    "tokenomics": "The $EUL token commands a 27.1 Million maximum supply. $EUL serves as the native governance token of Euler DAO, determining approved risk curators, fee switches, treasury allocations, and liquidity mining emissions across Euler v2 vaults.",
+    "sybilDefense": "Euler calculates rewards based strictly on net capital supplied multiplied by time held and borrowing utilization rates. Empty micro-deposits generate mathematically negligible point yields, ensuring authentic liquidity providers receive top-tier allocations.",
+    "strategy": "To position for maximum Euler v2 rewards and governance distributions:\n\n1. Deposit stablecoins (USDC/USDT) or ETH into curated Euler v2 core vaults.\n2. Borrow assets against your deposited collateral to maximize your capital utilization score.\n3. Supply liquidity into verified partner vaults managed by top risk curators.\n4. Acquire and stake $EUL tokens to vote on Euler DAO Snapshot proposals.",
+    "steps": [
+      "Visit the official <a href=\"https://euler.finance\" target=\"_blank\" rel=\"noopener noreferrer\">Euler Finance Portal</a>.",
+      "Launch the <a href=\"https://app.euler.finance\" target=\"_blank\" rel=\"noopener noreferrer\">Euler v2 Application</a> and connect your EVM wallet.",
+      "Explore the diverse lending vaults on the Euler Vaults dashboard.",
+      "Supply USDC, ETH, or supported collateral into your chosen vault.",
+      "Borrow assets against your collateral to activate borrowing yield multipliers.",
+      "Check your accrued rewards and points on the Euler Earn tab.",
+      "Participate in the Euler Discord to review risk curation updates.",
+      "Vote on active governance proposals at <a href=\"https://snapshot.org/#/eulerdao.eth\" target=\"_blank\" rel=\"noopener noreferrer\">Euler DAO Snapshot</a>."
+    ],
+    "faqs": [
+      {
+        "question": "What is Euler v2?",
+        "answer": "Euler v2 is a modular lending platform that allows anyone to create custom lending vaults using the Ethereum Vault Connector without risk of cross-market contagion."
+      },
+      {
+        "question": "Who invested in Euler Finance?",
+        "answer": "Euler raised over $40M led by Haun Ventures, with participation from Variant, Coinbase Ventures, and leading DeFi founders."
+      },
+      {
+        "question": "What is the Ethereum Vault Connector (EVC)?",
+        "answer": "The EVC is a foundational smart contract layer that allows different independent lending vaults to safely recognize each other’s collateral."
+      },
+      {
+        "question": "What token is used for Euler governance?",
+        "answer": "The native token of the protocol is $EUL, which governs risk parameters and fee distributions."
+      },
+      {
+        "question": "Are Euler v2 smart contracts audited?",
+        "answer": "Yes, Euler v2 underwent 12+ independent security audits by top audit firms including OpenZeppelin, Certora, and Spearbit."
+      },
+      {
+        "question": "Can I create my own lending market on Euler v2?",
+        "answer": "Yes, the Euler Vault Kit (EVK) provides permissionless tooling for developers to deploy custom lending vaults for any ERC-20 token."
+      }
+    ]
+  },
+
+  {
+    "id": "gearbox",
+    "name": "Gearbox Protocol",
+    "category": "DeFi",
+    "tier": "Tier 1",
+    "status": "Active",
+    "stage": "Mainnet",
+    "potentialReward": "$800 - $5,000",
+    "cost": "Gas fees + Trading Margin (~$10 - $25)",
+    "timeRequired": "15 mins / weekly",
+    "platform": "Web / Ethereum & Arbitrum",
+    "description": "Composable generalized leverage protocol on Ethereum and Arbitrum, powering Credit Accounts with leverage point farming across Pendle, Curve, and EigenLayer.",
+    "logo": "/images/airdrops/gearbox.svg",
+    "refLink": "https://gearbox.fi",
+    "tags": [
+      "Leverage",
+      "Credit Accounts",
+      "DeFi",
+      "Arbitrum",
+      "Ethereum",
+      "Tier 1"
+    ],
+    "featured": true,
+    "startDate": "Jan 2022",
+    "endDate": "Q4 2025",
+    "requirements": [
+      "EVM Wallet (Arbitrum, Ethereum)",
+      "USDC, ETH, or LST Collateral",
+      "Open Gearbox Credit Account",
+      "Deploy Composable Leverage Strategy"
+    ],
+    "overview": "Gearbox Protocol is a groundbreaking generalized leverage protocol that brings composable, decentralized leverage to the entire Web3 ecosystem. While traditional margin protocols isolate leverage to trading on a single exchange, Gearbox introduces \"Credit Accounts\"—isolated smart contract wallets that allow users to borrow up to 10x leverage and deploy it directly into external DeFi protocols like Uniswap, Curve, Balancer, Pendle, and EigenLayer.\n\nGearbox transforms passive depositors into liquidity lenders who earn high base interest rates, while active traders and yield farmers utilize Credit Accounts to amplify trading positions, points farming, and restaking rewards without liquidation risks from flash loans.\n\nGearbox is executing ongoing seasonal incentive campaigns for its native governance token $GEAR. Users who open Credit Accounts, supply liquidity to passive pools on Arbitrum or Ethereum, and leverage farming strategies on restaking and points protocols earn substantial $GEAR rewards and multiplied partner points.",
+    "tokenomics": "The $GEAR governance token commands a 10 Billion maximum supply. Token utility includes voting on Credit Account whitelists, setting maximum leverage ratios, directing protocol fee redistributions, and governing DAO treasury reserves.",
+    "sybilDefense": "Gearbox calculates rewards based strictly on real economic capital borrowed and duration of Credit Account utilization. Automated micro-transaction scripts without significant borrowed capital earn virtually zero points.",
+    "strategy": "To optimize Gearbox ($GEAR) rewards and leverage partner airdrops:\n\n1. Open a Credit Account on Arbitrum using USDC or WETH collateral to benefit from low transaction fees.\n2. Utilize Gearbox leverage to farm high-conviction points programs (like Pendle, EigenLayer, or Symbiotic) at 3x to 9x multipliers.\n3. Supply passive liquidity into Gearbox lending pools (USDC, ETH) to earn safe lending yield plus $GEAR incentives.\n4. Stake your $GEAR tokens on the Gearbox DAO governance dashboard to vote on parameter updates.",
+    "steps": [
+      "Navigate to the official <a href=\"https://gearbox.fi\" target=\"_blank\" rel=\"noopener noreferrer\">Gearbox Protocol Portal</a>.",
+      "Launch the <a href=\"https://app.gearbox.fi\" target=\"_blank\" rel=\"noopener noreferrer\">Gearbox dApp</a> and connect your EVM wallet.",
+      "Select your network (Arbitrum One recommended for sub-cent gas fees).",
+      "Open a <a href=\"https://app.gearbox.fi/credit-accounts\" target=\"_blank\" rel=\"noopener noreferrer\">Credit Account</a> by depositing collateral.",
+      "Select a composable leverage strategy (such as leveraged farming on Pendle or Curve).",
+      "Supply idle assets to passive Earn pools to earn base lending interest and $GEAR.",
+      "Monitor your Credit Account health factor to maintain safe collateralization.",
+      "Vote on active Gearbox DAO governance proposals at <a href=\"https://snapshot.org/#/gearbox.eth\" target=\"_blank\" rel=\"noopener noreferrer\">Gearbox Snapshot</a>."
+    ],
+    "faqs": [
+      {
+        "question": "What is a Gearbox Credit Account?",
+        "answer": "A Credit Account is an isolated smart contract wallet that holds your collateral and borrowed funds, allowing you to use leverage inside approved DeFi dApps."
+      },
+      {
+        "question": "Can I lose my collateral on Gearbox?",
+        "answer": "Yes, if the health factor of your Credit Account falls below 1 due to market movements, your account can be liquidated."
+      },
+      {
+        "question": "Which blockchains support Gearbox Protocol?",
+        "answer": "Gearbox is deployed natively on Ethereum mainnet and Arbitrum One."
+      },
+      {
+        "question": "What protocols can I use with Gearbox leverage?",
+        "answer": "You can use leverage on approved protocols including Uniswap, Curve, Convex, Balancer, Pendle, Lido, and EigenLayer."
+      },
+      {
+        "question": "What is the ticker symbol for Gearbox Protocol?",
+        "answer": "Gearbox Protocol’s native governance token trades under the ticker symbol $GEAR."
+      },
+      {
+        "question": "Is Gearbox audited?",
+        "answer": "Yes, Gearbox has undergone extensive formal verification and multiple independent security audits by ChainSecurity, Consensys Diligence, and Sigma Prime."
+      }
+    ]
+  },
+
+  {
+    "id": "synthetix",
+    "name": "Synthetix",
+    "category": "DeFi",
+    "tier": "Tier 1",
+    "status": "Active",
+    "stage": "Mainnet",
+    "potentialReward": "$1,000 - $6,500",
+    "cost": "Gas fees + Staking Collateral (~$10 - $30)",
+    "timeRequired": "15 mins / weekly",
+    "platform": "Web / Base & Arbitrum",
+    "description": "Foundational derivatives and liquidity layer powering Perps V3 on Base and Arbitrum, distributing trading fees and ecosystem tokens to $SNX stakers.",
+    "logo": "/images/airdrops/synthetix.svg",
+    "refLink": "https://synthetix.io",
+    "tags": [
+      "Derivatives",
+      "Perps V3",
+      "Liquidity Layer",
+      "Base",
+      "Arbitrum",
+      "Tier 1"
+    ],
+    "featured": true,
+    "startDate": "Sep 2018",
+    "endDate": "Q4 2025",
+    "requirements": [
+      "EVM Wallet (Base, Arbitrum)",
+      "SNX or USDC Collateral",
+      "Stake in Synthetix V3 Liquidity Pools",
+      "Trade on Powered Frontends (Kwenta, Infinex)"
+    ],
+    "overview": "Synthetix is the pioneer decentralized synthetic assets and perpetuals liquidity protocol in Web3, having generated over $50 Billion in cumulative derivatives trading volume. Created by Kain Warwick, Synthetix provides backend liquidity infrastructure that powers premier frontends including Kwenta, Polynomial, and Infinex.\n\nWith the release of Synthetix V3 on Base and Arbitrum, the protocol completely overhauled its architecture into a modular, multi-collateral liquidity engine. In Synthetix V3, users can supply not only $SNX but also USDC, sUSDe, and ETH into isolated liquidity pools, earning protocol trading fees generated across Perps V3 without debt pool exposure to unhedged synth volatility.\n\nSynthetix regularly executes major ecosystem incentive distributions and trading fee rebates. Stakers who provide liquidity on Base or Arbitrum, participate in Perps V3 trading competitions, and engage in Synthetix Spartan Council governance receive high APR real yield, $SNX rewards, and partner airdrops.",
+    "tokenomics": "The $SNX token commands a total supply governed by the Synthetix Spartan Council. Protocol exchange fees collected from perpetual trading are routed directly to active liquidity providers and stakers, alongside weekly community emissions.",
+    "sybilDefense": "Synthetix rewards are tied mathematically to capital deposited multiplied by duration of liquidity provision. Short-term deposit-and-withdraw bots receive zero weekly staking epoch rewards.",
+    "strategy": "To position for maximum Synthetix V3 yields and ecosystem airdrop rewards:\n\n1. Deposit USDC or SNX into the Synthetix V3 Core System on Base or Arbitrum.\n2. Delegate your collateral to the Spartan Liquidity Pool to earn real-time perpetual trading fees.\n3. Execute trades on Synthetix Perps V3 frontends like Kwenta or Infinex to generate volume footprints.\n4. Vote for Spartan Council representatives during seasonal Synthetix governance election rounds.",
+    "steps": [
+      "Navigate to the official <a href=\"https://synthetix.io\" target=\"_blank\" rel=\"noopener noreferrer\">Synthetix Portal</a>.",
+      "Launch the <a href=\"https://staking.synthetix.io\" target=\"_blank\" rel=\"noopener noreferrer\">Synthetix V3 Staking App</a> and connect your EVM wallet.",
+      "Select Base or Arbitrum network for minimal gas overhead.",
+      "Deposit USDC or $SNX into the official Synthetix V3 liquidity pool.",
+      "Claim weekly staking rewards and trading fee payouts in the staking dashboard.",
+      "Trade perpetual futures on Synthetix-powered frontends such as Kwenta.",
+      "Participate in Spartan Council elections on the Synthetix Governance portal.",
+      "Retain your staking collateral across seasonal snapshots to maintain maximum tier multiplier."
+    ],
+    "faqs": [
+      {
+        "question": "What is Synthetix V3?",
+        "answer": "Synthetix V3 is a modular liquidity layer that allows multi-collateral staking (like USDC and ETH) to power high-speed perpetual futures markets."
+      },
+      {
+        "question": "Which blockchains support Synthetix V3?",
+        "answer": "Synthetix V3 is deployed primarily on Base and Arbitrum One."
+      },
+      {
+        "question": "What frontends use Synthetix for liquidity?",
+        "answer": "Major decentralized exchanges like Kwenta, Infinex, and Polynomial route their perpetual contracts through Synthetix V3 pools."
+      },
+      {
+        "question": "How do stakers earn yield on Synthetix V3?",
+        "answer": "Stakers earn a share of exchange trading fees generated across all powered perpetuals markets, paid in real yield."
+      },
+      {
+        "question": "What is the Spartan Council?",
+        "answer": "The Spartan Council is an elected governing body of community members that reviews and approves Synthetix Improvement Proposals (SIPs)."
+      },
+      {
+        "question": "Is $SNX staking audited?",
+        "answer": "Yes, Synthetix V3 contracts have undergone rigorous independent security audits by OpenZeppelin and Macro."
+      }
+    ]
+  },
+
+  {
+    "id": "bittensor",
+    "name": "Bittensor",
+    "category": "AI",
+    "tier": "Tier 1",
+    "status": "Active",
+    "stage": "Mainnet",
+    "potentialReward": "$1,500 - $9,000",
+    "cost": "Gas fees + TAO Staking / Subnet Registration",
+    "timeRequired": "15 mins",
+    "platform": "Web / Bittensor Network",
+    "description": "Decentralized open-source machine intelligence network powering competitive AI subnets, distributing daily $TAO rewards to subnet miners and validator stakers.",
+    "logo": "/images/airdrops/bittensor.svg",
+    "refLink": "https://bittensor.com",
+    "tags": [
+      "AI Network",
+      "Machine Learning",
+      "TAO",
+      "Subnets",
+      "DePIN",
+      "Tier 1"
+    ],
+    "featured": true,
+    "startDate": "Jan 2023",
+    "endDate": "Q4 2025",
+    "requirements": [
+      "Bittensor Wallet (Subwallet, Polkadot.js)",
+      "TAO Tokens",
+      "Stake TAO to Active Validator or Subnet",
+      "Run Miner / Validator on Open Subnet"
+    ],
+    "overview": "Bittensor is the premier decentralized peer-to-peer machine intelligence network and foundational AI protocol in Web3. Conceived by Jacob Steeves and Ala Shaabana and built to break the oligopoly of Big Tech AI corporations (OpenAI, Google, Microsoft), Bittensor organizes machine learning into specialized, competitive \"Subnets\" coordinated through a native Proof-of-Intelligence consensus mechanism.\n\nEach Bittensor Subnet acts as an open economic market for a distinct AI task—such as text generation, financial prediction, 3D model synthesis, speech-to-text, or protein folding. Subnet Miners produce intelligence and submit machine learning outputs, while Subnet Validators assess performance using Yuma Consensus, rewarding the best AI models with programmatic daily emissions of the native token $TAO.\n\nBittensor is running dynamic Subnet incentive expansions (such as Dynamic TAO / dTAO). Users who acquire $TAO, delegate stake to leading validators (such as OpenTensor Foundation, Taostats, and Foundry), or register mining nodes across high-growth subnets earn daily compounding staking APR and qualify for prospective subnet partner airdrops.",
+    "tokenomics": "The $TAO token shares Bitcoin’s exact economic mechanics: a 21 Million maximum supply, 4-year halving cycles, and zero pre-mine or venture capital preferential allocations. Every 12 seconds, 1 TAO is minted and distributed programmatically across subnet miners, validators, and subnet creators based on verified intelligence score rankings.",
+    "sybilDefense": "Bittensor’s Yuma Consensus requires empirical, competitive machine learning evaluations where validators run continuous benchmarking probes against miners. Subnets also require dynamic registration fees (burn or lock) that prevent Sybil swarm registrations.",
+    "strategy": "To position for maximum Bittensor ($TAO) staking rewards and subnet token airdrops:\n\n1. Set up a secure Bittensor-compatible wallet (such as Subwallet or the official Bittensor Wallet extension).\n2. Acquire $TAO on major exchanges and withdraw to your native Bittensor network address.\n3. Delegate stake your $TAO to reputable validators with low commission fees to earn daily compounding staking rewards (~14-18% APR).\n4. Explore high-potential subnets (Subnet 1, Subnet 8, Subnet 18) to position for upcoming subnet tokenization (dTAO) airdrops.",
+    "steps": [
+      "Visit the official <a href=\"https://bittensor.com\" target=\"_blank\" rel=\"noopener noreferrer\">Bittensor Portal</a>.",
+      "Install a supported wallet like <a href=\"https://www.subwallet.app\" target=\"_blank\" rel=\"noopener noreferrer\">SubWallet</a>.",
+      "Acquire $TAO and transfer to your native Bittensor address.",
+      "Navigate to the <a href=\"https://taostats.io/staking\" target=\"_blank\" rel=\"noopener noreferrer\">Taostats Staking Dashboard</a>.",
+      "Delegate your TAO to verified validators to begin accumulating daily staking emissions.",
+      "Explore live subnets and their specialized AI tasks on the Taostats Subnet Leaderboard.",
+      "Join the Bittensor Discord community to follow subnet developer updates and dynamic TAO roadmaps.",
+      "Compound your daily earned $TAO rewards to maximize long-term staking weight."
+    ],
+    "faqs": [
+      {
+        "question": "What is Bittensor?",
+        "answer": "Bittensor is an open-source decentralized network that creates a competitive peer-to-peer marketplace for artificial intelligence and machine learning subnets."
+      },
+      {
+        "question": "What is the tokenomics model of $TAO?",
+        "answer": "TAO follows Bitcoin’s exact tokenomics with a 21 million total supply, halving cycles every 4 years, and zero pre-mined allocations."
+      },
+      {
+        "question": "What are Bittensor Subnets?",
+        "answer": "Subnets are independent, specialized computational markets within Bittensor dedicated to specific AI tasks like text, audio, image generation, and data scraping."
+      },
+      {
+        "question": "How do everyday users earn rewards on Bittensor?",
+        "answer": "Everyday users can stake their $TAO tokens with validators through dashboards like Taostats to earn ~14-18% APY in daily rewards."
+      },
+      {
+        "question": "What is Dynamic TAO (dTAO)?",
+        "answer": "Dynamic TAO is an upcoming protocol upgrade that introduces market-driven token dynamics and individual tokens for each subnet."
+      },
+      {
+        "question": "Is Bittensor an EVM blockchain?",
+        "answer": "No, Bittensor runs on its own Substrate-based blockchain optimized specifically for AI consensus and validator emissions."
+      }
+    ]
+  },
+
+  {
+    "id": "uplink",
+    "name": "Uplink",
+    "category": "DePIN",
+    "tier": "Tier 2",
+    "status": "Active",
+    "stage": "Testnet / Devnet",
+    "potentialReward": "$600 - $3,500",
+    "cost": "Free (Bandwidth / Router Connection)",
+    "timeRequired": "10 mins",
+    "platform": "Web / Multi-Chain",
+    "description": "Decentralized physical connectivity network rewarding users for sharing residential and commercial Wi-Fi bandwidth, backed by $10M from Framework Ventures.",
+    "logo": "/images/airdrops/uplink.svg",
+    "refLink": "https://uplink.xyz",
+    "tags": [
+      "DePIN",
+      "Wi-Fi Bandwidth",
+      "Framework Ventures",
+      "Connectivity",
+      "Tier 2"
+    ],
+    "featured": false,
+    "startDate": "Mar 2024",
+    "endDate": "Q4 2025",
+    "requirements": [
+      "EVM Wallet",
+      "Broadband Internet Connection",
+      "Connect Wi-Fi Router to Uplink Network",
+      "Complete Community Quests"
+    ],
+    "overview": "Uplink is a decentralized physical infrastructure network (DePIN) engineered to build a user-owned, distributed global Wi-Fi and telecommunications network. Backed by $10 Million in funding led by Framework Ventures, with participation from prominent infrastructure funds and angel investors, Uplink aims to democratize internet connectivity by incentivizing individuals and businesses to share their underutilized broadband bandwidth.\n\nTraditional centralized internet service providers (ISPs) monopolize connectivity, charging exorbitant fees while leaving billions of people underserved. Uplink allows anyone with an internet connection to install lightweight firmware or plug-in hardware to transform their existing router into a decentralized public access point.\n\nUplink is conducting its community onboarding and router registration testnet. Participants who register their routers, share bandwidth, test connectivity speeds, and complete community quests earn Uplink points that will directly convert into native governance tokens upon public mainnet launch.",
+    "tokenomics": "The Uplink native token coordinates the decentralized bandwidth marketplace. Users and businesses burn tokens to access secure global Wi-Fi connectivity, while router hosts and bandwidth providers receive token emissions based on verified data throughput and uptime.",
+    "sybilDefense": "Uplink implements hardware-level cryptographic router attestation and geographic signal validation. Virtual machine emulators attempting to spoof fake bandwidth connections without real Wi-Fi radio propagation are detected and disqualified from points.",
+    "strategy": "To position for maximum Uplink token rewards:\n\n1. Sign up on the official Uplink Portal and connect your EVM wallet.\n2. Register your home or office router for the upcoming public decentralized Wi-Fi firmware rollout.\n3. Complete official community quests and bandwidth speed tests on the Uplink portal.\n4. Join the Uplink Discord to participate in community beta testing cohorts and claim early tester roles.",
+    "steps": [
+      "Visit the official <a href=\"https://uplink.xyz\" target=\"_blank\" rel=\"noopener noreferrer\">Uplink Portal</a>.",
+      "Connect your EVM wallet to initialize your community profile.",
+      "Sign up for the decentralized router deployment whitelist.",
+      "Complete social verification tasks by linking your Twitter/X and Discord.",
+      "Run periodic broadband connectivity speed tests on the Uplink web dashboard.",
+      "Explore the <a href=\"https://docs.uplink.xyz\" target=\"_blank\" rel=\"noopener noreferrer\">Uplink Documentation</a> to learn about router firmware integration.",
+      "Join the official Uplink Discord to report testnet feedback.",
+      "Monitor your ranking on the Uplink Community Points leaderboard."
+    ],
+    "faqs": [
+      {
+        "question": "What is Uplink?",
+        "answer": "Uplink is a decentralized physical infrastructure network that rewards individuals and businesses for sharing their broadband internet bandwidth as public Wi-Fi."
+      },
+      {
+        "question": "Who invested in Uplink?",
+        "answer": "Uplink raised $10M in venture funding led by Framework Ventures, with participation from leading crypto and DePIN investors."
+      },
+      {
+        "question": "Does sharing bandwidth compromise my home network security?",
+        "answer": "No, Uplink uses encrypted guest network segmentation and zero-trust tunneling to ensure guest traffic is completely isolated from your private devices."
+      },
+      {
+        "question": "How do I earn points on Uplink?",
+        "answer": "You earn points by registering your router, testing network bandwidth, completing community quests, and participating in beta testing."
+      },
+      {
+        "question": "What hardware is required?",
+        "answer": "In current testnet phases, no specialized hardware is required; users can participate using their existing home or office internet router."
+      },
+      {
+        "question": "When will the Uplink token launch?",
+        "answer": "The token generation event is scheduled alongside public mainnet deployment following the conclusion of router testing phases."
+      }
+    ]
   }
 ];

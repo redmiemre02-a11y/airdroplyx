@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" fill="none">
+  <defs>
+    <linearGradient id="dydxGrad" x1="20" y1="20" x2="108" y2="108" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#6966FF" />
+      <stop offset="100%" stop-color="#4B48E5" />
+    </linearGradient>
+  </defs>
+  <rect width="128" height="128" rx="28" fill="#0C0E14" />
+  <!-- dYdX Stylized Geometric X -->
+  <path d="M38 32H54L90 96H74L38 32Z" fill="#FFFFFF" />
+  <path d="M90 32H74L38 96H54L90 32Z" fill="url(#dydxGrad)" />
+</svg>

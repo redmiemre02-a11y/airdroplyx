@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" fill="none">
+  <defs>
+    <linearGradient id="renderGrad" x1="20" y1="20" x2="108" y2="108" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#EF4444" />
+      <stop offset="100%" stop-color="#B91C1C" />
+    </linearGradient>
+  </defs>
+  <rect width="128" height="128" rx="28" fill="#14090A" />
+  <!-- Render Network 3D Octagonal Iris -->
+  <circle cx="64" cy="64" r="40" stroke="url(#renderGrad)" stroke-width="6" fill="none" />
+  <circle cx="64" cy="64" r="22" fill="url(#renderGrad)" />
+  <circle cx="64" cy="64" r="8" fill="#FFFFFF" />
+  <path d="M64 24V42M64 86V104M24 64H42M86 64H104" stroke="url(#renderGrad)" stroke-width="4" stroke-linecap="round" />
+</svg>

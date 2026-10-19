@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" fill="none">
+  <defs>
+    <linearGradient id="heliumGrad" x1="20" y1="20" x2="108" y2="108" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#2CE8BD" />
+      <stop offset="100%" stop-color="#0E9F7F" />
+    </linearGradient>
+  </defs>
+  <rect width="128" height="128" rx="28" fill="#071714" />
+  <!-- Helium Wireless Hexagon -->
+  <polygon points="64,24 98,44 98,84 64,104 30,84 30,44" stroke="url(#heliumGrad)" stroke-width="6" fill="#0B2B24" />
+  <circle cx="64" cy="64" r="16" fill="url(#heliumGrad)" />
+  <circle cx="64" cy="64" r="7" fill="#071714" />
+</svg>

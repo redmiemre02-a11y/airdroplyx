@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" fill="none">
+  <defs>
+    <linearGradient id="eulerGrad" x1="20" y1="20" x2="108" y2="108" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#F59E0B" />
+      <stop offset="100%" stop-color="#D97706" />
+    </linearGradient>
+  </defs>
+  <rect width="128" height="128" rx="28" fill="#0E1726" />
+  <!-- Mathematical Euler Glyph -->
+  <path d="M42 34H86V48H58V58H80V70H58V80H86V94H42V34Z" fill="url(#eulerGrad)" />
+  <circle cx="92" cy="64" r="5" fill="#FBBF24" />
+</svg>

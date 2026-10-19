@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" fill="none">
+  <defs>
+    <linearGradient id="stargateGrad" x1="20" y1="20" x2="108" y2="108" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#00F0FF" />
+      <stop offset="50%" stop-color="#3B82F6" />
+      <stop offset="100%" stop-color="#8B5CF6" />
+    </linearGradient>
+  </defs>
+  <rect width="128" height="128" rx="28" fill="#0A0B1A" />
+  <!-- Stargate Portal Ring -->
+  <circle cx="64" cy="64" r="42" stroke="url(#stargateGrad)" stroke-width="7" stroke-dasharray="18 8" fill="none" />
+  <circle cx="64" cy="64" r="24" stroke="url(#stargateGrad)" stroke-width="4" fill="none" opacity="0.6" />
+  <circle cx="64" cy="64" r="8" fill="#00F0FF" />
+</svg>

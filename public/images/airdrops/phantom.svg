@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" fill="none">
+  <defs>
+    <linearGradient id="phanGrad" x1="20" y1="20" x2="108" y2="108" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#AB9FF2" />
+      <stop offset="100%" stop-color="#6F5CE8" />
+    </linearGradient>
+  </defs>
+  <rect width="128" height="128" rx="28" fill="#141124" />
+  <!-- Friendly Ghost Shape -->
+  <path d="M40 76C40 54 50 36 64 36C78 36 88 54 88 76C88 88 84 94 78 94C72 94 70 88 64 88C58 88 56 94 50 94C44 94 40 88 40 76Z" fill="url(#phanGrad)" />
+  <circle cx="54" cy="58" r="5" fill="#141124" />
+  <circle cx="74" cy="58" r="5" fill="#141124" />
+</svg>

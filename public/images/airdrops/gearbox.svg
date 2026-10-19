@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" fill="none">
+  <defs>
+    <linearGradient id="gearGrad" x1="20" y1="20" x2="108" y2="108" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#00FFA3" />
+      <stop offset="100%" stop-color="#00B8D9" />
+    </linearGradient>
+  </defs>
+  <rect width="128" height="128" rx="28" fill="#0A1214" />
+  <!-- Gear Cogwheel Silhouette -->
+  <circle cx="64" cy="64" r="28" stroke="url(#gearGrad)" stroke-width="8" fill="none" />
+  <circle cx="64" cy="64" r="10" fill="url(#gearGrad)" />
+  <path d="M64 22V32M64 96V106M22 64H32M96 64H106M34 34L42 42M86 86L94 94M94 34L86 42M42 86L34 94" stroke="url(#gearGrad)" stroke-width="6" stroke-linecap="round" />
+</svg>
