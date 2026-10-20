@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" fill="none">
+  <defs>
+    <linearGradient id="alcGrad" x1="24" y1="20" x2="104" y2="108" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#FCD34D" />
+      <stop offset="50%" stop-color="#F59E0B" />
+      <stop offset="100%" stop-color="#10B981" />
+    </linearGradient>
+  </defs>
+  <rect width="128" height="128" rx="28" fill="#101407" />
+  <!-- Alchemical Flask / Transmuter Vessel -->
+  <path d="M56 26H72M60 26V44L36 86C32 94 38 102 48 102H80C90 102 96 94 92 86L68 44V26" stroke="url(#alcGrad)" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" fill="#1C210C" />
+  <!-- Transmuted Liquid Level -->
+  <path d="M44 80C52 74 62 84 72 78C78 74 82 76 84 80L88 88C88 94 82 96 78 96H50C46 96 40 94 40 88L44 80Z" fill="url(#alcGrad)" />
+  <circle cx="64" cy="60" r="4" fill="#6EE7B7" />
+</svg>

@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" fill="none">
+  <defs>
+    <linearGradient id="aeroGrad" x1="24" y1="24" x2="104" y2="104" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#38BDF8" />
+      <stop offset="50%" stop-color="#0052FF" />
+      <stop offset="100%" stop-color="#1E40AF" />
+    </linearGradient>
+  </defs>
+  <rect width="128" height="128" rx="28" fill="#060C1F" />
+  <!-- Aerodrome Aero Turbine Propeller Blades -->
+  <circle cx="64" cy="64" r="44" stroke="url(#aeroGrad)" stroke-width="4" stroke-dasharray="6 6" />
+  <path d="M64 64C56 46 44 32 64 22C84 32 72 46 64 64Z" fill="url(#aeroGrad)" />
+  <path d="M64 64C82 56 96 44 106 64C96 84 82 72 64 64Z" fill="url(#aeroGrad)" />
+  <path d="M64 64C72 82 84 96 64 106C44 96 56 82 64 64Z" fill="url(#aeroGrad)" />
+  <path d="M64 64C46 72 32 84 22 64C32 44 46 56 64 64Z" fill="url(#aeroGrad)" />
+  <circle cx="64" cy="64" r="10" fill="#FFFFFF" />
+  <circle cx="64" cy="64" r="5" fill="#0052FF" />
+</svg>

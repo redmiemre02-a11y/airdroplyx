@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" fill="none">
+  <defs>
+    <linearGradient id="mavGrad" x1="20" y1="20" x2="108" y2="108" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#A78BFA" />
+      <stop offset="50%" stop-color="#8B5CF6" />
+      <stop offset="100%" stop-color="#5B21B6" />
+    </linearGradient>
+  </defs>
+  <rect width="128" height="128" rx="28" fill="#0C081D" />
+  <!-- Maverick Directional Shifting M-Wave -->
+  <path d="M30 86V42L48 66L64 44L80 66L98 42V86" stroke="url(#mavGrad)" stroke-width="7" stroke-linecap="round" stroke-linejoin="round" fill="none" />
+  <!-- Dynamic Concentrated Liquidity Arrows -->
+  <path d="M44 86L64 72L84 86" stroke="#C4B5FD" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" />
+  <circle cx="64" cy="44" r="5" fill="#E9D5FF" />
+</svg>

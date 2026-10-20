@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" fill="none">
+  <defs>
+    <linearGradient id="arGrad" x1="20" y1="20" x2="108" y2="108" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#67E8F9" />
+      <stop offset="50%" stop-color="#22D3EE" />
+      <stop offset="100%" stop-color="#0891B2" />
+    </linearGradient>
+  </defs>
+  <rect width="128" height="128" rx="28" fill="#060B12" />
+  <!-- Arweave Permaweb 'a' & AO Hyperparallel Ring -->
+  <circle cx="64" cy="64" r="42" stroke="url(#arGrad)" stroke-width="6" />
+  <!-- Lowercase 'a' glyph -->
+  <path d="M64 42C52 42 44 50 44 64C44 78 52 86 64 86C72 86 78 82 82 76V86H88V44H82V52C78 46 72 42 64 42ZM64 50C72 50 82 56 82 64C82 72 72 78 64 78C56 78 50 72 50 64C50 56 56 50 64 50Z" fill="#FFFFFF" />
+  <circle cx="94" cy="38" r="4" fill="#22D3EE" />
+</svg>

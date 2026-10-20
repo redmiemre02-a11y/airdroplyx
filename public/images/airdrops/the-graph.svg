@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" fill="none">
+  <defs>
+    <linearGradient id="grtGrad" x1="24" y1="20" x2="104" y2="108" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#C084FC" />
+      <stop offset="50%" stop-color="#6F3FF5" />
+      <stop offset="100%" stop-color="#4C1D95" />
+    </linearGradient>
+  </defs>
+  <rect width="128" height="128" rx="28" fill="#0B061A" />
+  <!-- The Graph Portal & Query Nodes -->
+  <circle cx="56" cy="56" r="32" stroke="url(#grtGrad)" stroke-width="7" />
+  <path d="M78 78L98 98" stroke="url(#grtGrad)" stroke-width="8" stroke-linecap="round" />
+  <circle cx="56" cy="56" r="14" stroke="#E9D5FF" stroke-width="4" stroke-dasharray="3 3" />
+  <circle cx="56" cy="56" r="6" fill="#C084FC" />
+  <circle cx="98" cy="98" r="4" fill="#E9D5FF" />
+</svg>

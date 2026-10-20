@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" fill="none">
+  <defs>
+    <linearGradient id="instaGrad" x1="20" y1="20" x2="108" y2="108" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#22D3EE" />
+      <stop offset="50%" stop-color="#06B6D4" />
+      <stop offset="100%" stop-color="#0E7490" />
+    </linearGradient>
+  </defs>
+  <rect width="128" height="128" rx="28" fill="#04141C" />
+  <!-- Instadapp Fluid Dynamic Wave & Smart Layer -->
+  <path d="M30 64C42 42 54 42 64 64C74 86 86 86 98 64" stroke="url(#instaGrad)" stroke-width="8" stroke-linecap="round" fill="none" />
+  <path d="M30 46C42 24 54 24 64 46C74 68 86 68 98 46" stroke="url(#instaGrad)" stroke-width="5" stroke-linecap="round" fill="none" opacity="0.6" />
+  <circle cx="64" cy="64" r="8" fill="#38BDF8" />
+  <circle cx="30" cy="64" r="5" fill="#22D3EE" />
+  <circle cx="98" cy="64" r="5" fill="#22D3EE" />
+</svg>

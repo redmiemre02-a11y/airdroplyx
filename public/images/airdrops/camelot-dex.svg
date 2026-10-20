@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" fill="none">
+  <defs>
+    <linearGradient id="camGrad" x1="24" y1="20" x2="104" y2="108" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#FBBF24" />
+      <stop offset="50%" stop-color="#F97316" />
+      <stop offset="100%" stop-color="#C2410C" />
+    </linearGradient>
+  </defs>
+  <rect width="128" height="128" rx="28" fill="#170D06" />
+  <!-- Camelot Castle Shield & Turret Grail -->
+  <path d="M64 22L96 36V68C96 86 64 104 64 104C64 104 32 86 32 68V36L64 22Z" stroke="url(#camGrad)" stroke-width="6" fill="#241407" />
+  <!-- Castle Turret Battlements -->
+  <path d="M48 54H80M48 54V66H80V54M56 46V54M72 46V54" stroke="#FDE047" stroke-width="5" stroke-linecap="round" />
+  <circle cx="64" cy="78" r="5" fill="#FBBF24" />
+</svg>

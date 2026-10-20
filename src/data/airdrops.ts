@@ -13698,5 +13698,735 @@ export const airdrops: Airdrop[] = [
         "answer": "ParaSwap supports Ethereum, Arbitrum, Optimism, Base, Polygon, Avalanche, and BNB Chain."
       }
     ]
+  },
+  {
+    "id": "aerodrome-finance",
+    "name": "Aerodrome Finance",
+    "category": "DeFi",
+    "tier": "Tier 1",
+    "status": "Active",
+    "stage": "Mainnet",
+    "potentialReward": "$1,500 - $9,000",
+    "cost": "Gas fees (<$0.05 on Base)",
+    "timeRequired": "15 mins / weekly",
+    "platform": "Web / Base",
+    "description": "Dominant ve(3,3) liquidity hub and meta-DEX on Coinbase's Base network, commanding over $1B+ in TVL and powering the ecosystem with Slipstream concentrated liquidity and veAERO voting bribes.",
+    "logo": "/images/airdrops/aerodrome-finance.svg",
+    "refLink": "https://aerodrome.finance",
+    "tags": [
+      "Base",
+      "ve(3,3)",
+      "DEX",
+      "Slipstream",
+      "Coinbase Ventures",
+      "Tier 1"
+    ],
+    "featured": true,
+    "startDate": "Aug 2023",
+    "endDate": "Q4 2025",
+    "requirements": [
+      "Base EVM Wallet",
+      "Trade on Aerodrome Finance",
+      "Provide Liquidity in Volatile or Slipstream Concentrated Pools",
+      "Lock AERO into veAERO",
+      "Vote Weekly on Pool Gauges for Bribes"
+    ],
+    "overview": "Aerodrome Finance is the central liquidity engine and dominant decentralized exchange of Coinbase's Layer 2 network, Base. Created by the veteran Velodrome team and supported by the Base Ecosystem Fund (led by Coinbase Ventures), Aerodrome captured over 50% of the entire decentralized trading volume and liquidity on Base within months of deployment. By adapting the battle-tested vote-escrowed (ve3,3) economic model, Aerodrome aligns token emissions directly with trading volume, turning liquidity provision into a sustainable, compounding fly-wheel.\n\nThe protocol's breakthrough innovation is Slipstream, a concentrated liquidity automated market maker built atop the ve(3,3) incentive model. Slipstream allows liquidity providers to focus their capital within tightly defined price ticks (similar to Uniswap v3) while simultaneously receiving boosted $AERO emissions and trading fee splits directed by veAERO governance voters. This architecture enables deep multi-million dollar institutional swaps for ETH, cbBTC, and stablecoins with microscopic slippage.\n\nAll trading fees and protocol bribe incentives generated on Aerodrome are distributed 100% directly to vote-locked AERO ($veAERO) holders. With Coinbase actively expanding on-chain consumer finance, institutional settlement, and developer grants across Base, Aerodrome serves as the core capital foundation where active traders, concentrated liquidity providers, and veAERO voters capture the premier yields of the Layer 2 era.",
+    "tokenomics": "The native $AERO token is emitted weekly to incentivize active liquidity pools. Locking AERO into veAERO (for up to 4 years) transforms the tokens into a non-fungible governance position (NFT) that directs weekly emissions and collects 100% of all swap fees and protocol voting bribes.",
+    "sybilDefense": "Aerodrome measures sustained on-chain liquidity depth, active tick range concentration, and multi-week veAERO voting participation. Automated scripts executing transient flash-swaps without sustaining liquidity or voting positions receive zero governance yield or bribe rewards.",
+    "strategy": "To maximize your positioning for Aerodrome Finance ($AERO) fee yields and ecosystem incentives:\n\n1. Connect your Web3 wallet to Base network and navigate to Aerodrome Finance.\n2. Execute recurring swaps between core Base assets (ETH, cbBTC, USDbC, USDC).\n3. Provide liquidity into high-volume Slipstream concentrated pools or stable pools to earn high $AERO APR.\n4. Acquire and lock AERO into a 4-year veAERO NFT to maximize voting power and fee claims.\n5. Cast weekly gauge votes for top-paying bribe pools or delegate your veAERO to automated yield optimizers to collect passive bribe dividends.",
+    "steps": [
+      "Visit the official <a href=\"https://aerodrome.finance\" target=\"_blank\" rel=\"noopener noreferrer\">Aerodrome Finance Interface</a>.",
+      "Connect your EVM wallet to the Base network.",
+      "Execute market trades via the <a href=\"https://aerodrome.finance/swap\" target=\"_blank\" rel=\"noopener noreferrer\">Aerodrome Swap Portal</a>.",
+      "Explore high-yield liquidity pools at <a href=\"https://aerodrome.finance/liquidity\" target=\"_blank\" rel=\"noopener noreferrer\">Aerodrome Liquidity Dashboard</a>.",
+      "Deposit capital into Slipstream concentrated liquidity pools to maximize fee efficiency.",
+      "Lock $AERO tokens into veAERO at the <a href=\"https://aerodrome.finance/vest\" target=\"_blank\" rel=\"noopener noreferrer\">veAERO Vesting Portal</a>.",
+      "Participate in weekly voting rounds at <a href=\"https://aerodrome.finance/vote\" target=\"_blank\" rel=\"noopener noreferrer\">Aerodrome Gauge Voting</a> to capture protocol bribes.",
+      "Claim weekly trading fee dividends and partner bribe rewards directly to your wallet."
+    ],
+    "faqs": [
+      {
+        "question": "What is Aerodrome Finance?",
+        "answer": "Aerodrome Finance is the dominant ve(3,3) decentralized exchange and liquidity hub on Coinbase's Base Layer 2 network."
+      },
+      {
+        "question": "What is Slipstream on Aerodrome?",
+        "answer": "Slipstream is Aerodrome's concentrated liquidity AMM, allowing LPs to allocate capital in tight price bands with ve(3,3) emission incentives."
+      },
+      {
+        "question": "Who backed Aerodrome?",
+        "answer": "Aerodrome received investment from the Base Ecosystem Fund, which is spearheaded by Coinbase Ventures."
+      },
+      {
+        "question": "How do veAERO holders earn rewards?",
+        "answer": "veAERO holders vote weekly on pool gauges and receive 100% of all trading fees and external bribes generated by the pools they vote for."
+      },
+      {
+        "question": "Can I sell or transfer my veAERO position?",
+        "answer": "Yes, veAERO positions are held as ERC-721 NFTs, allowing users to transfer or trade them on secondary NFT marketplaces."
+      },
+      {
+        "question": "Why is Aerodrome considered the liquidity hub of Base?",
+        "answer": "Aerodrome accounts for the majority of total value locked (TVL) and daily decentralized trading volume across the entire Base ecosystem."
+      }
+    ]
+  },
+  {
+    "id": "velodrome-finance",
+    "name": "Velodrome Finance",
+    "category": "DeFi",
+    "tier": "Tier 1",
+    "status": "Active",
+    "stage": "Mainnet",
+    "potentialReward": "$1,200 - $7,500",
+    "cost": "Gas fees (<$0.05 on OP Mainnet)",
+    "timeRequired": "15 mins / weekly",
+    "platform": "Web / Optimism Superchain",
+    "description": "The premier trading and liquidity coordination layer of the Optimism Superchain, driving tens of billions in volume and distributing 100% of fees and bribes to veVELO voters.",
+    "logo": "/images/airdrops/velodrome-finance.svg",
+    "refLink": "https://velodrome.finance",
+    "tags": [
+      "Optimism",
+      "Superchain",
+      "ve(3,3)",
+      "DEX",
+      "VELO",
+      "Tier 1"
+    ],
+    "featured": true,
+    "startDate": "Jun 2022",
+    "endDate": "Q4 2025",
+    "requirements": [
+      "OP Mainnet Wallet",
+      "Swap Tokens via Velodrome Router",
+      "Deposit Liquidity into Stable or Volatile Pools",
+      "Lock VELO into veVELO for up to 4 Years",
+      "Cast Weekly Gauge Votes for Bribes"
+    ],
+    "overview": "Velodrome Finance is the foundational meta-DEX and liquidity coordinator of the Optimism Superchain. Launched in June 2022 as an evolution of the Andre Cronje Solidly ve(3,3) mechanism, Velodrome solved the core tragedy of the commons in decentralized liquidity by perfectly aligning token emissions with fee generation. Endorsed by the Optimism Collective and designated as the official liquidity layer of OP Mainnet, Velodrome has facilitated over $30 Billion in trading volume.\n\nVelodrome acts as a public goods coordination layer for protocols building on OP Stack chains. Instead of projects spending treasury funds on mercenary liquidity mining programs that dump tokens, protocols deposit voting bribes into Velodrome to incentivize veVELO holders. veVELO voters direct $VELO emissions to those specific pools, providing deep, sustainable liquidity for ecosystem builders across the broader Superchain.\n\nWith Velodrome V2 and the launch of Slipstream concentrated liquidity, Velodrome matches the capital efficiency of the world's most sophisticated market makers while distributing 100% of all swap fees and external bribe revenues to community veVELO lockers. Active traders, liquidity providers, and governance participants represent the bedrock community of the Optimism Superchain economy.",
+    "tokenomics": "The native $VELO token follows a predictable decaying emission schedule. Stakers lock VELO for up to 4 years into veVELO (represented as an on-chain NFT) to direct emissions to liquidity pools and claim 100% of all protocol fees and bribe rewards.",
+    "sybilDefense": "Velodrome gauges require substantive capital allocation and time-weighted governance locking. Epoch voting snapshots and bribe distributions penalize bot scripts that churn circular wash volume without sustained LP deposit duration.",
+    "strategy": "To optimize your positioning for Velodrome Finance ($VELO) real yields and Superchain ecosystem rewards:\n\n1. Connect your wallet to Optimism (OP Mainnet) and execute routine token swaps on Velodrome.\n2. Supply capital to volatile or stable liquidity pools to earn weekly $VELO emission yields.\n3. Deploy concentrated liquidity into high-volume Slipstream pools for optimized capital efficiency.\n4. Lock acquired VELO into a 4-year veVELO NFT to unlock maximum voting weight.\n5. Cast weekly gauge votes at the start of each epoch to claim lucrative protocol bribes and swap fee distributions.",
+    "steps": [
+      "Visit the official <a href=\"https://velodrome.finance\" target=\"_blank\" rel=\"noopener noreferrer\">Velodrome Finance App</a>.",
+      "Connect your EVM wallet to OP Mainnet (Optimism).",
+      "Execute decentralized trades using the <a href=\"https://velodrome.finance/swap\" target=\"_blank\" rel=\"noopener noreferrer\">Velodrome Swap Interface</a>.",
+      "Explore active pools and APRs at <a href=\"https://velodrome.finance/liquidity\" target=\"_blank\" rel=\"noopener noreferrer\">Velodrome Pools</a>.",
+      "Deposit liquidity into Slipstream concentrated pools to maximize trading fee yield.",
+      "Lock VELO tokens into veVELO at the <a href=\"https://velodrome.finance/vest\" target=\"_blank\" rel=\"noopener noreferrer\">veVELO Vesting Dashboard</a>.",
+      "Vote on weekly pool gauges at <a href=\"https://velodrome.finance/vote\" target=\"_blank\" rel=\"noopener noreferrer\">Velodrome Voting Portal</a>.",
+      "Claim your multi-token bribe payouts and trading fees each Thursday at epoch transition."
+    ],
+    "faqs": [
+      {
+        "question": "What is Velodrome Finance?",
+        "answer": "Velodrome Finance is the premier ve(3,3) automated market maker and liquidity hub of the Optimism Superchain."
+      },
+      {
+        "question": "How does the ve(3,3) model work?",
+        "answer": "Emissions are directed to pools by veVELO voters. In return, voters receive 100% of the trading fees and bribes from the pools they support."
+      },
+      {
+        "question": "What is the relationship between Velodrome and Optimism?",
+        "answer": "Velodrome is the primary decentralized liquidity layer officially supported and funded by the Optimism Collective."
+      },
+      {
+        "question": "What is a veVELO NFT?",
+        "answer": "veVELO represents vote-escrowed VELO locked up to 4 years, minted as an NFT that can be traded or transferred without unlocking the underlying tokens."
+      },
+      {
+        "question": "When do Velodrome epochs start and end?",
+        "answer": "Velodrome epochs run weekly, beginning and ending every Wednesday at 23:59 UTC."
+      },
+      {
+        "question": "What is Velodrome Slipstream?",
+        "answer": "Slipstream is Velodrome's concentrated liquidity engine that allows liquidity providers to earn boosted fees in narrow price bands."
+      }
+    ]
+  },
+  {
+    "id": "camelot-dex",
+    "name": "Camelot DEX",
+    "category": "DeFi",
+    "tier": "Tier 1",
+    "status": "Active",
+    "stage": "Mainnet",
+    "potentialReward": "$1,000 - $6,500",
+    "cost": "Gas fees (<$0.20 on Arbitrum)",
+    "timeRequired": "15 mins / weekly",
+    "platform": "Web / Arbitrum",
+    "description": "Arbitrum's native ecosystem-centric DEX and liquidity engine featuring dynamic directional swap fees, customized Nitro liquidity pools, and launchpad governance via $GRAIL and xGRAIL.",
+    "logo": "/images/airdrops/camelot-dex.svg",
+    "refLink": "https://camelot.exchange",
+    "tags": [
+      "Arbitrum Native",
+      "DEX",
+      "GRAIL",
+      "xGRAIL",
+      "Nitro Pools",
+      "Tier 1"
+    ],
+    "featured": true,
+    "startDate": "Nov 2022",
+    "endDate": "Q4 2025",
+    "requirements": [
+      "Arbitrum EVM Wallet",
+      "Swap Assets on Camelot Exchange",
+      "Provide Liquidity to Camelot v2 / v3 Pools",
+      "Convert GRAIL to xGRAIL",
+      "Allocate xGRAIL to Dividends and Launchpad Plugins"
+    ],
+    "overview": "Camelot DEX is the premier native decentralized exchange, liquidity engine, and incubation launchpad engineered specifically for the Arbitrum ecosystem. Built from the ground up by a collective of native Arbitrum builders, Camelot was designed to move beyond one-size-fits-all AMM protocols. It empowers partner protocols to configure customized, directional dynamic swap fees (charging different fee rates depending on whether users are buying or selling an asset) to defend against volatility and reward loyal liquidity providers.\n\nCamelot incorporates a dual-token architecture powered by $GRAIL and its non-transferable escrowed governance asset $xGRAIL. Users who convert GRAIL into xGRAIL can allocate their holdings across specialized modular plugins: the Dividends plugin (distributing a share of all DEX trading fees directly in ETH and USDC), the Yield Booster plugin (boosting LP farming rewards up to 2x), and the Launchpad plugin (granting guaranteed whitelist access and token allocations for premier Arbitrum project launches).\n\nWith Camelot V3 introducing Algebra-powered concentrated liquidity and Nitro Pools (enabling permissionless community liquidity incentive campaigns), Camelot has solidified its position as the preferred launch partner for top protocols deploying on Arbitrum One and Arbitrum Orbit chains. Active traders, Nitro pool depositors, and xGRAIL stakers represent the vanguard of Arbitrum native finance.",
+    "tokenomics": "The native $GRAIL token features a strictly controlled supply schedule. Converting GRAIL into non-transferable $xGRAIL unlocks access to modular plugins that pay out direct protocol trading fee dividends, boost LP staking yields, and grant launchpad allocations.",
+    "sybilDefense": "Camelot tracks verifiable swap volume, Nitro pool staking tenure, and xGRAIL allocation durations. Sybil farming scripts attempting to game fee tiers with circular flash volume without holding LP positions are excluded from dividend distributions.",
+    "strategy": "To maximize your positioning for Camelot DEX ($GRAIL / xGRAIL) fee dividends and ecosystem airdrops:\n\n1. Connect your wallet to Arbitrum and use Camelot as your primary trading venue for Arbitrum native tokens.\n2. Provide liquidity into Camelot V3 concentrated pools or community-incentivized Nitro Pools.\n3. Convert earned $GRAIL into $xGRAIL to lock in governance and modular plugin rights.\n4. Allocate your xGRAIL into the Dividends plugin to collect continuous ETH and USDC fee dividends.\n5. Participate in Camelot Launchpad public sales to gain early allocations to tier-1 Arbitrum ecosystem projects.",
+    "steps": [
+      "Visit the official <a href=\"https://camelot.exchange\" target=\"_blank\" rel=\"noopener noreferrer\">Camelot Exchange Platform</a>.",
+      "Connect your EVM wallet to Arbitrum One.",
+      "Execute token trades via <a href=\"https://app.camelot.exchange\" target=\"_blank\" rel=\"noopener noreferrer\">Camelot Swap</a>.",
+      "Provide liquidity to V3 concentrated pools at <a href=\"https://app.camelot.exchange/pools\" target=\"_blank\" rel=\"noopener noreferrer\">Camelot Pools</a>.",
+      "Stake LP positions in active incentive campaigns at <a href=\"https://app.camelot.exchange/nitro\" target=\"_blank\" rel=\"noopener noreferrer\">Camelot Nitro Pools</a>.",
+      "Acquire and convert $GRAIL into $xGRAIL at the <a href=\"https://app.camelot.exchange/xgrail\" target=\"_blank\" rel=\"noopener noreferrer\">xGRAIL Dashboard</a>.",
+      "Allocate xGRAIL to the Dividends plugin to earn passive ETH/USDC protocol fee revenue.",
+      "Explore upcoming Arbitrum token launches on the <a href=\"https://app.camelot.exchange/launchpad\" target=\"_blank\" rel=\"noopener noreferrer\">Camelot Launchpad</a>."
+    ],
+    "faqs": [
+      {
+        "question": "What makes Camelot DEX different from Uniswap?",
+        "answer": "Camelot offers dynamic directional swap fees tailored to partner tokens, permissionless Nitro incentive pools, and a modular xGRAIL plugin ecosystem."
+      },
+      {
+        "question": "What is xGRAIL?",
+        "answer": "xGRAIL is a non-transferable escrowed governance token that users allocate to plugins for dividends, yield boosts, and launchpad access."
+      },
+      {
+        "question": "What are Nitro Pools on Camelot?",
+        "answer": "Nitro Pools allow protocols and DAOs to launch customized liquidity incentive campaigns with specific lockups and multi-token rewards."
+      },
+      {
+        "question": "What assets are paid out in the Dividends plugin?",
+        "answer": "The Dividends plugin pays out real-yield protocol revenue directly in native assets like ETH and USDC."
+      },
+      {
+        "question": "Does Camelot support concentrated liquidity?",
+        "answer": "Yes, Camelot V3 incorporates Algebra concentrated liquidity, allowing dynamic fee tiers and capital-efficient LPing."
+      },
+      {
+        "question": "Which network is Camelot native to?",
+        "answer": "Camelot is native to Arbitrum One and also extends liquidity infrastructure to Arbitrum Orbit Layer 3 rollups."
+      }
+    ]
+  },
+  {
+    "id": "instadapp",
+    "name": "Instadapp & Fluid",
+    "category": "DeFi",
+    "tier": "Tier 1",
+    "status": "Active",
+    "stage": "Mainnet",
+    "potentialReward": "$1,500 - $8,000",
+    "cost": "Gas fees on Ethereum / Arbitrum / Base",
+    "timeRequired": "15 mins / weekly",
+    "platform": "Web / Multi-Chain",
+    "description": "Premier decentralized smart account layer backed by $10M+ from Pantera Capital and Balaji Srinivasan, powering the revolutionary Fluid super-efficient money market and DEX.",
+    "logo": "/images/airdrops/instadapp.svg",
+    "refLink": "https://instadapp.io",
+    "tags": [
+      "DeFi Smart Layer",
+      "Fluid Protocol",
+      "Lending",
+      "Smart Accounts",
+      "INST",
+      "Tier 1"
+    ],
+    "featured": true,
+    "startDate": "Apr 2019",
+    "endDate": "Q4 2025",
+    "requirements": [
+      "Web3 EVM Wallet",
+      "Create Instadapp DeFi Smart Account (DSA)",
+      "Supply and Borrow Collateral on Fluid Money Market",
+      "Trade on Fluid DEX",
+      "Stake INST for Governance"
+    ],
+    "overview": "Instadapp is the pioneering middleware and decentralized smart account protocol of the Ethereum ecosystem. Founded by Sowmay Jain and Samyak Jain and backed by over $10 Million from premier investors including Pantera Capital, Standard Crypto, Naval Ravikant, and Balaji Srinivasan, Instadapp developed the DeFi Smart Account (DSA)—a contract wallet framework that enables users to execute complex multi-protocol transactions (such as refinancing loans between MakerDAO, Compound, and Aave) atomically within a single signature.\n\nBuilding upon years of smart contract leadership, Instadapp unveiled its magnum opus: Fluid. Fluid is an ultra-capital-efficient decentralized finance layer that seamlessly integrates borrowing, lending, and automated market making (Fluid DEX) into a unified liquidity architecture. By utilizing automated debt rebalancing, shared liquidity pools, and dynamic liquidation limits, Fluid achieves liquidation loan-to-value (LTV) ratios of up to 95%—surpassing traditional lending protocols while drastically reducing liquidation risk.\n\nFluid also features the Fluid DEX, where liquidity pool collateral acts simultaneously as lending capital, generating simultaneous AMM trading fees and money market lending interest for depositors. Governed by the Instadapp DAO and powered by the $INST token, active users who supply collateral, borrow assets, trade on Fluid DEX, and participate in governance represent the leading participants of the next generation of modular DeFi.",
+    "tokenomics": "The native $INST governance token has a 100 Million total supply. INST governs the Instadapp Smart Layer, directs DAO treasury reserves, votes on Fluid protocol collateral parameters, and captures protocol fee value accrual.",
+    "sybilDefense": "Instadapp and Fluid enforce on-chain capital utilization metrics, tracking sustained collateral deposit durations, real debt borrowing volume, and unique DSA smart account interactions. Low-value programmatic loops that deposit and withdraw dust within the same block are disqualified.",
+    "strategy": "To maximize your positioning for Instadapp and Fluid ($INST) ecosystem rewards:\n\n1. Connect your EVM wallet to Instadapp and instantiate your personal DeFi Smart Account (DSA).\n2. Deposit collateral (ETH, wstETH, WBTC, or USDC) into the Fluid Lending Protocol on Ethereum, Arbitrum, or Base.\n3. Borrow debt against your collateral on Fluid to achieve high capital efficiency with low borrowing rates.\n4. Provide liquidity into Fluid DEX Smart Pools to capture dual yields from swap fees and lending interest.\n5. Acquire and stake $INST tokens to vote on active Instadapp DAO governance proposals on Snapshot.",
+    "steps": [
+      "Visit the official <a href=\"https://instadapp.io\" target=\"_blank\" rel=\"noopener noreferrer\">Instadapp Portal</a>.",
+      "Explore the next-gen money market at <a href=\"https://fluid.instadapp.io\" target=\"_blank\" rel=\"noopener noreferrer\">Fluid Protocol</a>.",
+      "Connect your EVM wallet to Ethereum, Base, or Arbitrum.",
+      "Supply accepted collateral (ETH, wstETH, USDC) to the Fluid lending pool.",
+      "Borrow assets against your collateral with ultra-high LTV safety limits.",
+      "Explore dual-yield liquidity provision at <a href=\"https://fluid.instadapp.io/dex\" target=\"_blank\" rel=\"noopener noreferrer\">Fluid DEX</a>.",
+      "Manage multi-protocol positions via the <a href=\"https://pro.instadapp.io\" target=\"_blank\" rel=\"noopener noreferrer\">Instadapp Pro Dashboard</a>.",
+      "Participate in governance proposals on <a href=\"https://snapshot.org/#/instadapp.eth\" target=\"_blank\" rel=\"noopener noreferrer\">Instadapp DAO Snapshot</a>."
+    ],
+    "faqs": [
+      {
+        "question": "What is Instadapp?",
+        "answer": "Instadapp is a decentralized smart account platform that aggregates DeFi protocols and simplifies complex multi-step financial actions."
+      },
+      {
+        "question": "What is Fluid Protocol?",
+        "answer": "Fluid is Instadapp's unified liquidity layer combining money markets and DEXs with up to 95% LTV and automated debt rebalancing."
+      },
+      {
+        "question": "Who funded Instadapp?",
+        "answer": "Instadapp raised over $10M from Pantera Capital, Standard Crypto, Naval Ravikant, Balaji Srinivasan, and top crypto founders."
+      },
+      {
+        "question": "What is a DeFi Smart Account (DSA)?",
+        "answer": "A DSA is an upgradeable contract wallet that allows users to batch multiple DeFi interactions into a single atomic transaction."
+      },
+      {
+        "question": "What is the benefit of Fluid DEX Smart Pools?",
+        "answer": "Fluid DEX Smart Pools allow deposited liquidity to earn AMM trading fees while simultaneously generating lending interest."
+      },
+      {
+        "question": "What networks support Fluid?",
+        "answer": "Fluid is deployed across Ethereum Mainnet, Arbitrum, and Base."
+      }
+    ]
+  },
+  {
+    "id": "alchemix",
+    "name": "Alchemix Finance",
+    "category": "DeFi",
+    "tier": "Tier 1",
+    "status": "Active",
+    "stage": "Mainnet",
+    "potentialReward": "$1,200 - $6,000",
+    "cost": "Gas fees on Ethereum / Arbitrum / Optimism",
+    "timeRequired": "15 mins / monthly",
+    "platform": "Web / Multi-Chain",
+    "description": "Pioneering DeFi protocol introducing self-repaying loans, allowing users to borrow synthetic alUSD and alETH against yield-bearing collateral with zero liquidation risk.",
+    "logo": "/images/airdrops/alchemix.svg",
+    "refLink": "https://alchemix.fi",
+    "tags": [
+      "Self-Repaying Loans",
+      "Synthetic Assets",
+      "alUSD",
+      "alETH",
+      "DeFi",
+      "Tier 1"
+    ],
+    "featured": true,
+    "startDate": "Feb 2021",
+    "endDate": "Q4 2025",
+    "requirements": [
+      "EVM Wallet",
+      "Deposit Yield-Bearing Collateral (yvUSDC, wstETH, etc.)",
+      "Borrow Synthetic alUSD or alETH",
+      "Transmute Synthetic Tokens to Underlying Assets",
+      "Stake ALCX in Single-Sided Governance"
+    ],
+    "overview": "Alchemix Finance is the historic creator of 'self-repaying loans' in decentralized finance. Conceived by Scoopy Trooples and a team of cryptographic innovators in early 2021, Alchemix completely rewrote the rules of credit by turning future yield into present liquidity. Users deposit yield-bearing collateral (such as Yearn vaults, Aave aTokens, or staked ETH) into Alchemix and can immediately borrow up to 50% of their collateral value in synthetic fiat (alUSD) or synthetic ether (alETH).\n\nThe defining magic of Alchemix is that the protocol routes the user's underlying collateral into automated yield-generating strategies. As the collateral generates real yield over time, Alchemix automatically applies that yield toward paying down the user's borrowed debt principal. Borrowers never have to make monthly interest payments, and because the loan is denominated in a synthetic asset backed 1:1 by the collateral, liquidation is mathematically impossible regardless of market price fluctuations.\n\nAlchemix anchors its ecosystem with the Transmuter, an algorithmic mechanism that guarantees 1:1 conversion between synthetic assets (alUSD/alETH) and their underlying base assets (USDC/ETH) as harvest yields flow into the protocol. Governed by the Alchemix DAO and powered by the $ALCX token, active depositors, yield farmers, and governance participants represent the vanguard of innovative decentralized credit.",
+    "tokenomics": "The native $ALCX token governs the Alchemix DAO. Staking ALCX in single-sided governance pools or liquidity pairs grants voting power over protocol collateral strategies, emission allocations, and treasury management.",
+    "sybilDefense": "Alchemix is non-custodial and enforces time-weighted collateral deposit requirements. Loans must accumulate verified yield harvests to achieve full debt repayment; accounts creating transient dust positions are excluded from governance rewards.",
+    "strategy": "To maximize your positioning for Alchemix Finance ($ALCX) yield rewards and self-repaying loan benefits:\n\n1. Connect your EVM wallet across Ethereum Mainnet, Arbitrum, or Optimism.\n2. Deposit yield-bearing collateral (such as wstETH or yvUSDC) into Alchemix vaults.\n3. Borrow synthetic alETH or alUSD against your collateral to access immediate capital without liquidation risk.\n4. Deposit synthetic debt tokens into the Alchemix Transmuter to automatically redeem them for 1:1 underlying assets as yield accrues.\n5. Stake earned or acquired $ALCX tokens in the Alchemix governance staking portal to earn staking yields and participate in DAO votes.",
+    "steps": [
+      "Navigate to the official <a href=\"https://alchemix.fi\" target=\"_blank\" rel=\"noopener noreferrer\">Alchemix Finance Hub</a>.",
+      "Launch the decentralized app at <a href=\"https://app.alchemix.fi\" target=\"_blank\" rel=\"noopener noreferrer\">Alchemix App</a>.",
+      "Connect your EVM wallet to Ethereum, Optimism, or Arbitrum.",
+      "Select a vault and deposit yield-bearing collateral (such as wstETH, sfrxETH, or DAI).",
+      "Borrow synthetic alUSD or alETH up to 50% of your deposited collateral value.",
+      "Queue your synthetic tokens for 1:1 redemption at <a href=\"https://app.alchemix.fi/transmute\" target=\"_blank\" rel=\"noopener noreferrer\">Alchemix Transmuter</a>.",
+      "Provide liquidity to alUSD/alETH pools on Curve or Balancer to earn secondary fees.",
+      "Stake $ALCX tokens at <a href=\"https://app.alchemix.fi/farms\" target=\"_blank\" rel=\"noopener noreferrer\">Alchemix Farms & Governance</a>."
+    ],
+    "faqs": [
+      {
+        "question": "How do self-repaying loans work on Alchemix?",
+        "answer": "Your deposited collateral earns yield in strategies (like Yearn or Aave), and that yield automatically pays off your loan balance over time."
+      },
+      {
+        "question": "Can I be liquidated on Alchemix?",
+        "answer": "No, Alchemix loans cannot be liquidated because your loan is denominated in a synthetic asset tied to your collateral type."
+      },
+      {
+        "question": "What is the Transmuter?",
+        "answer": "The Transmuter is a mechanism that converts synthetic tokens (alUSD/alETH) 1:1 back into their underlying collateral (USDC/ETH) over time."
+      },
+      {
+        "question": "Which networks support Alchemix?",
+        "answer": "Alchemix is live on Ethereum Mainnet, Arbitrum, and Optimism."
+      },
+      {
+        "question": "What is the maximum loan-to-value (LTV) ratio?",
+        "answer": "Users can borrow up to 50% of the collateral value they deposit into Alchemix."
+      },
+      {
+        "question": "What is the role of the $ALCX token?",
+        "answer": "ALCX is the governance token used to vote on DAO parameter proposals and earn yield through staking programs."
+      }
+    ]
+  },
+  {
+    "id": "yearn-finance",
+    "name": "Yearn Finance",
+    "category": "DeFi",
+    "tier": "Tier 1",
+    "status": "Active",
+    "stage": "Mainnet",
+    "potentialReward": "$1,500 - $8,500",
+    "cost": "Gas fees on Ethereum / Arbitrum / Base",
+    "timeRequired": "15 mins / monthly",
+    "platform": "Web / Multi-Chain",
+    "description": "Legendary decentralized yield aggregator created by Andre Cronje, automating complex multi-strategy yield farming through yVaults, veYFI governance, and yETH/yPrisma products.",
+    "logo": "/images/airdrops/yearn-finance.svg",
+    "refLink": "https://yearn.fi",
+    "tags": [
+      "Yield Aggregator",
+      "yVaults",
+      "veYFI",
+      "Andre Cronje",
+      "DeFi",
+      "Tier 1"
+    ],
+    "featured": true,
+    "startDate": "Feb 2020",
+    "endDate": "Q4 2025",
+    "requirements": [
+      "EVM Wallet",
+      "Deposit Crypto Assets into Automated yVaults (v2 / v3)",
+      "Lock YFI for veYFI",
+      "Vote on DAO Governance Proposals",
+      "Supply Collateral to Yearn Ecosystem Partners"
+    ],
+    "overview": "Yearn Finance is the legendary decentralized yield aggregator that defined the 'DeFi Summer' of 2020 and established modern automated yield farming. Created by visionary developer Andre Cronje, Yearn set the benchmark for fair launches with the distribution of the $YFI token—which had 0 pre-mine, 0 founder allocation, and 0 venture capital backing, distributing 100% of supply to active liquidity providers.\n\nYearn's core offering is yVaults: automated smart contract vaults that pool user capital to execute complex, multi-step yield generation strategies. Instead of individual users spending enormous gas fees manually harvesting rewards, compounding positions, rebalancing collateral, and shifting between lending markets, yVaults automate this process continuously. Yearn v3 modularized this architecture, allowing community strategy builders to deploy isolated, risk-adjusted strategies permissionlessly with ERC-4626 tokenized vault standards.\n\nYearn also pioneered veYFI (vote-escrowed YFI), allowing stakers who lock YFI to boost vault yields by up to 2x and direct weekly protocol fee revenues. Expanding across Ethereum Mainnet, Arbitrum, Optimism, Polygon, and Base, Yearn remains one of the most trusted, battle-tested yield engines in Web3 history.",
+    "tokenomics": "The $YFI token has an ultra-scarce capped supply of approximately 36,666 tokens. Staking YFI into veYFI for up to 4 years unlocks governance voting power, fee share distributions, and boosted APY across all Yearn v3 vaults.",
+    "sybilDefense": "Yearn measures time-weighted total value locked (TVL), strategy participation duration, and on-chain veYFI locking epochs. Accounts that execute flash deposits and immediate withdrawals without staying through harvest cycles receive no yield accrual or governance incentives.",
+    "strategy": "To maximize your positioning for Yearn Finance ($YFI) automated yields and veYFI governance rewards:\n\n1. Connect your EVM wallet to Yearn Finance across Ethereum, Arbitrum, or Base.\n2. Deposit stablecoins (USDC, USDT, DAI) or crypto assets (ETH, WBTC) into automated Yearn v3 vaults.\n3. Hold ERC-4626 yVault receipt tokens to earn auto-compounding interest with optimal gas efficiency.\n4. Acquire $YFI and lock it into veYFI via the Yearn governance portal to unlock personal yield boosts.\n5. Cast votes on Yearn DAO governance proposals on Snapshot to participate in protocol fee distribution.",
+    "steps": [
+      "Visit the official <a href=\"https://yearn.fi\" target=\"_blank\" rel=\"noopener noreferrer\">Yearn Finance Hub</a>.",
+      "Connect your EVM wallet across Ethereum, Arbitrum, Optimism, or Base.",
+      "Explore available automated yield vaults at <a href=\"https://yearn.fi/vaults\" target=\"_blank\" rel=\"noopener noreferrer\">Yearn Vaults</a>.",
+      "Deposit assets (such as ETH, USDC, or crvUSD) into high-performing yVaults.",
+      "Receive auto-compounding ERC-4626 vault tokens directly into your wallet.",
+      "Explore the governance portal and lock $YFI at <a href=\"https://yearn.fi/veyfi\" target=\"_blank\" rel=\"noopener noreferrer\">veYFI Locker</a>.",
+      "Participate in community governance voting at <a href=\"https://snapshot.org/#/veyfi.eth\" target=\"_blank\" rel=\"noopener noreferrer\">veYFI Snapshot</a>.",
+      "Monitor strategy performance and multi-chain expansion on the <a href=\"https://docs.yearn.fi\" target=\"_blank\" rel=\"noopener noreferrer\">Yearn Documentation</a>."
+    ],
+    "faqs": [
+      {
+        "question": "What is Yearn Finance?",
+        "answer": "Yearn Finance is a decentralized yield aggregator that automates yield farming strategies to maximize returns on deposited crypto assets."
+      },
+      {
+        "question": "Who founded Yearn Finance?",
+        "answer": "Yearn Finance was founded by Andre Cronje in early 2020 with a legendary fair launch that had zero VC or founder token allocations."
+      },
+      {
+        "question": "What are yVaults?",
+        "answer": "yVaults are smart contract vaults that pool capital to execute automated yield strategies like lending, liquidity provision, and reward compounding."
+      },
+      {
+        "question": "What is veYFI?",
+        "answer": "veYFI is vote-escrowed YFI locked for up to 4 years, granting governance rights, up to 2x yield boost multipliers, and protocol fee payouts."
+      },
+      {
+        "question": "What is ERC-4626 on Yearn?",
+        "answer": "ERC-4626 is the tokenized vault standard co-developed by Yearn contributors to ensure universal composability for yield-bearing tokens across DeFi."
+      },
+      {
+        "question": "Can I use Yearn on Layer 2 networks?",
+        "answer": "Yes, Yearn is deployed on Arbitrum, Optimism, Base, and Polygon with minimal transaction fees."
+      }
+    ]
+  },
+  {
+    "id": "the-graph",
+    "name": "The Graph",
+    "category": "Infrastructure",
+    "tier": "Tier 1",
+    "status": "Active",
+    "stage": "Mainnet",
+    "potentialReward": "$800 - $5,500",
+    "cost": "Gas fees (<$0.50 on Arbitrum)",
+    "timeRequired": "15 mins / monthly",
+    "platform": "Web / Arbitrum / Ethereum",
+    "description": "Foundational decentralized indexing and querying protocol backed by $50M+ from Tiger Global and Multicoin Capital, powering the entire Web3 ecosystem via Subgraphs and $GRT delegation.",
+    "logo": "/images/airdrops/the-graph.svg",
+    "refLink": "https://thegraph.com",
+    "tags": [
+      "Indexing",
+      "GraphQL",
+      "Subgraphs",
+      "GRT Staking",
+      "Arbitrum",
+      "Tier 1"
+    ],
+    "featured": true,
+    "startDate": "Dec 2020",
+    "endDate": "Q4 2025",
+    "requirements": [
+      "Arbitrum / EVM Wallet",
+      "Delegate GRT Tokens to Active Indexers",
+      "Curate High-Quality Subgraphs with GRT Signals",
+      "Deploy Open Subgraphs on The Graph Studio",
+      "Participate in The Graph Forum Governance"
+    ],
+    "overview": "The Graph is the indispensable indexing and querying layer of the decentralized internet. Founded by Yaniv Tal, Jannis Pohlmann, and Brandon Ramirez and backed by over $50 Million from top-tier venture funds including Tiger Global, Multicoin Capital, Reciprocal Ventures, and Coinbase Ventures, The Graph enables developers to build and publish open APIs called 'Subgraphs'. Subgraphs process on-chain events and expose them through standard GraphQL endpoints, allowing decentralized applications (dApps) to load blockchain data instantly.\n\nWithout The Graph, dApps like Uniswap, Aave, Synthetix, and OpenSea would have to operate centralized database servers to query historical blockchain state. The Graph protocol decentralizes this infrastructure through a coordinated network of Indexers (node operators who stake GRT to index data and serve queries), Curators (developers who signal GRT on valuable subgraphs), and Delegators (token holders who delegate GRT to Indexers to secure the network and earn query fee dividends).\n\nHaving successfully migrated its core protocol contracts and settlement layer to Arbitrum One to reduce gas fees by 99%, The Graph processes billions of monthly queries across more than 40 supported blockchains. By expanding into Subgraph AI LLM integrations and multi-chain data services, active $GRT delegators and developers occupy an essential pillar of Web3 infrastructure rewards.",
+    "tokenomics": "The Graph token ($GRT) is a work and coordination utility asset. Indexers stake GRT to provide indexing and query services, Curators signal GRT to indicate data quality, and Delegators stake GRT to active Indexers to earn a share of indexing rewards and query fees.",
+    "sybilDefense": "The Graph employs mathematical economic security rules where delegation tax and unbonding periods (28 days) discourage short-term capital churning. Indexers face token slashing if they serve invalid or malicious query results.",
+    "strategy": "To position for maximum The Graph ($GRT) delegation yields and network rewards:\n\n1. Acquire GRT tokens on Arbitrum One via Uniswap, Camelot, or CoW Swap.\n2. Navigate to The Graph Explorer on Arbitrum and connect your Web3 wallet.\n3. Research top-performing Indexers with high reward cut ratios and reliable uptime.\n4. Delegate your $GRT tokens to chosen Indexers to begin earning passive query fee distributions.\n5. If you are a developer, deploy and publish a custom Subgraph in Subgraph Studio to qualify for developer grants.",
+    "steps": [
+      "Visit the official <a href=\"https://thegraph.com\" target=\"_blank\" rel=\"noopener noreferrer\">The Graph Network Portal</a>.",
+      "Explore decentralized indexers at <a href=\"https://thegraph.com/explorer\" target=\"_blank\" rel=\"noopener noreferrer\">The Graph Explorer</a>.",
+      "Connect your EVM wallet to Arbitrum One.",
+      "Filter Indexers by effective reward cut, query volume, and historical performance.",
+      "Delegate your $GRT tokens to one or multiple verified Indexers.",
+      "Monitor your accumulated delegation rewards in the network dashboard.",
+      "Build or signal on subgraphs via <a href=\"https://thegraph.com/studio\" target=\"_blank\" rel=\"noopener noreferrer\">The Graph Subgraph Studio</a>.",
+      "Vote on protocol improvement proposals at <a href=\"https://forum.thegraph.com\" target=\"_blank\" rel=\"noopener noreferrer\">The Graph Governance Forum</a>."
+    ],
+    "faqs": [
+      {
+        "question": "What is The Graph?",
+        "answer": "The Graph is a decentralized indexing and query protocol that uses GraphQL to make blockchain data easily accessible to dApps."
+      },
+      {
+        "question": "What is a Subgraph?",
+        "answer": "A Subgraph is an open API that defines which blockchain data to index and how to structure it for efficient querying."
+      },
+      {
+        "question": "Who invested in The Graph?",
+        "answer": "The Graph raised over $50M from Tiger Global, Multicoin Capital, Coinbase Ventures, and prominent crypto funds."
+      },
+      {
+        "question": "What does a Delegator do on The Graph?",
+        "answer": "Delegators stake GRT with Indexers to help secure the network, earning a portion of the Indexer's query fees and indexing rewards."
+      },
+      {
+        "question": "What is the unbonding period for delegated GRT?",
+        "answer": "When undelegating GRT, tokens are subject to a 28-day unbonding period during which they do not earn rewards."
+      },
+      {
+        "question": "Why did The Graph migrate to Arbitrum?",
+        "answer": "The Graph migrated to Arbitrum One to reduce transaction gas fees by over 99% for indexers, delegators, and query consumers."
+      }
+    ]
+  },
+  {
+    "id": "akash-network",
+    "name": "Akash Network",
+    "category": "DePIN",
+    "tier": "Tier 1",
+    "status": "Active",
+    "stage": "Mainnet",
+    "potentialReward": "$1,000 - $6,500",
+    "cost": "Minimal Cosmos transaction fees",
+    "timeRequired": "15 mins / weekly",
+    "platform": "Web / Cosmos / Akash Cloud",
+    "description": "Foundational decentralized compute DePIN and open-source Supercloud on Cosmos, providing high-performance GPU and CPU compute marketplaces for AI models at 85% lower cost.",
+    "logo": "/images/airdrops/akash-network.svg",
+    "refLink": "https://akash.network",
+    "tags": [
+      "DePIN",
+      "AI Compute",
+      "GPU Cloud",
+      "Cosmos",
+      "AKT",
+      "Tier 1"
+    ],
+    "featured": true,
+    "startDate": "Sep 2020",
+    "endDate": "Q4 2025",
+    "requirements": [
+      "Cosmos Wallet (Keplr/Leap)",
+      "Stake AKT with Network Validators",
+      "Deploy AI Workloads or Docker Containers on Akash Cloud",
+      "Vote on Akash Network Governance Proposals",
+      "Participate in Akash Supercloud Bounties"
+    ],
+    "overview": "Akash Network is the world's premier decentralized open-source cloud (DePIN) and high-performance computing marketplace. Built on the Cosmos SDK with Tendermint consensus by Greg Osuri and Adam Bozanich, Akash acts as a decentralized Airbnb for datacenter compute. It connects organizations and individuals with underutilized computing power (CPUs, high-end NVIDIA GPUs including H100s and A100s, storage, and bandwidth) with developers seeking permissionless cloud infrastructure at up to 85% lower cost than Amazon Web Services, Google Cloud, and Microsoft Azure.\n\nAkash operates a reverse auction marketplace: developers specify their computing requirements (RAM, CPU cores, GPU models, disk space) via simple declarative deployment configuration files (SDL), and independent data centers and compute providers around the globe bid automatically to host the workload at the lowest price. All leases and payments settle transparently on-chain via the native $AKT token.\n\nWith the explosion of generative artificial intelligence and high demand for GPU clusters to train and serve open-source large language models (LLMs like Llama 3 and Mistral), Akash has become the leading decentralized AI compute network. Active AKT stakers, datacenter providers, and cloud deployers represent one of the most commercially validated DePIN ecosystems in Web3.",
+    "tokenomics": "The native $AKT token is used for securing the Proof-of-Stake consensus, governance voting, paying for compute leases, and settling network take rates. AKT stakers earn attractive staking yields funded by inflation and platform compute fee shares.",
+    "sybilDefense": "Akash verifies on-chain validator staking tenure, active compute lease deployment escrow, and cryptographic node uptime verification. Spam bids or dummy accounts without real funded compute leases are rejected by the network auction engine.",
+    "strategy": "To position for maximum Akash Network ($AKT) staking yields, governance rewards, and ecosystem incentives:\n\n1. Set up a Cosmos-compatible wallet (such as Keplr or Leap) and fund it with native $AKT.\n2. Stake your AKT tokens with active, non-exchange validators to earn native staking APR.\n3. Deploy a lightweight application, website, or open-source AI container using the Akash Cloud Console.\n4. Cast votes on active Akash Network governance proposals via Keplr Dashboard.\n5. Participate in Akash community hackathons, compute bounties, and testnet deployments.",
+    "steps": [
+      "Visit the official <a href=\"https://akash.network\" target=\"_blank\" rel=\"noopener noreferrer\">Akash Network Portal</a>.",
+      "Install a Cosmos wallet like <a href=\"https://www.keplr.app\" target=\"_blank\" rel=\"noopener noreferrer\">Keplr Wallet</a>.",
+      "Acquire $AKT tokens on Osmosis, Kraken, or Coinbase and transfer them to your Akash address.",
+      "Stake AKT with trusted network validators at <a href=\"https://wallet.keplr.app/chains/akash\" target=\"_blank\" rel=\"noopener noreferrer\">Keplr Staking Dashboard</a>.",
+      "Deploy a containerized cloud app using <a href=\"https://console.akash.network\" target=\"_blank\" rel=\"noopener noreferrer\">Akash Console</a>.",
+      "Test decentralized AI model inference through <a href=\"https://chat.akash.network\" target=\"_blank\" rel=\"noopener noreferrer\">Akash AI Chat</a>.",
+      "Vote on active community governance proposals to maintain high network voting scores.",
+      "Read deployment documentation and guides at <a href=\"https://akash.network/docs\" target=\"_blank\" rel=\"noopener noreferrer\">Akash Documentation</a>."
+    ],
+    "faqs": [
+      {
+        "question": "What is Akash Network?",
+        "answer": "Akash Network is a decentralized open-source cloud marketplace that connects developers with affordable GPU and CPU compute power."
+      },
+      {
+        "question": "How does the reverse auction work on Akash?",
+        "answer": "Developers set their compute specifications, and providers around the world bid down the price to host the application."
+      },
+      {
+        "question": "What GPUs are available on Akash?",
+        "answer": "Akash hosts top-tier enterprise GPUs including NVIDIA H100, A100, V100, and consumer GPUs like RTX 4090 for AI training and inference."
+      },
+      {
+        "question": "What is the utility of the $AKT token?",
+        "answer": "AKT is used for securing the network through staking, paying for compute lease contracts, and voting on governance proposals."
+      },
+      {
+        "question": "What blockchain is Akash built on?",
+        "answer": "Akash is built on the Cosmos SDK and connects to other sovereign blockchains via the Inter-Blockchain Communication (IBC) protocol."
+      },
+      {
+        "question": "How much cheaper is Akash compared to AWS?",
+        "answer": "Akash typically offers cloud computing and GPU resources up to 85% cheaper than traditional centralized cloud giants."
+      }
+    ]
+  },
+  {
+    "id": "arweave",
+    "name": "Arweave & AO Computer",
+    "category": "Infrastructure",
+    "tier": "Tier 1",
+    "status": "Active",
+    "stage": "Mainnet",
+    "potentialReward": "$1,200 - $9,000",
+    "cost": "Minimal storage fee",
+    "timeRequired": "15 mins / weekly",
+    "platform": "Web / Arweave / AO",
+    "description": "Revolutionary permanent data storage network backed by $22M+ from a16z crypto and Multicoin Capital, powering the Permaweb and the AO hyper-parallel actor-oriented supercomputer.",
+    "logo": "/images/airdrops/arweave.svg",
+    "refLink": "https://arweave.org",
+    "tags": [
+      "Permanent Storage",
+      "AO Computer",
+      "Permaweb",
+      "a16z crypto",
+      "AR",
+      "Tier 1"
+    ],
+    "featured": true,
+    "startDate": "Jun 2018",
+    "endDate": "Q4 2025",
+    "requirements": [
+      "Arweave Wallet (ArConnect)",
+      "Store Permanent Data on the Permaweb via Irys or ArDrive",
+      "Interact with AO Hyper-Parallel Computer Testnet",
+      "Bridge DAI/stETH into AO for $AO Token Minting",
+      "Deploy Autonomous Lua Processes on AO"
+    ],
+    "overview": "Arweave is the foundational permanent, immutable data storage protocol and creators of the 'Permaweb'—a permanent, decentralized web of pages and applications that live forever. Founded by Sam Williams and supported by over $22 Million in venture funding from elite crypto investors including a16z crypto, Multicoin Capital, Union Square Ventures, and Coinbase Ventures, Arweave revolutionized data preservation with its novel 'Blockweave' architecture and Proof-of-Access consensus.\n\nUnlike traditional storage models that require recurring monthly subscription fees, Arweave users pay a single upfront fee that funds permanent storage for at least 200 years via a conservative mathematical storage endowment. This permanent data layer serves as the immutable storage backbone for Solana ledger history, leading NFT metadata, mirror blogs, historical records, and censorship-resistant dApp frontends.\n\nBuilding upon Arweave's permanent data layer, the team launched AO: an actor-oriented hyper-parallel supercomputer capable of running an arbitrary number of concurrent processes with verifiable holographic state. AO removes the computational bottlenecks of traditional blockchains, allowing complex AI agents, decentralized financial models, and full-stack autonomous applications to execute at native speed. Active Permaweb uploaders, AO testnet builders, and users bridging capital into AO token minting contracts are participating in one of the most significant architectural milestones in decentralized computing history.",
+    "tokenomics": "The native $AR token powers the storage endowment and mining rewards. The new $AO token has a 21 Million supply cap matching Bitcoin's halving schedule, with 100% of tokens minted through holding AR or bridging collateral (like stETH and DAI) into AO minting smart contracts.",
+    "sybilDefense": "Arweave and AO track cryptographic Proof-of-Access miner replication, real on-chain transaction fees, and verifiable bridged asset tenure. Ephemeral bot accounts attempting to spam zero-value processes are rejected by AO message relayers.",
+    "strategy": "To maximize your positioning for Arweave and AO Computer ($AO) token rewards and ecosystem benefits:\n\n1. Download and set up the official Arweave browser wallet (ArConnect).\n2. Fund your wallet with native $AR tokens to pay for permanent Permaweb storage transactions.\n3. Upload permanent files, documents, or dApp frontends using ArDrive or Irys.\n4. Deposit DAI or stETH into the official AO bridge contracts to passively earn newly minted $AO tokens.\n5. Test and deploy interactive Lua smart processes on the AO decentralized supercomputer using the AOS CLI tool.",
+    "steps": [
+      "Visit the official <a href=\"https://arweave.org\" target=\"_blank\" rel=\"noopener noreferrer\">Arweave Portal</a>.",
+      "Install the premier Arweave wallet at <a href=\"https://www.arconnect.io\" target=\"_blank\" rel=\"noopener noreferrer\">ArConnect Wallet</a>.",
+      "Upload permanent files to the Permaweb using <a href=\"https://ardrive.io\" target=\"_blank\" rel=\"noopener noreferrer\">ArDrive</a>.",
+      "Explore the hyper-parallel supercomputer at <a href=\"https://ao.arweave.dev\" target=\"_blank\" rel=\"noopener noreferrer\">AO Computer Portal</a>.",
+      "Bridge stETH or DAI to participate in AO token minting via the official AO Bridge.",
+      "Test autonomous decentralized processes using the <a href=\"https://cookbook_ao.arweave.dev\" target=\"_blank\" rel=\"noopener noreferrer\">AO Cookbook & Developer Guide</a>.",
+      "Explore community applications and agents on the AO ecosystem explorer.",
+      "Monitor your mined $AO balances and token release schedules on the official AO dashboard."
+    ],
+    "faqs": [
+      {
+        "question": "What is Arweave?",
+        "answer": "Arweave is a decentralized protocol that enables permanent, immutable data storage backed by a sustainable economic endowment."
+      },
+      {
+        "question": "What is AO Computer?",
+        "answer": "AO is a hyper-parallel computing environment built on Arweave that allows unlimited parallel processes with scalable, verifiable compute."
+      },
+      {
+        "question": "How do users earn the new $AO token?",
+        "answer": "AO tokens are minted by holding $AR or by bridging qualifying assets (like stETH or DAI) into the official AO deposit contracts."
+      },
+      {
+        "question": "Who invested in Arweave?",
+        "answer": "Arweave raised over $22M from a16z crypto, Multicoin Capital, Union Square Ventures, and Coinbase Ventures."
+      },
+      {
+        "question": "How does Arweave guarantee storage for 200+ years?",
+        "answer": "Upfront fees enter a storage endowment that earns interest while data storage costs decline historically over time."
+      },
+      {
+        "question": "What wallet do I need for Arweave and AO?",
+        "answer": "ArConnect is the primary non-custodial browser extension wallet designed specifically for Arweave and AO."
+      }
+    ]
+  },
+  {
+    "id": "maverick-protocol",
+    "name": "Maverick Protocol",
+    "category": "DeFi",
+    "tier": "Tier 1",
+    "status": "Active",
+    "stage": "Mainnet",
+    "potentialReward": "$800 - $5,000",
+    "cost": "Gas fees on Base / Arbitrum / zkSync",
+    "timeRequired": "15 mins / weekly",
+    "platform": "Web / Multi-Chain",
+    "description": "Pioneering Dynamic Distribution AMM backed by $17M from Founders Fund, Pantera Capital, and Binance Labs, automating directional liquidity shifting to maximize capital efficiency.",
+    "logo": "/images/airdrops/maverick-protocol.svg",
+    "refLink": "https://mav.xyz",
+    "tags": [
+      "Dynamic AMM",
+      "Concentrated Liquidity",
+      "Founders Fund",
+      "MAV",
+      "Multi-Chain",
+      "Tier 1"
+    ],
+    "featured": true,
+    "startDate": "Mar 2023",
+    "endDate": "Q4 2025",
+    "requirements": [
+      "EVM Wallet",
+      "Swap on Maverick Dynamic AMM across Base, Arbitrum, or Ethereum",
+      "Provide Liquidity using Dynamic Shifting Modes (Right, Left, Both)",
+      "Stake MAV for veMAV Governance",
+      "Vote on Gauge Weight Allocations"
+    ],
+    "overview": "Maverick Protocol is a groundbreaking automated market maker engineered to revolutionize capital efficiency for decentralized liquidity providers. Founded by Alvin Xu and Bob Baxley and backed by $17 Million across funding rounds led by Founders Fund (Peter Thiel's flagship venture firm), Pantera Capital, Binance Labs, Coinbase Ventures, and Circle Ventures, Maverick introduced the world's first Dynamic Distribution AMM.\n\nIn standard concentrated liquidity AMMs (like Uniswap v3), liquidity providers must manually manage their price ranges; if the market price moves outside their chosen interval, their liquidity becomes inactive, earning zero fees and suffering impermanent loss. Maverick solves this with automated liquidity shifting modes: Mode Right, Mode Left, and Mode Both. As asset prices move, the Maverick smart contract automatically shifts the liquidity distribution along with the price curve, keeping LP capital constantly active in fee-earning ranges without requiring manual gas-intensive rebalancing transactions.\n\nMaverick also features Boosted Positions, allowing projects to deploy surgical incentive programs directly into specific price ranges. Anchored by the native $MAV token and the veMAV vote-escrowed governance model, Maverick operates across Ethereum, Base, Arbitrum, BNB Chain, and zkSync Era. Active traders, automated concentrated liquidity providers, and veMAV voters sit at the cutting edge of algorithmic DeFi yield.",
+    "tokenomics": "The native $MAV token has a 2 Billion fixed supply. Staking MAV into veMAV grants governance voting rights, directs weekly liquidity mining emission gauges to specific pools, and enables fee capture across multi-chain deployments.",
+    "sybilDefense": "Maverick monitors verified swap transaction volume, active dynamic LP deposit duration, and veMAV lockup periods. Automated bot scripts executing round-trip wash swaps within single blocks are excluded from community rewards.",
+    "strategy": "To maximize your positioning for Maverick Protocol ($MAV) automated yield boosts and governance rewards:\n\n1. Connect your Web3 wallet across Base, Arbitrum, or Ethereum.\n2. Execute decentralized token swaps using the Maverick AMM to log verified protocol volume.\n3. Deposit liquidity into high-volume pairs (like wstETH/ETH or USDC/USDT) using automated shifting modes (Mode Both or Mode Right).\n4. Participate in high-yield Boosted Positions sponsored by ecosystem partner protocols.\n5. Acquire and stake $MAV into veMAV on Ethereum or Base to participate in weekly gauge voting.",
+    "steps": [
+      "Visit the official <a href=\"https://mav.xyz\" target=\"_blank\" rel=\"noopener noreferrer\">Maverick Protocol Portal</a>.",
+      "Launch the decentralized app at <a href=\"https://app.mav.xyz\" target=\"_blank\" rel=\"noopener noreferrer\">Maverick App</a>.",
+      "Connect your EVM wallet to Base, Arbitrum, or Ethereum.",
+      "Execute token swaps via <a href=\"https://app.mav.xyz/?chain=8453\" target=\"_blank\" rel=\"noopener noreferrer\">Maverick Swap Interface</a>.",
+      "Select dynamic shifting modes (Static, Right, Left, Both) and deposit liquidity at <a href=\"https://app.mav.xyz/pools\" target=\"_blank\" rel=\"noopener noreferrer\">Maverick Pools</a>.",
+      "Explore partner-sponsored yields on <a href=\"https://app.mav.xyz/boosted-positions\" target=\"_blank\" rel=\"noopener noreferrer\">Maverick Boosted Positions</a>.",
+      "Stake $MAV into veMAV at <a href=\"https://governance.mav.xyz\" target=\"_blank\" rel=\"noopener noreferrer\">Maverick Governance Portal</a>.",
+      "Vote on weekly pool gauge weights to direct MAV emissions and earn protocol rewards."
+    ],
+    "faqs": [
+      {
+        "question": "What is Maverick Protocol?",
+        "answer": "Maverick Protocol is a Dynamic Distribution AMM that automatically moves liquidity with market price to maximize capital efficiency."
+      },
+      {
+        "question": "How do shifting modes work in Maverick?",
+        "answer": "Modes (Right, Left, Both) automatically shift your liquidity position as the price moves, keeping your capital in fee-earning ranges without gas costs."
+      },
+      {
+        "question": "Who backed Maverick Protocol?",
+        "answer": "Maverick raised $17M led by Founders Fund, Pantera Capital, Binance Labs, Coinbase Ventures, and Circle Ventures."
+      },
+      {
+        "question": "What are Boosted Positions?",
+        "answer": "Boosted Positions are customized liquidity incentives offered by projects to attract concentrated liquidity to specific price ranges."
+      },
+      {
+        "question": "What is veMAV?",
+        "answer": "veMAV is vote-escrowed MAV obtained by staking MAV, giving users the power to vote on reward emissions and governance proposals."
+      },
+      {
+        "question": "Which blockchains support Maverick?",
+        "answer": "Maverick is live on Ethereum Mainnet, Base, Arbitrum, BNB Chain, and zkSync Era."
+      }
+    ]
   }
 ];

@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" fill="none">
+  <defs>
+    <linearGradient id="aktGrad" x1="20" y1="20" x2="108" y2="108" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#F87171" />
+      <stop offset="50%" stop-color="#FA3535" />
+      <stop offset="100%" stop-color="#991B1B" />
+    </linearGradient>
+  </defs>
+  <rect width="128" height="128" rx="28" fill="#170505" />
+  <!-- Akash Circular Decentralized Cloud Glyph -->
+  <circle cx="64" cy="64" r="42" stroke="url(#aktGrad)" stroke-width="6" />
+  <polygon points="64,30 92,82 36,82" stroke="url(#aktGrad)" stroke-width="6" fill="#290B0B" stroke-linejoin="round" />
+  <circle cx="64" cy="60" r="7" fill="#FCA5A5" />
+  <circle cx="64" cy="30" r="4" fill="#FFFFFF" />
+  <circle cx="92" cy="82" r="4" fill="#FFFFFF" />
+  <circle cx="36" cy="82" r="4" fill="#FFFFFF" />
+</svg>

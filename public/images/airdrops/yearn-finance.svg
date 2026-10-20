@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" fill="none">
+  <defs>
+    <linearGradient id="yfiGrad" x1="24" y1="20" x2="104" y2="108" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#38BDF8" />
+      <stop offset="50%" stop-color="#006AE3" />
+      <stop offset="100%" stop-color="#003E8A" />
+    </linearGradient>
+  </defs>
+  <rect width="128" height="128" rx="28" fill="#041226" />
+  <!-- Yearn y-Sphere Monogram -->
+  <circle cx="64" cy="64" r="42" stroke="url(#yfiGrad)" stroke-width="7" fill="#082042" />
+  <!-- Iconic Yearn Y -->
+  <path d="M46 40L64 64M82 40L64 64M64 64V90" stroke="#FFFFFF" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" />
+  <circle cx="46" cy="40" r="4" fill="#38BDF8" />
+  <circle cx="82" cy="40" r="4" fill="#38BDF8" />
+  <circle cx="64" cy="90" r="4" fill="#38BDF8" />
+</svg>
