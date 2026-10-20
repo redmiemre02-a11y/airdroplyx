@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" fill="none">
+  <defs>
+    <linearGradient id="safeGrad" x1="20" y1="20" x2="108" y2="108" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#12FF80" />
+      <stop offset="100%" stop-color="#00A854" />
+    </linearGradient>
+  </defs>
+  <rect width="128" height="128" rx="28" fill="#05140D" />
+  <!-- Safe Vault Lock Shield -->
+  <path d="M64 22L96 38V68C96 86 64 106 64 106C64 106 32 86 32 68V38L64 22Z" stroke="url(#safeGrad)" stroke-width="6" fill="#082317" stroke-linejoin="round" />
+  <circle cx="64" cy="58" r="12" stroke="url(#safeGrad)" stroke-width="5" fill="none" />
+  <path d="M64 70V80" stroke="url(#safeGrad)" stroke-width="5" stroke-linecap="round" />
+  <circle cx="64" cy="58" r="4" fill="#12FF80" />
+</svg>

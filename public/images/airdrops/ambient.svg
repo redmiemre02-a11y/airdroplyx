@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" fill="none">
+  <defs>
+    <linearGradient id="ambGrad" x1="20" y1="20" x2="108" y2="108" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#E879F9" />
+      <stop offset="50%" stop-color="#C026D3" />
+      <stop offset="100%" stop-color="#7C3AED" />
+    </linearGradient>
+  </defs>
+  <rect width="128" height="128" rx="28" fill="#0C0816" />
+  <circle cx="64" cy="64" r="42" stroke="url(#ambGrad)" stroke-width="6" fill="none" opacity="0.4" />
+  <path d="M34 76C44 52 54 40 64 40C74 40 84 52 94 76" stroke="url(#ambGrad)" stroke-width="7" stroke-linecap="round" fill="none" />
+  <path d="M34 52C44 76 54 88 64 88C74 88 84 76 94 52" stroke="url(#ambGrad)" stroke-width="7" stroke-linecap="round" fill="none" />
+  <circle cx="64" cy="64" r="8" fill="#E879F9" />
+</svg>

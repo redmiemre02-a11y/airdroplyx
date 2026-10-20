@@ -11506,5 +11506,737 @@ export const airdrops: Airdrop[] = [
         "answer": "The token generation event is scheduled alongside public mainnet deployment following the conclusion of router testing phases."
       }
     ]
+  },
+
+  {
+    "id": "ambient",
+    "name": "Ambient Finance",
+    "category": "DeFi",
+    "tier": "Tier 1",
+    "status": "Active",
+    "stage": "Mainnet",
+    "potentialReward": "$1,200 - $7,500",
+    "cost": "Gas fees + Trading Margin (~$5 - $20)",
+    "timeRequired": "10 mins / weekly",
+    "platform": "Web / Ethereum, Blast & Scroll",
+    "description": "Zero-to-one monolithic decentralized exchange combining concentrated and ambient constant-product liquidity inside a single contract, backed by $6.5M from BlockTower, Jane Street, and Circle.",
+    "logo": "/images/airdrops/ambient.svg",
+    "refLink": "https://ambient.finance",
+    "tags": [
+      "DEX",
+      "Monolithic",
+      "Concentrated Liquidity",
+      "Ambient Points",
+      "Blast",
+      "Scroll",
+      "Tier 1"
+    ],
+    "featured": true,
+    "startDate": "Jul 2023",
+    "endDate": "Q4 2025",
+    "requirements": [
+      "EVM Wallet (MetaMask, Rabby)",
+      "ETH, USDB or USDC Collateral",
+      "Swap Tokens on Ambient DEX",
+      "Provide Concentrated or Ambient LP"
+    ],
+    "overview": "Ambient Finance (formerly CrocSwap) is a revolutionary decentralized exchange engineered to run the entire exchange lifecycle within a single monolithic smart contract. Co-founded by Doug Colkitt and supported by $6.5 Million in seed funding led by BlockTower Capital with participation from quantitative trading titan Jane Street, Circle Ventures, Tensai Capital, and Naval Ravikant, Ambient solves the gas bloat, fragmented pool states, and routing inefficiencies of legacy multi-contract automated market makers.\n\nInside Ambient’s single contract architecture, concentrated liquidity (like Uniswap v3), ambient constant-product liquidity (like Uniswap v2), and knockout limit orders coexist within the same liquidity pool. Traders execute multi-hop swaps with up to 50% lower gas fees, while liquidity providers enjoy automated fee compounding, gasless range adjustments, and integrated surplus collateral balances.\n\nAmbient is running the official \"Ambient Points\" rewards campaign across Ethereum mainnet, Blast, and Scroll. Users earn weekly points by swapping, maintaining active concentrated liquidity within optimal tick ranges, and referring active market participants ahead of the protocol’s future governance token generation event.",
+    "tokenomics": "Ambient’s future governance token will govern protocol fee switches across all deployed chains, direct liquidity gauge emissions, manage whitelisted oracle sources, and coordinate decentralized community treasury deployments.",
+    "sybilDefense": "Ambient calculates points strictly based on real swap volume, fee generation, and continuous liquidity placement within active price ranges. Artificial zero-fee wash trading or liquidity placed far outside the market spread receives zero point allocations.",
+    "strategy": "To position for maximum Ambient Points and partner ecosystem airdrops:\n\n1. Connect your EVM wallet to Ambient on Ethereum, Scroll, or Blast.\n2. Swap high-conviction assets (ETH, USDC, USDB) regularly to generate verified volume footprints.\n3. Deposit liquidity into high-volume pools (such as ETH/USDC) using concentrated or ambient ranges to earn continuous liquidity points.\n4. Hold your liquidity positions across weekly snapshot epochs to build multiplier streaks.",
+    "steps": [
+      "Visit the official <a href=\"https://ambient.finance\" target=\"_blank\" rel=\"noopener noreferrer\">Ambient Finance Portal</a>.",
+      "Connect your EVM wallet and select your network (Scroll, Blast, or Ethereum).",
+      "Execute a spot swap between ETH and stablecoins on the <a href=\"https://ambient.finance/trade\" target=\"_blank\" rel=\"noopener noreferrer\">Ambient Trade Terminal</a>.",
+      "Navigate to the Pools tab and choose an active pair to provide liquidity.",
+      "Configure your price range (ambient wide range or concentrated narrow range) on <a href=\"https://ambient.finance/pool\" target=\"_blank\" rel=\"noopener noreferrer\">Ambient Pools</a>.",
+      "Deposit your liquidity and monitor automated fee compounding.",
+      "Check your earned points and global standing on the Ambient Points dashboard.",
+      "Join the Ambient Discord community to participate in community discussions."
+    ],
+    "faqs": [
+      {
+        "question": "What makes Ambient Finance different from Uniswap?",
+        "answer": "Ambient runs the entire exchange inside a single monolithic smart contract rather than thousands of isolated pool contracts, slashing swap gas costs by up to 50%."
+      },
+      {
+        "question": "Who invested in Ambient Finance?",
+        "answer": "Ambient raised $6.5M led by BlockTower Capital, with backing from Jane Street, Circle Ventures, Tensai Capital, and prominent Wall Street market makers."
+      },
+      {
+        "question": "Which blockchains support Ambient Finance?",
+        "answer": "Ambient is deployed natively on Ethereum mainnet, Blast L2, Scroll zkEVM, and Canto."
+      },
+      {
+        "question": "What are Ambient Points?",
+        "answer": "Ambient Points are loyalty rewards tracking trading volume, liquidity provision, and community contributions leading toward the native token launch."
+      },
+      {
+        "question": "What is the difference between Ambient and Concentrated liquidity?",
+        "answer": "Ambient liquidity provides passive constant-product depth across the entire 0-to-infinity price curve, while concentrated liquidity focuses capital within custom price bounds."
+      },
+      {
+        "question": "Is Ambient Finance audited?",
+        "answer": "Yes, Ambient’s monolithic smart contract underwent multiple audits by leading blockchain security auditors including OpenZeppelin."
+      }
+    ]
+  },
+
+  {
+    "id": "stakestone",
+    "name": "StakeStone",
+    "category": "Restaking",
+    "tier": "Tier 1",
+    "status": "Active",
+    "stage": "Mainnet",
+    "potentialReward": "$1,000 - $6,500",
+    "cost": "Gas fees + ETH Deposit (~$10 - $25)",
+    "timeRequired": "10 mins",
+    "platform": "Web / Multi-Chain",
+    "description": "Omnichain liquid staking protocol issuing $STONE backed by Binance Labs, OKX Ventures, and SevenX, running the multi-season Omnichain Carnival.",
+    "logo": "/images/airdrops/stakestone.svg",
+    "refLink": "https://stakestone.io",
+    "tags": [
+      "Liquid Staking",
+      "STONE",
+      "Omnichain",
+      "Binance Labs",
+      "OKX Ventures",
+      "Tier 1"
+    ],
+    "featured": true,
+    "startDate": "Jan 2024",
+    "endDate": "Q4 2025",
+    "requirements": [
+      "EVM Wallet (MetaMask, Rabby)",
+      "ETH or stETH Collateral",
+      "Mint STONE or SBTC",
+      "Participate in Omnichain Carnival Seasons"
+    ],
+    "overview": "StakeStone is an innovative omnichain liquid staking and liquidity infrastructure protocol designed to establish an adaptable, yield-bearing liquid staking token standard across all Layer 1 and Layer 2 blockchains. Backed by strategic investment rounds from Binance Labs, OKX Ventures, SevenX Ventures, HashKey Capital, and Skyland Ventures, StakeStone has minted hundreds of millions of dollars worth of its flagship liquid staking token, $STONE.\n\nUnlike traditional LSTs that remain locked on Ethereum mainnet, $STONE is built with LayerZero’s Omnichain Fungible Token (OFT) standard from day one. STONE effortlessly bridges across Scroll, Manta Network, Linea, Base, Arbitrum, and BNB Chain without wrapped token slippage, serving as foundational collateral for decentralized lending, DEX trading, and restaking protocols across the entire modular Web3 ecosystem.\n\nStakeStone is executing the \"Omnichain Carnival\" rewards campaign. Users who deposit ETH to mint STONE, bridge STONE to partner Layer 2 networks, and deploy STONE into partner DeFi vaults earn Carnival loyalty points, EigenLayer/Symbiotic restaking points, and guaranteed allocations of the upcoming native StakeStone governance token.",
+    "tokenomics": "The StakeStone native governance token will govern the underlying staking asset allocation across Proof-of-Stake consensus layers, Actively Validated Services (AVS), and institutional vault managers, while distributing protocol fee yields to active stakers.",
+    "sybilDefense": "The Omnichain Carnival utilizes capital-by-time weighted mathematical scoring. Micro-deposit wallets attempting to split minimal capital earn negligible points, naturally favoring organic depositors maintaining sustained balances.",
+    "strategy": "To position for maximum StakeStone Carnival rewards and partner token drops:\n\n1. Deposit native ETH on Ethereum mainnet or Layer 2s to mint $STONE via the official StakeStone app.\n2. Bridge STONE to leading Layer 2 networks (Scroll, Linea, Base) using the native LayerZero bridge.\n3. Supply STONE into high-yield DeFi lending markets or automated market makers (such as Merlin, Tranchess, or Ambient).\n4. Retain your STONE holdings throughout milestone snapshot dates to earn loyalty tier multipliers.",
+    "steps": [
+      "Navigate to the official <a href=\"https://stakestone.io\" target=\"_blank\" rel=\"noopener noreferrer\">StakeStone Portal</a>.",
+      "Launch the <a href=\"https://app.stakestone.io\" target=\"_blank\" rel=\"noopener noreferrer\">StakeStone App</a> and connect your EVM wallet.",
+      "Deposit native ETH to mint liquid yield-bearing <a href=\"https://app.stakestone.io/stake\" target=\"_blank\" rel=\"noopener noreferrer\">STONE</a>.",
+      "Check your active points standing on the Omnichain Carnival Dashboard.",
+      "Bridge STONE to partner networks like Scroll or Base via LayerZero.",
+      "Deploy STONE into partner DeFi liquidity pools to compound yield and points.",
+      "Participate in official StakeStone social campaigns on Galxe and QuestN.",
+      "Hold STONE in your self-custody wallet to lock in snapshot qualification."
+    ],
+    "faqs": [
+      {
+        "question": "What is STONE token?",
+        "answer": "STONE is an omnichain liquid staking token backed 1:1 by staked ETH, designed to bring native staking and restaking yield seamlessly to all Layer 2 blockchains."
+      },
+      {
+        "question": "Who invested in StakeStone?",
+        "answer": "StakeStone is backed by leading crypto venture firms including Binance Labs, OKX Ventures, SevenX Ventures, and HashKey Capital."
+      },
+      {
+        "question": "What is the Omnichain Carnival?",
+        "answer": "The Omnichain Carnival is StakeStone’s multi-wave loyalty campaign that rewards depositors with points convertible into the future governance token."
+      },
+      {
+        "question": "Can I transfer STONE across different chains?",
+        "answer": "Yes, STONE integrates LayerZero OFT standards, allowing instant zero-slippage transfers across Ethereum, Scroll, Linea, Base, Manta, and BNB Chain."
+      },
+      {
+        "question": "How do I redeem my original ETH from STONE?",
+        "answer": "You can redeem your ETH through the StakeStone unstaking queue or instantly swap STONE back to ETH on DEXs like Uniswap."
+      },
+      {
+        "question": "Are StakeStone smart contracts secure?",
+        "answer": "Yes, StakeStone has been audited by top-tier security audit firms including Secure3, ChainSecurity, and Salus."
+      }
+    ]
+  },
+
+  {
+    "id": "safe",
+    "name": "Safe (Gnosis Safe)",
+    "category": "Tooling",
+    "tier": "Tier 1",
+    "status": "Active",
+    "stage": "Mainnet",
+    "potentialReward": "$1,500 - $8,500",
+    "cost": "Gas fees (<$5 on L2s)",
+    "timeRequired": "10 mins / weekly",
+    "platform": "Web / Multi-Chain",
+    "description": "The world’s preeminent multi-signature smart contract wallet securing over $100 Billion in digital assets, running the Safe{Pass} rewards and ecosystem activity program.",
+    "logo": "/images/airdrops/safe.svg",
+    "refLink": "https://safe.global",
+    "tags": [
+      "Smart Accounts",
+      "Multisig",
+      "Account Abstraction",
+      "Safe{Pass}",
+      "Security",
+      "Tier 1"
+    ],
+    "featured": true,
+    "startDate": "May 2018",
+    "endDate": "Q4 2025",
+    "requirements": [
+      "Create or Own Safe Smart Account",
+      "Execute Multi-Signer Transactions",
+      "Participate in Safe{Pass} Seasons",
+      "Lock or Stake SAFE Tokens"
+    ],
+    "overview": "Safe (formerly Gnosis Safe) is the foundational multi-signature smart contract wallet and digital asset management standard of Web3, currently securing over $100 Billion in digital assets—representing more than 5% of all crypto wealth in existence. Backed by a historic $100 Million funding round led by 1kx, with participation from Tiger Global, Kraken Ventures, Digital Currency Group, and prominent Web3 founders, Safe transformed crypto self-custody from single-private-key vulnerability into programmable, verifiable multi-signer security.\n\nSafe pioneered account abstraction via ERC-4337 and modular smart accounts through Safe{Core}. DAOs, financial institutions, protocols, and power retail users rely on Safe to manage treasuries, schedule transactions, enforce spending limits, and execute gasless atomic batch operations across Ethereum, Arbitrum, Optimism, Base, Polygon, and BNB Chain.\n\nSafe is running the official \"Safe{Pass}\" community activity and loyalty program. Users who hold a Safe smart account, execute regular multi-signer transactions, lock $SAFE tokens for governance voting power, and integrate Safe ecosystem apps earn continuous Pass points and partner ecosystem airdrops.",
+    "tokenomics": "The $SAFE token has a maximum supply of 1 Billion tokens. $SAFE governs the Safe DAO, directing community grants, fee modules for Safe{Core} account abstraction SDKs, validator registries, and future revenue share frameworks.",
+    "sybilDefense": "Safe{Pass} evaluates account age, multi-signer threshold validity, transaction value, and ecosystem contract diversity across EVM networks. Automated disposable multisigs with zero real economic activity receive minimal activity points.",
+    "strategy": "To position for maximum Safe{Pass} allocations and partner token rewards:\n\n1. Deploy a Safe Smart Account on cheap Layer 2 networks (Arbitrum, Base, or Optimism) with at least 2 distinct signers.\n2. Use your Safe account as your primary treasury wallet for interacting with verified DeFi dApps (Aave, Uniswap).\n3. Lock $SAFE tokens in the Safe DAO governance portal to maximize your voting weight on Snapshot.\n4. Complete official Safe{Pass} partner quests to boost your points multiplier tier.",
+    "steps": [
+      "Visit the official <a href=\"https://safe.global\" target=\"_blank\" rel=\"noopener noreferrer\">Safe Global Portal</a>.",
+      "Launch the <a href=\"https://app.safe.global\" target=\"_blank\" rel=\"noopener noreferrer\">Safe App</a> and connect your EVM wallet.",
+      "Create a new Safe Smart Account on Arbitrum or Base with your desired signer threshold (e.g., 2-of-3).",
+      "Deposit funds into your Safe account and execute a batched DeFi transaction.",
+      "Explore the <a href=\"https://app.safe.global/pass\" target=\"_blank\" rel=\"noopener noreferrer\">Safe{Pass} Dashboard</a> to track your earned activity points.",
+      "Acquire $SAFE tokens and lock them on the Safe Staking interface to earn governance power.",
+      "Vote on active Safe DAO governance proposals at <a href=\"https://snapshot.org/#/safe.eth\" target=\"_blank\" rel=\"noopener noreferrer\">Safe Snapshot</a>.",
+      "Maintain monthly transaction activity through your Safe to retain top loyalty tier status."
+    ],
+    "faqs": [
+      {
+        "question": "What is Safe (Gnosis Safe)?",
+        "answer": "Safe is the industry standard smart contract multisig wallet that requires multiple cryptographic signatures to approve transactions, securing over $100B in assets."
+      },
+      {
+        "question": "Who invested in Safe?",
+        "answer": "Safe raised $100M in a round led by 1kx, with participation from Tiger Global, Kraken Ventures, and top Web3 angels."
+      },
+      {
+        "question": "What is the Safe{Pass} program?",
+        "answer": "Safe{Pass} is an activity rewards program where users earn points and partner perks by using Safe smart accounts and locking $SAFE tokens."
+      },
+      {
+        "question": "Can I create a Safe on low-cost Layer 2 networks?",
+        "answer": "Yes, Safe can be deployed on Arbitrum, Base, Optimism, Polygon, and BNB Chain for mere cents in gas fees."
+      },
+      {
+        "question": "What is the utility of the $SAFE token?",
+        "answer": "SAFE is the native governance token of Safe DAO, used to vote on protocol development, treasury funds, and account abstraction standards."
+      },
+      {
+        "question": "Is Safe open source and audited?",
+        "answer": "Yes, Safe’s smart contract core is 100% open source and has been battle-tested and audited by the world’s top security firms for over 6 years."
+      }
+    ]
+  },
+
+  {
+    "id": "vertex-protocol",
+    "name": "Vertex Protocol",
+    "category": "DeFi",
+    "tier": "Tier 1",
+    "status": "Active",
+    "stage": "Mainnet",
+    "potentialReward": "$1,000 - $6,000",
+    "cost": "Gas & Trading fees (~$5 - $15)",
+    "timeRequired": "15 mins / weekly",
+    "platform": "Web / Arbitrum & Sei",
+    "description": "Ultra-fast hybrid orderbook and AMM decentralized exchange on Arbitrum and Sei, backed by $8.5M from Hack VC, running continuous trading reward seasons ($VRTX).",
+    "logo": "/images/airdrops/vertex-protocol.svg",
+    "refLink": "https://vertexprotocol.com",
+    "tags": [
+      "Perpetuals",
+      "Hybrid Orderbook",
+      "Arbitrum",
+      "Sei",
+      "VRTX",
+      "Tier 1"
+    ],
+    "featured": true,
+    "startDate": "Apr 2023",
+    "endDate": "Q4 2025",
+    "requirements": [
+      "EVM Wallet (Arbitrum, Sei)",
+      "USDC Collateral",
+      "Trade Spot or Perpetual Contracts",
+      "Stake VRTX into voVRTX for Yield"
+    ],
+    "overview": "Vertex Protocol is a lightning-fast, vertically integrated decentralized exchange combining an off-chain Central Limit Order Book (CLOB) with an on-chain Automated Market Maker (AMM) into a unified trading architecture. Backed by $8.5 Million in funding across rounds led by Hack VC, Dexterity Capital, GSR, and Collab+Currency, Vertex delivers trading execution speeds under 15 milliseconds on Arbitrum and Sei Network.\n\nVertex solves the fragmentation of DeFi by integrating cross-margin spot trading, perpetual contracts, and money market lending/borrowing inside a single unified margin portfolio. Traders can use their entire portfolio balance—including unrealized profits from perpetual contracts—as collateral to open new positions or borrow assets seamlessly.\n\nVertex operates the ongoing \"Trading Rewards\" program, distributing millions of $VRTX tokens every month based on trading volume, maker activity, and fee generation. Furthermore, users who stake $VRTX into $voVRTX earn continuous real-yield fee distributions and governance voting rights.",
+    "tokenomics": "The $VRTX token total supply is capped at 1 Billion tokens. 37% of the entire token supply is dedicated to ongoing trading rewards, 21.2% to the team, 8.8% to early investors, and 10% to the initial liquidity bootstrapping pool. Staked VRTX earns real protocol fee shares.",
+    "sybilDefense": "Vertex employs institutional wash-trading filters and non-linear volume calculations. Accounts generating artificial self-crossing trades without economic spread exposure are automatically stripped of reward multiplier points.",
+    "strategy": "To position for top-tier $VRTX seasonal trading distributions:\n\n1. Deposit USDC on Arbitrum or Sei into your Vertex cross-margin trading account.\n2. Trade perpetual contracts across high-liquidity pairs (BTC-PERP, ETH-PERP, SOL-PERP) with consistent weekly volumes ($5,000+).\n3. Place limit orders close to market spread to earn higher maker fee rebates and boosted trading points.\n4. Stake your $VRTX tokens in the Vertex staking dashboard to receive voVRTX and compound daily USDC protocol fee distributions.",
+    "steps": [
+      "Navigate to the official <a href=\"https://vertexprotocol.com\" target=\"_blank\" rel=\"noopener noreferrer\">Vertex Protocol Portal</a>.",
+      "Launch the <a href=\"https://app.vertexprotocol.com\" target=\"_blank\" rel=\"noopener noreferrer\">Vertex Trading App</a> and connect your EVM wallet.",
+      "Deposit USDC collateral into your Vertex universal margin account on Arbitrum One.",
+      "Place active limit or market orders on perpetual contracts with up to 50x leverage.",
+      "Explore spot trading and integrated money market lending on the Vertex terminal.",
+      "Monitor your weekly trading volume ranking on the Vertex Rewards Dashboard.",
+      "Acquire $VRTX and stake your tokens on the <a href=\"https://app.vertexprotocol.com/staking\" target=\"_blank\" rel=\"noopener noreferrer\">Vertex Staking</a> tab.",
+      "Vote on active community governance proposals in the Vertex DAO."
+    ],
+    "faqs": [
+      {
+        "question": "What is Vertex Protocol?",
+        "answer": "Vertex is a hybrid decentralized exchange on Arbitrum and Sei that combines an off-chain orderbook with an on-chain AMM for sub-15ms execution speeds."
+      },
+      {
+        "question": "Who invested in Vertex Protocol?",
+        "answer": "Vertex raised $8.5M backed by Hack VC, Dexterity Capital, GSR, Collab+Currency, and prominent quantitative trading angels."
+      },
+      {
+        "question": "What is universal cross-margin on Vertex?",
+        "answer": "Universal cross-margin allows you to use your entire portfolio—spot tokens, perps, and unrealized PnL—as shared collateral for all trades."
+      },
+      {
+        "question": "What is the utility of the $VRTX token?",
+        "answer": "VRTX is the native token used for staking (voVRTX) to earn protocol trading fee revenue, fee discounts, and governance voting rights."
+      },
+      {
+        "question": "Which blockchains support Vertex?",
+        "answer": "Vertex is natively deployed on Arbitrum One and Sei Network, connected via Vertex Edge cross-chain liquidity synchronization."
+      },
+      {
+        "question": "Is Vertex non-custodial?",
+        "answer": "Yes, all funds are deposited into audited smart contracts on-chain; the matching engine never takes custody of user assets."
+      }
+    ]
+  },
+
+  {
+    "id": "nosana",
+    "name": "Nosana",
+    "category": "AI",
+    "tier": "Tier 1",
+    "status": "Active",
+    "stage": "Mainnet",
+    "potentialReward": "$1,000 - $7,000",
+    "cost": "Free to trade / Hardware for GPU compute",
+    "timeRequired": "10 mins",
+    "platform": "Web / Solana",
+    "description": "Decentralized crowd-sourced GPU cloud on Solana designed for artificial intelligence inference and open-source model execution, distributing $NOS compute rewards.",
+    "logo": "/images/airdrops/nosana.svg",
+    "refLink": "https://nosana.com",
+    "tags": [
+      "DePIN",
+      "AI Inference",
+      "Solana",
+      "GPU Compute",
+      "NOS",
+      "Tier 1"
+    ],
+    "featured": true,
+    "startDate": "Jan 2022",
+    "endDate": "Q4 2025",
+    "requirements": [
+      "Solana Wallet (Phantom, Solflare)",
+      "NVIDIA GPU for Node Mining",
+      "Run Nosana Compute Client",
+      "Stake NOS for Tier Upgrades"
+    ],
+    "overview": "Nosana is a leading decentralized GPU cloud computing network built natively on the Solana blockchain, specifically engineered to provide affordable, permissionless GPU compute for Artificial Intelligence inference workloads. By aggregating consumer, enterprise, and mining graphics cards (NVIDIA RTX 30-series, 40-series, and enterprise A100s) from everyday computer owners globally, Nosana democratizes access to AI hardware that is otherwise bottlenecked by centralized hyperscalers.\n\nNosana leverages Solana’s high-throughput, low-latency transaction rail to coordinate computational job distribution, containerized workload execution, and real-time micro-payments between AI developers and GPU node providers. AI startups and researchers utilize Nosana’s decentralized grid to run popular open-source models (including Llama 3, Mistral, and Stable Diffusion) at up to 85% lower costs than AWS or Google Cloud.\n\nNosana is conducting ongoing computational mining rewards and community staking programs. Participants who connect their GPUs to the Nosana Node Client, complete verified AI benchmark jobs, and stake $NOS tokens to unlock higher tier multiplier brackets earn consistent network yields and partner allocations.",
+    "tokenomics": "The $NOS token commands a 100 Million total supply on Solana. $NOS serves as the primary currency used by AI builders to purchase GPU compute jobs and is programmatically distributed to node operators based on verified workload performance and staking tier multipliers.",
+    "sybilDefense": "Nosana employs rigorous proof-of-work container benchmarking. GPU compute nodes must successfully complete cryptographic machine learning inference probes against known datasets before receiving job allocations, completely filtering out emulated or spoofed hardware.",
+    "strategy": "To position for maximum Nosana ($NOS) compute rewards and ecosystem incentives:\n\n1. If you possess an NVIDIA GPU (RTX 3060 or higher), install the lightweight Nosana Node client software on your PC or server.\n2. Keep your GPU node connected and online to accept containerized AI inference jobs.\n3. Acquire and stake $NOS tokens on the official Nosana staking portal to upgrade your Node Tier and fee discount bracket.\n4. Join the Nosana community Discord to report benchmark metrics and follow AI developer integrations.",
+    "steps": [
+      "Visit the official <a href=\"https://nosana.com\" target=\"_blank\" rel=\"noopener noreferrer\">Nosana Portal</a>.",
+      "Explore the compute grid on the <a href=\"https://app.nosana.io\" target=\"_blank\" rel=\"noopener noreferrer\">Nosana App</a>.",
+      "Download and set up the Nosana Node Software following the <a href=\"https://docs.nosana.com\" target=\"_blank\" rel=\"noopener noreferrer\">Nosana Docs</a>.",
+      "Connect your Solana wallet (Phantom or Backpack) to your operator profile.",
+      "Run initial GPU benchmarking tests to qualify for live AI inference job routing.",
+      "Monitor your delivered compute hours and earned $NOS tokens on the dashboard.",
+      "Stake $NOS on the Nosana Staking portal to boost your reward multiplier tiers.",
+      "Participate in community governance votes and AI model testing bounties."
+    ],
+    "faqs": [
+      {
+        "question": "What is Nosana?",
+        "answer": "Nosana is a decentralized crowd-sourced GPU network on Solana that allows anyone with an NVIDIA GPU to earn tokens by providing compute for AI inference."
+      },
+      {
+        "question": "What kinds of AI models run on Nosana?",
+        "answer": "Nosana specializes in AI inference for open-source foundation models including Llama 3, Mistral, Whisper, and Stable Diffusion."
+      },
+      {
+        "question": "What hardware do I need to earn rewards on Nosana?",
+        "answer": "You need a computer with a modern NVIDIA GPU (RTX 3060, 3070, 3080, 4090 or enterprise GPUs) with at least 8GB of VRAM."
+      },
+      {
+        "question": "What is the ticker symbol for Nosana?",
+        "answer": "Nosana’s native token trades under the ticker symbol $NOS on the Solana blockchain."
+      },
+      {
+        "question": "Why did Nosana choose Solana?",
+        "answer": "Solana provides the instant finality and sub-cent transaction fees required to coordinate hundreds of real-time AI job micro-payments per second."
+      },
+      {
+        "question": "Can everyday users stake NOS tokens?",
+        "answer": "Yes, users can stake $NOS on the official Nosana staking dashboard to earn protocol staking yields and voting power."
+      }
+    ]
+  },
+
+  {
+    "id": "aura-finance",
+    "name": "Aura Finance",
+    "category": "DeFi",
+    "tier": "Tier 1",
+    "status": "Active",
+    "stage": "Mainnet",
+    "potentialReward": "$800 - $5,000",
+    "cost": "Gas fees + Deposit (~$10 - $25)",
+    "timeRequired": "10 mins / weekly",
+    "platform": "Web / Multi-Chain",
+    "description": "Premier yield booster and governance platform on Balancer, optimizing veBAL yield and distributing bribe incentives to $AURA and vlAURA stakers.",
+    "logo": "/images/airdrops/aura-finance.svg",
+    "refLink": "https://aura.finance",
+    "tags": [
+      "Yield Booster",
+      "Balancer",
+      "veBAL",
+      "vlAURA",
+      "Bribes",
+      "Tier 1"
+    ],
+    "featured": true,
+    "startDate": "Jun 2022",
+    "endDate": "Q4 2025",
+    "requirements": [
+      "EVM Wallet (Ethereum, Arbitrum, Base)",
+      "Deposit Balancer LP Tokens",
+      "Stake AURA into vlAURA",
+      "Vote on Bi-Weekly Gauge Bribes"
+    ],
+    "overview": "Aura Finance is a foundational decentralized finance protocol built on top of the Balancer ecosystem to maximize liquidity provider yields and optimize veBAL governance power. Operating as the Balancer ecosystem equivalent of Convex Finance on Curve, Aura aggregates massive amounts of Balancer 80/20 LP tokens to control a commanding majority of all voting-escrowed veBAL in existence.\n\nBy depositing Balancer Pool Tokens (BPTs) into Aura Finance, liquidity providers receive boosted $BAL yields without needing to lock up veBAL themselves for one year. Layered on top, users receive native $AURA token emissions, creating the highest risk-adjusted yields across multi-chain DeFi pools on Ethereum, Arbitrum, Optimism, Base, Polygon, Avalanche, and Gnosis.\n\nAura operates a premier governance voting marketplace through vote-locked Aura ($vlAURA). Users who lock $AURA into vlAURA cast bi-weekly votes on Balancer gauge weight allocations, earning lucrative bribe payouts in partner tokens (such as USDC, BAL, and LSTs) through platforms like Votium and Hidden Hand.",
+    "tokenomics": "The $AURA token commands a 100 Million maximum supply that scales down alongside Balancer’s own multi-year emission schedule. Locking AURA for 16 weeks into vlAURA grants direct governance control over Balancer’s entire liquidity gauge system and directs treasury revenues.",
+    "sybilDefense": "Aura rewards and voting incentives are strictly proportional to capital locked and duration of participation. Multi-wallet splitting yields identical mathematical returns, rendering automated Sybil swarms ineffective compared to single consolidated positions.",
+    "strategy": "To maximize Aura Finance yields and capture recurring bi-weekly voting bribes:\n\n1. Deposit liquidity into high-yield Balancer pools (such as wstETH/ETH or prime stable pools) and stake the BPTs on Aura.\n2. Acquire $AURA tokens on decentralized exchanges and lock them into $vlAURA for 16 weeks.\n3. Delegate your vlAURA voting power on Hidden Hand or Paladin to automatically collect highest-yield bi-weekly bribes.\n4. Reinvest or compound earned bribe payouts back into your core liquidity positions.",
+    "steps": [
+      "Navigate to the official <a href=\"https://aura.finance\" target=\"_blank\" rel=\"noopener noreferrer\">Aura Finance Portal</a>.",
+      "Launch the <a href=\"https://app.aura.finance\" target=\"_blank\" rel=\"noopener noreferrer\">Aura Application</a> and connect your EVM wallet.",
+      "Browse active boosted pools on Ethereum, Arbitrum, or Base on the Pools tab.",
+      "Deposit supported Balancer LP tokens to earn boosted BAL + AURA rewards.",
+      "Lock $AURA tokens on the <a href=\"https://app.aura.finance/lock\" target=\"_blank\" rel=\"noopener noreferrer\">Aura Lock Dashboard</a> to receive $vlAURA.",
+      "Cast bi-weekly gauge votes on Balancer pools or delegate your votes on Hidden Hand.",
+      "Claim accumulated bribe payouts and liquidity mining rewards weekly.",
+      "Vote on Aura DAO Snapshot governance proposals at <a href=\"https://snapshot.org/#/auradao.eth\" target=\"_blank\" rel=\"noopener noreferrer\">Aura Snapshot</a>."
+    ],
+    "faqs": [
+      {
+        "question": "What is Aura Finance?",
+        "answer": "Aura Finance is a protocol built on Balancer that allows liquidity providers to earn boosted yields without locking veBAL, while providing governance bribe rewards to vlAURA stakers."
+      },
+      {
+        "question": "What is vlAURA?",
+        "answer": "vlAURA is vote-locked AURA, locked for a 16-week period, which gives holders voting power to direct Balancer pool emissions and earn bi-weekly bribes."
+      },
+      {
+        "question": "Which blockchains support Aura Finance?",
+        "answer": "Aura is deployed on Ethereum mainnet, Arbitrum, Optimism, Base, Polygon, Avalanche, and Gnosis."
+      },
+      {
+        "question": "How do I earn bribes on Aura?",
+        "answer": "By locking AURA into vlAURA, you can vote on Balancer gauge allocations directly or delegate to platforms like Hidden Hand to receive automated bribe payouts in USDC and crypto."
+      },
+      {
+        "question": "Can I withdraw my liquidity from Aura at any time?",
+        "answer": "Yes, liquidity pool deposits (BPTs) can be unstaked and withdrawn from Aura at any time without lockup penalties."
+      },
+      {
+        "question": "Is Aura Finance audited?",
+        "answer": "Yes, Aura Finance smart contracts have been thoroughly audited by top audit firms including OpenZeppelin, PeckShield, and Zellic."
+      }
+    ]
+  },
+
+  {
+    "id": "synapse",
+    "name": "Synapse Protocol",
+    "category": "Infrastructure",
+    "tier": "Tier 1",
+    "status": "Active",
+    "stage": "Mainnet",
+    "potentialReward": "$800 - $4,500",
+    "cost": "Gas & Bridge Fees (~$2 - $8)",
+    "timeRequired": "10 mins / weekly",
+    "platform": "Web / Multi-Chain",
+    "description": "Premier cross-chain bridge and communications network connecting over 20 blockchains, powering the Synapse Interchain Network (SIN) with $SYN staking rewards.",
+    "logo": "/images/airdrops/synapse.svg",
+    "refLink": "https://synapseprotocol.com",
+    "tags": [
+      "Bridge",
+      "Cross-Chain",
+      "Interchain Network",
+      "SYN",
+      "Multi-Chain",
+      "Tier 1"
+    ],
+    "featured": true,
+    "startDate": "Aug 2021",
+    "endDate": "Q4 2025",
+    "requirements": [
+      "EVM Wallet",
+      "Funds to Bridge (ETH, USDC, USDT)",
+      "Use Synapse Bridge Across Multiple Chains",
+      "Stake SYN into Protocol Pools"
+    ],
+    "overview": "Synapse Protocol is an established, high-performance cross-chain communication and liquidity transport network that has facilitated tens of billions of dollars in cross-chain volume for millions of Web3 users. Operating across more than 20 EVM and non-EVM blockchains—including Ethereum, Arbitrum, Optimism, Base, Polygon, Avalanche, BNB Chain, and Solana—Synapse enables seamless asset bridging and generalized cross-chain messaging.\n\nSynapse combines generalized cross-chain messaging contracts with high-liquidity automated market maker pools (such as Synapse nUSD and nETH pools). With the architectural development of the Synapse Interchain Network (SIN)—a sovereign, decentralized proof-of-stake rollup dedicated exclusively to verifying cross-chain state transitions—Synapse achieves cryptographic security with optimistic verification and fast block times.\n\nSynapse operates continuous community incentive programs centered around its native utility token $SYN. Users who bridge across multiple chains, supply liquidity to Synapse cross-chain pools, and stake $SYN to secure interchain relayers earn substantial yield and ecosystem partner airdrops.",
+    "tokenomics": "The $SYN token commands a 250 Million maximum supply. $SYN powers protocol governance, incentivizes cross-chain liquidity pool providers, and serves as the economic security collateral staked by validator nodes on the Synapse Interchain Network.",
+    "sybilDefense": "Synapse analyzes transaction fee contributions, bridge volume milestones, and unique chain destination diversity. Accounts executing repetitive automated micro-dust loops without paying meaningful bridge fees are excluded from loyalty reward snapshots.",
+    "strategy": "To position for maximum Synapse ($SYN) rewards and upcoming Interchain Network distributions:\n\n1. Use Synapse Bridge to transfer native assets (USDC, USDT, ETH) across at least 4 distinct Layer 2 chains (Arbitrum, Base, Optimism, Polygon).\n2. Maintain consistent weekly bridging activity with volume milestones exceeding $2,500+.\n3. Supply liquidity into Synapse cross-chain pools (such as nUSD or nETH) to earn base trading fees plus $SYN incentives.\n4. Stake $SYN tokens in the Synapse DAO governance portal to participate in active Snapshot votes.",
+    "steps": [
+      "Navigate to the official <a href=\"https://synapseprotocol.com\" target=\"_blank\" rel=\"noopener noreferrer\">Synapse Protocol Portal</a>.",
+      "Launch the <a href=\"https://synapseprotocol.com\" target=\"_blank\" rel=\"noopener noreferrer\">Synapse Bridge Application</a> and connect your EVM wallet.",
+      "Select your origin and destination chains (e.g., Base to Arbitrum).",
+      "Bridge USDC, USDT, or ETH with low fees and near-instant settlement.",
+      "Explore the Pools tab and deposit liquidity into a cross-chain liquidity pool on <a href=\"https://synapseprotocol.com/pools\" target=\"_blank\" rel=\"noopener noreferrer\">Synapse Pools</a>.",
+      "Stake your LP tokens to begin accumulating daily $SYN rewards.",
+      "Stake your native $SYN tokens to participate in decentralized validator delegation.",
+      "Vote on active community governance proposals at <a href=\"https://snapshot.org/#/synapseprotocol.eth\" target=\"_blank\" rel=\"noopener noreferrer\">Synapse Snapshot</a>."
+    ],
+    "faqs": [
+      {
+        "question": "What is Synapse Protocol?",
+        "answer": "Synapse is a cross-chain liquidity and messaging network connecting over 20 blockchains, enabling fast, cheap asset transfers and interchain communication."
+      },
+      {
+        "question": "What is the Synapse Interchain Network (SIN)?",
+        "answer": "SIN is a specialized optimistic rollup blockchain designed by Synapse to decentralize cross-chain verification and provide trust-minimized security."
+      },
+      {
+        "question": "Which networks are supported by Synapse?",
+        "answer": "Synapse supports over 20 chains including Ethereum, Arbitrum, Base, Optimism, Polygon, Avalanche, BNB Chain, Scroll, Blast, and DFK Chain."
+      },
+      {
+        "question": "What is the ticker symbol for Synapse?",
+        "answer": "Synapse Protocol’s native governance and staking token trades under the ticker symbol $SYN."
+      },
+      {
+        "question": "How fast do Synapse bridge transfers settle?",
+        "answer": "Most cross-chain transfers on Synapse settle within 1 to 3 minutes depending on destination blockchain finality."
+      },
+      {
+        "question": "Is Synapse audited and secure?",
+        "answer": "Yes, Synapse smart contracts have been thoroughly audited by top security firms including OpenZeppelin and CertiK."
+      }
+    ]
+  },
+
+  {
+    "id": "gains-network",
+    "name": "Gains Network (gTrade)",
+    "category": "DeFi",
+    "tier": "Tier 1",
+    "status": "Active",
+    "stage": "Mainnet",
+    "potentialReward": "$1,000 - $6,000",
+    "cost": "Gas & Trading fees (~$5 - $15)",
+    "timeRequired": "15 mins / weekly",
+    "platform": "Web / Arbitrum & Polygon",
+    "description": "Premier decentralized leverage trading platform powering gTrade across crypto, forex, and commodities with up to 150x leverage and gDAI real yield vault.",
+    "logo": "/images/airdrops/gains-network.svg",
+    "refLink": "https://gains.trade",
+    "tags": [
+      "Perpetuals",
+      "gTrade",
+      "Forex",
+      "Commodities",
+      "Arbitrum",
+      "Polygon",
+      "Tier 1"
+    ],
+    "featured": true,
+    "startDate": "May 2021",
+    "endDate": "Q4 2025",
+    "requirements": [
+      "EVM Wallet (Arbitrum, Polygon)",
+      "DAI, USDC or WETH Collateral",
+      "Trade Crypto, Forex or Commodities on gTrade",
+      "Deposit into gDAI Vault"
+    ],
+    "overview": "Gains Network is the powerhouse behind gTrade—a highly efficient, multi-asset decentralized leveraged trading platform operational on Arbitrum and Polygon. Having processed over $60 Billion in cumulative volume, gTrade pioneered the expansion of decentralized derivatives beyond crypto, enabling traders to speculate on foreign exchange (forex) currency pairs with up to 1000x leverage, stock market indices, and commodities (gold, silver) alongside major crypto pairs with up to 150x leverage.\n\ngTrade operates with unmatched capital efficiency through its innovative \"gDAI Vault\" architecture. Instead of maintaining fragmented order books or isolated liquidity pools for every trading pair, all trades on gTrade are collateralized synthetically by a single unified vault (gDAI/gUSDC) backed by custom Chainlink decentralized oracle networks (DONs). This guarantees zero slippage, deep synthetic liquidity, and 100% on-chain execution.\n\nGains Network operates an extensive real-yield ecosystem around its native utility token $GNS. Users who trade on gTrade, supply liquidity to the gDAI vault to earn passive trading fee yields, and stake $GNS receive regular protocol distributions and ecosystem incentive rewards.",
+    "tokenomics": "The $GNS token commands a dynamic supply with native deflationary burning mechanics: when trader losses occur, a portion of the vault surplus is used to buy back and burn $GNS. Staked GNS earns real protocol trading fees paid directly in DAI or WETH.",
+    "sybilDefense": "Gains Network calculates rewards based strictly on real trade volume, open interest, and fees paid to the protocol. Artificial zero-fee wash trading is prevented by standard trading spread mechanisms.",
+    "strategy": "To position for maximum Gains Network ($GNS) yields and incentive distributions:\n\n1. Connect your EVM wallet to gTrade on Arbitrum One for low transaction fees.\n2. Execute trades across diverse asset classes (BTC/ETH crypto, EUR/USD forex, and Gold commodities) to build active trading volume ($5,000+).\n3. Deposit stablecoins into the gDAI Vault on Arbitrum to earn high base real-yield APR generated from platform trading fees.\n4. Stake $GNS tokens in the Gains Network staking dashboard to earn daily compounding DAI protocol rewards.",
+    "steps": [
+      "Visit the official <a href=\"https://gains.trade\" target=\"_blank\" rel=\"noopener noreferrer\">gTrade Portal</a>.",
+      "Launch the <a href=\"https://gains.trade/trading\" target=\"_blank\" rel=\"noopener noreferrer\">gTrade Application</a> and connect your EVM wallet.",
+      "Deposit DAI or USDC collateral on Arbitrum One.",
+      "Open long or short positions across crypto, forex, or commodity markets with custom leverage.",
+      "Deposit idle stablecoins into the <a href=\"https://gains.trade/vault\" target=\"_blank\" rel=\"noopener noreferrer\">gDAI Vault</a> to earn passive real-yield APY.",
+      "Acquire $GNS tokens and stake them on the Gains Network Staking tab.",
+      "Check your cumulative trading volume and referral rank on the Leaderboard.",
+      "Participate in official trading tournaments and community Discord challenges."
+    ],
+    "faqs": [
+      {
+        "question": "What is gTrade by Gains Network?",
+        "answer": "gTrade is a decentralized leverage trading platform that allows trading of crypto, forex, and commodities with zero price impact and up to 150x leverage."
+      },
+      {
+        "question": "Which blockchains support gTrade?",
+        "answer": "gTrade is deployed natively on Arbitrum One and Polygon."
+      },
+      {
+        "question": "What is the gDAI Vault?",
+        "answer": "The gDAI Vault acts as the universal counterparty liquidity pool for all gTrade markets, earning depositors a share of platform trading fees."
+      },
+      {
+        "question": "What makes gTrade’s oracle system unique?",
+        "answer": "gTrade uses a custom Chainlink Decentralized Oracle Network (DON) that delivers real-time prices with zero front-running and zero slippage."
+      },
+      {
+        "question": "What is the utility of the $GNS token?",
+        "answer": "GNS is the native governance and revenue-sharing token; stakers receive DAI/WETH protocol fee dividends, and GNS is burned when the vault has excess collateral."
+      },
+      {
+        "question": "Is gTrade smart contract code audited?",
+        "answer": "Yes, Gains Network smart contracts have undergone multiple comprehensive security audits by CertiK and PeckShield."
+      }
+    ]
+  },
+
+  {
+    "id": "privy",
+    "name": "Privy",
+    "category": "Infrastructure",
+    "tier": "Tier 1",
+    "status": "Active",
+    "stage": "Mainnet",
+    "potentialReward": "$1,200 - $7,500",
+    "cost": "Free to use via partner apps",
+    "timeRequired": "10 mins / weekly",
+    "platform": "Web / Multi-Chain",
+    "description": "The industry-standard embedded Web3 authentication and wallet infrastructure library backed by $18M from Paradigm, powering Friend.tech, OpenSea, and Zora.",
+    "logo": "/images/airdrops/privy.svg",
+    "refLink": "https://privy.io",
+    "tags": [
+      "Embedded Wallets",
+      "Authentication",
+      "Paradigm",
+      "Account Abstraction",
+      "Infrastructure",
+      "Tier 1"
+    ],
+    "featured": true,
+    "startDate": "Jan 2022",
+    "endDate": "Q4 2025",
+    "requirements": [
+      "Use Privy-Powered dApps (OpenSea, Zora, Friend.tech)",
+      "Create Embedded Multi-Party Computation (MPC) Wallet",
+      "Link Social & Web3 Accounts",
+      "Active On-Chain Interactions"
+    ],
+    "overview": "Privy is the foundational developer platform and authentication library powering the mass-market consumer onboarding revolution across Web3. Founded by Henri Stern and Asta Li and backed by $18 Million in venture capital led by Paradigm with participation from Sequoia Capital, Electric Capital, and Archetype, Privy enables consumer applications to onboard mainstream users through email, phone numbers, Google, Twitter/X, and Apple logins with self-custodial embedded wallets created seamlessly behind the scenes.\n\nPrivy’s breakthrough architecture relies on Shamir’s Secret Sharing and multi-party computation (MPC). Users never have to manage 12-word seed phrases or deal with browser extension popups; their private keys are securely split between their device and Privy’s secure enclave hardware. Privy powers the authentication and embedded wallet layer for the fastest-growing consumer applications in Web3 history, including Friend.tech, OpenSea, Zora, Courtyard, and Blackbird.\n\nAs anticipation builds toward a prospective decentralized Privy coordination and developer protocol token, active Web3 participants who log in through Privy-enabled dApps, manage embedded MPC wallets, export keys, and interact with Privy ecosystem partners are positioned at the cutting edge of consumer infrastructure rewards.",
+    "tokenomics": "The prospective Privy protocol token will coordinate the decentralized key-shard relayer network, govern developer API whitelists, direct revenue share models from enterprise embedded wallet transaction fees, and incentivize secure third-party validator nodes.",
+    "sybilDefense": "Privy’s authentication telemetry connects biometric passkey attestation, SMS/social identity verification, and multi-app interaction graph depth. Automated bot swarms without authenticated social graph tenure or real on-chain transaction history are naturally partitioned.",
+    "strategy": "To position for potential retroactive Privy infrastructure rewards:\n\n1. Log into leading Privy-powered applications (such as OpenSea, Zora, Courtyard, or Blackbird) using social or email logins to instantiate an embedded Privy MPC wallet.\n2. Perform on-chain transactions (minting NFTs on Zora, trading on OpenSea, or claiming collectibles) through your embedded Privy wallet.\n3. Explore the embedded wallet settings and test key export/backup flows to demonstrate advanced user status.\n4. Complete developer quickstart tutorials or integrate the open-source Privy SDK into a test application on GitHub.",
+    "steps": [
+      "Visit the official <a href=\"https://privy.io\" target=\"_blank\" rel=\"noopener noreferrer\">Privy Portal</a> and review consumer architecture.",
+      "Log into leading Privy-powered dApps like <a href=\"https://zora.co\" target=\"_blank\" rel=\"noopener noreferrer\">Zora</a> or <a href=\"https://opensea.io\" target=\"_blank\" rel=\"noopener noreferrer\">OpenSea</a> using your email or social account.",
+      "Initialize and fund your embedded self-custodial Privy MPC wallet.",
+      "Execute on-chain transactions directly through the embedded wallet interface.",
+      "Test the secure key recovery and password backup features in the wallet settings.",
+      "Explore developer integration guides at the <a href=\"https://docs.privy.io\" target=\"_blank\" rel=\"noopener noreferrer\">Privy Documentation</a>.",
+      "Build or test a sample dApp using the open-source `@privy-io/react-auth` SDK.",
+      "Follow Privy announcements on Twitter/X and developer community updates."
+    ],
+    "faqs": [
+      {
+        "question": "What is Privy?",
+        "answer": "Privy is an embedded wallet and authentication library that lets Web3 apps onboard users with email, SMS, or social logins without requiring traditional browser extension wallets."
+      },
+      {
+        "question": "Who invested in Privy?",
+        "answer": "Privy raised $18M in a Series A round led by Paradigm, with participation from Sequoia Capital and prominent crypto founders."
+      },
+      {
+        "question": "Which popular dApps use Privy?",
+        "answer": "Major consumer dApps including OpenSea, Zora, Friend.tech, Blackbird, and Courtyard use Privy for user authentication and embedded wallets."
+      },
+      {
+        "question": "Is an embedded Privy wallet non-custodial?",
+        "answer": "Yes, Privy uses Multi-Party Computation (MPC) where key shards are split; Privy never has access to your full private key or user funds."
+      },
+      {
+        "question": "Does Privy have an active token?",
+        "answer": "Privy does not currently have a token, making active users of Privy-powered dApps potential beneficiaries of future retroactive incentives."
+      },
+      {
+        "question": "Can I export my private key from a Privy embedded wallet?",
+        "answer": "Yes, Privy provides an official key export flow allowing users to export their private key into MetaMask or any external wallet anytime."
+      }
+    ]
+  },
+
+  {
+    "id": "bison-labs",
+    "name": "Bison Labs",
+    "category": "Layer 2",
+    "tier": "Tier 2",
+    "status": "Active",
+    "stage": "Testnet",
+    "potentialReward": "$600 - $4,000",
+    "cost": "Free (Bitcoin Signet Faucet)",
+    "timeRequired": "15 mins / weekly",
+    "platform": "Web / Bitcoin L2",
+    "description": "Sovereign Zero-Knowledge STARK rollup built natively on Bitcoin, enabling expressive smart contracts and Ordinals/BRC-20 settlement backed by Portal Ventures.",
+    "logo": "/images/airdrops/bison-labs.svg",
+    "refLink": "https://bisonlabs.io",
+    "tags": [
+      "Bitcoin L2",
+      "ZK-STARK",
+      "Ordinals",
+      "BRC-20",
+      "Testnet",
+      "Tier 2"
+    ],
+    "featured": false,
+    "startDate": "Jan 2024",
+    "endDate": "Q4 2025",
+    "requirements": [
+      "Bitcoin Wallet (Unisat, Xverse)",
+      "Bitcoin Signet Faucet Funds",
+      "Bridge Assets to Bison Testnet",
+      "Execute Swaps & Lending on Bison DEX"
+    ],
+    "overview": "Bison Labs is a pioneering sovereign Zero-Knowledge rollup built natively on Bitcoin, engineered to bring fast, expressive smart contracts and DeFi capabilities to the Bitcoin ecosystem without compromising on base-layer security. Backed by venture funding from Portal Ventures, Plassa Capital, and prominent Bitcoin ecosystem angel investors, Bison implements client-side Zero-Knowledge STARK proofs directly verified against Bitcoin transactions.\n\nWhile traditional sidechains rely on centralized multisigs or custodial federations, Bison creates a trust-minimized Layer 2 environment where transactions execute off-chain in sub-second intervals and settle in compact ZK-STARK validity proofs inscribed directly onto Bitcoin via Ordinals and Taproot script descriptors. This allows native Bitcoin, Ordinals, and Runes/BRC-20 tokens to be traded, lent, and collateralized in automated market makers and decentralized lending pools.\n\nBison Labs is conducting its public testnet campaign. Users who connect Bitcoin testnet wallets, request faucet tokens, bridge assets between Bitcoin Signet and Bison Rollup, and test decentralized swaps are positioned for early tester allocations of the upcoming native network token.",
+    "tokenomics": "The Bison native token will power rollup transaction gas payments, reward decentralized sequencer operators, coordinate ZK-STARK proof generation clusters, and govern the Bison DAO parameter registries.",
+    "sybilDefense": "Bison monitors Bitcoin testnet wallet tenure and interaction complexity. Automated scripts repeatedly requesting faucet funds without executing stateful smart contract transactions on the rollup are disqualified from points.",
+    "strategy": "To position for maximum Bison Labs testnet airdrop allocations:\n\n1. Set up a Unisat or Xverse wallet configured to Bitcoin Signet or testnet mode.\n2. Request testnet Bitcoin through official public faucets.\n3. Bridge testnet BTC to the Bison Rollup via the official Bison Testnet Bridge.\n4. Execute regular swaps and liquidity provision on the native Bison testnet automated market maker.\n5. Join the Bison Labs Discord community to verify your testnet submission transaction hashes.",
+    "steps": [
+      "Visit the official <a href=\"https://bisonlabs.io\" target=\"_blank\" rel=\"noopener noreferrer\">Bison Labs Portal</a>.",
+      "Connect your Bitcoin wallet (Unisat or Xverse) in testnet mode.",
+      "Acquire testnet Bitcoin from the official faucet links in the <a href=\"https://docs.bisonlabs.io\" target=\"_blank\" rel=\"noopener noreferrer\">Bison Docs</a>.",
+      "Bridge mock Bitcoin to the rollup using the <a href=\"https://bridge.bisonlabs.io\" target=\"_blank\" rel=\"noopener noreferrer\">Bison Bridge</a>.",
+      "Perform decentralized token swaps on the Bison testnet DEX.",
+      "Deposit liquidity into AMM pools to test automated market making.",
+      "Join the Bison Labs Discord server and claim community tester roles.",
+      "Submit testnet transaction hashes and user feedback in the community channels."
+    ],
+    "faqs": [
+      {
+        "question": "What is Bison Labs?",
+        "answer": "Bison Labs is a sovereign ZK-STARK rollup that brings high-speed smart contracts and DeFi to native Bitcoin without relying on custodial bridges."
+      },
+      {
+        "question": "Who invested in Bison Labs?",
+        "answer": "Bison Labs raised funding from Portal Ventures, Plassa Capital, and leading Bitcoin ecosystem venture investors."
+      },
+      {
+        "question": "Does Bison use ZK-SNARKs or ZK-STARKs?",
+        "answer": "Bison uses ZK-STARKs, which are transparent, quantum-resistant, and do not require a trusted setup."
+      },
+      {
+        "question": "Is the Bison testnet free to use?",
+        "answer": "Yes, all interactions on the Bison testnet use free testnet Bitcoin."
+      },
+      {
+        "question": "Can I trade Ordinals and Runes on Bison?",
+        "answer": "Yes, Bison is designed to enable instant, low-fee decentralized trading for native Bitcoin, Ordinals, Runes, and BRC-20 assets."
+      },
+      {
+        "question": "Which wallets support Bison Labs?",
+        "answer": "Unisat and Xverse wallets are natively supported for interacting with the Bison rollup."
+      }
+    ]
   }
 ];

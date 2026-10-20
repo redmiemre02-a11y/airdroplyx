@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" fill="none">
+  <defs>
+    <linearGradient id="privyGrad" x1="20" y1="20" x2="108" y2="108" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#818CF8" />
+      <stop offset="100%" stop-color="#4F46E5" />
+    </linearGradient>
+  </defs>
+  <rect width="128" height="128" rx="28" fill="#0A0B1A" />
+  <!-- Minimalist Cryptographic Keyhole Portal -->
+  <circle cx="64" cy="52" r="22" stroke="url(#privyGrad)" stroke-width="7" fill="#141530" />
+  <circle cx="64" cy="52" r="9" fill="url(#privyGrad)" />
+  <polygon points="56,58 72,58 76,88 52,88" fill="url(#privyGrad)" />
+  <rect x="48" y="88" width="32" height="6" rx="3" fill="#818CF8" />
+</svg>

@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" fill="none">
+  <defs>
+    <linearGradient id="nosGrad" x1="20" y1="20" x2="108" y2="108" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#14F195" />
+      <stop offset="100%" stop-color="#00C853" />
+    </linearGradient>
+  </defs>
+  <rect width="128" height="128" rx="28" fill="#071710" />
+  <!-- Nosana GPU Compute Grid -->
+  <rect x="36" y="36" width="56" height="56" rx="14" stroke="url(#nosGrad)" stroke-width="6" fill="#0D291D" />
+  <rect x="48" y="48" width="32" height="32" rx="8" fill="url(#nosGrad)" />
+  <circle cx="64" cy="64" r="6" fill="#071710" />
+  <line x1="64" y1="24" x2="64" y2="36" stroke="url(#nosGrad)" stroke-width="5" stroke-linecap="round" />
+  <line x1="64" y1="92" x2="64" y2="104" stroke="url(#nosGrad)" stroke-width="5" stroke-linecap="round" />
+  <line x1="24" y1="64" x2="36" y2="64" stroke="url(#nosGrad)" stroke-width="5" stroke-linecap="round" />
+  <line x1="92" y1="64" x2="104" y2="64" stroke="url(#nosGrad)" stroke-width="5" stroke-linecap="round" />
+</svg>

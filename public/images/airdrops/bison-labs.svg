@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" fill="none">
+  <defs>
+    <linearGradient id="bisonGrad" x1="20" y1="20" x2="108" y2="108" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#F7931A" />
+      <stop offset="50%" stop-color="#EA580C" />
+      <stop offset="100%" stop-color="#9A3412" />
+    </linearGradient>
+  </defs>
+  <rect width="128" height="128" rx="28" fill="#160B06" />
+  <!-- Bison Horns & ZK Shield -->
+  <path d="M30 42C30 42 34 26 50 36C62 44 64 64 64 64C64 64 66 44 78 36C94 26 98 42 98 42C98 42 90 76 64 94C38 76 30 42 30 42Z" stroke="url(#bisonGrad)" stroke-width="6" fill="#241209" stroke-linejoin="round" />
+  <circle cx="64" cy="64" r="8" fill="#F7931A" />
+  <line x1="50" y1="52" x2="78" y2="52" stroke="#FBBF24" stroke-width="4" stroke-linecap="round" />
+</svg>
