@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" fill="none">
+  <defs>
+    <linearGradient id="flashGrad" x1="20" y1="20" x2="108" y2="108" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#FACC15" />
+      <stop offset="50%" stop-color="#F59E0B" />
+      <stop offset="100%" stop-color="#00F0FF" />
+    </linearGradient>
+  </defs>
+  <rect width="128" height="128" rx="28" fill="#141107" />
+  <!-- Flash Lightning Blade -->
+  <polygon points="72,20 34,70 62,70 56,108 94,58 66,58" fill="url(#flashGrad)" />
+  <circle cx="86" cy="30" r="4" fill="#00F0FF" />
+</svg>

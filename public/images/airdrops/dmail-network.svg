@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" fill="none">
+  <defs>
+    <linearGradient id="dmailGrad" x1="20" y1="20" x2="108" y2="108" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#00F2FE" />
+      <stop offset="100%" stop-color="#4FACFE" />
+    </linearGradient>
+  </defs>
+  <rect width="128" height="128" rx="28" fill="#08111D" />
+  <!-- Dmail Envelope & Cyber Wings -->
+  <rect x="28" y="38" width="72" height="52" rx="10" stroke="url(#dmailGrad)" stroke-width="6" fill="#0E2138" />
+  <path d="M28 42L64 68L100 42" stroke="url(#dmailGrad)" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" />
+  <circle cx="64" cy="68" r="5" fill="#00F2FE" />
+</svg>

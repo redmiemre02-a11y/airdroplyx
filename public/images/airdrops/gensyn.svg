@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" fill="none">
+  <defs>
+    <linearGradient id="genGrad" x1="20" y1="20" x2="108" y2="108" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#FF5722" />
+      <stop offset="50%" stop-color="#FF9800" />
+      <stop offset="100%" stop-color="#FFC107" />
+    </linearGradient>
+  </defs>
+  <rect width="128" height="128" rx="28" fill="#160B08" />
+  <!-- Gensyn Deep Learning Mesh Cube -->
+  <path d="M64 24L96 44V84L64 104L32 84V44L64 24Z" stroke="url(#genGrad)" stroke-width="5" fill="#24110A" />
+  <line x1="64" y1="24" x2="64" y2="64" stroke="url(#genGrad)" stroke-width="4" />
+  <line x1="96" y1="44" x2="64" y2="64" stroke="url(#genGrad)" stroke-width="4" />
+  <line x1="32" y1="44" x2="64" y2="64" stroke="url(#genGrad)" stroke-width="4" />
+  <line x1="64" y1="64" x2="64" y2="104" stroke="url(#genGrad)" stroke-width="4" />
+  <circle cx="64" cy="64" r="8" fill="#FFC107" />
+</svg>

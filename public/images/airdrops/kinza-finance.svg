@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" fill="none">
+  <defs>
+    <linearGradient id="kinzaGrad" x1="20" y1="20" x2="108" y2="108" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#FCD535" />
+      <stop offset="100%" stop-color="#F0B90B" />
+    </linearGradient>
+  </defs>
+  <rect width="128" height="128" rx="28" fill="#12161C" />
+  <!-- Kinza Shield Emblem -->
+  <polygon points="64,22 98,40 98,82 64,106 30,82 30,40" stroke="url(#kinzaGrad)" stroke-width="6" fill="#1E232D" />
+  <path d="M46 54L64 42L82 54V76L64 88L46 76V54Z" fill="url(#kinzaGrad)" />
+  <circle cx="64" cy="65" r="5" fill="#12161C" />
+</svg>

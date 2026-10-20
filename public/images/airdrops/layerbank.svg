@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" fill="none">
+  <defs>
+    <linearGradient id="lbGrad" x1="20" y1="20" x2="108" y2="108" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#10B981" />
+      <stop offset="50%" stop-color="#06B6D4" />
+      <stop offset="100%" stop-color="#3B82F6" />
+    </linearGradient>
+  </defs>
+  <rect width="128" height="128" rx="28" fill="#07131B" />
+  <!-- LayerBank Stepped Vault Layers -->
+  <path d="M64 24L96 42L64 60L32 42L64 24Z" fill="url(#lbGrad)" />
+  <path d="M32 58L64 76L96 58V68L64 86L32 68V58Z" fill="url(#lbGrad)" opacity="0.8" />
+  <path d="M32 78L64 96L96 78V88L64 106L32 88V78Z" fill="url(#lbGrad)" opacity="0.6" />
+</svg>

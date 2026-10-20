@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" fill="none">
+  <defs>
+    <linearGradient id="osGrad" x1="20" y1="20" x2="108" y2="108" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#2081E2" />
+      <stop offset="100%" stop-color="#1868B7" />
+    </linearGradient>
+  </defs>
+  <rect width="128" height="128" rx="28" fill="#0A182B" />
+  <!-- OpenSea Sailboat Silhouette -->
+  <path d="M64 24L64 88M64 24L38 68H64M64 36L88 74H64" stroke="#2081E2" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" />
+  <path d="M30 88C30 88 44 104 64 104C84 104 98 88 98 88H30Z" fill="url(#osGrad)" />
+  <circle cx="64" cy="24" r="5" fill="#38BDF8" />
+</svg>

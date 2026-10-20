@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" fill="none">
+  <defs>
+    <linearGradient id="agoraGrad" x1="20" y1="20" x2="108" y2="108" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#FBBF24" />
+      <stop offset="50%" stop-color="#F59E0B" />
+      <stop offset="100%" stop-color="#B45309" />
+    </linearGradient>
+  </defs>
+  <rect width="128" height="128" rx="28" fill="#141006" />
+  <!-- Agora Classical Pillar Arch -->
+  <path d="M28 36H100V46H28V36Z" fill="url(#agoraGrad)" />
+  <rect x="36" y="46" width="10" height="46" fill="url(#agoraGrad)" />
+  <rect x="59" y="46" width="10" height="46" fill="url(#agoraGrad)" />
+  <rect x="82" y="46" width="10" height="46" fill="url(#agoraGrad)" />
+  <path d="M24 92H104V102H24V92Z" fill="url(#agoraGrad)" />
+  <circle cx="64" cy="24" r="5" fill="#FDE047" />
+</svg>

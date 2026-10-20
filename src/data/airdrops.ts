@@ -12238,5 +12238,736 @@ export const airdrops: Airdrop[] = [
         "answer": "Unisat and Xverse wallets are natively supported for interacting with the Bison rollup."
       }
     ]
+  },
+
+  {
+    "id": "opensea",
+    "name": "OpenSea",
+    "category": "NFT",
+    "tier": "Tier 1",
+    "status": "Active",
+    "stage": "Mainnet",
+    "potentialReward": "$1,500 - $10,000",
+    "cost": "Gas fees + Trading Volume (~$10 - $30)",
+    "timeRequired": "15 mins / weekly",
+    "platform": "Web / Multi-Chain",
+    "description": "The world’s largest NFT and digital collectibles marketplace with over $400M in venture funding from Paradigm and a16z, unveiling OpenSea 2.0 with seasonal rewards and XP.",
+    "logo": "/images/airdrops/opensea.svg",
+    "refLink": "https://opensea.io",
+    "tags": [
+      "NFT Marketplace",
+      "OpenSea 2.0",
+      "XP Rewards",
+      "Paradigm",
+      "a16z",
+      "Tier 1"
+    ],
+    "featured": true,
+    "startDate": "Dec 2017",
+    "endDate": "Q4 2025",
+    "requirements": [
+      "EVM or Solana Wallet",
+      "Buy, Sell or List Verified NFTs",
+      "Participate in OpenSea 2.0 Waitlist & XP",
+      "Maintain Historical Wallet Activity"
+    ],
+    "overview": "OpenSea is the undisputed pioneer and world’s largest decentralized marketplace for non-fungible tokens (NFTs) and digital collectibles, having processed tens of billions of dollars in volume across millions of unique traders. Founded by Devin Finzer and Alex Atallah and backed by over $400 Million in venture capital led by Paradigm, Andreessen Horowitz (a16z), Founders Fund, and Coatue at a peak $13.3 Billion valuation, OpenSea remains the cultural epicenter of on-chain digital ownership.\n\nOpenSea powers seamless discovery, listing, bidding, and atomic trading across Ethereum, Polygon, Arbitrum, Optimism, Base, Zora, Blast, Avalanche, and Solana. With the announcement of \"OpenSea 2.0\"—a completely rebuilt trading engine featuring high-speed pro trading terminals, cross-collection liquidity bids, token launchpads, and integrated seasonal XP leaderboards—OpenSea is positioning for a historic community governance transition.\n\nWith intense market anticipation surrounding a prospective community token distribution, active NFT collectors and pro traders who maintain regular bidding and listing volume, connect historical wallets, and participate in OpenSea 2.0 promotional campaigns are positioned at the forefront of the largest consumer airdrop event in Web3 history.",
+    "tokenomics": "The prospective OpenSea governance token will decentralize marketplace fee routing, direct community creator grants, incentivize cross-chain liquidity bids, and grant fee rebates to active platform stakers and collectors.",
+    "sybilDefense": "OpenSea evaluates lifetime trading volume, collection verification status, historical account age dating back to 2021-2023, and wash-trading detection filters. Circular trading between self-owned wallets on zero-royalty unverified collections is systematically stripped from XP scoring.",
+    "strategy": "To position for maximum OpenSea 2.0 rewards and retroactive airdrop allocations:\n\n1. Sign up for the official OpenSea 2.0 waitlist and connect your primary active Web3 wallet.\n2. Place active bids close to the floor price on verified Top 50 NFT collections on Ethereum, Base, or Polygon.\n3. List eligible NFTs at competitive market prices to continuously accumulate passive listing activity points.\n4. Execute cross-chain NFT purchases on low-cost Layer 2 networks (Base, Zora, Arbitrum) to maintain weekly activity streaks.",
+    "steps": [
+      "Visit the official <a href=\"https://opensea.io\" target=\"_blank\" rel=\"noopener noreferrer\">OpenSea Portal</a>.",
+      "Connect your verified EVM wallet (MetaMask, Rabby) or Solana wallet.",
+      "Sign up for the OpenSea 2.0 revamped experience and waitlist incentives.",
+      "Browse verified collections on the <a href=\"https://opensea.io/rankings\" target=\"_blank\" rel=\"noopener noreferrer\">OpenSea Rankings</a> tab.",
+      "Place collection-wide bids on liquid Blue-Chip collections.",
+      "List verified NFTs from your personal wallet at fair market values.",
+      "Buy or mint digital art on cheap Layer 2 networks like Base or Zora.",
+      "Monitor your trade history and profile reputation on your OpenSea Account dashboard."
+    ],
+    "faqs": [
+      {
+        "question": "What is OpenSea 2.0?",
+        "answer": "OpenSea 2.0 is a ground-up redesign of OpenSea featuring pro trading tools, cross-chain order books, XP rewards, and renewed community token governance alignment."
+      },
+      {
+        "question": "Who are OpenSea’s lead investors?",
+        "answer": "OpenSea raised over $400M led by Paradigm and a16z, with participation from Founders Fund, Coatue, and prominent Web3 angels."
+      },
+      {
+        "question": "Does OpenSea have an official token yet?",
+        "answer": "OpenSea does not have a live token yet, making early and consistent marketplace activity prime criteria for anticipated retroactive rewards."
+      },
+      {
+        "question": "Which blockchains are supported on OpenSea?",
+        "answer": "OpenSea supports Ethereum, Base, Polygon, Arbitrum, Optimism, Zora, Blast, Avalanche, Klaytn, and Solana."
+      },
+      {
+        "question": "Does buying NFTs on Base or Polygon qualify?",
+        "answer": "Yes, OpenSea treats verified trading activity across supported Layer 2 networks identically to Ethereum mainnet with much lower gas fees."
+      },
+      {
+        "question": "How does OpenSea prevent wash trading?",
+        "answer": "OpenSea flags circular transactions between linked wallets and only scores trades on verified, high-volume legitimate collections."
+      }
+    ]
+  },
+
+  {
+    "id": "ritual",
+    "name": "Ritual",
+    "category": "AI",
+    "tier": "Tier 1",
+    "status": "Active",
+    "stage": "Testnet",
+    "potentialReward": "$1,200 - $8,000",
+    "cost": "Free (Testnet Faucet)",
+    "timeRequired": "15 mins / weekly",
+    "platform": "Web / Multi-Chain",
+    "description": "Sovereign AI execution layer bringing artificial intelligence models directly into smart contracts, backed by $25M from Archetype, Robot Ventures, and Polychain.",
+    "logo": "/images/airdrops/ritual.svg",
+    "refLink": "https://ritual.net",
+    "tags": [
+      "AI Coprocessor",
+      "Infernet",
+      "Smart Contracts",
+      "Archetype",
+      "Polychain",
+      "Tier 1"
+    ],
+    "featured": true,
+    "startDate": "Nov 2023",
+    "endDate": "Q4 2025",
+    "requirements": [
+      "EVM Wallet",
+      "Run Infernet Node or Interact with Ritual Testnet",
+      "Submit AI Inference Queries",
+      "Complete Developer Bounties"
+    ],
+    "overview": "Ritual is the foundational sovereign AI execution layer designed to seamlessly integrate artificial intelligence and machine learning models directly into on-chain smart contracts. Founded by Niraj Pant and Akilesh Potti and backed by $25 Million in venture financing led by Archetype, with participation from Polychain Capital, Robot Ventures, Accomplice, and prominent AI researchers, Ritual bridges the gap between off-chain compute and on-chain trustlessness.\n\nRitual’s flagship infrastructure product, \"Infernet\", allows smart contracts across any blockchain (Ethereum, Base, Arbitrum) to request, compute, and cryptographically verify AI inference tasks—such as automated risk curation, dynamic NFT generation, fraud detection, and autonomous DeFi agents. Ritual is building a dedicated sovereign Layer 1 execution chain tailored with custom coprocessors and zero-knowledge cryptographic provers for high-throughput AI workloads.\n\nRitual is conducting developer testnet cohorts and community node deployment phases. Developers who integrate the Infernet SDK, node operators who host inference containers, and community members who participate in Ritual ecosystem quests are prime candidates for genesis token allocations.",
+    "tokenomics": "The Ritual native token will power node operator staking, coordinate decentralized inference pricing and verification fees, incentivize AI model creators, and govern circuit registries on the Ritual sovereign chain.",
+    "sybilDefense": "Ritual verification requires valid cryptographic execution traces and machine learning benchmarking outputs. Nodes attempting to return dummy data without real model computation are penalized and disqualified from reward queues.",
+    "strategy": "To position for maximum Ritual ($RITUAL) airdrop rewards:\n\n1. If you have basic developer experience, set up a local Infernet Node using Docker following the official Ritual GitHub guides.\n2. Deploy a simple smart contract that calls an Infernet AI container to log on-chain inference callbacks on Base or Sepolia.\n3. Participate in active community hackathons and developer testing rounds in the Ritual Discord.\n4. Complete official social and technical quests on community platforms to secure verified roles.",
+    "steps": [
+      "Visit the official <a href=\"https://ritual.net\" target=\"_blank\" rel=\"noopener noreferrer\">Ritual Portal</a>.",
+      "Explore the developer architecture on the <a href=\"https://docs.ritual.net\" target=\"_blank\" rel=\"noopener noreferrer\">Ritual Documentation</a>.",
+      "Clone and set up the Infernet Container repository from GitHub.",
+      "Deploy an Infernet Node to listen for on-chain inference requests.",
+      "Interact with sample contracts that invoke AI models on Sepolia or Base testnet.",
+      "Submit your node telemetry and verified query hashes to community leaderboards.",
+      "Join the Ritual Discord community to verify your developer credentials.",
+      "Track updates regarding the upcoming Ritual sovereign chain public testnet."
+    ],
+    "faqs": [
+      {
+        "question": "What is Ritual?",
+        "answer": "Ritual is a decentralized AI execution layer that enables smart contracts to call and verify machine learning models on-chain without centralized APIs."
+      },
+      {
+        "question": "Who invested in Ritual?",
+        "answer": "Ritual raised $25M led by Archetype, with backing from Polychain Capital, Robot Ventures, Accomplice, and leading AI founders."
+      },
+      {
+        "question": "What is Infernet?",
+        "answer": "Infernet is Ritual’s first product—a decentralized Oracle-like framework that connects smart contracts to AI model inference engines off-chain."
+      },
+      {
+        "question": "Do I need a GPU to participate in Ritual testnets?",
+        "answer": "Basic Infernet testing can be run with standard CPU hardware or cloud instances; advanced model hosting benefits from NVIDIA GPUs."
+      },
+      {
+        "question": "Which blockchains does Ritual support?",
+        "answer": "Ritual’s Infernet currently connects to Ethereum, Base, Arbitrum, and other EVM-compatible chains, alongside a dedicated sovereign chain."
+      },
+      {
+        "question": "When will the Ritual token launch?",
+        "answer": "Token launch is anticipated following the conclusion of current developer testnet phases and mainnet network genesis."
+      }
+    ]
+  },
+
+  {
+    "id": "hyperbolic",
+    "name": "Hyperbolic",
+    "category": "AI",
+    "tier": "Tier 1",
+    "status": "Active",
+    "stage": "Mainnet / Testnet",
+    "potentialReward": "$1,000 - $6,500",
+    "cost": "Free to test / Compute bandwidth for Node providers",
+    "timeRequired": "10 mins / weekly",
+    "platform": "Web / Multi-Chain",
+    "description": "Decentralized open-access AI cloud and verifiable compute network backed by $7M from Polychain Capital and Lightspeed Faction, running the Spire points campaign.",
+    "logo": "/images/airdrops/hyperbolic.svg",
+    "refLink": "https://hyperbolic.xyz",
+    "tags": [
+      "AI Cloud",
+      "Verifiable Compute",
+      "GPU Grid",
+      "Polychain",
+      "Spire Points",
+      "Tier 1"
+    ],
+    "featured": true,
+    "startDate": "Jan 2024",
+    "endDate": "Q4 2025",
+    "requirements": [
+      "EVM Wallet",
+      "NVIDIA GPU for Node Providers or Web Browser",
+      "Run AI Prompts on Hyperbolic AI Studio",
+      "Earn Spire Points"
+    ],
+    "overview": "Hyperbolic is an open-access decentralized AI cloud and verifiable computing platform engineered to unite the world’s distributed compute power into an open, secure, and affordable AI ecosystem. Co-founded by leading computer scientists Jasper Zhang and Yuchen Jin and backed by $7 Million in funding led by Polychain Capital and Lightspeed Faction, with participation from Chapter One and prominent AI researchers, Hyperbolic solves the global GPU shortage.\n\nHyperbolic aggregates enterprise data centers, decentralized GPU miners, and consumer hardware into a unified computational grid. Crucially, Hyperbolic implements \"Proof of Sampling\" (PoSP)—a breakthrough cryptographic protocol that provides mathematical guarantees that AI inference and training workloads were computed honestly without requiring redundant, expensive re-computation.\n\nHyperbolic is executing the official \"Spire\" points and community incentive program. Users earn Spire points by utilizing the Hyperbolic AI Studio to run open-source LLMs (Llama 3.1, DeepSeek), deploying GPU nodes to the Hyperbolic compute marketplace, and completing developer bounties ahead of the native token generation event.",
+    "tokenomics": "The Hyperbolic native token will coordinate the decentralized AI compute marketplace. AI developers burn tokens to access high-speed GPU clusters, while node providers stake tokens and receive programmatic emissions based on verified uptime and benchmarked FLOPS.",
+    "sybilDefense": "Proof of Sampling (PoSP) cryptographically verifies AI inference responses against randomized validator challenges. Fraudulent compute providers submitting fabricated text or fake inference results are automatically slashed and stripped of Spire points.",
+    "strategy": "To position for maximum Hyperbolic ($HYPER) token rewards:\n\n1. Connect your EVM wallet to the Hyperbolic AI Studio and claim your Spire points profile.\n2. Interact with state-of-the-art open-source LLMs on the Hyperbolic Chat and Inference interface daily.\n3. If you have an NVIDIA GPU (RTX 3080, 4090, or enterprise GPUs), apply as a GPU compute provider to earn high-tier mining Spire points.\n4. Complete official partner quests on Galxe and participate in community AI prompt challenges in Discord.",
+    "steps": [
+      "Visit the official <a href=\"https://hyperbolic.xyz\" target=\"_blank\" rel=\"noopener noreferrer\">Hyperbolic Portal</a>.",
+      "Launch the <a href=\"https://app.hyperbolic.xyz\" target=\"_blank\" rel=\"noopener noreferrer\">Hyperbolic AI App</a> and connect your EVM wallet.",
+      "Test open-source LLMs including Llama 3 on the <a href=\"https://app.hyperbolic.xyz/chat\" target=\"_blank\" rel=\"noopener noreferrer\">Hyperbolic Playground</a>.",
+      "Generate API keys to test developer AI model integrations.",
+      "Apply to join the Hyperbolic GPU Provider Grid if you own eligible hardware.",
+      "Track your earned Spire points and global rank on the Spire Dashboard.",
+      "Join the Hyperbolic Discord server to claim community contributor roles.",
+      "Participate in weekly community benchmark testing events."
+    ],
+    "faqs": [
+      {
+        "question": "What is Hyperbolic?",
+        "answer": "Hyperbolic is a decentralized AI cloud that provides open-access GPU compute and verifiable AI inference powered by Proof of Sampling."
+      },
+      {
+        "question": "Who invested in Hyperbolic?",
+        "answer": "Hyperbolic raised $7M led by Polychain Capital and Lightspeed Faction, with participation from Chapter One and prominent angels."
+      },
+      {
+        "question": "What are Spire Points?",
+        "answer": "Spire Points are community loyalty points earned by testing AI models, supplying GPU compute, and participating in the Hyperbolic ecosystem."
+      },
+      {
+        "question": "What is Proof of Sampling (PoSP)?",
+        "answer": "PoSP is a cryptographic verification protocol invented by Hyperbolic that proves AI inference was computed accurately with minimal overhead."
+      },
+      {
+        "question": "Can everyday users test Hyperbolic for free?",
+        "answer": "Yes, everyday users can chat with state-of-the-art open-source models for free on the Hyperbolic Playground."
+      },
+      {
+        "question": "How do GPU providers earn tokens?",
+        "answer": "GPU providers connect their hardware to the Hyperbolic marketplace and earn continuous rewards for fulfilling compute requests."
+      }
+    ]
+  },
+
+  {
+    "id": "agora-dollar",
+    "name": "Agora",
+    "category": "DeFi",
+    "tier": "Tier 1",
+    "status": "Active",
+    "stage": "Mainnet",
+    "potentialReward": "$800 - $5,000",
+    "cost": "Gas fees + Stablecoin Deposit (~$10 - $20)",
+    "timeRequired": "10 mins",
+    "platform": "Web / Ethereum, Arbitrum & Avalanche",
+    "description": "Next-generation institutional digital dollar ($AUSD) backed 1:1 by cash and US Treasuries managed by State Street and VanEck, with $12M from Dragonfly Capital.",
+    "logo": "/images/airdrops/agora-dollar.svg",
+    "refLink": "https://agora.finance",
+    "tags": [
+      "Stablecoin",
+      "AUSD",
+      "State Street",
+      "VanEck",
+      "Dragonfly Capital",
+      "Tier 1"
+    ],
+    "featured": true,
+    "startDate": "Jun 2024",
+    "endDate": "Q4 2025",
+    "requirements": [
+      "EVM Wallet",
+      "USDC / USDT to Mint AUSD",
+      "Hold or Provide Liquidity with AUSD",
+      "Participate in Ecosystem Partner Pools"
+    ],
+    "overview": "Agora is an institutional-grade digital dollar protocol engineered to build an open, free, and transparent global payments rail for the next generation of financial markets. Founded by Nick van Eck (son of legendary investment pioneer Jan van Eck) and crypto veterans Drake Evans and Joe Rosenthal, Agora is backed by $12 Million in seed funding led by Dragonfly Capital with participation from General Catalyst, Robot Ventures, and Wintermute.\n\nAgora’s flagship asset is $AUSD—a decentralized, bankruptcy-remote digital dollar backed 1:1 by ultra-liquid cash, overnight repo agreements, and short-term US Treasury Bills. Uniquely, the underlying reserves backing AUSD are managed exclusively by State Street Global Advisors, one of the world’s largest asset management corporations with over $4 Trillion under management, while VanEck acts as a strategic distribution partner.\n\nUnlike traditional stablecoin issuers who hoard yield, Agora operates on a cooperative business model, sharing reserve interest with the businesses, protocols, and liquidity providers that facilitate AUSD adoption. Depositors and liquidity providers who hold AUSD across Ethereum, Arbitrum, Avalanche, and Sui, or stake AUSD in partner DEXs earn continuous loyalty allocations.",
+    "tokenomics": "While AUSD maintains a stable $1 peg backed by State Street-managed reserves, Agora’s ecosystem framework incorporates community governance, partner fee-rebate pools, and liquidity incentive allocations designed to challenge the centralized duopoly of USDT and USDC.",
+    "sybilDefense": "Agora evaluates capital-weighted deposit size and duration of liquidity provision across verified decentralized exchanges. Micro-wallet bot networks cycling sub-dollar dust amounts receive negligible points.",
+    "strategy": "To position for top-tier Agora ecosystem incentives and partner airdrops:\n\n1. Mint or swap for $AUSD on supported decentralized exchanges across Ethereum, Arbitrum, or Avalanche.\n2. Supply AUSD into high-volume liquidity pools on Curve, Camelot, or Trader Joe to earn double-digit yield.\n3. Deposit AUSD as lending collateral in partner money markets (like Aave or Euler).\n4. Retain verified AUSD balances across monthly snapshot milestones.",
+    "steps": [
+      "Visit the official <a href=\"https://agora.finance\" target=\"_blank\" rel=\"noopener noreferrer\">Agora Finance Portal</a>.",
+      "Review the reserve custody structure managed by State Street.",
+      "Acquire <a href=\"https://agora.finance\" target=\"_blank\" rel=\"noopener noreferrer\">AUSD</a> on Curve or Uniswap across Arbitrum or Avalanche.",
+      "Deposit AUSD into verified automated market maker liquidity pools.",
+      "Supply AUSD collateral to earn lending yield in partner protocols.",
+      "Bridge AUSD across supported Layer 2 chains to build multi-network volume.",
+      "Follow official announcements regarding Agora partner rewards and point initiatives.",
+      "Hold AUSD balances continuously in self-custody to guarantee snapshot eligibility."
+    ],
+    "faqs": [
+      {
+        "question": "What is AUSD by Agora?",
+        "answer": "AUSD is an institutional digital dollar backed 1:1 by US Treasuries and cash reserves managed by State Street Global Advisors."
+      },
+      {
+        "question": "Who invested in Agora?",
+        "answer": "Agora raised $12M led by Dragonfly Capital, with participation from General Catalyst, Robot Ventures, Wintermute, and VanEck."
+      },
+      {
+        "question": "How is Agora different from Tether (USDT)?",
+        "answer": "Agora partners with the world’s top custodian (State Street) and shares revenue with the protocols and users that drive its adoption."
+      },
+      {
+        "question": "Which blockchains support AUSD?",
+        "answer": "AUSD is deployed on Ethereum mainnet, Arbitrum, Avalanche, and Sui, with rapid expansion planned across all major networks."
+      },
+      {
+        "question": "Can I redeem AUSD for fiat USD?",
+        "answer": "Institutional users can redeem AUSD directly for USD with State Street; retail users can swap AUSD 1:1 for USDC or USDT on DEXs."
+      },
+      {
+        "question": "Is Agora audited and compliant?",
+        "answer": "Yes, Agora operates in full compliance with US regulatory frameworks and its smart contracts are audited by leading security firms."
+      }
+    ]
+  },
+
+  {
+    "id": "kinza-finance",
+    "name": "Kinza Finance",
+    "category": "DeFi",
+    "tier": "Tier 1",
+    "status": "Active",
+    "stage": "Mainnet",
+    "potentialReward": "$800 - $4,500",
+    "cost": "Gas fees + Collateral Deposit (~$5 - $15 on BNB Chain)",
+    "timeRequired": "10 mins / weekly",
+    "platform": "Web / BNB Chain & opBNB",
+    "description": "Premier security-first decentralized lending protocol on BNB Chain and opBNB incubated by Binance Labs (MVB VI), running the Kinza Airdrop Points system.",
+    "logo": "/images/airdrops/kinza-finance.svg",
+    "refLink": "https://kinza.finance",
+    "tags": [
+      "Lending",
+      "BNB Chain",
+      "opBNB",
+      "Binance Labs",
+      "Airdrop Points",
+      "Tier 1"
+    ],
+    "featured": true,
+    "startDate": "Aug 2023",
+    "endDate": "Q4 2025",
+    "requirements": [
+      "BNB Chain or opBNB Wallet",
+      "Deposit Collateral (BNB, BTCB, USDT)",
+      "Borrow Assets to Earn Points",
+      "Maintain Active Lending Position"
+    ],
+    "overview": "Kinza Finance is a next-generation decentralized lending protocol and financial market engineered natively on BNB Chain and opBNB. Incubated and backed by Binance Labs under the prestigious Most Valuable Builder (MVB VI) program, Kinza combines algorithmic interest rate models with advanced dynamic risk management and real-world asset (RWA) integration.\n\nKinza prioritizes safety through custom isolated asset pools, decentralized oracle networks, and real-time smart contract liquidation telemetry. By building natively on BNB Chain and the sub-cent opBNB Layer 2, Kinza provides institutional and retail borrowers with lightning-fast execution and negligible transaction costs.\n\nKinza is running the official \"Kinza Airdrop Points\" program. A massive 55% of the total $KZA token supply is allocated to community incentives and airdrops. Depositors and borrowers earn daily points proportional to their liquidity supplied, which convert directly into $KZA tokens at TGE.",
+    "tokenomics": "The $KZA governance token commands a 100 Million maximum supply. An extraordinary 55% of the entire supply is dedicated to community airdrops and ongoing liquidity incentives, 12% to the team, 10% to ecosystem development, and remainder to reserve and investors. Staked KZA receives fee-sharing dividends.",
+    "sybilDefense": "Kinza calculates points strictly based on real capital value supplied or borrowed multiplied by the duration of the deposit. Automated bot swarms depositing disposable micro-amounts receive negligible points.",
+    "strategy": "To position for maximum $KZA token airdrop allocations:\n\n1. Connect your Web3 wallet to Kinza Finance on BNB Chain or opBNB.\n2. Deposit collateral (BNB, BTCB, ETH, or USDT) into high-capacity lending pools to accumulate daily points.\n3. Borrow stablecoins against your supplied collateral to unlock a 4x boosted points multiplier.\n4. Maintain your deposit continuously across weekly snapshots to maximize your loyalty points tier.",
+    "steps": [
+      "Visit the official <a href=\"https://kinza.finance\" target=\"_blank\" rel=\"noopener noreferrer\">Kinza Finance Portal</a>.",
+      "Launch the <a href=\"https://app.kinza.finance\" target=\"_blank\" rel=\"noopener noreferrer\">Kinza Application</a> and connect your EVM wallet.",
+      "Select BNB Chain or opBNB network for ultra-low transaction fees.",
+      "Supply BNB, BTCB, or USDT into the <a href=\"https://app.kinza.finance/#/market\" target=\"_blank\" rel=\"noopener noreferrer\">Kinza Market</a>.",
+      "Borrow assets against your collateral to earn the 4x points borrowing boost.",
+      "Check your daily accumulated points on the Kinza Airdrop Dashboard.",
+      "Share your referral link to earn 10% bonus points from referred friends’ activity.",
+      "Hold your lending positions continuously to lock in snapshot eligibility."
+    ],
+    "faqs": [
+      {
+        "question": "What is Kinza Finance?",
+        "answer": "Kinza Finance is a premier decentralized lending protocol on BNB Chain and opBNB incubated and backed by Binance Labs."
+      },
+      {
+        "question": "Who invested in Kinza Finance?",
+        "answer": "Kinza was selected and incubated by Binance Labs as part of the Most Valuable Builder (MVB VI) accelerator."
+      },
+      {
+        "question": "How much of the KZA supply is allocated to airdrops?",
+        "answer": "Kinza has allocated 55% of the total 100M $KZA token supply to community airdrops and liquidity mining incentives."
+      },
+      {
+        "question": "How do I earn Kinza Airdrop Points?",
+        "answer": "You earn points daily by supplying collateral (1 point per dollar per day) and borrowing assets (4 points per dollar per day)."
+      },
+      {
+        "question": "Can I use opBNB with Kinza?",
+        "answer": "Yes, Kinza is deployed on opBNB, allowing users to earn points with transaction fees costing fractions of a cent."
+      },
+      {
+        "question": "Are Kinza Finance smart contracts audited?",
+        "answer": "Yes, Kinza Finance contracts have been comprehensively audited by leading security firm Salus."
+      }
+    ]
+  },
+
+  {
+    "id": "flash-trade",
+    "name": "Flash Trade",
+    "category": "DeFi",
+    "tier": "Tier 1",
+    "status": "Active",
+    "stage": "Mainnet",
+    "potentialReward": "$1,000 - $6,000",
+    "cost": "Solana gas & trade volume (~$5 - $15)",
+    "timeRequired": "15 mins / weekly",
+    "platform": "Web / Solana",
+    "description": "Next-generation Solana perpetual DEX offering up to 100x leverage on crypto, gold, and forex with dynamic NFT liquidity pools and the $FLX rewards system.",
+    "logo": "/images/airdrops/flash-trade.svg",
+    "refLink": "https://flash.trade",
+    "tags": [
+      "Perpetuals",
+      "Solana",
+      "Gold & Forex",
+      "FLX",
+      "Dynamic NFTs",
+      "Tier 1"
+    ],
+    "featured": true,
+    "startDate": "Jan 2024",
+    "endDate": "Q4 2025",
+    "requirements": [
+      "Solana Wallet (Phantom, Backpack)",
+      "SOL or USDC Collateral",
+      "Trade Perpetuals on Flash Trade",
+      "Mint or Level Up Flash Beast NFT"
+    ],
+    "overview": "Flash Trade is a high-speed, innovative decentralized perpetual futures exchange built natively on the Solana blockchain. Engineered to capitalize on Solana’s sub-second block times and low transaction fees, Flash Trade offers up to 100x leverage across traditional crypto assets (SOL, BTC, ETH) as well as real-world commodities (Gold, Silver) and major foreign exchange (Forex) pairs with zero price impact.\n\nFlash Trade pioneers a groundbreaking liquidity architecture combining multi-asset liquidity pools (FLP) with gamified Dynamic NFTs called \"Flash Beasts\". Each Flash Beast NFT evolves and levels up based on the user’s real-time trading volume, PnL, and staking consistency, unlocking enhanced fee discounts, referral rebates, and boosted allocations of the native governance token $FLX.\n\nFlash Trade is running active seasonal trading campaigns and liquidity incentives. Traders who maintain regular trading volume streaks, supply liquidity to the Flash Liquidity Pool (FLP), and level up their Flash Beasts are positioned for substantial $FLX token distributions.",
+    "tokenomics": "The $FLX token powers protocol governance, distributes exchange fee revenues to token stakers, and serves as the primary incentive asset for liquidity providers and top traders.",
+    "sybilDefense": "Flash Trade calculates rewards using non-linear trading volume formulas, fee contribution weights, and Flash Beast NFT evolution milestones. Artificial wash-trading loops without fee generation are filtered out from points snapshots.",
+    "strategy": "To position for maximum Flash Trade ($FLX) airdrop rewards:\n\n1. Connect your Solana wallet (Phantom or Backpack) to the Flash Trade terminal.\n2. Mint or link your dynamic Flash Beast NFT to begin tracking your trader level and XP.\n3. Execute regular perpetual trades across crypto, gold, and forex markets to generate volume.\n4. Deposit USDC or SOL into the FLP (Flash Liquidity Pool) to earn high passive trading fee yields and points.",
+    "steps": [
+      "Visit the official <a href=\"https://flash.trade\" target=\"_blank\" rel=\"noopener noreferrer\">Flash Trade Portal</a>.",
+      "Connect your Solana wallet (Backpack or Phantom).",
+      "Mint your dynamic <a href=\"https://flash.trade/nft\" target=\"_blank\" rel=\"noopener noreferrer\">Flash Beast NFT</a> to unlock trade tracking.",
+      "Deposit SOL or USDC collateral into your trading account.",
+      "Open long or short positions across crypto, gold, or forex markets on <a href=\"https://flash.trade/trade\" target=\"_blank\" rel=\"noopener noreferrer\">Flash Trade</a>.",
+      "Supply liquidity into the Flash Liquidity Pool (FLP) on the Earn dashboard.",
+      "Check your trader level, XP, and fee rebate status on your profile tab.",
+      "Participate in seasonal trading competitions to win bonus rewards."
+    ],
+    "faqs": [
+      {
+        "question": "What is Flash Trade?",
+        "answer": "Flash Trade is a decentralized perpetual exchange on Solana offering up to 100x leverage on crypto, gold, and forex with zero price impact."
+      },
+      {
+        "question": "What are Flash Beast NFTs?",
+        "answer": "Flash Beasts are dynamic NFTs that level up based on your trading activity, granting permanent fee discounts and airdrop multipliers."
+      },
+      {
+        "question": "What is the Flash Liquidity Pool (FLP)?",
+        "answer": "FLP is the liquidity pool backing all trades on Flash Trade; depositors earn a share of platform trading fees and liquidations."
+      },
+      {
+        "question": "What is the ticker symbol for Flash Trade?",
+        "answer": "Flash Trade’s native governance and reward token will trade under the ticker symbol $FLX."
+      },
+      {
+        "question": "Can I trade gold and forex on Solana with Flash Trade?",
+        "answer": "Yes, Flash Trade supports synthetic leveraged trading on Gold (XAU), Silver (XAG), EUR/USD, and other macro assets."
+      },
+      {
+        "question": "Is Flash Trade audited?",
+        "answer": "Yes, Flash Trade smart contracts have been thoroughly audited by top Solana security audit firms."
+      }
+    ]
+  },
+
+  {
+    "id": "dmail-network",
+    "name": "Dmail Network",
+    "category": "Social",
+    "tier": "Tier 1",
+    "status": "Active",
+    "stage": "Mainnet",
+    "potentialReward": "$600 - $3,500",
+    "cost": "Gas fees (<$1 on L2s)",
+    "timeRequired": "10 mins / weekly",
+    "platform": "Web / Multi-Chain",
+    "description": "Decentralized multi-chain AI-powered messaging and email infrastructure connecting millions of users, backed by $10M+ from HashKey, Amino, and KuCoin.",
+    "logo": "/images/airdrops/dmail-network.svg",
+    "refLink": "https://dmail.ai",
+    "tags": [
+      "Web3 Email",
+      "AI Messaging",
+      "Cross-Chain",
+      "HashKey",
+      "Dmail Points",
+      "Tier 1"
+    ],
+    "featured": true,
+    "startDate": "Jul 2021",
+    "endDate": "Q4 2025",
+    "requirements": [
+      "EVM, Solana, or Starknet Wallet",
+      "Mint Dmail NFT Domain",
+      "Send Encrypted Web3 Emails Across Chains",
+      "Collect Daily Dmail Points"
+    ],
+    "overview": "Dmail Network is the next-generation decentralized AI-powered communication and notification infrastructure engineered to provide secure, encrypted messaging, unified email services, and cross-chain marketing channels across all major Web3 ecosystems. Backed by over $10 Million in funding from prominent venture firms including HashKey Capital, Amino Capital, KuCoin Ventures, Draper Dragon, and Outlier Ventures, Dmail has onboarded over 10 Million registered accounts.\n\nDmail bridges traditional email protocols (like Gmail and Outlook) with decentralized blockchain identities (ENS, Space ID, Solana domain names). All messages sent through Dmail are end-to-end encrypted and can be settled across more than 30 supported blockchains including Ethereum, BNB Chain, Arbitrum, Base, Scroll, zkSync, Linea, and Solana with virtually zero gas fees.\n\nDmail is running the ongoing \"Dmail Points\" and Seasonal Airdrop Program for its native utility token $DAM. Users earn daily points by sending encrypted on-chain emails, minting free domain names, connecting AI personal assistants, and completing partner subscription quests.",
+    "tokenomics": "The $DAM token commands a 200 Million total supply. Token utility includes paying for enterprise message relays, purchasing premium Web3 domain handles, staking to operate decentralized notification nodes, and participating in Dmail DAO governance.",
+    "sybilDefense": "Dmail incorporates IP verification, daily point caps, and multi-network transaction requirements. Automated bot swarms mass-sending empty spam emails from single-use accounts are pruned by anti-spam machine learning algorithms.",
+    "strategy": "To position for maximum Dmail ($DAM) seasonal distributions:\n\n1. Connect your EVM or Solana wallet to the Dmail DApp and mint a free or discounted NFT email domain.\n2. Send 2 to 3 encrypted emails weekly across diverse Layer 2 networks (Base, Linea, Scroll, Arbitrum) to accumulate multi-chain points.\n3. Complete the daily tasks on the Dmail Points Center (inviting friends, using AI assistant, subscribing to partner channels).\n4. Hold your earned points and domain NFTs in self-custody to qualify for seasonal snapshot rounds.",
+    "steps": [
+      "Visit the official <a href=\"https://dmail.ai\" target=\"_blank\" rel=\"noopener noreferrer\">Dmail Network Portal</a>.",
+      "Launch the <a href=\"https://mail.dmail.ai\" target=\"_blank\" rel=\"noopener noreferrer\">Dmail DApp</a> and connect your EVM or Solana wallet.",
+      "Mint your personalized Web3 NFT email address domain.",
+      "Compose and send encrypted messages to external Gmail accounts or Web3 addresses.",
+      "Switch between different networks (Linea, Base, Scroll) to earn multi-chain transaction points.",
+      "Visit the <a href=\"https://mail.dmail.ai/points\" target=\"_blank\" rel=\"noopener noreferrer\">Dmail Points Center</a> to claim daily check-in points.",
+      "Subscribe to verified Web3 project notification hubs on the SubHub tab.",
+      "Monitor your accumulated points and exchange them for seasonal token rewards."
+    ],
+    "faqs": [
+      {
+        "question": "What is Dmail Network?",
+        "answer": "Dmail is a decentralized, encrypted Web3 email and messaging protocol that allows users to send secure messages between wallets and standard email providers."
+      },
+      {
+        "question": "Who invested in Dmail?",
+        "answer": "Dmail raised over $10M from investors including HashKey Capital, Amino Capital, KuCoin Ventures, Draper Dragon, and Outlier Ventures."
+      },
+      {
+        "question": "Which blockchains does Dmail support?",
+        "answer": "Dmail supports over 30 chains including Ethereum, BNB Chain, Arbitrum, Base, Linea, Scroll, Polygon, Solana, and Starknet."
+      },
+      {
+        "question": "What is the ticker symbol for Dmail?",
+        "answer": "Dmail Network’s native token trades under the ticker symbol $DAM."
+      },
+      {
+        "question": "Can I send emails to normal Gmail accounts using Dmail?",
+        "answer": "Yes, Dmail is fully interoperable with traditional email providers like Gmail, Yahoo, and Outlook."
+      },
+      {
+        "question": "Does Dmail cost money to use?",
+        "answer": "Sending emails on Layer 2 networks costs mere fractions of a cent, and daily faucet points can cover usage."
+      }
+    ]
+  },
+
+  {
+    "id": "layerbank",
+    "name": "LayerBank",
+    "category": "DeFi",
+    "tier": "Tier 1",
+    "status": "Active",
+    "stage": "Mainnet",
+    "potentialReward": "$800 - $4,500",
+    "cost": "Gas fees + Collateral Deposit (~$5 - $15)",
+    "timeRequired": "10 mins / weekly",
+    "platform": "Web / Multi-Chain",
+    "description": "Premier non-custodial multi-chain universal lending hub with over $100M in TVL across Linea, Scroll, Manta, and Base, running continuous airdrop point distributions.",
+    "logo": "/images/airdrops/layerbank.svg",
+    "refLink": "https://layerbank.finance",
+    "tags": [
+      "Lending",
+      "Multi-Chain",
+      "Linea",
+      "Scroll",
+      "Manta",
+      "Base",
+      "Tier 1"
+    ],
+    "featured": true,
+    "startDate": "Jul 2023",
+    "endDate": "Q4 2025",
+    "requirements": [
+      "EVM Wallet",
+      "ETH, USDC, or LST Collateral",
+      "Supply & Borrow on Linea or Scroll",
+      "Stake LAB Tokens for Revenue Share"
+    ],
+    "overview": "LayerBank is a premier non-custodial decentralized lending protocol designed to act as the universal liquidity backbone across the leading Layer 2 rollups in the Ethereum ecosystem. Commanding over $100 Million in Total Value Locked across Linea, Scroll, Manta Network, and Base, LayerBank provides high-capacity, isolated and cross-collateral money markets tailored specifically to newly launched zkEVM and optimistic rollups.\n\nLayerBank stands out by implementing an automatic revenue-sharing mechanism: 100% of protocol reserve fees generated from borrowers are channeled back into community staking pools. Depositors and stakers earn high real-yield APR paid natively in ETH and USDC, while simultaneously qualifying for underlying Layer 2 ecosystem points (such as Linea Voyage LXP, Scroll Marks, and Manta Fest).\n\nLayerBank is executing ongoing seasonal reward campaigns around its native token $LAB. Users who supply assets, borrow against their collateral, and stake $LAB in the revenue-sharing dashboard earn high compounding yields and multi-layered partner airdrops.",
+    "tokenomics": "The $LAB token commands a 100 Million maximum supply. $LAB is distributed to active depositors and borrowers across all supported chains, with stakers receiving 100% of protocol reserve fee revenues in native ETH and USDC.",
+    "sybilDefense": "LayerBank calculates rewards based strictly on net deposit volume and continuous loan utilization time. Micro-wallets cycling minimal liquidity receive negligible points.",
+    "strategy": "To position for maximum LayerBank ($LAB) rewards and Layer 2 points:\n\n1. Deposit ETH, USDC, or restaked LSTs into LayerBank on Linea or Scroll.\n2. Borrow stablecoins against your collateral to activate capital utilization metrics.\n3. Stake earned $LAB tokens in the LayerBank Revenue Sharing tab to collect daily ETH fee distributions.\n4. Maintain your lending positions across monthly snapshots to maximize combined Linea LXP and Scroll Marks.",
+    "steps": [
+      "Navigate to the official <a href=\"https://layerbank.finance\" target=\"_blank\" rel=\"noopener noreferrer\">LayerBank Portal</a>.",
+      "Launch the <a href=\"https://app.layerbank.finance\" target=\"_blank\" rel=\"noopener noreferrer\">LayerBank App</a> and connect your EVM wallet.",
+      "Select your preferred network (Linea, Scroll, Manta, or Base).",
+      "Deposit supported assets (ETH, USDC, or STONE) into the <a href=\"https://app.layerbank.finance/bank\" target=\"_blank\" rel=\"noopener noreferrer\">LayerBank Market</a>.",
+      "Borrow stablecoins against your collateral balance to earn high APR yield.",
+      "Check your accrued $LAB tokens and ecosystem points on the dashboard.",
+      "Stake $LAB in the Revenue Sharing pool to earn real ETH dividends.",
+      "Hold positions continuously to qualify for both LayerBank and Layer 2 network airdrops."
+    ],
+    "faqs": [
+      {
+        "question": "What is LayerBank?",
+        "answer": "LayerBank is a non-custodial universal lending protocol operational across Linea, Scroll, Manta, and Base, managing over $100M in TVL."
+      },
+      {
+        "question": "Does using LayerBank earn Linea LXP or Scroll Marks?",
+        "answer": "Yes, supplying and borrowing on LayerBank qualifies users for underlying Layer 2 ecosystem incentive programs like Linea Voyage and Scroll Marks."
+      },
+      {
+        "question": "What is the ticker symbol for LayerBank?",
+        "answer": "LayerBank’s native governance and revenue-sharing token trades under the ticker symbol $LAB."
+      },
+      {
+        "question": "How do stakers earn real yield on LayerBank?",
+        "answer": "100% of protocol reserve fees from borrower interest are distributed directly to $LAB token stakers in ETH and USDC."
+      },
+      {
+        "question": "Which assets can I use as collateral?",
+        "answer": "You can deposit ETH, wstETH, STONE, USDC, USDT, and native Layer 2 tokens."
+      },
+      {
+        "question": "Is LayerBank audited?",
+        "answer": "Yes, LayerBank smart contracts have been thoroughly audited by leading security firms including PeckShield and Verichains."
+      }
+    ]
+  },
+
+  {
+    "id": "gensyn",
+    "name": "Gensyn",
+    "category": "AI",
+    "tier": "Tier 1",
+    "status": "Active",
+    "stage": "Testnet / Devnet",
+    "potentialReward": "$1,500 - $9,000",
+    "cost": "Free to test / Compute for Node Operators",
+    "timeRequired": "15 mins",
+    "platform": "Web / Multi-Chain",
+    "description": "Decentralized deep learning compute protocol backed by $50M+ from a16z crypto and CoinFund, enabling global verification of large-scale AI model training.",
+    "logo": "/images/airdrops/gensyn.svg",
+    "refLink": "https://gensyn.ai",
+    "tags": [
+      "AI Training",
+      "Deep Learning",
+      "a16z crypto",
+      "DePIN",
+      "Verification",
+      "Tier 1"
+    ],
+    "featured": true,
+    "startDate": "Mar 2022",
+    "endDate": "Q4 2025",
+    "requirements": [
+      "EVM Wallet",
+      "GPU Hardware or Testnet Node",
+      "Run Verification Benchmarks",
+      "Join Gensyn Developer Community"
+    ],
+    "overview": "Gensyn is a foundational decentralized physical infrastructure and compute protocol designed to solve the single greatest existential challenge facing the artificial intelligence industry: the prohibitive cost and centralization of deep learning model training. Co-founded by Ben Fielding and Harry Grieve and backed by over $50 Million in venture capital led by Andreessen Horowitz (a16z crypto) with participation from CoinFund, Canonical Crypto, and Eden Block, Gensyn unites global compute hardware into a planetary supercluster.\n\nWhile training modern Large Language Models (LLMs) requires massive server farms owned exclusively by Big Tech monopolies, Gensyn introduces a novel cryptographic verification system based on probabilistic proof-of-learning, graph execution traces, and Truebit-style verification games. This breakthrough allows complex neural network training runs to be distributed across untrusted consumer, enterprise, and data-center GPUs with 100% verifiable correctness.\n\nGensyn is conducting its private developer testnet and node operator benchmarking rounds. Hardware providers, deep learning researchers, and community members who participate in compute benchmarking and testnet validation are positioned at the forefront of the most highly valued decentralized AI network in history.",
+    "tokenomics": "The Gensyn native token will coordinate the decentralized AI compute marketplace. Machine learning engineers stake and burn tokens to submit training jobs, while hardware solvers and verifiers stake tokens to earn programmatic compute emissions.",
+    "sybilDefense": "Gensyn requires deterministic gradient verification and cryptographic execution checkpoints. Nodes attempting to fake neural network training weights without performing real tensor computations are detected and slashed.",
+    "strategy": "To position for maximum Gensyn ($GENSYN) testnet rewards:\n\n1. Register your interest and connect your wallet on the official Gensyn portal.\n2. If you possess GPU hardware, follow the developer quickstarts to configure testnet node benchmarking.\n3. Participate in open-source machine learning benchmark tasks published on the Gensyn GitHub.\n4. Join the Gensyn Discord community and contribute to technical discussions and research cohorts.",
+    "steps": [
+      "Visit the official <a href=\"https://gensyn.ai\" target=\"_blank\" rel=\"noopener noreferrer\">Gensyn Portal</a>.",
+      "Explore the technical whitepaper and architecture at <a href=\"https://docs.gensyn.ai\" target=\"_blank\" rel=\"noopener noreferrer\">Gensyn Documentation</a>.",
+      "Sign up for the compute provider and researcher testnet whitelist.",
+      "Review the open-source verification repositories on Gensyn’s GitHub.",
+      "Configure test compute nodes to execute sample neural network training batches.",
+      "Submit training verification hashes to the testnet consensus contract.",
+      "Join the Gensyn Discord server to verify your community credentials.",
+      "Follow official roadmap announcements regarding public testnet phases."
+    ],
+    "faqs": [
+      {
+        "question": "What is Gensyn?",
+        "answer": "Gensyn is a decentralized compute protocol that enables large-scale artificial intelligence and deep learning model training across distributed hardware."
+      },
+      {
+        "question": "Who invested in Gensyn?",
+        "answer": "Gensyn raised over $50M in funding led by a16z crypto, with participation from CoinFund, Canonical Crypto, and prominent AI researchers."
+      },
+      {
+        "question": "How does Gensyn verify that AI training was done correctly?",
+        "answer": "Gensyn uses probabilistic proof-of-learning, gradient execution traces, and verification games to prove computations without re-running entire training runs."
+      },
+      {
+        "question": "What hardware can participate in Gensyn?",
+        "answer": "Any modern GPU—from consumer gaming GPUs to high-end enterprise data center accelerators (A100, H100)—can connect to the Gensyn network."
+      },
+      {
+        "question": "Is Gensyn currently on mainnet?",
+        "answer": "Gensyn is currently conducting testnet and developer benchmarking rounds leading toward public mainnet launch."
+      },
+      {
+        "question": "How is Gensyn different from Render or Bittensor?",
+        "answer": "Render focuses on 3D rendering and light inference, Bittensor focuses on inference subnets, while Gensyn is purpose-built for massive deep learning model training."
+      }
+    ]
+  },
+
+  {
+    "id": "biconomy",
+    "name": "Biconomy",
+    "category": "Infrastructure",
+    "tier": "Tier 1",
+    "status": "Active",
+    "stage": "Mainnet",
+    "potentialReward": "$800 - $4,500",
+    "cost": "Gas fees (<$1 on L2s)",
+    "timeRequired": "10 mins / weekly",
+    "platform": "Web / Multi-Chain",
+    "description": "Pioneering ERC-4337 account abstraction and modular smart account developer platform backed by $9M+ from Coinbase Ventures and Mechanism Capital, powering gasless Web3 UX.",
+    "logo": "/images/airdrops/biconomy.svg",
+    "refLink": "https://biconomy.io",
+    "tags": [
+      "Account Abstraction",
+      "ERC-4337",
+      "Smart Accounts",
+      "Coinbase Ventures",
+      "BICO",
+      "Tier 1"
+    ],
+    "featured": true,
+    "startDate": "May 2021",
+    "endDate": "Q4 2025",
+    "requirements": [
+      "EVM Wallet",
+      "Use Biconomy-Powered dApps for Gasless Transactions",
+      "Stake BICO Tokens for Governance",
+      "Deploy Modular Smart Account"
+    ],
+    "overview": "Biconomy is a foundational developer platform and account abstraction infrastructure protocol engineered to make Web3 applications as frictionless and seamless as traditional Web2 products. Backed by over $9 Million in funding from leading investors including Coinbase Ventures, Mechanism Capital, Digital Currency Group, and Bain Capital Crypto, Biconomy has executed over 50 Million gasless transactions across more than 400 decentralized applications.\n\nBiconomy pioneered the implementation of ERC-4337 smart accounts and modular account abstraction through its flagship SDKs—including the Biconomy Paymaster (enabling dApps to sponsor gas fees or accept gas payments in any ERC-20 token) and the Biconomy Bundler (aggregating user operations into single atomic transactions). Major protocols including The Sandbox, Decentraland, and dYdX utilize Biconomy to eliminate seed phrase complexity and blockchain popups.\n\nBiconomy operates continuous staking and ecosystem incentive programs centered around its native utility token $BICO. Users who stake $BICO, participate in DAO governance, and interact with Biconomy-powered modular smart account applications receive staking yields, gas fee rebates, and partner airdrops.",
+    "tokenomics": "The $BICO token commands a 1 Billion maximum supply. $BICO serves as the native gas and relayer coordination asset of the Biconomy network, incentivizes bundler and paymaster nodes, and powers Biconomy DAO governance voting.",
+    "sybilDefense": "Biconomy tracks unique user operation hashes, transaction diversity across multiple partner smart contracts, and staking tenure. Automated spam transactions that fail UserOperation validation are rejected by bundlers.",
+    "strategy": "To position for maximum Biconomy ($BICO) ecosystem rewards and partner token distributions:\n\n1. Interact with dApps that utilize Biconomy’s gasless paymaster and modular account abstraction (such as The Sandbox or dYdX).\n2. Deploy a modular smart account using Biconomy’s open-source developer dashboard.\n3. Acquire and stake $BICO tokens in the Biconomy Staking portal to earn passive staking APR.\n4. Vote on active Biconomy DAO governance proposals at Snapshot.",
+    "steps": [
+      "Visit the official <a href=\"https://biconomy.io\" target=\"_blank\" rel=\"noopener noreferrer\">Biconomy Portal</a>.",
+      "Explore the developer tools at <a href=\"https://docs.biconomy.io\" target=\"_blank\" rel=\"noopener noreferrer\">Biconomy Documentation</a>.",
+      "Deploy a test smart account using the Biconomy SDK dashboard.",
+      "Execute a gasless transaction sponsored via the Biconomy Paymaster.",
+      "Acquire $BICO tokens and navigate to the <a href=\"https://staking.biconomy.io\" target=\"_blank\" rel=\"noopener noreferrer\">Biconomy Staking Dashboard</a>.",
+      "Stake your $BICO tokens to begin earning daily staking rewards.",
+      "Vote on active Biconomy DAO improvement proposals at <a href=\"https://snapshot.org/#/biconomy.eth\" target=\"_blank\" rel=\"noopener noreferrer\">Biconomy Snapshot</a>.",
+      "Follow announcements regarding account abstraction modularity and partner airdrops."
+    ],
+    "faqs": [
+      {
+        "question": "What is Biconomy?",
+        "answer": "Biconomy is a Web3 developer infrastructure platform that enables gasless transactions, ERC-4337 account abstraction, and modular smart accounts."
+      },
+      {
+        "question": "Who invested in Biconomy?",
+        "answer": "Biconomy raised over $9M from top investors including Coinbase Ventures, Mechanism Capital, Digital Currency Group, and Bain Capital Crypto."
+      },
+      {
+        "question": "What is a Paymaster in Biconomy?",
+        "answer": "A Paymaster is a smart contract mechanism that allows dApps to sponsor transaction gas fees for users or accept gas payments in tokens like USDC."
+      },
+      {
+        "question": "What is the utility of the $BICO token?",
+        "answer": "BICO is used for network relayer fees, staking rewards, and governing the Biconomy DAO."
+      },
+      {
+        "question": "Which blockchains support Biconomy?",
+        "answer": "Biconomy supports Ethereum, Polygon, Arbitrum, Optimism, Base, BNB Chain, Avalanche, and major Layer 2 networks."
+      },
+      {
+        "question": "How many dApps use Biconomy?",
+        "answer": "Over 400 Web3 dApps have integrated Biconomy to provide gasless, seamless onboarding for their users."
+      }
+    ]
   }
 ];

@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" fill="none">
+  <defs>
+    <linearGradient id="hypGrad" x1="20" y1="20" x2="108" y2="108" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#06B6D4" />
+      <stop offset="50%" stop-color="#3B82F6" />
+      <stop offset="100%" stop-color="#8B5CF6" />
+    </linearGradient>
+  </defs>
+  <rect width="128" height="128" rx="28" fill="#080B17" />
+  <!-- Hyperbolic Curve Grid -->
+  <path d="M26 44C46 44 54 84 64 84C74 84 82 44 102 44" stroke="url(#hypGrad)" stroke-width="7" stroke-linecap="round" fill="none" />
+  <path d="M26 84C46 84 54 44 64 44C74 44 82 84 102 84" stroke="url(#hypGrad)" stroke-width="7" stroke-linecap="round" fill="none" opacity="0.6" />
+  <circle cx="64" cy="64" r="8" fill="#06B6D4" />
+</svg>
