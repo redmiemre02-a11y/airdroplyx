@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" fill="none">
+  <defs>
+    <linearGradient id="balGrad" x1="24" y1="24" x2="104" y2="104" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#F8FAFC" />
+      <stop offset="50%" stop-color="#94A3B8" />
+      <stop offset="100%" stop-color="#475569" />
+    </linearGradient>
+  </defs>
+  <rect width="128" height="128" rx="28" fill="#0B1120" />
+  <!-- Balancer Iconic Stacked Weighted Ellipses -->
+  <ellipse cx="64" cy="40" rx="22" ry="10" fill="url(#balGrad)" />
+  <ellipse cx="64" cy="64" rx="34" ry="12" fill="url(#balGrad)" />
+  <ellipse cx="64" cy="88" rx="44" ry="14" fill="url(#balGrad)" />
+  <circle cx="64" cy="64" r="4" fill="#38BDF8" />
+</svg>

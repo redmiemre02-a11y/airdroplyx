@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" fill="none">
+  <defs>
+    <linearGradient id="cvxGrad" x1="24" y1="24" x2="104" y2="104" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#38BDF8" />
+      <stop offset="50%" stop-color="#3B82F6" />
+      <stop offset="100%" stop-color="#1D4ED8" />
+    </linearGradient>
+  </defs>
+  <rect width="128" height="128" rx="28" fill="#080E1C" />
+  <!-- Convex Yield Boosting Curved Lens -->
+  <path d="M34 32C58 48 58 80 34 96" stroke="url(#cvxGrad)" stroke-width="8" stroke-linecap="round" fill="none" />
+  <path d="M54 28C84 46 84 82 54 100" stroke="url(#cvxGrad)" stroke-width="8" stroke-linecap="round" fill="none" />
+  <path d="M74 24C110 44 110 84 74 104" stroke="url(#cvxGrad)" stroke-width="8" stroke-linecap="round" fill="none" />
+  <circle cx="88" cy="64" r="6" fill="#60A5FA" />
+</svg>

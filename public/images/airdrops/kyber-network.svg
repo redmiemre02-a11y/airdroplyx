@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" fill="none">
+  <defs>
+    <linearGradient id="kyberGrad" x1="24" y1="24" x2="104" y2="104" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#10B981" />
+      <stop offset="50%" stop-color="#059669" />
+      <stop offset="100%" stop-color="#047857" />
+    </linearGradient>
+  </defs>
+  <rect width="128" height="128" rx="28" fill="#031A13" />
+  <!-- Kyber Faceted Crystal Monogram -->
+  <polygon points="64,24 96,44 96,84 64,104 32,84 32,44" stroke="url(#kyberGrad)" stroke-width="6" fill="#063225" />
+  <path d="M52 44V84M52 64L76 44M52 64L76 84" stroke="#34D399" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" />
+  <circle cx="64" cy="64" r="5" fill="#A7F3D0" />
+</svg>

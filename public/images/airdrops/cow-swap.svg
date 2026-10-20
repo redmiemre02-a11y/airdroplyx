@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" fill="none">
+  <defs>
+    <linearGradient id="cowGrad" x1="24" y1="24" x2="104" y2="104" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#FBBF24" />
+      <stop offset="50%" stop-color="#F59E0B" />
+      <stop offset="100%" stop-color="#B45309" />
+    </linearGradient>
+  </defs>
+  <rect width="128" height="128" rx="28" fill="#140E05" />
+  <!-- CoW Horns & MEV Shield Swap Loop -->
+  <path d="M32 40C32 26 44 26 48 38C52 50 64 64 64 64C64 64 76 50 80 38C84 26 96 26 96 40C96 66 64 100 64 100C64 100 32 66 32 40Z" stroke="url(#cowGrad)" stroke-width="7" stroke-linecap="round" stroke-linejoin="round" fill="none" />
+  <!-- CoW Swap Interlocking Arrows -->
+  <path d="M48 60L64 76L80 60" stroke="#FDE047" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" />
+  <circle cx="64" cy="42" r="5" fill="#FBBF24" />
+</svg>

@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" fill="none">
+  <defs>
+    <linearGradient id="kleGrad" x1="24" y1="24" x2="104" y2="104" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#A855F7" />
+      <stop offset="50%" stop-color="#7C3AED" />
+      <stop offset="100%" stop-color="#4F46E5" />
+    </linearGradient>
+  </defs>
+  <rect width="128" height="128" rx="28" fill="#0D081E" />
+  <!-- Kleros Decentralized Justice Scales & Pinakion Core -->
+  <path d="M64 28V96M40 38H88" stroke="url(#kleGrad)" stroke-width="6" stroke-linecap="round" />
+  <!-- Left Scale Pan -->
+  <path d="M40 38L28 64H52L40 38Z" stroke="url(#kleGrad)" stroke-width="4" fill="#1C103C" />
+  <!-- Right Scale Pan -->
+  <path d="M88 38L76 64H100L88 38Z" stroke="url(#kleGrad)" stroke-width="4" fill="#1C103C" />
+  <!-- Base Stand & Juror Crystal -->
+  <path d="M48 96H80" stroke="url(#kleGrad)" stroke-width="6" stroke-linecap="round" />
+  <circle cx="64" cy="38" r="6" fill="#C084FC" />
+</svg>

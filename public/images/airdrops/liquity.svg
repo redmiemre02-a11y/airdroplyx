@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" fill="none">
+  <defs>
+    <linearGradient id="liqGrad" x1="28" y1="24" x2="100" y2="104" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#0284C7" />
+      <stop offset="50%" stop-color="#0EA5E9" />
+      <stop offset="100%" stop-color="#38BDF8" />
+    </linearGradient>
+  </defs>
+  <rect width="128" height="128" rx="28" fill="#04121F" />
+  <!-- Liquity Flame / Stability Droplet -->
+  <path d="M64 24C64 24 38 56 38 76C38 90.3594 49.6406 102 64 102C78.3594 102 90 90.3594 90 76C90 56 64 24 64 24Z" stroke="url(#liqGrad)" stroke-width="7" fill="#082845" />
+  <path d="M64 54C64 54 52 70 52 80C52 86.6274 57.3726 92 64 92C70.6274 92 76 86.6274 76 80C76 70 64 54 64 54Z" fill="url(#liqGrad)" />
+</svg>

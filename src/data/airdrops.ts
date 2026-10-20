@@ -12969,5 +12969,734 @@ export const airdrops: Airdrop[] = [
         "answer": "Over 400 Web3 dApps have integrated Biconomy to provide gasless, seamless onboarding for their users."
       }
     ]
+  },
+  {
+    "id": "cow-swap",
+    "name": "CoW Swap (CoW Protocol)",
+    "category": "DeFi",
+    "tier": "Tier 1",
+    "status": "Active",
+    "stage": "Mainnet",
+    "potentialReward": "$1,000 - $6,000",
+    "cost": "Gas fees (<$0.50 on Arbitrum/Gnosis)",
+    "timeRequired": "10 mins / weekly",
+    "platform": "Web / Ethereum / Arbitrum / Gnosis",
+    "description": "Pioneering MEV-protected decentralized trading protocol and CoW AMM backed by $23M from 1kx and Delphi Digital, utilizing batch auctions to eliminate front-running and sandwich attacks.",
+    "logo": "/images/airdrops/cow-swap.svg",
+    "refLink": "https://swap.cow.fi",
+    "tags": [
+      "MEV Protection",
+      "DEX Aggregator",
+      "Batch Auctions",
+      "CoW AMM",
+      "Gnosis",
+      "Tier 1"
+    ],
+    "featured": true,
+    "startDate": "Apr 2021",
+    "endDate": "Q4 2025",
+    "requirements": [
+      "Web3 EVM Wallet",
+      "Trade on CoW Swap across Ethereum, Gnosis, or Arbitrum",
+      "Provide Liquidity to CoW AMMs",
+      "Stake COW in Governance"
+    ],
+    "overview": "CoW Protocol (CoW Swap) is the undisputed industry leader in decentralized MEV (Maximal Extractable Value) protection and intent-based trade execution. Spun out from Gnosis and backed by $23 Million in private investment led by 1kx, Delphi Digital, Dialectic, Robot Ventures, and Hasu, CoW Protocol pioneered the 'Coincidence of Wants' (CoW) paradigm in Web3 finance. Instead of routing individual user transactions directly through public mempools where predatory MEV bots execute front-running and sandwich attacks, CoW Swap collects orders into discrete batch auctions executed by bonded professional solvers.\n\nInside each batch auction, professional solvers compete algorithmically to discover the most optimal execution route across all on-chain DEXs (Uniswap, Curve, Balancer) and off-chain liquidity sources. Crucially, when two users want opposite sides of a trade, their orders are matched directly peer-to-peer with zero slippage, zero AMM trading fees, and zero gas cost. CoW Protocol also introduced the groundbreaking CoW AMM (LVR-protected automated market maker), which captures arbitrage profits internally and returns them directly to liquidity providers rather than losing yield to external arbitrage bots.\n\nGoverned by the CoW DAO and powered by the native $COW token, CoW Protocol has facilitated over $80 Billion in cumulative trading volume across Ethereum, Gnosis Chain, and Arbitrum. With expanding initiatives including CoW Hooks (enabling multi-step atomic DeFi trades before and after swaps), solver incentives, and recurring fee-sharing programs, active traders, liquidity providers, and $COW governance stakers are positioned for premier long-term decentralized finance distributions.",
+    "tokenomics": "The native $COW governance token has a fixed maximum supply of 1 Billion tokens. $COW is used for staking by professional solvers to guarantee honest order execution, voting on CoW DAO governance proposals, fee reduction discounts, and protocol treasury revenue distribution.",
+    "sybilDefense": "CoW Protocol evaluates cumulative settled volume, transaction frequency across multiple separate batch auction epochs, and solver routing diversity. Sybil clustering scripts that cycle identical tokens within rapid sequential blocks without real trading intent are penalized.",
+    "strategy": "To position for maximum CoW Protocol ($COW) ecosystem rewards and solver rebates:\n\n1. Connect your Web3 wallet to CoW Swap on Ethereum Mainnet, Arbitrum, or Gnosis Chain.\n2. Execute recurring weekly trades and intent orders (including Limit Orders and TWAP orders) to log high protocol volume.\n3. Deposit assets into CoW AMM liquidity pools to earn trading fees shielded from Loss-Versus-Rebalancing (LVR).\n4. Acquire and stake $COW tokens on CoW DAO Snapshot to participate in active governance votes.\n5. Utilize advanced CoW Hooks to chain complex transactions atomically within a single signature.",
+    "steps": [
+      "Visit the official <a href=\"https://swap.cow.fi\" target=\"_blank\" rel=\"noopener noreferrer\">CoW Swap App</a>.",
+      "Connect your EVM wallet (MetaMask, Rabby, or WalletConnect) to Ethereum, Arbitrum, or Gnosis.",
+      "Execute market token swaps to experience MEV-protected batch auction execution.",
+      "Place advanced orders by testing the <a href=\"https://swap.cow.fi/#/limit\" target=\"_blank\" rel=\"noopener noreferrer\">CoW Limit Orders</a> interface.",
+      "Set up automated recurring dollar-cost-averaging via <a href=\"https://swap.cow.fi/#/twap\" target=\"_blank\" rel=\"noopener noreferrer\">CoW TWAP Orders</a>.",
+      "Provide liquidity to LVR-protected pools at <a href=\"https://cow.fi/cow-amm\" target=\"_blank\" rel=\"noopener noreferrer\">CoW AMM Portal</a>.",
+      "Acquire and stake $COW tokens to participate in governance at <a href=\"https://snapshot.org/#/cow.eth\" target=\"_blank\" rel=\"noopener noreferrer\">CoW DAO Snapshot</a>.",
+      "Read solver performance and protocol updates on the <a href=\"https://forum.cow.fi\" target=\"_blank\" rel=\"noopener noreferrer\">CoW Governance Forum</a>."
+    ],
+    "faqs": [
+      {
+        "question": "What is CoW Swap?",
+        "answer": "CoW Swap is a decentralized DEX aggregator that batches orders into auctions to protect traders from MEV, front-running, and sandwich attacks."
+      },
+      {
+        "question": "What does 'Coincidence of Wants' mean?",
+        "answer": "A Coincidence of Wants occurs when two traders hold what the other wants, allowing trades to settle directly peer-to-peer without AMM fees or slippage."
+      },
+      {
+        "question": "Who backed CoW Protocol?",
+        "answer": "CoW Protocol raised $23M in funding led by 1kx, Delphi Digital, Dialectic, Robot Ventures, and top DeFi angel investors."
+      },
+      {
+        "question": "What is a CoW AMM?",
+        "answer": "CoW AMM is an innovative automated market maker design that protects liquidity providers from Loss-Versus-Rebalancing (LVR) by selling arbitrage rights to solvers."
+      },
+      {
+        "question": "Which networks support CoW Swap?",
+        "answer": "CoW Swap is live on Ethereum Mainnet, Gnosis Chain, and Arbitrum One."
+      },
+      {
+        "question": "Do I pay gas fees if my CoW Swap order fails?",
+        "answer": "No, on CoW Swap trades are signed off-chain as intents; if an order does not execute or fill, you pay absolutely zero gas."
+      }
+    ]
+  },
+  {
+    "id": "frax-finance",
+    "name": "Frax Finance (Fraxtal)",
+    "category": "Layer 2",
+    "tier": "Tier 1",
+    "status": "Active",
+    "stage": "Mainnet",
+    "potentialReward": "$1,200 - $8,000",
+    "cost": "Gas fees (<$0.10 on Fraxtal)",
+    "timeRequired": "15 mins / weekly",
+    "platform": "Web / Fraxtal / Ethereum",
+    "description": "Multi-billion dollar comprehensive DeFi powerhouse featuring the Fraxtal modular rollup, sfrxETH liquid staking, FRAX stablecoin, and Frax-points (FXTL) rewards.",
+    "logo": "/images/airdrops/frax-finance.svg",
+    "refLink": "https://frax.finance",
+    "tags": [
+      "Fraxtal",
+      "Layer 2",
+      "Liquid Staking",
+      "sfrxETH",
+      "FXTL Points",
+      "Tier 1"
+    ],
+    "featured": true,
+    "startDate": "Dec 2020",
+    "endDate": "Q4 2025",
+    "requirements": [
+      "EVM Wallet",
+      "Bridge Assets to Fraxtal Layer 2",
+      "Stake ETH for sfrxETH",
+      "Accumulate FXTL Points via Gas & Liquidity",
+      "Lock FXS for veFXS"
+    ],
+    "overview": "Frax Finance is one of the most resilient, multi-faceted decentralized finance conglomerates in the Web3 ecosystem. Founded by Sam Kazemian and a veteran team of cryptographers, Frax began as the world's first fractional-algorithmic stablecoin and has expanded into a self-contained sovereign financial empire. The Frax ecosystem encompasses the 100% collateralized $FRAX stablecoin, Frax Ether ($frxETH and staked $sfrxETH commanding hundreds of thousands of staked Ethereum), the Fraxswap AMM, Fraxlend isolated lending markets, and Frax Ferry cross-chain transfer system.\n\nThe centerpiece of Frax's long-term expansion is Fraxtal, an ultra-performant modular Layer 2 rollup built using the OP Stack with native fractal scaling and Celestia/EVM data availability. Fraxtal introduces an unprecedented economic incentive mechanism known as 'Flox' (Blockspace Incentives), where users and developers automatically earn Fraxtal Points (FXTL) proportional to the gas fees they spend and the liquidity they deploy on the rollup. FXTL points are recorded on-chain every block and converted into valuable governance allocations and ecosystem token distributions.\n\nFrax Finance is anchored by the Frax Share ($FXS) token, which powers protocol revenue distribution, gauge voting, and veFXS time-locking. Stakers who lock FXS into veFXS receive enhanced yields across all Frax products, boosted FXTL Flox multipliers on Fraxtal, and a share of protocol fees generated across the entire multi-chain ecosystem.",
+    "tokenomics": "Frax Share ($FXS) is the governance and value-accrual token with a deflationary halving schedule. veFXS (vote-escrowed FXS) grants gauge voting power, boosts Flox FXTL reward rates on Fraxtal, and distributes 100% of net protocol yields to lockers.",
+    "sybilDefense": "Fraxtal monitors continuous on-chain gas expenditure, contract execution diversity across verified dApps, and minimum LP deposit durations. Sybil transactions that loop identical minimal amounts without generating substantive gas spend earn negligible FXTL points.",
+    "strategy": "To maximize your Fraxtal Flox (FXTL) points and Frax ecosystem rewards:\n\n1. Bridge ETH, FRAX, or sfrxETH to Fraxtal using the official Frax Ferry or canonical bridge.\n2. Execute decentralized trades and swap tokens on native Fraxtal DEXs (Fraxswap, Ra Exchange).\n3. Deposit liquidity into high-yield Fraxtal pools to accumulate daily Flox FXTL multiplier points.\n4. Stake ETH into sfrxETH on Ethereum or Fraxtal to earn superior liquid staking yields.\n5. Lock a portion of FXS for veFXS to unlock governance voting power and maximum FXTL boost tiers.",
+    "steps": [
+      "Visit the official <a href=\"https://frax.finance\" target=\"_blank\" rel=\"noopener noreferrer\">Frax Finance Hub</a>.",
+      "Access the Fraxtal ecosystem via <a href=\"https://fraxtal.com\" target=\"_blank\" rel=\"noopener noreferrer\">Fraxtal Portal</a>.",
+      "Bridge assets to Fraxtal using the <a href=\"https://mainnet.frax.com/tools/bridge\" target=\"_blank\" rel=\"noopener noreferrer\">Frax Ferry Bridge</a>.",
+      "Mint and stake Ethereum into sfrxETH at <a href=\"https://app.frax.finance/frxeth/stake\" target=\"_blank\" rel=\"noopener noreferrer\">Frax Ether Staking</a>.",
+      "Provide liquidity to Fraxtal AMM pools on <a href=\"https://fraxswap.com\" target=\"_blank\" rel=\"noopener noreferrer\">Fraxswap</a>.",
+      "Lend or borrow assets on <a href=\"https://app.frax.finance/fraxlend\" target=\"_blank\" rel=\"noopener noreferrer\">Fraxlend Markets</a>.",
+      "Monitor your accumulated FXTL Flox rewards on the Fraxtal Explorer and dashboard.",
+      "Lock FXS into veFXS to maximize voting weight and protocol fee distributions at <a href=\"https://app.frax.finance/vefxs\" target=\"_blank\" rel=\"noopener noreferrer\">veFXS Staking</a>."
+    ],
+    "faqs": [
+      {
+        "question": "What is Fraxtal?",
+        "answer": "Fraxtal is a high-throughput modular Layer 2 rollup developed by Frax Finance, featuring native fractal scaling and Flox blockspace incentives."
+      },
+      {
+        "question": "What are FXTL points?",
+        "answer": "FXTL (Frax-points) are blockspace incentive points awarded to users and developers based on gas spent and liquidity provided on Fraxtal."
+      },
+      {
+        "question": "What is sfrxETH?",
+        "answer": "sfrxETH is the staked receipt token for Frax Ether, designed to capture maximum staking yield through validators and Curve boost incentives."
+      },
+      {
+        "question": "Who founded Frax Finance?",
+        "answer": "Frax Finance was founded by Sam Kazemian and has grown into one of the top decentralized finance ecosystems in crypto."
+      },
+      {
+        "question": "How do I qualify for Flox blockspace rewards?",
+        "answer": "Interact with verified dApps on Fraxtal, spend gas on transactions, and provide liquidity to whitelisted pools."
+      },
+      {
+        "question": "What benefits does veFXS provide?",
+        "answer": "veFXS gives holders voting power over gauge weights, protocol fee payouts, and multipliers on Fraxtal FXTL reward points."
+      }
+    ]
+  },
+  {
+    "id": "curve-finance",
+    "name": "Curve Finance & crvUSD",
+    "category": "DeFi",
+    "tier": "Tier 1",
+    "status": "Active",
+    "stage": "Mainnet",
+    "potentialReward": "$1,500 - $10,000",
+    "cost": "Gas fees (Low on L2s)",
+    "timeRequired": "15 mins / weekly",
+    "platform": "Web / Multi-Chain",
+    "description": "Foundational decentralized automated market maker (AMM) securing billions in pegged liquidity and issuing crvUSD via innovative soft-liquidation LLAMMA lending algorithms.",
+    "logo": "/images/airdrops/curve-finance.svg",
+    "refLink": "https://curve.fi",
+    "tags": [
+      "DEX",
+      "AMM",
+      "crvUSD",
+      "veCRV",
+      "Stablecoins",
+      "Tier 1"
+    ],
+    "featured": true,
+    "startDate": "Jan 2020",
+    "endDate": "Q4 2025",
+    "requirements": [
+      "EVM Wallet",
+      "Provide Liquidity to Stable or Tricrypto Pools",
+      "Mint crvUSD Collateralized Debt Positions",
+      "Lock CRV for veCRV Governance",
+      "Vote on Gauge Weight Allocations"
+    ],
+    "overview": "Curve Finance is the bedrock liquidity infrastructure of decentralized finance. Created by physicist and cryptographer Michael Egorov in 2020, Curve revolutionized automated market making by introducing the StableSwap invariant curve, engineered specifically to enable multi-million dollar swaps between pegged assets (such as stablecoins and liquid staking derivatives) with near-zero slippage. Curve further revolutionized tokenomics across the entire blockchain landscape by inventing the 'Vote-Escrowed' (veToken) model, creating the multi-billion dollar 'Curve Wars' where major DeFi protocols compete for gauge allocations.\n\nExpanding beyond AMMs, Curve deployed crvUSD—a decentralized, overcollateralized stablecoin governed by the revolutionary LLAMMA (Lending-Liquidating AMM Algorithm). Unlike traditional lending protocols that immediately wipe out borrowers during flash crashes with heavy liquidation penalties, LLAMMA continuously converts a borrower's collateral into crvUSD as prices dip and converts it back into collateral as prices recover, effectively eliminating sudden liquidations.\n\nCurve also operates Curve Cryptoswap (enabling high-efficiency trading between volatile uncorrelated assets) and Curve LlamaLend (isolated lending markets). With billions of dollars in Total Value Locked (TVL) spanning Ethereum, Arbitrum, Base, Optimism, and Avalanche, active Curve liquidity providers, crvUSD minters, and veCRV governance voters form the backbone of DeFi yield and retroactive incentives.",
+    "tokenomics": "The native $CRV token incentivizes liquidity providers across multi-chain pools. Locking CRV into veCRV (up to 4 years) earns 50% of all protocol trading fees, boosts LP rewards by up to 2.5x, and grants voting power over CRV gauge inflation.",
+    "sybilDefense": "Curve tracks time-weighted liquidity provision, gauge participation, and collateral loan duration. Transient deposits that withdraw immediately after pool snapshot blocks receive no gauge emissions or loyalty rewards.",
+    "strategy": "To optimize your Curve Finance and crvUSD rewards:\n\n1. Deposit liquidity into core stable pools (e.g., 3pool, USDe pools) or Tricrypto pools on Ethereum or low-cost Layer 2s.\n2. Mint crvUSD by opening a CDP loan collateralized by ETH, wstETH, WBTC, or tBTC at the crvUSD portal.\n3. Supply crvUSD into Curve lending markets (LlamaLend) to earn lending interest and trading fees.\n4. Lock CRV into veCRV to boost your personal pool yields and qualify for governance fee distributions.\n5. Cast weekly gauge weight votes or delegate your voting power to capture protocol bribe rewards.",
+    "steps": [
+      "Visit the official <a href=\"https://curve.fi\" target=\"_blank\" rel=\"noopener noreferrer\">Curve Finance Interface</a>.",
+      "Explore pools and deposit liquidity via <a href=\"https://curve.fi/#/ethereum/pools\" target=\"_blank\" rel=\"noopener noreferrer\">Curve Pools Portal</a>.",
+      "Access crvUSD minting and borrowing at <a href=\"https://crvusd.curve.fi\" target=\"_blank\" rel=\"noopener noreferrer\">crvUSD Dashboard</a>.",
+      "Deposit accepted collateral (ETH, wstETH, WBTC) to mint crvUSD with LLAMMA soft-liquidation protection.",
+      "Explore isolated money markets at <a href=\"https://curve.fi/#/ethereum/llamalend\" target=\"_blank\" rel=\"noopener noreferrer\">Curve LlamaLend</a>.",
+      "Lock $CRV into veCRV for up to 4 years at <a href=\"https://curve.fi/#/ethereum/lock\" target=\"_blank\" rel=\"noopener noreferrer\">veCRV Lock Portal</a>.",
+      "Vote on weekly liquidity gauge weights to direct CRV inflation rewards.",
+      "Collect trading fee payouts and explore bribe incentives on Curve governance dashboards."
+    ],
+    "faqs": [
+      {
+        "question": "What makes Curve Finance unique?",
+        "answer": "Curve uses specialized mathematical bonding curves tailored for pegged assets, allowing deep liquidity with minimal slippage."
+      },
+      {
+        "question": "What is crvUSD and how does LLAMMA work?",
+        "answer": "crvUSD is Curve's collateralized stablecoin. LLAMMA continuously converts collateral to crvUSD and back during market volatility to prevent sudden liquidations."
+      },
+      {
+        "question": "What are the Curve Wars?",
+        "answer": "The Curve Wars refer to the competition among protocols (like Convex and Yearn) to amass veCRV voting power to direct CRV emissions to their pools."
+      },
+      {
+        "question": "What benefits does veCRV provide?",
+        "answer": "veCRV unlocks up to 2.5x boosted LP rewards, 50% share of all protocol trading fees, and governance voting rights."
+      },
+      {
+        "question": "Can I use Curve on Layer 2 networks?",
+        "answer": "Yes, Curve is deployed across Arbitrum, Optimism, Base, Polygon, Avalanche, and other major L2 chains with lower gas fees."
+      },
+      {
+        "question": "What is Curve LlamaLend?",
+        "answer": "LlamaLend is Curve's isolated lending market infrastructure enabling borrowing and lending against diverse collateral types."
+      }
+    ]
+  },
+  {
+    "id": "convex-finance",
+    "name": "Convex Finance",
+    "category": "DeFi",
+    "tier": "Tier 1",
+    "status": "Active",
+    "stage": "Mainnet",
+    "potentialReward": "$1,000 - $7,000",
+    "cost": "Gas fees on Ethereum / Arbitrum",
+    "timeRequired": "15 mins / bi-weekly",
+    "platform": "Web / Ethereum / Arbitrum",
+    "description": "Preeminent DeFi yield optimizer controlling over $1.5B in Curve and Frax voting power, enabling liquidity providers to maximize CRV/FXS yields without locking tokens.",
+    "logo": "/images/airdrops/convex-finance.svg",
+    "refLink": "https://www.convexfinance.com",
+    "tags": [
+      "Yield Optimizer",
+      "Curve Bribes",
+      "vlCVX",
+      "DeFi",
+      "Arbitrum",
+      "Tier 1"
+    ],
+    "featured": true,
+    "startDate": "May 2021",
+    "endDate": "Q4 2025",
+    "requirements": [
+      "Web3 EVM Wallet",
+      "Deposit Curve or Frax LP Tokens on Convex",
+      "Convert CRV to cvxCRV or FXS to cvxFXS",
+      "Lock CVX for vlCVX",
+      "Vote for Bi-Weekly Votium Bribes"
+    ],
+    "overview": "Convex Finance is the decisive governance and yield-boosting powerhouse that forever transformed decentralized finance. Launched in May 2021, Convex solved the core dilemma of the Curve ecosystem: individual liquidity providers were forced to lock their $CRV tokens for up to 4 years to achieve maximum 2.5x boosted yields. Convex aggregates CRV deposits into permanently locked veCRV, minting a liquid wrapper token ($cvxCRV), and shares the pooled maximum boost across all Convex depositors without requiring any personal lockup period.\n\nBy commanding the single largest concentration of veCRV in existence (often exceeding 50% of circulating veCRV) as well as substantial veFXS power, Convex became the focal battleground for protocol voting bribes. Every two weeks, protocols seeking liquidity incentives pay millions of dollars in bribes through platforms like Votium to holders of Vote-Locked Convex ($vlCVX). vlCVX lockers vote on Curve and Frax gauge weights and collect a rich, diversified stream of decentralized protocol tokens directly into their wallets.\n\nConvex Finance has distributed over $1 Billion in platform rewards since inception. Today, with deployments extending across Ethereum Mainnet, Arbitrum, and Polygon, staking on Convex remains one of the premier foundational strategies for earning high-yield real cash flows and qualifying for partner governance airdrops.",
+    "tokenomics": "The native $CVX token has a fixed maximum cap of 100 Million tokens with a minting schedule tied directly to CRV claimed. Locking CVX for 16 weeks into vlCVX grants voting power over Convex's veCRV/veFXS pool gauges and unlocks lucrative bi-weekly bribe payouts.",
+    "sybilDefense": "Convex rewards are strictly tied to on-chain capital allocation, gauge locking epochs (16-week minimum vlCVX lock), and verified snapshot voting participation. Sybil spam without staked LP assets or locked tokens yields zero rewards.",
+    "strategy": "To position for maximum Convex Finance ($CVX) yields and bi-weekly bribe payouts:\n\n1. Deposit Curve LP tokens (such as 3pool, stETH, or crvUSD pools) onto Convex Finance to earn boosted CRV and CVX rewards.\n2. Stake cvxCRV to earn a share of Curve protocol fees and additional CVX emissions.\n3. Acquire $CVX and lock it for 16 weeks into vlCVX via the Convex locking dashboard.\n4. Delegate your vlCVX voting power to Votium to automatically collect optimized bi-weekly protocol bribes.\n5. Claim accumulated multi-token bribe rewards and compound them back into your high-yield positions.",
+    "steps": [
+      "Navigate to the official <a href=\"https://www.convexfinance.com\" target=\"_blank\" rel=\"noopener noreferrer\">Convex Finance Portal</a>.",
+      "Connect your EVM wallet to Ethereum Mainnet or Arbitrum.",
+      "Explore available pools and deposit your Curve LP tokens at <a href=\"https://www.convexfinance.com/stake\" target=\"_blank\" rel=\"noopener noreferrer\">Convex Stake Dashboard</a>.",
+      "Convert and stake CRV into cvxCRV to capture 3pool fees and maximum staking APR.",
+      "Explore Frax ecosystem booster pools at <a href=\"https://frax.convexfinance.com\" target=\"_blank\" rel=\"noopener noreferrer\">Convex Frax Markets</a>.",
+      "Lock your $CVX tokens for 16 weeks at <a href=\"https://www.convexfinance.com/lock-cvx\" target=\"_blank\" rel=\"noopener noreferrer\">vlCVX Locker</a>.",
+      "Delegate or vote for gauge weights on <a href=\"https://votium.app\" target=\"_blank\" rel=\"noopener noreferrer\">Votium Bribe Platform</a>.",
+      "Claim bi-weekly multi-token reward distributions directly into your wallet."
+    ],
+    "faqs": [
+      {
+        "question": "What is Convex Finance?",
+        "answer": "Convex Finance is a DeFi protocol that pools veCRV and veFXS to provide boosted yields for liquidity providers without locking tokens."
+      },
+      {
+        "question": "What is the difference between CVX and vlCVX?",
+        "answer": "CVX is the liquid token, while vlCVX is CVX vote-locked for 16 weeks, granting gauge voting rights and eligibility for protocol bribes."
+      },
+      {
+        "question": "What is cvxCRV?",
+        "answer": "cvxCRV is a tokenized representation of permanently locked veCRV on Convex, allowing users to earn Curve protocol fees while maintaining liquidity."
+      },
+      {
+        "question": "How do vlCVX holders earn bribes?",
+        "answer": "vlCVX holders vote on bi-weekly Curve and Frax gauge weights via platforms like Votium, receiving tokens from protocols seeking liquidity."
+      },
+      {
+        "question": "Can I use Convex on Layer 2 networks?",
+        "answer": "Yes, Convex supports Arbitrum and Polygon, allowing users to stake L2 Curve LP tokens with substantially lower gas costs."
+      },
+      {
+        "question": "Are there withdrawal fees on Convex?",
+        "answer": "No, Convex does not charge deposit or withdrawal fees on Curve LP tokens."
+      }
+    ]
+  },
+  {
+    "id": "liquity",
+    "name": "Liquity & Liquity v2 (BOLD)",
+    "category": "DeFi",
+    "tier": "Tier 1",
+    "status": "Active",
+    "stage": "Mainnet",
+    "potentialReward": "$1,500 - $8,500",
+    "cost": "Gas fees on Ethereum Mainnet",
+    "timeRequired": "15 mins / monthly",
+    "platform": "Web / Ethereum",
+    "description": "Immutable decentralized borrowing protocol backed by $8M+ from Polychain and Pantera, enabling 0% interest ETH borrowing with LUSD and launching Liquity v2 with $BOLD.",
+    "logo": "/images/airdrops/liquity.svg",
+    "refLink": "https://liquity.org",
+    "tags": [
+      "Decentralized Lending",
+      "Zero-Interest Loans",
+      "LUSD",
+      "BOLD",
+      "Liquity v2",
+      "Tier 1"
+    ],
+    "featured": true,
+    "startDate": "Apr 2021",
+    "endDate": "Q4 2025",
+    "requirements": [
+      "Ethereum Wallet",
+      "Open a Trove Collateralized by ETH / WETH",
+      "Deposit LUSD into Stability Pool",
+      "Stake LQTY for Protocol Revenue",
+      "Participate in Liquity v2 BOLD Early Vaults"
+    ],
+    "overview": "Liquity is universally recognized as the gold standard of decentralized, governance-free, and censorship-resistant credit protocols in crypto. Founded by Robert Lauko and Rick Pardoe and backed by $8 Million in venture funding from Polychain Capital, Pantera Capital, Alameda Research, 1kx, and Tomahawk.VC, Liquity v1 launched with fully immutable smart contracts—meaning there are no admin keys, no governance votes, and no variable interest rates. Users deposit native Ethereum ($ETH) to open a 'Trove' and borrow $LUSD at a 0% interest rate against an ultra-low minimum collateral ratio of 110%.\n\nLiquity maintains the stability of LUSD through its revolutionary Stability Pool: depositors provide LUSD into the pool to automatically absorb liquidated collateral during market downturns, receiving discounted ETH and newly minted $LQTY tokens in return. $LQTY stakers earn 100% of all one-time borrowing and redemption fees generated by the system directly in ETH and LUSD.\n\nThe protocol is now launching its monumental Liquity v2 upgrade featuring $BOLD. Liquity v2 introduces user-set variable interest rates (enabling borrowers to set their own rate to balance redemption risk), support for multiple collateral types including staked ETH (wstETH, rETH), and decentralized interest rate redirection to Stability Pools. Early borrowers, stability providers, and LQTY stakers are primed for major incentives across both protocol generations.",
+    "tokenomics": "The secondary token $LQTY has a capped supply of 100 Million. Staking LQTY captures 100% of all borrowing and redemption fees in ETH and LUSD. Liquity v2 introduces $BOLD as the next-generation decentralized debt asset with dynamic market-driven interest distribution.",
+    "sybilDefense": "Liquity is entirely non-custodial and tracks verifiable on-chain Trove creation, collateral volume, Stability Pool deposit duration, and LQTY staking tenure. Bot scripts that open and close dust Troves within the same block are excluded from historical snapshots.",
+    "strategy": "To maximize your positioning for Liquity v1 and Liquity v2 ($BOLD) rewards:\n\n1. Connect your Ethereum wallet to an official Liquity frontend operator (e.g., DeFi Saver, Liquity.app, or B.Protocol).\n2. Deposit ETH collateral to open a Trove and borrow LUSD.\n3. Deposit borrowed LUSD into the Liquity Stability Pool to absorb liquidations and earn continuous ETH and LQTY rewards.\n4. Stake acquired $LQTY tokens in the Liquity Staking contract to collect ETH and LUSD fee dividends.\n5. Participate in the Liquity v2 launch by depositing staked ETH collateral and minting BOLD.",
+    "steps": [
+      "Visit the official <a href=\"https://liquity.org\" target=\"_blank\" rel=\"noopener noreferrer\">Liquity Portal</a>.",
+      "Select a verified decentralized frontend via <a href=\"https://liquity.org/frontend\" target=\"_blank\" rel=\"noopener noreferrer\">Liquity Frontend Directory</a>.",
+      "Open an ETH Trove and borrow LUSD with a 0% interest rate.",
+      "Deposit LUSD into the <a href=\"https://liquity.org/stability-pool\" target=\"_blank\" rel=\"noopener noreferrer\">Liquity Stability Pool</a>.",
+      "Claim discounted ETH and earned $LQTY rewards from Stability Pool liquidation events.",
+      "Stake $LQTY in the staking pool to receive 100% protocol fee distributions.",
+      "Read the technical architecture for the upcoming v2 release at <a href=\"https://liquity.org/v2\" target=\"_blank\" rel=\"noopener noreferrer\">Liquity v2 & BOLD Overview</a>.",
+      "Prepare wstETH/rETH collateral to participate in early Liquity v2 BOLD borrowing vaults."
+    ],
+    "faqs": [
+      {
+        "question": "What makes Liquity different from MakerDAO or Aave?",
+        "answer": "Liquity has completely immutable smart contracts with no human governance, charges a 0% interest rate, and allows borrowing at an ultra-low 110% collateral ratio."
+      },
+      {
+        "question": "What is LUSD?",
+        "answer": "LUSD is a fully decentralized, overcollateralized USD-pegged stablecoin minted against native Ethereum collateral."
+      },
+      {
+        "question": "What is the Stability Pool?",
+        "answer": "The Stability Pool is the primary liquidity source used to absorb undercollateralized Troves, rewarding LUSD depositors with discounted ETH."
+      },
+      {
+        "question": "What is Liquity v2 and what is BOLD?",
+        "answer": "Liquity v2 introduces $BOLD, supporting staked ETH collateral and user-set interest rates to protect against redemptions."
+      },
+      {
+        "question": "Who invested in Liquity?",
+        "answer": "Liquity raised $8M led by Polychain Capital, Pantera Capital, 1kx, and other leading crypto investment firms."
+      },
+      {
+        "question": "What do LQTY stakers earn?",
+        "answer": "LQTY stakers earn 100% of all borrowing fees and redemption fees generated by the protocol in native ETH and LUSD."
+      }
+    ]
+  },
+  {
+    "id": "kleros",
+    "name": "Kleros",
+    "category": "Infrastructure",
+    "tier": "Tier 1",
+    "status": "Active",
+    "stage": "Mainnet",
+    "potentialReward": "$800 - $5,000",
+    "cost": "Gas fees on Gnosis / Ethereum",
+    "timeRequired": "20 mins / monthly",
+    "platform": "Web / Ethereum / Gnosis / Arbitrum",
+    "description": "Pioneering decentralized arbitration and dispute resolution protocol utilizing game-theoretic Schelling points and $PNK staking to adjudicate real-world and Web3 claims.",
+    "logo": "/images/airdrops/kleros.svg",
+    "refLink": "https://kleros.io",
+    "tags": [
+      "Decentralized Justice",
+      "Oracle",
+      "Arbitration",
+      "PNK",
+      "Gnosis Chain",
+      "Tier 1"
+    ],
+    "featured": true,
+    "startDate": "Jul 2018",
+    "endDate": "Q4 2025",
+    "requirements": [
+      "EVM Wallet",
+      "Acquire and Stake PNK Tokens in Kleros Courts",
+      "Serve as Juror and Cast Coherent Dispute Rulings",
+      "Participate in Curated Registries",
+      "Test Kleros v2 Modular Architecture"
+    ],
+    "overview": "Kleros is the foundational decentralized dispute resolution and arbitration protocol of the Ethereum ecosystem. Conceived by Federico Ast and Clément Lesaege and supported by Ethereum Foundation and Web3 grants, Kleros acts as a peer-to-peer justice system for smart contracts. From freelance dispute resolutions, escrow releases, and insurance claim verifications to prediction market outcomes and decentralized social media moderation, Kleros bridges subjective human judgment with cryptographic execution.\n\nThe protocol operates through Thomas Schelling's game theory of focal points. Users acquire and stake the native Pinakion ($PNK) token into specialized virtual courts (e.g., General Court, Blockchain, E-Commerce). Jurors are randomly drawn in proportion to their staked PNK to evaluate evidence in a dispute. Jurors who vote coherently with the majority ruling are rewarded with arbitration fees (in ETH or DAI) and additional PNK tokens redistributed from dissenting or incoherent jurors.\n\nKleros powers critical decentralized infrastructure including the Kleros Curate registry (securing tokens for Uniswap and Sushi), Proof of Humanity (decentralized identity verification), and cross-chain dispute resolution on Gnosis Chain and Arbitrum. With the rollout of Kleros v2 featuring modular cross-chain dispute routing, gas-optimized juror staking, and SDK integrations, active jurors and community adjudicators are positioned for high-tier decentralized governance recognition.",
+    "tokenomics": "The Pinakion ($PNK) token protects the arbitration mechanism from 51% attacks. Staking PNK gives jurors a statistical probability of being selected for cases. Honest voting yields arbitration fee dividends and redistributed PNK from minority voters.",
+    "sybilDefense": "Kleros employs game-theoretic Schelling point mechanisms where incoherent voting results in token slashing. Juror selection probability is strictly weighted by staked PNK, neutralizing low-capital sybil accounts.",
+    "strategy": "To position for maximum Kleros ($PNK) juror rewards and v2 ecosystem incentives:\n\n1. Acquire PNK tokens on Ethereum or Gnosis Chain via Uniswap or CoW Swap.\n2. Connect your wallet to Kleros Court and deposit PNK into court chambers matching your domain expertise.\n3. Activate juror notifications and vote conscientiously on assigned disputes during open evidence periods.\n4. Submit and verify entries on Kleros Curate registries (such as the Tokens Registry or Address Tags).\n5. Test and interact with the next-generation Kleros v2 arbitration testnet on Arbitrum Sepolia.",
+    "steps": [
+      "Visit the official <a href=\"https://kleros.io\" target=\"_blank\" rel=\"noopener noreferrer\">Kleros Platform</a>.",
+      "Explore the arbitration court system at <a href=\"https://court.kleros.io\" target=\"_blank\" rel=\"noopener noreferrer\">Kleros Court</a>.",
+      "Acquire $PNK tokens on Gnosis Chain or Ethereum.",
+      "Stake PNK tokens into desired subcourts to become an active juror.",
+      "Review evidence and cast votes on active disputes to earn arbitration fees.",
+      "Participate in decentralized token list curation at <a href=\"https://curate.kleros.io\" target=\"_blank\" rel=\"noopener noreferrer\">Kleros Curate</a>.",
+      "Explore Proof of Humanity integration at <a href=\"https://proofofhumanity.id\" target=\"_blank\" rel=\"noopener noreferrer\">Proof of Humanity</a>.",
+      "Test next-gen modular dispute resolution on <a href=\"https://v2.kleros.io\" target=\"_blank\" rel=\"noopener noreferrer\">Kleros v2 Dashboard</a>."
+    ],
+    "faqs": [
+      {
+        "question": "What is Kleros?",
+        "answer": "Kleros is a decentralized arbitration protocol that uses game theory and crowdsourced jurors to resolve smart contract disputes."
+      },
+      {
+        "question": "What is the role of the PNK token?",
+        "answer": "PNK (Pinakion) is the staking token used by jurors to qualify for dispute selection and align economic incentives."
+      },
+      {
+        "question": "How do jurors earn money on Kleros?",
+        "answer": "Jurors receive dispute arbitration fees (in ETH or xDAI) and bonus PNK tokens when they vote with the majority decision."
+      },
+      {
+        "question": "What happens if a juror votes maliciously?",
+        "answer": "Jurors who vote against the majority (the Schelling consensus) lose a portion of their staked PNK to the honest majority."
+      },
+      {
+        "question": "Which networks support Kleros?",
+        "answer": "Kleros is live on Ethereum Mainnet, Gnosis Chain, and Arbitrum."
+      },
+      {
+        "question": "What is Kleros v2?",
+        "answer": "Kleros v2 is a modular rewrite offering cross-chain arbitration, significantly lower gas fees, and seamless dApp SDKs."
+      }
+    ]
+  },
+  {
+    "id": "kyber-network",
+    "name": "Kyber Network (KyberSwap)",
+    "category": "DeFi",
+    "tier": "Tier 1",
+    "status": "Active",
+    "stage": "Mainnet",
+    "potentialReward": "$600 - $4,000",
+    "cost": "Gas fees on Arbitrum / Base / Polygon",
+    "timeRequired": "10 mins / weekly",
+    "platform": "Web / Multi-Chain",
+    "description": "Pioneering multi-chain liquidity aggregator and concentrated liquidity protocol (KyberSwap Elastic) backed by $50M+, optimizing routing and capital efficiency across 15+ chains.",
+    "logo": "/images/airdrops/kyber-network.svg",
+    "refLink": "https://kyberswap.com",
+    "tags": [
+      "DEX Aggregator",
+      "Concentrated Liquidity",
+      "KyberSwap",
+      "KNC",
+      "Multi-Chain",
+      "Tier 1"
+    ],
+    "featured": true,
+    "startDate": "Sep 2017",
+    "endDate": "Q4 2025",
+    "requirements": [
+      "Multi-Chain EVM Wallet",
+      "Execute Multi-Route Swaps via KyberSwap Aggregator",
+      "Provide Liquidity to KyberSwap Elastic Pools",
+      "Stake KNC on KyberDAO",
+      "Vote on DAO Governance Proposals"
+    ],
+    "overview": "Kyber Network is one of Ethereum's foundational decentralized exchange pioneers. Founded in 2017 by Loi Luu and Victor Tran and backed by over $50 Million from prominent industry pioneers and global crypto funds, Kyber Network designed the earliest on-chain liquidity protocol that enabled instant, trustless token conversions directly within smart contracts without centralized order books.\n\nOver years of continuous research, Kyber developed its flagship product suite: KyberSwap. KyberSwap operates as a dual-engine protocol combining a premier multi-chain DEX Aggregator (KyberSwap Aggregator) and a next-generation concentrated liquidity market maker (KyberSwap Elastic). The aggregator scans across thousands of liquidity pools on over 15 distinct blockchains (including Ethereum, Arbitrum, Base, Optimism, Polygon, and Avalanche) to split and route user trades through optimal paths, guaranteeing the best possible execution price and minimal gas overhead.\n\nKyberSwap Elastic introduces fee-reinvestment curves and anti-sniping protection, automatically compounding LP fee earnings and safeguarding concentrated liquidity providers from toxic flow. Anchored by the Kyber Network Crystal ($KNC) token, KyberDAO allows community members to stake KNC, vote on key governance upgrades, and collect protocol fee distributions.",
+    "tokenomics": "The Kyber Network Crystal ($KNC) is the utility and governance token of KyberDAO. Staking KNC enables holders to vote on network parameters, fee models, and earn trading fee rebates and protocol rewards.",
+    "sybilDefense": "KyberDAO tracks historical swap volume, unique smart contract routing calls across multiple chains, and sustained KNC staking periods. Rapid automated micro-swaps intended to game trading leaderboards are excluded by anti-wash trading filters.",
+    "strategy": "To optimize your positioning for Kyber Network ($KNC) ecosystem rewards:\n\n1. Use KyberSwap as your primary multi-chain DEX aggregator for routine token swaps on Arbitrum, Base, and Ethereum.\n2. Provide concentrated liquidity into KyberSwap Elastic pools to earn fee-compounded APY.\n3. Stake KNC tokens in the KyberDAO staking portal to participate in governance.\n4. Vote on active KyberDAO Improvement Proposals (KIPs) to earn staking rewards.\n5. Participate in seasonal KyberSwap trading campaigns and liquidity mining incentive programs.",
+    "steps": [
+      "Visit the official <a href=\"https://kyberswap.com\" target=\"_blank\" rel=\"noopener noreferrer\">KyberSwap Interface</a>.",
+      "Connect your EVM wallet across any supported network (Ethereum, Arbitrum, Base, Polygon).",
+      "Execute token swaps using the <a href=\"https://kyberswap.com/swap\" target=\"_blank\" rel=\"noopener noreferrer\">KyberSwap Aggregator</a> for best execution prices.",
+      "Explore concentrated liquidity pools on <a href=\"https://kyberswap.com/pools\" target=\"_blank\" rel=\"noopener noreferrer\">KyberSwap Elastic Pools</a>.",
+      "Add liquidity with custom price ranges to earn trading fee yields.",
+      "Stake your $KNC tokens on <a href=\"https://kyber.org\" target=\"_blank\" rel=\"noopener noreferrer\">KyberDAO Governance Portal</a>.",
+      "Cast votes on open DAO proposals to unlock your staking reward share.",
+      "Explore active ecosystem leaderboards and developer SDKs at <a href=\"https://docs.kyberswap.com\" target=\"_blank\" rel=\"noopener noreferrer\">Kyber Documentation</a>."
+    ],
+    "faqs": [
+      {
+        "question": "What is KyberSwap?",
+        "answer": "KyberSwap is a multi-chain DEX aggregator and concentrated liquidity protocol offering superior swap rates across 15+ blockchains."
+      },
+      {
+        "question": "What is KyberSwap Elastic?",
+        "answer": "KyberSwap Elastic is a concentrated liquidity AMM featuring automated fee compounding and anti-JIT (just-in-time) liquidity sniping protection."
+      },
+      {
+        "question": "What is the utility of $KNC?",
+        "answer": "KNC is the native token of Kyber Network used for staking on KyberDAO, voting on protocol upgrades, and receiving trading fee distributions."
+      },
+      {
+        "question": "Who founded Kyber Network?",
+        "answer": "Kyber Network was founded in 2017 by Loi Luu and Victor Tran, raising over $50M in one of crypto's landmark early token sales."
+      },
+      {
+        "question": "How does the KyberSwap Aggregator find the best prices?",
+        "answer": "It dynamically splits and routes single trades across hundreds of decentralized exchanges simultaneously to minimize slippage and price impact."
+      },
+      {
+        "question": "Can I earn rewards for voting on KyberDAO?",
+        "answer": "Yes, KNC stakers who actively vote on governance proposals receive regular protocol fee payouts."
+      }
+    ]
+  },
+  {
+    "id": "balancer",
+    "name": "Balancer",
+    "category": "DeFi",
+    "tier": "Tier 1",
+    "status": "Active",
+    "stage": "Mainnet",
+    "potentialReward": "$1,200 - $7,500",
+    "cost": "Gas fees on Arbitrum / Base / Mainnet",
+    "timeRequired": "15 mins / weekly",
+    "platform": "Web / Multi-Chain",
+    "description": "Premier programmable liquidity AMM backed by $24M+ from Placeholder and Pantera Capital, powering weighted multi-asset pools, Composable Stable Pools, and Balancer v3 hooks.",
+    "logo": "/images/airdrops/balancer.svg",
+    "refLink": "https://balancer.fi",
+    "tags": [
+      "AMM",
+      "Weighted Pools",
+      "veBAL",
+      "Balancer v3",
+      "Arbitrum",
+      "Tier 1"
+    ],
+    "featured": true,
+    "startDate": "Mar 2020",
+    "endDate": "Q4 2025",
+    "requirements": [
+      "EVM Wallet",
+      "Provide Liquidity to 80/20 or Multi-Asset Pools",
+      "Lock 80BAL-20WETH for veBAL",
+      "Vote on Gauge Weights or Claim Bi-Weekly Bribes",
+      "Test Balancer v3 Hook Pools"
+    ],
+    "overview": "Balancer is the definitive programmable automated market maker and decentralized portfolio manager of Ethereum and Layer 2 ecosystems. Founded by Fernando Martinelli and Mike McDonald and backed by $24.25 Million from top tier crypto venture funds including Placeholder, Pantera Capital, CoinFund, and Alameda Research, Balancer revolutionized AMM design by transcending the rigid 50/50 token pair model of traditional Uniswap pools.\n\nBalancer's breakthrough weighted pool formula allows liquidity pools to hold up to 8 different tokens in any arbitrary percentage ratio (e.g., 80/20 pools, 60/20/20 pools), effectively turning liquidity provision into an automated, self-rebalancing index fund where LPs earn trading fees instead of paying portfolio management fees. Balancer also pioneered Composable Stable Pools (nested yield-bearing pools that minimize gas costs for liquid staking tokens) and Boosted Pools (which route idle AMM liquidity into lending protocols like Aave to earn secondary interest yield).\n\nThe protocol is governed through the veBAL system, where users lock 80/20 BAL/WETH LP tokens for up to one year to earn boosted pool emissions, 75% of protocol fees, and gauge voting rights. With the introduction of Balancer v3—bringing 100% custom developer AMM hooks, transient accounting, and ultra-high capital efficiency—active liquidity providers and veBAL lockers stand at the center of institutional DeFi incentives.",
+    "tokenomics": "The native $BAL token governs the Balancer protocol. Locking 80BAL/20WETH into veBAL grants governance rights, directs weekly BAL emissions to specific pools, and distributes protocol fee revenues.",
+    "sybilDefense": "Balancer monitors time-weighted liquidity persistence, gauge voting activity, and veBAL lockup duration. Rapid deposits that extract flash-loan rewards without sustained LP tenure receive zero emission boosts.",
+    "strategy": "To position for maximum Balancer ($BAL) yield boosts, governance rewards, and v3 launch incentives:\n\n1. Deposit liquidity into premier Balancer weighted pools (e.g., 80/20 pools) or Composable Stable Pools on Arbitrum, Base, or Ethereum.\n2. Obtain 80BAL-20WETH pool tokens and lock them into veBAL for maximum voting and yield boost tiers.\n3. Vote on weekly Balancer gauge weights or delegate your veBAL on platforms like Hidden Hand to collect cash bribes.\n4. Explore boosted pools that earn simultaneous AMM trading fees and underlying Aave lending interest.\n5. Test early Balancer v3 hook-enabled pools and developer sandboxes.",
+    "steps": [
+      "Navigate to the official <a href=\"https://balancer.fi\" target=\"_blank\" rel=\"noopener noreferrer\">Balancer Portal</a>.",
+      "Launch the decentralized app at <a href=\"https://app.balancer.fi\" target=\"_blank\" rel=\"noopener noreferrer\">Balancer App</a>.",
+      "Connect your EVM wallet across Ethereum, Arbitrum, Base, or Polygon.",
+      "Explore and deposit into 80/20 or multi-token pools via <a href=\"https://app.balancer.fi/#/ethereum/pools\" target=\"_blank\" rel=\"noopener noreferrer\">Balancer Pools</a>.",
+      "Acquire 80BAL-20WETH LP tokens to participate in veBAL locking.",
+      "Lock LP tokens for up to 1 year at <a href=\"https://app.balancer.fi/#/ethereum/vebal\" target=\"_blank\" rel=\"noopener noreferrer\">veBAL Locker</a>.",
+      "Vote on weekly gauge weight allocations or monetize your votes on <a href=\"https://hiddenhand.finance/balancer\" target=\"_blank\" rel=\"noopener noreferrer\">Hidden Hand Bribes</a>.",
+      "Learn about custom AMM hooks and v3 architecture at <a href=\"https://docs.balancer.fi\" target=\"_blank\" rel=\"noopener noreferrer\">Balancer Documentation</a>."
+    ],
+    "faqs": [
+      {
+        "question": "What makes Balancer different from other AMMs?",
+        "answer": "Balancer allows pools with up to 8 tokens in customized percentage weights (like 80/20), acting like self-balancing index funds."
+      },
+      {
+        "question": "What is veBAL?",
+        "answer": "veBAL is obtained by locking 80BAL-20WETH LP tokens for up to 1 year, granting up to 2.5x boosted LP yields, protocol fee distributions, and gauge voting power."
+      },
+      {
+        "question": "Who invested in Balancer?",
+        "answer": "Balancer raised over $24M from premier funds including Placeholder, Pantera Capital, CoinFund, and prominent DeFi angels."
+      },
+      {
+        "question": "What are Boosted Pools?",
+        "answer": "Boosted Pools route idle liquidity that isn't actively being swapped into lending protocols (like Aave) to generate extra yield for LPs."
+      },
+      {
+        "question": "What is Balancer v3?",
+        "answer": "Balancer v3 is a major architectural overhaul introducing customizable AMM hooks, dynamic swap fees, and enhanced capital efficiency."
+      },
+      {
+        "question": "How do veBAL holders earn bribes?",
+        "answer": "veBAL lockers can vote on gauges or delegate their votes on bribe platforms like Hidden Hand to earn bi-weekly rewards from competing protocols."
+      }
+    ]
+  },
+  {
+    "id": "friend-tech",
+    "name": "Friend.tech",
+    "category": "SocialFi",
+    "tier": "Tier 1",
+    "status": "Active",
+    "stage": "Mainnet",
+    "potentialReward": "$800 - $6,000",
+    "cost": "Gas fees (<$0.05 on Base)",
+    "timeRequired": "10 mins / weekly",
+    "platform": "Web / Base / Friendchain",
+    "description": "Groundbreaking SocialFi protocol backed by Paradigm that pioneered bonding curve key trading on Base, creator monetization, and decentralized social clubs with $FRIEND rewards.",
+    "logo": "/images/airdrops/friend-tech.svg",
+    "refLink": "https://friend.tech",
+    "tags": [
+      "SocialFi",
+      "Paradigm",
+      "Base",
+      "Bonding Curves",
+      "FRIEND",
+      "Tier 1"
+    ],
+    "featured": true,
+    "startDate": "Aug 2023",
+    "endDate": "Q4 2025",
+    "requirements": [
+      "Base Compatible Wallet",
+      "Create a Friend.tech Account",
+      "Acquire Creator Keys or Join Decentralized Clubs",
+      "Engage in In-App Creator Chatrooms",
+      "Hold or Stake $FRIEND Tokens"
+    ],
+    "overview": "Friend.tech is the historic pioneer of decentralized social finance (SocialFi) on Ethereum's Layer 2 ecosystem. Backed by seed and Series A funding led by premier venture powerhouse Paradigm, Friend.tech exploded onto Coinbase's Base network in August 2023, generating tens of millions of dollars in protocol fees and becoming one of the fastest-growing consumer crypto applications in history.\n\nFriend.tech introduced the mathematical bonding curve primitive to personal influence. By linking Twitter/X accounts to self-custodial smart contracts, users enable followers to buy and sell 'Keys' (later rebranded as Clubs). Holding a creator's key grants exclusive access to private chatrooms, alpha feeds, direct messaging, and shared community perks. Each buy and sell transaction sends a 5% royalty fee directly to the creator and a 5% fee to the protocol treasury, establishing a continuous monetization engine for content creators.\n\nThe protocol advanced its mission with the launch of its native token $FRIEND and the announcement of Friendchain, an application-specific blockchain dedicated to high-speed social coordination. Active users who engage in community chatrooms, curate valuable content clubs, hold keys, and participate in $FRIEND staking represent the foundational community of the SocialFi revolution.",
+    "tokenomics": "The native $FRIEND token is distributed to community participants based on historical app engagement, key holding duration, and chatroom activity. $FRIEND serves as the native currency and gas token for social governance and decentralized clubs.",
+    "sybilDefense": "Friend.tech leverages Twitter/X authentication, minimum on-chain Base transaction tenure, and dynamic holding period filters. Accounts that trade keys between self-funded sub-wallets without real chatroom activity are identified and disqualified.",
+    "strategy": "To maximize your Friend.tech ($FRIEND) rewards and SocialFi standing:\n\n1. Sign up on Friend.tech via mobile browser (PWA) and link your verified Twitter/X profile.\n2. Fund your embedded wallet with native ETH on Base network.\n3. Create your personal Club and purchase keys of active Web3 thinkers and creators.\n4. Post regular updates, participate in community group chats, and distribute perks to your club keyholders.\n5. Hold and stake $FRIEND tokens to unlock premium platform tiers and upcoming Friendchain benefits.",
+    "steps": [
+      "Visit the official <a href=\"https://friend.tech\" target=\"_blank\" rel=\"noopener noreferrer\">Friend.tech App</a> on your mobile device or browser.",
+      "Install the progressive web app (PWA) to your home screen.",
+      "Link your Twitter/X account and generate your self-custodial embedded wallet.",
+      "Bridge a small amount of ETH to Base network and deposit into your Friend.tech account.",
+      "Purchase your own first Key to initialize your personal chatroom.",
+      "Explore trending creators and acquire keys to join active alpha communities.",
+      "Engage actively in chatrooms and share exclusive insights with your keyholders.",
+      "Monitor $FRIEND token claims, staking options, and Friendchain announcements via <a href=\"https://friend.tech\" target=\"_blank\" rel=\"noopener noreferrer\">Friend.tech Dashboard</a>."
+    ],
+    "faqs": [
+      {
+        "question": "What is Friend.tech?",
+        "answer": "Friend.tech is a decentralized SocialFi platform where users buy and sell creator keys to access private chatrooms and shared community perks."
+      },
+      {
+        "question": "How do bonding curves work in Friend.tech?",
+        "answer": "The price of a user's key increases quadratically with every key purchased and decreases as keys are sold."
+      },
+      {
+        "question": "Who backed Friend.tech?",
+        "answer": "Friend.tech raised funding led by Tier 1 venture capital firm Paradigm."
+      },
+      {
+        "question": "What blockchain does Friend.tech run on?",
+        "answer": "Friend.tech originally launched on Base (Coinbase's Layer 2) and is expanding into dedicated social blockspace."
+      },
+      {
+        "question": "How do creators make money on Friend.tech?",
+        "answer": "Creators earn a 5% royalty fee on every buy and sell transaction of their personal keys."
+      },
+      {
+        "question": "What is the $FRIEND token used for?",
+        "answer": "FRIEND is the native governance and reward asset used for platform clubs, community incentives, and social infrastructure."
+      }
+    ]
+  },
+  {
+    "id": "paraswap",
+    "name": "ParaSwap",
+    "category": "DeFi",
+    "tier": "Tier 1",
+    "status": "Active",
+    "stage": "Mainnet",
+    "potentialReward": "$700 - $4,500",
+    "cost": "Gas fees on Arbitrum / Optimism / Base",
+    "timeRequired": "10 mins / weekly",
+    "platform": "Web / Multi-Chain",
+    "description": "High-performance multi-chain DEX aggregator backed by $5.7M from Blockchain Capital and CoinFund, featuring AugustusRFQ zero-slippage routing and PSP Social-Alpha staking.",
+    "logo": "/images/airdrops/paraswap.svg",
+    "refLink": "https://paraswap.io",
+    "tags": [
+      "DEX Aggregator",
+      "AugustusRFQ",
+      "PSP Staking",
+      "Multi-Chain",
+      "Gas Refunds",
+      "Tier 1"
+    ],
+    "featured": true,
+    "startDate": "Sep 2019",
+    "endDate": "Q4 2025",
+    "requirements": [
+      "Multi-Chain EVM Wallet",
+      "Execute Aggregator Swaps on ParaSwap",
+      "Use ParaSwap Limit Orders",
+      "Stake PSP in Social-Alpha Staking Pools",
+      "Qualify for Gas Refund Programs"
+    ],
+    "overview": "ParaSwap is one of decentralized finance's fastest, most technically sophisticated multi-chain liquidity aggregators. Founded by Mounir Benchemled in 2019 and supported by $5.7 Million in venture capital from Blockchain Capital, CoinFund, Stani Kulechov (Aave), and prominent crypto investors, ParaSwap solves decentralized liquidity fragmentation by querying dozens of Automated Market Makers (AMMs), Request-for-Quote (RFQ) professional market makers, and private liquidity pools simultaneously.\n\nAt the core of ParaSwap is the Augustus router (AugustusRFQ and Augustus v6), which splits large orders into microscopic routes across multiple protocols and paths to deliver the absolute best net price after factoring in gas fees. ParaSwap also pioneered innovative gas optimization features, including the native Gas Refund Program—which refunds up to 100% of user gas expenditure based on the user's staked PSP balance.\n\nThe protocol's native token $PSP powers ParaSwap DAO and the acclaimed Social-Alpha Staking mechanism. Users stake PSP alongside market makers to vouch for their execution reliability, earning high staking yields and a share of protocol surplus fees. Supported across Ethereum, Arbitrum, Optimism, Polygon, Avalanche, and Base, ParaSwap continues to deliver institutional execution quality and community reward incentives.",
+    "tokenomics": "The native $PSP token commands a 2 Billion total supply. PSP powers the ParaSwap DAO, unlocks up to 100% gas refund tiers, and yields protocol surplus fees when staked in Social-Alpha pools.",
+    "sybilDefense": "ParaSwap employs strict anti-sybil filters based on minimum cumulative swap volume, address transaction age, non-circular token routes, and PSP staking tenure. Low-value programmatic bot loops are excluded from gas rebates and retrospective distributions.",
+    "strategy": "To maximize your ParaSwap ($PSP) staking rewards and gas rebates:\n\n1. Use ParaSwap for your regular decentralized swaps across low-cost Layer 2s (Arbitrum, Base, Optimism) or Ethereum.\n2. Utilize advanced trading tools like ParaSwap Limit Orders to execute trades at specific price targets.\n3. Stake $PSP tokens in Social-Alpha staking pools on the ParaSwap governance portal to earn passive APR and fee share.\n4. Maintain an active PSP staking balance to qualify for up to 100% gas fee refunds on trades.\n5. Vote on active ParaSwap DAO governance proposals at Snapshot.",
+    "steps": [
+      "Visit the official <a href=\"https://paraswap.io\" target=\"_blank\" rel=\"noopener noreferrer\">ParaSwap Aggregator</a>.",
+      "Connect your EVM wallet across Ethereum, Arbitrum, Optimism, Base, or Polygon.",
+      "Execute token swaps via <a href=\"https://app.paraswap.io\" target=\"_blank\" rel=\"noopener noreferrer\">ParaSwap Swap Interface</a>.",
+      "Set gas-free limit orders via <a href=\"https://app.paraswap.io/#/limit\" target=\"_blank\" rel=\"noopener noreferrer\">ParaSwap Limit Orders</a>.",
+      "Acquire $PSP tokens and navigate to the <a href=\"https://app.paraswap.io/#/stake\" target=\"_blank\" rel=\"noopener noreferrer\">ParaSwap Staking Portal</a>.",
+      "Stake PSP in Social-Alpha pools to activate your gas refund tier and earn yield.",
+      "Claim monthly gas fee refunds directly from the Gas Refund Dashboard.",
+      "Cast votes on ParaSwap DAO proposals at <a href=\"https://snapshot.org/#/paraswap-dao.eth\" target=\"_blank\" rel=\"noopener noreferrer\">ParaSwap Snapshot</a>."
+    ],
+    "faqs": [
+      {
+        "question": "What is ParaSwap?",
+        "answer": "ParaSwap is a multi-chain decentralized exchange aggregator that finds the best trade routes across AMMs and private market makers."
+      },
+      {
+        "question": "What is AugustusRFQ?",
+        "answer": "AugustusRFQ is ParaSwap's Request-for-Quote routing system that connects traders directly with professional institutional market makers with zero slippage."
+      },
+      {
+        "question": "How does the ParaSwap Gas Refund Program work?",
+        "answer": "Users who stake PSP tokens can receive up to 100% of their transaction gas fees refunded on eligible swaps."
+      },
+      {
+        "question": "What is Social-Alpha Staking?",
+        "answer": "Social-Alpha Staking allows PSP holders to stake on high-performing market makers, sharing in trading fees and protocol surplus."
+      },
+      {
+        "question": "Who funded ParaSwap?",
+        "answer": "ParaSwap raised $5.7M from Blockchain Capital, CoinFund, Aave's Stani Kulechov, and leading crypto venture capital firms."
+      },
+      {
+        "question": "Which networks are supported by ParaSwap?",
+        "answer": "ParaSwap supports Ethereum, Arbitrum, Optimism, Base, Polygon, Avalanche, and BNB Chain."
+      }
+    ]
   }
 ];

@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" fill="none">
+  <defs>
+    <linearGradient id="pspGrad" x1="24" y1="24" x2="104" y2="104" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#FB923C" />
+      <stop offset="50%" stop-color="#F97316" />
+      <stop offset="100%" stop-color="#C2410C" />
+    </linearGradient>
+  </defs>
+  <rect width="128" height="128" rx="28" fill="#180B05" />
+  <!-- ParaSwap Fast Aggregator Multi-Path Routing -->
+  <path d="M30 46H74L60 32M98 46L70 46" stroke="url(#pspGrad)" stroke-width="7" stroke-linecap="round" stroke-linejoin="round" />
+  <path d="M98 82H54L68 96M30 82L58 82" stroke="url(#pspGrad)" stroke-width="7" stroke-linecap="round" stroke-linejoin="round" />
+  <circle cx="64" cy="64" r="10" stroke="#FDBA74" stroke-width="5" fill="#7C2D12" />
+</svg>

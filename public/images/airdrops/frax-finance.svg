@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" fill="none">
+  <defs>
+    <linearGradient id="fraxGrad" x1="20" y1="20" x2="108" y2="108" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#FFFFFF" />
+      <stop offset="50%" stop-color="#CBD5E1" />
+      <stop offset="100%" stop-color="#64748B" />
+    </linearGradient>
+  </defs>
+  <rect width="128" height="128" rx="28" fill="#0A0D14" />
+  <!-- Frax Geometric Fractal Monogram -->
+  <circle cx="64" cy="64" r="42" stroke="url(#fraxGrad)" stroke-width="6" />
+  <path d="M48 38H84M48 38V90M48 62H76" stroke="url(#fraxGrad)" stroke-width="7" stroke-linecap="round" stroke-linejoin="round" />
+  <circle cx="84" cy="38" r="4" fill="#38BDF8" />
+  <circle cx="76" cy="62" r="4" fill="#38BDF8" />
+</svg>
