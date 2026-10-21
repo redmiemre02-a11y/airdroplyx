@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" fill="none">
+  <defs>
+    <linearGradient id="seiGrad" x1="20" y1="20" x2="108" y2="108" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#FF4D4D" />
+      <stop offset="50%" stop-color="#E53E3E" />
+      <stop offset="100%" stop-color="#9B1C1C" />
+    </linearGradient>
+  </defs>
+  <rect width="128" height="128" rx="28" fill="#180707" />
+  <!-- Sei Japanese Kanji Water Crest & Parallel Speed Arcs -->
+  <circle cx="64" cy="64" r="42" stroke="url(#seiGrad)" stroke-width="5" stroke-dasharray="6 4" />
+  <path d="M42 42C56 36 72 36 86 42" stroke="url(#seiGrad)" stroke-width="7" stroke-linecap="round" />
+  <path d="M36 64C54 58 74 58 92 64" stroke="url(#seiGrad)" stroke-width="7" stroke-linecap="round" />
+  <path d="M46 86C58 92 70 92 82 86" stroke="url(#seiGrad)" stroke-width="7" stroke-linecap="round" />
+  <circle cx="64" cy="64" r="7" fill="#FCA5A5" />
+</svg>

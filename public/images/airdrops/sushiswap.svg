@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" fill="none">
+  <defs>
+    <linearGradient id="sushiGrad" x1="20" y1="20" x2="108" y2="108" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#FA52A0" />
+      <stop offset="50%" stop-color="#C026D3" />
+      <stop offset="100%" stop-color="#7C3AED" />
+    </linearGradient>
+  </defs>
+  <rect width="128" height="128" rx="28" fill="#18041A" />
+  <!-- Sushi Roll / BentoBox Monogram -->
+  <circle cx="64" cy="64" r="42" stroke="url(#sushiGrad)" stroke-width="7" fill="#26092B" />
+  <circle cx="64" cy="64" r="24" fill="#FFFFFF" />
+  <circle cx="64" cy="64" r="14" fill="url(#sushiGrad)" />
+  <circle cx="64" cy="64" r="6" fill="#FDE047" />
+  <path d="M42 32L86 32" stroke="url(#sushiGrad)" stroke-width="5" stroke-linecap="round" />
+</svg>

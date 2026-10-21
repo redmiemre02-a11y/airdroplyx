@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" fill="none">
+  <defs>
+    <linearGradient id="orcaGrad" x1="20" y1="20" x2="108" y2="108" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#5EEAD4" />
+      <stop offset="50%" stop-color="#14B8A6" />
+      <stop offset="100%" stop-color="#0F766E" />
+    </linearGradient>
+  </defs>
+  <rect width="128" height="128" rx="28" fill="#031718" />
+  <!-- Orca Jumping Whale & Whirlpool Spiral -->
+  <circle cx="64" cy="64" r="42" stroke="url(#orcaGrad)" stroke-width="5" stroke-dasharray="8 6" />
+  <path d="M36 74C46 52 70 42 88 54C84 68 70 82 50 82C44 82 38 78 36 74Z" fill="url(#orcaGrad)" />
+  <circle cx="76" cy="56" r="4" fill="#FFFFFF" />
+  <path d="M88 54L98 48L94 60Z" fill="#5EEAD4" />
+</svg>

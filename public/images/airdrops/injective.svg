@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" fill="none">
+  <defs>
+    <linearGradient id="injGrad" x1="20" y1="20" x2="108" y2="108" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#00F2FE" />
+      <stop offset="50%" stop-color="#00C0FF" />
+      <stop offset="100%" stop-color="#0072FF" />
+    </linearGradient>
+  </defs>
+  <rect width="128" height="128" rx="28" fill="#040C1A" />
+  <!-- Injective Dynamic Interlocking Helix Swirl -->
+  <path d="M64 24C44 24 32 40 32 60C32 76 44 88 56 88C64 88 72 82 72 74C72 66 64 62 58 58C48 52 46 44 48 38C52 28 62 26 68 30" stroke="url(#injGrad)" stroke-width="7" stroke-linecap="round" fill="none" />
+  <path d="M64 104C84 104 96 88 96 68C96 52 84 40 72 40C64 40 56 46 56 54C56 62 64 66 70 70C80 76 82 84 80 90C76 100 66 102 60 98" stroke="url(#injGrad)" stroke-width="7" stroke-linecap="round" fill="none" />
+  <circle cx="64" cy="64" r="6" fill="#38BDF8" />
+</svg>

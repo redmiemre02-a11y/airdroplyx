@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" fill="none">
+  <defs>
+    <linearGradient id="badgerGrad" x1="20" y1="20" x2="108" y2="108" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#FCD34D" />
+      <stop offset="50%" stop-color="#F59E0B" />
+      <stop offset="100%" stop-color="#B45309" />
+    </linearGradient>
+  </defs>
+  <rect width="128" height="128" rx="28" fill="#140E04" />
+  <!-- Badger DAO Claw & Bitcoin Shield -->
+  <polygon points="64,22 96,38 96,76 64,106 32,76 32,38" stroke="url(#badgerGrad)" stroke-width="6" fill="#241706" />
+  <!-- Badger Stripes / Claws -->
+  <path d="M50 44L50 78M64 36L64 82M78 44L78 78" stroke="#FDE047" stroke-width="6" stroke-linecap="round" />
+  <circle cx="64" cy="94" r="4" fill="#F59E0B" />
+</svg>

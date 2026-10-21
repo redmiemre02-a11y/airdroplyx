@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" fill="none">
+  <defs>
+    <linearGradient id="synGrad" x1="20" y1="20" x2="108" y2="108" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#FCD34D" />
+      <stop offset="50%" stop-color="#F59E0B" />
+      <stop offset="100%" stop-color="#D97706" />
+    </linearGradient>
+  </defs>
+  <rect width="128" height="128" rx="28" fill="#140E04" />
+  <!-- SynFutures Oyster AMM Shell Concentric Spiral -->
+  <path d="M64 26C85 26 102 43 102 64C102 85 85 102 64 102C43 102 26 85 26 64" stroke="url(#synGrad)" stroke-width="7" stroke-linecap="round" fill="none" />
+  <path d="M64 40C77 40 88 51 88 64C88 77 77 88 64 88C51 88 40 77 40 64" stroke="url(#synGrad)" stroke-width="6" stroke-linecap="round" fill="none" />
+  <circle cx="64" cy="64" r="8" fill="#FDE047" />
+  <polygon points="64,20 70,28 58,28" fill="#F59E0B" />
+</svg>

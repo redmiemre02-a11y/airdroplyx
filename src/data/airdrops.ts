@@ -14428,5 +14428,735 @@ export const airdrops: Airdrop[] = [
         "answer": "Maverick is live on Ethereum Mainnet, Base, Arbitrum, BNB Chain, and zkSync Era."
       }
     ]
+  },
+  {
+    "id": "injective",
+    "name": "Injective",
+    "category": "Layer 1",
+    "tier": "Tier 1",
+    "status": "Active",
+    "stage": "Mainnet",
+    "potentialReward": "$1,500 - $9,000",
+    "cost": "Minimal gas fees (<$0.01 on Injective)",
+    "timeRequired": "15 mins / weekly",
+    "platform": "Web / Cosmos / Injective",
+    "description": "High-throughput interoperable Layer 1 blockchain optimized for financial applications, backed by $57M+ from Pantera Capital, Jump Crypto, and Mark Cuban with on-chain orderbook modules.",
+    "logo": "/images/airdrops/injective.svg",
+    "refLink": "https://injective.com",
+    "tags": [
+      "Layer 1",
+      "Cosmos",
+      "Orderbook",
+      "Pantera Capital",
+      "INJ",
+      "Tier 1"
+    ],
+    "featured": true,
+    "startDate": "Nov 2021",
+    "endDate": "Q4 2025",
+    "requirements": [
+      "Injective Compatible Wallet (Keplr/MetaMask/Ninji)",
+      "Stake INJ with Active Network Validators",
+      "Trade on Injective Native DEXs (Helix)",
+      "Participate in Weekly INJ Burn Auctions",
+      "Test inEVM Multi-Chain dApps"
+    ],
+    "overview": "Injective is a revolutionary, custom-built Layer 1 blockchain engineered specifically to power the next generation of decentralized financial infrastructure. Founded by Eric Chen and Albert Chon within Binance Labs' incubation program and backed by over $57 Million from premier crypto and institutional investors—including Pantera Capital, Jump Crypto, Mark Cuban, and Brevan Howard—Injective provides an ultra-fast, zero-gas MEV-resistant financial primitives suite built with Cosmos SDK and Tendermint BFT consensus.\n\nAt the core of Injective's architectural innovation is its native, fully decentralized on-chain orderbook module. Unlike general-purpose blockchains that struggle with state bloat and front-running when processing high-frequency trading, Injective features Frequent Batch Auctions (FBA) that eliminate predatory MEV bot behavior and execute orders with sub-second finality (under 800ms) and instant deterministic state transitions. Injective further expanded its execution capabilities with inEVM (allowing Ethereum developers to deploy Solidity dApps with composability into Cosmos) and inSVM (bringing Solana VM speed).\n\nInjective features one of the most aggressive token burn mechanisms in the entire industry: the Injective Burn Auction. Every week, 60% of all transaction fees collected across all exchange dApps on Injective are pooled and auctioned off to the community, with winning bids burned permanently. With over $100 Million worth of $INJ burned and an expansive DeFi ecosystem featuring Helix, Mito Finance, and Neptune, active $INJ stakers, liquidity providers, and ecosystem traders capture prime rewards.",
+    "tokenomics": "The native $INJ token powers Proof-of-Stake consensus security, DAO governance, fee value accrual, and weekly burn auctions. INJ stakers earn native staking APR and receive continuous retroactive airdrops from new protocols launching on the Injective ecosystem.",
+    "sybilDefense": "Injective tracks sustained validator staking duration, historical trading volume across native orderbook smart contracts, and unique active wallet interactions across IBC channels. Low-value bot scripts that rapidly wash-trade identical volumes are filtered out from ecosystem distributions.",
+    "strategy": "To maximize your positioning for Injective ($INJ) ecosystem airdrops and staking yields:\n\n1. Install an Injective-compatible wallet (such as Keplr, Leap, or Ninji) and fund it with native $INJ.\n2. Navigate to the Injective Hub and stake INJ with non-exchange validators outside the top 10 to decentralize the network.\n3. Execute regular limit and market trades on Helix (Injective's premier orderbook DEX) across crypto and spot markets.\n4. Participate in weekly community INJ Burn Auctions by bidding assets to burn $INJ.\n5. Deposit liquidity into automated trading vaults on Mito Finance or borrow/lend assets on Neptune Mutual.",
+    "steps": [
+      "Visit the official <a href=\"https://injective.com\" target=\"_blank\" rel=\"noopener noreferrer\">Injective Portal</a>.",
+      "Launch the ecosystem management center at <a href=\"https://hub.injective.network\" target=\"_blank\" rel=\"noopener noreferrer\">Injective Hub</a>.",
+      "Connect your wallet (Keplr, MetaMask, or Ninji).",
+      "Stake $INJ tokens with active validators to unlock staking yield and ecosystem airdrop eligibility.",
+      "Trade decentralized spot and perpetual markets at <a href=\"https://helixapp.com\" target=\"_blank\" rel=\"noopener noreferrer\">Helix DEX</a>.",
+      "Explore automated strategy vaults at <a href=\"https://mito.fi\" target=\"_blank\" rel=\"noopener noreferrer\">Mito Finance</a>.",
+      "Participate in weekly burn rounds on the <a href=\"https://hub.injective.network/auction\" target=\"_blank\" rel=\"noopener noreferrer\">Injective Burn Auction Portal</a>.",
+      "Cast votes on open community governance proposals on the Injective Hub Governance tab."
+    ],
+    "faqs": [
+      {
+        "question": "What is Injective?",
+        "answer": "Injective is a high-speed, interoperable Layer 1 blockchain engineered specifically for decentralized finance and orderbook trading."
+      },
+      {
+        "question": "Who backed Injective?",
+        "answer": "Injective raised $57M+ from Pantera Capital, Jump Crypto, Binance Labs, and tech billionaire Mark Cuban."
+      },
+      {
+        "question": "What is the Injective Burn Auction?",
+        "answer": "Every week, 60% of all exchange fees across the network are auctioned to the community and the winning bid of INJ is burned forever."
+      },
+      {
+        "question": "What is inEVM?",
+        "answer": "inEVM is Injective's Ethereum Virtual Machine execution environment, allowing Ethereum dApps to operate with Injective's speed and Cosmos interoperability."
+      },
+      {
+        "question": "How do INJ stakers earn airdrops?",
+        "answer": "Many newly launching projects on Injective allocate a portion of their genesis tokens directly to non-custodial INJ stakers."
+      },
+      {
+        "question": "What is Helix on Injective?",
+        "answer": "Helix is the premier decentralized orderbook exchange built on Injective, offering zero gas fees, fast execution, and zero MEV."
+      }
+    ]
+  },
+  {
+    "id": "sei-network",
+    "name": "Sei Network",
+    "category": "Layer 1",
+    "tier": "Tier 1",
+    "status": "Active",
+    "stage": "Mainnet",
+    "potentialReward": "$1,200 - $8,000",
+    "cost": "Sub-cent gas fees",
+    "timeRequired": "15 mins / weekly",
+    "platform": "Web / Sei / Parallel EVM",
+    "description": "The fastest Layer 1 blockchain pioneering the Parallelized Ethereum Virtual Machine (Parallel EVM / Sei v2), backed by $35M+ from Multicoin Capital and Jump Crypto with 390ms finality.",
+    "logo": "/images/airdrops/sei-network.svg",
+    "refLink": "https://sei.io",
+    "tags": [
+      "Parallel EVM",
+      "Layer 1",
+      "High Speed",
+      "Multicoin Capital",
+      "SEI",
+      "Tier 1"
+    ],
+    "featured": true,
+    "startDate": "Aug 2023",
+    "endDate": "Q4 2025",
+    "requirements": [
+      "Sei Wallet (Compass/MetaMask)",
+      "Stake SEI with Network Validators",
+      "Trade on Sei Parallel EVM DEXs (Yaka Finance / DragonSwap)",
+      "Provide Liquidity to Sei DeFi Pools",
+      "Participate in Sei Ecosystem Quests"
+    ],
+    "overview": "Sei Network is an ultra-high performance Layer 1 blockchain purpose-built to solve the fundamental trading and scalability bottlenecks of decentralized finance. Founded by Jayendra Jog and Jeff Feng (alumni of Robinhood and Goldman Sachs) and backed by $35 Million in venture capital from Multicoin Capital, Jump Crypto, Coinbase Ventures, Distributed Global, and Delphi Digital, Sei was architected from the bare metal to deliver the fastest time-to-finality in Web3: an astonishing 390 milliseconds with throughput exceeding 28,000 transactions per second.\n\nSei pioneered the industry transition to the Parallelized Ethereum Virtual Machine (Parallel EVM) with its monumental Sei v2 upgrade. While legacy EVM chains (like Ethereum and standard rollups) process transactions sequentially in a single single-threaded queue, Sei v2 employs optimistic parallel execution. It executes non-conflicting transactions simultaneously across multiple CPU cores, automatically detecting state dependencies and reordering conflicts seamlessly without requiring developers to rewrite their Solidity smart contracts.\n\nCombined with Sei's Twin-Turbo Consensus (intelligent block propagation and optimistic block processing) and built-in native order matching engine, Sei provides the execution foundation for decentralized exchanges that rival centralized giants like Binance and NASDAQ. Active $SEI stakers, parallel EVM liquidity providers, and community participants stand at the forefront of the high-speed modular blockchain frontier.",
+    "tokenomics": "The native $SEI token commands a 10 Billion total supply. SEI powers Proof-of-Stake validator security, pays sub-cent network transaction fees, participates in governance voting, and unlocks preferential trading collateral tiers across native dApps.",
+    "sybilDefense": "Sei implements multi-phase on-chain heuristic checks, tracking validator delegation stability, continuous cross-contract interaction history, and anti-bot address clustering. Accounts generating automated spam loops without real capital depth are disqualified from foundation grants and airdrops.",
+    "strategy": "To position for maximum Sei Network ($SEI) ecosystem rewards and partner airdrops:\n\n1. Set up a Sei EVM-compatible wallet (Compass, Fin, or MetaMask configured for Sei Network).\n2. Stake $SEI with active community validators on the official Sei App staking portal.\n3. Execute decentralized trades and swaps on native Sei v2 DEXs like Yaka Finance, DragonSwap, or Jellyverse.\n4. Deposit liquidity into Sei lending and borrowing markets (such as Silo or Takepile) to earn high LP APR.\n5. Participate in Sei Foundation ecosystem initiatives, testnet upgrades, and official Galxe quest campaigns.",
+    "steps": [
+      "Visit the official <a href=\"https://sei.io\" target=\"_blank\" rel=\"noopener noreferrer\">Sei Network Portal</a>.",
+      "Access the network dashboard at <a href=\"https://app.sei.io\" target=\"_blank\" rel=\"noopener noreferrer\">Sei App</a>.",
+      "Connect your EVM wallet (MetaMask or Compass).",
+      "Stake $SEI tokens with verified network validators at <a href=\"https://app.sei.io/stake\" target=\"_blank\" rel=\"noopener noreferrer\">Sei Staking</a>.",
+      "Trade on premier Sei Parallel EVM DEXs like <a href=\"https://dragonswap.app\" target=\"_blank\" rel=\"noopener noreferrer\">DragonSwap</a>.",
+      "Provide liquidity to concentrated trading pairs on <a href=\"https://yaka.finance\" target=\"_blank\" rel=\"noopener noreferrer\">Yaka Finance</a>.",
+      "Explore the Sei ecosystem directory at <a href=\"https://sei.io/ecosystem\" target=\"_blank\" rel=\"noopener noreferrer\">Sei Ecosystem Hub</a>.",
+      "Vote on active on-chain governance proposals via the Sei App Governance tab."
+    ],
+    "faqs": [
+      {
+        "question": "What is Sei Network?",
+        "answer": "Sei Network is the fastest Layer 1 blockchain in crypto, featuring the first Parallelized EVM with 390ms finality."
+      },
+      {
+        "question": "What is a Parallel EVM?",
+        "answer": "A Parallel EVM allows multiple transactions to be processed simultaneously on different CPU cores, vastly increasing throughput compared to single-threaded EVMs."
+      },
+      {
+        "question": "Who invested in Sei?",
+        "answer": "Sei raised $35M from Multicoin Capital, Jump Crypto, Coinbase Ventures, and leading digital asset firms."
+      },
+      {
+        "question": "What is Twin-Turbo Consensus?",
+        "answer": "Twin-Turbo Consensus combines intelligent block propagation and optimistic block processing to achieve sub-second block finality."
+      },
+      {
+        "question": "Can I use standard Ethereum tools on Sei?",
+        "answer": "Yes, Sei v2 is fully backwards compatible with Ethereum, meaning MetaMask, Hardhat, Foundry, and Solidity work out of the box."
+      },
+      {
+        "question": "How do I qualify for Sei ecosystem rewards?",
+        "answer": "Stake SEI with non-exchange validators, provide liquidity to Parallel EVM DEXs, and interact regularly with verified ecosystem dApps."
+      }
+    ]
+  },
+  {
+    "id": "thorchain",
+    "name": "THORChain",
+    "category": "DeFi",
+    "tier": "Tier 1",
+    "status": "Active",
+    "stage": "Mainnet",
+    "potentialReward": "$1,500 - $10,000",
+    "cost": "Native chain gas fees (BTC, ETH, etc.)",
+    "timeRequired": "15 mins / monthly",
+    "platform": "Web / Native Multi-Chain",
+    "description": "Decentralized liquidity network enabling trustless, permissionless cross-chain swaps between native Bitcoin, Ethereum, and BNB without wrapped tokens or centralized bridges.",
+    "logo": "/images/airdrops/thorchain.svg",
+    "refLink": "https://thorchain.org",
+    "tags": [
+      "Cross-Chain",
+      "Native Bitcoin",
+      "DEX",
+      "RUNE",
+      "Savers Vaults",
+      "Tier 1"
+    ],
+    "featured": true,
+    "startDate": "Apr 2021",
+    "endDate": "Q4 2025",
+    "requirements": [
+      "Multi-Chain Wallet (XDEFI/Trust/Asgardex)",
+      "Execute Native Cross-Chain Swaps (e.g. BTC to ETH)",
+      "Deposit into THORChain Savers Vaults for Single-Sided Native Yield",
+      "Provide Asymmetric Liquidity to Dual-Sided Pools",
+      "Stake RUNE for Node Security"
+    ],
+    "overview": "THORChain is the undisputed holy grail of trustless, non-custodial cross-chain decentralized finance. Launched to mainnet in 2021, THORChain achieved what many in the cryptographic community deemed impossible: enabling instantaneous, direct peer-to-pool swaps between native Layer 1 assets—including native Bitcoin ($BTC), native Ethereum ($ETH), BNB, Avalanche ($AVAX), and Dogecoin ($DOGE)—without requiring wrapped tokens (like wBTC), pegged assets, or centralized custodial bridges.\n\nTHORChain operates through a sovereign Tendermint-based blockchain secured by an anonymous, decentralized network of ThorNodes using Threshold Signature Schemes (TSS). In each transaction, ThorNodes collectively control multi-signature vaults on external blockchains. Liquidity pools are denominated symmetrically with the protocol's native reserve asset, $RUNE. For every dollar of external capital deposited into THORChain pools, node operators must bond at least two dollars of RUNE, ensuring that stealing the underlying collateral is economically irrational because the slashed bond value far exceeds the theft.\n\nTHORChain further introduced Streaming Swaps (splitting massive multi-million dollar swaps into hundreds of micro-transactions to execute at zero price impact) and Savers Vaults (allowing users to deposit native Bitcoin or Ethereum single-sided to earn native yield with zero exposure to RUNE and zero impermanent loss). As multi-chain DEX aggregation titans (like ShapeShift and Trust Wallet) integrate THORChain under the hood, active native traders and Savers depositors occupy the most hardened sovereign tier of DeFi rewards.",
+    "tokenomics": "The native $RUNE token is the economic backbone of THORChain. RUNE provides liquidity pairing (acting as the settlement asset in every pool), economic security (bonded by node operators at a 2:1 ratio to pool assets), and protocol governance.",
+    "sybilDefense": "THORChain is completely non-custodial and enforces cryptographic proof of reserve. Savers Vaults and liquidity pools track real, verifiable native Layer 1 transaction inputs, eliminating synthetic or zero-capital bot sybil accounts.",
+    "strategy": "To position for maximum THORChain ($RUNE) fee yields and cross-chain ecosystem rewards:\n\n1. Set up a multi-chain native wallet like XDEFI (Ctrl Wallet) or connect Trust Wallet / Asgardex.\n2. Execute native cross-chain trades (such as swapping native Bitcoin directly for native Ethereum) via THORSwap.\n3. Deposit native BTC, ETH, or AVAX into THORChain Savers Vaults to earn single-sided native yield without RUNE exposure.\n4. Provide dual-sided liquidity into core pools (BTC-RUNE, ETH-RUNE) to capture trading fee shares and block emissions.\n5. Acquire and stake $RUNE on ThorNodes or participate in lending mechanisms.",
+    "steps": [
+      "Visit the official <a href=\"https://thorchain.org\" target=\"_blank\" rel=\"noopener noreferrer\">THORChain Community Portal</a>.",
+      "Access the flagship DEX interface at <a href=\"https://app.thorswap.finance\" target=\"_blank\" rel=\"noopener noreferrer\">THORSwap App</a>.",
+      "Connect your multi-chain wallet (XDEFI, Trust Wallet, or MetaMask).",
+      "Perform a native cross-chain swap (e.g., Native Bitcoin directly into Native Ethereum).",
+      "Explore single-sided native yield opportunities at <a href=\"https://app.thorswap.finance/savers\" target=\"_blank\" rel=\"noopener noreferrer\">THORChain Savers Vaults</a>.",
+      "Deposit BTC or ETH into Savers to earn yield paid in the same native currency.",
+      "Track network volume and liquidity depth on <a href=\"https://thorcharts.org\" target=\"_blank\" rel=\"noopener noreferrer\">THORCharts Explorer</a>.",
+      "Explore developer integration tools and node documentation at <a href=\"https://docs.thorchain.org\" target=\"_blank\" rel=\"noopener noreferrer\">THORChain Documentation</a>."
+    ],
+    "faqs": [
+      {
+        "question": "What is THORChain?",
+        "answer": "THORChain is a decentralized cross-chain liquidity network that allows users to swap native assets like Bitcoin and Ethereum without wrapping or bridges."
+      },
+      {
+        "question": "How does THORChain swap native Bitcoin for Ethereum?",
+        "answer": "It uses threshold signature multi-sig vaults across chains, paired with the native RUNE token as an intermediary settlement reserve."
+      },
+      {
+        "question": "What are THORChain Savers Vaults?",
+        "answer": "Savers Vaults allow users to deposit native assets (like BTC or ETH) single-sided to earn native APY without holding RUNE or facing impermanent loss."
+      },
+      {
+        "question": "What are Streaming Swaps?",
+        "answer": "Streaming Swaps break large swaps into smaller sub-swaps over time, achieving institutional pricing with near-zero slippage."
+      },
+      {
+        "question": "What is the utility of the RUNE token?",
+        "answer": "RUNE provides 1:1 liquidity pairing for all assets, is bonded by nodes for network security, and pays out block reward incentives."
+      },
+      {
+        "question": "Is THORChain safe from bridge hacks?",
+        "answer": "THORChain does not use wrapped tokens or centralized bridges; all liquidity sits directly in decentralized threshold-signature on-chain vaults."
+      }
+    ]
+  },
+  {
+    "id": "sushiswap",
+    "name": "SushiSwap (Sushi)",
+    "category": "DeFi",
+    "tier": "Tier 1",
+    "status": "Active",
+    "stage": "Mainnet",
+    "potentialReward": "$1,000 - $6,500",
+    "cost": "Gas fees on Arbitrum / Base / Polygon",
+    "timeRequired": "15 mins / weekly",
+    "platform": "Web / Multi-Chain (30+ chains)",
+    "description": "Foundational decentralized automated market maker operating across 30+ blockchains, featuring SushiXSwap cross-chain aggregation, RouteProcessor, and xSUSHI staking.",
+    "logo": "/images/airdrops/sushiswap.svg",
+    "refLink": "https://sushi.com",
+    "tags": [
+      "DEX",
+      "Cross-Chain",
+      "SushiXSwap",
+      "xSUSHI",
+      "Multi-Chain",
+      "Tier 1"
+    ],
+    "featured": true,
+    "startDate": "Aug 2020",
+    "endDate": "Q4 2025",
+    "requirements": [
+      "Multi-Chain EVM Wallet",
+      "Execute Swaps via Sushi RouteProcessor",
+      "Perform Cross-Chain Swaps using SushiXSwap",
+      "Provide Liquidity to Trident or Concentrated Pools",
+      "Stake SUSHI into xSUSHI Bar"
+    ],
+    "overview": "SushiSwap (Sushi) is one of the most storied, ubiquitous automated market makers in cryptocurrency history. Born in August 2020 during the peak of DeFi Summer through the legendary 'vampire attack' on Uniswap, Sushi pioneered community-led decentralized exchange governance, liquidity provider token revenue sharing, and cross-chain AMM expansion. Today, Sushi operates as a premier multi-chain liquidity hub deployed across more than 30 distinct blockchain networks, including Ethereum, Arbitrum, Base, Optimism, Polygon, Avalanche, and Sonic.\n\nSushi's modern flagship product is SushiXSwap, a revolutionary cross-chain DEX aggregator built atop LayerZero and Stargate infrastructure. SushiXSwap enables users to swap any token on one blockchain directly for any token on another blockchain seamlessly in a single click, automatically finding the cheapest route, lowest slippage, and optimal bridge path. Powering all swaps is the Sushi RouteProcessor, an algorithmic routing engine that aggregates liquidity across multiple on-chain pools simultaneously to deliver superior trade execution.\n\nSushi also encompasses Trident (a production-grade modular AMM framework), BentoBox (a high-efficiency token vault that enables gas-free rebalancing and internal flash lending), and the Sushi Bar—where users stake $SUSHI into $xSUSHI to continuously receive a share of all trading fees generated across the entire multi-chain ecosystem. Active traders, liquidity providers, and community members represent the core community of this battle-tested DeFi titan.",
+    "tokenomics": "The native $SUSHI token commands a fixed 250 Million supply cap. Staking SUSHI into xSUSHI in the Sushi Bar captures a 0.05% protocol fee from all trades across multi-chain deployments, auto-compounding into more SUSHI over time.",
+    "sybilDefense": "Sushi monitors on-chain swap volume across its RouteProcessor smart contracts, liquidity deposit duration in Trident/Concentrated pools, and sustained xSUSHI staking tenure. Programmatic circular wash trades are filtered out from community reward distributions.",
+    "strategy": "To maximize your positioning for SushiSwap ($SUSHI) fee dividends and cross-chain ecosystem rewards:\n\n1. Connect your Web3 wallet across low-fee Layer 2s (Arbitrum, Base, Optimism) or Ethereum.\n2. Execute routine token swaps using the SushiSwap interface powered by RouteProcessor.\n3. Perform cross-chain token swaps using SushiXSwap to log multi-chain bridge and trading volume.\n4. Provide liquidity to high-volume Sushi v2 or concentrated pools to earn trading fees.\n5. Stake $SUSHI tokens in the Sushi Bar to receive $xSUSHI and earn passive protocol fee revenues.",
+    "steps": [
+      "Navigate to the official <a href=\"https://sushi.com\" target=\"_blank\" rel=\"noopener noreferrer\">SushiSwap Portal</a>.",
+      "Launch the decentralized app at <a href=\"https://www.sushi.com/swap\" target=\"_blank\" rel=\"noopener noreferrer\">Sushi Swap App</a>.",
+      "Connect your EVM wallet across any of the 30+ supported blockchains.",
+      "Execute token trades powered by the Sushi RouteProcessor for optimal gas and slippage.",
+      "Perform a cross-chain swap via <a href=\"https://www.sushi.com/swap\" target=\"_blank\" rel=\"noopener noreferrer\">SushiXSwap</a>.",
+      "Explore liquidity opportunities and deposit capital at <a href=\"https://www.sushi.com/pool\" target=\"_blank\" rel=\"noopener noreferrer\">Sushi Pools</a>.",
+      "Stake $SUSHI tokens into xSUSHI at the <a href=\"https://www.sushi.com/stake\" target=\"_blank\" rel=\"noopener noreferrer\">Sushi Bar</a>.",
+      "Participate in community governance discussions at <a href=\"https://forum.sushi.com\" target=\"_blank\" rel=\"noopener noreferrer\">Sushi Forum</a>."
+    ],
+    "faqs": [
+      {
+        "question": "What is SushiSwap?",
+        "answer": "SushiSwap is a multi-chain decentralized exchange operating across 30+ blockchains, offering swaps, liquidity pools, and cross-chain trading."
+      },
+      {
+        "question": "What is SushiXSwap?",
+        "answer": "SushiXSwap is a cross-chain DEX that allows users to swap any token on one chain for any token on another in a single atomic transaction."
+      },
+      {
+        "question": "How does the Sushi Bar ($xSUSHI) work?",
+        "answer": "Users stake SUSHI into xSUSHI to receive a continuous 0.05% cut of all trading fees across the network, compounding their SUSHI balance."
+      },
+      {
+        "question": "What is BentoBox?",
+        "answer": "BentoBox is a smart contract vault that serves as a base layer for dApps, allowing deposited assets to generate yield and save gas."
+      },
+      {
+        "question": "Which networks support SushiSwap?",
+        "answer": "Sushi supports Ethereum, Arbitrum, Base, Optimism, Polygon, Avalanche, BNB Chain, Sonic, and over 20 other Layer 1 and Layer 2 networks."
+      },
+      {
+        "question": "What is RouteProcessor?",
+        "answer": "RouteProcessor is Sushi's smart contract routing engine that dynamically splits trades across multiple liquidity sources for the best price."
+      }
+    ]
+  },
+  {
+    "id": "filecoin",
+    "name": "Filecoin & FVM",
+    "category": "DePIN",
+    "tier": "Tier 1",
+    "status": "Active",
+    "stage": "Mainnet",
+    "potentialReward": "$1,200 - $8,000",
+    "cost": "Minimal FIL transaction fees",
+    "timeRequired": "15 mins / weekly",
+    "platform": "Web / Filecoin / FVM",
+    "description": "World's largest decentralized data storage network backed by $250M+ from Protocol Labs and Sequoia Capital, featuring the Filecoin Virtual Machine (FVM) for smart contracts and liquid staking.",
+    "logo": "/images/airdrops/filecoin.svg",
+    "refLink": "https://filecoin.io",
+    "tags": [
+      "DePIN",
+      "Storage",
+      "FVM",
+      "Protocol Labs",
+      "FIL",
+      "Tier 1"
+    ],
+    "featured": true,
+    "startDate": "Oct 2020",
+    "endDate": "Q4 2025",
+    "requirements": [
+      "Filecoin EVM Wallet (MetaMask / FoxWallet)",
+      "Store Data using Filecoin Deals via Web3.Storage / Lighthouse",
+      "Stake FIL in FVM Liquid Staking Protocols (GLIF, STFIL)",
+      "Borrow or Lend FIL on FVM Money Markets",
+      "Vote on Filecoin Improvement Proposals (FIPs)"
+    ],
+    "overview": "Filecoin is the premier decentralized physical infrastructure network (DePIN) for open data storage in the world. Founded by Juan Benet and developed by Protocol Labs, Filecoin raised over $250 Million from elite venture capital institutions including Sequoia Capital, Andreessen Horowitz (a16z), Union Square Ventures, and Winklevoss Capital. Filecoin serves as the incentive layer for IPFS (InterPlanetary File System), transforming cloud storage into an open algorithmic marketplace secured by cryptographic proofs: Proof-of-Replication (PoRep) and Proof-of-Spacetime (PoSt).\n\nWith exabytes of verified storage capacity pledged by thousands of storage providers globally, Filecoin stores critical open datasets, Wikipedia archives, scientific research, and Web3 NFT metadata. The network achieved a historic milestone with the deployment of the Filecoin Virtual Machine (FVM). The FVM introduces fully EVM-compatible smart contracts directly on the Filecoin network, transforming Filecoin from a passive data repository into an active, programmable computational economy.\n\nThe FVM has catalyzed a booming decentralized finance ecosystem centered on Filecoin, including liquid leasing and staking protocols (such as GLIF, STFIL), decentralized data DAOs, compute-over-data engines (Bacalhau), and automated storage deals. By depositing capital into FVM liquid staking protocols and supporting storage deals, active $FIL participants sit at the nexus of DePIN and decentralized AI infrastructure.",
+    "tokenomics": "The native $FIL token coordinates storage deals, collateral pledging, network gas fees, and Proof-of-Spacetime consensus rewards. Storage providers must lock substantial amounts of FIL as collateral to guarantee data availability, creating a massive structural supply sink.",
+    "sybilDefense": "Filecoin's consensus is mathematically bound to physical storage hardware capacity and sector proof verification. FVM protocols measure verifiable capital deposit tenure, real storage deal completion, and liquid staking pool engagement.",
+    "strategy": "To position for maximum Filecoin ($FIL) ecosystem staking yields and FVM retroactive airdrops:\n\n1. Set up MetaMask or FoxWallet connected to Filecoin EVM (Chain ID: 314) and acquire $FIL.\n2. Deposit FIL into leading FVM liquid leasing protocols (such as GLIF or STFIL) to earn passive staking APR and GLIF Points.\n3. Supply or borrow assets on FVM money markets and decentralized exchanges (like Sushi or Uniswap on FVM).\n4. Store files, datasets, or NFT metadata permanently on Filecoin using developer platforms like Lighthouse or Web3.Storage.\n5. Participate in community governance voting on Filecoin Improvement Proposals (FIPs) at Filfor.",
+    "steps": [
+      "Visit the official <a href=\"https://filecoin.io\" target=\"_blank\" rel=\"noopener noreferrer\">Filecoin Portal</a>.",
+      "Configure your EVM wallet for Filecoin Mainnet at <a href=\"https://chainlist.org/chain/314\" target=\"_blank\" rel=\"noopener noreferrer\">Chainlist Filecoin</a>.",
+      "Acquire $FIL on Coinbase, Binance, or Kraken and transfer to your Filecoin address.",
+      "Deposit FIL into the premier liquid staking protocol at <a href=\"https://glif.io\" target=\"_blank\" rel=\"noopener noreferrer\">GLIF Liquid Leases</a>.",
+      "Accumulate GLIF Points by supplying liquidity to storage provider collateral pools.",
+      "Store permanent files on Filecoin using <a href=\"https://lighthouse.storage\" target=\"_blank\" rel=\"noopener noreferrer\">Lighthouse Storage</a>.",
+      "Explore active dApps on Filecoin via the <a href=\"https://fvm.filecoin.io\" target=\"_blank\" rel=\"noopener noreferrer\">FVM Directory</a>.",
+      "Review governance proposals at <a href=\"https://github.com/filecoin-project/FIPs\" target=\"_blank\" rel=\"noopener noreferrer\">Filecoin FIPs Repository</a>."
+    ],
+    "faqs": [
+      {
+        "question": "What is Filecoin?",
+        "answer": "Filecoin is a decentralized data storage network that turns cloud storage into an open algorithmic marketplace secured by cryptographic proofs."
+      },
+      {
+        "question": "What is the Filecoin Virtual Machine (FVM)?",
+        "answer": "The FVM brings EVM-compatible smart contracts to Filecoin, enabling DeFi, liquid staking, and programmable data storage deals."
+      },
+      {
+        "question": "Who funded Filecoin?",
+        "answer": "Filecoin was created by Protocol Labs and raised over $250M from Sequoia Capital, a16z, and Union Square Ventures."
+      },
+      {
+        "question": "What is GLIF on Filecoin?",
+        "answer": "GLIF is the foundational liquid leasing protocol on Filecoin, allowing FIL holders to deposit tokens to earn yield from storage providers."
+      },
+      {
+        "question": "How do storage providers use FIL?",
+        "answer": "Storage providers must post FIL as collateral to guarantee they will store client data reliably for the full duration of the deal."
+      },
+      {
+        "question": "What is the difference between IPFS and Filecoin?",
+        "answer": "IPFS is a peer-to-peer content addressing protocol, while Filecoin provides the economic incentive layer to guarantee permanent storage."
+      }
+    ]
+  },
+  {
+    "id": "synfutures",
+    "name": "SynFutures",
+    "category": "DeFi",
+    "tier": "Tier 1",
+    "status": "Active",
+    "stage": "Mainnet",
+    "potentialReward": "$1,500 - $9,500",
+    "cost": "Gas fees (<$0.10 on Blast/Base)",
+    "timeRequired": "15 mins / weekly",
+    "platform": "Web / Blast / Base",
+    "description": "Leading decentralized derivatives exchange backed by $38M from Pantera Capital, Polychain Capital, and Dragonfly Capital, powered by the Oyster AMM combining CLOB and concentrated liquidity.",
+    "logo": "/images/airdrops/synfutures.svg",
+    "refLink": "https://synfutures.com",
+    "tags": [
+      "Perpetuals",
+      "Derivatives",
+      "Oyster AMM",
+      "Pantera Capital",
+      "Blast",
+      "Tier 1"
+    ],
+    "featured": true,
+    "startDate": "May 2021",
+    "endDate": "Q4 2025",
+    "requirements": [
+      "EVM Wallet on Blast or Base",
+      "Trade Perpetuals on SynFutures v3",
+      "Provide Liquidity to Oyster AMM Range Pools",
+      "Accumulate SynFutures Oyster Odyssey Points",
+      "Join Trading Competitions and Seasonal Campaigns"
+    ],
+    "overview": "SynFutures is an institutional-grade decentralized perpetual futures exchange engineered to enable permissionless derivatives trading for any asset in Web3. Backed by $38 Million across multiple funding rounds led by tier-1 crypto venture capital titans—including Pantera Capital, Polychain Capital, Dragonfly Capital, Standard Crypto, and Framework Ventures—SynFutures has facilitated over $60 Billion in cumulative derivatives trading volume.\n\nThe technological cornerstone of SynFutures v3 is the Oyster AMM (Automated Market Maker). The Oyster AMM represents a quantum leap in decentralized exchange design by harmonizing the best attributes of Central Limit Order Books (CLOB) and concentrated liquidity AMMs into a single atomic smart contract engine. This architecture allows traders to place on-chain limit orders with zero gas cost while enabling liquidity providers to concentrate capital in tight price ranges, achieving superior capital efficiency and low slippage.\n\nCrucially, SynFutures is completely permissionless: anyone can launch a new perpetual futures market on any cryptocurrency, commodity, or index within 30 seconds using only a single token pair. Operating natively on high-throughput networks like Blast and Base, SynFutures runs its flagship 'Oyster Odyssey' rewards program—distributing Blast Gold, Blast Points, and SynFutures Odyssey Points directly to active perpetual traders and range liquidity providers.",
+    "tokenomics": "The forthcoming SynFutures native token will govern protocol parameters, direct liquidity mining gauges across Oyster AMM pools, and provide fee discounts and staking revenue sharing to active community participants.",
+    "sybilDefense": "SynFutures employs sophisticated trading algorithms to detect wash trading, monitoring trade duration, liquidation risk exposure, organic market fills, and net fee contribution. Programmatic accounts executing zero-risk opposing orders are disqualified from Oyster Odyssey rewards.",
+    "strategy": "To maximize your positioning for SynFutures token airdrops and Oyster Odyssey rewards:\n\n1. Connect your EVM wallet to SynFutures v3 on Blast or Base.\n2. Deposit collateral (USDB or USDbC) into your trading account.\n3. Execute regular leveraged perpetual futures trades across major pairs (BTC, ETH) and trending altcoin markets.\n4. Provide concentrated liquidity into Oyster AMM range pools to earn trading fees and daily Odyssey points.\n5. Participate in seasonal trading competitions, invite active traders using your referral link, and climb the Oyster Odyssey leaderboard.",
+    "steps": [
+      "Visit the official <a href=\"https://synfutures.com\" target=\"_blank\" rel=\"noopener noreferrer\">SynFutures Platform</a>.",
+      "Launch the decentralized derivatives app at <a href=\"https://oyster.synfutures.com\" target=\"_blank\" rel=\"noopener noreferrer\">SynFutures Oyster App</a>.",
+      "Connect your EVM wallet on Blast or Base.",
+      "Deposit collateral into your non-custodial trading margin balance.",
+      "Execute leveraged long or short perpetual futures trades.",
+      "Provide liquidity by selecting custom price ranges in the <a href=\"https://oyster.synfutures.com/#/pool\" target=\"_blank\" rel=\"noopener noreferrer\">Oyster Liquidity Pools</a>.",
+      "Check your accumulated points on the <a href=\"https://oyster.synfutures.com/#/odyssey\" target=\"_blank\" rel=\"noopener noreferrer\">Oyster Odyssey Dashboard</a>.",
+      "Engage in community campaigns on the <a href=\"https://discord.gg/synfutures\" target=\"_blank\" rel=\"noopener noreferrer\">SynFutures Discord</a>."
+    ],
+    "faqs": [
+      {
+        "question": "What is SynFutures?",
+        "answer": "SynFutures is a decentralized perpetual futures exchange that allows permissionless listing and trading of any asset with high leverage."
+      },
+      {
+        "question": "Who invested in SynFutures?",
+        "answer": "SynFutures raised $38M from top venture firms including Pantera Capital, Polychain Capital, Dragonfly, and Standard Crypto."
+      },
+      {
+        "question": "What is the Oyster AMM?",
+        "answer": "The Oyster AMM is a hybrid protocol combining the speed of order books with concentrated liquidity to maximize capital efficiency."
+      },
+      {
+        "question": "What is the Oyster Odyssey program?",
+        "answer": "Oyster Odyssey is SynFutures' points campaign rewarding perpetual traders and liquidity providers with points redeemable for future tokens."
+      },
+      {
+        "question": "Which networks support SynFutures v3?",
+        "answer": "SynFutures v3 is live on Blast and Base, taking advantage of fast block times and low transaction fees."
+      },
+      {
+        "question": "Can anyone list a new trading pair on SynFutures?",
+        "answer": "Yes, SynFutures allows permissionless listing of synthetic perpetual futures for any asset within 30 seconds."
+      }
+    ]
+  },
+  {
+    "id": "trader-joe",
+    "name": "LFJ (Trader Joe)",
+    "category": "DeFi",
+    "tier": "Tier 1",
+    "status": "Active",
+    "stage": "Mainnet",
+    "potentialReward": "$1,000 - $7,000",
+    "cost": "Gas fees on Avalanche / Arbitrum",
+    "timeRequired": "15 mins / weekly",
+    "platform": "Web / Avalanche / Arbitrum / BNB",
+    "description": "Avalanche and Arbitrum's premier decentralized trading platform and creators of the Liquidity Book, providing discretized zero-slippage bin liquidity and sJOE staking rewards.",
+    "logo": "/images/airdrops/trader-joe.svg",
+    "refLink": "https://lfj.gg",
+    "tags": [
+      "DEX",
+      "Liquidity Book",
+      "Avalanche",
+      "JOE",
+      "Arbitrum",
+      "Tier 1"
+    ],
+    "featured": true,
+    "startDate": "Jul 2021",
+    "endDate": "Q4 2025",
+    "requirements": [
+      "Avalanche / Arbitrum Wallet",
+      "Swap Tokens via Liquidity Book Router",
+      "Deposit Capital into Concentrated Bin Liquidity Pools",
+      "Stake JOE for sJOE (Stablecoin Dividends) or veJOE",
+      "Trade Cross-Chain via LFJ Omnichain Features"
+    ],
+    "overview": "LFJ (formerly Trader Joe) is the definitive decentralized trading and financial powerhouse originating on Avalanche and expanding across Arbitrum, BNB Chain, and Ethereum. Founded in 2021 by 0xMurloc and Cryptofish and backed by $5 Million from Defiance Capital, Three Arrows Capital, Mechanism Capital, and Avalanche Foundation, LFJ grew into the dominant liquidity venue of the Avalanche ecosystem, capturing over $40 Billion in cumulative swap volume.\n\nLFJ revolutionized decentralized market maker mathematics by inventing the 'Liquidity Book' (LB). While Uniswap v3 distributes concentrated liquidity across continuous price ticks, the Liquidity Book groups liquidity into discrete price 'bins'. When a trade executes inside a bin, there is zero price impact and zero slippage. Furthermore, the Liquidity Book incorporates a revolutionary Dynamic Volatility Fee: when market volatility surges, swap fees automatically scale up to compensate liquidity providers for impermanent loss, effectively shielding LPs from toxic arbitrage flow.\n\nLFJ features a sophisticated staking architecture powered by the $JOE token. Stakers can choose between $sJOE (which pays out real-yield protocol revenue directly in stablecoins like USDC), $veJOE (boosting yield farm rewards), and $rJOE (granting launchpad whitelist access). With its rebranding to LFJ and the introduction of omnichain intent routing, active traders and Liquidity Book depositors command a prime position in multi-chain DeFi yield.",
+    "tokenomics": "The native $JOE token has a fixed maximum supply of 500 Million tokens with all inflation ending in 2024. Staking JOE into sJOE distributes a direct share of all platform trading fees across all chains in USDC, providing pure real cash-flow yield.",
+    "sybilDefense": "LFJ monitors continuous Liquidity Book bin placement duration, active fee generation ratios, and sJOE staking tenure. Flash loan deposit-withdraw loops that exit within the same block earn zero fees and are excluded from community rewards.",
+    "strategy": "To maximize your positioning for LFJ ($JOE) real yields and ecosystem rewards:\n\n1. Connect your Web3 wallet across Avalanche, Arbitrum, or BNB Chain.\n2. Execute decentralized token swaps on the LFJ platform to log high-volume trades.\n3. Deposit liquidity into premier Liquidity Book pools using specialized bin strategies (Spot, Curve, Bid-Ask).\n4. Stake $JOE tokens into $sJOE to receive continuous, auto-compounding stablecoin (USDC) fee payouts.\n5. Test LFJ's cross-chain routing features and participate in community governance votes.",
+    "steps": [
+      "Visit the official <a href=\"https://lfj.gg\" target=\"_blank\" rel=\"noopener noreferrer\">LFJ Platform</a>.",
+      "Launch the decentralized app at <a href=\"https://lfj.gg/avalanche/trade\" target=\"_blank\" rel=\"noopener noreferrer\">LFJ Trade App</a>.",
+      "Connect your EVM wallet to Avalanche, Arbitrum, or BNB Chain.",
+      "Execute token swaps using the zero-slippage bin routing engine.",
+      "Explore concentrated bin pools at <a href=\"https://lfj.gg/avalanche/pool\" target=\"_blank\" rel=\"noopener noreferrer\">LFJ Liquidity Book Pools</a>.",
+      "Select dynamic distribution shapes (Spot, Curve, Bid-Ask) to optimize your LP fees.",
+      "Stake $JOE into sJOE at <a href=\"https://lfj.gg/avalanche/stake\" target=\"_blank\" rel=\"noopener noreferrer\">LFJ Staking Portal</a> to earn USDC dividends.",
+      "Explore documentation and analytics at <a href=\"https://docs.lfj.gg\" target=\"_blank\" rel=\"noopener noreferrer\">LFJ Documentation</a>."
+    ],
+    "faqs": [
+      {
+        "question": "What is LFJ (Trader Joe)?",
+        "answer": "LFJ is a leading multi-chain decentralized exchange known for inventing the Liquidity Book concentrated liquidity protocol."
+      },
+      {
+        "question": "What is the Liquidity Book (LB)?",
+        "answer": "The Liquidity Book organizes liquidity into discrete price bins, enabling zero-slippage trades within a bin and dynamic volatility surge fees."
+      },
+      {
+        "question": "How do Dynamic Volatility Fees protect LPs?",
+        "answer": "During rapid market fluctuations, swap fees automatically increase, protecting liquidity providers against impermanent loss and arbitrageurs."
+      },
+      {
+        "question": "What is sJOE staking?",
+        "answer": "sJOE is a staking model that distributes a share of all platform trading fees directly in stablecoins (USDC) to stakers."
+      },
+      {
+        "question": "Which blockchains support LFJ?",
+        "answer": "LFJ is deployed on Avalanche, Arbitrum, BNB Chain, and Ethereum."
+      },
+      {
+        "question": "What happened to Trader Joe's tokenomics?",
+        "answer": "JOE has a fixed 500M cap with zero token emissions remaining; all staking yields come from organic protocol fee revenues."
+      }
+    ]
+  },
+  {
+    "id": "orca-dex",
+    "name": "Orca",
+    "category": "DeFi",
+    "tier": "Tier 1",
+    "status": "Active",
+    "stage": "Mainnet",
+    "potentialReward": "$1,000 - $6,000",
+    "cost": "Sub-cent Solana transaction fees",
+    "timeRequired": "10 mins / weekly",
+    "platform": "Web / Solana",
+    "description": "Solana's premier concentrated liquidity automated market maker (Whirlpools) backed by $18M from Polychain Capital and Placeholder, powering the deepest trading efficiency on Solana.",
+    "logo": "/images/airdrops/orca-dex.svg",
+    "refLink": "https://orca.so",
+    "tags": [
+      "Solana",
+      "Concentrated Liquidity",
+      "Whirlpools",
+      "Polychain Capital",
+      "ORCA",
+      "Tier 1"
+    ],
+    "featured": true,
+    "startDate": "Feb 2021",
+    "endDate": "Q4 2025",
+    "requirements": [
+      "Solana Wallet (Phantom/Solflare)",
+      "Execute Swaps on Orca Whirlpools",
+      "Deploy Concentrated Liquidity into High-Volume Whirlpool Pairs",
+      "Earn Trading Fee Yields and ORCA Emissions",
+      "Participate in Orca Climate & Ecosystem Grants Governance"
+    ],
+    "overview": "Orca is the beloved, preeminent concentrated liquidity automated market maker of the Solana blockchain. Founded in early 2021 by Yutaro Mori and Grace Kwan (raw falafel and orient espresso) and supported by $18 Million in Series A venture funding led by Polychain Capital, Placeholder, Three Arrows Capital, Jump Capital, and Coinbase Ventures, Orca established the gold standard for user experience and capital efficiency in the Solana ecosystem.\n\nOrca's core technological breakthrough is Whirlpools: a mathematically optimized concentrated liquidity protocol engineered specifically to take full advantage of Solana's sub-second block times and ultra-low transaction fees. Whirlpools allows liquidity providers to concentrate their capital within custom price bounds, achieving up to 4,000x greater capital efficiency than traditional constant-product AMMs. Crucially, Orca was designed with a developer-first approach; its open-source Whirlpools SDK powers the trading backend for Jupiter aggregator, Solana consumer wallets, and automated market maker vaults across Web3.\n\nIn addition to technical excellence, Orca is globally celebrated for its social impact mission through the Orca Climate Fund, which directs a portion of all protocol trading fees to ocean conservation and climate resilience projects. Anchored by the native $ORCA token and community governance, active Solana traders and Whirlpool liquidity providers represent one of the most resilient and profitable communities in decentralized finance.",
+    "tokenomics": "The native $ORCA token has a fixed decay emission schedule and is used for protocol governance through the Orca DAO, voting on liquidity incentives, and funding ecosystem developer grants.",
+    "sybilDefense": "Orca analyzes on-chain Whirlpool position duration, fee-to-capital efficiency ratios, and transaction timing against automated flash-loan loops. Automated bots that deploy and withdraw concentrated liquidity in identical blocks receive zero governance weight.",
+    "strategy": "To maximize your positioning for Orca ($ORCA) trading fee yields and Solana ecosystem rewards:\n\n1. Connect a top Solana wallet (such as Phantom, Solflare, or Backpack) to Orca.\n2. Execute decentralized token swaps across Solana native assets (SOL, USDC, JUP, JTO, RAY).\n3. Deposit capital into high-volume Whirlpool concentrated liquidity pools within active trading ranges.\n4. Rebalance your concentrated price intervals regularly or use automated liquidity vaults (like Kamino or Meteora) built on Orca.\n5. Acquire $ORCA tokens and participate in active Orca DAO governance proposals on Realms.",
+    "steps": [
+      "Visit the official <a href=\"https://orca.so\" target=\"_blank\" rel=\"noopener noreferrer\">Orca Platform</a>.",
+      "Launch the application at <a href=\"https://www.orca.so\" target=\"_blank\" rel=\"noopener noreferrer\">Orca App</a>.",
+      "Connect your Solana wallet (Phantom or Solflare).",
+      "Execute token trades via the fast, low-slippage <a href=\"https://www.orca.so\" target=\"_blank\" rel=\"noopener noreferrer\">Orca Swap</a>.",
+      "Explore concentrated liquidity pairs at <a href=\"https://www.orca.so/pools\" target=\"_blank\" rel=\"noopener noreferrer\">Orca Whirlpools</a>.",
+      "Deposit liquidity into tight price bands to maximize fee generation.",
+      "Monitor trading fees and collect accrued earnings directly from your position dashboard.",
+      "Review Orca developer SDKs and open-source smart contracts at <a href=\"https://docs.orca.so\" target=\"_blank\" rel=\"noopener noreferrer\">Orca Documentation</a>."
+    ],
+    "faqs": [
+      {
+        "question": "What is Orca?",
+        "answer": "Orca is Solana's premier decentralized exchange and concentrated liquidity protocol (Whirlpools)."
+      },
+      {
+        "question": "What are Whirlpools on Orca?",
+        "answer": "Whirlpools are concentrated liquidity pools that allow LPs to focus capital in specific price ranges, drastically boosting fee returns."
+      },
+      {
+        "question": "Who backed Orca?",
+        "answer": "Orca raised $18M led by Polychain Capital, Placeholder, Jump Capital, and Coinbase Ventures."
+      },
+      {
+        "question": "How does Orca support ocean conservation?",
+        "answer": "The Orca Climate Fund directs a portion of every trade fee to marine conservation and climate change projects around the world."
+      },
+      {
+        "question": "What wallet can I use with Orca?",
+        "answer": "You can use any leading Solana wallet including Phantom, Solflare, Backpack, and Ledger."
+      },
+      {
+        "question": "What is the Whirlpools SDK?",
+        "answer": "The Whirlpools SDK is an open-source library that allows external dApps and aggregators like Jupiter to integrate Orca liquidity directly."
+      }
+    ]
+  },
+  {
+    "id": "beefy-finance",
+    "name": "Beefy Finance",
+    "category": "DeFi",
+    "tier": "Tier 1",
+    "status": "Active",
+    "stage": "Mainnet",
+    "potentialReward": "$800 - $5,500",
+    "cost": "Gas fees on Arbitrum / Base / Optimism",
+    "timeRequired": "15 mins / monthly",
+    "platform": "Web / Multi-Chain (20+ chains)",
+    "description": "Pioneering multi-chain decentralized yield optimizer auto-compounding rewards across 20+ blockchains, governed by $BIFI with 100% protocol revenue share.",
+    "logo": "/images/airdrops/beefy-finance.svg",
+    "refLink": "https://beefy.finance",
+    "tags": [
+      "Yield Optimizer",
+      "Auto-Compounding",
+      "Multi-Chain",
+      "BIFI",
+      "DeFi",
+      "Tier 1"
+    ],
+    "featured": true,
+    "startDate": "Oct 2020",
+    "endDate": "Q4 2025",
+    "requirements": [
+      "Multi-Chain EVM Wallet",
+      "Deposit LP Tokens or Single Assets into Beefy Auto-Compounding Vaults",
+      "Stake BIFI in the Beefy Earnings Pool for Protocol Revenue",
+      "Lock BIFI in veBIFI Governance",
+      "Vote on DAO Improvement Proposals"
+    ],
+    "overview": "Beefy Finance (Beefy) is the undisputed pioneer and longest-running decentralized, multi-chain yield optimizer across the entire Web3 ecosystem. Launched in October 2020 by an anonymous team of DeFi veterans, Beefy solved the most tedious and expensive challenge facing liquidity providers: manual reward compounding. Instead of users having to remember to manually claim farm reward tokens, pay high network gas fees, swap rewards for LP assets, and redeposit them into the pool, Beefy vaults automate this process thousands of times per day via algorithmic smart contracts.\n\nBeefy's core innovation is the 'MooVault' (ERC-20 receipt tokens representing shares in an auto-compounding strategy). By pooling capital from thousands of depositors, Beefy socializes gas costs across all participants. The vault automatically harvests farm rewards (like CRV, VELO, or AERO), swaps them on decentralized exchanges for more of the underlying liquidity pair, and redeposits them into the pool—turning linear APR into exponential compounding APY.\n\nBeefy operates on more than 20 distinct blockchain networks, including Ethereum, Arbitrum, Base, Optimism, Polygon, Avalanche, and BNB Chain. Anchored by its ultra-scarce native governance token $BIFI (which has a strictly fixed supply of 80,000 tokens), Beefy distributes 100% of its protocol revenue directly to BIFI stakers. Active depositors and veBIFI lockers sit atop the most battle-tested automated yield machine in crypto.",
+    "tokenomics": "The native $BIFI token has an immutable maximum supply of exactly 80,000 tokens with zero remaining inflation. Staking BIFI in the Beefy Earnings Pool or locking it into veBIFI distributes 100% of all protocol performance fee revenues directly to stakers in native assets.",
+    "sybilDefense": "Beefy vaults are fully non-custodial and track verifiable capital deposit duration and mooToken balances. Accounts that deposit and immediately withdraw within the same transaction without staying through harvest epochs earn zero compounded yield.",
+    "strategy": "To maximize your positioning for Beefy Finance ($BIFI) compounding yields and protocol fee distributions:\n\n1. Connect your EVM wallet across low-cost Layer 2s (Arbitrum, Base, Optimism) or Ethereum.\n2. Deposit liquidity pair tokens (from Aerodrome, Velodrome, Uniswap, or Curve) into high-yield Beefy vaults.\n3. Hold mooToken vault receipts to passively accumulate auto-compounding interest with optimal gas efficiency.\n4. Acquire $BIFI tokens and stake them in the Beefy Earnings Pool to receive protocol fee dividends.\n5. Lock BIFI into veBIFI on the Beefy DAO portal to vote on governance proposals and boost fee yields.",
+    "steps": [
+      "Visit the official <a href=\"https://beefy.finance\" target=\"_blank\" rel=\"noopener noreferrer\">Beefy Finance Hub</a>.",
+      "Launch the decentralized app at <a href=\"https://app.beefy.com\" target=\"_blank\" rel=\"noopener noreferrer\">Beefy App</a>.",
+      "Connect your EVM wallet across any of the 20+ supported blockchains.",
+      "Filter vaults by safety score, TVL, and annual percentage yield (APY).",
+      "Deposit LP tokens or single assets into your chosen auto-compounding vault.",
+      "Receive mooTokens representing your yield-bearing share of the vault.",
+      "Stake $BIFI tokens into the <a href=\"https://app.beefy.com/bifi\" target=\"_blank\" rel=\"noopener noreferrer\">BIFI Earnings Pool</a>.",
+      "Vote on active community governance proposals at <a href=\"https://vote.beefy.com\" target=\"_blank\" rel=\"noopener noreferrer\">Beefy Snapshot</a>."
+    ],
+    "faqs": [
+      {
+        "question": "What is Beefy Finance?",
+        "answer": "Beefy Finance is a decentralized, multi-chain yield optimizer that automatically compounds returns on liquidity pools and crypto assets."
+      },
+      {
+        "question": "How do Beefy vaults auto-compound?",
+        "answer": "Beefy smart contracts routinely claim farm reward tokens, sell them for the underlying assets, and redeposit them to compound yield exponentially."
+      },
+      {
+        "question": "What are mooTokens?",
+        "answer": "mooTokens are yield-bearing receipt tokens you receive when depositing into Beefy vaults, growing in value relative to the underlying assets."
+      },
+      {
+        "question": "What is the maximum supply of BIFI?",
+        "answer": "The BIFI token has a hard cap of exactly 80,000 tokens with zero future minting or inflation."
+      },
+      {
+        "question": "How do BIFI stakers earn protocol revenue?",
+        "answer": "Staking BIFI in the earnings pool grants stakers a direct share of the performance fees collected across all vaults on 20+ networks."
+      },
+      {
+        "question": "Does Beefy charge deposit or withdrawal fees?",
+        "answer": "Beefy has zero deposit fees and zero withdrawal fees on standard vaults; it only takes a small performance fee on the harvested yields."
+      }
+    ]
+  },
+  {
+    "id": "badger-dao",
+    "name": "Badger DAO & eBTC",
+    "category": "DeFi",
+    "tier": "Tier 1",
+    "status": "Active",
+    "stage": "Mainnet",
+    "potentialReward": "$1,200 - $7,000",
+    "cost": "Gas fees on Ethereum / Arbitrum",
+    "timeRequired": "15 mins / monthly",
+    "platform": "Web / Ethereum / Arbitrum",
+    "description": "Premier Bitcoin-focused DeFi collective bringing BTC to decentralized finance, creator of eBTC—an immutable zero-interest synthetic collateralized debt protocol.",
+    "logo": "/images/airdrops/badger-dao.svg",
+    "refLink": "https://badger.com",
+    "tags": [
+      "Bitcoin DeFi",
+      "eBTC",
+      "Zero Interest",
+      "BADGER",
+      "Arbitrum",
+      "Tier 1"
+    ],
+    "featured": true,
+    "startDate": "Dec 2020",
+    "endDate": "Q4 2025",
+    "requirements": [
+      "EVM Wallet",
+      "Deposit stETH / wstETH into eBTC to Borrow Bitcoin at 0% Interest",
+      "Deposit Bitcoin Assets into Badger Sett Vaults",
+      "Stake BADGER in Governance Vaults",
+      "Participate in Badger DAO Council Elections and Snapshot Votes"
+    ],
+    "overview": "Badger DAO is the premier decentralized community dedicated to building products and infrastructure to bring Bitcoin to the decentralized finance ecosystem. Founded in late 2020 by Chris Spadafora and supported by a multi-million dollar treasury, Badger DAO recognized that Bitcoin represents the largest pool of pristine collateral in the digital asset world, yet the vast majority of BTC sat dormant outside smart contract ecosystems.\n\nBadger developed 'Sett Vaults'—automated yield-generating strategies optimized for wrapped Bitcoin assets (wBTC, renBTC, tBTC) on Ethereum and Arbitrum. Pushing the boundaries of decentralized Bitcoin credit, Badger launched its crowning achievement: eBTC. Built in collaboration with Risk DAO and powered by immutable smart contracts, eBTC is a synthetic, collateralized debt position (CDP) protocol that allows users to deposit Lido's staked Ethereum ($stETH) and borrow Bitcoin ($eBTC) with a 0% borrowing fee, 0% interest rate, and 0% repayment fee.\n\nBecause the underlying collateral (stETH) generates continuous staking yields, the eBTC protocol captures yield automatically to fund protocol security and generate surplus reserves without burdening the borrower. Anchored by the native $BADGER governance token, active eBTC CDP minters, Sett vault depositors, and BADGER stakers sit at the forefront of the massive multi-trillion dollar Bitcoin DeFi convergence.",
+    "tokenomics": "The native $BADGER token commands a capped supply of 21 Million tokens, matching Bitcoin's iconic scarcity. BADGER governs protocol treasury funds, directs Sett vault emissions, and determines collateral parameters for eBTC.",
+    "sybilDefense": "Badger DAO tracks verifiable on-chain collateralization depth, CDP holding tenure, and Sett vault staking history. Ephemeral accounts opening and closing dust CDPs within single blocks are excluded from governance distributions.",
+    "strategy": "To maximize your positioning for Badger DAO and eBTC ($BADGER) rewards and zero-interest credit:\n\n1. Connect your Ethereum or Arbitrum wallet to the official eBTC or Badger portal.\n2. Deposit Lido staked Ethereum (stETH or wstETH) into an eBTC CDP to borrow native synthetic Bitcoin at 0% interest.\n3. Supply borrowed eBTC or wrapped Bitcoin (wBTC) into Badger Sett Vaults to earn automated compounding yields.\n4. Provide liquidity to eBTC/wBTC pools on Curve or Balancer to earn secondary trading fees and BADGER incentives.\n5. Acquire and stake $BADGER tokens in the Badger governance portal to participate in DAO council elections.",
+    "steps": [
+      "Visit the official <a href=\"https://badger.com\" target=\"_blank\" rel=\"noopener noreferrer\">Badger DAO Portal</a>.",
+      "Access the zero-interest Bitcoin borrowing protocol at <a href=\"https://ebtc.finance\" target=\"_blank\" rel=\"noopener noreferrer\">eBTC Protocol</a>.",
+      "Connect your EVM wallet to Ethereum Mainnet or Arbitrum.",
+      "Deposit stETH or wstETH collateral to open a decentralized CDP.",
+      "Borrow eBTC against your collateral with 0% interest and 0% borrowing fees.",
+      "Deposit Bitcoin assets into automated yield vaults at <a href=\"https://app.badger.com\" target=\"_blank\" rel=\"noopener noreferrer\">Badger Sett Vaults</a>.",
+      "Stake $BADGER tokens to participate in governance voting at <a href=\"https://vote.badger.com\" target=\"_blank\" rel=\"noopener noreferrer\">Badger Snapshot</a>.",
+      "Explore security audits and documentation at <a href=\"https://docs.badger.com\" target=\"_blank\" rel=\"noopener noreferrer\">Badger Documentation</a>."
+    ],
+    "faqs": [
+      {
+        "question": "What is Badger DAO?",
+        "answer": "Badger DAO is a decentralized organization focused on building products to integrate Bitcoin into DeFi."
+      },
+      {
+        "question": "What is eBTC?",
+        "answer": "eBTC is an immutable borrowing protocol that lets users deposit stETH and borrow Bitcoin at 0% interest."
+      },
+      {
+        "question": "How can eBTC charge 0% interest?",
+        "answer": "eBTC takes a small percentage of the stETH collateral staking yield, meaning borrowers pay zero out-of-pocket interest or origination fees."
+      },
+      {
+        "question": "What is the total supply of BADGER?",
+        "answer": "BADGER has a fixed maximum supply of 21 Million tokens, mirroring Bitcoin's supply cap."
+      },
+      {
+        "question": "What are Badger Sett Vaults?",
+        "answer": "Sett Vaults are automated yield strategies designed specifically to optimize returns on Bitcoin assets in DeFi."
+      },
+      {
+        "question": "Which networks support Badger DAO and eBTC?",
+        "answer": "Badger DAO and eBTC are live on Ethereum Mainnet and Arbitrum."
+      }
+    ]
   }
 ];

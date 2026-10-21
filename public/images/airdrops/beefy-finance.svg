@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" fill="none">
+  <defs>
+    <linearGradient id="beefyGrad" x1="20" y1="20" x2="108" y2="108" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#4ADE80" />
+      <stop offset="50%" stop-color="#22C55E" />
+      <stop offset="100%" stop-color="#15803D" />
+    </linearGradient>
+  </defs>
+  <rect width="128" height="128" rx="28" fill="#041708" />
+  <!-- Beefy Cow Horns Auto-Compounding Gear Vault -->
+  <circle cx="64" cy="64" r="42" stroke="url(#beefyGrad)" stroke-width="6" />
+  <path d="M34 40C34 30 46 30 52 44C58 58 64 68 64 68C64 68 70 58 76 44C82 30 94 30 94 40C94 62 64 92 64 92C64 92 34 62 34 40Z" stroke="url(#beefyGrad)" stroke-width="6" fill="#0A2C10" />
+  <circle cx="50" cy="56" r="5" fill="#4ADE80" />
+  <circle cx="78" cy="56" r="5" fill="#4ADE80" />
+  <circle cx="64" cy="74" r="4" fill="#BBF7D0" />
+</svg>

@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" fill="none">
+  <defs>
+    <linearGradient id="thorGrad" x1="20" y1="20" x2="108" y2="108" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#00FFA3" />
+      <stop offset="50%" stop-color="#00CC88" />
+      <stop offset="100%" stop-color="#008055" />
+    </linearGradient>
+  </defs>
+  <rect width="128" height="128" rx="28" fill="#041810" />
+  <!-- THORChain Lightning Cross-Chain Runic Nodes -->
+  <polygon points="64,22 98,42 98,86 64,106 30,86 30,42" stroke="url(#thorGrad)" stroke-width="6" fill="#082A1C" />
+  <path d="M68 36L44 68H64L60 92L84 60H64L68 36Z" fill="url(#thorGrad)" />
+</svg>

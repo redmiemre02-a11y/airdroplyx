@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" fill="none">
+  <defs>
+    <linearGradient id="joeGrad" x1="20" y1="20" x2="108" y2="108" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#FB923C" />
+      <stop offset="50%" stop-color="#EA580C" />
+      <stop offset="100%" stop-color="#C2410C" />
+    </linearGradient>
+  </defs>
+  <rect width="128" height="128" rx="28" fill="#1C0904" />
+  <!-- LFJ Trader Joe Explorer Hat / Liquidity Book Bins -->
+  <path d="M30 76C30 76 42 50 64 50C86 50 98 76 98 76H30Z" fill="url(#joeGrad)" />
+  <ellipse cx="64" cy="76" rx="44" ry="12" fill="url(#joeGrad)" />
+  <rect x="52" y="38" width="24" height="14" rx="4" fill="#FDE047" />
+  <circle cx="64" cy="45" r="4" fill="#C2410C" />
+</svg>

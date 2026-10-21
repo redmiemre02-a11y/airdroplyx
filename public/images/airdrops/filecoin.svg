@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" fill="none">
+  <defs>
+    <linearGradient id="filGrad" x1="20" y1="20" x2="108" y2="108" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#38BDF8" />
+      <stop offset="50%" stop-color="#0090FF" />
+      <stop offset="100%" stop-color="#0055B3" />
+    </linearGradient>
+  </defs>
+  <rect width="128" height="128" rx="28" fill="#031024" />
+  <!-- Filecoin Iconic Intersecting F-Ring -->
+  <circle cx="64" cy="64" r="42" stroke="url(#filGrad)" stroke-width="6" />
+  <path d="M64 30V98M46 44H78M46 64H72M52 84H74" stroke="url(#filGrad)" stroke-width="7" stroke-linecap="round" />
+  <circle cx="64" cy="64" r="5" fill="#38BDF8" />
+</svg>
