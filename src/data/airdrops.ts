@@ -15158,5 +15158,735 @@ export const airdrops: Airdrop[] = [
         "answer": "Badger DAO and eBTC are live on Ethereum Mainnet and Arbitrum."
       }
     ]
+  },
+  {
+    "id": "starknet",
+    "name": "Starknet",
+    "category": "Layer 2",
+    "tier": "Tier 1",
+    "status": "Active",
+    "stage": "Mainnet",
+    "potentialReward": "$1,500 - $10,000",
+    "cost": "Low gas fees (<$0.05 post-Dencun)",
+    "timeRequired": "15 mins / weekly",
+    "platform": "Web / Starknet",
+    "description": "Pioneering STARK-based Validity Rollup on Ethereum backed by $282M+ from Paradigm and Sequoia, featuring native account abstraction and high-scale Cairo smart contracts.",
+    "logo": "/images/airdrops/starknet.svg",
+    "refLink": "https://starknet.io",
+    "tags": [
+      "ZK Rollup",
+      "Layer 2",
+      "STARKs",
+      "Cairo",
+      "Account Abstraction",
+      "Tier 1"
+    ],
+    "featured": true,
+    "startDate": "Nov 2021",
+    "endDate": "Q4 2025",
+    "requirements": [
+      "Starknet Wallet (Argent X / Braavos)",
+      "Bridge Assets via StarkGate Canonical Bridge",
+      "Trade on Starknet DEXs (Ekubo, Jediswap, AVNU)",
+      "Stake STRK Tokens with Validators",
+      "Participate in Starknet DeFi Spring & Ecosystem Quests"
+    ],
+    "overview": "Starknet is the preeminent, permissionless Validity Rollup (ZK-Rollup) operating as a Layer 2 scaling engine for Ethereum. Developed by StarkWare—the cryptographic research titan co-founded by Eli Ben-Sasson (inventor of zk-STARKs) and backed by over $282 Million from world-class venture funds including Paradigm, Sequoia Capital, Coatue, Greenoaks, and Ethereum Foundation—Starknet replaces fragile optimistic fraud-proof assumptions with pure, mathematically verifiable STARK cryptographic proofs.\n\nStarknet's technological differentiation is profound. Rather than constraining its execution to the legacy limitations of the Ethereum Virtual Machine, Starknet runs on Cairo: a Turing-complete, provable programming language engineered specifically for zero-knowledge computation. Furthermore, Starknet is the first major Layer 2 to implement 100% native Account Abstraction at the protocol level. Every wallet on Starknet is a smart contract account (enabling biometric passkey logins, multicall transactions, session keys, and custom transaction fee sponsorships without 12-word seed phrases).\n\nGoverned by the Starknet Foundation and powered by the native $STRK token, Starknet has established an expansive ecosystem encompassing Ekubo (pioneering singleton concentrated AMM), AVNU DEX aggregator, Nostra money market, and ZKX perps. Through multi-season programs including Starknet Provisions and DeFi Spring, active Starknet users, STRK stakers, and dApp interactors stand at the summit of Ethereum zero-knowledge scalability rewards.",
+    "tokenomics": "The native $STRK token has an initial maximum supply of 10 Billion tokens. $STRK is utilized for network transaction fees (alongside ETH), staking with decentralized sequencers/provers, and voting on protocol upgrades through the Starknet governance council.",
+    "sybilDefense": "Starknet Provisions and foundation grants enforce multi-dimensional on-chain activity criteria: minimum historical active months, contract interaction diversity, cumulative volume, and strict sybil clustering graph filtering.",
+    "strategy": "To maximize your positioning for Starknet ($STRK) continuous ecosystem rewards and DeFi Spring distributions:\n\n1. Set up a native Starknet smart account wallet (such as Argent X or Braavos) and enable biometric security.\n2. Bridge ETH, STRK, or stablecoins to Starknet using the official canonical StarkGate bridge.\n3. Execute regular swaps on leading Starknet DEXs (AVNU, Ekubo, Jediswap) to accumulate volume.\n4. Supply liquidity to Ekubo concentrated pools or Nostra lending vaults to capture DeFi Spring rewards.\n5. Stake STRK tokens with decentralized validator nodes to earn staking APR and governance weight.",
+    "steps": [
+      "Visit the official <a href=\"https://starknet.io\" target=\"_blank\" rel=\"noopener noreferrer\">Starknet Portal</a>.",
+      "Install a native smart contract wallet: <a href=\"https://www.argent.xyz/argent-x\" target=\"_blank\" rel=\"noopener noreferrer\">Argent X</a> or <a href=\"https://braavos.app\" target=\"_blank\" rel=\"noopener noreferrer\">Braavos</a>.",
+      "Bridge assets from Ethereum to Starknet via <a href=\"https://starkgate.starknet.io\" target=\"_blank\" rel=\"noopener noreferrer\">StarkGate Bridge</a>.",
+      "Execute optimal swaps across multiple pools via <a href=\"https://app.avnu.fi\" target=\"_blank\" rel=\"noopener noreferrer\">AVNU DEX Aggregator</a>.",
+      "Provide concentrated liquidity on <a href=\"https://ekubo.org\" target=\"_blank\" rel=\"noopener noreferrer\">Ekubo Protocol</a>.",
+      "Lend or borrow assets on <a href=\"https://nostra.finance\" target=\"_blank\" rel=\"noopener noreferrer\">Nostra Money Market</a>.",
+      "Stake $STRK tokens with community validators via the Starknet staking dashboard.",
+      "Vote on Starknet governance improvement proposals on Snapshot."
+    ],
+    "faqs": [
+      {
+        "question": "What is Starknet?",
+        "answer": "Starknet is a Validity Rollup (ZK-Rollup) Layer 2 for Ethereum that uses STARK proofs and Cairo to scale transactions with high cryptographic security."
+      },
+      {
+        "question": "Who funded StarkWare?",
+        "answer": "StarkWare raised over $282M from Paradigm, Sequoia Capital, Coatue, Greenoaks, and Vitalik Buterin."
+      },
+      {
+        "question": "What is native Account Abstraction on Starknet?",
+        "answer": "On Starknet, all accounts are smart contracts, enabling passkeys, gasless transactions, batched operations, and session keys."
+      },
+      {
+        "question": "What is Cairo?",
+        "answer": "Cairo is a purpose-built programming language for writing provable programs where execution traces can be verified by STARK proofs."
+      },
+      {
+        "question": "What is Starknet DeFi Spring?",
+        "answer": "DeFi Spring is a multi-million dollar STRK incentive program distributing token rewards to liquidity providers across Starknet dApps."
+      },
+      {
+        "question": "What wallets can I use with Starknet?",
+        "answer": "Starknet requires native Cairo smart wallets such as Argent X or Braavos; standard EVM wallets like MetaMask cannot interact directly."
+      }
+    ]
+  },
+  {
+    "id": "osmosis",
+    "name": "Osmosis",
+    "category": "DeFi",
+    "tier": "Tier 1",
+    "status": "Active",
+    "stage": "Mainnet",
+    "potentialReward": "$1,200 - $8,000",
+    "cost": "Sub-cent Cosmos transaction fees",
+    "timeRequired": "15 mins / weekly",
+    "platform": "Web / Cosmos / Osmosis",
+    "description": "The premier interchain liquidity hub and dominant automated market maker of the Cosmos ecosystem backed by $21M+ from Paradigm, featuring concentrated liquidity and Superfluid Staking.",
+    "logo": "/images/airdrops/osmosis.svg",
+    "refLink": "https://osmosis.zone",
+    "tags": [
+      "Cosmos",
+      "Interchain DEX",
+      "Superfluid Staking",
+      "Paradigm",
+      "OSMO",
+      "Tier 1"
+    ],
+    "featured": true,
+    "startDate": "Jun 2021",
+    "endDate": "Q4 2025",
+    "requirements": [
+      "Cosmos Wallet (Keplr/Leap)",
+      "Execute Cross-Chain IBC Swaps on Osmosis Zone",
+      "Provide Concentrated Liquidity to High-Volume Pools",
+      "Activate Superfluid Staking on OSMO Pairs",
+      "Stake OSMO with Active Validators for Governance"
+    ],
+    "overview": "Osmosis is the undisputed interchain liquidity hub and primary financial center of the Cosmos ecosystem. Launched in June 2021 by Sunny Aggarwal and Dev Ojha and backed by $21 Million in a landmark funding round led by Paradigm with participation from Robot Ventures, Nascent, and Ethereal Ventures, Osmosis was engineered as an application-specific Layer 1 blockchain optimized entirely for cross-chain automated market making and decentralized asset trading.\n\nConnected to dozens of sovereign blockchains via the Inter-Blockchain Communication (IBC) protocol, Osmosis acts as the central crossroad for assets spanning Celestia ($TIA), Injective ($INJ), Cosmos Hub ($ATOM), dYdX, and native bridged tokens (Bitcoin, Ethereum, Solana). Osmosis pioneered Superfluid Staking: a groundbreaking cryptographic primitive that allows liquidity providers to deposit assets into AMM pools to earn trading fees, while simultaneously staking the underlying OSMO tokens to secure the network consensus—earning dual staking rewards without capital fragmentation.\n\nOsmosis evolved further with Concentrated Liquidity, allowing market makers to focus liquidity in narrow tick ranges for maximum fee compounding, as well as an integrated cross-chain bridge interface and the Protorev MEV redistribution engine (which captures on-chain arbitrage profits and returns them to the community DAO). Active OSMO stakers and cross-chain liquidity providers stand as the foundational pillar of the Cosmos multi-chain economy.",
+    "tokenomics": "The native $OSMO token powers Proof-of-Stake consensus security, governance voting, Superfluid Staking incentives, and liquidity gauge allocation. OSMO stakers receive a continuous flow of retroactive airdrops from new Cosmos appchains and rollups.",
+    "sybilDefense": "Osmosis tracks validator delegation tenure, non-exchange node selection, continuous active liquidity depth, and verifiable IBC transfers. Programmatic bot accounts that cycle zero-value IBC transfers without real trading depth are excluded from airdrop snapshots.",
+    "strategy": "To maximize your positioning for Osmosis ($OSMO) staking yields and interchain ecosystem airdrops:\n\n1. Install Keplr or Leap wallet and transfer native $ATOM, $OSMO, or $TIA over IBC.\n2. Navigate to Osmosis Zone and execute regular interchain swaps between major Cosmos assets.\n3. Deposit capital into high-volume concentrated liquidity pools (e.g., ATOM/OSMO, TIA/OSMO) within active trading ranges.\n4. Enable Superfluid Staking on eligible pools to earn simultaneous AMM trading fees and PoS staking APR.\n5. Stake $OSMO tokens with active community validators outside the top 15 to qualify for Cosmos airdrop drops.",
+    "steps": [
+      "Visit the official <a href=\"https://osmosis.zone\" target=\"_blank\" rel=\"noopener noreferrer\">Osmosis Zone App</a>.",
+      "Connect your Cosmos wallet (<a href=\"https://www.keplr.app\" target=\"_blank\" rel=\"noopener noreferrer\">Keplr</a> or <a href=\"https://www.leapwallet.io\" target=\"_blank\" rel=\"noopener noreferrer\">Leap</a>).",
+      "Deposit cross-chain assets into Osmosis via the integrated IBC Transfer portal.",
+      "Execute decentralized trades on the <a href=\"https://app.osmosis.zone\" target=\"_blank\" rel=\"noopener noreferrer\">Osmosis Swap Portal</a>.",
+      "Provide concentrated liquidity to high-yield pools on <a href=\"https://app.osmosis.zone/pools\" target=\"_blank\" rel=\"noopener noreferrer\">Osmosis Pools</a>.",
+      "Activate Superfluid Staking to earn both LP trading fees and Proof-of-Stake staking yields.",
+      "Stake $OSMO tokens with decentralized validators at <a href=\"https://wallet.keplr.app/chains/osmosis\" target=\"_blank\" rel=\"noopener noreferrer\">Keplr Staking</a>.",
+      "Participate in weekly community governance votes on the Osmosis Governance portal."
+    ],
+    "faqs": [
+      {
+        "question": "What is Osmosis?",
+        "answer": "Osmosis is an application-specific Layer 1 blockchain serving as the primary interchain DEX and liquidity hub of the Cosmos network."
+      },
+      {
+        "question": "What is Superfluid Staking?",
+        "answer": "Superfluid Staking allows users to provide liquidity in AMM pools while simultaneously staking the underlying OSMO to earn PoS rewards."
+      },
+      {
+        "question": "Who backed Osmosis?",
+        "answer": "Osmosis raised $21M in a funding round led by premier crypto fund Paradigm."
+      },
+      {
+        "question": "How does Osmosis connect to other chains?",
+        "answer": "Osmosis connects to over 60 independent blockchains through the Cosmos Inter-Blockchain Communication (IBC) protocol."
+      },
+      {
+        "question": "What is ProtoRev on Osmosis?",
+        "answer": "ProtoRev is an in-protocol MEV capture module that extracts arbitrage profits at the block level and redirects revenue to the Osmosis DAO."
+      },
+      {
+        "question": "Do OSMO stakers receive airdrops?",
+        "answer": "Yes, many new Cosmos and modular ecosystem rollups take snapshots of non-custodial OSMO stakers for genesis token airdrops."
+      }
+    ]
+  },
+  {
+    "id": "stride",
+    "name": "Stride",
+    "category": "DeFi",
+    "tier": "Tier 1",
+    "status": "Active",
+    "stage": "Mainnet",
+    "potentialReward": "$1,000 - $6,500",
+    "cost": "Minimal IBC gas fees",
+    "timeRequired": "15 mins / monthly",
+    "platform": "Web / Cosmos / Stride",
+    "description": "The premier multichain liquid staking zone of the Cosmos ecosystem, issuing auto-compounding stTokens (stATOM, stOSMO, stTIA, stDYM) secured by Cosmos Interchain Security.",
+    "logo": "/images/airdrops/stride.svg",
+    "refLink": "https://stride.zone",
+    "tags": [
+      "Liquid Staking",
+      "Cosmos",
+      "Interchain Security",
+      "stTokens",
+      "STRD",
+      "Tier 1"
+    ],
+    "featured": true,
+    "startDate": "Sep 2022",
+    "endDate": "Q4 2025",
+    "requirements": [
+      "Cosmos Wallet (Keplr/Leap)",
+      "Liquid Stake ATOM, OSMO, TIA, or DYM for stTokens",
+      "Deploy stTokens into Osmosis or Astroport Liquidity Pools",
+      "Stake STRD Tokens for Governance and Protocol Revenue",
+      "Vote on Interchain Stride Improvement Proposals"
+    ],
+    "overview": "Stride is the premier multichain liquid staking protocol and sovereign consumer chain of the Cosmos interchain ecosystem. Founded by Vishal Talasani, Riley Edmunds, and Aidan Gomez and secured by the Cosmos Hub ($ATOM) through Interchain Security (ICS), Stride allows users to liquid stake native tokens from any IBC-connected chain—including $ATOM, $OSMO, $TIA, $DYM, $DYDX, and $SAGA—receiving 1:1 backed, yield-bearing liquid staking tokens called 'stTokens' (stATOM, stTIA, stDYM).\n\nStride's core technical achievement is Interchain Accounts (ICA) and Interchain Queries (ICQ). When a user deposits assets into Stride, the protocol automatically delegates the underlying tokens across a diversified, decentralized set of high-performing validators on the host chain. As staking rewards accrue, Stride automatically compounds the rewards back into the underlying stake, meaning the value of stTokens continuously appreciates relative to the base asset without requiring manual user transactions or unbonding lockups.\n\nBy leveraging Cosmos Hub Interchain Security, Stride inherits billions of dollars in economic security from the ATOM validator set. Governed by the $STRD token, Stride distributes a share of all liquid staking protocol fees directly to STRD stakers. Active liquid stakers who hold stTokens and deploy them into interchain DeFi pools stand at the core of Cosmos restaking and yield opportunities.",
+    "tokenomics": "The native $STRD token has a 100 Million maximum supply. STRD is used for protocol governance, voting on validator delegation weights, and staking to earn protocol revenue sharing across all supported interchain stTokens.",
+    "sybilDefense": "Stride tracks verifiable on-chain ICA delegation balances, minimum liquid staking holding durations, and multi-chain LP deployment. Transient bot deposits that exit before completing unbonding epochs receive zero governance rewards.",
+    "strategy": "To maximize your positioning for Stride ($STRD) liquid staking yields and partner airdrops:\n\n1. Connect your Cosmos wallet (Keplr or Leap) to the Stride Liquid Staking portal.\n2. Liquid stake ATOM, TIA, DYM, or OSMO to receive yield-bearing stTokens (such as stTIA or stATOM).\n3. Deposit your stTokens into liquidity pools on Osmosis (like stATOM/ATOM or stTIA/TIA) to earn dual LP fees and STRD incentives.\n4. Supply stTokens to money markets (like Mars Protocol or Umee) as productive collateral.\n5. Acquire and stake $STRD tokens on the Stride network to capture protocol fee distributions.",
+    "steps": [
+      "Visit the official <a href=\"https://stride.zone\" target=\"_blank\" rel=\"noopener noreferrer\">Stride Platform</a>.",
+      "Launch the liquid staking application at <a href=\"https://app.stride.zone\" target=\"_blank\" rel=\"noopener noreferrer\">Stride App</a>.",
+      "Connect your Cosmos wallet (<a href=\"https://www.keplr.app\" target=\"_blank\" rel=\"noopener noreferrer\">Keplr</a> or <a href=\"https://www.leapwallet.io\" target=\"_blank\" rel=\"noopener noreferrer\">Leap</a>).",
+      "Liquid stake ATOM, TIA, DYM, or OSMO to mint auto-compounding stTokens.",
+      "Receive stATOM, stTIA, or stDYM directly in your wallet.",
+      "Provide liquidity for stTokens in incentivized pools on <a href=\"https://app.osmosis.zone\" target=\"_blank\" rel=\"noopener noreferrer\">Osmosis</a>.",
+      "Stake $STRD tokens at <a href=\"https://wallet.keplr.app/chains/stride\" target=\"_blank\" rel=\"noopener noreferrer\">Keplr Stride Staking</a>.",
+      "Vote on active Stride governance proposals and host-chain validator sets."
+    ],
+    "faqs": [
+      {
+        "question": "What is Stride?",
+        "answer": "Stride is the leading multichain liquid staking protocol for the Cosmos ecosystem, offering auto-compounding stTokens across IBC chains."
+      },
+      {
+        "question": "What is Interchain Security (ICS) on Stride?",
+        "answer": "Stride is secured by the Cosmos Hub validator set, inheriting billions in ATOM economic security rather than maintaining its own standalone validator set."
+      },
+      {
+        "question": "How do stTokens earn yield?",
+        "answer": "stTokens auto-compound host chain staking rewards into the underlying asset, making the stToken redeemable for increasingly more base tokens over time."
+      },
+      {
+        "question": "Which tokens can I liquid stake on Stride?",
+        "answer": "You can liquid stake ATOM, OSMO, TIA, DYM, DYDX, SAGA, STARS, JUNO, and EVMOS."
+      },
+      {
+        "question": "What is the unbonding time on Stride?",
+        "answer": "Unbonding through Stride takes the host chain's standard unbonding period (e.g. 21 days for ATOM), or users can swap stTokens instantly on Osmosis."
+      },
+      {
+        "question": "What do STRD stakers earn?",
+        "answer": "STRD stakers earn a portion of the protocol fees generated across all liquid staked assets across the Cosmos ecosystem."
+      }
+    ]
+  },
+  {
+    "id": "radiant-capital",
+    "name": "Radiant Capital",
+    "category": "DeFi",
+    "tier": "Tier 1",
+    "status": "Active",
+    "stage": "Mainnet",
+    "potentialReward": "$1,000 - $7,000",
+    "cost": "Gas fees on Arbitrum / Base / BNB Chain",
+    "timeRequired": "15 mins / weekly",
+    "platform": "Web / Multi-Chain",
+    "description": "First omnichain money market backed by $10M from Binance Labs, powered by LayerZero OFT and Stargate to allow cross-chain deposit, borrowing, and dynamic liquidity (dLP).",
+    "logo": "/images/airdrops/radiant-capital.svg",
+    "refLink": "https://radiant.capital",
+    "tags": [
+      "Omnichain Lending",
+      "LayerZero",
+      "Binance Labs",
+      "dLP",
+      "Arbitrum",
+      "Tier 1"
+    ],
+    "featured": true,
+    "startDate": "Jul 2022",
+    "endDate": "Q4 2025",
+    "requirements": [
+      "EVM Wallet",
+      "Deposit Collateral into Radiant Money Market",
+      "Borrow Assets Across Different Chains",
+      "Lock 5% dLP (Dynamic Liquidity Provider) Tokens",
+      "Capture Protocol Fee Revenue Payouts in Multi-Chain Bluechips"
+    ],
+    "overview": "Radiant Capital is the pioneering decentralized omnichain money market designed to solve liquidity fragmentation across Web3. Backed by a $10 Million strategic investment from Binance Labs and powered by LayerZero's Omnichain Fungible Token (OFT) standard and Stargate cross-chain messaging, Radiant allows users to deposit collateral on one blockchain (such as Arbitrum) and borrow assets natively on another blockchain (such as Ethereum, BNB Chain, or Base) seamlessly in a single click.\n\nRadiant v2 introduced the Dynamic Liquidity Provider (dLP) mechanism to ensure long-term protocol sustainability. In order to qualify for $RDNT emissions, borrowing interest discounts, and a share of protocol revenue, users must lock at least 5% of their total deposited collateral value in dLP (composed of 80/20 RDNT/ETH on Arbitrum or 80/20 RDNT/BNB on BNB Chain). This ensures that liquidity providers are economically aligned long-term stakeholders rather than mercenary yield farmers.\n\nAll protocol fees collected from borrowers across all chains are distributed directly to dLP lockers in premier bluechip assets: BTC, ETH, BNB, and stablecoins. Active cross-chain depositors, borrowers, and dLP lockers represent the foundational participants of decentralized omnichain credit.",
+    "tokenomics": "The native $RDNT token commands a 1 Billion maximum supply. Stakers who lock 80/20 RDNT-ETH or RDNT-BNB into dLP capture 85% of all protocol fees distributed in bluechip assets (USDC, USDT, ETH, BTC) and receive boosted RDNT emissions.",
+    "sybilDefense": "Radiant requires continuous 5% dLP collateralization ratios and multi-month time locks (up to 12 months) for emissions eligibility. Flash loan deposits without dLP lockups earn zero protocol fees and are excluded from community incentives.",
+    "strategy": "To maximize your positioning for Radiant Capital ($RDNT) bluechip fee payouts and omnichain rewards:\n\n1. Connect your EVM wallet to Radiant across Arbitrum, BNB Chain, or Ethereum.\n2. Deposit collateral (ETH, WBTC, wstETH, or USDC) into the Radiant lending pool.\n3. Execute cross-chain borrows to demonstrate active omnichain borrowing utilization.\n4. Lock at least 5% of your deposit value into dLP (RDNT/ETH or RDNT/BNB) for 6 to 12 months.\n5. Claim continuous protocol fee distributions paid out in bluechip assets (ETH, BTC, USDC) directly to your wallet.",
+    "steps": [
+      "Visit the official <a href=\"https://radiant.capital\" target=\"_blank\" rel=\"noopener noreferrer\">Radiant Capital Portal</a>.",
+      "Launch the decentralized app at <a href=\"https://app.radiant.capital\" target=\"_blank\" rel=\"noopener noreferrer\">Radiant App</a>.",
+      "Connect your EVM wallet across Arbitrum, BNB Chain, or Ethereum.",
+      "Deposit core assets (ETH, WBTC, USDC) into the lending market.",
+      "Lock dLP tokens (RDNT/WETH or RDNT/WBNB) to meet the 5% threshold.",
+      "Borrow assets natively across any connected destination blockchain.",
+      "Collect daily fee dividends in native bluechip assets on the Manage dLP dashboard.",
+      "Vote on Radiant DAO improvement proposals on Snapshot."
+    ],
+    "faqs": [
+      {
+        "question": "What is Radiant Capital?",
+        "answer": "Radiant Capital is an omnichain money market that allows users to deposit collateral on one chain and borrow on another using LayerZero."
+      },
+      {
+        "question": "Who backed Radiant Capital?",
+        "answer": "Radiant Capital received a $10M strategic investment from Binance Labs."
+      },
+      {
+        "question": "What is Dynamic Liquidity (dLP)?",
+        "answer": "dLP is a liquidity-locking mechanism requiring users to lock 5% of their deposit value in RDNT LP tokens to earn emissions and protocol fee share."
+      },
+      {
+        "question": "What tokens are paid out to dLP lockers?",
+        "answer": "Radiant pays protocol fee dividends directly in bluechip assets: ETH, BTC, BNB, USDC, and USDT."
+      },
+      {
+        "question": "Which networks support Radiant Capital?",
+        "answer": "Radiant is live on Arbitrum, BNB Chain, and Ethereum Mainnet."
+      },
+      {
+        "question": "How does cross-chain borrowing work on Radiant?",
+        "answer": "Radiant uses LayerZero OFT and Stargate router contracts to mint or release borrowed assets directly on the destination chain."
+      }
+    ]
+  },
+  {
+    "id": "benqi",
+    "name": "BENQI",
+    "category": "DeFi",
+    "tier": "Tier 1",
+    "status": "Active",
+    "stage": "Mainnet",
+    "potentialReward": "$1,000 - $6,500",
+    "cost": "Sub-cent Avalanche transaction fees",
+    "timeRequired": "15 mins / monthly",
+    "platform": "Web / Avalanche",
+    "description": "Foundational algorithmic liquidity market and dominant liquid staking protocol on Avalanche backed by $6M+, issuing $sAVAX and powering multi-asset borrowing and lending.",
+    "logo": "/images/airdrops/benqi.svg",
+    "refLink": "https://benqi.fi",
+    "tags": [
+      "Avalanche",
+      "Liquid Staking",
+      "Lending",
+      "sAVAX",
+      "QI",
+      "Tier 1"
+    ],
+    "featured": true,
+    "startDate": "Aug 2021",
+    "endDate": "Q4 2025",
+    "requirements": [
+      "Avalanche EVM Wallet",
+      "Liquid Stake AVAX to Receive sAVAX",
+      "Supply and Borrow Assets on BENQI Liquidity Market",
+      "Stake QI Tokens in veQI for Validator Delegation Power",
+      "Deploy sAVAX in Avalanche Subnets and DeFi Ecosystem"
+    ],
+    "overview": "BENQI is the premier decentralized liquidity market and native liquid staking protocol of the Avalanche ecosystem. Founded by Dan Tapiero and Rome Blockchain Labs and backed by $6 Million from leading venture funds including Ascensive Assets, Avalanche Foundation, Dragonfly Capital, and Mechanism Capital, BENQI established the capital foundation of Avalanche by launching the network's first algorithmic money market.\n\nBENQI operates two complementary core protocols: the BENQI Liquidity Market (BLM) and BENQI Liquid Staking (BLS). The Liquidity Market enables users to effortlessly supply and borrow Avalanche native assets (AVAX, BTC.b, WETH.e, USDC) with variable interest rates. BENQI Liquid Staking allows users to deposit native AVAX to receive $sAVAX, an interest-bearing liquid staking derivative that automatically accrues staking yields from Avalanche validators while freeing capital to be used as collateral across Avalanche DeFi.\n\nBENQI introduced veQI (Vote-Escrowed QI), empowering token holders to direct AVAX delegations to specific Avalanche validators and earn voting bribes. As Avalanche expands its enterprise Subnet ecosystem, BENQI serves as the primary gateway where active AVAX stakers, lenders, and governance participants capture premier Avalanche yields.",
+    "tokenomics": "The native $QI token commands a 7.2 Billion total supply. QI is used for protocol governance, earning staking yields, and locking into veQI to direct AVAX validator delegations and capture protocol fee distributions.",
+    "sybilDefense": "BENQI tracks sustained on-chain collateral deposit duration, sAVAX holding periods, and veQI voting participation. Ephemeral accounts executing flash deposit-withdrawals without staying through interest accrual cycles earn zero protocol rewards.",
+    "strategy": "To maximize your positioning for BENQI ($QI) staking rewards and Avalanche ecosystem incentives:\n\n1. Connect your Web3 wallet to Avalanche C-Chain and acquire native $AVAX.\n2. Liquid stake AVAX on BENQI Liquid Staking to mint yield-bearing $sAVAX.\n3. Deposit sAVAX or USDC into the BENQI Liquidity Market to earn lending interest and QI token rewards.\n4. Borrow assets against your sAVAX collateral to maintain exposure while accessing liquidity.\n5. Acquire and stake $QI into veQI to vote on validator delegations and claim voting rewards.",
+    "steps": [
+      "Visit the official <a href=\"https://benqi.fi\" target=\"_blank\" rel=\"noopener noreferrer\">BENQI Portal</a>.",
+      "Launch the decentralized app at <a href=\"https://app.benqi.fi\" target=\"_blank\" rel=\"noopener noreferrer\">BENQI App</a>.",
+      "Connect your EVM wallet to the Avalanche C-Chain.",
+      "Liquid stake native AVAX to receive <a href=\"https://app.benqi.fi/stake\" target=\"_blank\" rel=\"noopener noreferrer\">sAVAX</a>.",
+      "Supply collateral to the <a href=\"https://app.benqi.fi/markets\" target=\"_blank\" rel=\"noopener noreferrer\">BENQI Liquidity Market</a>.",
+      "Borrow assets against your collateral with conservative safety margins.",
+      "Lock $QI tokens into veQI at <a href=\"https://app.benqi.fi/veqi\" target=\"_blank\" rel=\"noopener noreferrer\">veQI Staking</a>.",
+      "Direct validator delegations and participate in governance voting on Snapshot."
+    ],
+    "faqs": [
+      {
+        "question": "What is BENQI?",
+        "answer": "BENQI is a decentralized liquidity market and liquid staking protocol native to the Avalanche blockchain."
+      },
+      {
+        "question": "What is sAVAX?",
+        "answer": "sAVAX is BENQI's liquid staking token representing staked AVAX that continuously accrues validator staking rewards."
+      },
+      {
+        "question": "Who backed BENQI?",
+        "answer": "BENQI raised $6M from Ascensive Assets, the Avalanche Foundation, Dragonfly Capital, and prominent DeFi angels."
+      },
+      {
+        "question": "What is veQI?",
+        "answer": "veQI is vote-escrowed QI that allows holders to vote on which Avalanche validators receive BENQI's staked AVAX delegations."
+      },
+      {
+        "question": "Can I use sAVAX as collateral?",
+        "answer": "Yes, you can supply sAVAX into the BENQI Liquidity Market to earn staking yield while borrowing other assets simultaneously."
+      },
+      {
+        "question": "What network does BENQI run on?",
+        "answer": "BENQI is deployed on the Avalanche C-Chain with sub-cent gas fees and instant transaction finality."
+      }
+    ]
+  },
+  {
+    "id": "venus-protocol",
+    "name": "Venus Protocol",
+    "category": "DeFi",
+    "tier": "Tier 1",
+    "status": "Active",
+    "stage": "Mainnet",
+    "potentialReward": "$1,200 - $7,500",
+    "cost": "Gas fees on BNB Chain / opBNB / Ethereum",
+    "timeRequired": "15 mins / weekly",
+    "platform": "Web / BNB Chain / opBNB",
+    "description": "The premier algorithmic money market and synthetic stablecoin protocol on BNB Chain commanding over $1.5B in TVL, featuring isolated lending pools and $VAI minting.",
+    "logo": "/images/airdrops/venus-protocol.svg",
+    "refLink": "https://venus.io",
+    "tags": [
+      "BNB Chain",
+      "Money Market",
+      "VAI",
+      "Isolated Pools",
+      "XVS",
+      "Tier 1"
+    ],
+    "featured": true,
+    "startDate": "Nov 2020",
+    "endDate": "Q4 2025",
+    "requirements": [
+      "BNB Chain Compatible Wallet",
+      "Supply Collateral into Venus Core or Isolated Lending Pools",
+      "Borrow Cryptocurrencies or Mint VAI Synthetic Stablecoin",
+      "Stake XVS in Venus Vault for Staking APY and VIP Rewards",
+      "Vote on Venus DAO Improvement Proposals"
+    ],
+    "overview": "Venus Protocol is the foundational decentralized algorithmic money market and synthetic stablecoin protocol of the BNB Chain ecosystem. Launched in 2020 through Binance Launchpool, Venus commands over $1.5 Billion in Total Value Locked (TVL) and serves as the primary lending and liquidity backbone for the Binance ecosystem, processing billions in borrowing volume across BNB Chain, opBNB, and Ethereum Mainnet.\n\nVenus allows users to supply a wide array of cryptocurrencies (BNB, BTC, ETH, USDT, USDC, FDUSD) to earn interest while utilizing their supplied assets as collateral to borrow other tokens. Venus also introduced $VAI—a decentralized, synthetic USD-pegged stablecoin minted directly against crypto collateral. With Venus V4, the protocol deployed Isolated Lending Pools, separating higher-risk assets (such as liquid staking tokens, GameFi assets, and meme tokens) into isolated risk chambers to protect core market solvency.\n\nGoverned completely by the Venus DAO and powered by the native $XVS token, Venus features the Venus Vault—where XVS stakers receive a share of all protocol borrowing reserves, fee buybacks, and voting rights. Active lenders, borrowers, and XVS vault stakers form the primary tier of BNB Chain decentralized finance rewards.",
+    "tokenomics": "The native $XVS token commands a 30 Million capped supply. Staking XVS in the Venus Vault unlocks daily protocol fee distributions, staking yields, borrowing interest fee rebates, and voting weight on all Venus Improvement Proposals (VIPs).",
+    "sybilDefense": "Venus tracks continuous on-chain collateralization volume, loan duration, and XVS staking tenure. Programmatic bot accounts executing dust loans that are liquidated within the same block receive zero governance weight or protocol rewards.",
+    "strategy": "To maximize your positioning for Venus Protocol ($XVS) fee distributions and ecosystem rewards:\n\n1. Connect your Web3 wallet to BNB Chain or opBNB and navigate to the Venus Protocol app.\n2. Supply stablecoins (USDT, USDC, FDUSD) or crypto assets (BNB, BTCB, ETH) to core lending pools.\n3. Borrow assets or mint synthetic $VAI stablecoins with conservative collateralization ratios.\n4. Stake $XVS tokens into the Venus Vault to earn passive staking APR and VIP governance rights.\n5. Participate in active Venus DAO governance votes on Snapshot to maintain high governance activity scores.",
+    "steps": [
+      "Visit the official <a href=\"https://venus.io\" target=\"_blank\" rel=\"noopener noreferrer\">Venus Protocol Portal</a>.",
+      "Launch the decentralized app at <a href=\"https://app.venus.io\" target=\"_blank\" rel=\"noopener noreferrer\">Venus App</a>.",
+      "Connect your EVM wallet to BNB Chain or opBNB.",
+      "Supply collateral to Core Pools or Isolated Pools at <a href=\"https://app.venus.io/markets\" target=\"_blank\" rel=\"noopener noreferrer\">Venus Markets</a>.",
+      "Borrow cryptocurrencies or mint synthetic <a href=\"https://app.venus.io/vai\" target=\"_blank\" rel=\"noopener noreferrer\">VAI Stablecoins</a>.",
+      "Stake $XVS tokens into the <a href=\"https://app.venus.io/vault\" target=\"_blank\" rel=\"noopener noreferrer\">Venus Vault</a>.",
+      "Collect daily staking yield and protocol revenue fee distributions.",
+      "Vote on Venus Improvement Proposals (VIPs) via <a href=\"https://app.venus.io/governance\" target=\"_blank\" rel=\"noopener noreferrer\">Venus Governance</a>."
+    ],
+    "faqs": [
+      {
+        "question": "What is Venus Protocol?",
+        "answer": "Venus Protocol is the leading decentralized money market and synthetic stablecoin platform on BNB Chain."
+      },
+      {
+        "question": "What is VAI?",
+        "answer": "VAI is a decentralized USD-pegged stablecoin minted by borrowers directly against collateral supplied to Venus."
+      },
+      {
+        "question": "What are Isolated Pools on Venus?",
+        "answer": "Isolated Pools are separate lending markets designed for specific asset classes to contain risk without endangering core markets."
+      },
+      {
+        "question": "What is the utility of the $XVS token?",
+        "answer": "XVS is used for protocol governance, staking in the Venus Vault to earn protocol revenue, and receiving borrowing fee discounts."
+      },
+      {
+        "question": "Which blockchains support Venus?",
+        "answer": "Venus Protocol is deployed across BNB Chain, opBNB Layer 2, and Ethereum Mainnet."
+      },
+      {
+        "question": "How was Venus launched?",
+        "answer": "Venus was launched in 2020 through Binance Launchpool as a community-driven decentralized finance protocol."
+      }
+    ]
+  },
+  {
+    "id": "apex-protocol",
+    "name": "ApeX Protocol (ApeX Omni)",
+    "category": "DeFi",
+    "tier": "Tier 1",
+    "status": "Active",
+    "stage": "Mainnet",
+    "potentialReward": "$1,200 - $8,500",
+    "cost": "Low gas fees / zero gas trading on ApeX",
+    "timeRequired": "15 mins / weekly",
+    "platform": "Web / Multi-Chain / StarkEx",
+    "description": "Bybit-backed decentralized multi-chain perpetuals exchange built on StarkEx and modular Omni infrastructure, offering 100x leverage orderbook trading and Trade-to-Earn rewards.",
+    "logo": "/images/airdrops/apex-protocol.svg",
+    "refLink": "https://apex.exchange",
+    "tags": [
+      "Perpetuals",
+      "StarkEx",
+      "Trade-to-Earn",
+      "APEX",
+      "Orderbook",
+      "Tier 1"
+    ],
+    "featured": true,
+    "startDate": "Nov 2022",
+    "endDate": "Q4 2025",
+    "requirements": [
+      "EVM Wallet (MetaMask/OKX/Trust)",
+      "Deposit USDC/USDT on ApeX Omni across Multiple Chains",
+      "Execute Leveraged Perpetual Contracts on the Orderbook",
+      "Accumulate BANA and Trade-to-Earn Points",
+      "Stake APEX Tokens for Weekly Protocol Fee Yields"
+    ],
+    "overview": "ApeX Protocol is a high-performance decentralized perpetual derivatives exchange engineered to bring institutional-grade trading speed, deep liquidity, and non-custodial privacy to decentralized finance. Incubated by Davion Labs and backed by Bybit, Dragonfly Capital, Jump Capital, and Mirana Ventures, ApeX has processed tens of billions of dollars in perpetual futures trading volume across hundreds of thousands of active traders globally.\n\nApeX operates through two state-of-the-art technological architectures: ApeX Pro (powered by StarkWare's StarkEx Layer 2 scalability engine, guaranteeing zero gas fees on trades and sub-second order matching) and the next-generation ApeX Omni. ApeX Omni is a modular, multi-chain perpetual trading network that aggregates liquidity across Ethereum, Arbitrum, Base, Optimism, Polygon, and Mantle—allowing users to deposit collateral from any chain and trade multi-market perpetual contracts with up to 100x leverage without bridging.\n\nApeX features a flagship 'Trade-to-Earn' (T2E) program powered by the $BANA and $APEX tokens. Every week, traders receive substantial reward token distributions based on their trading volume and open interest. Furthermore, APEX stakers earn passive weekly staking yields paid out directly in USDC from protocol trading fees. Active perpetual traders and stakers occupy a premier position in decentralized derivatives rewards.",
+    "tokenomics": "The native $APEX token has a 1 Billion maximum supply. APEX is used for protocol governance, earning weekly USDC fee distributions through the Staking Pool, unlocking trading fee discounts, and boosting Trade-to-Earn rewards.",
+    "sybilDefense": "ApeX monitors real margin usage, continuous order holding duration, and liquidation risk exposure. Automated scripts executing risk-free offsetting wash trades across linked accounts are filtered and blacklisted from Trade-to-Earn distributions.",
+    "strategy": "To maximize your positioning for ApeX Protocol ($APEX) fee payouts and Trade-to-Earn airdrops:\n\n1. Connect your EVM wallet to ApeX Omni across Arbitrum, Base, or Mantle.\n2. Deposit collateral (USDC or USDT) to fund your non-custodial trading balance.\n3. Execute leveraged perpetual trades across major crypto pairs (BTC, ETH, SOL) and pre-market altcoins.\n4. Participate in the weekly Trade-to-Earn rounds to accumulate BANA and APEX token rewards.\n5. Stake $APEX tokens in the ApeX Staking Pool to earn passive weekly USDC dividends.",
+    "steps": [
+      "Visit the official <a href=\"https://apex.exchange\" target=\"_blank\" rel=\"noopener noreferrer\">ApeX Protocol Portal</a>.",
+      "Launch the trading platform at <a href=\"https://pro.apex.exchange\" target=\"_blank\" rel=\"noopener noreferrer\">ApeX Omni App</a>.",
+      "Connect your EVM wallet (MetaMask, OKX Wallet, or Bitget Wallet).",
+      "Deposit USDC or USDT across your preferred network (Arbitrum, Base, Mantle).",
+      "Trade perpetual contracts with up to 100x leverage on the high-speed orderbook.",
+      "Accumulate Trade-to-Earn rewards in the <a href=\"https://pro.apex.exchange/rewards\" target=\"_blank\" rel=\"noopener noreferrer\">ApeX Rewards Center</a>.",
+      "Stake $APEX tokens into the <a href=\"https://pro.apex.exchange/staking\" target=\"_blank\" rel=\"noopener noreferrer\">ApeX Staking Pool</a>.",
+      "Claim weekly USDC protocol fee revenue payouts directly into your wallet."
+    ],
+    "faqs": [
+      {
+        "question": "What is ApeX Protocol?",
+        "answer": "ApeX Protocol is a non-custodial perpetual futures exchange offering orderbook trading with up to 100x leverage and zero gas trading fees."
+      },
+      {
+        "question": "What is ApeX Omni?",
+        "answer": "ApeX Omni is ApeX's multi-chain architecture allowing users to deposit and trade from multiple chains without bridging."
+      },
+      {
+        "question": "Who backed ApeX Protocol?",
+        "answer": "ApeX is backed by premier crypto exchange Bybit, alongside Dragonfly Capital, Jump Capital, and Mirana Ventures."
+      },
+      {
+        "question": "How does Trade-to-Earn work on ApeX?",
+        "answer": "Traders earn weekly reward token distributions (BANA/APEX) proportional to their trading volume and fees paid."
+      },
+      {
+        "question": "What do APEX stakers earn?",
+        "answer": "APEX stakers earn weekly protocol fee dividends paid out directly in native USDC."
+      },
+      {
+        "question": "Does ApeX require KYC verification?",
+        "answer": "No, ApeX is completely non-custodial and permissionless; users trade directly from their Web3 wallets without KYC."
+      }
+    ]
+  },
+  {
+    "id": "raydium",
+    "name": "Raydium",
+    "category": "DeFi",
+    "tier": "Tier 1",
+    "status": "Active",
+    "stage": "Mainnet",
+    "potentialReward": "$1,200 - $7,000",
+    "cost": "Sub-cent Solana transaction fees",
+    "timeRequired": "10 mins / weekly",
+    "platform": "Web / Solana",
+    "description": "Solana's foundational automated market maker and concentrated liquidity protocol (CLMM) commanding billions in daily volume, powering decentralized trading and new token launches.",
+    "logo": "/images/airdrops/raydium.svg",
+    "refLink": "https://raydium.io",
+    "tags": [
+      "Solana",
+      "AMM",
+      "CLMM",
+      "Concentrated Liquidity",
+      "RAY",
+      "Tier 1"
+    ],
+    "featured": true,
+    "startDate": "Feb 2021",
+    "endDate": "Q4 2025",
+    "requirements": [
+      "Solana Wallet (Phantom/Solflare)",
+      "Execute Token Swaps on Raydium AMM",
+      "Provide Liquidity to Concentrated Liquidity Market Maker (CLMM) Pools",
+      "Stake RAY Tokens in Raydium Governance Staking",
+      "Participate in AcceleRaytor Ecosystem Launches"
+    ],
+    "overview": "Raydium is the foundational on-chain automated market maker (AMM) and concentrated liquidity engine of the Solana blockchain. Launched in February 2021, Raydium was instrumental in proving that high-speed Layer 1 blockchains could support decentralized finance at global scale. Today, Raydium processes billions of dollars in daily decentralized trading volume, serving as the primary liquidity foundation for trending tokens, meme coins, and premier Solana protocols.\n\nRaydium features a dual-engine trading architecture. Its standard AMM pools (Standard AMM and CPMM) enable permissionless token listing and instant trading pools with zero barrier to entry. Raydium's flagship innovation is the Concentrated Liquidity Market Maker (CLMM), which allows liquidity providers to define specific price intervals for their capital. This enables orders to execute with minimal slippage while LPs earn up to hundreds of times higher fee yields per dollar of capital compared to legacy constant-product AMMs.\n\nRaydium also operates AcceleRaytor (an on-chain launchpad for premier Solana projects) and single-sided RAY Staking. Powered by the native $RAY token, which captures a share of all protocol trading fees across standard and concentrated pools, active Solana traders and CLMM liquidity providers occupy the most liquid core of the Solana DeFi ecosystem.",
+    "tokenomics": "The native $RAY token has a fixed maximum supply of 555 Million tokens. Staking RAY captures protocol trading fee dividends, grants voting rights on DAO proposals, and provides lottery ticket allocations for AcceleRaytor launchpad public sales.",
+    "sybilDefense": "Raydium tracks verifiable on-chain swap volume, CLMM position duration within active price ranges, and sustained RAY staking tenure. Rapid automated bots that execute flash loan swaps within single blocks receive zero staking multipliers.",
+    "strategy": "To maximize your positioning for Raydium ($RAY) fee yields and Solana ecosystem rewards:\n\n1. Connect your Solana wallet (Phantom, Solflare, or Backpack) to Raydium.\n2. Execute decentralized token swaps across Solana native pairs (SOL, USDC, RAY, trending ecosystem tokens).\n3. Provide liquidity into high-volume Concentrated Liquidity (CLMM) pools within active price ranges.\n4. Collect accumulated trading fees regularly and compound them back into your liquidity positions.\n5. Acquire and stake $RAY tokens in Raydium single-sided staking to earn passive fee APR.",
+    "steps": [
+      "Visit the official <a href=\"https://raydium.io\" target=\"_blank\" rel=\"noopener noreferrer\">Raydium Platform</a>.",
+      "Launch the decentralized trading app at <a href=\"https://raydium.io/swap\" target=\"_blank\" rel=\"noopener noreferrer\">Raydium Swap</a>.",
+      "Connect your Solana wallet (Phantom or Solflare).",
+      "Execute token trades with low fees and instant confirmation.",
+      "Explore concentrated liquidity pools on <a href=\"https://raydium.io/clmm/create-pool\" target=\"_blank\" rel=\"noopener noreferrer\">Raydium CLMM Pools</a>.",
+      "Deposit liquidity into tight price bands to maximize fee generation.",
+      "Stake $RAY tokens at <a href=\"https://raydium.io/staking\" target=\"_blank\" rel=\"noopener noreferrer\">Raydium Staking Portal</a>.",
+      "Participate in community governance and ecosystem token launches on AcceleRaytor."
+    ],
+    "faqs": [
+      {
+        "question": "What is Raydium?",
+        "answer": "Raydium is an automated market maker and concentrated liquidity protocol built on Solana for high-speed, low-fee token trading."
+      },
+      {
+        "question": "What is Raydium CLMM?",
+        "answer": "CLMM stands for Concentrated Liquidity Market Maker, allowing LPs to allocate capital in specific price ranges to earn higher trading fees."
+      },
+      {
+        "question": "What is AcceleRaytor?",
+        "answer": "AcceleRaytor is Raydium's native launchpad that allows early-stage Solana projects to raise capital and bootstrap initial liquidity."
+      },
+      {
+        "question": "What is the utility of the $RAY token?",
+        "answer": "RAY is used for protocol fee sharing through staking, launchpad lottery tickets, and governing the Raydium protocol."
+      },
+      {
+        "question": "What wallets work with Raydium?",
+        "answer": "Raydium supports all major Solana wallets including Phantom, Solflare, Backpack, and Torus."
+      },
+      {
+        "question": "How cheap are transactions on Raydium?",
+        "answer": "Trades on Raydium cost a fraction of a cent in SOL network gas fees and confirm in less than a second."
+      }
+    ]
+  },
+  {
+    "id": "marinade-finance",
+    "name": "Marinade Finance",
+    "category": "DeFi",
+    "tier": "Tier 1",
+    "status": "Active",
+    "stage": "Mainnet",
+    "potentialReward": "$1,000 - $6,500",
+    "cost": "Sub-cent Solana transaction fees",
+    "timeRequired": "15 mins / monthly",
+    "platform": "Web / Solana",
+    "description": "Solana's premier non-custodial liquid staking and automated validator delegation protocol, issuing mSOL and Marinade Native while optimizing staking yields across 100+ top validators.",
+    "logo": "/images/airdrops/marinade-finance.svg",
+    "refLink": "https://marinade.finance",
+    "tags": [
+      "Solana",
+      "Liquid Staking",
+      "mSOL",
+      "Marinade Native",
+      "MNDE",
+      "Tier 1"
+    ],
+    "featured": true,
+    "startDate": "Aug 2021",
+    "endDate": "Q4 2025",
+    "requirements": [
+      "Solana Wallet (Phantom/Solflare)",
+      "Stake SOL for mSOL (Liquid Staking)",
+      "Stake SOL via Marinade Native for Zero Smart Contract Risk",
+      "Deploy mSOL into Solana DeFi Protocols (Kamino, Marginfi, Orca)",
+      "Lock MNDE Tokens into veMNDE for Directed Gauge Voting"
+    ],
+    "overview": "Marinade Finance is the foundational, community-first liquid staking protocol and automated delegation engine of the Solana blockchain. Launched in August 2021 during the Solana Summer hackathon, Marinade was created with a mission to decentralize the Solana validator set. Rather than delegating user stake exclusively to a handful of centralized validator giants, Marinade runs an open-source delegation algorithm that spreads staked SOL across more than 100 high-performing, independent validators based on performance, commission, and uptime.\n\nMarinade provides two premier staking paths: Marinade Liquid Staking and Marinade Native. With Liquid Staking, users deposit SOL and receive $mSOL—an auto-compounding liquid staking token that can be traded, lent, and used as collateral across the entire Solana DeFi landscape (Kamino, Marginfi, Orca, Raydium). With Marinade Native, users automate stake delegation across the best validators without minting a derivative token and with zero smart contract risk, keeping their stake in native Solana stake accounts.\n\nGoverned by the Marinade DAO and powered by the $MNDE token, users lock MNDE into veMNDE to direct validator delegation gauges and receive protocol revenues. Active mSOL holders and Marinade Native stakers represent the most decentralized community in the Solana ecosystem.",
+    "tokenomics": "The native $MNDE token has a 1 Billion maximum supply. Locking MNDE into veMNDE grants voting power over validator delegation gauges, protocol fee splits, and treasury grant allocations.",
+    "sybilDefense": "Marinade tracks continuous on-chain stake epoch duration, active mSOL holding periods, and veMNDE locking epochs. Ephemeral staking deposits that unstake before completing full epochs earn zero governance incentives.",
+    "strategy": "To maximize your positioning for Marinade Finance ($MNDE) staking yields and Solana ecosystem rewards:\n\n1. Connect your Solana wallet (Phantom or Solflare) to Marinade Finance.\n2. Stake SOL to receive yield-bearing $mSOL liquid staking tokens.\n3. Alternatively, stake through Marinade Native to benefit from algorithmic delegation with zero smart contract risk.\n4. Deploy your mSOL as collateral in Solana money markets (like Kamino or Marginfi) to earn secondary yields.\n5. Acquire $MNDE tokens and lock them into veMNDE to direct validator gauges and earn governance rewards.",
+    "steps": [
+      "Visit the official <a href=\"https://marinade.finance\" target=\"_blank\" rel=\"noopener noreferrer\">Marinade Finance Platform</a>.",
+      "Launch the decentralized staking app at <a href=\"https://app.marinade.finance\" target=\"_blank\" rel=\"noopener noreferrer\">Marinade App</a>.",
+      "Connect your Solana wallet (Phantom, Solflare, or Backpack).",
+      "Stake SOL for auto-compounding $mSOL liquid staking tokens.",
+      "Explore zero-smart-contract-risk staking via <a href=\"https://app.marinade.finance/native\" target=\"_blank\" rel=\"noopener noreferrer\">Marinade Native</a>.",
+      "Deploy mSOL into liquidity pools or lending markets on <a href=\"https://app.kamino.finance\" target=\"_blank\" rel=\"noopener noreferrer\">Kamino</a> or Orca.",
+      "Lock $MNDE into veMNDE at <a href=\"https://marinade.finance/app/governance\" target=\"_blank\" rel=\"noopener noreferrer\">Marinade Governance</a>.",
+      "Direct validator delegations and participate in DAO proposals on Realms."
+    ],
+    "faqs": [
+      {
+        "question": "What is Marinade Finance?",
+        "answer": "Marinade Finance is a decentralized liquid staking and automated validator delegation protocol on Solana."
+      },
+      {
+        "question": "What is mSOL?",
+        "answer": "mSOL is Marinade's liquid staking token that auto-compounds Solana staking rewards and can be used across DeFi."
+      },
+      {
+        "question": "What is Marinade Native?",
+        "answer": "Marinade Native automates staking across 100+ validators directly through native stake accounts with zero smart contract risk."
+      },
+      {
+        "question": "How does Marinade decentralize Solana?",
+        "answer": "Marinade's algorithm routes stake to high-performing independent validators outside the top superminority group."
+      },
+      {
+        "question": "What is the role of the MNDE token?",
+        "answer": "MNDE is the governance token locked into veMNDE to direct validator delegation gauges and vote on DAO proposals."
+      },
+      {
+        "question": "Can I instantly unstake my mSOL?",
+        "answer": "Yes, Marinade offers an instant unstake feature through its liquidity pool for a small fee, or standard unstaking at the epoch boundary."
+      }
+    ]
+  },
+  {
+    "id": "blur",
+    "name": "Blur",
+    "category": "NFT",
+    "tier": "Tier 1",
+    "status": "Active",
+    "stage": "Mainnet",
+    "potentialReward": "$1,500 - $12,000",
+    "cost": "Gas fees on Ethereum Mainnet",
+    "timeRequired": "15 mins / weekly",
+    "platform": "Web / Ethereum",
+    "description": "Dominant professional NFT marketplace and peer-to-peer lending protocol (Blend) backed by $14M+ from Paradigm, distributing multi-season rewards to active traders and bidders.",
+    "logo": "/images/airdrops/blur.svg",
+    "refLink": "https://blur.io",
+    "tags": [
+      "NFT Marketplace",
+      "Blend Lending",
+      "Paradigm",
+      "BLUR",
+      "Season Points",
+      "Tier 1"
+    ],
+    "featured": true,
+    "startDate": "Oct 2022",
+    "endDate": "Q4 2025",
+    "requirements": [
+      "Ethereum EVM Wallet",
+      "Deposit ETH into Blur Bidding Pool",
+      "Place Active Bids near Floor Price on Verified Collections",
+      "List NFTs with 100% Loyalty Settings",
+      "Stake BLUR Tokens to Boost Future Reward Multipliers"
+    ],
+    "overview": "Blur is the undisputed dominant NFT marketplace, aggregator, and peer-to-peer lending protocol designed specifically for professional Web3 traders. Founded by Pacman (Tieshun Roquerre) and supported by over $14 Million in venture funding led by tier-1 powerhouse Paradigm, eGirls Capital, and top angel investors, Blur executed one of the most explosive go-to-market strategies in crypto history, capturing over 80% of all Ethereum NFT trading volume within months of its public release.\n\nBlur's technical differentiation is tailored for high-speed pro trading: real-time pending transaction mempool feeds, ultra-fast portfolio management, floor sweeping across OpenSea, LooksRare, and X2Y2, and zero marketplace trading fees. Blur also pioneered Blend (Blur Lending), a perpetual peer-to-peer NFT lending protocol co-developed with Paradigm researcher Dan Robinson that allows collectors to buy NFTs with 'Buy Now, Pay Later' (BNPL) financing without oracle dependencies or fixed expiration dates.\n\nBlur revolutionized token incentives through its multi-season reward system, distributing hundreds of millions of dollars in $BLUR tokens to bidders, listers, and Blend lenders based on mathematical loyalty scores. Anchored by BLUR governance and token staking, active NFT traders, bidders, and lenders represent the most influential liquidity tier in the digital collectibles ecosystem.",
+    "tokenomics": "The native $BLUR token commands a 3 Billion maximum supply. BLUR governs protocol fee switches, community treasury allocations, and staking multipliers for seasonal loyalty airdrops.",
+    "sybilDefense": "Blur evaluates bid duration, distance from collection floor price, 100% marketplace loyalty enforcement, and Blend loan volume. Fake bids placed far below the floor price receive zero points.",
+    "strategy": "To maximize your positioning for Blur ($BLUR) seasonal airdrops and Blend lending yields:\n\n1. Connect your Ethereum wallet to Blur and deposit ETH into the unified Blur Bidding Pool.\n2. Place active bids close to the floor price on top-tier verified collections (e.g., Pudgy Penguins, Azuki, MAYC).\n3. List eligible NFTs on Blur with maximum loyalty (ensuring your lowest price listing is on Blur).\n4. Provide liquidity or borrow ETH on Blend peer-to-peer lending pools.\n5. Stake $BLUR tokens in the official staking contract to boost your personal season point multipliers.",
+    "steps": [
+      "Visit the official <a href=\"https://blur.io\" target=\"_blank\" rel=\"noopener noreferrer\">Blur Platform</a>.",
+      "Connect your EVM wallet to Ethereum Mainnet.",
+      "Deposit ETH into the bidding pool at <a href=\"https://blur.io/bidding\" target=\"_blank\" rel=\"noopener noreferrer\">Blur Bidding Dashboard</a>.",
+      "Place competitive bids within 24 hours of collection floor prices to earn daily Bidding Points.",
+      "List NFTs on Blur with full loyalty settings to earn Listing Points.",
+      "Explore peer-to-peer NFT financing on <a href=\"https://blur.io/blend\" target=\"_blank\" rel=\"noopener noreferrer\">Blend Lending</a>.",
+      "Stake $BLUR tokens to increase your season loyalty multiplier.",
+      "Monitor your accumulated points on the official Blur Airdrop portal."
+    ],
+    "faqs": [
+      {
+        "question": "What is Blur?",
+        "answer": "Blur is a pro-trader NFT marketplace and aggregator offering real-time pricing, fast sweeps, zero trading fees, and Blend lending."
+      },
+      {
+        "question": "Who backed Blur?",
+        "answer": "Blur raised over $14M in funding led by Paradigm, eGirls Capital, and leading angel investors."
+      },
+      {
+        "question": "What is Blend on Blur?",
+        "answer": "Blend is a perpetual peer-to-peer NFT lending protocol allowing collectors to borrow ETH against NFTs without oracle dependencies."
+      },
+      {
+        "question": "How do Bidding Points work on Blur?",
+        "answer": "Bids placed closer to the collection floor price earn higher points, provided the collection has high 24-hour trading volume."
+      },
+      {
+        "question": "What does Marketplace Loyalty mean on Blur?",
+        "answer": "Loyalty measures whether you list your NFTs exclusively on Blur or at lower prices than other marketplaces, boosting reward tiers."
+      },
+      {
+        "question": "What is the utility of the $BLUR token?",
+        "answer": "BLUR is used for DAO governance, voting on marketplace fee switches, and staking to boost seasonal airdrop point multipliers."
+      }
+    ]
   }
 ];

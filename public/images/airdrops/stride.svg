@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" fill="none">
+  <defs>
+    <linearGradient id="strideGrad" x1="20" y1="20" x2="108" y2="108" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#FB7185" />
+      <stop offset="50%" stop-color="#F43F5E" />
+      <stop offset="100%" stop-color="#BE123C" />
+    </linearGradient>
+  </defs>
+  <rect width="128" height="128" rx="28" fill="#180408" />
+  <!-- Stride Liquid Staking Dynamic Chevrons -->
+  <path d="M38 34L64 64L38 94" stroke="url(#strideGrad)" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" fill="none" />
+  <path d="M64 34L90 64L64 94" stroke="url(#strideGrad)" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" fill="none" />
+  <circle cx="90" cy="64" r="5" fill="#FDA4AF" />
+</svg>

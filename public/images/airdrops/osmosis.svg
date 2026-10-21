@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" fill="none">
+  <defs>
+    <linearGradient id="osmoGrad" x1="24" y1="20" x2="104" y2="108" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#C084FC" />
+      <stop offset="50%" stop-color="#A855F7" />
+      <stop offset="100%" stop-color="#6B21A8" />
+    </linearGradient>
+  </defs>
+  <rect width="128" height="128" rx="28" fill="#0F051C" />
+  <!-- Osmosis Scientific Flask & Bubbling Interchain Molecules -->
+  <path d="M56 24H72M60 24V46L34 88C30 96 36 104 46 104H82C92 104 98 96 94 88L68 46V24" stroke="url(#osmoGrad)" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" fill="#1C0B33" />
+  <ellipse cx="64" cy="86" rx="24" ry="10" fill="url(#osmoGrad)" />
+  <circle cx="56" cy="74" r="5" fill="#E879F9" />
+  <circle cx="72" cy="68" r="4" fill="#F472B6" />
+  <circle cx="64" cy="82" r="3" fill="#FFFFFF" />
+</svg>

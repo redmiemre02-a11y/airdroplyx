@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" fill="none">
+  <defs>
+    <linearGradient id="marGrad" x1="20" y1="20" x2="108" y2="108" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#FCD34D" />
+      <stop offset="50%" stop-color="#06B6D4" />
+      <stop offset="100%" stop-color="#0D9488" />
+    </linearGradient>
+  </defs>
+  <rect width="128" height="128" rx="28" fill="#04161C" />
+  <!-- Marinade Liquid Staking Chef Wave & Octopus Crown -->
+  <circle cx="64" cy="64" r="42" stroke="url(#marGrad)" stroke-width="6" />
+  <path d="M40 76C44 58 56 46 64 46C72 46 84 58 88 76" stroke="url(#marGrad)" stroke-width="6" stroke-linecap="round" fill="none" />
+  <circle cx="64" cy="58" r="8" fill="#FBBF24" />
+  <circle cx="50" cy="74" r="4" fill="#38BDF8" />
+  <circle cx="78" cy="74" r="4" fill="#38BDF8" />
+  <path d="M44 90C56 96 72 96 84 90" stroke="url(#marGrad)" stroke-width="5" stroke-linecap="round" />
+</svg>

@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" fill="none">
+  <defs>
+    <linearGradient id="venGrad" x1="24" y1="20" x2="104" y2="108" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#FDE047" />
+      <stop offset="50%" stop-color="#F59E0B" />
+      <stop offset="100%" stop-color="#D97706" />
+    </linearGradient>
+  </defs>
+  <rect width="128" height="128" rx="28" fill="#140E03" />
+  <!-- Venus Planetary Orbital Rings & Core -->
+  <circle cx="64" cy="64" r="26" fill="url(#venGrad)" />
+  <ellipse cx="64" cy="64" rx="46" ry="16" transform="rotate(-30 64 64)" stroke="url(#venGrad)" stroke-width="6" fill="none" />
+  <circle cx="94" cy="46" r="4" fill="#FEF08A" />
+  <circle cx="64" cy="64" r="8" fill="#FFFBEB" />
+</svg>

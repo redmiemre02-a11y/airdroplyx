@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" fill="none">
+  <defs>
+    <linearGradient id="benqiGrad" x1="20" y1="20" x2="108" y2="108" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#38BDF8" />
+      <stop offset="50%" stop-color="#00B4D8" />
+      <stop offset="100%" stop-color="#0077B6" />
+    </linearGradient>
+  </defs>
+  <rect width="128" height="128" rx="28" fill="#03121D" />
+  <!-- BENQI Crystalline Mountain & B-Monogram -->
+  <circle cx="64" cy="64" r="42" stroke="url(#benqiGrad)" stroke-width="6" />
+  <path d="M48 36H68C76 36 82 42 82 50C82 56 78 60 72 62C80 64 84 70 84 78C84 86 76 92 68 92H48V36Z" stroke="url(#benqiGrad)" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" fill="#062235" />
+  <circle cx="66" cy="50" r="4" fill="#38BDF8" />
+  <circle cx="66" cy="78" r="4" fill="#38BDF8" />
+</svg>
