@@ -4,6 +4,7 @@ import Header from '../components/Header.astro';
 import AirdropCard from '../components/AirdropCard.astro';
 import { airdrops } from '../data/airdrops';
 import { academyArticles } from '../data/academy';
+import { newsArticles } from '../data/news';
 
 // Current anchor date
 const currentDate = '2026-10-03';
@@ -206,6 +207,54 @@ const endedAirdrops = airdrops.filter(a => a.status === 'ended');
         </div>
       </section>
     )}
+
+    <!-- Breaking News & Daily Alpha Radar Section (Google Freshness & Discover Booster) -->
+    <section class="mt-16 pt-12 border-t border-slate-200 dark:border-slate-800">
+      <div class="flex flex-col md:flex-row md:items-end justify-between mb-8">
+        <div>
+          <div class="inline-flex items-center gap-1.5 bg-rose-50 dark:bg-rose-950/40 text-rose-600 dark:text-rose-400 text-xs font-black uppercase tracking-wider px-3 py-1 rounded-full border border-rose-200 dark:border-rose-900/50 mb-2">
+            <span class="w-1.5 h-1.5 rounded-full bg-rose-500 animate-pulse"></span>
+            Daily News & Alpha Radar
+          </div>
+          <h2 class="text-2xl md:text-3xl font-extrabold text-slate-900 dark:text-white tracking-tight">
+            Latest Web3 Airdrop News
+          </h2>
+          <p class="text-sm text-slate-500 dark:text-slate-400 mt-1">
+            Breaking TGE alerts, snapshot verification dates, and institutional on-chain intel.
+          </p>
+        </div>
+        <a href="/news" class="mt-4 md:mt-0 text-sm font-bold text-rose-600 hover:text-rose-700 dark:text-rose-400 flex items-center gap-1 group">
+          View all {newsArticles.length} breaking stories <span class="group-hover:translate-x-1 transition-transform">→</span>
+        </a>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+        {newsArticles.slice(0, 3).map(news => (
+          <a href={`/news/${news.slug}`} class="bg-white dark:bg-slate-800 rounded-2xl border border-slate-200 dark:border-slate-700 overflow-hidden hover:shadow-xl transition-all group flex flex-col">
+            <div class="aspect-video w-full overflow-hidden bg-slate-100 relative">
+              <img src={news.image} alt={news.title} class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" loading="lazy" />
+              <span class="absolute top-3 left-3 text-[10px] font-black uppercase px-2.5 py-0.5 rounded-full shadow-md bg-rose-600 text-white">
+                {news.category}
+              </span>
+            </div>
+            <div class="p-5 flex-1 flex flex-col justify-between">
+              <div>
+                <div class="text-[11px] text-slate-400 mb-2 font-medium">
+                  {news.date} • {news.readTime}
+                </div>
+                <h3 class="font-bold text-base text-slate-900 dark:text-white group-hover:text-blue-600 transition-colors line-clamp-2 mb-2 leading-snug">
+                  {news.title}
+                </h3>
+                <p class="text-xs text-slate-500 dark:text-slate-400 line-clamp-2 leading-relaxed">
+                  {news.excerpt}
+                </p>
+              </div>
+              <span class="text-xs font-bold text-rose-600 dark:text-rose-400 mt-4 inline-block">Read Breaking Story →</span>
+            </div>
+          </a>
+        ))}
+      </div>
+    </section>
 
     <!-- Academy Section (AdSense & SEO Booster) -->
     <section class="mt-16 pt-12 border-t border-slate-200 dark:border-slate-800">
