@@ -15888,5 +15888,735 @@ export const airdrops: Airdrop[] = [
         "answer": "BLUR is used for DAO governance, voting on marketplace fee switches, and staking to boost seasonal airdrop point multipliers."
       }
     ]
+  },
+  {
+    "id": "mode-network",
+    "name": "Mode Network",
+    "category": "Layer 2",
+    "tier": "Tier 1",
+    "status": "Active",
+    "stage": "Mainnet",
+    "potentialReward": "$1,200 - $7,500",
+    "cost": "Sub-cent gas fees on Mode",
+    "timeRequired": "15 mins / weekly",
+    "platform": "Web / Mode / OP Stack",
+    "description": "Modular DeFi Layer 2 built on the OP Stack and powered by Celestia DA, backed by a $6M grant from Optimism with native fee-sharing and Mode Points.",
+    "logo": "/images/airdrops/mode-network.svg",
+    "refLink": "https://www.mode.network",
+    "tags": [
+      "Modular L2",
+      "OP Stack",
+      "Celestia DA",
+      "Superchain",
+      "MODE",
+      "Tier 1"
+    ],
+    "featured": true,
+    "startDate": "Jan 2024",
+    "endDate": "Q4 2025",
+    "requirements": [
+      "EVM Wallet",
+      "Bridge Assets via Mode Canonical Bridge",
+      "Provide Liquidity to Mode DeFi Protocols (Kim, Ionic, SwapMode)",
+      "Hold Mode Native Assets to Accumulate Points",
+      "Stake MODE Tokens for Governance"
+    ],
+    "overview": "Mode Network is the premier modular decentralized finance (DeFi) Layer 2 rollup engineered to foster a cooperative economic model for developers and users. Powered by the OP Stack and integrated into the Optimism Superchain ecosystem, Mode secured a landmark $6 Million adoption grant from the Optimism Foundation to accelerate on-chain liquidity growth. Crucially, Mode incorporates Celestia for modular Data Availability (DA), slashing transaction data publishing costs by over 95% compared to traditional Ethereum rollups.\n\nMode fundamentally differentiates itself through its Sequencer Fee Sharing (SFS) and user referral architecture. Instead of the rollup operator capturing 100% of sequencer revenues, Mode algorithmically redirects up to 33% of all sequencer transaction fees directly back to smart contract developers whose applications generate user activity. This aligns builder incentives with long-term protocol success and eliminates mercenary fork behavior.\n\nThe network operates its flagship multi-season rewards campaign—Mode Sunrise and Season 2 Points—distributing millions of native $MODE tokens to active bridge users, DeFi liquidity providers, and ecosystem stakers. Supported by native dApps including Kim Exchange (concentrated AMM), Ionic Protocol (money market), and SwapMode, active participants who deploy capital and execute recurring swaps occupy a prime tier in the Superchain economy.",
+    "tokenomics": "The native $MODE token commands a 10 Billion total supply. $MODE serves as the governance asset of the Mode DAO, powers voting over Sequencer Fee Sharing grants, and unlocks staking yield multipliers across ecosystem dApps.",
+    "sybilDefense": "Mode employs strict anti-sybil filters, tracking bridge transaction age, sustained asset balance retention, and smart contract interaction diversity. Automated scripts that churn circular wash volume across dust accounts receive zero point accrual.",
+    "strategy": "To maximize your positioning for Mode Network ($MODE) Season 2 distributions and ecosystem airdrops:\n\n1. Connect your EVM wallet to the Mode bridge and bridge ETH, USDT, or USDC from Ethereum or Layer 2s.\n2. Execute regular swaps on leading Mode DEXs (Kim Exchange or SwapMode) to accumulate volume.\n3. Supply assets or borrow stablecoins on Ionic Protocol to generate lending interest and points.\n4. Provide concentrated liquidity on Kim Exchange to capture trading fees and boosted Mode points.\n5. Acquire and stake $MODE tokens in the Mode governance portal to unlock top-tier reward multipliers.",
+    "steps": [
+      "Visit the official <a href=\"https://www.mode.network\" target=\"_blank\" rel=\"noopener noreferrer\">Mode Network Portal</a>.",
+      "Bridge assets to Mode Layer 2 via <a href=\"https://bridge.mode.network\" target=\"_blank\" rel=\"noopener noreferrer\">Mode Bridge</a>.",
+      "Connect your EVM wallet (MetaMask, Rabby, or Rainbow).",
+      "Explore and trade assets on <a href=\"https://app.kim.exchange\" target=\"_blank\" rel=\"noopener noreferrer\">Kim Exchange</a>.",
+      "Lend or borrow crypto assets on <a href=\"https://ionic.money\" target=\"_blank\" rel=\"noopener noreferrer\">Ionic Protocol</a>.",
+      "Track your accumulated points on the <a href=\"https://airdrop.mode.network\" target=\"_blank\" rel=\"noopener noreferrer\">Mode Airdrop Dashboard</a>.",
+      "Stake $MODE tokens to participate in governance voting.",
+      "Explore new ecosystem grants and dApps on the Mode Ecosystem directory."
+    ],
+    "faqs": [
+      {
+        "question": "What is Mode Network?",
+        "answer": "Mode Network is a modular DeFi Layer 2 built with the OP Stack and Celestia DA that shares sequencer fees with builders and users."
+      },
+      {
+        "question": "How does Sequencer Fee Sharing (SFS) work?",
+        "answer": "Mode redirects up to 33% of network sequencer transaction fees directly to developers whose smart contracts generate activity."
+      },
+      {
+        "question": "What makes Mode cheaper than other L2s?",
+        "answer": "Mode uses Celestia for modular data availability, reducing transaction publication costs by more than 95%."
+      },
+      {
+        "question": "What is the utility of the $MODE token?",
+        "answer": "MODE is used for protocol governance, voting on developer fee allocations, and staking for ecosystem rewards."
+      },
+      {
+        "question": "What is the Optimism Superchain connection?",
+        "answer": "Mode is built on the OP Stack and participates in the Superchain, enabling shared security and seamless cross-rollup interoperability."
+      },
+      {
+        "question": "How are Mode Points calculated?",
+        "answer": "Points are calculated based on assets bridged, DeFi liquidity provided, dApp interactions, and ecosystem referral volume."
+      }
+    ]
+  },
+  {
+    "id": "metis",
+    "name": "Metis",
+    "category": "Layer 2",
+    "tier": "Tier 1",
+    "status": "Active",
+    "stage": "Mainnet",
+    "potentialReward": "$1,000 - $6,500",
+    "cost": "Sub-cent gas fees",
+    "timeRequired": "15 mins / monthly",
+    "platform": "Web / Metis",
+    "description": "Pioneering Ethereum Layer 2 rollup featuring the first decentralized sequencer pool and a $100M+ ecosystem fund, distributing native METIS staking yields.",
+    "logo": "/images/airdrops/metis.svg",
+    "refLink": "https://metis.io",
+    "tags": [
+      "Decentralized Sequencer",
+      "Layer 2",
+      "Rollup",
+      "METIS",
+      "DeFi",
+      "Tier 1"
+    ],
+    "featured": true,
+    "startDate": "Nov 2021",
+    "endDate": "Q4 2025",
+    "requirements": [
+      "EVM Wallet",
+      "Bridge to Metis Andromeda",
+      "Stake METIS with Decentralized Sequencer Nodes",
+      "Trade on Native Metis DEXs (Hercules, NetSwap)",
+      "Participate in Metis Ecosystem Grants"
+    ],
+    "overview": "Metis is an innovative, high-performance Ethereum Layer 2 scaling protocol that made cryptocurrency history by becoming the very first rollup to successfully deploy a fully Decentralized Sequencer Pool on mainnet. While virtually all existing Layer 2 rollups rely on centralized sequencers operated by single foundation entities—creating single points of failure, censorship vectors, and monopolistic MEV capture—Metis distributed sequencer rights across an open network of independent node operators.\n\nMetis operates on the Andromeda mainnet using Smart Layer 2 architecture, combining optimistic rollup settlement with Hybrid Rollup zero-knowledge proof verification. To become a sequencer on Metis, node operators must lock substantial amounts of the native $METIS token as collateral. Transactions are sequenced and finalized in rotating consensus rounds, with malicious or offline sequencers facing automated slashing penalties.\n\nBacked by the Metis Ecosystem Development Fund (a multi-million dollar capital pool funded with hundreds of thousands of METIS tokens), Metis powers a vibrant decentralized ecosystem including Hercules DEX (concentrated liquidity AMM), Artemis Finance (liquid staking), and NetSwap. Active participants who stake METIS in sequencer pools, hold liquid staking tokens (artMETIS), and deploy liquidity capture premier Layer 2 decentralized yields.",
+    "tokenomics": "The native $METIS token commands a 10 Million capped supply. METIS functions as the native gas token of the Metis Andromeda network, provides staking collateral for decentralized sequencer nodes, and powers DAO governance voting.",
+    "sybilDefense": "Metis tracks verifiable sequencer staking tenure, real gas fee contribution, and multi-contract transaction history. Low-value bot scripts that loop minimal amounts without engaging with decentralized sequencer pools are excluded from ecosystem grants.",
+    "strategy": "To maximize your positioning for Metis ($METIS) ecosystem yields and retroactive rewards:\n\n1. Connect your Web3 wallet and bridge assets to Metis Andromeda using the official Metis Bridge.\n2. Acquire $METIS tokens and participate in decentralized sequencer staking pools via Artemis Finance to earn native staking APR.\n3. Execute decentralized token swaps and provide liquidity on Hercules DEX or NetSwap.\n4. Supply collateral and borrow stablecoins on native money markets.\n5. Participate in Metis Community Ecosystem Governance votes and test upcoming hybrid ZK features.",
+    "steps": [
+      "Visit the official <a href=\"https://metis.io\" target=\"_blank\" rel=\"noopener noreferrer\">Metis Platform</a>.",
+      "Bridge assets to Metis Andromeda via the <a href=\"https://bridge.metis.io\" target=\"_blank\" rel=\"noopener noreferrer\">Metis Bridge</a>.",
+      "Connect your EVM wallet configured for Metis Andromeda (Chain ID: 1088).",
+      "Participate in decentralized sequencer liquid staking on <a href=\"https://artemis-finance.io\" target=\"_blank\" rel=\"noopener noreferrer\">Artemis Finance</a>.",
+      "Execute token swaps and provide concentrated liquidity on <a href=\"https://hercules.exchange\" target=\"_blank\" rel=\"noopener noreferrer\">Hercules DEX</a>.",
+      "Explore community trading pairs on <a href=\"https://netswap.io\" target=\"_blank\" rel=\"noopener noreferrer\">NetSwap</a>.",
+      "Monitor sequencer consensus performance on the Metis Explorer.",
+      "Vote on Metis Community Ecosystem Governance proposals on Snapshot."
+    ],
+    "faqs": [
+      {
+        "question": "What makes Metis unique among Layer 2s?",
+        "answer": "Metis is the first Ethereum Layer 2 rollup to deploy a decentralized sequencer pool, eliminating the single point of failure found in other rollups."
+      },
+      {
+        "question": "What is the utility of the $METIS token?",
+        "answer": "METIS is the native gas token of the network, the staking asset for sequencer nodes, and the governance token for ecosystem decisions."
+      },
+      {
+        "question": "What is Artemis Finance on Metis?",
+        "answer": "Artemis Finance is the premier liquid staking protocol for Metis, allowing users to earn sequencer staking yields while holding liquid artMETIS."
+      },
+      {
+        "question": "How does the decentralized sequencer pool protect users?",
+        "answer": "By rotating sequencers among multiple independent nodes, it prevents censorship, eliminates transaction withholding, and decentralizes MEV."
+      },
+      {
+        "question": "What is the total supply of METIS?",
+        "answer": "METIS has a hard cap of exactly 10 Million tokens with no further inflation."
+      },
+      {
+        "question": "Which networks can I bridge to Metis from?",
+        "answer": "You can bridge directly from Ethereum Mainnet, BNB Chain, Avalanche, and major Layer 2s via canonical and cross-chain bridges."
+      }
+    ]
+  },
+  {
+    "id": "livepeer",
+    "name": "Livepeer",
+    "category": "DePIN",
+    "tier": "Tier 1",
+    "status": "Active",
+    "stage": "Mainnet",
+    "potentialReward": "$1,200 - $8,000",
+    "cost": "Gas fees on Arbitrum (<$0.20)",
+    "timeRequired": "15 mins / monthly",
+    "platform": "Web / Arbitrum",
+    "description": "Leading decentralized video streaming and generative AI compute infrastructure network backed by $50M+ from Tiger Global, Pantera Capital, and DCG.",
+    "logo": "/images/airdrops/livepeer.svg",
+    "refLink": "https://livepeer.org",
+    "tags": [
+      "DePIN",
+      "AI Compute",
+      "Video Streaming",
+      "Arbitrum",
+      "LPT",
+      "Tier 1"
+    ],
+    "featured": true,
+    "startDate": "May 2018",
+    "endDate": "Q4 2025",
+    "requirements": [
+      "Arbitrum EVM Wallet",
+      "Delegate LPT Tokens to High-Performing Orchestrator Nodes",
+      "Earn Transcoding Fees and Round Inflation",
+      "Test Livepeer AI Subnet Inference Pipelines",
+      "Vote on Livepeer Protocol Proposals (LIPs)"
+    ],
+    "overview": "Livepeer is the foundational decentralized physical infrastructure network (DePIN) for open-source video transcoding and generative artificial intelligence compute. Founded in 2017 by Doug Petkanics and Eric Tang and supported by over $50 Million in funding from elite technology investors—including Tiger Global, Pantera Capital, Digital Currency Group (DCG), CoinFund, and Northzone—Livepeer transforms idle GPU compute around the globe into an open, decentralized video supercloud.\n\nTraditional centralized video transcoding (such as AWS Interactive Video or Google Cloud) is prohibitively expensive, consuming up to 80% of bandwidth and compute costs for streaming platforms. Livepeer coordinates an open marketplace of 'Orchestrators' (node operators with high-end GPUs who encode and transcode video streams in real-time) and 'Delegators' (token holders who stake the native $LPT token to secure orchestrators and earn a share of transcoding fees).\n\nHaving migrated its settlement layer to Arbitrum One to reduce gas fees by 99%, Livepeer expanded its computational architecture into the Livepeer AI Subnet. This allows the decentralized GPU network to process text-to-image (Stable Diffusion), text-to-video, and multimodal AI inference tasks at up to 80% lower cost than cloud monopolies. Active $LPT delegators and GPU orchestrators sit at the intersection of DePIN, media streaming, and open AI infrastructure.",
+    "tokenomics": "The native Livepeer Token ($LPT) is a work and bonding token. Staking LPT to orchestrators is required to earn the right to perform compute work, capturing round inflation and transcoding fees paid in ETH and stablecoins.",
+    "sybilDefense": "Livepeer requires verifiable economic bonding with unbonding cooldown periods (7 days). Orchestrators must post cryptographic verification proofs of transcoded video segments; nodes providing corrupt outputs are slashed.",
+    "strategy": "To maximize your positioning for Livepeer ($LPT) delegation yields and AI subnet rewards:\n\n1. Acquire LPT tokens on Arbitrum One via Uniswap, Camelot, or major exchanges.\n2. Navigate to the Livepeer Explorer on Arbitrum and connect your Web3 wallet.\n3. Filter Orchestrators by reward cut, fee cut, and historical transcoding uptime.\n4. Delegate your $LPT tokens to top-performing orchestrators to begin earning auto-compounding round inflation and fee shares.\n5. Test generative AI pipelines on the Livepeer AI Subnet and vote on active Livepeer Improvement Proposals (LIPs).",
+    "steps": [
+      "Visit the official <a href=\"https://livepeer.org\" target=\"_blank\" rel=\"noopener noreferrer\">Livepeer Platform</a>.",
+      "Launch the delegation explorer at <a href=\"https://explorer.livepeer.org\" target=\"_blank\" rel=\"noopener noreferrer\">Livepeer Explorer</a>.",
+      "Connect your EVM wallet to Arbitrum One.",
+      "Filter Orchestrators by fee sharing percentages and active transcoding performance.",
+      "Bond and delegate your $LPT tokens to chosen orchestrators.",
+      "Monitor your daily accrued round rewards and fee distributions on your profile dashboard.",
+      "Explore AI video generation capabilities at <a href=\"https://livepeer.ai\" target=\"_blank\" rel=\"noopener noreferrer\">Livepeer AI</a>.",
+      "Participate in governance proposals on the Livepeer Governance Forum."
+    ],
+    "faqs": [
+      {
+        "question": "What is Livepeer?",
+        "answer": "Livepeer is a decentralized video and AI compute infrastructure network that reduces transcoding costs by up to 80% using crowdsourced GPUs."
+      },
+      {
+        "question": "Who funded Livepeer?",
+        "answer": "Livepeer raised over $50M from Tiger Global, Pantera Capital, Digital Currency Group, and CoinFund."
+      },
+      {
+        "question": "What is an Orchestrator?",
+        "answer": "An Orchestrator is a node operator who runs hardware with GPUs to encode video and perform AI compute tasks in exchange for fees."
+      },
+      {
+        "question": "What does an LPT Delegator do?",
+        "answer": "Delegators stake LPT to trusted orchestrators, securing the network and earning a share of daily inflation rewards and fee revenue."
+      },
+      {
+        "question": "What is the Livepeer AI Subnet?",
+        "answer": "The AI Subnet expands Livepeer's GPU compute network to run generative AI models like Stable Diffusion and video generation."
+      },
+      {
+        "question": "Why did Livepeer migrate to Arbitrum?",
+        "answer": "Livepeer migrated to Arbitrum to reduce transaction gas costs by over 99%, making daily reward claims and delegation accessible to all."
+      }
+    ]
+  },
+  {
+    "id": "derive",
+    "name": "Derive (formerly Lyra)",
+    "category": "DeFi",
+    "tier": "Tier 1",
+    "status": "Active",
+    "stage": "Mainnet",
+    "potentialReward": "$1,500 - $9,000",
+    "cost": "Gas fees on Derive OP Stack Rollup",
+    "timeRequired": "15 mins / weekly",
+    "platform": "Web / Derive L2 / OP Stack",
+    "description": "Preeminent decentralized options and perpetuals protocol backed by $13M+ from Framework Ventures, operating its own custom high-speed OP Stack rollup.",
+    "logo": "/images/airdrops/derive.svg",
+    "refLink": "https://derive.xyz",
+    "tags": [
+      "Options",
+      "Perpetuals",
+      "Derivatives",
+      "OP Stack",
+      "DRV",
+      "Tier 1"
+    ],
+    "featured": true,
+    "startDate": "Aug 2021",
+    "endDate": "Q4 2025",
+    "requirements": [
+      "EVM Wallet",
+      "Bridge Collateral (USDC/ETH) to Derive Layer 2",
+      "Trade Options Contracts or Perpetual Futures",
+      "Deposit into Yield-Bearing Derive Automated Vaults",
+      "Stake LYRA / DRV Tokens for Fee Discounts and Staking APR"
+    ],
+    "overview": "Derive (formerly Lyra Finance) is the preeminent decentralized options and structured derivatives exchange in decentralized finance. Founded by Nick Forster and Michael Spain and backed by over $13 Million from tier-1 crypto venture capital firms including Framework Ventures, GSR, DeFi Alliance, and prominent industry founders, Derive processes the vast majority of all on-chain cryptocurrency options trading volume globally.\n\nDerive pioneered the transition from isolated AMM smart contracts to an application-specific rollup by deploying the Derive Chain: a custom, high-throughput Layer 2 rollup built using the OP Stack and integrated into the Optimism Superchain. By running its own dedicated execution environment, Derive offers sub-second order placement, institutional-grade portfolio margin, zero gas fees for order cancellation, and unified cross-margin across options, perpetual futures, and spot assets.\n\nDerive's core innovation is its delta-hedging automated market maker and sub-account architecture. Traders can execute European cash-settled options, covered calls, cash-secured puts, and exotic volatility spreads with institutional liquidity. Governed by the Derive DAO and transitioning to the native $DRV token, active traders, liquidity vault depositors, and governance stakers represent the most sophisticated tier in on-chain derivatives.",
+    "tokenomics": "The native $DRV (formerly $LYRA) token governs the Derive protocol. Staking DRV unlocks substantial trading fee rebates, directs weekly liquidity mining vault incentives, and captures protocol fee revenues generated across the dedicated Layer 2 rollup.",
+    "sybilDefense": "Derive evaluates verifiable portfolio margin volume, continuous open interest holding duration, and real fee expenditure. Programmatic accounts executing risk-free wash orders across self-funded subaccounts are filtered out by anti-wash trading engines.",
+    "strategy": "To maximize your positioning for Derive ($DRV) ecosystem rewards and protocol fee rebates:\n\n1. Connect your Web3 wallet and deposit collateral (USDC, ETH, or stETH) onto the Derive Layer 2.\n2. Execute regular options trades (buying calls/puts or selling covered strategies) to build consistent volume.\n3. Trade perpetual futures contracts with cross-margin efficiency.\n4. Deposit collateral into Derive Automated Liquidity Vaults to earn underlying market maker yield and token incentives.\n5. Stake your tokens in the Derive staking portal to capture weekly protocol revenue payouts.",
+    "steps": [
+      "Visit the official <a href=\"https://derive.xyz\" target=\"_blank\" rel=\"noopener noreferrer\">Derive Platform</a>.",
+      "Launch the decentralized derivatives app at <a href=\"https://app.derive.xyz\" target=\"_blank\" rel=\"noopener noreferrer\">Derive App</a>.",
+      "Connect your EVM wallet across Arbitrum, Optimism, or Ethereum.",
+      "Deposit USDC or ETH into your Derive Layer 2 trading account.",
+      "Trade options contracts across Bitcoin, Ethereum, and major altcoins.",
+      "Explore structured vaults and deposit liquidity into automated market-making pools.",
+      "Stake $DRV tokens at <a href=\"https://app.derive.xyz/stake\" target=\"_blank\" rel=\"noopener noreferrer\">Derive Staking Portal</a>.",
+      "Participate in community governance votes and trading competitions on Discord."
+    ],
+    "faqs": [
+      {
+        "question": "What is Derive (formerly Lyra)?",
+        "answer": "Derive is a decentralized options and perpetuals protocol operating on its own custom OP Stack Layer 2 rollup."
+      },
+      {
+        "question": "Who backed Derive?",
+        "answer": "Derive raised over $13M from Framework Ventures, GSR, DeFi Alliance, and leading angel investors."
+      },
+      {
+        "question": "What is portfolio margin on Derive?",
+        "answer": "Portfolio margin offsets risk between open options and perpetual positions, vastly reducing the collateral required to trade."
+      },
+      {
+        "question": "How does the Derive Layer 2 benefit traders?",
+        "answer": "The dedicated rollup enables sub-second execution, zero-gas order cancellations, and deep institutional liquidity."
+      },
+      {
+        "question": "What happened to the LYRA token?",
+        "answer": "As part of the rebrand to Derive, the LYRA token is transitioning to the new $DRV governance asset with enhanced utility."
+      },
+      {
+        "question": "Can I trade options with cross-margin?",
+        "answer": "Yes, Derive allows full cross-margining between options and perpetual futures positions using unified collateral."
+      }
+    ]
+  },
+  {
+    "id": "everclear",
+    "name": "Everclear (formerly Connext)",
+    "category": "Infrastructure",
+    "tier": "Tier 1",
+    "status": "Active",
+    "stage": "Mainnet",
+    "potentialReward": "$1,000 - $6,500",
+    "cost": "Gas fees on Arbitrum / Base / Optimism",
+    "timeRequired": "15 mins / monthly",
+    "platform": "Web / Multi-Chain",
+    "description": "The premier clearing layer for modular Web3 interchain liquidity backed by $15M+ from Polychain Capital and 1kx, coordinating programmatic settlement across rollups.",
+    "logo": "/images/airdrops/everclear.svg",
+    "refLink": "https://everclear.org",
+    "tags": [
+      "Clearing Layer",
+      "Interoperability",
+      "Modular Liquidity",
+      "NEXT",
+      "CLEAR",
+      "Tier 1"
+    ],
+    "featured": true,
+    "startDate": "Sep 2021",
+    "endDate": "Q4 2025",
+    "requirements": [
+      "EVM Wallet",
+      "Execute Cross-Chain Settlement via Everclear clearing corridors",
+      "Provide Liquidity to Modular Rebalancing Hubs",
+      "Stake NEXT Tokens in Governance",
+      "Participate in Everclear Rebalancing Bounties"
+    ],
+    "overview": "Everclear (formerly Connext Network) is the world's first decentralized 'Clearing Layer' engineered to solve the multi-billion dollar liquidity fragmentation crisis of the modular blockchain ecosystem. Founded by Arjun Bhuptani and Rahul Sethuram and supported by over $15 Million in funding from elite venture funds—including Polychain Capital, 1kx, Coinbase Ventures, Pantera Capital, and Polygon Ventures—Everclear acts as the shared financial clearinghouse for modular rollups, bridges, and cross-chain intent solvers.\n\nIn the modular rollup era, hundreds of disparate Layer 2 and Layer 3 chains suffer from fragmented capital. Bridges and market makers are forced to rebalance millions of dollars in capital across fragmented networks daily, paying massive gas fees and suffering significant capital inefficiency. Everclear solves this by introducing global peer-to-peer netting. Rather than moving capital across chains for every single transaction, Everclear nets out opposing cross-chain flows algorithmically (similar to traditional financial clearinghouses like DTCC), only settling the net difference.\n\nOperating as a specialized rollup on Arbitrum Orbit, Everclear coordinates order flow for leading bridges and protocols. Anchored by the native $NEXT (transitioning to $CLEAR) token, active rebalancing market makers, liquidity providers, and governance stakers occupy the central coordination hub of cross-chain settlement.",
+    "tokenomics": "The native $NEXT / $CLEAR token powers the Everclear clearing engine. Token holders stake to participate in DAO governance, secure routing rebalancing hubs, and capture protocol clearing fee revenues.",
+    "sybilDefense": "Everclear enforces strict on-chain routing verification, minimum rebalancing volume, and non-circular transaction paths. Bot scripts that loop identical amounts across test corridors without real bridge demand are filtered out from protocol distributions.",
+    "strategy": "To maximize your positioning for Everclear ($NEXT / $CLEAR) clearing rewards and ecosystem airdrops:\n\n1. Use cross-chain bridges and intent protocols powered by Everclear (such as Connext Bridge or partner dApps).\n2. Execute cross-chain transfers across supported Layer 2 networks (Arbitrum, Base, Optimism, Polygon).\n3. Provide liquidity into Everclear rebalancing pools and routing corridors to earn fee yields.\n4. Stake $NEXT tokens in the official Everclear governance staking portal to earn voting power.\n5. Participate in community bounty programs and test modular clearing upgrades on Arbitrum Orbit.",
+    "steps": [
+      "Visit the official <a href=\"https://everclear.org\" target=\"_blank\" rel=\"noopener noreferrer\">Everclear Portal</a>.",
+      "Connect your EVM wallet across supported chains (Ethereum, Arbitrum, Base, Optimism).",
+      "Execute cross-chain transfers powered by Everclear infrastructure.",
+      "Explore clearing liquidity pools at <a href=\"https://connext.network\" target=\"_blank\" rel=\"noopener noreferrer\">Connext Bridge</a>.",
+      "Provide liquidity to high-volume cross-rollup settlement corridors.",
+      "Stake $NEXT tokens at the official <a href=\"https://dao.connext.network\" target=\"_blank\" rel=\"noopener noreferrer\">Everclear DAO Portal</a>.",
+      "Cast votes on protocol clearing parameter proposals on Snapshot.",
+      "Read developer documentation regarding the clearing layer at <a href=\"https://docs.everclear.org\" target=\"_blank\" rel=\"noopener noreferrer\">Everclear Documentation</a>."
+    ],
+    "faqs": [
+      {
+        "question": "What is Everclear?",
+        "answer": "Everclear is the first decentralized clearing layer for Web3, netting out cross-chain flows between rollups to eliminate liquidity fragmentation."
+      },
+      {
+        "question": "Who funded Everclear (Connext)?",
+        "answer": "Everclear raised over $15M from Polychain Capital, 1kx, Coinbase Ventures, and Pantera Capital."
+      },
+      {
+        "question": "What does 'clearing' mean in crypto?",
+        "answer": "Clearing nets opposing transaction flows between chains, settling only the net difference to vastly reduce rebalancing costs for bridges and solvers."
+      },
+      {
+        "question": "What is the relationship between Connext and Everclear?",
+        "answer": "Everclear is the evolution and rebranding of Connext, transitioning from a standalone bridge to a universal clearing layer for all bridges."
+      },
+      {
+        "question": "What is the token transition from NEXT to CLEAR?",
+        "answer": "The NEXT token is upgrading to the CLEAR token to reflect the new clearing layer architecture and expanded governance utility."
+      },
+      {
+        "question": "Which networks are supported by Everclear?",
+        "answer": "Everclear coordinates liquidity across Ethereum, Arbitrum, Base, Optimism, Polygon, BNB Chain, and emerging Layer 3 rollups."
+      }
+    ]
+  },
+  {
+    "id": "hop-protocol",
+    "name": "Hop Protocol",
+    "category": "Infrastructure",
+    "tier": "Tier 1",
+    "status": "Active",
+    "stage": "Mainnet",
+    "potentialReward": "$800 - $5,000",
+    "cost": "Gas fees on Arbitrum / Optimism / Polygon",
+    "timeRequired": "15 mins / monthly",
+    "platform": "Web / Multi-Chain",
+    "description": "Pioneering cross-rollup liquidity bridge protocol utilizing hTokens and Automated Market Makers to enable instant, trustless Layer 2 token transfers.",
+    "logo": "/images/airdrops/hop-protocol.svg",
+    "refLink": "https://hop.exchange",
+    "tags": [
+      "Bridge",
+      "Rollup Bridge",
+      "hTokens",
+      "Bonders",
+      "HOP",
+      "Tier 1"
+    ],
+    "featured": true,
+    "startDate": "Jul 2021",
+    "endDate": "Q4 2025",
+    "requirements": [
+      "EVM Wallet",
+      "Bridge Assets Across Ethereum Layer 2s (Arbitrum, Optimism, Base)",
+      "Provide Liquidity to Hop AMM Pools",
+      "Stake LP Tokens in Farming Contracts",
+      "Vote on Hop DAO Governance Proposals on Snapshot"
+    ],
+    "overview": "Hop Protocol is the historic pioneer of fast, trustless cross-rollup token transfers in the Ethereum Layer 2 ecosystem. Created by Chris Whinfrey and the Authereum team in 2021 and supported by $1 Million from 1kx and prominent DeFi angels, Hop solved the most painful friction point of Ethereum rollups: the dreaded 7-day fraud-proof withdrawal challenge window required to move assets from optimistic rollups (like Arbitrum and Optimism) back to Ethereum Mainnet.\n\nHop's architecture relies on two key primitives: 'hTokens' (Hop bridge tokens minted across destination networks) and specialized on-chain Automated Market Makers (AMMs) paired with native assets (e.g., hETH/ETH or hUSDC/USDC). Professional node operators called 'Bonders' front liquidity on destination chains to provide instantaneous settlement to users, receiving bonding fees in return. The Bonder's capital is subsequently reimbursed once the rollup batch finishes settling.\n\nGoverned completely by the Hop DAO and powered by the $HOP token, Hop Protocol has processed billions in cumulative bridge volume. Active liquidity providers in Hop AMM pools, cross-rollup bridge users, and Hop DAO voters represent one of the most respected foundational communities in Layer 2 scaling.",
+    "tokenomics": "The native $HOP token commands a 1 Billion maximum supply. HOP is used for protocol governance through the Hop DAO, directing liquidity mining incentives, and voting on treasury grant distributions.",
+    "sybilDefense": "Hop tracks verifiable on-chain bridging volume, AMM deposit duration, and historical DAO governance participation. Hop's famous anti-sybil Bounty Hunter program pioneered community-driven sybil identification across Web3.",
+    "strategy": "To maximize your positioning for Hop Protocol ($HOP) fee yields and ecosystem incentives:\n\n1. Connect your EVM wallet across Ethereum Layer 2s (Arbitrum, Optimism, Base, Polygon).\n2. Execute regular bridge transactions to transfer ETH, USDC, or USDT across chains.\n3. Deposit liquidity into Hop AMM pools (such as ETH/hETH or USDC/hUSDC) to earn trading fees.\n4. Stake your LP tokens in Hop reward farms to earn passive staking APR.\n5. Participate in active Hop DAO governance votes on Snapshot to maintain an active voter profile.",
+    "steps": [
+      "Visit the official <a href=\"https://hop.exchange\" target=\"_blank\" rel=\"noopener noreferrer\">Hop Exchange Platform</a>.",
+      "Connect your EVM wallet across any supported Layer 2 network.",
+      "Perform an instant cross-rollup transfer via <a href=\"https://app.hop.exchange/#/send\" target=\"_blank\" rel=\"noopener noreferrer\">Hop Send</a>.",
+      "Explore liquidity opportunities at <a href=\"https://app.hop.exchange/#/pool\" target=\"_blank\" rel=\"noopener noreferrer\">Hop Pools</a>.",
+      "Deposit capital into native/hToken AMM pools to earn swap fees.",
+      "Stake your LP tokens in active farming contracts to earn rewards.",
+      "Vote on Hop DAO governance proposals at <a href=\"https://snapshot.org/#/hop.eth\" target=\"_blank\" rel=\"noopener noreferrer\">Hop Snapshot</a>.",
+      "Review protocol analytics and bridge volume on the Hop Explorer."
+    ],
+    "faqs": [
+      {
+        "question": "What is Hop Protocol?",
+        "answer": "Hop Protocol is a cross-rollup bridge that enables fast, trustless token transfers between Ethereum Layer 2 networks without 7-day wait times."
+      },
+      {
+        "question": "What are hTokens?",
+        "answer": "hTokens are cross-chain bridge tokens that can be transferred quickly across rollups and swapped for native assets via Hop AMMs."
+      },
+      {
+        "question": "What is a Bonder on Hop?",
+        "answer": "A Bonder is a node operator who provides upfront liquidity on destination chains to allow users to receive funds instantly."
+      },
+      {
+        "question": "What is the role of the $HOP token?",
+        "answer": "HOP is the governance token of the Hop DAO used to vote on protocol upgrades, fee allocations, and treasury management."
+      },
+      {
+        "question": "Which networks support Hop Protocol?",
+        "answer": "Hop supports Ethereum Mainnet, Arbitrum One, Optimism, Base, Polygon, and Gnosis Chain."
+      },
+      {
+        "question": "How did Hop pioneer anti-sybil defense?",
+        "answer": "Hop launched the first community bounty hunter program that rewarded users for uncovering automated sybil clusters in airdrop claims."
+      }
+    ]
+  },
+  {
+    "id": "eigenpie",
+    "name": "Eigenpie",
+    "category": "DeFi",
+    "tier": "Tier 1",
+    "status": "Active",
+    "stage": "Mainnet",
+    "potentialReward": "$1,000 - $7,000",
+    "cost": "Gas fees on Arbitrum / Ethereum",
+    "timeRequired": "15 mins / weekly",
+    "platform": "Web / Ethereum / Arbitrum",
+    "description": "Leading isolated multi-token liquid restaking protocol developed by Magpie XYZ on EigenLayer, issuing isolated restaked tokens (egETH) and $EGP rewards.",
+    "logo": "/images/airdrops/eigenpie.svg",
+    "refLink": "https://www.eigenlayer.magpiexyz.io",
+    "tags": [
+      "Liquid Restaking",
+      "EigenLayer",
+      "Magpie",
+      "EGP",
+      "Arbitrum",
+      "Tier 1"
+    ],
+    "featured": true,
+    "startDate": "Jan 2024",
+    "endDate": "Q4 2025",
+    "requirements": [
+      "EVM Wallet",
+      "Deposit Liquid Staking Tokens (stETH, rETH, mETH, sfrxETH)",
+      "Mint Isolated Liquid Restaked Tokens (mstETH, mmETH)",
+      "Earn EigenLayer Points and Eigenpie Points simultaneously",
+      "Stake EGP Tokens for Revenue Sharing"
+    ],
+    "overview": "Eigenpie is a premier liquid restaking protocol (LRT) engineered by Magpie XYZ to pioneer the concept of Isolated Liquid Restaking on EigenLayer. While standard liquid restaking protocols pool diverse Liquid Staking Tokens (LSTs) into a single basket—exposing all depositors to the pooled risk of any single underlying LST depegging—Eigenpie introduced an isolated restaking architecture that isolates each supported asset in its own sovereign pool.\n\nUnder the Eigenpie framework, when a user deposits a specific LST (such as Lido stETH, Rocket Pool rETH, Mantle mETH, or Frax sfrxETH), they mint an isolated Liquid Restaked Token (e.g., mstETH, mrETH, mmETH, msfrxETH). This ensures that stakers maintain pure, unadulterated exposure to their chosen underlying staking protocol without bearing the contagion risk of other assets. All deposited tokens are restaked into EigenLayer to secure Actively Validated Services (AVSs).\n\nEigenpie depositors earn multi-layered yields: native staking APR from the underlying LST, EigenLayer Restaking Points, and Eigenpie Points. Governed by the native $EGP token, which features a fixed 10 Million supply and provides a direct share of protocol revenue, active restakers and EGP stakers sit at the forefront of modular Ethereum shared security.",
+    "tokenomics": "The native $EGP token has a fixed maximum supply of 10 Million tokens. Staking EGP in the Eigenpie governance pool captures protocol fee revenues, unlocks launchpad allocations, and grants voting power over AVS delegation strategies.",
+    "sybilDefense": "Eigenpie enforces on-chain time-weighted capital commitments, tracking verified LST deposit durations and active restaking balances. Ephemeral accounts depositing and withdrawing before completing point harvest epochs receive zero EGP allocations.",
+    "strategy": "To maximize your positioning for Eigenpie ($EGP) token distributions and EigenLayer restaking rewards:\n\n1. Connect your EVM wallet across Ethereum Mainnet or Arbitrum.\n2. Deposit your chosen Liquid Staking Token (stETH, rETH, mETH, or sfrxETH) into its dedicated Eigenpie isolated vault.\n3. Receive your isolated restaked token (such as mstETH or mmETH) to hold or deploy into secondary DeFi protocols.\n4. Accumulate dual points: earning 100% of your EigenLayer Restaking Points alongside Eigenpie Points.\n5. Stake acquired $EGP tokens in the Eigenpie governance pool to earn protocol revenue sharing.",
+    "steps": [
+      "Visit the official <a href=\"https://www.eigenlayer.magpiexyz.io\" target=\"_blank\" rel=\"noopener noreferrer\">Eigenpie Portal</a>.",
+      "Connect your EVM wallet to Ethereum or Arbitrum.",
+      "Select an isolated vault matching your Liquid Staking Token (e.g., stETH, mETH, sfrxETH).",
+      "Deposit your LST to mint isolated restaked tokens (mstETH, mmETH).",
+      "Track your accumulated EigenLayer Points and Eigenpie Points on the dashboard.",
+      "Deploy your isolated tokens into high-yield liquidity pools on Pendle or Curve.",
+      "Stake $EGP tokens to capture protocol fee distributions.",
+      "Participate in Magpie XYZ ecosystem governance and AVS delegation votes."
+    ],
+    "faqs": [
+      {
+        "question": "What is Eigenpie?",
+        "answer": "Eigenpie is a SubDAO by Magpie XYZ providing isolated liquid restaking for diverse LSTs on EigenLayer."
+      },
+      {
+        "question": "What does 'Isolated Liquid Restaking' mean?",
+        "answer": "It means each LST has its own separate restaked token (like mstETH for stETH), preventing contagion risk if one LST depegs."
+      },
+      {
+        "question": "What rewards do Eigenpie depositors earn?",
+        "answer": "Depositors earn underlying LST staking yields, 100% of EigenLayer Restaking Points, and Eigenpie Points."
+      },
+      {
+        "question": "What is the utility of the $EGP token?",
+        "answer": "EGP is the governance token used for protocol voting, revenue sharing, and gaining priority access to Magpie launchpads."
+      },
+      {
+        "question": "What is the maximum supply of EGP?",
+        "answer": "EGP has a strictly fixed maximum supply of exactly 10 Million tokens."
+      },
+      {
+        "question": "Can I use Eigenpie on Arbitrum?",
+        "answer": "Yes, Eigenpie is deployed on both Ethereum Mainnet and Arbitrum One with lower transaction fees."
+      }
+    ]
+  },
+  {
+    "id": "ekubo",
+    "name": "Ekubo Protocol",
+    "category": "DeFi",
+    "tier": "Tier 1",
+    "status": "Active",
+    "stage": "Mainnet",
+    "potentialReward": "$1,200 - $8,500",
+    "cost": "Sub-cent gas fees on Starknet",
+    "timeRequired": "15 mins / weekly",
+    "platform": "Web / Starknet",
+    "description": "Starknet's dominant singleton concentrated liquidity AMM backed by a $12M investment from Uniswap DAO, delivering extreme gas efficiency and custom liquidity extensions.",
+    "logo": "/images/airdrops/ekubo.svg",
+    "refLink": "https://ekubo.org",
+    "tags": [
+      "Starknet",
+      "Concentrated Liquidity",
+      "Uniswap DAO",
+      "Singleton AMM",
+      "EKUBO",
+      "Tier 1"
+    ],
+    "featured": true,
+    "startDate": "Jul 2023",
+    "endDate": "Q4 2025",
+    "requirements": [
+      "Starknet Smart Wallet (Argent X / Braavos)",
+      "Execute Swaps on Ekubo AMM",
+      "Provide Concentrated Liquidity across Narrow Tick Ranges",
+      "Collect Starknet DeFi Spring STRK Incentives",
+      "Participate in Ekubo Token Governance and Fee Switches"
+    ],
+    "overview": "Ekubo Protocol is the undisputed architectural benchmark of concentrated liquidity automated market makers on Starknet. Founded by Moody Salem (the former lead engineer of Uniswap who authored Uniswap v3 and Uniswap v4's core architecture) and endorsed by a historic 12 Million token investment proposal from the Uniswap DAO, Ekubo was engineered from first principles in native Cairo to unlock the absolute theoretical maximum of capital efficiency on validity rollups.\n\nEkubo pioneered the 'Singleton Architecture' on Starknet long before it was adopted by major EVM protocols. Rather than deploying separate factory smart contracts for every single liquidity pair, all token pools, state transitions, and liquidity accounting reside inside a single monolithic smart contract. Combined with transient accounting (where multi-hop swaps transfer tokens only at the conclusion of the execution block), Ekubo reduces transaction gas consumption by up to 90% compared to legacy AMM forks.\n\nEkubo also introduced custom 'Extensions' (analogous to Uniswap v4 hooks), allowing third-party developers to embed limit orders, dynamic TWAP pricing, and customized fee algorithms directly into liquidity pools. Capturing over 70% of all decentralized trading volume on Starknet and serving as the primary beneficiary of Starknet Foundation's multi-million STRK DeFi Spring incentives, active Ekubo liquidity providers and traders represent the vanguard of Layer 2 decentralized finance.",
+    "tokenomics": "The native $EKUBO governance token has a fixed maximum supply of 10 Million tokens. EKUBO is used for protocol governance through the Ekubo DAO, voting on liquidity pool fee switches, and directing ecosystem grant allocations.",
+    "sybilDefense": "Ekubo tracks continuous concentrated tick liquidity placement duration, active fee-to-capital efficiency ratios, and real trading volume. Flash-deposit scripts that withdraw before generating organic swap fees receive zero protocol rewards.",
+    "strategy": "To maximize your positioning for Ekubo Protocol ($EKUBO) fee yields and Starknet DeFi Spring incentives:\n\n1. Set up a Starknet smart wallet (Argent X or Braavos) and fund it with ETH, STRK, or USDC via StarkGate.\n2. Execute decentralized token swaps on the official Ekubo interface to log high trading volume.\n3. Provide concentrated liquidity into high-volume trading pairs (STRK/ETH, ETH/USDC, STRK/USDC) within narrow tick bounds.\n4. Collect accumulated trading fees regularly and claim bi-weekly $STRK DeFi Spring rewards.\n5. Acquire $EKUBO tokens to participate in active DAO governance votes on Starknet.",
+    "steps": [
+      "Visit the official <a href=\"https://ekubo.org\" target=\"_blank\" rel=\"noopener noreferrer\">Ekubo Protocol App</a>.",
+      "Connect your Starknet smart wallet (Argent X or Braavos).",
+      "Execute decentralized token trades with optimal slippage and low fees.",
+      "Explore concentrated pools at <a href=\"https://app.ekubo.org/pools\" target=\"_blank\" rel=\"noopener noreferrer\">Ekubo Pools</a>.",
+      "Deposit liquidity into tight price ticks to maximize fee generation.",
+      "Claim bi-weekly Starknet DeFi Spring $STRK reward distributions.",
+      "Monitor trading volume and tick distributions on Ekubo analytics.",
+      "Vote on Ekubo DAO governance proposals on Snapshot."
+    ],
+    "faqs": [
+      {
+        "question": "What is Ekubo Protocol?",
+        "answer": "Ekubo Protocol is a concentrated liquidity automated market maker built natively in Cairo on Starknet, delivering extreme gas efficiency."
+      },
+      {
+        "question": "Who founded Ekubo?",
+        "answer": "Ekubo was founded by Moody Salem, the former lead engineer at Uniswap who architected Uniswap v3 and v4."
+      },
+      {
+        "question": "What is the Singleton Architecture on Ekubo?",
+        "answer": "All liquidity pools reside in a single contract, enabling multi-hop trades with minimal token transfers and drastically lower gas fees."
+      },
+      {
+        "question": "What are Ekubo Extensions?",
+        "answer": "Extensions are modular plugins (similar to Uniswap v4 hooks) that allow developers to add custom features like limit orders to pools."
+      },
+      {
+        "question": "How do LPs earn STRK rewards on Ekubo?",
+        "answer": "Ekubo is integrated with the Starknet Foundation's DeFi Spring program, distributing STRK tokens directly to active liquidity providers."
+      },
+      {
+        "question": "What is the total supply of the EKUBO token?",
+        "answer": "EKUBO has a capped total supply of exactly 10 Million tokens with no ongoing inflation."
+      }
+    ]
+  },
+  {
+    "id": "avnu",
+    "name": "AVNU",
+    "category": "DeFi",
+    "tier": "Tier 1",
+    "status": "Active",
+    "stage": "Mainnet",
+    "potentialReward": "$1,000 - $7,000",
+    "cost": "Sub-cent gas fees on Starknet",
+    "timeRequired": "15 mins / weekly",
+    "platform": "Web / Starknet",
+    "description": "The premier decentralized exchange aggregator on Starknet, splitting orders across all on-chain liquidity venues with zero slippage, gasless transactions, and AVNU Points.",
+    "logo": "/images/airdrops/avnu.svg",
+    "refLink": "https://avnu.fi",
+    "tags": [
+      "DEX Aggregator",
+      "Starknet",
+      "Paymaster",
+      "AVNU Points",
+      "DeFi",
+      "Tier 1"
+    ],
+    "featured": true,
+    "startDate": "May 2023",
+    "endDate": "Q4 2025",
+    "requirements": [
+      "Starknet Wallet (Argent X / Braavos)",
+      "Execute Swaps via AVNU Multi-Hop Smart Routing",
+      "Use AVNU Gasless (Paymaster) Transaction Modes",
+      "Accumulate AVNU Points through Trading Volume",
+      "Climb the On-Chain Leaderboard for Genesis Airdrop Allocation"
+    ],
+    "overview": "AVNU is the preeminent decentralized exchange (DEX) aggregator and smart order routing infrastructure protocol of the Starknet ecosystem. Positioned as the '1inch of Starknet', AVNU was engineered to eliminate decentralized liquidity fragmentation across validity rollups by querying every on-chain Automated Market Maker (including Ekubo, Jediswap, 10KSwap, and SithSwap) simultaneously to deliver the absolute best execution price and lowest slippage for traders.\n\nAVNU leverages the full power of Starknet's native Account Abstraction. Through its custom Paymaster integration, AVNU pioneered 'Gasless Swaps'—allowing users to trade without holding native ETH for gas by paying network transaction fees in any ERC-20 token (such as USDC, USDT, or STRK) or having fees sponsored directly by protocols. AVNU also incorporates multi-hop split routing, breaking large institutional trades into fractional sub-routes across different pools within a single atomic execution block.\n\nAVNU operates its acclaimed AVNU Points program, rewarding active community members based on cumulative dollar volume, trade frequency, multi-token diversity, and leaderboard rank. With over 80% of all Starknet retail swap volume flowing through its routing engine, active AVNU traders and points accumulators stand at the core of the Starknet DeFi ecosystem.",
+    "tokenomics": "The forthcoming AVNU governance token will govern aggregator routing parameters, fee switch distributions, and staking incentives for community members based on historical AVNU Points accumulation.",
+    "sybilDefense": "AVNU monitors wallet transaction frequency, minimum cumulative volume thresholds, non-circular token paths, and unique contract calls. Programmatic bot accounts executing thousands of micro-swaps to game leaderboard points are disqualified.",
+    "strategy": "To maximize your positioning for AVNU token airdrops and points leaderboard rank:\n\n1. Connect your Starknet wallet (Argent X or Braavos) to AVNU.\n2. Use AVNU as your primary trading interface for all token swaps on Starknet.\n3. Execute regular swaps between major assets (ETH, STRK, USDC, WBTC) to build cumulative trading volume.\n4. Test gasless transactions using the AVNU Paymaster to demonstrate advanced feature utilization.\n5. Monitor your weekly rank on the AVNU Leaderboard and maintain consistent weekly activity.",
+    "steps": [
+      "Visit the official <a href=\"https://avnu.fi\" target=\"_blank\" rel=\"noopener noreferrer\">AVNU Platform</a>.",
+      "Launch the aggregator app at <a href=\"https://app.avnu.fi\" target=\"_blank\" rel=\"noopener noreferrer\">AVNU App</a>.",
+      "Connect your Starknet smart wallet (Argent X or Braavos).",
+      "Execute market token swaps with optimal routing and minimal price impact.",
+      "Test gasless trading by selecting alternative gas payment tokens via Paymaster.",
+      "Check your accumulated points and rank on the <a href=\"https://app.avnu.fi/leaderboard\" target=\"_blank\" rel=\"noopener noreferrer\">AVNU Leaderboard</a>.",
+      "Participate in seasonal trading competitions and ecosystem campaigns.",
+      "Follow updates regarding the token generation event on the official AVNU Discord."
+    ],
+    "faqs": [
+      {
+        "question": "What is AVNU?",
+        "answer": "AVNU is the leading decentralized exchange aggregator on Starknet, finding the best swap routes across all AMMs with minimal slippage."
+      },
+      {
+        "question": "What are Gasless Swaps on AVNU?",
+        "answer": "Using Starknet's account abstraction and Paymasters, users can pay gas in USDC, USDT, or STRK instead of native ETH."
+      },
+      {
+        "question": "How does the AVNU Points program work?",
+        "answer": "Traders earn points based on their trading volume, consistency, and fees generated on the platform, which will convert to future tokens."
+      },
+      {
+        "question": "Does AVNU charge extra fees on swaps?",
+        "answer": "No, AVNU does not add surcharges on trades; it routes through the cheapest pools to save users money."
+      },
+      {
+        "question": "Which DEXs does AVNU aggregate on Starknet?",
+        "answer": "AVNU aggregates liquidity from Ekubo, Jediswap, 10KSwap, SithSwap, and private market makers."
+      },
+      {
+        "question": "Which wallets can I use with AVNU?",
+        "answer": "AVNU supports Starknet native smart contract wallets including Argent X, Braavos, and OKX Web3 Wallet."
+      }
+    ]
+  },
+  {
+    "id": "symbiosis",
+    "name": "Symbiosis Finance",
+    "category": "DeFi",
+    "tier": "Tier 1",
+    "status": "Active",
+    "stage": "Mainnet",
+    "potentialReward": "$800 - $5,500",
+    "cost": "Gas fees on Arbitrum / Base / Polygon",
+    "timeRequired": "15 mins / weekly",
+    "platform": "Web / Multi-Chain (30+ chains)",
+    "description": "Multi-chain decentralized liquidity engine backed by Binance Labs and Dragonfly Capital, enabling any-to-any token swaps across 30+ networks with $SIS staking.",
+    "logo": "/images/airdrops/symbiosis.svg",
+    "refLink": "https://symbiosis.finance",
+    "tags": [
+      "Cross-Chain",
+      "DEX Aggregator",
+      "Binance Labs",
+      "SIS",
+      "Multi-Chain",
+      "Tier 1"
+    ],
+    "featured": true,
+    "startDate": "Oct 2021",
+    "endDate": "Q4 2025",
+    "requirements": [
+      "Multi-Chain EVM Wallet",
+      "Execute Any-to-Any Cross-Chain Swaps on Symbiosis",
+      "Provide Liquidity into Symbiosis Cross-Chain Octapools",
+      "Stake SIS Tokens in veSIS for Fee Reductions and Staking Yield",
+      "Vote on Cross-Chain Routing Governance Proposals"
+    ],
+    "overview": "Symbiosis Finance is a premier decentralized multi-chain liquidity aggregation protocol and cross-chain AMM engine. Backed by over $10 Million in venture capital led by Binance Labs, Dragonfly Capital, Spartan Group, Wave Financial, and Kenetic Capital, Symbiosis pioneered the 'Any-to-Any' token swap model, enabling users to swap any token on one blockchain directly for any token on another blockchain seamlessly in a single atomic transaction.\n\nWhile traditional cross-chain solutions require users to swap for native bridge tokens (like wBTC or stETH), transfer across bridges, and swap again on the destination chain, Symbiosis automates this entire flow within a single click. It deploys unified cross-chain liquidity pools called 'Octapools' (stablecoin liquidity pools connecting multiple chains symmetrically), allowing transfers between EVM networks (Ethereum, Arbitrum, Base, Optimism, BNB Chain, Polygon) and non-EVM ecosystems (such as Bitcoin, TON, and Solana).\n\nPowered by a decentralized network of relayers and threshold multi-party computation (MPC) validators, Symbiosis eliminates single points of failure. Anchored by the native $SIS token and the veSIS vote-escrowed governance model, active cross-chain traders, Octapool liquidity providers, and veSIS stakers sit at the core of cross-chain DeFi liquidity.",
+    "tokenomics": "The native $SIS token commands a 100 Million maximum supply. Staking SIS into veSIS grants voting power over cross-chain pool incentives, fee discounts on bridge swaps, and direct protocol revenue sharing.",
+    "sybilDefense": "Symbiosis monitors multi-hop cross-chain transaction history, unique destination chain diversity, and veSIS staking tenure. Rapid circular bot loops that bounce minimal amounts across low-cost testnets are excluded from community reward programs.",
+    "strategy": "To maximize your positioning for Symbiosis ($SIS) cross-chain rewards and fee yields:\n\n1. Connect your Web3 wallet across Ethereum, Arbitrum, Base, or BNB Chain.\n2. Execute any-to-any cross-chain swaps between different blockchains to build high multi-chain volume.\n3. Supply stablecoins (USDC/USDT) into Symbiosis Octapools to earn cross-chain trading fee APR.\n4. Acquire and lock $SIS tokens into veSIS to unlock fee discounts and staking dividends.\n5. Participate in seasonal Symbiosis quests on Galxe and vote on cross-chain routing proposals.",
+    "steps": [
+      "Visit the official <a href=\"https://symbiosis.finance\" target=\"_blank\" rel=\"noopener noreferrer\">Symbiosis Finance Platform</a>.",
+      "Launch the cross-chain app at <a href=\"https://app.symbiosis.finance\" target=\"_blank\" rel=\"noopener noreferrer\">Symbiosis App</a>.",
+      "Connect your EVM wallet across any supported blockchain.",
+      "Perform an Any-to-Any cross-chain swap (e.g., BNB on BNB Chain directly into ETH on Base).",
+      "Explore high-yield liquidity pools at <a href=\"https://app.symbiosis.finance/liquidity\" target=\"_blank\" rel=\"noopener noreferrer\">Symbiosis Octapools</a>.",
+      "Deposit stablecoins to earn passive cross-chain swap fees.",
+      "Lock $SIS into veSIS at the <a href=\"https://app.symbiosis.finance/vesis\" target=\"_blank\" rel=\"noopener noreferrer\">veSIS Dashboard</a>.",
+      "Vote on community proposals and participate in cross-chain ecosystem campaigns."
+    ],
+    "faqs": [
+      {
+        "question": "What is Symbiosis Finance?",
+        "answer": "Symbiosis Finance is a decentralized cross-chain engine that allows users to swap any token on one chain for any token on another in a single transaction."
+      },
+      {
+        "question": "Who backed Symbiosis?",
+        "answer": "Symbiosis raised over $10M from Binance Labs, Dragonfly Capital, Spartan Group, and leading crypto funds."
+      },
+      {
+        "question": "What are Octapools on Symbiosis?",
+        "answer": "Octapools are unified stablecoin pools that connect multiple blockchains symmetrically to enable gas-efficient cross-chain swaps."
+      },
+      {
+        "question": "What is the utility of the $SIS token?",
+        "answer": "SIS is used for protocol governance, securing relayer networks, and locking into veSIS for fee discounts and revenue sharing."
+      },
+      {
+        "question": "Which blockchains are supported by Symbiosis?",
+        "answer": "Symbiosis supports over 30 blockchains including Ethereum, Arbitrum, Base, Optimism, BNB Chain, Polygon, Solana, and Bitcoin."
+      },
+      {
+        "question": "How does Symbiosis secure cross-chain transactions?",
+        "answer": "It uses a decentralized network of relayers secured by threshold multi-party computation (MPC) and economic staking bonds."
+      }
+    ]
   }
 ];

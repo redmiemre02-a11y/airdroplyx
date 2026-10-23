@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" fill="none">
+  <defs>
+    <linearGradient id="derGrad" x1="20" y1="20" x2="108" y2="108" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#C084FC" />
+      <stop offset="50%" stop-color="#8B5CF6" />
+      <stop offset="100%" stop-color="#5B21B6" />
+    </linearGradient>
+  </defs>
+  <rect width="128" height="128" rx="28" fill="#0B061A" />
+  <!-- Derive Options Volatility Surface & Delta Curve -->
+  <path d="M30 84C46 84 52 44 64 44C76 44 82 84 98 84" stroke="url(#derGrad)" stroke-width="8" stroke-linecap="round" fill="none" />
+  <circle cx="64" cy="44" r="8" fill="#E9D5FF" />
+  <path d="M42 36L64 58L86 36" stroke="#C084FC" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" />
+</svg>

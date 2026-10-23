@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" fill="none">
+  <defs>
+    <linearGradient id="modeGrad" x1="20" y1="20" x2="108" y2="108" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#E4FF00" />
+      <stop offset="50%" stop-color="#DFFE00" />
+      <stop offset="100%" stop-color="#A3D900" />
+    </linearGradient>
+  </defs>
+  <rect width="128" height="128" rx="28" fill="#0E1106" />
+  <!-- Mode Iconic Cyber Monogram -->
+  <path d="M32 94V34L54 68L64 54L74 68L96 34V94" stroke="url(#modeGrad)" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" fill="none" />
+  <circle cx="64" cy="36" r="6" fill="#DFFE00" />
+</svg>

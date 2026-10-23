@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" fill="none">
+  <defs>
+    <linearGradient id="lpGrad" x1="20" y1="20" x2="108" y2="108" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#55FFB0" />
+      <stop offset="50%" stop-color="#00EB88" />
+      <stop offset="100%" stop-color="#009955" />
+    </linearGradient>
+  </defs>
+  <rect width="128" height="128" rx="28" fill="#04160D" />
+  <!-- Livepeer Video Compute Pixels & Camera Aperture -->
+  <rect x="34" y="34" width="24" height="24" rx="4" fill="url(#lpGrad)" />
+  <rect x="70" y="34" width="24" height="24" rx="4" fill="url(#lpGrad)" />
+  <rect x="34" y="70" width="24" height="24" rx="4" fill="url(#lpGrad)" />
+  <rect x="70" y="70" width="24" height="24" rx="4" fill="url(#lpGrad)" opacity="0.6" />
+  <circle cx="64" cy="64" r="8" fill="#FFFFFF" />
+</svg>

@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" fill="none">
+  <defs>
+    <linearGradient id="ekuboGrad" x1="20" y1="20" x2="108" y2="108" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#818CF8" />
+      <stop offset="50%" stop-color="#4F46E5" />
+      <stop offset="100%" stop-color="#312E81" />
+    </linearGradient>
+  </defs>
+  <rect width="128" height="128" rx="28" fill="#0A0A1F" />
+  <!-- Ekubo Singleton Japanese Geometric Tile -->
+  <rect x="36" y="36" width="56" height="56" rx="12" stroke="url(#ekuboGrad)" stroke-width="6" fill="#14143D" />
+  <path d="M36 64H92M64 36V92" stroke="#38BDF8" stroke-width="5" stroke-linecap="round" />
+  <circle cx="64" cy="64" r="7" fill="#FFFFFF" />
+</svg>

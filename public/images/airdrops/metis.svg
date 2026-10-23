@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" fill="none">
+  <defs>
+    <linearGradient id="metisGrad" x1="20" y1="20" x2="108" y2="108" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#00F0E0" />
+      <stop offset="50%" stop-color="#00D2C4" />
+      <stop offset="100%" stop-color="#00838F" />
+    </linearGradient>
+  </defs>
+  <rect width="128" height="128" rx="28" fill="#03161A" />
+  <!-- Metis Decentralized Sequencer Node & M-Infinity Loop -->
+  <circle cx="64" cy="64" r="42" stroke="url(#metisGrad)" stroke-width="6" />
+  <path d="M40 82V46L64 72L88 46V82" stroke="#FFFFFF" stroke-width="7" stroke-linecap="round" stroke-linejoin="round" />
+  <circle cx="64" cy="72" r="5" fill="#00F0E0" />
+</svg>

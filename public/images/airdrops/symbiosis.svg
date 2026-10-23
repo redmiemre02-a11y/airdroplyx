@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" fill="none">
+  <defs>
+    <linearGradient id="symbGrad" x1="20" y1="20" x2="108" y2="108" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#FF8A00" />
+      <stop offset="50%" stop-color="#FF5C00" />
+      <stop offset="100%" stop-color="#C43B00" />
+    </linearGradient>
+  </defs>
+  <rect width="128" height="128" rx="28" fill="#170701" />
+  <!-- Symbiosis Interlocking Cross-Chain Infinity Ring -->
+  <circle cx="48" cy="64" r="22" stroke="url(#symbGrad)" stroke-width="7" />
+  <circle cx="80" cy="64" r="22" stroke="url(#symbGrad)" stroke-width="7" />
+  <path d="M48 64L80 64" stroke="#FDE047" stroke-width="6" stroke-linecap="round" />
+  <circle cx="64" cy="64" r="5" fill="#FFFFFF" />
+</svg>

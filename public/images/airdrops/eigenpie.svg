@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" fill="none">
+  <defs>
+    <linearGradient id="pieGrad" x1="20" y1="20" x2="108" y2="108" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#FCD34D" />
+      <stop offset="50%" stop-color="#F59E0B" />
+      <stop offset="100%" stop-color="#B45309" />
+    </linearGradient>
+  </defs>
+  <rect width="128" height="128" rx="28" fill="#160E04" />
+  <!-- Eigenpie Restaking Pie Wedge Monogram -->
+  <circle cx="64" cy="64" r="42" stroke="url(#pieGrad)" stroke-width="6" />
+  <path d="M64 64L64 26C85 26 102 43 102 64L64 64Z" fill="url(#pieGrad)" />
+  <path d="M64 64L26 64C26 85 43 102 64 102L64 64Z" fill="url(#pieGrad)" opacity="0.7" />
+  <circle cx="64" cy="64" r="7" fill="#FEF08A" />
+</svg>
