@@ -51,58 +51,110 @@ const endedAirdrops = airdrops.filter(a => a.status === 'ended');
   <!-- Main Content Area -->
   <main class="max-w-[1200px] mx-auto px-4 py-16">
     
-    <!-- Airdrops Section -->
-    <div class="grid grid-cols-1 md:grid-cols-2 gap-10 mb-20">
-      
-      <!-- Latest Drops -->
-      <section id="latest" class="space-y-6">
-        <div class="flex items-center justify-between border-b border-slate-200 dark:border-slate-700 pb-4">
-          <div class="flex items-center gap-3">
-            <div class="w-10 h-10 rounded-xl bg-blue-100 dark:bg-blue-900/40 flex items-center justify-center text-blue-600 dark:text-blue-400 font-bold text-lg">
-              ⚡
-            </div>
-            <div>
-              <h2 class="text-xl font-extrabold text-slate-900 dark:text-white uppercase tracking-tight">Latest Airdrops</h2>
-              <p class="text-xs text-slate-500">Freshly added and active campaigns</p>
-            </div>
+    <!-- Top Featured Spotlight Section -->
+    <section id="hottest" class="mb-16">
+      <div class="flex items-center justify-between border-b border-slate-200 dark:border-slate-700 pb-4 mb-6">
+        <div class="flex items-center gap-3">
+          <div class="w-10 h-10 rounded-xl bg-orange-100 dark:bg-orange-900/40 flex items-center justify-center text-orange-600 dark:text-orange-400 font-bold text-lg">
+            🔥
           </div>
-          <span class="text-xs font-semibold bg-slate-100 dark:bg-slate-800 text-slate-600 dark:text-slate-300 px-3 py-1 rounded-full">
-            {latestAirdrops.length} Active
-          </span>
-        </div>
-
-        <div class="flex flex-col gap-4">
-          {latestAirdrops.map(airdrop => (
-            <AirdropCard airdrop={airdrop} />
-          ))}
-        </div>
-      </section>
-
-      <!-- Hottest Drops -->
-      <section id="hottest" class="space-y-6">
-        <div class="flex items-center justify-between border-b border-slate-200 dark:border-slate-700 pb-4">
-          <div class="flex items-center gap-3">
-            <div class="w-10 h-10 rounded-xl bg-orange-100 dark:bg-orange-900/40 flex items-center justify-center text-orange-600 dark:text-orange-400 font-bold text-lg">
-              🔥
-            </div>
-            <div>
-              <h2 class="text-xl font-extrabold text-slate-900 dark:text-white uppercase tracking-tight">Featured & Confirmed</h2>
-              <p class="text-xs text-slate-500">Highest funding & confirmed token pools</p>
-            </div>
+          <div>
+            <h2 class="text-xl font-extrabold text-slate-900 dark:text-white uppercase tracking-tight">Featured & Confirmed Airdrops</h2>
+            <p class="text-xs text-slate-500">Tier-1 VC funding, verified snapshot dates & highest reward allocations</p>
           </div>
-          <span class="text-xs font-semibold bg-orange-100 dark:bg-orange-900/40 text-orange-700 dark:text-orange-300 px-3 py-1 rounded-full">
-            Top Tier
-          </span>
         </div>
+        <span class="text-xs font-semibold bg-orange-100 dark:bg-orange-900/40 text-orange-700 dark:text-orange-300 px-3 py-1 rounded-full">
+          {hottestAirdrops.length} Top Tier Drops
+        </span>
+      </div>
 
-        <div class="flex flex-col gap-4">
-          {hottestAirdrops.map(airdrop => (
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        {hottestAirdrops.slice(0, 6).map(airdrop => (
+          <AirdropCard airdrop={airdrop} />
+        ))}
+      </div>
+    </section>
+
+    <!-- Complete Airdrops Directory with Instant Filter & Progressive Loading -->
+    <section id="latest" class="mb-20">
+      <div class="flex flex-col md:flex-row md:items-center justify-between gap-4 border-b border-slate-200 dark:border-slate-700 pb-5 mb-8">
+        <div class="flex items-center gap-3">
+          <div class="w-10 h-10 rounded-xl bg-blue-100 dark:bg-blue-900/40 flex items-center justify-center text-blue-600 dark:text-blue-400 font-bold text-lg">
+            ⚡
+          </div>
+          <div>
+            <h2 class="text-2xl font-extrabold text-slate-900 dark:text-white uppercase tracking-tight">All Verified Airdrop Opportunities</h2>
+            <p class="text-xs text-slate-500">Filter across ecosystems, funding status, and free testnet campaigns</p>
+          </div>
+        </div>
+        
+        <!-- Live Instant Search -->
+        <div class="relative w-full md:w-72">
+          <input 
+            type="text" 
+            id="home-airdrop-search" 
+            placeholder="Search 375+ verified drops..." 
+            class="w-full bg-slate-50 dark:bg-slate-800 border border-slate-200 dark:border-slate-700 rounded-xl py-2 pl-9 pr-4 text-xs font-medium focus:outline-none focus:ring-2 focus:ring-blue-500 text-slate-900 dark:text-white"
+          />
+          <svg class="absolute left-3 top-2.5 w-4 h-4 text-slate-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path></svg>
+        </div>
+      </div>
+
+      <!-- Quick Category Filter Pills -->
+      <div class="flex flex-wrap items-center gap-2 mb-8" id="home-filter-pills">
+        <button class="home-filter-pill active px-3.5 py-1.5 rounded-xl text-xs font-bold transition-all bg-blue-600 text-white" data-filter="all">
+          All ({latestAirdrops.length})
+        </button>
+        <button class="home-filter-pill px-3.5 py-1.5 rounded-xl text-xs font-bold transition-all bg-slate-100 dark:bg-slate-800 text-slate-600 dark:text-slate-300 hover:bg-slate-200 dark:hover:bg-slate-700" data-filter="featured">
+          🔥 Hot & Featured
+        </button>
+        <button class="home-filter-pill px-3.5 py-1.5 rounded-xl text-xs font-bold transition-all bg-slate-100 dark:bg-slate-800 text-slate-600 dark:text-slate-300 hover:bg-slate-200 dark:hover:bg-slate-700" data-filter="solana">
+          🟣 Solana
+        </button>
+        <button class="home-filter-pill px-3.5 py-1.5 rounded-xl text-xs font-bold transition-all bg-slate-100 dark:bg-slate-800 text-slate-600 dark:text-slate-300 hover:bg-slate-200 dark:hover:bg-slate-700" data-filter="layer2">
+          🔷 Ethereum L2
+        </button>
+        <button class="home-filter-pill px-3.5 py-1.5 rounded-xl text-xs font-bold transition-all bg-slate-100 dark:bg-slate-800 text-slate-600 dark:text-slate-300 hover:bg-slate-200 dark:hover:bg-slate-700" data-filter="depin">
+          📡 DePIN
+        </button>
+        <button class="home-filter-pill px-3.5 py-1.5 rounded-xl text-xs font-bold transition-all bg-slate-100 dark:bg-slate-800 text-slate-600 dark:text-slate-300 hover:bg-slate-200 dark:hover:bg-slate-700" data-filter="ai">
+          🧠 AI Crypto
+        </button>
+        <button class="home-filter-pill px-3.5 py-1.5 rounded-xl text-xs font-bold transition-all bg-slate-100 dark:bg-slate-800 text-slate-600 dark:text-slate-300 hover:bg-slate-200 dark:hover:bg-slate-700" data-filter="bitcoin">
+          ₿ Bitcoin L2
+        </button>
+        <button class="home-filter-pill px-3.5 py-1.5 rounded-xl text-xs font-bold transition-all bg-slate-100 dark:bg-slate-800 text-slate-600 dark:text-slate-300 hover:bg-slate-200 dark:hover:bg-slate-700" data-filter="restaking">
+          💎 Restaking
+        </button>
+        <button class="home-filter-pill px-3.5 py-1.5 rounded-xl text-xs font-bold transition-all bg-slate-100 dark:bg-slate-800 text-slate-600 dark:text-slate-300 hover:bg-slate-200 dark:hover:bg-slate-700" data-filter="free">
+          🆓 Free Testnet ($0)
+        </button>
+      </div>
+
+      <!-- Main Filterable Cards Grid (Two columns) -->
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-6" id="home-airdrop-grid">
+        {latestAirdrops.map((airdrop, index) => (
+          <div class={`grid-item-wrapper ${index >= 24 ? 'hidden' : ''}`} data-index={index}>
             <AirdropCard airdrop={airdrop} />
-          ))}
-        </div>
-      </section>
+          </div>
+        ))}
+      </div>
 
-    </div>
+      <!-- Load More / Progressive Controls -->
+      <div class="mt-10 flex flex-col items-center justify-center gap-3" id="load-more-container">
+        <button 
+          type="button" 
+          id="btn-load-more" 
+          class="bg-blue-600 hover:bg-blue-700 text-white font-bold px-8 py-3.5 rounded-2xl shadow-lg shadow-blue-500/25 transition-all hover:scale-105 text-sm flex items-center gap-2 cursor-pointer"
+        >
+          <span>Load More Opportunities (+24)</span>
+          <span>↓</span>
+        </button>
+        <p class="text-xs text-slate-500 font-medium" id="load-more-counter">
+          Showing 24 of {latestAirdrops.length} verified airdrops
+        </p>
+      </div>
+    </section>
 
     <!-- 7-Day Drops Schedule Section (2 Drops per day) -->
     {scheduledAirdrops.length > 0 && (
@@ -297,3 +349,115 @@ const endedAirdrops = airdrops.filter(a => a.status === 'ended');
 
   </main>
 </Layout>
+
+<script is:inline>
+  // Instant Home Filter, Live Search & Progressive Loading Script
+  const filterPills = document.querySelectorAll('.home-filter-pill');
+  const searchInput = document.getElementById('home-airdrop-search');
+  const wrappers = document.querySelectorAll('.grid-item-wrapper');
+  const loadMoreBtn = document.getElementById('btn-load-more');
+  const loadMoreContainer = document.getElementById('load-more-container');
+  const counterText = document.getElementById('load-more-counter');
+
+  let activeFilter = 'all';
+  let activeSearch = '';
+  let visibleLimit = 24;
+
+  function filterAirdrop(card) {
+    const name = card.dataset.airdropName || '';
+    const cat = card.dataset.airdropCategory || '';
+    const desc = card.dataset.airdropDesc || '';
+    const isFeatured = card.dataset.airdropFeatured === 'true';
+
+    // 1. Check Search Query
+    if (activeSearch) {
+      if (!name.includes(activeSearch) && !cat.includes(activeSearch) && !desc.includes(activeSearch)) {
+        return false;
+      }
+    }
+
+    // 2. Check Pill Filter
+    if (activeFilter === 'all') return true;
+    if (activeFilter === 'featured') return isFeatured;
+    if (activeFilter === 'solana') return cat.includes('solana') || desc.includes('solana');
+    if (activeFilter === 'layer2') return cat.includes('layer 2') || cat.includes('l2') || cat.includes('rollup') || cat.includes('zkevm') || desc.includes('rollup') || desc.includes('l2');
+    if (activeFilter === 'depin') return cat.includes('depin') || desc.includes('depin') || desc.includes('bandwidth') || desc.includes('hardware');
+    if (activeFilter === 'ai') return cat.includes('ai') || desc.includes('ai') || desc.includes('machine learning') || desc.includes('agi');
+    if (activeFilter === 'bitcoin') return cat.includes('bitcoin') || desc.includes('bitcoin') || desc.includes('btc') || desc.includes('babylon');
+    if (activeFilter === 'restaking') return cat.includes('restaking') || desc.includes('restaking') || desc.includes('eigenlayer') || desc.includes('symbiotic');
+    if (activeFilter === 'free') return cat.includes('testnet') || desc.includes('testnet') || desc.includes('free') || desc.includes('zero capital');
+
+    return true;
+  }
+
+  function updateDisplay() {
+    let matchedCount = 0;
+    let currentlyVisible = 0;
+
+    wrappers.forEach(wrapper => {
+      const card = wrapper.querySelector('.airdrop-card-item');
+      if (!card) return;
+
+      const isMatch = filterAirdrop(card);
+      if (isMatch) {
+        matchedCount++;
+        if (matchedCount <= visibleLimit) {
+          wrapper.classList.remove('hidden');
+          currentlyVisible++;
+        } else {
+          wrapper.classList.add('hidden');
+        }
+      } else {
+        wrapper.classList.add('hidden');
+      }
+    });
+
+    if (counterText) {
+      counterText.textContent = `Showing ${currentlyVisible} of ${matchedCount} verified airdrops`;
+    }
+
+    if (loadMoreContainer) {
+      if (currentlyVisible >= matchedCount) {
+        loadMoreContainer.classList.add('hidden');
+      } else {
+        loadMoreContainer.classList.remove('hidden');
+      }
+    }
+  }
+
+  // Filter Pill Click Handlers
+  filterPills.forEach(pill => {
+    pill.addEventListener('click', () => {
+      filterPills.forEach(p => {
+        p.classList.remove('bg-blue-600', 'text-white', 'active');
+        p.classList.add('bg-slate-100', 'dark:bg-slate-800', 'text-slate-600', 'dark:text-slate-300');
+      });
+      pill.classList.remove('bg-slate-100', 'dark:bg-slate-800', 'text-slate-600', 'dark:text-slate-300');
+      pill.classList.add('bg-blue-600', 'text-white', 'active');
+
+      activeFilter = pill.dataset.filter;
+      visibleLimit = 24; // Reset to 24 on new filter
+      updateDisplay();
+    });
+  });
+
+  // Search Input Handler
+  if (searchInput) {
+    searchInput.addEventListener('input', (e) => {
+      activeSearch = e.target.value.toLowerCase().trim();
+      visibleLimit = 24;
+      updateDisplay();
+    });
+  }
+
+  // Load More Button Handler
+  if (loadMoreBtn) {
+    loadMoreBtn.addEventListener('click', () => {
+      visibleLimit += 24;
+      updateDisplay();
+    });
+  }
+
+  // Initial Run
+  updateDisplay();
+</script>

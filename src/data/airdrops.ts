@@ -19051,5 +19051,1355 @@ export const airdrops: Airdrop[] = [
         "answer": "Ecosystem incentives and partner airdrop distributions occur continuously across seasonal campaign epochs."
       }
     ]
+  },
+  {
+    "id": "degen-chain",
+    "name": "Degen Chain",
+    "logo": "/images/airdrops/degen-chain.svg",
+    "description": "Ultra-low-cost Layer 3 rollup built on Base for the Farcaster and Degen community, utilizing DEGEN as native gas.",
+    "reward": "$500 - $3,500",
+    "category": "Layer 3 / SocialFi / Base",
+    "featured": false,
+    "status": "active",
+    "endTime": "Q1 2027",
+    "funding": "Community Funded",
+    "investors": "Syndicate, 1confirmation, Farcaster Community",
+    "refLink": "https://degen.tips",
+    "overview": "Degen Chain is a purpose-built Layer 3 blockchain designed to provide lightning-fast, sub-cent transactions for the burgeoning social decentralized finance (SocialFi) ecosystem. Originating as a meme reward token within the Farcaster decentralized social network, Degen quickly captured mainstream attention and evolved into a sovereign settlement ecosystem powered by Syndicate and Arbitrum Orbit technology settling onto Base.\n\nUnlike traditional Layer 2 rollups that use ETH or bridged governance tokens for gas fees, Degen Chain utilizes the $DEGEN token natively for transaction execution. This economic architecture creates direct utility and token burn mechanisms for every on-chain interaction. Degen Chain hosts a rapidly expanding ecosystem of viral social games, tipping bots, decentralized exchanges, and community meme tokens.\n\nAs the Degen ecosystem expands its cross-chain bridges and Layer 3 infrastructure, active community members who bridge assets, participate in ecosystem dApps, and maintain tipping activity across Farcaster channels qualify for ongoing seasonal community rewards.",
+    "strategy": "Bridge native DEGEN and ETH from Base onto Degen Chain using the official Syndicate or Relay bridge.\n\nExecute token swaps and provide liquidity to core pools on DegenSwap and native AMMs.\n\nEngage actively on Farcaster (Warpcast) within the /degen channel to accumulate tipping allowances and creator rewards.",
+    "tokenomics": "Community Tipping & Airdrop Seasons: 70% of total supply distributed directly to active Farcaster users over multi-season horizons.\n\nEcosystem Liquidity & Mining: 15% dedicated to AMM liquidity pools and bridge incentives.\n\nCore Contributors: 15% subject to long-term vesting contracts.",
+    "sybilSafety": "Degen rewards are heavily tied to authentic Farcaster user reputation scores (OpenRank) and active social graphs. Bot accounts with no followers or zero organic cast history are excluded from allowances.",
+    "steps": [
+      "Navigate to the official <a href='https://degen.tips' target='_blank' rel='noopener noreferrer'>Degen Portal</a> and link your Farcaster account.",
+      "Add the Degen Chain L3 RPC configuration to your MetaMask or Rabby wallet.",
+      "Bridge native DEGEN tokens from Base to Degen Chain via the official bridge portal.",
+      "Execute token swaps on DegenSwap or native community decentralized exchanges.",
+      "Provide liquidity into DEGEN trading pairs to earn swap fees and ecosystem points.",
+      "Post quality content on Warpcast to increase your daily community tipping allowance.",
+      "Tip fellow creators using the $DEGEN command to activate daily engagement multipliers.",
+      "Monitor your claimable seasonal rewards on the Degen Airdrop claim dashboard."
+    ],
+    "faqs": [
+      {
+        "question": "What is Degen Chain?",
+        "answer": "Degen Chain is an ultra-low-cost Layer 3 rollup built on Base using Arbitrum Orbit and Syndicate infrastructure, with $DEGEN as the native gas token."
+      },
+      {
+        "question": "Do I need ETH for gas on Degen Chain?",
+        "answer": "No. Gas on Degen Chain is paid directly in the native $DEGEN token."
+      },
+      {
+        "question": "How do I earn Degen tipping points?",
+        "answer": "By creating engaging content on Farcaster (Warpcast) and receiving tips and reactions from other active community members."
+      },
+      {
+        "question": "What bridge supports Degen Chain?",
+        "answer": "Relay, Syndicate, and official Degen bridge portals allow seamless deposits from Base and Ethereum."
+      },
+      {
+        "question": "Are Degen airdrops ongoing?",
+        "answer": "Yes. Degen distributes community airdrops across ongoing monthly seasons based on social tipping activity."
+      },
+      {
+        "question": "Can I farm Degen without buying tokens?",
+        "answer": "Yes. You can earn free DEGEN simply by being an active, quality content creator on the Farcaster network."
+      }
+    ]
+  },
+  {
+    "id": "fraxtal",
+    "name": "Fraxtal",
+    "logo": "/images/airdrops/fraxtal.svg",
+    "description": "Modular execution Layer 2 rollup engineered by Frax Finance featuring fractal scaling, blockspace incentives, and frxETH gas.",
+    "reward": "$1,500 - $8,000",
+    "category": "Layer 2 / Modular / DeFi",
+    "featured": true,
+    "status": "active",
+    "endTime": "Q2 2027",
+    "funding": "$50M+ Ecosystem",
+    "investors": "Frax Finance, Dragonfly Capital, Crypto.com Capital, Electric Capital",
+    "refLink": "https://frax.finance",
+    "overview": "Fraxtal is a modular Layer 2 rollup engineered by Frax Finance—one of decentralized finance's most foundational and resilient stablecoin protocols. Built on Optimism's OP Stack and integrated with modular data availability, Fraxtal is designed as an institutional-grade smart contract execution environment that scales Ethereum while distributing protocol revenue directly to users and dApp developers.\n\nAt the core of Fraxtal's revolutionary economic design is 'Fraxtal Blockspace Incentives' (Flox). Unlike other rollups where gas fees are purely burned or pocketed by sequencers, Fraxtal algorithmically tracks which smart contracts and user wallets drive network adoption. Users and developers earn continuous Flox points proportional to the gas they spend and the liquidity they lock, redeemable for native FXS and Fraxtal governance tokens.\n\nWith frxETH acting as the native gas token and seamless interoperability with Frax's multi-billion dollar DeFi suite (FRAX stablecoin, sFRAX, FraxLend, and FraxSwap), Fraxtal provides deep capital efficiency. Proactive farmers deploying liquidity and executing transactions on Fraxtal capture lucrative multi-layer yield stacks.",
+    "strategy": "Bridge ETH or frxETH from Ethereum mainnet onto Fraxtal using the official Frax bridge portal.\n\nDeploy assets into FraxLend or FraxSwap on Fraxtal to accumulate continuous daily Flox points.\n\nStake FXS tokens in veFXS to maximize your Flox point multiplier and boost retroactive airdrop allocations.",
+    "tokenomics": "Flox Blockspace Incentives: 45% distributed over a multi-year algorithmic curve to active users and contract deployers.\n\nEcosystem Grants & Liquidity bootstrapping: 25% reserved for premier protocols launching on Fraxtal.\n\nFrax Treasury & veFXS Holders: 20% dedicated to protocol revenue sharing.\n\nCore Engineering: 10% subject to standard milestone vesting.",
+    "sybilSafety": "Fraxtal measures actual gas consumed and TVL duration via the Flox algorithm. Zero-value wash transactions do not generate meaningful Flox points.",
+    "steps": [
+      "Access the official <a href='https://frax.finance' target='_blank' rel='noopener noreferrer'>Frax Portal</a> and select the Fraxtal network tab.",
+      "Add the Fraxtal Mainnet RPC configuration to your Web3 wallet.",
+      "Bridge ETH (which converts to native frxETH for gas) via the official Frax Bridge.",
+      "Deposit liquidity into core pools on FraxSwap (such as FRAX/USDC or frxETH/ETH).",
+      "Interact with third-party DEXs and lending markets deployed on Fraxtal.",
+      "Check your accumulated Flox points balance on the official Fraxtal Flox dashboard.",
+      "Lock FXS into veFXS to activate maximum governance voting power and point multipliers.",
+      "Stay active across monthly epochs to ensure continuous snapshot eligibility."
+    ],
+    "faqs": [
+      {
+        "question": "What is Fraxtal?",
+        "answer": "Fraxtal is an OP Stack modular Layer 2 rollup built by Frax Finance that features blockspace incentives (Flox) and uses frxETH for gas."
+      },
+      {
+        "question": "What are Flox points?",
+        "answer": "Flox is an automated incentive system that rewards users and developers based on gas spent and assets held on Fraxtal."
+      },
+      {
+        "question": "What token is used for gas on Fraxtal?",
+        "answer": "Fraxtal uses Frax Ether (frxETH) as its native gas token, deeply aligned with Ethereum security."
+      },
+      {
+        "question": "Who developed Fraxtal?",
+        "answer": "Fraxtal was developed by Sam Kazemian and the core Frax Finance engineering team."
+      },
+      {
+        "question": "Can I earn rewards passively on Fraxtal?",
+        "answer": "Yes. Simply holding approved assets like sFRAX or frxETH on Fraxtal automatically accrues baseline Flox points."
+      },
+      {
+        "question": "When are Flox points distributed?",
+        "answer": "Flox points are calculated weekly and convert into governance tokens during seasonal distribution phases."
+      }
+    ]
+  },
+  {
+    "id": "vana-network",
+    "name": "Vana",
+    "logo": "/images/airdrops/vana-network.svg",
+    "description": "Decentralized Layer 1 blockchain for user-owned data, enabling communities to pool private data into Data DAOs for AI model training.",
+    "reward": "$1,000 - $6,500",
+    "category": "AI / Data / Layer 1",
+    "featured": true,
+    "status": "active",
+    "endTime": "Q1 2027",
+    "funding": "$25M",
+    "investors": "Paradigm, Polychain Capital, BoxGroup, Casey Caruso",
+    "refLink": "https://vana.org",
+    "overview": "Vana is a ground-breaking Layer 1 blockchain engineered specifically for user-owned private data, unlocking a multi-trillion dollar decentralized data economy for artificial intelligence. Backed by $25M from elite institutional venture capital firms including Paradigm and Polychain Capital, Vana solves the fundamental data monopoly of Big Tech.\n\nHistorically, tech giants harvest consumer personal data—from social media posts and browsing habits to healthcare records—without compensation, using it to train multi-billion dollar proprietary AI models. Vana flips this paradigm by enabling 'Data DAOs'. Users securely contribute their encrypted data (e.g. Reddit history, Spotify playlists, DNA sequencing) into collective Data DAOs using zero-knowledge proofs. Contributors retain cryptographic ownership while pooling datasets to train open frontier models.\n\nVana's Satori testnet and Data DAO ecosystem invite users to export and submit verified personal data archives to earn Data DAO tokens and Vana network points. These credits will convert into the native $VANA governance token at the upcoming mainnet Token Generation Event.",
+    "strategy": "Join prominent Data DAOs on Vana (such as r/datadao for Reddit data or Volara) and submit verified data archives.\n\nRun a Vana validation node on the Satori testnet to earn consensus staking credits.\n\nComplete community verification quests on the Vana Telegram and web portal to earn early contributor badges.",
+    "tokenomics": "Data DAO & Contributor Mining: 42% dedicated to user data contributors, Data DAO treasuries, and node operators.\n\nEcosystem Growth & AI Partnerships: 23% reserved for model training licensing and developer bounties.\n\nCore Engineering Team: 20% subject to standard 1-year cliff and 3-year vesting.\n\nStrategic Investors (Paradigm/Polychain): 15% with institutional lockup terms.",
+    "sybilSafety": "Vana validates data authenticity using cryptographic zero-knowledge proofs of web sessions (zk-TLS). Submitting dummy, empty, or fabricated data archives fails validation and yields zero points.",
+    "steps": [
+      "Access the official <a href='https://vana.org' target='_blank' rel='noopener noreferrer'>Vana Network Portal</a> and connect your EVM wallet.",
+      "Explore the Data DAO registry and choose an active data pool (e.g. Reddit, X, or health data).",
+      "Export your data archive from the corresponding Web2 platform following the step-by-step guide.",
+      "Upload and encrypt your data archive through the privacy-preserving Vana client.",
+      "Verify your zero-knowledge data proof generates successfully on-chain.",
+      "Receive Data DAO tokens representing your fractional ownership in the pooled dataset.",
+      "Request testnet VANA from the official Satori testnet faucet to execute network transactions.",
+      "Join the Vana Discord community and track your ranking across active data epochs."
+    ],
+    "faqs": [
+      {
+        "question": "What is Vana Network?",
+        "answer": "Vana is a Layer 1 blockchain that allows users to pool their private data into Data DAOs to train AI models and earn cryptocurrency."
+      },
+      {
+        "question": "Who invested in Vana?",
+        "answer": "Vana raised $25M in funding led by Paradigm, Polychain Capital, and BoxGroup."
+      },
+      {
+        "question": "Can anyone see my personal data on Vana?",
+        "answer": "No. All uploaded data is encrypted client-side using zero-knowledge proofs (zk-TLS), ensuring raw data remains private."
+      },
+      {
+        "question": "What is a Data DAO?",
+        "answer": "A Data DAO is a community-owned treasury that aggregates a specific type of data (e.g., Reddit posts) and negotiates licensing deals with AI developers."
+      },
+      {
+        "question": "Is testnet participation free?",
+        "answer": "Yes. Contributing data and requesting Satori testnet tokens is completely free."
+      },
+      {
+        "question": "When is the Vana TGE?",
+        "answer": "The Vana mainnet launch and TGE are scheduled for Q1 2027."
+      }
+    ]
+  },
+  {
+    "id": "ambient-finance",
+    "name": "Ambient",
+    "logo": "/images/airdrops/ambient-finance.svg",
+    "description": "Zero-to-one singleton architecture decentralized exchange combining concentrated liquidity, ambient liquidity, and limit orders.",
+    "reward": "$1,000 - $6,000",
+    "category": "DeFi / DEX / Modular",
+    "featured": false,
+    "status": "active",
+    "endTime": "Q1 2027",
+    "funding": "$7.5M",
+    "investors": "BlockTower Capital, Jane Street, Circle Ventures, Tensai Capital",
+    "refLink": "https://ambient.finance",
+    "overview": "Ambient (formerly CrocSwap) is a revolutionary decentralized exchange (DEX) that completely redesigns the automated market maker architecture from first principles. Backed by $7.5M in funding from premier trading institutions including Jane Street and BlockTower Capital, Ambient is the fastest, most gas-efficient DEX deployed across Ethereum mainnet, Scroll, and Blast.\n\nTraditional DEXs like Uniswap deploy separate smart contracts for each individual trading pair, resulting in heavy gas overhead and fragmented liquidity. Ambient runs the entire exchange inside a single, hyper-optimized smart contract (the Singleton Architecture). This enables zero-cost routing between pools, gasless dynamic fee adjustments, and the ability to combine constant-product (ambient) liquidity with concentrated liquidity and on-chain limit orders in a single pool.\n\nAmbient features an ecosystem points program tracking organic trading volume, liquidity provision depth, and swap frequency across supported networks. Active liquidity providers and traders earn points that position them for significant allocations of the upcoming native governance token.",
+    "strategy": "Provide liquidity into core concentrated or ambient liquidity pools (e.g. ETH/USDC) on Scroll or Blast.\n\nExecute consistent weekly trading volume and place on-chain limit orders to demonstrate diverse usage.\n\nKeep liquidity deposited over long durations to capture compound fee yields and loyalty point multipliers.",
+    "tokenomics": "Community Liquidity Mining & Airdrop: 45% distributed over multi-epoch liquidity programs.\n\nProtocol Treasury & Ecosystem Grants: 25% allocated for cross-chain deployments and developer tooling.\n\nCore Engineering Team: 18% subject to standard 1-year cliff and 3-year vesting.\n\nEarly Strategic Investors (Jane Street/BlockTower): 12% with institutional lockup terms.",
+    "sybilSafety": "Ambient analyzes net liquidity duration and authentic swap behavior. Rapid deposit-and-immediate-withdrawal patterns receive zero point credit.",
+    "steps": [
+      "Access the official <a href='https://ambient.finance' target='_blank' rel='noopener noreferrer'>Ambient DEX Portal</a> and connect your Web3 wallet.",
+      "Switch to your preferred network (Ethereum, Scroll, or Blast).",
+      "Execute a swap between major assets (e.g. ETH to USDC) to establish your trader profile.",
+      "Navigate to the Pool tab and select an active market pair.",
+      "Deposit liquidity choosing between Ambient (passive) or Concentrated (active range) liquidity.",
+      "Place an on-chain limit order to test Ambient's native limit order execution engine.",
+      "Visit the Ambient Points Dashboard to track your accumulated weekly ranking and points.",
+      "Maintain active LP positions across continuous snapshot blocks to maximize rewards."
+    ],
+    "faqs": [
+      {
+        "question": "What makes Ambient different from Uniswap?",
+        "answer": "Ambient uses a singleton contract containing all pools, drastically reducing gas costs and allowing ambient and concentrated liquidity to coexist in the same pool."
+      },
+      {
+        "question": "Who backed Ambient Finance?",
+        "answer": "Ambient raised $7.5M from top quantitative trading firm Jane Street, BlockTower Capital, and Circle Ventures."
+      },
+      {
+        "question": "Which networks does Ambient support?",
+        "answer": "Ambient is currently live on Ethereum mainnet, Scroll, and Blast."
+      },
+      {
+        "question": "Are Ambient points live?",
+        "answer": "Yes. Ambient runs an active points program rewarding liquidity providers and volume traders."
+      },
+      {
+        "question": "Can I place limit orders on Ambient?",
+        "answer": "Yes. Ambient natively supports decentralized on-chain limit orders that execute automatically without gas fees."
+      },
+      {
+        "question": "When is the Ambient token distribution?",
+        "answer": "The token generation event is expected across Q1 2027."
+      }
+    ]
+  },
+  {
+    "id": "azuro-protocol",
+    "name": "Azuro",
+    "logo": "/images/airdrops/azuro-protocol.svg",
+    "description": "The base infrastructure and liquidity layer for on-chain prediction markets, sports betting, and decentralized gaming.",
+    "reward": "$800 - $4,500",
+    "category": "DeFi / Prediction / Infrastructure",
+    "featured": false,
+    "status": "active",
+    "endTime": "Q1 2027",
+    "funding": "$11M",
+    "investors": "SevenX Ventures, Fenbushi Capital, Polymorphic Capital, Merit Circle",
+    "refLink": "https://azuro.org",
+    "overview": "Azuro is the foundational infrastructure and liquidity layer powering on-chain prediction markets, sports betting applications, and gaming dApps. Supported by $11M from tier-1 investors including SevenX Ventures, Fenbushi Capital, and Merit Circle, Azuro transforms traditional prediction markets from siloed, illiquid peer-to-peer exchanges into an automated, pooled liquidity engine.\n\nTraditional betting and prediction markets struggle with illiquid orderbooks and high spreads. Azuro introduces 'Liquidity Tree' architecture and automated virtual market makers (vAMMs). Liquidity providers deposit capital into a single pooled liquidity vault on Arbitrum, Polygon, or Gnosis, which automatically seeds hundreds of independent betting and prediction markets with deep, continuous liquidity.\n\nFrontend applications build on top of Azuro without needing to bootstrap their own liquidity, earning revenue share on trading volume. Users interacting with Azuro-powered applications (like bookmaker.XYZ) and liquidity providers in Azuro pools accumulate Azuro Score points, directly qualifying them for $AZUR token governance and airdrop rewards.",
+    "strategy": "Deposit stablecoins (USDT/USDC) into Azuro Liquidity Pools on Arbitrum or Polygon to earn real yield plus Azuro Score points.\n\nPlace predictions on premier Azuro frontends (such as bookmaker.XYZ) to generate active volume credits.\n\nParticipate in Azuro community waves and staking epochs to boost your point multiplier.",
+    "tokenomics": "Community Rewards & Liquidity Mining: 37.5% allocated to liquidity providers and active prediction market users.\n\nEcosystem Grants & DAO Treasury: 24% reserved for frontend builder subsidies and protocol expansion.\n\nCore Team: 21% subject to standard 1-year cliff and 3-year vesting.\n\nStrategic Investors: 17.5% locked under venture agreements.",
+    "sybilSafety": "Azuro calculates points based on actual liquidity provision duration and authentic prediction volume across diverse events.",
+    "steps": [
+      "Navigate to the official <a href='https://azuro.org' target='_blank' rel='noopener noreferrer'>Azuro Protocol Portal</a> and connect your Web3 wallet.",
+      "Access the Liquidity section to view available pools across Arbitrum and Polygon.",
+      "Deposit USDC or USDT into the liquidity pool to begin earning base yield and Azuro Score points.",
+      "Visit an Azuro ecosystem frontend (such as bookmaker.XYZ) and place on-chain predictions on sports or global events.",
+      "Track your prediction history and claim winnings directly to your Web3 wallet.",
+      "Monitor your accumulated points on the Azuro Score leaderboard.",
+      "Join the Azuro Discord community to verify your roles and participate in governance discussions.",
+      "Hold your LP positions through seasonal snapshot blocks to secure maximum token allocations."
+    ],
+    "faqs": [
+      {
+        "question": "What is Azuro Protocol?",
+        "answer": "Azuro is an infrastructure layer that provides shared liquidity and tooling for decentralized prediction and betting applications."
+      },
+      {
+        "question": "Who funded Azuro?",
+        "answer": "Azuro raised $11M from SevenX Ventures, Fenbushi Capital, Merit Circle, and other Web3 funds."
+      },
+      {
+        "question": "Can I earn money on Azuro without placing bets?",
+        "answer": "Yes. You can act purely as a liquidity provider by depositing stablecoins into Azuro pools to earn passive yield and points."
+      },
+      {
+        "question": "What frontends run on Azuro?",
+        "answer": "Notable frontends include bookmaker.XYZ, Dexsport, and several community gaming interfaces."
+      },
+      {
+        "question": "What blockchain does Azuro support?",
+        "answer": "Azuro operates on Arbitrum, Polygon, and Gnosis Chain."
+      },
+      {
+        "question": "When is the Azuro token generation event?",
+        "answer": "The $AZUR token and governance distribution phases are scheduled across Q1 2027."
+      }
+    ]
+  },
+  {
+    "id": "ethermail",
+    "name": "EtherMail",
+    "logo": "/images/airdrops/ethermail.svg",
+    "description": "Web3 encrypted email communication solution enabling anonymous, wallet-to-wallet messaging and Read-to-Earn token incentives.",
+    "reward": "$400 - $2,500",
+    "category": "Communication / Web3 / SocialFi",
+    "featured": false,
+    "status": "active",
+    "endTime": "Q1 2027",
+    "funding": "$7M",
+    "investors": "Tim Draper, Draper Associates, Fabric Ventures",
+    "refLink": "https://ethermail.io",
+    "overview": "EtherMail is the premier Web3 encrypted email communication protocol, bridging the gap between Web 2.0 email architectures and decentralized blockchain identity. Backed by $7M in funding led by legendary venture capitalist Tim Draper (Draper Associates) and Fabric Ventures, EtherMail provides wallet-to-wallet encrypted email communication for over 500,000 active Web3 users.\n\nTraditional Web2 email providers harvest user data, bombard inboxes with unconsented advertising, and rely on centralized servers vulnerable to data leaks. EtherMail reimagines email by using Web3 wallet addresses (e.g., 0x... @ethermail.io or ENS domains) as email identities. Messages are end-to-end encrypted using standard cryptographic keypairs, ensuring absolute communication privacy.\n\nFurthermore, EtherMail introduces the revolutionary 'Read-to-Earn' model. When Web3 projects send newsletters or announcements to verified users, users earn $EMC (EtherMail Coin) rewards simply for reading messages. Accumulated EMC points will convert 1:1 into the native $EMT governance token at the upcoming Token Generation Event.",
+    "strategy": "Register your free EtherMail inbox by connecting your primary EVM wallet and verifying secondary email ownership.\n\nRead incoming partner newsletters and announcement emails daily to accumulate passive $EMC points.\n\nRefer fellow Web3 users to earn 250 bonus EMC per verified wallet registration.",
+    "tokenomics": "Read-to-Earn & User Rewards: 40% of total supply distributed to active email users and newsletter readers.\n\nProtocol Growth & Brand Partnerships: 25% allocated for enterprise integrations and Web3 marketing.\n\nCore Team: 20% subject to standard 1-year cliff and 3-year vesting.\n\nStrategic Investors (Tim Draper/Fabric): 15% under venture lockup agreements.",
+    "sybilSafety": "EtherMail filters disposable wallets and requires a minimum on-chain transaction history or SMS/email verification to prevent automated bot signups.",
+    "steps": [
+      "Access the official <a href='https://ethermail.io' target='_blank' rel='noopener noreferrer'>EtherMail Portal</a> and connect your MetaMask or Web3 wallet.",
+      "Sign the cryptographic message to generate your private PGP encryption keypair.",
+      "Enter a secondary backup email to complete the anti-Sybil verification process.",
+      "Claim your instant 250 $EMC welcome bonus in your web inbox.",
+      "Send an encrypted email to a fellow Web3 wallet address or ENS domain to verify sending capability.",
+      "Subscribe to Web3 project newsletters in the Subscriptions tab to receive daily Read-to-Earn emails.",
+      "Share your unique referral link to earn 250 EMC for each verified friend who joins.",
+      "Monitor your accumulated EMC balance on the reward dashboard ahead of the EMT conversion."
+    ],
+    "faqs": [
+      {
+        "question": "What is EtherMail?",
+        "answer": "EtherMail is a Web3 email platform that allows encrypted wallet-to-wallet messaging and rewards users for reading promotional emails."
+      },
+      {
+        "question": "Who invested in EtherMail?",
+        "answer": "EtherMail raised $7M from prominent Silicon Valley investor Tim Draper (Draper Associates) and Fabric Ventures."
+      },
+      {
+        "question": "Is EtherMail completely free to use?",
+        "answer": "Yes. Registering an inbox and sending/receiving emails is 100% free of charge."
+      },
+      {
+        "question": "What is the difference between $EMC and $EMT?",
+        "answer": "EMC is the off-chain reward point earned in the platform, which will convert into the tradeable on-chain $EMT token at TGE."
+      },
+      {
+        "question": "Can I send emails to standard Gmail or Outlook accounts?",
+        "answer": "Yes. EtherMail seamlessly bridges Web3 and Web2, allowing you to email traditional addresses from your Web3 inbox."
+      },
+      {
+        "question": "When is the EMT token launch?",
+        "answer": "The official EMT token generation event is scheduled for Q1 2027."
+      }
+    ]
+  },
+  {
+    "id": "over-protocol",
+    "name": "OverProtocol",
+    "logo": "/images/airdrops/over-protocol.svg",
+    "description": "Lightweight Layer 1 blockchain engineered with Ethanos protocol to enable anyone to run a full node on personal PCs and mobile devices.",
+    "reward": "$600 - $3,500",
+    "category": "Layer 1 / Mobile / Decentralization",
+    "featured": false,
+    "status": "active",
+    "endTime": "Q1 2027",
+    "funding": "$13.4M",
+    "investors": "SK Inc., Netmarble, DSC Investment, Schmidt, Korea Investment Partners",
+    "refLink": "https://over.network",
+    "overview": "OverProtocol is a revolutionary Layer 1 blockchain designed to achieve true decentralization by enabling ordinary individuals to run full nodes on standard home computers and mobile devices. Supported with $13.4M in funding from leading Asian tech conglomerates including SK Inc., Netmarble, and DSC Investment, OverProtocol solves the critical hardware centralization dilemma that plagues modern blockchains.\n\nTraditional blockchains require expensive data-center servers with terabytes of SSD storage to maintain historical state data. OverProtocol implements the groundbreaking 'Ethanos' protocol, which prunes inactive accounts and compresses state storage to a fraction of traditional blockchain size. As a result, a full node can run on a typical home PC using less than 128 GB of storage.\n\nOverProtocol's mobile ecosystem app (OverFlex / OverWallet) has onboarded over 5 million global community members. Users earn OverPoints through daily quizzes, staking, and running validator nodes on the testnet. These points directly translate into token allocations at the upcoming mainnet genesis event.",
+    "strategy": "Download the OverFlex mobile app and claim daily check-in points and quiz rewards.\n\nDownload the OverNode client on your desktop computer to run a testnet validator node and earn staking yield.\n\nParticipate in community quests and link your verified social profiles to secure maximum airdrop tier status.",
+    "tokenomics": "Community Airdrop & Node Staking: 45% of total genesis supply dedicated to node operators, mobile users, and community stakers.\n\nEcosystem Growth & Foundation: 25% allocated for developer grants, global marketing, and exchange liquidity.\n\nCore Engineering Team: 15% subject to standard 1-year cliff and 3-year vesting.\n\nStrategic Investors: 15% with institutional lockup terms.",
+    "sybilSafety": "OverProtocol deploys biometric face-verification and device fingerprinting within the OverFlex app to eliminate multi-account emulator bot farms.",
+    "steps": [
+      "Download the official OverFlex (OverWallet) mobile app from Google Play or Apple App Store.",
+      "Complete the quick registration process and claim your initial welcome OverPoints.",
+      "Check in daily and complete the Daily Crypto Quiz to maintain an active reward streak.",
+      "Download the OverNode desktop application on your PC or Mac from <a href='https://over.network' target='_blank' rel='noopener noreferrer'>over.network</a>.",
+      "Synchronize your desktop node with the OverProtocol testnet and activate validator staking.",
+      "Complete the Palm-ID or biometric verification check to confirm genuine human identity.",
+      "Join the OverProtocol Discord community and participate in weekly community challenges.",
+      "Monitor the OverFlex dashboard for the official mainnet token claim announcement."
+    ],
+    "faqs": [
+      {
+        "question": "What is OverProtocol?",
+        "answer": "OverProtocol is a lightweight Layer 1 blockchain that allows anyone to run a full node on their personal computer or mobile phone."
+      },
+      {
+        "question": "How much funding has OverProtocol raised?",
+        "answer": "OverProtocol has raised $13.4M from major institutional investors including SK Inc., Netmarble, and DSC Investment."
+      },
+      {
+        "question": "Can I earn points for free on my phone?",
+        "answer": "Yes. The OverFlex app allows users to earn OverPoints daily for free through quizzes and check-ins."
+      },
+      {
+        "question": "What is the Ethanos protocol?",
+        "answer": "Ethanos is an optimization algorithm that removes inactive state data, allowing nodes to operate with minimal storage space."
+      },
+      {
+        "question": "Do I need technical skills to run OverNode?",
+        "answer": "No. OverNode features an intuitive graphical user interface that automates node synchronization in one click."
+      },
+      {
+        "question": "When is the OverProtocol mainnet launch?",
+        "answer": "The public mainnet launch and token generation event are slated for Q1 2027."
+      }
+    ]
+  },
+  {
+    "id": "venom-network",
+    "name": "Venom Network",
+    "logo": "/images/airdrops/venom-network.svg",
+    "description": "Multi-blockchain network with dynamic sharding and asynchronous smart contracts, backed by a $1B ecosystem fund in Abu Dhabi.",
+    "reward": "$800 - $4,000",
+    "category": "Layer 1 / Sharding / Regulated",
+    "featured": false,
+    "status": "active",
+    "endTime": "Q1 2027",
+    "funding": "$1B Ecosystem Fund",
+    "investors": "Venom Foundation, Iceberg Capital, Abu Dhabi Global Market (ADGM)",
+    "refLink": "https://venom.network",
+    "overview": "Venom Network is a highly scalable, asynchronous multi-blockchain Layer 1 platform regulated by the Abu Dhabi Global Market (ADGM). Supported by a massive $1 billion venture fund established by Iceberg Capital and the Venom Foundation, Venom is engineered to power enterprise-grade financial markets, sovereign digital currencies (CBDCs), and institutional Web3 dApps.\n\nVenom's architecture relies on dynamic sharding and the Venom Virtual Machine (TVM). The network consists of a Masterchain, Workchains, and dynamic Shardchains that automatically split and merge depending on transaction load. This allows Venom to process hundreds of thousands of transactions per second with sub-second finality while eliminating transaction congestion.\n\nVenom's testnet has onboarded millions of users across 20+ native dApps, including decentralized exchanges, bridge portals, and NFT platforms. Users who complete testnet tasks and mint commemorative ecosystem NFT badges qualify for official community reward allocations.",
+    "strategy": "Download the Venom Wallet extension or mobile app and obtain testnet VENOM tokens from the faucet.\n\nComplete interactive onboarding tasks across native dApps (such as VenomSwap, Web3World, and Oasis.gallery).\n\nMint all ecosystem achievement NFT badges on the Venom testnet task portal to demonstrate complete protocol coverage.",
+    "tokenomics": "Community & Ecosystem Incentives: 40% allocated over multi-year operational schedules for testnet participants and developers.\n\nValidator Staking & Security: 28% distributed to secure masterchain and workchain consensus.\n\nVenom Foundation & Governance: 17% reserved for regulatory compliance and enterprise partnerships.\n\nCore Engineering Team: 15% with customary multi-year vesting lockups.",
+    "sybilSafety": "Venom links testnet quest completion to verified social accounts (X/Twitter) and evaluates multi-contract interaction depth across diverse ecosystem verticals.",
+    "steps": [
+      "Install the official <a href='https://venom.network' target='_blank' rel='noopener noreferrer'>Venom Wallet</a> browser extension or mobile app.",
+      "Access the Venom Testnet Tasks Portal and connect your newly created Venom wallet.",
+      "Request initial testnet VENOM tokens from the official faucet.",
+      "Follow the step-by-step quests to execute a swap on Web3World DEX.",
+      "Stake testnet VENOM in the VenomPools staking contract.",
+      "Bridge testnet tokens using the Venom Bridge to an EVM testnet.",
+      "Mint each verified achievement NFT badge upon completing dApp quests.",
+      "Track your badge collection to ensure you have collected all available ecosystem NFTs."
+    ],
+    "faqs": [
+      {
+        "question": "What is Venom Network?",
+        "answer": "Venom is an asynchronous, dynamic sharding Layer 1 blockchain licensed under Abu Dhabi Global Market (ADGM)."
+      },
+      {
+        "question": "How big is the Venom ecosystem fund?",
+        "answer": "Venom launched with a $1 billion ecosystem venture fund established by Iceberg Capital."
+      },
+      {
+        "question": "Is testnet participation completely free?",
+        "answer": "Yes. All testnet faucet tokens and task NFT mints are 100% free of charge."
+      },
+      {
+        "question": "What is dynamic sharding in Venom?",
+        "answer": "Dynamic sharding allows the blockchain to create new shards on the fly when traffic increases, keeping fees low and speeds high."
+      },
+      {
+        "question": "Which wallet do I need for Venom?",
+        "answer": "You must use the official Venom Wallet, available as a Chrome extension and mobile app."
+      },
+      {
+        "question": "When will Venom airdrop rewards be distributed?",
+        "answer": "Community reward distribution schedules are planned across early 2027 following mainnet rollout."
+      }
+    ]
+  },
+  {
+    "id": "fraction-ai",
+    "name": "Fraction AI",
+    "logo": "/images/airdrops/fraction-ai.svg",
+    "description": "Decentralized AI data labeling and synthetic data generation platform training frontier models with Reinforcement Learning from Human Feedback (RLHF).",
+    "reward": "$600 - $3,500",
+    "category": "AI / Data / DePIN",
+    "featured": false,
+    "status": "active",
+    "endTime": "Q1 2027",
+    "funding": "Seed Backed",
+    "investors": "Web3 AI Funds, Top Tech Angels, Accelerator Grants",
+    "refLink": "https://fractionai.xyz",
+    "overview": "Fraction AI is a decentralized platform dedicated to solving the most labor-intensive bottleneck in frontier artificial intelligence: high-quality data annotation and Reinforcement Learning from Human Feedback (RLHF). By connecting global Web3 contributors with AI research labs, Fraction AI gamifies and decentralizes the process of fine-tuning large language models.\n\nState-of-the-art AI models require millions of human comparisons to ensure safety, eliminate hallucinations, and align with human preferences. Centralized data labeling platforms exploit gig workers in developing countries with minimal pay. Fraction AI democratizes this process by allowing anyone with an internet connection to evaluate AI outputs, compare model completions, and generate synthetic training datasets.\n\nEvery verified evaluation performed on Fraction AI generates on-chain cryptographic proofs and rewards contributors with Fraction Points. As leading AI labs license Fraction's verified datasets, protocol revenue is distributed back to active data annotators.",
+    "strategy": "Complete daily AI comparison and prompt ranking challenges on the Fraction AI web dashboard.\n\nMaintain high annotation accuracy scores; higher precision unlocks higher-tier bounty pools and point multipliers.\n\nParticipate in community RLHF tournaments to earn exclusive contributor badges.",
+    "tokenomics": "Community Annotation Mining: 45% distributed over multi-year data generation epochs.\n\nAI Lab Ecosystem Grants & Treasury: 25% allocated for enterprise model integrations and liquidity.\n\nCore Engineering & ML Team: 18% subject to 1-year cliff and 3-year linear vesting.\n\nSeed Backers: 12% with standard venture lockup terms.",
+    "sybilSafety": "Fraction AI utilizes automated consensus scoring across multiple annotators. Random clickers and bot scripts that generate inconsistent ratings are automatically flagged and penalized.",
+    "steps": [
+      "Access the official <a href='https://fractionai.xyz' target='_blank' rel='noopener noreferrer'>Fraction AI Portal</a> and sign in with your Web3 wallet.",
+      "Complete the short tutorial benchmark to calibrate your annotation accuracy score.",
+      "Select an active labeling track (e.g. Code Reasoning, Creative Writing, or Math Alignment).",
+      "Evaluate competing AI model responses and select the higher-quality output with constructive notes.",
+      "Submit your evaluation to register your verified cryptographic RLHF contribution.",
+      "Check your accuracy rating and point earnings on your personal contributor dashboard.",
+      "Join the Fraction AI Discord server to participate in community feedback rounds.",
+      "Climb the weekly leaderboard to unlock tier-1 token allocation multipliers."
+    ],
+    "faqs": [
+      {
+        "question": "What is Fraction AI?",
+        "answer": "Fraction AI is a decentralized data labeling platform where users earn crypto for rating and improving AI model responses."
+      },
+      {
+        "question": "What is RLHF?",
+        "answer": "RLHF stands for Reinforcement Learning from Human Feedback, an essential machine learning method for training AI models to be safe and accurate."
+      },
+      {
+        "question": "Do I need computer science skills to participate?",
+        "answer": "No. Most tasks involve evaluating which chatbot response is more natural, helpful, and accurate in plain English."
+      },
+      {
+        "question": "Is Fraction AI free to join?",
+        "answer": "Yes. Joining and contributing to Fraction AI requires zero financial investment."
+      },
+      {
+        "question": "How are rewards paid?",
+        "answer": "Contributors earn Fraction Points that will convert into native tokens at the upcoming Token Generation Event."
+      },
+      {
+        "question": "When is the Fraction AI token launch?",
+        "answer": "The TGE is targeted for Q1 2027 in conjunction with the launch of enterprise data licensing contracts."
+      }
+    ]
+  },
+  {
+    "id": "side-protocol",
+    "name": "Side Protocol",
+    "logo": "/images/airdrops/side-protocol.svg",
+    "description": "Distributed mesh liquidity protocol and cross-chain settlement engine enabling native Bitcoin swaps without bridges.",
+    "reward": "$800 - $4,200",
+    "category": "Bitcoin / Interop / Modular",
+    "featured": false,
+    "status": "active",
+    "endTime": "Q1 2027",
+    "funding": "$1.5M",
+    "investors": "HashKey Capital, Mechanism Capital, Dispersion Capital, Symbolic Capital",
+    "refLink": "https://side.one",
+    "overview": "Side Protocol is a distributed mesh liquidity layer and cross-chain settlement engine designed to solve the fundamental liquidity fragmentation in cryptocurrency. Backed by $1.5M from leading venture capital firms including HashKey Capital and Mechanism Capital, Side Protocol enables native Bitcoin and multichain asset trading without relying on centralized bridges or wrapped tokens.\n\nTraditional cross-chain bridges lock assets in centralized smart contracts, creating massive honey pots that have been exploited for billions of dollars. Side Protocol introduces an omnichain atomic swap protocol powered by threshold signature schemes (TSS) and specialized mesh execution networks. Users can trade native Bitcoin (BTC) directly against assets on Solana, Ethereum, or Cosmos with zero counterparty risk.\n\nSide Protocol's incentivized testnet campaigns invite Bitcoiners and Web3 liquidity providers to test seamless cross-chain swaps and mesh liquidity provisioning. Early participants accumulating Side Points and testnet transaction volume qualify for native $SIDE governance distributions.",
+    "strategy": "Connect your Web3 EVM wallet and Bitcoin testnet wallet to the Side Protocol web app.\n\nExecute cross-chain atomic swaps between testnet Bitcoin and EVM testnet assets.\n\nProvide liquidity into Side Protocol mesh liquidity pools to earn trading fees and testnet points.",
+    "tokenomics": "Community Mesh Mining & Airdrop: 40% allocated for liquidity providers, traders, and testnet participants.\n\nEcosystem Growth & Grants: 25% reserved for cross-chain router integrations and developer bounties.\n\nCore Engineering Team: 20% subject to standard 1-year cliff and 3-year vesting.\n\nEarly Backers (HashKey/Mechanism): 15% under venture lockup agreements.",
+    "sybilSafety": "Side Protocol inspects authentic cross-chain swap completion across both chains. Automated repetitive micro-swaps on a single chain are disqualified.",
+    "steps": [
+      "Navigate to the official <a href='https://side.one' target='_blank' rel='noopener noreferrer'>Side Protocol Portal</a> and connect your EVM and Bitcoin wallets.",
+      "Acquire testnet assets from the integrated Side testnet faucet.",
+      "Initiate an atomic cross-chain swap from Bitcoin testnet to Ethereum Sepolia.",
+      "Confirm transaction signatures across both connected wallets.",
+      "Deposit testnet assets into the decentralized mesh liquidity pool to act as a liquidity provider.",
+      "Join the official Side Protocol Discord server and link your wallet in the testnet channel.",
+      "Complete community quests on Galxe to claim verified Side Pioneer credentials.",
+      "Monitor the Side Leaderboard to track your accumulated swap points and rank."
+    ],
+    "faqs": [
+      {
+        "question": "What is Side Protocol?",
+        "answer": "Side Protocol is a distributed mesh liquidity network enabling native cross-chain asset swaps without wrapping or centralized bridges."
+      },
+      {
+        "question": "Who funded Side Protocol?",
+        "answer": "Side Protocol raised funding from HashKey Capital, Mechanism Capital, and Dispersion Capital."
+      },
+      {
+        "question": "Can I swap real Bitcoin on Side?",
+        "answer": "Mainnet will support native Bitcoin swaps; the current phase operates on testnet with free faucet tokens."
+      },
+      {
+        "question": "How does Side eliminate bridge hacks?",
+        "answer": "By using atomic swaps and threshold signatures, funds are never stored in a monolithic smart contract bridge."
+      },
+      {
+        "question": "Which wallets are required?",
+        "answer": "You will need an EVM wallet (like MetaMask) and a Bitcoin wallet (like UniSat or Xverse)."
+      },
+      {
+        "question": "When is the SIDE token generation event?",
+        "answer": "The TGE is planned for Q1 2027 in conjunction with public mainnet deployment."
+      }
+    ]
+  },
+  {
+    "id": "character-x",
+    "name": "CharacterX",
+    "logo": "/images/airdrops/character-x.svg",
+    "description": "Decentralized AI social network and autonomous agent companion platform backed by Lightspeed Faction.",
+    "reward": "$500 - $3,000",
+    "category": "AI / SocialFi / Solana",
+    "featured": false,
+    "status": "active",
+    "endTime": "Q1 2027",
+    "funding": "$2.8M",
+    "investors": "Lightspeed Faction, INCE Capital, Spark Digital Capital",
+    "refLink": "https://characterx.ai",
+    "overview": "CharacterX is a decentralized synthetic social network and autonomous AI companion platform connecting millions of users with customizable artificial intelligence agents. Supported by $2.8M in funding led by Lightspeed Faction and INCE Capital, CharacterX pioneers the intersection of generative artificial intelligence and Web3 social incentives.\n\nWhile centralized AI companion platforms restrict creator monetization and censor interactions, CharacterX allows users to design, train, and tokenize unique multi-modal AI personas. Powered by ERC-6551 token-bound accounts and decentralized storage, AI companions on CharacterX own their own on-chain wallets, accumulate memories, and earn revenue for their creators through decentralized subscriptions.\n\nWith over 3 million registered users and mobile apps across iOS and Android, CharacterX operates an active points reward program (CXT Points). Users earn points by interacting with AI agents, creating popular companion personas, and completing community social quests, directly qualifying for the upcoming $CXT token airdrop on Solana.",
+    "strategy": "Download the CharacterX mobile app and chat daily with community AI characters to accumulate engagement points.\n\nCreate and publish your own AI companion persona; you earn royalties whenever other users chat with your creation.\n\nLink your Solana wallet and complete community verification quests to claim creator multipliers.",
+    "tokenomics": "Community Social Mining & Airdrop: 42% dedicated to active chat users, companion creators, and node operators.\n\nEcosystem Growth & AI Model Compute: 23% reserved for model hosting partnerships and developer SDKs.\n\nFounding Team: 20% subject to standard 1-year cliff and 3-year vesting.\n\nEarly Strategic Investors (Lightspeed Faction): 15% with venture lockup terms.",
+    "sybilSafety": "CharacterX monitors conversation depth and natural language semantics. Scripted automated spam chat loops will be flagged by automated AI moderation.",
+    "steps": [
+      "Download the official CharacterX app from Apple App Store or Google Play, or visit <a href='https://characterx.ai' target='_blank' rel='noopener noreferrer'>characterx.ai</a>.",
+      "Sign in with your email or social credentials to initialize your creator profile.",
+      "Connect your Solana Web3 wallet (such as Phantom) in the account settings tab.",
+      "Engage in daily conversations with featured AI companions to accumulate daily CXT chat points.",
+      "Navigate to the Create tab to design your own custom AI companion with unique personalities and voice prompts.",
+      "Share your companion with the community to earn creator royalty points.",
+      "Join the CharacterX Discord server to claim verified Community Member roles.",
+      "Track your accumulated points and leaderboard tier ahead of the official CXT token distribution."
+    ],
+    "faqs": [
+      {
+        "question": "What is CharacterX?",
+        "answer": "CharacterX is a decentralized synthetic social platform where users can chat with, create, and monetize AI companion characters."
+      },
+      {
+        "question": "Who invested in CharacterX?",
+        "answer": "CharacterX raised $2.8M led by Lightspeed Faction and INCE Capital."
+      },
+      {
+        "question": "Can I earn rewards for free on my phone?",
+        "answer": "Yes. The CharacterX mobile app allows users to chat with AI characters and earn CXT points completely free."
+      },
+      {
+        "question": "What blockchain does CharacterX use?",
+        "answer": "CharacterX utilizes Solana for fast, micro-cost transactions and ERC-6551 token-bound accounts."
+      },
+      {
+        "question": "How do creators monetize on CharacterX?",
+        "answer": "Creators earn a percentage of points and fees whenever community members chat with their customized AI agents."
+      },
+      {
+        "question": "When is the CXT token airdrop?",
+        "answer": "The token generation event is scheduled across Q1 2027."
+      }
+    ]
+  },
+  {
+    "id": "alethea-ai",
+    "name": "Alethea AI",
+    "logo": "/images/airdrops/alethea-ai.svg",
+    "description": "Pioneering decentralized generative AI protocol and Intelligent NFT (iNFT) standard backed by Multicoin Capital and Mark Cuban.",
+    "reward": "$800 - $5,000",
+    "category": "AI / NFT / Polygon",
+    "featured": false,
+    "status": "active",
+    "endTime": "Q1 2027",
+    "funding": "$16M",
+    "investors": "Multicoin Capital, Mark Cuban, Alameda Research, Crypto.com Capital, Dapper Labs",
+    "refLink": "https://alethea.ai",
+    "overview": "Alethea AI is a premier research and development studio building decentralized generative artificial intelligence infrastructure and the foundational Intelligent NFT (iNFT) protocol. Supported by $16M in funding from tier-1 investors including Multicoin Capital, Mark Cuban, and Crypto.com Capital, Alethea is the creator of the Noah's Ark intelligent metaverse and CharacterGPT.\n\nWhile traditional NFTs are static digital images or audio files, Alethea's iNFT standard embeds an artificial intelligence mind into the token. Using CharacterGPT, users can generate fully animated, voice-enabled, interactive 3D digital personas from plain-text descriptions. These intelligent agents can converse in real time, hold memories, learn over time, and own their own decentralized economic assets.\n\nAlethea operates an active community ecosystem on Polygon, rewarding users who interact with AI agents, stake native $ALI tokens, and build decentralized applications using the Alethea AI API. Active community participants earn verifiable AI credits that qualify for ongoing seasonal rewards.",
+    "strategy": "Stake native ALI tokens in the Alethea AI Staking Portal to earn protocol yield and governance voting power.\n\nCreate interactive AI personas using CharacterGPT on the Alethea web studio.\n\nParticipate in community AI testing challenges and ecosystem partner dApp integrations on Polygon.",
+    "tokenomics": "Ecosystem Development & iNFT Mining: 37% dedicated to community creators, developers, and AI agent hosts.\n\nProtocol Treasury & Reserves: 25% reserved for enterprise partnerships and model compute subsidies.\n\nCore Team & Researchers: 20% subject to 1-year cliff and 3-year linear vesting.\n\nStrategic Investors (Multicoin/Mark Cuban): 18% with institutional lockup agreements.",
+    "sybilSafety": "Alethea tracks authentic on-chain staking and verified usage of CharacterGPT. Simple automated bot accounts with zero real interaction are excluded from seasonal distributions.",
+    "steps": [
+      "Access the official <a href='https://alethea.ai' target='_blank' rel='noopener noreferrer'>Alethea AI Portal</a> and connect your Web3 wallet.",
+      "Explore the CharacterGPT AI Studio to create an interactive Intelligent NFT (iNFT).",
+      "Interact with community-created AI characters to test voice synthesis and comprehension.",
+      "Acquire ALI tokens on Polygon and deposit them into the official Alethea Staking contract.",
+      "Participate in decentralized governance votes on the Alethea Snapshot portal.",
+      "Join the official Alethea Discord server and claim verified Community roles.",
+      "Complete community quests on Zealy to boost your contributor ranking.",
+      "Track your seasonal loyalty status on the Alethea Community Dashboard."
+    ],
+    "faqs": [
+      {
+        "question": "What is an Intelligent NFT (iNFT)?",
+        "answer": "An iNFT is an NFT that has an embedded AI brain, enabling it to speak, learn, hold memories, and interact with humans."
+      },
+      {
+        "question": "Who funded Alethea AI?",
+        "answer": "Alethea raised $16M from Multicoin Capital, billionaire investor Mark Cuban, and Dapper Labs."
+      },
+      {
+        "question": "What is CharacterGPT?",
+        "answer": "CharacterGPT is Alethea's generative AI system that creates interactive, conversational 3D characters from text prompts."
+      },
+      {
+        "question": "What is the utility of the $ALI token?",
+        "answer": "ALI is used to train iNFTs, access AI generation APIs, stake for rewards, and govern the decentralized network."
+      },
+      {
+        "question": "Which blockchain does Alethea AI use?",
+        "answer": "Alethea operates primarily on the Polygon blockchain for low-cost, fast transactions."
+      },
+      {
+        "question": "When are seasonal rewards distributed?",
+        "answer": "Alethea distributes community incentives across seasonal epochs aligned with major product upgrades."
+      }
+    ]
+  },
+  {
+    "id": "sx-network",
+    "name": "SX Network",
+    "logo": "/images/airdrops/sx-network.svg",
+    "description": "Specialized high-throughput Layer 2 rollup built on Arbitrum Orbit dedicated to prediction markets and peer-to-peer betting.",
+    "reward": "$800 - $4,500",
+    "category": "Layer 2 / Prediction / DeFi",
+    "featured": false,
+    "status": "active",
+    "endTime": "Q1 2027",
+    "funding": "$9.5M",
+    "investors": "Hack VC, CMS Holdings, Polygon Studios, Alliance DAO",
+    "refLink": "https://sx.technology",
+    "overview": "SX Network is the first purpose-built public blockchain dedicated specifically to decentralized prediction markets, sports betting, and peer-to-peer wagering. Backed by $9.5M in funding from prominent venture firms including Hack VC, CMS Holdings, and Polygon Studios, SX Network operates the largest decentralized sports betting exchange in the world (SX Bet), processing over $500 million in cumulative betting volume.\n\nTraditional betting platforms charge predatory fees (vigorish) of 5-10% and frequently ban or limit profitable winning bettors. SX Network eliminates this intermediary model by settling bets through transparent smart contracts with near-zero transaction fees. Re-architected as an Arbitrum Orbit Layer 2 rollup, SX Network achieves sub-second finality and ultra-low gas costs.\n\nSX Network is governed by the native $SX token. Users earn SX rewards through the platform's 'Bet-to-Earn' protocol mining program, where every wager placed on SX Bet earns governance tokens regardless of whether the bet wins or loses. Staking SX yields revenue share from all network transactions.",
+    "strategy": "Bridge stablecoins (USDC) from Arbitrum or Ethereum to SX Network via the official bridge.\n\nPlace peer-to-peer predictions on sports, esports, or political markets on SX Bet to earn weekly mining rewards.\n\nStake SX tokens in the SX Staking portal to earn protocol revenue sharing and boost your mining multipliers.",
+    "tokenomics": "Bet-to-Earn Protocol Mining: 50% of total token supply allocated over a 5-year curve to incentivize active platform bettors.\n\nCommunity Treasury & DAO: 20% reserved for ecosystem development and developer grants.\n\nCore Development Team: 15% subject to standard 1-year cliff and 3-year vesting.\n\nStrategic Investors (Hack VC/CMS): 15% under venture lockup agreements.",
+    "sybilSafety": "SX Network analyzes genuine wagering volume, unique market variety, and account funding provenance. Wash-betting opposing outcomes to farm volume with zero risk is filtered by risk algorithms.",
+    "steps": [
+      "Access the official <a href='https://sx.technology' target='_blank' rel='noopener noreferrer'>SX Network Portal</a> and navigate to SX Bet.",
+      "Connect your Web3 wallet and switch to the SX Network or Arbitrum network.",
+      "Bridge USDC to your SX Network account using the official bridge portal.",
+      "Explore the sports and prediction market catalog (football, basketball, crypto prices).",
+      "Place a peer-to-peer wager to automatically qualify for the weekly Bet-to-Earn rewards pool.",
+      "Stake your earned SX tokens in the staking portal to earn passive protocol revenue yield.",
+      "Join the SX Network Discord community to verify your status and participate in community tournaments.",
+      "Claim your weekly SX protocol rewards every Monday directly to your wallet."
+    ],
+    "faqs": [
+      {
+        "question": "What is SX Network?",
+        "answer": "SX Network is an Arbitrum Orbit Layer 2 blockchain designed specifically for decentralized sports betting and prediction markets."
+      },
+      {
+        "question": "Who invested in SX Network?",
+        "answer": "SX Network raised $9.5M from Hack VC, CMS Holdings, and Polygon Studios."
+      },
+      {
+        "question": "What is Bet-to-Earn?",
+        "answer": "Bet-to-Earn is SX Bet's reward system that distributes SX tokens to users based on their weekly betting volume, whether they win or lose."
+      },
+      {
+        "question": "Does SX Bet ban winning players?",
+        "answer": "No. Because SX Bet is a peer-to-peer exchange powered by smart contracts, winning accounts are never limited or banned."
+      },
+      {
+        "question": "What are the fees on SX Bet?",
+        "answer": "SX Bet charges just 2% on net winnings, roughly half the fee charged by traditional centralized sportsbooks."
+      },
+      {
+        "question": "When are SX rewards distributed?",
+        "answer": "Bet-to-Earn rewards are calculated weekly and distributed directly to user wallets every Monday."
+      }
+    ]
+  },
+  {
+    "id": "zeno-exchange",
+    "name": "Zeno Exchange",
+    "logo": "/images/airdrops/zeno-exchange.svg",
+    "description": "Next-generation decentralized perpetuals and spot exchange built on Metis L2 with zero slippage execution and unified LP pools.",
+    "reward": "$800 - $5,000",
+    "category": "DeFi / Perps / Metis L2",
+    "featured": false,
+    "status": "active",
+    "endTime": "Q1 2027",
+    "funding": "Ecosystem Grants",
+    "investors": "Metis Ecosystem Fund, Web3 Trading Angels",
+    "refLink": "https://zeno.exchange",
+    "overview": "Zeno Exchange is the premier decentralized perpetual contracts and spot exchange deployed natively on Metis Decentralized Sequencer Layer 2. Designed to bring institutional-grade derivatives trading on-chain, Zeno provides traders with up to 50x leverage on major cryptocurrency assets with zero price impact, deep aggregated liquidity, and sub-cent execution fees.\n\nTraditional AMM perpetual DEXs suffer from impermanent loss, high slippage, and high liquidation penalties. Zeno resolves these issues by implementing a multi-asset liquidity pool (ZLP) architecture similar to GMX, augmented by real-time Pyth and Chainlink low-latency oracle price feeds. Liquidity providers supply stablecoins and blue-chip tokens into ZLP, earning 70% of all protocol trading fees, borrow fees, and liquidation penalties.\n\nZeno operates an active Trading & LP Points program (Zeno Miles). By opening perpetual positions, providing liquidity to ZLP, and participating in trading competitions, users accumulate Zeno Miles that directly qualify them for the upcoming $ZENO governance token airdrop.",
+    "strategy": "Deposit USDC or METIS into the ZLP liquidity pool to earn passive trading fee yield and continuous liquidity miles.\n\nExecute routine leveraged trading volume on BTC, ETH, and METIS pairs to build volume-based miles.\n\nParticipate in Metis Ecosystem joint campaigns to earn extra Metis community multipliers.",
+    "tokenomics": "Community Rewards & Trading Mining: 45% allocated to ZLP liquidity providers and active perpetual traders.\n\nMetis Ecosystem & Treasury: 25% reserved for cross-chain liquidity and developer partnerships.\n\nCore Engineering Team: 18% subject to 1-year cliff and 2-year vesting.\n\nEarly Backers: 12% under standard lockup agreements.",
+    "sybilSafety": "Zeno tracks genuine trading volume, liquidation margins, and LP duration. Rapid open-close hedging wash-trades will receive zero volume credits.",
+    "steps": [
+      "Access the official <a href='https://zeno.exchange' target='_blank' rel='noopener noreferrer'>Zeno Exchange Portal</a> and connect your EVM wallet.",
+      "Switch your wallet network to Metis Layer 2.",
+      "Acquire testnet or mainnet METIS and USDC for trading capital.",
+      "Navigate to the Trade tab and execute a long or short position with moderate leverage.",
+      "Visit the Liquidity tab to buy ZLP tokens with USDC and start earning protocol fees.",
+      "Stake your ZLP tokens to activate compound fee auto-reinvestment.",
+      "Join the Zeno Exchange Discord server and verify your trader role in the community channel.",
+      "Monitor your accumulated Zeno Miles on the personal rewards dashboard."
+    ],
+    "faqs": [
+      {
+        "question": "What is Zeno Exchange?",
+        "answer": "Zeno Exchange is a decentralized perpetual exchange on Metis Layer 2 offering up to 50x leverage and zero slippage trading."
+      },
+      {
+        "question": "What is ZLP?",
+        "answer": "ZLP is the multi-asset index token representing Zeno's liquidity pool, earning 70% of all platform trading fees."
+      },
+      {
+        "question": "What network does Zeno operate on?",
+        "answer": "Zeno operates natively on Metis, taking advantage of its decentralized sequencer for rapid, secure execution."
+      },
+      {
+        "question": "How do I earn Zeno Miles?",
+        "answer": "By trading perpetual contracts, providing liquidity to ZLP, and participating in seasonal trading competitions."
+      },
+      {
+        "question": "Can I trade with zero slippage on Zeno?",
+        "answer": "Yes. Zeno uses low-latency oracle pricing, meaning market orders execute at exact oracle prices without slippage."
+      },
+      {
+        "question": "When is the ZENO token launch?",
+        "answer": "The token generation event and airdrop distribution are targeted for Q1 2027."
+      }
+    ]
+  },
+  {
+    "id": "metamask-snaps",
+    "name": "MetaMask Snaps",
+    "logo": "/images/airdrops/metamask-snaps.svg",
+    "description": "Consensys extensible plugin system expanding MetaMask to non-EVM blockchains, transaction security insights, and developer rewards.",
+    "reward": "$500 - $3,500",
+    "category": "Wallet / Extension / Consensys",
+    "featured": false,
+    "status": "active",
+    "endTime": "Q1 2027",
+    "funding": "$450M Consensys",
+    "investors": "Consensys, ParaFi Capital, Third Point, Temasek, SoftBank",
+    "refLink": "https://metamask.io/snaps",
+    "overview": "MetaMask Snaps is a revolutionary extensible plugin system developed by Consensys that transforms MetaMask from a simple Ethereum wallet into an open, permissionless multichain powerhouse. Backed by Consensys's $450M in institutional venture funding, Snaps allows third-party developers to expand MetaMask's capabilities without waiting for official core app updates.\n\nHistorically, MetaMask was strictly limited to Ethereum and EVM-compatible blockchains. With Snaps, users can install modular plugins that add native support for non-EVM chains—including Bitcoin, Solana, Cosmos, Starknet, and Mina—directly within their existing MetaMask interface. Furthermore, Snaps introduces transaction security analyzers, phishing warnings, and automated notification feeds.\n\nConsensys has launched developer grants and community incentive initiatives for users who test Snaps. Active Web3 users who install verified Snaps, manage non-EVM assets through MetaMask, and complete ecosystem quests position themselves for potential Consensys ecosystem and partner airdrops.",
+    "strategy": "Explore the official MetaMask Snaps Directory and install verified non-EVM Snaps (e.g. Solana Snap, Bitcoin Snap, or Starknet Snap).\n\nExecute cross-chain transactions and sign messages using installed Snaps to demonstrate active usage.\n\nInstall security Snaps (such as Wallet Guard or Blockaid) to activate pre-transaction simulation analysis.",
+    "tokenomics": "Consensys Ecosystem Grants & Builder Bounties: Dedicated funding pools supporting third-party Snap developers.\n\nCommunity Testing Incentives: Programmatic rewards for active multichain wallet testers and governance participants.",
+    "sybilSafety": "MetaMask Snaps activity is evaluated based on genuine on-chain transaction history across multiple non-EVM networks via installed Snaps.",
+    "steps": [
+      "Ensure you have the latest version of the MetaMask browser extension installed.",
+      "Navigate to the official <a href='https://snaps.metamask.io' target='_blank' rel='noopener noreferrer'>MetaMask Snaps Directory</a>.",
+      "Browse verified Snaps and select a non-EVM blockchain plugin (e.g. Solana by Solflare or Bitcoin by UniSat).",
+      "Click Add to MetaMask and review the cryptographic permissions requested by the Snap.",
+      "Install a transaction security Snap (such as Blockaid or Wallet Guard) to enhance phishing defense.",
+      "Perform a testnet or small mainnet transaction using your newly integrated Snap interface.",
+      "Participate in MetaMask Community Feedback sessions on Discord or Discourse.",
+      "Stay active across Consensys ecosystem initiatives for future loyalty reward distributions."
+    ],
+    "faqs": [
+      {
+        "question": "What is MetaMask Snaps?",
+        "answer": "MetaMask Snaps is an extensible platform allowing developers to add custom features (like non-EVM chain support and security alerts) to MetaMask."
+      },
+      {
+        "question": "Can I manage Solana or Bitcoin inside MetaMask using Snaps?",
+        "answer": "Yes. Installing the corresponding Snap allows MetaMask to manage private keys and sign transactions for Solana, Bitcoin, Cosmos, and more."
+      },
+      {
+        "question": "Are MetaMask Snaps safe to install?",
+        "answer": "Yes. All Snaps in the official directory undergo security audits and run in an isolated, sandboxed environment without access to your seed phrase."
+      },
+      {
+        "question": "Is there an official MetaMask token?",
+        "answer": "Consensys leadership has previously confirmed plans for decentralized MetaMask governance (MASK token), with Snaps testers playing a key role."
+      },
+      {
+        "question": "Does installing a Snap cost gas?",
+        "answer": "No. Installing and using Snaps within your browser is completely free."
+      },
+      {
+        "question": "How do I uninstall a Snap?",
+        "answer": "You can manage or remove any installed Snap at any time via MetaMask Settings > Snaps."
+      }
+    ]
+  },
+  {
+    "id": "renzo-protocol",
+    "name": "Renzo",
+    "logo": "/images/airdrops/renzo-protocol.svg",
+    "description": "Cross-chain Liquid Restaking Protocol for EigenLayer and Symbiotic, issuing ezETH and pzETH with compound AVS yields.",
+    "reward": "$1,000 - $6,500",
+    "category": "Liquid Restaking / DeFi / EigenLayer",
+    "featured": false,
+    "status": "active",
+    "endTime": "Q1 2027",
+    "funding": "$20M+",
+    "investors": "Binance Labs, Galaxy Digital, Maven 11, Figment Capital, SevenX",
+    "refLink": "https://renzoprotocol.com",
+    "overview": "Renzo Protocol is an institutional-grade cross-chain Liquid Restaking Protocol (LRT) operating across EigenLayer and Symbiotic. Backed by over $20M from tier-1 investors including Binance Labs, Galaxy Digital, and Maven 11, Renzo manages billions in total value locked (TVL) by issuing ezETH and pzETH liquid restaking tokens.\n\nRestaking directly on EigenLayer historically locked capital on Ethereum Layer 1, causing high gas friction and complex validator delegation choices. Renzo solves this through native cross-chain deployment. Users can deposit ETH or stETH directly on low-cost Layer 2 networks—such as Arbitrum, Base, Linea, and Mode—and instantly mint ezETH, without bridging to Ethereum mainnet.\n\nRenzo's ezPoints program rewards users for minting ezETH, holding it across multi-chain wallets, and providing liquidity across partner DeFi protocols. Operating across multi-season reward epochs, Renzo distributes native $REZ governance tokens and downstream AVS rewards to active restakers.",
+    "strategy": "Mint ezETH on low-cost Layer 2s (Arbitrum, Base, or Linea) to save on gas while earning baseline ezPoints.\n\nDeposit ezETH into Pendle Finance liquidity pools or money markets like Morpho Blue to capture point multipliers.\n\nHold ezETH across seasonal snapshot boundaries to qualify for ongoing REZ distribution epochs.",
+    "tokenomics": "Community & Airdrop Incentives: 32% of total supply distributed across seasonal restaking programs.\n\nDAO Treasury & Foundation: 20% reserved for cross-chain liquidity bootstrapping and security audits.\n\nCore Team: 20% subject to standard 1-year cliff and 2-year linear vesting.\n\nStrategic Backers (Binance Labs/Galaxy): 18% under institutional lockup agreements.\n\nBinance Launchpool: 10% distributed at initial TGE.",
+    "sybilSafety": "Renzo evaluates capital efficiency and deposit duration. Rapid flash-deposits immediately withdrawn within the same epoch receive zero ezPoints.",
+    "steps": [
+      "Access the official <a href='https://renzoprotocol.com' target='_blank' rel='noopener noreferrer'>Renzo Protocol Portal</a> and connect your Web3 wallet.",
+      "Select your preferred network (Ethereum, Arbitrum, Base, or Linea).",
+      "Enter the amount of ETH, wETH, or stETH you wish to restake and approve the transaction.",
+      "Receive ezETH directly into your wallet, automatically accruing native staking yield and restaking rewards.",
+      "Deploy your ezETH into partner DeFi protocols (such as Pendle or Morpho) for leveraged point yields.",
+      "Visit the Portfolio tab to track your accumulated ezPoints and daily rank.",
+      "Participate in Renzo governance discussions on Snapshot using your REZ tokens.",
+      "Monitor the Renzo dashboard for seasonal airdrop claim windows."
+    ],
+    "faqs": [
+      {
+        "question": "What is Renzo Protocol?",
+        "answer": "Renzo is a Liquid Restaking Protocol for EigenLayer and Symbiotic that allows users to earn staking yield, restaking points, and DeFi rewards with ezETH."
+      },
+      {
+        "question": "Can I restake on Layer 2s with Renzo?",
+        "answer": "Yes. Renzo supports native deposits on Arbitrum, Base, Linea, Mode, and BNB Chain, avoiding high mainnet gas fees."
+      },
+      {
+        "question": "Who invested in Renzo Protocol?",
+        "answer": "Renzo is backed by Binance Labs, Galaxy Digital, Maven 11, and Figment Capital."
+      },
+      {
+        "question": "What is ezETH?",
+        "answer": "ezETH is Renzo's liquid restaking token representing your staked ETH plus accrued staking rewards and restaking yields."
+      },
+      {
+        "question": "Is Renzo Season 2/3 active?",
+        "answer": "Yes. Renzo conducts ongoing seasonal reward epochs distributing REZ tokens and downstream AVS rewards."
+      },
+      {
+        "question": "Can I withdraw my ETH from Renzo?",
+        "answer": "Yes. Native unstaking is fully operational, with standard queue unbonding periods."
+      }
+    ]
+  },
+  {
+    "id": "phantom-wallet",
+    "name": "Phantom",
+    "logo": "/images/airdrops/phantom-wallet.svg",
+    "description": "The premier multichain Web3 consumer wallet for Solana, Ethereum, and Bitcoin, commanding tens of millions of active users.",
+    "reward": "$1,500 - $8,000",
+    "category": "Wallet / Solana / Multichain",
+    "featured": true,
+    "status": "active",
+    "endTime": "Q2 2027",
+    "funding": "$118M",
+    "investors": "Paradigm, a16z crypto, Variant, Solana Ventures, Jump Capital",
+    "refLink": "https://phantom.app",
+    "overview": "Phantom is the world's leading consumer-friendly Web3 cryptocurrency wallet, originally built as the definitive portal for the Solana blockchain and now expanded into an omnichain experience supporting Solana, Ethereum, Polygon, and Bitcoin. Backed by $118M in venture funding led by Paradigm and a16z crypto, Phantom commands over 15 million monthly active users worldwide.\n\nPhantom revolutionized the Web3 user experience with biometric authentication, built-in non-custodial cross-chain token swappers, automated spam NFT burning, and hardware wallet integrations. By removing technical jargon and providing intuitive security features—such as real-time transaction simulation and malicious website warnings—Phantom became the default entry point for the decentralized internet.\n\nWith the introduction of the Phantom In-App Quest Engine and cross-chain swapper, users frequently earn exclusive commemorative collectibles and partner protocol airdrops. Industry researchers widely anticipate an eventual decentralized governance framework from Phantom, rewarding long-term active swappers and multichain power users.",
+    "strategy": "Utilize Phantom's native in-app Cross-Chain Swapper regularly to bridge and swap assets across Solana, Ethereum, and Bitcoin.\n\nComplete featured partner quests in the Explore/Quest tab of the Phantom mobile and browser extension.\n\nStake native SOL directly through Phantom's validator delegation interface to generate continuous on-chain activity.",
+    "tokenomics": "Community Airdrop & Power User Rewards: Anticipated community allocation for verified in-app swappers and quest completers.\n\nEcosystem Development & Mobile Engineering: Long-term protocol reserves.\n\nCore Founding Team & Venture Backers (Paradigm/a16z): Subject to multi-year institutional vesting.",
+    "sybilSafety": "Phantom tracks authentic multi-network wallet age, transaction diversity, and native swapper utilization. Dormant wallets with single micro-swaps will not satisfy top tier criteria.",
+    "steps": [
+      "Download the official <a href='https://phantom.app' target='_blank' rel='noopener noreferrer'>Phantom Wallet</a> extension or mobile app.",
+      "Safely backup your 12-word Secret Recovery Phrase offline.",
+      "Fund your wallet with native SOL or ETH from a centralized exchange or external address.",
+      "Open the in-app Swap tab and execute token swaps across major trading pairs.",
+      "Utilize the Cross-Chain Bridge feature to transfer assets seamlessly between Solana and Ethereum.",
+      "Access the Explore tab to discover active in-app partner quests and mint commemorative badges.",
+      "Delegate a fraction of your SOL to verified validators directly in the staking menu.",
+      "Maintain active monthly transactions across diverse dApps using Phantom."
+    ],
+    "faqs": [
+      {
+        "question": "What is Phantom Wallet?",
+        "answer": "Phantom is a premier non-custodial multichain Web3 wallet supporting Solana, Ethereum, Polygon, and Bitcoin."
+      },
+      {
+        "question": "How much funding has Phantom raised?",
+        "answer": "Phantom has raised over $118M in venture capital led by Paradigm and a16z crypto."
+      },
+      {
+        "question": "Is there an official Phantom token?",
+        "answer": "No token has launched yet, but community incentives and governance decentralization remain widely anticipated."
+      },
+      {
+        "question": "How can I qualify for potential Phantom rewards?",
+        "answer": "By utilizing the native in-app swapper, completing in-app quests, and maintaining consistent on-chain activity."
+      },
+      {
+        "question": "Is Phantom non-custodial?",
+        "answer": "Yes. Phantom never has access to your private keys or funds; you retain 100% control of your recovery phrase."
+      },
+      {
+        "question": "Does Phantom support hardware wallets?",
+        "answer": "Yes. Phantom natively integrates with Ledger and Keystone hardware wallets."
+      }
+    ]
+  },
+  {
+    "id": "backpack-exchange",
+    "name": "Backpack",
+    "logo": "/images/airdrops/backpack-exchange.svg",
+    "description": "Next-generation crypto exchange and xNFT wallet ecosystem created by Coral, backed by Placeholder and Wintermute.",
+    "reward": "$1,500 - $10,000",
+    "category": "Exchange / Wallet / Solana",
+    "featured": true,
+    "status": "active",
+    "endTime": "Q1 2027",
+    "funding": "$37M",
+    "investors": "Placeholder VC, Wintermute, Robot Ventures, Amber Group, Delphi Digital",
+    "refLink": "https://backpack.exchange",
+    "overview": "Backpack is a revolutionary Web3 financial ecosystem comprising the Backpack Wallet (the pioneer of executable xNFTs) and Backpack Exchange—a fully regulated, high-throughput cryptocurrency exchange. Developed by Coral (the creators of the Solana Anchor smart contract framework and the iconic Mad Lads NFT collection), Backpack has secured $37M in institutional funding led by Placeholder VC and Wintermute.\n\nFollowing the collapse of traditional centralized exchanges, Backpack introduces a trust-minimized architecture that pairs off-chain low-latency order matching with on-chain cryptographic proof of reserves. The Backpack Wallet integrates directly with the exchange, enabling users to trade spot and perpetual contracts with zero custody risk and lightning execution speeds.\n\nBackpack conducts seasonal Volume & Pre-Season Leaderboard campaigns, allocating massive partner airdrops (including Wormhole $W, Tensor $TNSR, and Pyth $PYTH) to active traders. Participants generating authentic spot and perpetual trading volume position themselves for the definitive Backpack ecosystem token distribution.",
+    "strategy": "Complete identity verification (KYC) on Backpack Exchange and deposit USDC or SOL trading capital.\n\nExecute consistent maker and taker trading volume across major spot and perpetual pairs during active ranking seasons.\n\nHold Mad Lads NFTs or utilize the Backpack Wallet for daily on-chain dApp transactions to activate volume multipliers.",
+    "tokenomics": "Community Trading Rewards & Seasons: 40% allocated across seasonal trading leagues and ecosystem airdrops.\n\nExchange Treasury & Global Compliance: 25% reserved for licensing, market maker subsidies, and insurance funds.\n\nCore Engineering Team: 20% subject to standard 1-year cliff and 3-year vesting.\n\nStrategic Investors (Placeholder/Wintermute): 15% with institutional lockup terms.",
+    "sybilSafety": "Backpack enforces strict KYC verification and anti-wash-trading algorithms. Self-matching orders and bot volume manipulation are disqualified from leaderboard points.",
+    "steps": [
+      "Access the official <a href='https://backpack.exchange' target='_blank' rel='noopener noreferrer'>Backpack Exchange Portal</a> and create an account.",
+      "Complete the standard KYC verification process to unlock full trading tiers.",
+      "Install the Backpack Wallet browser extension or mobile app.",
+      "Deposit USDC or SOL into your Backpack Exchange account.",
+      "Trade active spot and perpetual markets (e.g. SOL/USDC, BTC/USDC) to accumulate volume points.",
+      "Engage in seasonal trading competitions to climb the public leaderboard.",
+      "Use your Backpack Wallet to connect to top Solana and Ethereum dApps.",
+      "Track your reward distributions on the Backpack Rewards portal."
+    ],
+    "faqs": [
+      {
+        "question": "What is Backpack?",
+        "answer": "Backpack is an integrated Web3 ecosystem featuring a non-custodial wallet and a regulated, high-performance crypto exchange."
+      },
+      {
+        "question": "Who created Backpack?",
+        "answer": "Backpack was created by Armani Ferrante, Tristan Yver, and the Coral team, creators of the Anchor framework and Mad Lads."
+      },
+      {
+        "question": "How much has Backpack raised?",
+        "answer": "Backpack has raised $37M from Placeholder VC, Wintermute, Robot Ventures, and leading crypto funds."
+      },
+      {
+        "question": "Does Backpack distribute partner airdrops?",
+        "answer": "Yes. Active Backpack traders have received millions in partner tokens including Wormhole (W), Pyth, and Tensor."
+      },
+      {
+        "question": "Is KYC required on Backpack Exchange?",
+        "answer": "Yes. The exchange is globally regulated and requires basic identity verification to ensure compliance and security."
+      },
+      {
+        "question": "When is the official Backpack token launch?",
+        "answer": "The native Backpack ecosystem token is targeted for early 2027 following the conclusion of Pre-Season trading epochs."
+      }
+    ]
+  },
+  {
+    "id": "taho-wallet",
+    "name": "Taho",
+    "logo": "/images/airdrops/taho-wallet.svg",
+    "description": "100% community-owned, open-source Web3 wallet governed by a decentralized SubDAO, dedicated to the digital commons.",
+    "reward": "$600 - $3,500",
+    "category": "Wallet / Community / Multi-Chain",
+    "featured": false,
+    "status": "active",
+    "endTime": "Q1 2027",
+    "funding": "Community Owned",
+    "investors": "Gitcoin, Optimism Grants, Web3 Community DAOs",
+    "refLink": "https://taho.xyz",
+    "overview": "Taho (formerly Tally Ho) is the world's first 100% community-owned, open-source Web3 wallet, built as a direct decentralized alternative to corporate-owned wallets like MetaMask. Founded on the principle that the default gateway to Web3 should belong to its users, Taho routes 100% of its protocol swap fees directly into a community-governed SubDAO treasury.\n\nUnlike traditional wallets that monetize through opaque tracking and proprietary code, Taho is fully audited, GPL-licensed, and features native Ledger hardware wallet support. Taho offers built-in multichain asset tracking across Ethereum, Arbitrum, Optimism, Polygon, and Base, alongside an intuitive NFT gallery and a low-fee native DEX swapper.\n\nTaho operates the 'SubDAO Community Realms' and community beta testing campaigns. Users who swap assets through Taho's native swapper, sign the Community Pledge, and participate in community governance on Galxe earn verified on-chain credentials that qualify for the future community governance token distribution.",
+    "strategy": "Install the Taho browser extension and set it as your default Web3 wallet.\n\nExecute recurring token swaps using the native Taho in-wallet swapper to generate on-chain swap fee contributions.\n\nSign the Taho Community Pledge and join the Taho SubDAO Realm to claim exclusive community roles.",
+    "tokenomics": "Community SubDAO & User Airdrop: 50% of governance token supply earmarked directly for community wallet users.\n\nPublic Goods & Gitcoin Treasury: 25% allocated to support foundational open-source Web3 developers.\n\nCore Contributors & Maintainers: 25% subject to community-governed vesting milestones.",
+    "sybilSafety": "Taho rewards authentic wallet longevity and multi-chain swap frequency. Wallets generated exclusively to execute a single zero-fee transaction will not qualify for higher governance tiers.",
+    "steps": [
+      "Download the official <a href='https://taho.xyz' target='_blank' rel='noopener noreferrer'>Taho Wallet</a> browser extension from Chrome Web Store.",
+      "Import an existing EVM wallet or create a new recovery phrase.",
+      "Set Taho as your default Web3 wallet in the extension settings.",
+      "Execute token swaps between ETH and stablecoins using the native Taho swapper.",
+      "Sign the on-chain Taho Community Pledge to claim your verified supporter credential.",
+      "Join the Taho Discord server to participate in community community town halls.",
+      "Complete Taho community quest campaigns on Galxe and Gitcoin.",
+      "Monitor governance announcements on the Taho SubDAO governance portal."
+    ],
+    "faqs": [
+      {
+        "question": "What is Taho Wallet?",
+        "answer": "Taho is the first 100% open-source, community-owned Web3 wallet governed entirely by a decentralized SubDAO."
+      },
+      {
+        "question": "Where do Taho swap fees go?",
+        "answer": "All swap fees generated by the in-wallet DEX aggregator go directly into the community SubDAO treasury."
+      },
+      {
+        "question": "Is Taho free and open-source?",
+        "answer": "Yes. Taho is licensed under the GPL-3.0 open-source license, allowing anyone to verify and inspect the code."
+      },
+      {
+        "question": "Does Taho support hardware wallets?",
+        "answer": "Yes. Taho provides native support for Ledger hardware wallets."
+      },
+      {
+        "question": "What networks does Taho support?",
+        "answer": "Taho supports Ethereum, Arbitrum, Optimism, Base, Polygon, and major EVM Layer 2s."
+      },
+      {
+        "question": "When is the Taho community token launch?",
+        "answer": "The community token and DAO decentralization are planned across early 2027."
+      }
+    ]
+  },
+  {
+    "id": "virtuals-protocol",
+    "name": "Virtuals Protocol",
+    "logo": "/images/airdrops/virtuals-protocol.svg",
+    "description": "Decentralized AI agent co-ownership protocol on Base, enabling tokenized autonomous gaming and consumer AI agents.",
+    "reward": "$1,000 - $6,000",
+    "category": "AI / Base / Autonomous Agents",
+    "featured": false,
+    "status": "active",
+    "endTime": "Q1 2027",
+    "funding": "Ecosystem Backed",
+    "investors": "Base Ecosystem Fund, Web3 AI Incubators, Gaming VCs",
+    "refLink": "https://virtuals.io",
+    "overview": "Virtuals Protocol is an innovative decentralized artificial intelligence and autonomous agent co-ownership protocol deployed natively on Base. Built to decentralize the ownership and monetization of AI personas across gaming, entertainment, and virtual worlds, Virtuals Protocol allows anyone to co-own, deploy, and profit from autonomous on-chain AI agents.\n\nWhile traditional AI agents are confined to isolated corporate servers, agents launched on Virtuals Protocol own their own decentralized tokenomics, modular text-to-speech models, and on-chain wallets. Each AI agent is represented by a fair-launch token bonded to a liquidity pool. As the AI agent gains popularity, generates revenue through virtual streaming, or completes on-chain tasks, protocol fees automatically buy back and burn the agent's tokens.\n\nOperating as a central pillar of the 'AI Agent Mania' on Base, Virtuals Protocol enables community members to stake $VIRTUAL tokens behind emerging AI agents, participate in genesis agent launches, and earn points that qualify for upcoming ecosystem reward distributions.",
+    "strategy": "Stake native VIRTUAL tokens on Base to participate in AI agent launchpad allocations and governance yield.\n\nProvide liquidity into premier AI agent token pools (such as LUNA or AIXBT) on Uniswap or native Base AMMs.\n\nInteract with virtual AI agents across live streams and social media channels to accumulate community activity points.",
+    "tokenomics": "Community Agent Mining & Liquidity: 40% allocated over multi-epoch curves for agent stakers and liquidity providers.\n\nAI Model Development & Ecosystem Treasury: 25% reserved for agent framework SDKs and developer bounties.\n\nCore Engineering Team: 20% subject to standard 1-year cliff and 3-year vesting.\n\nEarly Strategic Backers: 15% with institutional lockup agreements.",
+    "sybilSafety": "Virtuals Protocol analyzes on-chain staking duration and transaction diversity on Base. Rapid token churning without staking commitments yields zero seasonal points.",
+    "steps": [
+      "Access the official <a href='https://virtuals.io' target='_blank' rel='noopener noreferrer'>Virtuals Protocol Portal</a> and connect your Base Web3 wallet.",
+      "Acquire VIRTUAL tokens on Base via Uniswap or Aerodrome.",
+      "Explore the AI Agent Showcase to view active autonomous agents (e.g. AI streamers and trading agents).",
+      "Stake VIRTUAL into top-performing agent pools to earn revenue share and agent allocation points.",
+      "Participate in the Genesis Launchpad to co-fund new autonomous AI agents.",
+      "Interact with AI agents during live streaming events to test autonomous conversation loops.",
+      "Join the Virtuals Protocol Discord server to participate in agent prompt governance.",
+      "Monitor your accumulated staking yield and seasonal rewards on the staking dashboard."
+    ],
+    "faqs": [
+      {
+        "question": "What is Virtuals Protocol?",
+        "answer": "Virtuals Protocol is an autonomous AI agent co-ownership platform on Base that allows users to co-own and monetize AI personas."
+      },
+      {
+        "question": "What is an autonomous AI agent?",
+        "answer": "An autonomous agent is an AI entity that can chat, stream, make on-chain decisions, and manage its own crypto wallet independently."
+      },
+      {
+        "question": "What blockchain does Virtuals Protocol run on?",
+        "answer": "Virtuals Protocol operates natively on Base, benefiting from low gas fees and Ethereum security."
+      },
+      {
+        "question": "What is the utility of the $VIRTUAL token?",
+        "answer": "VIRTUAL is used as the base pairing asset for all AI agent pools, for staking, and for launchpad allocations."
+      },
+      {
+        "question": "How do agent co-owners make money?",
+        "answer": "When an AI agent earns revenue from streaming, gaming, or subscriptions, a portion of revenue is used to buy back and burn tokens."
+      },
+      {
+        "question": "When are seasonal airdrop rewards distributed?",
+        "answer": "Ecosystem incentive epochs run continuously across Q1 2027."
+      }
+    ]
+  },
+  {
+    "id": "kodiak-finance",
+    "name": "Kodiak",
+    "logo": "/images/airdrops/kodiak-finance.svg",
+    "description": "Berachain's premier native concentrated liquidity AMM and automated BGT yield factory.",
+    "reward": "$1,500 - $8,000",
+    "category": "DeFi / DEX / Berachain",
+    "featured": true,
+    "status": "active",
+    "endTime": "Q1 2027",
+    "funding": "$2M+",
+    "investors": "Build a Bera, Amber Group, Shima Capital,dao5, Baboon VC",
+    "refLink": "https://kodiak.finance",
+    "overview": "Kodiak is the premier native concentrated liquidity automated market maker (AMM) built from the ground up for Berachain's revolutionary Proof-of-Liquidity (PoL) ecosystem. Supported by prominent Berachain venture funds including Build a Bera, dao5, and Amber Group, Kodiak is engineered as the primary decentralized trading and liquidity engine of the Berachain network.\n\nBerachain's consensus mechanism uniquely directs validator staking rewards (BGT) to liquidity pools that benefit the broader on-chain economy. Kodiak capitalizes on this through its 'Islands' automated liquidity vaults. Instead of requiring users to manually manage complex concentrated liquidity price ranges, Kodiak Islands automatically rebalance liquidity, compound trading fees, and maximize Berachain BGT validator rewards.\n\nDuring the active Berachain bArtio testnet, Kodiak is the central venue for swapping test tokens, providing concentrated liquidity, and testing automated vaults. Users testing Kodiak on bArtio accumulate verified on-chain metrics that directly position them for major token allocations at Berachain mainnet genesis.",
+    "strategy": "Obtain testnet BERA from the official bArtio faucet and execute daily token swaps on Kodiak.\n\nDeposit testnet liquidity into Kodiak Islands automated vaults (such as BERA/HONEY) to earn compound yield and testnet XP.\n\nLock Kodiak LP positions across snapshot epochs to establish long-term liquidity provider credentials.",
+    "tokenomics": "Community Liquidity & Proof-of-Liquidity Mining: 48% allocated over multi-year PoL emissions curves.\n\nEcosystem Partnerships & DAO Treasury: 22% reserved for BGT validator alignment and partner pools.\n\nCore Engineering Team: 18% subject to standard 1-year cliff and 3-year vesting.\n\nStrategic Backers (Build a Bera): 12% with venture lockup terms.",
+    "sybilSafety": "Kodiak tracks authentic LP duration, pool variety, and interaction with Berachain Proof-of-Liquidity contracts. Automated script spamming without real liquidity depth is filtered out.",
+    "steps": [
+      "Access the official <a href='https://kodiak.finance' target='_blank' rel='noopener noreferrer'>Kodiak Portal</a> and connect your EVM wallet.",
+      "Switch your wallet network to Berachain bArtio Testnet.",
+      "Request testnet BERA from the official Berachain faucet.",
+      "Execute token swaps between BERA, HONEY, and WETH on the Kodiak Swap tab.",
+      "Navigate to the Islands tab to select an automated concentrated liquidity vault.",
+      "Deposit paired assets to begin earning simulated trading fees and BGT validator incentives.",
+      "Join the Kodiak Discord community and verify your roles in the testnet channel.",
+      "Track your liquidity positions ahead of the Berachain Mainnet Genesis transition."
+    ],
+    "faqs": [
+      {
+        "question": "What is Kodiak Finance?",
+        "answer": "Kodiak is the premier native concentrated liquidity DEX on Berachain, featuring automated liquidity management via Kodiak Islands."
+      },
+      {
+        "question": "What are Kodiak Islands?",
+        "answer": "Islands are automated vaults that manage concentrated liquidity ranges automatically, maximizing fees and eliminating manual rebalancing."
+      },
+      {
+        "question": "How does Kodiak integrate with Proof-of-Liquidity?",
+        "answer": "Kodiak pools are whitelisted to receive Berachain validator BGT rewards, creating higher yields for liquidity providers."
+      },
+      {
+        "question": "Is testnet participation free?",
+        "answer": "Yes. All operations on the Berachain bArtio testnet utilize free faucet tokens."
+      },
+      {
+        "question": "Who backed Kodiak?",
+        "answer": "Kodiak is backed by Build a Bera, dao5, Amber Group, and Shima Capital."
+      },
+      {
+        "question": "When is the Kodiak mainnet launch?",
+        "answer": "Kodiak will launch on mainnet simultaneously with the Berachain Genesis mainnet rollout in Q4 2026/Q1 2027."
+      }
+    ]
+  },
+  {
+    "id": "ooga-booga",
+    "name": "Ooga Booga",
+    "logo": "/images/airdrops/ooga-booga.svg",
+    "description": "The native liquidity aggregator and smart order routing engine for Berachain, finding the optimal swap routes across all DEXs.",
+    "reward": "$800 - $4,500",
+    "category": "DeFi / Aggregator / Berachain",
+    "featured": false,
+    "status": "active",
+    "endTime": "Q1 2027",
+    "funding": "$1M+",
+    "investors": "Kenetic Capital, Cypher Capital, CitizenX, Rubik Ventures",
+    "refLink": "https://oogabooga.io",
+    "overview": "Ooga Booga is the premier native decentralized exchange aggregator and smart order routing engine engineered specifically for the Berachain ecosystem. Founded by 19-year-old crypto native builder Kevin Liu and backed by Kenetic Capital, Cypher Capital, and leading Berachain angel investors, Ooga Booga serves as the '1inch of Berachain'.\n\nAs hundreds of liquidity pools, AMMs, and money markets launch on Berachain, liquidity becomes fragmented across disparate protocols. Ooga Booga solves this by splitting orders across multiple DEXs (including BEX, Kodiak, and Beraswap) in a single transaction, guaranteeing traders the deepest liquidity, lowest slippage, and optimal price execution.\n\nOoga Booga has been active throughout the Berachain testnet phases, processing millions in testnet swap volume. Users who execute multi-hop swaps, test the aggregator API, and complete community quests earn verified Ooga Booga credits that translate into the upcoming native token distribution.",
+    "strategy": "Set Ooga Booga as your default swap interface whenever trading on the Berachain bArtio testnet.\n\nExecute multi-hop swaps across diverse asset pairs to test the smart order routing engine.\n\nParticipate in community leaderboard competitions and claim commemorative Ooga Booga testnet badges.",
+    "tokenomics": "Community Airdrop & Trader Mining: 45% allocated to active testnet and mainnet swap users.\n\nEcosystem Router Grants & Treasury: 25% reserved for cross-chain API integrations and liquidity incentives.\n\nCore Development Team: 18% subject to 1-year cliff and 3-year vesting.\n\nStrategic Investors: 12% with institutional lockup terms.",
+    "sybilSafety": "Ooga Booga filters automated micro-swaps through route complexity checks and minimum volume thresholds on the Berachain testnet.",
+    "steps": [
+      "Access the official <a href='https://oogabooga.io' target='_blank' rel='noopener noreferrer'>Ooga Booga Portal</a> and connect your Web3 wallet.",
+      "Switch your network to the Berachain bArtio Testnet.",
+      "Select your input token (e.g. BERA) and destination token (e.g. HONEY).",
+      "Inspect the Smart Order Route breakdown to see how your trade splits across Berachain AMMs.",
+      "Execute the swap and confirm the transaction in your wallet.",
+      "Join the Ooga Booga Discord server to verify your community roles and report feedback.",
+      "Complete community quests on Galxe to earn early supporter badges.",
+      "Monitor the announcement channels for mainnet launch details and token airdrop snapshot dates."
+    ],
+    "faqs": [
+      {
+        "question": "What is Ooga Booga?",
+        "answer": "Ooga Booga is the leading DEX aggregator on Berachain, routing trades through multiple AMMs to secure the best swap prices."
+      },
+      {
+        "question": "Why should I use an aggregator instead of a single DEX?",
+        "answer": "Aggregators split orders across all existing DEXs, preventing slippage on large trades and finding routes that individual DEXs cannot offer."
+      },
+      {
+        "question": "Who invested in Ooga Booga?",
+        "answer": "Ooga Booga raised funding from Kenetic Capital, Cypher Capital, CitizenX, and prominent Berachain angels."
+      },
+      {
+        "question": "Is testnet trading free on Ooga Booga?",
+        "answer": "Yes. All swaps on the bArtio testnet use free faucet tokens."
+      },
+      {
+        "question": "Does Ooga Booga charge extra fees?",
+        "answer": "No. The aggregator routes your trades without adding extra protocol fees, saving you money on gas and slippage."
+      },
+      {
+        "question": "When is the Ooga Booga token generation event?",
+        "answer": "The TGE will align with Berachain's mainnet rollout across Q4 2026 / Q1 2027."
+      }
+    ]
+  },
+  {
+    "id": "fluid-dex",
+    "name": "Fluid",
+    "logo": "/images/airdrops/fluid-dex.svg",
+    "description": "Hyper-capital-efficient decentralized money market and DEX protocol engineered by the Instadapp core development team.",
+    "reward": "$1,500 - $8,000",
+    "category": "DeFi / Lending / DEX",
+    "featured": false,
+    "status": "active",
+    "endTime": "Q1 2027",
+    "funding": "$10M+ Instadapp",
+    "investors": "Standard Crypto, Balaji Srinivasan, Pantera Capital, Naval Ravikant",
+    "refLink": "https://fluid.instadapp.io",
+    "overview": "Fluid is an innovative, hyper-efficient decentralized financial protocol engineered by the core development team behind Instadapp. Backed by over $10M from elite technology and crypto investors including Standard Crypto, Pantera Capital, Balaji Srinivasan, and Naval Ravikant, Fluid solves the fundamental capital fragmentation that separates decentralized lending markets from automated market makers.\n\nIn traditional DeFi, capital deposited into a lending protocol (like Aave) sits isolated from capital in decentralized exchanges (like Uniswap). Fluid's unified architecture combines lending, borrowing, and DEX liquidity into a single shared liquidity pool. The same dollar of collateral deposited into Fluid can simultaneously back a collateralized debt position while serving as liquidity for automated swaps, generating double yield stacks with zero added risk.\n\nFluid commands hundreds of millions in TVL across Ethereum, Arbitrum, and Base. Users supplying liquidity, borrowing against blue-chip assets, and providing liquidity to Fluid DEX pools accumulate daily protocol points, setting the stage for significant governance rewards.",
+    "strategy": "Supply collateral (ETH, wstETH, or USDC) into Fluid Lending markets on Ethereum, Arbitrum, or Base.\n\nBorrow against your collateral at industry-leading low borrow rates to generate active borrowing volume points.\n\nProvide liquidity into Fluid DEX smart debt and trading pools to capture compound lending APY plus swap fees.",
+    "tokenomics": "Community Protocol Mining & Liquidity: 45% allocated over a multi-year emission curve to active lenders and borrowers.\n\nInstadapp DAO & Ecosystem: 25% dedicated to cross-chain liquidity bootstrapping and security reserves.\n\nCore Engineering Team: 18% subject to standard 1-year cliff and 3-year vesting.\n\nStrategic Investors: 12% with institutional lockup terms.",
+    "sybilSafety": "Fluid calculates rewards strictly based on actual capital efficiency and loan duration. Zero-balance flash interactions yield zero points.",
+    "steps": [
+      "Access the official <a href='https://fluid.instadapp.io' target='_blank' rel='noopener noreferrer'>Fluid Protocol Portal</a> and connect your EVM wallet.",
+      "Select your preferred network (Ethereum, Arbitrum, or Base).",
+      "Navigate to the Supply tab and deposit supported collateral (such as ETH or USDC).",
+      "Optionally borrow against your deposited assets to maximize your active capital utilization score.",
+      "Explore the Fluid DEX tab to provide liquidity into capital-efficient trading pairs.",
+      "Monitor your accumulated yields and daily protocol points on the personal dashboard.",
+      "Join the Instadapp/Fluid Discord community to participate in governance workshops.",
+      "Hold your deposited positions across seasonal snapshot intervals to maximize rewards."
+    ],
+    "faqs": [
+      {
+        "question": "What is Fluid?",
+        "answer": "Fluid is a unified DeFi protocol that combines lending, borrowing, and DEX liquidity into a single shared capital pool."
+      },
+      {
+        "question": "Who developed Fluid?",
+        "answer": "Fluid was developed by the core team behind Instadapp, one of DeFi's most established middleware protocols."
+      },
+      {
+        "question": "What makes Fluid more efficient than Aave or Uniswap?",
+        "answer": "Fluid allows the same collateral to back a loan while simultaneously earning trading fees as DEX liquidity, multiplying user yields."
+      },
+      {
+        "question": "Which networks is Fluid deployed on?",
+        "answer": "Fluid is currently live on Ethereum mainnet, Arbitrum, and Base."
+      },
+      {
+        "question": "Who invested in the team behind Fluid?",
+        "answer": "Investors include Pantera Capital, Standard Crypto, Balaji Srinivasan, and Naval Ravikant."
+      },
+      {
+        "question": "When will Fluid airdrop tokens be distributed?",
+        "answer": "Token distribution schedules are slated across Q1 2027 in alignment with protocol decentralization."
+      }
+    ]
+  },
+  {
+    "id": "lisk-l2",
+    "name": "Lisk",
+    "logo": "/images/airdrops/lisk-l2.svg",
+    "description": "OP Superchain modular Layer 2 rollup powered by Gelato RaaS, bringing Real World Assets (RWA) and DePIN to emerging markets.",
+    "reward": "$1,000 - $5,500",
+    "category": "Layer 2 / Superchain / RWA",
+    "featured": false,
+    "status": "active",
+    "endTime": "Q1 2027",
+    "funding": "$15M+ Treasury",
+    "investors": "Lisk Foundation, Optimism Superchain, Gelato Network",
+    "refLink": "https://lisk.com",
+    "overview": "Lisk has evolved into an OP Stack modular Layer 2 rollup integrated into the Optimism Superchain, powered by Gelato's Rollup-as-a-Service infrastructure. With over a decade of continuous blockchain development and a massive $15M+ treasury, Lisk has dedicated its high-speed Layer 2 architecture to scaling Real World Assets (RWA), decentralized physical infrastructure (DePIN), and financial inclusion across emerging markets.\n\nBy migrating from its legacy standalone L1 to an Ethereum Layer 2 powered by the OP Stack, Lisk gains native Ethereum security, sub-cent gas fees, and seamless interoperability across the Superchain alongside Base, Optimism, and Mode. Transactions settle with near-instant finality, backed by Gelato's decentralized relayer and automated execution infrastructure.\n\nLisk is running an active Airdrop Points Campaign rewarding users for bridging assets from Ethereum to Lisk L2, executing swaps on native DEXs, and deploying liquidity into ecosystem dApps. Users accumulating Lisk Points qualify directly for $LSK token grants and partner ecosystem allocations.",
+    "strategy": "Bridge ETH or USDT from Ethereum mainnet or Base onto Lisk L2 using the official Lisk bridge.\n\nExecute weekly swaps on native Lisk decentralized exchanges (such as Velodrome Lisk or Oku Trade).\n\nDeploy assets into ecosystem lending pools and complete verified community quests on the Lisk Airdrop portal.",
+    "tokenomics": "Community Airdrop & Builder Incentives: 40% dedicated to early L2 bridgers, liquidity providers, and dApp users.\n\nSuperchain Grants & Ecosystem Treasury: 30% allocated for emerging market RWA projects and DePIN grants.\n\nLisk Foundation Operations: 20% reserved for long-term network sustainability.\n\nCore Engineering: 10% subject to standard vesting schedules.",
+    "sybilSafety": "Lisk tracks genuine bridge activity, multi-week transaction consistency, and interaction with verified ecosystem smart contracts.",
+    "steps": [
+      "Navigate to the official <a href='https://lisk.com' target='_blank' rel='noopener noreferrer'>Lisk L2 Portal</a> and connect your EVM wallet.",
+      "Add the Lisk L2 network configuration to your MetaMask or Rabby wallet.",
+      "Bridge ETH or stablecoins from Ethereum to Lisk L2 via the official Lisk Bridge.",
+      "Swap tokens on premier Lisk L2 decentralized exchanges like Oku Trade.",
+      "Deposit liquidity into Lisk ecosystem pools to earn swap fees and Lisk Points.",
+      "Complete community quests on the official Lisk Airdrop campaign dashboard.",
+      "Join the Lisk Discord community and claim verified Discord roles in the verification channel.",
+      "Check your rank on the Lisk Points leaderboard ahead of upcoming snapshot milestones."
+    ],
+    "faqs": [
+      {
+        "question": "What is Lisk L2?",
+        "answer": "Lisk is an Optimism Superchain Layer 2 rollup powered by Gelato RaaS, focused on bringing RWAs and DePIN to emerging markets."
+      },
+      {
+        "question": "What network security does Lisk rely on?",
+        "answer": "Lisk settles directly on Ethereum Layer 1, inheriting Ethereum's cryptographic security and decentralized consensus."
+      },
+      {
+        "question": "Is Lisk part of the Optimism Superchain?",
+        "answer": "Yes. Lisk is built on the OP Stack and shares native interoperability with Base, Optimism, and Mode."
+      },
+      {
+        "question": "How do I earn Lisk Airdrop Points?",
+        "answer": "By bridging assets to Lisk L2, trading on ecosystem DEXs, providing liquidity, and completing community quests."
+      },
+      {
+        "question": "What is the native gas token on Lisk L2?",
+        "answer": "Gas fees on Lisk L2 are paid in native ETH, keeping costs below a fraction of a cent per transaction."
+      },
+      {
+        "question": "When will Lisk airdrop rewards be distributed?",
+        "answer": "Airdrop distributions and points redemptions are scheduled across Q1 2027."
+      }
+    ]
+  },
+  {
+    "id": "tensorplex-labs",
+    "name": "Tensorplex",
+    "logo": "/images/airdrops/tensorplex-labs.svg",
+    "description": "Decentralized AI capital allocation and liquid staking protocol built on top of the Bittensor (TAO) network.",
+    "reward": "$1,000 - $6,500",
+    "category": "AI / Staking / Bittensor",
+    "featured": false,
+    "status": "active",
+    "endTime": "Q1 2027",
+    "funding": "Seed Backed",
+    "investors": "Collab+Currency, Amber Group, Mechanism Capital, Quantitative Crypto Funds",
+    "refLink": "https://tensorplex.ai",
+    "overview": "Tensorplex Labs is a pioneering decentralized artificial intelligence infrastructure and capital allocation protocol built specifically to democratize access to the Bittensor ($TAO) intelligence network. Backed by prominent venture capital firms including Collab+Currency, Amber Group, and Mechanism Capital, Tensorplex bridges the gap between decentralized machine learning and decentralized finance.\n\nBittensor is the world's largest open-source peer-to-peer intelligence network, yet native TAO staking requires technical subnet delegation and locked capital. Tensorplex introduces liquid staking for Bittensor through stTAO (on Arbitrum and Ethereum). Users stake TAO or ETH to mint stTAO, earning high-yield Bittensor subnet validation rewards while maintaining complete liquidity to trade, lend, or farm across EVM DeFi.\n\nFurthermore, Tensorplex's decentralized capital allocation engine programmatically directs staked capital to the highest-performing Bittensor subnets (such as subnets for code generation, 3D modeling, and financial prediction). Users staking assets on Tensorplex and participating in AI evaluation quests earn Tensorplex Points that will convert into native protocol governance tokens.",
+    "strategy": "Stake TAO or mint stTAO on Arbitrum or Ethereum via the Tensorplex web dApp.\n\nDeposit stTAO into supported DeFi liquidity pools or money markets on Arbitrum.\n\nParticipate in Tensorplex AI subnet evaluation rounds to boost your seasonal points multiplier.",
+    "tokenomics": "Community Liquid Staking & Airdrop: 42% allocated over multi-year subnet staking curves.\n\nAI Subnet Reserve & DAO Treasury: 25% reserved for algorithmic subnet allocation and liquidity seeding.\n\nCore Research & Engineering: 20% subject to standard 1-year cliff and 3-year linear vesting.\n\nStrategic Investors: 13% with venture lockup agreements.",
+    "sybilSafety": "Tensorplex evaluates actual staked capital, subnet delegation longevity, and on-chain LP positions. Quick flash-deposits yield zero seasonal points.",
+    "steps": [
+      "Access the official <a href='https://tensorplex.ai' target='_blank' rel='noopener noreferrer'>Tensorplex Portal</a> and connect your EVM Web3 wallet.",
+      "Switch your wallet network to Arbitrum or Ethereum mainnet.",
+      "Navigate to the Staking section to stake native TAO or swap ETH for stTAO.",
+      "Receive stTAO in your wallet, automatically accruing daily Bittensor subnet validation yields.",
+      "Deploy your stTAO into partner DeFi vaults on Arbitrum for compound returns.",
+      "Explore the Subnet Intelligence dashboard to vote on subnet allocation models.",
+      "Join the Tensorplex Discord community to claim verified Staker and Contributor roles.",
+      "Track your accumulated points on the Tensorplex Leaderboard ahead of the TGE."
+    ],
+    "faqs": [
+      {
+        "question": "What is Tensorplex Labs?",
+        "answer": "Tensorplex is a decentralized AI capital allocation protocol that provides liquid staking for the Bittensor ($TAO) network via stTAO."
+      },
+      {
+        "question": "What is stTAO?",
+        "answer": "stTAO is a liquid staked token backed 1:1 by TAO delegated across Bittensor subnets, allowing users to earn AI validation yields on EVM chains."
+      },
+      {
+        "question": "Who funded Tensorplex?",
+        "answer": "Tensorplex raised funding from Collab+Currency, Amber Group, and Mechanism Capital."
+      },
+      {
+        "question": "Do I need to own a Bittensor wallet to use Tensorplex?",
+        "answer": "No. You can mint and hold stTAO using standard EVM wallets like MetaMask or Rabby on Arbitrum."
+      },
+      {
+        "question": "How does Tensorplex select Bittensor subnets?",
+        "answer": "An automated capital allocation algorithm continuously analyzes subnet performance, validator emissions, and model accuracy to maximize yields."
+      },
+      {
+        "question": "When is the Tensorplex token launch?",
+        "answer": "The token generation event and community distribution are targeted for Q1 2027."
+      }
+    ]
   }
 ];

@@ -286,5 +286,100 @@ With the native $CLOUD token empowering decentralized community curation over va
 The network combines full Ethereum Virtual Machine (EVM) smart contract execution with optimistic Bitcoin fraud-proof verification. Developers can deploy complex DeFi primitives—including automated market makers, Bitcoin liquid restaking markets, and cross-chain bridges—denominated natively in BTC with sub-second block times and minimal transaction fees.
 
 During Mining Gala Phase 3, users bridging Bitcoin and deploying capital across verified ecosystem dApps (such as Macaron DEX and BitSmiley) accumulate Bitlayer Points and official ecosystem badges. Foundation contributors emphasized that cumulative points, on-chain transaction frequency, and early BitVM testnet validations remain foundational criteria for the upcoming BTR governance token distribution.`
+  },
+  {
+    "slug": "ether-fi-cash-global-rollout-loyalty-seasons",
+    "title": "ether.fi Expands Liquid Restaking Utilities with Global Cash Rollout & Season 4 Multipliers",
+    "excerpt": "Decentralized restaking titan ether.fi surpasses $6.5B in TVL, expanding real-world utility with ether.fi Cash Visa integration and multi-layer points stacking.",
+    "author": "Airdroplyx DeFi Desk",
+    "date": "October 24, 2026",
+    "readTime": "4 min read",
+    "category": "Alpha Intel",
+    "image": "https://images.unsplash.com/photo-1559526324-4b87b5e36e44?w=1200&q=80",
+    "tags": [
+      "ether.fi",
+      "Liquid Restaking",
+      "ETHFI",
+      "EigenLayer",
+      "DeFi"
+    ],
+    "relatedAirdropId": "ether-fi",
+    "content": "The liquid restaking sector continues to showcase institutional maturity as ether.fi cements its leadership position, commanding over $6.5 billion in total value locked across Ethereum and modular Layer 2 ecosystems. Following the successful distribution of Season 1, 2, and 3 loyalty allocations, the protocol has officially commenced Season 4, pairing decentralized restaking yield with real-world spending utility through the ether.fi Cash Visa card.\n\nUnlike traditional crypto debit cards that force users to liquidate productive assets into fiat, ether.fi Cash allows holders of eETH and weETH to borrow against their restaked collateral seamlessly at the point of sale. Capital continues to compound native Ethereum consensus rewards, EigenLayer restaking points, and downstream AVS incentives while funding daily everyday purchases worldwide.\n\nActive participants in Season 4 are earning dynamic point multipliers by maintaining long-term liquidity across curated DeFi money markets like Morpho Blue and Pendle Finance. As institutional capital continues to flow into liquid restaking tokens, ether.fi's multi-faceted ecosystem demonstrates how Web3 primitives can deliver sustainable, tangible financial utility."
+  },
+  {
+    "slug": "shardeum-atomium-testnet-milestone-validator-allocations",
+    "title": "Shardeum Atomium Testnet Surpasses 20,000 Active Community Nodes Ahead of Genesis Launch",
+    "excerpt": "Over 20,000 community-run validator nodes participate in Shardeum dynamic state sharding stress tests as the EVM Layer 1 prepares its 51% community token distribution.",
+    "author": "Airdroplyx Infrastructure Team",
+    "date": "October 24, 2026",
+    "readTime": "5 min read",
+    "category": "Testnet",
+    "image": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=1200&q=80",
+    "tags": [
+      "Shardeum",
+      "Layer 1",
+      "Sharding",
+      "EVM",
+      "Testnet"
+    ],
+    "relatedAirdropId": "shardeum",
+    "content": "Shardeum, the EVM-compatible Layer 1 blockchain pioneering dynamic state sharding, has achieved a critical decentralization milestone on its Atomium incentivized testnet, surpassing 20,000 active community-operated validator nodes. Backed by $18.2M from institutional investors including Jane Street and The Spartan Group, Shardeum is demonstrating that linear scalability can be achieved without compromising decentralized validator consensus.\n\nThe Atomium testnet has processed millions of cross-shard transactions, testing Shardeum's unique ability to dynamically increase network throughput as more nodes join the validator set. By eliminating the state storage bloat that restricts existing EVM networks, Shardeum ensures transaction gas fees remain permanently predictable and sub-cent.\n\nImportantly, Shardeum's tokenomics commit over 51% of the total 508 million SHM token supply directly to community node operators and early contributors. Testnet participants who maintained continuous validator uptime, diagnosed network latency, and completed ecosystem dApp interactions are positioned for verified reward allocations at the upcoming mainnet genesis event."
+  },
+  {
+    "slug": "conduit-raas-superchain-growth-surge",
+    "title": "Conduit Rollup-as-a-Service Powers 150+ Modular Appchains Across OP Stack & Arbitrum Orbit",
+    "excerpt": "Paradigm-backed Conduit solidifies its status as the leading enterprise RaaS provider, orchestrating hundreds of sovereign rollups settling on Ethereum and Celestia.",
+    "author": "Airdroplyx Research Team",
+    "date": "October 23, 2026",
+    "readTime": "4 min read",
+    "category": "Breaking",
+    "image": "https://images.unsplash.com/photo-1639762681485-074b7f938ba0?w=1200&q=80",
+    "tags": [
+      "Conduit",
+      "RaaS",
+      "OP Stack",
+      "Arbitrum Orbit",
+      "Modular"
+    ],
+    "relatedAirdropId": "conduit-xyz",
+    "content": "The modular blockchain paradigm has accelerated dramatically, with Rollup-as-a-Service (RaaS) pioneer Conduit announcing that over 150 production Layer 2 and Layer 3 rollups are now actively powered by its cloud infrastructure suite. Supported with $37M in funding led by Paradigm and Haun Ventures, Conduit has established itself as the foundational scaling engine of Web3.\n\nFrom viral consumer networks like Zora Network and Degen Chain to institutional gaming rollups like Proof of Play, Conduit eliminates the months of complex engineering historically required to launch custom chains. Developers deploy custom rollups in minutes, choosing between the Optimism OP Stack, Arbitrum Orbit, or Dymension frameworks, with modular data availability routed to Celestia, EigenDA, or Ethereum mainnet.\n\nIndustry analysts emphasize that as hundreds of appchains generate sovereign transaction volume, Conduit's underlying infrastructure is capturing significant network effects. Community members deploying testnet rollups and interacting with Conduit-powered chains are closely tracking the project's decentralized sequencer roadmap."
+  },
+  {
+    "slug": "space-and-time-proof-of-sql-mainnet-integration",
+    "title": "Space and Time Deploys Verifiable Proof of SQL Cryptographic Coprocessor for Ethereum DeFi",
+    "excerpt": "Backed by Microsoft M12, Space and Time brings zero-knowledge analytics to smart contracts, enabling trustless queries across petabytes of on-chain and off-chain data.",
+    "author": "Airdroplyx Intel Desk",
+    "date": "October 23, 2026",
+    "readTime": "5 min read",
+    "category": "Alpha Intel",
+    "image": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=1200&q=80",
+    "tags": [
+      "Space and Time",
+      "ZK Coprocessor",
+      "Proof of SQL",
+      "AI",
+      "Big Data"
+    ],
+    "relatedAirdropId": "space-and-time",
+    "content": "Space and Time (SxT), the decentralized zero-knowledge data warehouse backed with $50M from Microsoft's M12 venture fund and Framework Ventures, has officially integrated its flagship 'Proof of SQL' zero-knowledge coprocessor into major Ethereum DeFi protocols and AI agents.\n\nSmart contracts on Ethereum have historically been blind to complex historical data, restricted to simple mathematical operations due to gas block limits. Space and Time's Proof of SQL resolves this limitation by executing analytical queries across petabytes of indexed blockchain tables and off-chain databases, generating succinct cryptographic zk-SNARKs that are verified on-chain in milliseconds.\n\nThis breakthrough allows decentralized lending markets to calculate dynamic interest rates based on historical borrower solvency, enables automated decentralized insurance pricing, and guarantees that artificial intelligence models train on cryptographically verified, untampered datasets. Early developers and data analysts executing queries in the Space and Time Studio are building verifiable footprints ahead of the upcoming native token launch."
+  },
+  {
+    "slug": "kodiak-berachain-proof-of-liquidity-milestone",
+    "title": "Kodiak Finance Becomes Primary Concentrated Liquidity Hub on Berachain bArtio Testnet",
+    "excerpt": "Over $150M in simulated TVL locked across Kodiak automated Islands vaults as Berachain validators prepare for mainnet Proof-of-Liquidity consensus.",
+    "author": "Airdroplyx DeFi Desk",
+    "date": "October 22, 2026",
+    "readTime": "4 min read",
+    "category": "Governance",
+    "image": "https://images.unsplash.com/photo-1642543492481-44e81e3914a7?w=1200&q=80",
+    "tags": [
+      "Kodiak",
+      "Berachain",
+      "Proof of Liquidity",
+      "DEX",
+      "bArtio"
+    ],
+    "relatedAirdropId": "kodiak-finance",
+    "content": "Kodiak Finance has emerged as the definitive concentrated liquidity automated market maker (AMM) within the Berachain ecosystem, processing historic volume and testing automated liquidity management across the bArtio testnet. Supported by Build a Bera, dao5, and Amber Group, Kodiak is engineered to maximize the unique economic incentives of Berachain's Proof-of-Liquidity (PoL) consensus.\n\nTraditional concentrated liquidity protocols like Uniswap v3 require active, manual range management that often leaves liquidity providers exposed to severe impermanent loss. Kodiak's automated 'Islands' vaults solve this by algorithmically rebalancing liquidity ranges, compounding swap fees, and routing validator BGT emissions directly to liquidity providers.\n\nAs Berachain completes the final stages of the bArtio testnet and approaches its mainnet genesis transition, Kodiak's automated vaults are established as foundational infrastructure for ecosystem stablecoin HONEY and native gas token BERA. Testnet liquidity providers who demonstrated continuous LP commitments are positioned for prominent roles in Kodiak's decentralized governance framework."
   }
 ];

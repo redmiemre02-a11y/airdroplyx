@@ -12,7 +12,14 @@ const statusBadgeColor = airdrop.status === 'active' ? 'bg-emerald-50 text-emera
                          'bg-slate-50 text-slate-500 border-slate-200';
 ---
 
-<div class="bg-white rounded-2xl p-5 border border-slate-200 shadow-sm hover:shadow-xl hover:-translate-y-1 transition-all duration-300 group relative mb-5">
+<div 
+  class="airdrop-card-item bg-white dark:bg-slate-800 rounded-2xl p-5 border border-slate-200 dark:border-slate-700 shadow-sm hover:shadow-xl hover:-translate-y-1 transition-all duration-300 group relative mb-5"
+  data-airdrop-id={airdrop.id}
+  data-airdrop-name={airdrop.name.toLowerCase()}
+  data-airdrop-category={airdrop.category.toLowerCase()}
+  data-airdrop-featured={airdrop.featured ? 'true' : 'false'}
+  data-airdrop-desc={airdrop.description.toLowerCase()}
+>
   
   {airdrop.featured && (
     <div class="absolute -top-3 -right-3 inline-flex items-center gap-1.5 bg-gradient-to-r from-orange-400 to-red-500 rounded-full px-3 py-1 text-[11px] font-bold text-white shadow-lg shadow-orange-500/30 z-10">
