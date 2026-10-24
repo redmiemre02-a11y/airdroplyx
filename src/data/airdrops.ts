@@ -16619,4 +16619,545 @@ export const airdrops: Airdrop[] = [
       }
     ]
   }
+,
+  {
+    id: 'corn-network',
+    name: "Corn",
+    logo: '/images/airdrops/corn-network.svg',
+    description: "Arbitrum Orbit Layer 2 using tokenized Bitcoin ($BTCN) for gas, backed by $6.7M from Polychain and Binance Labs with Kernels rewards.",
+    reward: "Kernels Points & $CORN Token Allocation",
+    category: 'Layer 2',
+    featured: true,
+    status: 'active',
+    endTime: '2026-12-31T23:59:59Z',
+    funding: "$6.7M",
+    investors: "Polychain Capital, Binance Labs, Framework Ventures, OKX Ventures",
+    refLink: 'https://usecorn.com',
+    overview: "Corn is a groundbreaking Ethereum Layer 2 rollup built on Arbitrum Orbit technology that establishes a hyper-aligned Bitcoin yields superhighway. Backed by $6.7 Million in venture capital led by Polychain Capital, with strategic backing from Binance Labs, Framework Ventures, and OKX Ventures, Corn introduces $BTCN—a tokenized, yield-generating hybrid Bitcoin asset that serves as the gas and native fee denomination token across the entire rollup. By making Bitcoin the functional lifeblood of an EVM execution environment, Corn aligns Bitcoin hodlers, DeFi yield farmers, and cross-chain protocols under one unified incentive model.\n\nThe foundation of Corn's economic engine is the 'Kernels' loyalty and rewards system. Rather than relying on inflationary liquidity mining, Corn incorporates a specialized ve(3,3) governance framework dubbed 'popCORN'. Stakers of the upcoming native CORN token receive popCORN, empowering them to direct network-level yields, transaction fee distributions, and external gauge bribes directly to participating dApps and liquidity pools. By utilizing Celestia for high-throughput, low-cost modular data availability, Corn maintains sub-cent transaction fees while delivering full Ethereum security.\n\nEarly ecosystem participants can earn Kernels by depositing qualifying assets—including wrapped Bitcoin (WBTC, tBTC), stablecoins (USDC, USDT), and liquid restaking tokens—into the official Corn Silos. As Corn prepares for full mainnet execution and public bridge activation, accumulating Kernels through capital retention, referral tiering, and dApp deployment positions users at the top echelon of the upcoming CORN token distribution.",
+    strategy: "To maximize your positioning for Corn ($CORN) airdrop rewards and yield multipliers:\n\n1. Connect your Web3 wallet to the official Corn Silos portal and unlock access with a community invite code.\n2. Deposit high-conviction assets including WBTC, USDC, DAI, or liquid restaking tokens into designated Silos.\n3. Keep assets deposited continuously to accumulate time-weighted Kernels point compounding multipliers.\n4. Share your referral link with trusted peers to earn squad bonus Kernels from secondary and tertiary deposits.\n5. Participate in newly deployed Corn Mainnet dApps and bridge liquidity across the canonical Corn bridge.",
+    tokenomics: "The native token of Corn is $CORN with an expected initial total supply of 1,000,000,000 tokens.\n\nA significant 15% tranche of total token supply is dedicated toward retroactive community rewards for Silo depositors and Kernels campaign participants.\n\nThe ve-tokenomics architecture ('popCORN') enables lockers of CORN to vote on revenue distributions, bribe incentives, and dynamic Silo emission rates. Ecosystem and community initiatives comprise 50% of the overall supply, with the remaining tranches allocated to core development (18%), early strategic investors (17%), and treasury liquidity (15%).",
+    sybilSafety: "Corn implements strict anti-sybil defenses on Silo deposits, including minimum capital retention thresholds, time-weighted loyalty multipliers, and device fingerprint clustering.\n\nRapid deposit-and-withdraw wash patterns are automatically flagged, resulting in the forfeiture of active Kernels multipliers. Users are advised to deploy genuine capital in a single consolidated wallet rather than fragmenting across multiple unverified addresses.",
+    steps: [
+      "Navigate to the official Corn Silo portal at <a href=\"https://usecorn.com\" target=\"_blank\" rel=\"noopener noreferrer\">usecorn.com</a> and connect your EVM Web3 wallet.",
+      "Enter an active community invitation code to unlock the Corn Silos dashboard.",
+      "Select qualifying deposit assets such as WBTC, tBTC, USDC, DAI, or liquid staking tokens.",
+      "Approve the token spending cap and execute the deposit into your chosen Corn Silo.",
+      "Monitor your Kernels accumulation dashboard and maintain sustained deposit duration.",
+      "Generate your personal referral code and share with your network to earn squad bonus Kernels.",
+      "Follow official Corn announcements on Twitter at <a href=\"https://twitter.com/use_corn\" target=\"_blank\" rel=\"noopener noreferrer\">@use_corn</a>.",
+      "Bridge funds across the official Corn Bridge once public mainnet dApps launch."
+],
+    faqs: [
+      {
+            "question": "What is Corn and what makes it unique?",
+            "answer": "Corn is an Ethereum Layer 2 rollup built on Arbitrum Orbit that uses a tokenized hybrid Bitcoin ($BTCN) as its native gas token instead of ETH."
+      },
+      {
+            "question": "How much funding has Corn raised?",
+            "answer": "Corn secured $6.7 Million in funding led by Polychain Capital with backing from Binance Labs, Framework, and OKX Ventures."
+      },
+      {
+            "question": "What are Corn Kernels?",
+            "answer": "Kernels are loyalty reward points earned by depositing assets into Corn Silos, serving as the benchmark metric for the future CORN token airdrop."
+      },
+      {
+            "question": "Can I withdraw my funds from Corn Silos at any time?",
+            "answer": "Yes, Silo deposits are non-custodial and can be withdrawn, though withdrawing forfeits active time-weighted point multipliers."
+      },
+      {
+            "question": "What is the role of popCORN in the ecosystem?",
+            "answer": "popCORN is the ve-tokenomics voting mechanic obtained by locking CORN, allowing holders to vote on fee distributions and pool yields."
+      },
+      {
+            "question": "When will the CORN token generation event take place?",
+            "answer": "The CORN TGE is planned in coordination with the full mainnet dApp deployment and conclusion of the Silos campaign in late 2026."
+      }
+]
+  },
+  {
+    id: 'lombard-finance',
+    name: "Lombard Finance",
+    logo: '/images/airdrops/lombard-finance.svg',
+    description: "Dominant Bitcoin Liquid Restaking protocol ($16M Polychain) issuing $LBTC backed by Babylon staking with Lux loyalty rewards.",
+    reward: "Lux Points & $LOMBARD Governance Airdrop",
+    category: 'Liquid Restaking',
+    featured: true,
+    status: 'active',
+    endTime: '2026-12-31T23:59:59Z',
+    funding: "$16M",
+    investors: "Polychain Capital, BabylonChain, dao5, Franklin Templeton, Foresight Ventures",
+    refLink: 'https://lombard.finance',
+    overview: "Lombard Finance is the undisputed leader in liquid Bitcoin restaking, commanding over $1 Billion in total value locked through its flagship institutional liquid restaked Bitcoin token, $LBTC. Backed by $16 Million in seed funding led by Polychain Capital, with participation from BabylonChain, dao5, Franklin Templeton, and Foresight Ventures, Lombard transforms Bitcoin from a dormant asset into a dynamic, yield-bearing instrument secured directly by Babylon's cryptographic proof-of-stake architecture.\n\nThrough Lombard's seamless minting infrastructure, users deposit native Bitcoin into Babylon-secured non-custodial vaults and receive $LBTC on Ethereum and major Layer 2 networks. LBTC maintains a strict 1:1 backing with Bitcoin, earning dual rewards: native proof-of-stake yield generated by Babylon finality providers, plus secondary DeFi composability yields across leading decentralized exchanges, money markets (Morpho, Aave, Pendle), and restaking vaults. Lombard implements institutional-grade security, featuring zero-knowledge proof verification through CubeSigner and decentralized multi-party custody validation.\n\nThe Lombard Lux points program forms the core mechanism for tracking community contributions and capital deployment. Users earn Lux by minting LBTC, holding LBTC across supported blockchains, providing liquidity into concentrated AMM pools, or lending LBTC across premier money markets. With institutional partnerships spanning Symbiotic, Karak, and Pendle Finance, participating in the Lombard Lux ecosystem represents the premier strategy for capturing alpha in the multi-trillion dollar Bitcoin DeFi thesis.",
+    strategy: "To optimize your Lombard Lux accumulation and future token eligibility:\n\n1. Mint LBTC on Ethereum mainnet or Layer 2s by bridging native BTC through Babylon vaults.\n2. Supply LBTC to Pendle Finance pools to earn fixed yield alongside leveraged Lux point multipliers.\n3. Deposit LBTC into Morpho Blue or Gearbox lending vaults to serve as institutional collateral.\n4. Provide concentrated liquidity into LBTC/WBTC pools on Curve or Uniswap v3 to harvest swap fees.\n5. Maintain long-term asset tenure to benefit from loyalty duration bonuses on the Lux dashboard.",
+    tokenomics: "The protocol is anchored by the future $LOMBARD token, structured with a 1,000,000,000 maximum token supply.\n\n10% of total tokens are earmarked for community distribution, specifically rewarding early Lux points earners, Babylon stakers, and DeFi liquidity providers.\n\nThe governance token will grant voting rights over Babylon validator delegations, fee switch activations, and supported collateral types. Supply distribution allocates 45% to community and ecosystem growth, 20% to core contributors, 20% to strategic venture investors, and 15% to protocol insurance and security reserves.",
+    sybilSafety: "Lombard applies comprehensive anti-sybil filters by enforcing minimum LBTC minting parameters, continuous balance tracking snapshots, and anti-looping risk limits.\n\nAddresses that repeatedly shuffle capital between correlated wallets without maintaining genuine net balance are systematically downgraded in point rank. Genuine long-term holding in a primary wallet is strongly recommended.",
+    steps: [
+      "Visit the official Lombard Finance platform at <a href=\"https://lombard.finance\" target=\"_blank\" rel=\"noopener noreferrer\">lombard.finance</a> and launch the application.",
+      "Connect your Web3 EVM wallet (MetaMask, Rabby, or Coinbase Wallet).",
+      "Deposit native BTC via Babylon bridge or swap for LBTC directly on Ethereum/Arbitrum.",
+      "Mint LBTC and confirm receipt of liquid restaked tokens in your wallet.",
+      "Stake or deposit LBTC into verified DeFi partner protocols such as Pendle or Morpho.",
+      "Supply liquidity to LBTC/WBTC pools on decentralized AMMs to earn dual yields and boosted Lux.",
+      "Check your accumulated points on the official Lombard Lux dashboard.",
+      "Join the Lombard community on Discord at <a href=\"https://discord.gg/lombard\" target=\"_blank\" rel=\"noopener noreferrer\">Lombard Discord</a> to track upcoming snapshot dates."
+],
+    faqs: [
+      {
+            "question": "What is Lombard Finance and what is LBTC?",
+            "answer": "Lombard Finance is the premier Bitcoin liquid restaking protocol that allows users to deposit Bitcoin into Babylon staking and receive liquid, yield-bearing LBTC."
+      },
+      {
+            "question": "How much capital has Lombard Finance raised?",
+            "answer": "Lombard secured $16 Million in seed funding led by Polychain Capital with backing from BabylonChain, Franklin Templeton, and dao5."
+      },
+      {
+            "question": "What are Lombard Lux points?",
+            "answer": "Lux points are protocol loyalty rewards earned by minting, holding, and deploying LBTC across integrated decentralized finance applications."
+      },
+      {
+            "question": "Is LBTC 1:1 backed by real Bitcoin?",
+            "answer": "Yes, every LBTC in circulation is verifiable on-chain, backed 1:1 by Bitcoin staked in non-custodial Babylon protocol contracts."
+      },
+      {
+            "question": "Which DeFi protocols integrate with LBTC?",
+            "answer": "LBTC is deeply integrated across Pendle Finance, Morpho Blue, Gearbox, Curve Finance, Uniswap, and Symbiotic restaking."
+      },
+      {
+            "question": "How does Lombard protect against smart contract and bridge risks?",
+            "answer": "Lombard utilizes CubeSigner hardware key management, undergoes audits from top security firms, and maintains multi-layered decentralized timelocks."
+      }
+]
+  },
+  {
+    id: 'lorenzo-protocol',
+    name: "Lorenzo Protocol",
+    logo: '/images/airdrops/lorenzo-protocol.svg',
+    description: "Binance Labs backed Bitcoin Liquid Restaking issuance protocol issuing $stBTC powered by Babylon staking architecture.",
+    reward: "Voyage Points & $LOR Token Distribution",
+    category: 'Liquid Restaking',
+    featured: false,
+    status: 'active',
+    endTime: '2026-12-31T23:59:59Z',
+    funding: "Strategic",
+    investors: "Binance Labs, Pre-Seed & Private Crypto Angels",
+    refLink: 'https://lorenzo-protocol.xyz',
+    overview: "Lorenzo Protocol is an institutional-grade Bitcoin liquid restaking asset issuance platform and financial Layer 2 network backed by Binance Labs. Powered by Babylon's native Bitcoin staking consensus, Lorenzo tokenizes liquid restaking commitments by decoupling principal ownership from accumulated proof-of-stake yield. By issuing $stBTC (Liquid Staked Bitcoin) and dual-token financial instruments (Liquid Principal Tokens and Yield Accruing Tokens), Lorenzo provides institutional and retail capital with liquid, programmable Bitcoin exposure across multiple blockchain ecosystems.\n\nThe protocol architecture features seamless cross-chain interoperability, bridging Bitcoin restaking yield onto Ethereum, BNB Chain, and leading EVM Layer 2s. When Bitcoin holders stake into Lorenzo, their underlying assets are staked into Babylon's finality provider network, securing sovereign PoS chains while preserving instant liquidity. Users holding stBTC can participate in yield optimization vaults, structured credit products, and automated arbitrage strategies without enduring lengthy PoS unbonding delays.\n\nThrough the Lorenzo Points and Voyage campaign, early stakers and community participants earn rewards for minting stBTC, holding balances, and supplying liquidity to partner protocols on BNB Chain and Arbitrum. With deep backing from Binance Labs and strategic alignment with major Bitcoin Layer 2 ecosystems, Lorenzo positions itself as a central financial settlement infrastructure for the next generation of Bitcoin yield generation.",
+    strategy: "To optimize your Lorenzo Voyage points yield:\n\n1. Connect your Web3 wallet and deposit BTC or wrapped Bitcoin to mint stBTC via the Lorenzo portal.\n2. Hold stBTC in your connected non-custodial wallet to receive automated daily point accruals.\n3. Deploy stBTC into verified PancakeSwap or Uniswap liquidity pools on BNB Chain to unlock higher multipliers.\n4. Participate in Lorenzo structured yield vaults to compound PoS staking returns.\n5. Complete official Galxe community quests and verify social credentials to boost referral rankings.",
+    tokenomics: "The protocol operates under the upcoming $LOR token, planned with a maximum total supply of 1,000,000,000 tokens.\n\nA confirmed 12% allocation is dedicated to the early stBTC staking community and Voyage participants.\n\nThe token serves governance functions across Babylon validator selection, treasury grant allocation, and protocol fee sharing. 48% of supply is allocated to ecosystem incentives and staking rewards, 20% to core developers, 18% to strategic venture partners, and 14% to protocol foundation reserves.",
+    sybilSafety: "Lorenzo uses continuous balance tracking, minimum stake duration requirements, and multi-signature verification.\n\nAccounts that perform automated micro-transactions or attempt to simulate activity without meaningful TVL are disqualified from final reward snapshots.",
+    steps: [
+      "Navigate to the official Lorenzo Protocol portal at <a href=\"https://lorenzo-protocol.xyz\" target=\"_blank\" rel=\"noopener noreferrer\">lorenzo-protocol.xyz</a>.",
+      "Connect your Web3 EVM wallet or Bitcoin-compatible wallet.",
+      "Select your deposit asset (BTC, WBTC, or BTCB) and input the desired staking amount.",
+      "Confirm the transaction to stake into Babylon and mint stBTC.",
+      "Hold stBTC in your connected wallet to earn passive protocol points.",
+      "Deposit stBTC into designated lending and liquidity pools on BNB Chain to unlock point multipliers.",
+      "Track your ranking and accumulated points on the official Lorenzo Voyage leaderboard.",
+      "Join the Lorenzo community on Discord and Twitter to stay informed on governance milestones."
+],
+    faqs: [
+      {
+            "question": "What is Lorenzo Protocol and how does it work?",
+            "answer": "Lorenzo Protocol is a Bitcoin liquid restaking platform backed by Binance Labs that issues stBTC tokens backed by Babylon native Bitcoin staking."
+      },
+      {
+            "question": "Who is backing Lorenzo Protocol?",
+            "answer": "Lorenzo Protocol has secured strategic investment and incubation backing from Binance Labs alongside prominent Web3 angel investors."
+      },
+      {
+            "question": "What is the utility of stBTC?",
+            "answer": "stBTC is a liquid token representing staked Bitcoin, allowing holders to earn Babylon staking yields while using their capital across DeFi dApps."
+      },
+      {
+            "question": "Which blockchains support Lorenzo stBTC?",
+            "answer": "stBTC is natively supported across BNB Chain, Ethereum, Arbitrum, and integrated Bitcoin Layer 2 networks."
+      },
+      {
+            "question": "How do Lorenzo Points work?",
+            "answer": "Lorenzo Points track user participation, including minting stBTC, holding duration, and liquidity provision, translating into future LOR token rewards."
+      },
+      {
+            "question": "Can I unstake my Bitcoin from Lorenzo at any time?",
+            "answer": "Yes, users can unstake through the protocol redemption interface or swap stBTC instantly on secondary AMM markets for immediate liquidity."
+      }
+]
+  },
+  {
+    id: 'bedrock-defi',
+    name: "Bedrock DeFi",
+    logo: '/images/airdrops/bedrock-defi.svg',
+    description: "Multi-asset liquid restaking protocol backed by Binance Labs & OKX Ventures issuing uniBTC (Babylon) and uniETH (EigenLayer).",
+    reward: "Bedrock Diamonds & $ROCK Token Allocation",
+    category: 'Liquid Restaking',
+    featured: false,
+    status: 'active',
+    endTime: '2026-12-31T23:59:59Z',
+    funding: "Strategic",
+    investors: "Binance Labs, OKX Ventures, LongHash Ventures, Comma3 Ventures, RockX",
+    refLink: 'https://bedrock.technology',
+    overview: "Bedrock DeFi is a pioneering multi-asset liquid restaking protocol developed in partnership with RockX, backed by Binance Labs, OKX Ventures, LongHash Ventures, and Comma3 Ventures. Operating at the intersection of Ethereum and Bitcoin restaking, Bedrock is the issuer of $uniBTC (Babylon-backed liquid Bitcoin restaking token), $uniETH (EigenLayer-backed liquid restaked Ethereum token), and $uniIOTX. By deploying a universal liquid restaking architecture, Bedrock enables cross-chain capital to capture institutional proof-of-stake yields while retaining composable liquidity across 15+ EVM ecosystems.\n\nThe protocol's flagship asset, uniBTC, has emerged as one of the fastest-growing Bitcoin restaking tokens in decentralized finance. Stakers lock native BTC into Babylon, securing external verification networks and Actively Validated Services (AVSs), while receiving uniBTC that can be deployed into automated lending, collateralized borrowing, and yield-tokenization markets. Bedrock incorporates non-custodial delegated validation, continuous proof-of-reserve transparency, and multi-signature security governance.\n\nThrough the Bedrock Diamonds loyalty initiative, participants earn Diamond points across multiple restaking avenues. Holding uniBTC, uniETH, or uniIOTX across participating Layer 2 networks—such as Arbitrum, Base, Linea, Scroll, and Bitlayer—accrues baseline Diamonds, while deploying tokens into liquidity pairs and money markets grants substantial yield multipliers. Bedrock's deep integrations with Binance Web3 Wallet and major exchanges establish it as a premier contender for upcoming token distribution events.",
+    strategy: "To maximize your Bedrock Diamond point accrual:\n\n1. Mint uniBTC or uniETH on Ethereum or Arbitrum via the official Bedrock platform.\n2. Retain tokens in your Web3 wallet across major Layer 2 networks to qualify for multi-chain loyalty tiers.\n3. Provide liquidity into uniBTC/WBTC or uniETH/WETH pools on Uniswap, PancakeSwap, or Camelot.\n4. Deposit uniBTC into integrated money markets on Scroll or Linea to capture secondary yields.\n5. Participate in featured Binance Web3 Wallet and Galxe verification quests for bonus Diamonds.",
+    tokenomics: "The protocol governance structure centers on the $ROCK token, with a maximum token supply of 1,000,000,000 ROCK.\n\n12% of total supply is reserved for early Diamond points holders, active liquidity providers, and community restakers.\n\nROCK token holders participate in protocol risk parameter updates, supported AVS validations, and fee-sharing governance. 50% of supply is designated for community incentives, 20% to core contributors and RockX, 18% to early venture investors, and 12% to protocol security reserves.",
+    sybilSafety: "Bedrock filters automated sybil behavior through minimum balance rules, time-weighted holding formulas, and multi-network wallet history checks.\n\nRapid deposit churn without holding duration results in degraded Diamond multiplier tiers.",
+    steps: [
+      "Visit the official Bedrock DeFi dApp at <a href=\"https://bedrock.technology\" target=\"_blank\" rel=\"noopener noreferrer\">bedrock.technology</a>.",
+      "Connect your preferred EVM Web3 wallet (MetaMask, OKX Wallet, or Rabby).",
+      "Choose your restaking vault: Babylon Bitcoin (uniBTC) or EigenLayer Ethereum (uniETH).",
+      "Approve the token allowance and complete your deposit transaction.",
+      "Receive your liquid restaked uniBTC or uniETH tokens directly into your wallet.",
+      "Deploy your uni tokens into supported partner DeFi pools across Arbitrum, BNB Chain, or Scroll.",
+      "Track your accumulated Bedrock Diamonds on the official rewards dashboard.",
+      "Participate in joint campaign quests via Binance Web3 Wallet and Galxe to claim bonus point multipliers."
+],
+    faqs: [
+      {
+            "question": "What is Bedrock DeFi?",
+            "answer": "Bedrock DeFi is a multi-asset liquid restaking protocol backed by Binance Labs and OKX Ventures, issuing uniBTC for Babylon and uniETH for EigenLayer."
+      },
+      {
+            "question": "Who developed Bedrock and who are its backers?",
+            "answer": "Bedrock was developed in partnership with RockX and has secured strategic investments from Binance Labs, OKX Ventures, and LongHash Ventures."
+      },
+      {
+            "question": "What are Bedrock Diamonds?",
+            "answer": "Diamonds are loyalty reward points earned by users who mint and hold uniBTC, uniETH, or provide liquidity across integrated DeFi ecosystems."
+      },
+      {
+            "question": "On which blockchains can I use uniBTC?",
+            "answer": "uniBTC is deployed across Ethereum, Arbitrum, BNB Chain, Scroll, Linea, Base, and various Bitcoin Layer 2 networks."
+      },
+      {
+            "question": "How does Bedrock secure deposited collateral?",
+            "answer": "Bedrock utilizes non-custodial smart contracts, multi-party computation security, and continuous proof-of-reserve monitoring audited by leading security firms."
+      },
+      {
+            "question": "Can I redeem my original assets from Bedrock?",
+            "answer": "Yes, users can initiate native unstaking via the protocol portal or swap uniBTC/uniETH directly on decentralized AMMs for instant liquidity."
+      }
+]
+  },
+  {
+    id: 'suilend',
+    name: "Suilend",
+    logo: '/images/airdrops/suilend.svg',
+    description: "Premier lending protocol on Sui developed by the Solend team, featuring isolated money markets and Suilend CAPS points.",
+    reward: "Suilend CAPS & $SEND Token Allocation",
+    category: 'DeFi Lending',
+    featured: false,
+    status: 'active',
+    endTime: '2026-12-31T23:59:59Z',
+    funding: "Ecosystem",
+    investors: "Solend Ecosystem, Rootlets, Sui Foundation Grants",
+    refLink: 'https://suilend.fi',
+    overview: "Suilend is the premier algorithmic lending and money market protocol built on the ultra-high-throughput Sui blockchain. Founded by 0xRooter and the seasoned engineering team behind Solend (the legendary multi-billion dollar lending protocol on Solana), Suilend brings battle-tested risk parameters, dynamic interest rate curves, and institutional-grade credit markets to Sui's object-oriented Move environment. Within months of deployment, Suilend has ascended to become one of the foundational pillars of the Sui DeFi ecosystem, commanding hundreds of millions in TVL.\n\nBy leveraging Sui's sub-second finality and object-centric parallel execution, Suilend delivers instantaneous, deterministic borrowing and lending transactions with negligible gas fees. Users deposit high-conviction assets—including SUI, USDC, USDT, and native liquid staking tokens (suiETH, sSUI)—to earn compounding interest, while borrowers collateralize their deposits to access decentralized liquidity. Suilend features isolated lending pools, real-time liquidation oracles powered by Pyth Network, and granular liquidation penalties designed to protect protocol solvency during volatile market swings.\n\nThe protocol's points system, Suilend CAPS (and Points Seasons), systematically rewards active lenders, disciplined borrowers, and Rootlets NFT holders. By engaging in both sides of the money market, keeping health factors within secure bands, and utilizing Suilend's innovative SpringSui liquid staking integration, users optimize their allocation for the upcoming native SEND token generation event.",
+    strategy: "To optimize your Suilend CAPS accrual and upcoming SEND allocation:\n\n1. Supply blue-chip assets such as SUI, USDC, and USDT into Suilend core pools.\n2. Enable collateral and borrow stablecoins at conservative loan-to-value ratios (keeping health factor above 1.5x) to trigger higher borrowing CAPS multipliers.\n3. Explore SpringSui liquid staking to convert SUI into yield-bearing sSUI.\n4. Maintain consistent lending duration without rapid capital withdrawals.\n5. Monitor official Suilend leaderboard stats and participate in ecosystem community roles.",
+    tokenomics: "The protocol is governed by the native $SEND token, structured with a total supply of 100,000,000 tokens.\n\nA substantial 15% allocation is explicitly dedicated to community airdrops for CAPS earners, active borrowers, and Rootlets NFT supporters.\n\nThe SEND token empowers holders with governance control over interest rate parameters, collateral asset listings, and fee-sharing distribution models. Community incentives account for 55% of the total supply, with 20% to core developers, 15% to treasury reserves, and 10% to strategic advisors.",
+    sybilSafety: "Suilend calculates CAPS continuously using time-weighted averages rather than snapshot moments.\n\nCircular flash-borrowing, rapid cycling of identical funds across bot wallets, and artificial liquidation gaming are filtered out by on-chain risk telemetry.",
+    steps: [
+      "Install a Sui-compatible Web3 wallet (Sui Wallet, Nightly, or Suiet).",
+      "Acquire SUI tokens and bridge USDC/USDT onto the Sui blockchain.",
+      "Navigate to the official Suilend dApp at <a href=\"https://suilend.fi\" target=\"_blank\" rel=\"noopener noreferrer\">suilend.fi</a> and connect your wallet.",
+      "Select a qualifying lending market (such as SUI, USDC, or sSUI) and deposit collateral.",
+      "Enable your deposited assets as collateral within the dashboard settings.",
+      "Borrow a conservative amount of stablecoins or SUI to boost your daily CAPS points accumulation.",
+      "Explore SpringSui to participate in native liquid staking rewards.",
+      "Monitor your CAPS ranking on the official Suilend leaderboard and track SEND token announcements."
+],
+    faqs: [
+      {
+            "question": "What is Suilend and who built it?",
+            "answer": "Suilend is the dominant lending protocol on Sui, developed by 0xRooter and the team behind Solend, the leading lending platform on Solana."
+      },
+      {
+            "question": "What are Suilend CAPS?",
+            "answer": "CAPS are protocol reward points earned by lending and borrowing assets on Suilend, directly tracking eligibility for the upcoming SEND token airdrop."
+      },
+      {
+            "question": "Which assets can be supplied to Suilend?",
+            "answer": "Supported assets include SUI, native USDC, USDT, liquid staking tokens like sSUI, and wrapped Ethereum/Bitcoin assets."
+      },
+      {
+            "question": "How does Suilend manage liquidation risk?",
+            "answer": "Suilend utilizes high-frequency Pyth oracles, dynamic interest rate curves, and isolated lending pools to liquidate undercollateralized loans instantly."
+      },
+      {
+            "question": "Does borrowing earn more points than lending?",
+            "answer": "Yes, borrowing typically carries higher point multipliers to reward users who generate active protocol interest and drive loan utilization."
+      },
+      {
+            "question": "What is the utility of the upcoming SEND token?",
+            "answer": "SEND will serve as the governance token of Suilend, enabling fee sharing, risk parameter voting, and gauge emissions direction."
+      }
+]
+  },
+  {
+    id: 'navi-protocol',
+    name: "NAVI Protocol",
+    logo: '/images/airdrops/navi-protocol.svg',
+    description: "The #1 native lending and liquidity protocol on Sui with $150M+ TVL, backed by OKX Ventures, Hashed, and Mysten Labs.",
+    reward: "Seasonal Rewards & $NAVX Staking Yields",
+    category: 'DeFi Lending',
+    featured: false,
+    status: 'active',
+    endTime: '2026-12-31T23:59:59Z',
+    funding: "$150M+ TVL",
+    investors: "OKX Ventures, Hashed, Dao5, Mysten Labs",
+    refLink: 'https://naviprotocol.io',
+    overview: "NAVI Protocol is the undisputed #1 liquidity and lending protocol on the Sui blockchain, commanding over $150 Million in total value locked and serving as the primary liquidity backbone of the entire Move ecosystem. Backed by OKX Ventures, Hashed, Dao5, and Mysten Labs, NAVI delivers an institutional-grade decentralized lending architecture integrated with native liquid staking (voloSUI) and automated leverage strategies. By capitalizing on Sui's high transaction speed and horizontal scalability, NAVI facilitates instant, low-latency financial operations with sub-cent gas fees.\n\nThe protocol operates a modular multi-asset money market where users supply collateral—including SUI, USDC, USDT, and vSUI—to earn algorithmic interest rates while unlocking borrowing power. NAVI incorporates an automated Flash Loan engine, advanced liquidation algorithms, and dynamic collateral caps that protect the protocol against market volatility and systemic bad debt. Furthermore, NAVI's integration with Volo enables users to liquid stake their SUI, receive yield-bearing voloSUI, and loop the asset back into NAVI's lending pools to compound APR.\n\nNAVI pioneered the native $NAVX governance token and runs seasonal loyalty and airdrop campaigns rewarding sustained protocol utilization. By participating in lending, borrowing, and NAVX staking, community members earn secondary token distributions and ecosystem partner rewards. With continuous support from Sui Foundation grants and integrations across Sui's premier DEX aggregators, NAVI remains an indispensable venue for decentralized finance yield hunters.",
+    strategy: "To maximize your NAVI Protocol rewards and ecosystem incentives:\n\n1. Deposit core collateral (SUI, USDC, USDT) into NAVI lending pools to generate base APR.\n2. Utilize native liquid staking to stake SUI for voloSUI, earning PoS yields while using voloSUI as collateral.\n3. Borrow assets to access liquidity and qualify for active seasonal liquidity leaderboards.\n4. Acquire and stake NAVX tokens in the governance module to receive a share of protocol fee revenues.\n5. Participate in periodic partner campaigns with Mysten Labs and OKX Web3 Wallet.",
+    tokenomics: "The protocol is governed by the native $NAVX token with a total fixed supply of 1,000,000,000 tokens.\n\n45% of total supply is dedicated to liquidity mining, staking rewards, and retroactive community distributions.\n\nNAVX confers governance voting rights over interest rate parameters, loan-to-value caps, and treasury disbursements. 20% is allocated to the core development team, 20% to strategic early venture investors, and 15% to ecosystem growth and insurance reserves.",
+    sybilSafety: "NAVI monitors continuous on-chain liquidity duration, minimum borrow sizes, and wallet interaction history.\n\nFlash-loaning capital solely during brief snapshot windows without ongoing protocol engagement is excluded from reward distributions.",
+    steps: [
+      "Set up a Sui-compatible wallet (such as Sui Wallet or Nightly) and acquire SUI tokens.",
+      "Visit the official NAVI Protocol dApp at <a href=\"https://naviprotocol.io\" target=\"_blank\" rel=\"noopener noreferrer\">naviprotocol.io</a>.",
+      "Connect your wallet and explore available liquidity markets on the dashboard.",
+      "Deposit SUI, USDC, or USDT into the lending supply pool to start earning passive APY.",
+      "Opt to borrow assets against your deposited collateral to unlock liquidity multipliers.",
+      "Explore the liquid staking tab to convert SUI into voloSUI for compounding staking returns.",
+      "Stake native NAVX tokens in the governance staking vault to earn protocol fee distributions.",
+      "Check active leaderboard campaigns and claim your periodic ecosystem incentive rewards."
+],
+    faqs: [
+      {
+            "question": "What is NAVI Protocol?",
+            "answer": "NAVI Protocol is the dominant liquidity and money market platform on the Sui blockchain, offering lending, borrowing, and native liquid staking."
+      },
+      {
+            "question": "Who are the strategic investors in NAVI Protocol?",
+            "answer": "NAVI is backed by premier Web3 venture funds including OKX Ventures, Hashed, Dao5, and Mysten Labs (creators of Sui)."
+      },
+      {
+            "question": "What is voloSUI and how does it integrate with NAVI?",
+            "answer": "voloSUI is NAVIs native liquid staking token that allows users to earn Sui network staking yields while utilizing the token as collateral on NAVI."
+      },
+      {
+            "question": "What is the utility of the NAVX token?",
+            "answer": "NAVX is the governance token of NAVI Protocol, used for protocol voting, staking fee share, and accessing elevated liquidity rewards."
+      },
+      {
+            "question": "How fast and cheap are transactions on NAVI?",
+            "answer": "Because NAVI is built natively on Sui, transactions finalize in under one second with gas fees typically costing fractions of a cent."
+      },
+      {
+            "question": "How can I participate in ongoing NAVI ecosystem rewards?",
+            "answer": "Maintain active lending and borrowing positions, stake NAVX, and participate in community quests and seasonal leaderboard events."
+      }
+]
+  },
+  {
+    id: 'scallop-protocol',
+    name: "Scallop",
+    logo: '/images/airdrops/scallop-protocol.svg',
+    description: "Institutional-grade money market on Sui backed by Polychain Capital, featuring sCoins and veSCA revenue sharing.",
+    reward: "veSCA Staking Dividends & Seasonal Airdrops",
+    category: 'DeFi Lending',
+    featured: false,
+    status: 'active',
+    endTime: '2026-12-31T23:59:59Z',
+    funding: "Grant & Strategic",
+    investors: "Polychain Capital, CMS Holdings, DWF Labs, Sui Foundation",
+    refLink: 'https://scallop.io',
+    overview: "Scallop is the premier institutional-grade money market and decentralized lending protocol on the Sui network, recognized as the first DeFi project to receive official grant backing from the Sui Foundation. Backed by Polychain Capital, CMS Holdings, DWF Labs, and Mysten Labs, Scallop delivers an enterprise-quality financial architecture emphasizing security, composability, and high-speed execution. Scallop is designed specifically to harness Sui's Move smart contract language, providing ultra-low collateralization ratios and institutional risk management tools.\n\nThe protocol's architecture separates collateral management from debt obligations through an isolated two-tier pool model, preventing systemic contagion across volatile crypto assets. Users deposit SUI, USDC, USDT, and various Sui ecosystem tokens to mint interest-bearing sCoins (such as sSUI and sUSDC). Scallop features zero-slippage liquidation bots, composable flash loans, and dynamic soft-liquidation mechanisms powered by Pyth Network and Switchboard decentralized oracles, ensuring absolute protocol solvency.\n\nScallop conducts regular reward seasons and airdrop distribution rounds centered around its native $SCA governance token and veSCA locking framework. Users locking SCA for veSCA earn protocol revenue share, boosted lending interest, and governance voting rights over liquidity emissions. By providing consistent liquidity, borrowing against blue-chip assets, and holding veSCA, decentralized finance participants capture multi-layered yields across the burgeoning Sui ecosystem.",
+    strategy: "To optimize your Scallop protocol returns and seasonal rewards:\n\n1. Supply SUI or stablecoins to Scallop lending pools to mint yield-bearing sCoins.\n2. Deposit sCoins into the collateral module and borrow stablecoins to maximize account activity.\n3. Lock native SCA tokens into veSCA to unlock protocol fee revenue share and APY boosts.\n4. Participate in ongoing Scallop seasonal quest campaigns and track leaderboard status.\n5. Reinvest accumulated protocol rewards to compound your on-chain Move footprint.",
+    tokenomics: "Scallop is anchored by the $SCA governance token with a maximum total supply of 250,000,000 tokens.\n\n45% of total SCA supply is earmarked for liquidity mining, staking rewards, and periodic community airdrops.\n\nThrough the veSCA model, locked tokens receive up to 100% of designated protocol fee revenue. Core team and contributor allocations equal 20%, strategic investors hold 18%, and ecosystem development and treasury receive 17%.",
+    sybilSafety: "Scallop implements continuous balance snapshots and multi-variable activity scoring.\n\nAccounts that perform rapid wash-borrowing or withdraw capital immediately prior to epoch milestones are disqualified from high-tier seasonal allocations.",
+    steps: [
+      "Install a compatible Sui wallet (such as Sui Wallet or Nightly) and fund it with SUI tokens.",
+      "Go to the official Scallop platform at <a href=\"https://scallop.io\" target=\"_blank\" rel=\"noopener noreferrer\">scallop.io</a>.",
+      "Connect your wallet to access the Scallop lending and borrowing interface.",
+      "Supply assets such as SUI, USDC, or native liquid staking tokens to mint sCoins.",
+      "Deposit your sCoins into the collateral pool to unlock borrowing capacity.",
+      "Borrow stablecoins or tokens against your collateral while maintaining a healthy collateral ratio.",
+      "Lock native SCA tokens into veSCA to receive daily protocol fee distributions and APR boosts.",
+      "Follow official Scallop announcements on Discord and Twitter to track upcoming reward distributions."
+],
+    faqs: [
+      {
+            "question": "What is Scallop and how does it differentiate itself?",
+            "answer": "Scallop is an institutional-grade money market on Sui that uses a two-tier isolated collateral pool design to prevent systemic liquidity risk."
+      },
+      {
+            "question": "Who are the prominent investors behind Scallop?",
+            "answer": "Scallop is backed by Polychain Capital, CMS Holdings, DWF Labs, and has received official development grants from the Sui Foundation."
+      },
+      {
+            "question": "What are Scallop sCoins?",
+            "answer": "sCoins are yield-bearing receipt tokens (like sSUI, sUSDC) received upon depositing assets into Scallop, automatically accruing lending interest."
+      },
+      {
+            "question": "What is veSCA and what benefits does it offer?",
+            "answer": "veSCA is vote-escrowed SCA obtained by locking tokens, granting holders protocol fee revenue share, enhanced lending yields, and voting rights."
+      },
+      {
+            "question": "How does Scallop ensure security for user funds?",
+            "answer": "Scallop has completed multiple comprehensive audits with OtterSec and MoveBit, implementing automated risk monitoring and decentralized oracles."
+      },
+      {
+            "question": "How do I participate in Scallop airdrop and reward seasons?",
+            "answer": "Engage in lending and borrowing on the Scallop dashboard, hold sCoins, and lock SCA for veSCA to earn recurring seasonal distributions."
+      }
+]
+  },
+  {
+    id: 'cetus-protocol',
+    name: "Cetus Protocol",
+    logo: '/images/airdrops/cetus-protocol.svg',
+    description: "Premier concentrated liquidity AMM and DEX on Sui & Aptos backed by OKX Ventures and KuCoin Ventures.",
+    reward: "Trading Rewards, xcETUS Yields & IDO Allocations",
+    category: 'DEX',
+    featured: false,
+    status: 'active',
+    endTime: '2026-12-31T23:59:59Z',
+    funding: "Strategic",
+    investors: "OKX Ventures, KuCoin Ventures, Jump Crypto, Animoca Ventures",
+    refLink: 'https://cetus.zone',
+    overview: "Cetus Protocol is the foundational concentrated liquidity automated market maker (CLMM) and decentralized exchange on the Sui and Aptos Move blockchains. Backed by OKX Ventures, KuCoin Ventures, Jump Crypto, and Animoca Ventures, Cetus brings the capital efficiency of Uniswap v3 to the high-throughput Move ecosystem. By allowing liquidity providers to concentrate capital within custom price ranges, Cetus achieves exponentially deeper trading liquidity and minimal slippage for traders while dramatically enhancing LP fee earnings.\n\nOperating natively on Sui's object-oriented architecture, Cetus processes complex algorithmic swaps with instantaneous execution and near-zero gas costs. The protocol features an advanced Swap Aggregator, permissionless pool creation, customizable tick spacing, and integrated algorithmic trading vaults. Cetus acts as the primary liquidity hub for newly launched ecosystem tokens, integrating with leading Move money markets and cross-chain bridges to aggregate multi-chain order flow.\n\nThe protocol's economic engine is anchored by the $CETUS token and its vote-escrowed counterpart, $xcETUS. Stakers of CETUS receive xcETUS, which confers protocol fee dividends, Launchpad allocation rights, and governance voting over liquidity pool bribe emissions. Through ongoing incentive campaigns, trading competitions, and liquidity farming programs, Cetus rewards active Web3 traders and dedicated capital allocators with continuous decentralized yields.",
+    strategy: "To optimize your Cetus Protocol earnings and community incentives:\n\n1. Execute recurring token swaps through the Cetus DEX aggregator for optimal execution pricing.\n2. Provide concentrated liquidity into high-volume trading pairs such as SUI/USDC within active trading bounds.\n3. Lock CETUS into xcETUS to earn daily protocol revenue dividends and launchpad access.\n4. Participate in featured Cetus liquidity farming pools and trading tournaments.\n5. Monitor yield vaults and compound earned fees regularly.",
+    tokenomics: "The protocol is governed by the native $CETUS token with a total fixed supply of 1,000,000,000 tokens.\n\n50% of the entire token supply is dedicated to community liquidity mining and retroactive trader incentive programs.\n\nStaking CETUS into non-transferable xcETUS unlocks protocol fee revenue sharing and launchpad allocation tiers. 20% is allocated to the development team, 15% to strategic investors, and 15% to the ecosystem reserve and treasury fund.",
+    sybilSafety: "Cetus identifies wash trading through statistical analysis of trade frequency, volume-to-liquidity ratios, and cyclic token routing.\n\nOrganic trading across multiple diverse pairs is prioritized over repetitive bot-generated round-trip swaps.",
+    steps: [
+      "Connect your Sui or Aptos wallet (such as Sui Wallet, Petra, or Pontem) to the platform.",
+      "Navigate to the official Cetus portal at <a href=\"https://cetus.zone\" target=\"_blank\" rel=\"noopener noreferrer\">cetus.zone</a>.",
+      "Swap tokens using the Cetus decentralized exchange aggregator for optimal execution prices.",
+      "Select the Pools tab and choose a premier concentrated liquidity pool (e.g., SUI/USDC).",
+      "Set your custom price range and deposit balanced token pairs to begin earning fee revenue.",
+      "Claim accumulated trading fee rewards from your active liquidity positions.",
+      "Convert CETUS into xcETUS in the staking module to participate in governance and revenue share.",
+      "Participate in Cetus Launchpad IDOs and community reward campaigns to earn extra tokens."
+],
+    faqs: [
+      {
+            "question": "What is Cetus Protocol?",
+            "answer": "Cetus Protocol is the leading concentrated liquidity AMM and DEX aggregator built natively on the Sui and Aptos Move blockchains."
+      },
+      {
+            "question": "Who are the strategic investors in Cetus?",
+            "answer": "Cetus is backed by prominent venture firms including OKX Ventures, KuCoin Ventures, Jump Crypto, and Animoca Ventures."
+      },
+      {
+            "question": "What is concentrated liquidity and why is it important?",
+            "answer": "Concentrated liquidity allows LPs to allocate capital within specific price intervals, achieving up to 4000x greater capital efficiency than traditional AMMs."
+      },
+      {
+            "question": "What is xcETUS and how do I get it?",
+            "answer": "xcETUS is the non-transferable staked version of CETUS that earns protocol fee shares, Launchpad allocations, and voting rights."
+      },
+      {
+            "question": "Which blockchains does Cetus operate on?",
+            "answer": "Cetus is deployed across the Sui network and Aptos blockchain, serving as the premier liquidity provider for both Move ecosystems."
+      },
+      {
+            "question": "How do I maximize my earnings on Cetus?",
+            "answer": "Provide liquidity to active concentrated pools within tightly traded price ranges and stake earned CETUS into xcETUS for compounding yields."
+      }
+]
+  },
+  {
+    id: 'swaylend',
+    name: "Swaylend",
+    logo: '/images/airdrops/swaylend.svg',
+    description: "Premier native lending and borrowing protocol on Fuel Network built in Sway with parallel UTXO execution.",
+    reward: "Swaylend Points & $SWAY Governance Airdrop",
+    category: 'DeFi Lending',
+    featured: false,
+    status: 'active',
+    endTime: '2026-12-31T23:59:59Z',
+    funding: "Grants",
+    investors: "Fuel Foundation Grants, Web3 Angel Investors",
+    refLink: 'https://app.swaylend.com',
+    overview: "Swaylend is the premier decentralized lending and borrowing protocol built natively on Fuel Network using the Sway smart contract language. Designed from first principles to leverage Fuel's UTXO-based parallel transaction execution, Swaylend eliminates the sequential bottlenecks and gas inefficiencies found in traditional EVM lending architectures. Backed by Fuel Foundation ecosystem grants and strategic Web3 venture angels, Swaylend serves as the foundational credit primitive for the entire modular Fuel ecosystem.\n\nThe protocol features a dual-market lending model combining shared liquidity pools with isolated risk tiers for emerging modular assets. Users can deposit blue-chip collateral—including native ETH, wrapped Bitcoin, and algorithmic or fiat stablecoins—to earn dynamic interest rates, while borrowers access capital with sub-second settlement and fractions of standard rollup gas fees. Swaylend incorporates automated state-clearing mechanics, preventing stale debt accumulation and ensuring real-time liquidation execution powered by decentralized oracle networks.\n\nAs Fuel Network transitions into its live Mainnet Ignition phase, Swaylend is running comprehensive points and liquidity incentive programs. By lending, borrowing, and supplying liquidity to integrated Fuel AMMs, early participants accrue Swaylend points alongside native Fuel Points multipliers. With the modular execution layer expanding rapidly, Swaylend stands at the center of capital deployment and upcoming governance distribution events.",
+    strategy: "To optimize your Swaylend and Fuel Network points accumulation:\n\n1. Connect your Fuel wallet to the Swaylend app.\n2. Supply native ETH, USDC, or liquid staking assets to the core lending pools.\n3. Enable collateral and borrow stablecoins to activate the borrowing points multiplier.\n4. Keep positions open across multiple epochs to maximize continuous points accrual.\n5. Participate in community feedback and developer testing on the Fuel Discord.",
+    tokenomics: "The protocol is governed by the native $SWAY token with an expected initial supply of 100,000,000 tokens.\n\n15% of total supply is reserved for early testnet and mainnet ignition lenders, borrowers, and Sway developers.\n\nThe token empowers holders to vote on loan-to-value parameters, reserve factors, and liquidity gauge emissions. Community liquidity mining represents 50% of supply, core development receives 22%, the strategic ecosystem fund holds 15%, and the security reserve accounts for 13%.",
+    sybilSafety: "Swaylend verifies connected Fuel wallet age, monitors deposit duration, and enforces strict rate limits on faucet interactions.\n\nCoordinated multi-wallet bot loops with negligible capital or artificial wash cycles are disqualified from final reward calculations.",
+    steps: [
+      "Install the official Fuel Wallet browser extension and create a secure wallet account.",
+      "Claim testnet ETH and assets from the official Fuel faucet at <a href=\"https://faucet-testnet.fuel.network\" target=\"_blank\" rel=\"noopener noreferrer\">faucet-testnet.fuel.network</a>.",
+      "Visit the official Swaylend application at <a href=\"https://app.swaylend.com\" target=\"_blank\" rel=\"noopener noreferrer\">app.swaylend.com</a>.",
+      "Connect your Fuel wallet to the platform interface.",
+      "Select a lending market such as ETH, USDC, or sETH and supply collateral.",
+      "Enable your supplied assets as collateral in the dashboard controls.",
+      "Borrow a conservative amount of stablecoins to activate borrowing point multipliers.",
+      "Join the Swaylend community on Discord and Twitter to stay informed on the upcoming Mainnet transition."
+],
+    faqs: [
+      {
+            "question": "What is Swaylend and what makes it unique?",
+            "answer": "Swaylend is the first lending and borrowing protocol built natively in Sway on Fuel Network, leveraging UTXO parallel processing for extreme speed."
+      },
+      {
+            "question": "Who supports Swaylend?",
+            "answer": "Swaylend is backed by official ecosystem grants from the Fuel Foundation and prominent DeFi research collectives."
+      },
+      {
+            "question": "Which wallet do I need to use Swaylend?",
+            "answer": "You need a Fuel-compatible wallet such as the official Fuel Wallet, Fuelet, or Bako Safe."
+      },
+      {
+            "question": "How do Swaylend points interact with Fuel Points?",
+            "answer": "Interacting with Swaylend earns both native Swaylend points and multipliers toward the broader Fuel Network points campaign."
+      },
+      {
+            "question": "Can I test Swaylend without real money?",
+            "answer": "Yes, Swaylend is live on the Fuel testnet with free faucet tokens, allowing users to participate with zero capital risk."
+      },
+      {
+            "question": "What will be the utility of the SWAY token?",
+            "answer": "SWAY will govern protocol risk parameters, interest rate curves, and pool emission gauges across the Fuel ecosystem."
+      }
+]
+  },
+  {
+    id: 'boba-network',
+    name: "Boba Network",
+    logo: '/images/airdrops/boba-network.svg',
+    description: "Multichain Layer 2 and Hybrid Compute platform backed by $45M from Hack VC and Crypto.com Capital.",
+    reward: "Ecosystem Partner Airdrops & BOBA Staking Rewards",
+    category: 'Layer 2',
+    featured: false,
+    status: 'active',
+    endTime: '2026-12-31T23:59:59Z',
+    funding: "$45M",
+    investors: "Hack VC, Crypto.com Capital, Infinite Capital, Industry Angels",
+    refLink: 'https://gateway.boba.network',
+    overview: "Boba Network is a pioneering multichain Layer 2 scaling solution and Hybrid Compute platform backed by $45 Million in Series A funding from Hack VC, Crypto.com Capital, Infinite Capital, and prominent angel investors. Built on the Optimism codebase, Boba delivers lightning-fast transaction throughput, sub-cent gas fees, and instant exit bridging. What sets Boba apart from all other L2s is its proprietary Hybrid Compute technology, which allows smart contracts to seamlessly call external web2 APIs and off-chain algorithms directly from the blockchain state.\n\nThrough Hybrid Compute, developers on Boba can execute complex machine learning algorithms, query live financial data feeds, and trigger real-world computational logic without relying on fragile oracle middleware. Boba has expanded beyond Ethereum to support multi-chain deployments on BNB Chain and Avalanche, offering unified liquidity and native decentralized tooling across the EVM space. Boba's dual-fee model allows users to pay transaction gas in either native ETH or the network's governance token, $BOBA.\n\nThe Boba ecosystem actively conducts community loyalty, developer grant rounds, and seasonal incentive programs. Users who bridge assets to Boba, supply liquidity to native AMMs, stake BOBA in the governance voting vault, and interact with Hybrid Compute dApps accumulate activity scoring for upcoming ecosystem partner airdrops and protocol revenue share distributions.",
+    strategy: "To maximize your positioning in the Boba Network ecosystem:\n\n1. Bridge ETH or supported assets to Boba Network using the official Boba Gateway.\n2. Swap tokens and supply liquidity on native Boba DEXs such as OolongSwap.\n3. Lock native BOBA tokens into the Boba DAO governance portal to earn staking yields and fee distributions.\n4. Interact with Hybrid Compute dApps to build on-chain smart contract invocation depth.\n5. Maintain active monthly transaction streaks and participate in Boba Discord challenges.",
+    tokenomics: "The network is governed by the $BOBA token with a fixed total supply of 500,000,000 tokens.\n\n42% of total supply is dedicated to community initiatives, liquidity mining, and future partner airdrops.\n\nBOBA functions as a dual-fee gas token and governance instrument for the Boba DAO. The core team and OMG Foundation hold 20%, strategic Series A investors hold 20%, and the protocol treasury and development reserve hold 18%.",
+    sybilSafety: "Boba Network evaluates on-chain transaction history, gas consumption, and interaction with Hybrid Compute smart contracts.\n\nRepetitive zero-value transfer spam and sybil clusters lacking organic contract diversity are disqualified from rewards.",
+    steps: [
+      "Add Boba Network to your Web3 wallet (such as MetaMask or Rabby) via Chainlist.",
+      "Visit the official Boba Gateway at <a href=\"https://gateway.boba.network\" target=\"_blank\" rel=\"noopener noreferrer\">gateway.boba.network</a>.",
+      "Bridge ETH or supported tokens from Ethereum or BNB Chain to Boba Network.",
+      "Swap tokens on native Boba decentralized exchanges such as OolongSwap.",
+      "Provide liquidity into verified AMM pools to earn trading fees and liquidity incentives.",
+      "Stake native BOBA tokens in the Boba DAO governance portal at <a href=\"https://dao.boba.network\" target=\"_blank\" rel=\"noopener noreferrer\">dao.boba.network</a>.",
+      "Interact with Hybrid Compute dApps to test real-world API triggers on-chain.",
+      "Participate in Boba community Discord challenges and stay updated on partner ecosystem airdrops."
+],
+    faqs: [
+      {
+            "question": "What is Boba Network?",
+            "answer": "Boba Network is a multichain Layer 2 optimistic rollup that features Hybrid Compute technology, allowing smart contracts to call off-chain APIs directly."
+      },
+      {
+            "question": "How much funding has Boba Network raised?",
+            "answer": "Boba raised $45 Million in a Series A funding round at a $1.5 Billion valuation, led by Hack VC, Crypto.com Capital, and Infinite Capital."
+      },
+      {
+            "question": "What is Hybrid Compute?",
+            "answer": "Hybrid Compute is Bobas proprietary technology that enables developers to build smart contracts capable of executing complex off-chain computations and Web2 APIs."
+      },
+      {
+            "question": "Which blockchains does Boba Network support?",
+            "answer": "Boba operates L2 rollups anchored to Ethereum, BNB Chain, and Avalanche."
+      },
+      {
+            "question": "Can I pay gas in tokens other than ETH on Boba?",
+            "answer": "Yes, Boba Network supports a dual-fee token model, allowing users to pay gas in either ETH or the native BOBA token."
+      },
+      {
+            "question": "How do I earn staking rewards on Boba?",
+            "answer": "Stake BOBA in the Boba DAO portal to participate in governance voting and receive a share of network transaction fees."
+      }
+]
+  }
 ];

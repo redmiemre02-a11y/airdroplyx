@@ -115,4 +115,107 @@ Similarly, Drift Protocol has commenced its Drift Fuel and Season 2 rewards, inc
 
 Analysts observe that Solana protocols place heavy algorithmic weight on account age, non-bot behavioral clustering, and recurring transaction frequency across low-fee dApps. Maintaining an active on-chain footprint across these premier protocols continues to yield consistent quarterly decentralized dividends.`
   }
+,
+  {
+    slug: 'scroll-session-two-marks-scr-ecosystem-evolution',
+    title: "Scroll Launches Session 2 Marks Program Accelerating SCR Ecosystem Decentralization",
+    excerpt: "Following the SCR Binance Launchpool and Season 1 token distribution, Scroll initiates Session 2 Marks focusing on long-term DeFi TVL, gas expenditure, and cross-chain bridging.",
+    author: 'Airdroplyx Intel Desk',
+    date: 'October 24, 2026',
+    readTime: '4 min read',
+    category: 'Breaking',
+    image: 'https://images.unsplash.com/photo-1639762681485-074b7f938ba0?w=1200&q=80',
+    tags: ["Scroll","SCR","zkEVM","Marks","Layer 2"],
+    relatedAirdropId: 'scroll',
+    content: `Following the successful listing of SCR on premier global tier-1 exchanges and the completion of its Genesis distribution, Scroll has officially kicked off Session 2 of its Marks program. Designed to reward persistent on-chain engagement and sticky liquidity rather than ephemeral mercenary capital, Session 2 introduces revised weighting algorithms across core ecosystem protocols.
+
+Under the updated framework, users supplying liquidity to native automated market makers, decentralized money markets like Aave and Rho Markets, and domain-native yield vaults earn Marks multipliers. In addition, persistent gas expenditure across verified smart contract interactions contributes directly to loyalty scoring, further disincentivizing passive wallet clusters.
+
+Scroll core contributors highlighted that the remaining 70% of the community token allocation will be systematically distributed across subsequent seasons to ensure multi-year protocol decentralization. Airdrop participants are encouraged to route liquidity through canonical bridge infrastructure and maintain weekly contract activity to maximize Session 2 allocations.`
+  },
+  {
+    slug: 'movement-network-battle-of-olympus-testnet-climax',
+    title: "Movement Network Battle of Olympus Enters Final Phase Ahead of Mainnet Token Launch",
+    excerpt: "Move-EVM modular Layer 2 backed by $38M from Polychain and Binance Labs concludes developer stress test with over 200M transactions as MOVE airdrop criteria crystalize.",
+    author: 'Airdroplyx Alpha Desk',
+    date: 'October 23, 2026',
+    readTime: '5 min read',
+    category: 'Testnet',
+    image: 'https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=1200&q=80',
+    tags: ["Movement","MoveVM","Modular L2","Battle of Olympus","MOVE"],
+    relatedAirdropId: 'movement',
+    content: `Movement Labs has announced the concluding phase of its flagship 'Battle of Olympus' testnet campaign, marking the final public validation epoch before mainnet deployment. Backed by $38 Million in Series A funding led by Polychain Capital with strategic participation from Binance Labs, Movement brings the high-throughput Move programming language to the Ethereum Layer 2 landscape.
+
+The testnet environment has benchmarked unprecedented throughput, processing more than 200 Million transactions across dozens of native decentralized applications including DEXs, lending markets, and NFT launchpads. Participants who engaged in guild challenges, minted testnet badges, and maintained testnet liquidity on platforms like Meridian and Route-X have accumulated verified on-chain metrics.
+
+With mainnet initialization slated for Q4 2026, foundation representatives confirmed that historical testnet participation, Discord guild achievements, and developer contract deployments will serve as primary filters for the genesis MOVE community distribution. Active users should ensure their EVM and Move-compatible wallets remain linked via official verification portals.`
+  },
+  {
+    slug: 'fuel-network-points-program-mainnet-migration',
+    title: "Fuel Network Ignites Mainnet Rollout with $300M+ TVL & Ecosystem Points Multipliers",
+    excerpt: "Fuel Network, the fastest modular execution layer using Sway and UTXO parallel processing, transitions pre-launch Phase 2 deposits into live Mainnet ignition with points multipliers.",
+    author: 'Airdroplyx Research Team',
+    date: 'October 23, 2026',
+    readTime: '5 min read',
+    category: 'TGE Alert',
+    image: 'https://images.unsplash.com/photo-1642543492481-44e81e3914a7?w=1200&q=80',
+    tags: ["Fuel","Sway","Modular","UTXO","FUEL"],
+    relatedAirdropId: 'fuel',
+    content: `Fuel Network, which secured over $80 Million in funding from Blockchain Capital and Stratos Technologies, has officially transitioned from its deposit-based pre-launch campaign into live Mainnet Ignition. By leveraging the FuelVM, UTXO parallel execution, and the domain-specific Sway language, Fuel delivers transaction speeds and state minimization exceeding traditional EVM architectures.
+
+Pre-launch depositors who bridged assets including ETH, eETH, stETH, and USDe into Fuel's Phase 2 smart contracts are now migrating capital directly into native Mainnet decentralized applications. Protocols like Swaylend (lending), Mira DEX (concentrated liquidity), and Griffy are offering elevated Points multipliers for early liquidity providers.
+
+The Fuel Foundation has signaled that its upcoming governance token ($FUEL) will allocate substantial tranches to early depositors, Sway developers, and verified mainnet users. With snapshot parameters actively monitoring capital retention and dApp deployment, transferring deposits into live ecosystem contracts represents the highest-conviction strategy.`
+  },
+  {
+    slug: 'linea-surge-volt-initiatives-final-voyage-allocations',
+    title: "Linea Surge Reaches Final Volt: Consensys Prepares Comprehensive LXP & LXP-L Snapshot",
+    excerpt: "Consensys-developed zkEVM rollup completes its multi-month Surge liquidity campaign across Volts 1-6 with strict Proof of Humanity sybil filters ahead of TGE.",
+    author: 'Airdroplyx Intel Desk',
+    date: 'October 22, 2026',
+    readTime: '4 min read',
+    category: 'Alpha Intel',
+    image: 'https://images.unsplash.com/photo-1620321023374-d1a68fbc720d?w=1200&q=80',
+    tags: ["Linea","Consensys","LXP","Surge","zkEVM"],
+    relatedAirdropId: 'linea',
+    content: `Consensys' flagship zkEVM rollup, Linea, has entered the sixth and final Volt of its multi-month 'Linea Surge' liquidity program. Commanding over $1.2 Billion in total value locked and tens of millions of monthly transactions, Linea has established itself as one of the premier zero-knowledge execution layers scaling Ethereum.
+
+The Surge program, designed in collaboration with OpenBlock Labs, introduced a decaying allocation curve where early liquidity providers earned compounding LXP-L points. Crucially, Linea's mandatory Proof of Humanity (PoH) attestation framework has filtered out hundreds of thousands of sybil bot clusters, ensuring that rewards flow exclusively to verified human participants.
+
+With the conclusion of Volt 6, community attention shifts toward the long-anticipated LINEA token generation event. Analysts anticipate that tokenomics will reward a synthesis of Voyage XP (earned via ecosystem questing), Surge LXP-L (earned via TVL deployment), and continuous dApp transaction frequency.`
+  },
+  {
+    slug: 'babylon-bitcoin-staking-cap-expansions-mainnet-phase-two',
+    title: "Babylon Expands Bitcoin Staking Caps as Phase 2 Unlocks Trustless BTC Yield",
+    excerpt: "Paradigm and Polychain-backed Babylon protocol opens multi-thousand BTC staking caps within seconds, activating liquid restaked BTC ecosystems across PoS networks.",
+    author: 'Airdroplyx Alpha Desk',
+    date: 'October 22, 2026',
+    readTime: '5 min read',
+    category: 'Breaking',
+    image: 'https://images.unsplash.com/photo-1644361566696-3d442b5b482a?w=1200&q=80',
+    tags: ["Babylon","Bitcoin Staking","LBTC","stBTC","Restaking"],
+    relatedAirdropId: 'babylon',
+    content: `The Bitcoin staking revolution reached another milestone as Babylon protocol executed Phase 2 of its mainnet rollout, expanding individual and total staking caps to thousands of Bitcoins. Backed by $70 Million from Paradigm, Polychain Capital, and Bullish, Babylon enables native, trustless Bitcoin staking on Layer 1 without bridging, wrapping, or third-party custody.
+
+Phase 2 caps were filled within mere blocks, driven by institutional custody providers and liquid Bitcoin restaking protocols including Lombard Finance (issuing LBTC), Lorenzo Protocol (issuing stBTC), and Bedrock (issuing uniBTC). These protocols allow Bitcoin holders to earn native PoS validation yield while retaining liquid tokens usable across decentralized finance.
+
+As Babylon's cryptographic finality providers begin actively securing sovereign Proof-of-Stake blockchains, participants who participated in Phase 1 and Phase 2 deposits or held liquid restaked BTC tokens across integrated DeFi money markets are tracking eligibility for upcoming governance emissions and AVS staking incentives.`
+  },
+  {
+    slug: 'abstract-chain-consumer-crypto-mainnet-prep',
+    title: "Abstract Chain by Pudgy Penguins Unveils Global Wallet Architecture Ahead of Q4 Launch",
+    excerpt: "Luca Netz and Igloo Inc. reveal Abstract Global Wallet on ZK Stack, offering zero-seed-phrase social logins, native session keys, and consumer airdrop incentives.",
+    author: 'Airdroplyx Research Team',
+    date: 'October 21, 2026',
+    readTime: '4 min read',
+    category: 'Alpha Intel',
+    image: 'https://images.unsplash.com/photo-1639762681485-074b7f938ba0?w=1200&q=80',
+    tags: ["Abstract","Pudgy Penguins","ZK Stack","Account Abstraction","Consumer Crypto"],
+    relatedAirdropId: 'abstract',
+    content: `Abstract Chain, the highly anticipated consumer Layer 2 developed by Igloo Inc. (the parent company behind Pudgy Penguins) and built on Matter Labs' ZK Stack, has officially detailed its Abstract Global Wallet (AGW) architecture ahead of its Q4 mainnet debut.
+
+Designed to eliminate Web3 friction for mainstream users, AGW integrates native account abstraction, biometric passkey authentication, and cross-application session keys. Users can interact with decentralized games, social platforms, and NFT marketplaces without signing repetitive transaction popups or managing cryptographic seed phrases.
+
+Community excitement is surging as early testnet participants complete interactive quests on the Abstract testnet, minting commemorative digital artifacts and testing consumer dApps. With Pudgy Penguins establishing the premier brand in Web3 cultural IP, the ecosystem's upcoming token incentives and loyalty distributions represent one of the most widely anticipated consumer crypto events of 2026.`
+  }
 ];

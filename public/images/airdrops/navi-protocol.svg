@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
+  <defs>
+    <linearGradient id="naviGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#6366F1" />
+      <stop offset="50%" stop-color="#8B5CF6" />
+      <stop offset="100%" stop-color="#A855F7" />
+    </linearGradient>
+  </defs>
+  <rect width="128" height="128" rx="28" fill="#0F0C20" />
+  <circle cx="64" cy="64" r="40" fill="url(#naviGrad)" opacity="0.2" />
+  <path d="M44 86 V42 L72 74 V42 H84 V86 L56 54 V86 Z" fill="url(#naviGrad)" />
+</svg>

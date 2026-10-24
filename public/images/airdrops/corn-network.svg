@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
+  <defs>
+    <linearGradient id="cornGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FACC15" />
+      <stop offset="50%" stop-color="#EAB308" />
+      <stop offset="100%" stop-color="#CA8A04" />
+    </linearGradient>
+  </defs>
+  <rect width="128" height="128" rx="28" fill="#0F172A" />
+  <ellipse cx="64" cy="64" rx="24" ry="40" fill="url(#cornGrad)" transform="rotate(-15 64 64)" />
+  <ellipse cx="64" cy="64" rx="18" ry="34" fill="#0F172A" transform="rotate(-15 64 64)" opacity="0.2" />
+  <path d="M50 85 C 45 60, 60 40, 78 35" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round" fill="none" />
+  <circle cx="60" cy="55" r="4" fill="#FEF08A" />
+  <circle cx="68" cy="67" r="4" fill="#FEF08A" />
+  <circle cx="56" cy="73" r="3.5" fill="#FEF08A" />
+</svg>

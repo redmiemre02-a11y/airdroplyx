@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
+  <defs>
+    <linearGradient id="bobaGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#CCFF00" />
+      <stop offset="100%" stop-color="#99CC00" />
+    </linearGradient>
+  </defs>
+  <rect width="128" height="128" rx="28" fill="#111608" />
+  <circle cx="64" cy="64" r="42" fill="none" stroke="url(#bobaGrad)" stroke-width="4" stroke-dasharray="10 4" />
+  <circle cx="64" cy="64" r="24" fill="url(#bobaGrad)" />
+  <circle cx="58" cy="58" r="5" fill="#111608" />
+</svg>

@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
+  <defs>
+    <linearGradient id="scallopGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#06B6D4" />
+      <stop offset="100%" stop-color="#0EA5E9" />
+    </linearGradient>
+  </defs>
+  <rect width="128" height="128" rx="28" fill="#0A1826" />
+  <path d="M64 34 C44 34, 32 50, 32 72 C32 88, 48 96, 64 96 C80 96, 96 88, 96 72 C96 50, 84 34, 64 34 Z" fill="none" stroke="url(#scallopGrad)" stroke-width="4" />
+  <path d="M64 40 V92 M48 46 L60 92 M80 46 L68 92" stroke="url(#scallopGrad)" stroke-width="3" stroke-linecap="round" />
+</svg>

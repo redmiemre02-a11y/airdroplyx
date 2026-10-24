@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
+  <defs>
+    <linearGradient id="lorenzoGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F97316" />
+      <stop offset="100%" stop-color="#DC2626" />
+    </linearGradient>
+  </defs>
+  <rect width="128" height="128" rx="28" fill="#141416" />
+  <rect x="36" y="36" width="56" height="56" rx="14" fill="none" stroke="url(#lorenzoGrad)" stroke-width="4" transform="rotate(45 64 64)" />
+  <path d="M54 46 V82 H76" stroke="#FFFFFF" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" fill="none" />
+</svg>
