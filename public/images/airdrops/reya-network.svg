@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
+  <defs>
+    <linearGradient id="reyaGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#A855F7" />
+      <stop offset="50%" stop-color="#6366F1" />
+      <stop offset="100%" stop-color="#3B82F6" />
+    </linearGradient>
+  </defs>
+  <rect width="128" height="128" rx="28" fill="#0C0A1C" />
+  <circle cx="64" cy="64" r="42" fill="none" stroke="url(#reyaGrad)" stroke-width="4" stroke-dasharray="10 5" />
+  <path d="M48 42 H 72 C 80 42, 84 46, 84 52 C 84 58, 80 62, 72 62 H 58 V 86 M58 62 L 78 86" stroke="url(#reyaGrad)" stroke-width="7" stroke-linecap="round" stroke-linejoin="round" fill="none" />
+</svg>

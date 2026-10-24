@@ -1,12 +1,12 @@
-<svg viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <rect width="100" height="100" rx="24" fill="#080F1C"/>
-  <circle cx="50" cy="50" r="34" stroke="url(#zero_grad)" stroke-width="4"/>
-  <path d="M34 34H66L44 66H66" stroke="#38BDF8" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
-  <circle cx="50" cy="50" r="4" fill="#FFFFFF"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
   <defs>
-    <linearGradient id="zero_grad" x1="16" y1="16" x2="84" y2="84" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#38BDF8"/>
-      <stop offset="1" stop-color="#2563EB"/>
+    <linearGradient id="zerolendGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38BDF8" />
+      <stop offset="50%" stop-color="#0284C7" />
+      <stop offset="100%" stop-color="#0369A1" />
     </linearGradient>
   </defs>
+  <rect width="128" height="128" rx="28" fill="#081524" />
+  <circle cx="64" cy="64" r="40" fill="none" stroke="url(#zerolendGrad)" stroke-width="4" stroke-dasharray="8 4" />
+  <ellipse cx="64" cy="64" rx="22" ry="32" fill="none" stroke="#FFFFFF" stroke-width="4" />
 </svg>

@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
+  <defs>
+    <linearGradient id="gmxGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38BDF8" />
+      <stop offset="50%" stop-color="#3B82F6" />
+      <stop offset="100%" stop-color="#1D4ED8" />
+    </linearGradient>
+  </defs>
+  <rect width="128" height="128" rx="28" fill="#061226" />
+  <polygon points="64,28 98,88 30,88" fill="none" stroke="url(#gmxGrad)" stroke-width="5" stroke-linejoin="round" />
+  <polygon points="64,48 84,84 44,84" fill="url(#gmxGrad)" opacity="0.8" />
+  <circle cx="64" cy="98" r="4" fill="#38BDF8" />
+</svg>

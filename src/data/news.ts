@@ -83,8 +83,8 @@ The testnet ecosystem—featuring BEX (DEX), Bend (lending), Berps (perpetual co
   },
   {
     slug: 'eigenlayer-symbiotic-karak-restaking-wars-escalate',
-    title: 'The Multi-Billion Dollar Restaking War: EigenLayer vs Symbiotic vs Karak',
-    excerpt: 'Institutional capital pours into restaking ecosystems as Symbiotic and Karak challenge EigenLayer dominance with multi-asset collateral.',
+    title: 'The Multi-Billion Dollar Restaking Landscape: EigenLayer, Symbiotic, and Karak Analyzed',
+    excerpt: 'Institutional capital flows into liquid restaking ecosystems as shared security models expand across Ethereum and Layer 2 networks.',
     author: 'Airdroplyx Research Team',
     date: 'October 17, 2026',
     readTime: '6 min read',

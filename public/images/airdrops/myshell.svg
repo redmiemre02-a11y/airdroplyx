@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
+  <defs>
+    <linearGradient id="myshellGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FB923C" />
+      <stop offset="50%" stop-color="#F97316" />
+      <stop offset="100%" stop-color="#EA580C" />
+    </linearGradient>
+  </defs>
+  <rect width="128" height="128" rx="28" fill="#1A1009" />
+  <circle cx="64" cy="64" r="40" fill="none" stroke="url(#myshellGrad)" stroke-width="4" />
+  <path d="M44 76 C 44 52, 84 52, 84 76 Z" fill="url(#myshellGrad)" />
+  <circle cx="56" cy="54" r="5" fill="#FFFFFF" />
+  <circle cx="72" cy="54" r="5" fill="#FFFFFF" />
+</svg>

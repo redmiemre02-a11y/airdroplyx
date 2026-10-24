@@ -1,13 +1,12 @@
-<svg viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <rect width="100" height="100" rx="24" fill="#0A1118"/>
-  <path d="M30 74V42L50 26L70 42V74H30Z" stroke="url(#parcl_grad)" stroke-width="4" stroke-linejoin="round"/>
-  <rect x="42" y="52" width="16" height="22" fill="url(#parcl_grad)"/>
-  <line x1="38" y1="44" x2="46" y2="44" stroke="#00C9FF" stroke-width="3"/>
-  <line x1="54" y1="44" x2="62" y2="44" stroke="#00C9FF" stroke-width="3"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
   <defs>
-    <linearGradient id="parcl_grad" x1="30" y1="26" x2="70" y2="74" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#00C9FF"/>
-      <stop offset="1" stop-color="#92FE9D"/>
+    <linearGradient id="parclGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#10B981" />
+      <stop offset="50%" stop-color="#059669" />
+      <stop offset="100%" stop-color="#047857" />
     </linearGradient>
   </defs>
+  <rect width="128" height="128" rx="28" fill="#0A1814" />
+  <polygon points="64,28 98,54 98,96 30,96 30,54" fill="none" stroke="url(#parclGrad)" stroke-width="4" stroke-linejoin="round" />
+  <path d="M50 96 V 68 H 78 V 96" stroke="url(#parclGrad)" stroke-width="4" fill="none" />
 </svg>

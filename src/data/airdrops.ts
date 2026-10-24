@@ -17701,4 +17701,545 @@ export const airdrops: Airdrop[] = [
       }
 ]
   }
+,
+  {
+    id: 'ether-fi',
+    name: "ether.fi",
+    logo: '/images/airdrops/ether-fi.svg',
+    description: "The undisputed #1 liquid restaking protocol commanding $6B+ TVL, issuing eETH and launching ether.fi Cash Visa card.",
+    reward: "Loyalty Points Season 4 & $ETHFI Staking APR",
+    category: 'Liquid Restaking',
+    featured: true,
+    status: 'active',
+    endTime: '2026-12-31T23:59:59Z',
+    funding: "$30M+",
+    investors: "Bullish, CoinFund, OKX Ventures, Amber Group, Foresight Ventures",
+    refLink: 'https://ether.fi',
+    overview: "ether.fi is the foundational liquid restaking titan and decentralized staking protocol commanding over $6 Billion in total value locked across Ethereum and major Layer 2 ecosystems. Backed by $32 Million in venture funding led by Bullish and CoinFund, ether.fi stands apart through its decentralized, non-custodial delegated staking model where stakers maintain control of their underlying cryptographic validator keys.\n\nWhen users deposit ETH or liquid staking assets into ether.fi, they receive $eETH (or its rebasing equivalent weETH). eETH automatically restakes deposited capital into EigenLayer's decentralized Actively Validated Services (AVS) network, delivering dual-yield generation: Ethereum proof-of-stake validation rewards combined with secondary restaking returns. weETH is universally composable across 15+ EVM blockchains, serving as premier collateral across Aave, Pendle, Morpho, and MakerDAO.\n\nBeyond decentralized liquid restaking, ether.fi has expanded into real-world consumer fintech with the launch of 'ether.fi Cash'—a non-custodial crypto credit card integrated with Visa. Users can borrow against their yield-bearing eETH collateral to spend fiat globally without incurring capital gains tax events or forfeiting airdrop loyalty points. By staking ETH, holding weETH across supported chains, and utilizing ether.fi Cash, community participants earn continuous Loyalty Points and $ETHFI protocol governance yields.",
+    strategy: "To optimize your ether.fi Loyalty Points and ongoing staking yield:\n\n1. Stake native ETH on Ethereum Mainnet or Layer 2s via ether.fi to mint liquid restaked eETH/weETH.\n2. Supply weETH into Pendle Finance yield pools to lock in boosted fixed APR or multiply loyalty points.\n3. Deposit weETH as collateral into Morpho Blue or Aave to borrow stablecoins at conservative LTVs.\n4. Pre-register for or activate the ether.fi Cash card to earn spending multipliers and cashback in crypto.\n5. Stake native ETHFI tokens in the governance module to participate in fee revenue distributions.",
+    tokenomics: "The protocol is governed by the native $ETHFI token, with a maximum total supply capped at 1,000,000,000 tokens.\n\nA total of 11% of the entire token supply has been allocated across community airdrop seasons, with ongoing loyalty reward allocations.\n\nETHFI holders participate in protocol governance votes regarding treasury disbursements, node operator onboarding, and revenue sharing parameters. 40% of tokens are allocated to the community and treasury, 23.2% to core contributors, 27.2% to early investors, and 9.6% to strategic development partners.",
+    sybilSafety: "ether.fi employs time-weighted capital calculations and continuous balance snapshots across integrated Layer 2 partners.\n\nFarming clusters that rapidly churn funds through temporary flash-loans without maintaining persistent TVL receive discounted loyalty multipliers. Holding weETH in self-custody or verified partner vaults ensures maximal point retention.",
+    steps: [
+      "Visit the official ether.fi portal at <a href=\"https://ether.fi\" target=\"_blank\" rel=\"noopener noreferrer\">ether.fi</a> and launch the dApp.",
+      "Connect your Web3 EVM wallet (MetaMask, Rabby, or Coinbase Wallet).",
+      "Select your network (Ethereum Mainnet, Arbitrum, or Base) and input the amount of ETH to stake.",
+      "Confirm the transaction to mint liquid restaked eETH (or wrapped weETH).",
+      "Hold weETH in your wallet or deploy into supported DeFi pools on Pendle or Morpho.",
+      "Explore the \"Cash\" tab to register for the ether.fi non-custodial Visa credit card.",
+      "Stake native ETHFI tokens in the staking tab to unlock governance yield.",
+      "Monitor your accumulated Loyalty Points and leaderboard tier on the official ether.fi dashboard."
+],
+    faqs: [
+      {
+            "question": "What is ether.fi and how does it differ from other liquid staking protocols?",
+            "answer": "ether.fi is a non-custodial liquid restaking protocol where stakers control their own validator keys while automatically earning EigenLayer restaking rewards."
+      },
+      {
+            "question": "Who are the primary investors in ether.fi?",
+            "answer": "ether.fi raised over $30 Million in venture financing led by Bullish and CoinFund, with backing from OKX Ventures and Amber Group."
+      },
+      {
+            "question": "What is eETH and weETH?",
+            "answer": "eETH is ether.fis rebasing liquid restaking token; weETH is its wrapped non-rebasing version designed for seamless composability across DeFi."
+      },
+      {
+            "question": "What is ether.fi Cash?",
+            "answer": "ether.fi Cash is a non-custodial Visa card allowing users to borrow against their staked eETH to spend fiat worldwide with cashback."
+      },
+      {
+            "question": "Can I stake with small amounts of ETH?",
+            "answer": "Yes, you can stake any fractional amount of ETH on Ethereum or Layer 2s like Arbitrum and Base with negligible gas fees."
+      },
+      {
+            "question": "What is the utility of the ETHFI token?",
+            "answer": "ETHFI is the governance token of the protocol, used to vote on treasury grants, node operator curation, and fee switch activations."
+      }
+]
+  },
+  {
+    id: 'jito-network',
+    name: "Jito",
+    logo: '/images/airdrops/jito-network.svg',
+    description: "Premier liquid staking and MEV infrastructure on Solana issuing JitoSOL backed by $10M+ from Multicoin Capital.",
+    reward: "JitoSOL Staking Rewards & $JTO Governance Utility",
+    category: 'Liquid Staking',
+    featured: false,
+    status: 'active',
+    endTime: '2026-12-31T23:59:59Z',
+    funding: "$10M+",
+    investors: "Multicoin Capital, Framework Ventures, Solana Ventures, Delphi Digital",
+    refLink: 'https://jito.network',
+    overview: "Jito is the foundational liquid staking protocol and maximal extractable value (MEV) infrastructure provider powering the Solana blockchain. Backed by over $10 Million in venture capital led by Multicoin Capital and Framework Ventures, with participation from Solana Ventures and Delphi Digital, Jito fundamentally revolutionized Solana's block production and staking economics by capturing MEV and returning it directly to token holders.\n\nThrough the custom Jito-Solana validator client, Jito operates a transparent block engine and tip distribution auction mechanism that prevents network spam and transaction front-running. When users stake SOL into Jito, they receive $JitoSOL, a liquid staking token that combines base Solana proof-of-stake rewards with MEV tips captured by high-priority transaction execution. As a result, JitoSOL consistently delivers higher annual percentage yields than standard non-MEV staking pools.\n\nJito is governed by the native $JTO token, which was distributed in one of the most celebrated and equitable community airdrops in Solana history. JTO holders govern the Jito Foundation, directing MEV client upgrade roadmaps, validator delegation strategies, and the multi-million dollar Jito DAO treasury. As JitoSOL anchors liquidity across Kamino, Drift, and marginfi, maintaining JitoSOL positions represents an essential strategy for Solana DeFi participants.",
+    strategy: "To optimize your yields and positioning in the Jito ecosystem:\n\n1. Liquid stake native SOL via the official Jito portal to mint yield-bearing JitoSOL.\n2. Supply JitoSOL into Kamino Lend or marginfi to earn lending interest while retaining staking rewards.\n3. Provide liquidity into JitoSOL/SOL pools on Orca or Raydium to capture concentrated swap fees.\n4. Deposit JitoSOL into automated yield vaults on Kamino Multiply to establish looped staking leverage.\n5. Participate in Jito DAO governance votes on Realms using native JTO tokens.",
+    tokenomics: "The network is governed by the native $JTO token with a total fixed supply of 1,000,000,000 tokens.\n\nA total of 10% of supply was allocated for the historic genesis community airdrop, with additional tranches reserved for ongoing ecosystem grants.\n\nJTO holders direct validator delegation algorithms, fee parameters for the Jito-Solana client, and DAO treasury management. 34.3% is allocated to community growth and DAO initiatives, 24.5% to core contributors, 16.2% to early investors, and 25% to ecosystem development.",
+    sybilSafety: "Jito assesses on-chain staking duration, minimum SOL holding thresholds, and validator delegation diversity.\n\nCircular bot-driven flash loans are filtered out by on-chain state verification algorithms. Genuine, persistent staking of JitoSOL is required for reward accrual.",
+    steps: [
+      "Install a compatible Solana Web3 wallet (Phantom, Solflare, or Backpack).",
+      "Fund your wallet with SOL tokens from an exchange or bridge.",
+      "Visit the official Jito platform at <a href=\"https://jito.network\" target=\"_blank\" rel=\"noopener noreferrer\">jito.network</a>.",
+      "Connect your Solana wallet and navigate to the \"Stake\" module.",
+      "Input the amount of SOL to stake and confirm the transaction to receive JitoSOL.",
+      "Deploy JitoSOL into partner DeFi applications like Kamino or Drift to earn secondary yields.",
+      "Participate in Jito DAO governance proposals at <a href=\"https://realms.today/dao/JTO\" target=\"_blank\" rel=\"noopener noreferrer\">Jito Realms</a>.",
+      "Track your compounding JitoSOL exchange rate and MEV rewards on the Jito dashboard."
+],
+    faqs: [
+      {
+            "question": "What is Jito and how does MEV liquid staking work?",
+            "answer": "Jito captures maximal extractable value (MEV) through its specialized validator client and redistributes searcher tips directly to JitoSOL stakers."
+      },
+      {
+            "question": "Who invested in Jito?",
+            "answer": "Jito is backed by premier venture firms including Multicoin Capital, Framework Ventures, Solana Ventures, and Delphi Digital."
+      },
+      {
+            "question": "Why does JitoSOL yield more than regular staked SOL?",
+            "answer": "JitoSOL earns regular Solana staking rewards plus an additional yield component derived from MEV transaction priority auction tips."
+      },
+      {
+            "question": "Can I swap JitoSOL back to SOL at any time?",
+            "answer": "Yes, you can unstake natively via the Jito app or swap JitoSOL for SOL instantly with deep liquidity on decentralized DEXs like Jupiter."
+      },
+      {
+            "question": "Which DeFi protocols integrate JitoSOL?",
+            "answer": "JitoSOL is deeply integrated across all major Solana protocols including Kamino, Drift, Marginfi, Raydium, Orca, and Phoenix."
+      },
+      {
+            "question": "What is the utility of the JTO token?",
+            "answer": "JTO is the governance token of the Jito DAO, allowing holders to vote on validator delegation weights, fee structures, and treasury deployment."
+      }
+]
+  },
+  {
+    id: 'gmx-io',
+    name: "GMX",
+    logo: '/images/airdrops/gmx-io.svg',
+    description: "Pioneering decentralized spot and perpetual exchange commanding billions in volume on Arbitrum and Avalanche.",
+    reward: "Protocol Fee Dividends & $GMX Staking Yields",
+    category: 'Perp DEX',
+    featured: false,
+    status: 'active',
+    endTime: '2026-12-31T23:59:59Z',
+    funding: "Fair Launch / Community",
+    investors: "Fair Launch Community, Arbitrum Foundation Grants",
+    refLink: 'https://gmx.io',
+    overview: "GMX is the legendary, pioneering decentralized spot and perpetual contracts exchange that defined on-chain derivatives trading. Operating natively on Arbitrum and Avalanche, GMX commands over $500 Million in total value locked and has processed hundreds of billions in lifetime trading volume. GMX eliminates the traditional orderbook spread by utilizing a shared multi-asset liquidity pool (GLP in v1 and GM isolated pools in v2) that acts as the counterparty to all trader positions.\n\nGMX v2 introduces major structural upgrades: isolated GM liquidity pools for individual crypto pairs (BTC, ETH, SOL, AVAX, and emerging altcoins), custom borrowing fees, and integrated Chainlink low-latency Data Streams. Traders can execute long and short positions with up to 50x leverage, zero price slippage, and minimal execution fees. Liquidity providers deposit single tokens or paired assets into GM pools to harvest continuous swap fees and trader liquidation margins.\n\nThe protocol is governed by the native $GMX token, widely revered for its 100% \"Real Yield\" tokenomics model. Stakers of GMX receive 30% of all protocol-generated platform fees paid directly in native ETH (on Arbitrum) or AVAX (on Avalanche), alongside Multiplier Points and escrowed GMX (esGMX) to incentivize long-term protocol loyalty. For Web3 traders and liquidity providers, GMX remains the premier benchmark of decentralized trading architecture.",
+    strategy: "To optimize your GMX yields and ongoing protocol rewards:\n\n1. Connect your Web3 wallet across Arbitrum or Avalanche via the official GMX terminal.\n2. Trade perpetual contracts with moderate leverage to generate on-chain trading footprint and platform fee share.\n3. Supply liquidity into GMX v2 GM pools (such as BTC/USD or ETH/USD) to earn double-digit fee APR.\n4. Stake native GMX tokens to earn real yield paid in native ETH/AVAX and Multiplier Points.\n5. Compound earned esGMX and Multiplier Points to maximize your permanent staking APR boost.",
+    tokenomics: "The protocol operates under the native $GMX token, with a maximum circulating cap of 13,250,000 tokens.\n\nGMX features one of the most sustainable tokenomics designs in crypto: 30% of all platform fees are distributed to GMX stakers, while 70% flows directly to liquidity providers (GM/GLP).\n\nStakers receive real yield in native ETH or AVAX without relying on inflationary token printing. Multiplier Points (MPs) reward consistent stakers with boosted fee shares that burn proportionally if staked GMX is unstaked.",
+    sybilSafety: "GMX rewards are strictly proportional to real trading volume, actual paid fees, and sustained liquidity pool tenure.\n\nSelf-trading or circular wash-volume is discouraged by dynamic price impact fees and borrow rates. Genuine liquidity provision is rewarded transparently.",
+    steps: [
+      "Navigate to the official GMX trading portal at <a href=\"https://gmx.io\" target=\"_blank\" rel=\"noopener noreferrer\">gmx.io</a>.",
+      "Connect your EVM Web3 wallet (MetaMask, Rabby, or Coinbase Wallet).",
+      "Select your network: Arbitrum One or Avalanche C-Chain.",
+      "Trade spot tokens or open a perpetual leverage position on the \"Trade\" interface.",
+      "Explore the \"Earn\" tab to deposit liquidity into GMX v2 GM pools.",
+      "Stake native GMX tokens at <a href=\"https://app.gmx.io/#/earn\" target=\"_blank\" rel=\"noopener noreferrer\">GMX Staking Dashboard</a>.",
+      "Claim your accumulated real yield paid in native ETH or AVAX every week.",
+      "Participate in GMX governance discussions on the official governance forum."
+],
+    faqs: [
+      {
+            "question": "What is GMX and how does its liquidity pool work?",
+            "answer": "GMX is a decentralized perpetual exchange where trades are settled against a multi-asset liquidity pool (GM/GLP) with zero slippage."
+      },
+      {
+            "question": "What is Real Yield on GMX?",
+            "answer": "Real Yield refers to platform trading and liquidation fees distributed directly to GMX stakers in native ETH (Arbitrum) or AVAX (Avalanche)."
+      },
+      {
+            "question": "What are GMX v2 GM pools?",
+            "answer": "GM pools are isolated liquidity markets in GMX v2 for individual trading pairs, offering lower fees and enhanced risk containment."
+      },
+      {
+            "question": "What are Multiplier Points (MPs)?",
+            "answer": "Multiplier Points reward long-term GMX stakers by boosting their fee earning share without increasing token inflation."
+      },
+      {
+            "question": "What leverage can I trade with on GMX?",
+            "answer": "Traders can open long and short positions with up to 50x leverage on major assets like Bitcoin, Ethereum, Solana, and Avalanche."
+      },
+      {
+            "question": "Can I provide liquidity with only one token?",
+            "answer": "Yes, in GMX v2, liquidity providers can deposit single assets (e.g. USDC or ETH) directly into GM pools."
+      }
+]
+  },
+  {
+    id: 'tensor-foundation',
+    name: "Tensor",
+    logo: '/images/airdrops/tensor-foundation.svg',
+    description: "The dominant pro NFT trading marketplace and AMM on Solana backed by $3M from Placeholder and Solana Ventures.",
+    reward: "Trading Rewards, Price Lock Yields & $TNSR Staking",
+    category: 'NFT / Marketplace',
+    featured: false,
+    status: 'active',
+    endTime: '2026-12-31T23:59:59Z',
+    funding: "$3M",
+    investors: "Placeholder, Solana Ventures, Big Brain Holdings, Alliance DAO",
+    refLink: 'https://tensor.trade',
+    overview: "Tensor is the undisputed leader in professional NFT trading infrastructure on the Solana blockchain, processing over 70% of total Solana NFT volume. Backed by $3 Million in financing led by Placeholder, with participation from Solana Ventures and Alliance DAO, Tensor brought financial engineering and Bloomberg-terminal style execution to the digital collectibles ecosystem.\n\nTensor integrates an advanced automated market maker (AMM) alongside deep orderbook aggregation. Professional traders can place bid/ask liquidity curves, execute bulk sweeps across dozens of collections, and utilize proprietary financial primitives like 'Price Lock'. Price Lock allows traders to lock in buy or sell prices for NFTs up to seven days in advance for a small non-refundable fee, bringing institutional option-like mechanics to digital assets.\n\nThe protocol is governed by the native $TNSR token. Following its multi-season rewards campaigns that distributed massive token drops to active traders, Tensor continues to reward active market makers, Price Lock participants, and TNSR governance stakers. Staking TNSR unlocks platform trading fee discounts, voting rights over Tensor Foundation grant allocations, and participation in curated creator launchpad events.",
+    strategy: "To optimize your Tensor marketplace activity and protocol incentives:\n\n1. Connect your Solana Web3 wallet (Phantom, Solflare, or Backpack) to the Tensor terminal.\n2. Trade high-volume verified Solana NFT collections using the Pro interface.\n3. Provide liquidity into Tensor AMM bonding curves to earn automated market maker fees.\n4. Utilize Price Lock to lock in buying or selling prices with small down payments.\n5. Stake native TNSR tokens in the governance portal to unlock fee discounts and staking perks.",
+    tokenomics: "The protocol is governed by the native $TNSR token with a total fixed supply of 1,000,000,000 tokens.\n\nA total of 55% of the entire token supply is dedicated to community initiatives, airdrops, and ongoing ecosystem rewards.\n\nTNSR holders participate in Tensor Foundation governance, voting on fee structures, marketplace parameters, and ecosystem grant programs. Core contributors hold 27%, early investors hold 9%, and the foundation treasury holds 9%.",
+    sybilSafety: "Tensor evaluates genuine trading volume, collection verification status, and organic market maker spreads.\n\nRapid wash-trading of unverified zero-value NFT collections between identical wallets is flagged and excluded by Tensor's anti-gaming algorithms.",
+    steps: [
+      "Install a Solana Web3 wallet (such as Phantom, Solflare, or Backpack).",
+      "Visit the official Tensor trading platform at <a href=\"https://tensor.trade\" target=\"_blank\" rel=\"noopener noreferrer\">tensor.trade</a>.",
+      "Connect your Solana wallet and enable the \"Pro\" trading layout.",
+      "Browse verified collections and execute limit bids or sweep orders.",
+      "Navigate to the \"Pools\" tab to create an automated AMM buy/sell liquidity curve.",
+      "Explore \"Price Lock\" to test option-like NFT price commitments.",
+      "Stake native TNSR tokens in the governance module at <a href=\"https://tensor.foundation\" target=\"_blank\" rel=\"noopener noreferrer\">Tensor Foundation</a>.",
+      "Track your volume, trading stats, and rewards on your user profile dashboard."
+],
+    faqs: [
+      {
+            "question": "What is Tensor?",
+            "answer": "Tensor is the leading pro NFT trading marketplace and AMM on Solana, handling over 70% of network NFT volume."
+      },
+      {
+            "question": "Who invested in Tensor?",
+            "answer": "Tensor raised $3 Million led by Placeholder, with participation from Solana Ventures, Alliance DAO, and Big Brain Holdings."
+      },
+      {
+            "question": "What is Tensor Price Lock?",
+            "answer": "Price Lock allows traders to lock in an NFT purchase or sale price for up to 7 days by paying a small upfront fee."
+      },
+      {
+            "question": "How do Tensor AMM pools work?",
+            "answer": "Tensor AMMs allow users to deposit SOL and NFTs into automated bonding curves to earn trading fees on every market trade."
+      },
+      {
+            "question": "What is the utility of the TNSR token?",
+            "answer": "TNSR is used for governance of Tensor protocols, marketplace fee discounts, and participating in Tensor Foundation initiatives."
+      },
+      {
+            "question": "Which wallets support trading on Tensor?",
+            "answer": "All major Solana wallets including Phantom, Solflare, and Backpack are fully supported on Tensor."
+      }
+]
+  },
+  {
+    id: 'syncswap',
+    name: "SyncSwap",
+    logo: '/images/airdrops/syncswap.svg',
+    description: "Pioneering decentralized AMM and dominant liquidity engine on zkSync Era and Linea with Era Points.",
+    reward: "Era Points & $SYNC Governance Token Allocation",
+    category: 'DEX',
+    featured: false,
+    status: 'active',
+    endTime: '2026-12-31T23:59:59Z',
+    funding: "Ecosystem",
+    investors: "zkSync Ecosystem Backers, Web3 Community",
+    refLink: 'https://syncswap.xyz',
+    overview: "SyncSwap is the undisputed #1 decentralized automated market maker (AMM) and foundational liquidity engine of the zkSync Era ecosystem, also expanded to Linea and Scroll. Built from first principles to leverage zero-knowledge rollup scalability and native account abstraction, SyncSwap has processed tens of billions in total trading volume and commands the deepest liquidity pools on zkSync.\n\nSyncSwap's technological core is its modular Multi-Pool architecture. Rather than forcing all trades through a single AMM curve, SyncSwap allows pools to operate under specialized swap models: Classic AMMs for standard volatile pairs, Stable Pools with ultra-low slippage for correlated assets (USDC, USDT, USDe), and Concentrated Pools for maximum capital efficiency. SyncSwap features integrated Smart Routers, customizable dynamic swap fees, and native Paymaster support allowing users to pay transaction gas in any ERC-20 token.\n\nThe protocol's long-anticipated decentralized governance will be anchored by the native $SYNC token. Through the SyncSwap Loyalty Program and Era Points campaign, users who swap tokens, provide liquidity to verified pools, and hold SyncSwap badges accumulate verifiable on-chain metrics. As the primary gateway for trading on zkSync Era, active participation on SyncSwap remains a central cornerstone of any zero-knowledge rollup DeFi strategy.",
+    strategy: "To optimize your SyncSwap Era Points and upcoming SYNC token allocation:\n\n1. Connect your EVM Web3 wallet to SyncSwap on zkSync Era or Linea.\n2. Execute regular token swaps across high-volume pairs (ETH, USDC, WBTC) to build cumulative trading volume.\n3. Supply balanced liquidity into Classic or Stable pools (e.g. USDC/USDT or ETH/USDC) to harvest swap fee APR.\n4. Use the native Paymaster feature to pay gas fees in USDC or alternate tokens to build account abstraction footprint.\n5. Participate in official SyncSwap community campaigns and claim Era Points loyalty tiers.",
+    tokenomics: "The protocol is governed by the upcoming native $SYNC token, engineered with community-first tokenomics.\n\nA significant allocation of total supply is reserved for retroactive airdrops for early traders, liquidity providers, and community badge holders.\n\nSYNC token holders will govern protocol fee switch parameters, pool emission gauges, and community treasury allocations.",
+    sybilSafety: "SyncSwap monitors continuous liquidity duration, organic trading frequency, and fee generation.\n\nSpamming rapid round-trip wash trades on zero-fee pools without providing sustained liquidity is identified by automated trading heuristics. Genuine liquidity provision is prioritized.",
+    steps: [
+      "Bridge ETH to zkSync Era or Linea using official canonical bridges.",
+      "Visit the official SyncSwap trading terminal at <a href=\"https://syncswap.xyz\" target=\"_blank\" rel=\"noopener noreferrer\">syncswap.xyz</a>.",
+      "Connect your EVM Web3 wallet (MetaMask, Rabby, or OKX Wallet).",
+      "Select your network (zkSync Era, Linea, or Scroll) in the top-right menu.",
+      "Swap tokens on the \"Trade\" interface to generate authentic volume.",
+      "Navigate to the \"Pools\" tab and deposit token pairs into a verified liquidity pool.",
+      "Try the Paymaster option during transaction signing to pay gas in USDC instead of ETH.",
+      "Track your earned trading fees and loyalty standing on the SyncSwap rewards dashboard."
+],
+    faqs: [
+      {
+            "question": "What is SyncSwap and what makes it the leading DEX on zkSync?",
+            "answer": "SyncSwap is the dominant decentralized AMM on zkSync Era, featuring modular Multi-Pool models, Paymaster gasless swaps, and deep liquidity."
+      },
+      {
+            "question": "What is the SyncSwap Multi-Pool model?",
+            "answer": "Multi-Pool allows different pools to use custom swap curves: Classic AMMs for volatile tokens, Stable Pools for pegged assets, and Concentrated liquidity."
+      },
+      {
+            "question": "Can I pay transaction fees without ETH on SyncSwap?",
+            "answer": "Yes, SyncSwap integrates zkSyncs native Paymaster, allowing users to pay gas in USDC or other supported tokens."
+      },
+      {
+            "question": "What are SyncSwap Era Points?",
+            "answer": "Era Points track user loyalty and volume on SyncSwap, serving as a primary metric for future community rewards."
+      },
+      {
+            "question": "Which blockchains does SyncSwap support?",
+            "answer": "SyncSwap is natively live on zkSync Era, Linea, and Scroll zero-knowledge rollups."
+      },
+      {
+            "question": "What will be the utility of the SYNC token?",
+            "answer": "SYNC will govern protocol fee switch parameters, pool emission gauges, and community treasury allocations."
+      }
+]
+  },
+  {
+    id: 'allora-network',
+    name: "Allora Network",
+    logo: '/images/airdrops/allora-network.svg',
+    description: "Decentralized self-improving AI intelligence network backed by $35M from Polychain Capital, Framework, and Delphi Digital.",
+    reward: "Worker Points, Reputation Stakes & $ALLO Token Allocation",
+    category: 'AI / Compute',
+    featured: false,
+    status: 'active',
+    endTime: '2026-12-31T23:59:59Z',
+    funding: "$35M",
+    investors: "Polychain Capital, Framework Ventures, Delphi Digital, CoinFund, Archetype",
+    refLink: 'https://allora.network',
+    overview: "Allora Network is the premier decentralized, self-improving artificial intelligence network engineered to coordinate and evaluate machine learning models on-chain. Backed by $35 Million in venture financing from elite Web3 and AI investors—including Polychain Capital, Framework Ventures, Delphi Digital, and CoinFund—Allora introduces a revolutionary paradigm: context-aware collective machine intelligence.\n\nUnlike traditional static machine learning or centralized AI APIs, Allora operates an open marketplace of specialized AI Workers and Reputers. Workers generate predictions and analytical inference (ranging from crypto asset volatility models to DeFi liquidity forecasts), while Reputers mathematically score the accuracy of each model against real-world ground truth. Allora's consensus algorithm dynamically adjusts weights in real time, synthesizing hundreds of independent machine learning models into a single meta-model that continuously outperforms any individual AI system.\n\nThe network is governed by the native $ALLO token on its sovereign Cosmos SDK Layer 1 blockchain. Early developers, model deployers, node operators running Allora Worker/Reputer instances, and community members participating in points campaigns establish verifiable on-chain reputation. With strategic partnerships across prominent financial protocols, Allora represents the leading edge of decentralized artificial intelligence coordination.",
+    strategy: "To optimize your positioning in the Allora Network points campaign and testnet rewards:\n\n1. Register for an Allora account and connect your Keplr or EVM wallet on the Allora Points dashboard.\n2. Complete developer quest challenges and join community topics on the Allora testnet.\n3. Deploy an AI prediction Worker node using official Docker and Python scripts to submit automated inferences.\n4. Delegate testnet ALLO tokens to high-performing Reputer nodes to earn reputation staking yields.\n5. Participate in Allora Discord developer challenges and community AI model competitions.",
+    tokenomics: "The network is governed by the native $ALLO token with a total fixed supply of 1,000,000,000 tokens.\n\nA total of 25% of total supply is reserved for community incentives, testnet validator rewards, and decentralized AI ecosystem grants.\n\nALLO functions as the native gas token, staking asset for Worker/Reputer reputation bonding, and governance voting currency. 35% is allocated to ecosystem and research initiatives, 20% to core contributors, 15% to strategic investors, and 5% to foundation reserves.",
+    sybilSafety: "Allora employs cryptographic model validation and ground-truth reputation scoring.\n\nWorker nodes that submit random, low-accuracy, or copied predictions are penalized by automated reputation slashing algorithms, ensuring that only genuine machine learning inference accrues network points.",
+    steps: [
+      "Visit the official Allora platform at <a href=\"https://allora.network\" target=\"_blank\" rel=\"noopener noreferrer\">allora.network</a>.",
+      "Access the Allora Points Portal at <a href=\"https://app.allora.network\" target=\"_blank\" rel=\"noopener noreferrer\">Allora Dashboard</a>.",
+      "Connect your Keplr wallet or EVM wallet to establish your identity.",
+      "Claim testnet ALLO tokens from the official Allora testnet faucet.",
+      "Follow the official documentation to deploy an AI Worker node using Docker.",
+      "Connect your Worker to active prediction topics (such as BTC price predictions or DeFi APRs).",
+      "Delegate testnet tokens to reputable Reputer validators to earn staking reputation.",
+      "Join the Allora Discord to verify your developer roles and track mainnet snapshot announcements."
+],
+    faqs: [
+      {
+            "question": "What is Allora Network and how does decentralized AI work?",
+            "answer": "Allora is a decentralized AI network where machine learning models compete and combine on-chain to create self-improving collective intelligence."
+      },
+      {
+            "question": "Who invested in Allora Network?",
+            "answer": "Allora raised $35 Million from premier venture funds including Polychain Capital, Framework Ventures, Delphi Digital, and CoinFund."
+      },
+      {
+            "question": "What are Allora Workers and Reputers?",
+            "answer": "Workers are nodes that generate AI model predictions; Reputers evaluate and score the accuracy of those predictions on-chain."
+      },
+      {
+            "question": "Can I participate without coding an AI model?",
+            "answer": "Yes, community members can participate via the Allora Points dashboard, completing quests and delegating tokens to top nodes."
+      },
+      {
+            "question": "What blockchain does Allora operate on?",
+            "answer": "Allora operates as a sovereign Layer 1 blockchain built on the Cosmos SDK with native Tendermint/CometBFT consensus."
+      },
+      {
+            "question": "What is the utility of the ALLO token?",
+            "answer": "ALLO is used for paying transaction fees, staking to operate AI Worker/Reputer nodes, slashing bad models, and DAO governance."
+      }
+]
+  },
+  {
+    id: 'sentient-agi',
+    name: "Sentient",
+    logo: '/images/airdrops/sentient-agi.svg',
+    description: "Open-source decentralized artificial general intelligence (AGI) platform backed by $85M from Founders Fund and Pantera.",
+    reward: "Model Contributions, Compute Staking & Future Token Allocation",
+    category: 'AI / Compute',
+    featured: false,
+    status: 'upcoming',
+    endTime: '2026-12-31T23:59:59Z',
+    funding: "$85M",
+    investors: "Founders Fund (Peter Thiel), Pantera Capital, Framework Ventures, Polygon Ventures",
+    refLink: 'https://sentient.foundation',
+    overview: "Sentient is a transformative open-source artificial general intelligence (AGI) development platform backed by a colossal $85 Million seed round co-led by Peter Thiel's Founders Fund, Pantera Capital, and Framework Ventures. Co-founded by Sandeep Nailwal (Polygon co-founder) alongside leading AI researchers from Princeton and top academic institutions, Sentient addresses the existential threat of centralized AI monopolies controlled by Big Tech.\n\nThe protocol develops Open, Monetizable, and Loyal (OML) AI models. Unlike traditional open-source code that can be appropriated by closed conglomerates without attribution, Sentient's OML framework cryptographically fingerprints model weights and training datasets using decentralized ledger technology. Developers who contribute neural network architectures, alignment fine-tuning, or compute power retain immutable intellectual property rights and receive programmatic micro-revenues whenever their model is queried.\n\nOperating at the frontier of decentralized machine learning, Sentient coordinates model training, synthetic data generation, and distributed alignment pipelines across global clusters. Community participants, machine learning engineers, and open-source contributors who participate in Sentient's public testnets, data annotation campaigns, and model alignment challenges establish foundational reputation ahead of the protocol's governance decentralization.",
+    strategy: "To optimize your positioning for Sentient AGI ecosystem rewards:\n\n1. Register on the official Sentient Foundation platform and join the community portal.\n2. Participate in open model benchmarking and synthetic data contribution campaigns.\n3. Contribute computing resources to distributed model training clusters during public testing rounds.\n4. Engage in model alignment challenges and evaluate AI outputs for safety and quality metrics.\n5. Follow official Sentient announcements on Discord and Twitter to register for early access developer cohorts.",
+    tokenomics: "The protocol is preparing its decentralized economic framework, with tokenomics designed to incentivize open-source AI researchers, data contributors, and compute providers.\n\nA substantial allocation is reserved for community builders, early dataset providers, and decentralized model validators.\n\nThe native token will power model licensing fees, staking for model verification, and decentralized governance over foundation research grants.",
+    sybilSafety: "Sentient utilizes cryptographic fingerprinting of model weights, human verification attestations, and GitHub contribution tracking.\n\nAutomated bots submitting low-quality synthetic data or scraped inputs are filtered by automated data validation filters.",
+    steps: [
+      "Visit the official Sentient platform at <a href=\"https://sentient.foundation\" target=\"_blank\" rel=\"noopener noreferrer\">sentient.foundation</a>.",
+      "Sign up for the community newsletter and early access developer registry.",
+      "Review the OML (Open, Monetizable, Loyal) technical whitepaper.",
+      "Participate in public data annotation and alignment testing tasks when available.",
+      "Star and contribute to Sentient open-source repositories on GitHub.",
+      "Engage with research topics on the official Sentient Discord forum.",
+      "Verify your credentials and complete community verification quests.",
+      "Track official foundation roadmap milestones for public testnet deployment."
+],
+    faqs: [
+      {
+            "question": "What is Sentient and what is its mission?",
+            "answer": "Sentient is an $85M open-source AI platform founded by Sandeep Nailwal and AI researchers to build decentralized, community-owned AGI."
+      },
+      {
+            "question": "Who invested in Sentient?",
+            "answer": "Sentient raised $85 Million co-led by Peter Thiels Founders Fund, Pantera Capital, and Framework Ventures."
+      },
+      {
+            "question": "What is an OML model?",
+            "answer": "OML stands for Open, Monetizable, and Loyal—AI models whose weights are cryptographically protected so open-source creators receive ongoing revenue."
+      },
+      {
+            "question": "Can non-technical users participate in Sentient?",
+            "answer": "Yes, community members can participate through data annotation, model evaluation, alignment tasks, and community advocacy."
+      },
+      {
+            "question": "How does Sentient compete with centralized AI companies like OpenAI?",
+            "answer": "Sentient enables global open-source developers to pool compute, data, and model weights, offering a censorship-resistant alternative to closed AI monopolies."
+      },
+      {
+            "question": "When will the Sentient network go live?",
+            "answer": "Public testnet phases and developer SDK rollouts are scheduled throughout 2026."
+      }
+]
+  },
+  {
+    id: 'myshell',
+    name: "MyShell",
+    logo: '/images/airdrops/myshell.svg',
+    description: "Decentralized AI consumer creator platform and agent workshop backed by $16M from Dragonfly Capital and Binance Labs.",
+    reward: "Shell Coins, Creator Royalties & $SHELL Token Airdrop",
+    category: 'AI / Compute',
+    featured: false,
+    status: 'active',
+    endTime: '2026-12-31T23:59:59Z',
+    funding: "$16M",
+    investors: "Dragonfly Capital, Binance Labs, HashKey Capital, Folius Ventures, INCE Capital",
+    refLink: 'https://myshell.ai',
+    overview: "MyShell is the leading decentralized AI consumer creator ecosystem and generative agent platform, empowering over 4 Million registered users and hundreds of thousands of AI bot creators. Backed by $16 Million in venture capital led by Dragonfly Capital, with participation from Binance Labs, HashKey Capital, and Folius Ventures, MyShell democratizes AI development by providing modular, no-code and low-code creator workshops.\n\nThrough MyShell's innovative architecture, creators can compose customized AI agents, autonomous companions, voice synthesis bots, and multimodal LLMs by snapping together diverse open-source AI models. MyShell integrates proprietary voice cloning algorithms, automated knowledge-base indexing, and tokenized creator monetization. When users chat with or execute tasks through an AI bot, creator royalties are automatically calculated and distributed via smart contracts.\n\nThe platform's economic engine centers on the upcoming native $SHELL token. Through seasonal loyalty campaigns and the 'Shell Coins' rewards program, active consumers who chat with bots, creators who deploy trending AI models, and community members who complete daily quests earn points that convert into $SHELL tokens upon the token generation event.",
+    strategy: "To optimize your MyShell Shell Coins accumulation and airdrop tier:\n\n1. Create a free account on the MyShell platform and connect your Web3 wallet.\n2. Complete daily check-in streaks and interact with featured AI agents to earn daily Shell Coins.\n3. Build and publish your own custom AI bot using the MyShell Workshop to earn creator royalties.\n4. Promote your bot within the community to generate user engagement and chat volume.\n5. Participate in seasonal Discord community tasks and stake Shell Coins in featured creator pools.",
+    tokenomics: "The platform is governed by the native $SHELL token with a total fixed supply of 1,000,000,000 tokens.\n\nA total of 20% of the entire token supply is dedicated to creator rewards, community airdrops, and consumer incentives.\n\nSHELL tokens function as platform utility for accessing premium AI compute, tipping creators, and participating in governance votes over model funding. 35% is allocated to community and creators, 20% to core contributors, 15% to strategic investors, and 10% to the ecosystem reserve.",
+    sybilSafety: "MyShell tracks voice generation telemetry, interaction diversity, and wallet verification.\n\nAutomated bot accounts that spam meaningless one-word messages without genuine conversation depth are filtered out by automated behavioral heuristics.",
+    steps: [
+      "Visit the official MyShell portal at <a href=\"https://myshell.ai\" target=\"_blank\" rel=\"noopener noreferrer\">myshell.ai</a>.",
+      "Sign up using your email and connect your EVM Web3 wallet.",
+      "Complete the daily check-in to start stacking your streak bonus.",
+      "Chat with featured AI voice agents and explore specialized knowledge bots.",
+      "Click \"Create\" to design your own custom AI agent using MyShell Workshop tools.",
+      "Test and publish your bot to the public Explore directory.",
+      "Collect earned Shell Coins and creator royalties on your profile dashboard.",
+      "Join the MyShell Discord community to verify your creator tier and track TGE dates."
+],
+    faqs: [
+      {
+            "question": "What is MyShell?",
+            "answer": "MyShell is a decentralized AI platform allowing anyone to create, share, and monetize custom AI voice agents and multimodal chatbots."
+      },
+      {
+            "question": "Who invested in MyShell?",
+            "answer": "MyShell raised $16 Million led by Dragonfly Capital, with backing from Binance Labs, HashKey Capital, and Folius Ventures."
+      },
+      {
+            "question": "Do I need programming skills to create an AI bot on MyShell?",
+            "answer": "No. MyShell provides no-code modular workshops where anyone can assemble AI prompts, voices, and workflows visually."
+      },
+      {
+            "question": "What are Shell Coins?",
+            "answer": "Shell Coins are in-platform reward points earned by chatting, creating bots, and completing quests, translating into future $SHELL tokens."
+      },
+      {
+            "question": "Can I earn money from bots I create on MyShell?",
+            "answer": "Yes, creators earn passive royalty rewards whenever other users interact with or subscribe to their published AI agents."
+      },
+      {
+            "question": "What blockchain does MyShell integrate with?",
+            "answer": "MyShell integrates across BNB Chain, opBNB, and Ethereum Layer 2 rollups for low-cost creator settlement."
+      }
+]
+  },
+  {
+    id: 'reya-network',
+    name: "Reya Network",
+    logo: '/images/airdrops/reya-network.svg',
+    description: "Modular Layer 2 trading rollup engineered for perpetuals with shared margin backed by $16M from Framework and Coinbase.",
+    reward: "XP Season Rewards & $REYA Token Allocation",
+    category: 'Layer 2',
+    featured: false,
+    status: 'active',
+    endTime: '2026-12-31T23:59:59Z',
+    funding: "$16M",
+    investors: "Framework Ventures, Coinbase Ventures, Brevan Howard, Amber Group",
+    refLink: 'https://reya.network',
+    overview: "Reya Network is a high-performance modular Layer 2 rollup engineered specifically to serve as the global liquidity and settlement engine for decentralized perpetuals trading. Developed by the quantitative engineering team behind Voltz Protocol and backed by $16 Million in venture capital from Framework Ventures, Coinbase Ventures, and Brevan Howard Digital, Reya eliminates the fragmentation of capital across decentralized finance through a revolutionary unified margin clearinghouse.\n\nUnlike traditional general-purpose rollups where trading applications compete for blockspace with meme coins and NFTs, Reya is purpose-built for financial trading execution. Operating on custom Arbitrum Orbit rollup technology, Reya delivers sub-second deterministic transaction execution, zero front-running MEV latency, and unprecedented capital efficiency through its Passive Liquidity Pool (rLP). By pooling all network margin into a single shared clearing layer, capital deployed on Reya achieves up to 3.5x higher efficiency than isolated exchange architectures.\n\nThrough the ongoing multi-season Reya XP campaign and the Reya DEX trading terminal, users who deposit collateral (such as USDC) into the shared margin pool, trade perpetual contracts, or participate in staking accumulate XP. Early liquidity providers and active traders establish verifiable on-chain history ahead of the protocol's governance token distribution event.",
+    strategy: "To optimize your Reya XP accumulation and prospective token allocation:\n\n1. Connect your EVM Web3 wallet to the official Reya Network bridge.\n2. Deposit USDC into the Reya shared margin liquidity pool to begin accruing passive base XP.\n3. Trade perpetual contracts on Reya DEX across major pairs (BTC, ETH, SOL) to generate active trading XP.\n4. Maintain long-term deposits in the liquidity pool to unlock time-weighted loyalty multipliers.\n5. Generate a referral code to invite fellow traders and earn a percentage of their XP.",
+    tokenomics: "The protocol is governed by the upcoming native $REYA token, planned with an initial total supply of 1,000,000,000 tokens.\n\nA total of 15% of token supply is dedicated to early liquidity providers, Reya XP earners, and active perpetual traders.\n\nREYA token holders will govern network clearinghouse parameters, risk margins, fee distribution models, and sequencer upgrades. 45% is allocated to community and liquidity mining, 22% to core contributors, 18% to strategic venture investors, and 15% to the protocol security reserve.",
+    sybilSafety: "Reya Network measures continuous deposit duration, genuine fee generation, and non-circular trading behavior.\n\nRapid deposit-and-withdraw cycles designed to game snapshot timestamps without maintaining active margin receive discounted XP tiers.",
+    steps: [
+      "Visit the official Reya Network platform at <a href=\"https://reya.network\" target=\"_blank\" rel=\"noopener noreferrer\">reya.network</a>.",
+      "Launch the app and connect your EVM Web3 wallet (MetaMask, Rabby, or Coinbase Wallet).",
+      "Bridge USDC from Arbitrum, Ethereum, or Optimism to Reya Network.",
+      "Deposit USDC into the Reya Liquidity Pool (rLP) to start earning passive yield and XP.",
+      "Trade perpetual futures on the official Reya DEX interface.",
+      "Monitor your accumulated XP, rank, and trading stats on the official leaderboard.",
+      "Generate your unique referral link to share with your trading network.",
+      "Join the Reya Discord community to verify your roles and stay informed on governance milestones."
+],
+    faqs: [
+      {
+            "question": "What is Reya Network and why is it built specifically for trading?",
+            "answer": "Reya is an Arbitrum Orbit Layer 2 optimized exclusively for perpetuals trading, featuring a shared margin clearinghouse that maximizes capital efficiency."
+      },
+      {
+            "question": "Who invested in Reya Network?",
+            "answer": "Reya raised $16 Million from top venture funds including Framework Ventures, Coinbase Ventures, Brevan Howard, and Amber Group."
+      },
+      {
+            "question": "What is the Reya Passive Liquidity Pool (rLP)?",
+            "answer": "rLP is a unified liquidity pool that acts as the clearing counterparty for all trades across the network, earning fees from all trading activity."
+      },
+      {
+            "question": "What are Reya XP?",
+            "answer": "Reya XP are protocol loyalty points that track user deposits and trading volume, serving as the benchmark for future token distribution."
+      },
+      {
+            "question": "Which assets can I deposit on Reya?",
+            "answer": "Reya natively uses USDC as its primary collateral and margin asset, bridgeable directly from Ethereum and Arbitrum."
+      },
+      {
+            "question": "How fast are trades executed on Reya?",
+            "answer": "Because Reya operates on custom rollup architecture, trades execute with sub-second finality and near-zero gas costs."
+      }
+]
+  },
+  {
+    id: 'nillion',
+    name: "Nillion",
+    logo: '/images/airdrops/nillion.svg',
+    description: "Decentralized blind computation and confidential computing network backed by $50M+ from Hack VC and HashKey.",
+    reward: "Verifier Node Staking, Blind Compute Tasks & $NIL Token Airdrop",
+    category: 'Infrastructure',
+    featured: false,
+    status: 'active',
+    endTime: '2026-12-31T23:59:59Z',
+    funding: "$50M+",
+    investors: "Hack VC, HashKey Capital, Distributed Global, Big Brain Holdings",
+    refLink: 'https://nillion.com',
+    overview: "Nillion is a groundbreaking decentralized confidential computing infrastructure and privacy network backed by over $50 Million in venture financing led by Hack VC, HashKey Capital, and Distributed Global. Dubbed the \"first blind computer,\" Nillion introduces Nil Message Compute (NMC)—a proprietary multi-party computation (MPC) breakthrough that allows sensitive, private data to be stored, shared, and computed upon without ever decrypting it.\n\nWhile traditional zero-knowledge proofs verify computations without revealing underlying inputs, they struggle with collaborative multi-party calculations. Nillion solves this fundamental bottleneck: data is broken down into cryptographically obfuscated \"particles\" and distributed across a decentralized network of nodes. The nodes execute complex mathematical algorithms and AI inferences directly on the shredded data particles, reassembling the final output while ensuring that no single node ever sees the original plain-text information.\n\nNillion is powered by the upcoming native $NIL utility and governance token. Operating across its incentivized public testnet (Genesis Sprint and Verifier program), developers and node operators who run Nillion Verifiers, store confidential secrets, and build privacy-preserving decentralized applications accumulate verifiable network metrics. With use cases spanning private DeFi orderbooks, confidential healthcare AI, and secure decentralized key management, Nillion stands as the foundational privacy layer of the Web3 world.",
+    strategy: "To optimize your positioning for the Nillion ($NIL) token distribution:\n\n1. Download and set up the official Nillion Keplr-compatible testnet wallet extension.\n2. Claim testnet NIL tokens from the official Nillion faucet.\n3. Set up and operate a lightweight Nillion Verifier node on a VPS or home computer using official Docker CLI guides.\n4. Interact with verified Nillion testnet dApps and execute confidential blind storage transactions.\n5. Participate in community developer workshops and complete official Galxe and Zealy quests.",
+    tokenomics: "The network is governed by the native $NIL token, engineered with utility designed to power blind computation.\n\nA significant 20% allocation of total supply is reserved for early node operators, verifiers, and community testnet contributors.\n\nNIL functions as the settlement currency for confidential storage and blind compute gas, staking collateral for verifier nodes, and governance voting on network protocol upgrades.",
+    sybilSafety: "Nillion assesses verifier node uptime, hardware telemetry, and authentic cryptographic proof submissions.\n\nSpinning up duplicate container nodes with spoofed credentials or failing to maintain consistent uptime results in node disqualification from reward tiers.",
+    steps: [
+      "Visit the official Nillion platform at <a href=\"https://nillion.com\" target=\"_blank\" rel=\"noopener noreferrer\">nillion.com</a>.",
+      "Install the Nillion Wallet browser extension and backup your mnemonic seed phrase.",
+      "Claim testnet NIL tokens from the official faucet at <a href=\"https://faucet.testnet.nillion.com\" target=\"_blank\" rel=\"noopener noreferrer\">Nillion Faucet</a>.",
+      "Follow official documentation to install Docker and initialize a Nillion Verifier node.",
+      "Register your Verifier node address on the official Nillion Verifier Portal.",
+      "Maintain steady node uptime to process confidential verification challenges.",
+      "Interact with demo applications on the Nillion testnet to test blind compute workflows.",
+      "Join the Nillion Discord community to track node operator updates and TGE announcements."
+],
+    faqs: [
+      {
+            "question": "What is Nillion and what is \"Blind Computation\"?",
+            "answer": "Nillion is a decentralized confidential computing network that uses Nil Message Compute to process sensitive data without ever decrypting it."
+      },
+      {
+            "question": "Who invested in Nillion?",
+            "answer": "Nillion has raised over $50 Million in funding led by Hack VC, HashKey Capital, Distributed Global, and prominent angels."
+      },
+      {
+            "question": "How is Nillion different from Zero-Knowledge (ZK) proofs?",
+            "answer": "ZK proofs verify that a calculation was done correctly without revealing inputs, whereas Nillion actually computes and transforms private data across multiple parties."
+      },
+      {
+            "question": "Can I run a Nillion node on a basic computer?",
+            "answer": "Yes, Nillion Verifier nodes are lightweight and can be easily operated using Docker on a standard home PC or low-cost VPS."
+      },
+      {
+            "question": "What is the utility of the NIL token?",
+            "answer": "NIL is used to pay for blind compute operations, confidential data storage, staking by node operators, and protocol governance."
+      },
+      {
+            "question": "When will the Nillion mainnet launch?",
+            "answer": "Nillion is currently progressing through incentivized testnet phases with mainnet token launch targeted for late 2026."
+      }
+]
+  }
 ];
