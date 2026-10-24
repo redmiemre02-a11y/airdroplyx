@@ -1,0 +1,103 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import Header from '../../components/Header.astro';
+import Footer from '../../components/Footer.astro';
+import { airdrops } from '../../data/airdrops';
+import { ecosystems } from '../../data/ecosystems';
+
+// Calculate ecosystem stats
+const ecosystemStats = ecosystems.map(eco => {
+  const matched = airdrops.filter(a => eco.match(a));
+  const activeCount = matched.filter(a => a.status === 'active').length;
+  const topTokens = matched.slice(0, 4).map(a => a.name);
+  return {
+    ...eco,
+    count: matched.length,
+    activeCount,
+    topTokens
+  };
+});
+---
+
+<Layout 
+  title="Web3 Airdrop Ecosystems & Sectors (2026) | Airdroplyx"
+  description="Explore verified crypto airdrops categorized by blockchain ecosystem: Solana, Ethereum Layer 2, DePIN, Decentralized AI, Bitcoin L2, and Liquid Restaking."
+>
+  <!-- Schema.org JSON-LD -->
+  <script type="application/ld+json" set:html={JSON.stringify({
+    "@context": "https://schema.org",
+    "@type": "CollectionPage",
+    "name": "Web3 Airdrop Ecosystems & Sectors 2026",
+    "description": "Directory of cryptocurrency airdrop ecosystems including Solana, Ethereum Layer 2, DePIN, Decentralized AI, Bitcoin L2, and Restaking.",
+    "url": "https://airdroplyx.com/ecosystems/"
+  })} />
+
+  <Header />
+
+  <!-- Hero Section -->
+  <div class="bg-gradient-to-b from-slate-950 via-slate-900 to-slate-800 text-white py-16 md:py-20 border-b-4 border-blue-600">
+    <div class="max-w-[1200px] mx-auto px-4 text-center">
+      <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-blue-500/20 border border-blue-400/30 text-blue-300 text-xs font-bold uppercase tracking-wider mb-6">
+        <span>🌐</span> Blockchain Sector Hubs
+      </div>
+      <h1 class="text-3xl md:text-5xl font-black tracking-tight mb-4 leading-tight text-white">
+        Web3 Airdrop <span class="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 via-indigo-300 to-purple-400">Ecosystem Hubs</span>
+      </h1>
+      <p class="text-base md:text-lg text-slate-300 max-w-2xl mx-auto leading-relaxed">
+        Target high-yield airdrop campaigns categorized by technology sector. From high-speed Solana DeFi to modular execution layers and zero-capital DePIN mining.
+      </p>
+    </div>
+  </div>
+
+  <!-- Main Ecosystems Grid -->
+  <main class="max-w-[1200px] mx-auto px-4 py-16">
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-8">
+      {ecosystemStats.map(eco => (
+        <a 
+          href={`/ecosystem/${eco.slug}`}
+          class="bg-white dark:bg-slate-800 rounded-3xl p-7 md:p-8 border border-slate-200 dark:border-slate-700 shadow-sm hover:shadow-2xl hover:-translate-y-1.5 transition-all duration-300 flex flex-col justify-between group"
+        >
+          <div>
+            <div class="flex items-center justify-between gap-4 mb-5">
+              <span class="text-4xl">{eco.icon}</span>
+              <span class="text-xs font-bold px-3 py-1 rounded-full bg-slate-100 dark:bg-slate-700 text-slate-700 dark:text-slate-300">
+                {eco.badge}
+              </span>
+            </div>
+
+            <h2 class="text-2xl font-extrabold text-slate-900 dark:text-white group-hover:text-blue-600 transition-colors mb-2">
+              {eco.name}
+            </h2>
+
+            <p class="text-sm font-medium text-slate-500 dark:text-slate-400 mb-6 leading-relaxed">
+              {eco.tagline}
+            </p>
+
+            <div class="flex flex-wrap gap-2 mb-6">
+              {eco.topTokens.map(token => (
+                <span class="text-xs bg-slate-50 dark:bg-slate-700/60 text-slate-600 dark:text-slate-300 px-2.5 py-1 rounded-lg border border-slate-200/60 dark:border-slate-600/60 font-semibold">
+                  {token}
+                </span>
+              ))}
+              <span class="text-xs text-slate-400 py-1 font-medium">+{eco.count - eco.topTokens.length} more</span>
+            </div>
+          </div>
+
+          <div class="pt-5 border-t border-slate-100 dark:border-slate-700 flex items-center justify-between">
+            <div class="flex items-center gap-2">
+              <span class="inline-block w-2 h-2 rounded-full bg-emerald-500"></span>
+              <span class="text-xs font-bold text-slate-700 dark:text-slate-300">
+                {eco.count} Verified Guides ({eco.activeCount} Active)
+              </span>
+            </div>
+            <span class="text-sm font-bold text-blue-600 group-hover:translate-x-1 transition-transform flex items-center gap-1">
+              Explore Hub →
+            </span>
+          </div>
+        </a>
+      ))}
+    </div>
+  </main>
+
+  <Footer />
+</Layout>

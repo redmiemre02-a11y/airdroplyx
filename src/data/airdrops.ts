@@ -18241,5 +18241,815 @@ export const airdrops: Airdrop[] = [
             "answer": "Nillion is currently progressing through incentivized testnet phases with mainnet token launch targeted for late 2026."
       }
 ]
+  },
+  {
+    "id": "blockmesh-network",
+    "name": "BlockMesh Network",
+    "logo": "/images/airdrops/blockmesh-network.svg",
+    "description": "Decentralized DePIN network for AI data collection and distributed monitoring, winning the Solana Renaissance Hackathon.",
+    "reward": "$500 - $3,500",
+    "category": "DePIN / AI / Solana",
+    "featured": true,
+    "status": "active",
+    "endTime": "Q1 2027",
+    "funding": "Solana Foundation Grants",
+    "investors": "Colosseum, Solana Foundation, Seed Backers",
+    "refLink": "https://blockmesh.xyz",
+    "overview": "BlockMesh Network is an open-source decentralized physical infrastructure network (DePIN) designed to address the escalating bottleneck in high-quality training and alignment data for artificial intelligence models. Crowned first place in the DePIN track of the prestigious Solana Renaissance Hackathon, BlockMesh transforms everyday consumer devices into distributed nodes that collect, sanitize, and verify public web data for frontier machine learning architectures.\n\nTraditional web scraping and model validation clusters are susceptible to IP blocking, localized censorship, and latency bottlenecks. BlockMesh overcomes these limitations by mobilizing a permissionless global mesh of residential nodes. Users install a lightweight, privacy-preserving browser extension or mobile client that performs automated, background verification queries without ever accessing personal credentials or browsing history.\n\nIn exchange for network bandwidth and verified uptime, participants accrue BlockMesh Network Points. As global demand for verifiable synthetic data and unbiased model evaluation surges, BlockMesh is scheduled to conduct its native token generation event on Solana, distributing governance and protocol revenue-sharing tokens to verified node operators.",
+    "strategy": "Install the official BlockMesh Chrome extension and keep your browser session active during daily routine to accumulate consistent baseline uptime credits.\n\nConnect a dedicated Solana Web3 wallet (such as Phantom or Backpack) to bind your on-chain identity and participate in seasonal leaderboards.\n\nEngage in the BlockMesh referral initiative to earn a percentage of your referred nodes' validated epoch points without incurring penalty multipliers.",
+    "tokenomics": "Community DePIN Node Incentives: 40% allocated over multi-epoch distribution schedules with uptime verification.\n\nEcosystem & Developer Grants: 25% reserved for open-source AI tooling, model integration, and validator rewards.\n\nCore Contributors & Advisors: 20% subjected to a 12-month lockup followed by 24-month linear vesting.\n\nStrategic Backers & Liquidity: 15% dedicated to DEX/CEX market making and liquidity pool seeding at TGE.",
+    "sybilSafety": "BlockMesh deploys automated IP telemetry to penalize commercial VPNs, data center IP ranges, and duplicate virtual machines. Run nodes exclusively on genuine residential or mobile ISP connections to maintain full point efficiency.",
+    "steps": [
+      "Navigate to the official <a href='https://blockmesh.xyz' target='_blank' rel='noopener noreferrer'>BlockMesh Network Portal</a> and register a verified community account.",
+      "Install the official BlockMesh Node Extension from the Google Chrome Web Store.",
+      "Log into the extension using your registered credentials to establish your active node connection.",
+      "Verify your network status indicator turns green, confirming active bandwidth and uptime telemetry.",
+      "Access the BlockMesh Dashboard and link your primary Solana Web3 wallet for future reward mapping.",
+      "Complete social onboarding quests on Discord and X (Twitter) to secure the Early Adopter Discord role.",
+      "Share your unique referral link with fellow Web3 node operators to boost your daily point multiplier.",
+      "Monitor the Epoch Leaderboard regularly to ensure your node maintains an uptime score exceeding 90%."
+    ],
+    "faqs": [
+      {
+        "question": "Does BlockMesh slow down my internet connection?",
+        "answer": "No. BlockMesh consumes negligible bandwidth (less than 1 MB per hour) and operates only during idle background bandwidth intervals."
+      },
+      {
+        "question": "Can BlockMesh view my private browser data or passwords?",
+        "answer": "No. The extension operates within a sandboxed socket environment that executes external web requests without access to cookies, local storage, or personal history."
+      },
+      {
+        "question": "When is the BlockMesh token generation event?",
+        "answer": "The TGE is targeted for Q1 2027 following the conclusion of multi-stage DePIN testnet epochs."
+      },
+      {
+        "question": "Can I run BlockMesh on multiple laptops in my home?",
+        "answer": "No. BlockMesh enforces a one-node-per-residential-IP limit to ensure geographical diversity and prevent artificial farming."
+      },
+      {
+        "question": "What blockchain does BlockMesh settle on?",
+        "answer": "BlockMesh settles natively on the Solana blockchain, taking advantage of sub-second finality and micro-cent transaction fees."
+      },
+      {
+        "question": "Are BlockMesh testnet points convertible to tokens?",
+        "answer": "Yes. Points earned during the current testnet phase will convert into native tokens at the official genesis distribution."
+      }
+    ]
+  },
+  {
+    "id": "lagrange-network",
+    "name": "Lagrange",
+    "logo": "/images/airdrops/lagrange-network.svg",
+    "description": "Zero-knowledge coprocessor and decentralized state committee protocol enabling hyper-parallel verifiable big data compute for Ethereum.",
+    "reward": "$1,500 - $8,000",
+    "category": "Infrastructure / ZK / Modular",
+    "featured": true,
+    "status": "active",
+    "endTime": "Q2 2027",
+    "funding": "$13.2M",
+    "investors": "Founders Fund, Archetype, 1kx, Maven 11, Fenbushi Capital",
+    "refLink": "https://lagrange.dev",
+    "overview": "Lagrange is a groundbreaking zero-knowledge coprocessor and generalized state committee infrastructure that enables smart contracts to perform verifiable computations across arbitrary amounts of on-chain data. Supported with $13.2M in funding from tier-1 institutional investors including Peter Thiel's Founders Fund and Archetype, Lagrange solves the critical computational bottleneck that currently restricts decentralized applications to elementary math.\n\nWhile traditional EVM executions become exponentially expensive when aggregating historical contract states, storage slots, or cross-chain events, the Lagrange ZK Coprocessor moves complex big-data computing off-chain. By generating succinct zero-knowledge proofs (zk-SNARKs) that can be verified on Ethereum mainnet in a single transaction, Lagrange allows developers to execute SQL-like queries, dynamic cross-chain pricing models, and verifiable reputation scoring.\n\nAdditionally, Lagrange State Committees act as a decentralized network of restaked validators that attest to the finality and states of optimistic rollups, slashing bridging latency from seven days to mere seconds. Proactive Web3 users who participate in Lagrange developer testnets, prover nodes, and partner integrations are poised for significant protocol governance allocations.",
+    "strategy": "Interact with partner rollups and dApps integrating the Lagrange ZK Coprocessor (such as Azuro, EigenLayer AVSs, and Frax).\n\nDeploy sample zero-knowledge storage proofs or SQL aggregation queries using the official Lagrange SDK on Ethereum Sepolia testnet.\n\nFollow Lagrange announcements regarding public prover client onboarding and validator delegation pools.",
+    "tokenomics": "Ecosystem Growth & AVS Security: 35% dedicated to incentivizing coprocessor queries and shared security restakers.\n\nCommunity Genesis & Early Adopters: 20% reserved for early testnet provers, developers, and retroactive contributors.\n\nCore Engineering & Research: 25% subjected to 1-year cliff and 3-year linear milestone vesting.\n\nStrategic Investors: 20% locked under multi-year vesting agreements.",
+    "sybilSafety": "Lagrange measures developer utility, cryptographic proof generation volume, and authentic GitHub/on-chain contract interactions. Simple bot wallets executing repetitive zero-value calls will be disqualified by heuristic verification.",
+    "steps": [
+      "Visit the official <a href='https://lagrange.dev' target='_blank' rel='noopener noreferrer'>Lagrange Portal</a> and read the comprehensive documentation.",
+      "Connect your EVM developer wallet to Ethereum Sepolia and obtain testnet ETH from official faucets.",
+      "Access the Lagrange ZK Coprocessor playground and initialize a verifiable historical state query.",
+      "Submit a sample SQL proof request across Ethereum historical blocks and verify receipt on-chain.",
+      "Join the official Lagrange Discord server and link your GitHub profile in the developer verification channel.",
+      "Participate in community hackathons or submit feedback on the Lagrange prover SDK.",
+      "Monitor Lagrange EigenLayer and Symbiotic AVS integrations to delegate restaked collateral when live.",
+      "Stay active across ecosystem governance discussions and testnet milestone releases."
+    ],
+    "faqs": [
+      {
+        "question": "What is a ZK Coprocessor?",
+        "answer": "A ZK Coprocessor allows smart contracts to offload data-heavy computations (like historical queries and mathematical calculations) off-chain, verifying the result on-chain via zero-knowledge proofs."
+      },
+      {
+        "question": "Do I need to be a programmer to qualify for Lagrange rewards?",
+        "answer": "While developer quests offer substantial points, non-technical users can qualify by restaking on Lagrange AVSs and testing partner consumer applications."
+      },
+      {
+        "question": "Who are the primary backers of Lagrange?",
+        "answer": "Lagrange is backed by Peter Thiel's Founders Fund, Archetype, 1kx, and leading venture capital researchers."
+      },
+      {
+        "question": "How do Lagrange State Committees work?",
+        "answer": "State Committees use restaked economic security to attest to the state of Layer 2 rollups, enabling trustless, instantaneous cross-rollup messaging."
+      },
+      {
+        "question": "When is the Lagrange mainnet launch?",
+        "answer": "Mainnet deployment and token distribution are anticipated across Q1-Q2 2027."
+      },
+      {
+        "question": "Is testnet participation free?",
+        "answer": "Yes. All Lagrange testnet interactions operate on Sepolia and require zero real financial capital."
+      }
+    ]
+  },
+  {
+    "id": "din-data",
+    "name": "DIN",
+    "logo": "/images/airdrops/din-data.svg",
+    "description": "The first modular AI-native data pre-processing engine, empowering users to collect, validate, and vectorize AI training datasets.",
+    "reward": "$600 - $4,000",
+    "category": "AI / Data / Modular",
+    "featured": false,
+    "status": "active",
+    "endTime": "Q1 2027",
+    "funding": "$8M",
+    "investors": "Binance Labs, HashKey Capital, NGC Ventures, Shima Capital",
+    "refLink": "https://din.lol",
+    "overview": "DIN (formerly Web3Go) is the first modular, AI-native data pre-processing layer designed to prepare raw on-chain and off-chain data for consumption by artificial intelligence models. Backed by $8M from prominent institutions including Binance Labs and HashKey Capital, DIN recognizes that data pre-processing accounts for over 80% of the cost and labor in machine learning development.\n\nTraditional data pipelines suffer from centralization, lack of provenance, and opaque quality labeling. DIN transforms this dynamic by building a decentralized decentralized compute network where everyday participants act as Data Collectors, Data Validators, and Chipper Node operators. Contributors vectorize unstructured text, annotate specialized datasets, and verify data integrity using cryptographically secure consensus mechanisms.\n\nParticipants in the DIN ecosystem accumulate xDIN and Wafer points through node operations, data classification tasks, and daily analytics quests. These points directly translate into allocations of the native $DIN token during the upcoming Token Generation Event, providing sustainable incentives for maintaining the world's most comprehensive decentralized AI dataset.",
+    "strategy": "Participate in the DIN daily data pre-processing tasks and AI dataset annotation campaigns on the DIN portal.\n\nRun or delegate to a DIN Chipper Node to accrue passive xDIN reward points across verification epochs.\n\nLink your Binance Web3 Wallet or EVM address to complete verified ecosystem partner quests and claim exclusive NFT badges.",
+    "tokenomics": "Data Node & Mining Incentives: 40% dedicated to Chipper Node operators and active data annotators.\n\nCommunity Treasury & Ecosystem: 25% allocated for research grants, data partnerships, and developer bounties.\n\nCore Team: 20% with 12-month cliff and 36-month linear vesting.\n\nEarly Strategic Investors: 15% subject to institutional lockup schedules.",
+    "sybilSafety": "DIN validates user reputation through on-chain activity scores, Web3 wallet age, and human-verifiable data labeling checks. Automated macro clicking scripts will be flagged and disqualified from point conversion.",
+    "steps": [
+      "Access the official <a href='https://din.lol' target='_blank' rel='noopener noreferrer'>DIN Web3 Portal</a> and connect your EVM wallet.",
+      "Complete the basic profile setup and claim your initial welcome Wafer points.",
+      "Navigate to the Data Pre-Processing task board and select active AI annotation assignments.",
+      "Accurately label and vectorize test datasets to earn verified contribution credits.",
+      "Explore the Chipper Node section to evaluate node ownership or pool delegation options.",
+      "Join the DIN Discord community to secure verified role credentials through Discord activities.",
+      "Participate in Binance Web3 Wallet joint airdrop campaigns for bonus point multipliers.",
+      "Check in daily to maintain your task completion streak and maximize your seasonal xDIN allocation."
+    ],
+    "faqs": [
+      {
+        "question": "What does DIN stand for?",
+        "answer": "DIN stands for Data Intelligence Network, representing the evolution of Web3Go into a modular AI data preprocessing layer."
+      },
+      {
+        "question": "Is Binance Labs an investor in DIN?",
+        "answer": "Yes. Binance Labs led seed investment rounds into the protocol alongside HashKey Capital and NGC."
+      },
+      {
+        "question": "What are Chipper Nodes?",
+        "answer": "Chipper Nodes are lightweight computational validator nodes that process and verify decentralized datasets before they are fed into AI models."
+      },
+      {
+        "question": "Can I participate for free without buying a node?",
+        "answer": "Yes. The Data Pre-Processing quest board allows users to earn Wafer points and xDIN completely free through dataset annotation."
+      },
+      {
+        "question": "What is the utility of the $DIN token?",
+        "answer": "DIN is used for gas fees across the data network, staking by Chipper Nodes, payment for AI training data access, and protocol governance."
+      },
+      {
+        "question": "When is the DIN TGE scheduled?",
+        "answer": "The TGE is planned for Q1 2027 following completion of the incentivized testnet phases."
+      }
+    ]
+  },
+  {
+    "id": "flock-io",
+    "name": "FLock.io",
+    "logo": "/images/airdrops/flock-io.svg",
+    "description": "Decentralized AI co-creation and federated learning platform training specialized community models with verifiable blockchain rewards.",
+    "reward": "$800 - $4,500",
+    "category": "AI / Machine Learning / EVM",
+    "featured": false,
+    "status": "active",
+    "endTime": "Q1 2027",
+    "funding": "$6M",
+    "investors": "Lightspeed Faction, Digital Currency Group (DCG), OKX Ventures, Volt Capital",
+    "refLink": "https://flock.io",
+    "overview": "FLock.io is an innovative decentralized artificial intelligence platform pioneering community-governed federated learning and collaborative model training. Backed by $6M from top-tier institutional funds including Lightspeed Faction, DCG, and OKX Ventures, FLock enables communities to build, train, and monetize specialized on-chain AI models without centralizing proprietary training data.\n\nCentralized AI training paradigms expose user data to harvesting and privacy infringement. In contrast, FLock's federated learning framework allows multiple nodes to train local models on private data, sending only mathematical model weight updates to a central blockchain coordinator. Smart contracts verify update accuracy, aggregate the global model, and programmatically distribute cryptographic rewards to contributors based on model performance.\n\nWhether acting as a training node, data provider, or prompt validator, participants in FLock's AI co-creation campaigns accumulate points that determine their share of governance tokens. By aligning decentralized incentives with cutting-edge machine learning research, FLock is democratizing access to specialized open-weight intelligence.",
+    "strategy": "Join active model training tasks on the FLock AI Arena and submit high-quality domain-specific prompt evaluations.\n\nStake testnet collateral or native tokens behind high-performing community AI models to earn validator staking yields.\n\nDeploy a local training node if you have compatible GPU hardware to participate in decentralized federated learning rounds.",
+    "tokenomics": "Community Model Mining & Node Rewards: 42% distributed over multi-year epochs to incentivize compute and validation.\n\nEcosystem Grants & Research: 23% reserved for university AI partnerships, open-source model bounties, and liquidity.\n\nFounding Team & Researchers: 20% with standard 12-month cliff and linear vesting.\n\nEarly Backers: 15% locked under milestone agreements.",
+    "sybilSafety": "FLock utilizes automated loss-gradient analysis to detect low-quality or fraudulent model updates. Low-effort spam submissions will be rejected by consensus scoring.",
+    "steps": [
+      "Navigate to the <a href='https://flock.io' target='_blank' rel='noopener noreferrer'>FLock.io Platform</a> and link your Web3 wallet.",
+      "Explore the AI Arena to view active community models (e.g. DeFi analyst, smart contract auditor).",
+      "Participate in daily validation rounds by rating model responses and submitting domain prompts.",
+      "Stake testnet credits into promising model pools to boost their compute priority and earn staking rewards.",
+      "Join the FLock Discord to obtain verified contributor credentials and participate in community bounty programs.",
+      "If technical, consult the FLock GitHub repository to set up a federated training client on your workstation.",
+      "Track your ranking on the FLock Leaderboard to monitor accumulated training points.",
+      "Participate in decentralized governance votes regarding model parameter adjustments."
+    ],
+    "faqs": [
+      {
+        "question": "What is federated learning in FLock?",
+        "answer": "Federated learning is an ML technique where models train across multiple decentralized devices holding local data samples, without exchanging the private data itself."
+      },
+      {
+        "question": "Do I need a GPU to earn points on FLock?",
+        "answer": "No. Users can earn points by testing models, evaluating prompt accuracy, and staking behind community AI agents without any hardware requirements."
+      },
+      {
+        "question": "Who funded FLock.io?",
+        "answer": "FLock raised $6M in early funding from Lightspeed Faction, Digital Currency Group (DCG), OKX Ventures, and Volt Capital."
+      },
+      {
+        "question": "What types of AI models are trained on FLock?",
+        "answer": "Community models include crypto algorithmic trading assistants, automated smart contract vulnerability scanners, and decentralized language models."
+      },
+      {
+        "question": "Are FLock rewards paid in crypto?",
+        "answer": "Yes. Points earned during testing and training campaigns convert into native tokens at the project TGE."
+      },
+      {
+        "question": "How does FLock prevent bad model updates?",
+        "answer": "A decentralized consensus mechanism evaluates loss functions across all submitted weights, slashing or disqualifying adversarial submissions."
+      }
+    ]
+  },
+  {
+    "id": "redbelly-network",
+    "name": "Redbelly Network",
+    "logo": "/images/airdrops/redbelly-network.svg",
+    "description": "Accountable Layer 1 blockchain engineered with formally verified consensus algorithms and native Real World Asset (RWA) compliance.",
+    "reward": "$1,000 - $5,000",
+    "category": "Layer 1 / RWA / Enterprise",
+    "featured": false,
+    "status": "active",
+    "endTime": "Q1 2027",
+    "funding": "$10M+",
+    "investors": "University of Sydney, CSIRO, Web3 Financial Institutions",
+    "refLink": "https://redbelly.network",
+    "overview": "Redbelly Network is a revolutionary Layer 1 blockchain specifically engineered for enterprise accountability, legally compliant Real World Asset (RWA) tokenization, and regulated financial infrastructure. Developed in collaboration with the University of Sydney and Australia's national science agency (CSIRO), Redbelly is the world's only public blockchain featuring mathematically proven, formally verified Byzantine consensus algorithms.\n\nWhile traditional public blockchains suffer from forks, probabilistic finality, and anonymous bad actors, Redbelly introduces the Democratic Byzantine Fault Tolerant (DBFT) consensus mechanism. This guarantees instant, deterministic transaction finality with zero possibility of chain splits. Furthermore, Redbelly embeds a native Identity Verification Layer into its protocol, ensuring all network participants are verifiably accountable while preserving end-user cryptographic privacy.\n\nRedbelly's incentivized testnet campaigns invite Web3 users, node runners, and DeFi developers to stress-test its high-throughput EVM execution environment. Early participants completing identity verification quests and smart contract interactions earn verified community badges that convert to mainnet token allocations.",
+    "strategy": "Complete the official Redbelly KYC and identity credentialing quest on the Redbelly Community Portal.\n\nRequest devnet and testnet faucet tokens and execute routine transactions across Redbelly EVM ecosystem dApps.\n\nDeploy a simple testnet smart contract or interact with tokenized asset minting pools to demonstrate on-chain utility.",
+    "tokenomics": "Community Rewards & Ecosystem Growth: 38% dedicated to early testnet users, developers, and liquidity bootstrapping.\n\nValidator & Staking Security: 25% allocated over a 10-year curve for DBFT consensus nodes.\n\nCore Research & Development: 20% subject to 12-month lockup and 36-month linear vesting.\n\nInstitutional Partners & Compliance: 17% vested according to regulatory compliance milestones.",
+    "sybilSafety": "Because Redbelly emphasizes regulated RWA accountability, completing the native decentralized identity (DID) verification is required to qualify for genuine token allocations.",
+    "steps": [
+      "Navigate to the official <a href='https://redbelly.network' target='_blank' rel='noopener noreferrer'>Redbelly Network Portal</a> and connect your MetaMask wallet.",
+      "Add the Redbelly Devnet/Testnet RPC configuration to your wallet network settings.",
+      "Request test tokens through the official Redbelly Discord faucet channel.",
+      "Complete the basic decentralized identity verification (DID) via the community portal.",
+      "Execute transactions on ecosystem dApps, including decentralized exchanges and NFT marketplaces.",
+      "Deploy a sample ERC-20 or NFT smart contract using Remix to build a verified developer footprint.",
+      "Participate in the Redbelly Community Guild quests to earn exclusive testnet Discord roles.",
+      "Monitor official announcements regarding the Mainnet Transition and token claim windows."
+    ],
+    "faqs": [
+      {
+        "question": "What makes Redbelly Network unique among Layer 1s?",
+        "answer": "Redbelly features the world's first mathematically formally verified consensus (DBFT), preventing network forks and guaranteeing instant finality."
+      },
+      {
+        "question": "Is Redbelly EVM-compatible?",
+        "answer": "Yes. Developers can deploy standard Ethereum Solidity smart contracts on Redbelly without code modifications."
+      },
+      {
+        "question": "Why does Redbelly require identity verification?",
+        "answer": "Redbelly is built for compliant enterprise RWAs, requiring verifiable accountability while cryptographically protecting user privacy."
+      },
+      {
+        "question": "Can I earn Redbelly testnet rewards for free?",
+        "answer": "Yes. All testnet faucet tokens and quest verifications are completely free of charge."
+      },
+      {
+        "question": "What is the Democratic BFT consensus?",
+        "answer": "DBFT is a patented algorithm designed by academic researchers that scales transaction throughput linearly with validator count while avoiding forks."
+      },
+      {
+        "question": "When is the Redbelly mainnet expected?",
+        "answer": "The public mainnet launch and token generation event are scheduled for Q1 2027."
+      }
+    ]
+  },
+  {
+    "id": "astria-org",
+    "name": "Astria",
+    "logo": "/images/airdrops/astria-org.svg",
+    "description": "Shared sequencer network providing decentralized transaction ordering, atomic cross-rollup composability, and censorship resistance.",
+    "reward": "$1,200 - $6,500",
+    "category": "Infrastructure / Modular / Sequencing",
+    "featured": false,
+    "status": "active",
+    "endTime": "Q2 2027",
+    "funding": "$12.5M",
+    "investors": "Maven 11, 1kx, Delphi Digital, Robot Ventures, Figment Capital",
+    "refLink": "https://astria.org",
+    "overview": "Astria is a pioneering shared sequencer network designed to decentralize the transaction ordering layer for modular rollups. Backed by $12.5M from leading venture funds including Maven 11, 1kx, and Delphi Digital, Astria replaces centralized sequencer servers with a decentralized Byzantine fault-tolerant network of independent ordering nodes.\n\nToday, most Ethereum Layer 2 rollups rely on centralized single-sequencer architectures operated by their founding foundations, introducing single points of failure, potential censorship, and monopoly extractable value (MEV). Astria decouples transaction ordering from state execution. Rollups submit transactions to Astria, which sequences them into ordered blocks, commits them to a modular data availability layer (such as Celestia), and enables instant, atomic cross-rollup composability.\n\nBy empowering developers to launch sovereign rollups with out-of-the-box decentralized sequencing, Astria is a critical cornerstone of the modular blockchain thesis. Early testnet participants interacting with Astria EVM rollups (Flame) and testnet bridges position themselves for future protocol governance allocations.",
+    "strategy": "Interact with the Astria Flame testnet (an EVM rollup settling on Astria and Celestia DA).\n\nBridge testnet assets between Ethereum Sepolia, Celestia Mocha, and the Astria shared sequencer testnet.\n\nDeploy smart contracts or liquidity pools on Flame to generate authentic sequencer interaction history.",
+    "tokenomics": "Sequencer Node Security & Community Mining: 40% dedicated to sequencer node staking and decentralized consensus.\n\nEcosystem Rollup Adoption Fund: 25% allocated to support new rollups integrating Astria shared sequencing.\n\nCore Engineering Team: 20% with standard 12-month cliff and linear vesting.\n\nEarly Venture Investors: 15% subject to institutional vesting contracts.",
+    "sybilSafety": "Astria tracks transaction diversity across multiple modular execution environments. Repeating simple automated loops on a single contract will not satisfy minimum qualification thresholds.",
+    "steps": [
+      "Visit the official <a href='https://astria.org' target='_blank' rel='noopener noreferrer'>Astria Documentation Portal</a> to learn about shared sequencing.",
+      "Add the Astria Flame Testnet RPC configuration to your MetaMask wallet.",
+      "Obtain Sepolia testnet ETH and bridge assets into the Astria Flame network using the official bridge portal.",
+      "Execute token swaps and liquidity additions on premier Flame testnet AMMs.",
+      "Deploy a standard ERC-20 contract on Flame using Foundry or Hardhat to verify sequencer ordering.",
+      "Join the Astria Discord server and participate in developer discussions in the flame-testnet channel.",
+      "Follow updates regarding public validator and sequencer node onboarding phases.",
+      "Monitor cross-rollup bridging milestones connecting Astria to external modular rollups."
+    ],
+    "faqs": [
+      {
+        "question": "What is a shared sequencer?",
+        "answer": "A shared sequencer is a decentralized network that orders transactions for multiple rollups simultaneously, enabling atomic composability and eliminating single points of failure."
+      },
+      {
+        "question": "What is Astria Flame?",
+        "answer": "Flame is Astria's flagship EVM testnet rollup that demonstrates how shared sequencing works in combination with Celestia data availability."
+      },
+      {
+        "question": "Who invested in Astria?",
+        "answer": "Astria is backed by $12.5M from Maven 11, 1kx, Delphi Digital, Robot Ventures, and Figment Capital."
+      },
+      {
+        "question": "How does Astria improve cross-rollup DeFi?",
+        "answer": "Because Astria sequences transactions for multiple rollups within the same block, cross-rollup arbitrage and swaps can execute atomically without bridging risk."
+      },
+      {
+        "question": "Is testnet participation free?",
+        "answer": "Yes. All interactions on the Astria Flame testnet use free faucet tokens and require zero financial outlay."
+      },
+      {
+        "question": "When will the Astria token launch?",
+        "answer": "Token generation and mainnet rollout are slated across Q1-Q2 2027."
+      }
+    ]
+  },
+  {
+    "id": "alys-network",
+    "name": "Alys",
+    "logo": "/images/airdrops/alys-network.svg",
+    "description": "Bitcoin-anchored Layer 2 scaling protocol featuring EVM execution, trustless 2-way pegging, and zero-knowledge state settlement.",
+    "reward": "$800 - $4,000",
+    "category": "Bitcoin Layer 2 / ZK / EVM",
+    "featured": false,
+    "status": "active",
+    "endTime": "Q1 2027",
+    "funding": "Seed Backed",
+    "investors": "Bitcoin Frontier Fund, Web3 VCs, Strategic Angels",
+    "refLink": "https://alys.network",
+    "overview": "Alys is an innovative Bitcoin Layer 2 execution environment built to unlock scalable decentralized finance and smart contract programmability directly on Bitcoin. Engineered by veteran Bitcoin developers, Alys solves Bitcoin's fundamental scalability limitations by providing full EVM compatibility anchored cryptographically to Bitcoin's Proof-of-Work security.\n\nWhile Bitcoin's base layer processes under seven transactions per second with 10-minute block times, Alys achieves sub-second transaction finality and ultra-low gas fees. It implements a trustless 2-way peg that allows native Bitcoin to move seamlessly between the Bitcoin UTXO layer and the Alys smart contract execution environment, without relying on centralized custodial federations.\n\nBy leveraging zero-knowledge proofs and state settlement on Bitcoin, Alys enables complex lending protocols, perpetual DEXs, and decentralized stablecoins backed by native BTC. The Alys incentivized testnet invites Bitcoin holders and EVM farmers to stress-test cross-chain bridging and dApp interactions ahead of the mainnet genesis event.",
+    "strategy": "Connect your Web3 EVM wallet and Bitcoin testnet wallet (such as UniSat or Xverse) to the Alys testnet bridge.\n\nBridge testnet Bitcoin (tBTC) into the Alys EVM layer to mint wrapped testnet assets.\n\nInteract with ecosystem decentralized exchanges and lending pools deployed on Alys testnet.",
+    "tokenomics": "Community Airdrop & BTCFi Incentives: 40% reserved for early testnet bridgers, liquidity providers, and community members.\n\nBitcoin Miner & Validator Pool: 25% allocated over multi-year emission curves to secure settlement.\n\nCore Engineering & Architecture: 20% subjected to 1-year cliff and 3-year vesting.\n\nStrategic Seed Backers: 15% with customary lockup agreements.",
+    "sybilSafety": "Alys tracks genuine multi-step cross-chain bridging transactions. Wallets must demonstrate bridging activity from genuine Bitcoin testnet addresses to qualify for verified testnet tiers.",
+    "steps": [
+      "Access the official <a href='https://alys.network' target='_blank' rel='noopener noreferrer'>Alys Portal</a> and review the Bitcoin Layer 2 architecture.",
+      "Configure your MetaMask wallet with the Alys Testnet RPC parameters.",
+      "Acquire testnet Bitcoin (tBTC) from verified Bitcoin Signet/Testnet faucets.",
+      "Initiate a bridge deposit from your Bitcoin testnet wallet into the Alys EVM environment.",
+      "Execute token swaps and provide liquidity on native Alys testnet AMMs.",
+      "Test decentralized lending protocols by depositing collateral and borrowing test stablecoins.",
+      "Join the Alys Discord community and submit constructive testnet feedback in the feedback channel.",
+      "Monitor the announcement channels for snapshot confirmations and mainnet transition schedules."
+    ],
+    "faqs": [
+      {
+        "question": "What is Alys Network?",
+        "answer": "Alys is a high-speed Bitcoin Layer 2 that combines EVM smart contract capability with Bitcoin cryptographic settlement."
+      },
+      {
+        "question": "Does Alys require real Bitcoin to farm?",
+        "answer": "No. The entire current phase operates on Bitcoin testnet/signet with free faucet tokens."
+      },
+      {
+        "question": "How does Alys bridge Bitcoin trustlessly?",
+        "answer": "Alys utilizes cryptographic multi-party computation and zero-knowledge state proofs to ensure native Bitcoin cannot be stolen or manipulated by single operators."
+      },
+      {
+        "question": "Which wallets do I need for Alys?",
+        "answer": "You need an EVM wallet (like MetaMask) and a Bitcoin wallet (like UniSat, Xverse, or OKX Wallet)."
+      },
+      {
+        "question": "What is the native gas token on Alys?",
+        "answer": "Gas fees on Alys are denominated in tokenized Bitcoin, ensuring deep economic alignment with the Bitcoin network."
+      },
+      {
+        "question": "When is the Alys token generation event?",
+        "answer": "The TGE is planned for Q1 2027 in conjunction with the public mainnet rollout."
+      }
+    ]
+  },
+  {
+    "id": "conduit-xyz",
+    "name": "Conduit",
+    "logo": "/images/airdrops/conduit-xyz.svg",
+    "description": "The leading Rollup-as-a-Service (RaaS) infrastructure platform powering OP Stack, Arbitrum Orbit, and ZK rollups across Web3.",
+    "reward": "$1,500 - $10,000",
+    "category": "Infrastructure / Rollup / Modular",
+    "featured": true,
+    "status": "active",
+    "endTime": "Q2 2027",
+    "funding": "$37M",
+    "investors": "Paradigm, Haun Ventures, Bankless Ventures, Robot Ventures",
+    "refLink": "https://conduit.xyz",
+    "overview": "Conduit is the premier Rollup-as-a-Service (RaaS) platform in the blockchain ecosystem, empowering developers and enterprises to launch production-grade Layer 2 and Layer 3 rollups in minutes. Backed by $37M in funding led by crypto venture powerhouses Paradigm and Haun Ventures, Conduit powers some of the most notable rollups in crypto history, including Zora, Degen Chain, Proof of Play, and Aevo.\n\nLaunching and maintaining a custom rollup historically required dedicated infrastructure engineering teams to orchestrate sequencers, RPC nodes, data availability pipelines, block explorers, and cross-chain bridges. Conduit abstracts this complexity through an enterprise cloud console. With a single click, protocols can deploy rollups built on Optimism's OP Stack, Arbitrum Orbit, or Dymension RollApps, with modular settlement on Ethereum, Celestia, or EigenDA.\n\nAs hundreds of specialized appchains and consumer rollups migrate to Conduit infrastructure, the platform is cementing its status as the 'AWS of Web3'. Community members and developers who deploy testnet rollups, stress-test Conduit testnet networks, and interact with Conduit-powered chains are prime candidates for future decentralization initiatives.",
+    "strategy": "Deploy a custom Layer 3 or testnet rollup using the Conduit self-service console on Ethereum Sepolia or Base Sepolia.\n\nInteract with prominent production rollups hosted on Conduit infrastructure (such as Zora, Degen, and Mode).\n\nBridge assets to Conduit testnet rollups and execute contract interactions across their native block explorers.",
+    "tokenomics": "Ecosystem Builder & Developer Grants: 35% allocated to support high-growth rollups deployed via Conduit.\n\nInfrastructure Decentralization & Staking: 25% reserved for sequencer node operators and verifiers.\n\nCore Engineering Team: 20% subject to standard 4-year vesting schedules.\n\nStrategic Investors (Paradigm/Haun): 20% locked under multi-year vesting agreements.",
+    "sybilSafety": "Conduit focuses heavily on developer footprint, active contract deployments, and continuous RPC utilization. Launching an authentic testnet rollup and facilitating real transactions offers the highest qualification weight.",
+    "steps": [
+      "Navigate to the official <a href='https://conduit.xyz' target='_blank' rel='noopener noreferrer'>Conduit Platform</a> and create a builder account.",
+      "Connect your EVM developer wallet and obtain testnet gas from official Sepolia faucets.",
+      "Launch a custom testnet rollup (OP Stack or Arbitrum Orbit) through the Conduit deployment wizard.",
+      "Configure your rollup's data availability layer using Celestia Mocha or EigenDA testnet.",
+      "Verify your newly deployed rollup is live by accessing its automatically generated block explorer.",
+      "Deploy a standard ERC-20 or smart contract on your rollup to establish verified on-chain state transitions.",
+      "Interact with flagship Conduit-powered mainnet rollups like Zora Network and Degen Chain.",
+      "Follow Conduit on X (Twitter) and join their developer community for governance and token updates."
+    ],
+    "faqs": [
+      {
+        "question": "What is Rollup-as-a-Service (RaaS)?",
+        "answer": "RaaS platforms provide managed cloud infrastructure that allows teams to launch and maintain custom Layer 2/3 rollups without managing hardware sequencers."
+      },
+      {
+        "question": "Who funded Conduit?",
+        "answer": "Conduit has raised over $37M led by Paradigm and Haun Ventures, alongside prominent crypto angel investors."
+      },
+      {
+        "question": "Which major rollups run on Conduit?",
+        "answer": "Notable rollups powered by Conduit include Zora Network, Degen Chain, Aevo, and Proof of Play."
+      },
+      {
+        "question": "Can I deploy a testnet rollup on Conduit for free?",
+        "answer": "Yes. Conduit provides free trial credits and testnet deployment tiers for developers on Sepolia."
+      },
+      {
+        "question": "What rollup frameworks does Conduit support?",
+        "answer": "Conduit supports OP Stack, Arbitrum Orbit, Dymension RollApps, and various modular data availability integrations including Celestia."
+      },
+      {
+        "question": "When is the Conduit token expected?",
+        "answer": "Ecosystem decentralization and potential token distribution are anticipated across 2027."
+      }
+    ]
+  },
+  {
+    "id": "space-and-time",
+    "name": "Space and Time",
+    "logo": "/images/airdrops/space-and-time.svg",
+    "description": "Decentralized zero-knowledge data warehouse and Proof of SQL coprocessor backed by Microsoft M12.",
+    "reward": "$1,500 - $8,000",
+    "category": "Infrastructure / ZK / AI / Big Data",
+    "featured": true,
+    "status": "active",
+    "endTime": "Q1 2027",
+    "funding": "$50M",
+    "investors": "Microsoft M12, Framework Ventures, HashKey Capital, Foresight Ventures, Polygon",
+    "refLink": "https://spaceandtime.io",
+    "overview": "Space and Time (SxT) is the world's premier decentralized, zero-knowledge data warehouse engineered to connect trustless data with smart contracts and artificial intelligence models. Supported with $50M in funding led by Microsoft's M12 venture fund, Framework Ventures, and HashKey Capital, Space and Time solves the critical barrier preventing smart contracts from accessing enterprise-scale analytics.\n\nAt the core of the platform is 'Proof of SQL'—a novel cryptographic zero-knowledge proof algorithm developed by Space and Time's cryptography research team. Proof of SQL proves that a query was executed against tamperproof, untampered data without requiring trust in centralized database servers. Smart contracts can execute analytical SQL queries across petabytes of historical blockchain data and real-world off-chain databases with mathematical certainty.\n\nFurthermore, Space and Time powers decentralized AI applications by providing verifiably clean training and inference data pipelines. Community members who run community validator nodes, execute SQL queries in the Space and Time Studio, and build dApps using the SxT SDK are positioned for substantial allocations of the native governance token.",
+    "strategy": "Register on the Space and Time Studio and execute verifiable SQL queries against indexed blockchain datasets.\n\nMint your Space and Time community credentials and complete educational quests on the SxT Zealy/Galxe boards.\n\nDeploy queries to smart contracts using Proof of SQL verifier contracts on Ethereum Sepolia or Polygon.",
+    "tokenomics": "Validator Node Staking & Query Mining: 40% allocated over multi-year schedules to incentivize decentralized database nodes.\n\nCommunity Ecosystem & Developer Grants: 25% reserved for dApp integration, AI data pipelines, and early adopters.\n\nCore Engineering & Cryptography Team: 20% subject to standard 1-year cliff and 3-year linear vesting.\n\nStrategic Investors (Microsoft M12/Framework): 15% with institutional multi-year vesting lockups.",
+    "sybilSafety": "Space and Time measures authentic analytical query complexity, wallet verification, and activity within the Studio developer environment. Mass-generated bot accounts executing identical elementary queries will be flagged.",
+    "steps": [
+      "Access the official <a href='https://spaceandtime.io' target='_blank' rel='noopener noreferrer'>Space and Time Portal</a> and create your Studio developer account.",
+      "Connect your Web3 wallet and generate your SxT cryptographic API keypair.",
+      "Explore the Studio Query Editor and run complex SQL queries against indexed Ethereum and Polygon tables.",
+      "Generate a Proof of SQL sub-query and verify the cryptographic proof receipt in your browser console.",
+      "Complete community onboarding quests on the official Space and Time community quest boards.",
+      "Join the Space and Time Discord community to obtain verified builder and analyst roles.",
+      "Participate in community testnet node campaigns when validator enrollment phases open.",
+      "Stay active across ecosystem hackathons and data analytics bounties."
+    ],
+    "faqs": [
+      {
+        "question": "What is Proof of SQL?",
+        "answer": "Proof of SQL is a novel zk-SNARK cryptographic proof invented by Space and Time that guarantees database queries are computed accurately on untampered data."
+      },
+      {
+        "question": "Did Microsoft invest in Space and Time?",
+        "answer": "Yes. Microsoft's venture fund M12 led strategic investment rounds and integrates Space and Time into Microsoft Azure AI services."
+      },
+      {
+        "question": "Is Space and Time free to test?",
+        "answer": "Yes. The Space and Time Studio offers a free tier for developers to write and test SQL queries against indexed blockchain data."
+      },
+      {
+        "question": "What blockchains does Space and Time index?",
+        "answer": "Space and Time indexes Ethereum, Bitcoin, Polygon, Avalanche, Arbitrum, Optimism, Sui, and other major chains in real time."
+      },
+      {
+        "question": "How does Space and Time relate to AI?",
+        "answer": "SxT provides verifiable data ingestion pipelines, ensuring that AI models train and infer on cryptographically verified, uncorrupted data."
+      },
+      {
+        "question": "When is the Space and Time token launching?",
+        "answer": "Mainnet deployment and token distribution are scheduled across Q1 2027."
+      }
+    ]
+  },
+  {
+    "id": "shardeum",
+    "name": "Shardeum",
+    "logo": "/images/airdrops/shardeum.svg",
+    "description": "EVM-compatible dynamic state-sharded Layer 1 blockchain achieving linear scalability and permanently low gas fees.",
+    "reward": "$800 - $4,500",
+    "category": "Layer 1 / Sharding / EVM",
+    "featured": false,
+    "status": "active",
+    "endTime": "Q1 2027",
+    "funding": "$18.2M",
+    "investors": "Jane Street, Spartan Group, Foresight Ventures, CoinGecko, Big Brain Holdings",
+    "refLink": "https://shardeum.org",
+    "overview": "Shardeum is an EVM-compatible Layer 1 smart contract platform pioneering dynamic state sharding to achieve linear scalability while maintaining atomic composability. Co-founded by WazirX founder Nischal Shetty and blockchain architect Omar Syed, Shardeum has raised $18.2M from institutional investors including Jane Street, The Spartan Group, and Foresight Ventures.\n\nMost existing blockchains suffer from the scalability trilemma: as network usage expands, gas fees skyrocket and node synchronization slows down. Shardeum addresses this by dividing network state across dynamic shards. Crucially, as more validator nodes join the network, Shardeum increases transaction throughput proportionally without compromising decentralization. Gas fees remain permanently low, predictable, and sub-cent.\n\nWith over 50% of the maximum 508 million SHM token supply earmarked for the community and node validators, Shardeum's incentivized testnet campaigns have attracted global attention. Early users testing ecosystem dApps and running validator nodes are positioned for significant token allocations at mainnet genesis.",
+    "strategy": "Obtain testnet SHM tokens from the official Shardeum Discord or web faucet.\n\nExecute routine token transfers, AMM swaps, and smart contract interactions across Shardeum testnet dApps.\n\nRun a lightweight Shardeum validator node on a basic VPS to accumulate verified validator uptime credits.",
+    "tokenomics": "Community Mining & Validator Rewards: 51% (259M SHM) distributed over long-term validator staking schedules.\n\nEcosystem & Foundation: 18% reserved for developer grants, community growth, and hackathons.\n\nTeam: 15% subject to a 3-month cliff and 2-year linear vesting.\n\nSale & Early Backers: 16% subject to institutional lockups.",
+    "sybilSafety": "Shardeum tracks genuine validator node operations and varied dApp usage. Simple multi-wallet faucet drains will be filtered out by automated bot detection algorithms.",
+    "steps": [
+      "Access the official <a href='https://shardeum.org' target='_blank' rel='noopener noreferrer'>Shardeum Portal</a> and review the network architecture.",
+      "Add the Shardeum Atomium/Betanet RPC configuration to your MetaMask wallet.",
+      "Claim testnet SHM tokens from the official faucet portal or Discord faucet bot.",
+      "Perform swaps and provide liquidity on native Shardeum testnet DEXs.",
+      "Mint a testnet domain name or NFT on Shardeum ecosystem marketplaces.",
+      "Deploy a sample smart contract using Remix IDE to establish an on-chain developer footprint.",
+      "Consult the Shardeum validator guide to set up a validator node using Docker on a VPS.",
+      "Participate in the Shardeum community Discord and track incentivized testnet reward leaderboards."
+    ],
+    "faqs": [
+      {
+        "question": "What is dynamic state sharding?",
+        "answer": "Dynamic state sharding automatically adjusts the number of shards based on real-time network load, increasing TPS as more nodes join."
+      },
+      {
+        "question": "How much of the SHM supply is allocated to the community?",
+        "answer": "Over 51% of the total 508 million SHM token supply is dedicated to community validator and node rewards."
+      },
+      {
+        "question": "Who invested in Shardeum?",
+        "answer": "Shardeum raised $18.2M from top quantitative trading firm Jane Street, Spartan Group, and Foresight Ventures."
+      },
+      {
+        "question": "Can I run a Shardeum validator on a laptop?",
+        "answer": "While possible, running on a low-cost VPS with stable internet uptime ensures your node does not get slashed for inactivity."
+      },
+      {
+        "question": "Is Shardeum fully EVM-compatible?",
+        "answer": "Yes. Developers can deploy existing Ethereum smart contracts using Solidity and Vyper without modifications."
+      },
+      {
+        "question": "When is the Shardeum mainnet launch?",
+        "answer": "The public mainnet and SHM token generation are scheduled for early 2027 following completion of the Atomium testnet."
+      }
+    ]
+  },
+  {
+    "id": "tea-protocol",
+    "name": "tea Protocol",
+    "logo": "/images/airdrops/tea-protocol.svg",
+    "description": "Decentralized protocol securing the open-source software supply chain and rewarding open-source developers with Web3 incentives.",
+    "reward": "$500 - $3,500",
+    "category": "Developer / Open Source / EVM",
+    "featured": false,
+    "status": "active",
+    "endTime": "Q1 2027",
+    "funding": "$16.9M",
+    "investors": "Binance Labs, Acronym, Bixin Ventures, Round13 Digital Asset Fund",
+    "refLink": "https://tea.xyz",
+    "overview": "tea Protocol is a decentralized Web3 platform created to address the systemic fragility of open-source software by financially rewarding the developers who build foundational digital infrastructure. Co-founded by Max Howell, the legendary creator of Homebrew (used by tens of millions of developers worldwide), tea has secured $16.9M in funding led by Binance Labs.\n\nThe global economy runs on open-source packages, yet over 90% of developers receive zero compensation for maintaining critical libraries. tea bridges this gap by creating an algorithmically calculated 'Proof of Contribution' metric called the teaRank. Smart contracts inspect package dependencies across GitHub, NPM, Python, and Rust ecosystems, assigning cryptographic value to packages based on their systemic utility.\n\nThrough tea's incentivized testnet, developers register their open-source repositories to claim teaRank rewards, while non-developer community members can stake testnet tokens behind high-impact open-source projects to earn curator rewards. This decentralized flywheel ensures fair value accrual for the digital commons.",
+    "strategy": "Create an account on the tea portal and link your verified GitHub profile with authentic commit history.\n\nRegister open-source repositories you maintain to claim initial teaRank points and package ownership.\n\nStake testnet tea tokens into high-teaRank foundational software libraries to earn daily curator yield.",
+    "tokenomics": "Ecosystem & Open Source Developer Rewards: 40% distributed over multi-year algorithmic contribution schedules.\n\nCommunity Treasury & Staking: 25% allocated to protocol curators, governance, and liquidity pools.\n\nCore Engineering Team: 20% subject to 1-year cliff and 3-year vesting.\n\nStrategic Investors (Binance Labs): 15% with customary venture lockup terms.",
+    "sybilSafety": "tea strictly validates GitHub accounts, requiring established account age, authentic repositories, and real commit history to prevent Sybil bot accounts.",
+    "steps": [
+      "Navigate to the official <a href='https://tea.xyz' target='_blank' rel='noopener noreferrer'>tea Protocol Portal</a> and sign in with your GitHub account.",
+      "Link your Web3 EVM wallet to establish your on-chain developer profile.",
+      "Claim your daily testnet tea tokens from the integrated tea faucet.",
+      "Search for foundational open-source packages and stake your test tokens behind projects with high teaRank.",
+      "If you maintain open-source software, claim your repository by adding the verified tea configuration file.",
+      "Complete community quests and achievements on the tea dashboard to earn bonus XP.",
+      "Join the tea Discord server to participate in community feedback sessions and governance polls.",
+      "Monitor your accumulated testnet points on the global tea leaderboard ahead of mainnet genesis."
+    ],
+    "faqs": [
+      {
+        "question": "Who founded tea Protocol?",
+        "answer": "tea was co-founded by Max Howell, the creator of Homebrew, the package manager used by millions of software engineers."
+      },
+      {
+        "question": "Did Binance Labs invest in tea?",
+        "answer": "Yes. Binance Labs led tea's $16.9M funding round alongside Acronym and Bixin Ventures."
+      },
+      {
+        "question": "Do I have to be an open-source coder to qualify?",
+        "answer": "No. Non-developers can qualify by curating and staking testnet tokens into reputable open-source projects."
+      },
+      {
+        "question": "What is teaRank?",
+        "answer": "teaRank is an algorithmic graph metric that measures the systemic importance of an open-source project based on how many other packages depend on it."
+      },
+      {
+        "question": "Are tea testnet points free to earn?",
+        "answer": "Yes. All faucet tokens and testnet staking activities are 100% free of charge."
+      },
+      {
+        "question": "When is the tea Protocol token launch?",
+        "answer": "The token generation event is targeted for Q1 2027 following completion of the testnet epochs."
+      }
+    ]
+  },
+  {
+    "id": "openledger-ai",
+    "name": "OpenLedger",
+    "logo": "/images/airdrops/openledger-ai.svg",
+    "description": "The sovereign data-centric blockchain built for verifiable AI model training, attribution, and dataset monetization.",
+    "reward": "$700 - $3,500",
+    "category": "AI / Blockchain / Data",
+    "featured": false,
+    "status": "active",
+    "endTime": "Q1 2027",
+    "funding": "$8M",
+    "investors": "Polychain Capital, Borderless Capital, HashKey Capital, Finality Capital",
+    "refLink": "https://openledger.xyz",
+    "overview": "OpenLedger is an AI-focused blockchain architecture specifically designed to solve the attribution, monetization, and data provenance challenges of modern artificial intelligence. Backed by $8M from tier-1 crypto venture firms Polychain Capital and Borderless Capital, OpenLedger provides the critical infrastructure needed to ensure data contributors are fairly compensated when their data trains frontier AI models.\n\nAs AI models become more ubiquitous, the data creators whose text, imagery, and code train these models receive zero financial attribution or copyright protection. OpenLedger addresses this by introducing verifiable cryptographic Proof of Attribution. Every dataset uploaded to OpenLedger is fingerprinted, version-controlled, and linked to on-chain smart contracts that automatically stream royalty micro-payments whenever the data is accessed or utilized during training runs.\n\nThrough OpenLedger's incentivized testnet campaigns, users can run lightweight data validation nodes, curate specialized AI training datasets, and participate in model benchmarking quests to accumulate OpenLedger Network points that determine their share of genesis governance tokens.",
+    "strategy": "Sign up on the OpenLedger developer portal and verify your Web3 wallet address.\n\nParticipate in data curation and validation rounds by uploading or verifying domain-specific training data.\n\nRun the OpenLedger lightweight node client to validate data attribution proofs and earn node uptime rewards.",
+    "tokenomics": "Community Data & Node Mining: 42% dedicated to data contributors, node operators, and early community testnet users.\n\nEcosystem Growth & Grants: 23% allocated to AI model partnerships, dataset licensing, and developer bounties.\n\nFounding Engineering Team: 20% subject to standard 12-month cliff and 36-month vesting.\n\nStrategic Investors (Polychain): 15% with institutional multi-year lockup terms.",
+    "sybilSafety": "OpenLedger analyzes cryptographic dataset quality and uniqueness. Submitting repetitive, corrupted, or plagiarized data triggers automatic point disqualification.",
+    "steps": [
+      "Access the official <a href='https://openledger.xyz' target='_blank' rel='noopener noreferrer'>OpenLedger Portal</a> and link your Web3 wallet.",
+      "Complete the community onboarding survey to select your AI data interest tracks.",
+      "Request testnet tokens from the integrated OpenLedger faucet.",
+      "Participate in the Data Curation Arena by voting on dataset quality and accuracy benchmarks.",
+      "Download and install the OpenLedger lightweight node client to participate in background proof validation.",
+      "Join the official OpenLedger Discord community to obtain verified contributor roles.",
+      "Engage in community quests on Galxe or Zealy to earn exclusive early adopter badges.",
+      "Monitor the OpenLedger dashboard to track accumulated data credits and ranking."
+    ],
+    "faqs": [
+      {
+        "question": "What is OpenLedger?",
+        "answer": "OpenLedger is a specialized Layer 1 blockchain that tracks data attribution and streams automated royalties to AI data contributors."
+      },
+      {
+        "question": "Who are the lead investors in OpenLedger?",
+        "answer": "OpenLedger is backed by $8M from Polychain Capital, Borderless Capital, and HashKey Capital."
+      },
+      {
+        "question": "Do I need to own AI models to earn rewards?",
+        "answer": "No. Users earn rewards by uploading quality datasets, verifying data accuracy, or running lightweight validation nodes."
+      },
+      {
+        "question": "What is Proof of Attribution?",
+        "answer": "Proof of Attribution is OpenLedger's cryptographic mechanism verifying which specific datasets contributed to an AI model's output."
+      },
+      {
+        "question": "Is testnet participation free?",
+        "answer": "Yes. All testnet data operations and faucet claims are 100% free of charge."
+      },
+      {
+        "question": "When is the OpenLedger token launch?",
+        "answer": "The TGE is targeted for Q1 2027 following the conclusion of community testnet phases."
+      }
+    ]
+  },
+  {
+    "id": "gaianet-ai",
+    "name": "GaiaNet",
+    "logo": "/images/airdrops/gaianet-ai.svg",
+    "description": "Decentralized network of edge AI computing nodes providing private, uncensored, and domain-specialized artificial intelligence agents.",
+    "reward": "$800 - $4,200",
+    "category": "DePIN / AI / Compute",
+    "featured": false,
+    "status": "active",
+    "endTime": "Q1 2027",
+    "funding": "$10M",
+    "investors": "Mirana Ventures, Mantle EcoFund, Generative Ventures, EVM Capital",
+    "refLink": "https://gaianet.ai",
+    "overview": "GaiaNet is a decentralized artificial intelligence compute and inference network that enables anyone to run, customize, and monetize private AI agent nodes on consumer-grade hardware. Supported with $10M in institutional funding from Mirana Ventures, Mantle EcoFund, and leading AI venture funds, GaiaNet provides a censorship-resistant alternative to centralized AI monopolies like OpenAI and Anthropic.\n\nCentralized AI APIs present severe data privacy risks, vendor lock-in, and arbitrary content filtering. GaiaNet transforms consumer PCs, servers, and edge computing devices into decentralized inference nodes. Each node runs local open-source large language models (such as Llama 3 or Mistral) augmented by specialized vector knowledge bases, providing specialized conversational intelligence without sending data to external servers.\n\nNode operators in the GaiaNet network are rewarded for serving inference requests to developers and enterprise dApps. Early community participants who set up GaiaNet nodes, interact with the GaiaNet chatbot marketplace, and complete ecosystem quests earn verified network credits that convert to native tokens at the project TGE.",
+    "strategy": "Install and run a GaiaNet edge node on your local PC (Mac, Windows, Linux) or a budget cloud VPS.\n\nInteract with active community AI agents hosted on GaiaNet to generate verified inference queries.\n\nStake testnet credits or native collateral behind top-performing domain nodes to share in inference fee pools.",
+    "tokenomics": "Node Operator Compute Mining: 45% distributed over multi-year node operational curves.\n\nEcosystem Development & Developer Bounties: 22% reserved for AI agent integration and SDK development.\n\nCore Engineering & Research: 18% subject to standard 12-month cliff and 3-year linear vesting.\n\nEarly Strategic Investors: 15% with customary venture lockup terms.",
+    "sybilSafety": "GaiaNet verifies node uptime, cryptographic response signatures, and real-world latency. Artificial node spoofing without actual compute generation is detected and excluded from reward pools.",
+    "steps": [
+      "Navigate to the official <a href='https://gaianet.ai' target='_blank' rel='noopener noreferrer'>GaiaNet Portal</a> and create your builder profile.",
+      "Follow the documentation to install the GaiaNet node client using a single command in your terminal.",
+      "Select a base open-source model (such as Llama 3 8B) and initialize your local node server.",
+      "Verify your node is online and reporting telemetry to the public GaiaNet Node Explorer.",
+      "Access the GaiaNet Chat interface to interact with decentralized agents and test inference speeds.",
+      "Join the GaiaNet Discord to verify your node operator status and claim the Node Runner role.",
+      "Participate in community benchmark tasks and inference stress tests to earn bonus points.",
+      "Monitor the GaiaNet Leaderboard to track your accumulated compute rewards and ranking."
+    ],
+    "faqs": [
+      {
+        "question": "Can I run a GaiaNet node on an ordinary computer?",
+        "answer": "Yes. GaiaNet is optimized for lightweight quantized models that run efficiently on standard consumer laptops (M-series Macs, modern PCs) or low-cost VPSs."
+      },
+      {
+        "question": "Who funded GaiaNet?",
+        "answer": "GaiaNet raised $10M from prominent backers including Mirana Ventures, Mantle EcoFund, and Generative Ventures."
+      },
+      {
+        "question": "Do I have to pay to run a node?",
+        "answer": "No. The software is free and open-source. You only supply your device's idle compute and electricity."
+      },
+      {
+        "question": "What is an edge node in GaiaNet?",
+        "answer": "An edge node is a decentralized computer running an AI model that processes user chat queries locally without routing data through centralized corporate servers."
+      },
+      {
+        "question": "How do node operators earn crypto?",
+        "answer": "Nodes earn points and cryptographic rewards based on the number of successful inference queries they serve and their continuous uptime."
+      },
+      {
+        "question": "When is the GaiaNet token launch?",
+        "answer": "The token generation event is scheduled for Q1 2027 following completion of the multi-epoch node testnet."
+      }
+    ]
+  },
+  {
+    "id": "superform-labs",
+    "name": "Superform",
+    "logo": "/images/airdrops/superform-labs.svg",
+    "description": "Universal cross-chain yield marketplace and execution layer allowing users to deposit into any DeFi vault across any chain in one transaction.",
+    "reward": "$1,000 - $6,000",
+    "category": "DeFi / Yield / Cross-Chain",
+    "featured": false,
+    "status": "active",
+    "endTime": "Q1 2027",
+    "funding": "$6.5M",
+    "investors": "Polychain Capital, BlockTower Capital, Maven 11, Circle Ventures",
+    "refLink": "https://superform.xyz",
+    "overview": "Superform is a universal, non-custodial cross-chain yield marketplace that fundamentally simplifies DeFi investing. Supported by $6.5M in funding from tier-1 venture capital firms including Polychain Capital, BlockTower, and Circle Ventures, Superform acts as the unified 'App Store for DeFi Yield'.\n\nHistorically, accessing high-yield vaults on a new blockchain required tedious manual bridging, buying foreign gas tokens, wrapping assets, and executing multiple complex smart contract approvals. Superform eliminates this friction through its novel 'SuperPositions' architecture (ERC-5115) and cross-chain execution payload router. With a single click and signature, a user holding USDC on Ethereum can deposit into a high-yield liquidity vault on Arbitrum, Base, or Avalanche without leaving the Superform interface.\n\nBy aggregating hundreds of verified yield protocols (including Aave, Compound, Pendle, and Morpho) across multiple EVM ecosystems, Superform is becoming the primary liquidity distribution layer in decentralized finance. Early yield farmers who execute cross-chain deposits and earn Superform XP are well-positioned for the protocol's upcoming governance distribution.",
+    "strategy": "Connect your Web3 wallet to the Superform marketplace and execute a cross-chain vault deposit.\n\nHold SuperPositions in your wallet to passively accumulate daily Superform XP and underlying DeFi vault yields.\n\nUtilize the Superform Safari quest campaigns to earn exclusive ecosystem badges and XP multipliers.",
+    "tokenomics": "Community Liquidity & Superform XP Rewards: 40% allocated over multi-season distribution epochs.\n\nEcosystem Integrations & Protocol Treasury: 25% reserved for cross-chain router subsidies and partner vault incentives.\n\nCore Engineering Team: 20% subject to standard 12-month cliff and 3-year vesting.\n\nEarly Strategic Backers (Polychain): 15% with customary venture lockup schedules.",
+    "sybilSafety": "Superform prioritizes capital efficiency, deposit longevity, and transaction diversity across multiple chains. Quick deposit-and-immediate-withdrawal churns will receive zero seasonal XP.",
+    "steps": [
+      "Navigate to the official <a href='https://superform.xyz' target='_blank' rel='noopener noreferrer'>Superform Marketplace</a> and connect your EVM wallet.",
+      "Explore the Discover Vaults tab and filter by highest APY, TVL, or preferred blockchain.",
+      "Select a premier DeFi vault (e.g. Aave on Arbitrum or Morpho on Base) and enter your deposit amount.",
+      "Approve the transaction in your wallet; Superform automatically bridges and deposits your capital in a single batch.",
+      "Verify that your wallet receives the corresponding ERC-5115 SuperPosition token representing your vault share.",
+      "Visit the Superform Safari dashboard to monitor your accumulated Superform XP and tier status.",
+      "Join the official Superform Discord server to link your wallet and claim verified community roles.",
+      "Hold your positions across epoch milestones to maximize compound yield and retroactive airdrop allocations."
+    ],
+    "faqs": [
+      {
+        "question": "What is Superform?",
+        "answer": "Superform is a universal cross-chain yield marketplace where users can deposit into any DeFi vault on any blockchain in a single click."
+      },
+      {
+        "question": "What are SuperPositions (ERC-5115)?",
+        "answer": "SuperPositions are standardized liquid wrapper tokens that represent a user's cross-chain vault deposit, allowing them to be held or traded anywhere."
+      },
+      {
+        "question": "Who funded Superform Labs?",
+        "answer": "Superform raised $6.5M from Polychain Capital, BlockTower, Maven 11, and Circle Ventures."
+      },
+      {
+        "question": "Is Superform non-custodial?",
+        "answer": "Yes. Superform never takes custody of your funds. Capital is routed directly to the underlying verified smart contracts."
+      },
+      {
+        "question": "Do I need foreign gas tokens to deposit on another chain?",
+        "answer": "No. Superform handles all destination gas fees automatically as part of the single one-click transaction."
+      },
+      {
+        "question": "When is the Superform token launch expected?",
+        "answer": "The token generation event is planned across Q1 2027 following the conclusion of the Superform Safari campaign."
+      }
+    ]
+  },
+  {
+    "id": "gelato-network",
+    "name": "Gelato",
+    "logo": "/images/airdrops/gelato-network.svg",
+    "description": "Web3's premier decentralized automated execution, relayer, and Rollup-as-a-Service infrastructure network.",
+    "reward": "$1,000 - $7,000",
+    "category": "Infrastructure / Automation / Rollup",
+    "featured": false,
+    "status": "active",
+    "endTime": "Q1 2027",
+    "funding": "$12M+",
+    "investors": "Dragonfly Capital, ParaFi Capital, Galaxy Digital, IOSG Ventures",
+    "refLink": "https://gelato.network",
+    "overview": "Gelato Network is the leading Web3 automation, gasless transaction relayer, and Rollup-as-a-Service (RaaS) infrastructure provider. Supported with over $12M from premier crypto institutions including Dragonfly Capital, ParaFi, and Galaxy Digital, Gelato operates as the automated decentralized backend of Web3, executing billions in transaction volume across Ethereum, Polygon, Arbitrum, Optimism, and Base.\n\nSmart contracts on Ethereum cannot execute themselves—they require external triggers to rebalance liquidity, execute stop-loss orders, compound yields, or bridge states. Gelato's decentralized network of bots (Gelato Executors) monitors on-chain events and executes smart contract transactions automatically with 100% reliability. Furthermore, Gelato's Account Abstraction (SyncFee) and Gelato 1-Click Rollup platform enable protocols to launch custom L2/L3 chains with native gasless transactions.\n\nAs Gelato expands its Rollup-as-a-Service deployment suite and decentralized Web3 Cloud capabilities, community participants who stake GEL tokens, run relayer executor nodes, or interact with Gelato-powered rollups earn significant on-chain rewards and future ecosystem allocations.",
+    "strategy": "Stake native GEL tokens in the Gelato Staking Portal to earn protocol revenue sharing and participate in governance.\n\nInteract with prominent Layer 2 rollups and dApps powered by Gelato infrastructure (such as Playnance, Lisk L2, and Reya).\n\nDeploy an automated smart contract task or Web3 Function using the Gelato Automate developer console.",
+    "tokenomics": "Ecosystem Growth & RaaS Incentives: 35% allocated to bootstrap new rollups and developer applications.\n\nNode Operator Staking & Relayer Mining: 30% dedicated to decentralized executor nodes securing automated execution.\n\nCore Engineering Team: 20% subject to standard multi-year vesting.\n\nStrategic Backers (Dragonfly/ParaFi): 15% with long-term lockup terms.",
+    "sybilSafety": "Gelato focuses on authentic smart contract automation, on-chain staking history, and verified developer usage of its Web3 Functions API.",
+    "steps": [
+      "Access the official <a href='https://gelato.network' target='_blank' rel='noopener noreferrer'>Gelato Network Portal</a> and connect your Web3 wallet.",
+      "Explore the Gelato Staking dashboard to stake GEL tokens and activate validator delegation rewards.",
+      "Navigate to Gelato Automate to create your first automated recurring smart contract task on Arbitrum or Base.",
+      "Test Gelato Relay by executing gasless transactions on supported ecosystem partner dApps.",
+      "Explore rollups deployed on the Gelato 1-Click Rollup suite (e.g. Lisk, Playnance, Reya).",
+      "Join the Gelato Discord server to participate in developer workshops and community discussions.",
+      "Read the Gelato Web3 Functions documentation to deploy serverless off-chain compute logic.",
+      "Stay active across governance proposals on the Gelato Snapshot portal."
+    ],
+    "faqs": [
+      {
+        "question": "What is Gelato Network?",
+        "answer": "Gelato is a decentralized infrastructure network that automates smart contract executions, powers gasless transactions, and enables 1-click rollup deployments."
+      },
+      {
+        "question": "Who funded Gelato Network?",
+        "answer": "Gelato raised $12M+ led by Dragonfly Capital, ParaFi Capital, and Galaxy Digital."
+      },
+      {
+        "question": "What is a Gelato Web3 Function?",
+        "answer": "A Web3 Function is a serverless code script executed by Gelato's decentralized node network to query off-chain data and trigger smart contract actions."
+      },
+      {
+        "question": "Can I earn staking rewards on Gelato?",
+        "answer": "Yes. Users who stake GEL tokens in the official staking portal participate in protocol revenue sharing."
+      },
+      {
+        "question": "What major rollups are powered by Gelato?",
+        "answer": "Gelato RaaS powers prominent production rollups including Lisk L2, Playnance, and Reya Network."
+      },
+      {
+        "question": "When are new Gelato ecosystem incentives distributed?",
+        "answer": "Ecosystem incentives and partner airdrop distributions occur continuously across seasonal campaign epochs."
+      }
+    ]
   }
 ];

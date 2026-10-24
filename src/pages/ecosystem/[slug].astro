@@ -1,0 +1,294 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import Header from '../../components/Header.astro';
+import Footer from '../../components/Footer.astro';
+import AirdropCard from '../../components/AirdropCard.astro';
+import { airdrops } from '../../data/airdrops';
+import { ecosystems } from '../../data/ecosystems';
+import { newsArticles } from '../../data/news';
+import { academyArticles } from '../../data/academy';
+
+export function getStaticPaths() {
+  return ecosystems.map(ecosystem => ({
+    params: { slug: ecosystem.slug },
+    props: { ecosystem }
+  }));
+}
+
+const { ecosystem } = Astro.props;
+
+// Filter airdrops matching this ecosystem
+const matchedAirdrops = airdrops.filter(a => ecosystem.match(a));
+const activeDrops = matchedAirdrops.filter(a => a.status === 'active');
+const featuredDrops = matchedAirdrops.filter(a => a.featured);
+
+// Related news matching keywords or general news
+const relatedNews = newsArticles.filter(n => 
+  ecosystem.topKeywords.some(kw => 
+    n.title.toLowerCase().includes(kw.toLowerCase()) || 
+    n.excerpt.toLowerCase().includes(kw.toLowerCase()) ||
+    n.category.toLowerCase().includes(ecosystem.slug)
+  )
+).slice(0, 3);
+
+// Other ecosystems for quick navigation
+const otherEcosystems = ecosystems.filter(e => e.slug !== ecosystem.slug);
+---
+
+<Layout 
+  title={`${ecosystem.title} | Airdroplyx`}
+  description={ecosystem.description}
+>
+  <!-- Schema.org Structured Data (CollectionPage, BreadcrumbList, FAQPage) -->
+  <script type="application/ld+json" set:html={JSON.stringify({
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://airdroplyx.com/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Ecosystems",
+            "item": "https://airdroplyx.com/ecosystems/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": ecosystem.name,
+            "item": `https://airdroplyx.com/ecosystem/${ecosystem.slug}/`
+          }
+        ]
+      },
+      {
+        "@type": "CollectionPage",
+        "name": ecosystem.title,
+        "description": ecosystem.description,
+        "url": `https://airdroplyx.com/ecosystem/${ecosystem.slug}/`,
+        "numberOfItems": matchedAirdrops.length,
+        "about": {
+          "@type": "Thing",
+          "name": ecosystem.name
+        }
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": ecosystem.faqs.map(faq => ({
+          "@type": "Question",
+          "name": faq.question,
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": faq.answer
+          }
+        }))
+      }
+    ]
+  })} />
+
+  <Header />
+
+  <!-- Hero Section -->
+  <div class="bg-gradient-to-b from-slate-950 via-slate-900 to-slate-800 text-white py-14 md:py-18 border-b-4 border-blue-600">
+    <div class="max-w-[1200px] mx-auto px-4">
+      
+      <!-- Breadcrumbs -->
+      <nav class="text-xs text-slate-400 mb-6 flex items-center gap-2">
+        <a href="/" class="hover:text-blue-400 transition-colors">Home</a>
+        <span>/</span>
+        <a href="/ecosystems" class="hover:text-blue-400 transition-colors">Ecosystems</a>
+        <span>/</span>
+        <span class="text-white font-semibold">{ecosystem.name}</span>
+      </nav>
+
+      <div class="flex flex-col md:flex-row md:items-center justify-between gap-6">
+        <div class="max-w-3xl">
+          <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-blue-500/20 border border-blue-400/30 text-blue-300 text-xs font-bold uppercase tracking-wider mb-4">
+            <span class="text-base">{ecosystem.icon}</span>
+            <span>{ecosystem.badge}</span>
+          </div>
+
+          <h1 class="text-3xl md:text-5xl font-black tracking-tight mb-4 leading-tight text-white">
+            {ecosystem.name}
+          </h1>
+
+          <p class="text-base md:text-lg text-slate-300 leading-relaxed max-w-2xl">
+            {ecosystem.tagline}. Discover verified step-by-step guides, funding stats, and strategy.
+          </p>
+        </div>
+
+        <!-- Quick Stats Cards -->
+        <div class="grid grid-cols-3 gap-3 bg-white/5 border border-white/10 rounded-2xl p-4 shrink-0 text-center">
+          <div class="p-2">
+            <span class="block text-2xl md:text-3xl font-black text-blue-400">{matchedAirdrops.length}</span>
+            <span class="text-[11px] text-slate-400 font-medium uppercase tracking-wider">Airdrops</span>
+          </div>
+          <div class="p-2 border-x border-white/10">
+            <span class="block text-2xl md:text-3xl font-black text-emerald-400">{activeDrops.length}</span>
+            <span class="text-[11px] text-slate-400 font-medium uppercase tracking-wider">Active</span>
+          </div>
+          <div class="p-2">
+            <span class="block text-2xl md:text-3xl font-black text-orange-400">{featuredDrops.length}</span>
+            <span class="text-[11px] text-slate-400 font-medium uppercase tracking-wider">Hot Drops</span>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- Main Content Layout -->
+  <main class="max-w-[1200px] mx-auto px-4 py-12">
+    <div class="grid grid-cols-1 lg:grid-cols-3 gap-10">
+      
+      <!-- Primary Column (Airdrops & Deep Content) -->
+      <div class="lg:col-span-2 space-y-10">
+        
+        <!-- Live Airdrops Header & Count -->
+        <div>
+          <div class="flex items-center justify-between border-b border-slate-200 dark:border-slate-700 pb-4 mb-6">
+            <div>
+              <h2 class="text-2xl font-extrabold text-slate-900 dark:text-white flex items-center gap-2">
+                <span>{ecosystem.icon}</span> Verified {ecosystem.name} Guides
+              </h2>
+              <p class="text-xs text-slate-500 mt-1">
+                Showing all {matchedAirdrops.length} verified opportunities sorted by highest reward potential
+              </p>
+            </div>
+            <span class="text-xs font-bold bg-blue-50 text-blue-700 dark:bg-blue-900/40 dark:text-blue-300 px-3.5 py-1.5 rounded-full border border-blue-200 dark:border-blue-800">
+              {matchedAirdrops.length} Guides Available
+            </span>
+          </div>
+
+          <!-- Airdrop Cards Grid -->
+          <div class="space-y-4">
+            {matchedAirdrops.map(airdrop => (
+              <AirdropCard airdrop={airdrop} />
+            ))}
+          </div>
+        </div>
+
+        <!-- Ecosystem In-Depth Overview Section (SEO Content) -->
+        <section class="bg-white dark:bg-slate-800 rounded-3xl p-6 md:p-8 border border-slate-200 dark:border-slate-700 shadow-sm">
+          <h2 class="text-xl md:text-2xl font-extrabold text-slate-900 dark:text-white mb-4 flex items-center gap-2">
+            <span>📖</span> {ecosystem.name} Alpha & Ecosystem Overview
+          </h2>
+          <div class="text-slate-600 dark:text-slate-300 space-y-4 leading-relaxed text-base">
+            {ecosystem.overview.split('\n\n').map(paragraph => (
+              <p>{paragraph}</p>
+            ))}
+          </div>
+        </section>
+
+        <!-- Pro Farming Tips Box -->
+        <section class="bg-gradient-to-br from-blue-50 to-indigo-50 dark:from-slate-800 dark:to-slate-850 border-l-4 border-blue-600 rounded-r-3xl p-6 md:p-8 shadow-sm">
+          <h3 class="text-blue-950 dark:text-blue-400 font-black text-lg mb-4 flex items-center gap-2">
+            <span>💡</span> Pro Farming Strategies & Multipliers for {ecosystem.name}
+          </h3>
+          <ul class="space-y-3 text-slate-700 dark:text-slate-200 text-sm md:text-base">
+            {ecosystem.farmingTips.map(tip => (
+              <li class="flex items-start gap-3">
+                <span class="text-blue-600 dark:text-blue-400 font-bold mt-0.5">✓</span>
+                <span class="leading-relaxed font-medium">{tip}</span>
+              </li>
+            ))}
+          </ul>
+        </section>
+
+        <!-- FAQs Section (Rich FAQPage Schema) -->
+        <section class="bg-white dark:bg-slate-800 rounded-3xl p-6 md:p-8 border border-slate-200 dark:border-slate-700 shadow-sm">
+          <h2 class="text-xl md:text-2xl font-extrabold text-slate-900 dark:text-white mb-6 flex items-center gap-2">
+            <span>❓</span> Frequently Asked Questions: {ecosystem.name}
+          </h2>
+          <div class="space-y-4">
+            {ecosystem.faqs.map(faq => (
+              <div class="p-5 rounded-2xl bg-slate-50 dark:bg-slate-700/40 border border-slate-200/80 dark:border-slate-600/80">
+                <h3 class="font-bold text-slate-900 dark:text-white text-base mb-2">{faq.question}</h3>
+                <p class="text-slate-600 dark:text-slate-300 text-sm leading-relaxed">{faq.answer}</p>
+              </div>
+            ))}
+          </div>
+        </section>
+
+      </div>
+
+      <!-- Right Sidebar (Alpha Radar & Related Hubs) -->
+      <aside class="space-y-8">
+        
+        <!-- Other Ecosystem Hubs -->
+        <div class="bg-white dark:bg-slate-800 rounded-3xl p-6 border border-slate-200 dark:border-slate-700 shadow-sm">
+          <h3 class="font-bold text-slate-900 dark:text-white text-lg mb-4 flex items-center gap-2">
+            <span>🌐</span> Explore Other Ecosystems
+          </h3>
+          <div class="space-y-2.5">
+            {otherEcosystems.map(eco => (
+              <a 
+                href={`/ecosystem/${eco.slug}`}
+                class="flex items-center justify-between p-3 rounded-xl hover:bg-slate-50 dark:hover:bg-slate-700/60 transition-colors group border border-transparent hover:border-slate-200 dark:hover:border-slate-600"
+              >
+                <div class="flex items-center gap-3">
+                  <span class="text-xl">{eco.icon}</span>
+                  <span class="text-sm font-bold text-slate-800 dark:text-white group-hover:text-blue-600 transition-colors">
+                    {eco.name}
+                  </span>
+                </div>
+                <span class="text-xs font-semibold text-slate-400 group-hover:text-blue-600 transition-colors">→</span>
+              </a>
+            ))}
+          </div>
+        </div>
+
+        <!-- Related Breaking News -->
+        {relatedNews.length > 0 && (
+          <div class="bg-white dark:bg-slate-800 rounded-3xl p-6 border border-slate-200 dark:border-slate-700 shadow-sm">
+            <h3 class="font-bold text-slate-900 dark:text-white text-lg mb-4 flex items-center gap-2">
+              <span class="text-rose-500">🔥</span> Ecosystem Alpha & News
+            </h3>
+            <div class="space-y-4">
+              {relatedNews.map(news => (
+                <a href={`/news/${news.slug}`} class="block group">
+                  <div class="text-[11px] font-bold text-rose-600 uppercase mb-1">{news.category} • {news.date}</div>
+                  <h4 class="text-sm font-bold text-slate-800 dark:text-white group-hover:text-blue-600 transition-colors line-clamp-2 leading-snug mb-1">
+                    {news.title}
+                  </h4>
+                  <p class="text-xs text-slate-500 line-clamp-2 leading-relaxed">
+                    {news.excerpt}
+                  </p>
+                </a>
+              ))}
+            </div>
+            <a href="/news" class="block text-center text-xs font-bold text-blue-600 hover:text-blue-700 mt-5 pt-4 border-t border-slate-100 dark:border-slate-700">
+              View All Breaking Stories →
+            </a>
+          </div>
+        )}
+
+        <!-- Top Academy Guides -->
+        <div class="bg-white dark:bg-slate-800 rounded-3xl p-6 border border-slate-200 dark:border-slate-700 shadow-sm">
+          <h3 class="font-bold text-slate-900 dark:text-white text-lg mb-4 flex items-center gap-2">
+            <span>🎓</span> Recommended Masterclasses
+          </h3>
+          <div class="space-y-3">
+            {academyArticles.slice(0, 3).map(guide => (
+              <a href={`/academy/${guide.slug}`} class="block p-3 rounded-xl hover:bg-slate-50 dark:hover:bg-slate-700/60 transition-colors group">
+                <h4 class="text-xs font-bold text-slate-800 dark:text-white group-hover:text-blue-600 transition-colors line-clamp-2 leading-snug">
+                  {guide.title}
+                </h4>
+                <span class="text-[11px] text-blue-600 dark:text-blue-400 font-semibold mt-1 inline-block">Read tutorial →</span>
+              </a>
+            ))}
+          </div>
+        </div>
+
+      </aside>
+
+    </div>
+  </main>
+
+  <Footer />
+</Layout>

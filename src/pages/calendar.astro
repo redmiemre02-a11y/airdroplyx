@@ -1,0 +1,290 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import { calendarEvents } from '../data/calendar';
+import { newsArticles } from '../data/news';
+
+const sortedEvents = [...calendarEvents].sort((a, b) => {
+  if (a.exactDate && b.exactDate) return a.exactDate.localeCompare(b.exactDate);
+  return 0;
+});
+
+const confirmedCount = calendarEvents.filter(e => e.status === 'Confirmed').length;
+const tgeCount = calendarEvents.filter(e => e.type === 'TGE').length;
+const snapshotCount = calendarEvents.filter(e => e.type === 'Snapshot').length;
+---
+
+<Layout 
+  title="Crypto Airdrop Calendar 2026 » Confirmed Snapshots, TGEs & Deadlines | Airdroplyx"
+  description="The premier cryptocurrency airdrop calendar for 2026. Track verified snapshot dates, upcoming Token Generation Events (TGE), testnet deadlines, and claim windows."
+>
+  <!-- Schema.org JSON-LD for Events & Schedule -->
+  <script type="application/ld+json" set:html={JSON.stringify({
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://airdroplyx.com/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Airdrop Calendar",
+            "item": "https://airdroplyx.com/calendar/"
+          }
+        ]
+      },
+      {
+        "@type": "ItemList",
+        "name": "2026 Crypto Airdrop Calendar & Snapshot Timeline",
+        "description": "Verified schedule of upcoming crypto airdrop snapshots and token launches.",
+        "itemListElement": sortedEvents.map((evt, idx) => ({
+          "@type": "Event",
+          "position": idx + 1,
+          "name": evt.title,
+          "description": evt.description,
+          "startDate": evt.exactDate || "2026-11-01",
+          "eventStatus": evt.status === 'Confirmed' ? "https://schema.org/EventScheduled" : "https://schema.org/EventPostponed",
+          "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
+          "url": `https://airdroplyx.com${evt.actionUrl}/`,
+          "organizer": {
+            "@type": "Organization",
+            "name": evt.name
+          }
+        }))
+      }
+    ]
+  })} />
+
+  <Header />
+
+  <!-- Hero Section -->
+  <div class="bg-gradient-to-b from-slate-950 via-slate-900 to-slate-800 text-white py-14 md:py-18 border-b-4 border-blue-600">
+    <div class="max-w-[1200px] mx-auto px-4">
+      
+      <!-- Breadcrumbs -->
+      <nav class="text-xs text-slate-400 mb-6 flex items-center gap-2">
+        <a href="/" class="hover:text-blue-400 transition-colors">Home</a>
+        <span>/</span>
+        <span class="text-white font-semibold">Airdrop Calendar</span>
+      </nav>
+
+      <div class="flex flex-col md:flex-row md:items-center justify-between gap-6">
+        <div class="max-w-2xl">
+          <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-blue-500/20 border border-blue-400/30 text-blue-300 text-xs font-bold uppercase tracking-wider mb-4">
+            <span class="inline-block w-2 h-2 rounded-full bg-emerald-400 animate-pulse"></span>
+            <span>Live Snapshot & TGE Radar</span>
+          </div>
+
+          <h1 class="text-3xl md:text-5xl font-black tracking-tight mb-4 leading-tight text-white">
+            Crypto Airdrop <span class="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 via-indigo-300 to-purple-400">Calendar 2026</span>
+          </h1>
+
+          <p class="text-base md:text-lg text-slate-300 leading-relaxed">
+            Never miss a lucrative token distribution. Verified snapshot dates, testnet cutoff deadlines, and confirmed Token Generation Events.
+          </p>
+        </div>
+
+        <!-- Quick Summary Stats -->
+        <div class="grid grid-cols-3 gap-3 bg-white/5 border border-white/10 rounded-2xl p-4 shrink-0 text-center">
+          <div class="p-2">
+            <span class="block text-2xl md:text-3xl font-black text-emerald-400">{confirmedCount}</span>
+            <span class="text-[11px] text-slate-400 font-medium uppercase tracking-wider">Confirmed</span>
+          </div>
+          <div class="p-2 border-x border-white/10">
+            <span class="block text-2xl md:text-3xl font-black text-purple-400">{tgeCount}</span>
+            <span class="text-[11px] text-slate-400 font-medium uppercase tracking-wider">TGE Launches</span>
+          </div>
+          <div class="p-2">
+            <span class="block text-2xl md:text-3xl font-black text-blue-400">{snapshotCount}</span>
+            <span class="text-[11px] text-slate-400 font-medium uppercase tracking-wider">Snapshots</span>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- Main Calendar Content Area -->
+  <main class="max-w-[1200px] mx-auto px-4 py-12">
+    
+    <!-- Filter Controls Bar -->
+    <div class="bg-white dark:bg-slate-800 rounded-2xl p-4 border border-slate-200 dark:border-slate-700 shadow-sm mb-10 flex flex-col md:flex-row items-center justify-between gap-4">
+      <!-- Tabs -->
+      <div class="flex flex-wrap items-center gap-2 w-full md:w-auto" id="filter-tabs">
+        <button class="filter-btn active px-4 py-2 rounded-xl text-xs font-bold transition-all bg-blue-600 text-white" data-filter="all">
+          All Events ({sortedEvents.length})
+        </button>
+        <button class="filter-btn px-4 py-2 rounded-xl text-xs font-bold transition-all bg-slate-100 dark:bg-slate-700 text-slate-600 dark:text-slate-300 hover:bg-slate-200" data-filter="Confirmed">
+          ✓ Confirmed ({confirmedCount})
+        </button>
+        <button class="filter-btn px-4 py-2 rounded-xl text-xs font-bold transition-all bg-slate-100 dark:bg-slate-700 text-slate-600 dark:text-slate-300 hover:bg-slate-200" data-filter="TGE">
+          🚀 TGE ({tgeCount})
+        </button>
+        <button class="filter-btn px-4 py-2 rounded-xl text-xs font-bold transition-all bg-slate-100 dark:bg-slate-700 text-slate-600 dark:text-slate-300 hover:bg-slate-200" data-filter="Snapshot">
+          📸 Snapshots ({snapshotCount})
+        </button>
+      </div>
+
+      <!-- Live Search Filter -->
+      <div class="relative w-full md:w-72">
+        <input 
+          type="text" 
+          id="calendar-search" 
+          placeholder="Filter by protocol name..." 
+          class="w-full bg-slate-50 dark:bg-slate-700 border border-slate-200 dark:border-slate-600 rounded-xl py-2 pl-9 pr-4 text-xs font-medium focus:outline-none focus:ring-2 focus:ring-blue-500 text-slate-900 dark:text-white"
+        />
+        <svg class="absolute left-3 top-2.5 w-4 h-4 text-slate-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path></svg>
+      </div>
+    </div>
+
+    <!-- Timeline List -->
+    <div class="space-y-6" id="calendar-timeline">
+      {sortedEvents.map(evt => {
+        const typeBadge = 
+          evt.type === 'TGE' ? 'bg-purple-100 text-purple-700 dark:bg-purple-900/40 dark:text-purple-300 border-purple-200 dark:border-purple-800' :
+          evt.type === 'Snapshot' ? 'bg-emerald-100 text-emerald-700 dark:bg-emerald-900/40 dark:text-emerald-300 border-emerald-200 dark:border-emerald-800' :
+          evt.type === 'Testnet Deadline' ? 'bg-blue-100 text-blue-700 dark:bg-blue-900/40 dark:text-blue-300 border-blue-200 dark:border-blue-800' :
+          'bg-amber-100 text-amber-700 dark:bg-amber-900/40 dark:text-amber-300 border-amber-200 dark:border-amber-800';
+
+        const statusBadge = 
+          evt.status === 'Confirmed' ? 'bg-emerald-50 text-emerald-600 border-emerald-200 dark:bg-emerald-950/40 dark:text-emerald-400' :
+          'bg-slate-100 text-slate-600 border-slate-200 dark:bg-slate-700 dark:text-slate-300';
+
+        return (
+          <div 
+            class="calendar-card bg-white dark:bg-slate-800 rounded-3xl p-6 md:p-8 border border-slate-200 dark:border-slate-700 shadow-sm hover:shadow-xl transition-all duration-300 flex flex-col md:flex-row md:items-center justify-between gap-6"
+            data-name={evt.name.toLowerCase()}
+            data-type={evt.type}
+            data-status={evt.status}
+          >
+            <!-- Date Block & Protocol Logo -->
+            <div class="flex items-start md:items-center gap-5">
+              <!-- Date Callout -->
+              <div class="w-20 md:w-24 h-20 md:h-24 rounded-2xl bg-gradient-to-br from-slate-900 to-slate-800 text-white flex flex-col items-center justify-center shrink-0 border border-slate-700 shadow-md">
+                <span class="text-[10px] uppercase font-bold text-blue-400 tracking-wider">Date</span>
+                <span class="text-sm md:text-base font-black text-center leading-tight px-1">{evt.date}</span>
+              </div>
+
+              <!-- Info -->
+              <div class="min-w-0">
+                <div class="flex flex-wrap items-center gap-2 mb-2">
+                  <span class={`text-[11px] font-black uppercase px-2.5 py-0.5 rounded-full border ${typeBadge}`}>
+                    {evt.type}
+                  </span>
+                  <span class={`text-[11px] font-bold uppercase px-2.5 py-0.5 rounded-full border ${statusBadge}`}>
+                    {evt.status === 'Confirmed' ? '● Confirmed' : '○ Estimated'}
+                  </span>
+                  <span class="text-[11px] font-semibold text-slate-500 dark:text-slate-400 bg-slate-100 dark:bg-slate-700 px-2 py-0.5 rounded-md">
+                    {evt.category}
+                  </span>
+                </div>
+
+                <div class="flex items-center gap-2.5 mb-1">
+                  <img src={evt.logo} alt={evt.name} class="w-6 h-6 rounded-lg object-contain bg-slate-50 p-0.5 border border-slate-200" />
+                  <h3 class="text-lg md:text-xl font-extrabold text-slate-900 dark:text-white">
+                    {evt.title}
+                  </h3>
+                </div>
+
+                <p class="text-xs md:text-sm text-slate-500 dark:text-slate-400 leading-relaxed max-w-2xl">
+                  {evt.description}
+                </p>
+              </div>
+            </div>
+
+            <!-- Reward & Action CTA -->
+            <div class="flex md:flex-col items-center md:items-end justify-between gap-3 shrink-0 pt-4 md:pt-0 border-t md:border-t-0 border-slate-100 dark:border-slate-700">
+              <div class="text-left md:text-right">
+                <span class="text-[10px] text-slate-400 uppercase font-semibold block">Est. Allocation</span>
+                <span class="text-sm md:text-base font-extrabold text-emerald-600 dark:text-emerald-400">{evt.reward}</span>
+              </div>
+
+              <a 
+                href={evt.actionUrl} 
+                class="bg-blue-600 hover:bg-blue-700 text-white font-bold text-xs md:text-sm px-5 py-2.5 rounded-xl shadow-md shadow-blue-500/20 transition-all hover:scale-105 inline-flex items-center gap-1.5"
+              >
+                <span>Farming Guide</span>
+                <span>→</span>
+              </a>
+            </div>
+          </div>
+        );
+      })}
+    </div>
+
+    <!-- Educational Bottom Callout -->
+    <div class="mt-16 bg-gradient-to-r from-blue-50 to-indigo-50 dark:from-slate-800 dark:to-slate-850 rounded-3xl p-8 border border-blue-200 dark:border-slate-700 flex flex-col md:flex-row items-center justify-between gap-6">
+      <div>
+        <h3 class="text-xl font-bold text-slate-900 dark:text-white mb-2">Want Instant Snapshot Notifications?</h3>
+        <p class="text-sm text-slate-600 dark:text-slate-300 max-w-xl">
+          Protocol snapshot windows can close abruptly. Subscribe to our free airdrop radar newsletter to receive real-time alerts 48 hours before official snapshot blocks.
+        </p>
+      </div>
+      <a href="/#newsletter" class="bg-blue-600 hover:bg-blue-700 text-white font-bold px-6 py-3.5 rounded-2xl shadow-lg shadow-blue-500/25 whitespace-nowrap text-sm">
+        Join Free Alert Radar
+      </a>
+    </div>
+
+  </main>
+
+  <Footer />
+</Layout>
+
+<script is:inline>
+  // Filter Tabs & Search Script
+  const tabs = document.querySelectorAll('.filter-btn');
+  const searchInput = document.getElementById('calendar-search');
+  const cards = document.querySelectorAll('.calendar-card');
+
+  let activeFilter = 'all';
+  let searchQuery = '';
+
+  function applyFilters() {
+    cards.forEach(card => {
+      const name = card.dataset.name;
+      const type = card.dataset.type;
+      const status = card.dataset.status;
+
+      const matchesFilter = 
+        activeFilter === 'all' || 
+        (activeFilter === 'Confirmed' && status === 'Confirmed') ||
+        (activeFilter === type);
+
+      const matchesSearch = !searchQuery || name.includes(searchQuery);
+
+      if (matchesFilter && matchesSearch) {
+        card.style.display = 'flex';
+      } else {
+        card.style.display = 'none';
+      }
+    });
+  }
+
+  tabs.forEach(tab => {
+    tab.addEventListener('click', () => {
+      tabs.forEach(t => {
+        t.classList.remove('bg-blue-600', 'text-white', 'active');
+        t.classList.add('bg-slate-100', 'dark:bg-slate-700', 'text-slate-600', 'dark:text-slate-300');
+      });
+      tab.classList.remove('bg-slate-100', 'dark:bg-slate-700', 'text-slate-600', 'dark:text-slate-300');
+      tab.classList.add('bg-blue-600', 'text-white', 'active');
+
+      activeFilter = tab.dataset.filter;
+      applyFilters();
+    });
+  });
+
+  if (searchInput) {
+    searchInput.addEventListener('input', (e) => {
+      searchQuery = e.target.value.toLowerCase().trim();
+      applyFilters();
+    });
+  }
+</script>

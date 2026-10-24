@@ -32,6 +32,10 @@ const canonicalURL = new URL(Astro.url.pathname, Astro.site || "https://airdropl
 		<link rel="canonical" href={canonicalURL} />
 		<meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
 
+		<!-- RSS Autodiscovery Feeds -->
+		<link rel="alternate" type="application/rss+xml" title="Airdroplyx - All Airdrops RSS Feed" href="https://airdroplyx.com/rss.xml" />
+		<link rel="alternate" type="application/rss+xml" title="Airdroplyx - Web3 News RSS Feed" href="https://airdroplyx.com/news/rss.xml" />
+
 		<!-- Open Graph / Facebook -->
 		<meta property="og:type" content="website" />
 		<meta property="og:url" content={canonicalURL} />
