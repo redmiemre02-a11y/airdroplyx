@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
+  <defs>
+    <linearGradient id="solayerGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00FFA3" />
+      <stop offset="50%" stop-color="#00D2FF" />
+      <stop offset="100%" stop-color="#7928CA" />
+    </linearGradient>
+  </defs>
+  <rect width="128" height="128" rx="28" fill="#0A0F1D" />
+  <circle cx="64" cy="64" r="42" fill="none" stroke="url(#solayerGrad)" stroke-width="4" opacity="0.3" />
+  <path d="M42 46 H 86 L 76 60 H 32 Z M52 64 H 96 L 86 78 H 42 Z M32 82 H 76 L 66 96 H 22 Z" fill="url(#solayerGrad)" />
+</svg>

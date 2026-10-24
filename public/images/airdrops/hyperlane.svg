@@ -1,13 +1,14 @@
-<svg viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <rect width="100" height="100" rx="24" fill="#070A18"/>
-  <path d="M24 35L50 20L76 35V65L50 80L24 65V35Z" stroke="#3730A3" stroke-width="3"/>
-  <path d="M32 40L50 50L68 40" stroke="#06B6D4" stroke-width="4" stroke-linecap="round"/>
-  <path d="M32 55L50 65L68 55" stroke="#A855F7" stroke-width="4" stroke-linecap="round"/>
-  <line x1="50" y1="26" x2="50" y2="74" stroke="url(#hyper_line)" stroke-width="3" stroke-dasharray="4 4"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
   <defs>
-    <linearGradient id="hyper_line" x1="50" y1="26" x2="50" y2="74" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#06B6D4"/>
-      <stop offset="1" stop-color="#A855F7"/>
+    <linearGradient id="hyperlaneGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#EC4899" />
+      <stop offset="50%" stop-color="#8B5CF6" />
+      <stop offset="100%" stop-color="#3B82F6" />
     </linearGradient>
   </defs>
+  <rect width="128" height="128" rx="28" fill="#0F0F1A" />
+  <path d="M36 64 H 92 M36 44 H 92 M36 84 H 92" stroke="url(#hyperlaneGrad)" stroke-width="6" stroke-linecap="round" />
+  <circle cx="48" cy="44" r="7" fill="#FFFFFF" />
+  <circle cx="80" cy="64" r="7" fill="#FFFFFF" />
+  <circle cx="60" cy="84" r="7" fill="#FFFFFF" />
 </svg>

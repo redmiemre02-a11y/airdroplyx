@@ -17160,4 +17160,545 @@ export const airdrops: Airdrop[] = [
       }
 ]
   }
+,
+  {
+    id: 'morpho-blue',
+    name: "Morpho",
+    logo: '/images/airdrops/morpho-blue.svg',
+    description: "Next-generation peer-to-peer decentralized lending primitive backed by $50M+ from a16z crypto, Variant, and Ribbit Capital.",
+    reward: "Curated Vault Yields & $MORPHO Governance Allocation",
+    category: 'DeFi Lending',
+    featured: true,
+    status: 'active',
+    endTime: '2026-12-31T23:59:59Z',
+    funding: "$50M+",
+    investors: "a16z crypto, Variant, Ribbit Capital, Brevan Howard, Coinbase Ventures",
+    refLink: 'https://morpho.org',
+    overview: "Morpho is a revolutionary decentralized lending primitive engineered to eliminate the capital inefficiencies and monolithic risk pooling inherent in legacy money markets. Backed by over $50 Million in venture financing led by a16z crypto, Variant, and Ribbit Capital, Morpho originally pioneered the peer-to-peer lending optimizer (Morpho Optimizers) before unveiling its flagship protocol: Morpho Blue. Commanding over $2 Billion in total supplied assets across Ethereum, Base, Optimism, and Arbitrum, Morpho has established itself as the modular base layer of Web3 credit.\n\nMorpho Blue introduces an ultra-minimalist, immutable lending architecture. Rather than bundling all collateral assets into a single shared risk pool where one bad debt event can jeopardize the entire protocol, Morpho Blue operates isolated, permissionless lending pairs. Each market features an independent collateral asset, loan asset, custom liquidation loan-to-value (LLTV) ratio, and a dedicated price oracle. Institutional risk curators—including Re7 Capital, B Protocol, and Steakhouse Financial—manage automated Morpho Vaults (MetaMorpho), allowing passive depositors to earn optimized, risk-adjusted yields across diversified credit markets.\n\nThe governance and incentive flywheel of the protocol centers on the native $MORPHO token. MORPHO holders direct protocol parameters, manage DAO treasury reserves, and approve incentive gauges across supported deployment chains. By depositing into curated vaults, borrowing against blue-chip collateral, or integrating liquid staking and restaking assets (like wstETH and cbBTC), users participate in one of the most resilient and fastest-growing credit ecosystems in decentralized finance.",
+    strategy: "To maximize your positioning in the Morpho ecosystem and optimize lending yields:\n\n1. Connect your Web3 wallet to the official Morpho interface across Ethereum, Base, or Arbitrum.\n2. Deposit stablecoins (USDC, USDT) or blue-chip crypto (ETH, cbBTC) into curated MetaMorpho Vaults managed by top risk curators (Re7, Steakhouse).\n3. Borrow collateralized assets against conservative loan-to-value ratios to establish borrower utilization history.\n4. Supply liquid restaking tokens (such as wstETH or weETH) to earn dual restaking rewards alongside Morpho yields.\n5. Maintain long-term liquidity across multiple L2 networks to maximize cross-chain activity scoring.",
+    tokenomics: "The protocol is governed by the native $MORPHO token, with a maximum total supply capped at 1,000,000,000 tokens.\n\nA significant portion of total supply is reserved for community incentives, retroactive rewards, and ongoing liquidity mining distributions.\n\nMORPHO empowers token holders to vote on risk parameters, reward gauge emissions, and treasury grants. The supply architecture allocates 51% to the community and ecosystem treasury, 19% to core contributors (Morpho Labs), 20% to strategic early venture investors, and 10% to the Morpho Association foundation reserve.",
+    sybilSafety: "Morpho utilizes time-weighted balance accounting across all MetaMorpho vaults rather than point-in-time snapshots.\n\nFlash-loaning capital or rapidly rotating funds between connected wallets without maintaining persistent deposits fails to accrue meaningful loyalty score. Deploying genuine capital into curated vaults is the safest path to reward eligibility.",
+    steps: [
+      "Visit the official Morpho portal at <a href=\"https://morpho.org\" target=\"_blank\" rel=\"noopener noreferrer\">morpho.org</a> and launch the app.",
+      "Connect your preferred EVM Web3 wallet (MetaMask, Rabby, or Coinbase Wallet).",
+      "Select your preferred network: Ethereum Mainnet, Base, Optimism, or Arbitrum.",
+      "Navigate to the \"Earn\" tab to review curated MetaMorpho Vaults and their risk curators.",
+      "Deposit USDC, ETH, or restaked assets into a top-performing vault to start earning compounding APR.",
+      "Navigate to the \"Borrow\" tab to explore isolated collateralized borrowing pairs.",
+      "Track your portfolio performance and earned incentive rewards on the Morpho dashboard.",
+      "Participate in Morpho governance discussions on Discourse and vote on active Snapshot proposals."
+],
+    faqs: [
+      {
+            "question": "What is Morpho Blue and how does it differ from traditional lending protocols?",
+            "answer": "Morpho Blue is an immutable, isolated lending primitive that separates risk across independent market pairs rather than pooling all assets into a single shared risk pool."
+      },
+      {
+            "question": "Who are the primary venture backers of Morpho?",
+            "answer": "Morpho has raised over $50 Million led by a16z crypto, Variant, and Ribbit Capital, with participation from Brevan Howard and Coinbase Ventures."
+      },
+      {
+            "question": "What are MetaMorpho Vaults?",
+            "answer": "MetaMorpho Vaults are curated lending pools managed by professional risk managers (like Re7 and Steakhouse) that automatically allocate capital across optimal Morpho Blue pairs."
+      },
+      {
+            "question": "Which blockchains support Morpho?",
+            "answer": "Morpho is live on Ethereum Mainnet, Base, Arbitrum, and Optimism, offering low-cost execution on Layer 2s."
+      },
+      {
+            "question": "What is the utility of the MORPHO token?",
+            "answer": "MORPHO is the governance token of the protocol, used to vote on gauge emissions, fee switch activations, and treasury deployment."
+      },
+      {
+            "question": "Is Morpho audited and secure?",
+            "answer": "Morpho Blue is one of the most audited codebases in DeFi, having completed dozens of independent security audits and formal verification reviews."
+      }
+]
+  },
+  {
+    id: 'pendle-finance',
+    name: "Pendle Finance",
+    logo: '/images/airdrops/pendle-finance.svg',
+    description: "The premier yield-tokenization protocol in DeFi backed by Binance Labs, splitting yield-bearing assets into PT and YT.",
+    reward: "vePENDLE Revenue Share & Seasonal Yield Points",
+    category: 'DeFi Yield',
+    featured: true,
+    status: 'active',
+    endTime: '2026-12-31T23:59:59Z',
+    funding: "$10M+",
+    investors: "Binance Labs, Arthur Hayes (Maelstrom), Mechanism Capital, HashKey Capital",
+    refLink: 'https://pendle.finance',
+    overview: "Pendle Finance is the undisputed leader in yield tokenization and interest rate derivatives across decentralized finance, commanding billions in total value locked. Backed by Binance Labs, Arthur Hayes (Maelstrom), Mechanism Capital, and Spartan Group, Pendle has completely revolutionized how Web3 participants trade, hedge, and leverage yields. By decoupling any yield-bearing asset into Principal Tokens (PT) and Yield Tokens (YT), Pendle enables fixed-rate borrowing, leveraged yield speculation, and high-efficiency liquidity provision.\n\nThe protocol's brilliance lies in its custom Automated Market Maker (AMM) designed specifically for assets with decaying time value. Users can purchase Principal Tokens (PT) to lock in guaranteed fixed annual percentage yields on assets like stETH, eETH, and USDe with zero price fluctuation risk. Conversely, aggressive traders can purchase Yield Tokens (YT) to gain leveraged exposure to underlying points programs and dynamic restaking rewards at a fraction of the cost of acquiring the full spot asset.\n\nAt the center of Pendle's economic flywheel is the $PENDLE token and its vote-escrowed model, vePENDLE. By locking PENDLE for up to two years, vePENDLE holders receive 80% of all swap fees generated across protocol pools, boosted liquidity mining APR of up to 250%, and voting governance power over weekly pool bribe gauges. Operating across Ethereum, Arbitrum, Mantle, and BNB Chain, Pendle remains the central battleground for every major restaking and liquidity campaign in crypto.",
+    strategy: "To optimize your positioning and maximize yields on Pendle Finance:\n\n1. Connect your Web3 wallet across Ethereum, Arbitrum, or Mantle.\n2. Supply liquid assets into Pendle LP pools to earn base swap fees, underlying asset yield, and PENDLE incentives.\n3. Lock PENDLE into vePENDLE to capture weekly protocol fee distributions and vote on high-bribe gauge pools.\n4. Purchase discounted Principal Tokens (PT) to lock in guaranteed double-digit fixed yields for specific maturity dates.\n5. Deploy Yield Tokens (YT) into high-conviction airdrop campaigns to multiply points accumulation per dollar invested.",
+    tokenomics: "Pendle is powered by the $PENDLE token, featuring an emissions schedule designed to align long-term liquidity providers with protocol growth.\n\nThe vePENDLE mechanic ensures that active participants who lock tokens receive the vast majority of protocol value accrual.\n\n80% of all swap fees collected across every chain are distributed directly to vePENDLE lockers. In addition, vePENDLE holders receive weekly bribes from external protocols competing to direct PENDLE liquidity emissions to their respective token pools.",
+    sybilSafety: "Pendle rewards are strictly tied to capital efficiency, liquidity tenure, and vePENDLE locking duration.\n\nAutomated bots attempting wash-swaps on low-volume pools are penalized by trading fees and dynamic AMM slippage. Legitimate, multi-week liquidity provision yields optimal rewards.",
+    steps: [
+      "Navigate to the official Pendle dApp at <a href=\"https://pendle.finance\" target=\"_blank\" rel=\"noopener noreferrer\">pendle.finance</a>.",
+      "Connect your EVM Web3 wallet (such as Rabby or MetaMask).",
+      "Select your desired network: Ethereum, Arbitrum, BNB Chain, or Mantle.",
+      "Explore the \"Fixed Yield\" tab to purchase Principal Tokens (PT) for guaranteed APY.",
+      "Explore the \"Pools\" tab and deposit liquidity into verified pools (e.g., eETH, LBTC, USDe).",
+      "Lock PENDLE tokens for vePENDLE at <a href=\"https://app.pendle.finance/vependle\" target=\"_blank\" rel=\"noopener noreferrer\">vePENDLE Dashboard</a>.",
+      "Vote on weekly pool reward gauges to direct PENDLE emissions and claim gauge bribes.",
+      "Claim your accumulated swap fees, protocol rewards, and underlying points regularly."
+],
+    faqs: [
+      {
+            "question": "What is Pendle Finance and how does it work?",
+            "answer": "Pendle is a DeFi yield protocol that splits yield-bearing tokens into Principal Tokens (PT) for fixed yields and Yield Tokens (YT) for leveraged yield and points."
+      },
+      {
+            "question": "Who are the notable investors in Pendle?",
+            "answer": "Pendle is backed by Binance Labs, Arthur Hayes through Maelstrom, Mechanism Capital, and HashKey Capital."
+      },
+      {
+            "question": "What is the benefit of holding Principal Tokens (PT)?",
+            "answer": "PT allows users to lock in a guaranteed fixed APY until the maturity date, redeemable 1:1 for the underlying asset at expiration."
+      },
+      {
+            "question": "What are Yield Tokens (YT) and why do airdrop hunters use them?",
+            "answer": "YT gives holders 100% of the yield and points generated by the underlying token, allowing users to farm airdrop points with minimal upfront capital."
+      },
+      {
+            "question": "What is vePENDLE?",
+            "answer": "vePENDLE is vote-escrowed PENDLE obtained by locking tokens, granting holders 80% of swap fees, boosted pool APR, and governance voting power."
+      },
+      {
+            "question": "Which blockchains support Pendle Finance?",
+            "answer": "Pendle is currently deployed across Ethereum Mainnet, Arbitrum, Mantle, BNB Chain, and Optimism."
+      }
+]
+  },
+  {
+    id: 'bitlayer-labs',
+    name: "Bitlayer",
+    logo: '/images/airdrops/bitlayer-labs.svg',
+    description: "The first Bitcoin Layer 2 network based on BitVM backed by $16M from Polychain Capital and Franklin Templeton.",
+    reward: "Mining Gala Points & $BTR Token Airdrop",
+    category: 'Layer 2',
+    featured: false,
+    status: 'active',
+    endTime: '2026-12-31T23:59:59Z',
+    funding: "$16M",
+    investors: "Polychain Capital, Franklin Templeton, Framework Ventures, ABCDE Capital",
+    refLink: 'https://bitlayer.org',
+    overview: "Bitlayer is the premier Bitcoin Layer 2 network engineered directly on the BitVM cryptographic paradigm, delivering full Ethereum Virtual Machine (EVM) equivalence while inheriting Bitcoin's foundational security. Backed by $16 Million in Series A venture capital led by Polychain Capital and global asset management titan Franklin Templeton, with participation from Framework Ventures, Bitlayer commands over $300 Million in total value locked, representing one of the most liquid and active ecosystems in the Bitcoin scaling sector.\n\nBitlayer's technological breakthrough is its trustless, two-way peg and fraud-proof settlement mechanism powered by BitVM. Unlike federated multisig sidechains that rely on custodial committees, Bitlayer allows optimistic computation verification directly on Bitcoin Layer 1 script without requiring hard forks. Developers can seamlessly deploy unmodified Solidity smart contracts, facilitating automated market makers, decentralized money markets, and liquid Bitcoin staking primitives with sub-second block confirmation times and gas fees costing fractions of a cent.\n\nThe protocol's multi-epoch ecosystem campaign, the 'Bitlayer Mining Gala', incentivizes early liquidity providers, developers, and community users. Participants earn Bitlayer Points by bridging native Bitcoin, supplying liquidity to ecosystem dApps (such as Macaron DEX, BitSmiley, and Avalon Finance), and completing verified on-chain tasks. With institutional backing from major asset managers and deep integration with Binance Web3 Wallet, accumulating Bitlayer Points positions participants for the upcoming BTR governance token distribution.",
+    strategy: "To maximize your Bitlayer Mining Gala points accumulation:\n\n1. Bridge native Bitcoin or stablecoins to Bitlayer using the official Bitlayer Bridge.\n2. Swap tokens and supply liquidity into high-yield pools on Macaron DEX.\n3. Deposit BTC into Avalon Finance or BitSmiley to participate in Bitcoin-backed lending and stablecoin minting.\n4. Maintain consistent weekly on-chain transaction activity across verified ecosystem protocols.\n5. Participate in official Bitlayer Mining Gala seasons and claim commemorative campaign badges.",
+    tokenomics: "The network is governed by the native $BTR token, planned with an initial total supply of 1,000,000,000 tokens.\n\nA confirmed 15% allocation is reserved for community airdrops, Mining Gala participants, and early BitVM testnet validators.\n\nThe BTR token serves critical network functions: powering validator staking, decentralizing the Bitlayer sequencer, and voting on ecosystem grant allocations. 45% of supply is dedicated to ecosystem incentives and community mining, 20% to core contributors, 18% to strategic venture investors, and 12% to the protocol security treasury.",
+    sybilSafety: "Bitlayer implements multi-tiered sybil mitigation via wallet age verification, minimum bridging volume, and anti-looping rules.\n\nWallets that deploy bot-like micro-transactions without genuine liquidity commitment are systematically excluded from Mining Gala point multipliers.",
+    steps: [
+      "Add the Bitlayer Mainnet RPC to your Web3 wallet via Chainlist or the official portal.",
+      "Visit the official Bitlayer platform at <a href=\"https://bitlayer.org\" target=\"_blank\" rel=\"noopener noreferrer\">bitlayer.org</a>.",
+      "Navigate to the official Bitlayer Bridge to bridge BTC from Bitcoin L1 or Ethereum.",
+      "Trade on native decentralized exchanges such as Macaron DEX to generate volume.",
+      "Supply liquidity into verified liquidity pools to earn trading fees and Bitlayer Points.",
+      "Lend BTC collateral on Avalon Finance or mint bitUSD on BitSmiley.",
+      "Track your accumulated points on the official Bitlayer Mining Gala dashboard.",
+      "Join the Bitlayer Discord community to stay informed on snapshot dates and mainnet milestones."
+],
+    faqs: [
+      {
+            "question": "What is Bitlayer and how does it scale Bitcoin?",
+            "answer": "Bitlayer is the first Bitcoin Layer 2 based on the BitVM paradigm, providing 100% EVM compatibility with trustless fraud proofs settled on Bitcoin L1."
+      },
+      {
+            "question": "Who are the primary investors in Bitlayer?",
+            "answer": "Bitlayer raised $16 Million led by Polychain Capital and Franklin Templeton, with participation from Framework Ventures."
+      },
+      {
+            "question": "What is the Bitlayer Mining Gala?",
+            "answer": "The Mining Gala is Bitlayers official multi-million dollar ecosystem incentive campaign rewarding users who bridge and use dApps on the network."
+      },
+      {
+            "question": "Can I use MetaMask with Bitlayer?",
+            "answer": "Yes, because Bitlayer is 100% EVM-compatible, you can use MetaMask, Rabby, OKX Wallet, or any standard Web3 wallet."
+      },
+      {
+            "question": "What is the role of BitVM in Bitlayer?",
+            "answer": "BitVM enables Turing-complete smart contracts and optimistic fraud verification natively on Bitcoin script without changing Bitcoins consensus rules."
+      },
+      {
+            "question": "How do I qualify for the BTR token airdrop?",
+            "answer": "Bridge assets to Bitlayer, provide liquidity to native dApps, and participate actively in the Mining Gala rewards program."
+      }
+]
+  },
+  {
+    id: 'silencio-network',
+    name: "Silencio Network",
+    logo: '/images/airdrops/silencio-network.svg',
+    description: "Premier decentralized physical infrastructure (DePIN) network measuring hyper-local noise pollution with 350k+ nodes.",
+    reward: "Noise Coins, Hexagon Ownership & $SLC Token Allocation",
+    category: 'DePIN',
+    featured: false,
+    status: 'active',
+    endTime: '2026-12-31T23:59:59Z',
+    funding: "$1M+ Pre-Seed & Peaq Grants",
+    investors: "Borderless Capital, Peaq Ecosystem Fund, Web3 DePIN Angels",
+    refLink: 'https://silencio.network',
+    overview: "Silencio Network is one of the fastest-growing decentralized physical infrastructure networks (DePIN) in Web3, with over 350,000 active mobile sensor nodes operating across 180+ countries. Engineered on the high-throughput Peaq blockchain, Silencio transforms everyday smartphones into crowdsourced environmental acoustic sensors. By collecting hyper-local, real-time sound decibel data, Silencio creates the world's largest open-access acoustic intelligence network, disrupting multi-billion dollar urban planning, real estate, and municipal noise monitoring industries.\n\nThe protocol's technological approach gamifies real-world data collection through mobile hardware. Users launch the Silencio mobile application to measure ambient sound levels during daily walks, restaurant visits, or neighborhood commutes, earning Noise Coins for every valid audio measurement. Crucially, the app never records actual audio content or conversations—only acoustic decibel amplitudes are cryptographically hashed and validated to guarantee absolute user privacy.\n\nSilencio's tokenomics are anchored by the upcoming native $SLC utility and governance token on the Peaq blockchain. Active data miners who accumulate Noise Coins, claim geographic hexagonal zones (Hexagons), and maintain daily measurement streaks establish eligibility for the genesis SLC community airdrop. With institutional partnerships spanning real estate portals and environmental researchers, Silencio showcases the disruptive real-world power of mobile DePIN architectures.",
+    strategy: "To optimize your Silencio Network Noise Coin accrual and airdrop tier:\n\n1. Download the official Silencio app on iOS or Android and create an account.\n2. Complete daily 10-to-30-minute ambient noise measurement sessions in urban areas.\n3. Check in daily to build compounding measurement streaks and unlock reward multipliers.\n4. Claim and map unmeasured geographic hexagons in your local city to earn pioneer bonuses.\n5. Refer active community friends to earn a 3% permanent commission on their mined Noise Coins.",
+    tokenomics: "The protocol operates under the native $SLC token on the Peaq DePIN blockchain, with a total supply of 1,000,000,000 SLC.\n\nA significant 12% allocation is earmarked for retroactive data miners, hexagon owners, and community beta contributors.\n\nNoise Coins accumulated in the mobile application will be burned at TGE in exchange for $SLC tokens based on multi-tiered activity tiers. SLC functions as the settlement currency for purchasing enterprise acoustic data, staking for hexagon governance, and participating in network upgrades.",
+    sybilSafety: "Silencio utilizes GPS verification, acoustic fraud-detection algorithms, and hardware sensor telemetry to prevent simulated emulators.\n\nRunning multiple emulators on a single computer or spoofing GPS locations results in automated account banning and forfeiture of mined Noise Coins. Authentic real-world walking measurements are mandatory.",
+    steps: [
+      "Download the Silencio app from the official website at <a href=\"https://silencio.network\" target=\"_blank\" rel=\"noopener noreferrer\">silencio.network</a> (iOS & Android).",
+      "Sign up using your email and enter a community referral code to receive a bonus 250 Noise Coins.",
+      "Grant microphone and location permissions (the app only measures decibel levels, never audio recordings).",
+      "Press the \"Record\" button to begin measuring ambient sound during your daily routine.",
+      "Complete measurements of at least 10 minutes to register valid data blocks.",
+      "Check in daily to build your streak multiplier on the home dashboard.",
+      "Explore the interactive map to identify unmapped hexagons in your neighborhood for elevated mining rewards.",
+      "Join the Silencio community on Discord and Twitter to track official TGE snapshot announcements."
+],
+    faqs: [
+      {
+            "question": "What is Silencio Network?",
+            "answer": "Silencio is a DePIN project that crowdsources hyper-local noise pollution data using smartphones to build the worlds largest acoustic intelligence network."
+      },
+      {
+            "question": "Does Silencio record my private conversations?",
+            "answer": "No. Silencio measures only sound pressure levels in decibels (dBA); no audio data is ever recorded, stored, or transmitted."
+      },
+      {
+            "question": "What blockchain does Silencio use?",
+            "answer": "Silencio is built natively on the Peaq blockchain, a specialized Layer 1 designed specifically for DePIN applications."
+      },
+      {
+            "question": "What are Noise Coins?",
+            "answer": "Noise Coins are in-app reward points earned by mining sound data, which will convert into $SLC tokens at the Token Generation Event."
+      },
+      {
+            "question": "Can I earn money without spending any capital?",
+            "answer": "Yes, Silencio is 100% free to use. All you need is a smartphone with an active GPS and microphone."
+      },
+      {
+            "question": "How do hexagon bonuses work?",
+            "answer": "Mapping sound data in geographic hexagons that have never been measured before awards substantial pioneer bonus Noise Coins."
+      }
+]
+  },
+  {
+    id: 'uplink-network',
+    name: "Uplink",
+    logo: '/images/airdrops/uplink-network.svg',
+    description: "Decentralized physical infrastructure (DePIN) for distributed internet connectivity backed by $10M from Framework Ventures.",
+    reward: "Connectivity Mining & $ULX Token Distribution",
+    category: 'DePIN',
+    featured: false,
+    status: 'active',
+    endTime: '2026-12-31T23:59:59Z',
+    funding: "$10M",
+    investors: "Framework Ventures, CoinFund, Stratos Technologies, Outlier Ventures",
+    refLink: 'https://uplink.xyz',
+    overview: "Uplink is an institutional-grade decentralized physical infrastructure network (DePIN) engineered to democratize global internet connectivity. Backed by $10 Million in venture financing led by Framework Ventures, with participation from CoinFund and Stratos Technologies, Uplink disrupts traditional telecommunications monopolies by creating an open, user-operated distributed network of WiFi routers, enterprise access points, and 5G small cells.\n\nThe protocol provides decentralized physical infrastructure where everyday individuals, small businesses, and enterprise landlords can deploy standardized or certified WiFi hardware to share bandwidth with nearby users. When users connect to the Uplink decentralized network, cryptographic proofs-of-connectivity are generated on-chain, and bandwidth hosts receive continuous token incentives. Uplink incorporates seamless eSIM integration, zero-touch authentication, and end-to-end encrypted packet routing.\n\nThrough the Uplink rewards dashboard and community onboarding programs, participants who install Uplink-compatible router firmware, share local broadband capacity, or validate coverage on the Uplink Explorer accumulate connectivity points. As telecommunications conglomerates partner with decentralized networks to offload heavy mobile data traffic, Uplink's token generation event positions hardware providers and coverage testers at the forefront of the Web3 telecom revolution.",
+    strategy: "To optimize your positioning for Uplink DePIN token rewards:\n\n1. Register on the official Uplink portal and create a verified hardware provider profile.\n2. Connect certified routers or flash compatible open-source router firmware with Uplink software.\n3. Share surplus home or enterprise bandwidth to accumulate continuous proof-of-connectivity points.\n4. Use the Uplink mobile coverage tester to validate and verify network connectivity in your local area.\n5. Participate in early community ambassador programs and track hardware deployment seasons.",
+    tokenomics: "The network is governed by the native $ULX token, engineered with dynamic mint-and-burn data credit tokenomics.\n\n15% of total supply is reserved for early bandwidth providers, hardware node operators, and coverage verifiers.\n\nULX functions as the network utility token: enterprise consumers and mobile users burn ULX to acquire data credits for global internet roaming, while hardware hosts stake ULX to operate enterprise connectivity nodes and earn protocol rewards.",
+    sybilSafety: "Uplink verifies actual data packet throughput, physical geographic coordinates, and round-trip latency to prevent fake virtual nodes.\n\nDeploying virtualized proxy servers without real physical hardware results in immediate network blacklisting. Genuine hardware uptime is required.",
+    steps: [
+      "Visit the official Uplink platform at <a href=\"https://uplink.xyz\" target=\"_blank\" rel=\"noopener noreferrer\">uplink.xyz</a>.",
+      "Sign up for the community portal and explore the Uplink Explorer map.",
+      "Download the Uplink mobile app to test and verify local network coverage.",
+      "Order a certified Uplink router or check compatibility for existing open-source routers.",
+      "Install the Uplink connectivity firmware to connect your device to the distributed network.",
+      "Share your unused bandwidth to generate continuous proofs-of-connectivity.",
+      "Monitor your earned connectivity points and uptime statistics on the rewards portal.",
+      "Join the Uplink Discord to participate in hardware testing rounds and roadmap updates."
+],
+    faqs: [
+      {
+            "question": "What is Uplink and how does it work?",
+            "answer": "Uplink is a decentralized physical infrastructure network (DePIN) that allows individuals and businesses to share internet connectivity and earn crypto rewards."
+      },
+      {
+            "question": "Who invested in Uplink?",
+            "answer": "Uplink raised $10 Million in funding led by Framework Ventures, with participation from CoinFund and Stratos Technologies."
+      },
+      {
+            "question": "Do I need special hardware to participate in Uplink?",
+            "answer": "You can participate by deploying certified Uplink routers, flashing compatible existing hardware, or using the mobile app for coverage testing."
+      },
+      {
+            "question": "Is my personal home network secure if I share bandwidth?",
+            "answer": "Yes, Uplink isolates guest traffic into separate encrypted virtual LANs (VLANs), ensuring your private network remains completely untouchable."
+      },
+      {
+            "question": "How do users pay to use the Uplink network?",
+            "answer": "Users and enterprise telecom partners purchase data credits by burning native ULX tokens to access global seamless WiFi roaming."
+      },
+      {
+            "question": "When is the Uplink token expected to launch?",
+            "answer": "The token generation event is planned in coordination with expanding enterprise carrier offloading partnerships in late 2026."
+      }
+]
+  },
+  {
+    id: 'kamino-finance',
+    name: "Kamino Finance",
+    logo: '/images/airdrops/kamino-finance.svg',
+    description: "The dominant DeFi liquidity, lending, and automated vaults protocol on Solana with Season 2 rewards.",
+    reward: "Kamino Points Season 2 & $KMNO Staking Yields",
+    category: 'DeFi Lending',
+    featured: false,
+    status: 'active',
+    endTime: '2026-12-31T23:59:59Z',
+    funding: "Ecosystem",
+    investors: "Hubble Protocol, Solana Ecosystem Backers",
+    refLink: 'https://kamino.finance',
+    overview: "Kamino Finance is the indisputable financial powerhouse and dominant decentralized liquidity protocol on Solana, commanding over $1.5 Billion in total value locked. Designed from first principles to harness Solana's 400ms block times and high throughput, Kamino integrates three foundational financial primitives into one unified architecture: Kamino Lend (algorithmic money markets), Kamino Liquidity (automated concentrated liquidity management), and Kamino Multiply (one-click leverage and yield compounding).\n\nAt the core of Kamino's supremacy is Kamino Lend (K-Lend), an institutional-grade money market featuring risk-isolated lending vaults, dynamic interest rate curves, and real-time liquidation oracles powered by Pyth Network. Users can deposit blue-chip assets—such as SOL, JTO, JUP, USDC, and diversified Solana liquid staking tokens (JitoSOL, mSOL, bSOL)—to earn compounding interest while unlocking borrowing power. Meanwhile, Kamino's automated LP vaults manage concentrated liquidity on Raydium and Orca with automated rebalancing and zero impermanent loss auto-compounding.\n\nThe protocol is governed by the native $KMNO token. Following its landmark Season 1 airdrop, Kamino launched Kamino Points Season 2, introducing enhanced multipliers for active borrowers, long-term lenders, and KMNO stakers. Staking KMNO into the governance portal unlocks staking yield, elevated airdrop multipliers, and voting power over protocol reserve factors. For active Solana participants, Kamino remains the most vital yield hub in the ecosystem.",
+    strategy: "To optimize your Kamino Points Season 2 accumulation:\n\n1. Supply SOL, liquid staking tokens, or stablecoins to Kamino Lend to establish steady baseline lending points.\n2. Borrow assets against your collateral at conservative loan-to-value ratios (keeping health factor above 1.5x) to trigger elevated 3x-to-5x borrow point multipliers.\n3. Stake native KMNO tokens in the Kamino governance staking vault to boost all earned points by up to 100%.\n4. Utilize Kamino Multiply to establish looped liquid staking positions for compounding APR.\n5. Provide liquidity to automated Kamino concentrated liquidity vaults on top Solana pairs.",
+    tokenomics: "The protocol is governed by the $KMNO token with a total fixed supply of 10,000,000,000 tokens.\n\nA total of 35% of the entire token supply is formally allocated to community rewards, distributed across multiple seasonal epochs.\n\nKMNO stakers participate in protocol governance, voting on supported collateral listings, interest rate models, and risk parameters. The team and core developers hold 20%, early contributors hold 35%, and the protocol treasury and development reserve hold the remainder.",
+    sybilSafety: "Kamino calculates points continuously through real-time time-weighted balance equations rather than retroactive snapshots.\n\nRapid flash borrowing, bot-driven circular wash loans, and accounts exhibiting zero sustained holding duration receive discounted reward multipliers.",
+    steps: [
+      "Install a Solana Web3 wallet such as Phantom, Solflare, or Backpack.",
+      "Fund your wallet with SOL and USDC.",
+      "Visit the official Kamino portal at <a href=\"https://kamino.finance\" target=\"_blank\" rel=\"noopener noreferrer\">kamino.finance</a>.",
+      "Navigate to \"Kamino Lend\" and supply SOL or stablecoins to start earning interest.",
+      "Enable your supplied assets as collateral and borrow a conservative amount of stablecoins.",
+      "Explore \"Kamino Vaults\" to deposit into automated concentrated liquidity LP pools.",
+      "Stake earned or acquired KMNO in the governance tab at <a href=\"https://app.kamino.finance/staking\" target=\"_blank\" rel=\"noopener noreferrer\">Kamino Staking</a>.",
+      "Track your points, rank, and active multipliers on the official Kamino Season 2 dashboard."
+],
+    faqs: [
+      {
+            "question": "What is Kamino Finance?",
+            "answer": "Kamino is the leading DeFi protocol on Solana, combining algorithmic lending (Kamino Lend), automated liquidity vaults, and one-click Multiply leverage."
+      },
+      {
+            "question": "What is Kamino Points Season 2?",
+            "answer": "Season 2 is the ongoing loyalty campaign that rewards users for lending, borrowing, staking KMNO, and providing liquidity across Kamino products."
+      },
+      {
+            "question": "How do I earn the highest point multipliers on Kamino?",
+            "answer": "Borrowing assets typically awards higher multipliers than lending, and staking KMNO in the governance vault boosts all your earned points by up to 100%."
+      },
+      {
+            "question": "What is Kamino Multiply?",
+            "answer": "Multiply is a one-click leverage product that borrows against your collateral to purchase more of the same asset, compounding staking yields."
+      },
+      {
+            "question": "How does Kamino manage liquidation risk?",
+            "answer": "Kamino utilizes high-frequency Pyth oracles and isolated risk vaults to liquidate undercollateralized positions smoothly with zero protocol bad debt."
+      },
+      {
+            "question": "What is the utility of the KMNO token?",
+            "answer": "KMNO is used for DAO governance voting, staking for protocol fee share and yield boosts, and directing ecosystem reward emissions."
+      }
+]
+  },
+  {
+    id: 'mantle-network',
+    name: "Mantle Network",
+    logo: '/images/airdrops/mantle-network.svg',
+    description: "High-throughput modular Ethereum Layer 2 backed by a multi-billion dollar treasury and EigenDA technology.",
+    reward: "Mantle Rewards Station, mETH Yields & $MNT Incentives",
+    category: 'Layer 2',
+    featured: false,
+    status: 'active',
+    endTime: '2026-12-31T23:59:59Z',
+    funding: "$200M+ Treasury",
+    investors: "Mantle Treasury (formerly BitDAO), Dragonfly, Pantera, Founders Fund",
+    refLink: 'https://mantle.xyz',
+    overview: "Mantle Network is a high-performance, modular Ethereum Layer 2 rollup backed by one of the largest decentralized treasuries in all of crypto, commanding billions in capital reserves. Originating from the BitDAO ecosystem and powered by the native $MNT token, Mantle delivers institutional-grade scalability, sub-cent gas fees, and hyperscale throughput by pioneering the first production integration of EigenDA (EigenLayer's decentralized data availability layer) with the OP Stack rollup architecture.\n\nBy separating transaction execution from consensus and data availability, Mantle slashes data publishing costs by over 90% compared to traditional Ethereum Layer 2 rollups. The network features native decentralized liquidity primitives, anchored by Mantle LSP (Liquid Staking Protocol) which issues $mETH, one of the most widely adopted and highest-yielding liquid staking tokens on Ethereum. mETH automatically routes validation yield and treasury subsidies directly to depositors, serving as the core collateral for Mantle's thriving DeFi matrix.\n\nThrough the Mantle Rewards Station and multi-season ecosystem campaigns, users who lock MNT, hold mETH, and provide liquidity to native decentralized exchanges (such as Merchant Moe and Agni Finance) earn continuous token airdrops from partner protocols. With its multi-billion dollar strategic war chest and deep venture alignments, Mantle stands as a permanent titan in the Ethereum Layer 2 ecosystem.",
+    strategy: "To optimize your positioning in the Mantle Network ecosystem:\n\n1. Bridge ETH or MNT to Mantle Network using the official Mantle Bridge.\n2. Liquid stake ETH via Mantle LSP to receive high-yield mETH.\n3. Lock MNT or mETH in the Mantle Rewards Station to claim recurring ecosystem partner token airdrops.\n4. Supply liquidity to premier native DEXs like Merchant Moe or Agni Finance.\n5. Maintain active monthly transaction streaks and explore newly deployed Mantle modular dApps.",
+    tokenomics: "The network is governed by the native $MNT token with a total fixed supply of 6,219,316,794 tokens.\n\nMNT functions as the native gas token across Mantle Network and the governance instrument for the Mantle DAO.\n\nMNT holders vote on treasury allocations, protocol upgrades, and core product roadmaps. 51% of total tokens are held in the decentralized Mantle Treasury, with 49% circulating among community members and early token holders.",
+    sybilSafety: "Mantle Network tracks on-chain gas expenditure, sustained TVL duration in Mantle Rewards Station, and contract interaction diversity.\n\nSpamming empty micro-transactions without genuine capital retention is filtered out by automated treasury reward distribution algorithms.",
+    steps: [
+      "Add Mantle Network to your Web3 wallet (MetaMask, Rabby, or OKX Wallet) via Chainlist.",
+      "Visit the official Mantle portal at <a href=\"https://mantle.xyz\" target=\"_blank\" rel=\"noopener noreferrer\">mantle.xyz</a>.",
+      "Bridge ETH, MNT, or USDC from Ethereum Mainnet to Mantle Network via the official bridge.",
+      "Navigate to Mantle LSP at <a href=\"https://meth.mantle.xyz\" target=\"_blank\" rel=\"noopener noreferrer\">mETH Portal</a> and stake ETH for mETH.",
+      "Lock MNT in the Mantle Rewards Station to participate in active partner token airdrops.",
+      "Swap tokens and supply liquidity on premier native AMMs such as Merchant Moe and Agni Finance.",
+      "Explore lending markets on Mantle to collateralize mETH and borrow stablecoins.",
+      "Participate in Mantle governance votes on Snapshot at <a href=\"https://snapshot.org/#/mantle.eth\" target=\"_blank\" rel=\"noopener noreferrer\">Mantle Governance</a>."
+],
+    faqs: [
+      {
+            "question": "What is Mantle Network?",
+            "answer": "Mantle is a modular Ethereum Layer 2 rollup built with OP Stack and EigenDA, powered by one of the largest treasuries in crypto and the native MNT token."
+      },
+      {
+            "question": "How does Mantle achieve low gas fees?",
+            "answer": "Mantle utilizes EigenDA for decentralized data availability, drastically reducing the cost of publishing transaction batch data to Ethereum L1."
+      },
+      {
+            "question": "What is Mantle mETH?",
+            "answer": "mETH is Mantles native liquid staking token, offering industry-leading staking yields subsidized by the multi-billion dollar Mantle Treasury."
+      },
+      {
+            "question": "What is the Mantle Rewards Station?",
+            "answer": "The Rewards Station allows users to lock MNT tokens to earn continuous, passive token airdrops from verified ecosystem partner projects."
+      },
+      {
+            "question": "What is the gas token on Mantle Network?",
+            "answer": "Unlike most Ethereum L2s that require ETH for gas, Mantle Network uses the native MNT token to pay for transaction fees."
+      },
+      {
+            "question": "How do I participate in Mantle ecosystem rewards?",
+            "answer": "Bridge assets to Mantle, hold mETH, lock MNT in the Rewards Station, and provide liquidity to native DeFi protocols."
+      }
+]
+  },
+  {
+    id: 'solayer-labs',
+    name: "Solayer",
+    logo: '/images/airdrops/solayer-labs.svg',
+    description: "The premier native restaking network on Solana backed by $12M from Polychain Capital and Binance Labs, issuing sSOL.",
+    reward: "Solayer Epoch Points & $LAYER Token Allocation",
+    category: 'Liquid Restaking',
+    featured: false,
+    status: 'active',
+    endTime: '2026-12-31T23:59:59Z',
+    funding: "$12M",
+    investors: "Polychain Capital, Binance Labs, Hack VC, Big Brain Holdings, Nomad Capital",
+    refLink: 'https://solayer.org',
+    overview: "Solayer is the pioneering native restaking network engineered on the Solana blockchain, commanding hundreds of millions in total value locked. Backed by $12 Million in seed and strategic financing led by Polychain Capital, with major investment from Binance Labs and Hack VC, Solayer extends Solana's economic security to Actively Validated Services (AVSs), decentralized oracle networks, and sovereign high-frequency application engines.\n\nUnlike generic multi-chain restaking models, Solayer leverages Solana's Proof-of-Stake consensus and SVM execution to deliver Endogenous AVSs—shared security services built natively within the Solana validator architecture. When users deposit native SOL or Solana liquid staking tokens (such as JitoSOL, mSOL, or bSOL), they mint $sSOL, a composable liquid restaking token that accrues base PoS staking yields alongside secondary AVS verification rewards.\n\nThrough Solayer Epochs and the official delegation campaign, stakers allocate their restaked sSOL toward specific AVS applications—such as decentralized bridges, high-frequency orderbooks, and specialized execution environments. Solayer prioritizes transaction inclusion and network bandwidth for delegating users, creating a tangible economic incentive for high-volume traders and DeFi protocols. Participating in Solayer Epochs positions stakers at the forefront of the upcoming LAYER governance token distribution.",
+    strategy: "To optimize your Solayer Epoch points and prospective token allocation:\n\n1. Connect your Solana Web3 wallet (Phantom, Solflare, or Backpack) to the official Solayer portal.\n2. Deposit native SOL or blue-chip LSTs (JitoSOL, mSOL) to mint liquid restaked sSOL.\n3. Delegate your sSOL across active Actively Validated Services (AVSs) in the delegation module to unlock point multipliers.\n4. Provide sSOL liquidity into verified Raydium, Orca, or Kamino liquidity vaults.\n5. Maintain long-term deposits across consecutive Solayer epochs to maximize compounding loyalty status.",
+    tokenomics: "The protocol will be governed by the upcoming native $LAYER token, planned with an initial total supply of 1,000,000,000 tokens.\n\nA significant 15% allocation is formally reserved for early restakers, sSOL minters, and AVS delegators.\n\nLAYER empowers holders with governance control over supported AVS onboardings, slashing conditions, and fee-sharing distribution. 48% of supply is dedicated to ecosystem incentives and restaking rewards, 22% to core contributors, 18% to strategic venture investors, and 12% to the protocol security reserve.",
+    sybilSafety: "Solayer calculates epoch points using continuous time-weighted balance equations.\n\nRapid cycling of funds between wallets without holding through epoch boundary timestamps results in disqualified multiplier tiers. Concentrating capital in a single active wallet is recommended.",
+    steps: [
+      "Install a Solana Web3 wallet (such as Phantom, Solflare, or Backpack) and fund it with SOL.",
+      "Visit the official Solayer platform at <a href=\"https://solayer.org\" target=\"_blank\" rel=\"noopener noreferrer\">solayer.org</a>.",
+      "Connect your Solana wallet to the dashboard interface.",
+      "Select your deposit asset (SOL, JitoSOL, or mSOL) and confirm the restaking transaction.",
+      "Receive your liquid restaked sSOL tokens directly in your connected wallet.",
+      "Navigate to the \"Delegation\" tab to delegate your sSOL to active AVS partners.",
+      "Deposit sSOL into integrated Kamino or Orca liquidity vaults for secondary yields.",
+      "Monitor your accumulated Epoch points on the official Solayer leaderboard."
+],
+    faqs: [
+      {
+            "question": "What is Solayer and how does Solana restaking work?",
+            "answer": "Solayer allows users to restake SOL and LSTs to secure external Actively Validated Services (AVSs) on Solana, earning base PoS yields plus secondary AVS rewards."
+      },
+      {
+            "question": "Who are the investors in Solayer?",
+            "answer": "Solayer raised $12 Million led by Polychain Capital with strategic backing from Binance Labs and Hack VC."
+      },
+      {
+            "question": "What is sSOL?",
+            "answer": "sSOL is Solayers liquid restaking token received upon depositing SOL or LSTs, representing restaked capital and accruing dual yields."
+      },
+      {
+            "question": "What are Endogenous AVSs on Solayer?",
+            "answer": "Endogenous AVSs are decentralized applications and infrastructure built natively within Solana that consume shared economic security from Solayer validators."
+      },
+      {
+            "question": "Can I withdraw my restaked SOL from Solayer?",
+            "answer": "Yes, users can initiate native unstaking via the protocol portal or swap sSOL instantly on secondary decentralized exchanges."
+      },
+      {
+            "question": "How do I earn points on Solayer?",
+            "answer": "Mint sSOL, delegate to active AVSs, and deploy sSOL into partner DeFi liquidity pools across the Solana ecosystem."
+      }
+]
+  },
+  {
+    id: 'mira-dex',
+    name: "Mira DEX",
+    logo: '/images/airdrops/mira-dex.svg',
+    description: "The premier concentrated liquidity AMM and decentralized exchange on Fuel Network built in Sway.",
+    reward: "Trading Points, LP Multipliers & $MIRA Governance Token",
+    category: 'DEX',
+    featured: false,
+    status: 'active',
+    endTime: '2026-12-31T23:59:59Z',
+    funding: "Fuel Grants & Seed",
+    investors: "Fuel Foundation Grants, Web3 DeFi Incubators",
+    refLink: 'https://mira.ly',
+    overview: "Mira DEX is the foundational decentralized exchange and concentrated liquidity automated market maker (CLMM) engineered natively on Fuel Network using the domain-specific Sway smart contract language. By leveraging the FuelVM's parallel transaction execution and UTXO state model, Mira DEX eliminates the computational bottlenecks and front-running vulnerabilities common to legacy EVM automated market makers.\n\nOperating as the primary liquidity hub for Fuel's live Mainnet Ignition phase, Mira brings the capital efficiency of Uniswap v3 to the fastest modular execution layer in crypto. Liquidity providers can concentrate capital within custom price bounds, allowing trades to execute with ultra-tight slippage and minimal gas fees. Mira features customizable fee tiers, permissionless pool creation, and integrated swap routing across all newly deployed modular assets on Fuel.\n\nAs part of Fuel's ecosystem expansion, Mira is operating an extensive community incentive and points campaign. Active traders who execute token swaps, liquidity providers who deploy capital into concentrated pools (such as ETH/USDC and sETH/ETH), and early testnet participants accumulate Mira points that translate directly into the upcoming MIRA governance token distribution. With Fuel's mainnet onboarding hundreds of millions in TVL, Mira stands as an indispensable primitive for decentralized trading.",
+    strategy: "To optimize your Mira DEX rewards and Fuel points multipliers:\n\n1. Connect your Fuel wallet (Fuel Wallet or Fuelet) to the official Mira DEX dApp.\n2. Execute regular token swaps across core pairs (ETH, USDC, FUEL ecosystem tokens) to build trading volume.\n3. Provide concentrated liquidity into high-volume trading pools within active market price ranges.\n4. Reinvest earned trading fees to compound your liquidity provider share.\n5. Participate in official community campaigns and track leaderboard ranking.",
+    tokenomics: "The protocol is governed by the native $MIRA token, structured with a total fixed supply of 100,000,000 tokens.\n\n45% of total supply is reserved for community liquidity mining, retroactive trader rewards, and active LP incentives.\n\nMIRA token holders direct pool emission gauges, vote on fee tiers, and participate in protocol revenue distribution. 22% is allocated to the founding development team, 18% to ecosystem partners and incubators, and 15% to the protocol treasury and security reserve.",
+    sybilSafety: "Mira tracks real transaction fees generated, active liquidity duration, and wallet interaction history.\n\nAutomated bot clusters that spam circular zero-value swaps on zero-fee pools are filtered out from points calculations. Sustained LP commitment is prioritized.",
+    steps: [
+      "Install the official Fuel Wallet extension and fund it with native ETH on Fuel Network.",
+      "Navigate to the official Mira DEX application at <a href=\"https://mira.ly\" target=\"_blank\" rel=\"noopener noreferrer\">mira.ly</a>.",
+      "Connect your Fuel wallet to the trading terminal.",
+      "Swap tokens on the \"Swap\" interface to generate authentic trading volume.",
+      "Navigate to the \"Pools\" tab to explore active concentrated liquidity opportunities.",
+      "Select a token pair (e.g., ETH/USDC), set your target price range, and deposit liquidity.",
+      "Collect earned trading fees periodically from your active positions.",
+      "Join the Mira Discord community to track snapshot announcements and governance updates."
+],
+    faqs: [
+      {
+            "question": "What is Mira DEX and how does it utilize Fuel Network?",
+            "answer": "Mira DEX is a concentrated liquidity AMM built in Sway on Fuel Network, utilizing UTXO parallel execution for lightning-fast trades and sub-cent fees."
+      },
+      {
+            "question": "Who supports Mira DEX?",
+            "answer": "Mira DEX is backed by official development grants from the Fuel Foundation and prominent DeFi angel investors."
+      },
+      {
+            "question": "What wallet do I need to use Mira DEX?",
+            "answer": "You need a Fuel-compatible Web3 wallet such as Fuel Wallet, Fuelet, or Bako Safe."
+      },
+      {
+            "question": "What is concentrated liquidity on Mira?",
+            "answer": "Concentrated liquidity allows LPs to provide capital within specific price ranges, achieving dramatically higher fee earnings per dollar invested."
+      },
+      {
+            "question": "Do swaps on Mira earn Fuel Network points?",
+            "answer": "Yes, interacting with verified dApps like Mira contributes directly to your overall Fuel Network points and ecosystem multipliers."
+      },
+      {
+            "question": "What is the role of the MIRA token?",
+            "answer": "MIRA will serve as the governance token for the DEX, directing liquidity pool gauges, fee sharing, and protocol upgrades."
+      }
+]
+  },
+  {
+    id: 'vlayer-labs',
+    name: "vlayer",
+    logo: '/images/airdrops/vlayer-labs.svg',
+    description: "Verifiable data infrastructure using zero-knowledge proofs backed by $10M from a16z crypto and BlockTower Capital.",
+    reward: "Developer Testnet Incentives & Future Governance Allocation",
+    category: 'Infrastructure',
+    featured: false,
+    status: 'upcoming',
+    endTime: '2026-12-31T23:59:59Z',
+    funding: "$10M",
+    investors: "a16z crypto, BlockTower Capital, Credibly Neutral, Web3 Angels",
+    refLink: 'https://vlayer.xyz',
+    overview: "vlayer is a groundbreaking verifiable data infrastructure and cryptographic co-processing protocol backed by $10 Million in seed funding led by a16z crypto, with participation from BlockTower Capital and Credibly Neutral. Designed to supercharge Ethereum smart contracts with zero-knowledge capabilities, vlayer enables developers to build complex decentralized applications capable of verifying historical on-chain state, off-chain web data, and cross-chain execution without relying on trusted central oracles.\n\nThe protocol introduces four revolutionary ZK-powered primitives: Time Travel (allowing smart contracts to read and mathematically verify any historical blockchain state at zero gas cost), Teleport (trustless cross-chain state reading without traditional bridge vulnerabilities), Web Proofs (using zk-TLS to prove private off-chain web activity and financial accounts), and Email Proofs (verifying real-world identity and communications using DKIM signatures).\n\nBy functioning as a zero-knowledge trust layer for EVM blockchains, vlayer unlocks novel use cases across decentralized identity, private credit scoring, verifiable automated trading, and trustless governance. Early developers and community testers who deploy contracts using the vlayer SDK, test zk-TLS proofs on testnet, and participate in developer hackathons establish an early cryptographic footprint on one of a16z crypto's highest-conviction infrastructure bets.",
+    strategy: "To optimize your positioning for vlayer developer rewards and future governance allocations:\n\n1. Explore the official vlayer developer portal and documentation.\n2. Deploy a testnet smart contract integrating vlayer Time Travel or Teleport primitives.\n3. Test zk-TLS Web Proofs and Email Proof verification using the official vlayer demo dApps.\n4. Participate in community developer workshops and submit feedback on GitHub.\n5. Join the vlayer community on Discord to track public testnet incentivization updates.",
+    tokenomics: "The protocol is structuring its decentralized network architecture, with tokenomics designed to incentivize ZK provers, verifiers, and developer adoption.\n\nEarly developer contributors, testnet prover operators, and ecosystem builders are slated for community allocation tranches.\n\nThe native token will serve as the gas and settlement token for generating ZK proofs, staking for prover nodes, and governing protocol upgrade proposals.",
+    sybilSafety: "vlayer evaluates genuine cryptographic proof generation, developer contract deployments, and verified GitHub contributions.\n\nAutomated spam interactions that fail cryptographic verification checks are filtered out by protocol prover logs.",
+    steps: [
+      "Visit the official vlayer platform at <a href=\"https://vlayer.xyz\" target=\"_blank\" rel=\"noopener noreferrer\">vlayer.xyz</a>.",
+      "Explore the developer documentation at <a href=\"https://docs.vlayer.xyz\" target=\"_blank\" rel=\"noopener noreferrer\">docs.vlayer.xyz</a>.",
+      "Install the vlayer SDK using npm or cargo in your development environment.",
+      "Deploy an example smart contract utilizing vlayer Time Travel to read historical Ethereum state.",
+      "Test the zk-TLS Web Proof demo to generate cryptographic proofs of Web2 account balances.",
+      "Verify generated ZK proofs on the vlayer testnet explorer.",
+      "Join the vlayer Discord developer channel to report feedback and bugs.",
+      "Star and follow the vlayer open-source repository on GitHub to monitor releases."
+],
+    faqs: [
+      {
+            "question": "What is vlayer and what does it do?",
+            "answer": "vlayer is a zero-knowledge verifiable data platform that allows smart contracts to read historical blockchain state, verify cross-chain data, and prove Web2 credentials with ZK proofs."
+      },
+      {
+            "question": "Who invested in vlayer?",
+            "answer": "vlayer raised $10 Million in seed funding led by a16z crypto, with participation from BlockTower Capital and Credibly Neutral."
+      },
+      {
+            "question": "What is vlayer Time Travel?",
+            "answer": "Time Travel allows smart contracts to trustlessly query any past state of Ethereum or other blockchains without storing expensive historical data on-chain."
+      },
+      {
+            "question": "How do zk-TLS Web Proofs work on vlayer?",
+            "answer": "zk-TLS creates a cryptographic proof that data from a secure HTTPS website is authentic without revealing the users sensitive private information."
+      },
+      {
+            "question": "Is vlayer intended only for developers?",
+            "answer": "While primarily a developer infrastructure layer, community members can interact with demo applications, test proofs, and participate in testnet campaigns."
+      },
+      {
+            "question": "What will be the utility of the future vlayer token?",
+            "answer": "The token will be used to pay for ZK proof generation, stake for prover nodes, and govern protocol upgrades."
+      }
+]
+  }
 ];

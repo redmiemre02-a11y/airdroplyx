@@ -1,13 +1,12 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" fill="none">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
   <defs>
-    <linearGradient id="debGrad" x1="20" y1="20" x2="108" y2="108" gradientUnits="userSpaceOnUse">
-      <stop offset="0%" stop-color="#EC4899" />
-      <stop offset="50%" stop-color="#A855F7" />
-      <stop offset="100%" stop-color="#6366F1" />
+    <linearGradient id="debridgeGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#A855F7" />
+      <stop offset="50%" stop-color="#6366F1" />
+      <stop offset="100%" stop-color="#06B6D4" />
     </linearGradient>
   </defs>
-  <rect width="128" height="128" rx="28" fill="#0D0714" />
-  <path d="M30 84C30 84 46 44 64 44C82 44 98 84 98 84" stroke="url(#debGrad)" stroke-width="8" stroke-linecap="round" fill="none" />
-  <line x1="26" y1="88" x2="102" y2="88" stroke="url(#debGrad)" stroke-width="5" stroke-linecap="round" />
-  <circle cx="64" cy="44" r="7" fill="#F472B6" />
+  <rect width="128" height="128" rx="28" fill="#090A1A" />
+  <circle cx="64" cy="64" r="42" fill="none" stroke="url(#debridgeGrad)" stroke-width="4" />
+  <path d="M42 42 L64 64 L42 86 M64 42 L86 64 L64 86" stroke="url(#debridgeGrad)" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" fill="none" />
 </svg>

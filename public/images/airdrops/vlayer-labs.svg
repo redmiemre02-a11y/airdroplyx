@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
+  <defs>
+    <linearGradient id="vlayerGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#8B5CF6" />
+      <stop offset="50%" stop-color="#EC4899" />
+      <stop offset="100%" stop-color="#F43F5E" />
+    </linearGradient>
+  </defs>
+  <rect width="128" height="128" rx="28" fill="#120A1C" />
+  <polygon points="64,28 100,50 100,86 64,106 28,86 28,50" fill="none" stroke="url(#vlayerGrad)" stroke-width="4" />
+  <path d="M48 46 L 64 82 L 80 46" stroke="#FFFFFF" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" fill="none" />
+</svg>

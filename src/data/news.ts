@@ -57,7 +57,7 @@ Historically, foundation-level testnet contributors and developers who provide b
     category: 'Breaking',
     image: 'https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=1200&q=80',
     tags: ['Starknet', 'STRK', 'DeFi Spring', 'ZK-Rollup', 'Cairo'],
-    relatedAirdropId: 'starknet',
+    relatedAirdropId: 'linea',
     content: `The Starknet Foundation has announced an aggressive expansion of its flagship 'DeFi Spring' liquidity incentive initiative, directing millions of $STRK tokens directly to active liquidity providers and borrowers across the network.
 
 Key beneficiaries of the latest allocation round include Ekubo (Starknet's dominant concentrated AMM), AVNU DEX aggregator, and Nostra money market. Users supplying stablecoins and liquid staking assets into qualifying pools receive dual yields—earning standard protocol APR alongside direct, bi-weekly STRK claims.
@@ -108,7 +108,7 @@ Meanwhile, Karak Network has deployed universal restaking across Arbitrum, Optim
     category: 'Governance',
     image: 'https://images.unsplash.com/photo-1639762681485-074b7f938ba0?w=1200&q=80',
     tags: ['Solana', 'Jupiter', 'Drift', 'Sanctum', 'ASR'],
-    relatedAirdropId: 'jupiter',
+    relatedAirdropId: 'kamino-finance',
     content: `The Solana ecosystem has completely transformed airdrop tokenomics by shifting away from one-off dilutive distributions toward multi-year retention and governance flywheels. Spearheaded by Jupiter Exchange's Active Staking Rewards (ASR) program, staked $JUP voters receive quarterly token drops funded by launchpad partners and protocol fees.
 
 Similarly, Drift Protocol has commenced its Drift Fuel and Season 2 rewards, incentivizing perpetual futures trading volume, borrowing activity, and market-making liquidity with seasonal distributions. Sanctum has unified Solana's liquid staking market, issuing CLOUD tokens to users who create custom Wonderland profiles and hold diversified LSTs.
@@ -217,5 +217,74 @@ As Babylon's cryptographic finality providers begin actively securing sovereign 
 Designed to eliminate Web3 friction for mainstream users, AGW integrates native account abstraction, biometric passkey authentication, and cross-application session keys. Users can interact with decentralized games, social platforms, and NFT marketplaces without signing repetitive transaction popups or managing cryptographic seed phrases.
 
 Community excitement is surging as early testnet participants complete interactive quests on the Abstract testnet, minting commemorative digital artifacts and testing consumer dApps. With Pudgy Penguins establishing the premier brand in Web3 cultural IP, the ecosystem's upcoming token incentives and loyalty distributions represent one of the most widely anticipated consumer crypto events of 2026.`
+  }
+,
+  {
+    slug: 'morpho-network-cross-chain-vaults-expansion',
+    title: "Morpho Deploys Curated Vaults Across Base & Layer 2s, Expanding DeFi Lending Yields",
+    excerpt: "Morpho Blue permissionless lending architecture crosses $2B in supplied assets as curated institutional vaults go live across Base, Optimism, and Arbitrum.",
+    author: 'Airdroplyx Intel Desk',
+    date: 'October 24, 2026',
+    readTime: '4 min read',
+    category: 'Breaking',
+    image: 'https://images.unsplash.com/photo-1639762681485-074b7f938ba0?w=1200&q=80',
+    tags: ["Morpho","Morpho Blue","DeFi Lending","Base","Layer 2"],
+    relatedAirdropId: 'morpho-blue',
+    content: `Morpho, the decentralized lending primitive engineered by Morpho Labs and backed by over $50 Million from a16z crypto, Variant, and Ribbit Capital, has accelerated its cross-chain footprint by expanding curated Morpho Vaults across Base, Optimism, and Arbitrum. The protocol has officially surpassed $2 Billion in total supplied crypto assets, establishing itself as the premier modular credit layer in Web3.
+
+Unlike monolithic legacy lending markets that force all collateral into single shared risk pools, Morpho Blue operates isolated, immutable lending pairs with independent risk configurations, customizable loan-to-value ratios, and permissionless oracle choices. Professional risk curators including Re7 Capital, B Protocol, and Steakhouse Financial manage automated vaults that algorithmically optimize lender yields while mitigating liquidation and smart contract risks.
+
+With the expansion across major EVM rollups, decentralized lenders and borrowers supplying blue-chip collateral (such as USDC, cbBTC, and wstETH) are earning optimized base APYs alongside protocol reward incentives. Morpho DAO continues to decentralize governance, with community members tracking prospective secondary incentives and cross-chain ecosystem emissions.`
+  },
+  {
+    slug: 'debridge-dbr-governance-staking-cross-chain-rewards',
+    title: "deBridge Unveils DBR Staking Framework & Real-Time Cross-Chain Value Accrual",
+    excerpt: "High-speed intent bridge deBridge activates DBR governance staking portal, routing 100% of bridge fee revenues to active DAO stakers and cross-chain power users.",
+    author: 'Airdroplyx Alpha Desk',
+    date: 'October 24, 2026',
+    readTime: '5 min read',
+    category: 'Governance',
+    image: 'https://images.unsplash.com/photo-1642543492481-44e81e3914a7?w=1200&q=80',
+    tags: ["deBridge","DBR","Cross-Chain","Staking","Solana","Arbitrum"],
+    relatedAirdropId: 'pendle-finance',
+    content: `Following one of the most successful cross-chain token launches of 2026, deBridge has formally launched its decentralized governance staking framework for the native $DBR token. Designed to power the deBridge cross-chain intent engine without relying on locked liquidity pools, deBridge has processed tens of billions in volume across Solana, Ethereum, Arbitrum, Base, and BNB Chain.
+
+Under the newly initialized staking architecture, holders of DBR who lock tokens into the deBridge governance module receive a pro-rata share of protocol fees generated by cross-chain order settlements. In addition to staking yields, participants gain voting power to direct deBridge liquidity routing parameters, validate new blockchain integrations, and approve community developer grant allocations.
+
+Protocol metrics indicate that deBridge's 0-TVL architecture achieves sub-second execution speeds, protecting transactions from MEV slippage and traditional bridge hack vulnerabilities. Cross-chain traders utilizing the deBridge portal and integrated aggregators continue to accumulate verified on-chain loyalty status for recurring ecosystem reward cycles.`
+  },
+  {
+    slug: 'sanctum-cloud-season-two-wonderland-expansion',
+    title: "Sanctum Wonderland Season 2 Commences with Dynamic LST Multipliers & CLOUD Governance",
+    excerpt: "Sanctum expands Solana liquid staking unification with Wonderland Season 2, introducing pet evolution mechanics, LST depth multipliers, and CLOUD staking utility.",
+    author: 'Airdroplyx Research Team',
+    date: 'October 24, 2026',
+    readTime: '4 min read',
+    category: 'Alpha Intel',
+    image: 'https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=1200&q=80',
+    tags: ["Sanctum","CLOUD","Solana","LST","Liquid Staking"],
+    relatedAirdropId: 'solayer-labs',
+    content: `Sanctum, the foundational liquidity engine that unified Solana's liquid staking token (LST) market, has launched Season 2 of its celebrated 'Wonderland' engagement initiative. Backed by Dragonfly Capital, Solana Ventures, and CMS Holdings, Sanctum enables any validator or community to launch custom, zero-friction liquid staking tokens backed by a shared multi-million dollar liquidity reserve.
+
+Wonderland Season 2 introduces enhanced gamification and on-chain loyalty tracking: participants level up customized digital pets (Pets of Wonderland) by holding diversified Solana LSTs, deploying assets into Kamino liquidity vaults, or routing trades through Sanctum's Infinity pool. Higher pet experience levels unlock compounding loyalty point multipliers and exclusive governance perks.
+
+With the native $CLOUD token empowering decentralized community curation over validator allocations and Infinity pool parameters, active Solana stakers are leveraging Sanctum to maximize staking yields while maintaining full instant liquidity across the Solana DeFi matrix.`
+  },
+  {
+    slug: 'bitlayer-mining-gala-mainnet-surge-bitvm',
+    title: "Bitlayer Surpasses $300M TVL as Mining Gala Phase 3 Accelerates Bitcoin L2 Onboarding",
+    excerpt: "Polychain and Franklin Templeton backed Bitlayer records rapid liquidity growth as Mining Gala Season 3 drives BitVM developer testing and Bitcoin yield farming.",
+    author: 'Airdroplyx Intel Desk',
+    date: 'October 24, 2026',
+    readTime: '5 min read',
+    category: 'Breaking',
+    image: 'https://images.unsplash.com/photo-1620321023374-d1a68fbc720d?w=1200&q=80',
+    tags: ["Bitlayer","Bitcoin L2","BitVM","Mining Gala","BTR"],
+    relatedAirdropId: 'bitlayer-labs',
+    content: `Bitlayer, the first Bitcoin Layer 2 network based on the BitVM cryptographic paradigm, has crossed $300 Million in total value locked as its flagship 'Mining Gala Phase 3' ecosystem rewards campaign reaches peak participation. Bitlayer secured $16 Million in Series A funding led by Polychain Capital and Franklin Templeton, solidifying its position as a frontrunner in Bitcoin-native scalability.
+
+The network combines full Ethereum Virtual Machine (EVM) smart contract execution with optimistic Bitcoin fraud-proof verification. Developers can deploy complex DeFi primitives—including automated market makers, Bitcoin liquid restaking markets, and cross-chain bridges—denominated natively in BTC with sub-second block times and minimal transaction fees.
+
+During Mining Gala Phase 3, users bridging Bitcoin and deploying capital across verified ecosystem dApps (such as Macaron DEX and BitSmiley) accumulate Bitlayer Points and official ecosystem badges. Foundation contributors emphasized that cumulative points, on-chain transaction frequency, and early BitVM testnet validations remain foundational criteria for the upcoming BTR governance token distribution.`
   }
 ];

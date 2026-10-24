@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
+  <defs>
+    <linearGradient id="bitlayerGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F59E0B" />
+      <stop offset="50%" stop-color="#EA580C" />
+      <stop offset="100%" stop-color="#B45309" />
+    </linearGradient>
+  </defs>
+  <rect width="128" height="128" rx="28" fill="#181102" />
+  <polygon points="64,28 98,48 98,84 64,104 30,84 30,48" fill="none" stroke="url(#bitlayerGrad)" stroke-width="4" />
+  <path d="M52 46 V 82 H 68 C 76 82, 80 76, 80 70 C 80 66, 76 63, 70 63 C 74 63, 78 60, 78 55 C 78 50, 74 46, 66 46 Z" fill="url(#bitlayerGrad)" />
+</svg>
