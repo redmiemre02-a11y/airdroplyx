@@ -137,13 +137,24 @@ const relatedAirdrop = article.relatedAirdropId ? airdrops.find(a => a.id === ar
     </article>
 
     <!-- Tags -->
-    <div class="flex flex-wrap items-center gap-2 pt-6 border-t border-slate-200 dark:border-slate-800 mb-12">
+    <div class="flex flex-wrap items-center gap-2 pt-6 border-t border-slate-200 dark:border-slate-800 mb-8">
       <span class="text-xs font-bold uppercase tracking-wider text-slate-400 mr-2">Tags:</span>
       {article.tags.map(tag => (
         <span class="text-xs font-semibold bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 px-3 py-1.5 rounded-xl border border-slate-200/60 dark:border-slate-700/60">
           #{tag}
         </span>
       ))}
+    </div>
+
+    <!-- Editorial & Regulatory News Disclaimer -->
+    <div class="p-6 rounded-2xl bg-slate-50 dark:bg-slate-800/60 border border-slate-200 dark:border-slate-700/80 mb-12">
+      <div class="flex items-start gap-3">
+        <span class="text-xl">⚖️</span>
+        <div class="text-xs text-slate-500 dark:text-slate-400 space-y-1 leading-relaxed">
+          <p><strong class="text-slate-700 dark:text-slate-300">Editorial Disclaimer:</strong> This news report is published strictly for objective industry monitoring and informational research purposes. None of the token developments, testnet announcements, or protocol metrics mentioned constitute investment, legal, or financial advice.</p>
+          <p>Airdroplyx is an independent aggregator and does not guarantee airdrop allocations or token values. Cryptocurrency transactions carry technical and market risks. Always DYOR. <a href="/disclaimer" class="underline text-blue-600 dark:text-blue-400 font-medium">Read our full Risk Disclaimer &rarr;</a></p>
+        </div>
+      </div>
     </div>
 
     <!-- High-Converting Related Airdrop Internal Link Banner -->

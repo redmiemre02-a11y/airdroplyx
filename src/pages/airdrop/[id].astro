@@ -247,6 +247,24 @@ const relatedAirdrops = airdrops.filter(a => a.id !== airdrop.id).slice(0, 3);
           </section>
         )}
 
+        <!-- Important Risk Disclaimer & DYOR Warning -->
+        <section class="bg-amber-50/70 dark:bg-amber-950/20 border border-amber-200/80 dark:border-amber-900/40 rounded-3xl p-6 md:p-8 shadow-sm">
+          <div class="flex items-start gap-4">
+            <span class="text-3xl shrink-0">⚠️</span>
+            <div class="space-y-2">
+              <h3 class="text-base md:text-lg font-black text-amber-900 dark:text-amber-200 uppercase tracking-wide">
+                Important Disclaimer: Not Financial Advice
+              </h3>
+              <p class="text-xs sm:text-sm text-amber-900/90 dark:text-amber-300 leading-relaxed font-normal">
+                This guide for <strong>{airdrop.name}</strong> is published strictly for educational and informational research purposes. Airdrop participation, testnet tasks, and smart contract interactions involve technical and financial risks. <strong>Airdroplyx does not provide investment, legal, or financial advice</strong> and cannot guarantee token allocations, eligibility, or future monetary value.
+              </p>
+              <p class="text-xs text-amber-800 dark:text-amber-400 font-medium pt-1">
+                Always conduct your own due diligence (DYOR), use a dedicated burner wallet with zero primary funds, and never share your seed phrase. <a href="/disclaimer" class="underline font-bold hover:text-amber-600 dark:hover:text-amber-200">Read our full Risk Disclaimer &rarr;</a>
+              </p>
+            </div>
+          </div>
+        </section>
+
       </div>
 
       <!-- Sidebar -->

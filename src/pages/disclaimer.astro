@@ -1,0 +1,93 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Header from '../components/Header.astro';
+---
+
+<Layout 
+  title="Risk Disclaimer & Financial Disclosure | Airdroplyx" 
+  description="Important risk disclosure, non-financial advice statement, and security warnings for users of Airdroplyx."
+>
+  <Header />
+  <main class="max-w-[850px] mx-auto px-4 py-16">
+    <div class="bg-white dark:bg-slate-800 rounded-3xl p-8 md:p-12 border border-slate-200 dark:border-slate-700 shadow-sm prose prose-slate dark:prose-invert max-w-none">
+      
+      <div class="flex items-center gap-2 mb-4 not-prose">
+        <span class="bg-amber-100 text-amber-800 dark:bg-amber-900/40 dark:text-amber-300 text-xs font-black px-3 py-1 rounded-full uppercase tracking-wider">
+          Legal & Compliance
+        </span>
+        <span class="text-xs text-slate-400 font-medium">Last Updated: October 2026</span>
+      </div>
+
+      <h1 class="text-3xl md:text-4xl font-black text-slate-900 dark:text-white mb-4">
+        Risk Disclaimer & Non-Financial Advice
+      </h1>
+      
+      <div class="p-5 rounded-2xl bg-amber-50 dark:bg-amber-950/30 border border-amber-200 dark:border-amber-900/40 not-prose mb-8">
+        <div class="flex items-start gap-3">
+          <span class="text-2xl">⚠️</span>
+          <div>
+            <h3 class="text-sm font-bold text-amber-900 dark:text-amber-200 uppercase tracking-wide mb-1">
+              Important Summary
+            </h3>
+            <p class="text-xs sm:text-sm text-amber-800 dark:text-amber-300 leading-relaxed font-medium">
+              Airdroplyx is an independent educational and research aggregator. All content, guides, news, and valuations published on this website are provided strictly for informational and educational purposes. <strong>Nothing on this site constitutes financial, investment, trading, or legal advice.</strong>
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <h2>1. Not Financial or Investment Advice</h2>
+      <p>
+        The information provided on <strong>Airdroplyx</strong> (<a href="https://airdroplyx.com">https://airdroplyx.com</a>) does not constitute investment advice, financial advice, trading advice, or any other sort of advice, and you should not treat any of the website's content as such. Airdroplyx does not recommend that any cryptocurrency, token, NFT, or protocol should be bought, sold, or held by you.
+      </p>
+      <p>
+        Do conduct your own due diligence (DYOR - Do Your Own Research) and consult your licensed financial advisor before making any investment or interacting with on-chain protocols.
+      </p>
+
+      <h2>2. Nature of Airdrops & Protocol Participation</h2>
+      <p>
+        Participating in cryptocurrency airdrops, testnets, liquidity staking, and yield farming carries inherent risks:
+      </p>
+      <ul>
+        <li><strong>No Guarantee of Rewards:</strong> Protocol foundations retain 100% discretion over snapshot criteria, token distributions, and vesting schedules. Participation in a testnet or mainnet campaign does NOT guarantee an allocation or monetary value.</li>
+        <li><strong>Smart Contract Vulnerabilities:</strong> Interacting with decentralized applications (dApps) exposes assets to code vulnerabilities, hacks, or reentrancy exploits.</li>
+        <li><strong>Gas & Transaction Fees:</strong> Any cryptocurrency spent on transaction fees (gas) across Layer 1 or Layer 2 networks is non-refundable and incurred entirely at your own expense.</li>
+      </ul>
+
+      <h2>3. Wallet Security & Self-Custody</h2>
+      <p>
+        You are solely responsible for safeguarding your Web3 wallet and digital assets. 
+      </p>
+      <ul>
+        <li><strong>Airdroplyx will NEVER ask for your private keys, seed phrases, or wallet passwords.</strong></li>
+        <li>Always use dedicated "burner" wallets with minimal funds when interacting with new or experimental testnet/dApp contracts.</li>
+        <li>Regularly review and revoke smart contract token approvals using reputable tools such as Revoke.cash.</li>
+      </ul>
+
+      <h2>4. Third-Party Websites and External Links</h2>
+      <p>
+        Our platform contains links to external websites, decentralized exchanges, bridge portals, and social media channels operated by third parties. Airdroplyx does not control, endorse, or verify the security, solvency, or operational integrity of any third-party protocol. We are not responsible for any loss of funds or damages resulting from external dApp interactions.
+      </p>
+
+      <h2>5. Editorial Independence & Accuracy of Information</h2>
+      <p>
+        While our research team makes every reasonable effort to keep guides, funding amounts, and campaign dates accurate and up-to-date, blockchain developments move rapidly. Airdroplyx makes no warranties regarding the completeness, reliability, or 100% accuracy of the data. All protocol metrics (TVL, funding, potential reward tier) are estimates based on publicly available data and official disclosures.
+      </p>
+
+      <h2>6. Limitation of Liability</h2>
+      <p>
+        Under no circumstances shall Airdroplyx, its founders, editors, authors, or affiliates be liable for any direct, indirect, incidental, special, or consequential damages resulting from your use of this site, including but not limited to loss of cryptocurrency, impermanent loss, bridge failure, or failed airdrop qualification.
+      </p>
+
+      <div class="mt-12 pt-8 border-t border-slate-200 dark:border-slate-700 not-prose flex flex-col sm:flex-row items-center justify-between gap-4">
+        <a href="/" class="text-sm font-bold text-blue-600 dark:text-blue-400 hover:underline">
+          ← Return to Live Airdrops
+        </a>
+        <a href="/terms-of-service" class="text-sm font-semibold text-slate-500 hover:text-slate-800 dark:hover:text-slate-200">
+          Read Terms of Service →
+        </a>
+      </div>
+
+    </div>
+  </main>
+</Layout>

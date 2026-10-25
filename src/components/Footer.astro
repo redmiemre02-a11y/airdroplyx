@@ -30,17 +30,20 @@ const year = new Date().getFullYear();
         <ul class="flex flex-col gap-2 text-sm text-slate-400">
           <li><a href="/about" class="hover:text-blue-400 transition-colors">About Us</a></li>
           <li><a href="/contact" class="hover:text-blue-400 transition-colors">Contact</a></li>
-          <li><a href="/rss.xml" class="hover:text-blue-400 transition-colors">Airdrops RSS Feed</a></li>
-          <li><a href="/news/rss.xml" class="hover:text-blue-400 transition-colors">News RSS Feed</a></li>
+          <li><a href="/disclaimer" class="hover:text-amber-300 text-amber-400/90 transition-colors font-medium">Risk Disclaimer</a></li>
           <li><a href="/privacy-policy" class="hover:text-blue-400 transition-colors">Privacy Policy</a></li>
           <li><a href="/terms-of-service" class="hover:text-blue-400 transition-colors">Terms of Service</a></li>
+          <li><a href="/rss.xml" class="hover:text-blue-400 transition-colors">Airdrops RSS</a></li>
+          <li><a href="/news/rss.xml" class="hover:text-blue-400 transition-colors">News RSS</a></li>
         </ul>
       </div>
     </div>
     
     <div class="border-t border-slate-800 pt-8 flex flex-col md:flex-row items-center justify-between gap-4 text-xs text-slate-500">
       <p>&copy; {year} Airdroplyx. All rights reserved.</p>
-      <p>Disclaimer: Information provided is strictly for educational purposes and should not be construed as financial advice.</p>
+      <p class="max-w-xl text-center md:text-right text-slate-400">
+        <strong class="text-slate-300">Disclaimer:</strong> Content on Airdroplyx is strictly for educational & informational research. Nothing herein constitutes financial, investment, or legal advice. Crypto assets & smart contracts carry high risk. Always DYOR. <a href="/disclaimer" class="underline hover:text-amber-400 text-slate-300 font-medium">Read full disclosure &rarr;</a>
+      </p>
     </div>
   </div>
 </footer>
