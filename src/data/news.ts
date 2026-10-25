@@ -476,5 +476,100 @@ During Mining Gala Phase 3, users bridging Bitcoin and deploying capital across 
     ],
     "relatedAirdropId": "morpho",
     "content": "Morpho, the decentralized lending primitive backed by over $50M from a16z crypto and Variant, has surpassed $2.5 Billion in total value locked across its Ethereum and Base deployments, cementing its position as one of the fastest-growing money markets in Web3.\\n\\nUnlike monolithic lending protocols with shared liquidity pools that expose all deposits to systemic contagion from single-asset liquidations, Morpho Blue introduces minimal, immutable, isolated lending markets. Independent risk curators such as Gauntlet, Steakhouse Financial, and Re7 Capital configure custom 'MetaMorpho' vaults, enabling institutional depositors to tailor their collateral risk, oracle parameters, and loan-to-value (LTV) limits with complete transparency.\\n\\nThe rapid expansion of Morpho Blue on Coinbase's Base Layer 2 has democratized access to institutional credit, driving significant yield opportunities for users supplying stablecoins, liquid staked tokens (LSTs), and synthetic Bitcoin assets."
+  },
+  {
+    "slug": "peaq-depin-mainnet-launch-token-distribution",
+    "title": "peaq Launches DePIN Layer 1 Mainnet Powering Over 40 Decentralized Machine Networks",
+    "excerpt": "Backed by $20M+, peaq initiates mainnet genesis, connecting millions of real-world vehicles, sensors, and mobile nodes to Web3 economic rails.",
+    "author": "Airdroplyx Intel Desk",
+    "date": "October 26, 2026",
+    "readTime": "4 min read",
+    "category": "Breaking",
+    "image": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=1200&q=80",
+    "tags": [
+      "peaq",
+      "DePIN",
+      "Machine Economy",
+      "Layer 1",
+      "Mainnet"
+    ],
+    "relatedAirdropId": "peaq-network",
+    "content": "The decentralized physical infrastructure (DePIN) sector has reached a monumental milestone as peaq officially initiates its production Layer 1 mainnet genesis. Supported by more than $20 Million in venture capital led by Generative Ventures and Borderless Capital, peaq establishes the global settlement layer for the emerging machine economy.\n\nOver 40 leading DePIN protocols—spanning decentralized ride-sharing, noise pollution sensing, solar microgrids, and mobile broadband—have integrated peaq native Machine IDs (peaq ID) and automated micropayment channels. The network's high-speed architecture achieves over 10,000 transactions per second with sub-second finality while supporting both Substrate and EVM smart contracts.\n\nGenesis token distributions and staking reward phases have begun onboarding decentralized collators. Community participants running verified hardware nodes and staking native tokens are positioned for ongoing ecosystem incentives across connected machine applications."
+  },
+  {
+    "slug": "orbiter-finance-o-points-season-two-rollout",
+    "title": "Orbiter Finance Expands L2 Settlement Network with O-Points Season 2 Incentives",
+    "excerpt": "Having processed over 25 million cross-rollup transactions, Orbiter Finance upgrades Maker routing algorithms and announces expanded loyalty rewards.",
+    "author": "Airdroplyx Research Team",
+    "date": "October 26, 2026",
+    "readTime": "4 min read",
+    "category": "Alpha Intel",
+    "image": "https://images.unsplash.com/photo-1639762681485-074b7f938ba0?w=1200&q=80",
+    "tags": [
+      "Orbiter Finance",
+      "Layer 2",
+      "Cross-Rollup",
+      "O-Points",
+      "Bridge"
+    ],
+    "relatedAirdropId": "orbiter-finance",
+    "content": "Orbiter Finance, the dominant decentralized cross-rollup bridge for Ethereum scaling networks, has officially launched its O-Points Season 2 campaign alongside significant routing protocol upgrades. Backed by Tiger Global and StarkWare, Orbiter has processed tens of millions of transfers, routing billions in liquidity across 30+ EVM and ZK-rollup chains.\n\nSeason 2 introduces enhanced point multipliers for bridging into emerging modular rollups, including Base, Linea, Scroll, and ZKsync. The protocol's decentralized Maker infrastructure has been upgraded with automated liquidity rebalancing, reducing slippage and ensuring sub-20-second settlement times even during severe market volatility.\n\nWith anticipation mounting around the official $OBT governance token roadmap, cross-chain traders who maintain consistent weekly bridging volumes and complete official Space Quests are actively tracked on the updated VIP leaderboard."
+  },
+  {
+    "slug": "jumper-exchange-lifi-cross-chain-surge",
+    "title": "Jumper Exchange Surpasses Billions in Multi-Chain Volume Driven by LI.FI Router Optimization",
+    "excerpt": "LI.FI consumer flagship Jumper Exchange records unprecedented volume as multi-chain DeFi users embrace unified single-click cross-chain swaps.",
+    "author": "Airdroplyx DeFi Desk",
+    "date": "October 25, 2026",
+    "readTime": "5 min read",
+    "category": "Alpha Intel",
+    "image": "https://images.unsplash.com/photo-1642543492481-44e81e3914a7?w=1200&q=80",
+    "tags": [
+      "Jumper Exchange",
+      "LI.FI",
+      "DEX Aggregator",
+      "Cross-Chain",
+      "Solana"
+    ],
+    "relatedAirdropId": "jumper-exchange",
+    "content": "Jumper Exchange, the multi-chain swap and bridging portal powered by the LI.FI aggregation protocol, has crossed cumulative lifetime volume milestones in the billions, cementing its dominance as Web3's preferred omnichain execution engine. Supported by $23M from CoinFund and Dragonfly Capital, Jumper aggregates over 35 decentralized bridges and DEX protocols into a single, intuitive interface.\n\nThe recent integration of high-speed Solana bridging alongside 25+ EVM networks has driven massive user adoption, allowing traders to swap any token on Ethereum or Base into any Solana asset in a single atomic transaction without manual bridging friction.\n\nThe Jumper Loyalty Program continues to reward organic users with seasonal XP and level badges, providing continuous ecosystem incentives as LI.FI prepares for deeper cross-chain intent protocol decentralization."
+  },
+  {
+    "slug": "shutter-network-shielded-trading-mainnet-integration",
+    "title": "Shutter Network Deploys Threshold Encryption on Gnosis Chain to Eliminate Front-Running Exploits",
+    "excerpt": "Pioneering open-source cryptography firm Shutter activates mempool threshold encryption, shielding retail transactions from predatory MEV bots.",
+    "author": "Airdroplyx Intel Desk",
+    "date": "October 25, 2026",
+    "readTime": "4 min read",
+    "category": "Governance",
+    "image": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=1200&q=80",
+    "tags": [
+      "Shutter Network",
+      "MEV",
+      "Threshold Cryptography",
+      "Gnosis",
+      "Privacy"
+    ],
+    "relatedAirdropId": "shutter-network",
+    "content": "Shutter Network has achieved a major milestone in decentralized finance security with the official mainnet deployment of Shutterized threshold encryption across Gnosis Chain and participating Ethereum Layer 2 rollups. Backed by Gnosis DAO and Brainbot, Shutter introduces cryptographic protection directly at the blockchain mempool level.\n\nMalicious MEV bots extract hundreds of millions annually from everyday traders through front-running, back-running, and sandwich attacks. Shutter resolves this systemic issue by encrypting user transactions before they enter the public transaction pool. Transactions are only decrypted by a decentralized committee of Keyper nodes after they have been permanently locked inside a block, rendering predatory MEV mathematically impossible.\n\nTraders routing swaps through Shutter-protected RPCs and DEXs benefit from guaranteed fair execution. Staking of native $SHU governance tokens has opened, allowing community members to oversee Keyper parameter updates."
+  },
+  {
+    "slug": "turnkey-mpc-institutional-wallet-growth",
+    "title": "Turnkey Powers Institutional Passkey Wallets Across Next-Gen Consumer Web3 Applications",
+    "excerpt": "Backed by $15M from Lightspeed and Variant, Turnkey cryptographic infrastructure drives the mass migration away from vulnerable seed phrases.",
+    "author": "Airdroplyx Research Team",
+    "date": "October 25, 2026",
+    "readTime": "4 min read",
+    "category": "Breaking",
+    "image": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=1200&q=80",
+    "tags": [
+      "Turnkey",
+      "Passkeys",
+      "MPC",
+      "Smart Wallets",
+      "Infrastructure"
+    ],
+    "relatedAirdropId": "turnkey-mpc",
+    "content": "Turnkey, the enterprise-grade non-custodial key management and embedded wallet infrastructure provider backed by $15M from Lightspeed Faction and Variant, has reported exponential growth as major consumer Web3 applications adopt passkey-native onboarding.\n\nTraditional Web3 onboarding requiring 12-word seed phrases has historically caused over 80% user drop-off in retail crypto applications. Turnkey eliminates this barrier by utilizing hardware-isolated security enclaves (AWS Nitro) combined with sub-second multi-party computation (MPC), allowing users to create self-custodial wallets and sign transactions instantly using biometric FaceID and TouchID credentials.\n\nBy ensuring that private keys are never exposed in plaintext to application developers or cloud servers, Turnkey provides enterprise-grade compliance for high-frequency trading dApps, decentralized gaming hubs, and automated DeFi portfolio managers."
   }
 ];

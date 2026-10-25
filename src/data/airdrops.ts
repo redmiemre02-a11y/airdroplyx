@@ -21305,5 +21305,903 @@ export const airdrops: Airdrop[] = [
       "USDC or LUMIA tokens",
       "Web browser"
     ]
+  },
+  {
+    "id": "peaq-network",
+    "name": "peaq",
+    "description": "Premier Layer 1 blockchain purpose-built for Decentralized Physical Infrastructure Networks (DePIN) and Machine RWA economies.",
+    "category": "DePIN",
+    "status": "active",
+    "reward": "$PEAQ Genesis Allocation + Machine Quests",
+    "funding": "$20M+",
+    "investors": "Generative Ventures, Borderless Capital, Spartan Group, Animoca",
+    "stage": "Mainnet Genesis",
+    "difficulty": "Easy",
+    "estimatedTime": "10 mins",
+    "featured": true,
+    "logo": "/images/airdrops/peaq-network.svg",
+    "steps": [
+      "Connect Web3 wallet (Substrate or EVM) to the <strong>peaq Portal</strong>.",
+      "Explore and bind connected DePIN hardware devices (Silencio, MapMetrics, Roam).",
+      "Bridge test or mainnet assets and stake with decentralized peaq collators.",
+      "Participate in peaq ecosystem quests and claim verifiable Machine ID credentials."
+    ],
+    "overview": "peaq is the foundational Layer 1 blockchain designed specifically for Decentralized Physical Infrastructure Networks (DePIN) and Machine RWAs. Supported by over $20M in venture funding led by Generative Ventures and Borderless Capital, peaq hosts over 40 DePIN projects across 20 industries, powering millions of connected vehicles, environmental sensors, and mobile broadband nodes.\n\nWith multi-chain Machine IDs (peaq ID), decentralized data verification, and micro-payment routing, peaq provides the operational backbone for the machine economy, scaling to over 10,000 TPS with sub-second finality.",
+    "strategy": "Connect to the peaq ecosystem portal, delegate native tokens to active collator nodes, and link active DePIN applications (like Silencio or Roam) to your address. Maintaining continuous machine telemetry or liquidity provision maximizes allocation tiers.",
+    "tokenomics": "The $PEAQ token powers network gas fees, collator staking security, machine identity registration, and decentralized governance.",
+    "sybilSafety": "Binding a physical DePIN hardware device or verified mobile node to your peaq account provides absolute cryptographic immunity against Sybil blacklists.",
+    "faqs": [
+      {
+        "question": "Does peaq support EVM wallets?",
+        "answer": "Yes, peaq features full EVM compatibility, allowing users to connect using standard MetaMask or Rabby wallets alongside native Substrate clients."
+      }
+    ],
+    "requirements": [
+      "EVM or Substrate Wallet",
+      "peaq tokens / faucet",
+      "Web browser"
+    ]
+  },
+  {
+    "id": "privado-id",
+    "name": "Privado ID",
+    "description": "Polygon-incubated decentralized zero-knowledge identity and proof-of-humanity verification protocol.",
+    "category": "Identity",
+    "status": "active",
+    "reward": "$PRIVADO Token + ZK Credential Badges",
+    "funding": "$10M+ Ecosystem",
+    "investors": "Polygon Labs, Animoca Brands, Framework Ventures",
+    "stage": "Mainnet Verifications",
+    "difficulty": "Easy",
+    "estimatedTime": "10 mins",
+    "featured": false,
+    "logo": "/images/airdrops/privado-id.svg",
+    "steps": [
+      "Download the <strong>Privado ID Mobile App</strong> or connect browser extension.",
+      "Issue self-sovereign zero-knowledge credentials verifying KYC or Gitcoin Passport score.",
+      "Verify on-chain credentials on partner dApps without exposing personal data.",
+      "Participate in Privado ID community governance and developer test campaigns."
+    ],
+    "overview": "Privado ID (formerly Polygon ID) is a leading open-source decentralized identity framework utilizing zero-knowledge cryptography (ZK-SNARKs). Privado ID allows individuals to issue, hold, and verify verifiable credentials—such as age verification, financial accreditation, or Sybil resistance—without disclosing underlying sensitive identity data.",
+    "strategy": "Generate ZK credentials in the Privado ID app, complete on-chain identity verifications for partner rollups, and claim ecosystem badges.",
+    "tokenomics": "The upcoming Privado ID token will incentivize credential issuers, verify decentralized identity schemas, and coordinate network governance.",
+    "sybilSafety": "Holding verified Privado ID credentials directly certifies your wallet as an authentic human participant across dozens of Web3 protocols.",
+    "faqs": [
+      {
+        "question": "Does Privado ID expose my personal identity on-chain?",
+        "answer": "No, zero-knowledge proofs mathematically confirm you meet specific criteria without revealing your name, address, or personal documents."
+      }
+    ],
+    "requirements": [
+      "Privado ID mobile app",
+      "Web3 EVM Wallet",
+      "Smartphone"
+    ]
+  },
+  {
+    "id": "nodle-network",
+    "name": "Nodle",
+    "description": "DePIN smartphone mesh network on zkSync Era connecting billions of IoT devices via Bluetooth Low Energy (BLE).",
+    "category": "DePIN",
+    "status": "active",
+    "reward": "$NODL Rewards + Click Camera Verifications",
+    "funding": "$8M+",
+    "investors": "Blockchain.com Ventures, Blockchange, Mechanism Capital",
+    "stage": "zkSync Era Migration",
+    "difficulty": "Easy",
+    "estimatedTime": "5 mins",
+    "featured": false,
+    "logo": "/images/airdrops/nodle-network.svg",
+    "steps": [
+      "Download the <strong>Nodle App</strong> from iOS App Store or Google Play.",
+      "Enable Bluetooth Low Energy (BLE) background location permissions.",
+      "Earn passive $NODL tokens as your smartphone securely verifies nearby IoT beacons.",
+      "Test the <strong>Click</strong> digital trust camera app to mint verifiable Content Credentials on zkSync."
+    ],
+    "overview": "Nodle is a decentralized IoT physical infrastructure network that harnesses the crowd-powered connectivity of millions of smartphones. Having migrated to the zkSync Era ZK Stack hyperchain, Nodle turns everyday mobile devices into decentralized Bluetooth nodes that locate assets, verify environmental sensors, and prove media authenticity through its Click protocol.",
+    "strategy": "Install the Nodle app on your primary mobile device, keep background scanning enabled, and mint media attestations via the Click camera app on zkSync Era.",
+    "tokenomics": "The $NODL token compensates mobile node operators for providing bandwidth and data routing for enterprise IoT clients.",
+    "sybilSafety": "Mobile telemetry and hardware device attestation make Nodle farming completely Sybil-resistant.",
+    "faqs": [
+      {
+        "question": "Does running Nodle drain phone battery?",
+        "answer": "Nodle utilizes Bluetooth Low Energy (BLE), which consumes less than 1-2% of standard daily smartphone battery life."
+      }
+    ],
+    "requirements": [
+      "iOS or Android smartphone",
+      "Bluetooth connection",
+      "zkSync EVM wallet"
+    ]
+  },
+  {
+    "id": "orbiter-finance",
+    "name": "Orbiter Finance",
+    "description": "Dominant decentralized cross-rollup bridge for Ethereum Layer 2s and ZK hyperchains with automated O-Points loyalty rewards.",
+    "category": "Interoperability",
+    "status": "active",
+    "reward": "$OBT Token Allocation + O-Points Season 2",
+    "funding": "$3.2M+",
+    "investors": "Tiger Global, Matrixport, StarkWare, Mirana Ventures",
+    "stage": "Mainnet Bridge + Points",
+    "difficulty": "Easy",
+    "estimatedTime": "5 mins",
+    "featured": true,
+    "logo": "/images/airdrops/orbiter-finance.svg",
+    "steps": [
+      "Access the <strong>Orbiter Finance Bridge</strong> portal.",
+      "Bridge ETH, USDC, or USDT between Ethereum Layer 2s (Arbitrum, Optimism, Base, Linea, Scroll).",
+      "Verify accumulated <strong>O-Points</strong> on the Orbiter VIP profile dashboard.",
+      "Participate in Orbiter Space Quests and cross-chain ecosystem campaigns."
+    ],
+    "overview": "Orbiter Finance is the preeminent decentralized cross-rollup bridge, having processed over 25 million transactions across Ethereum Layer 2 and Layer 3 rollups. Utilizing a decentralized Maker model and cryptographic fraud proofs, Orbiter delivers near-instant, low-cost asset transfers across 30+ EVM and ZK-rollup networks.",
+    "strategy": "Maintain regular bridging volume across major Layer 2 networks, prioritize bridging to newer chains (Linea, Scroll, Base), and stack O-Points through quest achievements.",
+    "tokenomics": "The native Orbiter token $OBT will decentralize the Maker network, subsidize bridge liquidity, and provide protocol governance weight.",
+    "sybilSafety": "Executing natural bridging transfers of varying amounts across multiple weeks avoids Sybil clustering algorithms.",
+    "faqs": [
+      {
+        "question": "How fast are transfers on Orbiter Finance?",
+        "answer": "Transfers typically settle within 10 to 30 seconds as Orbiter utilizes dedicated decentralized Makers rather than slow multi-hour rollup exits."
+      }
+    ],
+    "requirements": [
+      "EVM Wallet (MetaMask/Rabby)",
+      "Crypto assets on any L2",
+      "Web browser"
+    ]
+  },
+  {
+    "id": "owlto-finance",
+    "name": "Owlto Finance",
+    "description": "AI-powered modular cross-rollup bridge supporting 50+ blockchains with daily check-in points and referral multiplier perks.",
+    "category": "Interoperability",
+    "status": "active",
+    "reward": "$OWLTO Token + Bridge Points",
+    "funding": "$8M",
+    "investors": "Bixin Ventures, CE Innovation Capital, Presto Labs",
+    "stage": "Mainnet Live",
+    "difficulty": "Easy",
+    "estimatedTime": "5 mins",
+    "featured": false,
+    "logo": "/images/airdrops/owlto-finance.svg",
+    "steps": [
+      "Connect Web3 wallet to <strong>Owlto Finance</strong>.",
+      "Complete the daily on-chain check-in to build a consecutive streak.",
+      "Execute low-fee bridge transfers between Ethereum L2s, Bitcoin L2s, and Solana.",
+      "Earn bonus points by participating in Owlto partner ecosystem campaigns."
+    ],
+    "overview": "Owlto Finance is an AI-powered cross-rollup bridge designed for extreme speed and low fees across Ethereum L2s, Bitcoin Layer 2s, and modular rollups. Backed by $8M in venture funding, Owlto automates route selection and slippage optimization across over 50 interconnected chains.",
+    "strategy": "Complete daily check-ins on low-fee rollups (Base, Arbitrum) and execute weekly bridge transactions to climb the Owlto Points leaderboard.",
+    "tokenomics": "The $OWLTO token will provide fee rebates, incentivize liquidity makers, and grant governance over network routing parameters.",
+    "sybilSafety": "Consistent multi-week bridging history and daily check-in streaks establish clear organic wallet behavior.",
+    "faqs": [
+      {
+        "question": "Which networks does Owlto Finance support?",
+        "answer": "Owlto supports over 50 networks including Arbitrum, Optimism, Base, Linea, Scroll, Blast, ZKsync, and Bitcoin L2s like Merlin and Bitlayer."
+      }
+    ],
+    "requirements": [
+      "EVM Wallet",
+      "Small amount of ETH/stablecoins for gas",
+      "Web browser"
+    ]
+  },
+  {
+    "id": "jumper-exchange",
+    "name": "Jumper Exchange",
+    "description": "LI.FI flagship multi-chain liquidity aggregation platform combining DEX swaps and cross-chain bridges into a single click.",
+    "category": "Interoperability",
+    "status": "active",
+    "reward": "$LIFI / Jumper Loyalty XP + Level Badges",
+    "funding": "$23M (LI.FI)",
+    "investors": "CoinFund, Superscrypt, Dragonfly Capital, 1kx",
+    "stage": "Jumper Loyalty Season",
+    "difficulty": "Easy",
+    "estimatedTime": "10 mins",
+    "featured": true,
+    "logo": "/images/airdrops/jumper-exchange.svg",
+    "steps": [
+      "Access <strong>Jumper Exchange</strong> powered by LI.FI.",
+      "Execute cross-chain swaps and single-chain DEX trades across 25+ EVM networks and Solana.",
+      "Connect your profile to track <strong>Jumper Loyalty XP</strong> and claim achievement badges.",
+      "Participate in Jumper Learn quests to earn bonus XP allocations."
+    ],
+    "overview": "Jumper Exchange is the consumer-facing flagship application powered by LI.FI, the premier multi-chain liquidity aggregation protocol. Supported by $23M from CoinFund and Dragonfly Capital, Jumper scans over 35 bridges and DEX aggregators to route cross-chain swaps with optimal pricing, minimal slippage, and unified gas execution.",
+    "strategy": "Use Jumper Exchange as your default cross-chain bridge and DEX router. Accumulate Jumper XP by completing weekly trades, exploring partner chains, and leveling up your user badge.",
+    "tokenomics": "The underlying LI.FI protocol token will govern cross-chain routing algorithms, reward relayers, and incentivize decentralized liquidity hubs.",
+    "sybilSafety": "Consistently using Jumper for organic portfolio rebalancing over months eliminates Sybil flags.",
+    "faqs": [
+      {
+        "question": "Does Jumper charge additional fees?",
+        "answer": "Jumper charges zero additional platform fees on standard routing, aggregating native DEX and bridge rates transparently."
+      }
+    ],
+    "requirements": [
+      "EVM or Solana Wallet",
+      "Crypto funds for swapping",
+      "Web browser"
+    ]
+  },
+  {
+    "id": "bungee-socket",
+    "name": "Bungee",
+    "description": "Socket-powered liquidity routing protocol featuring cross-chain bridge aggregation and instant Refuel gas distribution.",
+    "category": "Interoperability",
+    "status": "active",
+    "reward": "$SOCKET Governance + Bungee Loyalty",
+    "funding": "$12M (Socket)",
+    "investors": "Coinbase Ventures, Framework Ventures, Mark Cuban",
+    "stage": "Mainnet Bridge",
+    "difficulty": "Easy",
+    "estimatedTime": "10 mins",
+    "featured": false,
+    "logo": "/images/airdrops/bungee-socket.svg",
+    "steps": [
+      "Connect Web3 wallet to <strong>Bungee Exchange</strong>.",
+      "Use the <strong>Refuel</strong> feature to convert gas tokens from one chain into native gas on another.",
+      "Execute cross-chain token transfers comparing optimal bridge routes.",
+      "Complete Socket Protocol ecosystem quests and maintain active bridging volume."
+    ],
+    "overview": "Bungee is the premier bridge aggregator engineered by the Socket team, backed by $12M from Coinbase Ventures and Framework Ventures. Bungee intelligently identifies the cheapest and fastest bridging routes across Ethereum, Arbitrum, Optimism, Polygon, and Base, while its Refuel tool solves the universal problem of landing on a new chain without gas.",
+    "strategy": "Utilize Bungee for regular cross-chain asset rebalancing and use Refuel whenever exploring new Layer 2 chains to establish activity on Socket Protocol contracts.",
+    "tokenomics": "The $SOCKET token will govern the Socket liquidity layer, sequence cross-chain intent transactions, and distribute network fee revenues.",
+    "sybilSafety": "Using Refuel in conjunction with meaningful trade volume demonstrates genuine utility and bypasses bot detection.",
+    "faqs": [
+      {
+        "question": "What is Bungee Refuel?",
+        "answer": "Refuel allows you to pay gas on Chain A and receive native gas tokens on Chain B in a single quick transaction."
+      }
+    ],
+    "requirements": [
+      "EVM Wallet",
+      "Gas tokens on any EVM chain",
+      "Web browser"
+    ]
+  },
+  {
+    "id": "axelar-network",
+    "name": "Axelar",
+    "description": "$60M+ venture backed interchain communication and cross-chain General Message Passing (GMP) network connecting 60+ chains.",
+    "category": "Interoperability",
+    "status": "active",
+    "reward": "$AXL Staking APR + Ecosystem Incentives",
+    "funding": "$60M+",
+    "investors": "Polychain Capital, Dragonfly Capital, Binance Labs, Coinbase Ventures",
+    "stage": "Mainnet General Message Passing",
+    "difficulty": "Medium",
+    "estimatedTime": "15 mins",
+    "featured": false,
+    "logo": "/images/airdrops/axelar-network.svg",
+    "steps": [
+      "Acquire and stake native <strong>$AXL</strong> tokens on Cosmos Hub or Keplr wallet.",
+      "Use Axelar-powered dApps (Squid Router, Satellite) for cross-chain token swaps.",
+      "Participate in Axelar Interchain Token Service (ITS) deployments.",
+      "Vote on active Axelar governance proposals on Keplr or Mintscan."
+    ],
+    "overview": "Axelar is a secure cross-chain communication network connecting over 60 EVM, Cosmos, and non-EVM blockchains. Utilizing Proof-of-Stake consensus with multi-party cryptography, Axelar General Message Passing (GMP) enables developers to build 1-click omnichain dApps where users interact with contracts across multiple chains simultaneously.",
+    "strategy": "Stake AXL tokens with decentralized validators, bridge assets across Satellite and Squid, and participate in ecosystem governance votes.",
+    "tokenomics": "The $AXL token secures Proof-of-Stake validator consensus, pays for cross-chain message execution, and provides governance weight.",
+    "sybilSafety": "On-chain staking and long-term validator delegation provide verified proof of legitimate ownership.",
+    "faqs": [
+      {
+        "question": "How is Axelar secured?",
+        "answer": "Axelar is secured by a decentralized Proof-of-Stake validator set running multi-party computation (MPC) threshold cryptography."
+      }
+    ],
+    "requirements": [
+      "Keplr / EVM Wallet",
+      "AXL tokens",
+      "Web browser"
+    ]
+  },
+  {
+    "id": "squid-router",
+    "name": "Squid Router",
+    "description": "Cross-chain liquidity router powered by Axelar, enabling 1-click token swaps and contract calls across 70+ blockchains.",
+    "category": "Interoperability",
+    "status": "active",
+    "reward": "$SQUID Token + Axelar Ecosystem Loyalty",
+    "funding": "$7.5M+",
+    "investors": "Polychain Capital, Chapter One, Node Capital",
+    "stage": "Mainnet Router",
+    "difficulty": "Easy",
+    "estimatedTime": "5 mins",
+    "featured": false,
+    "logo": "/images/airdrops/squid-router.svg",
+    "steps": [
+      "Access <strong>Squid Router</strong> dApp portal.",
+      "Execute cross-chain swaps swapping any token on Chain A into any token on Chain B in a single transaction.",
+      "Provide liquidity or explore Squid Boost for sub-20-second cross-chain settlement.",
+      "Participate in Squid community campaigns on Galxe and Zealy."
+    ],
+    "overview": "Squid Router is the cross-chain liquidity and swap engine built directly on Axelar Network. Supported by Polychain Capital, Squid unlocks trustless 1-click cross-chain swaps between thousands of tokens across Ethereum, Solana, Arbitrum, Base, Cosmos, and Avalanche, abstracting bridging and DEX trades into a single transaction.",
+    "strategy": "Use Squid Router regularly for omnichain token swaps, test Squid Boost fast settlement, and link your wallet to official loyalty quests.",
+    "tokenomics": "The upcoming SQUID token will govern router fee tiers, reward Boost liquidity providers, and integrate with Axelar tokenomics.",
+    "sybilSafety": "Organic swap sizes with real capital across diverse chains guarantee high wallet reputation scores.",
+    "faqs": [
+      {
+        "question": "What is Squid Boost?",
+        "answer": "Squid Boost utilizes off-chain intent fulfillment to complete cross-chain swaps in under 20 seconds instead of waiting for standard block finality."
+      }
+    ],
+    "requirements": [
+      "EVM / Cosmos / Solana Wallet",
+      "Crypto funds for swapping",
+      "Web browser"
+    ]
+  },
+  {
+    "id": "stader-labs",
+    "name": "Stader Labs",
+    "description": "$40M+ Pantera and Coinbase backed multichain liquid staking protocol issuing ETHx, MATICx, and BNBx.",
+    "category": "Restaking",
+    "status": "active",
+    "reward": "$SD Staking + ETHx Restaking Yields",
+    "funding": "$40M+",
+    "investors": "Pantera Capital, Coinbase Ventures, Jump Capital, Accel",
+    "stage": "Mainnet Live",
+    "difficulty": "Medium",
+    "estimatedTime": "15 mins",
+    "featured": false,
+    "logo": "/images/airdrops/stader-labs.svg",
+    "steps": [
+      "Connect Web3 wallet to <strong>Stader Labs</strong>.",
+      "Stake ETH to mint liquid staking token <strong>ETHx</strong> with industry-leading low node operator bond.",
+      "Deploy ETHx into DeFi yield strategies on Pendle, Balancer, or restaking protocols.",
+      "Stake native $SD governance tokens to participate in node operator collateralization pools."
+    ],
+    "overview": "Stader Labs is a multichain liquid staking infrastructure protocol managing hundreds of millions in TVL across Ethereum, Polygon, and BNB Chain. Backed by Pantera Capital and Coinbase Ventures, Stader flagship product ETHx democratizes Ethereum validation by requiring only 4 ETH bond per validator node, boosting decentralization.",
+    "strategy": "Mint ETHx on Ethereum mainnet, deploy it into partner liquidity pools (Curve, Balancer), and explore restaking opportunities.",
+    "tokenomics": "The $SD token provides economic bonding for permissionless node operators, fee discounts, and protocol governance.",
+    "sybilSafety": "Holding liquid staked tokens (ETHx) in your wallet or liquidity pools establishes legitimate capital commitment.",
+    "faqs": [
+      {
+        "question": "What is the fee on Stader ETHx?",
+        "answer": "Stader charges an ultra-competitive 10% commission on staking rewards, distributed between node operators and protocol treasury."
+      }
+    ],
+    "requirements": [
+      "EVM Wallet",
+      "ETH or collateral",
+      "Web browser"
+    ]
+  },
+  {
+    "id": "liquid-collective",
+    "name": "Liquid Collective",
+    "description": "Enterprise-grade non-custodial liquid staking standard developed by Alluvial, Coinbase, and Kraken, issuing LsETH.",
+    "category": "Restaking",
+    "status": "active",
+    "reward": "$ALLUVIAL Ecosystem Allocation",
+    "funding": "$18M+",
+    "investors": "Variant, Ethereal Ventures, Brevan Howard, Coinbase Ventures",
+    "stage": "Enterprise Mainnet",
+    "difficulty": "Advanced",
+    "estimatedTime": "15 mins",
+    "featured": false,
+    "logo": "/images/airdrops/liquid-collective.svg",
+    "steps": [
+      "Explore the <strong>Liquid Collective</strong> protocol architecture and dApp integrations.",
+      "Acquire enterprise liquid staking token <strong>LsETH</strong> on secondary DEX markets (Uniswap, Curve).",
+      "Deploy LsETH into institutional DeFi lending markets and yield vaults.",
+      "Participate in Liquid Collective community governance discussions."
+    ],
+    "overview": "Liquid Collective is the first enterprise-grade liquid staking standard, developed by Alluvial alongside Coinbase Cloud, Figment, and Kraken. Engineered to meet institutional regulatory, security, and AML compliance requirements, Liquid Collective issues LsETH backed by enterprise validator infrastructure and multi-provider slashing coverage.",
+    "strategy": "Hold LsETH tokens, provide liquidity into LsETH/ETH pools on Uniswap v3, and explore institutional restaking integrations.",
+    "tokenomics": "The protocol is governed by a decentralized consortium with future governance tokens overseeing validator onboarding and fee parameters.",
+    "sybilSafety": "Holding high-value LST assets like LsETH demonstrates authentic high-tier Web3 capital allocation.",
+    "faqs": [
+      {
+        "question": "What makes Liquid Collective unique?",
+        "answer": "It includes native slashing insurance, enterprise-grade node operators, and KYC/AML compliance features tailored for institutional capital."
+      }
+    ],
+    "requirements": [
+      "EVM Wallet",
+      "ETH or LsETH",
+      "Web browser"
+    ]
+  },
+  {
+    "id": "canto-network",
+    "name": "Canto",
+    "description": "DeFi-as-Public-Good Layer 1 built on Cosmos SDK with native Free Public Infrastructure (FPI) and Contract Secured Revenue (CSR).",
+    "category": "Layer 1",
+    "status": "active",
+    "reward": "$CANTO Staking + CSR Developer Yield",
+    "funding": "$1B+ Lifetime Volume",
+    "investors": "Variant, Tribe Capital, Spartan Group, Dragonfly",
+    "stage": "Mainnet Live",
+    "difficulty": "Medium",
+    "estimatedTime": "15 mins",
+    "featured": false,
+    "logo": "/images/airdrops/canto-network.svg",
+    "steps": [
+      "Bridge ETH or USDC to <strong>Canto</strong> via official bridges or Synapse.",
+      "Supply liquidity to native zero-fee AMMs (Canto DEX) or the Canto Lending Market (CLM).",
+      "Stake native $CANTO tokens with decentralized validators on Keplr or MetaMask.",
+      "Interact with CSR-enabled smart contracts that share transaction gas with builders."
+    ],
+    "overview": "Canto is an EVM-compatible Layer 1 blockchain engineered on the Cosmos SDK, pioneering the concept of Free Public Infrastructure (FPI). Canto provides essential DeFi primitives—including a zero-fee DEX, algorithmic lending market, and native unit of account ($NOTE)—as protocol-level public utilities with zero rent-extraction fees.",
+    "strategy": "Bridge assets to Canto, stake CANTO tokens, supply liquidity to native pairs, and support Contract Secured Revenue (CSR) ecosystem dApps.",
+    "tokenomics": "The $CANTO token provides network gas, validator staking security, and economic governance over public goods parameters.",
+    "sybilSafety": "Active on-chain staking with diverse validators provides strong Sybil resistance.",
+    "faqs": [
+      {
+        "question": "What is Contract Secured Revenue (CSR)?",
+        "answer": "CSR allows smart contract developers to claim a percentage of all transaction gas spent interacting with their contracts."
+      }
+    ],
+    "requirements": [
+      "MetaMask or Keplr wallet",
+      "CANTO tokens for gas",
+      "Web browser"
+    ]
+  },
+  {
+    "id": "origami-finance",
+    "name": "Origami",
+    "description": "Automated institutional yield vaults and looping strategies optimizing LST and LRT leverage on Base and Ethereum.",
+    "category": "DeFi",
+    "status": "active",
+    "reward": "$ORI Token + Origami Points Season",
+    "funding": "$3M+",
+    "investors": "Ecosystem Grants, Base Ecosystem Funds, Web3 Angels",
+    "stage": "Mainnet Live",
+    "difficulty": "Medium",
+    "estimatedTime": "15 mins",
+    "featured": false,
+    "logo": "/images/airdrops/origami-finance.svg",
+    "steps": [
+      "Access <strong>Origami Finance</strong> on Base or Ethereum.",
+      "Deposit supported assets (e.g., cbETH, ezETH, weETH) into automated looping vaults.",
+      "Earn enhanced organic staking yield amplified through automated algorithmic borrowing.",
+      "Accumulate Origami Points and track your multiplier ranking."
+    ],
+    "overview": "Origami Finance is an institutional-grade DeFi protocol that automates capital-efficient yield looping for liquid staking (LST) and liquid restaking (LRT) tokens. Operating primarily on Coinbase Base Layer 2, Origami deploys automated vaults that safely leverage staking yields through decentralized money markets with built-in depeg protection.",
+    "strategy": "Deposit into Origami automated vaults on Base, compound yields, and maintain continuous vault balances across Points seasons.",
+    "tokenomics": "The native ORI token will govern vault risk parameters, reward active liquidity depositors, and share protocol fee revenues.",
+    "sybilSafety": "Capital commitment inside active smart contract vaults is the strongest signal against Sybil blacklisting.",
+    "faqs": [
+      {
+        "question": "How does Origami protect against depegs?",
+        "answer": "Origami vaults incorporate automated deleveraging triggers and monitor collateral-to-debt ratios to prevent liquidations during volatility."
+      }
+    ],
+    "requirements": [
+      "EVM Wallet",
+      "ETH / LSTs on Base",
+      "Web browser"
+    ]
+  },
+  {
+    "id": "shutter-network",
+    "name": "Shutter Network",
+    "description": "Threshold cryptography network preventing malicious MEV front-running and enabling shielded trading on Ethereum rollups.",
+    "category": "DeFi",
+    "status": "active",
+    "reward": "$SHU Token + Keyper Staking Rewards",
+    "funding": "$5M+",
+    "investors": "Brainbot, Alphemy Capital, Gnosis DAO",
+    "stage": "Mainnet Live on Gnosis & L2",
+    "difficulty": "Medium",
+    "estimatedTime": "15 mins",
+    "featured": false,
+    "logo": "/images/airdrops/shutter-network.svg",
+    "steps": [
+      "Connect Web3 wallet to <strong>Shutter Network</strong> on Gnosis Chain or Ethereum.",
+      "Execute shielded MEV-protected swaps on Shutter-integrated DEXs (e.g., CoW Swap, Balancer).",
+      "Stake native $SHU tokens in the Shutter DAO governance portal.",
+      "Explore running a Keyper node to generate distributed threshold decryption keys."
+    ],
+    "overview": "Shutter Network is an open-source decentralized protocol that uses threshold cryptography to solve the malicious Miner Extractable Value (MEV) problem on Ethereum. By encrypting user transactions until they are confirmed inside a block, Shutter prevents front-running and sandwich attacks, protecting retail traders from billions in annual value extraction.",
+    "strategy": "Execute trades through Shutter-protected RPCs and DEXs, stake SHU tokens for governance, and vote on Shutter DAO proposals.",
+    "tokenomics": "The $SHU token coordinates the decentralized Keyper committee, secures threshold encryption networks, and governs DAO treasuries.",
+    "sybilSafety": "Participating in on-chain governance votes and staking SHU tokens provides high-reputation validation.",
+    "faqs": [
+      {
+        "question": "What is a Keyper in Shutter?",
+        "answer": "Keypers are special nodes that collaboratively generate encryption keys and decrypt transactions only after they are ordered in a block."
+      }
+    ],
+    "requirements": [
+      "EVM Wallet",
+      "SHU or xDAI tokens",
+      "Web browser"
+    ]
+  },
+  {
+    "id": "brahma-fi",
+    "name": "Brahma",
+    "description": "$6.7M Framework and Dragonfly backed institutional Web3 execution environment and Console smart accounts on Arbitrum and Base.",
+    "category": "DeFi",
+    "status": "active",
+    "reward": "$KARMA Points + Console SubDAO Allocation",
+    "funding": "$6.7M",
+    "investors": "Framework Ventures, Dragonfly Capital, Accel, Safe",
+    "stage": "Console Mainnet",
+    "difficulty": "Advanced",
+    "estimatedTime": "20 mins",
+    "featured": false,
+    "logo": "/images/airdrops/brahma-fi.svg",
+    "steps": [
+      "Deploy a <strong>Brahma Console</strong> smart account powered by Safe on Arbitrum or Base.",
+      "Set up automated policy guardrails, sub-accounts, and transaction batching.",
+      "Deposit capital into Console yield automations and execute dApp interactions.",
+      "Accumulate <strong>Karma Points</strong> through active volume, asset management, and referrals."
+    ],
+    "overview": "Brahma is an institutional execution environment and asset management console built on top of Safe smart accounts. Supported by Framework Ventures and Dragonfly Capital, Brahma Console allows crypto funds, DAOs, and power users to execute complex multi-leg DeFi strategies with customizable policy controls, automated stop-losses, and gasless transaction batching.",
+    "strategy": "Deploy a Console smart account, fund it with capital, execute regular DeFi swaps and yield farming through Console connections, and stack Karma points.",
+    "tokenomics": "The upcoming protocol token will decentralize policy execution relayers and govern Brahma SubDAO treasury allocations.",
+    "sybilSafety": "Smart contract account creation requiring on-chain deployment gas provides verified Sybil protection.",
+    "faqs": [
+      {
+        "question": "Is Brahma Console non-custodial?",
+        "answer": "Yes, Brahma Console is completely non-custodial, built on audited Safe multisig infrastructure where you retain 100% control of keys."
+      }
+    ],
+    "requirements": [
+      "EVM Wallet",
+      "Gas for account deployment on Arbitrum/Base",
+      "Web browser"
+    ]
+  },
+  {
+    "id": "symmio-perps",
+    "name": "SYMMIO",
+    "description": "Intent-based decentralized derivatives backend enabling bilateral peer-to-peer over-the-counter (OTC) perpetual contracts.",
+    "category": "DeFi",
+    "status": "active",
+    "reward": "$SYMM Rewards + Partner Frontend Points",
+    "funding": "$5M+ Ecosystem",
+    "investors": "Symmetrical Capital, Polygon Ventures, Biconomy",
+    "stage": "Mainnet Backend",
+    "difficulty": "Medium",
+    "estimatedTime": "15 mins",
+    "featured": false,
+    "logo": "/images/airdrops/symmio-perps.svg",
+    "steps": [
+      "Access frontend applications powered by <strong>SYMMIO</strong> (e.g., IntentX, Thenia, Based Markets).",
+      "Deposit USDC margin and open intent-based perpetual futures trades.",
+      "Experience zero-slippage execution fulfilled by professional automated market makers (hedgers).",
+      "Participate in trading competitions to earn SYMM partner rewards."
+    ],
+    "overview": "SYMMIO is a revolutionary decentralized derivatives protocol that replaces traditional AMMs and central orderbooks with bilateral peer-to-peer intent matching. Rather than pooling liquidity, SYMMIO allows traders to execute complex perpetual trades directly against professional hedgers with zero price impact and infinite virtual liquidity.",
+    "strategy": "Trade across multiple frontends powered by SYMMIO (like IntentX on Base or Blast) to earn platform-specific XP alongside underlying SYMM network allocations.",
+    "tokenomics": "The native SYMM token collateralizes automated hedger accounts, coordinates dispute arbitration, and governs protocol fee distributions.",
+    "sybilSafety": "Generating real derivative trading volume and paying liquidation margin proves organic usage.",
+    "faqs": [
+      {
+        "question": "How does bilateral intent trading work?",
+        "answer": "Traders broadcast trade requests as intents, which are instantly accepted and matched by automated market makers at agreed prices."
+      }
+    ],
+    "requirements": [
+      "EVM Wallet",
+      "USDC margin",
+      "Web browser"
+    ]
+  },
+  {
+    "id": "definitive-fi",
+    "name": "Definitive",
+    "description": "Institutional execution platform and non-custodial yield engine executing advanced algorithmic vaults on Solana and EVM.",
+    "category": "DeFi",
+    "status": "active",
+    "reward": "$EDGE Points + Definitive Alpha Tiers",
+    "funding": "$4.1M",
+    "investors": "BlockTower Capital, Nascent, Robot Ventures, Coinbase Ventures",
+    "stage": "Mainnet Vaults",
+    "difficulty": "Medium",
+    "estimatedTime": "15 mins",
+    "featured": false,
+    "logo": "/images/airdrops/definitive-fi.svg",
+    "steps": [
+      "Connect Web3 wallet to <strong>Definitive Finance</strong>.",
+      "Deposit assets (SOL, USDC, ETH) into automated algorithmic yield vaults.",
+      "Utilize TWAP (Time-Weighted Average Price) and institutional order execution tools.",
+      "Track your <strong>Definitive Edge Points</strong> ranking on the community leaderboard."
+    ],
+    "overview": "Definitive is an institutional-grade DeFi execution and yield generation platform. Backed by $4.1M from BlockTower Capital and Nascent, Definitive deploys proprietary algorithmic strategies—including delta-neutral basis trading, automated lending yield optimization, and MEV-protected TWAP execution—with complete self-custody.",
+    "strategy": "Deposit into Definitive yield vaults on Solana or Base, maintain capital across multiple weeks, and execute algorithmic orders.",
+    "tokenomics": "The upcoming protocol token will govern algorithmic risk vaults and reward long-term capital providers.",
+    "sybilSafety": "Sustained vault TVL is heavily favored by anti-Sybil snapshots.",
+    "faqs": [
+      {
+        "question": "Which blockchains does Definitive support?",
+        "answer": "Definitive operates high-performance vaults across Solana, Ethereum, Arbitrum, and Base."
+      }
+    ],
+    "requirements": [
+      "Solana or EVM Wallet",
+      "USDC / SOL / ETH",
+      "Web browser"
+    ]
+  },
+  {
+    "id": "relay-link",
+    "name": "Relay",
+    "description": "Instant, ultra-low-cost cross-chain execution and bridging engine engineered by Reservoir for consumer Web3 apps.",
+    "category": "Interoperability",
+    "status": "active",
+    "reward": "$RELAY Points + Reservoir Ecosystem Badges",
+    "funding": "$12M+ (Reservoir)",
+    "investors": "Union Square Ventures, Variant, Archetype",
+    "stage": "Mainnet Live",
+    "difficulty": "Easy",
+    "estimatedTime": "5 mins",
+    "featured": false,
+    "logo": "/images/airdrops/relay-link.svg",
+    "steps": [
+      "Connect Web3 wallet to the <strong>Relay Bridge</strong> portal.",
+      "Execute instant cross-chain transfers between Base, Arbitrum, Zora, OP, and Ethereum.",
+      "Experience sub-5-second execution powered by cross-chain fill orders.",
+      "Track your volume and completed transactions on the Relay Explorer."
+    ],
+    "overview": "Relay is a high-speed cross-chain execution and bridging infrastructure protocol engineered by Reservoir. Backed by Union Square Ventures and Variant, Relay delivers sub-5-second cross-chain swaps and payments, enabling dApps to execute multi-chain mints and purchases with zero user friction.",
+    "strategy": "Use Relay for rapid bridging between Ethereum L2s (Base, Zora, Arbitrum) and interact with NFT mints powered by Relay cross-chain execution.",
+    "tokenomics": "The upcoming protocol token will reward decentralized relayer fulfillment networks and govern cross-chain pricing APIs.",
+    "sybilSafety": "Executing genuine cross-chain mints and NFT purchases through Relay contracts guarantees non-Sybil status.",
+    "faqs": [
+      {
+        "question": "Why is Relay so fast?",
+        "answer": "Relay utilizes an intent-based relayer network that fulfills transactions instantly on the target chain before underlying settlement completes."
+      }
+    ],
+    "requirements": [
+      "EVM Wallet",
+      "ETH or stablecoins",
+      "Web browser"
+    ]
+  },
+  {
+    "id": "gas-zip",
+    "name": "Gas.zip",
+    "description": "Fastest 1-click gas refuel protocol in Web3, bridging native gas across 200+ EVM and non-EVM blockchains simultaneously.",
+    "category": "Interoperability",
+    "status": "active",
+    "reward": "$GAS Points + Multi-Chain Fuel Badges",
+    "funding": "Ecosystem Backed",
+    "investors": "Prominent Web3 Angel Investors, Community Supported",
+    "stage": "Mainnet Live",
+    "difficulty": "Easy",
+    "estimatedTime": "5 mins",
+    "featured": false,
+    "logo": "/images/airdrops/gas-zip.svg",
+    "steps": [
+      "Access <strong>Gas.zip</strong> on desktop or mobile.",
+      "Deposit gas on a primary chain (e.g., Base or Arbitrum).",
+      "Select multiple target chains to receive native gas simultaneously in a single transaction.",
+      "Check your multi-chain footprint and Gas.zip Points score."
+    ],
+    "overview": "Gas.zip is the definitive cross-chain gas refuel bridge, connecting over 200 EVM, SVM, and non-EVM chains. Gas.zip allows users to deposit native gas on one network and instantly disperse gas tokens across up to 20 different chains simultaneously, completely eliminating the headache of getting stranded without gas.",
+    "strategy": "Use Gas.zip whenever preparing multiple new testnet or mainnet wallets across emerging rollups, accruing points on the official leaderboard.",
+    "tokenomics": "Future token distribution will reward high-frequency refuel users and decentralize relayer liquidity pools.",
+    "sybilSafety": "Distributing gas to authentic personal wallets across diverse networks provides verifiable on-chain footprint evidence.",
+    "faqs": [
+      {
+        "question": "How many chains does Gas.zip support?",
+        "answer": "Gas.zip supports over 200 chains including all major Layer 2s, Layer 3 rollups, Solana, and Cosmos networks."
+      }
+    ],
+    "requirements": [
+      "EVM Wallet",
+      "Native gas token (ETH, SOL, POL, AVAX)",
+      "Web browser"
+    ]
+  },
+  {
+    "id": "turnkey-mpc",
+    "name": "Turnkey",
+    "description": "$15M Lightspeed and Variant backed enterprise non-custodial cryptographic wallet infrastructure and passkey security.",
+    "category": "Infrastructure",
+    "status": "active",
+    "reward": "$TURNKEY Allocation + Developer Badges",
+    "funding": "$15M",
+    "investors": "Lightspeed Faction, Variant, Bain Capital Crypto, Robot Ventures",
+    "stage": "Production Infrastructure",
+    "difficulty": "Medium",
+    "estimatedTime": "15 mins",
+    "featured": false,
+    "logo": "/images/airdrops/turnkey-mpc.svg",
+    "steps": [
+      "Explore dApps utilizing <strong>Turnkey Embedded Wallets</strong> (e.g., passkey logins).",
+      "Create an embedded Web3 passkey wallet without seed phrases.",
+      "Sign transactions with biometric FaceID / TouchID authentication.",
+      "For developers: create an organization and test the Turnkey API sandbox."
+    ],
+    "overview": "Turnkey is an institutional-grade non-custodial key management and embedded wallet infrastructure protocol. Supported by $15M from Lightspeed and Variant, Turnkey uses hardware-isolated enclaves (AWS Nitro) and sub-second multi-party computation to deliver programmable passkey wallets for the next billion Web3 users.",
+    "strategy": "Interact with Web3 consumer applications integrating Turnkey passkey authentication and test the developer sandbox.",
+    "tokenomics": "The upcoming protocol token will coordinate decentralized cryptographic signer committees and govern developer SLA fees.",
+    "sybilSafety": "Biometric passkey sign-ins provide strong hardware-level human authenticity proofs.",
+    "faqs": [
+      {
+        "question": "What is a Turnkey passkey wallet?",
+        "answer": "It is a self-custodial Web3 wallet secured by biometric passkeys (FaceID / Fingerprint) without needing seed phrases."
+      }
+    ],
+    "requirements": [
+      "Smartphone / Web browser with biometrics",
+      "Web3 account"
+    ]
+  },
+  {
+    "id": "dynamic-xyz",
+    "name": "Dynamic",
+    "description": "$13.5M a16z crypto backed modular multi-chain authentication and embedded wallet developer platform.",
+    "category": "Infrastructure",
+    "status": "active",
+    "reward": "$DYNAMIC Developer Grants + Ecosystem Perks",
+    "funding": "$13.5M",
+    "investors": "a16z crypto, Founders Fund, Castle Island Ventures, Breyer Capital",
+    "stage": "Production Platform",
+    "difficulty": "Easy",
+    "estimatedTime": "10 mins",
+    "featured": false,
+    "logo": "/images/airdrops/dynamic-xyz.svg",
+    "steps": [
+      "Experience <strong>Dynamic</strong> login flows across top partner dApps.",
+      "Link multiple wallets (EVM, Solana, Bitcoin) to a single unified Web3 identity.",
+      "Complete onboarding quests on Dynamic-integrated consumer protocols.",
+      "For developers: integrate Dynamic SDK into a test application to earn builder credentials."
+    ],
+    "overview": "Dynamic is the industry-standard Web3 login and embedded wallet platform backed by $13.5M from a16z crypto and Founders Fund. Powering seamless onboarding across hundreds of premier dApps, Dynamic unifies social logins, passkey wallets, and multi-chain connection into a beautiful, secure user experience.",
+    "strategy": "Connect your wallet through Dynamic authentication modals on partner protocols and test developer playground features.",
+    "tokenomics": "The protocol token will incentivize decentralized identity aggregation and developer ecosystem expansion.",
+    "sybilSafety": "Multi-chain identity linking through Dynamic proves real multi-ecosystem user participation.",
+    "faqs": [
+      {
+        "question": "What dApps use Dynamic?",
+        "answer": "Hundreds of leading Web3 projects including decentralized exchanges, NFT marketplaces, and gaming protocols use Dynamic for onboarding."
+      }
+    ],
+    "requirements": [
+      "Web3 Wallet or Social Login",
+      "Web browser"
+    ]
+  },
+  {
+    "id": "valida-zk",
+    "name": "Valida",
+    "description": "Lita Foundation type-1 STARK-based zkVM engineered for extreme computational efficiency and verifiable execution.",
+    "category": "Layer 2",
+    "status": "active",
+    "reward": "$VALIDA Token + Prover Rewards",
+    "funding": "$5M+ Ecosystem",
+    "investors": "Lita Foundation, Web3 Research Funds, ZK Angels",
+    "stage": "Developer Devnet",
+    "difficulty": "Advanced",
+    "estimatedTime": "20 mins",
+    "featured": false,
+    "logo": "/images/airdrops/valida-zk.svg",
+    "steps": [
+      "Access the <strong>Valida zkVM GitHub</strong> and developer documentation.",
+      "Compile a sample Rust or C program into Valida bytecode.",
+      "Generate a cryptographic STARK proof using the Valida prover engine.",
+      "Participate in Valida community research and benchmark reporting."
+    ],
+    "overview": "Valida is a general-purpose zero-knowledge virtual machine (zkVM) developed by the Lita Foundation. Utilizing a bespoke processor architecture and fast STARK proving circuits, Valida allows standard programs written in C and Rust to be proven with order-of-magnitude less memory and compute overhead compared to traditional zkVMs.",
+    "strategy": "Engage with the Valida developer repository, run proving benchmarks, and participate in community research workshops.",
+    "tokenomics": "The $VALIDA token will decentralize the proving marketplace, collateralize prover SLAs, and reward circuit optimization.",
+    "sybilSafety": "Submitting verifiable code proofs or open-source pull requests ensures absolute Sybil exclusion.",
+    "faqs": [
+      {
+        "question": "What makes Valida different from other zkVMs?",
+        "answer": "Valida is engineered specifically for minimal memory overhead and fast STARK proof recursion for arbitrary code."
+      }
+    ],
+    "requirements": [
+      "Developer terminal (Linux/macOS/WSL)",
+      "Rust installed",
+      "GitHub account"
+    ]
+  },
+  {
+    "id": "spicenet-l2",
+    "name": "Spicenet",
+    "description": "Sovereign cross-chain DeFi execution rollup built for instant parallel order settlement and unified multi-chain liquidity.",
+    "category": "Layer 2",
+    "status": "active",
+    "reward": "$SPICE Points Season + Early Alpha Access",
+    "funding": "$3M+",
+    "investors": "Presto Labs, Hyperithm, DeFi Angels",
+    "stage": "Incentivized Devnet",
+    "difficulty": "Medium",
+    "estimatedTime": "15 mins",
+    "featured": false,
+    "logo": "/images/airdrops/spicenet-l2.svg",
+    "steps": [
+      "Connect Web3 wallet to the <strong>Spicenet Devnet Portal</strong>.",
+      "Claim testnet gas and collateral tokens from the Spicenet faucet.",
+      "Execute high-speed multi-market swaps and test atomic cross-chain arbitrage.",
+      "Submit feedback on developer channels to claim early Contributor NFTs."
+    ],
+    "overview": "Spicenet is a sovereign execution Layer 2 designed to resolve cross-chain liquidity fragmentation. Operating as a dedicated decentralized order matching and settlement network, Spicenet enables users to trade assets across different blockchains with sub-second finality and guaranteed non-custodial safety.",
+    "strategy": "Participate in Spicenet devnet stress-tests, execute test trades across multiple pairs, and climb the Spicenet Points leaderboard.",
+    "tokenomics": "The $SPICE token will settle network gas fees, reward sequencer validators, and incentivize market maker liquidity.",
+    "sybilSafety": "Consistent multi-day test trading with varying order parameters prevents bot detection.",
+    "faqs": [
+      {
+        "question": "Is real capital needed on Spicenet Devnet?",
+        "answer": "No, all devnet transactions use free simulated test tokens from the faucet."
+      }
+    ],
+    "requirements": [
+      "EVM Wallet",
+      "Discord account",
+      "Web browser"
+    ]
+  },
+  {
+    "id": "hypercomic",
+    "name": "Hypercomic",
+    "description": "zkSync Era preeminent Web3 IP launchpad and digital comic ecosystem with seasonal zk-badge rewards.",
+    "category": "NFT",
+    "status": "active",
+    "reward": "$HYCO Allocation + zkSync Era Badges",
+    "funding": "$4M+",
+    "investors": "zkSync Ecosystem, Dunamu, Animoca Brands",
+    "stage": "zkSync Mainnet",
+    "difficulty": "Easy",
+    "estimatedTime": "10 mins",
+    "featured": false,
+    "logo": "/images/airdrops/hypercomic.svg",
+    "steps": [
+      "Connect Web3 wallet to <strong>Hypercomic</strong> on zkSync Era.",
+      "Read serialized Web3 graphic novels and claim daily reader loyalty XP.",
+      "Mint zero-knowledge reader pass NFTs using native Paymaster gas sponsorship.",
+      "Stake HYCO tokens or LP tokens in community creator pools."
+    ],
+    "overview": "Hypercomic is a leading creative Web3 IP launchpad operating natively on zkSync Era. Powered by zero-knowledge rollups and account abstraction, Hypercomic allows millions of digital comic fans and collectors to read, trade, and co-own exclusive creative franchises with gasless Paymaster transactions.",
+    "strategy": "Complete daily reading check-ins on zkSync Era, mint exclusive comic chapters, and accumulate Hypercomic XP.",
+    "tokenomics": "The native $HYCO token powers in-app creator tipping, NFT minting fees, and decentralized IP curation voting.",
+    "sybilSafety": "Holding verified creator NFTs and maintaining organic reading history on zkSync proves genuine user status.",
+    "faqs": [
+      {
+        "question": "Does Hypercomic use zkSync Paymaster?",
+        "answer": "Yes, users can pay gas in various tokens or enjoy sponsored gasless minting through zkSync native account abstraction."
+      }
+    ],
+    "requirements": [
+      "zkSync EVM Wallet",
+      "Small amount of ETH for gas",
+      "Web browser"
+    ]
+  },
+  {
+    "id": "althea-telecom",
+    "name": "Althea",
+    "description": "Decentralized telecom and pay-per-forward micro-ISP Layer 1 empowering communities to build open broadband networks.",
+    "category": "DePIN",
+    "status": "active",
+    "reward": "$ALTHEA Staking + Bandwidth Mining Rewards",
+    "funding": "$5M+",
+    "investors": "Multicoin Capital, CoinFund, Metacartel Ventures",
+    "stage": "Mainnet / Testnet",
+    "difficulty": "Medium",
+    "estimatedTime": "15 mins",
+    "featured": false,
+    "logo": "/images/airdrops/althea-telecom.svg",
+    "steps": [
+      "Explore the <strong>Althea Network</strong> decentralized telecom dashboard.",
+      "Connect Keplr or EVM wallet to the Althea L1 blockchain.",
+      "Participate in bandwidth routing incentives or delegate tokens to network collators.",
+      "Learn how to set up an Althea home router node for passive bandwidth rewards."
+    ],
+    "overview": "Althea Network is a decentralized physical infrastructure (DePIN) blockchain engineered for telecom and internet connectivity. Supported by Multicoin Capital and CoinFund, Althea enables competitive, community-owned micro-ISPs where routers automatically pay each other for bandwidth second-by-second using cryptocurrency micro-transactions.",
+    "strategy": "Engage with Althea Layer 1 by staking tokens with validators, exploring router node setups, and participating in community governance.",
+    "tokenomics": "The $ALTHEA token serves as the micro-transaction settlement currency for data routing, validator staking collateral, and network governance.",
+    "sybilSafety": "Hardware-connected node operation or on-chain validator staking offers 100% Sybil protection.",
+    "faqs": [
+      {
+        "question": "What is pay-per-forward in Althea?",
+        "answer": "Routers automatically negotiate and pay for data packets as they are routed through the mesh network, rewarding participants for sharing bandwidth."
+      }
+    ],
+    "requirements": [
+      "Keplr / EVM Wallet",
+      "ALTHEA tokens",
+      "Web browser"
+    ]
   }
 ];

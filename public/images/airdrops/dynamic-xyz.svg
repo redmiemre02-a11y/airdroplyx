@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
+  <defs>
+    <linearGradient id="dynGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#3B82F6"/>
+      <stop offset="100%" stop-color="#1D4ED8"/>
+    </linearGradient>
+  </defs>
+  <rect width="128" height="128" rx="32" fill="url(#dynGrad)"/>
+  <path d="M42 40 L64 40 C76 40 86 50 86 64 C86 78 76 88 64 88 L42 88 Z" fill="none" stroke="#FFFFFF" stroke-width="10"/>
+</svg>

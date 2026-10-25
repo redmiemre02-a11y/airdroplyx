@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
+  <defs>
+    <linearGradient id="comicGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FACC15"/>
+      <stop offset="100%" stop-color="#EAB308"/>
+    </linearGradient>
+  </defs>
+  <rect width="128" height="128" rx="32" fill="#172554"/>
+  <polygon points="64,28 75,52 101,52 80,68 88,92 64,76 40,92 48,68 27,52 53,52" fill="url(#comicGrad)"/>
+</svg>

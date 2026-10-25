@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
+  <defs>
+    <linearGradient id="symmioGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#14B8A6"/>
+      <stop offset="100%" stop-color="#06B6D4"/>
+    </linearGradient>
+  </defs>
+  <rect width="128" height="128" rx="32" fill="#0F172A"/>
+  <path d="M34 50 L64 34 L94 50 L64 66 Z" fill="url(#symmioGrad)"/>
+  <path d="M34 78 L64 62 L94 78 L64 94 Z" fill="#2DD4BF"/>
+</svg>
