@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
+  <defs>
+    <linearGradient id="seedGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#84CC16"/>
+      <stop offset="100%" stop-color="#15803D"/>
+    </linearGradient>
+  </defs>
+  <rect width="128" height="128" rx="32" fill="#0F172A"/>
+  <path d="M64 28 C80 44 94 62 94 78 A30 30 0 0 1 34 78 C34 62 48 44 64 28 Z" fill="url(#seedGrad)"/>
+</svg>

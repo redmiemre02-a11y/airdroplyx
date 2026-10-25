@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
+  <defs>
+    <linearGradient id="lumiaGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38BDF8"/>
+      <stop offset="100%" stop-color="#0284C7"/>
+    </linearGradient>
+  </defs>
+  <rect width="128" height="128" rx="32" fill="#0C4A6E"/>
+  <circle cx="64" cy="64" r="26" fill="url(#lumiaGrad)"/>
+  <path d="M64 26 L64 102 M26 64 L102 64" stroke="#BAE6FD" stroke-width="4" stroke-linecap="round"/>
+</svg>

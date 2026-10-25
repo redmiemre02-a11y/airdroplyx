@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
+  <defs>
+    <linearGradient id="katanaGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#14B8A6"/>
+      <stop offset="100%" stop-color="#0D9488"/>
+    </linearGradient>
+  </defs>
+  <rect width="128" height="128" rx="32" fill="#042F2E"/>
+  <path d="M34 94 L84 34 M84 34 L94 44 M34 94 L44 84" fill="none" stroke="url(#katanaGrad)" stroke-width="8" stroke-linecap="round"/>
+  <circle cx="86" cy="42" r="6" fill="#FACC15"/>
+</svg>

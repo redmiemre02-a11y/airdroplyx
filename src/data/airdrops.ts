@@ -20401,5 +20401,909 @@ export const airdrops: Airdrop[] = [
         "answer": "The token generation event and community distribution are targeted for Q1 2027."
       }
     ]
+  },
+  {
+    "id": "somnia-network",
+    "name": "Somnia Network",
+    "description": "Virtual Society Foundation backed ultra-fast EVM Layer 1 achieving 400,000+ TPS with IceDB state database for metaverse and gaming.",
+    "category": "Layer 1",
+    "status": "active",
+    "reward": "$SOMA Token + Shannon Points",
+    "funding": "$10M+",
+    "investors": "Virtual Society Foundation, Improbable, MSquared",
+    "stage": "Devnet / Testnet Quest",
+    "difficulty": "Easy",
+    "estimatedTime": "10 mins",
+    "featured": true,
+    "logo": "/images/airdrops/somnia-network.svg",
+    "steps": [
+      "Connect Web3 wallet to the <strong>Somnia Devnet Explorer</strong> and add the Somnia network RPC.",
+      "Claim testnet $SOMA tokens from the official <strong>Somnia Faucet</strong>.",
+      "Complete onboarding quests on the <strong>Somnia Playground</strong> and mint the early Explorer Badge.",
+      "Test fast token transfers and interact with ecosystem gaming dApps to generate high-frequency state transitions."
+    ],
+    "overview": "Somnia Network is a high-throughput Layer 1 blockchain engineered by the Virtual Society Foundation and Improbable, designed to overcome the transaction bottleneck of existing EVM networks. Utilizing a bespoke state database known as IceDB and advanced multi-threaded execution, Somnia demonstrates sustained throughput exceeding 400,000 transactions per second with sub-second finality.\n\nThe network is purpose-built to host massive multi-user real-time virtual economies, consumer gaming environments, and high-frequency on-chain orderbooks without transaction fee spikes. With comprehensive EVM bytecode compatibility, developers can deploy standard Solidity contracts that execute at hardware limits.",
+    "strategy": "To qualify for the Somnia ecosystem distribution, maintain active participation across the Shannon devnet and public testnet phases. Begin by adding the custom Somnia network parameters to your Web3 wallet and claiming devnet gas tokens.\n\nInteract with official partner games, social spaces, and decentralized trading protocols deployed on the testnet. Regular participation in the Somnia community portal and minting verified builder credentials establishes early non-Sybil status.",
+    "tokenomics": "The native token $SOMA serves as network gas, validator staking collateral, and governance weight across the Virtual Society ecosystem. A dedicated community incentives pool is reserved for testnet contributors, node operators, and creative developers.",
+    "sybilSafety": "Maintain regular weekly testnet interactions rather than scripting burst transactions. Bind your Web3 wallet to verified Discord and Twitter/X accounts to prove organic human participation.",
+    "faqs": [
+      {
+        "question": "Does testing Somnia require real ETH or gas funds?",
+        "answer": "No, Somnia is currently operating in devnet/testnet mode with zero real-capital requirements. All gas is provided freely via testnet faucets."
+      },
+      {
+        "question": "What is IceDB in Somnia?",
+        "answer": "IceDB is Somnia custom ultra-fast read/write state database engineered to eliminate the I/O disk bottlenecks common in standard EVM implementations."
+      }
+    ],
+    "requirements": [
+      "EVM Wallet (MetaMask/Rabby)",
+      "Twitter/X & Discord accounts",
+      "Testnet faucet SOMA"
+    ]
+  },
+  {
+    "id": "fhenix-network",
+    "name": "Fhenix",
+    "description": "Pioneering Fully Homomorphic Encryption (FHE) Layer 2 rollup bringing end-to-end confidential smart contracts to Ethereum.",
+    "category": "Layer 2",
+    "status": "active",
+    "reward": "$FHE Rewards + Helium Testnet Badges",
+    "funding": "$15M",
+    "investors": "Multicoin Capital, Hack VC, Amber Group, Robot Ventures",
+    "stage": "Helium Testnet",
+    "difficulty": "Medium",
+    "estimatedTime": "15 mins",
+    "featured": true,
+    "logo": "/images/airdrops/fhenix-network.svg",
+    "steps": [
+      "Bridge Sepolia testnet ETH to the <strong>Fhenix Helium Testnet</strong> via the official portal.",
+      "Wrap public ERC-20 test tokens into confidential <strong>eERC-20 (encrypted) tokens</strong>.",
+      "Execute encrypted private swaps and place confidential bids on the Fhenix testnet dApp showcase.",
+      "Deploy an experimental FHE smart contract or complete developer quests on Fhenix documentation."
+    ],
+    "overview": "Fhenix is the first modular Layer 2 rollup powered by Fully Homomorphic Encryption (FHE) with support for the FHE-Rollup architecture. Backed by $15M from Multicoin Capital and Hack VC, Fhenix enables smart contracts to perform mathematical computations directly on encrypted data without ever decrypting it on-chain.\n\nTraditional blockchains force all balances, contract state, and transaction data to remain public, exposing traders to predatory MEV and preventing confidential institutional DeFi. Fhenix resolves this by incorporating Zama fhEVM cryptographic coprocessors, unlocking private voting, confidential orderbooks, and secure on-chain identity.",
+    "strategy": "Engage actively with the Fhenix Helium testnet by minting test tokens, encrypting balances through the FHE wrapper, and executing encrypted peer-to-peer transfers. Developers can compile confidential Solidity contracts using the fhEVM library for higher incentive tiers.",
+    "tokenomics": "Fhenix native utility and governance token will settle network gas for encrypted FHE compute, reward validator coprocessors, and secure rollup sequencing.",
+    "sybilSafety": "Always originate testnet gas from an established Sepolia wallet address with historical on-chain activity to bypass anti-Sybil screening.",
+    "faqs": [
+      {
+        "question": "What makes Fhenix different from Zero-Knowledge rollups?",
+        "answer": "Zero-Knowledge proofs verify computation validity without revealing inputs, but cannot compute over private inputs from multiple parties. FHE allows the blockchain itself to compute directly on encrypted inputs."
+      }
+    ],
+    "requirements": [
+      "Ethereum Sepolia testnet ETH",
+      "MetaMask/Rabby wallet",
+      "Chrome or Brave browser"
+    ]
+  },
+  {
+    "id": "inco-network",
+    "name": "Inco Network",
+    "description": "Modular universal confidentiality Layer 1 powered by FHE, composable across Ethereum, Solana, and Cosmos via cross-chain messaging.",
+    "category": "Layer 1",
+    "status": "active",
+    "reward": "$INCO Allocation + Gentry Testnet Badges",
+    "funding": "$4.5M",
+    "investors": "1kx, Circle Ventures, Robot Ventures, Portal Ventures",
+    "stage": "Gentry Testnet",
+    "difficulty": "Medium",
+    "estimatedTime": "15 mins",
+    "featured": false,
+    "logo": "/images/airdrops/inco-network.svg",
+    "steps": [
+      "Add the <strong>Inco Gentry Testnet</strong> RPC to your Web3 wallet.",
+      "Claim testnet $INCO tokens from the official Inco Discord faucet.",
+      "Interact with confidential gaming, hidden-information card games, and encrypted DeFi prototypes.",
+      "Test cross-chain confidential state calls between Inco and Ethereum Sepolia."
+    ],
+    "overview": "Inco Network is a modular confidentiality Layer 1 powered by Fully Homomorphic Encryption (FHE). Supported by 1kx and Circle Ventures, Inco functions as a decentralized universal privacy coprocessor for all public blockchains, allowing dApps on Ethereum, Arbitrum, or Solana to delegate encrypted logic to Inco without leaving their native chain.\n\nThrough native composability with Hyperlane and LayerZero, Inco enables multi-chain applications to maintain confidential game state, encrypted dark pool liquidity, and private credit scoring seamlessly.",
+    "strategy": "Test Inco Gentry testnet dApps by engaging with hidden-information games, testing encrypted token approvals, and providing technical feedback on Discord. Maintain weekly transactions on testnet contracts to establish wallet seniority.",
+    "tokenomics": "The $INCO token powers cryptographic FHE compute gas, consensus validation via Proof-of-Stake, and cross-chain message relay incentives.",
+    "sybilSafety": "Ensure your testnet wallet is linked to a long-standing Discord account and complete community roles.",
+    "faqs": [
+      {
+        "question": "Is Inco a privacy coin?",
+        "answer": "No, Inco is an EVM-compatible Layer 1 smart contract platform designed for programmable confidentiality, not untraceable privacy coin transfers."
+      }
+    ],
+    "requirements": [
+      "Web3 EVM Wallet",
+      "Discord account",
+      "Testnet INCO faucet"
+    ]
+  },
+  {
+    "id": "penumbra-zone",
+    "name": "Penumbra",
+    "description": "Dragonfly-backed fully private proof-of-stake shielded Layer 1 and cross-chain DEX using zero-knowledge cryptography on Cosmos IBC.",
+    "category": "Layer 1",
+    "status": "active",
+    "reward": "$UM Genesis Staking + IBC Alpha",
+    "funding": "$4.75M",
+    "investors": "Dragonfly Capital, Lemniscap, Robot Ventures",
+    "stage": "Mainnet / Shielded IBC",
+    "difficulty": "Advanced",
+    "estimatedTime": "20 mins",
+    "featured": false,
+    "logo": "/images/airdrops/penumbra-zone.svg",
+    "steps": [
+      "Install the <strong>Prax Wallet</strong> browser extension for Penumbra.",
+      "Generate a shielded address and bridge test or native Cosmos assets via <strong>IBC Shielding</strong>.",
+      "Place zero-knowledge private limit orders on the <strong>Penumbra DEX</strong>.",
+      "Delegate and stake shielded $UM tokens to decentralized validator nodes."
+    ],
+    "overview": "Penumbra is a sovereign, zero-knowledge shielded Layer 1 blockchain engineered within the Cosmos IBC ecosystem. Backed by Dragonfly Capital, Penumbra provides complete privacy for all transactions, staking positions, and decentralized exchange orders.\n\nUtilizing cutting-edge zero-knowledge proofs (zk-SNARKs), Penumbra conceals account balances, sender addresses, and trade sizes while maintaining full cryptographic auditability and IBC interoperability. Its native shielded automated market maker (ZSwap) eliminates MEV front-running and sandwich attacks by executing orders in confidential batches.",
+    "strategy": "Set up the Prax wallet, obtain shielded UM tokens, and execute shielded cross-chain IBC transfers. Stake your holdings across non-custodial validators and provide liquidity on the native shielded orderbook.",
+    "tokenomics": "The native asset $UM secures the Tendermint-based consensus engine through shielded staking and provides governance over community pool allocations.",
+    "sybilSafety": "Because Penumbra is fully shielded, on-chain Sybil analysis relies on inbound IBC deposit history from verified Cosmos Hub or Osmosis wallets.",
+    "faqs": [
+      {
+        "question": "Which wallet supports Penumbra?",
+        "answer": "The Prax wallet extension is the primary open-source client for connecting to Penumbra and managing shielded cryptographic viewing keys."
+      }
+    ],
+    "requirements": [
+      "Prax Wallet extension",
+      "Cosmos IBC assets (ATOM/OSMO)",
+      "Desktop browser"
+    ]
+  },
+  {
+    "id": "reddio-zk",
+    "name": "Reddio",
+    "description": "Paradigm and Tiger Global backed high-performance parallel zkVM Layer 2 rollup built for enterprise Web3 scale.",
+    "category": "Layer 2",
+    "status": "active",
+    "reward": "$REDDIO Points + Developer Grants",
+    "funding": "$6.3M",
+    "investors": "Paradigm, Tiger Global, Arena Holdings",
+    "stage": "Public Testnet",
+    "difficulty": "Easy",
+    "estimatedTime": "10 mins",
+    "featured": false,
+    "logo": "/images/airdrops/reddio-zk.svg",
+    "steps": [
+      "Connect Web3 wallet to the <strong>Reddio zkVM Testnet</strong> dashboard.",
+      "Claim test tokens from the Reddio faucet and bridge from Sepolia.",
+      "Execute parallel token transfers and test dApp smart contract interactions.",
+      "Complete social verification tasks to accrue Reddio Points on the Leaderboard."
+    ],
+    "overview": "Reddio is a high-speed parallel zkVM Layer 2 rollup designed to provide Web2-grade latency and near-zero fees for Web3 gaming, enterprise loyalty, and financial applications. Supported by $6.3M from Paradigm and Tiger Global, Reddio combines GPU-accelerated Zero-Knowledge proof generation with parallelized execution to achieve over 10,000 TPS.",
+    "strategy": "Interact with the Reddio testnet bridge, complete daily check-ins, execute test swaps, and explore partner dApps in the Reddio ecosystem to climb the points leaderboard.",
+    "tokenomics": "The native Reddio token will decentralize the sequencer network, power prover compensation, and facilitate ecosystem governance.",
+    "sybilSafety": "Use a single verified wallet linked to authentic social accounts. Avoid bot-scripted repetitive micro-transactions.",
+    "faqs": [
+      {
+        "question": "What is Reddio primary focus?",
+        "answer": "Reddio focuses on providing developer-friendly APIs and parallel zkVM infrastructure to seamlessly onboard enterprise applications and gaming ecosystems."
+      }
+    ],
+    "requirements": [
+      "MetaMask wallet",
+      "Sepolia testnet ETH",
+      "Twitter/Discord"
+    ]
+  },
+  {
+    "id": "union-build",
+    "name": "Union",
+    "description": "Zero-knowledge interoperability layer built on consensus verification, connecting Ethereum, Celestia, Cosmos, and Solana.",
+    "category": "Interoperability",
+    "status": "active",
+    "reward": "$UNION Testnet Allocation + Ceremonies",
+    "funding": "$12M",
+    "investors": "Galileo, Semantic Ventures, Tioga Capital, Nascent",
+    "stage": "Incentivized Testnet",
+    "difficulty": "Medium",
+    "estimatedTime": "15 mins",
+    "featured": true,
+    "logo": "/images/airdrops/union-build.svg",
+    "steps": [
+      "Connect Keplr or Leap wallet to the <strong>Union Testnet Portal</strong>.",
+      "Bridge test assets between Union, Sepolia, and Babylon testnets.",
+      "Participate in the Union cryptographic Trusted Setup Ceremony or run a relayer node.",
+      "Complete Union Guild roles and verify active on-chain IBC test packets."
+    ],
+    "overview": "Union is a trustless zero-knowledge interoperability layer designed to connect all blockchains without relying on centralized multisigs, trusted oracles, or optimistic time delays. Supported by $12M from top-tier venture funds including Galileo and Semantic Ventures, Union verifies counterparty consensus cryptographically using zk-SNARKs and BLS signatures.",
+    "strategy": "Conduct regular testnet cross-chain asset transfers between EVM networks and Cosmos zones using Union. Join community governance discussions and participate in cryptographic setup ceremonies.",
+    "tokenomics": "The $UNION token will govern the zero-knowledge routing network, reward decentralized provers and relayers, and incentivize liquidity hubs.",
+    "sybilSafety": "Ensure your testnet interactions span multiple distinct weeks and connect verified GitHub or Discord credentials where applicable.",
+    "faqs": [
+      {
+        "question": "Why is Union considered trustless?",
+        "answer": "Union relies on cryptographic consensus proofs rather than trusted validator multisigs, meaning security matches the underlying connected blockchains."
+      }
+    ],
+    "requirements": [
+      "Keplr / Leap wallet",
+      "EVM Wallet",
+      "Testnet gas"
+    ]
+  },
+  {
+    "id": "fairblock-network",
+    "name": "Fairblock",
+    "description": "Dynamic confidential computation and pre-execution privacy layer preventing front-running and MEV exploitation across rollups.",
+    "category": "DeFi",
+    "status": "active",
+    "reward": "$FAIR Points + FairyRing Roles",
+    "funding": "$2.5M",
+    "investors": "Galileo, Lemniscap, Dialectic, Robot Ventures",
+    "stage": "FairyRing Testnet",
+    "difficulty": "Medium",
+    "estimatedTime": "10 mins",
+    "featured": false,
+    "logo": "/images/airdrops/fairblock-network.svg",
+    "steps": [
+      "Connect Keplr to the <strong>Fairblock FairyRing Testnet</strong>.",
+      "Claim testnet FAIRY tokens and participate in conditional private auctions.",
+      "Test sealed-bid DEX trades and MEV-protected batch transaction routing.",
+      "Complete testnet feedback surveys on Fairblock governance channels."
+    ],
+    "overview": "Fairblock is a modular privacy and cryptographic execution layer that introduces pre-execution confidentiality to smart contract blockchains. Supported by Galileo and Lemniscap, Fairblock utilizes identity-based encryption (IBE) and witness encryption to shield transactions until they are securely included in a block, completely eliminating predatory MEV sandwich attacks.",
+    "strategy": "Engage with FairyRing testnet dApps, execute encrypted limit orders, and test sealed-bid auctions. Active testnet users and community contributors earn FairyRing badges.",
+    "tokenomics": "The native FAIR token will incentivize the decentralized key generation (DKG) network and pay for private computation gas.",
+    "sybilSafety": "Avoid automated repetitive faucet claims. Maintain organic interactions across testnet dApps.",
+    "faqs": [
+      {
+        "question": "How does Fairblock prevent MEV?",
+        "answer": "By encrypting transactions during the mempool phase, block builders cannot inspect transaction details to front-run or sandwich user trades."
+      }
+    ],
+    "requirements": [
+      "Keplr wallet",
+      "Discord membership",
+      "Web browser"
+    ]
+  },
+  {
+    "id": "fluent-network",
+    "name": "Fluent",
+    "description": "First blended execution Layer 2 network uniting Wasm, EVM, and SVM smart contracts into a shared composable state.",
+    "category": "Layer 2",
+    "status": "active",
+    "reward": "$FLUENT Genesis Allocation",
+    "funding": "$5M+",
+    "investors": "Polychain Capital, Robot Ventures, Alliance DAO",
+    "stage": "Developer Devnet",
+    "difficulty": "Advanced",
+    "estimatedTime": "15 mins",
+    "featured": false,
+    "logo": "/images/airdrops/fluent-network.svg",
+    "steps": [
+      "Explore the <strong>Fluent Blended Execution</strong> devnet documentation.",
+      "Connect Web3 wallet and add the Fluent testnet RPC endpoints.",
+      "Interact with blended dApps executing cross-virtual-machine contract calls.",
+      "Mint official early builder passes or deploy sample multi-VM contracts."
+    ],
+    "overview": "Fluent is the first blended execution Layer 2 network, engineered to run WebAssembly (Wasm), EVM (Ethereum), and SVM (Solana) contracts within the same shared state machine. Backed by Polychain Capital and Robot Ventures, Fluent eliminates ecosystem fragmentation, allowing a Solidity dApp to seamlessly call a Rust or Move library in a single atomic transaction.",
+    "strategy": "Join the Fluent community, participate in devnet testing tasks, and explore early ecosystem applications. Developers and technical community testers are prioritized for early allocations.",
+    "tokenomics": "Fluent tokenomics will power transaction fees across all virtual machine environments, secure validator sequencing, and fund multi-VM grants.",
+    "sybilSafety": "Deploying a test contract or providing meaningful bug feedback on GitHub/Discord guarantees high-priority Sybil filtering exemptions.",
+    "faqs": [
+      {
+        "question": "What is blended execution?",
+        "answer": "Blended execution allows smart contracts written in different languages (Solidity, Rust, Go) to interoperate directly in the same block without bridges."
+      }
+    ],
+    "requirements": [
+      "MetaMask / EVM Wallet",
+      "GitHub / Discord",
+      "Chrome browser"
+    ]
+  },
+  {
+    "id": "nil-foundation",
+    "name": "=nil; Foundation",
+    "description": "$22M Polychain backed verifiable sharded zkRollup featuring Type-1 zkEVM and extreme horizontal throughput.",
+    "category": "Layer 2",
+    "status": "active",
+    "reward": "=$NIL Token + Devnet Explorer XP",
+    "funding": "$22M",
+    "investors": "Polychain Capital, Blockchain Capital, StarkWare",
+    "stage": "Devnet Testing",
+    "difficulty": "Advanced",
+    "estimatedTime": "20 mins",
+    "featured": true,
+    "logo": "/images/airdrops/nil-foundation.svg",
+    "steps": [
+      "Install the <strong>=nil; CLI</strong> or access the Web3 Devnet Explorer portal.",
+      "Create a sharded wallet address and request testnet gas tokens.",
+      "Deploy an asynchronous smart contract across multiple execution shards.",
+      "Verify zero-knowledge proof generation and report telemetry metrics."
+    ],
+    "overview": "=nil; Foundation is an advanced research and infrastructure protocol developing the first verifiable sharded zkRollup. Backed by $22M from Polychain Capital, StarkWare, and Blockchain Capital, =nil; scales Ethereum horizontally through dynamic state sharding while proving cross-shard consensus and state transitions using automated zero-knowledge proofs.",
+    "strategy": "Participate in the =nil; devnet by compiling asynchronous contracts, testing cross-shard transaction calls, and engaging with the =nil; developer ecosystem.",
+    "tokenomics": "The $NIL token will secure the decentralized sharded sequencer network, compensate ZK provers, and govern protocol upgrades.",
+    "sybilSafety": "Technical interactions involving the =nil; toolchain or GitHub developer tasks provide robust protection against Sybil filtering.",
+    "faqs": [
+      {
+        "question": "What is sharded zkRollup?",
+        "answer": "It splits rollup state into multiple parallel shards that process transactions simultaneously, with zero-knowledge proofs verifying full state integrity."
+      }
+    ],
+    "requirements": [
+      "Web3 Developer Wallet",
+      "Terminal / Node.js (for CLI)",
+      "Discord account"
+    ]
+  },
+  {
+    "id": "superseed-l2",
+    "name": "Superseed",
+    "description": "DeFi-native Optimism Superchain Layer 2 with built-in self-repaying debt mechanics and automated CDP liquidations.",
+    "category": "Layer 2",
+    "status": "active",
+    "reward": "$SEED Rewards + Superchain Badges",
+    "funding": "$3M+",
+    "investors": "Founders Fund, Maven 11, Robot Ventures",
+    "stage": "Sepolia Testnet",
+    "difficulty": "Easy",
+    "estimatedTime": "10 mins",
+    "featured": false,
+    "logo": "/images/airdrops/superseed-l2.svg",
+    "steps": [
+      "Bridge Sepolia ETH to the <strong>Superseed Testnet</strong> using the official native bridge.",
+      "Mint native testnet stablecoin <strong>$SUSDT</strong> and collateralize borrowing vaults.",
+      "Supply liquidity to native automated lending pools and test self-repaying loan mechanisms.",
+      "Complete Superseed community quest milestones on Intract or Galxe."
+    ],
+    "overview": "Superseed is a DeFi-specialized Layer 2 built on the Optimism OP Stack, integrated directly into the Superchain ecosystem. Engineered around the concept of self-repaying credit, Superseed redistributes sequencer fee revenue directly to collateralized debt position (CDP) holders, gradually paying down borrower debt over time.",
+    "strategy": "Bridge testnet assets, open CDP borrowing positions, provide liquidity to native DEX pools, and monitor self-repayment rates on your loans.",
+    "tokenomics": "The $SEED token captures Layer 2 sequencer revenue, governs borrow-rate parameters, and provides staking yields.",
+    "sybilSafety": "Maintain steady borrow/lend positions on testnet contracts over multiple weeks to avoid being flagged as an inactive farmer.",
+    "faqs": [
+      {
+        "question": "How do self-repaying loans work on Superseed?",
+        "answer": "Network transaction fee profits generated by the Superseed L2 sequencer are automatically routed into borrower vaults, decreasing loan balances."
+      }
+    ],
+    "requirements": [
+      "Sepolia testnet ETH",
+      "EVM Wallet",
+      "Web browser"
+    ]
+  },
+  {
+    "id": "tanx-exchange",
+    "name": "tanX",
+    "description": "StarkEx powered hybrid central limit orderbook (CLOB) DEX offering zero gas fees and institutional cross-chain perps liquidity.",
+    "category": "DeFi",
+    "status": "active",
+    "reward": "$TANX Points Season 2 + Trading Tiers",
+    "funding": "$5M",
+    "investors": "StarkWare, DefiAlliance, Goodwater Capital",
+    "stage": "Mainnet Trading",
+    "difficulty": "Medium",
+    "estimatedTime": "15 mins",
+    "featured": false,
+    "logo": "/images/airdrops/tanx-exchange.svg",
+    "steps": [
+      "Connect Web3 wallet to the <strong>tanX Exchange</strong> portal.",
+      "Deposit USDC or ETH via native Arbitrum or Ethereum Layer 2 rails.",
+      "Execute high-speed, zero-gas spot or perpetual limit and market orders.",
+      "Accumulate volume-based tanX Points and climb weekly trading leaderboards."
+    ],
+    "overview": "tanX (formerly Brine Fi) is an institutional-grade decentralized exchange powered by StarkWare StarkEx zero-knowledge rollup engine. Backed by $5M from StarkWare and leading DeFi investors, tanX delivers instant, zero-gas trading execution with a deep central limit orderbook, eliminating front-running and MEV while settling state cryptographically to Ethereum.",
+    "strategy": "Generate trading volume across key pairs (ETH/USDC, BTC/USDC), stake assets in tanX liquidity pools, and maintain consistent trading frequency across multiple weeks.",
+    "tokenomics": "The $TANX token will govern exchange fee parameters, provide fee discounts for active traders, and incentivize decentralized market makers.",
+    "sybilSafety": "Avoid wash trading identical volumes back and forth. Organic limit and market orders with varying trade sizes are prioritized.",
+    "faqs": [
+      {
+        "question": "Are there gas fees on tanX?",
+        "answer": "Deposits and withdrawals incur standard L2 gas, but all trades on the StarkEx orderbook are completely gasless and instant."
+      }
+    ],
+    "requirements": [
+      "EVM Wallet (MetaMask/Rabby)",
+      "USDC/ETH on Arbitrum or Ethereum",
+      "Web browser"
+    ]
+  },
+  {
+    "id": "spire-labs",
+    "name": "Spire Labs",
+    "description": "Framework Ventures backed Based Appchains with atomic Ethereum L1 composability and shared sequencing.",
+    "category": "Layer 2",
+    "status": "active",
+    "reward": "$SPIRE Grants + Early Contributor Roles",
+    "funding": "$4M",
+    "investors": "Framework Ventures, Cyber Fund, Bankless Ventures",
+    "stage": "Devnet / Testnet",
+    "difficulty": "Medium",
+    "estimatedTime": "15 mins",
+    "featured": false,
+    "logo": "/images/airdrops/spire-labs.svg",
+    "steps": [
+      "Connect Web3 wallet to the <strong>Spire Based Rollup Portal</strong>.",
+      "Test atomic cross-rollup transactions between Ethereum L1 and Spire appchains.",
+      "Participate in developer documentation testing and claim community builder roles.",
+      "Submit test transaction batches to the Based Sequencer testnet."
+    ],
+    "overview": "Spire Labs is an infrastructure protocol developing Based Appchains—Layer 3 rollups sequenced directly by Ethereum Layer 1 searchers and validators. Supported by Framework Ventures, Spire allows application-specific rollups to inherit atomic composability with Ethereum mainnet dApps without relying on centralized or external sequencers.",
+    "strategy": "Interact with Spire testnet deployments, explore partner based appchains, and engage with the Spire developer community.",
+    "tokenomics": "The native SPIRE token will coordinate shared sequencing infrastructure and govern Based Appchain developer grants.",
+    "sybilSafety": "Maintain genuine testnet transactions and participate in official Discord verification channels.",
+    "faqs": [
+      {
+        "question": "What is a Based Rollup?",
+        "answer": "A based rollup is sequenced directly by Ethereum L1 validators, inheriting Ethereum total liveness, security, and atomic composability."
+      }
+    ],
+    "requirements": [
+      "EVM Wallet",
+      "Sepolia ETH",
+      "Discord"
+    ]
+  },
+  {
+    "id": "term-finance",
+    "name": "Term Finance",
+    "description": "$2.5M Electric Capital backed fixed-rate decentralized lending protocol utilizing recurring periodic auctions.",
+    "category": "DeFi",
+    "status": "active",
+    "reward": "$TERM Token + Borrower/Lender Points",
+    "funding": "$2.5M",
+    "investors": "Electric Capital, Coinbase Ventures, Circle Ventures, Robot Ventures",
+    "stage": "Mainnet Live",
+    "difficulty": "Medium",
+    "estimatedTime": "15 mins",
+    "featured": false,
+    "logo": "/images/airdrops/term-finance.svg",
+    "steps": [
+      "Access the <strong>Term Finance</strong> lending portal on Ethereum or Arbitrum.",
+      "Deposit collateral (e.g., wstETH, USDC) and place bids in the weekly fixed-rate auction.",
+      "Lock in guaranteed fixed borrowing or lending rates for predetermined 4-week to 12-week terms.",
+      "Accumulate Term Points based on total loaned capital and auction participation."
+    ],
+    "overview": "Term Finance is an institutional decentralized lending protocol bringing fixed-rate, fixed-term credit to Web3. Backed by Electric Capital and Coinbase Ventures, Term uses automated recurring auctions to match borrowers and lenders at clear market-clearing interest rates, eliminating the unpredictable floating-rate volatility common in protocols like Aave.",
+    "strategy": "Participate as either a borrower or lender across weekly Term auctions. Supplying liquidity to high-demand collateral markets generates maximum loyalty points.",
+    "tokenomics": "The $TERM token will decentralize the auction coordination parameters, manage oracle risk parameters, and distribute protocol fee revenue.",
+    "sybilSafety": "Holding active loan positions until maturity provides verified non-Sybil on-chain proof of capital commitment.",
+    "faqs": [
+      {
+        "question": "Why are fixed rates important in DeFi?",
+        "answer": "Fixed rates protect borrowers and institutional lenders from unexpected interest rate spikes during high-volatility market events."
+      }
+    ],
+    "requirements": [
+      "EVM Wallet",
+      "Capital (USDC, ETH, or LSTs)",
+      "Web browser"
+    ]
+  },
+  {
+    "id": "katana-dex",
+    "name": "Katana DEX",
+    "description": "Sky Mavis flagship decentralized exchange powering all Ronin network gaming liquidity, token swaps, and RON staking.",
+    "category": "DeFi",
+    "status": "active",
+    "reward": "$RON Rewards + Katana LP Loyalty",
+    "funding": "$150M+ Ecosystem",
+    "investors": "Sky Mavis, Animoca Brands, a16z crypto",
+    "stage": "Mainnet Live",
+    "difficulty": "Easy",
+    "estimatedTime": "10 mins",
+    "featured": false,
+    "logo": "/images/airdrops/katana-dex.svg",
+    "steps": [
+      "Install the official <strong>Ronin Wallet</strong> and fund with $RON.",
+      "Access <strong>Katana DEX</strong> on the Ronin network.",
+      "Execute token swaps between RON, AXS, SLP, and gaming partner tokens (PIXELS, APE).",
+      "Provide liquidity into incentivized Katana pools (e.g., RON/USDC) and stake LP tokens in farms."
+    ],
+    "overview": "Katana DEX is the primary automated market maker (AMM) for the Ronin blockchain, the gaming Layer 1 engineered by Sky Mavis. Commanding billions in lifetime trading volume, Katana coordinates all in-game asset swaps, Web3 game token launches, and liquidity incentives for the thriving Ronin consumer ecosystem.",
+    "strategy": "Maintain active weekly swaps and supply liquidity into high-volume Katana trading pairs. Staking LP tokens into official reward farms qualifies for ecosystem token drops.",
+    "tokenomics": "Katana fees directly incentivize RON liquidity providers and route revenue to the Sky Mavis Ronin treasury.",
+    "sybilSafety": "Maintain a verified Ronin wallet with historical activity across Ronin games (Pixels, Axie) to verify authentic user status.",
+    "faqs": [
+      {
+        "question": "Which wallet do I need for Katana DEX?",
+        "answer": "You need the official Ronin Wallet extension or mobile application to connect to Katana."
+      }
+    ],
+    "requirements": [
+      "Ronin Wallet",
+      "RON tokens for gas",
+      "Desktop or mobile device"
+    ]
+  },
+  {
+    "id": "taoshi-bittensor",
+    "name": "Taoshi",
+    "description": "Bittensor Subnet 8 dominant decentralized quantitative trading and machine learning intelligence network.",
+    "category": "AI",
+    "status": "active",
+    "reward": "$TAO Yield + Subnet 8 Emission Mining",
+    "funding": "$5M+ Ecosystem",
+    "investors": "Bittensor Foundation, Digital Currency Group, Placeholder",
+    "stage": "Subnet 8 Mainnet",
+    "difficulty": "Advanced",
+    "estimatedTime": "20 mins",
+    "featured": true,
+    "logo": "/images/airdrops/taoshi-bittensor.svg",
+    "steps": [
+      "Set up a <strong>Bittensor (TAO)</strong> wallet using Polkadot.js or Bittensor CLI.",
+      "Delegate TAO stake to verified <strong>Taoshi Subnet 8 Validators</strong>.",
+      "For quant developers: register machine learning trading models on the Taoshi competition dashboard.",
+      "Track model performance metrics and earn algorithmic alpha yields."
+    ],
+    "overview": "Taoshi is the flagship machine intelligence project powering Subnet 8 (Proprietary Trading Network) on the Bittensor decentralized AI ecosystem. Supported by leading Web3 AI funds, Taoshi crowdsources quantitative machine learning trading strategies from global data scientists, evaluating models on live market data and distributing daily TAO emissions to top-performing intelligence miners.",
+    "strategy": "Delegate TAO stake to reputable Subnet 8 validators or participate directly as a model miner. Staking into decentralized AI subnets positions holders for ecosystem token rewards.",
+    "tokenomics": "Taoshi operations are rewarded through direct network emissions of $TAO based on Yuma Consensus performance scores.",
+    "sybilSafety": "On-chain TAO delegation with sustained staking duration provides verifiable cryptographic proof of authentic participation.",
+    "faqs": [
+      {
+        "question": "What is Bittensor Subnet 8?",
+        "answer": "Subnet 8 is Taoshi proprietary algorithmic trading network where AI models compete to generate predictive market signals."
+      }
+    ],
+    "requirements": [
+      "TAO tokens",
+      "Polkadot.js / Subtensor wallet",
+      "Web browser"
+    ]
+  },
+  {
+    "id": "boundless-network",
+    "name": "Boundless",
+    "description": "RISC Zero universal verifiable compute network and decentralized ZK proof marketplace for rollups and dApps.",
+    "category": "Layer 2",
+    "status": "active",
+    "reward": "$RISC Token + Prover Network Badges",
+    "funding": "$40M+ (RISC Zero)",
+    "investors": "Blockchain Capital, Bain Capital Crypto, Delphi Digital",
+    "stage": "Testnet Prover",
+    "difficulty": "Advanced",
+    "estimatedTime": "20 mins",
+    "featured": true,
+    "logo": "/images/airdrops/boundless-network.svg",
+    "steps": [
+      "Connect Web3 wallet to the <strong>Boundless Prover Portal</strong>.",
+      "Explore off-chain compute tasks proven via the RISC Zero general-purpose zkVM.",
+      "Submit verifiable compute jobs or run a decentralized prover node.",
+      "Verify on-chain proof attestations on Ethereum Sepolia."
+    ],
+    "overview": "Boundless is the decentralized proving marketplace developed by RISC Zero, engineered to scale off-chain computation with zero-knowledge cryptographic proofs. Supported by over $40M from Blockchain Capital and Bain Capital Crypto, Boundless connects applications requiring verifiable compute with an elastic network of GPU prover nodes.",
+    "strategy": "Participate in the Boundless developer testnet, submit proof requests through the SDK, or deploy prover nodes to earn protocol compute rewards.",
+    "tokenomics": "The upcoming protocol token will compensate prover hardware operators, collateralize verification SLAs, and govern market pricing.",
+    "sybilSafety": "Hardware-backed prover operation or authenticated GitHub developer contributions offer immune status against Sybil filtering.",
+    "faqs": [
+      {
+        "question": "What is RISC Zero zkVM?",
+        "answer": "It is a general-purpose zero-knowledge virtual machine that can run standard Rust code and generate succinct cryptographic proofs of execution."
+      }
+    ],
+    "requirements": [
+      "Developer environment / Linux terminal",
+      "EVM Wallet",
+      "GitHub account"
+    ]
+  },
+  {
+    "id": "teller-finance",
+    "name": "Teller Finance",
+    "description": "$6.8M Blockchain Capital backed permissionless lending market for uncollateralized Web3 loans and buy-now-pay-later crypto credit.",
+    "category": "DeFi",
+    "status": "active",
+    "reward": "$TLR Governance Allocation + Lending APR",
+    "funding": "$6.8M",
+    "investors": "Blockchain Capital, Framework Ventures, ParaFi Capital, Maven 11",
+    "stage": "Mainnet Live",
+    "difficulty": "Medium",
+    "estimatedTime": "15 mins",
+    "featured": false,
+    "logo": "/images/airdrops/teller-finance.svg",
+    "steps": [
+      "Connect Web3 wallet to <strong>Teller Finance</strong> on Polygon or Arbitrum.",
+      "Browse active time-based loan requests or supply USDC liquidity to loan pools.",
+      "Originate a peer-to-peer personal or business credit line.",
+      "Maintain reliable repayment history to build an on-chain credit score."
+    ],
+    "overview": "Teller Finance is a decentralized, non-custodial lending protocol designed to bridge traditional credit underwriting with on-chain liquidity. Supported by Blockchain Capital and Framework Ventures, Teller allows borrowers to obtain undercollateralized or time-based crypto loans using verifiable credentials and credit history.",
+    "strategy": "Supply capital to verified lender pools or borrow and repay loans on schedule to establish strong on-chain credit history.",
+    "tokenomics": "The $TLR token governs lending pool parameters, risk assessment oracles, and treasury fee allocations.",
+    "sybilSafety": "Completing on-chain loan repayments demonstrates genuine economic utility and eliminates Sybil flags.",
+    "faqs": [
+      {
+        "question": "How do undercollateralized loans work on Teller?",
+        "answer": "Borrowers connect off-chain identity or credit credentials to qualify for customized loan agreements with individual lenders."
+      }
+    ],
+    "requirements": [
+      "EVM Wallet",
+      "USDC or collateral on Polygon/Arbitrum",
+      "Web browser"
+    ]
+  },
+  {
+    "id": "zenith-defi",
+    "name": "Zenith",
+    "description": "High-throughput parallel execution Layer 2 optimized for institutional perpetuals, low-latency orderbooks, and shared margin.",
+    "category": "Layer 2",
+    "status": "active",
+    "reward": "$ZENITH Points Season 1",
+    "funding": "$4M",
+    "investors": "SevenX Ventures, Wintermute, Mirana Ventures",
+    "stage": "Testnet Alpha",
+    "difficulty": "Easy",
+    "estimatedTime": "10 mins",
+    "featured": false,
+    "logo": "/images/airdrops/zenith-defi.svg",
+    "steps": [
+      "Add the <strong>Zenith Testnet</strong> RPC parameters to your Web3 wallet.",
+      "Claim testnet USDT and gas tokens from the Zenith faucet.",
+      "Open long and short perpetual positions on the native Zenith testnet DEX.",
+      "Provide test liquidity into the multi-asset index vault (ZLP)."
+    ],
+    "overview": "Zenith is an ultra-fast execution Layer 2 rollup built specifically for decentralized perpetual contracts and algorithmic trading. Supported by SevenX Ventures and Wintermute, Zenith utilizes parallel transaction processing and an in-memory matching engine to achieve sub-10ms trade execution with complete self-custody.",
+    "strategy": "Test perpetual trades on the testnet orderbook, provide liquidity to the index pool, and maintain active trading across multiple days.",
+    "tokenomics": "The $ZENITH token will reward vault liquidity providers, offset trading fees, and facilitate sequencer governance.",
+    "sybilSafety": "Vary order sizes and trade multiple distinct pairs on the testnet platform.",
+    "faqs": [
+      {
+        "question": "Is real money required on Zenith Testnet?",
+        "answer": "No, all trading is performed using free testnet tokens obtained from the faucet."
+      }
+    ],
+    "requirements": [
+      "EVM Wallet (MetaMask/Rabby)",
+      "Twitter/X account",
+      "Web browser"
+    ]
+  },
+  {
+    "id": "syndicate-io",
+    "name": "Syndicate",
+    "description": "$20M+ a16z crypto backed Web3 developer infrastructure and modular Layer 3 transaction cloud powering viral consumer apps.",
+    "category": "Layer 2",
+    "status": "active",
+    "reward": "$SYND Ecosystem Grants + Dev XP",
+    "funding": "$20M+",
+    "investors": "a16z crypto, Variant, IDEO CoLab, Coinbase Ventures",
+    "stage": "Developer Platform / L3 Rollups",
+    "difficulty": "Medium",
+    "estimatedTime": "15 mins",
+    "featured": false,
+    "logo": "/images/airdrops/syndicate-io.svg",
+    "steps": [
+      "Access the <strong>Syndicate Developer Console</strong>.",
+      "Deploy a transaction cloud API key or launch a custom micro-rollup.",
+      "Send gasless Web3 transactions through the Syndicate Paymaster relay.",
+      "Interact with apps built on Syndicate infrastructure (e.g., Degen Chain ecosystem)."
+    ],
+    "overview": "Syndicate is a next-generation Web3 developer infrastructure protocol backed by over $20M from a16z crypto and Variant. Syndicate powers high-scale consumer blockchains like Degen Chain, providing modular transaction cloud APIs, gasless paymasters, and custom Layer 3 rollups that process millions of daily transactions seamlessly.",
+    "strategy": "Register on the developer portal, execute transactions on Syndicate-powered networks, and use partner dApps utilizing Syndicate smart accounts.",
+    "tokenomics": "The $SYND governance token coordinates developer incentives and sequencer network operations.",
+    "sybilSafety": "Interacting with real applications operating on Syndicate infrastructure guarantees non-Sybil status.",
+    "faqs": [
+      {
+        "question": "What is Syndicate role in Degen Chain?",
+        "answer": "Syndicate built and powers the Layer 3 rollup infrastructure and transaction APIs behind Degen Chain on Base."
+      }
+    ],
+    "requirements": [
+      "Web3 EVM Wallet",
+      "GitHub or Google login",
+      "Web browser"
+    ]
+  },
+  {
+    "id": "initverse-l1",
+    "name": "InitVerse",
+    "description": "Modular multi-chain cloud computing Layer 1 integrating decentralized storage and high-performance smart contracts.",
+    "category": "Layer 1",
+    "status": "active",
+    "reward": "$INVE Airdrop + Genesis Testnet Points",
+    "funding": "$3M+",
+    "investors": "Web3 Capital Partners, Digital Node Ventures",
+    "stage": "Incentivized Testnet",
+    "difficulty": "Easy",
+    "estimatedTime": "10 mins",
+    "featured": false,
+    "logo": "/images/airdrops/initverse-l1.svg",
+    "steps": [
+      "Connect Web3 wallet to the <strong>InitVerse Testnet</strong>.",
+      "Claim testnet $INVE from the official faucet.",
+      "Deploy a test smart contract or interact with native cloud dApps.",
+      "Complete daily community verification tasks on the quest portal."
+    ],
+    "overview": "InitVerse is a high-performance modular Layer 1 blockchain engineered to converge decentralized cloud computing, distributed storage, and EVM-compatible smart contracts into a unified developer runtime.",
+    "strategy": "Participate in the daily testnet faucet claims, execute token transfers, and complete official quest milestones to earn INVE points.",
+    "tokenomics": "The $INVE token provides network gas, cloud compute leasing collateral, and staking validation rewards.",
+    "sybilSafety": "Maintain regular daily check-ins rather than automated single-day burst transactions.",
+    "faqs": [
+      {
+        "question": "What is InitVerse primary product?",
+        "answer": "It offers a decentralized cloud infrastructure platform combined with a high-speed EVM Layer 1 blockchain."
+      }
+    ],
+    "requirements": [
+      "MetaMask wallet",
+      "Discord/Twitter accounts",
+      "Web browser"
+    ]
+  },
+  {
+    "id": "kakarot-zk",
+    "name": "Kakarot",
+    "description": "Vitalik Buterin and StarkWare backed Type-2.5 zkEVM written in Cairo, settling zero-knowledge proofs to Starknet and Ethereum.",
+    "category": "Layer 2",
+    "status": "active",
+    "reward": "$KAKAROT Token + Pioneer Badges",
+    "funding": "$5M+",
+    "investors": "Vitalik Buterin, StarkWare, Founders Fund, SevenX",
+    "stage": "Sepolia zkEVM Testnet",
+    "difficulty": "Medium",
+    "estimatedTime": "15 mins",
+    "featured": true,
+    "logo": "/images/airdrops/kakarot-zk.svg",
+    "steps": [
+      "Add the <strong>Kakarot zkEVM Testnet</strong> RPC to your MetaMask or Rabby wallet.",
+      "Bridge testnet ETH from Sepolia to Kakarot using the native bridge.",
+      "Execute swaps and deploy standard Solidity smart contracts on the Cairo zkEVM.",
+      "Verify Pioneer quests and complete Kakarot ecosystem badge mints."
+    ],
+    "overview": "Kakarot is a modular zkEVM implemented entirely in the Cairo programming language, backed directly by Ethereum co-founder Vitalik Buterin and StarkWare. By executing EVM bytecode within Cairo, Kakarot combines complete Ethereum developer compatibility with the massive mathematical scaling power and polynomial STARK proofs of Starknet.",
+    "strategy": "Bridge Sepolia ETH to Kakarot, interact with deployed AMMs and lending contracts, and mint early Pioneer NFTs. Developers can deploy standard Solidity contracts for bonus points.",
+    "tokenomics": "The $KAKAROT token will govern the prover selection mechanism, sequencer decentralization, and ecosystem fee sharing.",
+    "sybilSafety": "Bridge from a Sepolia address with verified historical transactions to ensure high Sybil reputation score.",
+    "faqs": [
+      {
+        "question": "Why is Kakarot built in Cairo?",
+        "answer": "Writing the zkEVM in Cairo allows Kakarot to leverage StarkWare highly optimized STARK provers without custom circuit engineering."
+      }
+    ],
+    "requirements": [
+      "MetaMask / Rabby wallet",
+      "Sepolia testnet ETH",
+      "Web browser"
+    ]
+  },
+  {
+    "id": "alpen-labs",
+    "name": "Alpen Labs",
+    "description": "$10.6M Ribbit Capital backed Bitcoin ZK rollup infrastructure unlocking smart contracts directly on native Bitcoin.",
+    "category": "Layer 2",
+    "status": "active",
+    "reward": "$ALPEN Allocation + Alpha Contributor Roles",
+    "funding": "$10.6M",
+    "investors": "Ribbit Capital, Castle Island Ventures, Geometry, Robot Ventures",
+    "stage": "Developer Devnet",
+    "difficulty": "Advanced",
+    "estimatedTime": "20 mins",
+    "featured": true,
+    "logo": "/images/airdrops/alpen-labs.svg",
+    "steps": [
+      "Access the <strong>Alpen Labs Devnet Portal</strong> and study the Bitcoin ZK documentation.",
+      "Connect Web3 wallet and test Bitcoin zk-SNARK verification scripts.",
+      "Explore rollup architecture settling zero-knowledge state roots directly to native Bitcoin.",
+      "Join the Alpen Labs community and participate in technical research discussions."
+    ],
+    "overview": "Alpen Labs is a foundational Bitcoin scalability research firm developing zero-knowledge rollup infrastructure for native Bitcoin. Backed by $10.6M from Ribbit Capital and Castle Island Ventures, Alpen enables smart contracts, DeFi liquidity, and scalable transactions that settle securely to the Bitcoin base layer using client-side ZK verification.",
+    "strategy": "Engage with Alpen Labs technical releases, test devnet tools, and establish early contributor roles in the Discord community.",
+    "tokenomics": "The upcoming protocol token will coordinate decentralized rollup sequencing and incentivize Bitcoin ZK proof verification.",
+    "sybilSafety": "Active participation in technical community discussions and devnet testing protects against Sybil flags.",
+    "faqs": [
+      {
+        "question": "How do ZK rollups settle on Bitcoin without opcodes?",
+        "answer": "Alpen Labs utilizes client-side verification and BitVM-style cryptographic commitments to verify ZK proofs on Bitcoin."
+      }
+    ],
+    "requirements": [
+      "Bitcoin/EVM Wallet",
+      "GitHub/Discord",
+      "Web browser"
+    ]
+  },
+  {
+    "id": "dill-network",
+    "name": "Dill Network",
+    "description": "Next-generation sharded Data Availability network for modular blockchains utilizing Data Availability Sampling (DAS).",
+    "category": "Modular",
+    "status": "active",
+    "reward": "$DILL Points + Andromeda Testnet Rewards",
+    "funding": "$3M+",
+    "investors": "Modular Capital, Blockchange Ventures, Animoca Ventures",
+    "stage": "Andromeda Testnet",
+    "difficulty": "Medium",
+    "estimatedTime": "15 mins",
+    "featured": false,
+    "logo": "/images/airdrops/dill-network.svg",
+    "steps": [
+      "Connect Web3 wallet to the <strong>Dill Andromeda Testnet</strong>.",
+      "Claim testnet DILL tokens from the faucet.",
+      "Stake test tokens to validator nodes or run a lightweight DAS sampling client.",
+      "Complete social verification tasks on the Dill community dashboard."
+    ],
+    "overview": "Dill Network is a high-bandwidth modular Data Availability (DA) network designed to scale rollups. Utilizing full Data Availability Sampling (DAS) and 2D Reed-Solomon erasure coding, Dill enables light nodes to cryptographically verify that rollup data is available without downloading entire blocks.",
+    "strategy": "Participate in the Andromeda testnet by staking testnet DILL, running a light node, and completing testnet quests.",
+    "tokenomics": "The $DILL token secures the Proof-of-Stake DA consensus and pays for data blob posting fees.",
+    "sybilSafety": "Staking to multiple validators and maintaining light node uptime provides top-tier Sybil resistance.",
+    "faqs": [
+      {
+        "question": "What is Data Availability Sampling?",
+        "answer": "DAS allows light nodes to verify that full block data has been published by randomly downloading small cryptographic samples of a block."
+      }
+    ],
+    "requirements": [
+      "EVM Wallet",
+      "Discord account",
+      "Web browser"
+    ]
+  },
+  {
+    "id": "tangle-network",
+    "name": "Tangle Network",
+    "description": "Cross-chain multi-party computation (MPC) and threshold signature scheme (TSS) Layer 1 built for verifiable restaking.",
+    "category": "Layer 1",
+    "status": "active",
+    "reward": "$TNT Token + Mainnet Staking APR",
+    "funding": "$5M+",
+    "investors": "Web3 Foundation, Polychain Capital, Digital Asset Capital",
+    "stage": "Mainnet Staking",
+    "difficulty": "Medium",
+    "estimatedTime": "15 mins",
+    "featured": false,
+    "logo": "/images/airdrops/tangle-network.svg",
+    "steps": [
+      "Set up an EVM or Substrate wallet on the <strong>Tangle Network</strong>.",
+      "Bridge or acquire native <strong>$TNT</strong> tokens on decentralized exchanges.",
+      "Stake $TNT to active MPC service nodes in the Tangle dApp portal.",
+      "Participate in decentralized governance votes on network upgrades."
+    ],
+    "overview": "Tangle Network is a sovereign Layer 1 blockchain engineered to provide decentralized multi-party computation (MPC) and threshold cryptographic signatures as a shared service for all Web3 applications. Tangle allows rollups and bridges to coordinate cross-chain transactions without centralized keys.",
+    "strategy": "Stake TNT tokens with decentralized validators, participate in restaking pools, and vote on community governance proposals.",
+    "tokenomics": "The $TNT token powers network transaction fees, validator staking, and MPC task execution collateral.",
+    "sybilSafety": "On-chain staking and long-term token delegation guarantee genuine investor and user classification.",
+    "faqs": [
+      {
+        "question": "What is MPC in Tangle Network?",
+        "answer": "MPC (Multi-Party Computation) allows multiple independent nodes to compute cryptographic signatures collectively without revealing private keys."
+      }
+    ],
+    "requirements": [
+      "Tangle / EVM Wallet",
+      "TNT tokens",
+      "Web browser"
+    ]
+  },
+  {
+    "id": "lumia-network",
+    "name": "Lumia",
+    "description": "Hyper-liquid RWA Layer 2 blockchain built to connect fragmented institutional real-world assets with retail DeFi yield.",
+    "category": "Layer 2",
+    "status": "active",
+    "reward": "$LUMIA Token + HyperNode Rewards",
+    "funding": "$10M+ Ecosystem",
+    "investors": "DWF Labs, TRGC, Outlier Ventures, Polygon",
+    "stage": "Mainnet Transition",
+    "difficulty": "Easy",
+    "estimatedTime": "10 mins",
+    "featured": true,
+    "logo": "/images/airdrops/lumia-network.svg",
+    "steps": [
+      "Bridge assets to the <strong>Lumia L2 Network</strong> via official bridges.",
+      "Swap and provide liquidity in Lumia native institutional RWA pools.",
+      "Stake $LUMIA tokens or operate a HyperNode to secure the modular rollup.",
+      "Participate in Lumia Stream liquidity incentive programs."
+    ],
+    "overview": "Lumia is the first hyper-liquid Layer 2 rollup built specifically for Real World Assets (RWAs). Developed in collaboration with Polygon CDK and EigenDA, Lumia connects off-chain tokenized commodities, treasuries, and real estate with deep decentralized exchange liquidity.",
+    "strategy": "Bridge stablecoins to Lumia, provide liquidity to tokenized RWA pairs, and stake LUMIA tokens to earn automated protocol yields.",
+    "tokenomics": "The $LUMIA token serves as the native gas asset, validator staking collateral, and liquidity reward mechanism.",
+    "sybilSafety": "Participating in RWA liquidity pools with standard KYC or verified on-chain history eliminates Sybil flags.",
+    "faqs": [
+      {
+        "question": "What assets are tokenized on Lumia?",
+        "answer": "Lumia hosts tokenized US Treasuries, physical commodities, private credit funds, and institutional yield-bearing products."
+      }
+    ],
+    "requirements": [
+      "EVM Wallet",
+      "USDC or LUMIA tokens",
+      "Web browser"
+    ]
   }
 ];

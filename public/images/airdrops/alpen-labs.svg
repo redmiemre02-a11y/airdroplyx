@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
+  <defs>
+    <linearGradient id="alpenGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F59E0B"/>
+      <stop offset="100%" stop-color="#B45309"/>
+    </linearGradient>
+  </defs>
+  <rect width="128" height="128" rx="32" fill="url(#alpenGrad)"/>
+  <path d="M64 28 L98 88 L30 88 Z" fill="#FFFFFF"/>
+  <path d="M64 48 L76 72 L52 72 Z" fill="#B45309"/>
+</svg>
