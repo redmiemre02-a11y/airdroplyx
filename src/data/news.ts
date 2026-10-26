@@ -571,5 +571,100 @@ During Mining Gala Phase 3, users bridging Bitcoin and deploying capital across 
     ],
     "relatedAirdropId": "turnkey-mpc",
     "content": "Turnkey, the enterprise-grade non-custodial key management and embedded wallet infrastructure provider backed by $15M from Lightspeed Faction and Variant, has reported exponential growth as major consumer Web3 applications adopt passkey-native onboarding.\n\nTraditional Web3 onboarding requiring 12-word seed phrases has historically caused over 80% user drop-off in retail crypto applications. Turnkey eliminates this barrier by utilizing hardware-isolated security enclaves (AWS Nitro) combined with sub-second multi-party computation (MPC), allowing users to create self-custodial wallets and sign transactions instantly using biometric FaceID and TouchID credentials.\n\nBy ensuring that private keys are never exposed in plaintext to application developers or cloud servers, Turnkey provides enterprise-grade compliance for high-frequency trading dApps, decentralized gaming hubs, and automated DeFi portfolio managers."
+  },
+  {
+    "slug": "nostra-finance-starknet-token-and-superapp-launch",
+    "title": "Nostra Unveils Starknet SuperApp & NSTR Token Governance Framework",
+    "excerpt": "Wintermute-backed Nostra combines lending, DEX liquidity, and native stablecoin minting into a unified Starknet portal ahead of token distribution.",
+    "author": "Airdroplyx DeFi Desk",
+    "date": "October 26, 2026",
+    "readTime": "4 min read",
+    "category": "TGE Alert",
+    "image": "https://images.unsplash.com/photo-1642543492481-44e81e3914a7?w=1200&q=80",
+    "tags": [
+      "Nostra",
+      "Starknet",
+      "DeFi",
+      "NSTR",
+      "Lending"
+    ],
+    "relatedAirdropId": "nostra-finance",
+    "content": "Nostra, the dominant liquidity and lending reserve on Starknet, has officially revealed its unified SuperApp architecture alongside governance parameters for its upcoming native token ($NSTR). Supported by $5M+ from Wintermute, Jump Capital, and Tempus Labs, Nostra has captured the largest share of decentralized liquidity on Starknet's ZK-rollup network.\n\nThe Nostra SuperApp integrates decentralized money markets, a concentrated liquidity automated market maker, and overcollateralized stablecoin borrowing into a single, intuitive interface. By executing on Starknet's high-speed Cairo runtime with native account abstraction, users can execute complex multi-call DeFi strategies in a single click without gas friction.\n\nThe Nostra Points campaign has entered its final verification stage, tracking long-term liquidity providers and active borrowers. Community members holding active lending positions are closely monitoring official foundation channels for snapshot milestones."
+  },
+  {
+    "slug": "core-dao-satoshi-plus-dual-staking-expansion",
+    "title": "Core DAO Surpasses Millions in Hash Rate Delegation with Bitcoin Dual Staking",
+    "excerpt": "Over 50% of Bitcoin mining hash power participates in Satoshi Plus consensus as Core DAO expands non-custodial dual staking rewards.",
+    "author": "Airdroplyx Research Team",
+    "date": "October 26, 2026",
+    "readTime": "5 min read",
+    "category": "Alpha Intel",
+    "image": "https://images.unsplash.com/photo-1621416894569-0f39ed31d247?w=1200&q=80",
+    "tags": [
+      "Core DAO",
+      "Satoshi Plus",
+      "Bitcoin Staking",
+      "BTCFi",
+      "Layer 1"
+    ],
+    "relatedAirdropId": "core-dao",
+    "content": "Core DAO has achieved historic adoption in the Bitcoin scaling sector, with official network telemetry revealing that over 50% of the world's active Bitcoin mining hash rate is now delegating consensus power to Core's Satoshi Plus consensus engine. Connecting Bitcoin's Proof-of-Work security directly to an EVM-compatible Layer 1, Core has emerged as a cornerstone of the BTCFi movement.\n\nThe protocol's Non-Custodial Bitcoin Staking feature allows BTC holders to earn daily yield rewards without transferring their Bitcoin to centralized custodians or wrapping bridges. Bitcoin stakers lock assets directly on the native Bitcoin UTXO layer while earning $CORE token distributions.\n\nWith the expansion of Dual Staking—which combines native BTC lockups with CORE token delegation—participants unlock enhanced yield tiers and ecosystem token allocations across Core's rapidly growing decentralized finance ecosystem."
+  },
+  {
+    "slug": "oasis-sapphire-confidential-evm-ai-milestone",
+    "title": "Oasis Sapphire Launches Confidential Runtime for Autonomous AI Agents",
+    "excerpt": "Backed by Pantera and a16z, Oasis Network deploys hardware-isolated confidential smart contract infrastructure to protect AI models and private DeFi.",
+    "author": "Airdroplyx Intel Desk",
+    "date": "October 26, 2026",
+    "readTime": "4 min read",
+    "category": "Breaking",
+    "image": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=1200&q=80",
+    "tags": [
+      "Oasis Network",
+      "Sapphire",
+      "Confidential EVM",
+      "AI Agents",
+      "Privacy"
+    ],
+    "relatedAirdropId": "oasis-network",
+    "content": "Oasis Network, the privacy-first Layer 1 blockchain supported by $45M from a16z crypto and Pantera Capital, has deployed dedicated confidential execution infrastructure for autonomous AI agents on its flagship Oasis Sapphire runtime.\n\nWhile public EVM blockchains expose all smart contract state, transaction parameters, and data prompts to the open internet, Oasis Sapphire utilizes Trusted Execution Environments (TEEs) to process computations inside hardware-isolated enclaves. This allows artificial intelligence agents operating on-chain to maintain proprietary model weights, protect private user prompts, and execute confidential trading strategies without revealing their algorithms to competitors or front-running bots.\n\nWith complete Solidity compatibility, developers are deploying confidential automated market makers, private sealed-bid auctions, and encrypted voting protocols. Early community participants interacting with Sapphire dApps are establishing verified on-chain footprints in the emerging confidential compute landscape."
+  },
+  {
+    "slug": "subsquid-decentralized-data-lake-mainnet-surge",
+    "title": "Subsquid Processes Billions in Verifiable Query Calls Across 150+ Blockchains",
+    "excerpt": "Polychain-backed Subsquid solidifies its position as the leading peer-to-peer data lake for Web3, slashing analytical query costs by 90%.",
+    "author": "Airdroplyx Research Team",
+    "date": "October 26, 2026",
+    "readTime": "4 min read",
+    "category": "Alpha Intel",
+    "image": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=1200&q=80",
+    "tags": [
+      "Subsquid",
+      "Data Lake",
+      "SQD",
+      "Infrastructure",
+      "Indexing"
+    ],
+    "relatedAirdropId": "subsquid-network",
+    "content": "Subsquid, the decentralized data lake and query infrastructure network backed by $17.5M from Polychain Capital, has surpassed record query volume milestones, processing billions of verifiable data calls across more than 150 EVM, Substrate, and Solana blockchains.\n\nTraditional Web3 applications have historically struggled with the high latency and exorbitant infrastructure costs of querying archive nodes via centralized JSON-RPCs. Subsquid resolves this bottleneck by extracting, compressing, and distributing raw block state into a decentralized network of peer-to-peer worker nodes, allowing analytical queries to execute with sub-second latency at a fraction of standard cost.\n\nFollowing the activation of native $SQD network staking, token holders delegating stake to active worker nodes are receiving daily network reward emissions, fueling decentralization across enterprise analytics and AI training pipelines."
+  },
+  {
+    "slug": "alex-stacks-nakamoto-upgrade-fast-bitcoin-defi",
+    "title": "ALEX Deploys Sub-5-Second Bitcoin DeFi Settlement on Stacks Nakamoto Upgrade",
+    "excerpt": "Leading Bitcoin liquidity protocol ALEX integrates the Stacks Nakamoto hard fork, bringing instant decentralized swaps and sBTC liquidity to Bitcoin.",
+    "author": "Airdroplyx DeFi Desk",
+    "date": "October 26, 2026",
+    "readTime": "4 min read",
+    "category": "Breaking",
+    "image": "https://images.unsplash.com/photo-1639762681485-074b7f938ba0?w=1200&q=80",
+    "tags": [
+      "ALEX",
+      "Stacks",
+      "Nakamoto",
+      "Bitcoin DeFi",
+      "sBTC"
+    ],
+    "relatedAirdropId": "alex-lab",
+    "content": "ALEX, the premier decentralized financial infrastructure protocol for the Bitcoin ecosystem, has officially rolled out major protocol upgrades taking full advantage of the Stacks Nakamoto hard fork. The upgrade permanently resolves Bitcoin's historical transaction latency, reducing block settlement times from 10 minutes to under 5 seconds while inheriting 100% of Bitcoin's Proof-of-Work finality.\n\nThe deployment introduces high-frequency orderbook swaps for Runes, BRC-20 assets, and Stacks native tokens with zero custodial risk. Furthermore, ALEX has integrated the decentralized sBTC gateway, allowing users to move native Bitcoin seamlessly into high-yield decentralized lending and liquidity pools.\n\nTraders and liquidity providers actively testing the upgraded AMM pools and staking $ALEX tokens are positioned for increased fee share distributions and launchpad allocations as the Bitcoin Layer 2 ecosystem accelerates."
   }
 ];

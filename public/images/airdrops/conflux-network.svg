@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
+  <defs>
+    <linearGradient id="cfxGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1E3A8A"/>
+      <stop offset="100%" stop-color="#3B82F6"/>
+    </linearGradient>
+  </defs>
+  <rect width="128" height="128" rx="32" fill="url(#cfxGrad)"/>
+  <circle cx="64" cy="64" r="30" fill="none" stroke="#93C5FD" stroke-width="6"/>
+  <circle cx="64" cy="64" r="16" fill="#FFFFFF"/>
+</svg>

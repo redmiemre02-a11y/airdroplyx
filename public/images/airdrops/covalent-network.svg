@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
+  <defs>
+    <linearGradient id="cqtGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FF5400"/>
+      <stop offset="100%" stop-color="#FF0054"/>
+    </linearGradient>
+  </defs>
+  <rect width="128" height="128" rx="32" fill="#0D0D11"/>
+  <path d="M78 40 C60 36 44 48 44 64 C44 80 60 92 78 88" fill="none" stroke="url(#cqtGrad)" stroke-width="12" stroke-linecap="round"/>
+  <circle cx="86" cy="64" r="8" fill="#FF5400"/>
+</svg>

@@ -22203,5 +22203,905 @@ export const airdrops: Airdrop[] = [
       "ALTHEA tokens",
       "Web browser"
     ]
+  },
+  {
+    "id": "nostra-finance",
+    "name": "Nostra",
+    "description": "Premier Starknet liquidity reserve, algorithmic money market, and high-speed DEX super-app powered by Cairo.",
+    "category": "DeFi",
+    "status": "active",
+    "reward": "$NSTR Token + Nostra Points Season 2",
+    "funding": "$5M+",
+    "investors": "Wintermute, Jump Capital, Tempus Labs, GSR",
+    "stage": "Mainnet Live",
+    "difficulty": "Easy",
+    "estimatedTime": "10 mins",
+    "featured": true,
+    "logo": "/images/airdrops/nostra-finance.svg",
+    "steps": [
+      "Connect Braavos or Argent wallet to <strong>Nostra</strong> on Starknet.",
+      "Deposit collateral (ETH, STRK, USDC) into Nostra Money Market pools.",
+      "Borrow against collateral or provide liquidity into Nostra concentrated DEX pairs.",
+      "Accumulate Nostra Points daily to boost NSTR token conversion rankings."
+    ],
+    "overview": "Nostra is the foundational liquidity super-app built on Starknet, combining a non-custodial lending market, a concentrated liquidity DEX, and an overcollateralized stablecoin engine ($UNO). Engineered in Cairo, Nostra leverages Starknet native account abstraction and ZK-rollup scaling to process rapid, low-cost financial transactions directly on Ethereum.",
+    "strategy": "Supply blue-chip assets to Nostra lending pools, maintain borrow positions with conservative health factors, and provide liquidity to key DEX pairs to earn compounded point multipliers.",
+    "tokenomics": "The $NSTR token governs protocol risk parameters, coordinates DEX fee share distributions, and empowers community DAO voting.",
+    "sybilSafety": "Maintaining sustained lending and borrowing balances over multiple months provides verified non-Sybil on-chain proof.",
+    "faqs": [
+      {
+        "question": "Which wallets work with Nostra on Starknet?",
+        "answer": "You need a dedicated Starknet smart account wallet such as Argent X or Braavos."
+      }
+    ],
+    "requirements": [
+      "Argent X or Braavos wallet",
+      "ETH / STRK on Starknet",
+      "Web browser"
+    ]
+  },
+  {
+    "id": "zklend",
+    "name": "zkLend",
+    "description": "Starknet-native L2 money market protocol combining institutional compliance with retail permissionless borrowing.",
+    "category": "DeFi",
+    "status": "active",
+    "reward": "$ZEND Token + ZENDurance Rewards",
+    "funding": "$5M",
+    "investors": "Delphi Digital, StarkWare, Three Arrows Capital, GBV",
+    "stage": "Mainnet Live",
+    "difficulty": "Medium",
+    "estimatedTime": "10 mins",
+    "featured": false,
+    "logo": "/images/airdrops/zklend.svg",
+    "steps": [
+      "Access <strong>zkLend</strong> on Starknet via Argent or Braavos.",
+      "Supply assets (ETH, wBTC, USDC, STRK) to earn organic lending APR.",
+      "Borrow stablecoins to participate in ecosystem farming protocols.",
+      "Stake native $ZEND tokens in the safety module to earn protocol revenue."
+    ],
+    "overview": "zkLend is an algorithmic money market protocol native to Starknet, utilizing Cairo smart contracts to deliver extreme capital efficiency and ultra-low gas borrowing. With dual retail and institutional architecture, zkLend enables users to earn passive yield on deposits and unlock instant liquidity.",
+    "strategy": "Supply and borrow assets continuously, participate in community quests, and maintain active staking in the ZEND token module.",
+    "tokenomics": "The $ZEND token coordinates protocol risk governance, secures the safety reserve, and captures dynamic borrowing fee yields.",
+    "sybilSafety": "Active loan positions maintained across diverse snapshot dates guarantee genuine user classification.",
+    "faqs": [
+      {
+        "question": "What is the borrowing liquidation threshold on zkLend?",
+        "answer": "Liquidation thresholds vary per asset (typically 75% to 85%), protected by Starknet low-latency Pyth and Pragma oracles."
+      }
+    ],
+    "requirements": [
+      "Starknet Wallet",
+      "ETH or collateral",
+      "Web browser"
+    ]
+  },
+  {
+    "id": "carmine-options",
+    "name": "Carmine Options",
+    "description": "Decentralized options AMM on Starknet offering hedging, price speculation, and zero-loss liquidity staking.",
+    "category": "DeFi",
+    "status": "active",
+    "reward": "$CARM Governance + Carmine Staking Yield",
+    "funding": "$2M+ Grants",
+    "investors": "Starknet Foundation, Web3 Angels, DeFi Research DAO",
+    "stage": "Mainnet Options",
+    "difficulty": "Advanced",
+    "estimatedTime": "15 mins",
+    "featured": false,
+    "logo": "/images/airdrops/carmine-options.svg",
+    "steps": [
+      "Connect Starknet wallet to the <strong>Carmine Options</strong> dApp.",
+      "Buy Call or Put options on ETH and STRK to hedge market risk.",
+      "Deposit capital into Carmine automated AMM liquidity pools to earn trading fees.",
+      "Vote on protocol risk curves and participate in governance staking."
+    ],
+    "overview": "Carmine Options is an automated market maker for European-style financial options deployed natively on Starknet. Powered by Cairo computation, Carmine allows users to purchase downside insurance or speculate on volatility with transparent mathematical pricing and zero counterparty risk.",
+    "strategy": "Provide liquidity to Carmine option writing pools or purchase short-term options to establish verified derivatives trading volume.",
+    "tokenomics": "The $CARM token gives community members voting weight over option collateral requirements and fee parameters.",
+    "sybilSafety": "Writing options or providing pool liquidity over multiple contract expiries confirms authentic trader behavior.",
+    "faqs": [
+      {
+        "question": "What type of options does Carmine support?",
+        "answer": "Carmine supports European-style cash-settled Call and Put options on major Starknet assets."
+      }
+    ],
+    "requirements": [
+      "Argent / Braavos wallet",
+      "ETH / USDC on Starknet",
+      "Web browser"
+    ]
+  },
+  {
+    "id": "braavos-wallet",
+    "name": "Braavos",
+    "description": "$10M Pantera-backed smart contract wallet for Starknet featuring biometric Hardware Signer and account abstraction.",
+    "category": "Infrastructure",
+    "status": "active",
+    "reward": "$BRAAVOS Allocation + Shield Badges",
+    "funding": "$10M",
+    "investors": "Pantera Capital, Brevan Howard, StarkWare, Crypto.com Capital",
+    "stage": "Production Wallet",
+    "difficulty": "Easy",
+    "estimatedTime": "10 mins",
+    "featured": true,
+    "logo": "/images/airdrops/braavos-wallet.svg",
+    "steps": [
+      "Install the <strong>Braavos Wallet</strong> extension or mobile app.",
+      "Enable the <strong>Hardware Signer</strong> (biometric FaceID / TouchID multi-factor authentication).",
+      "Execute in-wallet swaps, staking, and dApp interactions on Starknet.",
+      "Mint official Braavos Community Shield NFTs to verify your security score."
+    ],
+    "overview": "Braavos is a next-generation smart contract wallet engineered exclusively for Starknet. Backed by $10M from Pantera Capital, Braavos leverages account abstraction to introduce biometric Hardware Signer security, utilizing smartphone hardware security chips (Secure Enclave) to eliminate the risk of stolen seed phrases.",
+    "strategy": "Use Braavos as your primary Starknet client, activate 2FA and Hardware Signer security features, execute monthly swaps, and collect in-wallet XP badges.",
+    "tokenomics": "The upcoming Braavos governance token will coordinate decentralized wallet feature voting and subsidize Paymaster fee abstractions.",
+    "sybilSafety": "Activating biometric Hardware Signer on a physical device provides bulletproof hardware-level Sybil resistance.",
+    "faqs": [
+      {
+        "question": "What is Braavos Hardware Signer?",
+        "answer": "It uses your mobile phone Secure Enclave to turn your biometric sensor into a hardware security key."
+      }
+    ],
+    "requirements": [
+      "Smartphone / Desktop browser",
+      "Braavos Wallet",
+      "Small amount of ETH on Starknet"
+    ]
+  },
+  {
+    "id": "argent-wallet",
+    "name": "Argent",
+    "description": "$56M Paradigm-backed pioneer smart contract wallet on Starknet & Ethereum featuring multisig social recovery and DeFi portals.",
+    "category": "Infrastructure",
+    "status": "active",
+    "reward": "$ARGENT Token Allocation + Explorer Score",
+    "funding": "$56M",
+    "investors": "Paradigm, Fabric Ventures, Index Ventures, StarkWare",
+    "stage": "Production Wallet",
+    "difficulty": "Easy",
+    "estimatedTime": "10 mins",
+    "featured": true,
+    "logo": "/images/airdrops/argent-wallet.svg",
+    "steps": [
+      "Download <strong>Argent X</strong> (browser) or <strong>Argent Mobile</strong>.",
+      "Set up an account-abstracted smart wallet on Starknet.",
+      "Configure Guardians for social recovery without seed phrase vulnerabilities.",
+      "Participate in Argent Starknet Explorer campaigns and mint verification NFTs."
+    ],
+    "overview": "Argent is the pioneer of smart contract wallet technology, commanding over $56M in venture backing from Paradigm and Fabric Ventures. Operating as the leading ecosystem gateway for Starknet, Argent delivers seedless social recovery, multi-signature security, and 1-click DeFi staking.",
+    "strategy": "Maintain an active Argent X wallet, explore partner dApps through the in-wallet ecosystem directory, and participate in official Argent community campaigns.",
+    "tokenomics": "The anticipated Argent protocol token will govern decentralized relayer infrastructure and community developer grants.",
+    "sybilSafety": "Setting up on-chain Guardians and maintaining diverse multi-chain transactions provides elite non-Sybil proof.",
+    "faqs": [
+      {
+        "question": "How does Argent Social Recovery work?",
+        "answer": "You assign trusted friends, family, or devices as Guardians who can collaboratively authorize wallet recovery if you lose access."
+      }
+    ],
+    "requirements": [
+      "Argent Mobile or Argent X",
+      "Starknet gas",
+      "Smartphone or PC"
+    ]
+  },
+  {
+    "id": "haiko-amm",
+    "name": "Haiko",
+    "description": "Automated concentrated liquidity AMM and dynamic strategy vaults built natively on Starknet.",
+    "category": "DeFi",
+    "status": "active",
+    "reward": "$HAIKO Points + Vault Farming Yields",
+    "funding": "$1.5M+",
+    "investors": "Big Brain Holdings, Starknet Foundation, Cogitent Ventures",
+    "stage": "Mainnet Live",
+    "difficulty": "Medium",
+    "estimatedTime": "10 mins",
+    "featured": false,
+    "logo": "/images/airdrops/haiko-amm.svg",
+    "steps": [
+      "Connect Starknet wallet to <strong>Haiko AMM</strong>.",
+      "Deposit liquidity into automated strategy vaults (ETH/USDC, STRK/ETH).",
+      "Execute concentrated liquidity swaps with automated price-band rebalancing.",
+      "Accumulate Haiko Points based on liquidity provided and vault duration."
+    ],
+    "overview": "Haiko is a decentralized exchange and automated liquidity management protocol on Starknet. Haiko combines concentrated liquidity with automated vault rebalancing, allowing liquidity providers to maximize fee APR while mitigating impermanent loss through algorithmic range adjustments.",
+    "strategy": "Supply assets into Haiko strategy vaults, compound trading fees, and maintain active liquidity positions over consecutive weeks.",
+    "tokenomics": "The native HAIKO token will govern strategy parameters, vault fee tiers, and liquidity mining emissions.",
+    "sybilSafety": "Supplying liquidity into smart contract vaults for sustained timeframes eliminates Sybil bot suspicion.",
+    "faqs": [
+      {
+        "question": "Does Haiko rebalance liquidity automatically?",
+        "answer": "Yes, Haiko automated strategy vaults adjust concentrated liquidity ticks dynamically as market prices move."
+      }
+    ],
+    "requirements": [
+      "Starknet Wallet",
+      "ETH / USDC / STRK",
+      "Web browser"
+    ]
+  },
+  {
+    "id": "velar-btc",
+    "name": "Velar",
+    "description": "Bitcoin DeFi liquidity protocol and multi-chain DEX unlocking swap and perpetual trading across Stacks and Bitcoin L1.",
+    "category": "DeFi",
+    "status": "active",
+    "reward": "$VELAR Rewards + Dharma Staking Yield",
+    "funding": "$3.5M+",
+    "investors": "Bitcoin Startup Lab, CMS Holdings, Black Edge Capital",
+    "stage": "Mainnet Live",
+    "difficulty": "Medium",
+    "estimatedTime": "15 mins",
+    "featured": false,
+    "logo": "/images/airdrops/velar-btc.svg",
+    "steps": [
+      "Install Leather or Xverse wallet and connect to <strong>Velar</strong>.",
+      "Swap native Bitcoin and Stacks ecosystem tokens (STX, ALEX, DIKO).",
+      "Provide liquidity into Velar AMM pools to earn trading fee shares.",
+      "Stake native $VELAR tokens in Dharma reward pools."
+    ],
+    "overview": "Velar is a premier Bitcoin DeFi protocol designed to bring the trading capabilities of Ethereum and Solana directly to the Bitcoin ecosystem. Operating on Stacks Layer 2 with direct cryptographic settlement to Bitcoin, Velar offers automated liquidity pools, yield farming, and decentralized perpetual contracts.",
+    "strategy": "Execute regular token swaps on Velar, supply liquidity to STX pairs, and participate in community staking programs.",
+    "tokenomics": "The $VELAR token provides platform fee discounts, liquidity incentives, and governance rights over decentralized exchange upgrades.",
+    "sybilSafety": "On-chain Stacks and Bitcoin transaction history with verified non-zero wallet balances ensures authentic qualification.",
+    "faqs": [
+      {
+        "question": "Which wallets support Velar?",
+        "answer": "You can connect using leading Bitcoin Web3 wallets like Xverse or Leather (Hiro)."
+      }
+    ],
+    "requirements": [
+      "Xverse or Leather wallet",
+      "STX / BTC tokens",
+      "Web browser"
+    ]
+  },
+  {
+    "id": "alex-lab",
+    "name": "ALEX",
+    "description": "Leading Bitcoin DeFi protocol and decentralized exchange infrastructure powered by Stacks Nakamoto upgrade.",
+    "category": "DeFi",
+    "status": "active",
+    "reward": "$ALEX Staking + B20 Runes Alpha",
+    "funding": "$10M+",
+    "investors": "Trust Machines, White Star Capital, Gemini Frontier Fund",
+    "stage": "Mainnet Live",
+    "difficulty": "Medium",
+    "estimatedTime": "15 mins",
+    "featured": true,
+    "logo": "/images/airdrops/alex-lab.svg",
+    "steps": [
+      "Connect Leather or Xverse wallet to the <strong>ALEX Lab</strong> portal.",
+      "Trade native Bitcoin tokens, Runes, and BRC-20 assets on the orderbook DEX.",
+      "Bridge assets across Bitcoin, Stacks, and EVM networks via the ALEX Bridge.",
+      "Stake $ALEX or autoALEX to earn passive protocol revenue distributions."
+    ],
+    "overview": "ALEX is the premier financial infrastructure protocol built on Stacks, providing the foundational liquidity layer for Bitcoin DeFi. Featuring an orderbook AMM, launchpad, cross-chain bridge, and Runes/Ordinals trading suite, ALEX processes the vast majority of decentralized financial volume settling directly to Bitcoin.",
+    "strategy": "Trade Runes and BRC-20 assets, bridge tokens, and stake ALEX tokens in governance pools to maximize reward tiers.",
+    "tokenomics": "The $ALEX token secures protocol governance, captures transaction fees across all trading products, and provides staking yield.",
+    "sybilSafety": "Long-term staking of ALEX tokens directly confirms committed, non-Sybil investor status.",
+    "faqs": [
+      {
+        "question": "How fast are transactions on ALEX after the Nakamoto upgrade?",
+        "answer": "The Nakamoto upgrade brings sub-5-second transaction execution while retaining 100% Bitcoin finality."
+      }
+    ],
+    "requirements": [
+      "Xverse / Leather wallet",
+      "STX or BTC for fees",
+      "Web browser"
+    ]
+  },
+  {
+    "id": "hermetica-btc",
+    "name": "Hermetica",
+    "description": "Bitcoin-backed synthetic dollar protocol issuing $USDh with sustainable native yields derived from delta-neutral funding rates.",
+    "category": "DeFi",
+    "status": "active",
+    "reward": "$HMT Token + USDh Yield Mining",
+    "funding": "$1.7M+",
+    "investors": "UTXO Management, CMS Holdings, Ethos Capital, Web3 Angels",
+    "stage": "Mainnet Live",
+    "difficulty": "Medium",
+    "estimatedTime": "10 mins",
+    "featured": false,
+    "logo": "/images/airdrops/hermetica-btc.svg",
+    "steps": [
+      "Connect Bitcoin Web3 wallet to <strong>Hermetica</strong> on Stacks or Bitcoin L1.",
+      "Deposit native BTC or sBTC to mint yield-bearing synthetic digital dollar <strong>$USDh</strong>.",
+      "Hold $USDh to earn automated daily dollar yields generated through delta-neutral basis trading.",
+      "Deploy USDh into partner lending pools and liquidity farms."
+    ],
+    "overview": "Hermetica is a decentralized financial protocol pioneering the first native Bitcoin-backed synthetic dollar ($USDh). Backed by UTXO Management and CMS Holdings, Hermetica allows Bitcoin holders to convert BTC into stable USDh while earning double-digit APYs generated through institutional funding-rate arbitrage, without exposure to centralized banks.",
+    "strategy": "Mint USDh with Bitcoin, hold and compound synthetic yields, and deploy USDh into liquidity pairs across the Stacks DeFi ecosystem.",
+    "tokenomics": "The upcoming protocol governance token will oversee oracle safety parameters and protocol revenue allocations.",
+    "sybilSafety": "Minting and holding productive synthetic stablecoins on-chain confirms legitimate capital deployment.",
+    "faqs": [
+      {
+        "question": "How does USDh generate yield without lending risk?",
+        "answer": "USDh yield is generated through delta-neutral perpetual funding rate arbitrage on institutional exchanges, eliminating borrower default risk."
+      }
+    ],
+    "requirements": [
+      "Xverse or Leather wallet",
+      "BTC or STX",
+      "Web browser"
+    ]
+  },
+  {
+    "id": "core-dao",
+    "name": "Core DAO",
+    "description": "Bitcoin-powered EVM-compatible Layer 1 blockchain secured by 50%+ of Bitcoin hash rate through Satoshi Plus consensus.",
+    "category": "Layer 1",
+    "status": "active",
+    "reward": "$CORE Staking APR + Ignition Ecosystem Drops",
+    "funding": "$1B+ Ecosystem",
+    "investors": "Animoca Brands, Bitget, Huobi Ventures, Core Foundation",
+    "stage": "Mainnet Live",
+    "difficulty": "Easy",
+    "estimatedTime": "10 mins",
+    "featured": true,
+    "logo": "/images/airdrops/core-dao.svg",
+    "steps": [
+      "Add <strong>Core Blockchain</strong> RPC parameters to your MetaMask or Rabby wallet.",
+      "Bridge assets or acquire native <strong>$CORE</strong> tokens.",
+      "Stake CORE tokens or participate in Non-Custodial Bitcoin Staking on Core DAO.",
+      "Interact with Core ecosystem DeFi dApps (Colha, Archer, CoreX)."
+    ],
+    "overview": "Core DAO is a decentralized Layer 1 blockchain engineered with the Satoshi Plus consensus mechanism, which unites Delegated Proof of Stake (DPoS) with Delegated Proof of Work (DPoW). By allowing Bitcoin miners to delegate hash power and Bitcoin holders to stake BTC without moving it off-chain, Core provides enterprise EVM smart contracts secured directly by Bitcoin miners.",
+    "strategy": "Delegate CORE tokens to active validators, participate in non-custodial Bitcoin staking, and generate transaction history across Core DeFi protocols.",
+    "tokenomics": "The $CORE token provides network gas, validator staking security, and economic governance over the Core blockchain.",
+    "sybilSafety": "Participating in non-custodial Bitcoin staking or delegating CORE tokens proves high-value participation.",
+    "faqs": [
+      {
+        "question": "What is Satoshi Plus consensus?",
+        "answer": "It combines Bitcoin mining hash power delegation with Ethereum-style Proof-of-Stake validator consensus."
+      }
+    ],
+    "requirements": [
+      "MetaMask / EVM Wallet",
+      "CORE tokens",
+      "Web browser"
+    ]
+  },
+  {
+    "id": "bitflow-dex",
+    "name": "Bitflow",
+    "description": "Decentralized exchange for Bitcoin-native assets, stablecoins, and Runes with optimal routing and deep liquidity.",
+    "category": "DeFi",
+    "status": "active",
+    "reward": "$BFLOW Token + Liquidity Loyalty Points",
+    "funding": "$1.3M+",
+    "investors": "Portal Ventures, Bitcoin Frontier Fund, CMS Holdings",
+    "stage": "Mainnet Live",
+    "difficulty": "Easy",
+    "estimatedTime": "10 mins",
+    "featured": false,
+    "logo": "/images/airdrops/bitflow-dex.svg",
+    "steps": [
+      "Connect Xverse or Leather wallet to <strong>Bitflow DEX</strong>.",
+      "Trade Bitcoin ecosystem tokens, sBTC, and decentralized stablecoins.",
+      "Provide liquidity into Bitflow high-efficiency stableswap and AMM pools.",
+      "Accumulate Bitflow Points on the community leaderboard."
+    ],
+    "overview": "Bitflow is a decentralized exchange engineered specifically for the Bitcoin economy. Bitflow allows users to trade native BTC, wrapped Bitcoin, Runes, and stablecoins with zero custodial risk, utilizing single-sided liquidity pools and smart order routing across Stacks and Bitcoin L1.",
+    "strategy": "Trade regularly on Bitflow, provide liquidity to stable pairs (USDC/USDA), and track accumulated points on the dashboard.",
+    "tokenomics": "The $BFLOW token will govern exchange fee parameters, incentivize liquidity providers, and reward active community traders.",
+    "sybilSafety": "Providing liquidity into stable pools over extended timeframes guarantees non-Sybil standing.",
+    "faqs": [
+      {
+        "question": "Does Bitflow support Runes trading?",
+        "answer": "Yes, Bitflow provides native trading support for Runes, BRC-20, and Stacks ecosystem tokens."
+      }
+    ],
+    "requirements": [
+      "Bitcoin Web3 Wallet",
+      "STX or BTC",
+      "Web browser"
+    ]
+  },
+  {
+    "id": "flare-network",
+    "name": "Flare Network",
+    "description": "$35M funded EVM Layer 1 with native decentralized data oracles (FTSO) and State Connector for trustless cross-chain data.",
+    "category": "Layer 1",
+    "status": "active",
+    "reward": "$FLR Drops + Staking Delegations",
+    "funding": "$35M",
+    "investors": "Kenetic Capital, Digital Currency Group, Coinfund",
+    "stage": "Mainnet Live",
+    "difficulty": "Easy",
+    "estimatedTime": "10 mins",
+    "featured": false,
+    "logo": "/images/airdrops/flare-network.svg",
+    "steps": [
+      "Add the <strong>Flare Network</strong> RPC to MetaMask or Rabby.",
+      "Acquire native <strong>$FLR</strong> tokens and wrap them into WFLR.",
+      "Delegate WFLR to decentralized Flare Time Series Oracle (FTSO) data providers to earn compounding rewards.",
+      "Interact with Flare DeFi protocols (SparkDEX, Kinetic) to generate transaction history."
+    ],
+    "overview": "Flare is an EVM-compatible Layer 1 blockchain engineered to serve as the data network for Web3. With native enshrined data acquisition protocols—the Flare Time Series Oracle (FTSO) and the State Connector—Flare allows smart contracts to access decentralized price feeds, blockchain state, and Web2 API data without relying on centralized oracle nodes.",
+    "strategy": "Wrap and delegate FLR tokens to top-performing FTSO data providers, claim bi-weekly delegation rewards, and explore ecosystem DEXs.",
+    "tokenomics": "The $FLR token settles gas fees, secures validator consensus, and collateralizes decentralized data provision.",
+    "sybilSafety": "Continuous on-chain oracle delegations provide uninterrupted cryptographic proof of authentic staking.",
+    "faqs": [
+      {
+        "question": "What is the Flare Time Series Oracle (FTSO)?",
+        "answer": "FTSO is a network of 100+ independent data providers delivering decentralized prices every few seconds directly on-chain."
+      }
+    ],
+    "requirements": [
+      "MetaMask / EVM Wallet",
+      "FLR tokens",
+      "Web browser"
+    ]
+  },
+  {
+    "id": "lukso-network",
+    "name": "LUKSO",
+    "description": "EVM Layer 1 engineered by ERC-20 author Fabian Vogelsteller for the creator economy, digital fashion, and Universal Profiles.",
+    "category": "Layer 1",
+    "status": "active",
+    "reward": "$LYX Staking + Universal Profile Badges",
+    "funding": "$20M+ Ecosystem",
+    "investors": "Leading European Web3 Funds, High-Profile Creators",
+    "stage": "Mainnet Live",
+    "difficulty": "Easy",
+    "estimatedTime": "10 mins",
+    "featured": false,
+    "logo": "/images/airdrops/lukso-network.svg",
+    "steps": [
+      "Install the <strong>Universal Profiles</strong> browser extension for LUKSO.",
+      "Mint your personalized on-chain Universal Profile (ERC-725 smart contract account).",
+      "Execute gasless transactions using the LUKSO transaction relayer.",
+      "Explore digital fashion dApps, social spaces, and stake $LYX with validators."
+    ],
+    "overview": "LUKSO is a specialized EVM blockchain founded by Fabian Vogelsteller (author of ERC-20 and web3.js). Designed for creative industries, brands, and social applications, LUKSO introduces Universal Profiles (ERC-725)—smart contract accounts that replace private key addresses with customizable, recoverable digital identities.",
+    "strategy": "Create a Universal Profile, customize social metadata, stake LYX tokens with validators, and interact with creator dApps.",
+    "tokenomics": "The $LYX token powers execution gas, validator staking consensus, and creator economy governance.",
+    "sybilSafety": "Creating an on-chain Universal Profile with customized metadata provides verifiable proof-of-humanity.",
+    "faqs": [
+      {
+        "question": "What is a Universal Profile on LUKSO?",
+        "answer": "It is a smart contract identity that holds assets, manages social credentials, and enables gasless transactions."
+      }
+    ],
+    "requirements": [
+      "Universal Profiles extension",
+      "LYX tokens",
+      "Web browser"
+    ]
+  },
+  {
+    "id": "radix-network",
+    "name": "Radix",
+    "description": "$157M funded Layer 1 blockchain powered by Scrypto programming language and Cerberus linearly scalable consensus engine.",
+    "category": "Layer 1",
+    "status": "active",
+    "reward": "$XRD Staking Rewards + Babylon Ecosystem Alpha",
+    "funding": "$157M Ecosystem",
+    "investors": "LocalGlobe, DWF Labs, Taavet Hinrikus, Web3 Angels",
+    "stage": "Babylon Mainnet",
+    "difficulty": "Medium",
+    "estimatedTime": "15 mins",
+    "featured": false,
+    "logo": "/images/airdrops/radix-network.svg",
+    "steps": [
+      "Install the official <strong>Radix Wallet</strong> for mobile and link browser connector.",
+      "Stake native <strong>$XRD</strong> tokens with decentralized validators.",
+      "Interact with native Scrypto DeFi applications (Ociswap, CaviarNine).",
+      "Mint verifiable Personas to manage decentralized Web3 identities."
+    ],
+    "overview": "Radix is a full-stack Layer 1 blockchain designed to provide frictionless user experience and unlimited horizontal scalability. Engineered with Scrypto (asset-oriented programming language) and Cerberus consensus, Radix eliminates smart contract exploits and enables atomic cross-shard transaction composability.",
+    "strategy": "Install the Radix Wallet, stake XRD tokens to decentralized validators, trade on Scrypto DEXs, and mint on-chain Personas.",
+    "tokenomics": "The $XRD token secures Proof-of-Stake consensus, pays for transaction execution, and governs network parameter updates.",
+    "sybilSafety": "On-chain validator delegation with consistent staking durations verifies authentic user status.",
+    "faqs": [
+      {
+        "question": "What is Scrypto on Radix?",
+        "answer": "Scrypto is an asset-oriented smart contract programming language based on Rust, designed to prevent DeFi hacks."
+      }
+    ],
+    "requirements": [
+      "Radix Wallet (iOS/Android)",
+      "XRD tokens",
+      "Web browser"
+    ]
+  },
+  {
+    "id": "aleph-zero",
+    "name": "Aleph Zero",
+    "description": "Enterprise-grade privacy-enhancing Proof-of-Stake Layer 1 utilizing ZK-SNARKs and Liminal privacy framework.",
+    "category": "Layer 1",
+    "status": "active",
+    "reward": "$AZERO Staking APR + Liminal Privacy Alpha",
+    "funding": "$15M+",
+    "investors": "Jun Capital, Supernova, Web3 Research Funds",
+    "stage": "Mainnet Live",
+    "difficulty": "Medium",
+    "estimatedTime": "10 mins",
+    "featured": false,
+    "logo": "/images/airdrops/aleph-zero.svg",
+    "steps": [
+      "Set up an <strong>Aleph Zero Signer</strong> or SubWallet account.",
+      "Acquire and stake <strong>$AZERO</strong> tokens to active validators on the staking dashboard.",
+      "Explore the <strong>Liminal</strong> zero-knowledge privacy testnet features.",
+      "Participate in Aleph Zero ecosystem governance votes."
+    ],
+    "overview": "Aleph Zero is an ultra-fast, enterprise-ready Proof-of-Stake public blockchain based on a directed acyclic graph (DAG) consensus architecture. Featuring sub-second finality and near-zero fees, Aleph Zero incorporates the Liminal privacy framework, combining ZK-SNARKs and secure multi-party computation (sMPC) for private smart contract execution.",
+    "strategy": "Stake AZERO tokens with decentralized validators, participate in community governance, and test upcoming Liminal privacy tools.",
+    "tokenomics": "The $AZERO token provides network gas, validator staking security, and economic governance weight.",
+    "sybilSafety": "Sustained staking of native tokens directly proves authentic non-Sybil participation.",
+    "faqs": [
+      {
+        "question": "How fast is Aleph Zero?",
+        "answer": "Aleph Zero achieves sub-second finality (typically ~416ms) powered by its custom AlephBFT consensus."
+      }
+    ],
+    "requirements": [
+      "SubWallet or Aleph Zero Signer",
+      "AZERO tokens",
+      "Web browser"
+    ]
+  },
+  {
+    "id": "taraxa-network",
+    "name": "Taraxa",
+    "description": "Fast t-Graph blockDAG Layer 1 with native EVM compatibility engineered for decentralized AI tracking and auditable logs.",
+    "category": "Layer 1",
+    "status": "active",
+    "reward": "$TARA Staking Yields + Ecosystem Rewards",
+    "funding": "$5M+",
+    "investors": "Fenbushi Capital, KuCoin Labs, Spark Digital Capital",
+    "stage": "Mainnet Live",
+    "difficulty": "Easy",
+    "estimatedTime": "10 mins",
+    "featured": false,
+    "logo": "/images/airdrops/taraxa-network.svg",
+    "steps": [
+      "Add the <strong>Taraxa Mainnet</strong> RPC to MetaMask or Rabby.",
+      "Stake native <strong>$TARA</strong> tokens via the official Taraxa Staking portal.",
+      "Explore Taraxa ecosystem dApps (TaraSwap, TrendBot).",
+      "For node operators: run a lightweight Taraxa validator node."
+    ],
+    "overview": "Taraxa is an EVM-compatible blockDAG Layer 1 blockchain utilizing a t-Graph architecture with asynchronous Byzantine Fault Tolerant (aBFT) consensus. Taraxa solves the blockchain trilemma by allowing parallel block creation without waste, delivering sub-second finality and high TPS for real-world enterprise and AI data tracking.",
+    "strategy": "Stake TARA tokens with verified validators, execute swaps on native DEXs, and vote on community governance proposals.",
+    "tokenomics": "The $TARA token serves as execution gas, validator staking collateral, and governance weight.",
+    "sybilSafety": "On-chain validator delegation confirms legitimate long-term community membership.",
+    "faqs": [
+      {
+        "question": "Is Taraxa EVM compatible?",
+        "answer": "Yes, Taraxa supports full EVM compatibility, meaning Solidity smart contracts run out of the box."
+      }
+    ],
+    "requirements": [
+      "MetaMask / EVM Wallet",
+      "TARA tokens",
+      "Web browser"
+    ]
+  },
+  {
+    "id": "oasis-network",
+    "name": "Oasis Network",
+    "description": "$45M+ Pantera and a16z backed privacy-preserving modular Layer 1 featuring Sapphire confidential EVM runtime.",
+    "category": "Layer 1",
+    "status": "active",
+    "reward": "$ROSE Staking Yield + Sapphire Confidential Perks",
+    "funding": "$45M+",
+    "investors": "Pantera Capital, a16z crypto, Binance Labs, Polychain",
+    "stage": "Mainnet Live",
+    "difficulty": "Medium",
+    "estimatedTime": "15 mins",
+    "featured": true,
+    "logo": "/images/airdrops/oasis-network.svg",
+    "steps": [
+      "Install <strong>Oasis Wallet</strong> or add Oasis Sapphire to MetaMask.",
+      "Stake native <strong>$ROSE</strong> tokens with decentralized network validators.",
+      "Interact with confidential EVM dApps deployed on <strong>Oasis Sapphire</strong>.",
+      "Test privacy-preserving voting, confidential DEXs, and encrypted Web3 tools."
+    ],
+    "overview": "Oasis Network is a privacy-first, modular Proof-of-Stake Layer 1 blockchain engineered with dedicated execution layers (ParaTimes). Supported by $45M from a16z and Pantera, Oasis flagship runtime—Oasis Sapphire—is the industry first confidential EVM, enabling developers to build smart contracts with private state using hardware-secure enclaves (TEEs).",
+    "strategy": "Stake ROSE tokens, bridge assets to Oasis Sapphire, and interact with confidential dApps to build an active on-chain footprint.",
+    "tokenomics": "The $ROSE token powers transaction gas, validator staking security, and ParaTime governance.",
+    "sybilSafety": "On-chain validator staking and interacting with confidential Sapphire contracts ensures non-Sybil status.",
+    "faqs": [
+      {
+        "question": "What is Oasis Sapphire?",
+        "answer": "Oasis Sapphire is the first and only production confidential EVM runtime, allowing smart contracts to keep variables private."
+      }
+    ],
+    "requirements": [
+      "MetaMask or Oasis Wallet",
+      "ROSE tokens",
+      "Web browser"
+    ]
+  },
+  {
+    "id": "secret-network",
+    "name": "Secret Network",
+    "description": "Pioneering privacy-preserving Cosmos smart contract blockchain utilizing Trusted Execution Environments (TEEs) for confidential compute.",
+    "category": "Layer 1",
+    "status": "active",
+    "reward": "$SCRT Staking APR + Secret Pathways",
+    "funding": "$11.5M+",
+    "investors": "Arrington Capital, Blocktower, Fenbushi, Outlier Ventures",
+    "stage": "Mainnet Live",
+    "difficulty": "Medium",
+    "estimatedTime": "15 mins",
+    "featured": false,
+    "logo": "/images/airdrops/secret-network.svg",
+    "steps": [
+      "Connect Keplr or Leap wallet to <strong>Secret Network</strong>.",
+      "Stake native <strong>$SCRT</strong> tokens with active validators.",
+      "Wrap public assets into private, encrypted <strong>Secret Tokens (sSCRT, sETH)</strong>.",
+      "Interact with confidential dApps on Secret Network (SecretSwap, Shade Protocol)."
+    ],
+    "overview": "Secret Network is the pioneer of privacy-preserving smart contracts in Web3, built on the Cosmos SDK. Using hardware-isolated Trusted Execution Environments (TEEs), Secret allows smart contracts to perform computations over encrypted inputs, protecting balances and transaction metadata from public inspection.",
+    "strategy": "Stake SCRT tokens with decentralized validators, create viewing keys for encrypted tokens, and explore Shade Protocol DeFi tools.",
+    "tokenomics": "The $SCRT token provides gas fees, validator staking consensus, and cross-chain IBC routing incentives.",
+    "sybilSafety": "On-chain Cosmos staking with diverse validators provides standard proof of authentic participation.",
+    "faqs": [
+      {
+        "question": "What are Viewing Keys in Secret Network?",
+        "answer": "A Viewing Key is a cryptographic key you generate to view your own encrypted balances without exposing them publicly."
+      }
+    ],
+    "requirements": [
+      "Keplr or Leap wallet",
+      "SCRT tokens",
+      "Web browser"
+    ]
+  },
+  {
+    "id": "subsquid-network",
+    "name": "Subsquid",
+    "description": "$17.5M Polychain backed decentralized data lake and query engine providing infinite indexing bandwidth for 150+ blockchains.",
+    "category": "Infrastructure",
+    "status": "active",
+    "reward": "$SQD Staking Rewards + Worker Node Yields",
+    "funding": "$17.5M",
+    "investors": "Polychain Capital, Hypersphere, Zee Prime Capital, DFG",
+    "stage": "Mainnet Live",
+    "difficulty": "Medium",
+    "estimatedTime": "15 mins",
+    "featured": true,
+    "logo": "/images/airdrops/subsquid-network.svg",
+    "steps": [
+      "Access the <strong>Subsquid Cloud</strong> or Network Portal.",
+      "Delegate native <strong>$SQD</strong> tokens to active decentralized Worker Nodes.",
+      "For developers: deploy a custom Squid indexer to extract real-time block data.",
+      "Participate in community governance votes on Subsquid Network DAO."
+    ],
+    "overview": "Subsquid is a decentralized data lake and indexing engine designed to provide fast, cost-effective data queries across over 150 EVM, Substrate, and Solana blockchains. Supported by $17.5M from Polychain Capital, Subsquid replaces centralized RPC queries with a decentralized peer-to-peer network of worker nodes, reducing data retrieval costs by up to 90%.",
+    "strategy": "Delegate SQD tokens to verified worker nodes, build with Squid SDKs, and participate in community network testing.",
+    "tokenomics": "The $SQD token secures the decentralized worker network through delegation, pays for data query bandwidth, and governs protocol parameters.",
+    "sybilSafety": "Delegating SQD tokens to worker nodes on-chain provides verified proof of real participation.",
+    "faqs": [
+      {
+        "question": "How is Subsquid different from traditional RPCs?",
+        "answer": "Subsquid extracts raw blockchain data into a decentralized compressed data lake, allowing multi-gigabyte queries in milliseconds."
+      }
+    ],
+    "requirements": [
+      "EVM Wallet (Arbitrum/Ethereum)",
+      "SQD tokens",
+      "Web browser"
+    ]
+  },
+  {
+    "id": "covalent-network",
+    "name": "Covalent",
+    "description": "$15M Hashed and Binance Labs backed cryptographic structured block data network and unified Web3 API across 200+ chains.",
+    "category": "Infrastructure",
+    "status": "active",
+    "reward": "$CXT Staking APR + Operator Delegations",
+    "funding": "$15M+",
+    "investors": "Hashed, Binance Labs, Coinbase Ventures, Delphi Digital",
+    "stage": "Mainnet Staking",
+    "difficulty": "Medium",
+    "estimatedTime": "15 mins",
+    "featured": false,
+    "logo": "/images/airdrops/covalent-network.svg",
+    "steps": [
+      "Connect Web3 wallet to the <strong>Covalent Network Staking Portal</strong>.",
+      "Stake native <strong>$CXT</strong> tokens to decentralized Block Specimen Producers (BSPs).",
+      "Earn compounding network staking rewards paid in CXT.",
+      "Explore Covalent unified GoldRush data dashboards and APIs."
+    ],
+    "overview": "Covalent (CXT) is a decentralized cryptographic structured block data network providing a unified API across more than 200 blockchains. Supported by Hashed and Binance Labs, Covalent ensures permanent, immutable data availability for enterprise analytics, tax software, and decentralized AI models.",
+    "strategy": "Stake CXT tokens to active network operators, explore developer API tools, and participate in governance proposals.",
+    "tokenomics": "The $CXT token coordinates decentralized Block Specimen verification, secures staking pools, and captures query fee revenue.",
+    "sybilSafety": "On-chain operator delegation provides long-term cryptographic verification of authentic capital commitment.",
+    "faqs": [
+      {
+        "question": "What is a Block Specimen on Covalent?",
+        "answer": "A Block Specimen is a cryptographically verifiable, canonical representation of all state transitions within a blockchain block."
+      }
+    ],
+    "requirements": [
+      "EVM Wallet",
+      "CXT tokens",
+      "Web browser"
+    ]
+  },
+  {
+    "id": "powerpool-dao",
+    "name": "PowerPool",
+    "description": "Decentralized automated transaction execution network powering automated DeFi strategies, DCA, and limit orders.",
+    "category": "Infrastructure",
+    "status": "active",
+    "reward": "$CVP Staking + PowerAgent Automation Yields",
+    "funding": "$3M+ Ecosystem",
+    "investors": "Web3 Venture Angels, Decentralized Community Backed",
+    "stage": "PowerAgent Mainnet",
+    "difficulty": "Medium",
+    "estimatedTime": "15 mins",
+    "featured": false,
+    "logo": "/images/airdrops/powerpool-dao.svg",
+    "steps": [
+      "Connect Web3 wallet to <strong>PowerPool PowerAgent</strong> on Arbitrum or Gnosis.",
+      "Deploy automated DeFi tasks (e.g. automated DCA orders, stop-losses, yield compounding).",
+      "Stake native $CVP tokens to become an automated PowerAgent Keeper node.",
+      "Vote on PowerPool DAO treasury and automation network proposals."
+    ],
+    "overview": "PowerPool is a decentralized network of autonomous Keeper nodes (PowerAgent) that monitor on-chain conditions and execute scheduled or conditional transactions on behalf of users and protocols, eliminating centralized bot dependencies for DeFi automation.",
+    "strategy": "Schedule automated orders using PowerAgent, stake CVP tokens, and participate in community automation bounties.",
+    "tokenomics": "The $CVP token acts as economic collateral for Keeper nodes, coordinates task execution bounties, and governs protocol upgrades.",
+    "sybilSafety": "Creating automated smart contract tasks that execute real transactions confirms organic utility.",
+    "faqs": [
+      {
+        "question": "What is PowerAgent?",
+        "answer": "PowerAgent is PowerPool decentralized network of automated bots that execute smart contract calls when preset conditions are met."
+      }
+    ],
+    "requirements": [
+      "EVM Wallet",
+      "ETH or xDAI for gas",
+      "Web browser"
+    ]
+  },
+  {
+    "id": "conflux-network",
+    "name": "Conflux Network",
+    "description": "Regulatory-compliant hybrid Tree-Graph consensus Layer 1 connecting Asian markets and global Web3 liquidity.",
+    "category": "Layer 1",
+    "status": "active",
+    "reward": "$CFX Staking APR + Ecosystem Incentives",
+    "funding": "$35M+",
+    "investors": "Sequoia China, DWF Labs, Baidu, Web3 Capital",
+    "stage": "Mainnet Live",
+    "difficulty": "Easy",
+    "estimatedTime": "10 mins",
+    "featured": false,
+    "logo": "/images/airdrops/conflux-network.svg",
+    "steps": [
+      "Connect Fluent Wallet or MetaMask to <strong>Conflux eSpace</strong> (EVM compatible).",
+      "Acquire native <strong>$CFX</strong> tokens and stake with Proof-of-Stake consensus validators.",
+      "Interact with Conflux eSpace DeFi dApps (Swappi, MoonSwap).",
+      "Explore official stablecoin integrations and cross-chain bridge portals."
+    ],
+    "overview": "Conflux Network is a high-throughput public Layer 1 blockchain operating on a proprietary Tree-Graph consensus algorithm. Compliant with Chinese regulatory frameworks, Conflux powers cross-border digital asset settlement, Asian enterprise loyalty programs, and high-speed EVM applications.",
+    "strategy": "Bridge assets into Conflux eSpace, stake CFX in PoS validation pools, and trade on native decentralized exchanges.",
+    "tokenomics": "The $CFX token provides gas fees for smart contract execution, validator staking yields, and governance voting weight.",
+    "sybilSafety": "Active PoS staking and regular eSpace transaction history demonstrate authentic human participation.",
+    "faqs": [
+      {
+        "question": "What is Conflux eSpace?",
+        "answer": "Conflux eSpace is the EVM-compatible execution layer of Conflux, allowing standard MetaMask connections and Solidity dApps."
+      }
+    ],
+    "requirements": [
+      "MetaMask / Fluent Wallet",
+      "CFX tokens",
+      "Web browser"
+    ]
+  },
+  {
+    "id": "kresko-fi",
+    "name": "Kresko",
+    "description": "Capital-efficient synthetic asset protocol on Base and Arbitrum allowing users to mint stocks, crypto, and commodities.",
+    "category": "DeFi",
+    "status": "active",
+    "reward": "$KRESKO Allocation + Krédits Season",
+    "funding": "$2.3M+",
+    "investors": "Electric Capital, Maven 11, Robot Ventures",
+    "stage": "Mainnet Beta",
+    "difficulty": "Medium",
+    "estimatedTime": "15 mins",
+    "featured": false,
+    "logo": "/images/airdrops/kresko-fi.svg",
+    "steps": [
+      "Access <strong>Kresko Finance</strong> on Base or Arbitrum.",
+      "Deposit collateral (ETH, USDC) to mint synthetic assets (kUSD, kTSLA, kBTC).",
+      "Provide liquidity into Kresko synthetic AMM pools to earn swap fees.",
+      "Accumulate Krédits points on the official leaderboard."
+    ],
+    "overview": "Kresko is an open-source decentralized protocol for creating synthetic assets. Backed by Electric Capital and Maven 11, Kresko introduces hyper-capital-efficient collateralization models, allowing users worldwide to gain exposure to global stocks, commodities, and crypto assets without custody friction.",
+    "strategy": "Mint synthetic assets, supply liquidity to Kresko pools, and maintain healthy collateralization ratios to earn Krédits points.",
+    "tokenomics": "The upcoming Kresko token will govern collateral risk parameters, oracle selection, and treasury fee distributions.",
+    "sybilSafety": "Collateralized debt positions maintained over weeks confirm genuine economic utility.",
+    "faqs": [
+      {
+        "question": "What are Krédits in Kresko?",
+        "answer": "Krédits are loyalty points awarded for minting, holding, and providing liquidity for synthetic assets."
+      }
+    ],
+    "requirements": [
+      "EVM Wallet",
+      "ETH / USDC on Base",
+      "Web browser"
+    ]
+  },
+  {
+    "id": "catalyst-amm",
+    "name": "Catalyst",
+    "description": "$4.2M Spartan and Robot backed permissionless cross-chain liquidity engine connecting modular rollups without centralized bridges.",
+    "category": "Interoperability",
+    "status": "active",
+    "reward": "$CATALYST Token + Universal Liquidity XP",
+    "funding": "$4.2M",
+    "investors": "Spartan Group, Robot Ventures, Maven 11, Foresight",
+    "stage": "Incentivized Testnet",
+    "difficulty": "Easy",
+    "estimatedTime": "10 mins",
+    "featured": false,
+    "logo": "/images/airdrops/catalyst-amm.svg",
+    "steps": [
+      "Connect Web3 wallet to the <strong>Catalyst Cross-Chain Portal</strong>.",
+      "Claim testnet tokens across multiple supported rollups (Sepolia, Base Sepolia, Arbitrum Sepolia).",
+      "Execute cross-chain swaps connecting sovereign rollup liquidity.",
+      "Provide test liquidity into Catalyst universal pools to earn liquidity badges."
+    ],
+    "overview": "Catalyst is an open-source, permissionless liquidity engine designed to connect all modular rollups. Supported by Spartan Group and Robot Ventures, Catalyst allows any new appchain or Layer 3 to tap into shared multi-chain liquidity instantly without deploying centralized bridge contracts.",
+    "strategy": "Execute testnet cross-chain swaps, provide liquidity to Catalyst pools, and participate in community quest campaigns.",
+    "tokenomics": "The $CATALYST token will coordinate decentralized liquidity rebalancing, subsidize transaction fees, and govern router parameters.",
+    "sybilSafety": "Executing test swaps across diverse rollup pairs establishes organic multi-chain tester status.",
+    "faqs": [
+      {
+        "question": "What makes Catalyst unique?",
+        "answer": "Catalyst allows any modular rollup to connect to global liquidity permissionlessly without requiring centralized bridge partnerships."
+      }
+    ],
+    "requirements": [
+      "EVM Wallet",
+      "Testnet gas tokens",
+      "Web browser"
+    ]
+  },
+  {
+    "id": "rhino-fi",
+    "name": "rhino.fi",
+    "description": "StarkEx-powered ultra-fast multi-chain bridge and DeFi aggregation portal supporting 25+ chains with zero gas trade options.",
+    "category": "Interoperability",
+    "status": "active",
+    "reward": "$RHINO Loyalty Gems + Zero-Fee Bridge Campaigns",
+    "funding": "$10M+ Ecosystem",
+    "investors": "StarkWare, DefiAlliance, Blockchain.com Ventures",
+    "stage": "Mainnet Live",
+    "difficulty": "Easy",
+    "estimatedTime": "5 mins",
+    "featured": false,
+    "logo": "/images/airdrops/rhino-fi.svg",
+    "steps": [
+      "Connect Web3 wallet to <strong>rhino.fi</strong>.",
+      "Bridge assets across Ethereum, Arbitrum, Base, Linea, Scroll, and Solana in seconds.",
+      "Trade spot pairs or deposit into automated yield vaults on rhino.fi.",
+      "Collect rhino.fi Gems and climb the seasonal loyalty leaderboard."
+    ],
+    "overview": "rhino.fi is a frictionless multi-chain DeFi aggregator powered by StarkWare StarkEx zero-knowledge rollup engine. Processing billions in volume, rhino.fi allows users to swap, bridge, and earn yield across dozens of blockchains without needing native gas tokens on destination networks.",
+    "strategy": "Use rhino.fi for regular cross-chain asset rebalancing, participate in promotional zero-fee bridging campaigns, and accumulate Gems.",
+    "tokenomics": "The $RHINO governance token coordinates platform fee revenues, liquidity pool staking, and DAO decision-making.",
+    "sybilSafety": "Consistent multi-chain bridging of non-trivial capital across several months guarantees non-Sybil status.",
+    "faqs": [
+      {
+        "question": "How fast are bridge transactions on rhino.fi?",
+        "answer": "Most cross-chain transfers on rhino.fi settle within 15 to 45 seconds using StarkEx off-chain batch proofs."
+      }
+    ],
+    "requirements": [
+      "EVM / Solana Wallet",
+      "Crypto assets for bridging",
+      "Web browser"
+    ]
   }
 ];

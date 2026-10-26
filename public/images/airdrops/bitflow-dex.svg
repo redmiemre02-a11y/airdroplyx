@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
+  <defs>
+    <linearGradient id="bitflowGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F97316"/>
+      <stop offset="100%" stop-color="#FB923C"/>
+    </linearGradient>
+  </defs>
+  <rect width="128" height="128" rx="32" fill="#1C1917"/>
+  <path d="M40 50 C55 35 73 35 88 50 C73 65 55 65 40 50 Z" fill="url(#bitflowGrad)"/>
+  <path d="M40 78 C55 63 73 63 88 78 C73 93 55 93 40 78 Z" fill="url(#bitflowGrad)"/>
+</svg>
