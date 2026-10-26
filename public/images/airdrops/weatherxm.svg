@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
+  <defs>
+    <linearGradient id="weatherGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0284C7"/>
+      <stop offset="100%" stop-color="#38BDF8"/>
+    </linearGradient>
+  </defs>
+  <rect width="128" height="128" rx="32" fill="#082F49"/>
+  <path d="M46 76 C36 76 32 68 34 60 C36 52 44 48 50 50 C54 40 66 38 74 44 C82 38 94 44 92 56 C98 58 100 66 96 72 C92 76 86 76 82 76 Z" fill="url(#weatherGrad)"/>
+</svg>

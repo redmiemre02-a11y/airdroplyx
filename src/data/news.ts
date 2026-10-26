@@ -398,7 +398,7 @@ During Mining Gala Phase 3, users bridging Bitcoin and deploying capital across 
       "Validators",
       "Throughput"
     ],
-    "relatedAirdropId": "solayer",
+    "relatedAirdropId": "solayer-labs",
     "content": "Jump Crypto's highly anticipated independent Solana validator client, Firedancer, has completed major stress-testing milestones across dedicated testnet clusters, registering throughput figures exceeding 1 million transactions per second in simulated network conditions.\\n\\nHistorically, Solana's consensus and execution layers have relied predominantly on the original Labs client implementation, creating potential systemic concentration risk. Firedancer, rewritten from the ground up in high-performance C and C++, introduces independent software architecture and memory management that dramatically lowers latency while preventing single-client software halted states.\\n\\nEcosystem protocols, particularly high-frequency decentralized exchanges and restaking layers like Solayer, stand to gain significant performance leaps as validator nodes progressively migrate to hybrid Frankendancer and full Firedancer deployments. Community node operators running testnet telemetry continue to play a pivotal role ahead of broad mainnet activation."
   },
   {
@@ -666,5 +666,102 @@ During Mining Gala Phase 3, users bridging Bitcoin and deploying capital across 
     ],
     "relatedAirdropId": "alex-lab",
     "content": "ALEX, the premier decentralized financial infrastructure protocol for the Bitcoin ecosystem, has officially rolled out major protocol upgrades taking full advantage of the Stacks Nakamoto hard fork. The upgrade permanently resolves Bitcoin's historical transaction latency, reducing block settlement times from 10 minutes to under 5 seconds while inheriting 100% of Bitcoin's Proof-of-Work finality.\n\nThe deployment introduces high-frequency orderbook swaps for Runes, BRC-20 assets, and Stacks native tokens with zero custodial risk. Furthermore, ALEX has integrated the decentralized sBTC gateway, allowing users to move native Bitcoin seamlessly into high-yield decentralized lending and liquidity pools.\n\nTraders and liquidity providers actively testing the upgraded AMM pools and staking $ALEX tokens are positioned for increased fee share distributions and launchpad allocations as the Bitcoin Layer 2 ecosystem accelerates."
+  },
+  {
+    "slug": "hivemapper-honey-fleet-mapping-surge",
+    "title": "Hivemapper Expands Decentralized Road Mapping Past 100 Million Road Kilometers",
+    "excerpt": "Multicoin-backed DePIN mapping network Hivemapper achieves massive global street coverage on Solana as AI Trainer rewards scale up.",
+    "author": "Airdroplyx DePIN Desk",
+    "date": "October 26, 2026",
+    "readTime": "4 min read",
+    "category": "Breaking",
+    "image": "https://images.unsplash.com/photo-1549399542-7e3f8b79c341?w=1200&q=80",
+    "tags": [
+      "Hivemapper",
+      "HONEY",
+      "DePIN",
+      "Solana",
+      "Mapping"
+    ],
+    "relatedAirdropId": "hivemapper",
+    "content": "Hivemapper, the decentralized mapping network built on Solana and backed by $18M from Multicoin Capital and Spark Capital, has surpassed 100 million total road kilometers mapped worldwide. By equipping everyday delivery drivers, rideshare operators, and commuters with 4K dashcams, Hivemapper is challenging traditional centralized mapping monopolies with real-time freshness.\n\nThe protocol's edge vision system processes street footage directly, uploading cryptographically signed road imagery over high-speed networks. The network has also expanded its AI Trainer program on the web portal, allowing non-drivers to classify roadway objects, audit speed limit changes, and validate construction zones for $HONEY token distributions.\n\nEnterprise demand for real-time map data APIs from automotive, logistics, and navigation companies continues to grow, with API consumers burning HONEY tokens to acquire fresh map data streams across major global metropolitan centers."
+  },
+  {
+    "slug": "spark-protocol-sky-usds-allocation-milestone",
+    "title": "Spark Protocol Surpasses $2 Billion in Total Value Locked with Sky USDS Inflows",
+    "excerpt": "Flagship MakerDAO/Sky lending engine Spark reaches multi-billion liquidity milestone as institutional USDS savings module adoption surges.",
+    "author": "Airdroplyx DeFi Desk",
+    "date": "October 26, 2026",
+    "readTime": "5 min read",
+    "category": "Alpha Intel",
+    "image": "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?w=1200&q=80",
+    "tags": [
+      "Spark",
+      "Sky",
+      "MakerDAO",
+      "DeFi",
+      "Lending",
+      "USDS"
+    ],
+    "relatedAirdropId": "spark-protocol",
+    "content": "Spark Protocol, the foundational liquidity engine of the Sky ecosystem (formerly MakerDAO), has crossed $2 billion in Total Value Locked (TVL) across Ethereum and Gnosis Chain. Driven by the successful transition to USDS stablecoins and high-yield sUSDS savings mechanisms, Spark has established itself among the top non-custodial capital allocators in Web3.\n\nSparkLend provides direct access to Maker's wholesale liquidity, offering competitive borrow rates for institutional borrowers and yield seekers. Furthermore, the Spark governance framework has confirmed the ongoing SPK pre-farming allocation, which continuously tracks user deposits into Spark Savings and lending markets.\n\nWith new multi-chain expansions planned across emerging Layer 2 networks, Spark's capital allocation efficiency continues to set benchmarks for decentralized credit infrastructure."
+  },
+  {
+    "slug": "dimo-network-connected-vehicle-telemetry-milestone",
+    "title": "DIMO Surpasses 100,000 Connected Vehicles Streaming Verifiable IoT Telemetry",
+    "excerpt": "CoinFund-backed DIMO sets landmark milestone on Polygon, processing billions of miles of decentralized vehicle telemetry data.",
+    "author": "Airdroplyx Research Team",
+    "date": "October 26, 2026",
+    "readTime": "4 min read",
+    "category": "Breaking",
+    "image": "https://images.unsplash.com/photo-1549399542-7e3f8b79c341?w=1200&q=80",
+    "tags": [
+      "DIMO",
+      "DePIN",
+      "Polygon",
+      "IoT",
+      "Automotive"
+    ],
+    "relatedAirdropId": "dimo-network",
+    "content": "DIMO, the leading automotive IoT network built on Polygon, has officially reached the 100,000 connected vehicle milestone. Supported by more than $20M in venture funding from CoinFund, Variant, and Slow Ventures, DIMO enables drivers to retain sovereign ownership of their connected vehicle telemetry.\n\nThrough hardware OBD-II devices and native connected vehicle software integrations with major automakers, DIMO drivers stream battery performance, diagnostic trouble codes, and maintenance metrics securely onto the blockchain. In exchange, drivers receive baseline weekly $DIMO token rewards scaled by their continuous connectivity streak tier.\n\nDIMO's developer ecosystem has also seen accelerated growth, with third-party decentralized insurance apps, peer-to-peer car sharing protocols, and predictive maintenance tools integrating DIMO telemetry streams."
+  },
+  {
+    "slug": "weatherxm-arbitrum-token-distribution-deployment",
+    "title": "WeatherXM Deploys High-Precision Meteorological Oracle Network on Arbitrum",
+    "excerpt": "Lightspeed and Placeholder-backed WeatherXM scales community weather stations to over 80 countries, providing real-time microclimate feeds.",
+    "author": "Airdroplyx Intel Desk",
+    "date": "October 26, 2026",
+    "readTime": "4 min read",
+    "category": "Alpha Intel",
+    "image": "https://images.unsplash.com/photo-1504608524841-42fe6f032b4b?w=1200&q=80",
+    "tags": [
+      "WeatherXM",
+      "WXM",
+      "Arbitrum",
+      "DePIN",
+      "IoT"
+    ],
+    "relatedAirdropId": "weatherxm",
+    "content": "WeatherXM, the decentralized meteorological network supported by $12.7M from Lightspeed Faction and Placeholder VC, has deployed its advanced on-chain weather oracle infrastructure on Arbitrum, connecting thousands of physical weather stations across 80+ countries.\n\nBy democratizing meteorological data collection, WeatherXM replaces capital-intensive centralized weather monitoring with decentralized, consumer-deployed IoT hardware. Stations equipped with solar power and satellite/cellular connectivity transmit uninterrupted temperature, atmospheric pressure, and precipitation telemetry.\n\nStation operators receive daily $WXM distributions calculated using Proof-of-Location and Quality of Data (QoD) metrics. The resulting hyper-local weather feeds are increasingly utilized by parametric agricultural insurance protocols and renewable energy dispatch models on-chain."
+  },
+  {
+    "slug": "odos-aggregator-multi-token-cross-chain-surge",
+    "title": "Odos Aggregator Surpasses $15 Billion in Cumulative Smart Order Routing Volume",
+    "excerpt": "Semiotic Labs-developed DEX aggregator Odos expands multi-token basket swaps and cross-chain execution across major rollups.",
+    "author": "Airdroplyx DeFi Desk",
+    "date": "October 26, 2026",
+    "readTime": "4 min read",
+    "category": "Breaking",
+    "image": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=1200&q=80",
+    "tags": [
+      "Odos",
+      "DEX Aggregator",
+      "DeFi",
+      "Multi-Token",
+      "Arbitrum",
+      "Base"
+    ],
+    "relatedAirdropId": "odos-aggregator",
+    "content": "Odos, the advanced decentralized exchange aggregator engineered by Semiotic Labs, has crossed $15 billion in cumulative swap volume across Ethereum, Arbitrum, Base, Optimism, and Polygon. Powered by patented multi-input and multi-output graph pathfinding algorithms, Odos has become a primary trading router for DeFi power users.\n\nUnlike traditional single-asset DEX routers, Odos allows users to consolidate multiple tokens into a single asset—or split one token into an entire diversified portfolio—in a single atomic transaction, saving up to 40% in gas costs compared to multiple sequential swaps.\n\nOdos's Loyalty Program continues to track active traders with seasonal leaderboard points, fueling expectations for an upcoming decentralized governance framework."
   }
 ];

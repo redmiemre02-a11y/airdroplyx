@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
+  <defs>
+    <linearGradient id="siloGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#3B82F6"/>
+      <stop offset="100%" stop-color="#1D4ED8"/>
+    </linearGradient>
+  </defs>
+  <rect width="128" height="128" rx="32" fill="url(#siloGrad)"/>
+  <path d="M44 42 C44 32 84 32 84 42 L84 86 C84 96 44 96 44 86 Z" fill="none" stroke="#FFFFFF" stroke-width="8"/>
+  <line x1="44" y1="56" x2="84" y2="56" stroke="#FFFFFF" stroke-width="4"/>
+</svg>

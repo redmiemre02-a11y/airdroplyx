@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
+  <defs>
+    <linearGradient id="lifGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#14B8A6"/>
+      <stop offset="100%" stop-color="#0D9488"/>
+    </linearGradient>
+  </defs>
+  <rect width="128" height="128" rx="32" fill="#042F2E"/>
+  <path d="M44 64 C44 54 52 46 64 46 C76 46 84 54 84 64 C84 74 76 82 64 82 C52 82 44 74 44 64 Z" fill="none" stroke="url(#lifGrad)" stroke-width="8"/>
+</svg>

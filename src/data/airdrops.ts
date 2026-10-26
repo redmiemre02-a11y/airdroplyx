@@ -23103,5 +23103,905 @@ export const airdrops: Airdrop[] = [
       "Crypto assets for bridging",
       "Web browser"
     ]
+  },
+  {
+    "id": "hivemapper",
+    "name": "Hivemapper",
+    "description": "Decentralized global mapping network powered by everyday drivers using 4K dashcams on Solana.",
+    "category": "DePIN",
+    "status": "active",
+    "reward": "$HONEY Token Rewards & Map Verification Bounties",
+    "funding": "$18M",
+    "investors": "Multicoin Capital, Spark Capital, Founder Collective, Craft Ventures",
+    "stage": "Mainnet Live",
+    "difficulty": "Medium",
+    "estimatedTime": "Ongoing (Driving / QA)",
+    "featured": true,
+    "logo": "/images/airdrops/hivemapper.svg",
+    "steps": [
+      "Install a certified <strong>Hivemapper Dashcam</strong> (Open Dashcam or Dashcam S) in your vehicle.",
+      "Connect the dashcam to the Hivemapper Companion App on iOS or Android.",
+      "Drive and collect high-definition street-level imagery across mapped hexagonal regions.",
+      "Participate in AI Trainer QA bounties on the web platform to validate road signs, speed limits, and lanes for extra $HONEY."
+    ],
+    "overview": "Hivemapper is a decentralized physical infrastructure network (DePIN) transforming real-time map building on Solana. By incentivizing drivers to capture 4K street footage and community reviewers to annotate computer vision models, Hivemapper produces constantly updated, high-fidelity mapping data at a fraction of legacy tech monopolies cost.",
+    "strategy": "Deploy hardware in high-multiplier burst hexes in major metropolitan corridors, upload daily telemetry via WiFi, and regularly complete AI Trainer validation tasks on the web dashboard.",
+    "tokenomics": "The $HONEY token serves as both utility and reward currency: drivers and validators earn $HONEY, while enterprise mapping customers burn $HONEY to access map APIs and imagery.",
+    "sybilSafety": "Hardware-level cryptographic secure elements and GNSS geo-fencing prevent synthetic telemetry spoofing or emulated driving runs.",
+    "faqs": [
+      {
+        "question": "Can I earn $HONEY without driving?",
+        "answer": "Yes! Hivemapper offers Map AI Trainer tasks on desktop web browsers where anyone can annotate and audit imagery for HONEY rewards."
+      }
+    ],
+    "requirements": [
+      "Hivemapper Dashcam or PC for AI Trainer",
+      "Solana Wallet (Phantom/Solflare)",
+      "Hivemapper App"
+    ]
+  },
+  {
+    "id": "dimo-network",
+    "name": "DIMO",
+    "description": "Connected vehicle IoT DePIN streaming telemetry data to open mobility protocols on Polygon.",
+    "category": "DePIN",
+    "status": "active",
+    "reward": "$DIMO Rewards & Protocol Farming Points",
+    "funding": "$20M+",
+    "investors": "CoinFund, Variant Fund, Slow Ventures, HashKey Capital",
+    "stage": "Mainnet Live",
+    "difficulty": "Easy",
+    "estimatedTime": "5 mins setup",
+    "featured": true,
+    "logo": "/images/airdrops/dimo-network.svg",
+    "steps": [
+      "Download the <strong>DIMO Mobile</strong> app and create an account.",
+      "Connect your vehicle via smart car integration (Tesla, Ford, BMW, etc.) or plug in a DIMO AutoPi OBD-II device.",
+      "Keep your vehicle connected to stream weekly telemetry data (battery health, mileage, diagnostics).",
+      "Earn $DIMO tokens weekly based on your connection streak level and participate in mobility app marketplace perks."
+    ],
+    "overview": "DIMO is an open automotive IoT data network that empowers vehicle owners to take control of their connected car data. Built on Polygon, DIMO enables drivers to monitor car health, monetize telemetry anonymously, and access decentralized auto insurance, peer-to-peer maintenance, and EV battery health analytics.",
+    "strategy": "Maintain continuous weekly vehicle connectivity to level up your streak multiplier (Level 1 to Level 4) for significantly higher baseline $DIMO weekly distributions.",
+    "tokenomics": "$DIMO is the native governance and utility token used to secure the network, reward drivers for weekly telemetry streaming, and govern app store marketplace integrations.",
+    "sybilSafety": "Vehicle Identification Number (VIN) cryptographic registration and hardware OBD-II binding prevent duplicate or emulated vehicle registrations.",
+    "faqs": [
+      {
+        "question": "Which vehicles are compatible with DIMO?",
+        "answer": "Most modern vehicles (2008+) support the DIMO Macaron hardware device, and hundreds of 2018+ connected vehicles support direct software connection."
+      }
+    ],
+    "requirements": [
+      "Connected car or DIMO hardware",
+      "DIMO Mobile App",
+      "Polygon compatible wallet"
+    ]
+  },
+  {
+    "id": "weatherxm",
+    "name": "WeatherXM",
+    "description": "Decentralized meteorological IoT station network delivering hyper-local weather data on Arbitrum.",
+    "category": "DePIN",
+    "status": "active",
+    "reward": "$WXM Daily Rewards & Meteorological Staking",
+    "funding": "$12.7M",
+    "investors": "Placeholder VC, Lightspeed Faction, Borderless Capital, ConsenSys Mesh",
+    "stage": "Mainnet Live",
+    "difficulty": "Medium",
+    "estimatedTime": "15 mins install",
+    "featured": false,
+    "logo": "/images/airdrops/weatherxm.svg",
+    "steps": [
+      "Purchase and deploy a <strong>WeatherXM Weather Station</strong> (WiFi or Helium/Cellular model).",
+      "Mount the sensor outdoor following standard WMO meteorological guidelines.",
+      "Pair the hardware with the WeatherXM mobile app and link your Arbitrum wallet.",
+      "Transmit uninterrupted atmospheric readings (temperature, humidity, wind, rainfall) to earn daily $WXM."
+    ],
+    "overview": "WeatherXM is a community-powered weather network building the worlds most comprehensive hyper-local meteorological database. By replacing centralized, expensive government weather stations with decentralized consumer IoT sensors deployed globally, WeatherXM provides high-accuracy weather forecasts, disaster early warnings, and parametric agricultural insurance data.",
+    "strategy": "Ensure optimal station positioning with zero physical obstructions to maintain a 100% Quality of Data (QoD) score, maximizing daily $WXM token payouts.",
+    "tokenomics": "The $WXM token incentivizes sensor station operators, coordinates DAO governance parameters, and powers commercial weather data APIs purchased by agriculture, energy, and logistics enterprises.",
+    "sybilSafety": "Proof-of-Location cryptographic signatures and neighbor cross-validation algorithms filter out spoofed or manipulated weather sensor readings.",
+    "faqs": [
+      {
+        "question": "How do WeatherXM rewards get calculated?",
+        "answer": "Rewards are computed daily based on sensor uptime, data precision, and geographical novelty score."
+      }
+    ],
+    "requirements": [
+      "WeatherXM Station",
+      "Arbitrum Wallet",
+      "WeatherXM Mobile App"
+    ]
+  },
+  {
+    "id": "geodnet",
+    "name": "GEODNET",
+    "description": "Decentralized Real-Time Kinematic (RTK) GNSS satellite station network enabling centimeter-level precision.",
+    "category": "DePIN",
+    "status": "active",
+    "reward": "$GEOD Mining Rewards & Global RTK Staking",
+    "funding": "$3.5M",
+    "investors": "Borderless Capital, IoTeX, Web3.com Ventures",
+    "stage": "Mainnet Live",
+    "difficulty": "Medium",
+    "estimatedTime": "20 mins setup",
+    "featured": false,
+    "logo": "/images/airdrops/geodnet.svg",
+    "steps": [
+      "Deploy a <strong>GEODNET MobileCM Miner</strong> with clear view of the sky on your rooftop.",
+      "Connect the miner to your local network and register your station on the GEODNET console.",
+      "Provide continuous high-precision RTK GNSS satellite reference observations.",
+      "Receive daily $GEOD token rewards and stake in geo-bounties for network expansion."
+    ],
+    "overview": "GEODNET (Global Earth Observation Decentralized Network) is the worlds largest decentralized RTK reference network. By utilizing multi-band GNSS receivers deployed by rooftop operators, GEODNET corrects standard GPS satellite timing errors from meters down to millimeters, empowering autonomous drones, smart agriculture tractors, and robotic lawnmowers.",
+    "strategy": "Install mining hardware in high-demand industrial or metropolitan hexes without competing receivers to capture top-tier 100% hex reward multipliers.",
+    "tokenomics": "$GEOD is the native utility token used to purchase RTK precision correction streams, reward miner hosts, and participate in protocol governance.",
+    "sybilSafety": "Triple-band satellite tracking algorithms, phase lock detection, and physical antenna multipath profiling prevent GPS signal simulation.",
+    "faqs": [
+      {
+        "question": "What is RTK positioning?",
+        "answer": "Real-Time Kinematic (RTK) improves GPS receiver positioning accuracy from ~3 meters down to less than 1-2 centimeters."
+      }
+    ],
+    "requirements": [
+      "GEODNET Miner Hardware",
+      "Clear roof view",
+      "Polygon Wallet"
+    ]
+  },
+  {
+    "id": "roam-network",
+    "name": "Roam",
+    "description": "Decentralized global OpenRoaming WiFi network bridging telecom infrastructure with Web3 incentives.",
+    "category": "DePIN",
+    "status": "active",
+    "reward": "$ROAM Token & Roam Points Airdrop",
+    "funding": "$5M",
+    "investors": "Samsung Next, Ankr, EV3, Sparkle Ventures",
+    "stage": "Mainnet Live",
+    "difficulty": "Easy",
+    "estimatedTime": "3 mins",
+    "featured": false,
+    "logo": "/images/airdrops/roam-network.svg",
+    "steps": [
+      "Install the <strong>Roam App</strong> on your smartphone (formerly MetaBlox).",
+      "Add OpenRoaming WiFi profiles to connect automatically to millions of verified global hotspots.",
+      "Check in at local WiFi networks, validate connection speeds, and add your home router to earn Roam Points.",
+      "Deploy a Roam Rainier MAX miner router for heavy passive mining distributions."
+    ],
+    "overview": "Roam is a pioneering DePIN project leading the Wireless Broadband Alliance (WBA) OpenRoaming revolution. Connecting users seamlessly to millions of enterprise-grade WiFi access points worldwide without passwords or web captive portals, Roam provides carrier-grade telecom offloading while rewarding community node operators with on-chain assets.",
+    "strategy": "Check in daily at discovered Roam WiFi nodes, add verified public hotspots, and run a certified Roam router for constant background point generation.",
+    "tokenomics": "Roam Points accumulate towards the $ROAM token generation event, facilitating decentralized telecom billing, identity management, and node operation incentives.",
+    "sybilSafety": "Hardware MAC ID verification and WBA OpenRoaming cryptographic certificates ensure strictly physical network check-ins.",
+    "faqs": [
+      {
+        "question": "Is Roam free to use for mobile users?",
+        "answer": "Yes! The Roam mobile app is completely free and automatically connects your smartphone to Passpoint-certified OpenRoaming networks."
+      }
+    ],
+    "requirements": [
+      "iOS or Android smartphone",
+      "Roam Mobile App",
+      "Web3 Wallet"
+    ]
+  },
+  {
+    "id": "natix-network",
+    "name": "NATIX Network",
+    "description": "AI-powered street-level geospatial computer vision crowdsourcing network on Peaq and Solana.",
+    "category": "DePIN",
+    "status": "active",
+    "reward": "$NATIX Rewards & Driver Gem Season",
+    "funding": "$13.5M",
+    "investors": "Borderless Capital, Animoca Brands, Big Brain Holdings, IoTeX",
+    "stage": "Mainnet Live",
+    "difficulty": "Easy",
+    "estimatedTime": "5 mins",
+    "featured": false,
+    "logo": "/images/airdrops/natix-network.svg",
+    "steps": [
+      "Download <strong>Drive&</strong> by NATIX on iOS or Android.",
+      "Mount your smartphone on your vehicle dashboard facing the roadway.",
+      "Start the Drive& camera mode during daily commutes to detect real-time traffic, potholes, and road hazards.",
+      "Earn NATIX GEMs and convert them into $NATIX tokens alongside weekly leaderboard bonuses."
+    ],
+    "overview": "NATIX Network turns standard consumer smartphones into an intelligent decentralized camera network without sacrificing personal privacy. Utilizing edge AI vision models, the Drive& app processes video frames entirely on-device, extracting anonymized metadata (such as road obstacles, traffic congestion, and parking availability) to reward drivers with $NATIX.",
+    "strategy": "Activate Drive& during every routine commute, join driver teams for group multiplier boosts, and complete in-app driving streaks.",
+    "tokenomics": "The $NATIX token coordinates geospatial data purchases by smart city developers, mobility apps, and driver reward staking.",
+    "sybilSafety": "Edge AI inference validation and accelerometer sensor matching eliminate stationary phone spoofing or artificial video playback.",
+    "faqs": [
+      {
+        "question": "Does NATIX upload personal dashcam video?",
+        "answer": "No. All computer vision processing happens directly on your device. Only anonymized numerical telemetry is shared."
+      }
+    ],
+    "requirements": [
+      "Smartphone with camera",
+      "Vehicle dashboard mount",
+      "NATIX Drive& App"
+    ]
+  },
+  {
+    "id": "kuzco-network",
+    "name": "Kuzco",
+    "description": "Decentralized GPU cluster network optimizing high-throughput low-latency LLM inference on Solana.",
+    "category": "AI",
+    "status": "active",
+    "reward": "Kuzco Points & Upcoming GPU Protocol Allocation",
+    "funding": "$3M",
+    "investors": "Placeholder VC, Solana Ventures, DePIN Capital",
+    "stage": "Mainnet Live",
+    "difficulty": "Medium",
+    "estimatedTime": "10 mins setup",
+    "featured": false,
+    "logo": "/images/airdrops/kuzco-network.svg",
+    "steps": [
+      "Install the <strong>Kuzco Node Client</strong> on Mac, Linux, or Windows with an Apple Silicon or NVIDIA GPU.",
+      "Register your Solana wallet address in the Kuzco CLI terminal.",
+      "Idle your compute to service distributed LLM inference queries (Llama-3, Mistral, Qwen).",
+      "Monitor your Kuzco worker dashboard to accumulate points based on validated tokens processed per second."
+    ],
+    "overview": "Kuzco is a high-speed distributed inference network built on Solana, aggregating thousands of consumer and enterprise GPUs to run open-source large language models. By enabling developers to tap into decentralized compute with OpenAI-compatible API endpoints, Kuzco dramatically cuts LLM inference costs for Web3 and AI applications.",
+    "strategy": "Keep your node active 24/7 with optimal cooling and run modern GPUs (NVIDIA RTX 3080/4090 or Apple M-series chips) for peak token generation throughput.",
+    "tokenomics": "Kuzco points track inference compute contributions towards the native protocol token, which will govern model registration and API request burn mechanics.",
+    "sybilSafety": "Proof-of-Inference cryptographic challenges and deterministic token checksum verification prevent fake worker reporting.",
+    "faqs": [
+      {
+        "question": "Can I run Kuzco on a Mac?",
+        "answer": "Yes! Kuzco has native M1/M2/M3 Apple Silicon support with unified memory optimization."
+      }
+    ],
+    "requirements": [
+      "GPU or Apple Silicon Mac",
+      "Solana Wallet",
+      "Kuzco CLI worker"
+    ]
+  },
+  {
+    "id": "bagel-network",
+    "name": "Bagel Network",
+    "description": "Decentralized machine learning data and model ecosystem empowering collaborative verifiable AI.",
+    "category": "AI",
+    "status": "active",
+    "reward": "Bagel Contributor Points & Early Ecosystem Allocation",
+    "funding": "$3.1M",
+    "investors": "CoinFund, Protocol Labs, Borderless Capital, EV3",
+    "stage": "Testnet / Developer Alpha",
+    "difficulty": "Medium",
+    "estimatedTime": "10 mins",
+    "featured": false,
+    "logo": "/images/airdrops/bagel-network.svg",
+    "steps": [
+      "Visit the <strong>Bagel Network</strong> developer portal and connect your Web3 wallet.",
+      "Join the developer data registry and participate in open-source dataset curation.",
+      "Upload fine-tuning data or run a Bagel data validation node.",
+      "Complete ecosystem quests and track your contributor rank on the Bagel leaderboard."
+    ],
+    "overview": "Bagel Network is building a decentralized data ecosystem tailored for artificial intelligence and machine learning engineering. By combining verifiable data storage with cryptographic attribution, Bagel creates a marketplace where AI developers and data owners collaborate to train autonomous models without centralized platform monopolies.",
+    "strategy": "Participate actively in dataset uploading, benchmark verification tasks, and developer alpha test environments to build proof-of-contribution.",
+    "tokenomics": "The Bagel native token will facilitate dataset licensing, automated model royalties, and decentralized node governance.",
+    "sybilSafety": "Cryptographic data hashes and multi-party peer review prevent low-quality or AI-generated spam submissions.",
+    "faqs": [
+      {
+        "question": "What is Bagels core mission?",
+        "answer": "Bagel aims to decentralize the AI data pipeline, giving creators ownership and attribution over their training data."
+      }
+    ],
+    "requirements": [
+      "EVM Wallet",
+      "GitHub / Discord account",
+      "Web browser"
+    ]
+  },
+  {
+    "id": "atoma-network",
+    "name": "Atoma Network",
+    "description": "Decentralized AI inference and execution network with verifiable compute built on Sui.",
+    "category": "AI",
+    "status": "active",
+    "reward": "Early Tester Incentives & Atoma Protocol Allocation",
+    "funding": "$2.5M",
+    "investors": "Mysten Labs, Maven 11, Apollo Crypto, Big Brain Holdings",
+    "stage": "Developer Testnet",
+    "difficulty": "Medium",
+    "estimatedTime": "10 mins",
+    "featured": false,
+    "logo": "/images/airdrops/atoma-network.svg",
+    "steps": [
+      "Connect Sui wallet to the <strong>Atoma Network</strong> developer playground.",
+      "Test AI model queries via Atomas decentralized inference endpoints.",
+      "Provide developer feedback and register for early node validator access.",
+      "Interact with partnered decentralized applications utilizing Atoma on Sui."
+    ],
+    "overview": "Atoma Network is an open decentralized AI inference network designed specifically for ultra-low latency compute on Sui. Leveraging Suis object-centric architecture and parallel execution engine, Atoma facilitates verifiable AI inferences for smart contracts, autonomous agents, and dApps with cryptographic integrity.",
+    "strategy": "Interact with Atoma test APIs, submit test queries, participate in developer hackathons, and maintain active roles in the Atoma community.",
+    "tokenomics": "Native Atoma tokens will coordinate inference node collateral staking, request pricing fees, and governance parameter votes.",
+    "sybilSafety": "Sui on-chain signature verification and zero-knowledge inference proofs eliminate phantom query generation.",
+    "faqs": [
+      {
+        "question": "Why is Atoma built on Sui?",
+        "answer": "Suis sub-second settlement and parallel transaction engine enable instant verification of decentralized AI model outputs."
+      }
+    ],
+    "requirements": [
+      "Sui Wallet (Sui Wallet / Nightly)",
+      "Testnet SUI tokens",
+      "Web browser"
+    ]
+  },
+  {
+    "id": "silo-finance",
+    "name": "Silo Finance",
+    "description": "Isolated risk lending and borrowing protocol securing long-tail and blue-chip DeFi assets across multiple chains.",
+    "category": "DeFi",
+    "status": "active",
+    "reward": "$SILO Token Rewards & Silo V2 Pioneer Incentives",
+    "funding": "$5M+",
+    "investors": "DeFiance Capital, Joey Santoro, Santiago R Santos, Kain Warwick",
+    "stage": "Mainnet Live",
+    "difficulty": "Easy",
+    "estimatedTime": "10 mins",
+    "featured": false,
+    "logo": "/images/airdrops/silo-finance.svg",
+    "steps": [
+      "Connect Web3 wallet to <strong>Silo Finance</strong> on Arbitrum, Ethereum, or Sonic.",
+      "Deposit collateral into an isolated Silo market (e.g. ETH, wstETH, or niche ecosystem tokens).",
+      "Borrow stablecoins or ETH against your deposited position while isolating risk.",
+      "Stake native $SILO or provide liquidity in partner reward pools to earn enhanced APR."
+    ],
+    "overview": "Silo Finance is a permissionless, risk-isolating lending protocol that prevents cascade liquidations across DeFi. Unlike shared-pool lending models where an exploit of one asset threatens all collateral, Silo isolates every token market into independent pairs with a base asset (ETH or stablecoins), safeguarding user deposits even during extreme market volatility.",
+    "strategy": "Provide liquidity to active Silo V2 lending pools, maintain balanced health factors, and stake $SILO tokens in the governance safety module.",
+    "tokenomics": "The $SILO token governs protocol interest rate curves, fee distributions, and Silo market deployments across all supported blockchains.",
+    "sybilSafety": "Capital commitments locked in isolated smart contracts across weeks demonstrate genuine DeFi liquidity provision.",
+    "faqs": [
+      {
+        "question": "What makes Silo Finance safer than traditional lending pools?",
+        "answer": "Silo uses isolated markets: if a volatile token collapses or is exploited, only that specific silo is impacted, not the rest of the protocol."
+      }
+    ],
+    "requirements": [
+      "Web3 EVM Wallet (MetaMask/Rabby)",
+      "Crypto assets on Arbitrum/Ethereum",
+      "Web browser"
+    ]
+  },
+  {
+    "id": "notional-finance",
+    "name": "Notional Finance",
+    "description": "Fixed-rate, fixed-term borrowing and lending protocol with automated leveraged vaults on Ethereum and Arbitrum.",
+    "category": "DeFi",
+    "status": "active",
+    "reward": "$NOTE Token Staking & V3 Yield Farming",
+    "funding": "$10M+",
+    "investors": "Pantera Capital, Coinbase Ventures, ParaFi Capital, 1confirmation",
+    "stage": "Mainnet Live",
+    "difficulty": "Medium",
+    "estimatedTime": "10 mins",
+    "featured": false,
+    "logo": "/images/airdrops/notional-finance.svg",
+    "steps": [
+      "Connect Web3 wallet to <strong>Notional Finance</strong> on Arbitrum or Ethereum.",
+      "Lend stablecoins (USDC/DAI) or ETH at guaranteed fixed rates across 3, 6, or 12 month maturities.",
+      "Deposit into Notional Leveraged Vaults to compound organic DeFi yields.",
+      "Stake $NOTE in the Notional sNOTE safety module to earn protocol treasury fees."
+    ],
+    "overview": "Notional Finance brings certainty to decentralized finance by introducing fixed-rate lending, borrowing, and leveraged yield strategies. Powered by innovative fCash financial primitives, Notional allows institutions and retail participants to lock in predictable interest rates without suffering the wild fluctuations of variable yield protocols.",
+    "strategy": "Supply fixed-term deposits across diverse maturities, explore low-risk leveraged vault strategies, and accumulate sNOTE safety module rewards.",
+    "tokenomics": "$NOTE is the governance token governing risk parameters, collateral ratios, and fCash market maturities, supported by protocol buybacks.",
+    "sybilSafety": "Substantial fixed-term locked deposits over multi-month maturity durations provide definitive non-Sybil on-chain proof.",
+    "faqs": [
+      {
+        "question": "What is fCash in Notional Finance?",
+        "answer": "fCash is a transferable token representing a guaranteed claim to cash at a specific future date, enabling fixed-rate trading."
+      }
+    ],
+    "requirements": [
+      "Ethereum or Arbitrum Wallet",
+      "ETH or stablecoins",
+      "Web browser"
+    ]
+  },
+  {
+    "id": "spark-protocol",
+    "name": "Spark Protocol",
+    "description": "Flagship decentralized lending protocol and capital allocation engine of Sky (MakerDAO) with over $2B TVL.",
+    "category": "DeFi",
+    "status": "active",
+    "reward": "$SPK Token Airdrop & Pre-farming Farming Yield",
+    "funding": "$100M+ MakerDAO Treasury Backing",
+    "investors": "MakerDAO / Sky Ecosystem, Framework Ventures, Dragonfly",
+    "stage": "Mainnet Live",
+    "difficulty": "Easy",
+    "estimatedTime": "10 mins",
+    "featured": true,
+    "logo": "/images/airdrops/spark-protocol.svg",
+    "steps": [
+      "Navigate to <strong>Spark.fi</strong> on Ethereum or Gnosis Chain.",
+      "Supply collateral (ETH, wstETH, sDAI, or USDS) into SparkLend.",
+      "Borrow DAI or USDS at competitive fixed MakerDAO stability fees.",
+      "Supply USDS or sDAI into the Spark Savings module to qualify for the ongoing $SPK pre-farming token distribution."
+    ],
+    "overview": "Spark is the premier liquidity and lending engine of the Sky ecosystem (formerly MakerDAO). With deep direct access to the Maker credit line, Spark provides institutional-grade borrowing terms, ultra-deep liquidity, and high-yield savings products through SparkLend and the Spark Cash product suite.",
+    "strategy": "Deposit stable assets into the Spark Savings Rate (sUSDS / sDAI) and provide collateral on SparkLend to accumulate $SPK airdrop allocations continuously.",
+    "tokenomics": "The upcoming $SPK token governs the Spark subDAO, directing protocol liquidity deployments, revenue sharing, and collateral onboarding votes.",
+    "sybilSafety": "Sustained TVL deposits in MakerDAO smart contracts across multiple snapshots guarantee non-Sybil status.",
+    "faqs": [
+      {
+        "question": "Is the $SPK token confirmed?",
+        "answer": "Yes! MakerDAO / Sky governance has officially confirmed the SPK token distribution for Spark pre-farming participants."
+      }
+    ],
+    "requirements": [
+      "Ethereum EVM Wallet",
+      "ETH, DAI, or USDS",
+      "Web browser"
+    ]
+  },
+  {
+    "id": "yieldnest-lrt",
+    "name": "YieldNest",
+    "description": "Next-generation liquid restaking protocol powered by curated risk architecture on EigenLayer and Symbiotic.",
+    "category": "DeFi",
+    "status": "active",
+    "reward": "Seeds Loyalty Points & Upcoming $YND Airdrop",
+    "funding": "$5.2M",
+    "investors": "Faculty Group, Proof Group, Kyber Ventures, L1D",
+    "stage": "Mainnet Live",
+    "difficulty": "Easy",
+    "estimatedTime": "5 mins",
+    "featured": false,
+    "logo": "/images/airdrops/yieldnest-lrt.svg",
+    "steps": [
+      "Connect Web3 wallet to <strong>YieldNest</strong> on Ethereum Mainnet.",
+      "Deposit native ETH or liquid staking tokens (stETH, wstETH) to mint ynETH or ynLSDe.",
+      "Hold ynETH or deposit into partner DeFi liquidity pools (Curve, Pendle, Balancer).",
+      "Earn daily YieldNest Seeds alongside underlying EigenLayer and Symbiotic restaking points."
+    ],
+    "overview": "YieldNest is an institutional-grade liquid restaking protocol (LRT) engineering isolated risk vaults on top of EigenLayer and Symbiotic. By curating Actively Validated Services (AVS) into risk-adjusted tranches, YieldNest enables users to maximize restaking yields while minimizing slash risk exposure.",
+    "strategy": "Mint ynETH and supply into Pendle yield pools or provide DEX liquidity to earn stacked Seeds multipliers alongside restaking points.",
+    "tokenomics": "YieldNest Seeds convert into the native $YND governance token, empowering token holders to vote on AVS risk curation and fee structures.",
+    "sybilSafety": "On-chain restaked ETH balances locked in non-custodial smart contracts serve as ironclad proof of legitimate participation.",
+    "faqs": [
+      {
+        "question": "What are YieldNest Seeds?",
+        "answer": "Seeds are the official loyalty points earned by holding ynETH and interacting with partnered DeFi protocols."
+      }
+    ],
+    "requirements": [
+      "Ethereum Wallet",
+      "ETH or stETH",
+      "Web browser"
+    ]
+  },
+  {
+    "id": "sommelier-finance",
+    "name": "Sommelier Finance",
+    "description": "Automated institutional DeFi yield vault architecture powered by off-chain computation and Cosmos validators.",
+    "category": "DeFi",
+    "status": "active",
+    "reward": "$SOMM Rewards & Real Yield Vault Payouts",
+    "funding": "$25M",
+    "investors": "Polychain Capital, Alameda Research, Multicoin Capital, Standard Crypto",
+    "stage": "Mainnet Live",
+    "difficulty": "Easy",
+    "estimatedTime": "5 mins",
+    "featured": false,
+    "logo": "/images/airdrops/sommelier-finance.svg",
+    "steps": [
+      "Connect Web3 wallet to <strong>Sommelier Finance</strong> on Ethereum, Arbitrum, or Optimism.",
+      "Choose an automated yield strategy vault (Turbo stETH, Real Yield USD, Fraximal).",
+      "Deposit collateral to let intelligent off-chain rebalancing maximize dynamic APY.",
+      "Hold vault tokens to collect yield in real time and stake native $SOMM for protocol revenue share."
+    ],
+    "overview": "Sommelier Finance is an innovative DeFi asset management protocol that executes sophisticated dynamic trading strategies across multiple chains. By pairing Ethereum smart contracts with off-chain algorithmic strategy computation verified by Cosmos validators, Sommelier delivers risk-managed automated vault performance.",
+    "strategy": "Maintain active capital deposits in flagship Real Yield vaults over multiple market epochs to capture high real yields and community incentives.",
+    "tokenomics": "$SOMM is the native token used for validator staking, network security, and governing vault parameter rebalancing permissions.",
+    "sybilSafety": "Continuous smart contract deposit balances verifiable on Ethereum and Arbitrum block explorers establish authentic usage.",
+    "faqs": [
+      {
+        "question": "Are Sommelier vaults non-custodial?",
+        "answer": "Yes! Vaults are non-custodial smart contracts; strategy providers can only rebalance parameters, never withdraw user funds."
+      }
+    ],
+    "requirements": [
+      "EVM Wallet (MetaMask/Rabby)",
+      "ETH or stablecoins",
+      "Web browser"
+    ]
+  },
+  {
+    "id": "dodo-exchange",
+    "name": "DODO Exchange",
+    "description": "Decentralized trading platform and Proactive Market Maker (PMM) offering capital-efficient liquidity across 15+ chains.",
+    "category": "DeFi",
+    "status": "active",
+    "reward": "$DODO Staking Rewards & Omnidrome Trading Bounties",
+    "funding": "$5M+",
+    "investors": "Pantera Capital, Binance Labs, Three Arrows Capital, Framework Ventures",
+    "stage": "Mainnet Live",
+    "difficulty": "Easy",
+    "estimatedTime": "5 mins",
+    "featured": false,
+    "logo": "/images/airdrops/dodo-exchange.svg",
+    "steps": [
+      "Connect Web3 wallet to <strong>DODO Exchange</strong> on Ethereum, Arbitrum, Base, or Scroll.",
+      "Perform spot swaps with minimal slippage powered by DODOs PMM algorithm.",
+      "Provide single-sided or paired liquidity to earn trading fees and protocol rewards.",
+      "Stake DODO to receive vDODO membership tokens for dividend fee distributions and voting rights."
+    ],
+    "overview": "DODO is a decentralized trading protocol powered by the Proactive Market Maker (PMM) algorithm, engineered to mimic human market making and deliver superior capital efficiency compared to traditional AMMs. With features like single-token liquidity provision and zero impermanent loss risk for pegged pairs, DODO supports seamless multi-chain trading.",
+    "strategy": "Trade actively across diverse networks on DODO, provide liquidity into single-sided pools, and stake DODO into vDODO for membership dividends.",
+    "tokenomics": "$DODO and $vDODO govern protocol treasury distributions, reward liquidity providers, and grant trading fee rebates.",
+    "sybilSafety": "Executing authentic volume and holding staked vDODO positions demonstrate genuine decentralized trading identity.",
+    "faqs": [
+      {
+        "question": "What is the advantage of DODO Proactive Market Maker (PMM)?",
+        "answer": "PMM concentrates liquidity around market prices, offering lower slippage and enabling single-sided liquidity deposits."
+      }
+    ],
+    "requirements": [
+      "EVM Wallet",
+      "Crypto assets for swapping",
+      "Web browser"
+    ]
+  },
+  {
+    "id": "quickswap-dex",
+    "name": "QuickSwap",
+    "description": "Premier Polygon Layer 2 and Polygon zkEVM decentralized exchange and concentrated liquidity hub.",
+    "category": "DeFi",
+    "status": "active",
+    "reward": "$QUICK Rewards & DragonFi Ecosystem Incentives",
+    "funding": "$1M+ Community Backed",
+    "investors": "Polygon Foundation, Angel Investors",
+    "stage": "Mainnet Live",
+    "difficulty": "Easy",
+    "estimatedTime": "5 mins",
+    "featured": false,
+    "logo": "/images/airdrops/quickswap-dex.svg",
+    "steps": [
+      "Connect Web3 wallet to <strong>QuickSwap</strong> on Polygon PoS, Polygon zkEVM, or Astar zkEVM.",
+      "Swap tokens with ultra-low gas fees and minimal slippage.",
+      "Deposit into concentrated liquidity (Algebra V3 / V4) pools to earn trading fees.",
+      "Stake $QUICK into the Dragons Lair (dQUICK) to receive compounding protocol trading fee yields."
+    ],
+    "overview": "QuickSwap is the cornerstone decentralized exchange and liquidity powerhouse of the Polygon ecosystem. Supporting concentrated liquidity pools, perpetual swaps, and multi-chain expansion across zero-knowledge rollups, QuickSwap enables lightning-fast trades with fractions of a cent in transaction costs.",
+    "strategy": "Provide concentrated liquidity on major pairs (ETH/USDC, POL/USDC), trade perpetual contracts on QuickPerps, and stake QUICK in the Dragons Lair.",
+    "tokenomics": "$QUICK is the foundational governance token, capturing a fraction of every swap executed across the DragonFi network.",
+    "sybilSafety": "Consistent multi-month liquidity provisioning and active dQUICK staking confirm non-Sybil on-chain footprint.",
+    "faqs": [
+      {
+        "question": "What is the Dragons Lair on QuickSwap?",
+        "answer": "The Dragons Lair allows holders to stake QUICK to earn dQUICK, which continuously appreciates against QUICK as trading fees accrue."
+      }
+    ],
+    "requirements": [
+      "Polygon / zkEVM Wallet",
+      "POL / ETH for gas",
+      "Web browser"
+    ]
+  },
+  {
+    "id": "woofi-dex",
+    "name": "WOOFi",
+    "description": "Cross-chain decentralized exchange powered by synthetic proactive market making and sub-second settlement.",
+    "category": "DeFi",
+    "status": "active",
+    "reward": "$WOO Rewards & Cross-Chain Supercharger Yields",
+    "funding": "$12M+",
+    "investors": "Binance Labs, WOO Network, Dragonfly, Foresight Ventures",
+    "stage": "Mainnet Live",
+    "difficulty": "Easy",
+    "estimatedTime": "5 mins",
+    "featured": false,
+    "logo": "/images/airdrops/woofi-dex.svg",
+    "steps": [
+      "Navigate to <strong>WOOFi</strong> and connect your Web3 wallet.",
+      "Perform cross-chain swaps powered by LayerZero and Stargate integration.",
+      "Deposit assets into WOOFi Supercharger vaults to earn single-sided yields.",
+      "Stake native $WOO tokens to earn protocol revenue in USDC."
+    ],
+    "overview": "WOOFi is a high-efficiency decentralized exchange built across 11+ blockchains including Arbitrum, Avalanche, Polygon, Base, and Linea. Driven by the Synthetic Proactive Market Maker (sPMM) algorithm, WOOFi replicates centralized exchange order book pricing on-chain, minimizing slippage and maximizing capital efficiency.",
+    "strategy": "Utilize WOOFi Cross-Chain for multi-network bridging, supply liquidity to Supercharger vaults, and stake WOO for real yield revenue sharing.",
+    "tokenomics": "$WOO powers platform staking yields, fee discounts, and governance across both the CeFi and DeFi WOO ecosystems.",
+    "sybilSafety": "Cross-chain bridging transactions executed via LayerZero and Stargate leave immutable cryptographic trails across networks.",
+    "faqs": [
+      {
+        "question": "How does WOOFi achieve zero impermanent loss in Superchargers?",
+        "answer": "Supercharger vaults only require single-sided asset deposits, eliminating impermanent loss risk completely for depositors."
+      }
+    ],
+    "requirements": [
+      "EVM Wallet",
+      "Gas tokens on supported chain",
+      "Web browser"
+    ]
+  },
+  {
+    "id": "odos-aggregator",
+    "name": "Odos Aggregator",
+    "description": "Smart order routing DEX aggregator enabling complex multi-token input and output swaps across 10+ chains.",
+    "category": "DeFi",
+    "status": "active",
+    "reward": "Odos Loyalty Points & Expected Token Generation Event",
+    "funding": "Undisclosed (Semiotic Labs)",
+    "investors": "Semiotic Labs, Web3 Ecosystem Angels",
+    "stage": "Mainnet Live",
+    "difficulty": "Easy",
+    "estimatedTime": "5 mins",
+    "featured": true,
+    "logo": "/images/airdrops/odos-aggregator.svg",
+    "steps": [
+      "Connect Web3 wallet to <strong>Odos.xyz</strong>.",
+      "Select any supported network (Ethereum, Arbitrum, Base, Optimism, Polygon, etc.).",
+      "Execute multi-input or multi-output token swaps (e.g. swap 3 tokens into 1 in a single transaction).",
+      "Collect Odos Loyalty Points and participate in seasonal swap competitions."
+    ],
+    "overview": "Odos is a patented DEX aggregator developed by Semiotic Labs that uses automated market maker graph algorithms to discover the most capital-efficient swap paths. Famous for its multi-token input/output functionality, Odos allows users to liquidate or rebalance entire portfolios in a single atomic transaction.",
+    "strategy": "Use Odos as your primary swap aggregator across multiple networks, experiment with multi-token basket swaps, and earn tiered loyalty points.",
+    "tokenomics": "Odos points track user trading volume and unique interaction metrics ahead of the highly anticipated protocol governance token.",
+    "sybilSafety": "On-chain transaction graphs with non-trivial volume across multiple decentralized DEX routers establish verified organic usage.",
+    "faqs": [
+      {
+        "question": "What is a multi-token swap on Odos?",
+        "answer": "Odos allows you to select several input tokens and swap them all into one or more target tokens within a single gas-optimized transaction."
+      }
+    ],
+    "requirements": [
+      "Web3 EVM Wallet",
+      "Crypto assets for swapping",
+      "Web browser"
+    ]
+  },
+  {
+    "id": "bebop-dex",
+    "name": "Bebop",
+    "description": "Seamless decentralized trading platform by Wintermute offering multi-token batch swaps with zero slippage.",
+    "category": "DeFi",
+    "status": "active",
+    "reward": "Bebop Jam Badges & Protocol Rewards",
+    "funding": "Incubated by Wintermute",
+    "investors": "Wintermute Ventures, Jump Capital",
+    "stage": "Mainnet Live",
+    "difficulty": "Easy",
+    "estimatedTime": "5 mins",
+    "featured": false,
+    "logo": "/images/airdrops/bebop-dex.svg",
+    "steps": [
+      "Connect Web3 wallet to <strong>Bebop</strong> on Arbitrum, Ethereum, Polygon, or Base.",
+      "Execute 1-to-many or many-to-1 portfolio batch swaps.",
+      "Enjoy guaranteed zero slippage quotes powered by Wintermutes institutional Request for Quote (RFQ) engine.",
+      "Collect seasonal Bebop Jam Badges and climb the community trading leaderboard."
+    ],
+    "overview": "Bebop is an institutional-grade decentralized trading application developed by leading algorithmic market maker Wintermute. Built around a Request for Quote (RFQ) architecture, Bebop delivers exact execution prices without front-running, sandwich attacks, or MEV losses, making it ideal for retail traders and portfolio rebalancers.",
+    "strategy": "Execute regular batch trades on Bebop across diverse supported chains, claim Jam Badges on Galxe/Bebop quests, and participate in community trading events.",
+    "tokenomics": "Bebop Jam Badges recognize early trading loyalty, anticipating future protocol reward and governance distributions.",
+    "sybilSafety": "RFQ trades settled against institutional market maker signatures provide definitive proof of authentic user trading.",
+    "faqs": [
+      {
+        "question": "Why does Bebop have zero slippage?",
+        "answer": "Bebop uses an RFQ model where professional market makers guarantee the exact quote you see before you sign the transaction."
+      }
+    ],
+    "requirements": [
+      "Web3 EVM Wallet",
+      "Crypto assets for trading",
+      "Web browser"
+    ]
+  },
+  {
+    "id": "openocean-dex",
+    "name": "OpenOcean",
+    "description": "Leading Web3 DEX and CEX aggregation protocol finding optimal prices across 30+ blockchains.",
+    "category": "DeFi",
+    "status": "active",
+    "reward": "$OOE Rewards & Ecosystem Trading Campaigns",
+    "funding": "$3.7M",
+    "investors": "Binance Labs, Multicoin Capital, Kenetic, Altonomy, LD Capital",
+    "stage": "Mainnet Live",
+    "difficulty": "Easy",
+    "estimatedTime": "5 mins",
+    "featured": false,
+    "logo": "/images/airdrops/openocean-dex.svg",
+    "steps": [
+      "Connect Web3 wallet to <strong>OpenOcean</strong> across any of the 30+ supported networks.",
+      "Perform spot or cross-chain swaps utilizing OpenOceans intelligent routing algorithm.",
+      "Provide liquidity in OpenOcean pools or participate in gas refund campaigns.",
+      "Stake native $OOE tokens to earn protocol governance yield and trading fee rebates."
+    ],
+    "overview": "OpenOcean is one of the most comprehensive cross-chain DEX aggregators in Web3, connecting liquidity from hundreds of decentralized and centralized venues across Ethereum, Solana, Arbitrum, Base, and Aptos. Its advanced routing engine splits transactions dynamically across multiple pools to achieve the lowest slippage.",
+    "strategy": "Perform swaps across diverse Layer 2s, take advantage of zero-fee cross-chain bridge promotions, and stake $OOE for fee discounts.",
+    "tokenomics": "The $OOE token grants DAO voting governance, staking yields, trading fee rebates, and promotional gas subsidies for platform power users.",
+    "sybilSafety": "Multi-chain swap logs spanning several distinct Layer 1 and Layer 2 ecosystems prove authentic, decentralized user activity.",
+    "faqs": [
+      {
+        "question": "Does OpenOcean support Solana and EVM chains together?",
+        "answer": "Yes! OpenOcean supports over 30 EVM chains alongside non-EVM ecosystems like Solana and Aptos."
+      }
+    ],
+    "requirements": [
+      "EVM or Solana Wallet",
+      "Crypto tokens for trading",
+      "Web browser"
+    ]
+  },
+  {
+    "id": "lifinity-dex",
+    "name": "Lifinity",
+    "description": "Decentralized proactive market maker DEX on Solana with concentrated liquidity and reverse impermanent loss.",
+    "category": "DeFi",
+    "status": "active",
+    "reward": "$LFNTY Protocol Revenue Share & veLFNTY Rewards",
+    "funding": "Self-Funded / Community Fair Launch",
+    "investors": "Community / Solana Ecosystem",
+    "stage": "Mainnet Live",
+    "difficulty": "Easy",
+    "estimatedTime": "5 mins",
+    "featured": false,
+    "logo": "/images/airdrops/lifinity-dex.svg",
+    "steps": [
+      "Connect Phantom or Solflare wallet to <strong>Lifinity</strong> on Solana.",
+      "Swap tokens with ultra-deep concentrated liquidity and low slippage.",
+      "Stake native $LFNTY or lock into veLFNTY to receive protocol revenue dividends in SOL and USDC.",
+      "Provide single-sided or paired liquidity into specialized Lifinity market-making pools."
+    ],
+    "overview": "Lifinity is a groundbreaking proactive market maker (PMM) DEX on Solana designed to eliminate impermanent loss and generate consistent protocol revenue. By combining concentrated liquidity with high-frequency Pyth oracle pricing feeds, Lifinity acts like a professional market maker, turning traditional DEX market-making dynamics into profitable automated pools.",
+    "strategy": "Trade on Lifinity, acquire $LFNTY, and lock into veLFNTY for 100% protocol trading fee distributions paid out in pure SOL and USDC.",
+    "tokenomics": "$LFNTY locked as veLFNTY receives protocol trading profits, participates in parameter governance, and commands liquidity voting power.",
+    "sybilSafety": "On-chain veLFNTY token locking contracts on Solana provide permanent, non-Sybil proof of genuine protocol commitment.",
+    "faqs": [
+      {
+        "question": "How does Lifinity avoid impermanent loss?",
+        "answer": "Lifinity uses Pyth oracle price feeds rather than arbitrageur trades to update pool prices, preventing toxic order flow."
+      }
+    ],
+    "requirements": [
+      "Solana Wallet (Phantom/Solflare)",
+      "SOL for gas",
+      "Web browser"
+    ]
+  },
+  {
+    "id": "theta-network",
+    "name": "Theta Network",
+    "description": "Decentralized cloud infrastructure for video streaming, media delivery, and distributed AI edge computing.",
+    "category": "DePIN",
+    "status": "active",
+    "reward": "$TFUEL Staking Yields & Theta EdgeCloud Computing Rewards",
+    "funding": "$100M+",
+    "investors": "Sony Innovation Fund, Samsung NEXT, Bertelsmann, DCM, Sierra Ventures",
+    "stage": "Mainnet Live",
+    "difficulty": "Medium",
+    "estimatedTime": "15 mins",
+    "featured": false,
+    "logo": "/images/airdrops/theta-network.svg",
+    "steps": [
+      "Download and launch the <strong>Theta Edge Node</strong> software on PC or Mac.",
+      "Configure your node to share spare bandwidth and GPU compute for video transcoding and AI inference.",
+      "Earn $TFUEL tokens continuously for servicing decentralized EdgeCloud computing jobs.",
+      "Stake $THETA or $TFUEL to guardian or elite edge nodes for network consensus yields."
+    ],
+    "overview": "Theta Network is a dual-token decentralized physical infrastructure network purpose-built for video, media, and artificial intelligence. Backed by industry giants like Google, Samsung, and Sony, Thetas EdgeCloud aggregates global consumer GPU hardware to dramatically reduce streaming bandwidth costs and deliver distributed AI compute.",
+    "strategy": "Run an Edge Node continuously on a capable GPU-equipped computer, stake TFUEL into Edge Node operations, and accumulate daily network rewards.",
+    "tokenomics": "$THETA serves as the governance staking token securing the blockchain, while $TFUEL operates as the operational gas and micro-payment currency for computing jobs.",
+    "sybilSafety": "Hardware-verified bandwidth sharing, video transcoding proofs, and GPU workload checkpoints ensure authentic decentralized node performance.",
+    "faqs": [
+      {
+        "question": "What is Theta EdgeCloud?",
+        "answer": "Theta EdgeCloud is a hybrid cloud-decentralized platform offering scalable AI and video rendering compute powered by thousands of Edge Nodes worldwide."
+      }
+    ],
+    "requirements": [
+      "PC / Mac computer with GPU",
+      "Theta Wallet",
+      "Theta Edge Node software"
+    ]
+  },
+  {
+    "id": "crust-network",
+    "name": "Crust Network",
+    "description": "Decentralized storage protocol on Polkadot and IPFS providing Web3 cloud hosting and file preservation.",
+    "category": "Infrastructure",
+    "status": "active",
+    "reward": "$CRU Storage Mining & Ecosystem Bounties",
+    "funding": "$5M+",
+    "investors": "NGC Ventures, DFG, AU21 Capital, Bitrise Capital, HashCIB",
+    "stage": "Mainnet Live",
+    "difficulty": "Medium",
+    "estimatedTime": "10 mins",
+    "featured": false,
+    "logo": "/images/airdrops/crust-network.svg",
+    "steps": [
+      "Connect Polkadot.js or EVM wallet to <strong>Crust Files</strong> or Crust Apps.",
+      "Upload and pin Web3 files, NFT metadata, or decentralized websites onto IPFS backed by Crust.",
+      "Place storage orders using $CRU tokens to guarantee 100+ year file persistence.",
+      "Run a Crust storage node or stake $CRU tokens to validate storage guarantees and earn mining rewards."
+    ],
+    "overview": "Crust Network is a decentralized storage network built on the Substrate framework and integrated with IPFS. Utilizing Trusted Execution Environment (TEE) hardware proofs, Crust verifies storage availability and file integrity without exposing sensitive data, powering Web3 sites, metaverse assets, and decentralized dApp hosting.",
+    "strategy": "Use Crust Files for decentralized file storage, pin project assets onto IPFS, and stake $CRU into validator and storage guarantor nodes.",
+    "tokenomics": "The $CRU token coordinates storage order payments, validator collateral staking, and on-chain decentralized governance.",
+    "sybilSafety": "Hardware TEE proofs (Intel SGX) and cryptographic file retention proofs make storage spoofing virtually impossible.",
+    "faqs": [
+      {
+        "question": "How is Crust different from vanilla IPFS?",
+        "answer": "Vanilla IPFS has no built-in incentive to retain files. Crust provides an economic incentive layer ensuring nodes keep your files pinned."
+      }
+    ],
+    "requirements": [
+      "Polkadot.js or EVM Wallet",
+      "CRU tokens",
+      "Web browser"
+    ]
+  },
+  {
+    "id": "chia-network",
+    "name": "Chia Network",
+    "description": "Eco-friendly Layer 1 blockchain powered by Proof of Space and Time using unused hard drive storage.",
+    "category": "Layer 1",
+    "status": "active",
+    "reward": "$XCH Farming Rewards & Climate Ecosystem Grants",
+    "funding": "$60M+",
+    "investors": "Andreessen Horowitz (a16z), Naval Ravikant, Slow Ventures, Greylock Partners",
+    "stage": "Mainnet Live",
+    "difficulty": "Medium",
+    "estimatedTime": "30 mins",
+    "featured": false,
+    "logo": "/images/airdrops/chia-network.svg",
+    "steps": [
+      "Download and install the official <strong>Chia Network</strong> client on your desktop computer.",
+      "Create Chia cryptographic plots (K-32 files) using available hard drive storage capacity.",
+      "Join an open Chia farming pool (Space Pool, Chia Pool) to start harvesting regular block payouts.",
+      "Interact with Chia asset tokens (CATs) and decentralized offers on Chia-native dApps."
+    ],
+    "overview": "Chia Network is an environmentally sustainable, decentralized Layer 1 blockchain founded by BitTorrent creator Bram Cohen. Replacing energy-hungry Proof of Work with Proof of Space and Time (PoST), Chia allows participants to farm blocks using empty hard drive space, creating one of the most geographically distributed validator networks in crypto.",
+    "strategy": "Allocate spare storage capacity towards Chia plotting, connect to an established farming pool for smooth payout streams, and hold farmed $XCH.",
+    "tokenomics": "$XCH is the native coin of the Chia blockchain, used for transaction gas, smart coin logic execution, and block farming rewards.",
+    "sybilSafety": "Cryptographic Proof of Space tables written to physical drive sectors cannot be falsified without genuine physical disk storage.",
+    "faqs": [
+      {
+        "question": "Does Chia farming damage SSDs?",
+        "answer": "Modern Chia plotting tools (like Bladebit RAM) can plot entirely in system memory, preventing SSD write wear."
+      }
+    ],
+    "requirements": [
+      "Desktop PC with spare hard drive space",
+      "Chia Reference Client",
+      "Broadband internet"
+    ]
+  },
+  {
+    "id": "router-protocol",
+    "name": "Router Protocol",
+    "description": "Cross-chain intent communication and interoperability layer bridging EVM and non-EVM blockchains.",
+    "category": "Interoperability",
+    "status": "active",
+    "reward": "$ROUTE Staking Yields & Router Nitro Cross-Chain Bounties",
+    "funding": "$4.1M",
+    "investors": "Coinbase Ventures, Wintermute, QCP Capital, Polygon Studios",
+    "stage": "Mainnet Live",
+    "difficulty": "Easy",
+    "estimatedTime": "5 mins",
+    "featured": false,
+    "logo": "/images/airdrops/router-protocol.svg",
+    "steps": [
+      "Connect Web3 wallet to <strong>Router Nitro</strong> (app.routernitro.com).",
+      "Execute ultra-fast cross-chain transfers between Ethereum, Arbitrum, Solana, Tron, and Sui.",
+      "Provide liquidity into Router cross-chain reverse pools to earn transaction fee yields.",
+      "Stake native $ROUTE tokens to participate in Router Chain validator consensus."
+    ],
+    "overview": "Router Protocol is an interoperability framework engineered to enable seamless cross-chain messaging, asset transfers, and intent-driven dApps. Through its flagship bridge engine Router Nitro, the network achieves cross-chain finality in seconds across both EVM chains and heterogeneous non-EVM ecosystems like Solana and Move networks.",
+    "strategy": "Bridge assets across diverse chains using Router Nitro, provide liquidity to high-volume token pools, and stake $ROUTE on Router Chain.",
+    "tokenomics": "$ROUTE is the native gas and governance token securing the Router Chain, incentivizing relayers, and distributing cross-chain protocol fees.",
+    "sybilSafety": "Inter-blockchain cryptographic state proofs verify cross-chain asset settlements without reliance on centralized single-point relays.",
+    "faqs": [
+      {
+        "question": "What is Router Nitro?",
+        "answer": "Router Nitro is the flagship cross-chain bridge powered by Router Protocol, offering 15-second cross-chain swaps with minimal fees."
+      }
+    ],
+    "requirements": [
+      "EVM / Solana Wallet",
+      "Crypto assets for bridging",
+      "Web browser"
+    ]
   }
 ];
