@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
+  <defs>
+    <linearGradient id="gitGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#059669"/>
+      <stop offset="100%" stop-color="#10B981"/>
+    </linearGradient>
+  </defs>
+  <rect width="128" height="128" rx="32" fill="#022C22"/>
+  <circle cx="64" cy="64" r="30" fill="none" stroke="url(#gitGrad)" stroke-width="8"/>
+  <path d="M48 64 L58 74 L80 50" stroke="#34D399" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+</svg>

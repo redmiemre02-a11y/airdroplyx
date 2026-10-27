@@ -953,5 +953,100 @@ During Mining Gala Phase 3, users bridging Bitcoin and deploying capital across 
     ],
     "relatedAirdropId": "stride-zone",
     "content": "Stride, the premier interchain liquid staking protocol secured by the Cosmos Hub via Interchain Security, has crossed $150 million in cumulative liquid staking deposits, driven by rapid adoption of stTIA and stATOM.\n\nBacked by Pantera Capital and Multicoin Capital, Stride utilizes Interchain Accounts (ICA) over IBC to allow users to stake their proof-of-stake assets without locking up liquidity. stTokens continuously appreciate against host assets as staking rewards compound daily, while maintaining deep composability across Osmosis and modular EVM rollups.\n\nWith ongoing protocol revenue sharing paid out directly to $STRD stakers in native USDC and ATOM, Stride continues to lead capital efficiency innovations across the Cosmos Interchain."
+  },
+  {
+    "slug": "world-network-world-id-credentials-surge",
+    "title": "World Network Surpasses 10 Million Verified World ID Users Across 45 Countries",
+    "excerpt": "Sam Altman-backed decentralized identity network scales biometric verification on World Chain, ensuring one-human-one-identity Web3 access.",
+    "author": "Airdroplyx Identity Desk",
+    "date": "October 27, 2026",
+    "readTime": "4 min read",
+    "category": "Breaking",
+    "image": "https://images.unsplash.com/photo-1557804506-669a67965ba0?w=1200&q=80",
+    "tags": [
+      "World Network",
+      "Worldcoin",
+      "WLD",
+      "World ID",
+      "Identity"
+    ],
+    "relatedAirdropId": "world-network",
+    "content": "World Network (formerly Worldcoin), the open-source decentralized identity protocol co-founded by OpenAI CEO Sam Altman, has officially crossed 10 million in-person verified World ID users across 45 countries. Backed by $250M+ from a16z crypto, Bain Capital Crypto, and Blockchain Capital, World Network provides a vital proof-of-humanity layer in the age of generative artificial intelligence.\n\nUtilizing zero-knowledge iris cryptography, World Network verifies that an account belongs to a unique living human without storing facial imagery or personal data. The launch of World Chain—a dedicated Ethereum Layer 2 rollup built on the OP Stack—offers verified humans prioritized blockspace and gas-free transactions for everyday identity interactions.\n\nWith major consumer dApps, voting platforms, and social networks adopting World ID to eradicate AI bot farms, World Network's biometric identity standard continues to scale globally."
+  },
+  {
+    "slug": "gitcoin-passport-sybil-defense-grants-record",
+    "title": "Gitcoin Passport Surpasses 1.5 Million Unique Human Verifications Across Web3 Grants",
+    "excerpt": "Ethereum ecosystem identity standard Gitcoin Passport secures tens of millions in quadratic funding from automated Sybil manipulation.",
+    "author": "Airdroplyx Research Team",
+    "date": "October 27, 2026",
+    "readTime": "4 min read",
+    "category": "Alpha Intel",
+    "image": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=1200&q=80",
+    "tags": [
+      "Gitcoin",
+      "Passport",
+      "Sybil Defense",
+      "Identity",
+      "Ethereum"
+    ],
+    "relatedAirdropId": "gitcoin-passport",
+    "content": "Gitcoin Passport, the decentralized verifiable credential aggregator developed by Gitcoin DAO, has surpassed 1.5 million unique identity verifications. Widely adopted across Ethereum, Optimism, Arbitrum, Linea, and Scroll, Gitcoin Passport has become the benchmark Sybil defense mechanism for community airdrops and quadratic funding grants.\n\nBy scoring user wallets based on decentralized Stamps (including GitHub activity, ENS registration, BrightID, and zero-knowledge proofs), Gitcoin Passport ensures that community allocations reward genuine human contributors rather than automated bot operations.\n\nWith over $100 million in matching grants distributed to open-source developers, Gitcoin's verifiable credential framework continues to protect decentralized public goods funding."
+  },
+  {
+    "slug": "tellor-oracle-multi-chain-reporter-growth",
+    "title": "Tellor Oracle Scales Censorship-Resistant Data Feeds to Emerging Optimistic and ZK Rollups",
+    "excerpt": "Permissionless decentralized oracle Tellor expands crypto-economically staked data reporter network across Layer 2 and Layer 3 ecosystems.",
+    "author": "Airdroplyx Intel Desk",
+    "date": "October 27, 2026",
+    "readTime": "4 min read",
+    "category": "Breaking",
+    "image": "https://images.unsplash.com/photo-1639762681485-074b7f938ba0?w=1200&q=80",
+    "tags": [
+      "Tellor",
+      "TRB",
+      "Oracles",
+      "DeFi",
+      "Infrastructure"
+    ],
+    "relatedAirdropId": "tellor-oracle",
+    "content": "Tellor, the transparent and permissionless decentralized oracle network, has announced significant expansion across emerging Ethereum Layer 2 rollups and application chains. Supported by early backing from MakerDAO and Binance Labs, Tellor guarantees that smart contracts can access verified off-chain data without reliance on centralized administrative consortiums.\n\nUnlike traditional permissioned oracles, Tellor allows any user holding staked $TRB tokens to report data values. Price integrity is enforced through open economic challenge windows: if an attacker submits an inaccurate price feed, community members stake dispute fees to trigger slashing and maintain network solvency.\n\nAs decentralized finance protocols seek censorship-resistant fallback oracles to mitigate black-swan oracle failures, Tellor's permissionless model has experienced record integration volume."
+  },
+  {
+    "slug": "thena-fi-fusion-concentrated-liquidity-milestone",
+    "title": "THENA Crosses $10 Billion in Cumulative Volume on BNB Chain and opBNB",
+    "excerpt": "Leading ve(3,3) decentralized exchange THENA captures dominant market share with concentrated FUSION liquidity and weekly bribe gauge voting.",
+    "author": "Airdroplyx DeFi Desk",
+    "date": "October 27, 2026",
+    "readTime": "4 min read",
+    "category": "Alpha Intel",
+    "image": "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?w=1200&q=80",
+    "tags": [
+      "THENA",
+      "THE",
+      "BNB Chain",
+      "ve33",
+      "DeFi"
+    ],
+    "relatedAirdropId": "thena-fi",
+    "content": "THENA, the native liquidity layer and dominant ve(3,3) automated market maker on BNB Chain and opBNB, has officially surpassed $10 billion in cumulative trading volume. Powered by its concentrated liquidity engine (FUSION) and automated bribe voting, THENA has become the go-to liquidity venue for emerging ecosystem protocols.\n\nBy adapting the vote-escrowed (ve) economic model pioneered by Andre Cronje, THENA redirects 100% of all platform trading fees and external incentive bribes directly to veTHE NFT holders. This alignment creates deep liquidity and tight trading spreads across both volatile tokens and pegged stablecoins.\n\nWith expanding integrations across opBNB and BNB Greenfield, THENA's gauge emission architecture continues to drive sustainable real yield for long-term DeFi stakeholders."
+  },
+  {
+    "slug": "chiliz-chain-fan-token-governance-expansion",
+    "title": "Chiliz Chain Powers Millions in Global Sports Engagement as Major Clubs Activate On-Chain Fan Voting",
+    "excerpt": "Sports blockchain pioneer Chiliz reports record fan participation as top European football clubs utilize Socios for official team decision-making.",
+    "author": "Airdroplyx Sports Desk",
+    "date": "October 27, 2026",
+    "readTime": "4 min read",
+    "category": "Alpha Intel",
+    "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?w=1200&q=80",
+    "tags": [
+      "Chiliz",
+      "CHZ",
+      "Fan Tokens",
+      "Sports",
+      "Layer 1"
+    ],
+    "relatedAirdropId": "chiliz-chain",
+    "content": "Chiliz, the leading sports and entertainment Layer 1 blockchain supported by Jump Crypto and Binance, has recorded milestone engagement across its global Fan Token ecosystem. Operating as an EVM-compatible Proof-of-Staked-Authority (PoSA) network, Chiliz Chain hosts official digital assets for over 150 sporting giants including Paris Saint-Germain, FC Barcelona, Manchester City, and Juventus.\n\nThrough Socios.com and decentralized FanSwap liquidity pools, Fan Token holders have voted on hundreds of official club decisions—including stadium jersey designs, celebration songs, and youth academy awards—while redeeming exclusive VIP matchday experiences.\n\nWith staking rewards active for native $CHZ validators and new sports tech incubations rolling out on Chiliz Chain, the convergence of blockchain and mainstream athletics continues to accelerate."
   }
 ];

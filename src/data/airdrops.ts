@@ -25802,5 +25802,905 @@ export const airdrops: Airdrop[] = [
       "Testnet tokens",
       "Web browser"
     ]
+  },
+  {
+    "id": "tellor-oracle",
+    "name": "Tellor",
+    "description": "Transparent, permissionless, decentralized oracle protocol providing censorship-resistant price feeds across EVM chains.",
+    "category": "Infrastructure",
+    "status": "active",
+    "reward": "$TRB Mining Rewards & Reporter Staking Yields",
+    "funding": "$15M+",
+    "investors": "MakerDAO, Binance Labs, ConsenSys Mesh, Borderless Capital",
+    "stage": "Mainnet Live",
+    "difficulty": "Medium",
+    "estimatedTime": "15 mins",
+    "featured": true,
+    "logo": "/images/airdrops/tellor-oracle.svg",
+    "steps": [
+      "Connect Web3 wallet to <strong>Tellor Portal</strong> on Ethereum, Arbitrum, or Polygon.",
+      "Stake native $TRB tokens to become a verified Tellor data reporter.",
+      "Submit verifiable off-chain price values to active tipping requests.",
+      "Earn reporting tips and dispute fees when data queries settle successfully."
+    ],
+    "overview": "Tellor is an un-stoppable, permissionless decentralized oracle built to ensure that smart contracts can always access data without centralized gatekeepers. Utilizing a crypto-economically secured reporter network with dispute staking, anyone who stakes TRB can report data, while bad reporters have their stakes slashed by the community.",
+    "strategy": "Stake TRB tokens to run a lightweight reporter script on Polygon or Arbitrum, answer high-bounty query requests, and participate in dispute arbitration.",
+    "tokenomics": "$TRB is the native utility token required for reporter staking, data tipping bounties, and voting in on-chain dispute resolutions.",
+    "sybilSafety": "Substantial TRB staked in slashing contracts provides cryptographic proof of honest economic alignment.",
+    "faqs": [
+      {
+        "question": "What happens if a Tellor reporter lies?",
+        "answer": "Anyone can initiate a dispute by posting a fee; if the community votes that the reported value is wrong, the reporters staked TRB is burned or given to the challenger."
+      }
+    ],
+    "requirements": [
+      "EVM Wallet (Arbitrum/Ethereum)",
+      "TRB tokens for staking",
+      "Web browser"
+    ]
+  },
+  {
+    "id": "dia-oracle",
+    "name": "DIA",
+    "description": "Cross-chain end-to-end open-source oracle platform providing verifiable and customizable data feeds for Web3 and DeFi.",
+    "category": "Infrastructure",
+    "status": "active",
+    "reward": "$DIA Staking Yields & Custom Oracle Feed Bounties",
+    "funding": "$15M+",
+    "investors": "Outlier Ventures, Continue Capital, Metagrove Ventures, TRG Capital",
+    "stage": "Mainnet Live",
+    "difficulty": "Easy",
+    "estimatedTime": "10 mins",
+    "featured": false,
+    "logo": "/images/airdrops/dia-oracle.svg",
+    "steps": [
+      "Navigate to <strong>DIA Data Hub</strong> (diadata.org).",
+      "Stake native $DIA tokens in the community validation pool.",
+      "Audit open-source data methodologies across 20,000+ token feeds.",
+      "Deploy test feeds or integrate DIA Lumina modular oracle architecture into testnet dApps."
+    ],
+    "overview": "DIA (Decentralized Information Asset) is a multi-chain open-source data and oracle platform powering hundreds of dApps across 50+ blockchains. Unlike black-box oracles, DIA sources raw trades directly from on-chain and off-chain venues, cleaning and computing feeds with full open-source transparency.",
+    "strategy": "Stake DIA tokens in official staking pools, participate in data curation votes, and integrate DIA feeds on newly launched rollups.",
+    "tokenomics": "$DIA governs the protocol data methodologies, rewards community data scrapers, and secures Lumina modular oracle rollups.",
+    "sybilSafety": "On-chain DAO voting records and smart contract token staking verify authentic participant credentials.",
+    "faqs": [
+      {
+        "question": "What is DIA Lumina?",
+        "answer": "DIA Lumina is a modular oracle network featuring zero-knowledge verifiable compute that allows dApps to build custom tailored price feeds."
+      }
+    ],
+    "requirements": [
+      "EVM Wallet",
+      "DIA tokens",
+      "Web browser"
+    ]
+  },
+  {
+    "id": "band-protocol",
+    "name": "Band Protocol",
+    "description": "Cross-chain decentralized data oracle platform aggregating and connecting real-world data to smart contracts on Cosmos and EVM.",
+    "category": "Infrastructure",
+    "status": "active",
+    "reward": "$BAND Validator Staking Yields & Bridge Query Rewards",
+    "funding": "$10M+",
+    "investors": "Sequoia Capital India, Binance Labs, Spartan Group, Dunamu & Partners",
+    "stage": "Mainnet Live",
+    "difficulty": "Easy",
+    "estimatedTime": "5 mins",
+    "featured": false,
+    "logo": "/images/airdrops/band-protocol.svg",
+    "steps": [
+      "Connect Keplr or Cosmostation wallet to <strong>BandChain</strong>.",
+      "Delegate native $BAND tokens to active oracle validators.",
+      "Earn continuous block rewards and oracle query fee distributions.",
+      "Interact with partnered DeFi protocols utilizing Band feeds across Cosmos and EVM rollups."
+    ],
+    "overview": "Band Protocol is a cross-chain data oracle platform built on an independent Cosmos SDK application chain (BandChain). By offloading data requests and aggregations to its sovereign high-speed blockchain, Band ensures that fetching off-chain information is fast, inexpensive, and easily relayed to any destination blockchain.",
+    "strategy": "Delegate BAND tokens to reputable staking validators, test cross-chain oracle queries, and monitor ecosystem governance proposals.",
+    "tokenomics": "$BAND secures the Proof-of-Stake consensus of BandChain, fulfills data request payments, and grants governance voting rights.",
+    "sybilSafety": "Active validator delegations on Cosmos provide immutable on-chain proof of legitimate capital commitment.",
+    "faqs": [
+      {
+        "question": "How does BandChain relay data to Ethereum?",
+        "answer": "BandChain uses cryptographic Merkle proofs and decentralized bridge relays to deliver verified data directly into EVM smart contracts."
+      }
+    ],
+    "requirements": [
+      "Keplr Wallet",
+      "BAND tokens",
+      "Web browser"
+    ]
+  },
+  {
+    "id": "witness-chain",
+    "name": "Witness Chain",
+    "description": "Decentralized Proof of Diligence and physical location verification network for DePINs powered by EigenLayer restaking.",
+    "category": "Infrastructure",
+    "status": "active",
+    "reward": "Witness Points & Restaking Security Yields",
+    "funding": "$5.5M",
+    "investors": "Haun Ventures, Polychain Capital, Superset, EigenLayer Ecosystem",
+    "stage": "Mainnet Live",
+    "difficulty": "Medium",
+    "estimatedTime": "10 mins",
+    "featured": true,
+    "logo": "/images/airdrops/witness-chain.svg",
+    "steps": [
+      "Connect Web3 wallet to <strong>Witness Chain Portal</strong> on Ethereum.",
+      "Restake ETH via EigenLayer and delegate to Witness Chain Actively Validated Services (AVS).",
+      "Deploy the Witness Watchtower client to verify physical DePIN wireless coverage and bandwidth claims.",
+      "Accumulate Witness Points daily and participate in early rollup verification quests."
+    ],
+    "overview": "Witness Chain is the physical verification coordination layer for the DePIN economy, secured as an Actively Validated Service (AVS) on EigenLayer. Through novel cryptographic mechanisms—such as Proof of Diligence and Proof of Location—Witness Chain validates that decentralized wireless towers, compute nodes, and storage hardware genuinely exist in the physical world.",
+    "strategy": "Delegate restaked ETH to Witness Chain AVS operators on EigenLayer, run a lightweight Watchtower client, and track contributor points.",
+    "tokenomics": "Witness Points quantify verification participation ahead of the native token distribution for network consensus and slashing coordination.",
+    "sybilSafety": "Restaked ETH collateral on EigenLayer smart contracts and physical network bandwidth probes guarantee non-Sybil identity.",
+    "faqs": [
+      {
+        "question": "What is Proof of Diligence?",
+        "answer": "Proof of Diligence is a cryptographic challenge mechanism that verifies optimistic rollups and DePIN nodes are actively validating state rather than freeloading."
+      }
+    ],
+    "requirements": [
+      "Ethereum Wallet",
+      "Restaked ETH on EigenLayer",
+      "Web browser"
+    ]
+  },
+  {
+    "id": "archway-network",
+    "name": "Archway",
+    "description": "Cosmos Layer 1 blockchain that rewards developers directly by rebating network gas fees and block inflation to smart contracts.",
+    "category": "Layer 1",
+    "status": "active",
+    "reward": "$ARCH Staking Rewards & Gas Rebate Bounties",
+    "funding": "$21M",
+    "investors": "CoinFund, Hashed, 1confirmation, IDEO CoLab, Lemniscap",
+    "stage": "Mainnet Live",
+    "difficulty": "Easy",
+    "estimatedTime": "10 mins",
+    "featured": false,
+    "logo": "/images/airdrops/archway-network.svg",
+    "steps": [
+      "Connect Keplr or Leap wallet to <strong>Archway Connect</strong> (connect.archway.io).",
+      "Delegate native $ARCH tokens to consensus validators to earn staking APR.",
+      "Interact with Archway dApps (Astrovault, Liquid Finance, Eris Protocol).",
+      "Deploy CosmWasm smart contracts to capture automatic gas fee revenue shares."
+    ],
+    "overview": "Archway is an innovative Proof-of-Stake Layer 1 blockchain built on Cosmos that fundamentally realigns economic incentives for developers. Unlike traditional networks where miners or validators capture 100% of transaction fees, Archway allocates up to 50% of gas fees and block inflation directly back to the smart contracts that generated the activity.",
+    "strategy": "Delegate ARCH tokens to active validators, swap on Astrovault AMM, and explore Archway developer grant opportunities.",
+    "tokenomics": "$ARCH is the native gas and governance token that secures the blockchain, pays transaction fees, and distributes developer reward rebates.",
+    "sybilSafety": "Continuous validator delegation and IBC asset transfers verify authentic participant status.",
+    "faqs": [
+      {
+        "question": "How do developers earn on Archway?",
+        "answer": "Every time a user executes a transaction on a dApp, the Archway protocol redirects a portion of the gas fee directly to the dApp developer address."
+      }
+    ],
+    "requirements": [
+      "Keplr or Leap Wallet",
+      "ARCH tokens",
+      "Web browser"
+    ]
+  },
+  {
+    "id": "juno-network",
+    "name": "Juno Network",
+    "description": "Decentralized, permissionless, censorship-resistant CosmWasm smart contract hub powered by the Cosmos Interchain.",
+    "category": "Layer 1",
+    "status": "active",
+    "reward": "$JUNO Staking Yields & CosmWasm Ecosystem Bounties",
+    "funding": "Community-Driven Genesis",
+    "investors": "Cosmos Ecosystem Community, Interchain Foundation",
+    "stage": "Mainnet Live",
+    "difficulty": "Easy",
+    "estimatedTime": "5 mins",
+    "featured": false,
+    "logo": "/images/airdrops/juno-network.svg",
+    "steps": [
+      "Connect Keplr or Leap wallet to <strong>Juno Network</strong>.",
+      "Delegate native $JUNO tokens to validators to earn Proof-of-Stake rewards.",
+      "Trade assets on Juno-native decentralized exchanges like WYND DEX.",
+      "Participate in on-chain community governance proposals in the Juno DAO."
+    ],
+    "overview": "Juno is a community-driven, permissionless smart contract application chain on Cosmos that pioneers CosmWasm (Rust-based smart contracts). By offering ultra-low transaction costs and instant finality, Juno provides developers with a robust environment to build interoperable decentralized applications that connect seamlessly across IBC.",
+    "strategy": "Delegate JUNO tokens to non-custodial validators outside the top 10, vote on active governance proposals, and interact with native CosmWasm dApps.",
+    "tokenomics": "$JUNO acts as the native fuel for smart contract execution, consensus staking, and decentralized community treasury allocations.",
+    "sybilSafety": "On-chain governance voting records and long-term validator delegations guarantee genuine user identity.",
+    "faqs": [
+      {
+        "question": "What language are smart contracts written in on Juno?",
+        "answer": "Juno contracts are written in Rust and compiled to WebAssembly (CosmWasm), providing extreme security and memory safety."
+      }
+    ],
+    "requirements": [
+      "Keplr Wallet",
+      "JUNO tokens",
+      "Web browser"
+    ]
+  },
+  {
+    "id": "kujira-network",
+    "name": "Kujira",
+    "description": "Semi-permissioned fintech Layer 1 on Cosmos providing a complete suite of institutional DeFi tools including FIN, GHOST, and BOW.",
+    "category": "Layer 1",
+    "status": "active",
+    "reward": "$KUJI Staking Rewards & Real Yield Fee Sharing",
+    "funding": "Community / Fair Launch",
+    "investors": "Cosmos Ecosystem Backers",
+    "stage": "Mainnet Live",
+    "difficulty": "Easy",
+    "estimatedTime": "10 mins",
+    "featured": false,
+    "logo": "/images/airdrops/kujira-network.svg",
+    "steps": [
+      "Connect Keplr or Sonar wallet to <strong>Kujira BLUE</strong> (blue.kujira.network).",
+      "Stake native $KUJI tokens to earn real yield paid in blue-chip tokens (USDC, ATOM, wETH).",
+      "Trade on FIN order book DEX or deposit into GHOST money market lending pools.",
+      "Bid on discounted liquidated collateral via ORCA liquidation queues."
+    ],
+    "overview": "Kujira is a specialized fintech Layer 1 blockchain on Cosmos engineered to provide sustainable, institutional-grade decentralized finance. Operating on a 100% real-yield economic model, Kujira does not rely on inflationary token emissions; instead, 100% of all protocol trading, lending, and liquidation fees are distributed directly to KUJI stakers.",
+    "strategy": "Stake KUJI on Kujira Blue to receive a basket of real-yield tokens weekly, provide liquidity into BOW automated market maker vaults, and participate in ORCA bids.",
+    "tokenomics": "$KUJI captures 100% of the platform revenue across all ecosystem apps, aligning tokenholders with protocol transaction volume.",
+    "sybilSafety": "Staked KUJI positions generating on-chain fee claims demonstrate authentic long-term capital allocation.",
+    "faqs": [
+      {
+        "question": "What is real yield on Kujira?",
+        "answer": "Real yield means rewards are paid in genuine revenue assets (USDC, ATOM, ETH) generated by trading fees, not newly printed inflationary tokens."
+      }
+    ],
+    "requirements": [
+      "Keplr or Sonar Wallet",
+      "KUJI tokens",
+      "Web browser"
+    ]
+  },
+  {
+    "id": "chiliz-chain",
+    "name": "Chiliz Chain",
+    "description": "Leading sports and entertainment EVM Layer 1 blockchain powering Fan Tokens for PSG, Barcelona, Juventus, and Socios.com.",
+    "category": "Layer 1",
+    "status": "active",
+    "reward": "$CHZ Staking APY & Fan Token Matchday Rewards",
+    "funding": "$65M+",
+    "investors": "Binance, Jump Crypto, Keyrock, Socios Partners",
+    "stage": "Mainnet Live",
+    "difficulty": "Easy",
+    "estimatedTime": "10 mins",
+    "featured": true,
+    "logo": "/images/airdrops/chiliz-chain.svg",
+    "steps": [
+      "Connect Web3 wallet to <strong>Chiliz Governance</strong> (governance.chiliz.com).",
+      "Bridge CHZ onto Chiliz Chain via the official Chiliz Bridge.",
+      "Delegate native $CHZ tokens to Proof-of-Staked-Authority (PoSA) validators.",
+      "Acquire club Fan Tokens (PSG, BAR, JUV, ACM) on FanSwap or Socios to vote in club decisions."
+    ],
+    "overview": "Chiliz is the dominant blockchain infrastructure for the global sports and entertainment industry. Powering official Fan Tokens for over 150 top football clubs, Formula 1 teams, and esports organizations, Chiliz Chain enables fans to vote on official team decisions, win VIP matchday experiences, and trade digital fan assets.",
+    "strategy": "Delegate CHZ to active validator nodes for staking rewards, trade Fan Tokens on native DEXs, and participate in exclusive club voting polls.",
+    "tokenomics": "$CHZ is the native fuel and gas token of Chiliz Chain, required for all smart contract interactions and validator staking.",
+    "sybilSafety": "Active validator delegations and verified Fan Token holdings leave permanent cryptographic proofs of authentic sports engagement.",
+    "faqs": [
+      {
+        "question": "Which clubs have Fan Tokens on Chiliz?",
+        "answer": "Top global clubs including Paris Saint-Germain (PSG), FC Barcelona (BAR), Manchester City (CITY), and Juventus (JUV) issue official Fan Tokens on Chiliz."
+      }
+    ],
+    "requirements": [
+      "EVM Wallet (MetaMask/Rabby)",
+      "CHZ tokens",
+      "Web browser"
+    ]
+  },
+  {
+    "id": "celo-network",
+    "name": "Celo Network",
+    "description": "Mobile-first, carbon-negative Ethereum Layer 2 transition blockchain powering global stablecoin payments and real-world micro-finance.",
+    "category": "Layer 2",
+    "status": "active",
+    "reward": "$CELO Staking Rewards & Regenerative Finance (ReFi) Grants",
+    "funding": "$65M+",
+    "investors": "a16z crypto, Polychain Capital, Reid Hoffman, Jack Dorsey, Coinbase Ventures",
+    "stage": "Mainnet Live",
+    "difficulty": "Easy",
+    "estimatedTime": "5 mins",
+    "featured": false,
+    "logo": "/images/airdrops/celo-network.svg",
+    "steps": [
+      "Connect Web3 wallet (Valora, MetaMask) to <strong>Celo Network</strong>.",
+      "Send instant payments using decentralized stablecoins (cUSD, cEUR, cREAL).",
+      "Lock and delegate $CELO to validator groups to earn continuous staking yield.",
+      "Provide liquidity on Celo-native DEXs like Ubeswap and participate in climate impact protocols (Toucan)."
+    ],
+    "overview": "Celo is an ultra-fast, mobile-friendly blockchain transitioning into an Ethereum Layer 2 powered by the OP Stack. Focused on financial inclusion, Celo allows smartphone users to send crypto payments to phone numbers, features sub-cent transaction fees, and operates as a carbon-negative network through automated carbon credit retirements.",
+    "strategy": "Use Celo for mobile micro-payments, provide stablecoin liquidity into cUSD pairs, and stake CELO with verified green validators.",
+    "tokenomics": "$CELO governs the protocol, secures Proof-of-Stake consensus, and underpins the algorithmic stability reserve for Mento stablecoins.",
+    "sybilSafety": "Valora phone number mapping and long-term validator delegations provide solid non-Sybil on-chain footprint.",
+    "faqs": [
+      {
+        "question": "Why is Celo transitioning to an Ethereum Layer 2?",
+        "answer": "Transitioning to an Ethereum Layer 2 allows Celo to inherit Ethereum enterprise security while maintaining its sub-cent gas fees and mobile accessibility."
+      }
+    ],
+    "requirements": [
+      "MetaMask / Valora Wallet",
+      "CELO or cUSD",
+      "Web browser"
+    ]
+  },
+  {
+    "id": "moonbeam-network",
+    "name": "Moonbeam",
+    "description": "Ethereum-compatible smart contract parachain on Polkadot, offering seamless cross-chain interoperability and EVM tooling.",
+    "category": "Layer 1",
+    "status": "active",
+    "reward": "$GLMR Staking APY & Polkadot Parachain Farming",
+    "funding": "$25M+",
+    "investors": "Coinbase Ventures, Binance Labs, ParaFi, Hypersphere, Pantera Capital",
+    "stage": "Mainnet Live",
+    "difficulty": "Easy",
+    "estimatedTime": "5 mins",
+    "featured": false,
+    "logo": "/images/airdrops/moonbeam-network.svg",
+    "steps": [
+      "Connect MetaMask to <strong>Moonbeam Network</strong> (apps.moonbeam.network).",
+      "Delegate native $GLMR tokens to active collators to earn regular staking rewards.",
+      "Swap tokens and supply liquidity on Moonbeam DEXs (StellaSwap, Beamswap).",
+      "Bridge assets across Polkadot and Ethereum using Connected Contracts."
+    ],
+    "overview": "Moonbeam is the premier Ethereum-compatible smart contract parachain on Polkadot. Combining full EVM implementation with Substrates cross-consensus messaging (XCM), Moonbeam allows Ethereum developers to deploy existing Solidity applications onto Polkadot with zero code changes, tapping into unified cross-chain liquidity.",
+    "strategy": "Delegate GLMR tokens to top collators, trade on StellaSwap, and utilize Moonbeam Connected Contracts to transfer assets across Polkadot parachains.",
+    "tokenomics": "$GLMR powers smart contract gas fees, secures collator staking, and coordinates decentralized on-chain governance referenda.",
+    "sybilSafety": "Continuous collator staking delegations recorded on the Polkadot relay chain confirm authentic user identity.",
+    "faqs": [
+      {
+        "question": "Can I use standard MetaMask with Moonbeam?",
+        "answer": "Yes! Moonbeam uses identical Ethereum addresses (0x...) and is 100% compatible with MetaMask and standard EVM developer tools."
+      }
+    ],
+    "requirements": [
+      "MetaMask / Rabby Wallet",
+      "GLMR tokens",
+      "Web browser"
+    ]
+  },
+  {
+    "id": "astar-network",
+    "name": "Astar Network",
+    "description": "Multi-chain smart contract hub connecting Polkadot and Polygon CDK (Astar zkEVM) with dApp staking incentives.",
+    "category": "Layer 1",
+    "status": "active",
+    "reward": "$ASTR Staking Yields & Astar zkEVM Points",
+    "funding": "$22M",
+    "investors": "Polychain Capital, Coinbase Ventures, Gavin Wood, Binance Labs, Fenbushi",
+    "stage": "Mainnet Live",
+    "difficulty": "Easy",
+    "estimatedTime": "5 mins",
+    "featured": false,
+    "logo": "/images/airdrops/astar-network.svg",
+    "steps": [
+      "Connect Web3 wallet to <strong>Astar Portal</strong> (portal.astar.network).",
+      "Stake native $ASTR in the innovative Build2Earn (dApp Staking) module to support favorite projects.",
+      "Bridge assets onto Astar zkEVM powered by Polygon CDK.",
+      "Trade on native DEXs and collect Astar ecosystem NFT badges."
+    ],
+    "overview": "Astar Network is a multi-virtual-machine smart contract platform bridging Polkadot, Ethereum, and zero-knowledge rollups. Through its patented dApp Staking mechanism, users can stake ASTR directly onto decentralized applications, providing developers with continuous funding while stakers earn passive yields.",
+    "strategy": "Participate in dApp Staking on Astar Portal, explore DeFi on Astar zkEVM, and hold ASTR tokens for governance staking.",
+    "tokenomics": "$ASTR is the native gas and governance token that fuels smart contracts and rewards both developers and stakers in the Build2Earn program.",
+    "sybilSafety": "Multi-month dApp staking commitments provide immutable on-chain proof of genuine ecosystem contribution.",
+    "faqs": [
+      {
+        "question": "What is dApp Staking (Build2Earn) on Astar?",
+        "answer": "dApp Staking allows ASTR holders to stake their tokens to specific development teams, creating a continuous revenue stream for developers and staking APR for users."
+      }
+    ],
+    "requirements": [
+      "EVM Wallet (MetaMask)",
+      "ASTR tokens",
+      "Web browser"
+    ]
+  },
+  {
+    "id": "perpetual-protocol",
+    "name": "Perpetual Protocol",
+    "description": "Pioneer decentralized virtual automated market maker (vAMM) offering perpetual contracts with up to 10x leverage on Optimism.",
+    "category": "DeFi",
+    "status": "active",
+    "reward": "$PERP Staking Yields & Trading Fee Rebates",
+    "funding": "$12M+",
+    "investors": "Multicoin Capital, Alameda Research, Three Arrows Capital, Zee Prime Capital",
+    "stage": "Mainnet Live",
+    "difficulty": "Medium",
+    "estimatedTime": "10 mins",
+    "featured": false,
+    "logo": "/images/airdrops/perpetual-protocol.svg",
+    "steps": [
+      "Connect Web3 wallet to <strong>Perpetual Protocol</strong> (app.perp.com) on Optimism.",
+      "Deposit USDC into the protocol vault.",
+      "Open long or short perpetual futures positions across crypto markets with low slippage.",
+      "Provide concentrated liquidity inside Uniswap V3 execution pools or stake $PERP into vePERP."
+    ],
+    "overview": "Perpetual Protocol is an open-source decentralized derivatives exchange built on Optimism Layer 2. By leveraging Uniswap V3 concentrated liquidity as its execution engine (Curie V2), Perp combines the capital efficiency of professional market making with the composability and non-custodial security of Ethereum DeFi.",
+    "strategy": "Trade perpetual contracts on Optimism, provide liquidity to active price ranges in the maker module, and lock PERP into vePERP for weekly fee distributions.",
+    "tokenomics": "$PERP and $vePERP govern protocol fee parameters, collateral listings, and distribute up to 25% of all trading fee revenues directly to stakers.",
+    "sybilSafety": "On-chain derivatives volume and vePERP time-locks on Optimism establish verified organic trading reputation.",
+    "faqs": [
+      {
+        "question": "Does Perpetual Protocol have impermanent loss for traders?",
+        "answer": "Traders holding perpetual contract positions do not experience impermanent loss; only makers who provide liquidity into Uniswap V3 ranges are subject to IL."
+      }
+    ],
+    "requirements": [
+      "Optimism Wallet",
+      "USDC collateral",
+      "Web browser"
+    ]
+  },
+  {
+    "id": "spookyswap",
+    "name": "SpookySwap",
+    "description": "Premier automated market maker, concentrated liquidity DEX, and bridging hub on Fantom and Sonic.",
+    "category": "DeFi",
+    "status": "active",
+    "reward": "$BOO Staking Yields & xBOO Buyback APR",
+    "funding": "Community / Fair Launch",
+    "investors": "Fantom Foundation, Sonic Ecosystem",
+    "stage": "Mainnet Live",
+    "difficulty": "Easy",
+    "estimatedTime": "5 mins",
+    "featured": false,
+    "logo": "/images/airdrops/spookyswap.svg",
+    "steps": [
+      "Connect Web3 wallet to <strong>SpookySwap</strong> (spooky.fi) on Fantom or Sonic.",
+      "Swap tokens with low slippage and sub-second transaction finality.",
+      "Stake native $BOO in the Buyback BOO pool to receive interest-bearing xBOO.",
+      "Stake xBOO into partner pools to earn second-layer ecosystem token yields."
+    ],
+    "overview": "SpookySwap is the cornerstone decentralized exchange and liquidity hub of the Fantom Opera and Sonic networks. Supporting standard AMMs, concentrated liquidity, cross-chain bridging, and limit orders, SpookySwap has processed billions in cumulative trading volume with an intuitive user experience.",
+    "strategy": "Perform swaps on Fantom/Sonic, stake BOO into xBOO to earn compounding platform buybacks, and provide liquidity to key trading pairs.",
+    "tokenomics": "$BOO is the native governance and fee-earning token of SpookySwap, constantly bought back on the open market using protocol swap fees.",
+    "sybilSafety": "Active xBOO staking balances and multi-month LP farming history provide clear non-Sybil proof.",
+    "faqs": [
+      {
+        "question": "What is xBOO on SpookySwap?",
+        "answer": "xBOO is the staked receipt token that automatically compounds in value as a percentage of every swap fee is used to buy back BOO from the market."
+      }
+    ],
+    "requirements": [
+      "Fantom / Sonic Wallet",
+      "FTM / S tokens for gas",
+      "Web browser"
+    ]
+  },
+  {
+    "id": "thena-fi",
+    "name": "THENA",
+    "description": "The native liquidity layer and dominant ve(3,3) concentrated decentralized exchange on BNB Chain and opBNB.",
+    "category": "DeFi",
+    "status": "active",
+    "reward": "$THE Staking Rewards & veTHE Voting Bribes",
+    "funding": "$5M+ Ecosystem Backed",
+    "investors": "BNB Chain Ecosystem, Orbs, Institutional Market Makers",
+    "stage": "Mainnet Live",
+    "difficulty": "Easy",
+    "estimatedTime": "10 mins",
+    "featured": false,
+    "logo": "/images/airdrops/thena-fi.svg",
+    "steps": [
+      "Connect Web3 wallet to <strong>THENA</strong> (thena.fi) on BNB Chain or opBNB.",
+      "Swap tokens with minimal slippage using FUSION concentrated liquidity.",
+      "Provide liquidity into volatile or stable pools to earn high APR emissions.",
+      "Lock $THE tokens into veTHE to vote on gauge emissions and earn 100% of weekly pool fees and bribes."
+    ],
+    "overview": "THENA is the premier ve(3,3) decentralized exchange and liquidity powerhouse on BNB Chain and opBNB. Inspired by Andre Cronjes Solidly model, THENA aligns token emissions with trading fee generation, allowing protocols to incentivize deep liquidity for their native tokens through weekly voting bribes.",
+    "strategy": "Provide liquidity to incentivized pools, lock THE into veTHE for up to 2 years, and vote on high-yielding bribe gauges every epoch.",
+    "tokenomics": "$THE and $veTHE coordinate emission distribution, with veTHE holders capturing 100% of all swap fees and bribes generated by voted pools.",
+    "sybilSafety": "Time-locked veTHE NFTs on BNB Chain provide definitive, un-forgeable proof of authentic DeFi capital allocation.",
+    "faqs": [
+      {
+        "question": "What is veTHE?",
+        "answer": "veTHE is an ERC-721 NFT representing locked THE tokens, giving holders voting power over emissions and 100% of pool trading fees."
+      }
+    ],
+    "requirements": [
+      "BNB Chain / opBNB Wallet",
+      "BNB for gas",
+      "Web browser"
+    ]
+  },
+  {
+    "id": "aleph-im",
+    "name": "Aleph.im",
+    "description": "Decentralized cloud computing, peer-to-peer database, and serverless off-chain micro-VM infrastructure on Solana and Ethereum.",
+    "category": "DePIN",
+    "status": "active",
+    "reward": "$ALEPH Staking Yields & Core Channel Node Mining",
+    "funding": "$10M",
+    "investors": "Stratos Technologies, Zeeprime, Bitkraft, Rarestone, NOIA",
+    "stage": "Mainnet Live",
+    "difficulty": "Medium",
+    "estimatedTime": "15 mins",
+    "featured": false,
+    "logo": "/images/airdrops/aleph-im.svg",
+    "steps": [
+      "Connect Web3 wallet to <strong>Aleph.im Console</strong> (account.aleph.im).",
+      "Stake native $ALEPH tokens to secure Core Channel Nodes (CCN) or Compute Resource Nodes (CRN).",
+      "Deploy serverless Python / WASM micro-VMs or decentralized IPFS databases.",
+      "Earn continuous staking yield and participate in network storage parameter governance."
+    ],
+    "overview": "Aleph.im is an open decentralized physical infrastructure network providing serverless cloud compute, off-chain databases, and decentralized storage for Web3 and AI applications. Acting as a decentralized alternative to AWS Lambda and Amazon S3, Aleph powers indexing, game hosting, and AI inference across Solana and EVM ecosystems.",
+    "strategy": "Stake ALEPH tokens in active node pools, deploy lightweight serverless compute instances, and track decentralized cloud computing incentives.",
+    "tokenomics": "$ALEPH is required to pay for decentralized computing instances, reward storage nodes, and participate in node validation staking.",
+    "sybilSafety": "Verifiable serverless micro-VM deployments and on-chain node stakes confirm authentic infrastructure contribution.",
+    "faqs": [
+      {
+        "question": "How does Aleph.im help Solana dApps?",
+        "answer": "Aleph.im provides off-chain indexing and historical transaction databases, allowing Solana dApps to query complex historical data without bogging down the blockchain."
+      }
+    ],
+    "requirements": [
+      "EVM or Solana Wallet",
+      "ALEPH tokens",
+      "Web browser"
+    ]
+  },
+  {
+    "id": "spheron-network",
+    "name": "Spheron Network",
+    "description": "Decentralized compute marketplace and AI GPU cloud aggregating global data centers and consumer compute.",
+    "category": "DePIN",
+    "status": "active",
+    "reward": "Spheron Points & Upcoming Compute Token Generation Event",
+    "funding": "$8.3M",
+    "investors": "Nexus Venture Partners, Zee Prime Capital, Protocol Labs, ConsenSys Mesh",
+    "stage": "Mainnet Live",
+    "difficulty": "Easy",
+    "estimatedTime": "5 mins",
+    "featured": false,
+    "logo": "/images/airdrops/spheron-network.svg",
+    "steps": [
+      "Connect Web3 wallet to <strong>Spheron Compute Console</strong> (spheron.network).",
+      "Deploy open-source AI models, validator nodes, or decentralized front-ends.",
+      "Provide spare GPU compute to the Spheron decentralized marketplace.",
+      "Earn Spheron Points for deploying apps, maintaining node uptime, and participating in developer test campaigns."
+    ],
+    "overview": "Spheron Network is a decentralized compute orchestration platform designed to automate dApp hosting, validator deployment, and AI GPU compute. By simplifying decentralized infrastructure into one-click deployments, Spheron allows developers to launch applications across multiple decentralized clouds seamlessly.",
+    "strategy": "Deploy a test web app or validator node on Spheron Compute, complete community quests, and accumulate contributor points.",
+    "tokenomics": "Spheron Points quantify compute resource consumption and provider uptime ahead of the official decentralized protocol token launch.",
+    "sybilSafety": "Continuous compute workload execution and verified developer deployments eliminate automated farm bots.",
+    "faqs": [
+      {
+        "question": "Can I host decentralized websites on Spheron?",
+        "answer": "Yes! Spheron offers instant decentralized front-end deployment pinned to IPFS, Filecoin, and Arweave with custom domain support."
+      }
+    ],
+    "requirements": [
+      "Web3 EVM Wallet",
+      "GitHub account",
+      "Web browser"
+    ]
+  },
+  {
+    "id": "gitcoin-passport",
+    "name": "Gitcoin Passport",
+    "description": "The foundational decentralized identity verification and Sybil defense protocol protecting quadratic funding and Web3 airdrops.",
+    "category": "Identity",
+    "status": "active",
+    "reward": "Sybil-Resistant Human Stamp Score & Quadratic Funding Bounties",
+    "funding": "$100M+ Grants Distributed",
+    "investors": "Ethereum Foundation, Paradigm, 1kx, Vitalik Buterin",
+    "stage": "Mainnet Live",
+    "difficulty": "Easy",
+    "estimatedTime": "15 mins",
+    "featured": true,
+    "logo": "/images/airdrops/gitcoin-passport.svg",
+    "steps": [
+      "Connect Web3 wallet to <strong>Gitcoin Passport</strong> (passport.gitcoin.co).",
+      "Collect verifiable identity Stamps (Google, GitHub, Twitter, Discord, ENS, BrightID, Civic).",
+      "Achieve a Unique Humanity Score of 20+ to qualify as a verified human.",
+      "Donate to open-source public goods in Gitcoin Grants rounds to maximize quadratic funding matching."
+    ],
+    "overview": "Gitcoin Passport is the gold standard decentralized identity verification protocol across Ethereum and Layer 2s. By aggregating cryptographic Stamps and verifiable credentials without collecting personal KYC data, Gitcoin Passport allows protocols to distinguish authentic human users from automated Sybil bot clusters.",
+    "strategy": "Maintain a Passport score above 20 points, refresh expiring Stamps every 90 days, and donate small amounts to public goods during official Gitcoin Grants rounds.",
+    "tokenomics": "$GTC governs the Gitcoin DAO, directing public goods matching funds, community governance, and identity validation standards.",
+    "sybilSafety": "Gitcoin Passport is the definitive Sybil defense standard: achieving a 20+ score requires diverse, multi-platform verified identity credentials.",
+    "faqs": [
+      {
+        "question": "Why is Gitcoin Passport crucial for airdrop hunters?",
+        "answer": "Major protocols (such as Linea, Optimism, and Scroll) routinely use Gitcoin Passport scores to filter out Sybils and distribute rewards only to genuine humans."
+      }
+    ],
+    "requirements": [
+      "Ethereum EVM Wallet",
+      "Social & Web3 accounts for Stamps",
+      "Web browser"
+    ]
+  },
+  {
+    "id": "proof-of-humanity",
+    "name": "Proof of Humanity",
+    "description": "Sybil-resistant social registry of verified humans on Ethereum combining video verification with vouching web-of-trust.",
+    "category": "Identity",
+    "status": "active",
+    "reward": "$UBI Daily Universal Basic Income Streaming Yields",
+    "funding": "Democracy Earth Foundation & Kleros Incubated",
+    "investors": "Kleros Ecosystem, Santiago Siri, Vitalik Buterin Backed",
+    "stage": "Mainnet Live",
+    "difficulty": "Medium",
+    "estimatedTime": "20 mins",
+    "featured": false,
+    "logo": "/images/airdrops/proof-of-humanity.svg",
+    "steps": [
+      "Visit <strong>Proof of Humanity</strong> (proofofhumanity.id) on Ethereum Mainnet.",
+      "Upload a short video showing your face, Ethereum address, and speaking the required phrase.",
+      "Deposit a refundable security bond in ETH.",
+      "Get vouched for by an already verified human member in the registry to finalize registration and start streaming $UBI."
+    ],
+    "overview": "Proof of Humanity is a decentralized identity registry that combines web-of-trust vouching with Kleros court dispute resolution to prove human uniqueness. Registered humans receive a continuous, automated stream of Universal Basic Income ($UBI) tokens directly to their wallet every second.",
+    "strategy": "Submit your profile video, find a verified community member to vouch for you, and accumulate streaming UBI tokens.",
+    "tokenomics": "$UBI is minted directly to all verified humans at a rate of 1 UBI per hour, creating the worlds first decentralized basic income protocol.",
+    "sybilSafety": "Biometric face uniqueness, public video submission, and Kleros court slashing prevent duplicate or AI-generated human registrations.",
+    "faqs": [
+      {
+        "question": "What is the vouching system in Proof of Humanity?",
+        "answer": "To prevent bots, a newly submitted profile must be cryptographically vouched for by someone who is already a verified human on the platform."
+      }
+    ],
+    "requirements": [
+      "Ethereum Wallet",
+      "Webcam / smartphone for video",
+      "Small ETH bond"
+    ]
+  },
+  {
+    "id": "world-network",
+    "name": "World Network",
+    "description": "Global biometric Proof-of-Human identity protocol founded by Sam Altman, utilizing the Orb to issue verifiable World IDs on World Chain.",
+    "category": "Identity",
+    "status": "active",
+    "reward": "$WLD Biometric Grants & World Chain Protocol Airdrops",
+    "funding": "$250M+",
+    "investors": "a16z crypto, Bain Capital Crypto, Blockchain Capital, Sam Altman",
+    "stage": "Mainnet Live",
+    "difficulty": "Medium",
+    "estimatedTime": "15 mins (Orb Verification)",
+    "featured": true,
+    "logo": "/images/airdrops/world-network.svg",
+    "steps": [
+      "Download the <strong>World App</strong> on iOS or Android.",
+      "Schedule and complete an in-person iris verification at a local <strong>Orb</strong> station.",
+      "Receive your zero-knowledge World ID credential.",
+      "Claim bi-weekly $WLD token grants and enjoy priority blockspace with free gas on World Chain."
+    ],
+    "overview": "World Network (formerly Worldcoin) is an open decentralized identity protocol co-founded by OpenAI CEO Sam Altman. Designed to differentiate humans from artificial intelligence online, World uses custom hardware sensors (Orbs) to verify personhood via zero-knowledge iris hashes without storing personal biometric imagery.",
+    "strategy": "Complete an Orb verification to unlock World ID Level 3, claim recurring WLD token grants, and transact on World Chain (OP Stack rollup).",
+    "tokenomics": "$WLD is the governance and utility token of World Network, distributed directly to verified humans globally and powering World Chain gas.",
+    "sybilSafety": "Physical iris entropy cryptographic checks ensure absolute one-human-one-identity verification with zero duplicate accounts.",
+    "faqs": [
+      {
+        "question": "Does the Orb store my iris photograph?",
+        "answer": "No. The Orb computes an encrypted mathematical iris code locally and permanently deletes the raw image; zero-knowledge proofs preserve privacy."
+      }
+    ],
+    "requirements": [
+      "World App (iOS/Android)",
+      "In-person Orb appointment",
+      "Smartphone"
+    ]
+  },
+  {
+    "id": "space-id",
+    "name": "SPACE ID",
+    "description": "Universal Web3 domain and identity infrastructure providing multi-chain top-level domains (.bnb, .arb, .sei) across Web3.",
+    "category": "Identity",
+    "status": "active",
+    "reward": "$ID Staking APY & Domain Season Rewards",
+    "funding": "$10M",
+    "investors": "Binance Labs, Polychain Capital, Bullet Labs",
+    "stage": "Mainnet Live",
+    "difficulty": "Easy",
+    "estimatedTime": "5 mins",
+    "featured": false,
+    "logo": "/images/airdrops/space-id.svg",
+    "steps": [
+      "Connect Web3 wallet to <strong>SPACE ID</strong> (space.id).",
+      "Register or trade your custom Web3 domain (.bnb, .arb, .sei, .lens).",
+      "Set your primary Web3 domain name to represent your wallet address across dApps.",
+      "Stake native $ID tokens in the Space ID DAO to earn domain registration fee discounts and staking yields."
+    ],
+    "overview": "SPACE ID is a universal decentralized naming service and digital identity platform that simplifies human Web3 interactions. Operating across BNB Chain, Arbitrum, and Sei, SPACE ID enables users to discover, register, trade, and manage all their decentralized identities from a unified marketplace.",
+    "strategy": "Register a primary domain on BNB Chain or Arbitrum, link it to your Web3 profile, and stake ID tokens for protocol revenue sharing.",
+    "tokenomics": "$ID powers governance in the SPACE ID DAO, provides discounts on domain purchases, and serves as the settlement currency for Web3 domain auctions.",
+    "sybilSafety": "On-chain primary name records and yearly domain renewal fees eliminate temporary disposable bot accounts.",
+    "faqs": [
+      {
+        "question": "Can I replace my 0x wallet address with a .bnb domain?",
+        "answer": "Yes! Setting your primary domain allows other users to send crypto directly to your .bnb or .arb name instead of copying complex hex addresses."
+      }
+    ],
+    "requirements": [
+      "EVM Wallet (BNB / Arbitrum)",
+      "A few dollars in gas/registration fee",
+      "Web browser"
+    ]
+  },
+  {
+    "id": "unstoppable-domains",
+    "name": "Unstoppable Domains",
+    "description": "Pioneer decentralized digital identity and multi-chain domain platform (.crypto, .nft, .x) with zero renewal fees.",
+    "category": "Identity",
+    "status": "active",
+    "reward": "Badge Points, Partner Airdrops & Domain Rewards",
+    "funding": "$65M",
+    "investors": "Pantera Capital, Draper Associates, Boost VC, Coinbase Ventures",
+    "stage": "Mainnet Live",
+    "difficulty": "Easy",
+    "estimatedTime": "5 mins",
+    "featured": false,
+    "logo": "/images/airdrops/unstoppable-domains.svg",
+    "steps": [
+      "Visit <strong>Unstoppable Domains</strong> (unstoppabledomains.com).",
+      "Search and mint a lifetime Web3 domain (.crypto, .polygon, .wallet) on Polygon with zero renewal fees.",
+      "Link your cryptocurrency addresses (BTC, ETH, SOL) to your single domain.",
+      "Complete profile badges and participate in partner airdrop campaigns."
+    ],
+    "overview": "Unstoppable Domains provides decentralized identities that users own for life. Minted as NFTs on Polygon, Unstoppable domains require zero recurring renewal fees, allowing users to replace complex blockchain addresses with human-readable usernames, build decentralized websites, and log in to Web3 applications.",
+    "strategy": "Mint your personal lifetime Web3 domain on Polygon, configure multi-chain address routing, and claim profile verification badges.",
+    "tokenomics": "Domains exist as permanent ERC-721 NFTs on Polygon with complete self-custody and transferability.",
+    "sybilSafety": "Verified account binding and permanent NFT domain ownership establish legitimate digital identity.",
+    "faqs": [
+      {
+        "question": "Do Unstoppable Domains have yearly renewal fees?",
+        "answer": "No! Unlike traditional DNS or ENS domains, Unstoppable Domains are purchased once and owned forever with zero renewal fees."
+      }
+    ],
+    "requirements": [
+      "Polygon EVM Wallet",
+      "Credit card or crypto for purchase",
+      "Web browser"
+    ]
+  },
+  {
+    "id": "flow-network",
+    "name": "Flow Network",
+    "description": "High-throughput consumer blockchain created by Dapper Labs, powering NBA Top Shot, NFL ALL DAY, and EVM compatibility.",
+    "category": "Layer 1",
+    "status": "active",
+    "reward": "$FLOW Staking Rewards & Crescendo EVM Developer Bounties",
+    "funding": "$600M+",
+    "investors": "Andreessen Horowitz (a16z), Google Ventures, Coatue, Digital Currency Group",
+    "stage": "Mainnet Live",
+    "difficulty": "Easy",
+    "estimatedTime": "10 mins",
+    "featured": false,
+    "logo": "/images/airdrops/flow-network.svg",
+    "steps": [
+      "Install <strong>Flow Wallet</strong> or use standard MetaMask for Flow EVM.",
+      "Explore the Flow Crescendo EVM upgrade (deploying standard Solidity dApps on Flow).",
+      "Collect officially licensed digital sports collectibles (NBA Top Shot, Disney Pinnacle).",
+      "Delegate native $FLOW tokens to consensus validators to earn annual network staking rewards."
+    ],
+    "overview": "Flow is an enterprise-grade consumer blockchain designed from scratch by Dapper Labs to scale applications to billions of mainstream users. With its groundbreaking multi-node pipelined architecture and Cadence smart contract language—now paired with seamless native EVM equivalence—Flow powers mainstream consumer Web3 entertainment.",
+    "strategy": "Interact with Flow EVM contracts via MetaMask, collect active sports moments, and delegate FLOW tokens to network validators.",
+    "tokenomics": "$FLOW is the native currency of the Flow network, required for transaction fees, smart contract storage deposits, and consensus validator staking.",
+    "sybilSafety": "Mainstream consumer identity integration and sustained validator stakes verify legitimate human users.",
+    "faqs": [
+      {
+        "question": "Does Flow support Solidity smart contracts?",
+        "answer": "Yes! With the landmark Crescendo upgrade, Flow provides full native EVM compatibility, allowing Solidity contracts to run with Flow high throughput."
+      }
+    ],
+    "requirements": [
+      "Flow Wallet or MetaMask",
+      "FLOW tokens",
+      "Web browser"
+    ]
+  },
+  {
+    "id": "stepn",
+    "name": "STEPN",
+    "description": "Pioneer Move-to-Earn fitness lifestyle DePIN app on Solana, BNB Chain, and Polygon motivating millions to walk, jog, and run.",
+    "category": "DePIN",
+    "status": "active",
+    "reward": "$GMT Staking Rewards & FSL Ecosystem Airdrops",
+    "funding": "$5M+",
+    "investors": "Sequoia Capital, Folius Ventures, Binance Labs, Alameda Research",
+    "stage": "Mainnet Live",
+    "difficulty": "Easy",
+    "estimatedTime": "10 mins",
+    "featured": true,
+    "logo": "/images/airdrops/stepn.svg",
+    "steps": [
+      "Download <strong>STEPN</strong> mobile app on iOS or Android.",
+      "Equip a virtual NFT Sneaker corresponding to your walking or running speed.",
+      "Go outdoors with GPS tracking enabled to burn energy and earn daily rewards.",
+      "Lock $GMT into FSL-ID staking to earn ecosystem lottery allocations and MOOAR marketplace perks."
+    ],
+    "overview": "STEPN is the worlds leading Move-to-Earn Web3 lifestyle application, pioneering physical proof-of-movement on Solana. By combining outdoor GPS tracking with gamified NFT sneakers, STEPN has nudged millions of people toward healthier lifestyles while introducing mainstream fitness enthusiasts to Web3 assets.",
+    "strategy": "Maintain daily outdoor running streaks, level up your sneakers for enhanced efficiency, and lock GMT into the FSL ecosystem staking portal.",
+    "tokenomics": "$GMT is the deflationary governance token required for sneaker burning, mystery box upgrades, and FSL ecosystem voting.",
+    "sybilSafety": "Real-time GPS trajectory physics and accelerometer sensor fusion make automated bot simulations virtually impossible.",
+    "faqs": [
+      {
+        "question": "Can I use STEPN on a treadmill indoors?",
+        "answer": "No. STEPN requires genuine outdoor GPS satellite reception and cellular connectivity to prevent indoor botting or treadmill farming."
+      }
+    ],
+    "requirements": [
+      "Smartphone with GPS",
+      "NFT Sneaker",
+      "Solana / EVM Wallet"
+    ]
+  },
+  {
+    "id": "pixels-game",
+    "name": "Pixels",
+    "description": "Leading open-world social farming and crafting MMORPG on Ronin Network with over 1 million daily active players.",
+    "category": "Gaming",
+    "status": "active",
+    "reward": "$PIXEL Token Staking & Seasonal Guild Wars Bounties",
+    "funding": "$7.2M",
+    "investors": "Animoca Brands, Framework Ventures, OpenSea, Collab+Currency, Sky Mavis",
+    "stage": "Mainnet Live",
+    "difficulty": "Easy",
+    "estimatedTime": "15 mins",
+    "featured": true,
+    "logo": "/images/airdrops/pixels-game.svg",
+    "steps": [
+      "Connect Ronin Wallet to <strong>Pixels</strong> (play.pixels.xyz).",
+      "Complete onboarding quests in Terra Villa: plant seeds, harvest crops, and craft items.",
+      "Join an active Guild and participate in Guild Wars and Land farming.",
+      "Stake native $PIXEL tokens inside the game dashboard to earn VIP perks, energy boosts, and seasonal rewards."
+    ],
+    "overview": "Pixels is the breakout hit Web3 social farming MMORPG that captivated the crypto gaming world upon migrating to Ronin Network. Featuring nostalgic 16-bit pixel art, land ownership, player-driven trading, and cross-IP avatar integration, Pixels has demonstrated unprecedented retention in decentralized gaming.",
+    "strategy": "Complete daily delivery tasks on the orders board, participate in seasonal Guild competitions, and stake PIXEL tokens for VIP status.",
+    "tokenomics": "$PIXEL is the premium in-game utility and governance currency used to mint NFTs, unlock VIP memberships, purchase land upgrades, and join guilds.",
+    "sybilSafety": "Continuous gameplay skill progressions, energy timers, and Ronin on-chain account verification prevent automated bot farming.",
+    "faqs": [
+      {
+        "question": "Is Pixels free to play?",
+        "answer": "Yes! Anyone can jump into Pixels for free without buying an NFT land, progressing through farming and questing."
+      }
+    ],
+    "requirements": [
+      "Ronin Wallet",
+      "Web browser",
+      "Free Pixels account"
+    ]
+  },
+  {
+    "id": "sandbox-game",
+    "name": "The Sandbox",
+    "description": "Decentralized virtual metaverse and creator voxel gaming world where players build, own, and monetize games and digital assets.",
+    "category": "Gaming",
+    "status": "active",
+    "reward": "$SAND Staking Yields & Alpha Season Event Bounties",
+    "funding": "$93M+",
+    "investors": "SoftBank Vision Fund 2, Animoca Brands, True Global Ventures, Liberty City",
+    "stage": "Mainnet Live",
+    "difficulty": "Easy",
+    "estimatedTime": "15 mins",
+    "featured": false,
+    "logo": "/images/airdrops/sandbox-game.svg",
+    "steps": [
+      "Create an account on <strong>The Sandbox</strong> (sandbox.game) using your Web3 wallet.",
+      "Download The Sandbox Game Client on PC or Mac.",
+      "Explore community and brand experiences (Snoop Dogg, Warner Music, Gucci, Atari).",
+      "Stake native $SAND tokens in LAND or catalyst liquidity pools on Polygon to earn continuous yields."
+    ],
+    "overview": "The Sandbox is a pioneering decentralized gaming metaverse where players and creators can build 3D voxel games, own virtual LAND, and monetize in-game assets as NFTs. Built on Ethereum and Polygon, The Sandbox empowers sovereign creator economies with no-code game creation tools.",
+    "strategy": "Complete quests during official Alpha Seasons to earn SAND rewards, stake SAND on Polygon with zero gas fees, and hold virtual LAND.",
+    "tokenomics": "$SAND is the utility token powering all metaverse transactions, LAND purchases, creator asset trading, and DAO governance votes.",
+    "sybilSafety": "Completing in-game 3D obstacle quests and on-chain LAND ownership verify authentic human players.",
+    "faqs": [
+      {
+        "question": "Do I need to own LAND to play The Sandbox?",
+        "answer": "No! You can play hundreds of games in The Sandbox metaverse completely free without owning any virtual LAND."
+      }
+    ],
+    "requirements": [
+      "PC or Mac computer",
+      "Polygon EVM Wallet",
+      "The Sandbox client"
+    ]
   }
 ];

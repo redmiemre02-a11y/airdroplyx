@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
+  <defs>
+    <linearGradient id="archGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F97316"/>
+      <stop offset="100%" stop-color="#EA580C"/>
+    </linearGradient>
+  </defs>
+  <rect width="128" height="128" rx="32" fill="#18181B"/>
+  <path d="M40 92 L40 56 C40 42 50 34 64 34 C78 34 88 42 88 56 L88 92" stroke="url(#archGrad)" stroke-width="12" stroke-linecap="round" fill="none"/>
+</svg>

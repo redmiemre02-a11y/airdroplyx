@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
+  <defs>
+    <linearGradient id="kujGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#E11D48"/>
+      <stop offset="100%" stop-color="#9F1239"/>
+    </linearGradient>
+  </defs>
+  <rect width="128" height="128" rx="32" fill="#0C0A09"/>
+  <path d="M38 74 C44 50 70 42 90 54 C92 70 78 84 56 84 C46 84 40 80 38 74 Z" fill="url(#kujGrad)"/>
+  <circle cx="76" cy="58" r="4" fill="#FFFFFF"/>
+</svg>
