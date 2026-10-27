@@ -1,0 +1,32 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Header from '../components/Header.astro';
+---
+
+<Layout title="404 - Page Not Found | Airdroplyx" description="The page you are looking for does not exist or has been moved. Discover 575+ verified crypto airdrops and Web3 farming guides on Airdroplyx.">
+  <Header />
+  <main class="min-h-[70vh] flex items-center justify-center px-4 py-20">
+    <div class="max-w-md w-full text-center">
+      <div class="inline-flex items-center justify-center w-24 h-24 rounded-3xl bg-blue-100 dark:bg-blue-900/30 text-blue-600 dark:text-blue-400 text-5xl font-black mb-6 shadow-inner border border-blue-200 dark:border-blue-800/40">
+        404
+      </div>
+      <h1 class="text-3xl font-extrabold text-slate-900 dark:text-white mb-3">
+        Page Not Found
+      </h1>
+      <p class="text-slate-500 dark:text-slate-400 text-sm leading-relaxed mb-8">
+        The page or airdrop guide you are looking for has been relocated, concluded, or does not exist.
+      </p>
+
+      <div class="flex flex-col sm:flex-row gap-3 justify-center">
+        <a href="/" class="bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-6 rounded-xl shadow-lg shadow-blue-500/25 transition-all text-sm flex items-center justify-center gap-2">
+          <span>⚡</span>
+          <span>Explore 575+ Airdrops</span>
+        </a>
+        <a href="/calendar" class="bg-slate-100 dark:bg-slate-800 hover:bg-slate-200 dark:hover:bg-slate-700 text-slate-700 dark:text-slate-200 font-bold py-3 px-6 rounded-xl border border-slate-200 dark:border-slate-700 transition-all text-sm flex items-center justify-center gap-2">
+          <span>📅</span>
+          <span>Airdrop Calendar</span>
+        </a>
+      </div>
+    </div>
+  </main>
+</Layout>

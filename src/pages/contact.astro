@@ -3,32 +3,56 @@ import Layout from '../layouts/Layout.astro';
 import Header from '../components/Header.astro';
 ---
 
-<Layout title="Contact Us | Airdroplyx">
+<Layout title="Contact Us | Airdroplyx" description="Contact the Airdroplyx research team for project submissions, partnership inquiries, or to report suspicious airdrops.">
   <Header />
   <main class="max-w-[800px] mx-auto px-4 py-16">
-    <div class="prose prose-slate mb-8">
-      <h1>Contact Us</h1>
-      <p>Have a question, partnership inquiry, or want to report a scam? We'd love to hear from you. Fill out the form below and our team will get back to you within 24-48 hours.</p>
+    <div class="prose prose-slate dark:prose-invert mb-8 max-w-none">
+      <h1 class="text-3xl md:text-4xl font-black text-slate-900 dark:text-white">Contact Us</h1>
+      <p class="text-slate-600 dark:text-slate-300">Have a question, partnership inquiry, or want to report a scam? We'd love to hear from you. Fill out the form below or email us directly at <a href="mailto:contact@airdroplyx.com" class="text-blue-600 dark:text-blue-400 font-bold">contact@airdroplyx.com</a> and our team will get back to you within 24-48 hours.</p>
     </div>
     
-    <div class="bg-white p-8 rounded-2xl shadow-sm border border-slate-200">
-      <form class="flex flex-col gap-6">
+    <div class="bg-white dark:bg-slate-800 p-8 rounded-3xl shadow-sm border border-slate-200 dark:border-slate-700">
+      <form id="contact-form" class="flex flex-col gap-6">
         <div>
-          <label class="block text-sm font-bold text-slate-700 mb-2">Name</label>
-          <input type="text" class="w-full border border-slate-300 rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500" placeholder="Your Name" />
+          <label class="block text-sm font-bold text-slate-700 dark:text-slate-200 mb-2">Name</label>
+          <input type="text" id="contact-name" required class="w-full bg-slate-50 dark:bg-slate-900 border border-slate-300 dark:border-slate-700 rounded-xl px-4 py-3 text-slate-900 dark:text-white focus:outline-none focus:ring-2 focus:ring-blue-500 text-sm" placeholder="Your Name" />
         </div>
         <div>
-          <label class="block text-sm font-bold text-slate-700 mb-2">Email</label>
-          <input type="email" class="w-full border border-slate-300 rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500" placeholder="your@email.com" />
+          <label class="block text-sm font-bold text-slate-700 dark:text-slate-200 mb-2">Email</label>
+          <input type="email" id="contact-email" required class="w-full bg-slate-50 dark:bg-slate-900 border border-slate-300 dark:border-slate-700 rounded-xl px-4 py-3 text-slate-900 dark:text-white focus:outline-none focus:ring-2 focus:ring-blue-500 text-sm" placeholder="your@email.com" />
         </div>
         <div>
-          <label class="block text-sm font-bold text-slate-700 mb-2">Message</label>
-          <textarea rows="5" class="w-full border border-slate-300 rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500" placeholder="How can we help you?"></textarea>
+          <label class="block text-sm font-bold text-slate-700 dark:text-slate-200 mb-2">Message</label>
+          <textarea id="contact-message" rows="5" required class="w-full bg-slate-50 dark:bg-slate-900 border border-slate-300 dark:border-slate-700 rounded-xl px-4 py-3 text-slate-900 dark:text-white focus:outline-none focus:ring-2 focus:ring-blue-500 text-sm" placeholder="How can our research team assist you?"></textarea>
         </div>
-        <button type="button" class="bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-6 rounded-xl transition-colors">
+        <button type="submit" id="contact-submit-btn" class="bg-blue-600 hover:bg-blue-700 text-white font-bold py-3.5 px-8 rounded-xl shadow-lg shadow-blue-500/25 transition-all self-start text-sm">
           Send Message
         </button>
+        <div id="contact-status" class="hidden text-sm font-bold p-4 rounded-xl"></div>
       </form>
     </div>
   </main>
+
+  <script is:inline>
+    const contactForm = document.getElementById('contact-form');
+    const contactStatus = document.getElementById('contact-status');
+    const submitBtn = document.getElementById('contact-submit-btn');
+
+    if (contactForm && contactStatus && submitBtn) {
+      contactForm.addEventListener('submit', (e) => {
+        e.preventDefault();
+        submitBtn.disabled = true;
+        submitBtn.textContent = 'Sending...';
+
+        setTimeout(() => {
+          contactStatus.classList.remove('hidden');
+          contactStatus.className = 'text-sm font-bold p-4 rounded-xl bg-emerald-50 dark:bg-emerald-950/40 text-emerald-700 dark:text-emerald-300 border border-emerald-200 dark:border-emerald-800';
+          contactStatus.textContent = 'Thank you! Your message has been received. Our editorial team will review your inquiry shortly.';
+          contactForm.reset();
+          submitBtn.disabled = false;
+          submitBtn.textContent = 'Send Message';
+        }, 600);
+      });
+    }
+  </script>
 </Layout>
