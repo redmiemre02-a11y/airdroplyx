@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
+  <defs>
+    <linearGradient id="chirpGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#EC4899"/>
+      <stop offset="100%" stop-color="#F43F5E"/>
+    </linearGradient>
+  </defs>
+  <rect width="128" height="128" rx="32" fill="#18181B"/>
+  <circle cx="64" cy="64" r="28" fill="url(#chirpGrad)"/>
+  <polygon points="86,64 100,56 100,72" fill="#FB7185"/>
+  <circle cx="56" cy="58" r="4" fill="#FFFFFF"/>
+</svg>

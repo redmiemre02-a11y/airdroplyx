@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
+  <defs>
+    <linearGradient id="cudosGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0284C7"/>
+      <stop offset="100%" stop-color="#06B6D4"/>
+    </linearGradient>
+  </defs>
+  <rect width="128" height="128" rx="32" fill="url(#cudosGrad)"/>
+  <circle cx="64" cy="64" r="30" fill="none" stroke="#FFFFFF" stroke-width="8"/>
+  <path d="M46 52 C52 44 76 44 82 52 M46 76 C52 84 76 84 82 76" stroke="#FFFFFF" stroke-width="6" stroke-linecap="round"/>
+</svg>

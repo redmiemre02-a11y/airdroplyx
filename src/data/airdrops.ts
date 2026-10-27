@@ -24003,5 +24003,904 @@ export const airdrops: Airdrop[] = [
       "Crypto assets for bridging",
       "Web browser"
     ]
+  },
+  {
+    "id": "centrifuge-rwa",
+    "name": "Centrifuge",
+    "description": "Pioneer decentralized asset financing protocol connecting real-world assets (RWA) and institutional credit to DeFi.",
+    "category": "RWA",
+    "status": "active",
+    "reward": "$CFG Staking Yields & RWA Pool Distributions",
+    "funding": "$15M+",
+    "investors": "Coinbase Ventures, ParaFi Capital, BlockTower, IOSG, Scytale",
+    "stage": "Mainnet Live",
+    "difficulty": "Medium",
+    "estimatedTime": "15 mins",
+    "featured": true,
+    "logo": "/images/airdrops/centrifuge-rwa.svg",
+    "steps": [
+      "Connect Web3 wallet to <strong>Centrifuge App</strong> on Ethereum or Arbitrum.",
+      "Complete investor verification (KYC/accreditation for institutional pools or permissionless pools).",
+      "Invest stablecoins (USDC) into tokenized real-world credit pools (invoices, trade finance, real estate).",
+      "Stake native $CFG tokens to participate in governance risk underwriting and pool collateralization."
+    ],
+    "overview": "Centrifuge is the institutional gateway bridging real-world assets directly into decentralized finance. By turning structured real-world debts, invoices, and commercial mortgages into non-fungible tokens (NFTs) and tokenized asset pools, Centrifuge allows credit funds and Web3 treasuries to generate stable yields backed by off-chain collateral.",
+    "strategy": "Provide liquidity into Tinlake and Centrifuge Prime pools, hold active investment tranches, and stake CFG tokens for network consensus governance.",
+    "tokenomics": "The $CFG token secures the Centrifuge Chain, coordinates pool parameter governance, and captures protocol financing transaction fees.",
+    "sybilSafety": "On-chain verifiable capital locks in institutional debt pools provide definitive non-Sybil proof.",
+    "faqs": [
+      {
+        "question": "What is Centrifuge Prime?",
+        "answer": "Centrifuge Prime provides decentralized DAOs and treasuries with direct access to US Treasury bills and structured credit yields."
+      }
+    ],
+    "requirements": [
+      "Web3 EVM Wallet",
+      "USDC collateral",
+      "Web browser"
+    ]
+  },
+  {
+    "id": "goldfinch-finance",
+    "name": "Goldfinch",
+    "description": "Decentralized credit protocol providing uncollateralized crypto loans to real-world businesses across emerging markets.",
+    "category": "DeFi",
+    "status": "active",
+    "reward": "$GFI Staking Yields & Senior Pool APY",
+    "funding": "$37M",
+    "investors": "Andreessen Horowitz (a16z), Coinbase Ventures, Variant, SV Angel, Mercy Corps",
+    "stage": "Mainnet Live",
+    "difficulty": "Medium",
+    "estimatedTime": "10 mins",
+    "featured": true,
+    "logo": "/images/airdrops/goldfinch-finance.svg",
+    "steps": [
+      "Connect Web3 wallet to <strong>Goldfinch Finance</strong> on Ethereum Mainnet.",
+      "Complete unique identity verification using the non-custodial Unique Identity (UID) soulbound token.",
+      "Supply USDC into the Goldfinch Senior Pool to earn diversified interest across global credit borrowers.",
+      "Stake native $GFI tokens in the protocol membership module or back individual borrower pools."
+    ],
+    "overview": "Goldfinch is a decentralized credit platform expanding financial inclusion by extending cryptocurrency loans without requiring crypto collateral. By relying on collective community assessment (Backers) and automated capital diversification (Senior Pool), Goldfinch enables productive enterprises worldwide to tap into Web3 liquidity.",
+    "strategy": "Mint your free soulbound UID, supply capital to the Senior Pool, and stake GFI tokens to maximize real yield payouts.",
+    "tokenomics": "$GFI governs protocol borrowing parameters, rewards Backers for credit assessments, and captures protocol interest reserves.",
+    "sybilSafety": "UID soulbound non-transferable identity verification ensures one human per wallet address, completely eliminating Sybil bots.",
+    "faqs": [
+      {
+        "question": "What is the UID in Goldfinch?",
+        "answer": "UID is a Soulbound ERC-721 token confirming real-human identity through Persona without storing personal data on-chain."
+      }
+    ],
+    "requirements": [
+      "Ethereum Wallet",
+      "USDC for lending",
+      "Web browser"
+    ]
+  },
+  {
+    "id": "maple-finance",
+    "name": "Maple Finance",
+    "description": "Institutional decentralized capital marketplace providing undercollateralized loans and US Treasury yield vaults.",
+    "category": "DeFi",
+    "status": "active",
+    "reward": "$SYRUP Token Staking & Institutional Pool Yields",
+    "funding": "$5M+",
+    "investors": "Tioga Capital, Framework Ventures, Polychain Capital, BlockTower, GSR",
+    "stage": "Mainnet Live",
+    "difficulty": "Easy",
+    "estimatedTime": "10 mins",
+    "featured": false,
+    "logo": "/images/airdrops/maple-finance.svg",
+    "steps": [
+      "Navigate to <strong>Maple Finance</strong> (or Syrup.fi) on Ethereum or Base.",
+      "Deposit USDC or USDT into high-yield institutional credit pools or short-term US Treasury management vaults.",
+      "Earn continuous yield generated by blue-chip institutional borrowers and verified sovereign debt.",
+      "Stake $SYRUP / $MPL tokens to earn protocol fee share distributions and governance power."
+    ],
+    "overview": "Maple Finance is the premier institutional credit network on Web3, having facilitated billions of dollars in enterprise loans. Managed by accredited pool delegates, Maple connects institutional capital allocators with verified crypto market makers, trade finance corporations, and US Treasury yield pools.",
+    "strategy": "Deposit stable assets into Maple Cash Management or Syrup.fi high-yield vaults and hold positions over quarterly interest settlement cycles.",
+    "tokenomics": "The $SYRUP token powers protocol governance, staking yield buybacks, and pool delegate loss protection modules.",
+    "sybilSafety": "Multi-month institutional vault capital locks provide verified proof of genuine DeFi participation.",
+    "faqs": [
+      {
+        "question": "What is Syrup.fi by Maple?",
+        "answer": "Syrup is Maples permissionless retail portal offering direct access to institutional overcollateralized lending yields."
+      }
+    ],
+    "requirements": [
+      "EVM Wallet (Base / Ethereum)",
+      "USDC / USDT",
+      "Web browser"
+    ]
+  },
+  {
+    "id": "clearpool-finance",
+    "name": "Clearpool",
+    "description": "Decentralized institutional credit marketplace featuring single-borrower liquidity pools and Ozean RWA L2.",
+    "category": "DeFi",
+    "status": "active",
+    "reward": "$CPOOL Rewards & Ozean RWA Testnet Points",
+    "funding": "$3M+",
+    "investors": "Sequoia Capital India, HashKey Capital, Sino Global, Wintermute, Arrington XRP",
+    "stage": "Mainnet Live",
+    "difficulty": "Easy",
+    "estimatedTime": "10 mins",
+    "featured": false,
+    "logo": "/images/airdrops/clearpool-finance.svg",
+    "steps": [
+      "Connect Web3 wallet to <strong>Clearpool Finance</strong> on Ethereum, Polygon, or Mantle.",
+      "Provide liquidity (USDC/USDT) into single-borrower pools managed by institutional trading firms.",
+      "Receive cpTokens that accrue dynamic risk-adjusted interest in real time.",
+      "Stake native $CPOOL tokens in the protocol oracle staking pool and participate in Ozean RWA chain testnets."
+    ],
+    "overview": "Clearpool is a pioneer uncollateralized lending marketplace where institutional institutions borrow directly from decentralized liquidity providers without collateral lockups. Interest rates dynamically adjust based on pool utilization and real-time credit ratings computed by decentralized oracles.",
+    "strategy": "Lend stablecoins into premier single-borrower pools, stake CPOOL in the risk pool, and explore early developer activities on the Ozean RWA blockchain.",
+    "tokenomics": "The $CPOOL token governs protocol borrowing limits, rewards risk-rating oracles, and underpins the upcoming Ozean RWA Layer 2 gas network.",
+    "sybilSafety": "Sustained institutional lending balances and oracle validator staking demonstrate genuine DeFi liquidity provision.",
+    "faqs": [
+      {
+        "question": "What happens if a borrower defaults on Clearpool?",
+        "answer": "Clearpool uses legally binding borrower agreements and dynamic interest curves. Credit ratings are audited by institutional risk firms."
+      }
+    ],
+    "requirements": [
+      "EVM Wallet",
+      "USDC or USDT",
+      "Web browser"
+    ]
+  },
+  {
+    "id": "truefi-protocol",
+    "name": "TrueFi",
+    "description": "Pioneer uncollateralized lending and real-world asset credit protocol governed entirely by on-chain credit models.",
+    "category": "DeFi",
+    "status": "active",
+    "reward": "$TRU Staking Rewards & Credit Vault APY",
+    "funding": "$12.5M",
+    "investors": "Andreessen Horowitz (a16z), BlockTower, Alameda Research, TrueUSD",
+    "stage": "Mainnet Live",
+    "difficulty": "Easy",
+    "estimatedTime": "10 mins",
+    "featured": false,
+    "logo": "/images/airdrops/truefi-protocol.svg",
+    "steps": [
+      "Connect Web3 wallet to <strong>TrueFi</strong> on Ethereum or Arbitrum.",
+      "Supply USDC, USDT, or TUSD to the TrueFi automated lending pools.",
+      "Earn predictable interest paid directly by vetted institutional borrowers.",
+      "Stake native $TRU tokens in the governance staking pool to review loan proposals and earn protocol fees."
+    ],
+    "overview": "TrueFi is one of the earliest uncollateralized lending protocols in decentralized finance, having originated over $1.7 billion in loans. Operating with full transparency, TrueFi uses on-chain credit scoring to evaluate institutional borrower risk and provide lenders with high real yields.",
+    "strategy": "Supply liquidity to active portfolio managers, stake $TRU tokens to participate in credit approvals, and compound weekly pool rewards.",
+    "tokenomics": "$TRU is the native governance and staking token used to vote on borrower proposals, backstop default insurance, and capture interest fee shares.",
+    "sybilSafety": "Long-term capital deposits in verified credit vaults leave immutable on-chain proof of authentic user activity.",
+    "faqs": [
+      {
+        "question": "How are loan approvals decided on TrueFi?",
+        "answer": "TRU stakers review borrower financials and vote on loan approval; stakers receive TRU rewards for correct risk underwriting."
+      }
+    ],
+    "requirements": [
+      "Ethereum / Arbitrum Wallet",
+      "Stablecoins for lending",
+      "Web browser"
+    ]
+  },
+  {
+    "id": "mountain-protocol",
+    "name": "Mountain Protocol",
+    "description": "Yield-bearing, regulatory-compliant stablecoin (USDM) backed by short-term US Treasury bills.",
+    "category": "RWA",
+    "status": "active",
+    "reward": "Mountain Protocol Points & Daily Treasury Rebates",
+    "funding": "$8M",
+    "investors": "Multicoin Capital, Castle Island Ventures, Coinbase Ventures",
+    "stage": "Mainnet Live",
+    "difficulty": "Easy",
+    "estimatedTime": "5 mins",
+    "featured": false,
+    "logo": "/images/airdrops/mountain-protocol.svg",
+    "steps": [
+      "Access <strong>Mountain Protocol</strong> or swap for USDM on Curve / Uniswap.",
+      "Hold native $USDM in your self-custody wallet on Ethereum, Arbitrum, Optimism, or Base.",
+      "Watch your wallet balance automatically increase daily via rebasing without gas fees.",
+      "Supply USDM into partner DeFi protocols (Ethena, Morpho, Pendle) to earn stacked ecosystem points."
+    ],
+    "overview": "Mountain Protocol is the issuer of USDM, the first regulated, yield-bearing stablecoin authorized by the Bermuda Monetary Authority. Backed 1:1 by short-term US Treasury bills held with institutional custodians, USDM passes risk-free sovereign yields directly to holders wallets through automated daily balance rebases.",
+    "strategy": "Hold USDM in your Web3 wallet to capture automated daily rebases, and supply USDM as collateral in Morpho or Pendle yield pools.",
+    "tokenomics": "USDM rebases daily according to US federal interest rates, providing a frictionless cash-equivalent asset for DeFi protocols.",
+    "sybilSafety": "Continuous wallet balances of rebasing stablecoins provide permanent on-chain verification of authentic capital ownership.",
+    "faqs": [
+      {
+        "question": "Do I need to claim USDM rewards manually?",
+        "answer": "No! USDM is a rebasing token; your wallet balance increases automatically every single day without any transaction fees."
+      }
+    ],
+    "requirements": [
+      "Web3 EVM Wallet",
+      "USDC to mint USDM",
+      "Web browser"
+    ]
+  },
+  {
+    "id": "superstate-rwa",
+    "name": "Superstate",
+    "description": "Tokenized institutional US government bond funds bridging Wall Street capital markets directly into Ethereum.",
+    "category": "RWA",
+    "status": "active",
+    "reward": "Superstate Yields & Early Access Allocation",
+    "funding": "$18M",
+    "investors": "Distributed Global, CoinFund, Breyer Capital, Galaxy Digital, Arrington Capital",
+    "stage": "Mainnet Live",
+    "difficulty": "Medium",
+    "estimatedTime": "15 mins",
+    "featured": false,
+    "logo": "/images/airdrops/superstate-rwa.svg",
+    "steps": [
+      "Visit the <strong>Superstate</strong> platform (founded by Compound creator Robert Leshner).",
+      "Register your institutional or accredited Web3 address for the Short Duration US Government Securities Fund (USTB).",
+      "Subscribe to tokenized shares using USDC or fiat bank wire.",
+      "Hold USTB on-chain and utilize tokenized fund shares as prime collateral across institutional DeFi."
+    ],
+    "overview": "Superstate is a premier asset management firm modernizing investment funds through blockchain technology. Created by DeFi pioneer Robert Leshner, Superstates flagship USTB fund tokenizes short-duration US government securities directly on Ethereum, providing transparent, compliant, and composable sovereign yield.",
+    "strategy": "Explore compliant Superstate vaults, integrate USTB tokens into supported institutional lending markets, and track official governance announcements.",
+    "tokenomics": "USTB tokens represent direct beneficial ownership shares in SEC-registered investment funds, setting the benchmark for compliant RWA.",
+    "sybilSafety": "Investor verification and cryptographic address allowlisting guarantee that all participants are verified entities.",
+    "faqs": [
+      {
+        "question": "Who founded Superstate?",
+        "answer": "Superstate was founded by Robert Leshner, the original creator of Compound Finance."
+      }
+    ],
+    "requirements": [
+      "Ethereum Wallet",
+      "Accredited verification",
+      "USDC collateral"
+    ]
+  },
+  {
+    "id": "angle-protocol",
+    "name": "Angle Protocol",
+    "description": "Decentralized stablecoin infrastructure and euro yield protocol powering EURA and USDA on Ethereum and L2s.",
+    "category": "DeFi",
+    "status": "active",
+    "reward": "$ANGLE Governance Staking & Liquid Savings Yields",
+    "funding": "$5M",
+    "investors": "a16z crypto, Fabric Ventures, Wintermute, Divergence Ventures",
+    "stage": "Mainnet Live",
+    "difficulty": "Easy",
+    "estimatedTime": "10 mins",
+    "featured": false,
+    "logo": "/images/airdrops/angle-protocol.svg",
+    "steps": [
+      "Connect Web3 wallet to <strong>Angle Protocol</strong> on Ethereum, Arbitrum, or Base.",
+      "Mint EURA (decentralized euro) or deposit stablecoins into Angle Transmuter and Savings contracts.",
+      "Stake native $ANGLE into veANGLE to participate in weekly revenue distributions.",
+      "Provide EURA/ETH or EURA/USDC liquidity on partner DEXs (Uniswap, Curve) to earn trading fees."
+    ],
+    "overview": "Angle Protocol is an ultra-resilient decentralized stablecoin protocol designed to issue capital-efficient, overcollateralized stable assets such as EURA (formerly agEUR) and USDA. Featuring innovative Transmuter liquidity contracts and yield-bearing stEUR savings accounts, Angle is the leading euro stablecoin hub in Web3.",
+    "strategy": "Hold stEUR for euro savings yields, mint EURA against ETH or staked assets, and lock ANGLE tokens into veANGLE for protocol fee dividends.",
+    "tokenomics": "$ANGLE and $veANGLE govern collateral risk parameters, gauge weight voting for liquidity pools, and protocol treasury revenues.",
+    "sybilSafety": "Long-term staking of veANGLE and liquidity provision in Curve/Uniswap pools verify genuine protocol alignment.",
+    "faqs": [
+      {
+        "question": "What is EURA?",
+        "answer": "EURA is the flagship decentralized euro stablecoin issued by Angle Protocol, backed by liquid euro and dollar collateral."
+      }
+    ],
+    "requirements": [
+      "EVM Wallet (Arbitrum/Ethereum)",
+      "Crypto collateral",
+      "Web browser"
+    ]
+  },
+  {
+    "id": "reflexer-finance",
+    "name": "Reflexer Finance",
+    "description": "Autonomous non-pegged stable asset protocol issuing RAI, a purely decentralized algorithmic currency on Ethereum.",
+    "category": "DeFi",
+    "status": "active",
+    "reward": "$FLX Staking Yields & RAI Minting Incentives",
+    "funding": "$1.7M",
+    "investors": "Paradigm, Pantera Capital, Standard Crypto, MetaCartel Ventures",
+    "stage": "Mainnet Live",
+    "difficulty": "Medium",
+    "estimatedTime": "10 mins",
+    "featured": false,
+    "logo": "/images/airdrops/reflexer-finance.svg",
+    "steps": [
+      "Connect Web3 wallet to <strong>Reflexer Finance</strong> (app.reflexer.finance).",
+      "Deposit pure native ETH into a Reflexer Safe.",
+      "Mint RAI against your ETH collateral at a conservative collateralization ratio.",
+      "Provide RAI/ETH liquidity on Uniswap V2/V3 or stake $FLX in the protocol safety module."
+    ],
+    "overview": "Reflexer Finance is the creator of RAI, a non-pegged, purely crypto-native stable asset that does not track any fiat currency. Managed by an autonomous Proportional-Integral-Derivative (PID) controller algorithm, RAI dynamically adjusts its redemption price in response to market demand, creating true decentralized money free from human discretionary policy.",
+    "strategy": "Maintain an active ETH safe to mint RAI, provide liquidity on Uniswap, and stake FLX governance tokens in the unbonded safety pool.",
+    "tokenomics": "The $FLX token acts as the ultimate backstop and governance token for Reflexer, recapitalizing the protocol in deficit scenarios.",
+    "sybilSafety": "Decentralized collateral safes backed by native ETH maintained across multiple months provide ironclad non-Sybil proof.",
+    "faqs": [
+      {
+        "question": "Why is RAI not pegged to the US Dollar?",
+        "answer": "RAI is non-pegged to avoid fiat currency inflation and central bank monetary policy; its value fluctuates according to an autonomous controller."
+      }
+    ],
+    "requirements": [
+      "Ethereum Wallet",
+      "ETH collateral",
+      "Web browser"
+    ]
+  },
+  {
+    "id": "chainflip-dex",
+    "name": "Chainflip",
+    "description": "Decentralized cross-chain automated market maker enabling native, trustless spot swaps across Bitcoin, Ethereum, and Solana.",
+    "category": "DeFi",
+    "status": "active",
+    "reward": "$FLIP Staking Yields & Boost Pool Trading Rewards",
+    "funding": "$10M+",
+    "investors": "Framework Ventures, Pantera Capital, Blockchain Capital, Coinbase Ventures",
+    "stage": "Mainnet Live",
+    "difficulty": "Easy",
+    "estimatedTime": "10 mins",
+    "featured": true,
+    "logo": "/images/airdrops/chainflip-dex.svg",
+    "steps": [
+      "Visit <strong>Chainflip Swapping Portal</strong> (swap.chainflip.io).",
+      "Execute a native spot swap between pure Bitcoin, Ethereum, and Solana without wrapped tokens.",
+      "Provide liquidity into Chainflip Just-In-Time (JIT) AMM pools to earn LP fees.",
+      "Stake native $FLIP tokens to operate a state chain validator node or earn staking dividends."
+    ],
+    "overview": "Chainflip is a high-speed cross-chain decentralized exchange that enables native asset swaps (like direct BTC to ETH) without wrapped tokens or synthetic IOUs. Powered by a specialized Substrate-based Proof-of-Stake state chain and threshold signature scheme (TSS), Chainflips Just-In-Time AMM achieves centralized exchange pricing completely on-chain.",
+    "strategy": "Use Chainflip for regular native cross-chain swaps between BTC, SOL, and ETH, supply liquidity to Boost pools, and stake FLIP tokens.",
+    "tokenomics": "The $FLIP token is required for validator staking, coordinates network state consensus, and is dynamically burned from protocol swap fees.",
+    "sybilSafety": "Native multi-chain cryptographic settlements across Bitcoin and EVM networks leave un-forgeable cross-chain transaction trails.",
+    "faqs": [
+      {
+        "question": "Do I need wrapped BTC to trade on Chainflip?",
+        "answer": "No! Chainflip executes native swaps directly from your real Bitcoin address to your real Ethereum or Solana address."
+      }
+    ],
+    "requirements": [
+      "Bitcoin / EVM / Solana Wallet",
+      "Crypto assets for swapping",
+      "Web browser"
+    ]
+  },
+  {
+    "id": "namada-network",
+    "name": "Namada",
+    "description": "Asset-agnostic multi-chain privacy Layer 1 delivering shielded transfers for all Cosmos and Ethereum assets via ZK-STARKs.",
+    "category": "Layer 1",
+    "status": "active",
+    "reward": "$NAM Staking Rewards & Shielded Set Mining",
+    "funding": "$57M+ (Anoma Ecosystem)",
+    "investors": "Polychain Capital, Electric Capital, Delphi Digital, CMCC Global, Maven 11",
+    "stage": "Mainnet Live",
+    "difficulty": "Medium",
+    "estimatedTime": "15 mins",
+    "featured": false,
+    "logo": "/images/airdrops/namada-network.svg",
+    "steps": [
+      "Install <strong>Namada Keychain</strong> browser extension.",
+      "Bridge assets (ATOM, OSMO, ETH) into Namada via IBC or the Ethereum trustless bridge.",
+      "Transfer assets into the Namada Shielded Pool to earn Shielded Set mining rewards.",
+      "Stake native $NAM tokens to active validators to secure the Proof-of-Stake consensus."
+    ],
+    "overview": "Namada is an asset-agnostic privacy protocol built on Cosmos and Tendermint BFT, developed by the Anoma foundation. Utilizing advanced zero-knowledge cryptography (Multi-Asset Shielded Pool / MASP), Namada turns any token from any blockchain into a completely shielded, private asset with unified privacy guarantees.",
+    "strategy": "Keep assets shielded in the MASP pool to accumulate passive Shielded Set rewards, and delegate NAM tokens to top-performing consensus validators.",
+    "tokenomics": "$NAM coordinates Proof-of-Stake consensus, governance parameter voting, and provides continuous public goods funding rewards.",
+    "sybilSafety": "Cryptographic zero-knowledge proofs and active validator delegations provide permanent, non-Sybil cryptographic guarantees.",
+    "faqs": [
+      {
+        "question": "What is Shielded Set Mining on Namada?",
+        "answer": "Users earn passive NAM rewards simply for holding assets inside the shielded pool, which strengthens privacy for the entire network."
+      }
+    ],
+    "requirements": [
+      "Namada Keychain extension",
+      "IBC or EVM assets",
+      "Web browser"
+    ]
+  },
+  {
+    "id": "cudos-network",
+    "name": "CUDOS Network",
+    "description": "Decentralized cloud computing and distributed AI compute network built on Cosmos and integrated with Fetch.ai and ASI.",
+    "category": "DePIN",
+    "status": "active",
+    "reward": "$CUDOS Staking Yields & Distributed Compute Bounties",
+    "funding": "$10M+",
+    "investors": "Outlier Ventures, Moonrock Capital, Double Peak, Morningstar Ventures",
+    "stage": "Mainnet Live",
+    "difficulty": "Medium",
+    "estimatedTime": "15 mins",
+    "featured": false,
+    "logo": "/images/airdrops/cudos-network.svg",
+    "steps": [
+      "Access <strong>CUDOS Dashboard</strong> using Keplr or Cosmostation wallet.",
+      "Deploy cloud compute workloads or rent GPU compute power for machine learning and rendering.",
+      "Run a CUDOS compute worker node on your spare hardware to service enterprise tasks.",
+      "Delegate $CUDOS tokens to network validators to earn staking inflation and network query fees."
+    ],
+    "overview": "CUDOS is a decentralized physical infrastructure network providing sustainable, scalable cloud compute for Web3, AI, and graphics rendering. Joining forces with the Artificial Superintelligence Alliance (ASI), CUDOS merges high-performance distributed hardware with Cosmos interoperability to challenge Amazon AWS and Google Cloud monopolies.",
+    "strategy": "Delegate tokens to reliable CUDOS validators, deploy test compute containers on Cudos Intercloud, and maintain continuous node uptime.",
+    "tokenomics": "$CUDOS is the operational gas and staking asset of the CUDOS chain, used to settle compute workloads and incentivize node operators.",
+    "sybilSafety": "Hardware-verified compute proofs and sustained validator stakes on Cosmos verify legitimate operator identity.",
+    "faqs": [
+      {
+        "question": "Is CUDOS part of the Artificial Superintelligence (ASI) Alliance?",
+        "answer": "Yes! CUDOS has joined the Artificial Superintelligence Alliance alongside Fetch.ai, SingularityNET, and Ocean Protocol."
+      }
+    ],
+    "requirements": [
+      "Keplr Wallet",
+      "CUDOS tokens",
+      "Web browser"
+    ]
+  },
+  {
+    "id": "chirp-network",
+    "name": "Chirp Network",
+    "description": "Decentralized multi-protocol telecommunications and wireless IoT DePIN built on Sui.",
+    "category": "DePIN",
+    "status": "active",
+    "reward": "$CHIRP Mining Rewards & Blackbird Gateway Staking",
+    "funding": "$3M",
+    "investors": "Outlier Ventures, Borderless Capital, Web3 Community Angels",
+    "stage": "Mainnet Live",
+    "difficulty": "Medium",
+    "estimatedTime": "15 mins",
+    "featured": false,
+    "logo": "/images/airdrops/chirp-network.svg",
+    "steps": [
+      "Connect Sui wallet to <strong>Chirp Wireless Console</strong>.",
+      "Deploy a Chirp Blackbird gateway to transmit LoRaWAN, Cellular, and 2.4GHz wireless IoT telemetry.",
+      "Register smart sensors (GPS trackers, air quality monitors, smart meters) on the Chirp network.",
+      "Earn $CHIRP tokens daily for transmitting verifiable radio frequency data packets."
+    ],
+    "overview": "Chirp is an all-in-one wireless DePIN network built on Sui, providing global connectivity for the Internet of Things (IoT). Unlike single-frequency networks, Chirps Blackbird gateways support multiple communication protocols simultaneously, allowing smart cities, logistics fleets, and consumer devices to communicate over a single decentralized layer.",
+    "strategy": "Deploy hardware gateways in coverage hexes, maintain high antenna connectivity, and stake CHIRP tokens for regional coverage bonuses.",
+    "tokenomics": "$CHIRP powers data packet transmissions, rewards gateway miners, and governs protocol wireless band expansion parameters.",
+    "sybilSafety": "Physical radio frequency packet receipts and GPS timestamp proofs prevent simulated IoT hotspot deployments.",
+    "faqs": [
+      {
+        "question": "Which wireless protocols does Chirp support?",
+        "answer": "Chirp supports LoRaWAN, 2.4GHz IoT, and cellular connectivity through its Blackbird hardware gateways."
+      }
+    ],
+    "requirements": [
+      "Chirp Gateway or IoT sensor",
+      "Sui Wallet",
+      "Web browser"
+    ]
+  },
+  {
+    "id": "wicrypt-network",
+    "name": "Wicrypt",
+    "description": "Decentralized mobile internet sharing and WiFi monetization DePIN protocol built on Polygon.",
+    "category": "DePIN",
+    "status": "active",
+    "reward": "$WNT Mining Rewards & Host Bandwidth Yields",
+    "funding": "$1.5M",
+    "investors": "AU21 Capital, Polygon Studios, Inclusion Capital, Outlier Ventures",
+    "stage": "Mainnet Live",
+    "difficulty": "Easy",
+    "estimatedTime": "10 mins",
+    "featured": false,
+    "logo": "/images/airdrops/wicrypt-network.svg",
+    "steps": [
+      "Download the <strong>Wicrypt Mobile App</strong> or deploy a Wicrypt Spider/Lynx hardware hotspot.",
+      "Share your mobile or home WiFi connection with nearby users.",
+      "Set custom billing rates per gigabyte or provide open community access.",
+      "Earn $WNT tokens continuously based on data client bandwidth consumed and device uptime."
+    ],
+    "overview": "Wicrypt is an open telecommunications DePIN platform empowering individuals and businesses to become decentralized internet service providers. Operating in over 30 countries on Polygon, Wicrypt allows users to monetize their surplus bandwidth while providing affordable, encrypted connectivity to underserved populations.",
+    "strategy": "Deploy a Wicrypt hotspot in high-foot-traffic commercial areas, maintain daily bandwidth sharing streaks, and stake WNT for network incentives.",
+    "tokenomics": "The $WNT token coordinates bandwidth billing, rewards hotspot operators, and provides governance over decentralized telecom protocols.",
+    "sybilSafety": "Hardware MAC signatures, authenticated bandwidth consumption receipts, and GPS location locks prevent artificial traffic generation.",
+    "faqs": [
+      {
+        "question": "Can I use Wicrypt without dedicated hardware?",
+        "answer": "Yes! The Wicrypt mobile app allows your smartphone to act as an internet-sharing hotspot and earn WNT rewards."
+      }
+    ],
+    "requirements": [
+      "Smartphone or Wicrypt Hotspot",
+      "Polygon Wallet",
+      "Wicrypt App"
+    ]
+  },
+  {
+    "id": "soarchain",
+    "name": "Soarchain",
+    "description": "Decentralized mobility Layer 1 blockchain enabling vehicle-to-vehicle (V2V) and vehicle-to-infrastructure connectivity on Cosmos.",
+    "category": "DePIN",
+    "status": "active",
+    "reward": "$MOTUS Rewards & Testnet Validator Incentives",
+    "funding": "$2.5M",
+    "investors": "Borderless Capital, Cogitent Ventures, Cosmos Ecosystem Angels",
+    "stage": "Mainnet Live",
+    "difficulty": "Medium",
+    "estimatedTime": "15 mins",
+    "featured": false,
+    "logo": "/images/airdrops/soarchain.svg",
+    "steps": [
+      "Connect Keplr or Leap wallet to <strong>Soarchain Hub</strong> on Cosmos.",
+      "Plug a Soarchain MOTUS or B-Pro OBD-II dongle into your vehicle.",
+      "Broadcast real-time vehicle-to-everything (V2X) safety alerts, road hazards, and traffic metrics.",
+      "Earn $MOTUS tokens for validated driving telemetry and participate in community validator staking."
+    ],
+    "overview": "Soarchain is a specialized Layer 1 blockchain engineered on Cosmos for the automotive and smart mobility industry. By creating a decentralized vehicle-to-everything (V2X) communication layer, Soarchain enables cars to exchange collision warnings, emergency vehicle routing, and road telemetry peer-to-peer in real time.",
+    "strategy": "Keep your MOTUS dongle connected during daily commutes, share collision hazard telemetries, and stake MOTUS tokens with active chain validators.",
+    "tokenomics": "The native token powers transaction fees on the Soarchain network, rewards automotive data miners, and settles micro-transactions between connected vehicles.",
+    "sybilSafety": "OBD-II vehicle cryptographic certificates and CAN-bus telemetry ensure that only real physical cars generate valid network blocks.",
+    "faqs": [
+      {
+        "question": "What is V2X technology?",
+        "answer": "Vehicle-to-Everything (V2X) enables vehicles to communicate directly with other vehicles, traffic lights, and road infrastructure to enhance safety."
+      }
+    ],
+    "requirements": [
+      "Soarchain MOTUS device or mobile app",
+      "Keplr Wallet",
+      "Vehicle with OBD-II port"
+    ]
+  },
+  {
+    "id": "uprock-depin",
+    "name": "UpRock",
+    "description": "AI-first DePIN mobile network monetizing unused smartphone bandwidth and compute for real-time Web3 AI data feeds on Solana.",
+    "category": "DePIN",
+    "status": "active",
+    "reward": "$UPT Mining Rewards & AI Pioneer Season Bonuses",
+    "funding": "$2M",
+    "investors": "Solana Foundation, Jupiter DAO, DePIN Venture Backers",
+    "stage": "Mainnet Live",
+    "difficulty": "Easy",
+    "estimatedTime": "3 mins",
+    "featured": false,
+    "logo": "/images/airdrops/uprock-depin.svg",
+    "steps": [
+      "Install <strong>UpRock AI Earnings App</strong> on Android, Mac, or Windows.",
+      "Register your email and link your Solana wallet address.",
+      "Leave the app running in the background to share idle internet bandwidth.",
+      "Earn $UPT tokens continuously and boost your earning rate with daily check-ins and verified referrals."
+    ],
+    "overview": "UpRock is a mobile-first DePIN network on Solana that powers decentralized artificial intelligence data scraping and web crawling. By aggregating spare internet bandwidth from hundreds of thousands of consumer smartphones and computers, UpRock gathers unbiased, real-time web data to train open-source AI models.",
+    "strategy": "Run UpRock continuously on home WiFi networks, maintain daily login streaks, and claim seasonal token distributions.",
+    "tokenomics": "The $UPT token serves as the currency for purchasing decentralized AI data queries and rewards community bandwidth contributors.",
+    "sybilSafety": "Device hardware profiling, unique IP geolocation filtering, and Solana on-chain account matching prevent automated farm emulators.",
+    "faqs": [
+      {
+        "question": "Does UpRock compromise personal browsing data?",
+        "answer": "No. UpRock only utilizes idle bandwidth for public web scraping. It has zero access to your personal browsing history, files, or photos."
+      }
+    ],
+    "requirements": [
+      "Smartphone or PC",
+      "Internet connection",
+      "Solana Wallet"
+    ]
+  },
+  {
+    "id": "chronicle-protocol",
+    "name": "Chronicle Protocol",
+    "description": "Decentralized oracle network engineered by MakerDAO/Sky, securing over $10 billion in DeFi assets with Schnorr signature aggregation.",
+    "category": "Infrastructure",
+    "status": "active",
+    "reward": "Community Validator Points & Expected $CLE Governance Allocation",
+    "funding": "Incubated by MakerDAO / Sky",
+    "investors": "MakerDAO Ecosystem, Sky Protocol, Institutional DeFi Partners",
+    "stage": "Mainnet Live",
+    "difficulty": "Medium",
+    "estimatedTime": "10 mins",
+    "featured": false,
+    "logo": "/images/airdrops/chronicle-protocol.svg",
+    "steps": [
+      "Explore the <strong>Chronicle Oracle Portal</strong> (chroniclelabs.org).",
+      "Integrate Chronicle Scribe and Oracle Feeds into testnet smart contracts.",
+      "Interact with partnered DeFi protocols powered by Chronicle (Sky, Spark, Maker).",
+      "Participate in Chronicle developer community quests and validator test programs."
+    ],
+    "overview": "Chronicle is the original decentralized oracle network created in 2017 to secure MakerDAO. Having secured tens of billions in DeFi transactions with an unblemished security record, Chronicle revolutionized oracle economics with Schnorr signature aggregation, slashing oracle gas consumption on Ethereum by over 60%.",
+    "strategy": "Interact with protocols utilizing Chronicle feeds (Spark, Sky), participate in Chronicle validator testnets, and track community governance proposals.",
+    "tokenomics": "The upcoming $CLE token will govern oracle feeder onboarding, protocol fee parameters, and consensus validator staking.",
+    "sybilSafety": "Enterprise cryptographic Schnorr key verification and on-chain protocol integrations prevent spoofed oracle reporting.",
+    "faqs": [
+      {
+        "question": "Why are Chronicle oracles more gas-efficient?",
+        "answer": "Chronicle aggregates multiple validator signatures into a single Schnorr proof, allowing on-chain verification in one low-cost operation."
+      }
+    ],
+    "requirements": [
+      "Web3 EVM Wallet",
+      "Ethereum / Arbitrum testnet tokens",
+      "Web browser"
+    ]
+  },
+  {
+    "id": "threshold-network",
+    "name": "Threshold Network",
+    "description": "Decentralized threshold cryptography network providing trustless Bitcoin bridging (tBTC) and cryptographic access control.",
+    "category": "Infrastructure",
+    "status": "active",
+    "reward": "$T Token Staking APY & tBTC Liquidity Yields",
+    "funding": "Formed via NuCypher & Keep Network Merger",
+    "investors": "Polychain Capital, a16z crypto, Paradigm, Fenbushi Capital",
+    "stage": "Mainnet Live",
+    "difficulty": "Easy",
+    "estimatedTime": "10 mins",
+    "featured": false,
+    "logo": "/images/airdrops/threshold-network.svg",
+    "steps": [
+      "Visit <strong>Threshold Network dApp</strong> (dashboard.threshold.network).",
+      "Mint trustless $tBTC by depositing native Bitcoin directly to a threshold signer wallet.",
+      "Supply tBTC into major DeFi protocols (Curve, Balancer, Synthetix, Morpho).",
+      "Stake native $T tokens to run threshold cryptography nodes and earn protocol inflation."
+    ],
+    "overview": "Threshold Network was formed through the historic on-chain merger of Keep Network and NuCypher. Its flagship product, tBTC, is the industry standard for decentralized, non-custodial Bitcoin on Ethereum and Layer 2s, secured by threshold multi-party computation (threshold MPC) rather than centralized corporate custodians.",
+    "strategy": "Mint tBTC using native Bitcoin, provide liquidity in major tBTC/WBTC pools, and stake T tokens in the official staking dashboard.",
+    "tokenomics": "The $T token powers decentralized node staking, secures threshold cryptographic signer operations, and governs network fee parameters.",
+    "sybilSafety": "On-chain cryptographic threshold signatures and locked staking contracts guarantee legitimate Web3 actor credentials.",
+    "faqs": [
+      {
+        "question": "How is tBTC different from WBTC?",
+        "answer": "WBTC relies on a centralized custodian (BitGo), while tBTC uses a decentralized threshold network of random signers with zero single point of failure."
+      }
+    ],
+    "requirements": [
+      "Bitcoin & EVM Wallet",
+      "BTC or ETH",
+      "Web browser"
+    ]
+  },
+  {
+    "id": "lit-protocol",
+    "name": "Lit Protocol",
+    "description": "Decentralized key management network and programmable threshold cryptography layer for Web3 authentication and automation.",
+    "category": "Infrastructure",
+    "status": "active",
+    "reward": "Developer Testnet Points & Upcoming $LIT Governance Allocation",
+    "funding": "$15.2M",
+    "investors": "1kx, 6th Man Ventures, Chapter One, Collab+Currency, Alliance DAO",
+    "stage": "Mainnet Live",
+    "difficulty": "Medium",
+    "estimatedTime": "10 mins",
+    "featured": false,
+    "logo": "/images/airdrops/lit-protocol.svg",
+    "steps": [
+      "Connect Web3 wallet to <strong>Lit Protocol Explorer</strong> (litprotocol.com).",
+      "Mint a Programmable Key Pair (PKP) associated with your WebAuthn or social login.",
+      "Deploy or execute Lit Actions (serverless threshold JavaScript functions).",
+      "Participate in developer hackathons and early node operator community registrations."
+    ],
+    "overview": "Lit Protocol is a decentralized key management and threshold access control network. Using distributed threshold cryptography, Lit enables developers to build seedless account onboarding, automated cross-chain DeFi bots, and conditional encryption without relying on centralized cloud key servers.",
+    "strategy": "Mint a PKP smart account, execute Lit Actions, test dApps integrating Lit Protocol authentication, and participate in community developer programs.",
+    "tokenomics": "The $LIT token will secure node validator staking, coordinate distributed key generation (DKG), and pay for Lit Action execution fees.",
+    "sybilSafety": "Multi-party cryptographic signing keys and WebAuthn hardware biometric registrations prevent automated botting.",
+    "faqs": [
+      {
+        "question": "What are Programmable Key Pairs (PKPs)?",
+        "answer": "PKPs are cryptographic key pairs represented as ERC-721 NFTs whose private key shares are distributed across the Lit node network."
+      }
+    ],
+    "requirements": [
+      "EVM Wallet",
+      "Web browser with WebAuthn support"
+    ]
+  },
+  {
+    "id": "diva-staking",
+    "name": "Diva Staking",
+    "description": "Ultra-decentralized liquid staking protocol powered by Distributed Validator Technology (DVT) and peer-to-peer consensus.",
+    "category": "DeFi",
+    "status": "active",
+    "reward": "$DIVA Rewards & divETH Liquid Staking Yields",
+    "funding": "$3.5M",
+    "investors": "A&T Capital, G20, Staking Facilities, Very Early Ventures, Curve Community",
+    "stage": "Mainnet Live",
+    "difficulty": "Easy",
+    "estimatedTime": "5 mins",
+    "featured": false,
+    "logo": "/images/airdrops/diva-staking.svg",
+    "steps": [
+      "Connect Web3 wallet to <strong>Diva Staking</strong> on Ethereum Mainnet.",
+      "Deposit native ETH to receive yield-bearing divETH.",
+      "Run a Diva DVT operator node with as little as 1 ETH collateral.",
+      "Hold or supply divETH into partner DeFi liquidity pools to earn compounding rewards."
+    ],
+    "overview": "Diva Staking is an innovative liquid staking protocol that democratizes Ethereum validation using Distributed Validator Technology (DVT). By splitting Ethereum validator keys into threshold key shares operated by multiple independent nodes, Diva achieves fault tolerance, prevents slashing, and lowers the node operator barrier to just 1 ETH.",
+    "strategy": "Stake ETH for divETH, provide liquidity to divETH/ETH pools on Curve, and consider running a light DVT operator node for extra operator yields.",
+    "tokenomics": "The $DIVA token governs protocol parameters, fee distributions, and the selection criteria for decentralized node operators.",
+    "sybilSafety": "Non-custodial smart contracts holding staked ETH on Ethereum provide permanent on-chain proof of legitimate capital.",
+    "faqs": [
+      {
+        "question": "What is Distributed Validator Technology (DVT)?",
+        "answer": "DVT splits a single Ethereum validator private key across multiple independent machines, ensuring the validator stays online even if some nodes fail."
+      }
+    ],
+    "requirements": [
+      "Ethereum Wallet",
+      "ETH for staking",
+      "Web browser"
+    ]
+  },
+  {
+    "id": "pancakeswap-dex",
+    "name": "PancakeSwap",
+    "description": "Premier multi-chain decentralized exchange featuring concentrated liquidity (V3), perpetual trading, and institutional cross-chain routing.",
+    "category": "DeFi",
+    "status": "active",
+    "reward": "$CAKE Staking Yields & Multi-Chain Syrup Pool Bounties",
+    "funding": "$10M+ Binance Labs Strategic Investment",
+    "investors": "Binance Labs, Community DAO",
+    "stage": "Mainnet Live",
+    "difficulty": "Easy",
+    "estimatedTime": "5 mins",
+    "featured": false,
+    "logo": "/images/airdrops/pancakeswap-dex.svg",
+    "steps": [
+      "Connect Web3 wallet to <strong>PancakeSwap</strong> on BNB Chain, Ethereum, Arbitrum, or Base.",
+      "Swap tokens with ultra-low slippage powered by concentrated liquidity (V3) routing.",
+      "Provide liquidity into concentrated pools to earn trading fees and CAKE rewards.",
+      "Lock $CAKE into veCAKE to earn weekly platform trading fee distributions and voting gauge power."
+    ],
+    "overview": "PancakeSwap is one of the most traded decentralized exchanges in crypto history. Expanding beyond its BNB Chain roots to Ethereum, Arbitrum, Base, Linea, and Aptos, PancakeSwap offers spot swapping, perpetual contracts, cross-chain bridging, and automated yield pools with billions in weekly trading volume.",
+    "strategy": "Perform swaps across diverse chains on PancakeSwap, supply concentrated liquidity in active ranges, and lock CAKE in veCAKE for multi-chain fee dividends.",
+    "tokenomics": "$CAKE is deflationary through weekly token burns, with veCAKE locking providing governance voting and revenue sharing.",
+    "sybilSafety": "Multi-chain liquidity positions and long-term veCAKE lockups establish definitive on-chain authenticity.",
+    "faqs": [
+      {
+        "question": "What is veCAKE?",
+        "answer": "veCAKE represents vote-escrowed CAKE, allowing lockers to direct liquidity emissions, boost farm yields, and earn platform revenue."
+      }
+    ],
+    "requirements": [
+      "EVM Wallet (BNB Chain / Base / Arbitrum)",
+      "Tokens for trading",
+      "Web browser"
+    ]
+  },
+  {
+    "id": "solend-protocol",
+    "name": "Save (Solend)",
+    "description": "Flagship decentralized algorithmic money market and liquidity protocol on Solana with over $200M in TVL.",
+    "category": "DeFi",
+    "status": "active",
+    "reward": "$SLND Rewards & Save Season Points",
+    "funding": "$6.5M",
+    "investors": "Polychain Capital, Dragonfly, Race Capital, Coinbase Ventures, Solana Ventures",
+    "stage": "Mainnet Live",
+    "difficulty": "Easy",
+    "estimatedTime": "5 mins",
+    "featured": false,
+    "logo": "/images/airdrops/solend-protocol.svg",
+    "steps": [
+      "Connect Phantom or Solflare wallet to <strong>Save (formerly Solend)</strong>.",
+      "Deposit collateral (SOL, USDC, JitoSOL, or bonk) into the Main Pool or isolated markets.",
+      "Borrow stablecoins or ecosystem tokens while maintaining a conservative health ratio.",
+      "Stake native $SLND tokens or deposit into Save liquid yield vaults to earn seasonal points."
+    ],
+    "overview": "Save (formerly Solend) is the pioneer lending and borrowing protocol on Solana. Renowned for its sub-second transaction settlement and ultra-low borrowing fees, Save supports both broad cross-collateral money markets and isolated pools for high-volatility ecosystem tokens.",
+    "strategy": "Supply blue-chip assets into Save lending pools, borrow conservatively to farm points, and stake SLND tokens for protocol fee dividends.",
+    "tokenomics": "The $SLND token governs protocol interest curves, collateral asset additions, and captures liquidation fee revenues.",
+    "sybilSafety": "Continuous lending and borrowing positions recorded on the Solana ledger across multiple epochs verify genuine user activity.",
+    "faqs": [
+      {
+        "question": "Why did Solend rebrand to Save?",
+        "answer": "Solend rebranded to Save to reflect its expansion into a comprehensive decentralized financial super-app and savings engine on Solana."
+      }
+    ],
+    "requirements": [
+      "Solana Wallet (Phantom/Solflare)",
+      "SOL collateral",
+      "Web browser"
+    ]
+  },
+  {
+    "id": "celer-cbridge",
+    "name": "Celer cBridge",
+    "description": "High-speed, multi-chain cross-chain liquidity network bridging crypto assets across 40+ Layer 1 and Layer 2 blockchains.",
+    "category": "Interoperability",
+    "status": "active",
+    "reward": "$CELR Staking Rewards & Bridge Fee Rebates",
+    "funding": "$6M+",
+    "investors": "Binance Labs, Pantera Capital, FBG Capital, IOSG, Continue Capital",
+    "stage": "Mainnet Live",
+    "difficulty": "Easy",
+    "estimatedTime": "5 mins",
+    "featured": false,
+    "logo": "/images/airdrops/celer-cbridge.svg",
+    "steps": [
+      "Navigate to <strong>Celer cBridge</strong> (cbridge.celer.network).",
+      "Select your source and destination network (choose from 40+ supported EVM and non-EVM chains).",
+      "Transfer tokens with low latency and minimal gas fees.",
+      "Provide liquidity into cBridge pools or stake $CELR on the State Guardian Network (SGN)."
+    ],
+    "overview": "Celer cBridge is a leading cross-chain asset bridge developed by the Celer Network. Powered by the State Guardian Network (SGN), cBridge provides instant, low-cost asset transfers across Ethereum, Arbitrum, Optimism, Polygon, BNB Chain, and dozens of other networks with billions in settled cross-chain volume.",
+    "strategy": "Use cBridge for routine cross-chain capital bridging, supply stablecoin liquidity to high-volume bridge pools, and stake CELR tokens.",
+    "tokenomics": "$CELR secures the State Guardian Network (SGN) through validator staking and captures a fraction of every cross-chain bridge transfer fee.",
+    "sybilSafety": "Multi-network transaction hashes recorded across independent block explorers provide definitive cross-chain verification.",
+    "faqs": [
+      {
+        "question": "How fast is a transfer on Celer cBridge?",
+        "answer": "Most cross-chain transfers on cBridge complete in 1 to 5 minutes, depending on the finality speed of the destination chain."
+      }
+    ],
+    "requirements": [
+      "EVM Wallet",
+      "Crypto assets for bridging",
+      "Web browser"
+    ]
+  },
+  {
+    "id": "sound-xyz",
+    "name": "Sound.xyz",
+    "description": "Premier Web3 music publishing and streaming platform empowering independent artists and collector communities.",
+    "category": "NFT",
+    "status": "active",
+    "reward": "Collector Badges, Sound Points & Protocol Rewards",
+    "funding": "$20M",
+    "investors": "a16z crypto, Palm Tree Crew, Snoop Dogg, Ryan Tedder, Scalar Capital",
+    "stage": "Mainnet Live",
+    "difficulty": "Easy",
+    "estimatedTime": "5 mins",
+    "featured": false,
+    "logo": "/images/airdrops/sound-xyz.svg",
+    "steps": [
+      "Connect Web3 wallet to <strong>Sound.xyz</strong> on Ethereum, Optimism, or Base.",
+      "Discover independent musical artists and collect music edition NFTs.",
+      "Leave on-chain comments on your favorite song tracks (Backing Notes).",
+      "Stream music daily, build curated playlists, and accumulate Sound collector points on the community leaderboard."
+    ],
+    "overview": "Sound.xyz is transforming the global music industry by replacing exploitative streaming streaming royalties with direct Web3 artist monetization. Backed by $20M from a16z crypto and top music figures, Sound allows artists to release limited edition music drops while fans own permanent, tradeable music collectibles.",
+    "strategy": "Collect affordable music editions on Base or Optimism, write Backing Notes on track drops, and maintain an active streaming profile.",
+    "tokenomics": "Sound collector points recognize early supporters and curators ahead of a decentralized community governance rollout.",
+    "sybilSafety": "On-chain music NFT purchases and verified social wallet logins eliminate disposable bot accounts.",
+    "faqs": [
+      {
+        "question": "Can I listen to music on Sound.xyz for free?",
+        "answer": "Yes! Sound offers full, high-quality music streaming for everyone; collecting editions is an optional way to support artists directly."
+      }
+    ],
+    "requirements": [
+      "Web3 EVM Wallet (Base / Optimism)",
+      "A few dollars in ETH",
+      "Web browser"
+    ]
+  },
+  {
+    "id": "ronin-network",
+    "name": "Ronin Network",
+    "description": "Battle-tested EVM Layer 1 blockchain crafted by Sky Mavis for Web3 gaming, processing millions of daily transactions for Pixels and Axie.",
+    "category": "Layer 1",
+    "status": "active",
+    "reward": "$RON Staking Yields & Ecosystem Game Airdrops",
+    "funding": "$150M+",
+    "investors": "Andreessen Horowitz (a16z), Paradigm, Accel, Animoca Brands, Binance",
+    "stage": "Mainnet Live",
+    "difficulty": "Easy",
+    "estimatedTime": "10 mins",
+    "featured": true,
+    "logo": "/images/airdrops/ronin-network.svg",
+    "steps": [
+      "Install the <strong>Ronin Wallet</strong> browser extension or mobile app.",
+      "Bridge assets onto Ronin using the official Ronin Bridge.",
+      "Play top Web3 games built on Ronin (Pixels, Axie Infinity, Wild Forest, Kaidro).",
+      "Stake native $RON tokens to community validators to earn daily network consensus rewards."
+    ],
+    "overview": "Ronin Network is an EVM-compatible blockchain designed specifically for gaming by Sky Mavis, creators of Axie Infinity. Processing millions of daily active addresses and billions in NFT volume, Ronin features ultra-fast block finality, near-zero transaction fees, and a thriving consumer ecosystem led by breakout hits like Pixels.",
+    "strategy": "Delegate RON tokens to verified staking validators, interact with ecosystem games, and hold gaming NFT assets on the Mavis Market.",
+    "tokenomics": "$RON is the native fuel of the Ronin blockchain, used for gas fees, securing the network via Delegated Proof of Stake (DPoS), and DAO governance.",
+    "sybilSafety": "Active gaming state interactions and on-chain staking delegations provide definitive proof of authentic human engagement.",
+    "faqs": [
+      {
+        "question": "Which wallet is required for Ronin?",
+        "answer": "You need the official Ronin Wallet extension or mobile app to interact with games and staking on Ronin Network."
+      }
+    ],
+    "requirements": [
+      "Ronin Wallet",
+      "RON tokens for staking/gas",
+      "Web browser"
+    ]
   }
 ];

@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
+  <defs>
+    <linearGradient id="roninGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1D4ED8"/>
+      <stop offset="100%" stop-color="#2563EB"/>
+    </linearGradient>
+  </defs>
+  <rect width="128" height="128" rx="32" fill="url(#roninGrad)"/>
+  <path d="M46 36 L72 36 C82 36 90 44 90 54 C90 64 82 72 72 72 L60 72 L60 92 L46 92 Z M60 50 L60 58 L70 58 C74 58 76 56 76 54 C76 52 74 50 70 50 Z" fill="#FFFFFF"/>
+</svg>
