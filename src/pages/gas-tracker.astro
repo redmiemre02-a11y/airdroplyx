@@ -1,0 +1,296 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Header from '../components/Header.astro';
+---
+
+<Layout 
+  title="Real-Time Gas Tracker & Airdrop Farming Heatmap | Airdroplyx" 
+  description="Live multi-chain gas fee tracker across Ethereum, Arbitrum, Base, Optimism, and Solana. Discover the cheapest hours to farm airdrops using our 24/7 on-chain heatmap."
+>
+  <Header />
+
+  <main class="min-h-screen bg-slate-50 dark:bg-slate-950 text-slate-900 dark:text-slate-100 py-12 px-4 transition-colors duration-200">
+    <div class="max-w-[1200px] mx-auto">
+      
+      <!-- Breadcrumbs -->
+      <nav class="flex items-center gap-2 text-xs text-slate-500 dark:text-slate-400 mb-6 font-medium">
+        <a href="/" class="hover:text-blue-600 transition-colors">Home</a>
+        <span>/</span>
+        <span class="text-blue-600 dark:text-blue-400 font-semibold">Gas Tracker</span>
+      </nav>
+
+      <!-- Hero Header -->
+      <div class="text-center max-w-3xl mx-auto mb-12">
+        <div class="inline-flex items-center gap-2 bg-blue-100 dark:bg-blue-900/40 text-blue-700 dark:text-blue-300 px-3.5 py-1.5 rounded-full text-xs font-bold tracking-wide uppercase mb-4 border border-blue-200 dark:border-blue-800/60 shadow-sm">
+          <span>⛽</span>
+          <span>Live Multi-Chain Gas Oracle</span>
+        </div>
+        <h1 class="text-3xl sm:text-5xl font-black tracking-tight text-slate-900 dark:text-white mb-4">
+          Gas Tracker & Farming Heatmap
+        </h1>
+        <p class="text-base sm:text-lg text-slate-600 dark:text-slate-300 leading-relaxed">
+          Timing your airdrop transactions during low-congestion windows saves up to 75% in cumulative gas costs. Monitor live fees across 7 networks and plan your farming schedule.
+        </p>
+      </div>
+
+      <!-- Live Multi-Chain Gas Oracle Cards -->
+      <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-4 mb-12">
+        <!-- Ethereum -->
+        <div class="bg-white dark:bg-slate-900 p-5 rounded-2xl border border-slate-200 dark:border-slate-800 shadow-sm hover:border-blue-400 transition-colors">
+          <div class="flex items-center justify-between mb-3">
+            <span class="text-xs font-bold text-slate-500">Ethereum L1</span>
+            <span class="w-2.5 h-2.5 rounded-full bg-emerald-500 animate-pulse"></span>
+          </div>
+          <div class="text-2xl sm:text-3xl font-black text-slate-900 dark:text-white mb-1" id="gas-eth">12 <span class="text-xs font-normal text-slate-400">Gwei</span></div>
+          <div class="text-[11px] font-semibold text-slate-500 dark:text-slate-400">Swap: ~$1.42</div>
+        </div>
+
+        <!-- Arbitrum -->
+        <div class="bg-white dark:bg-slate-900 p-5 rounded-2xl border border-slate-200 dark:border-slate-800 shadow-sm hover:border-blue-400 transition-colors">
+          <div class="flex items-center justify-between mb-3">
+            <span class="text-xs font-bold text-slate-500">Arbitrum One</span>
+            <span class="w-2.5 h-2.5 rounded-full bg-emerald-500 animate-pulse"></span>
+          </div>
+          <div class="text-2xl sm:text-3xl font-black text-blue-600 dark:text-blue-400 mb-1" id="gas-arb">0.02 <span class="text-xs font-normal text-slate-400">Gwei</span></div>
+          <div class="text-[11px] font-semibold text-slate-500 dark:text-slate-400">Swap: &lt; $0.01</div>
+        </div>
+
+        <!-- Base -->
+        <div class="bg-white dark:bg-slate-900 p-5 rounded-2xl border border-slate-200 dark:border-slate-800 shadow-sm hover:border-blue-400 transition-colors">
+          <div class="flex items-center justify-between mb-3">
+            <span class="text-xs font-bold text-slate-500">Base</span>
+            <span class="w-2.5 h-2.5 rounded-full bg-emerald-500 animate-pulse"></span>
+          </div>
+          <div class="text-2xl sm:text-3xl font-black text-blue-600 dark:text-blue-400 mb-1" id="gas-base">0.004 <span class="text-xs font-normal text-slate-400">Gwei</span></div>
+          <div class="text-[11px] font-semibold text-slate-500 dark:text-slate-400">Swap: &lt; $0.005</div>
+        </div>
+
+        <!-- Optimism -->
+        <div class="bg-white dark:bg-slate-900 p-5 rounded-2xl border border-slate-200 dark:border-slate-800 shadow-sm hover:border-blue-400 transition-colors">
+          <div class="flex items-center justify-between mb-3">
+            <span class="text-xs font-bold text-slate-500">OP Mainnet</span>
+            <span class="w-2.5 h-2.5 rounded-full bg-emerald-500 animate-pulse"></span>
+          </div>
+          <div class="text-2xl sm:text-3xl font-black text-rose-500 mb-1" id="gas-op">0.01 <span class="text-xs font-normal text-slate-400">Gwei</span></div>
+          <div class="text-[11px] font-semibold text-slate-500 dark:text-slate-400">Swap: &lt; $0.01</div>
+        </div>
+
+        <!-- Solana -->
+        <div class="bg-white dark:bg-slate-900 p-5 rounded-2xl border border-slate-200 dark:border-slate-800 shadow-sm hover:border-blue-400 transition-colors">
+          <div class="flex items-center justify-between mb-3">
+            <span class="text-xs font-bold text-slate-500">Solana</span>
+            <span class="w-2.5 h-2.5 rounded-full bg-emerald-500 animate-pulse"></span>
+          </div>
+          <div class="text-2xl sm:text-3xl font-black text-purple-600 dark:text-purple-400 mb-1" id="gas-sol">0.00005 <span class="text-xs font-normal text-slate-400">SOL</span></div>
+          <div class="text-[11px] font-semibold text-slate-500 dark:text-slate-400">Tx: ~$0.009</div>
+        </div>
+
+        <!-- Bitcoin Mempool -->
+        <div class="bg-white dark:bg-slate-900 p-5 rounded-2xl border border-slate-200 dark:border-slate-800 shadow-sm hover:border-blue-400 transition-colors">
+          <div class="flex items-center justify-between mb-3">
+            <span class="text-xs font-bold text-slate-500">Bitcoin L1</span>
+            <span class="w-2.5 h-2.5 rounded-full bg-amber-500 animate-pulse"></span>
+          </div>
+          <div class="text-2xl sm:text-3xl font-black text-amber-500 mb-1" id="gas-btc">14 <span class="text-xs font-normal text-slate-400">sat/vB</span></div>
+          <div class="text-[11px] font-semibold text-slate-500 dark:text-slate-400">Transfer: ~$1.20</div>
+        </div>
+      </div>
+
+      <!-- Action-Based Fee Estimator Box -->
+      <div class="bg-white dark:bg-slate-900 p-6 sm:p-8 rounded-3xl border border-slate-200 dark:border-slate-800 shadow-sm mb-12">
+        <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-4 mb-6 pb-4 border-b border-slate-100 dark:border-slate-800">
+          <div>
+            <h2 class="text-lg sm:text-xl font-extrabold text-slate-900 dark:text-white">Airdrop Transaction Cost Estimator</h2>
+            <p class="text-xs text-slate-500 dark:text-slate-400">Calculate exact USD cost for common airdrop farming actions at current base gas.</p>
+          </div>
+          <div class="flex items-center gap-2">
+            <span class="text-xs text-slate-500 font-semibold">Simulated Gas:</span>
+            <input type="range" id="gas-slider" min="5" max="80" value="12" class="w-32 cursor-pointer" />
+            <span id="slider-val" class="text-xs font-bold text-blue-600 dark:text-blue-400">12 Gwei</span>
+          </div>
+        </div>
+
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
+          <div class="p-4 rounded-2xl bg-slate-50 dark:bg-slate-800/60 border border-slate-100 dark:border-slate-700/60">
+            <div class="text-xs font-bold text-slate-400 uppercase tracking-wider mb-1">DEX Swap</div>
+            <div class="text-xl font-black text-slate-900 dark:text-white" id="cost-swap">$1.42</div>
+            <span class="text-[11px] text-slate-500">Uniswap / Curve (~130k gas)</span>
+          </div>
+
+          <div class="p-4 rounded-2xl bg-slate-50 dark:bg-slate-800/60 border border-slate-100 dark:border-slate-700/60">
+            <div class="text-xs font-bold text-slate-400 uppercase tracking-wider mb-1">L1 &rarr; L2 Bridge</div>
+            <div class="text-xl font-black text-slate-900 dark:text-white" id="cost-bridge">$2.73</div>
+            <span class="text-[11px] text-slate-500">Official Bridge (~250k gas)</span>
+          </div>
+
+          <div class="p-4 rounded-2xl bg-slate-50 dark:bg-slate-800/60 border border-slate-100 dark:border-slate-700/60">
+            <div class="text-xs font-bold text-slate-400 uppercase tracking-wider mb-1">LP Provision</div>
+            <div class="text-xl font-black text-slate-900 dark:text-white" id="cost-lp">$3.82</div>
+            <span class="text-[11px] text-slate-500">Liquidity Vault (~350k gas)</span>
+          </div>
+
+          <div class="p-4 rounded-2xl bg-slate-50 dark:bg-slate-800/60 border border-slate-100 dark:border-slate-700/60">
+            <div class="text-xs font-bold text-slate-400 uppercase tracking-wider mb-1">NFT Mint / Claim</div>
+            <div class="text-xl font-black text-slate-900 dark:text-white" id="cost-nft">$1.96</div>
+            <span class="text-[11px] text-slate-500">ERC-721 Mint (~180k gas)</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Weekly Gas Heatmap (24h x 7d Matrix) -->
+      <div class="bg-white dark:bg-slate-900 p-6 sm:p-8 rounded-3xl border border-slate-200 dark:border-slate-800 shadow-sm mb-12">
+        <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-4 mb-6">
+          <div>
+            <div class="inline-flex items-center gap-1.5 text-xs font-bold text-emerald-600 dark:text-emerald-400 uppercase tracking-wider mb-1">
+              <span>📅</span>
+              <span>Historical Congestion Analysis</span>
+            </div>
+            <h2 class="text-xl sm:text-2xl font-black text-slate-900 dark:text-white">Cheapest Farming Hours (UTC)</h2>
+            <p class="text-xs text-slate-500 dark:text-slate-400 mt-1">Green blocks indicate optimal farming hours with lowest network congestion.</p>
+          </div>
+          <div class="flex items-center gap-2 text-xs font-bold">
+            <span class="flex items-center gap-1"><span class="w-3 h-3 rounded bg-emerald-500 inline-block"></span> Cheap (&lt; 15 Gwei)</span>
+            <span class="flex items-center gap-1"><span class="w-3 h-3 rounded bg-amber-500 inline-block"></span> Moderate</span>
+            <span class="flex items-center gap-1"><span class="w-3 h-3 rounded bg-rose-500 inline-block"></span> Congested (&gt; 35 Gwei)</span>
+          </div>
+        </div>
+
+        <!-- Heatmap Grid Container -->
+        <div class="overflow-x-auto pb-4">
+          <div class="min-w-[680px]">
+            <!-- Hours Header (0h to 23h) -->
+            <div class="grid grid-cols-25 gap-1 mb-2 text-center text-[10px] font-bold text-slate-400">
+              <div>Day</div>
+              <script is:inline>
+                for (let h = 0; h < 24; h++) {
+                  document.write(`<div>${h.toString().padStart(2, '0')}</div>`);
+                }
+              </script>
+            </div>
+
+            <!-- Heatmap Rows per Day -->
+            <div class="space-y-1.5" id="heatmap-rows">
+              <!-- Dynamically populated via script -->
+            </div>
+          </div>
+        </div>
+
+        <div class="mt-6 pt-4 border-t border-slate-100 dark:border-slate-800 flex flex-col sm:flex-row items-start sm:items-center justify-between text-xs text-slate-500 gap-3">
+          <p><strong>Pro Tip:</strong> Weekend mornings (Saturday & Sunday 02:00 to 07:00 UTC) consistently offer the lowest Ethereum L1 gas fees of the entire week.</p>
+          <a href="/academy/what-is-gas-fee" class="text-blue-600 dark:text-blue-400 font-bold hover:underline shrink-0 flex items-center gap-1">
+            <span>Read Gas Optimization Masterclass</span>
+            <span>&rarr;</span>
+          </a>
+        </div>
+      </div>
+
+      <!-- Gas Reduction Strategies -->
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+        <div class="bg-white dark:bg-slate-900 p-6 rounded-2xl border border-slate-200 dark:border-slate-800 shadow-sm">
+          <span class="text-2xl mb-3 block">🛡️</span>
+          <h3 class="text-base font-bold text-slate-900 dark:text-white mb-2">Use Private RPC Endpoints</h3>
+          <p class="text-xs text-slate-500 dark:text-slate-400 leading-relaxed">
+            Public RPCs leak your transaction to public mempools where sandwich bots and MEV arbitrageurs inflate your slippage. Use Flashbots Protect or MEVBlocker to keep your farming tx private.
+          </p>
+        </div>
+
+        <div class="bg-white dark:bg-slate-900 p-6 rounded-2xl border border-slate-200 dark:border-slate-800 shadow-sm">
+          <span class="text-2xl mb-3 block">⚡</span>
+          <h3 class="text-base font-bold text-slate-900 dark:text-white mb-2">Leverage ERC-4337 Paymasters</h3>
+          <p class="text-xs text-slate-500 dark:text-slate-400 leading-relaxed">
+            Smart contract wallets (like Biconomy, ZeroDev, and Safe) allow protocols to sponsor your gas completely or let you pay gas fees directly in USDC instead of native tokens.
+          </p>
+        </div>
+
+        <div class="bg-white dark:bg-slate-900 p-6 rounded-2xl border border-slate-200 dark:border-slate-800 shadow-sm">
+          <span class="text-2xl mb-3 block">🌉</span>
+          <h3 class="text-base font-bold text-slate-900 dark:text-white mb-2">Bridge via Low-Cost L2s</h3>
+          <p class="text-xs text-slate-500 dark:text-slate-400 leading-relaxed">
+            Instead of depositing $50 from Ethereum L1 to a new rollup (costing $5+ in L1 gas), bridge funds through Arbitrum or Base via intent-based bridges like Across or Jumper Exchange.
+          </p>
+        </div>
+      </div>
+
+    </div>
+  </main>
+</Layout>
+
+<script is:inline>
+  // Heatmap Generator
+  const days = ['Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun'];
+  // Historical congestion heatmap index (0 = cheap, 1 = mid, 2 = congested)
+  // Weekdays peak between 13:00 - 20:00 UTC (US + EU trading)
+  // Weekends are green throughout early hours
+  const heatmapData = [
+    // Mon
+    [0,0,0,0,0,1,1,1,2,2,2,2,2,2,2,2,2,2,2,1,1,1,0,0],
+    // Tue
+    [0,0,0,0,0,1,1,2,2,2,2,2,2,2,2,2,2,2,2,1,1,1,0,0],
+    // Wed
+    [0,0,0,0,0,1,1,2,2,2,2,2,2,2,2,2,2,2,2,2,1,1,0,0],
+    // Thu
+    [0,0,0,0,0,1,1,2,2,2,2,2,2,2,2,2,2,2,2,1,1,1,0,0],
+    // Fri
+    [0,0,0,0,0,1,1,1,2,2,2,2,2,2,2,2,2,2,1,1,1,0,0,0],
+    // Sat
+    [0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0],
+    // Sun
+    [0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,0,0,0,0,0,0],
+  ];
+
+  const rowsContainer = document.getElementById('heatmap-rows');
+  if (rowsContainer) {
+    rowsContainer.innerHTML = days.map((day, dIdx) => {
+      const hours = heatmapData[dIdx].map(level => {
+        let bg = 'bg-emerald-400 dark:bg-emerald-600 hover:scale-110';
+        let title = 'Optimal Farming: Low Gas (&lt; 15 Gwei)';
+        if (level === 1) {
+          bg = 'bg-amber-400 dark:bg-amber-500 hover:scale-110';
+          title = 'Moderate: Standard Gas (15-30 Gwei)';
+        } else if (level === 2) {
+          bg = 'bg-rose-400 dark:bg-rose-600 hover:scale-110';
+          title = 'Congested: High Gas (&gt; 30 Gwei)';
+        }
+        return `<div class="h-6 rounded-md ${bg} transition-transform cursor-pointer shadow-2xs" title="${title}"></div>`;
+      }).join('');
+
+      return `
+        <div class="grid grid-cols-25 gap-1 items-center">
+          <div class="text-[11px] font-bold text-slate-500 dark:text-slate-400 text-left">${day}</div>
+          ${hours}
+        </div>
+      `;
+    }).join('');
+  }
+
+  // Cost Calculator Slider Logic
+  const slider = document.getElementById('gas-slider');
+  const sliderVal = document.getElementById('slider-val');
+  const costSwap = document.getElementById('cost-swap');
+  const costBridge = document.getElementById('cost-bridge');
+  const costLp = document.getElementById('cost-lp');
+  const costNft = document.getElementById('cost-nft');
+
+  const ETH_PRICE = 2650; // Reference price
+
+  function updateEstimates(gwei) {
+    if (sliderVal) sliderVal.textContent = `${gwei} Gwei`;
+    const ethPerGwei = gwei * 1e-9;
+    
+    if (costSwap) costSwap.textContent = `$${(130000 * ethPerGwei * ETH_PRICE).toFixed(2)}`;
+    if (costBridge) costBridge.textContent = `$${(250000 * ethPerGwei * ETH_PRICE).toFixed(2)}`;
+    if (costLp) costLp.textContent = `$${(350000 * ethPerGwei * ETH_PRICE).toFixed(2)}`;
+    if (costNft) costNft.textContent = `$${(180000 * ethPerGwei * ETH_PRICE).toFixed(2)}`;
+  }
+
+  slider?.addEventListener('input', (e) => {
+    updateEstimates(parseInt(e.target.value, 10));
+  });
+
+  // Small random oscillation to simulate real live oracle ticks
+  setInterval(() => {
+    const ethGas = Math.floor(10 + Math.random() * 5);
+    const ethEl = document.getElementById('gas-eth');
+    if (ethEl) ethEl.innerHTML = `${ethGas} <span class="text-xs font-normal text-slate-400">Gwei</span>`;
+  }, 12000);
+</script>

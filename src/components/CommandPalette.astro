@@ -1,0 +1,307 @@
+---
+import { airdrops } from '../data/airdrops';
+import { academyArticles } from '../data/academy';
+import { newsArticles } from '../data/news';
+
+const searchIndex = {
+  airdrops: airdrops.map(a => ({
+    type: 'airdrop',
+    id: a.id,
+    title: a.name,
+    subtitle: `${a.category} • ${a.reward}`,
+    logo: a.logo,
+    url: `/airdrop/${a.id}`
+  })),
+  academy: academyArticles.map(a => ({
+    type: 'academy',
+    id: a.slug,
+    title: a.title,
+    subtitle: 'Academy Masterclass',
+    icon: '🎓',
+    url: `/academy/${a.slug}`
+  })),
+  news: newsArticles.map(n => ({
+    type: 'news',
+    id: n.slug,
+    title: n.title,
+    subtitle: `${n.category} • News`,
+    icon: '📰',
+    url: `/news/${n.slug}`
+  })),
+  pages: [
+    { type: 'page', id: 'home', title: 'Home (All 650+ Airdrops)', subtitle: 'Full Database & Filters', icon: '⚡', url: '/' },
+    { type: 'page', id: 'watchlist', title: 'My Airdrop Watchlist & Tracker', subtitle: 'Personal Farming Checklist', icon: '⭐', url: '/watchlist' },
+    { type: 'page', id: 'sybil', title: 'Sybil Risk & Wallet Diagnostic', subtitle: 'Anti-Sybil Clustering Audit', icon: '🛡️', url: '/sybil-checker' },
+    { type: 'page', id: 'calendar', title: 'Airdrop Calendar', subtitle: 'Upcoming Deadlines & TGEs', icon: '📅', url: '/calendar' },
+    { type: 'page', id: 'calculator', title: 'Points ROI Calculator', subtitle: 'Valuation & Yield Modeling', icon: '🧮', url: '/calculator' },
+    { type: 'page', id: 'ecosystems', title: 'Ecosystem Hubs', subtitle: 'Ethereum, Solana, Cosmos, L2s', icon: '🌐', url: '/ecosystems' },
+    { type: 'page', id: 'news', title: 'News Hub', subtitle: 'Verified Market Alpha', icon: '📰', url: '/news' },
+    { type: 'page', id: 'academy', title: 'Airdrop Academy', subtitle: '80 Web3 Masterclasses', icon: '🎓', url: '/academy' }
+  ]
+};
+---
+
+<!-- Global Command Palette Modal Backdrop -->
+<div 
+  id="command-palette-backdrop" 
+  class="fixed inset-0 bg-slate-950/60 backdrop-blur-sm z-50 hidden opacity-0 transition-opacity duration-200 flex items-start justify-center pt-16 sm:pt-24 px-4"
+  role="dialog"
+  aria-modal="true"
+  aria-label="Global Search Palette"
+>
+  <div 
+    id="command-palette-modal"
+    class="w-full max-w-2xl bg-white dark:bg-slate-900 rounded-3xl shadow-2xl border border-slate-200 dark:border-slate-800 overflow-hidden transform scale-95 transition-transform duration-200 flex flex-col max-h-[80vh]"
+  >
+    <!-- Search Input Bar -->
+    <div class="relative flex items-center px-5 py-4 border-b border-slate-100 dark:border-slate-800">
+      <svg class="w-5 h-5 text-slate-400 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path>
+      </svg>
+      <input 
+        type="text" 
+        id="palette-input" 
+        placeholder="Search 650+ airdrops, 80 academy guides, news..."
+        class="w-full ml-3 bg-transparent text-slate-900 dark:text-white placeholder-slate-400 text-base sm:text-lg font-medium outline-none"
+        autocomplete="off"
+        spellcheck="false"
+      />
+      <div class="hidden sm:flex items-center gap-1.5 shrink-0">
+        <kbd class="px-2 py-1 text-[11px] font-mono font-bold text-slate-400 bg-slate-100 dark:bg-slate-800 rounded-lg border border-slate-200 dark:border-slate-700">ESC</kbd>
+      </div>
+    </div>
+
+    <!-- Quick Shortcuts / Empty Prompt -->
+    <div id="palette-shortcuts-hint" class="px-5 py-2.5 bg-slate-50 dark:bg-slate-850 border-b border-slate-100 dark:border-slate-800 text-[11px] text-slate-500 dark:text-slate-400 flex items-center justify-between font-medium">
+      <div class="flex items-center gap-4">
+        <span><kbd class="font-mono bg-slate-200/80 dark:bg-slate-700 px-1.5 py-0.5 rounded text-[10px]">↑</kbd> <kbd class="font-mono bg-slate-200/80 dark:bg-slate-700 px-1.5 py-0.5 rounded text-[10px]">↓</kbd> to navigate</span>
+        <span><kbd class="font-mono bg-slate-200/80 dark:bg-slate-700 px-1.5 py-0.5 rounded text-[10px]">↵</kbd> to select</span>
+      </div>
+      <span><kbd class="font-mono bg-slate-200/80 dark:bg-slate-700 px-1.5 py-0.5 rounded text-[10px]">Ctrl+K</kbd> anywhere</span>
+    </div>
+
+    <!-- Results List Scrollable -->
+    <div id="palette-results" class="overflow-y-auto p-3 space-y-4 divide-y divide-slate-100 dark:divide-slate-800/60 max-h-[55vh]">
+      <!-- Dynamically filled via JavaScript -->
+    </div>
+
+    <!-- Palette Footer -->
+    <div class="px-5 py-3 bg-slate-50 dark:bg-slate-900/90 border-t border-slate-100 dark:border-slate-800 text-[11px] text-slate-400 flex items-center justify-between">
+      <span>Airdroplyx Universal Index</span>
+      <span class="font-semibold text-slate-500 dark:text-slate-400">806 total indexed items</span>
+    </div>
+  </div>
+</div>
+
+<script is:inline define:vars={{ indexData: searchIndex }}>
+  const backdrop = document.getElementById('command-palette-backdrop');
+  const modal = document.getElementById('command-palette-modal');
+  const input = document.getElementById('palette-input');
+  const resultsContainer = document.getElementById('palette-results');
+  let selectedIndex = 0;
+  let currentItems = [];
+
+  function openPalette() {
+    if (!backdrop || !modal || !input) return;
+    backdrop.classList.remove('hidden');
+    // Force browser reflow for smooth transition
+    void backdrop.offsetWidth;
+    backdrop.classList.remove('opacity-0');
+    modal.classList.remove('scale-95');
+    modal.classList.add('scale-100');
+    input.value = '';
+    selectedIndex = 0;
+    renderDefaultView();
+    setTimeout(() => input.focus(), 50);
+  }
+
+  function closePalette() {
+    if (!backdrop || !modal) return;
+    backdrop.classList.add('opacity-0');
+    modal.classList.remove('scale-100');
+    modal.classList.add('scale-95');
+    setTimeout(() => {
+      backdrop.classList.add('hidden');
+    }, 200);
+  }
+
+  function renderDefaultView() {
+    // Show Quick Navigation & Popular Airdrops
+    const quickPages = indexData.pages;
+    const popularDrops = indexData.airdrops.slice(0, 5);
+
+    currentItems = [...quickPages, ...popularDrops];
+    renderItems([
+      { title: 'Navigation & Tools', items: quickPages },
+      { title: 'Trending Airdrops', items: popularDrops }
+    ]);
+  }
+
+  function handleSearch(query) {
+    const q = query.toLowerCase().trim();
+    if (!q) {
+      renderDefaultView();
+      return;
+    }
+
+    // Filter across categories
+    const matchedDrops = indexData.airdrops
+      .filter(a => a.title.toLowerCase().includes(q) || a.subtitle.toLowerCase().includes(q))
+      .slice(0, 6);
+
+    const matchedAcademy = indexData.academy
+      .filter(a => a.title.toLowerCase().includes(q))
+      .slice(0, 4);
+
+    const matchedNews = indexData.news
+      .filter(n => n.title.toLowerCase().includes(q) || n.subtitle.toLowerCase().includes(q))
+      .slice(0, 4);
+
+    const matchedPages = indexData.pages
+      .filter(p => p.title.toLowerCase().includes(q) || p.subtitle.toLowerCase().includes(q));
+
+    const sections = [];
+    currentItems = [];
+
+    if (matchedPages.length > 0) {
+      sections.push({ title: 'Pages & Tools', items: matchedPages });
+      currentItems.push(...matchedPages);
+    }
+    if (matchedDrops.length > 0) {
+      sections.push({ title: `Airdrops (${matchedDrops.length})`, items: matchedDrops });
+      currentItems.push(...matchedDrops);
+    }
+    if (matchedAcademy.length > 0) {
+      sections.push({ title: `Academy Masterclasses (${matchedAcademy.length})`, items: matchedAcademy });
+      currentItems.push(...matchedAcademy);
+    }
+    if (matchedNews.length > 0) {
+      sections.push({ title: `News & Alpha (${matchedNews.length})`, items: matchedNews });
+      currentItems.push(...matchedNews);
+    }
+
+    selectedIndex = 0;
+    renderItems(sections);
+  }
+
+  function renderItems(sections) {
+    if (!resultsContainer) return;
+
+    if (sections.length === 0 || currentItems.length === 0) {
+      resultsContainer.innerHTML = `
+        <div class="py-12 text-center">
+          <p class="text-sm font-semibold text-slate-500">No results found for "${input.value}".</p>
+          <p class="text-xs text-slate-400 mt-1">Try searching for "Solana", "Testnet", "Bridge", or "Hyperliquid".</p>
+        </div>
+      `;
+      return;
+    }
+
+    let globalItemIndex = 0;
+    resultsContainer.innerHTML = sections.map(section => `
+      <div class="pt-2 first:pt-0">
+        <div class="px-3 py-1.5 text-[11px] font-bold uppercase tracking-wider text-slate-400">
+          ${section.title}
+        </div>
+        <div class="space-y-1 mt-1">
+          ${section.items.map(item => {
+            const thisIndex = globalItemIndex++;
+            const isSelected = thisIndex === selectedIndex;
+            
+            let iconMarkup = '';
+            if (item.logo) {
+              iconMarkup = `<img src="${item.logo}" alt="" class="w-8 h-8 rounded-xl bg-slate-100 dark:bg-slate-800 p-1 object-cover shrink-0 border border-slate-200 dark:border-slate-700" />`;
+            } else {
+              iconMarkup = `<span class="w-8 h-8 rounded-xl bg-slate-100 dark:bg-slate-800 text-sm flex items-center justify-center shrink-0 border border-slate-200 dark:border-slate-700">${item.icon || '📄'}</span>`;
+            }
+
+            return `
+              <a 
+                href="${item.url}" 
+                class="palette-item flex items-center justify-between p-2.5 rounded-2xl transition-all ${isSelected ? 'bg-blue-50 dark:bg-blue-950/60 text-blue-900 dark:text-blue-100 border border-blue-200 dark:border-blue-800' : 'hover:bg-slate-50 dark:hover:bg-slate-800/60 text-slate-700 dark:text-slate-200'}"
+                data-index="${thisIndex}"
+              >
+                <div class="flex items-center gap-3 min-w-0">
+                  ${iconMarkup}
+                  <div class="min-w-0">
+                    <h4 class="text-sm font-bold text-slate-900 dark:text-white truncate">${item.title}</h4>
+                    <p class="text-xs text-slate-500 dark:text-slate-400 truncate">${item.subtitle}</p>
+                  </div>
+                </div>
+                <span class="text-xs text-slate-400 group-hover:text-blue-600 shrink-0 ml-2">&rarr;</span>
+              </a>
+            `;
+          }).join('')}
+        </div>
+      </div>
+    `).join('');
+  }
+
+  function updateActiveItem() {
+    const allItemEls = resultsContainer?.querySelectorAll('.palette-item');
+    if (!allItemEls) return;
+
+    allItemEls.forEach((el, idx) => {
+      if (idx === selectedIndex) {
+        el.className = 'palette-item flex items-center justify-between p-2.5 rounded-2xl transition-all bg-blue-50 dark:bg-blue-950/60 text-blue-900 dark:text-blue-100 border border-blue-200 dark:border-blue-800';
+        el.scrollIntoView({ block: 'nearest' });
+      } else {
+        el.className = 'palette-item flex items-center justify-between p-2.5 rounded-2xl transition-all hover:bg-slate-50 dark:hover:bg-slate-800/60 text-slate-700 dark:text-slate-200';
+      }
+    });
+  }
+
+  // Keyboard Shortcuts (Ctrl + K / Cmd + K, Esc, Arrows, Enter)
+  document.addEventListener('keydown', (e) => {
+    // Open on Ctrl+K or Cmd+K
+    if ((e.ctrlKey || e.metaKey) && e.key.toLowerCase() === 'k') {
+      e.preventDefault();
+      if (backdrop?.classList.contains('hidden')) {
+        openPalette();
+      } else {
+        closePalette();
+      }
+      return;
+    }
+
+    // Only process navigation if palette is open
+    if (backdrop?.classList.contains('hidden')) return;
+
+    if (e.key === 'Escape') {
+      e.preventDefault();
+      closePalette();
+    } else if (e.key === 'ArrowDown') {
+      e.preventDefault();
+      if (currentItems.length > 0) {
+        selectedIndex = (selectedIndex + 1) % currentItems.length;
+        updateActiveItem();
+      }
+    } else if (e.key === 'ArrowUp') {
+      e.preventDefault();
+      if (currentItems.length > 0) {
+        selectedIndex = (selectedIndex - 1 + currentItems.length) % currentItems.length;
+        updateActiveItem();
+      }
+    } else if (e.key === 'Enter') {
+      if (currentItems[selectedIndex]) {
+        e.preventDefault();
+        window.location.href = currentItems[selectedIndex].url;
+      }
+    }
+  });
+
+  // Search input typing
+  input?.addEventListener('input', (e) => {
+    handleSearch(e.target.value);
+  });
+
+  // Close on backdrop click
+  backdrop?.addEventListener('click', (e) => {
+    if (e.target === backdrop) {
+      closePalette();
+    }
+  });
+
+  // Global trigger for open button
+  window.openCommandPalette = openPalette;
+</script>

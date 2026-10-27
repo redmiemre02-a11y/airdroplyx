@@ -32,39 +32,42 @@ import { airdrops } from '../data/airdrops';
     </a>
     
     <!-- Navigation -->
-    <nav class="hidden md:flex h-full">
+    <nav class="hidden lg:flex h-full">
       <ul class="flex h-full">
-        <li><a href="/" class="flex items-center h-full px-2 text-[12.5px] font-bold text-slate-700 dark:text-slate-200 uppercase hover:text-blue-600 border-b-2 border-transparent hover:border-blue-600 transition-all">Home</a></li>
-        <li><a href="/ecosystems" class="flex items-center h-full px-2 text-[12.5px] font-bold text-slate-700 dark:text-slate-200 uppercase hover:text-blue-600 border-b-2 border-transparent hover:border-blue-600 transition-all">Ecosystems</a></li>
-        <li><a href="/calendar" class="flex items-center h-full px-2 text-[12.5px] font-bold text-slate-700 dark:text-slate-200 uppercase hover:text-blue-600 border-b-2 border-transparent hover:border-blue-600 transition-all">Calendar</a></li>
-        <li><a href="/calculator" class="flex items-center h-full px-2 text-[12.5px] font-bold text-slate-700 dark:text-slate-200 uppercase hover:text-blue-600 border-b-2 border-transparent hover:border-blue-600 transition-all">Calculator</a></li>
-        <li><a href="/news" class="flex items-center h-full px-2 text-[12.5px] font-bold text-slate-700 dark:text-slate-200 uppercase hover:text-blue-600 border-b-2 border-transparent hover:border-blue-600 transition-all">News</a></li>
-        <li><a href="/academy" class="flex items-center h-full px-2 text-[12.5px] font-bold text-slate-700 dark:text-slate-200 uppercase hover:text-blue-600 border-b-2 border-transparent hover:border-blue-600 transition-all">Academy</a></li>
+        <li><a href="/" class="flex items-center h-full px-2 text-[12px] font-bold text-slate-700 dark:text-slate-200 uppercase hover:text-blue-600 border-b-2 border-transparent hover:border-blue-600 transition-all">Home</a></li>
+        <li><a href="/ecosystems" class="flex items-center h-full px-2 text-[12px] font-bold text-slate-700 dark:text-slate-200 uppercase hover:text-blue-600 border-b-2 border-transparent hover:border-blue-600 transition-all">Ecosystems</a></li>
+        <li><a href="/calendar" class="flex items-center h-full px-2 text-[12px] font-bold text-slate-700 dark:text-slate-200 uppercase hover:text-blue-600 border-b-2 border-transparent hover:border-blue-600 transition-all">Calendar</a></li>
+        <li><a href="/watchlist" class="flex items-center h-full px-2 text-[12px] font-bold text-slate-700 dark:text-slate-200 uppercase hover:text-amber-500 border-b-2 border-transparent hover:border-amber-500 transition-all gap-1">
+          <span>⭐</span>
+          <span>Watchlist</span>
+          <span id="header-watchlist-badge" class="hidden px-1.5 py-0.2 rounded-full text-[10px] bg-amber-500 text-white font-extrabold leading-tight">0</span>
+        </a></li>
+        <li><a href="/sybil-checker" class="flex items-center h-full px-2 text-[12px] font-bold text-slate-700 dark:text-slate-200 uppercase hover:text-rose-600 border-b-2 border-transparent hover:border-rose-600 transition-all gap-1">
+          <span>🛡️</span>
+          <span>Sybil Check</span>
+        </a></li>
+        <li><a href="/calculator" class="flex items-center h-full px-2 text-[12px] font-bold text-slate-700 dark:text-slate-200 uppercase hover:text-blue-600 border-b-2 border-transparent hover:border-blue-600 transition-all">Calculator</a></li>
+        <li><a href="/news" class="flex items-center h-full px-2 text-[12px] font-bold text-slate-700 dark:text-slate-200 uppercase hover:text-blue-600 border-b-2 border-transparent hover:border-blue-600 transition-all">News</a></li>
+        <li><a href="/academy" class="flex items-center h-full px-2 text-[12px] font-bold text-slate-700 dark:text-slate-200 uppercase hover:text-blue-600 border-b-2 border-transparent hover:border-blue-600 transition-all">Academy</a></li>
       </ul>
     </nav>
     
     <!-- Right Actions -->
     <div class="flex items-center gap-4">
-      <!-- Interactive Instant Search -->
+      <!-- Interactive Universal Search Trigger (Opens Command Palette) -->
       <div class="relative">
-        <div class="relative">
-          <input 
-            type="text" 
-            id="airdrop-search"
-            placeholder="Search airdrops..." 
-            class="bg-gray-100 dark:bg-slate-800 border border-transparent focus:border-blue-500 focus:bg-white dark:focus:bg-slate-800 focus:ring-2 focus:ring-blue-200 rounded-full py-2 pl-9 pr-4 text-xs sm:text-sm w-36 sm:w-56 transition-all outline-none text-slate-900 dark:text-white" 
-            autocomplete="off"
-          />
-          <svg class="absolute left-3 top-2.5 w-4 h-4 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path></svg>
-        </div>
-
-        <!-- Search Results Dropdown -->
-        <div id="search-dropdown" class="hidden absolute right-0 mt-2 w-72 sm:w-80 bg-white dark:bg-slate-800 rounded-2xl shadow-2xl border border-slate-200 dark:border-slate-700 py-2 z-50 max-h-96 overflow-y-auto">
-          <div class="px-3 py-1.5 text-[11px] font-bold uppercase tracking-wider text-slate-400 border-b border-slate-100 dark:border-slate-700">
-            Airdrop Results
+        <button 
+          type="button"
+          id="global-search-trigger"
+          class="flex items-center justify-between bg-gray-100 hover:bg-gray-200 dark:bg-slate-800 dark:hover:bg-slate-700 border border-slate-200/60 dark:border-slate-700/60 rounded-full py-2 pl-3.5 pr-3 text-xs sm:text-sm w-36 sm:w-56 transition-all text-slate-500 dark:text-slate-400 group cursor-pointer shadow-sm"
+          title="Search all 650+ airdrops, academy, and news (Ctrl+K)"
+        >
+          <div class="flex items-center gap-2 truncate">
+            <svg class="w-4 h-4 text-slate-400 group-hover:text-blue-500 transition-colors shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path></svg>
+            <span class="truncate">Search...</span>
           </div>
-          <div id="search-results-list" class="divide-y divide-slate-100 dark:divide-slate-700/50"></div>
-        </div>
+          <kbd class="hidden sm:inline-block px-1.5 py-0.5 text-[10px] font-mono font-bold text-slate-400 bg-white dark:bg-slate-700 rounded border border-slate-200 dark:border-slate-600">Ctrl K</kbd>
+        </button>
       </div>
       
       <!-- Dark Mode Toggle -->
@@ -74,7 +77,7 @@ import { airdrops } from '../data/airdrops';
       </button>
 
       <!-- Mobile Menu Button -->
-      <button id="mobile-menu-btn" class="md:hidden p-2 rounded-xl text-slate-600 dark:text-slate-300 hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors" aria-label="Open Mobile Menu">
+      <button id="mobile-menu-btn" class="lg:hidden p-2 rounded-xl text-slate-600 dark:text-slate-300 hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors" aria-label="Open Mobile Menu">
         <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path></svg>
       </button>
 
@@ -85,10 +88,25 @@ import { airdrops } from '../data/airdrops';
   </div>
 
   <!-- Mobile Navigation Dropdown Menu -->
-  <div id="mobile-menu" class="hidden md:hidden bg-white dark:bg-slate-900 border-t border-slate-200 dark:border-slate-800 px-4 py-3 shadow-xl">
+  <div id="mobile-menu" class="hidden lg:hidden bg-white dark:bg-slate-900 border-t border-slate-200 dark:border-slate-800 px-4 py-3 shadow-xl">
     <nav class="flex flex-col gap-1">
       <a href="/" class="flex items-center gap-2.5 px-3 py-2.5 rounded-xl text-sm font-bold text-slate-700 dark:text-slate-200 hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors">
         <span>⚡</span> Home (All Airdrops)
+      </a>
+      <a href="/watchlist" class="flex items-center justify-between px-3 py-2.5 rounded-xl text-sm font-bold text-amber-600 dark:text-amber-400 hover:bg-amber-50 dark:hover:bg-amber-950/30 transition-colors">
+        <span class="flex items-center gap-2.5">
+          <span>⭐</span> Watchlist & Tracker
+        </span>
+        <span id="mobile-watchlist-badge" class="hidden px-2 py-0.5 rounded-full text-xs bg-amber-500 text-white font-extrabold">0</span>
+      </a>
+      <a href="/sybil-checker" class="flex items-center gap-2.5 px-3 py-2.5 rounded-xl text-sm font-bold text-rose-600 dark:text-rose-400 hover:bg-rose-50 dark:hover:bg-rose-950/30 transition-colors">
+        <span>🛡️</span> Sybil Risk Checker
+      </a>
+      <a href="/gas-tracker" class="flex items-center gap-2.5 px-3 py-2.5 rounded-xl text-sm font-bold text-slate-700 dark:text-slate-200 hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors">
+        <span>⛽</span> Live Gas Tracker
+      </a>
+      <a href="/compare" class="flex items-center gap-2.5 px-3 py-2.5 rounded-xl text-sm font-bold text-slate-700 dark:text-slate-200 hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors">
+        <span>⚖️</span> Compare Protocols
       </a>
       <a href="/ecosystems" class="flex items-center gap-2.5 px-3 py-2.5 rounded-xl text-sm font-bold text-slate-700 dark:text-slate-200 hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors">
         <span>🌐</span> Ecosystem Hubs
@@ -112,53 +130,13 @@ import { airdrops } from '../data/airdrops';
   </div>
 </header>
 
-<script is:inline define:vars={{ airdropsData: airdrops.map(a => ({ id: a.id, name: a.name, logo: a.logo, category: a.category, reward: a.reward })) }}>
-  // Instant Search Engine
-  const searchInput = document.getElementById('airdrop-search');
-  const searchDropdown = document.getElementById('search-dropdown');
-  const resultsList = document.getElementById('search-results-list');
-
-  if (searchInput && searchDropdown && resultsList) {
-    searchInput.addEventListener('input', (e) => {
-      const query = e.target.value.toLowerCase().trim();
-      if (!query) {
-        searchDropdown.classList.add('hidden');
-        return;
-      }
-
-      const matches = airdropsData.filter(a => 
-        a.name.toLowerCase().includes(query) || 
-        a.category.toLowerCase().includes(query) ||
-        a.reward.toLowerCase().includes(query)
-      );
-
-      if (matches.length === 0) {
-        resultsList.innerHTML = '<div class="p-4 text-xs text-slate-400 text-center">No matching airdrops found.</div>';
-      } else {
-        resultsList.innerHTML = matches.map(item => `
-          <a href="/airdrop/${item.id}" class="flex items-center gap-3 p-3 hover:bg-slate-50 dark:hover:bg-slate-700/60 transition-colors">
-            <img src="${item.logo}" alt="${item.name}" class="w-8 h-8 rounded-lg object-contain bg-slate-50 dark:bg-slate-700 p-1 border border-slate-200 dark:border-slate-600 shrink-0" />
-            <div class="flex-1 min-w-0">
-              <div class="font-bold text-xs sm:text-sm text-slate-800 dark:text-white truncate">${item.name}</div>
-              <div class="text-[11px] text-emerald-600 dark:text-emerald-400 font-semibold truncate">${item.reward}</div>
-            </div>
-            <span class="text-[10px] uppercase font-bold text-slate-400 px-2 py-0.5 rounded bg-slate-100 dark:bg-slate-700">${item.category.split('/')[0]}</span>
-          </a>
-        `).join('');
-      }
-
-      searchDropdown.classList.remove('hidden');
-    });
-
-    document.addEventListener('click', (e) => {
-      if (!searchInput.contains(e.target) && !searchDropdown.contains(e.target)) {
-        searchDropdown.classList.add('hidden');
-      }
-    });
-
-    searchInput.addEventListener('focus', () => {
-      if (searchInput.value.trim()) {
-        searchDropdown.classList.remove('hidden');
+<script is:inline>
+  // Universal Search Palette Trigger
+  const globalSearchBtn = document.getElementById('global-search-trigger');
+  if (globalSearchBtn) {
+    globalSearchBtn.addEventListener('click', () => {
+      if (typeof window.openCommandPalette === 'function') {
+        window.openCommandPalette();
       }
     });
   }
@@ -205,4 +183,87 @@ import { airdrops } from '../data/airdrops';
       mobileMenu.classList.toggle('hidden');
     });
   }
+
+  // Global Watchlist & Bookmark Synchronization
+  function syncWatchlistGlobal() {
+    let list = [];
+    try {
+      list = JSON.parse(localStorage.getItem('airdroplyx_watchlist') || '[]');
+    } catch(e) {
+      list = [];
+    }
+
+    const badge = document.getElementById('header-watchlist-badge');
+    const mobileBadge = document.getElementById('mobile-watchlist-badge');
+    if (badge) {
+      if (list.length > 0) {
+        badge.textContent = list.length;
+        badge.classList.remove('hidden');
+      } else {
+        badge.classList.add('hidden');
+      }
+    }
+    if (mobileBadge) {
+      if (list.length > 0) {
+        mobileBadge.textContent = list.length;
+        mobileBadge.classList.remove('hidden');
+      } else {
+        mobileBadge.classList.add('hidden');
+      }
+    }
+
+    // Sync all bookmark buttons currently on the page
+    document.querySelectorAll('.bookmark-toggle-btn').forEach(btn => {
+      const id = btn.dataset.id;
+      const isSaved = list.includes(id);
+      const svg = btn.querySelector('.star-svg');
+      if (isSaved) {
+        btn.classList.add('text-amber-500');
+        btn.classList.remove('text-slate-400');
+        if (svg) {
+          svg.setAttribute('fill', 'currentColor');
+          svg.classList.add('text-amber-500');
+        }
+      } else {
+        btn.classList.remove('text-amber-500');
+        btn.classList.add('text-slate-400');
+        if (svg) {
+          svg.setAttribute('fill', 'none');
+          svg.classList.remove('text-amber-500');
+        }
+      }
+    });
+  }
+
+  // Delegate Bookmark Clicks Globally
+  document.addEventListener('click', (e) => {
+    const btn = e.target.closest('.bookmark-toggle-btn');
+    if (!btn) return;
+    e.preventDefault();
+    e.stopPropagation();
+
+    const id = btn.dataset.id;
+    if (!id) return;
+
+    let list = [];
+    try {
+      list = JSON.parse(localStorage.getItem('airdroplyx_watchlist') || '[]');
+    } catch(err) {
+      list = [];
+    }
+
+    if (list.includes(id)) {
+      list = list.filter(item => item !== id);
+    } else {
+      list.push(id);
+    }
+
+    localStorage.setItem('airdroplyx_watchlist', JSON.stringify(list));
+    window.dispatchEvent(new Event('watchlistUpdated'));
+    syncWatchlistGlobal();
+  });
+
+  window.addEventListener('watchlistUpdated', syncWatchlistGlobal);
+  document.addEventListener('DOMContentLoaded', syncWatchlistGlobal);
+  syncWatchlistGlobal();
 </script>

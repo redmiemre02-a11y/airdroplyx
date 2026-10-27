@@ -1,0 +1,237 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Header from '../components/Header.astro';
+import { airdrops } from '../data/airdrops';
+
+const airdropsLight = airdrops.map(a => ({
+  id: a.id,
+  name: a.name,
+  logo: a.logo,
+  category: a.category,
+  reward: a.reward,
+  funding: a.funding || 'Undisclosed',
+  tier: a.tier,
+  status: a.status,
+  stepsCount: (a.steps || []).length,
+  refLink: a.refLink,
+  description: a.description
+}));
+---
+
+<Layout 
+  title="Airdrop Comparison Tool | Compare Web3 Protocols Side-by-Side | Airdroplyx" 
+  description="Compare any two or three crypto airdrops side-by-side. Analyze funding raised, reward potential, farming difficulty, and anti-sybil criteria across 650+ verified protocols."
+>
+  <Header />
+
+  <main class="min-h-screen bg-slate-50 dark:bg-slate-950 text-slate-900 dark:text-slate-100 py-12 px-4 transition-colors duration-200">
+    <div class="max-w-[1200px] mx-auto">
+      
+      <!-- Breadcrumbs -->
+      <nav class="flex items-center gap-2 text-xs text-slate-500 dark:text-slate-400 mb-6 font-medium">
+        <a href="/" class="hover:text-blue-600 transition-colors">Home</a>
+        <span>/</span>
+        <span class="text-blue-600 dark:text-blue-400 font-semibold">Protocol Comparison</span>
+      </nav>
+
+      <!-- Hero Header -->
+      <div class="text-center max-w-3xl mx-auto mb-10">
+        <div class="inline-flex items-center gap-2 bg-indigo-100 dark:bg-indigo-950/40 text-indigo-700 dark:text-indigo-300 px-3.5 py-1.5 rounded-full text-xs font-bold tracking-wide uppercase mb-4 border border-indigo-200 dark:border-indigo-800/60 shadow-sm">
+          <span>⚖️</span>
+          <span>Side-by-Side Alpha Matrix</span>
+        </div>
+        <h1 class="text-3xl sm:text-5xl font-black tracking-tight text-slate-900 dark:text-white mb-4">
+          Airdrop Protocol Comparison
+        </h1>
+        <p class="text-base sm:text-lg text-slate-600 dark:text-slate-300 leading-relaxed">
+          Evaluate venture backing, tokenomics allocation, farming steps, and expected yields between top Web3 ecosystems before deploying time and liquidity.
+        </p>
+      </div>
+
+      <!-- Quick 1-Click Matchups -->
+      <div class="bg-white dark:bg-slate-900 p-5 rounded-2xl border border-slate-200 dark:border-slate-800 shadow-sm mb-10">
+        <div class="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-3 mb-3">
+          <span class="text-xs font-bold uppercase tracking-wider text-slate-400">🥊 Popular Matchups:</span>
+          <div class="flex flex-wrap gap-2">
+            <button class="matchup-btn px-3 py-1.5 rounded-xl text-xs font-bold bg-slate-100 hover:bg-slate-200 dark:bg-slate-800 dark:hover:bg-slate-700 text-slate-700 dark:text-slate-200 border border-slate-200 dark:border-slate-700 transition-colors" data-left="monad" data-right="berachain">
+              Monad vs Berachain
+            </button>
+            <button class="matchup-btn px-3 py-1.5 rounded-xl text-xs font-bold bg-slate-100 hover:bg-slate-200 dark:bg-slate-800 dark:hover:bg-slate-700 text-slate-700 dark:text-slate-200 border border-slate-200 dark:border-slate-700 transition-colors" data-left="hyperliquid" data-right="dydx">
+              Hyperliquid vs dYdX
+            </button>
+            <button class="matchup-btn px-3 py-1.5 rounded-xl text-xs font-bold bg-slate-100 hover:bg-slate-200 dark:bg-slate-800 dark:hover:bg-slate-700 text-slate-700 dark:text-slate-200 border border-slate-200 dark:border-slate-700 transition-colors" data-left="linea" data-right="scroll">
+              Linea vs Scroll
+            </button>
+            <button class="matchup-btn px-3 py-1.5 rounded-xl text-xs font-bold bg-slate-100 hover:bg-slate-200 dark:bg-slate-800 dark:hover:bg-slate-700 text-slate-700 dark:text-slate-200 border border-slate-200 dark:border-slate-700 transition-colors" data-left="grass" data-right="dawn-network">
+              Grass vs Dawn Network
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Protocol Selection Bar -->
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-10">
+        <!-- Left Protocol Selector -->
+        <div class="bg-white dark:bg-slate-900 p-6 rounded-3xl border border-slate-200 dark:border-slate-800 shadow-sm">
+          <label class="block text-xs font-bold uppercase tracking-wider text-slate-400 mb-2">Select First Protocol</label>
+          <div class="relative">
+            <select id="select-left" class="w-full bg-slate-50 dark:bg-slate-800 border border-slate-200 dark:border-slate-700 rounded-2xl py-3 px-4 text-sm font-bold text-slate-900 dark:text-white outline-none focus:ring-2 focus:ring-blue-500 cursor-pointer">
+              {airdropsLight.map(a => (
+                <option value={a.id} selected={a.id === 'monad'}>{a.name} ({a.category})</option>
+              ))}
+            </select>
+          </div>
+        </div>
+
+        <!-- Right Protocol Selector -->
+        <div class="bg-white dark:bg-slate-900 p-6 rounded-3xl border border-slate-200 dark:border-slate-800 shadow-sm">
+          <label class="block text-xs font-bold uppercase tracking-wider text-slate-400 mb-2">Select Second Protocol</label>
+          <div class="relative">
+            <select id="select-right" class="w-full bg-slate-50 dark:bg-slate-800 border border-slate-200 dark:border-slate-700 rounded-2xl py-3 px-4 text-sm font-bold text-slate-900 dark:text-white outline-none focus:ring-2 focus:ring-blue-500 cursor-pointer">
+              {airdropsLight.map(a => (
+                <option value={a.id} selected={a.id === 'berachain'}>{a.name} ({a.category})</option>
+              ))}
+            </select>
+          </div>
+        </div>
+      </div>
+
+      <!-- Side-by-Side Comparison Container -->
+      <div id="comparison-display" class="space-y-6">
+        <!-- Dynamically rendered via script -->
+      </div>
+
+    </div>
+  </main>
+</Layout>
+
+<script is:inline define:vars={{ allAirdrops: airdropsLight }}>
+  const selectLeft = document.getElementById('select-left');
+  const selectRight = document.getElementById('select-right');
+  const displayContainer = document.getElementById('comparison-display');
+
+  function renderComparison() {
+    const leftId = selectLeft?.value || 'monad';
+    const rightId = selectRight?.value || 'berachain';
+
+    const left = allAirdrops.find(a => a.id === leftId) || allAirdrops[0];
+    const right = allAirdrops.find(a => a.id === rightId) || allAirdrops[1];
+
+    if (!displayContainer) return;
+
+    displayContainer.innerHTML = `
+      <!-- Top Overview Cards -->
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+        <!-- Left Card -->
+        <div class="bg-white dark:bg-slate-900 rounded-3xl p-6 sm:p-8 border border-slate-200 dark:border-slate-800 shadow-sm flex flex-col justify-between">
+          <div>
+            <div class="flex items-center gap-4 mb-4">
+              <img src="${left.logo}" alt="${left.name}" class="w-16 h-16 rounded-2xl bg-slate-50 dark:bg-slate-800 p-1.5 border border-slate-200 dark:border-slate-700 object-cover shadow-sm" />
+              <div>
+                <span class="text-xs font-bold uppercase tracking-wider text-blue-600 dark:text-blue-400">${left.category}</span>
+                <h3 class="text-2xl font-black text-slate-900 dark:text-white">${left.name}</h3>
+              </div>
+            </div>
+            <p class="text-xs sm:text-sm text-slate-600 dark:text-slate-300 leading-relaxed mb-6">${left.description}</p>
+          </div>
+          <div class="pt-4 border-t border-slate-100 dark:border-slate-800 flex items-center justify-between">
+            <span class="text-xs font-bold uppercase text-slate-400">${left.tier}</span>
+            <a href="/airdrop/${left.id}" class="text-xs font-bold bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-xl transition-all shadow-sm">
+              View Guide &rarr;
+            </a>
+          </div>
+        </div>
+
+        <!-- Right Card -->
+        <div class="bg-white dark:bg-slate-900 rounded-3xl p-6 sm:p-8 border border-slate-200 dark:border-slate-800 shadow-sm flex flex-col justify-between">
+          <div>
+            <div class="flex items-center gap-4 mb-4">
+              <img src="${right.logo}" alt="${right.name}" class="w-16 h-16 rounded-2xl bg-slate-50 dark:bg-slate-800 p-1.5 border border-slate-200 dark:border-slate-700 object-cover shadow-sm" />
+              <div>
+                <span class="text-xs font-bold uppercase tracking-wider text-blue-600 dark:text-blue-400">${right.category}</span>
+                <h3 class="text-2xl font-black text-slate-900 dark:text-white">${right.name}</h3>
+              </div>
+            </div>
+            <p class="text-xs sm:text-sm text-slate-600 dark:text-slate-300 leading-relaxed mb-6">${right.description}</p>
+          </div>
+          <div class="pt-4 border-t border-slate-100 dark:border-slate-800 flex items-center justify-between">
+            <span class="text-xs font-bold uppercase text-slate-400">${right.tier}</span>
+            <a href="/airdrop/${right.id}" class="text-xs font-bold bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-xl transition-all shadow-sm">
+              View Guide &rarr;
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Comparison Metrics Matrix -->
+      <div class="bg-white dark:bg-slate-900 rounded-3xl border border-slate-200 dark:border-slate-800 shadow-sm overflow-hidden">
+        <div class="p-6 border-b border-slate-100 dark:border-slate-800">
+          <h3 class="text-lg font-bold text-slate-900 dark:text-white">Quantitative Metric Comparison</h3>
+        </div>
+
+        <div class="divide-y divide-slate-100 dark:divide-slate-800 text-xs sm:text-sm">
+          
+          <!-- Metric: Estimated Reward -->
+          <div class="grid grid-cols-12 p-4 sm:p-5 hover:bg-slate-50/50 dark:hover:bg-slate-800/30 transition-colors">
+            <div class="col-span-4 font-bold text-slate-500">Reward Potential</div>
+            <div class="col-span-4 font-extrabold text-emerald-600 dark:text-emerald-400">${left.reward}</div>
+            <div class="col-span-4 font-extrabold text-emerald-600 dark:text-emerald-400">${right.reward}</div>
+          </div>
+
+          <!-- Metric: Total Funding -->
+          <div class="grid grid-cols-12 p-4 sm:p-5 hover:bg-slate-50/50 dark:hover:bg-slate-800/30 transition-colors">
+            <div class="col-span-4 font-bold text-slate-500">Total VC Backing</div>
+            <div class="col-span-4 font-bold text-slate-900 dark:text-white">${left.funding}</div>
+            <div class="col-span-4 font-bold text-slate-900 dark:text-white">${right.funding}</div>
+          </div>
+
+          <!-- Metric: Status -->
+          <div class="grid grid-cols-12 p-4 sm:p-5 hover:bg-slate-50/50 dark:hover:bg-slate-800/30 transition-colors">
+            <div class="col-span-4 font-bold text-slate-500">Airdrop Phase</div>
+            <div class="col-span-4 font-bold capitalize text-slate-700 dark:text-slate-300">
+              <span class="px-2.5 py-0.5 rounded-full text-xs font-black uppercase ${left.status === 'active' ? 'bg-emerald-100 text-emerald-800 dark:bg-emerald-950 dark:text-emerald-300' : 'bg-amber-100 text-amber-800 dark:bg-amber-950 dark:text-amber-300'}">
+                ${left.status}
+              </span>
+            </div>
+            <div class="col-span-4 font-bold capitalize text-slate-700 dark:text-slate-300">
+              <span class="px-2.5 py-0.5 rounded-full text-xs font-black uppercase ${right.status === 'active' ? 'bg-emerald-100 text-emerald-800 dark:bg-emerald-950 dark:text-emerald-300' : 'bg-amber-100 text-amber-800 dark:bg-amber-950 dark:text-amber-300'}">
+                ${right.status}
+              </span>
+            </div>
+          </div>
+
+          <!-- Metric: Farming Steps -->
+          <div class="grid grid-cols-12 p-4 sm:p-5 hover:bg-slate-50/50 dark:hover:bg-slate-800/30 transition-colors">
+            <div class="col-span-4 font-bold text-slate-500">Checklist Depth</div>
+            <div class="col-span-4 font-semibold text-slate-700 dark:text-slate-300">${left.stepsCount} Verified Steps</div>
+            <div class="col-span-4 font-semibold text-slate-700 dark:text-slate-300">${right.stepsCount} Verified Steps</div>
+          </div>
+
+          <!-- Metric: Category -->
+          <div class="grid grid-cols-12 p-4 sm:p-5 hover:bg-slate-50/50 dark:hover:bg-slate-800/30 transition-colors">
+            <div class="col-span-4 font-bold text-slate-500">Ecosystem Domain</div>
+            <div class="col-span-4 font-semibold text-slate-700 dark:text-slate-300">${left.category}</div>
+            <div class="col-span-4 font-semibold text-slate-700 dark:text-slate-300">${right.category}</div>
+          </div>
+
+        </div>
+      </div>
+    `;
+  }
+
+  selectLeft?.addEventListener('change', renderComparison);
+  selectRight?.addEventListener('change', renderComparison);
+
+  // Preset Matchup Buttons
+  document.querySelectorAll('.matchup-btn').forEach(btn => {
+    btn.addEventListener('click', () => {
+      const left = btn.dataset.left;
+      const right = btn.dataset.right;
+      if (selectLeft && left) selectLeft.value = left;
+      if (selectRight && right) selectRight.value = right;
+      renderComparison();
+    });
+  });
+
+  document.addEventListener('DOMContentLoaded', renderComparison);
+</script>
