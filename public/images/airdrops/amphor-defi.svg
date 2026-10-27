@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256">
+  <defs>
+    <linearGradient id="grad-amphor-defi" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#8B5CF6" />
+      <stop offset="100%" stop-color="#6D28D9" />
+    </linearGradient>
+  </defs>
+  <rect width="256" height="256" rx="56" fill="url(#grad-amphor-defi)" />
+  <path d="M90 60h76v30l-28 38v48h-20v-48L90 90V60z" fill="#FFFFFF"/><circle cx="128" cy="140" r="8" fill="#8B5CF6"/>
+</svg>

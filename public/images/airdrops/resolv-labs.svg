@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256">
+  <defs>
+    <linearGradient id="grad-resolv-labs" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0284C7" />
+      <stop offset="100%" stop-color="#0369A1" />
+    </linearGradient>
+  </defs>
+  <rect width="256" height="256" rx="56" fill="url(#grad-resolv-labs)" />
+  <circle cx="128" cy="128" r="65" stroke="#FFFFFF" stroke-width="16" fill="none"/><path d="M128 75l35 60h-70l35-60z" fill="#FFFFFF"/>
+</svg>

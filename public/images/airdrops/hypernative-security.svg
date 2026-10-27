@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256">
+  <defs>
+    <linearGradient id="grad-hypernative-security" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#D97706" />
+      <stop offset="100%" stop-color="#92400E" />
+    </linearGradient>
+  </defs>
+  <rect width="256" height="256" rx="56" fill="url(#grad-hypernative-security)" />
+  <path d="M75 65v126M181 65v126M75 128h106" stroke="#FFFFFF" stroke-width="24" stroke-linecap="round"/>
+</svg>

@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256">
+  <defs>
+    <linearGradient id="grad-assisterr-ai" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#10B981" />
+      <stop offset="100%" stop-color="#047857" />
+    </linearGradient>
+  </defs>
+  <rect width="256" height="256" rx="56" fill="url(#grad-assisterr-ai)" />
+  <circle cx="128" cy="128" r="65" stroke="#FFFFFF" stroke-width="14" fill="none"/><path d="M100 128h56M128 100v56" stroke="#FFFFFF" stroke-width="16" stroke-linecap="round"/>
+</svg>

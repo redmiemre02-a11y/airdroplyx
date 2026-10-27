@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256">
+  <defs>
+    <linearGradient id="grad-dusk-network" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F43F5E" />
+      <stop offset="100%" stop-color="#9F1239" />
+    </linearGradient>
+  </defs>
+  <rect width="256" height="256" rx="56" fill="url(#grad-dusk-network)" />
+  <path d="M75 65h50c35 0 60 25 60 63s-25 63-60 63H75V65z" stroke="#FFFFFF" stroke-width="20" stroke-linejoin="round" fill="none"/>
+</svg>

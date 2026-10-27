@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256">
+  <defs>
+    <linearGradient id="grad-panther-protocol" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1E293B" />
+      <stop offset="100%" stop-color="#0F172A" />
+    </linearGradient>
+  </defs>
+  <rect width="256" height="256" rx="56" fill="url(#grad-panther-protocol)" />
+  <path d="M60 80l40 40 28-28 28 28 40-40-20 80H80L60 80z" fill="#38BDF8"/><circle cx="100" cy="110" r="8" fill="#FFFFFF"/><circle cx="156" cy="110" r="8" fill="#FFFFFF"/>
+</svg>

@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256">
+  <defs>
+    <linearGradient id="grad-tabi-chain" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#EC4899" />
+      <stop offset="100%" stop-color="#BE185D" />
+    </linearGradient>
+  </defs>
+  <rect width="256" height="256" rx="56" fill="url(#grad-tabi-chain)" />
+  <path d="M70 90h116M128 90v96M90 186h76" stroke="#FFFFFF" stroke-width="20" stroke-linecap="round" fill="none"/>
+</svg>

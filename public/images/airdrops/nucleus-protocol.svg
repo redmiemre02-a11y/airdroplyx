@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256">
+  <defs>
+    <linearGradient id="grad-nucleus-protocol" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#06B6D4" />
+      <stop offset="100%" stop-color="#0E7490" />
+    </linearGradient>
+  </defs>
+  <rect width="256" height="256" rx="56" fill="url(#grad-nucleus-protocol)" />
+  <ellipse cx="128" cy="128" rx="75" ry="35" stroke="#FFFFFF" stroke-width="14" fill="none" transform="rotate(-30 128 128)"/><circle cx="128" cy="128" r="26" fill="#FFFFFF"/>
+</svg>

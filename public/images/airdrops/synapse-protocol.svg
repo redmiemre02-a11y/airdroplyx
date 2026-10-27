@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256">
+  <defs>
+    <linearGradient id="grad-synapse-protocol" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#9333EA" />
+      <stop offset="100%" stop-color="#6B21A8" />
+    </linearGradient>
+  </defs>
+  <rect width="256" height="256" rx="56" fill="url(#grad-synapse-protocol)" />
+  <circle cx="85" cy="128" r="28" fill="#FFFFFF"/><circle cx="171" cy="128" r="28" fill="#FFFFFF"/><path d="M85 128h86" stroke="#FFFFFF" stroke-width="16" stroke-linecap="round"/>
+</svg>

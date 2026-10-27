@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256">
+  <defs>
+    <linearGradient id="grad-cube-exchange" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#4F46E5" />
+      <stop offset="100%" stop-color="#3730A3" />
+    </linearGradient>
+  </defs>
+  <rect width="256" height="256" rx="56" fill="url(#grad-cube-exchange)" />
+  <path d="M128 50l65 38v74l-65 38-65-38V88l65-38z" stroke="#FFFFFF" stroke-width="16" stroke-linejoin="round" fill="none"/><path d="M128 50v75l65 37M128 125l-65 37" stroke="#FFFFFF" stroke-width="14" stroke-linejoin="round" fill="none"/>
+</svg>
