@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
+  <defs>
+    <linearGradient id="pryzmGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#06B6D4"/>
+      <stop offset="100%" stop-color="#10B981"/>
+    </linearGradient>
+  </defs>
+  <rect width="128" height="128" rx="32" fill="#022C22"/>
+  <polygon points="64,28 96,86 32,86" fill="none" stroke="url(#pryzmGrad)" stroke-width="8"/>
+  <polygon points="64,48 80,78 48,78" fill="#6EE7B7"/>
+</svg>

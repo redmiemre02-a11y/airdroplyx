@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
+  <defs>
+    <linearGradient id="izGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#8B5CF6"/>
+      <stop offset="100%" stop-color="#EC4899"/>
+    </linearGradient>
+  </defs>
+  <rect width="128" height="128" rx="32" fill="#1E1B4B"/>
+  <rect x="38" y="38" width="52" height="52" rx="10" fill="none" stroke="url(#izGrad)" stroke-width="8"/>
+  <path d="M50 64 L78 64 M64 50 L64 78" stroke="#F472B6" stroke-width="6" stroke-linecap="round"/>
+</svg>

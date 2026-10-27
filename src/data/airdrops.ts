@@ -24902,5 +24902,905 @@ export const airdrops: Airdrop[] = [
       "RON tokens for staking/gas",
       "Web browser"
     ]
+  },
+  {
+    "id": "immutable-x",
+    "name": "Immutable",
+    "description": "Premier gaming Layer 2 ecosystem on Ethereum powered by StarkEx and Immutable zkEVM with zero gas fees for peer-to-peer trades.",
+    "category": "Layer 2",
+    "status": "active",
+    "reward": "$IMX Staking Yields & Main Quest Gem Season",
+    "funding": "$280M+",
+    "investors": "Temasek, Tencent, Paradigm, Coinbase Ventures, Bitkraft",
+    "stage": "Mainnet Live",
+    "difficulty": "Easy",
+    "estimatedTime": "10 mins",
+    "featured": true,
+    "logo": "/images/airdrops/immutable-x.svg",
+    "steps": [
+      "Create an <strong>Immutable Passport</strong> smart contract wallet using Google or email.",
+      "Bridge assets onto Immutable zkEVM or StarkEx via the official Immutable Bridge.",
+      "Play top Web3 games (Gods Unchained, Guild of Guardians, Illuvium, MetalCore).",
+      "Earn Immutable Gems in The Main Quest and stake native $IMX tokens to receive weekly protocol fee rewards."
+    ],
+    "overview": "Immutable is the leading Layer 2 scaling platform built specifically for Web3 gaming on Ethereum. Combining StarkEx validity rollups with Polygon-powered Immutable zkEVM, Immutable provides instant trade confirmations, massive scalability of 9,000+ TPS, zero gas fees for peer-to-peer NFT trades, and enterprise-grade security inherited directly from Ethereum Mainnet.",
+    "strategy": "Maintain an active Immutable Passport, play ecosystem games to earn Gems, and stake IMX tokens in the protocol staking dashboard for weekly reward distributions.",
+    "tokenomics": "$IMX is the native utility token used to pay 20% of protocol transaction fees, stake for network rewards, and participate in community DAO governance votes.",
+    "sybilSafety": "Immutable Passport biometric authentication and continuous on-chain gaming achievements verify genuine human players.",
+    "faqs": [
+      {
+        "question": "What is Immutable Passport?",
+        "answer": "Immutable Passport is a non-custodial smart wallet that allows mainstream gamers to sign in with social logins and play without seed phrases or gas fees."
+      }
+    ],
+    "requirements": [
+      "Immutable Passport / EVM Wallet",
+      "ETH or IMX",
+      "Web browser"
+    ]
+  },
+  {
+    "id": "xai-network",
+    "name": "Xai Network",
+    "description": "Arbitrum-native Layer 3 gaming blockchain developed by Offchain Labs and Expopulus, featuring Sentry node consensus.",
+    "category": "Layer 3",
+    "status": "active",
+    "reward": "$XAI Staking Rewards & Sentry Node Mining",
+    "funding": "$10M+",
+    "investors": "Animoca Brands, CMS Holdings, Outlier Ventures, Offchain Labs",
+    "stage": "Mainnet Live",
+    "difficulty": "Easy",
+    "estimatedTime": "10 mins",
+    "featured": true,
+    "logo": "/images/airdrops/xai-network.svg",
+    "steps": [
+      "Connect Web3 wallet to <strong>Xai Network</strong> (xai.games) on Arbitrum Orbit.",
+      "Stake native $XAI tokens into esXAI staking pools to earn tier multipliers.",
+      "Run or delegate a Sentry Node license to validate rollup block assertions.",
+      "Interact with Xai ecosystem game titles (Final Form, Tarochi, The Lost Glitches)."
+    ],
+    "overview": "Xai is the first Layer 3 blockchain designed specifically for AAA video games, built on Arbitrum Orbit technology by Offchain Labs. By leveraging account abstraction and gas subsidies, Xai enables traditional gamers to trade in-game items without interacting with complex crypto wallets or paying prohibitive transaction fees.",
+    "strategy": "Acquire and stake XAI into esXAI reward pools, operate a Sentry node or join a community staking pool, and participate in seasonal Vanguard campaigns.",
+    "tokenomics": "$XAI operates as the gas token of the Xai blockchain, with esXAI serving as the escrowed staking asset that unlocks validator rewards and ecosystem perks.",
+    "sybilSafety": "Sentry Node cryptographic software keys and active staking lockups eliminate automated bot farms.",
+    "faqs": [
+      {
+        "question": "What do Sentry Nodes do on Xai?",
+        "answer": "Sentry Nodes monitor the Xai rollup protocol to detect incorrect block proposals, securing the network and earning esXAI rewards."
+      }
+    ],
+    "requirements": [
+      "Arbitrum EVM Wallet",
+      "XAI tokens",
+      "Web browser"
+    ]
+  },
+  {
+    "id": "treasure-dao",
+    "name": "Treasure DAO",
+    "description": "The decentralized video game console of Arbitrum, powering Bridgeworld, the Trove NFT marketplace, and the MAGIC token.",
+    "category": "Gaming",
+    "status": "active",
+    "reward": "$MAGIC Harvester Staking & Treasure Chain Quests",
+    "funding": "$3.5M+",
+    "investors": "1kx, Mechanism Capital, Merit Circle, Arbitrum Foundation",
+    "stage": "Mainnet Live",
+    "difficulty": "Easy",
+    "estimatedTime": "10 mins",
+    "featured": false,
+    "logo": "/images/airdrops/treasure-dao.svg",
+    "steps": [
+      "Connect Web3 wallet to <strong>Treasure</strong> on Arbitrum or Treasure Chain.",
+      "Acquire and stake $MAGIC in the Bridgeworld Atlas Mine or Harvesters.",
+      "Play community-developed games across the Treasure ecosystem (The Beacon, Realm, Knights of the Ether).",
+      "Collect and trade gaming NFTs on the Magicswap and Trove decentralized marketplaces."
+    ],
+    "overview": "Treasure is the foundational decentralized gaming platform connecting games, metaverses, and communities through the $MAGIC token on Arbitrum. Operating like a decentralized Nintendo or Steam, Treasure provides game studios with publishing infrastructure, automated liquidity via Magicswap, and shared economic composability.",
+    "strategy": "Lock MAGIC in Bridgeworld Harvesters, trade gaming items on Magicswap, and participate in ecosystem game test campaigns.",
+    "tokenomics": "$MAGIC is the reserve currency of the Treasure meta-economy, required to craft items, stake in Harvesters, and govern the Treasure DAO.",
+    "sybilSafety": "On-chain Bridgeworld questing history and long-term MAGIC staking verify authentic player engagement.",
+    "faqs": [
+      {
+        "question": "What is Treasure Chain?",
+        "answer": "Treasure Chain is a dedicated gaming rollup powered by Arbitrum Orbit and MAGIC as the native gas token."
+      }
+    ],
+    "requirements": [
+      "Arbitrum EVM Wallet",
+      "MAGIC tokens",
+      "Web browser"
+    ]
+  },
+  {
+    "id": "beam-network",
+    "name": "Beam Network",
+    "description": "Sovereign gaming ecosystem and Avalanche Subnet created by Merit Circle, simplifying Web3 game deployment.",
+    "category": "Gaming",
+    "status": "active",
+    "reward": "$BEAM Staking Rewards & Ecosystem Game Bounties",
+    "funding": "Incubated by Merit Circle ($100M+ Treasury)",
+    "investors": "Merit Circle DAO, Framework Ventures, Spartan Group, CitizenX",
+    "stage": "Mainnet Live",
+    "difficulty": "Easy",
+    "estimatedTime": "10 mins",
+    "featured": false,
+    "logo": "/images/airdrops/beam-network.svg",
+    "steps": [
+      "Add <strong>Beam Subnet</strong> to your Web3 wallet (or use Beam Companion).",
+      "Bridge assets onto Beam via the official Beam Bridge powered by LayerZero.",
+      "Play featured ecosystem titles like Castle of Blackwater, Shrapnel, and MegaWeapon.",
+      "Stake native $BEAM tokens to validate subnet consensus and earn protocol yields."
+    ],
+    "overview": "Beam is an open-source gaming network initiated by Merit Circle DAO, operating as a high-performance Avalanche Subnet and Immutable zkEVM gaming layer. Designed to remove Web3 friction for mainstream players, Beam offers the Sphere NFT marketplace, Beam Companion identity accounts, and developer SDKs.",
+    "strategy": "Bridge assets to Beam, trade on Sphere marketplace, play verified game titles, and stake BEAM for validator yield.",
+    "tokenomics": "$BEAM acts as the native gas token on the Beam Subnet and serves as the primary governance currency of the Merit Circle ecosystem.",
+    "sybilSafety": "Subnet on-chain transactions and LayerZero cross-chain asset bridging guarantee genuine player credentials.",
+    "faqs": [
+      {
+        "question": "How is Beam related to Merit Circle?",
+        "answer": "Beam was launched by Merit Circle DAO as its dedicated sovereign gaming blockchain, migrating from the old MC token to BEAM."
+      }
+    ],
+    "requirements": [
+      "Avalanche / EVM Wallet",
+      "BEAM tokens",
+      "Web browser"
+    ]
+  },
+  {
+    "id": "hyperbolic-labs",
+    "name": "Hyperbolic",
+    "description": "Open decentralized AI cloud and GPU computing marketplace delivering verifiable inference and model training.",
+    "category": "AI",
+    "status": "active",
+    "reward": "Hyperbolic Points & Upcoming GPU Protocol Allocation",
+    "funding": "$7M",
+    "investors": "Polychain Capital, Chapter One, Lightspeed Faction, Nomad Capital",
+    "stage": "Mainnet Live",
+    "difficulty": "Medium",
+    "estimatedTime": "10 mins",
+    "featured": true,
+    "logo": "/images/airdrops/hyperbolic-labs.svg",
+    "steps": [
+      "Connect Web3 wallet to <strong>Hyperbolic Console</strong> (hyperbolic.xyz).",
+      "Test open-access AI models (Llama-3, DeepSeek, Mistral) via Hyperbolic API endpoints.",
+      "Provide spare enterprise GPU compute (NVIDIA A100/H100/RTX 4090) to the Hyperbolic compute grid.",
+      "Complete developer quests, accumulate Hyperbolic Points, and climb the contributor leaderboard."
+    ],
+    "overview": "Hyperbolic is an open decentralized artificial intelligence compute network that unites globally distributed GPUs into a unified AI cloud. By combining verifiable proof-of-sampling (PoSP) cryptography with OpenAI-compatible API endpoints, Hyperbolic slashes the cost of running state-of-the-art open-source LLMs by up to 80%.",
+    "strategy": "Interact with Hyperbolic API playground, connect developer applications to inference endpoints, and run a compute worker node if you hold GPU hardware.",
+    "tokenomics": "Hyperbolic Points track compute supply and API query utilization ahead of the native decentralized network token generation event.",
+    "sybilSafety": "Proof-of-Sampling cryptographic benchmarks and deterministic GPU execution checks prevent phantom compute reporting.",
+    "faqs": [
+      {
+        "question": "What is Proof of Sampling (PoSP)?",
+        "answer": "PoSP is Hyperbolics patented verification protocol that cryptographically confirms AI inference outputs without expensive duplicate execution."
+      }
+    ],
+    "requirements": [
+      "EVM Wallet",
+      "GitHub / Discord account",
+      "Web browser"
+    ]
+  },
+  {
+    "id": "ocean-protocol",
+    "name": "Ocean Protocol",
+    "description": "Decentralized data exchange protocol enabling private data sharing and AI model monetization within the Artificial Superintelligence (ASI) Alliance.",
+    "category": "AI",
+    "status": "active",
+    "reward": "$ASI / $OCEAN Staking Yields & Data Farming Bounties",
+    "funding": "$28M+",
+    "investors": "Outlier Ventures, Fabric Ventures, KR1, Big Brain Holdings",
+    "stage": "Mainnet Live",
+    "difficulty": "Medium",
+    "estimatedTime": "15 mins",
+    "featured": false,
+    "logo": "/images/airdrops/ocean-protocol.svg",
+    "steps": [
+      "Connect Web3 wallet to <strong>Ocean Market</strong> (market.oceanprotocol.com).",
+      "Publish, discover, and trade tokenized datasets (Datatokens) using Compute-to-Data privacy.",
+      "Participate in Ocean Data Farming by allocating veOCEAN stake to high-volume datasets.",
+      "Migrate or hold $OCEAN / $ASI tokens to participate in the Artificial Superintelligence Alliance governance."
+    ],
+    "overview": "Ocean Protocol is a pioneering decentralized data exchange that unlocks private data for artificial intelligence. Through its innovative Compute-to-Data technology, algorithms can train directly on sensitive enterprise datasets (such as medical records or financial feeds) without the raw data ever leaving the owners secure servers.",
+    "strategy": "Lock OCEAN into veOCEAN, curate top data assets in weekly Data Farming rounds, and run decentralized Ocean Predictoor prediction bots.",
+    "tokenomics": "$OCEAN merged into the Artificial Superintelligence ($ASI) Alliance alongside Fetch.ai and SingularityNET to build open sovereign AGI.",
+    "sybilSafety": "On-chain veOCEAN lockups and compute-to-data cryptographic execution proofs verify genuine decentralized research activity.",
+    "faqs": [
+      {
+        "question": "What is Ocean Predictoor?",
+        "answer": "Predictoor is an AI prediction feed on Ocean where data scientists run autonomous models that predict crypto price directions in real time."
+      }
+    ],
+    "requirements": [
+      "Ethereum / Polygon Wallet",
+      "OCEAN or FET tokens",
+      "Web browser"
+    ]
+  },
+  {
+    "id": "cow-protocol",
+    "name": "CoW Protocol",
+    "description": "Leading decentralized trading exchange utilizing batch auctions and intent-based architecture for maximum MEV protection.",
+    "category": "DeFi",
+    "status": "active",
+    "reward": "$COW Staking Yields & CoW Swap Trading Rewards",
+    "funding": "$23M",
+    "investors": "1kx, Robot Ventures, Delphi Digital, Dialectic, Blockchain Capital",
+    "stage": "Mainnet Live",
+    "difficulty": "Easy",
+    "estimatedTime": "5 mins",
+    "featured": true,
+    "logo": "/images/airdrops/cow-protocol.svg",
+    "steps": [
+      "Connect Web3 wallet to <strong>CoW Swap</strong> (swap.cow.fi).",
+      "Submit trades as signed off-chain intents with zero gas fees on failed transactions.",
+      "Enjoy MEV protection via batch auctions and peer-to-peer Coincidence of Wants (CoW).",
+      "Lock $COW into veCOW to direct community liquidity rewards and receive protocol fee dividends."
+    ],
+    "overview": "CoW Protocol (Coincidence of Wants) is the pioneer of intent-based decentralized trading on Ethereum, Arbitrum, Base, and Gnosis Chain. By grouping user orders into discrete batch auctions solved by competitive third-party Solvers, CoW Swap completely eliminates front-running, sandwich attacks, and predatory MEV losses.",
+    "strategy": "Use CoW Swap for regular portfolio trades across supported networks, try Programmatic Orders (TWAP), and lock COW in veCOW for voting yields.",
+    "tokenomics": "The $COW token governs protocol parameters, rewards Solvers for finding optimal routing, and accrues value from protocol surplus fees.",
+    "sybilSafety": "Cryptographically signed intent settlements on Ethereum Mainnet leave permanent non-Sybil transaction proofs.",
+    "faqs": [
+      {
+        "question": "Why do failed transactions cost $0.00 on CoW Swap?",
+        "answer": "Because orders are submitted as off-chain gasless signatures, solvers only submit successful matching transactions on-chain; you never pay gas for failed swaps."
+      }
+    ],
+    "requirements": [
+      "EVM Wallet (MetaMask/Rabby)",
+      "Crypto assets for swapping",
+      "Web browser"
+    ]
+  },
+  {
+    "id": "1inch-network",
+    "name": "1inch Network",
+    "description": "Premier multi-chain DEX aggregator and DeFi liquidity portal powered by Pathfinder routing and gasless 1inch Fusion swaps.",
+    "category": "DeFi",
+    "status": "active",
+    "reward": "$1INCH Staking Rewards & Gas Refund Bounties",
+    "funding": "$175M+",
+    "investors": "Binance Labs, Pantera Capital, Galaxy Digital, Dragonfly, ParaFi",
+    "stage": "Mainnet Live",
+    "difficulty": "Easy",
+    "estimatedTime": "5 mins",
+    "featured": true,
+    "logo": "/images/airdrops/1inch-network.svg",
+    "steps": [
+      "Connect Web3 wallet to <strong>1inch dApp</strong> across any of the 12+ supported blockchains.",
+      "Execute trades using 1inch Fusion mode for MEV-protected, gasless swap settlement.",
+      "Provide liquidity into 1inch concentrated pools to earn trading fees.",
+      "Stake native $1INCH tokens to acquire Unicorn Power (UP) for delegated resolver rewards."
+    ],
+    "overview": "1inch Network is the foundational decentralized exchange aggregator in Web3, with over $400 billion in lifetime trading volume. Driven by its proprietary Pathfinder routing algorithm, 1inch splits orders across hundreds of decentralized liquidity sources to discover the deepest liquidity, lowest slippage, and optimal gas efficiency.",
+    "strategy": "Perform swaps regularly via 1inch Fusion, stake 1INCH tokens to earn Unicorn Power, and participate in DAO governance votes.",
+    "tokenomics": "$1INCH is the dual utility and governance token that controls liquidity pool parameters, fee structures, and rewards resolvers in Fusion mode.",
+    "sybilSafety": "Multi-chain swap histories and long-term 1INCH staking positions provide definitive proof of authentic Web3 adoption.",
+    "faqs": [
+      {
+        "question": "What is 1inch Fusion?",
+        "answer": "1inch Fusion allows users to place intent-based orders that professional resolvers fill without users needing to hold native gas tokens."
+      }
+    ],
+    "requirements": [
+      "EVM Wallet",
+      "Crypto assets for trading",
+      "Web browser"
+    ]
+  },
+  {
+    "id": "kwenta-exchange",
+    "name": "Kwenta",
+    "description": "Decentralized perpetual futures and spot exchange powered by Synthetix V3 liquidity on Optimism and Arbitrum.",
+    "category": "DeFi",
+    "status": "active",
+    "reward": "$KWENTA Staking Yields & Trading Fee Rebates",
+    "funding": "Incubated by Synthetix DAO",
+    "investors": "Synthetix Ecosystem, Framework Ventures, Spartan Group",
+    "stage": "Mainnet Live",
+    "difficulty": "Medium",
+    "estimatedTime": "10 mins",
+    "featured": false,
+    "logo": "/images/airdrops/kwenta-exchange.svg",
+    "steps": [
+      "Connect Web3 wallet to <strong>Kwenta</strong> (kwenta.eth.limo) on Optimism or Arbitrum.",
+      "Deposit collateral (USDC/sUSD) into your non-custodial Kwenta Smart Margin account.",
+      "Trade crypto, forex, and commodity perpetual futures with up to 50x leverage.",
+      "Stake native $KWENTA tokens to earn inflationary staking rewards and fee pool distributions."
+    ],
+    "overview": "Kwenta is a premier decentralized derivatives trading platform built on top of Synthetix liquidity pools. Featuring Smart Margin accounts, advanced stop-loss and take-profit orders, and zero slippage on synthetic assets, Kwenta brings centralized-exchange performance directly to Layer 2 Ethereum.",
+    "strategy": "Maintain active trading volume on Kwenta Smart Margin, explore diverse perpetual markets, and stake KWENTA tokens for weekly fee shares.",
+    "tokenomics": "$KWENTA governs the Kwenta DAO, aligns community traders through staking reward emissions, and distributes trading fee buybacks.",
+    "sybilSafety": "On-chain derivatives margin accounts and Pyth-oracle-backed trade executions establish verified organic activity.",
+    "faqs": [
+      {
+        "question": "What are Smart Margin accounts on Kwenta?",
+        "answer": "Smart Margin accounts are smart contracts that allow cross-asset collateralization, advanced limit orders, and multi-position risk management."
+      }
+    ],
+    "requirements": [
+      "Optimism or Arbitrum Wallet",
+      "USDC collateral",
+      "Web browser"
+    ]
+  },
+  {
+    "id": "ekubo-protocol",
+    "name": "Ekubo Protocol",
+    "description": "High-performance concentrated liquidity automated market maker engineered specifically for Starknet by Moody Salem.",
+    "category": "DeFi",
+    "status": "active",
+    "reward": "$EKUBO Rewards & Concentrated Liquidity Yields",
+    "funding": "$12M Uniswap DAO Strategic Proposal Support",
+    "investors": "Moody Salem (Lead Uniswap V3 Architect), Starknet Foundation",
+    "stage": "Mainnet Live",
+    "difficulty": "Easy",
+    "estimatedTime": "10 mins",
+    "featured": false,
+    "logo": "/images/airdrops/ekubo-protocol.svg",
+    "steps": [
+      "Connect Argent or Braavos wallet to <strong>Ekubo</strong> on Starknet.",
+      "Swap tokens with ultra-low slippage and sub-cent gas fees.",
+      "Provide concentrated liquidity across custom tick ranges in Ekubo pools.",
+      "Stake $EKUBO tokens or participate in liquidity mining campaigns to earn boosted yields."
+    ],
+    "overview": "Ekubo Protocol is an ultra-capital-efficient concentrated liquidity automated market maker designed for Starknet by Moody Salem, the former engineering lead of Uniswap V3. Engineered from scratch in Cairo, Ekubos singleton contract architecture eliminates intermediate token transfers, making it the most gas-efficient DEX on Starknet.",
+    "strategy": "Provide concentrated liquidity into premier pairs (STRK/ETH, USDC/ETH), keep positions in active price ranges, and stake EKUBO tokens.",
+    "tokenomics": "$EKUBO governs protocol parameters, fees, and extensions on Starknets native Cairo execution engine.",
+    "sybilSafety": "Capital commitments locked in Cairo smart contracts across continuous snapshot periods ensure genuine liquidity provider status.",
+    "faqs": [
+      {
+        "question": "Why is Ekubo faster than EVM DEXs?",
+        "answer": "Ekubo uses a singleton architecture where all pools live in one Cairo contract, avoiding multiple expensive token transfers."
+      }
+    ],
+    "requirements": [
+      "Argent or Braavos Starknet Wallet",
+      "ETH / STRK on Starknet",
+      "Web browser"
+    ]
+  },
+  {
+    "id": "izumi-finance",
+    "name": "iZUMi Finance",
+    "description": "Multi-chain Discretized-Liquidity-AMM (DL-AMM) providing non-custodial liquidity-as-a-service across 10+ chains.",
+    "category": "DeFi",
+    "status": "active",
+    "reward": "$IZI Rewards & iZiSwap Point Seasons",
+    "funding": "$27M",
+    "investors": "Mirana Ventures, GSR, HashKey Capital, Bixin Ventures, Gate Labs",
+    "stage": "Mainnet Live",
+    "difficulty": "Easy",
+    "estimatedTime": "10 mins",
+    "featured": false,
+    "logo": "/images/airdrops/izumi-finance.svg",
+    "steps": [
+      "Connect Web3 wallet to <strong>iZiSwap</strong> on Arbitrum, Linea, Scroll, Mantle, or zkSync.",
+      "Swap tokens using iZUMis Discretized-Liquidity automated market maker.",
+      "Provide liquidity into LiquidBox vaults to earn concentrated trading fees.",
+      "Stake native $IZI tokens to receive veIZI for governance voting and protocol APR boosts."
+    ],
+    "overview": "iZUMi Finance is a multi-chain decentralized finance platform offering Liquidity-as-a-Service (LaaS) driven by its innovative Discretized-Liquidity AMM (DL-AMM). DL-AMM enables liquidity providers to deploy concentrated capital at specific discrete price ticks, mimicking order books with superior capital efficiency.",
+    "strategy": "Trade on iZiSwap across emerging Layer 2 networks (Scroll, Linea), supply liquidity to incentivized LiquidBox pools, and stake IZI into veIZI.",
+    "tokenomics": "$IZI and $veIZI govern platform emission gauges, unlock trading fee discounts, and reward long-term ecosystem liquidity providers.",
+    "sybilSafety": "Multi-network liquidity positions and veIZI token lockups verify legitimate, long-term protocol engagement.",
+    "faqs": [
+      {
+        "question": "What is DL-AMM in iZUMi Finance?",
+        "answer": "DL-AMM splits continuous price ranges into discrete price points, allowing algorithmic market making with zero slippage at exact ticks."
+      }
+    ],
+    "requirements": [
+      "EVM Wallet",
+      "Tokens for swapping on L2s",
+      "Web browser"
+    ]
+  },
+  {
+    "id": "avalon-finance",
+    "name": "Avalon Finance",
+    "description": "Premier multi-chain and Bitcoin Layer 2 lending and borrowing protocol with over $500M in TVL.",
+    "category": "DeFi",
+    "status": "active",
+    "reward": "Avalon Points & Upcoming $AVAF Token Generation Event",
+    "funding": "Backed by Merlin Ecosystem, SNZ, Foresight Ventures",
+    "investors": "SNZ Capital, Foresight Ventures, Matrixport, Presto Labs",
+    "stage": "Mainnet Live",
+    "difficulty": "Easy",
+    "estimatedTime": "10 mins",
+    "featured": false,
+    "logo": "/images/airdrops/avalon-finance.svg",
+    "steps": [
+      "Connect Web3 wallet to <strong>Avalon Finance</strong> on Merlin Chain, Bitlayer, Base, or Arbitrum.",
+      "Deposit collateral (BTC, M-BTC, ETH, USDC) to earn native lending yields.",
+      "Borrow stablecoins against your collateral while maintaining safe liquidation health factors.",
+      "Accumulate Avalon Points daily to qualify for the upcoming $AVAF token distribution."
+    ],
+    "overview": "Avalon Finance is the leading non-custodial liquidity and lending marketplace across the Bitcoin DeFi (BTCFi) ecosystem and Ethereum Layer 2s. Supporting isolated risk markets, liquid restaked Bitcoin assets, and algorithmic interest curves, Avalon has established itself as the largest lending reserve on Bitcoin L2s.",
+    "strategy": "Supply Bitcoin assets (BTC, M-BTC) or stablecoins into Avalon lending pools, borrow conservatively to farm points, and refer active liquidity providers.",
+    "tokenomics": "The upcoming $AVAF token will coordinate protocol risk parameters, interest fee shares, and cross-chain money market governance.",
+    "sybilSafety": "Continuous TVL deposits verifiable on Bitcoin Layer 2 block explorers provide permanent non-Sybil proof.",
+    "faqs": [
+      {
+        "question": "Can I use Avalon Finance on Ethereum Layer 2s?",
+        "answer": "Yes! While Avalon is famous for Bitcoin L2s (Merlin, Bitlayer), it also operates on Arbitrum, Base, and BNB Chain."
+      }
+    ],
+    "requirements": [
+      "EVM Wallet (OKX/MetaMask)",
+      "BTC or stablecoins",
+      "Web browser"
+    ]
+  },
+  {
+    "id": "stride-zone",
+    "name": "Stride",
+    "description": "Premier interchain liquid staking protocol on Cosmos securing Cosmos Hub, Osmosis, Celestia, and DyDx.",
+    "category": "DeFi",
+    "status": "active",
+    "reward": "$STRD Staking Yields & Interchain Liquid Staking Rewards",
+    "funding": "$9.5M",
+    "investors": "Pantera Capital, Distributed Global, Multicoin Capital, 1confirmation, Node Capital",
+    "stage": "Mainnet Live",
+    "difficulty": "Easy",
+    "estimatedTime": "5 mins",
+    "featured": false,
+    "logo": "/images/airdrops/stride-zone.svg",
+    "steps": [
+      "Connect Keplr or Leap wallet to <strong>Stride Zone</strong> (app.stride.zone).",
+      "Liquid stake ATOM, TIA, OSMO, or DYDX to receive yield-bearing stTokens (stATOM, stTIA).",
+      "Deploy stTokens into Cosmos DeFi pools on Osmosis, Mars Protocol, or Shade.",
+      "Stake native $STRD tokens to participate in interchain security consensus and collect fee revenues."
+    ],
+    "overview": "Stride is the dominant liquid staking protocol across the Cosmos Interchain ecosystem, secured by the Cosmos Hub via Interchain Security (ICS). With Stride, users can stake their proof-of-stake assets without locking up capital, receiving liquid stTokens that continuously accrue staking yields while remaining usable across Cosmos DeFi.",
+    "strategy": "Mint stATOM and stTIA, supply liquidity to stToken pools on Osmosis, and stake STRD tokens to capture protocol fee conversions.",
+    "tokenomics": "$STRD is the native governance and staking token of the Stride blockchain, capturing a fraction of all liquid staking rewards generated across Cosmos.",
+    "sybilSafety": "Cosmos IBC cryptographic transfers and active validator stake delegations eliminate disposable bot accounts.",
+    "faqs": [
+      {
+        "question": "What is Interchain Security on Stride?",
+        "answer": "Interchain Security means Stride is secured by the entire Cosmos Hub validator set, providing billion-dollar economic security."
+      }
+    ],
+    "requirements": [
+      "Keplr or Leap Wallet",
+      "ATOM, TIA, or OSMO",
+      "Web browser"
+    ]
+  },
+  {
+    "id": "milkyway-zone",
+    "name": "MilkyWay",
+    "description": "Leading modular liquid staking protocol for Celestia ($TIA) powering rollup ecosystems on Osmosis and EVM L2s.",
+    "category": "DeFi",
+    "status": "active",
+    "reward": "$MILK Points & milscale Restaking Bounties",
+    "funding": "$5M",
+    "investors": "Binance Labs, Polychain Capital, Hack VC, Nomad Capital, Chorus One",
+    "stage": "Mainnet Live",
+    "difficulty": "Easy",
+    "estimatedTime": "5 mins",
+    "featured": false,
+    "logo": "/images/airdrops/milkyway-zone.svg",
+    "steps": [
+      "Connect Keplr or EVM wallet to <strong>MilkyWay Zone</strong> (app.milkyway.zone).",
+      "Stake native $TIA tokens to mint liquid yield-bearing milkTIA.",
+      "Deposit milkTIA into partner DeFi vaults on Osmosis, Levana, or modular rollups.",
+      "Accumulate MilkyWay mPoints daily to position for the native $MILK token generation event."
+    ],
+    "overview": "MilkyWay is the flagship liquid staking solution tailored for Celestias modular data availability network. By allowing TIA stakers to mint milkTIA, MilkyWay unlocks liquidity for modular blockchain security, enabling users to farm DeFi yields while their underlying TIA secures the Celestia consensus network.",
+    "strategy": "Mint milkTIA, provide liquidity on Osmosis milkTIA/TIA pools, and hold positions across seasonal snapshot intervals to accumulate mPoints.",
+    "tokenomics": "The upcoming $MILK token will govern protocol slashing parameters, fee distribution curves, and validator delegations on Celestia.",
+    "sybilSafety": "Non-custodial smart contracts holding staked TIA on Osmosis provide immutable proof of authentic capital ownership.",
+    "faqs": [
+      {
+        "question": "Where can I trade milkTIA?",
+        "answer": "milkTIA is actively traded on Osmosis DEX and supported across multiple EVM Layer 2s via bridging."
+      }
+    ],
+    "requirements": [
+      "Keplr / Leap Wallet",
+      "TIA tokens",
+      "Web browser"
+    ]
+  },
+  {
+    "id": "pryzm-zone",
+    "name": "Pryzm",
+    "description": "Layer 1 yield-splitting and fixed-income blockchain on Cosmos, dividing tokens into principal (pToken) and yield (yToken) assets.",
+    "category": "Layer 1",
+    "status": "active",
+    "reward": "$PRYZM Token Airdrop & Proof-of-Yield Incentives",
+    "funding": "Cosmos Ecosystem Incubated",
+    "investors": "Cosmos Ecosystem Angels, Institutional DeFi Funds",
+    "stage": "Mainnet Live",
+    "difficulty": "Medium",
+    "estimatedTime": "15 mins",
+    "featured": false,
+    "logo": "/images/airdrops/pryzm-zone.svg",
+    "steps": [
+      "Connect Keplr wallet to <strong>Pryzm Portal</strong> (app.pryzm.zone).",
+      "Refract proof-of-stake tokens (ATOM, TIA, OSMO) into Principal Tokens (cTokens) and Yield Tokens (yTokens).",
+      "Trade future yield streams or lock in fixed rates using Pryzms Yield AMM.",
+      "Stake native $PRYZM tokens or provide liquidity in Pulse and Flow vaults to earn governance yields."
+    ],
+    "overview": "Pryzm is a purpose-built Layer 1 blockchain on Cosmos dedicated to harvesting, trading, and tokenizing yield. By introducing yield refraction—splitting yield-bearing assets into distinct principal and yield components—Pryzm allows DeFi participants to hedge interest rate risk, lock in fixed yields, or speculate on future staking reward volatility.",
+    "strategy": "Refract ATOM or TIA into cATOM and yATOM, trade yields on Pryzm AMM, and stake PRYZM tokens with active consensus validators.",
+    "tokenomics": "$PRYZM secures the Tendermint Proof-of-Stake consensus, powers transaction gas fees, and commands protocol revenue distribution votes.",
+    "sybilSafety": "Advanced financial state operations and validator staking on the Pryzm state chain ensure non-Sybil participant classification.",
+    "faqs": [
+      {
+        "question": "What is yield refraction on Pryzm?",
+        "answer": "Refraction separates an asset into a Principal Token (guaranteeing redemption of original capital) and a Yield Token (capturing future variable staking rewards)."
+      }
+    ],
+    "requirements": [
+      "Keplr Wallet",
+      "ATOM or OSMO tokens",
+      "Web browser"
+    ]
+  },
+  {
+    "id": "osmosis-dex",
+    "name": "Osmosis DEX",
+    "description": "Interchain liquidity powerhouse and primary decentralized exchange for the Cosmos ecosystem, supporting 100+ sovereign blockchains.",
+    "category": "DeFi",
+    "status": "active",
+    "reward": "$OSMO Staking Yields & Superfluid Liquidity Mining",
+    "funding": "$21M",
+    "investors": "Paradigm, Robot Ventures, Nascent, Ethereal Ventures, Figment Capital",
+    "stage": "Mainnet Live",
+    "difficulty": "Easy",
+    "estimatedTime": "5 mins",
+    "featured": true,
+    "logo": "/images/airdrops/osmosis-dex.svg",
+    "steps": [
+      "Connect Keplr or Leap wallet to <strong>Osmosis</strong> (app.osmosis.zone).",
+      "Deposit tokens via Inter-Blockchain Communication (IBC) from Cosmos, Celestia, Injective, or Ethereum.",
+      "Swap assets with low fees or provide liquidity into concentrated liquidity (CL) pools.",
+      "Participate in Superfluid Staking to earn both LP trading fees and Proof-of-Stake staking rewards simultaneously."
+    ],
+    "overview": "Osmosis is the foundational decentralized automated market maker and liquidity hub of the Cosmos ecosystem. Operating as an independent app-chain, Osmosis processes the vast majority of cross-chain IBC transfers, featuring customizable AMM curves, concentrated liquidity, and groundbreaking Superfluid Staking.",
+    "strategy": "Provide concentrated liquidity into high-volume pools (OSMO/ATOM, TIA/OSMO), enable Superfluid Staking, and stake OSMO tokens with network validators.",
+    "tokenomics": "$OSMO is the native governance and gas token that secures the Osmosis blockchain, distributes liquidity mining incentives, and captures protocol swap fees.",
+    "sybilSafety": "IBC cross-chain cryptographic receipts and multi-month LP commitments establish verified organic user identity.",
+    "faqs": [
+      {
+        "question": "What is Superfluid Staking on Osmosis?",
+        "answer": "Superfluid Staking allows you to stake the underlying OSMO inside your liquidity pool shares to secure the blockchain while simultaneously earning DEX fees."
+      }
+    ],
+    "requirements": [
+      "Keplr or Leap Wallet",
+      "ATOM or OSMO for gas",
+      "Web browser"
+    ]
+  },
+  {
+    "id": "kava-network",
+    "name": "Kava Network",
+    "description": "Decentralized Layer 1 combining the speed and interoperability of Cosmos with the developer power of Ethereum EVM.",
+    "category": "Layer 1",
+    "status": "active",
+    "reward": "$KAVA Staking Rewards & Kava Rise Developer Incentives",
+    "funding": "$15M+",
+    "investors": "Framework Ventures, Digital Asset Capital Management, HashKey, Lemniscap",
+    "stage": "Mainnet Live",
+    "difficulty": "Easy",
+    "estimatedTime": "10 mins",
+    "featured": false,
+    "logo": "/images/airdrops/kava-network.svg",
+    "steps": [
+      "Connect Web3 wallet (MetaMask or Keplr) to <strong>Kava Network</strong>.",
+      "Deposit assets (USDt, WBTC, ATOM) into Kava Lend and Kava Swap.",
+      "Mint native USDt backed by Tether directly issued on the Kava blockchain.",
+      "Stake native $KAVA tokens to active network validators to earn staking yield."
+    ],
+    "overview": "Kava is an innovative dual-chain Layer 1 blockchain that unites the Cosmos IBC ecosystem with the Ethereum Virtual Machine (EVM) via a single lightning-fast Tendermint consensus engine. Officially designated as the primary gateway for native Tether (USDt) on Cosmos, Kava hosts hundreds of millions in cross-chain DeFi liquidity.",
+    "strategy": "Supply native USDt into Kava Lend, trade on Kava EVM dApps, and stake KAVA tokens to capture network block rewards.",
+    "tokenomics": "$KAVA is the foundational staking and governance token securing the Proof-of-Stake consensus and directing Kava Rise developer funding rewards.",
+    "sybilSafety": "On-chain validator delegations and cross-chain IBC transactions provide ironclad proof of authentic user engagement.",
+    "faqs": [
+      {
+        "question": "Why is Kava significant for Tether (USDt)?",
+        "answer": "Tether officially issues native USDt directly on the Kava blockchain, making Kava the primary liquidity gateway for USDt across all Cosmos chains."
+      }
+    ],
+    "requirements": [
+      "EVM or Cosmos Wallet",
+      "KAVA tokens",
+      "Web browser"
+    ]
+  },
+  {
+    "id": "nibiru-chain",
+    "name": "Nibiru Chain",
+    "description": "High-throughput Layer 1 blockchain and smart contract ecosystem unifying decentralized perps, spot swaps, and oracle modules.",
+    "category": "Layer 1",
+    "status": "active",
+    "reward": "$NIBI Staking Yields & Gamified Engagement Seasons",
+    "funding": "$12M",
+    "investors": "Tribe Capital, Republic Capital, Kraken Ventures, NGC Ventures",
+    "stage": "Mainnet Live",
+    "difficulty": "Easy",
+    "estimatedTime": "10 mins",
+    "featured": false,
+    "logo": "/images/airdrops/nibiru-chain.svg",
+    "steps": [
+      "Connect Leap or Keplr wallet to <strong>Nibiru Web App</strong> (app.nibiru.fi).",
+      "Trade spot pairs or perpetual contracts on Nibi-Perps.",
+      "Provide liquidity into Nibi-Swap automated market maker pools.",
+      "Stake native $NIBI tokens with community validators to participate in consensus."
+    ],
+    "overview": "Nibiru Chain is a high-performance Proof-of-Stake Layer 1 blockchain built on the Cosmos SDK and CosmWasm smart contract framework. Featuring an all-in-one DeFi super-app suite—including Nibi-Swap, Nibi-Perps, and an automated oracle module—Nibiru delivers sub-second block times and high throughput for consumer dApps.",
+    "strategy": "Perform trades on Nibi-Swap, test perps markets, and delegate NIBI tokens to top-tier validators for consistent staking rewards.",
+    "tokenomics": "$NIBI is the native fuel of the network used for transaction gas, securing consensus, and governing protocol financial parameters.",
+    "sybilSafety": "On-chain validator delegation records and CosmWasm contract interactions verify legitimate participant identity.",
+    "faqs": [
+      {
+        "question": "What smart contract engine does Nibiru use?",
+        "answer": "Nibiru utilizes CosmWasm (Rust-based smart contracts) with parallel execution, offering extreme security and speed."
+      }
+    ],
+    "requirements": [
+      "Cosmos Wallet (Leap/Keplr)",
+      "NIBI tokens",
+      "Web browser"
+    ]
+  },
+  {
+    "id": "sentinel-dvpn",
+    "name": "Sentinel",
+    "description": "Decentralized physical infrastructure network (DePIN) for private, peer-to-peer virtual private networks (dVPNs) on Cosmos.",
+    "category": "DePIN",
+    "status": "active",
+    "reward": "$DVPN Mining Rewards & Bandwidth Monetization Yields",
+    "funding": "$3.5M",
+    "investors": "Woodstock Fund, Cosmos Ecosystem Angels, AU21 Capital",
+    "stage": "Mainnet Live",
+    "difficulty": "Easy",
+    "estimatedTime": "10 mins",
+    "featured": false,
+    "logo": "/images/airdrops/sentinel-dvpn.svg",
+    "steps": [
+      "Download <strong>Sentinel dVPN</strong> app on Android, iOS, Windows, or Mac.",
+      "Connect to decentralized VPN nodes to browse the internet with open encryption.",
+      "Host a Sentinel bandwidth node on your home router or server to monetize excess internet throughput.",
+      "Stake native $DVPN tokens to validators to secure the Sentinel blockchain and earn node revenues."
+    ],
+    "overview": "Sentinel is an open-source decentralized physical infrastructure network that replaces centralized VPN monopolies with a peer-to-peer bandwidth marketplace. Powered by the Cosmos SDK, Sentinel allows anyone to monetize unused residential or commercial internet bandwidth while providing global users with censorship-resistant privacy.",
+    "strategy": "Use Sentinel dVPN client for encrypted browsing, host a bandwidth provider node on spare hardware, and stake DVPN tokens.",
+    "tokenomics": "The $DVPN token settles bandwidth payments between clients and node hosts, secures Proof-of-Stake consensus, and powers DAO governance.",
+    "sybilSafety": "Hardware-level bandwidth verification, continuous socket sessions, and cryptographic payment proofs prevent artificial traffic spoofing.",
+    "faqs": [
+      {
+        "question": "How does Sentinel dVPN protect privacy better than centralized VPNs?",
+        "answer": "Sentinel nodes have no centralized logging servers or single corporate entity; traffic is encrypted peer-to-peer across distributed independent nodes."
+      }
+    ],
+    "requirements": [
+      "Sentinel dVPN App",
+      "DVPN tokens for bandwidth",
+      "Web browser"
+    ]
+  },
+  {
+    "id": "meson-network",
+    "name": "Meson Network",
+    "description": "Decentralized bandwidth exchange and CDN physical infrastructure network (DePIN) aggregating idle consumer bandwidth.",
+    "category": "DePIN",
+    "status": "active",
+    "reward": "$MSN Mining Rewards & Bandwidth Marketplace Yields",
+    "funding": "$9.5M",
+    "investors": "Presto Labs, Bixin Ventures, Mask Network, Emurgo, Foresight Ventures",
+    "stage": "Mainnet Live",
+    "difficulty": "Easy",
+    "estimatedTime": "10 mins",
+    "featured": false,
+    "logo": "/images/airdrops/meson-network.svg",
+    "steps": [
+      "Install <strong>Meson GagagNode</strong> software on Android, Raspberry Pi, Linux, or PC.",
+      "Run the background worker to contribute surplus residential bandwidth to the global CDN.",
+      "Earn daily Meson mining credits and bind your Web3 EVM wallet address.",
+      "Stake native $MSN tokens to run supernodes or claim data acceleration perks on the Meson Cloud."
+    ],
+    "overview": "Meson Network is a decentralized physical infrastructure network designed to create an open bandwidth marketplace on Web3. By aggregating unused long-tail bandwidth from consumer laptops, home servers, and mobile devices, Meson builds a cost-effective, decentralized Content Delivery Network (CDN) for video streaming, decentralized storage, and AI datasets.",
+    "strategy": "Keep your GagaNode active 24/7 with reliable internet connectivity, maintain high bandwidth delivery scores, and stake MSN tokens in network mining pools.",
+    "tokenomics": "$MSN coordinates bandwidth purchases by Web3 enterprises, rewards node operators, and governs protocol resource allocation parameters.",
+    "sybilSafety": "Dynamic IP verification, data throughput bandwidth challenge checks, and MAC binding prevent simulated farming.",
+    "faqs": [
+      {
+        "question": "Can I run Meson GagaNode on an old phone?",
+        "answer": "Yes! GagaNode is lightweight and can run seamlessly on older Android smartphones and low-power Raspberry Pi devices."
+      }
+    ],
+    "requirements": [
+      "Smartphone / PC / Raspberry Pi",
+      "Internet connection",
+      "EVM Wallet"
+    ]
+  },
+  {
+    "id": "gradient-network",
+    "name": "Gradient Network",
+    "description": "Decentralized edge compute infrastructure on Solana turning idle consumer devices into distributed AI inference nodes.",
+    "category": "DePIN",
+    "status": "active",
+    "reward": "Gradient Sentry Points & Upcoming Protocol Allocation",
+    "funding": "$3M",
+    "investors": "Multicoin Capital, Pantera Capital, Sequoia Scout",
+    "stage": "Mainnet Live",
+    "difficulty": "Easy",
+    "estimatedTime": "3 mins",
+    "featured": false,
+    "logo": "/images/airdrops/gradient-network.svg",
+    "steps": [
+      "Install the <strong>Gradient Sentry Node</strong> browser extension.",
+      "Register your account and link your Solana wallet address.",
+      "Keep your browser open to share idle compute and network telemetry.",
+      "Earn Sentry Points continuously and boost your ranking with daily connectivity streaks."
+    ],
+    "overview": "Gradient Network is a decentralized edge compute network engineered on Solana to power the next generation of artificial intelligence. By transforming consumer web browsers and connected devices into verifiable edge nodes, Gradient constructs a global compute fabric capable of handling low-latency AI inference, content delivery, and data verification.",
+    "strategy": "Run the Gradient Sentry extension continuously during daily computer use, maintain 100% uptime streaks, and follow community alpha announcements.",
+    "tokenomics": "Gradient Sentry Points track verifiable compute availability ahead of the official Solana token generation event.",
+    "sybilSafety": "Cryptographic browser heartbeats, residential IP verification, and unique Solana account binding eliminate emulated bot activity.",
+    "faqs": [
+      {
+        "question": "Does Gradient affect computer performance?",
+        "answer": "No. The Sentry node runs silently in the browser background using minimal memory and only utilizes surplus idle compute resources."
+      }
+    ],
+    "requirements": [
+      "Chrome / Brave browser",
+      "Solana Wallet",
+      "Internet connection"
+    ]
+  },
+  {
+    "id": "dawn-network",
+    "name": "DAWN Network",
+    "description": "Decentralized Autonomous Wireless Network delivering multi-gigabit wireless broadband on Solana backed by $18M.",
+    "category": "DePIN",
+    "status": "active",
+    "reward": "DAWN Validator Points & High-Throughput Wireless Bounties",
+    "funding": "$18M",
+    "investors": "Dragonfly Capital, CMT Digital, Wintermute, 6th Man Ventures",
+    "stage": "Mainnet Live",
+    "difficulty": "Easy",
+    "estimatedTime": "3 mins",
+    "featured": true,
+    "logo": "/images/airdrops/dawn-network.svg",
+    "steps": [
+      "Install the <strong>DAWN Validator Extension</strong> on Google Chrome or Brave.",
+      "Create an account and connect your Solana wallet address.",
+      "Keep the extension active to participate in Proof-of-Backhaul and bandwidth verification.",
+      "Earn DAWN reward points hourly based on your connection quality, social verification, and referrals."
+    ],
+    "overview": "DAWN (Decentralized Autonomous Wireless Network) is an ambitious DePIN telecom protocol engineered by Andrena on Solana. Supported by $18M from Dragonfly Capital, DAWN allows homeowners and businesses to buy and sell wireless broadband directly on-chain, creating a decentralized telecommunications grid that bypasses legacy internet service monopolies.",
+    "strategy": "Run the DAWN extension uninterrupted on high-speed internet connections, complete social verification tasks for point multipliers, and maintain daily check-in streaks.",
+    "tokenomics": "DAWN Points measure bandwidth validation contributions, converting to the native Solana token that will settle peer-to-peer broadband micro-payments.",
+    "sybilSafety": "Proof-of-Backhaul cryptographic speed test verification and residential network telemetry ensure only authentic physical connections receive points.",
+    "faqs": [
+      {
+        "question": "What is Proof of Backhaul in DAWN?",
+        "answer": "Proof of Backhaul is a cryptographic mechanism where nodes continuously verify the throughput and latency of surrounding internet connections."
+      }
+    ],
+    "requirements": [
+      "Chrome / Brave browser",
+      "Solana Wallet",
+      "High-speed internet"
+    ]
+  },
+  {
+    "id": "blockless-network",
+    "name": "Blockless",
+    "description": "Decentralized verifiable WASM execution node architecture and network-neutral DePIN compute platform backed by $8M.",
+    "category": "Infrastructure",
+    "status": "active",
+    "reward": "Blockless Node Points & Early Network Rewards",
+    "funding": "$8M",
+    "investors": "NGC Ventures, No Limit Holdings, MH Ventures, Interop Ventures",
+    "stage": "Mainnet Live",
+    "difficulty": "Easy",
+    "estimatedTime": "5 mins",
+    "featured": false,
+    "logo": "/images/airdrops/blockless-network.svg",
+    "steps": [
+      "Install the <strong>Blockless Community Node</strong> browser app or desktop client.",
+      "Sign in and link your Web3 wallet address.",
+      "Idle your device to execute lightweight WebAssembly (WASM) compute tasks for decentralized applications.",
+      "Accumulate Blockless Points and climb the global node contribution leaderboard."
+    ],
+    "overview": "Blockless is a modular decentralized compute architecture designed specifically for WebAssembly (WASM) execution. Unlike traditional blockchains that re-execute every transaction sequentially, Blockless offloads heavy application computation to a distributed mesh of consumer nodes, verifying results with cryptographic consensus.",
+    "strategy": "Keep your Community Node online, participate in testnet compute verification tasks, and follow official developer community milestones.",
+    "tokenomics": "Blockless Points quantify node workload execution ahead of the native protocol token, which will settle compute fees and incentivize operators.",
+    "sybilSafety": "WASM cryptographic execution hashes and hardware fingerprint verification prevent synthetic node spoofing.",
+    "faqs": [
+      {
+        "question": "What is WebAssembly (WASM) compute?",
+        "answer": "WebAssembly allows high-performance code written in Rust, C++, or Go to execute securely inside web browsers and lightweight client environments."
+      }
+    ],
+    "requirements": [
+      "Web browser or desktop client",
+      "Internet connection",
+      "Web3 Wallet"
+    ]
+  },
+  {
+    "id": "uma-protocol",
+    "name": "UMA Protocol",
+    "description": "Decentralized optimistic oracle and dispute arbitration engine securing Polymarket and multi-billion-dollar prediction markets.",
+    "category": "Infrastructure",
+    "status": "active",
+    "reward": "$UMA Staking APY & Optimistic Oracle Dispute Yields",
+    "funding": "$20M+",
+    "investors": "Polychain Capital, Bain Capital Crypto, Coinbase Ventures, BoxGroup, Two Sigma",
+    "stage": "Mainnet Live",
+    "difficulty": "Easy",
+    "estimatedTime": "10 mins",
+    "featured": true,
+    "logo": "/images/airdrops/uma-protocol.svg",
+    "steps": [
+      "Navigate to <strong>UMA Oracle Portal</strong> (oracle.umaproject.org).",
+      "Stake native $UMA tokens into the Data Verification Mechanism (DVM) contract.",
+      "Vote on disputed real-world assertions and Polymarket prediction resolutions.",
+      "Earn continuous staking APY and voter rewards for voting with the honest majority."
+    ],
+    "overview": "UMA (Universal Market Access) is an optimistic oracle protocol that records any verifiable real-world truth onto the blockchain with economic guarantees. Famously serving as the backbone for Polymarket—the worlds largest decentralized prediction market—UMAs Optimistic Oracle assumes assertions are true unless challenged with a bonded dispute, resolving conflicts through UMA tokenholder voting.",
+    "strategy": "Stake UMA tokens in the DVM, vote consistently on disputed prediction market queries, and maintain a 100% voting participation rate for maximum compound APY.",
+    "tokenomics": "The $UMA token coordinates oracle dispute resolution voting, with honest voters receiving freshly minted inflationary token distributions.",
+    "sybilSafety": "Economic bonded commitments and on-chain vote commitments make Sybil manipulation economically unprofitable.",
+    "faqs": [
+      {
+        "question": "How does UMA secure Polymarket?",
+        "answer": "When a prediction market market resolves on Polymarket, UMA verifies the real-world outcome. If someone disputes the result, UMA tokenholders vote to establish the definitive truth."
+      }
+    ],
+    "requirements": [
+      "Ethereum EVM Wallet",
+      "UMA tokens for staking",
+      "Web browser"
+    ]
+  },
+  {
+    "id": "polymer-labs",
+    "name": "Polymer Labs",
+    "description": "Ethereum Layer 2 interoperability hub connecting rollups via the Inter-Blockchain Communication (IBC) protocol backed by $26M.",
+    "category": "Interoperability",
+    "status": "active",
+    "reward": "Developer Testnet Incentives & Polymer Hub Allocation",
+    "funding": "$26M",
+    "investors": "Blockchain Capital, Bain Capital Crypto, Maven 11, Digital Currency Group",
+    "stage": "Testnet / Mainnet Rollout",
+    "difficulty": "Medium",
+    "estimatedTime": "10 mins",
+    "featured": false,
+    "logo": "/images/airdrops/polymer-labs.svg",
+    "steps": [
+      "Connect Web3 wallet to <strong>Polymer Explorer</strong> (polymerlabs.org).",
+      "Test cross-rollup message passing between Ethereum Layer 2 rollups (OP Stack, Arbitrum, Base).",
+      "Deploy or interact with decentralized applications utilizing Polymer IBC transport.",
+      "Participate in Polymer testnet developer quests and community governance forums."
+    ],
+    "overview": "Polymer Labs is an interoperability hub for Ethereum, bringing the gold standard of Cosmos Inter-Blockchain Communication (IBC) directly to Ethereum rollups. Serving as an institutional-grade interoperability sequencer, Polymer enables arbitrary message passing, composable cross-chain liquidity, and state verification between Ethereum Layer 2s with zero centralized bridge risk.",
+    "strategy": "Interact with dApps using Polymer for cross-rollup data transfer, participate in ecosystem developer programs, and maintain active roles in the community.",
+    "tokenomics": "The upcoming Polymer native token will secure relayer staking, pay for cross-chain IBC verification gas, and govern interoperability parameters.",
+    "sybilSafety": "Cryptographic IBC light client state proofs eliminate centralized multisig vulnerabilities and verify authentic cross-rollup transactions.",
+    "faqs": [
+      {
+        "question": "What is IBC for Ethereum?",
+        "answer": "Polymer adapts Cosmos proven Inter-Blockchain Communication (IBC) standard for Ethereum Layer 2s, enabling standardized, trustless cross-rollup communication."
+      }
+    ],
+    "requirements": [
+      "EVM Wallet (Base / Optimism / Arbitrum)",
+      "Testnet tokens",
+      "Web browser"
+    ]
   }
 ];

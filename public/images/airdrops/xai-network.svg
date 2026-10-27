@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
+  <defs>
+    <linearGradient id="xaiGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#EF4444"/>
+      <stop offset="100%" stop-color="#DC2626"/>
+    </linearGradient>
+  </defs>
+  <rect width="128" height="128" rx="32" fill="#18181B"/>
+  <path d="M38 38 L54 64 L38 90 L52 90 L64 71 L76 90 L90 90 L74 64 L90 38 L76 38 L64 57 L52 38 Z" fill="url(#xaiGrad)"/>
+</svg>

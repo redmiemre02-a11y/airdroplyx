@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
+  <defs>
+    <linearGradient id="umaGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FF4A4A"/>
+      <stop offset="100%" stop-color="#E60000"/>
+    </linearGradient>
+  </defs>
+  <rect width="128" height="128" rx="32" fill="#18181B"/>
+  <path d="M42 40 L42 70 C42 82 52 90 64 90 C76 90 86 82 86 70 L86 40" stroke="url(#umaGrad)" stroke-width="10" stroke-linecap="round" fill="none"/>
+</svg>
