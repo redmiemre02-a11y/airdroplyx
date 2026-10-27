@@ -1,0 +1,356 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Header from '../components/Header.astro';
+
+const faucetsList = [
+  {
+    id: 'monad-testnet',
+    name: 'Monad Testnet Faucet',
+    network: 'Monad Parallel EVM',
+    type: 'EVM',
+    drip: '1.0 MON / 24h',
+    requirement: 'Discord Verification or Captcha',
+    status: 'Online',
+    url: 'https://testnet.monad.xyz',
+    guideUrl: '/airdrop/monad',
+    chainId: 10143,
+    currency: 'MON',
+    rpc: 'https://testnet-rpc.monad.xyz'
+  },
+  {
+    id: 'berachain-bartio',
+    name: 'Berachain bArtio Faucet',
+    network: 'Berachain bArtio',
+    type: 'EVM',
+    drip: '0.1 BERA / 8h',
+    requirement: '0.001 ETH on Ethereum Mainnet',
+    status: 'Online',
+    url: 'https://bartio.faucet.berachain.com',
+    guideUrl: '/airdrop/berachain',
+    chainId: 80084,
+    currency: 'BERA',
+    rpc: 'https://bartio.rpc.berachain.com'
+  },
+  {
+    id: 'sepolia-eth',
+    name: 'Ethereum Sepolia Faucet',
+    network: 'Ethereum Sepolia',
+    type: 'EVM',
+    drip: '0.05 - 0.5 Sepolia ETH / 24h',
+    requirement: 'Google Web3 Login or Alchemy Account',
+    status: 'Online',
+    url: 'https://cloud.google.com/application/web3/faucet/ethereum/sepolia',
+    guideUrl: '/academy/testnet-vs-mainnet',
+    chainId: 11155111,
+    currency: 'ETH',
+    rpc: 'https://rpc.sepolia.org'
+  },
+  {
+    id: 'holesky-eth',
+    name: 'Ethereum Holesky Faucet',
+    network: 'Ethereum Holesky',
+    type: 'EVM',
+    drip: '0.5 Holesky ETH / 24h',
+    requirement: 'Gitcoin Passport or PoW Mining',
+    status: 'Online',
+    url: 'https://holesky-faucet.pk910.de',
+    guideUrl: '/academy/validator-node-airdrop-guide',
+    chainId: 17000,
+    currency: 'ETH',
+    rpc: 'https://ethereum-holesky.publicnode.com'
+  },
+  {
+    id: 'base-sepolia',
+    name: 'Base Sepolia Faucet',
+    network: 'Base L2 Testnet',
+    type: 'EVM',
+    drip: '0.1 Base Sepolia ETH / 24h',
+    requirement: 'Coinbase Wallet / GitHub login',
+    status: 'Online',
+    url: 'https://www.coinbase.com/faucets/base-ethereum-sepolia-faucet',
+    guideUrl: '/airdrop/aerodrome-finance',
+    chainId: 84532,
+    currency: 'ETH',
+    rpc: 'https://sepolia.base.org'
+  },
+  {
+    id: 'arbitrum-sepolia',
+    name: 'Arbitrum Sepolia Faucet',
+    network: 'Arbitrum One Testnet',
+    type: 'EVM',
+    drip: '0.1 Arb Sepolia ETH / 24h',
+    requirement: 'Alchemy / Infura Account',
+    status: 'Online',
+    url: 'https://faucets.chain.link',
+    guideUrl: '/airdrop/hyperliquid',
+    chainId: 421614,
+    currency: 'ETH',
+    rpc: 'https://sepolia-rollup.arbitrum.io/rpc'
+  },
+  {
+    id: 'story-iliad',
+    name: 'Story Protocol Iliad Faucet',
+    network: 'Story Iliad Testnet',
+    type: 'EVM',
+    drip: '1.0 IP / 24h',
+    requirement: 'Twitter / X Auth',
+    status: 'Online',
+    url: 'https://faucet.story.foundation',
+    guideUrl: '/airdrop/story-protocol',
+    chainId: 1513,
+    currency: 'IP',
+    rpc: 'https://iliad.storyrpc.io'
+  },
+  {
+    id: 'solana-devnet',
+    name: 'Solana Devnet Faucet',
+    network: 'Solana Devnet',
+    type: 'Solana',
+    drip: '2.0 Devnet SOL / Request',
+    requirement: 'Captcha Only',
+    status: 'Online',
+    url: 'https://faucet.solana.com',
+    guideUrl: '/airdrop/jupiter-exchange',
+    chainId: 0,
+    currency: 'SOL',
+    rpc: 'https://api.devnet.solana.com'
+  },
+  {
+    id: 'sui-testnet',
+    name: 'Sui Network Testnet Faucet',
+    network: 'Sui Move Network',
+    type: 'Move',
+    drip: '1.0 SUI / Request',
+    requirement: 'Discord or Official Sui Wallet',
+    status: 'Online',
+    url: 'https://faucet.sui.io',
+    guideUrl: '/airdrop/sui-network',
+    chainId: 0,
+    currency: 'SUI',
+    rpc: 'https://fullnode.testnet.sui.io'
+  },
+  {
+    id: 'aptos-testnet',
+    name: 'Aptos Testnet Faucet',
+    network: 'Aptos Move L1',
+    type: 'Move',
+    drip: '1.0 APT / Request',
+    requirement: 'Petra / Martian Wallet Auth',
+    status: 'Online',
+    url: 'https://aptoslabs.com/testnet-faucet',
+    guideUrl: '/airdrop/aptos-network',
+    chainId: 2,
+    currency: 'APT',
+    rpc: 'https://fullnode.testnet.aptoslabs.com/v1'
+  },
+  {
+    id: 'polygon-amoy',
+    name: 'Polygon Amoy Faucet',
+    network: 'Polygon Amoy PoS',
+    type: 'EVM',
+    drip: '0.5 POL / 24h',
+    requirement: 'Discord or Polygon Account',
+    status: 'Online',
+    url: 'https://faucet.polygon.technology',
+    guideUrl: '/airdrop/polymarket',
+    chainId: 80002,
+    currency: 'POL',
+    rpc: 'https://rpc-amoy.polygon.technology'
+  },
+  {
+    id: 'starknet-sepolia',
+    name: 'Starknet Sepolia Faucet',
+    network: 'Starknet Validity Rollup',
+    type: 'Starknet',
+    drip: '0.005 ETH / 24h',
+    requirement: 'Braavos / Argent X Wallet',
+    status: 'Online',
+    url: 'https://starknet-faucet.vercel.app',
+    guideUrl: '/airdrop/starknet-foundation',
+    chainId: 0,
+    currency: 'STRK/ETH',
+    rpc: 'https://free-rpc.nethermind.io/sepolia-juno'
+  }
+];
+---
+
+<Layout 
+  title="Verified Crypto Testnet Faucets Directory 2026 | Airdroplyx" 
+  description="Comprehensive directory of live, working crypto testnet faucets. Claim free testnet ETH, MON, BERA, SOL, and SUI to farm zero-capital Web3 airdrops."
+>
+  <Header />
+
+  <main class="min-h-screen bg-slate-50 dark:bg-slate-950 text-slate-900 dark:text-slate-100 py-12 px-4 transition-colors duration-200">
+    <div class="max-w-[1200px] mx-auto">
+      
+      <!-- Breadcrumbs -->
+      <nav class="flex items-center gap-2 text-xs text-slate-500 dark:text-slate-400 mb-6 font-medium">
+        <a href="/" class="hover:text-blue-600 transition-colors">Home</a>
+        <span>/</span>
+        <span class="text-blue-600 dark:text-blue-400 font-semibold">Testnet Faucets</span>
+      </nav>
+
+      <!-- Hero Header -->
+      <div class="text-center max-w-3xl mx-auto mb-10">
+        <div class="inline-flex items-center gap-2 bg-blue-100 dark:bg-blue-900/40 text-blue-700 dark:text-blue-300 px-3.5 py-1.5 rounded-full text-xs font-bold tracking-wide uppercase mb-4 border border-blue-200 dark:border-blue-800/60 shadow-sm">
+          <span>🚰</span>
+          <span>Verified Gas Faucet Hub</span>
+        </div>
+        <h1 class="text-3xl sm:text-5xl font-black tracking-tight text-slate-900 dark:text-white mb-4">
+          Verified Testnet Faucet Directory
+        </h1>
+        <p class="text-base sm:text-lg text-slate-600 dark:text-slate-300 leading-relaxed">
+          Claim free test tokens for high-priority upcoming testnet airdrops. All faucets verified 24/7 for operational uptime, low spam requirements, and official legitimacy.
+        </p>
+      </div>
+
+      <!-- Search & Category Filter Toolbar -->
+      <div class="bg-white dark:bg-slate-900 p-4 rounded-2xl border border-slate-200 dark:border-slate-800 shadow-sm mb-8 flex flex-col sm:flex-row items-stretch sm:items-center justify-between gap-4">
+        <div class="relative flex-1">
+          <input 
+            type="text" 
+            id="faucet-search" 
+            placeholder="Search faucets by network or token (e.g. Monad, BERA, Sepolia)..." 
+            class="w-full bg-slate-50 dark:bg-slate-800 border border-slate-200 dark:border-slate-700 rounded-xl py-2 pl-9 pr-4 text-xs sm:text-sm text-slate-900 dark:text-white placeholder-slate-400 focus:outline-none focus:ring-2 focus:ring-blue-500"
+          />
+          <svg class="w-4 h-4 text-slate-400 absolute left-3 top-2.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path></svg>
+        </div>
+
+        <div class="flex items-center gap-1.5 overflow-x-auto pb-1 sm:pb-0">
+          <button class="faucet-filter-btn active px-3 py-1.5 rounded-lg text-xs font-bold bg-blue-600 text-white shadow-sm transition-all" data-type="all">All ({faucetsList.length})</button>
+          <button class="faucet-filter-btn px-3 py-1.5 rounded-lg text-xs font-bold bg-slate-100 dark:bg-slate-800 text-slate-600 dark:text-slate-300 hover:bg-slate-200 transition-all" data-type="EVM">EVM</button>
+          <button class="faucet-filter-btn px-3 py-1.5 rounded-lg text-xs font-bold bg-slate-100 dark:bg-slate-800 text-slate-600 dark:text-slate-300 hover:bg-slate-200 transition-all" data-type="Solana">Solana</button>
+          <button class="faucet-filter-btn px-3 py-1.5 rounded-lg text-xs font-bold bg-slate-100 dark:bg-slate-800 text-slate-600 dark:text-slate-300 hover:bg-slate-200 transition-all" data-type="Move">Move</button>
+        </div>
+      </div>
+
+      <!-- Faucets Grid -->
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6" id="faucets-grid">
+        {faucetsList.map(faucet => (
+          <div class="faucet-card bg-white dark:bg-slate-900 rounded-3xl p-6 border border-slate-200 dark:border-slate-800 shadow-sm hover:shadow-lg transition-all flex flex-col justify-between" data-name={faucet.name.toLowerCase()} data-type={faucet.type}>
+            <div>
+              <!-- Top Card Row -->
+              <div class="flex items-start justify-between gap-3 mb-4">
+                <div>
+                  <span class="text-[10px] font-extrabold uppercase px-2.5 py-0.5 rounded-full bg-blue-50 text-blue-700 dark:bg-blue-950/50 dark:text-blue-300 border border-blue-200 dark:border-blue-800/60">
+                    {faucet.type}
+                  </span>
+                  <h3 class="text-lg font-bold text-slate-900 dark:text-white mt-2">
+                    {faucet.name}
+                  </h3>
+                  <span class="text-xs text-slate-500 dark:text-slate-400 font-medium">{faucet.network}</span>
+                </div>
+                <span class="inline-flex items-center gap-1.5 px-2.5 py-0.5 rounded-full text-[11px] font-bold bg-emerald-50 dark:bg-emerald-950/40 text-emerald-600 dark:text-emerald-400 border border-emerald-200 dark:border-emerald-800 shrink-0">
+                  <span class="w-2 h-2 rounded-full bg-emerald-500 animate-pulse"></span>
+                  {faucet.status}
+                </span>
+              </div>
+
+              <!-- Metrics -->
+              <div class="space-y-2 py-3 border-y border-slate-100 dark:border-slate-800/80 text-xs mb-4">
+                <div class="flex justify-between">
+                  <span class="text-slate-400">Drip Amount:</span>
+                  <strong class="text-slate-800 dark:text-white">{faucet.drip}</strong>
+                </div>
+                <div class="flex justify-between">
+                  <span class="text-slate-400">Requirement:</span>
+                  <span class="text-slate-600 dark:text-slate-300 font-medium text-right max-w-[180px] truncate">{faucet.requirement}</span>
+                </div>
+                {faucet.chainId > 0 && (
+                  <div class="flex justify-between">
+                    <span class="text-slate-400">Chain ID:</span>
+                    <code class="font-mono text-slate-700 dark:text-slate-300 bg-slate-100 dark:bg-slate-800 px-1.5 py-0.2 rounded text-[11px]">{faucet.chainId}</code>
+                  </div>
+                )}
+              </div>
+            </div>
+
+            <!-- Card Bottom Buttons -->
+            <div class="space-y-2">
+              <a 
+                href={faucet.url} 
+                target="_blank" 
+                rel="noopener noreferrer" 
+                class="w-full bg-blue-600 hover:bg-blue-700 text-white font-bold py-2.5 px-4 rounded-xl text-xs flex items-center justify-center gap-1.5 transition-colors shadow-sm"
+              >
+                <span>🚰 Claim Free Faucet</span>
+                <span>&rarr;</span>
+              </a>
+              <div class="flex items-center gap-2">
+                <a 
+                  href={faucet.guideUrl} 
+                  class="flex-1 text-center py-2 px-3 rounded-xl text-xs font-bold bg-slate-50 dark:bg-slate-800 text-slate-700 dark:text-slate-200 border border-slate-200 dark:border-slate-700 hover:bg-slate-100 dark:hover:bg-slate-750 transition-colors"
+                >
+                  View Guide
+                </a>
+                <button 
+                  type="button" 
+                  class="copy-rpc-btn p-2 rounded-xl text-xs font-bold bg-slate-50 dark:bg-slate-800 text-slate-500 hover:text-slate-900 dark:hover:text-white border border-slate-200 dark:border-slate-700 transition-colors"
+                  data-rpc={faucet.rpc}
+                  title="Copy RPC URL"
+                >
+                  <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 5H6a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2v-1M8 5a2 2 0 002 2h2a2 2 0 002-2M8 5a2 2 0 012-2h2a2 2 0 012 2m0 0h2a2 2 0 012 2v3m2 4H10m0 0l3-3m-3 3l3 3"></path></svg>
+                </button>
+              </div>
+            </div>
+
+          </div>
+        ))}
+      </div>
+
+    </div>
+  </main>
+</Layout>
+
+<script is:inline>
+  // Filter & Search Logic
+  const searchInput = document.getElementById('faucet-search');
+  const cards = document.querySelectorAll('.faucet-card');
+  const filterBtns = document.querySelectorAll('.faucet-filter-btn');
+
+  function updateFaucets() {
+    const q = (searchInput?.value || '').toLowerCase().trim();
+    const activeType = document.querySelector('.faucet-filter-btn.active')?.dataset.type || 'all';
+
+    cards.forEach(card => {
+      const name = card.dataset.name || '';
+      const type = card.dataset.type || '';
+
+      const matchesSearch = !q || name.includes(q);
+      const matchesType = activeType === 'all' || type === activeType;
+
+      if (matchesSearch && matchesType) {
+        card.style.display = 'flex';
+      } else {
+        card.style.display = 'none';
+      }
+    });
+  }
+
+  searchInput?.addEventListener('input', updateFaucets);
+
+  filterBtns.forEach(btn => {
+    btn.addEventListener('click', () => {
+      filterBtns.forEach(b => {
+        b.classList.remove('active', 'bg-blue-600', 'text-white', 'shadow-sm');
+        b.classList.add('bg-slate-100', 'dark:bg-slate-800', 'text-slate-600', 'dark:text-slate-300');
+      });
+      btn.classList.add('active', 'bg-blue-600', 'text-white', 'shadow-sm');
+      btn.classList.remove('bg-slate-100', 'dark:bg-slate-800', 'text-slate-600', 'dark:text-slate-300');
+      updateFaucets();
+    });
+  });
+
+  // Copy RPC Handler
+  document.querySelectorAll('.copy-rpc-btn').forEach(btn => {
+    btn.addEventListener('click', () => {
+      const rpc = btn.dataset.rpc;
+      if (rpc) {
+        navigator.clipboard.writeText(rpc).then(() => {
+          btn.classList.add('text-emerald-500');
+          setTimeout(() => btn.classList.remove('text-emerald-500'), 2000);
+        });
+      }
+    });
+  });
+</script>

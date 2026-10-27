@@ -1,0 +1,219 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Header from '../components/Header.astro';
+import { airdrops } from '../data/airdrops';
+
+// Curated list of leading crypto VCs and their associated protocol IDs in our database
+const vcFunds = [
+  {
+    id: 'paradigm',
+    name: 'Paradigm',
+    leadPartner: 'Matt Huang & Fred Ehrsam',
+    tier: 'Tier 1 Alpha',
+    description: 'Premier crypto-native research-driven venture fund known for engineering breakthroughs and massive retroactive allocations.',
+    portfolioIds: ['monad', 'uniswap-protocol', 'friend-tech', 'optimism', 'blur', 'starknet-foundation', 'dydx', 'flashbots-protocol', 'babylon-bitcoin'],
+    focus: 'Parallel EVMs, MEV, Rollups, Infrastructure',
+    estCapital: '$2.5B+'
+  },
+  {
+    id: 'a16z',
+    name: 'a16z crypto',
+    leadPartner: 'Chris Dixon & Marc Andreessen',
+    tier: 'Tier 1 Mega-Fund',
+    description: 'Andreessen Horowitz dedicated multi-billion Web3 fund supporting consumer applications, modular scalability, and decentralized identity.',
+    portfolioIds: ['story-protocol', 'berachain', 'layerzero', 'farcaster', 'world-network', 'eigenlayer', 'aptos-network', 'sui-network', 'celestia'],
+    focus: 'Consumer Web3, AI, Zero-Knowledge, Layer 1s',
+    estCapital: '$7.6B+'
+  },
+  {
+    id: 'binance-labs',
+    name: 'Binance Labs',
+    leadPartner: 'Yi He & Investment Team',
+    tier: 'Exchange Titan',
+    description: 'Venture arm of Binance prioritizing ecosystem incubations, high-liquidity DeFi, and projects positioned for top CEX listings.',
+    portfolioIds: ['pancakeswap', 'movement-labs', 'bouncebit-chain', 'polyhedra-network', 'kiloex-perps', 'kinza-finance', 'renzo-restaking'],
+    focus: 'BNB Chain, Restaking, Cross-Chain, Perps',
+    estCapital: '$10.0B+'
+  },
+  {
+    id: 'polychain',
+    name: 'Polychain Capital',
+    leadPartner: 'Olaf Carlson-Wee',
+    tier: 'Early Pioneer',
+    description: 'First major cryptocurrency hedge and venture fund, backing foundational Layer 1 consensus innovations and restaking primitives.',
+    portfolioIds: ['berachain', 'babylon-bitcoin', 'scroll', 'taiko-l2', 'cosmos-hub', 'bittensor-tao', 'polkadot-network'],
+    focus: 'Consensus Innovation, Bitcoin Staking, zkEVMs',
+    estCapital: '$2.0B+'
+  },
+  {
+    id: 'dragonfly',
+    name: 'Dragonfly Capital',
+    leadPartner: 'Haseeb Qureshi & Tom Schmidt',
+    tier: 'Global Frontier',
+    description: 'Cross-border crypto venture firm bridging Silicon Valley and Asian liquidity markets with deep DeFi tokenomics expertise.',
+    portfolioIds: ['monad', 'ethena', 'hyperliquid', 'matter-labs-zksync', 'avalanche-network', 'near-protocol'],
+    focus: 'DeFi Derivatives, High-Throughput Chains, Stablecoins',
+    estCapital: '$1.0B+'
+  },
+  {
+    id: 'coinbase-ventures',
+    name: 'Coinbase Ventures',
+    leadPartner: 'Shan Aggarwal & Team',
+    tier: 'Corporate Giant',
+    description: 'Strategic investment arm of Coinbase focused on Base ecosystem growth, institutional DeFi, and account abstraction.',
+    portfolioIds: ['aerodrome-finance', 'sei-network', 'wormhole-crypto', 'eigenlayer', 'rocket-pool', 'synthetix-protocol'],
+    focus: 'Base L2, Liquid Staking, Interoperability',
+    estCapital: '$1.5B+'
+  }
+];
+
+// Lookup map for associated airdrops
+const airdropsLight = airdrops.map(a => ({
+  id: a.id,
+  name: a.name,
+  logo: a.logo,
+  category: a.category,
+  reward: a.reward,
+  funding: a.funding,
+  status: a.status
+}));
+---
+
+<Layout 
+  title="Venture Capital Crypto Portfolios & Airdrop Intel | Airdroplyx" 
+  description="Discover potential crypto airdrops backed by top VC firms including Paradigm, a16z, Binance Labs, and Polychain Capital. Filter protocols by institutional investor."
+>
+  <Header />
+
+  <main class="min-h-screen bg-slate-50 dark:bg-slate-950 text-slate-900 dark:text-slate-100 py-12 px-4 transition-colors duration-200">
+    <div class="max-w-[1200px] mx-auto">
+      
+      <!-- Breadcrumbs -->
+      <nav class="flex items-center gap-2 text-xs text-slate-500 dark:text-slate-400 mb-6 font-medium">
+        <a href="/" class="hover:text-blue-600 transition-colors">Home</a>
+        <span>/</span>
+        <span class="text-blue-600 dark:text-blue-400 font-semibold">VC Portfolios</span>
+      </nav>
+
+      <!-- Hero Header -->
+      <div class="text-center max-w-3xl mx-auto mb-10">
+        <div class="inline-flex items-center gap-2 bg-purple-100 dark:bg-purple-950/40 text-purple-700 dark:text-purple-300 px-3.5 py-1.5 rounded-full text-xs font-bold tracking-wide uppercase mb-4 border border-purple-200 dark:border-purple-800/60 shadow-sm">
+          <span>🏛️</span>
+          <span>Institutional Backing Radar</span>
+        </div>
+        <h1 class="text-3xl sm:text-5xl font-black tracking-tight text-slate-900 dark:text-white mb-4">
+          Tier-1 VC Portfolios & Airdrops
+        </h1>
+        <p class="text-base sm:text-lg text-slate-600 dark:text-slate-300 leading-relaxed">
+          The largest retroactive airdrops in history were backed by elite venture firms. Filter 650+ protocols by institutional investor to focus your farming on high-conviction allocations.
+        </p>
+      </div>
+
+      <!-- Quick Fund Selection Bar -->
+      <div class="flex items-center gap-2 overflow-x-auto pb-4 mb-8">
+        <button class="vc-select-btn active px-4 py-2.5 rounded-2xl text-xs font-extrabold bg-blue-600 text-white shadow-md transition-all shrink-0" data-vc="all">
+          All Top Funds
+        </button>
+        {vcFunds.map(fund => (
+          <button class="vc-select-btn px-4 py-2.5 rounded-2xl text-xs font-bold bg-white dark:bg-slate-900 text-slate-700 dark:text-slate-200 border border-slate-200 dark:border-slate-800 hover:border-blue-400 transition-all shrink-0 shadow-sm" data-vc={fund.id}>
+            {fund.name}
+          </button>
+        ))}
+      </div>
+
+      <!-- VC Funds Cards Grid -->
+      <div class="space-y-10" id="vc-container">
+        {vcFunds.map(fund => {
+          const matchingDrops = fund.portfolioIds
+            .map(id => airdropsLight.find(a => a.id === id))
+            .filter(Boolean);
+
+          return (
+            <div class="vc-fund-block bg-white dark:bg-slate-900 rounded-3xl p-6 sm:p-8 border border-slate-200 dark:border-slate-800 shadow-sm transition-all" data-id={fund.id}>
+              
+              <!-- Fund Header -->
+              <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-4 pb-6 border-b border-slate-100 dark:border-slate-800 mb-6">
+                <div>
+                  <div class="flex items-center gap-3">
+                    <h2 class="text-2xl font-black text-slate-900 dark:text-white">{fund.name}</h2>
+                    <span class="text-xs font-bold px-2.5 py-0.5 rounded-full bg-purple-100 text-purple-800 dark:bg-purple-950/50 dark:text-purple-300 border border-purple-200 dark:border-purple-800">
+                      {fund.tier}
+                    </span>
+                  </div>
+                  <p class="text-xs sm:text-sm text-slate-500 dark:text-slate-400 mt-1 max-w-xl leading-relaxed">
+                    {fund.description}
+                  </p>
+                </div>
+
+                <div class="flex items-center gap-4 text-right">
+                  <div>
+                    <span class="text-[11px] font-semibold text-slate-400 block uppercase">Est. AUM</span>
+                    <strong class="text-base font-extrabold text-slate-900 dark:text-white">{fund.estCapital}</strong>
+                  </div>
+                  <div class="pl-4 border-l border-slate-100 dark:border-slate-800">
+                    <span class="text-[11px] font-semibold text-slate-400 block uppercase">Tracked Targets</span>
+                    <strong class="text-base font-extrabold text-blue-600 dark:text-blue-400">{matchingDrops.length} Drops</strong>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Portfolio Protocols Grid -->
+              <div>
+                <h3 class="text-xs font-bold uppercase tracking-wider text-slate-400 mb-4">
+                  Verified Portfolio Airdrops
+                </h3>
+
+                <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3.5">
+                  {matchingDrops.map(drop => (
+                    <a 
+                      href={`/airdrop/${drop.id}`}
+                      class="flex items-center justify-between p-3.5 rounded-2xl bg-slate-50 dark:bg-slate-800/60 border border-slate-200/80 dark:border-slate-700/80 hover:border-blue-400 dark:hover:border-blue-500 hover:shadow-md transition-all group"
+                    >
+                      <div class="flex items-center gap-3 min-w-0">
+                        <img src={drop.logo} alt={drop.name} class="w-10 h-10 rounded-xl bg-white dark:bg-slate-700 p-1 object-cover shrink-0 border border-slate-200 dark:border-slate-600 shadow-2xs" />
+                        <div class="min-w-0">
+                          <h4 class="text-sm font-bold text-slate-900 dark:text-white truncate group-hover:text-blue-600 transition-colors">
+                            {drop.name}
+                          </h4>
+                          <span class="text-[11px] text-emerald-600 dark:text-emerald-400 font-semibold">{drop.reward}</span>
+                        </div>
+                      </div>
+                      <span class="text-xs text-slate-400 group-hover:text-blue-600 shrink-0 font-bold ml-2">&rarr;</span>
+                    </a>
+                  ))}
+                </div>
+              </div>
+
+            </div>
+          );
+        })}
+      </div>
+
+    </div>
+  </main>
+</Layout>
+
+<script is:inline>
+  const buttons = document.querySelectorAll('.vc-select-btn');
+  const blocks = document.querySelectorAll('.vc-fund-block');
+
+  buttons.forEach(btn => {
+    btn.addEventListener('click', () => {
+      buttons.forEach(b => {
+        b.classList.remove('active', 'bg-blue-600', 'text-white', 'shadow-md');
+        b.classList.add('bg-white', 'dark:bg-slate-900', 'text-slate-700', 'dark:text-slate-200');
+      });
+      btn.classList.add('active', 'bg-blue-600', 'text-white', 'shadow-md');
+      btn.classList.remove('bg-white', 'dark:bg-slate-900', 'text-slate-700', 'dark:text-slate-200');
+
+      const targetVc = btn.dataset.vc;
+      blocks.forEach(block => {
+        if (targetVc === 'all' || block.dataset.id === targetVc) {
+          block.style.display = 'block';
+        } else {
+          block.style.display = 'none';
+        }
+      });
+    });
+  });
+</script>

@@ -1,0 +1,552 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Header from '../components/Header.astro';
+import { airdrops } from '../data/airdrops';
+
+// High-priority protocol references
+const topAirdrops = airdrops.filter(a => a.tier === 'Tier 1').slice(0, 40).map(a => ({
+  id: a.id,
+  name: a.name,
+  category: a.category,
+  reward: a.reward,
+  logo: a.logo,
+  status: a.status
+}));
+---
+
+<Layout 
+  title="Airdrop Routine Planner & Strategy Generator | Airdroplyx" 
+  description="Generate a personalized, sybil-safe weekly airdrop farming schedule based on your capital and available time. Export directly to your calendar."
+>
+  <Header />
+
+  <main class="min-h-screen bg-slate-50 dark:bg-slate-950 text-slate-900 dark:text-slate-100 py-12 px-4 transition-colors duration-200">
+    <div class="max-w-[1200px] mx-auto">
+      
+      <!-- Breadcrumbs -->
+      <nav class="flex items-center gap-2 text-xs text-slate-500 dark:text-slate-400 mb-6 font-medium">
+        <a href="/" class="hover:text-blue-600 transition-colors">Home</a>
+        <span>/</span>
+        <span class="text-blue-600 dark:text-blue-400 font-semibold">Farming Planner</span>
+      </nav>
+
+      <!-- Hero Header -->
+      <div class="text-center max-w-3xl mx-auto mb-10">
+        <div class="inline-flex items-center gap-2 bg-emerald-100 dark:bg-emerald-950/40 text-emerald-800 dark:text-emerald-300 px-3.5 py-1.5 rounded-full text-xs font-bold tracking-wide uppercase mb-4 border border-emerald-200 dark:border-emerald-800/60 shadow-sm">
+          <span>📅</span>
+          <span>Farming Routine Architect</span>
+        </div>
+        <h1 class="text-3xl sm:text-5xl font-black tracking-tight text-slate-900 dark:text-white mb-4">
+          Airdrop Farming Routine Planner
+        </h1>
+        <p class="text-base sm:text-lg text-slate-600 dark:text-slate-300 leading-relaxed">
+          Stop wondering what to do each day. Input your budget and weekly hours to generate a customized, sybil-safe farming itinerary optimized for maximum retroactive ROI.
+        </p>
+      </div>
+
+      <!-- Main Config & Output Grid -->
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 mb-12">
+        
+        <!-- Left: Configuration Form (5 Cols) -->
+        <div class="lg:col-span-5 space-y-6">
+          <div class="bg-white dark:bg-slate-900 rounded-3xl p-6 sm:p-7 border border-slate-200 dark:border-slate-800 shadow-sm space-y-6">
+            <h2 class="text-base font-bold uppercase tracking-wider text-slate-400 border-b border-slate-100 dark:border-slate-800 pb-3">
+              ⚙️ Your Farming Parameters
+            </h2>
+
+            <!-- Capital Tier Selector -->
+            <div>
+              <label class="block text-xs font-bold uppercase tracking-wider text-slate-700 dark:text-slate-300 mb-2.5">
+                1. Available Capital Budget
+              </label>
+              <div class="grid grid-cols-2 gap-2.5">
+                <button type="button" class="capital-btn active p-3 rounded-2xl border-2 border-blue-600 bg-blue-50/50 dark:bg-blue-950/30 text-left transition-all" data-budget="zero">
+                  <span class="block text-base font-extrabold text-slate-900 dark:text-white">$0 (Free)</span>
+                  <span class="block text-[11px] text-slate-500 dark:text-slate-400 mt-0.5">Testnets & DePIN</span>
+                </button>
+                <button type="button" class="capital-btn p-3 rounded-2xl border-2 border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-900 text-left transition-all hover:border-blue-400" data-budget="micro">
+                  <span class="block text-base font-extrabold text-slate-900 dark:text-white">$20 - $100</span>
+                  <span class="block text-[11px] text-slate-500 dark:text-slate-400 mt-0.5">Micro L2s & Swaps</span>
+                </button>
+                <button type="button" class="capital-btn p-3 rounded-2xl border-2 border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-900 text-left transition-all hover:border-blue-400" data-budget="medium">
+                  <span class="block text-base font-extrabold text-slate-900 dark:text-white">$100 - $500</span>
+                  <span class="block text-[11px] text-slate-500 dark:text-slate-400 mt-0.5">DeFi & Bridges</span>
+                </button>
+                <button type="button" class="capital-btn p-3 rounded-2xl border-2 border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-900 text-left transition-all hover:border-blue-400" data-budget="whale">
+                  <span class="block text-base font-extrabold text-slate-900 dark:text-white">$1,000+ (Whale)</span>
+                  <span class="block text-[11px] text-slate-500 dark:text-slate-400 mt-0.5">Restaking & LP Vaults</span>
+                </button>
+              </div>
+            </div>
+
+            <!-- Time Availability Selector -->
+            <div>
+              <label class="block text-xs font-bold uppercase tracking-wider text-slate-700 dark:text-slate-300 mb-2.5">
+                2. Weekly Time Commitment
+              </label>
+              <div class="grid grid-cols-3 gap-2">
+                <button type="button" class="time-btn active p-2.5 rounded-xl border-2 border-blue-600 bg-blue-50/50 dark:bg-blue-950/30 text-center transition-all" data-hours="casual">
+                  <span class="block text-xs font-bold text-slate-900 dark:text-white">1 - 3 Hours</span>
+                  <span class="block text-[10px] text-slate-500 dark:text-slate-400">Casual</span>
+                </button>
+                <button type="button" class="time-btn p-2.5 rounded-xl border-2 border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-900 text-center transition-all hover:border-blue-400" data-hours="active">
+                  <span class="block text-xs font-bold text-slate-900 dark:text-white">4 - 8 Hours</span>
+                  <span class="block text-[10px] text-slate-500 dark:text-slate-400">Regular</span>
+                </button>
+                <button type="button" class="time-btn p-2.5 rounded-xl border-2 border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-900 text-center transition-all hover:border-blue-400" data-hours="hardcore">
+                  <span class="block text-xs font-bold text-slate-900 dark:text-white">10+ Hours</span>
+                  <span class="block text-[10px] text-slate-500 dark:text-slate-400">Grinder</span>
+                </button>
+              </div>
+            </div>
+
+            <!-- Target Ecosystem Focus -->
+            <div>
+              <label class="block text-xs font-bold uppercase tracking-wider text-slate-700 dark:text-slate-300 mb-2.5">
+                3. Ecosystem Focus
+              </label>
+              <div class="flex flex-wrap gap-1.5" id="ecosystem-tags">
+                <button type="button" class="eco-pill active px-3 py-1.5 rounded-xl text-xs font-bold bg-blue-600 text-white transition-all shadow-sm" data-eco="all">All Ecosystems</button>
+                <button type="button" class="eco-pill px-3 py-1.5 rounded-xl text-xs font-bold bg-slate-100 dark:bg-slate-800 text-slate-600 dark:text-slate-300 hover:bg-slate-200 transition-all" data-eco="evm">Parallel EVM & L2s</button>
+                <button type="button" class="eco-pill px-3 py-1.5 rounded-xl text-xs font-bold bg-slate-100 dark:bg-slate-800 text-slate-600 dark:text-slate-300 hover:bg-slate-200 transition-all" data-eco="btc">Bitcoin L2s & Runes</button>
+                <button type="button" class="eco-pill px-3 py-1.5 rounded-xl text-xs font-bold bg-slate-100 dark:bg-slate-800 text-slate-600 dark:text-slate-300 hover:bg-slate-200 transition-all" data-eco="depin">DePIN & AI</button>
+              </div>
+            </div>
+
+            <!-- Generate Button -->
+            <button id="generate-schedule-btn" class="w-full bg-blue-600 hover:bg-blue-700 text-white font-extrabold py-3.5 px-6 rounded-2xl shadow-xl shadow-blue-500/25 transition-all text-sm flex items-center justify-center gap-2">
+              <span>✨</span>
+              <span>Generate Weekly Farming Itinerary</span>
+            </button>
+          </div>
+
+          <!-- Anti-Sybil Timing Guidelines Box -->
+          <div class="bg-gradient-to-br from-amber-50 to-orange-50 dark:from-slate-900 dark:to-slate-850 p-6 rounded-3xl border border-amber-200/80 dark:border-amber-900/40 text-xs shadow-sm">
+            <h4 class="font-bold text-amber-900 dark:text-amber-400 mb-2 flex items-center gap-1.5 text-sm">
+              <span>🛡️</span>
+              <span>Planner Anti-Sybil Rule</span>
+            </h4>
+            <p class="text-amber-950 dark:text-slate-300 leading-relaxed mb-3">
+              Never execute identical tasks across multiple wallets on the same calendar day. Spread your wallets across the week to maximize distinct active days/weeks while keeping execution intervals unpredictable.
+            </p>
+            <a href="/sybil-checker" class="text-amber-700 dark:text-amber-400 font-bold hover:underline flex items-center gap-1">
+              <span>Check your wallet risk score</span>
+              <span>&rarr;</span>
+            </a>
+          </div>
+        </div>
+
+        <!-- Right: Generated Weekly Itinerary (7 Cols) -->
+        <div class="lg:col-span-7 space-y-6">
+          <div class="bg-white dark:bg-slate-900 rounded-3xl p-6 sm:p-8 border border-slate-200 dark:border-slate-800 shadow-sm">
+            
+            <!-- Itinerary Header -->
+            <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-4 pb-6 border-b border-slate-100 dark:border-slate-800 mb-6">
+              <div>
+                <span class="text-xs font-bold uppercase tracking-wider text-slate-400">Weekly Itinerary</span>
+                <h3 class="text-xl font-black text-slate-900 dark:text-white" id="itinerary-title">
+                  Zero Capital & Testnet Protocol Routine
+                </h3>
+              </div>
+
+              <!-- Export Calendar Button -->
+              <div class="flex items-center gap-2">
+                <button id="export-ical-btn" class="px-3.5 py-2 rounded-xl text-xs font-bold bg-slate-100 hover:bg-slate-200 dark:bg-slate-800 dark:hover:bg-slate-700 text-slate-700 dark:text-slate-200 border border-slate-200 dark:border-slate-700 transition-all flex items-center gap-1.5 shadow-sm">
+                  <svg class="w-3.5 h-3.5 text-slate-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"></path></svg>
+                  <span>Export to iCal / Calendar</span>
+                </button>
+              </div>
+            </div>
+
+            <!-- Estimated Itinerary Overview Stats -->
+            <div class="grid grid-cols-3 gap-3 p-4 rounded-2xl bg-slate-50 dark:bg-slate-800/60 border border-slate-100 dark:border-slate-700/60 mb-6 text-center">
+              <div>
+                <span class="text-[11px] font-semibold text-slate-400 block uppercase">Est. Weekly Gas</span>
+                <span class="text-base font-extrabold text-slate-900 dark:text-white" id="stat-est-gas">$0.00</span>
+              </div>
+              <div>
+                <span class="text-[11px] font-semibold text-slate-400 block uppercase">Weekly Protocols</span>
+                <span class="text-base font-extrabold text-blue-600 dark:text-blue-400" id="stat-est-protocols">7 Targets</span>
+              </div>
+              <div>
+                <span class="text-[11px] font-semibold text-slate-400 block uppercase">Qualifying Potential</span>
+                <span class="text-base font-extrabold text-emerald-600 dark:text-emerald-400" id="stat-est-potential">Tier 1 Drops</span>
+              </div>
+            </div>
+
+            <!-- Day-by-Day Task Schedule Container -->
+            <div class="space-y-4" id="days-container">
+              <!-- Dynamically populated via script -->
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </main>
+</Layout>
+
+<script is:inline>
+  // Schedule Templates Based on Configuration
+  const SCHEDULE_DB = {
+    zero: {
+      title: "Zero Capital ($0) Testnet & Bandwidth Mining Routine",
+      gas: "$0.00 (100% Free)",
+      protocols: "8 Protocols",
+      potential: "$1,000 - $4,000+",
+      days: [
+        {
+          day: "Monday",
+          protocol: "Monad Parallel EVM Testnet",
+          task: "Request testnet MON from official faucet, perform 2 swaps on Monad DEXs, and mint community testnet NFT.",
+          time: "15 mins",
+          cost: "Free (Faucet)",
+          guide: "/airdrop/monad"
+        },
+        {
+          day: "Tuesday",
+          protocol: "Berachain bArtio Testnet",
+          task: "Claim BERA faucet, swap BERA for HONEY on BEX, and provide liquidity in the HONEY-WBERA pool.",
+          time: "20 mins",
+          cost: "Free (Faucet)",
+          guide: "/airdrop/berachain"
+        },
+        {
+          day: "Wednesday",
+          protocol: "Grass & Dawn Network (DePIN)",
+          task: "Check background bandwidth node connectivity, verify dashboard uptime points, and complete daily epoch check-in.",
+          time: "5 mins",
+          cost: "Free",
+          guide: "/airdrop/grass"
+        },
+        {
+          day: "Thursday",
+          protocol: "Story Protocol Testnet",
+          task: "Register mock IP asset on Story Iliad testnet, attach programmable licensing terms, and mint derivative license.",
+          time: "15 mins",
+          cost: "Free (Faucet)",
+          guide: "/airdrop/story-protocol"
+        },
+        {
+          day: "Friday",
+          protocol: "Abstract Consumer L2 & Particle Network",
+          task: "Log in with Abstract Global Wallet, test universal account abstraction transfers, and claim daily Universal Gas tokens.",
+          time: "10 mins",
+          cost: "Free",
+          guide: "/airdrop/abstract"
+        },
+        {
+          day: "Saturday",
+          protocol: "Noma & Farcaster Social Protocols",
+          task: "Post daily Web3 cast on Warpcast, verify human verification badges, and collect free Base creator casts.",
+          time: "15 mins",
+          cost: "Free",
+          guide: "/airdrop/farcaster"
+        },
+        {
+          day: "Sunday",
+          protocol: "Weekly Sybil & Checklist Review",
+          task: "Verify that all faucet tokens were consumed naturally, check Discord roles, and back up task states on Watchlist.",
+          time: "15 mins",
+          cost: "Free",
+          guide: "/watchlist"
+        }
+      ]
+    },
+    micro: {
+      title: "Micro Capital ($20 - $100) Multi-L2 Volume Routine",
+      gas: "~$0.30 - $0.80 / week",
+      protocols: "7 Protocols",
+      potential: "$1,500 - $6,000+",
+      days: [
+        {
+          day: "Monday",
+          protocol: "Base L2 Organic Activity",
+          task: "Execute $10 swap on Aerodrome, bridge a small fraction via Across Protocol to generate cross-chain intent volume.",
+          time: "10 mins",
+          cost: "< $0.05",
+          guide: "/airdrop/aerodrome-finance"
+        },
+        {
+          day: "Tuesday",
+          protocol: "Linea zkEVM LXP Voyage",
+          task: "Supply $20 USDC on ZeroLend or Nile, borrow $5 against collateral, and hold position to accumulate LXP.",
+          time: "15 mins",
+          cost: "~$0.12",
+          guide: "/airdrop/linea"
+        },
+        {
+          day: "Wednesday",
+          protocol: "Jumper Exchange & Li.Fi",
+          task: "Perform 1 cross-chain route between Arbitrum and Base, maximizing routing diversity with minimal slippage.",
+          time: "10 mins",
+          cost: "~$0.15",
+          guide: "/airdrop/jumper-exchange"
+        },
+        {
+          day: "Thursday",
+          protocol: "Scroll zkEVM Marks",
+          task: "Swap $15 on Ambient DEX, hold native ETH balance above 0.005 ETH to maintain sybil safety threshold.",
+          time: "10 mins",
+          cost: "~$0.10",
+          guide: "/airdrop/scroll"
+        },
+        {
+          day: "Friday",
+          protocol: "Hyperliquid Spot DEX",
+          task: "Place 1 limit buy order on Hyperliquid spot market (e.g. PURR or HYPE pair) to register organic volume.",
+          time: "10 mins",
+          cost: "< $0.02",
+          guide: "/airdrop/hyperliquid"
+        },
+        {
+          day: "Saturday",
+          protocol: "Optimism Superchain Quest",
+          task: "Interact with an emerging OP Stack chain (e.g. Zora or Mode Network) to register Superchain footprint.",
+          time: "15 mins",
+          cost: "~$0.08",
+          guide: "/airdrop/mode-network"
+        },
+        {
+          day: "Sunday",
+          protocol: "Weekly Gas Dust Rebalance",
+          task: "Keep at least $15 in native ETH across your active chains so your wallets are never caught in zero-balance sweeps.",
+          time: "10 mins",
+          cost: "Free",
+          guide: "/gas-tracker"
+        }
+      ]
+    },
+    medium: {
+      title: "Medium Capital ($100 - $500) Liquidity & Perps Routine",
+      gas: "~$1.20 - $2.50 / week",
+      protocols: "9 Protocols",
+      potential: "$3,000 - $12,000+",
+      days: [
+        {
+          day: "Monday",
+          protocol: "Hyperliquid Perpetual Volume",
+          task: "Trade $500-$1000 notional perpetual volume with 2x-5x leverage on BTC/ETH with immediate limit close.",
+          time: "15 mins",
+          cost: "~$0.20 fees",
+          guide: "/airdrop/hyperliquid"
+        },
+        {
+          day: "Tuesday",
+          protocol: "Symbiotic / Karak Restaking",
+          task: "Deposit 0.05-0.1 wstETH or weETH into Symbiotic or Karak risk vaults to accumulate dual point multipliers.",
+          time: "15 mins",
+          cost: "~$0.80 gas",
+          guide: "/airdrop/symbiotic"
+        },
+        {
+          day: "Wednesday",
+          protocol: "Merlin Chain / B² Network (Bitcoin L2)",
+          task: "Bridge BTC or M-BTC to Merlin Chain, stake into SolvBTC vault or supply liquidity on MerlinSwap.",
+          time: "15 mins",
+          cost: "~$0.50 gas",
+          guide: "/airdrop/merlin-chain"
+        },
+        {
+          day: "Thursday",
+          protocol: "deBridge & DLN Intent Cross-Chain",
+          task: "Bridge $50 using deBridge zero-slippage engine to climb the deBridge Season 2 point leaderboard.",
+          time: "10 mins",
+          cost: "~$0.25",
+          guide: "/airdrop/debridge"
+        },
+        {
+          day: "Friday",
+          protocol: "EigenLayer Operator Delegation",
+          task: "Check AVS active delegations, verify restaked rewards, and register for newly launched AVS protocols.",
+          time: "10 mins",
+          cost: "Free",
+          guide: "/airdrop/eigenlayer"
+        },
+        {
+          day: "Saturday",
+          protocol: "Jupiter & Solana Ecosystem Rotation",
+          task: "Execute limit order swap on Jupiter, stake 1 SOL on Marinade or Jito to maintain active Solana footprints.",
+          time: "15 mins",
+          cost: "< $0.01",
+          guide: "/airdrop/jupiter-exchange"
+        },
+        {
+          day: "Sunday",
+          protocol: "Audit & Sybil Check",
+          task: "Run the Airdroplyx Sybil Checker to confirm your temporal dispersion and balance retention remain optimal.",
+          time: "10 mins",
+          cost: "Free",
+          guide: "/sybil-checker"
+        }
+      ]
+    },
+    whale: {
+      title: "Whale Capital ($1,000+) Institutional Vaults Routine",
+      gas: "~$5.00 - $15.00 / week",
+      protocols: "10+ Protocols",
+      potential: "$10,000 - $50,000+",
+      days: [
+        {
+          day: "Monday",
+          protocol: "Hyperliquid HLP Liquidity Vault",
+          task: "Allocate capital into HLP liquidity provider vault, harvesting platform market-making revenue and daily points.",
+          time: "10 mins",
+          cost: "Zero gas",
+          guide: "/airdrop/hyperliquid"
+        },
+        {
+          day: "Tuesday",
+          protocol: "Liquity V2 BOLD Stablecoin",
+          task: "Open an isolated Trove with user-set interest rate, borrow BOLD, and deposit into the BOLD Stability Pool.",
+          time: "20 mins",
+          cost: "~$2.50 gas",
+          guide: "/airdrop/liquity-v2"
+        },
+        {
+          day: "Wednesday",
+          protocol: "Symbiotic Institutional Restaking",
+          task: "Supply multi-asset collateral (cbBTC, wstETH) into Mellow Finance vaults curated by top risk management teams.",
+          time: "15 mins",
+          cost: "~$2.00 gas",
+          guide: "/airdrop/symbiotic"
+        },
+        {
+          day: "Thursday",
+          protocol: "Ethena USDe & sUSDe Yield Vault",
+          task: "Lock USDe into liquidity pools (Curve / Pendle) to farm Sats multipliers and delta-neutral funding rates.",
+          time: "15 mins",
+          cost: "~$1.50 gas",
+          guide: "/airdrop/ethena"
+        },
+        {
+          day: "Friday",
+          protocol: "Drift Protocol & Kamino Finance (Solana)",
+          task: "Provide delta-neutral liquidity into Kamino Multiply and trade perpetuals on Drift to farm season points.",
+          time: "15 mins",
+          cost: "< $0.05",
+          guide: "/airdrop/drift-protocol"
+        },
+        {
+          day: "Saturday",
+          protocol: "MakerDAO / Sky USDS Rebalancing",
+          task: "Supply sUSDS into Spark Protocol lending markets to capture algorithmic interest and Sky stars.",
+          time: "15 mins",
+          cost: "~$2.50 gas",
+          guide: "/airdrop/makerdao-sky"
+        },
+        {
+          day: "Sunday",
+          protocol: "Cluster Isolation Verification",
+          task: "Ensure that withdrawal addresses for all profits remain strictly partitioned to unique CEX sub-accounts.",
+          time: "15 mins",
+          cost: "Free",
+          guide: "/sybil-checker"
+        }
+      ]
+    }
+  };
+
+  let currentBudget = 'zero';
+
+  function renderSchedule() {
+    const config = SCHEDULE_DB[currentBudget] || SCHEDULE_DB.zero;
+    const daysContainer = document.getElementById('days-container');
+    const titleEl = document.getElementById('itinerary-title');
+    const statGas = document.getElementById('stat-est-gas');
+    const statProtocols = document.getElementById('stat-est-protocols');
+    const statPotential = document.getElementById('stat-est-potential');
+
+    if (titleEl) titleEl.textContent = config.title;
+    if (statGas) statGas.textContent = config.gas;
+    if (statProtocols) statProtocols.textContent = config.protocols;
+    if (statPotential) statPotential.textContent = config.potential;
+
+    if (!daysContainer) return;
+
+    daysContainer.innerHTML = config.days.map((item, idx) => `
+      <div class="p-5 rounded-2xl border border-slate-100 dark:border-slate-800 bg-slate-50/50 dark:bg-slate-800/40 hover:bg-slate-100/60 dark:hover:bg-slate-800/70 transition-all flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4">
+        <div class="space-y-1 flex-1">
+          <div class="flex items-center gap-2">
+            <span class="px-2.5 py-0.5 rounded-md text-[10px] font-extrabold uppercase bg-blue-100 text-blue-800 dark:bg-blue-900/60 dark:text-blue-300">
+              ${item.day}
+            </span>
+            <h4 class="text-sm font-bold text-slate-900 dark:text-white">
+              ${item.protocol}
+            </h4>
+          </div>
+          <p class="text-xs text-slate-600 dark:text-slate-300 leading-relaxed font-medium">
+            ${item.task}
+          </p>
+          <div class="flex items-center gap-3 text-[11px] text-slate-400 font-semibold pt-1">
+            <span>⏱️ ${item.time}</span>
+            <span>•</span>
+            <span class="text-emerald-600 dark:text-emerald-400">⛽ ${item.cost}</span>
+          </div>
+        </div>
+
+        <a href="${item.guide}" class="shrink-0 px-4 py-2 rounded-xl text-xs font-bold bg-white dark:bg-slate-800 hover:bg-blue-50 dark:hover:bg-blue-950/50 text-blue-600 dark:text-blue-400 border border-slate-200 dark:border-slate-700 transition-colors shadow-2xs">
+          Guide &rarr;
+        </a>
+      </div>
+    `).join('');
+  }
+
+  // Capital Budget Buttons
+  document.querySelectorAll('.capital-btn').forEach(btn => {
+    btn.addEventListener('click', () => {
+      document.querySelectorAll('.capital-btn').forEach(b => {
+        b.classList.remove('active', 'border-blue-600', 'bg-blue-50/50', 'dark:bg-blue-950/30');
+        b.classList.add('border-slate-200', 'dark:border-slate-800', 'bg-white', 'dark:bg-slate-900');
+      });
+      btn.classList.add('active', 'border-blue-600', 'bg-blue-50/50', 'dark:bg-blue-950/30');
+      btn.classList.remove('border-slate-200', 'dark:border-slate-800', 'bg-white', 'dark:bg-slate-900');
+      currentBudget = btn.dataset.budget;
+      renderSchedule();
+    });
+  });
+
+  // Time Buttons
+  document.querySelectorAll('.time-btn').forEach(btn => {
+    btn.addEventListener('click', () => {
+      document.querySelectorAll('.time-btn').forEach(b => {
+        b.classList.remove('active', 'border-blue-600', 'bg-blue-50/50', 'dark:bg-blue-950/30');
+        b.classList.add('border-slate-200', 'dark:border-slate-800', 'bg-white', 'dark:bg-slate-900');
+      });
+      btn.classList.add('active', 'border-blue-600', 'bg-blue-50/50', 'dark:bg-blue-950/30');
+      btn.classList.remove('border-slate-200', 'dark:border-slate-800', 'bg-white', 'dark:bg-slate-900');
+    });
+  });
+
+  // Export iCal (.ics) Handler
+  document.getElementById('export-ical-btn')?.addEventListener('click', () => {
+    const config = SCHEDULE_DB[currentBudget] || SCHEDULE_DB.zero;
+    let icsContent = "BEGIN:VCALENDAR\nVERSION:2.0\nPRODID:-//Airdroplyx//Farming Planner//EN\nCALSCALE:GREGORIAN\n";
+    
+    config.days.forEach((item, idx) => {
+      icsContent += "BEGIN:VEVENT\n";
+      icsContent += `SUMMARY:Airdroplyx: ${item.protocol} (${item.day})\n`;
+      icsContent += `DESCRIPTION:${item.task} - Guide: https://airdroplyx.com${item.guide}\n`;
+      icsContent += `STATUS:CONFIRMED\n`;
+      icsContent += `TRANSP:TRANSPARENT\n`;
+      icsContent += "END:VEVENT\n";
+    });
+
+    icsContent += "END:VCALENDAR";
+
+    const blob = new Blob([icsContent], { type: 'text/calendar;charset=utf-8' });
+    const url = URL.createObjectURL(blob);
+    const link = document.createElement('a');
+    link.href = url;
+    link.setAttribute('download', `airdroplyx_farming_schedule_${currentBudget}.ics`);
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+    URL.revokeObjectURL(url);
+  });
+
+  document.getElementById('generate-schedule-btn')?.addEventListener('click', renderSchedule);
+  document.addEventListener('DOMContentLoaded', renderSchedule);
+</script>

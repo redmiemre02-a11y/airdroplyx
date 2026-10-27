@@ -1,0 +1,334 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import Header from '../../components/Header.astro';
+
+const questions = [
+  {
+    id: 1,
+    question: "What is the single most common reason wallets are blacklisted as Sybils during airdrop snapshots?",
+    options: [
+      "Using MetaMask instead of a hardware wallet",
+      "Direct cross-wallet funding links or withdrawing from the same CEX deposit address",
+      "Trading on Uniswap at night",
+      "Using too many different decentralized bridges"
+    ],
+    correctIndex: 1,
+    explanation: "On-chain graph analysis easily clusters wallets that share the same parent funding address or transfer tokens between each other."
+  },
+  {
+    id: 2,
+    question: "What does an unannounced 'Snapshot' mean in retroactive farming?",
+    options: [
+      "A screenshot taken of your Discord profile",
+      "A permanent ledger record taken at a past block height, after which new transactions no longer count",
+      "When a project takes a photo of its core team",
+      "When token prices freeze on centralized exchanges"
+    ],
+    correctIndex: 1,
+    explanation: "Snapshots freeze the ledger state at a specific block height. Any farming done after the snapshot block does not qualify."
+  },
+  {
+    id: 3,
+    question: "Why do protocols historically award 10x - 50x larger token allocations to Mainnet users over Testnet users?",
+    options: [
+      "Testnet tokens are more expensive to produce",
+      "Mainnet users commit real economic capital, generate TVL, and pay real network gas",
+      "Mainnet validators refuse to validate testnet transactions",
+      "Testnet airdrops are legally prohibited worldwide"
+    ],
+    correctIndex: 1,
+    explanation: "Mainnet users demonstrate genuine economic skin-in-the-game, whereas testnet faucets can be scripted for near-zero cost."
+  },
+  {
+    id: 4,
+    question: "What is Fully Diluted Valuation (FDV) and why is high FDV with low initial float risky?",
+    options: [
+      "It represents protocol gas savings; higher is always better",
+      "Total theoretical market cap if 100% of tokens were unlocked; causes severe sell-pressure during VC cliff unlocks",
+      "The price of Bitcoin on decentralized exchanges",
+      "The amount of USDC held in the treasury"
+    ],
+    correctIndex: 1,
+    explanation: "Tokens launching with only 5-10% circulating supply at multi-billion FDVs inevitably face heavy dilution as insider cliffs unlock."
+  },
+  {
+    id: 5,
+    question: "In ERC-4337 Account Abstraction, what is the primary role of a 'Paymaster' contract?",
+    options: [
+      "To pay wages to validators",
+      "To enable gasless transactions or sponsor gas payment using ERC-20 tokens like USDC",
+      "To execute MEV sandwich attacks on decentralized exchanges",
+      "To burn excess governance tokens"
+    ],
+    correctIndex: 1,
+    explanation: "Paymasters allow dApps to sponsor gas for users or let users pay transaction fees in stablecoins without holding native ETH."
+  },
+  {
+    id: 6,
+    question: "Why is immediately draining your wallet balance to zero ($0.00) after completing farming tasks a major red flag?",
+    options: [
+      "Miners refuse to confirm transactions from low-balance accounts",
+      "Anti-sybil algorithms (like Arbitrum/Optimism) filter out 'hit-and-run' transient wallets with zero retained dust",
+      "Smart contracts delete your address from their database if balance is zero",
+      "It triggers a forced liquidation on all lending protocols"
+    ],
+    correctIndex: 1,
+    explanation: "Filtering out accounts that sweep funds to zero immediately after farming eliminates mercenary capital clusters."
+  },
+  {
+    id: 7,
+    question: "In zero-knowledge rollups (like Starknet, Scroll, Linea), what is submitted to Ethereum Layer 1 for settlement?",
+    options: [
+      "Every individual transaction signature in plaintext",
+      "A succinct mathematical validity proof verifying that all state transitions in the batch are correct",
+      "A vote from centralized exchange CEOs",
+      "A multisig transaction signed by all users"
+    ],
+    correctIndex: 1,
+    explanation: "Validity proofs (zk-SNARKs / zk-STARKs) verify off-chain batch state changes on Ethereum L1 without needing fraud challenge windows."
+  },
+  {
+    id: 8,
+    question: "How do cryptographic identity stamps (Gitcoin Passport > 20, World ID, Linea PoH) benefit your wallet?",
+    options: [
+      "They allow you to trade crypto tax-free",
+      "They provide mathematical Proof-of-Humanity, protecting you from automated bot blacklists and boosting tier allocations",
+      "They grant automatic admin access to protocol Discord servers",
+      "They eliminate the need to pay gas on any chain"
+    ],
+    correctIndex: 1,
+    explanation: "Proof-of-Humanity credentials serve as a massive trust multiplier, shielding organic farmers from sybil false positives."
+  },
+  {
+    id: 9,
+    question: "What is the strategic purpose of spreading your farming activity across multiple distinct weeks and months?",
+    options: [
+      "To wait for gas fees to reach all-time highs",
+      "To satisfy temporal longevity criteria, proving your wallet represents a consistent long-term user rather than a temporary bot",
+      "Because smart contracts can only be called once per month",
+      "To avoid paying trading fees on decentralized exchanges"
+    ],
+    correctIndex: 1,
+    explanation: "Protocols explicitly design criteria around 'active weeks' and 'active months' (e.g. Arbitrum, Celestia) to reward enduring protocol engagement."
+  },
+  {
+    id: 10,
+    question: "In the Extended UTXO (EUTXO) model utilized by Cardano and Ergo, what is a primary advantage over account-based EVMs?",
+    options: [
+      "It executes transactions slower than Bitcoin",
+      "Transactions evaluate deterministically off-chain with 100% predictable gas costs and zero MEV frontrunning",
+      "It requires a centralized sequencer to order transactions",
+      "It requires users to share private keys with node operators"
+    ],
+    correctIndex: 1,
+    explanation: "EUTXO transactions evaluate deterministically before submission, guaranteeing execution success and complete immunity to mempool frontrunning."
+  }
+];
+---
+
+<Layout 
+  title="Web3 Airdrop Mastery Quiz & Certification | Airdroplyx Academy" 
+  description="Test your knowledge on airdrop farming strategies, anti-sybil clustering rules, tokenomics, and zero-knowledge rollups to earn your Airdroplyx Certified Hunter badge."
+>
+  <Header />
+
+  <main class="min-h-screen bg-slate-50 dark:bg-slate-950 text-slate-900 dark:text-slate-100 py-12 px-4 transition-colors duration-200">
+    <div class="max-w-[840px] mx-auto">
+      
+      <!-- Breadcrumbs -->
+      <nav class="flex items-center gap-2 text-xs text-slate-500 dark:text-slate-400 mb-6 font-medium">
+        <a href="/" class="hover:text-blue-600 transition-colors">Home</a>
+        <span>/</span>
+        <a href="/academy" class="hover:text-blue-600 transition-colors">Academy</a>
+        <span>/</span>
+        <span class="text-blue-600 dark:text-blue-400 font-semibold">Mastery Quiz</span>
+      </nav>
+
+      <!-- Hero Header -->
+      <div class="text-center mb-10">
+        <div class="inline-flex items-center gap-2 bg-indigo-100 dark:bg-indigo-950/40 text-indigo-700 dark:text-indigo-300 px-3.5 py-1.5 rounded-full text-xs font-bold tracking-wide uppercase mb-4 border border-indigo-200 dark:border-indigo-800/60 shadow-sm">
+          <span>🎓</span>
+          <span>Official Knowledge Assessment</span>
+        </div>
+        <h1 class="text-3xl sm:text-4xl font-black tracking-tight text-slate-900 dark:text-white mb-3">
+          Airdrop Hunter Certification Quiz
+        </h1>
+        <p class="text-sm sm:text-base text-slate-600 dark:text-slate-300 leading-relaxed max-w-xl mx-auto">
+          Test your mastery of retroactive qualification heuristics, anti-sybil defense, and tokenomics. Score 8/10 or higher to earn your certified digital credential.
+        </p>
+      </div>
+
+      <!-- Quiz Form Container -->
+      <div id="quiz-container" class="space-y-8">
+        {questions.map((q, idx) => (
+          <div class="quiz-question-card bg-white dark:bg-slate-900 rounded-3xl p-6 sm:p-8 border border-slate-200 dark:border-slate-800 shadow-sm" data-question-id={q.id}>
+            <div class="flex items-center justify-between gap-4 mb-4 pb-3 border-b border-slate-100 dark:border-slate-800">
+              <span class="text-xs font-black uppercase tracking-wider text-blue-600 dark:text-blue-400">Question {idx + 1} of {questions.length}</span>
+              <span class="text-xs font-semibold text-slate-400">10 Points</span>
+            </div>
+
+            <h3 class="text-base sm:text-lg font-bold text-slate-900 dark:text-white mb-5 leading-snug">
+              {q.question}
+            </h3>
+
+            <div class="space-y-2.5">
+              {q.options.map((opt, optIdx) => (
+                <label class="option-label flex items-start gap-3.5 p-3.5 rounded-2xl border border-slate-200 dark:border-slate-700/80 hover:bg-slate-50 dark:hover:bg-slate-800/60 cursor-pointer transition-all text-xs sm:text-sm">
+                  <input 
+                    type="radio" 
+                    name={`q_${q.id}`} 
+                    value={optIdx} 
+                    class="mt-0.5 text-blue-600 focus:ring-blue-500" 
+                  />
+                  <span class="text-slate-700 dark:text-slate-200 font-medium leading-relaxed">{opt}</span>
+                </label>
+              ))}
+            </div>
+
+            <div class="explanation-box hidden mt-4 p-4 rounded-2xl text-xs leading-relaxed">
+              <!-- Dynamically populated on submission -->
+            </div>
+          </div>
+        ))}
+
+        <!-- Submit Button -->
+        <button 
+          id="submit-quiz-btn"
+          class="w-full bg-blue-600 hover:bg-blue-700 text-white font-extrabold py-4 px-8 rounded-2xl shadow-xl shadow-blue-500/25 transition-all text-base flex items-center justify-center gap-2 cursor-pointer"
+        >
+          <span>🏆 Submit Answers & Calculate Score</span>
+        </button>
+      </div>
+
+      <!-- Results Card (Hidden by Default) -->
+      <div id="quiz-results" class="hidden bg-white dark:bg-slate-900 rounded-3xl p-8 sm:p-10 border border-slate-200 dark:border-slate-800 shadow-2xl text-center my-8">
+        
+        <!-- Animated Badge -->
+        <div class="w-24 h-24 rounded-3xl bg-gradient-to-tr from-blue-600 to-indigo-600 text-white text-5xl flex items-center justify-center mx-auto mb-6 shadow-xl shadow-blue-500/30 border border-blue-400/40" id="result-icon">
+          🏆
+        </div>
+
+        <span class="text-xs font-black uppercase tracking-widest text-blue-600 dark:text-blue-400 block mb-1" id="result-rank-title">
+          Rank: Tier-1 Alpha Hunter
+        </span>
+        <h2 class="text-3xl sm:text-4xl font-black text-slate-900 dark:text-white mb-2">
+          Assessment Completed!
+        </h2>
+        
+        <div class="text-5xl font-black text-slate-900 dark:text-white my-4" id="score-display">
+          90 / 100
+        </div>
+
+        <p class="text-sm text-slate-600 dark:text-slate-300 max-w-md mx-auto leading-relaxed mb-8" id="result-desc">
+          Outstanding performance! Your technical comprehension of anti-sybil clustering, tokenomics, and retroactive snapshot mechanics places you in the top 5% of Web3 farmers.
+        </p>
+
+        <!-- Share Actions -->
+        <div class="flex flex-col sm:flex-row items-center justify-center gap-3">
+          <a 
+            id="share-twitter-btn"
+            href="https://twitter.com/intent/tweet"
+            target="_blank" 
+            rel="noopener noreferrer" 
+            class="w-full sm:w-auto bg-black dark:bg-white dark:text-slate-900 text-white font-bold py-3 px-6 rounded-xl text-xs flex items-center justify-center gap-2 transition-all shadow-md"
+          >
+            <svg class="w-4 h-4 fill-current" viewBox="0 0 24 24"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"></path></svg>
+            <span>Share Certificate on X (Twitter)</span>
+          </a>
+          <button 
+            id="retake-quiz-btn"
+            class="w-full sm:w-auto bg-slate-100 hover:bg-slate-200 dark:bg-slate-800 dark:hover:bg-slate-700 text-slate-700 dark:text-slate-200 font-bold py-3 px-6 rounded-xl text-xs transition-colors border border-slate-200 dark:border-slate-700"
+          >
+            Retake Quiz
+          </button>
+        </div>
+
+      </div>
+
+    </div>
+  </main>
+</Layout>
+
+<script is:inline define:vars={{ questionsData: questions }}>
+  const submitBtn = document.getElementById('submit-quiz-btn');
+  const resultsCard = document.getElementById('quiz-results');
+  const retakeBtn = document.getElementById('retake-quiz-btn');
+
+  submitBtn?.addEventListener('click', () => {
+    let score = 0;
+    let answeredCount = 0;
+
+    questionsData.forEach(q => {
+      const selected = document.querySelector(`input[name="q_${q.id}"]:checked`);
+      const card = document.querySelector(`.quiz-question-card[data-question-id="${q.id}"]`);
+      const expBox = card?.querySelector('.explanation-box');
+
+      if (selected) {
+        answeredCount++;
+        const val = parseInt(selected.value, 10);
+        if (val === q.correctIndex) {
+          score += 10;
+          if (expBox) {
+            expBox.className = 'explanation-box mt-4 p-4 rounded-2xl text-xs leading-relaxed bg-emerald-50 dark:bg-emerald-950/40 text-emerald-900 dark:text-emerald-300 border border-emerald-200 dark:border-emerald-800/50 block';
+            expBox.innerHTML = `<strong>Correct! ✓</strong> ${q.explanation}`;
+          }
+        } else {
+          if (expBox) {
+            expBox.className = 'explanation-box mt-4 p-4 rounded-2xl text-xs leading-relaxed bg-rose-50 dark:bg-rose-950/40 text-rose-900 dark:text-rose-300 border border-rose-200 dark:border-rose-800/50 block';
+            expBox.innerHTML = `<strong>Incorrect.</strong> The correct answer is: <em>${q.options[q.correctIndex]}</em>.<br><span class="mt-1 block">${q.explanation}</span>`;
+          }
+        }
+      }
+    });
+
+    if (answeredCount < questionsData.length) {
+      if (!confirm(`You have only answered ${answeredCount} of ${questionsData.length} questions. Submit anyway?`)) {
+        return;
+      }
+    }
+
+    // Scroll to results
+    if (resultsCard) {
+      resultsCard.classList.remove('hidden');
+      const scoreDisplay = document.getElementById('score-display');
+      const rankTitle = document.getElementById('result-rank-title');
+      const resultDesc = document.getElementById('result-desc');
+      const resultIcon = document.getElementById('result-icon');
+      const twitterShare = document.getElementById('share-twitter-btn');
+
+      if (scoreDisplay) scoreDisplay.textContent = `${score} / 100`;
+
+      let rank = 'Master Airdrop Hunter (Tier 1)';
+      let icon = '🏆';
+      let desc = 'Outstanding performance! You possess master-level command of anti-sybil clustering, tokenomics, and snapshot mechanics.';
+      
+      if (score < 50) {
+        rank = 'Novice Hunter (Sybil Vulnerable)';
+        icon = '⚠️';
+        desc = 'Caution: Multiple core concepts were missed. Study our 80 Academy Masterclasses to avoid costly blacklisting.';
+      } else if (score < 80) {
+        rank = 'Apprentice Farmer (Solid Fundamentals)';
+        icon = '🎖️';
+        desc = 'Good job! You have solid foundational knowledge, but review our advanced tokenomics and EUTXO guides for full qualification.';
+      }
+
+      if (rankTitle) rankTitle.textContent = `Rank: ${rank}`;
+      if (resultIcon) resultIcon.textContent = icon;
+      if (resultDesc) resultDesc.textContent = desc;
+
+      if (twitterShare) {
+        const tweetText = encodeURIComponent(`I scored ${score}/100 on the @Airdroplyx Web3 Airdrop Mastery Quiz and earned the rank of ${rank}! 🎯🛡️\n\nTest your farming knowledge: https://airdroplyx.com/academy/quiz`);
+        twitterShare.setAttribute('href', `https://twitter.com/intent/tweet?text=${tweetText}`);
+      }
+
+      resultsCard.scrollIntoView({ behavior: 'smooth' });
+    }
+  });
+
+  retakeBtn?.addEventListener('click', () => {
+    document.querySelectorAll('input[type="radio"]').forEach(el => el.checked = false);
+    document.querySelectorAll('.explanation-box').forEach(el => el.classList.add('hidden'));
+    if (resultsCard) resultsCard.classList.add('hidden');
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  });
+</script>

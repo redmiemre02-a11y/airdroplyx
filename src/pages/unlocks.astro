@@ -1,0 +1,231 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Header from '../components/Header.astro';
+
+const tokenUnlocks = [
+  {
+    token: 'Arbitrum',
+    symbol: 'ARB',
+    logo: '/images/airdrops/arbitrum.svg',
+    nextDate: 'November 16, 2026',
+    daysLeft: 20,
+    amountUsd: '$48,500,000',
+    tokensCount: '92.65M ARB',
+    circulatingPct: '2.4% of Circulating',
+    unlockedFor: 'Team, Future Team & Investors',
+    riskLevel: 'Moderate',
+    airdropDate: 'March 2023',
+    historicalValue: '$1,200 - $12,000'
+  },
+  {
+    token: 'Celestia',
+    symbol: 'TIA',
+    logo: '/images/airdrops/celestia.svg',
+    nextDate: 'October 31, 2026',
+    daysLeft: 4,
+    amountUsd: '$890,000,000',
+    tokensCount: '175.56M TIA',
+    circulatingPct: '79.8% of Circulating',
+    unlockedFor: 'Early Backers (Seed/Series A) & Core Contributors',
+    riskLevel: 'High Alert',
+    airdropDate: 'October 2023',
+    historicalValue: '$2,000 - $8,500'
+  },
+  {
+    token: 'Starknet',
+    symbol: 'STRK',
+    logo: '/images/airdrops/starknet-foundation.svg',
+    nextDate: 'November 15, 2026',
+    daysLeft: 19,
+    amountUsd: '$26,400,000',
+    tokensCount: '64.00M STRK',
+    circulatingPct: '3.6% of Circulating',
+    unlockedFor: 'Early Contributors & Investors',
+    riskLevel: 'Moderate',
+    airdropDate: 'February 2024',
+    historicalValue: '$800 - $3,500'
+  },
+  {
+    token: 'zkSync Era',
+    symbol: 'ZK',
+    logo: '/images/airdrops/matter-labs-zksync.svg',
+    nextDate: 'December 17, 2026',
+    daysLeft: 51,
+    amountUsd: '$18,200,000',
+    tokensCount: '135.00M ZK',
+    circulatingPct: '3.8% of Circulating',
+    unlockedFor: 'Matter Labs Team & Foundation',
+    riskLevel: 'Low',
+    airdropDate: 'June 2024',
+    historicalValue: '$600 - $2,800'
+  },
+  {
+    token: 'Wormhole',
+    symbol: 'W',
+    logo: '/images/airdrops/wormhole-crypto.svg',
+    nextDate: 'November 3, 2026',
+    daysLeft: 7,
+    amountUsd: '$14,800,000',
+    tokensCount: '47.50M W',
+    circulatingPct: '2.6% of Circulating',
+    unlockedFor: 'Strategic Investors & Core Team',
+    riskLevel: 'Moderate',
+    airdropDate: 'April 2024',
+    historicalValue: '$1,000 - $5,000'
+  },
+  {
+    token: 'EigenLayer',
+    symbol: 'EIGEN',
+    logo: '/images/airdrops/eigenlayer.svg',
+    nextDate: 'January 1, 2027',
+    daysLeft: 65,
+    amountUsd: '$110,000,000',
+    tokensCount: '30.00M EIGEN',
+    circulatingPct: '16.2% of Circulating',
+    unlockedFor: 'Early Investors & Core Contributors',
+    riskLevel: 'High Alert',
+    airdropDate: 'May 2024 (Transferable Oct 2024)',
+    historicalValue: '$1,500 - $14,000'
+  },
+  {
+    token: 'Optimism',
+    symbol: 'OP',
+    logo: '/images/airdrops/optimism.svg',
+    nextDate: 'November 30, 2026',
+    daysLeft: 34,
+    amountUsd: '$49,000,000',
+    tokensCount: '31.34M OP',
+    circulatingPct: '2.5% of Circulating',
+    unlockedFor: 'Core Contributors & Investors',
+    riskLevel: 'Moderate',
+    airdropDate: 'May 2022',
+    historicalValue: '$1,000 - $15,000+'
+  },
+  {
+    token: 'Jupiter',
+    symbol: 'JUP',
+    logo: '/images/airdrops/jupiter-exchange.svg',
+    nextDate: 'January 31, 2027',
+    daysLeft: 95,
+    amountUsd: '$220,000,000',
+    tokensCount: '250.00M JUP',
+    circulatingPct: '18.5% of Circulating',
+    unlockedFor: 'Community Airdrop Round 2 + Team Vesting',
+    riskLevel: 'High Alert',
+    airdropDate: 'January 2024',
+    historicalValue: '$600 - $7,000'
+  }
+];
+---
+
+<Layout 
+  title="Crypto Token Unlocks & Vesting Calendar | Airdroplyx" 
+  description="Track upcoming token cliff unlocks, team vesting schedules, and sell-pressure alerts for top airdropped tokens including TIA, ARB, STRK, and EIGEN."
+>
+  <Header />
+
+  <main class="min-h-screen bg-slate-50 dark:bg-slate-950 text-slate-900 dark:text-slate-100 py-12 px-4 transition-colors duration-200">
+    <div class="max-w-[1200px] mx-auto">
+      
+      <!-- Breadcrumbs -->
+      <nav class="flex items-center gap-2 text-xs text-slate-500 dark:text-slate-400 mb-6 font-medium">
+        <a href="/" class="hover:text-blue-600 transition-colors">Home</a>
+        <span>/</span>
+        <span class="text-blue-600 dark:text-blue-400 font-semibold">Token Unlocks</span>
+      </nav>
+
+      <!-- Hero Header -->
+      <div class="text-center max-w-3xl mx-auto mb-10">
+        <div class="inline-flex items-center gap-2 bg-amber-100 dark:bg-amber-950/40 text-amber-800 dark:text-amber-300 px-3.5 py-1.5 rounded-full text-xs font-bold tracking-wide uppercase mb-4 border border-amber-200 dark:border-amber-800/60 shadow-sm">
+          <span>🔓</span>
+          <span>Vesting & Sell-Pressure Intel</span>
+        </div>
+        <h1 class="text-3xl sm:text-5xl font-black tracking-tight text-slate-900 dark:text-white mb-4">
+          Airdrop Token Unlocks Radar
+        </h1>
+        <p class="text-base sm:text-lg text-slate-600 dark:text-slate-300 leading-relaxed">
+          Monitor major cliff unlock dates, vesting inflation, and market liquidity impact for leading Web3 airdrops to optimize your token holding and profit-taking strategy.
+        </p>
+      </div>
+
+      <!-- Quick Metrics Bar -->
+      <div class="grid grid-cols-1 sm:grid-cols-3 gap-4 mb-10">
+        <div class="bg-white dark:bg-slate-900 p-5 rounded-2xl border border-slate-200 dark:border-slate-800 shadow-sm text-center">
+          <span class="text-xs font-bold uppercase tracking-wider text-slate-400">Total Tracked Unlocks (Next 90 Days)</span>
+          <div class="text-2xl sm:text-3xl font-black text-slate-900 dark:text-white mt-1">$1.45 Billion</div>
+        </div>
+        <div class="bg-white dark:bg-slate-900 p-5 rounded-2xl border border-slate-200 dark:border-slate-800 shadow-sm text-center">
+          <span class="text-xs font-bold uppercase tracking-wider text-slate-400">High-Alert Cliff Events</span>
+          <div class="text-2xl sm:text-3xl font-black text-rose-500 mt-1">3 Mega Unlocks</div>
+        </div>
+        <div class="bg-white dark:bg-slate-900 p-5 rounded-2xl border border-slate-200 dark:border-slate-800 shadow-sm text-center">
+          <span class="text-xs font-bold uppercase tracking-wider text-slate-400">Average Historical Airdrop ROI</span>
+          <div class="text-2xl sm:text-3xl font-black text-emerald-500 mt-1">$2,450 / Wallet</div>
+        </div>
+      </div>
+
+      <!-- Unlocks Table / Cards -->
+      <div class="space-y-4">
+        {tokenUnlocks.map(item => {
+          const riskBadge = item.riskLevel === 'High Alert' 
+            ? 'bg-rose-100 text-rose-800 dark:bg-rose-950/60 dark:text-rose-300 border-rose-300 dark:border-rose-800'
+            : item.riskLevel === 'Moderate'
+            ? 'bg-amber-100 text-amber-800 dark:bg-amber-950/60 dark:text-amber-300 border-amber-300 dark:border-amber-800'
+            : 'bg-emerald-100 text-emerald-800 dark:bg-emerald-950/60 dark:text-emerald-300 border-emerald-300 dark:border-emerald-800';
+
+          return (
+            <div class="bg-white dark:bg-slate-900 rounded-3xl p-6 border border-slate-200 dark:border-slate-800 shadow-sm hover:border-blue-400 transition-all flex flex-col lg:flex-row lg:items-center justify-between gap-6">
+              
+              <!-- Left: Token Info -->
+              <div class="flex items-center gap-4 min-w-[240px]">
+                <img src={item.logo} alt={item.token} class="w-14 h-14 rounded-2xl bg-slate-50 dark:bg-slate-800 p-1.5 object-cover border border-slate-200 dark:border-slate-700 shrink-0 shadow-sm" />
+                <div>
+                  <div class="flex items-center gap-2">
+                    <h3 class="text-xl font-bold text-slate-900 dark:text-white">{item.token}</h3>
+                    <span class="text-xs font-bold text-slate-400 bg-slate-100 dark:bg-slate-800 px-2 py-0.5 rounded-md font-mono">{item.symbol}</span>
+                  </div>
+                  <span class="text-xs text-slate-500 dark:text-slate-400 font-medium mt-0.5 block">
+                    Airdropped: <strong>{item.airdropDate}</strong>
+                  </span>
+                </div>
+              </div>
+
+              <!-- Mid: Unlock Figures -->
+              <div class="grid grid-cols-2 sm:grid-cols-3 gap-4 flex-1 text-xs">
+                <div>
+                  <span class="text-slate-400 uppercase font-semibold text-[10px] block">Next Cliff Date</span>
+                  <strong class="text-slate-900 dark:text-white text-sm block mt-0.5">{item.nextDate}</strong>
+                  <span class="text-blue-600 dark:text-blue-400 font-bold">{item.daysLeft} days remaining</span>
+                </div>
+
+                <div>
+                  <span class="text-slate-400 uppercase font-semibold text-[10px] block">Unlock Volume</span>
+                  <strong class="text-slate-900 dark:text-white text-sm block mt-0.5">{item.amountUsd}</strong>
+                  <span class="text-slate-500">{item.tokensCount}</span>
+                </div>
+
+                <div>
+                  <span class="text-slate-400 uppercase font-semibold text-[10px] block">Market Impact</span>
+                  <span class="text-slate-700 dark:text-slate-200 font-bold block mt-0.5">{item.circulatingPct}</span>
+                  <span class="text-slate-400 text-[11px] truncate block">{item.unlockedFor}</span>
+                </div>
+              </div>
+
+              <!-- Right: Risk & Actions -->
+              <div class="flex items-center justify-between lg:justify-end gap-3 shrink-0 pt-4 lg:pt-0 border-t lg:border-t-0 border-slate-100 dark:border-slate-800">
+                <span class={`px-3 py-1 rounded-full text-xs font-bold uppercase tracking-wider border ${riskBadge}`}>
+                  {item.riskLevel}
+                </span>
+                <a href={`/airdrop/${item.token.toLowerCase()}`} class="px-4 py-2 rounded-xl text-xs font-bold bg-slate-100 hover:bg-blue-600 hover:text-white dark:bg-slate-800 dark:hover:bg-blue-600 text-slate-700 dark:text-slate-200 transition-all">
+                  Protocol Intel &rarr;
+                </a>
+              </div>
+
+            </div>
+          );
+        })}
+      </div>
+
+    </div>
+  </main>
+</Layout>

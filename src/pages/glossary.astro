@@ -1,0 +1,211 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Header from '../components/Header.astro';
+
+const glossaryTerms = [
+  {
+    term: 'Sybil Attack',
+    category: 'Security & Anti-Fraud',
+    shortDef: 'Creating dozens or hundreds of pseudo-anonymous wallets by a single entity to unfairly drain airdrop allocations.',
+    fullDef: 'In Web3 airdrops, protocols deploy machine learning and on-chain graph analysis to detect clusters sharing common funding sources, synchronized timestamps, or identical transaction values. Wallets caught in a Sybil cluster are blacklisted and receive zero tokens.',
+    relatedAcademy: '/academy/sybil-protection-explained'
+  },
+  {
+    term: 'Retroactive Airdrop',
+    category: 'Airdrop Mechanics',
+    shortDef: 'Distributing governance tokens retroactively to early users based on their historical mainnet or testnet activity before an unannounced snapshot date.',
+    fullDef: 'Pioneered by Uniswap in 2020 ($UNI), retroactive airdrops reward authentic adopters who tested the protocol when no economic guarantee existed, transforming community members into decentralized stakeholders.',
+    relatedAcademy: '/academy/what-is-crypto-airdrop'
+  },
+  {
+    term: 'TGE (Token Generation Event)',
+    category: 'Tokenomics',
+    shortDef: 'The precise cryptographic moment when a protocol smart contract officially mints and initiates public circulation of its native token.',
+    fullDef: 'TGE is typically accompanied by airdrop claim portals opening, decentralized exchange liquidity pool initialization, and Tier-1 centralized exchange trading listings.',
+    relatedAcademy: '/news'
+  },
+  {
+    term: 'Snapshot',
+    category: 'Airdrop Mechanics',
+    shortDef: 'A frozen ledger record of all blockchain transactions and wallet balances captured at a specific block height to determine airdrop eligibility.',
+    fullDef: 'Any transaction executed after the snapshot block height does not count towards the airdrop. High-profile protocols frequently conduct snapshots months before public announcements to thwart mercenary farmers.',
+    relatedAcademy: '/academy/how-do-airdrop-snapshots-work'
+  },
+  {
+    term: 'Fully Diluted Valuation (FDV)',
+    category: 'Tokenomics',
+    shortDef: 'The total theoretical market capitalization of a cryptocurrency project if 100% of its maximum token supply were in active circulation at the current price.',
+    fullDef: 'Calculated as Current Token Price × Total Maximum Supply. Low circulating supply paired with exorbitant FDV often leads to aggressive post-airdrop price depreciation during venture cliff unlocks.',
+    relatedAcademy: '/calculator'
+  },
+  {
+    term: 'Vesting & Cliff',
+    category: 'Tokenomics',
+    shortDef: 'A temporal lockup schedule where token allocations are released incrementally over months or years, often preceded by a cliff period.',
+    fullDef: 'A "cliff" represents a duration (e.g. 12 months) during which zero tokens unlock. After the cliff date passes, tokens vest linearly each block or month to prevent founders and venture capitalists from dumping allocations.',
+    relatedAcademy: '/unlocks'
+  },
+  {
+    term: 'Proof of Humanity (PoH)',
+    category: 'Identity & Sybil Defense',
+    shortDef: 'Cryptographic attestation frameworks (like Gitcoin Passport, World ID, Linea PoH) verifying that a wallet belongs to a distinct living human.',
+    fullDef: 'By tying biometric iris scans, social credentials, or decentralized identity stamps to an Ethereum address, protocols can grant airdrop multipliers while disqualifying automated script syndicates.',
+    relatedAcademy: '/sybil-checker'
+  },
+  {
+    term: 'zk-SNARK / Zero-Knowledge Proof',
+    category: 'Cryptography & L2',
+    shortDef: 'A cryptographic primitive allowing a prover to demonstrate that a statement is mathematically true without revealing the private inputs.',
+    fullDef: 'In Layer 2 rollups (Starknet, zkSync, Scroll, Linea), validity proofs compress thousands of transactions into a succinct cryptographic proof verified cheaply on Ethereum L1.',
+    relatedAcademy: '/academy/zero-knowledge-privacy-halo-and-zcash-orchard'
+  },
+  {
+    term: 'Restaking & AVS',
+    category: 'DeFi & Shared Security',
+    shortDef: 'Rehypothecating staked ETH or LSTs (via EigenLayer, Symbiotic, Karak) to secure third-party Actively Validated Services in exchange for additional yield.',
+    fullDef: 'Restaking creates dual-yield structures where depositors earn Ethereum base staking rewards alongside secondary protocol tokens, introducing novel economic slash risk.',
+    relatedAcademy: '/academy/restaking-wars-eigenlayer-symbiotic-karak'
+  },
+  {
+    term: 'Paymaster (ERC-4337)',
+    category: 'Account Abstraction',
+    shortDef: 'A specialized smart contract in Account Abstraction that sponsors transaction gas fees for users or enables fee payment in ERC-20 stablecoins.',
+    fullDef: 'Paymasters eliminate the frustrating Web3 onboarding friction of needing native ETH in a new wallet before being able to interact with dApps or claim airdrops.',
+    relatedAcademy: '/academy/gasless-transactions-and-paymasters-erc4337'
+  },
+  {
+    term: 'DePIN (Decentralized Physical Infrastructure)',
+    category: 'Web3 Infrastructure',
+    shortDef: 'Decentralized networks leveraging token incentives to crowdsource real-world hardware, such as wireless bandwidth, compute GPUs, and mapping sensors.',
+    fullDef: 'Protocols like Grass, Helium, DIMO, and Hivemapper reward ordinary users for contributing excess WiFi or telemetry, making DePIN one of the most accessible zero-capital airdrop categories.',
+    relatedAcademy: '/academy/what-is-depin-bandwidth-mining'
+  },
+  {
+    term: 'Extended UTXO (EUTXO)',
+    category: 'Blockchain Architecture',
+    shortDef: 'Cardano and Ergo accounting model extending Bitcoin UTXOs with arbitrary state datums, redeemers, and deterministic execution scripts.',
+    fullDef: 'Unlike Ethereum account-based global state machines, EUTXO transactions evaluate deterministically off-chain with 100% predictable gas costs and immunity to MEV front-running.',
+    relatedAcademy: '/academy/cardano-ouroboros-consensus-and-eutxo-model'
+  },
+  {
+    term: 'MEV (Maximal Extractable Value)',
+    category: 'DeFi & Consensus',
+    shortDef: 'Profit extracted by block producers or searcher bots through reordering, inserting, or censoring pending transactions in the public mempool.',
+    fullDef: 'Sandwich attacks force airdrop traders to incur high slippage. Intent-based decentralized exchanges (like CowSwap) shield users from MEV by executing batch auctions.',
+    relatedAcademy: '/academy/intent-based-trading-mev-protection-cowswap'
+  },
+  {
+    term: 'Data Availability (DA)',
+    category: 'Modular Scalability',
+    shortDef: 'The mathematical guarantee that all transaction data required to reconstruct blockchain state has been published and made accessible to all nodes.',
+    fullDef: 'Modular DA layers like Celestia, EigenDA, and Avail dramatically reduce Layer 2 rollup transaction costs by decoupling storage verification from consensus execution.',
+    relatedAcademy: '/academy/modular-data-availability-das-sampling'
+  },
+  {
+    term: 'Faucet',
+    category: 'Testnet Farming',
+    shortDef: 'A community or foundation web portal that dispenses free testnet cryptocurrency (Sepolia ETH, MON, BERA) for testing decentralized applications.',
+    fullDef: 'Faucets enforce rate-limits (e.g. 1 drip every 24 hours) and captchas to prevent automated bots from draining test liquidity reserves.',
+    relatedAcademy: '/faucets'
+  }
+];
+---
+
+<Layout 
+  title="Web3 Crypto Airdrop Glossary & Encyclopedia | Airdroplyx" 
+  description="Master essential crypto airdrop and Web3 terminology. Detailed definitions for Sybil attacks, retroactive farming, TGE, snapshots, FDV, zk-SNARKs, and restaking."
+>
+  <Header />
+
+  <main class="min-h-screen bg-slate-50 dark:bg-slate-950 text-slate-900 dark:text-slate-100 py-12 px-4 transition-colors duration-200">
+    <div class="max-w-[1200px] mx-auto">
+      
+      <!-- Breadcrumbs -->
+      <nav class="flex items-center gap-2 text-xs text-slate-500 dark:text-slate-400 mb-6 font-medium">
+        <a href="/" class="hover:text-blue-600 transition-colors">Home</a>
+        <span>/</span>
+        <span class="text-blue-600 dark:text-blue-400 font-semibold">Web3 Glossary</span>
+      </nav>
+
+      <!-- Hero Header -->
+      <div class="text-center max-w-3xl mx-auto mb-10">
+        <div class="inline-flex items-center gap-2 bg-blue-100 dark:bg-blue-900/40 text-blue-700 dark:text-blue-300 px-3.5 py-1.5 rounded-full text-xs font-bold tracking-wide uppercase mb-4 border border-blue-200 dark:border-blue-800/60 shadow-sm">
+          <span>📚</span>
+          <span>Web3 & Airdrop Encyclopedia</span>
+        </div>
+        <h1 class="text-3xl sm:text-5xl font-black tracking-tight text-slate-900 dark:text-white mb-4">
+          Airdroplyx Web3 Glossary
+        </h1>
+        <p class="text-base sm:text-lg text-slate-600 dark:text-slate-300 leading-relaxed">
+          The comprehensive dictionary of blockchain, DeFi tokenomics, zero-knowledge cryptography, and retroactive airdrop terminology explained in plain English.
+        </p>
+      </div>
+
+      <!-- Search Filter Bar -->
+      <div class="bg-white dark:bg-slate-900 p-4 rounded-2xl border border-slate-200 dark:border-slate-800 shadow-sm mb-10">
+        <div class="relative">
+          <input 
+            type="text" 
+            id="glossary-search" 
+            placeholder="Search terms (e.g. Sybil, Snapshot, FDV, EUTXO, Restaking)..." 
+            class="w-full bg-slate-50 dark:bg-slate-800 border border-slate-200 dark:border-slate-700 rounded-xl py-3 pl-10 pr-4 text-sm text-slate-900 dark:text-white placeholder-slate-400 focus:outline-none focus:ring-2 focus:ring-blue-500"
+          />
+          <svg class="w-4 h-4 text-slate-400 absolute left-3.5 top-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path></svg>
+        </div>
+      </div>
+
+      <!-- Glossary Terms List -->
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-6" id="glossary-grid">
+        {glossaryTerms.map(item => (
+          <div class="glossary-card bg-white dark:bg-slate-900 rounded-3xl p-6 sm:p-7 border border-slate-200 dark:border-slate-800 shadow-sm hover:border-blue-400 transition-all flex flex-col justify-between" data-term={item.term.toLowerCase()} data-cat={item.category.toLowerCase()}>
+            <div>
+              <div class="flex items-center justify-between gap-2 mb-2">
+                <span class="text-[10px] font-extrabold uppercase px-2.5 py-0.5 rounded-full bg-slate-100 dark:bg-slate-800 text-slate-600 dark:text-slate-300 font-mono">
+                  {item.category}
+                </span>
+              </div>
+              <h3 class="text-xl font-black text-slate-900 dark:text-white mb-2">
+                {item.term}
+              </h3>
+              <p class="text-xs sm:text-sm font-semibold text-blue-600 dark:text-blue-400 mb-3 leading-snug">
+                {item.shortDef}
+              </p>
+              <p class="text-xs text-slate-500 dark:text-slate-400 leading-relaxed">
+                {item.fullDef}
+              </p>
+            </div>
+
+            <div class="mt-5 pt-4 border-t border-slate-100 dark:border-slate-800/80 flex items-center justify-between text-xs">
+              <span class="text-slate-400 font-medium">Educational Reference</span>
+              <a href={item.relatedAcademy} class="text-blue-600 dark:text-blue-400 font-bold hover:underline flex items-center gap-1">
+                <span>Learn More</span>
+                <span>&rarr;</span>
+              </a>
+            </div>
+          </div>
+        ))}
+      </div>
+
+    </div>
+  </main>
+</Layout>
+
+<script is:inline>
+  const searchInput = document.getElementById('glossary-search');
+  const cards = document.querySelectorAll('.glossary-card');
+
+  searchInput?.addEventListener('input', (e) => {
+    const q = e.target.value.toLowerCase().trim();
+    cards.forEach(card => {
+      const term = card.dataset.term || '';
+      const cat = card.dataset.cat || '';
+      const text = card.textContent.toLowerCase();
+
+      if (!q || term.includes(q) || cat.includes(q) || text.includes(q)) {
+        card.style.display = 'flex';
+      } else {
+        card.style.display = 'none';
+      }
+    });
+  });
+</script>
