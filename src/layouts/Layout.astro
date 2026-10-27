@@ -3,6 +3,7 @@ import '../styles/global.css';
 import Footer from '../components/Footer.astro';
 import CookieBanner from '../components/CookieBanner.astro';
 import CommandPalette from '../components/CommandPalette.astro';
+import GoogleAnalytics from '../components/GoogleAnalytics.astro';
 
 interface Props {
 	title: string;
@@ -55,6 +56,9 @@ const canonicalURL = new URL(Astro.url.pathname, Astro.site || "https://airdropl
 		<!-- Google Search Console Verification -->
 		<meta name="google-site-verification" content="miXhgrypb-Z3tfLedIHMe1bBxiEVSsw0NPXUYXmtp0U" />
 		
+		<!-- Google Analytics (GA4) -->
+		<GoogleAnalytics />
+
 		<!-- Google AdSense -->
 		<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2409736261623563" crossorigin="anonymous"></script>
 		
