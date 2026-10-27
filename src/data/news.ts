@@ -1238,5 +1238,100 @@ During Mining Gala Phase 3, users bridging Bitcoin and deploying capital across 
     ],
     "relatedAirdropId": "gods-unchained",
     "content": "Gods Unchained, the premier decentralized tactical card battler backed by Coinbase Ventures and Jump Crypto, has officially surpassed $100 million in cumulative secondary NFT marketplace volume on Immutable X. Directed by former Magic: The Gathering Arena lead Chris Clay, the game has emerged as the definitive competitive trading card game in Web3.\n\nEvery collectible card in Gods Unchained is an ERC-721 token owned fully by the player, enabling gas-free trading on decentralized secondary markets. Following the rollout of mobile optimization and cross-platform matchmaking, daily matches played have hit all-time highs.\n\nWith staking rewards active for native $GODS holders and the annual World Championship tournament prize pool locked, Gods Unchained continues to lead the mainstream adoption of player-owned gaming economies."
+  },
+  {
+    "slug": "hedera-hashgraph-crosses-landmark-on-chain-transactions",
+    "title": "Hedera Hashgraph Crosses 60 Billion Historical Transactions as Enterprise RWA Tokenization Accelerates",
+    "excerpt": "Governing Council network demonstrates sustained 10,000+ TPS throughput for multinational supply chain and institutional asset settlement.",
+    "author": "Airdroplyx Enterprise Desk",
+    "date": "October 27, 2026",
+    "readTime": "4 min read",
+    "category": "Breaking",
+    "image": "https://images.unsplash.com/photo-1639762681485-074b7f938ba0?w=1200&q=80",
+    "tags": [
+      "Hedera",
+      "HBAR",
+      "Hashgraph",
+      "Enterprise",
+      "RWA"
+    ],
+    "relatedAirdropId": "hedera-hashgraph",
+    "content": "Hedera, the enterprise-grade public distributed ledger technology governed by Google, IBM, Boeing, and Dell, has officially surpassed 60 billion historical mainnet transactions. Powered by its innovative Hashgraph asynchronous Byzantine Fault Tolerant (aBFT) consensus algorithm, Hedera continues to process the highest sustained on-chain transaction volume in cryptocurrency.\n\nThe milestone is driven by institutional asset tokenization and enterprise supply chain tracking via the Hedera Consensus Service (HCS). Furthermore, expanding adoption of SaucerSwap and EVM-compatible decentralized finance protocols on the Hedera Token Service (HTS) has brought substantial liquidity to native HBAR staking pools.\n\nWith zero-slashing native Proof-of-Stake consensus and predictable micro-cent fees, Hedera solidifies its standing as the premiere distributed ledger for institutional blockchain deployment."
+  },
+  {
+    "slug": "algorand-peer-to-peer-gossip-network-upgrade",
+    "title": "Algorand Activates Dynamic Round Times, Slashing Block Finality to Sub-3 Seconds with Pure Proof-of-Stake",
+    "excerpt": "Silvio Micali-founded Layer 1 deploys peer-to-peer gossip networking enhancements, boosting real-time decentralized finance throughput.",
+    "author": "Airdroplyx Infrastructure Desk",
+    "date": "October 27, 2026",
+    "readTime": "4 min read",
+    "category": "Breaking",
+    "image": "https://images.unsplash.com/photo-1622979135225-d2ba269bc1df?w=1200&q=80",
+    "tags": [
+      "Algorand",
+      "ALGO",
+      "Pure PoS",
+      "Consensus",
+      "Layer 1"
+    ],
+    "relatedAirdropId": "algorand-foundation",
+    "content": "Algorand, the carbon-negative Pure Proof-of-Stake (PPoS) Layer 1 blockchain founded by Turing Award laureate Silvio Micali, has activated dynamic round times across its global validator network. The upgrade slashes average block confirmation times to below 3 seconds while guaranteeing instant finality with zero blockchain reorganizations or forks.\n\nBy optimizing peer-to-peer gossip propagation and Verifiable Random Function (VRF) committee consensus, Algorand enables high-frequency trading dApps, lending protocols (Folks Finance), and decentralized payment networks to settle transactions at lightning speed.\n\nWith quarterly community governance (xGov) voting distributing millions in ecosystem incentives, Algorand's fork-free architecture continues to attract institutional fintech builders."
+  },
+  {
+    "slug": "storj-enterprise-cloud-distributed-storage-growth",
+    "title": "Storj Network Reports Record Enterprise Storage Utilization Across Media Streaming and AI Datasets",
+    "excerpt": "Decentralized cloud object storage protocol achieves 99.999% durability while offering 80% cost savings compared to legacy AWS S3 infrastructure.",
+    "author": "Airdroplyx DePIN Desk",
+    "date": "October 27, 2026",
+    "readTime": "4 min read",
+    "category": "Alpha Intel",
+    "image": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=1200&q=80",
+    "tags": [
+      "Storj",
+      "STORJ",
+      "Cloud Storage",
+      "DePIN",
+      "AWS S3"
+    ],
+    "relatedAirdropId": "storj-network",
+    "content": "Storj, the pioneer decentralized cloud object storage protocol backed by Google Ventures, has recorded all-time high enterprise data storage utilization. Operating a global network of tens of thousands of decentralized storage nodes, Storj provides zero-knowledge encrypted, S3-compatible cloud storage at up to 80% lower cost than traditional providers like Amazon AWS.\n\nThrough Reed-Solomon erasure coding, files uploaded to Storj are encrypted client-side, broken into 80 pieces, and distributed across distinct global ISP nodes. Downloads pull data in parallel from the fastest 29 nodes, delivering superior latency for 4K video rendering and AI dataset pipelines.\n\nWith decentralized node operators receiving automated monthly payouts in native $STORJ tokens on Layer 2, Storj demonstrates the maturity and scalability of decentralized physical infrastructure."
+  },
+  {
+    "slug": "uniswap-unichain-flashbots-superchain-activation",
+    "title": "Uniswap Unveils Unichain Testnet, Introducing 1-Second Block Times and Provable MEV Protection on Superchain",
+    "excerpt": "Premier decentralized automated market maker partners with Flashbots to deploy application-specific Layer 2 rollup engineered for DeFi liquidity.",
+    "author": "Airdroplyx DeFi Desk",
+    "date": "October 27, 2026",
+    "readTime": "4 min read",
+    "category": "Breaking",
+    "image": "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?w=1200&q=80",
+    "tags": [
+      "Uniswap",
+      "UNI",
+      "Unichain",
+      "DeFi",
+      "Layer 2"
+    ],
+    "relatedAirdropId": "uniswap-protocol",
+    "content": "Uniswap Labs, creator of the decentralized automated market maker that has processed over $2 trillion in lifetime volume, has officially unveiled the Unichain public testnet. Built on the OP Stack Superchain in collaboration with MEV research pioneer Flashbots, Unichain is an application-specific Layer 2 rollup optimized specifically for decentralized finance.\n\nUnichain introduces 1-second sub-blocks and verifiable block building through Trusted Execution Environments (TEEs), effectively eliminating toxic MEV sandwich attacks for everyday swappers. Combined with the upcoming release of Uniswap V4 Hooks, developers can launch dynamic-fee liquidity pools and on-chain limit orders with fractional-cent gas costs.\n\nWith the Uniswap DAO treasury and UNI token governance deeply integrated into Unichain sequencing, the development marks a historic evolution for decentralized exchanges."
+  },
+  {
+    "slug": "neon-evm-parallel-solana-execution-milestone",
+    "title": "Neon EVM Expands Parallelized Sealevel Execution, Enabling Ethereum dApps to Process Thousands of TPS on Solana",
+    "excerpt": "Cross-virtual-machine architecture bridges Solidity smart contract developers with Solana's sub-cent gas fees and instant settlement speeds.",
+    "author": "Airdroplyx Cross-VM Desk",
+    "date": "October 27, 2026",
+    "readTime": "4 min read",
+    "category": "Alpha Intel",
+    "image": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=1200&q=80",
+    "tags": [
+      "Neon EVM",
+      "NEON",
+      "Solana",
+      "EVM",
+      "Layer 1"
+    ],
+    "relatedAirdropId": "neon-evm",
+    "content": "Neon EVM, the first Ethereum Virtual Machine operating directly on the Solana blockchain, has confirmed a surge in daily smart contract deployments and DEX transaction volume. Backed by Jump Capital, Neon allows standard Solidity smart contracts to execute in parallel across Solana's high-speed Sealevel multi-threaded engine.\n\nBy utilizing decentralized Proxy operators that convert standard EVM transactions into native Solana transactions, Neon users enjoy the familiarity of MetaMask and Solidity tools alongside 400ms block speeds and gas fees under $0.01. The protocol's trustless bridge, NeonPass, facilitates seamless asset transfers between Ethereum and Solana accounts.\n\nAs major DeFi and NFT protocols deploy cross-VM deployments to tap into Solana's liquidity, Neon EVM cements its role as a vital scaling bridge."
   }
 ];

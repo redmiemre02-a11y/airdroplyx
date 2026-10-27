@@ -28452,5 +28452,855 @@ export const airdrops: Airdrop[] = [
         "answer": "Candies expire 12 months after the date they are collected, so be sure to redeem them regularly for available rewards."
       }
     ]
+  },
+  {
+    "id": "hedera-hashgraph",
+    "name": "Hedera",
+    "logo": "/images/airdrops/hedera-hashgraph.svg",
+    "description": "Enterprise-grade public DLT governed by Google, IBM, and Boeing, featuring Hashgraph aBFT consensus and EVM smart contracts.",
+    "reward": "HBAR Staking & DeFi Incentive Rewards",
+    "category": "Layer 1 / Enterprise",
+    "featured": true,
+    "status": "active",
+    "endTime": "2026-12-31T23:59:59Z",
+    "funding": "$125M+",
+    "investors": "Boeing HorizonX, Digital Currency Group, Multicoin, BlockTower",
+    "overview": "Hedera is an enterprise-grade public distributed ledger technology (DLT) engineered using Hashgraph consensus. Unlike traditional linear blockchains, Hedera utilizes an asynchronous Byzantine Fault Tolerant (aBFT) directed acyclic graph architecture, achieving 10,000+ transactions per second with sub-three-second finality and predictable micro-cent fees.\n\nHedera is governed uniquely by the Hedera Governing Council—a coalition of up to 39 term-limited multinational giants including Google, IBM, Boeing, Dell, Deutsche Telekom, and Nomura. Beyond high-speed enterprise asset tokenization and the Hedera Consensus Service (HCS), Hedera features full EVM smart contract compatibility, enabling seamless decentralized finance applications.\n\nThe HBAR Foundation manages hundreds of millions in ecosystem grant funding to incentivize native DeFi liquidity, real-world asset (RWA) tokenization, and developer hackathons.",
+    "tokenomics": "The native cryptocurrency is $HBAR, with a hard maximum supply of 50,000,000,000 tokens. HBAR secures the network through native Proof-of-Stake consensus and pays for ledger services (Consensus Service, Token Service, and EVM smart contracts).\n\nStaking HBAR is completely non-custodial and features zero lockup periods or slashing risks, distributing daily consensus rewards directly to staking accounts.",
+    "sybilSafety": "Ecosystem grant programs require verified developer KYC or proof of authentic on-chain dApp transactions. Native staking is protected by the Governing Council's distributed consensus nodes.",
+    "strategy": "Create a non-custodial Hedera account using HashPack or Blade Wallet. Stake HBAR natively to Council validator nodes to earn daily consensus rewards without lockups. Provide liquidity on SaucerSwap (Hedera's premier DEX) across HBAR/USDC or SAUCE pools to farm high-yield HBAR Foundation incentives.",
+    "steps": [
+      "Install <a href=\"https://hashpack.app\" target=\"_blank\" rel=\"noopener noreferrer\">HashPack Wallet</a> and set up a non-custodial Hedera account ID (0.0.xxxxx).",
+      "Transfer HBAR to your address and stake it directly to a Council validator node via the wallet dashboard.",
+      "Connect to <a href=\"https://saucerswap.finance\" target=\"_blank\" rel=\"noopener noreferrer\">SaucerSwap DEX</a> to swap tokens or provide liquidity.",
+      "Deposit assets into Bonzo Finance for decentralized lending and borrowing on Hedera.",
+      "Explore RWA tokenization projects deployed on the Hedera Token Service (HTS)."
+    ],
+    "faqs": [
+      {
+        "question": "Is Hedera a blockchain?",
+        "answer": "Technically, Hedera is a distributed ledger technology (DLT) using Hashgraph DAG consensus rather than traditional linear blocks."
+      },
+      {
+        "question": "Can staked HBAR be slashed?",
+        "answer": "No. Hedera native staking has zero slashing risk and zero lockup periods, allowing full liquidity access at all times."
+      }
+    ]
+  },
+  {
+    "id": "algorand-foundation",
+    "name": "Algorand",
+    "logo": "/images/airdrops/algorand-foundation.svg",
+    "description": "Pure Proof-of-Stake Layer 1 created by Turing Award winner Silvio Micali, delivering 3.3-second instant finality with zero forks.",
+    "reward": "ALGO Governance & Ecosystem Rewards",
+    "category": "Layer 1 / Pure PoS",
+    "featured": true,
+    "status": "active",
+    "endTime": "2026-12-31T23:59:59Z",
+    "funding": "$126M+",
+    "investors": "Union Square Ventures, Pillar VC, Borderless Capital, Arrington XRP",
+    "overview": "Algorand is a high-speed, carbon-negative Layer 1 blockchain engineered by Turing Award-winning MIT cryptographer Silvio Micali. Designed to solve the Blockchain Trilemma without compromising security, Algorand introduces Pure Proof-of-Stake (PPoS) consensus: validators are chosen pseudorandomly via Verifiable Random Functions (VRF), making targeted denial-of-service attacks mathematically impossible.\n\nAlgorand achieves 3.3-second block times with guaranteed instant finality—meaning the network never forks or reorganizes. With transaction fees costing a fraction of a cent (0.001 ALGO), Algorand is widely adopted for institutional payments, central bank digital currency (CBDC) pilots, and FIFA digital collectibles.\n\nThe Algorand Foundation distributes tens of millions of ALGO tokens quarterly through decentralized community governance periods (xGov) and targeted DeFi liquidity incentives.",
+    "tokenomics": "The native token is $ALGO, capped at a maximum supply of 10,000,000,000 tokens. ALGO is used for transaction fees, node participation keys, and decentralized voting power in the quarterly Community Governance program.\n\nCommitted governors lock ALGO for 3-month periods to vote on ecosystem funding proposals and earn compounding governance yields.",
+    "sybilSafety": "Governance rewards require continuous ALGO balance maintenance throughout each 90-day period. Wallets that drop below their committed balance even by 1 micro-ALGO forfeit all rewards for that quarter.",
+    "strategy": "Commit ALGO tokens to Algorand Community Governance via the official Foundation portal or liquid governance platforms like Folks Finance. Liquid governance (gALGO) allows you to maintain full voting yields while deploying your capital into Pact, Tinyman, and Algofi liquidity pools.",
+    "steps": [
+      "Set up a non-custodial wallet using <a href=\"https://perawallet.app\" target=\"_blank\" rel=\"noopener noreferrer\">Pera Wallet</a> or Defly.",
+      "Commit your ALGO balance during the quarterly Community Governance registration window.",
+      "Cast on-chain votes during the designated voting period to qualify for quarterly distribution rewards.",
+      "Utilize <a href=\"https://folks.finance\" target=\"_blank\" rel=\"noopener noreferrer\">Folks Finance</a> to mint gALGO for liquid staking.",
+      "Provide liquidity on Tinyman or Pact DEX to earn trading fees and Foundation farming boosts."
+    ],
+    "faqs": [
+      {
+        "question": "What is Pure Proof-of-Stake?",
+        "answer": "PPoS randomly selects block proposers and certifiers from all ALGO holders using Verifiable Random Functions, ensuring lightning speed with zero mining hardware."
+      },
+      {
+        "question": "Can Algorand blockchain fork?",
+        "answer": "No. The mathematical design of Algorand guarantees that two different blocks can never achieve consensus at the same round, completely eliminating forks."
+      }
+    ]
+  },
+  {
+    "id": "iota-evm",
+    "name": "IOTA",
+    "logo": "/images/airdrops/iota-evm.svg",
+    "description": "Pioneer Directed Acyclic Graph (Tangle) DLT expanded with fully EVM-compatible Layer 2 smart contracts and UAE regulatory foundation.",
+    "reward": "IOTA Staking & EVM Ecosystem Airdrops",
+    "category": "Layer 1 / DAG & EVM",
+    "featured": false,
+    "status": "active",
+    "endTime": "2026-11-30T23:59:59Z",
+    "funding": "$100M+ (Ecosystem Fund)",
+    "investors": "IOTA Ecosystem DLT Foundation, UAE ADGM, Bosch Venture Capital",
+    "overview": "IOTA is a foundational distributed ledger technology pioneer that replaced traditional linear blockchains with the Tangle—a high-throughput Directed Acyclic Graph (DAG) designed for the Internet of Things (IoT) and fee-less microtransactions.\n\nWith the launch of IOTA EVM, the protocol integrated full Ethereum Virtual Machine smart contract capabilities directly onto its DAG architecture. Developers can deploy existing Solidity dApps with sub-second finality, MEV resistance, and native cross-chain randomness. In 2023, the IOTA Ecosystem DLT Foundation was officially registered in Abu Dhabi (ADGM) backed by over $100 Million in capital commitments.\n\nThe ecosystem distributes extensive airdrops, builder grants, and DeFi liquidity mining rewards across its growing decentralized finance sector.",
+    "tokenomics": "The native cryptocurrency is $IOTA. Tokens are used for gas on the IOTA EVM layer, securing decentralized node infrastructure, and voting on community treasury allocations.\n\nStaking IOTA natively unlocks retroactive airdrops from ecosystem spin-offs, including Shimmer and EVM DEX partner tokens.",
+    "sybilSafety": "Ecosystem campaigns utilize on-chain volume tracking and verified social credentials on platforms like Zealy and Galxe to prevent bot manipulation.",
+    "strategy": "Add the IOTA EVM network to MetaMask. Bridge funds from Ethereum or BNB Chain using the official IOTA EVM Bridge. Deposit liquidity into native DEXs (like MagicSea) and lending protocols. Stake native IOTA via Bloom Wallet to remain eligible for ongoing ecosystem partner airdrops.",
+    "steps": [
+      "Install <a href=\"https://bloomwallet.io\" target=\"_blank\" rel=\"noopener noreferrer\">Bloom Wallet</a> for native IOTA and EVM support.",
+      "Bridge funds to IOTA EVM using the official bridge portal.",
+      "Swap tokens and provide liquidity on <a href=\"https://magicsea.finance\" target=\"_blank\" rel=\"noopener noreferrer\">MagicSea DEX</a>.",
+      "Lend and borrow assets on Deepr Finance to earn boosted lending APR.",
+      "Participate in IOTA governance votes on the official governance forum."
+    ],
+    "faqs": [
+      {
+        "question": "What is the Tangle?",
+        "answer": "The Tangle is a Directed Acyclic Graph (DAG) where transactions confirm previous transactions directly, enabling high concurrency and fee-free data transactions."
+      },
+      {
+        "question": "Does IOTA support Ethereum smart contracts?",
+        "answer": "Yes! IOTA EVM provides complete EVM compatibility, allowing MetaMask users to interact with DeFi dApps seamlessly."
+      }
+    ]
+  },
+  {
+    "id": "multiversx-network",
+    "name": "MultiversX",
+    "logo": "/images/airdrops/multiversx-network.svg",
+    "description": "High-throughput Layer 1 (formerly Elrond) featuring Adaptive State Sharding, Secure Proof of Stake, and xPortal mobile superapp.",
+    "reward": "EGLD Staking & xExchange Farming",
+    "category": "Layer 1 / Sharding",
+    "featured": true,
+    "status": "active",
+    "endTime": "2026-12-31T23:59:59Z",
+    "funding": "$30M+",
+    "investors": "Binance Labs, Electric Capital, NGC Ventures, Maven 11",
+    "overview": "MultiversX (formerly Elrond Network) is a highly scalable, fast, and secure enterprise Layer 1 blockchain engineered with Adaptive State Sharding and Secure Proof-of-Stake (SPoS). By sharding network state, transactions, and network communication simultaneously, MultiversX comfortably processes over 30,000 transactions per second with 6-second block latency.\n\nThe ecosystem is anchored by the xPortal mobile superapp—a consumer crypto wallet used by over 2 million people that integrates decentralized finance, fiat debit cards, social messaging, and Web3 avatars. Developers build ultra-fast dApps using Rust smart contracts running on the high-speed Wasm-based VM.\n\nBacked by Binance Labs and Electric Capital, MultiversX operates robust staking yield programs and launchpads (xLaunchpad) that distribute airdrops to dedicated community stakers.",
+    "tokenomics": "The native currency is $EGLD (Electronic Gold). EGLD is used for transaction fees, smart contract execution, validator node staking, and decentralized governance.\n\nThe tokenomics architecture incorporates a strictly bounded maximum supply (peaked at ~31 Million EGLD) where transaction fee burns offset inflation, making EGLD increasingly scarce as network usage grows.",
+    "sybilSafety": "xLaunchpad and staking allocations require on-chain identity verification through xPortal and active continuous staking. Multi-wallet bots are filtered through minimum staking thresholds.",
+    "strategy": "Download xPortal on your mobile phone and create an account. Stake EGLD directly in the app with verified Staking Providers to earn ~8% annual percentage yield. Participate in xExchange liquidity pools and lock MEX to earn energetic staking energy for upcoming xLaunchpad token sales and retroactive airdrops.",
+    "steps": [
+      "Download <a href=\"https://xportal.com\" target=\"_blank\" rel=\"noopener noreferrer\">xPortal Superapp</a> on iOS or Android.",
+      "Fund your wallet with EGLD and delegate to a verified Staking Agency.",
+      "Connect to <a href=\"https://xexchange.com\" target=\"_blank\" rel=\"noopener noreferrer\">xExchange</a> and provide liquidity in EGLD/USDC pools.",
+      "Lock MEX tokens to earn Energy points and boost your airdrop tier.",
+      "Explore Web3 games like Cyberpunk City and Knights of Cathena on MultiversX."
+    ],
+    "faqs": [
+      {
+        "question": "What is Adaptive State Sharding?",
+        "answer": "It is a dynamic architecture that splits both the network state and transaction history into shards that automatically scale up or down based on demand."
+      },
+      {
+        "question": "What was MultiversX called previously?",
+        "answer": "It was formerly known as Elrond Network before rebranding to MultiversX in 2022 to expand into metaverse and enterprise solutions."
+      }
+    ]
+  },
+  {
+    "id": "cartesi-network",
+    "name": "Cartesi",
+    "logo": "/images/airdrops/cartesi-network.svg",
+    "description": "Application-specific rollup framework running a full Linux Virtual Machine (RISC-V), allowing developers to build Web3 with Python and C++.",
+    "reward": "CTSI Staking & Rollup Grants",
+    "category": "Layer 2 / Modular Compute",
+    "featured": false,
+    "status": "active",
+    "endTime": "2026-11-30T23:59:59Z",
+    "funding": "$10M+",
+    "investors": "SNZ Holding, SOSV, Artesian, ICONIUM",
+    "overview": "Cartesi is an innovative application-specific rollup protocol that bridges the computational limits of the EVM with the rich software ecosystem of traditional computing. Cartesi introduces the Cartesi Machine: an authentic Linux Virtual Machine executing on a deterministic RISC-V architecture off-chain, backed by optimistic cryptographic proofs on Ethereum.\n\nBecause Cartesi rollups run a complete Linux operating system, developers are no longer constrained by Solidity or gas-heavy computations. Engineers can build decentralized applications using Python, Rust, C++, SQLite, and traditional machine learning libraries while retaining full Ethereum security. Every application runs its own dedicated CPU, eliminating network congestion.\n\nWith expanding developer hackathons and production rollups deploying in gaming and AI, Cartesi expands what is computationally possible on Ethereum.",
+    "tokenomics": "The utility and governance token is $CTSI, capped at 1,000,000,000 tokens. CTSI is staked by node runners to validate Cartesi Rollups, participate in the Proof-of-Stake consensus of the Noether sidechain, and pay transaction processing fees.\n\nStakers earn substantial rewards in CTSI by running validator nodes or delegating to community staking pools.",
+    "sybilSafety": "Validator rewards and developer grants require cryptographic proof of execution on RISC-V machines and authentic GitHub repository contributions.",
+    "strategy": "Stake CTSI tokens on the official Cartesi Explorer staking portal to earn staking APY. Developers can explore the Cartesi Rollups framework by deploying Python or SQLite smart contract containers. Test decentralized applications like Dazzle or Biddler built on Cartesi testnets.",
+    "steps": [
+      "Visit <a href=\"https://cartesi.io\" target=\"_blank\" rel=\"noopener noreferrer\">Cartesi.io</a> and connect your Web3 wallet.",
+      "Stake CTSI tokens directly into verified community staking pools on Cartesi Explorer.",
+      "Explore developer documentation on Cartesi Rollups and RISC-V execution.",
+      "Run a local Cartesi Node sandbox to test Linux dApp execution.",
+      "Participate in Cartesi governance votes and community hackathons."
+    ],
+    "faqs": [
+      {
+        "question": "What is the Cartesi Machine?",
+        "answer": "It is a deterministic RISC-V virtual machine that runs a full Linux OS off-chain, allowing developers to code smart contracts in standard programming languages."
+      },
+      {
+        "question": "Why are Cartesi Rollups called application-specific?",
+        "answer": "Each decentralized application gets its own dedicated rollup chain and CPU, meaning heavy computational loads in one dApp never slow down other applications."
+      }
+    ]
+  },
+  {
+    "id": "flux-network",
+    "name": "Flux",
+    "logo": "/images/airdrops/flux-network.svg",
+    "description": "Decentralized cloud computing infrastructure powered by tens of thousands of computational nodes and Proof-of-Useful-Work.",
+    "reward": "FLUX Mining, Staking & Parallel Asset Drops",
+    "category": "DePIN / Cloud Compute",
+    "featured": true,
+    "status": "active",
+    "endTime": "2026-12-31T23:59:59Z",
+    "funding": "Self-Funded / Community Fair Launch",
+    "investors": "Fair Launch, No VC Pre-sale",
+    "overview": "Flux is the world's leading decentralized cloud infrastructure network, providing enterprise-grade computational compute, server orchestration, and decentralized web hosting. Often described as the Web3 alternative to Amazon Web Services (AWS), the Flux network is powered by over 15,000 decentralized bare-metal computational nodes running globally.\n\nFlux operates FluxOS—a second-layer operating system that runs containerized Docker applications redundantly across multiple nodes. Through its innovative Proof-of-Useful-Work (PoUW) initiative, computational power used for cryptographic security is redirected to real-world tasks: AI model training, rendering, and scientific research.\n\nLaunched with a 100% fair launch philosophy (zero pre-mine, zero VC tokens), Flux distributes \"Parallel Assets\" (bridged versions of FLUX on Ethereum, Solana, Base, and BNB Chain) that generate bonus yields for node operators and stakers.",
+    "tokenomics": "The native cryptocurrency is $FLUX, capped at 440,000,000 coins. Block rewards are split 50/50 between GPU miners and deterministic node operators (Cumulus, Nimbus, Stratus tiers).\n\nHolding and running nodes earns Parallel Assets (FLUX-ETH, FLUX-BSC, FLUX-SOL), giving participants multi-chain crypto dividend streams.",
+    "sybilSafety": "Flux nodes require strict physical hardware benchmarking (RAM, SSD read/write speeds, bandwidth throughput) and collateral lockup in FLUX tokens, rendering virtual machine emulator spoofing impossible.",
+    "strategy": "Lock FLUX collateral in Titan Staking or run a home Cumulus node (requiring 1,000 FLUX) to earn continuous block rewards and Parallel Asset snapshots. Deploy decentralized websites or WordPress blogs on FluxOS for under $1/month to experience decentralized hosting.",
+    "steps": [
+      "Download the official non-custodial wallet at <a href=\"https://runonflux.io\" target=\"_blank\" rel=\"noopener noreferrer\">RunOnFlux.io</a> (Zelcore Wallet).",
+      "Stake FLUX in Titan Nodes starting with as little as 50 FLUX.",
+      "Deploy containerized Docker dApps on <a href=\"https://home.runonflux.io\" target=\"_blank\" rel=\"noopener noreferrer\">FluxOS</a>.",
+      "Claim your retroactive Parallel Asset token drops inside Zelcore.",
+      "Vote on XDAO governance proposals determining network compute pricing."
+    ],
+    "faqs": [
+      {
+        "question": "What are Flux Parallel Assets?",
+        "answer": "They are native tokens bridged to major chains (ETH, SOL, BSC) distributed to FLUX holders as multi-chain yield dividends."
+      },
+      {
+        "question": "What is Proof of Useful Work?",
+        "answer": "It is a technological shift that allows mining GPUs to solve complex real-world AI and rendering calculations instead of useless hashing."
+      }
+    ]
+  },
+  {
+    "id": "storj-network",
+    "name": "Storj",
+    "logo": "/images/airdrops/storj-network.svg",
+    "description": "Enterprise decentralized cloud object storage protocol with Amazon S3 compatibility, zero-knowledge encryption, and 99.999% durability.",
+    "reward": "STORJ Node Operator & Partner Rewards",
+    "category": "DePIN / Cloud Storage",
+    "featured": false,
+    "status": "active",
+    "endTime": "2026-11-30T23:59:59Z",
+    "funding": "$30M+",
+    "investors": "Google Ventures, Techstars, BnkToTheFuture, Jump Capital",
+    "overview": "Storj is a pioneer in decentralized cloud object storage, delivering secure, private, and enterprise-grade decentralized storage that is up to 80% cheaper than traditional cloud providers like Amazon AWS S3, Google Cloud, and Microsoft Azure.\n\nStorj achieves extreme security and performance through client-side encryption and erasure coding. When a file is uploaded, it is automatically encrypted with the user's private key, broken into 80 encrypted pieces, and distributed across thousands of independent storage node operators worldwide. Any 29 of those 80 pieces can reconstruct the file with lightning speed, guaranteeing 99.9999999% file durability without trusting any single data center.\n\nBacked by Google Ventures, Storj handles petabytes of enterprise data for media streaming, video rendering, and decentralized backups.",
+    "tokenomics": "The utility token is $STORJ, an ERC-20 token on Ethereum also bridged to Arbitrum and zkSync for low-fee microtransactions.\n\nEnterprise clients pay for storage and bandwidth in STORJ or fiat (which the protocol uses to buy back STORJ on open markets), and node operators receive monthly payout rewards in STORJ for providing drive space.",
+    "sybilSafety": "Storage node operators must prove ongoing storage integrity through cryptographic audits and maintain continuous 24/7 uptime. Nodes that fail audit challenges lose their collateral escrow.",
+    "strategy": "Share unused hard drive space by setting up a Storj Storage Node on PC, Mac, or Raspberry Pi to earn passive monthly STORJ payments. Alternatively, migrate your website backups or multimedia files to Storj DCS using standard AWS S3 credentials.",
+    "steps": [
+      "Visit <a href=\"https://storj.io\" target=\"_blank\" rel=\"noopener noreferrer\">Storj.io</a> and create a free 25GB storage account.",
+      "Generate S3-compatible API credentials to integrate Storj into file managers (FileZilla, Cyberduck).",
+      "Download the Storage Node installer to monetize spare computer storage.",
+      "Configure an Arbitrum or Ethereum wallet address to receive monthly node payouts.",
+      "Explore Storj open-source developer documentation."
+    ],
+    "faqs": [
+      {
+        "question": "Can Storj employees see my uploaded files?",
+        "answer": "No. Files are encrypted client-side with your private password before leaving your computer. Storj has zero access to your unencrypted data."
+      },
+      {
+        "question": "Is Storj compatible with Amazon S3 software?",
+        "answer": "Yes. Storj provides 100% native S3 gateway compatibility, allowing any existing S3 application to switch endpoints in minutes."
+      }
+    ]
+  },
+  {
+    "id": "siacoin-network",
+    "name": "Sia",
+    "logo": "/images/airdrops/siacoin-network.svg",
+    "description": "Foundational decentralized cloud storage platform utilizing cryptographic smart storage contracts and Proof-of-Work storage proofs.",
+    "reward": "SC Host Mining & Renting Rewards",
+    "category": "DePIN / Cloud Storage",
+    "featured": false,
+    "status": "active",
+    "endTime": "2026-12-31T23:59:59Z",
+    "funding": "$10M+",
+    "investors": "Bessemer Venture Partners, Paradigm, Bain Capital Ventures, Dragonfly",
+    "overview": "Sia is one of the earliest and most resilient decentralized cloud storage platforms in Web3 history, launched in 2015 by David Vorick and Luke Champine. Sia creates a trustless peer-to-peer storage marketplace where renters contract with independent storage hosts using automated on-chain storage contracts.\n\nOn Sia, renters deposit Siacoin into a smart contract that dictates storage duration, pricing, and uptime requirements. Hosts must periodically submit cryptographic \"Proof of Storage\" onto the Sia blockchain to prove they still hold the user's encrypted files; only after submitting valid proofs is host collateral released and rent paid. The ecosystem is supported by the Sia Foundation, an independent non-profit funded by protocol block rewards.\n\nWith apps like Renterd and Hostd, Sia provides battle-tested decentralized infrastructure for long-term data preservation.",
+    "tokenomics": "The native utility coin is $SC (Siacoin). Renters spend SC to purchase storage and bandwidth, while hosts lock SC as collateral to guarantee service reliability.\n\nThe protocol also incorporates Siafunds ($SF)—a separate revenue-sharing asset that earns a 3.9% fee on all completed storage contracts across the network.",
+    "sybilSafety": "Storage hosts must lock substantial Siacoin collateral in smart contracts before accepting uploads. If a host goes offline or deletes data, their locked collateral is permanently slashed by the blockchain.",
+    "strategy": "Download the official Renterd client to store encrypted files at a fraction of centralized cloud pricing. Run a Hostd storage node on a home server with high-capacity hard drives to earn recurring SC rental fees. Hold Siacoin to participate in community grant bounties from the Sia Foundation.",
+    "steps": [
+      "Visit <a href=\"https://sia.tech\" target=\"_blank\" rel=\"noopener noreferrer\">Sia.tech</a> and download the official Sia software.",
+      "Set up a non-custodial Siacoin wallet.",
+      "Launch <a href=\"https://github.com/SiaFoundation/renterd\" target=\"_blank\" rel=\"noopener noreferrer\">Renterd</a> to upload and distribute files across global hosts.",
+      "Configure Hostd if you wish to monetize spare terabytes of hard drive capacity.",
+      "Participate in community governance proposals on the Sia Community Forum."
+    ],
+    "faqs": [
+      {
+        "question": "What is a Proof of Storage?",
+        "answer": "It is a cryptographic verification submitted by hosts onto the blockchain proving they still possess the exact file data without revealing the file contents."
+      },
+      {
+        "question": "What are Siafunds?",
+        "answer": "Siafunds are a fixed supply of 10,000 tokens that receive a 3.9% cut of all storage contract payouts on the Sia network."
+      }
+    ]
+  },
+  {
+    "id": "myria-games",
+    "name": "Myria",
+    "logo": "/images/airdrops/myria-games.svg",
+    "description": "Ethereum Layer 2 scaling engine powered by StarkEx ZK-rollups, offering zero gas fee NFT minting and free-to-play Web3 games.",
+    "reward": "MYRIA Node Staking & Game Quests",
+    "category": "Gaming / Layer 2",
+    "featured": true,
+    "status": "active",
+    "endTime": "2026-12-31T23:59:59Z",
+    "funding": "$10M+",
+    "investors": "Gala Games veterans, Animoca Brands partners, Jump Crypto backers",
+    "overview": "Myria is a premier Web3 gaming ecosystem and dedicated Ethereum Layer 2 scaling engine built in partnership with StarkWare. Utilizing StarkEx zero-knowledge rollup technology, Myria delivers up to 9,000 transactions per second with 100% zero gas fees for NFT minting and peer-to-peer asset transfers.\n\nMyria operates both as a developer platform (providing clean B2B SDKs that enable traditional game studios to integrate on-chain assets in days) and as a first-party AAA game publisher (Myria Studios). Flagship games in the ecosystem include Metarush, Metakart, and Block Royale.\n\nThe ecosystem is powered by a decentralized network of over 11,000 community-operated Myria Node licenses that distribute daily $MYRIA token emissions.",
+    "tokenomics": "The native token is $MYRIA, capped at 50,000,000,000 tokens. MYRIA is used for paying developer protocol fees, purchasing in-game assets, staking for exclusive NFT rewards, and rewarding decentralized node runners.\n\nNode operators receive daily MYRIA distributions and exclusive NFT access for providing decentralized consensus and network verification.",
+    "sybilSafety": "Myria Node rewards require authentic daily license verification and a minimum 6-hour daily node uptime. Game quest rewards require active match completions on verified game clients.",
+    "strategy": "Operate a Myria Node or stake MYRIA tokens on Ethereum Layer 2 to earn daily token distributions. Connect your Web3 wallet to the Myria portal and complete free gamer quests to collect exclusive NFT badges and in-game characters for upcoming AAA titles.",
+    "steps": [
+      "Create a free account on <a href=\"https://myria.com\" target=\"_blank\" rel=\"noopener noreferrer\">Myria.com</a>.",
+      "Connect MetaMask to activate your zero-gas Layer 2 Myria Wallet.",
+      "Complete ecosystem onboarding quests to claim free gaming NFTs.",
+      "Play alpha titles like Metarush and Metakart.",
+      "Stake MYRIA tokens on the official portal to earn passive staking rewards."
+    ],
+    "faqs": [
+      {
+        "question": "Are NFT transactions free on Myria?",
+        "answer": "Yes! Myria utilizes StarkWare zero-knowledge rollups to provide 100% gas-free NFT minting and trading."
+      },
+      {
+        "question": "What do Myria Nodes do?",
+        "answer": "Myria Nodes form the decentralized infrastructure of the network, securing asset routing and receiving daily MYRIA rewards."
+      }
+    ]
+  },
+  {
+    "id": "vulcan-forged",
+    "name": "Vulcan Forged",
+    "logo": "/images/airdrops/vulcan-forged.svg",
+    "description": "Premier Web3 gaming studio, Elysium Layer 1 carbon-neutral blockchain, and VulcanVerse fantasy MMORPG.",
+    "reward": "PYR Staking & Elysium Gas Rebates",
+    "category": "Gaming / Layer 1",
+    "featured": false,
+    "status": "active",
+    "endTime": "2026-11-30T23:59:59Z",
+    "funding": "$15M+",
+    "investors": "SkyBridge Capital, Anthony Scaramucci, Community Owned",
+    "overview": "Vulcan Forged is an established Web3 gaming studio, NFT marketplace, and decentralized blockchain ecosystem founded by Jamie Thomson. Operating its own custom EVM-compatible Proof-of-Stake Layer 1 blockchain known as Elysium, Vulcan Forged provides green, carbon-neutral infrastructure tailored for gaming transactions.\n\nThe flagship title is VulcanVerse: an expansive Greco-Roman fantasy MMORPG where players own land plots, summon mythical companions (Vulcanites), and forage for valuable alchemy resources. In addition to VulcanVerse, the studio hosts over 10 games, including Berserk (a tactical collectible card game) and Vulcan Runner.\n\nWith millions in secondary marketplace volume and native staking live on Elysium, Vulcan Forged remains a gaming heavyweight.",
+    "tokenomics": "The dual-token economy features $PYR (the primary utility, staking, and governance token on Ethereum, Polygon, and Elysium) and $LAVA (the secondary play-to-earn reward token earned in-game).\n\nStaking PYR in VulcanVerse land plots, Elysium validator nodes, or the Agora marketplace grants passive fee-sharing distributions.",
+    "sybilSafety": "In-game rewards require real gameplay MMR ratings and active battle participation. Elysium validator and node staking require significant PYR collateral lockups.",
+    "strategy": "Hold or stake PYR tokens on Elysium to earn staking rewards and receive gas rebates. Play Berserk on PC or mobile to earn LAVA tokens in ranked matches. Level up Vulcanites and stake land plots inside VulcanVerse to unlock daily passive resource yields.",
+    "steps": [
+      "Create a Vulcan Forged account at <a href=\"https://vulcanforged.com\" target=\"_blank\" rel=\"noopener noreferrer\">VulcanForged.com</a>.",
+      "Download Berserk CCG on PC, iOS, or Android to start playing for free.",
+      "Bridge PYR to the Elysium Layer 1 blockchain via the official Elysium bridge.",
+      "Stake PYR in Agora liquidity pools or validator nodes.",
+      "Participate in seasonal gaming tournaments with cryptocurrency prize pools."
+    ],
+    "faqs": [
+      {
+        "question": "What is Elysium?",
+        "answer": "Elysium is Vulcan Forged's proprietary carbon-neutral Layer 1 blockchain optimized specifically for metaverse and gaming dApps."
+      },
+      {
+        "question": "What is the difference between PYR and LAVA?",
+        "answer": "PYR is the core governance and staking token capped at 50M tokens, while LAVA is the in-game reward token earned through gameplay."
+      }
+    ]
+  },
+  {
+    "id": "ultra-games",
+    "name": "Ultra",
+    "logo": "/images/airdrops/ultra-games.svg",
+    "description": "PC video game distribution platform powered by a custom EOSIO-based blockchain, enabling digital game reselling and developer revenue.",
+    "reward": "UOS Staking & Digital Game Trading",
+    "category": "Gaming / Platform",
+    "featured": false,
+    "status": "active",
+    "endTime": "2026-12-31T23:59:59Z",
+    "funding": "$10M+",
+    "investors": "AMD, Ubisoft, Theta Network, Bitfinex",
+    "overview": "Ultra is a next-generation PC video game distribution platform engineered to challenge the monopoly of centralized stores like Steam. Powered by a customized, carbon-neutral EOSIO-derived blockchain, Ultra allows players to not only purchase and play PC games, but also resell their digital games and in-game items on an open marketplace.\n\nIn traditional digital storefronts, purchased games are locked forever to a user's account. On Ultra, publishers can choose to enable secondary resale terms, earning royalties every time a player resells a completed game to someone else. Ultra features partnerships with global hardware giants like AMD and gaming publishers like Ubisoft.\n\nWith zero transaction fees for end users and an integrated live streaming and tournament platform (Ultra Arena), Ultra brings Web3 asset mobility to mainstream PC gaming.",
+    "tokenomics": "The ecosystem runs on $UOS. Players use UOS to purchase digital games, trade virtual items on the Uniq marketplace, and enter esports tournaments on Ultra Arena.\n\nStaking UOS grants users priority access to limited physical collector editions, exclusive closed betas, and daily gaming loot drops.",
+    "sybilSafety": "Ultra requires desktop client installation, unique device hardware fingerprinting, and account verification to trade games, preventing multi-account farming.",
+    "strategy": "Download the Ultra desktop client on PC. Stake UOS tokens on the platform to earn Uniq NFT drops and unlock platform fee discounts. Compete in free tournaments on Ultra Arena to win cash and crypto prizes, and trade digital games on the Uniq Marketplace.",
+    "steps": [
+      "Download and install Ultra on your PC from <a href=\"https://ultra.io\" target=\"_blank\" rel=\"noopener noreferrer\">Ultra.io</a>.",
+      "Create your free Ultra account and non-custodial blockchain wallet.",
+      "Stake UOS tokens inside the client to qualify for Uniq loot distributions.",
+      "Join tournaments in Ultra Arena to compete in popular competitive PC games.",
+      "Browse and trade digital games and collectibles on the Uniq Marketplace."
+    ],
+    "faqs": [
+      {
+        "question": "Can I really resell my digital PC games on Ultra?",
+        "answer": "Yes! If the game publisher enables secondary sales, you can sell your digital game license to other players on the marketplace."
+      },
+      {
+        "question": "Do I need to pay gas fees on Ultra?",
+        "answer": "No. Ultra's custom blockchain provides free, instant transactions for all gaming activities."
+      }
+    ]
+  },
+  {
+    "id": "superverse-dao",
+    "name": "SuperVerse",
+    "logo": "/images/airdrops/superverse-dao.svg",
+    "description": "Decentralized gaming DAO and consumer entertainment ecosystem connecting hundreds of thousands of gamers across Web3.",
+    "reward": "SUPER Staking & Game Alpha Access",
+    "category": "Gaming / DAO",
+    "featured": true,
+    "status": "active",
+    "endTime": "2026-12-31T23:59:59Z",
+    "funding": "$10M+",
+    "investors": "Animoca Brands, Mechanism Capital, Delphi Digital, Polygon Studios",
+    "overview": "SuperVerse (formerly SuperFarm) is a premier Web3 gaming DAO and entertainment ecosystem focused on onboarding the next billion gamers. Founded by prominent Web3 entrepreneur Elliot Wainman (EllioTrades), SuperVerse is governed by a decentralized autonomous organization that incubates and funds top-tier blockchain titles.\n\nThe core of the SuperVerse ecosystem is GigaChad / SuperCraft: modular gaming tools and marketplace protocols that enable gaming studios to deploy verifiable NFT economies without building complex smart contracts from scratch. Flagship titles affiliated with the DAO include Impostors (a social deduction multiplayer game).\n\nWith tier-1 backing and active community governance, the DAO directs millions in capital toward gaming grants and community rewards.",
+    "tokenomics": "The native cryptocurrency is $SUPER. Staking SUPER tokens grants users voting power in DAO governance, generates passive staking yield, and unlocks VIP whitelists for newly incubated gaming NFT drops.\n\nPlatform fees generated across SuperVerse marketplace protocols are used for continuous token buybacks and treasury accumulation.",
+    "sybilSafety": "DAO voting and VIP whitelist tiers require verified on-chain wallet staking on Ethereum mainnet, eliminating fake multi-account sybil attacks.",
+    "strategy": "Stake SUPER tokens on the official SuperVerse staking portal on Ethereum to accumulate staking energy and yield. Participate in DAO governance discussions on Discord and Snapshot. Follow upcoming gaming launchpad announcements to secure early alpha testing access.",
+    "steps": [
+      "Visit the official portal at <a href=\"https://superverse.co\" target=\"_blank\" rel=\"noopener noreferrer\">SuperVerse.co</a>.",
+      "Connect MetaMask and bridge SUPER to supported staking pools.",
+      "Stake your SUPER tokens to earn staking rewards and governance voting power.",
+      "Vote on active DAO proposals on Snapshot.",
+      "Explore affiliated gaming releases like Impostors."
+    ],
+    "faqs": [
+      {
+        "question": "What was SuperVerse formerly called?",
+        "answer": "It was formerly known as SuperFarm before expanding into a broader gaming DAO and infrastructure ecosystem."
+      },
+      {
+        "question": "What are the benefits of staking SUPER?",
+        "answer": "Stakers earn staking yield, vote on treasury proposals, and gain early access to partner gaming airdrops."
+      }
+    ]
+  },
+  {
+    "id": "somnium-space",
+    "name": "Somnium Space",
+    "logo": "/images/airdrops/somnium-space.svg",
+    "description": "Open-source, persistent Virtual Reality metaverse on Ethereum, featuring VR headset compatibility and player-owned virtual land.",
+    "reward": "CUBE Staking & Metaverse Creator Rewards",
+    "category": "Metaverse / VR",
+    "featured": false,
+    "status": "active",
+    "endTime": "2026-11-30T23:59:59Z",
+    "funding": "$10M+",
+    "investors": "Winklevoss Capital, Animoca Brands, Outlier Ventures, Polygon",
+    "overview": "Somnium Space is a pioneering open, social, and persistent Virtual Reality (VR) metaverse platform built on the Ethereum blockchain. Founded by Artur Sychov, Somnium Space allows users to buy virtual land parcels, build custom 3D structures, host live concerts, and monetize interactive digital experiences.\n\nUnlike traditional closed-source VR platforms like Meta Horizon, everything in Somnium Space is decentralized and player-owned. Land plots, avatars, custom vehicles, and digital art are sovereign ERC-721 NFTs tradeable on OpenSea. The platform supports all major PC VR headsets (Meta Quest, HTC Vive, Valve Index, Somnium VR1) as well as standard browser-based 2D client access.\n\nBacked by Winklevoss Capital and Animoca Brands, Somnium Space is the premier destination for immersive Web3 virtual reality.",
+    "tokenomics": "The utility token is $CUBE, an ERC-20 token used as the primary transactional currency within the virtual world. CUBE is used for purchasing in-world goods, buying tickets to virtual events, teleportation, and tipping VR creators.\n\nCreators stake CUBE on their land parcels to expand building height limits and activate karma voting multiplier rewards.",
+    "sybilSafety": "Land ownership and in-world event verification require authentic cryptographic signatures and VR telemetry, preventing automated farming scripts.",
+    "strategy": "Download the Somnium Space VR client for PC or launch the WebGL browser client to explore community worlds. Attend live virtual concerts and events to collect exclusive POAP badges. Create and mint 3D avatars or digital merchandise on Polygon and sell them inside your virtual gallery.",
+    "steps": [
+      "Visit <a href=\"https://somniumspace.com\" target=\"_blank\" rel=\"noopener noreferrer\">SomniumSpace.com</a> and download the PC client or launch the web explorer.",
+      "Connect your MetaMask wallet holding Somnium CUBE or NFTs.",
+      "Customize your Web3 avatar and explore virtual cities and art galleries.",
+      "Attend community meetups and musical events to earn exclusive digital wearables.",
+      "Trade virtual land and custom wearables on the Somnium marketplace."
+    ],
+    "faqs": [
+      {
+        "question": "Do I need a VR headset to use Somnium Space?",
+        "answer": "No! You can play using standard PC mode with a mouse and keyboard, or through any modern web browser."
+      },
+      {
+        "question": "What is the Somnium VR1?",
+        "answer": "The Somnium VR1 is an open-source, high-end PC VR headset engineered directly by Somnium Space for ultra-high-resolution VR immersion."
+      }
+    ]
+  },
+  {
+    "id": "lyra-finance",
+    "name": "Lyra Finance",
+    "logo": "/images/airdrops/lyra-finance.svg",
+    "description": "Premier decentralized crypto options exchange operating on its own custom OP Stack Layer 2 rollup (Derive), backed by Paradigm.",
+    "reward": "LYRA Staking & Yield Vaults",
+    "category": "DeFi / Options & Derivs",
+    "featured": true,
+    "status": "active",
+    "endTime": "2026-12-31T23:59:59Z",
+    "funding": "$13.3M+",
+    "investors": "Paradigm, Framework Ventures, Mechanism Capital, Defiance Capital",
+    "overview": "Lyra Finance (transitioning to Derive) is the undisputed leader in decentralized cryptocurrency options and derivatives trading. Historically operating across Optimism and Arbitrum, the protocol evolved into its own dedicated OP Stack Layer 2 rollup—Derive—engineered specifically for ultra-low latency derivatives clearing.\n\nLyra pioneered the world's first automated market maker (AMM) specifically designed for European-style cash-settled options, incorporating implied volatility smile curves and automated delta-hedging. With Derive, the protocol brings institutional-grade cross-margin, portfolio margin, and sub-10ms trade execution to on-chain options traders.\n\nBacked by tier-1 crypto venture funds Paradigm and Framework, Lyra has processed tens of billions in options volume.",
+    "tokenomics": "The governance and utility token is $LYRA (transitioning to $DRV). Token holders stake LYRA to earn trading fee sharing rewards, boost their liquidity mining APY, and participate in security module backstops.\n\n100% of protocol fees generated from trading spreads and liquidations are directed toward token stakers and treasury accumulation.",
+    "sybilSafety": "Options trading and margin liquidity requires authentic collateral deposits (USDC, ETH, BTC) and on-chain contract risk, completely eliminating non-economic bot farms.",
+    "strategy": "Bridge USDC or ETH to the Derive (Lyra) Layer 2 network. Trade call and put options across BTC, ETH, and SOL to generate real trading volume. Deposit USDC into the Automated Market Maker (AMM) Liquidity Vaults to earn real yield from options bid-ask spreads and stake LYRA to boost your yield tier.",
+    "steps": [
+      "Connect your Web3 wallet to <a href=\"https://lyra.finance\" target=\"_blank\" rel=\"noopener noreferrer\">Lyra Finance / Derive</a>.",
+      "Deposit collateral (USDC/ETH) into the cross-margin account.",
+      "Execute an options trade (buy a call or put option) with sub-second execution.",
+      "Deposit capital into the automated Market Maker Vaults to collect trading fees.",
+      "Stake LYRA tokens in the Security Module to earn compounding protocol revenue."
+    ],
+    "faqs": [
+      {
+        "question": "What is Derive?",
+        "answer": "Derive is Lyra's dedicated Layer 2 rollup built on the OP Stack optimized specifically for high-speed options and perpetuals clearing."
+      },
+      {
+        "question": "How do Lyra AMM vaults manage risk?",
+        "answer": "Vaults automatically delta-hedge market exposure using integrated perpetual contracts, protecting liquidity providers from directional market moves."
+      }
+    ]
+  },
+  {
+    "id": "thales-market",
+    "name": "Thales Market",
+    "logo": "/images/airdrops/thales-market.svg",
+    "description": "Decentralized parimutuel prediction markets and sports betting protocol operating across Optimism, Arbitrum, Base, and Polygon.",
+    "reward": "THALES Staking & Overtime Betting Rewards",
+    "category": "DeFi / Prediction Markets",
+    "featured": false,
+    "status": "active",
+    "endTime": "2026-11-30T23:59:59Z",
+    "funding": "$2.5M+",
+    "investors": "Synthetix, Framework Ventures, Apollo Capital, LD Capital",
+    "overview": "Thales Market is a pioneer in decentralized parimutuel prediction markets and sports trading, incubated from the Synthetix ecosystem. Operating on high-speed Layer 2 rollups including Optimism, Arbitrum, and Base, Thales allows users to trade directional positioning on financial crypto prices, pop culture events, and sports matches.\n\nThe protocol's flagship consumer application—Overtime Markets—is the largest decentralized sports betting platform in Web3, processing over $100 Million in betting volume across Premier League, NFL, NBA, and Champions League games with Chainlink oracle feeds. By eliminating predatory bookmakers and account limits, Thales guarantees censorship-resistant payouts.\n\nThales distributes weekly protocol revenue and staking rewards to community members who stake $THALES tokens.",
+    "tokenomics": "The native token is $THALES. Staking THALES unlocks weekly protocol revenue dividends paid in native Layer 2 ETH/OP, grants fee discounts on Overtime, and provides governance rights over prediction market parameters.\n\nThe protocol incorporates gamified staking multipliers where active betting on Overtime boosts your weekly staking yield.",
+    "sybilSafety": "Weekly staking dividends require real-capital token lockup and active volume interaction. Automated bot spam is mitigated through Chainlink oracle resolution checks.",
+    "strategy": "Stake THALES tokens on Optimism or Arbitrum to receive weekly protocol fee rewards. Place bets on sports matches on Overtime Markets or predict crypto price movements on Thales Up/Down markets. Provide liquidity to the Overtime Single-Collateral Vaults to earn automated liquidity provider yields.",
+    "steps": [
+      "Visit <a href=\"https://thalesmarket.io\" target=\"_blank\" rel=\"noopener noreferrer\">ThalesMarket.io</a> and connect your Web3 wallet.",
+      "Bridge funds to Optimism, Arbitrum, or Base.",
+      "Stake THALES tokens on the official staking dashboard to earn weekly rewards.",
+      "Place a prediction or sports wager on <a href=\"https://overtimemarkets.xyz\" target=\"_blank\" rel=\"noopener noreferrer\">Overtime Markets</a>.",
+      "Deposit USDC into the Overtime Parlay AMM Liquidity Vault to earn fee yields."
+    ],
+    "faqs": [
+      {
+        "question": "What is Overtime Markets?",
+        "answer": "Overtime is Thales' sports trading platform that uses Chainlink oracles to provide fully decentralized, non-custodial sports betting."
+      },
+      {
+        "question": "In what currency are staking rewards paid?",
+        "answer": "Staking THALES pays rewards in additional THALES tokens plus direct ETH/OP protocol revenue fee splits."
+      }
+    ]
+  },
+  {
+    "id": "overnight-finance",
+    "name": "Overnight Finance",
+    "logo": "/images/airdrops/overnight-finance.svg",
+    "description": "Decentralized asset management protocol generating daily yield-bearing stablecoins (USD+, USDT+, ETH+) via delta-neutral DeFi strategies.",
+    "reward": "OVN Staking & Bribe Voting Rewards",
+    "category": "DeFi / Yield Stablecoins",
+    "featured": true,
+    "status": "active",
+    "endTime": "2026-12-31T23:59:59Z",
+    "funding": "$2M+",
+    "investors": "Hack VC, Yield Guild partners, Community DAO",
+    "overview": "Overnight Finance is a pioneering decentralized asset management and real-yield protocol operating across Arbitrum, Optimism, Base, and Polygon. The protocol solves the idle cash dilemma in crypto by creating fully backed, yield-bearing tokens—anchored by its flagship product, USD+.\n\nUnlike traditional stablecoins like USDC or USDT that generate zero native return for holders, USD+ automatically rebases daily into your wallet, paying out 8% to 15% annual percentage yield backed by low-risk delta-neutral cash-and-carry strategies, Aave lending, and stablecoin AMM yields. Holding USD+ in a Web3 wallet is like holding a high-yield savings account where balance grows every 24 hours.\n\nThe protocol also provides ETH+ (yield-bearing liquid staked Ethereum) and the OVN governance token with veTokenomics.",
+    "tokenomics": "The governance asset is $OVN. OVN can be locked for veOVN to participate in weekly gauge voting, directing protocol yield emissions and earning 100% of external incentive bribes from decentralized exchange partners (Aerodrome, Velodrome, Ramses).\n\nProtocol profits from USD+ performance fees are used to market-buy OVN and distribute real-yield dividends.",
+    "sybilSafety": "Yield distributions are mathematically bound to deposited stablecoin capital via automated smart contract rebasing, completely immune to script-based sybil farming.",
+    "strategy": "Mint USD+ using USDC on Base or Arbitrum. Hold USD+ in your wallet to receive automatic daily compounding rebases. Pair USD+ with USDC on DEXs like Aerodrome or Velodrome to farm ultra-high yield liquidity gauges. Lock OVN for veOVN to collect weekly bribe payouts.",
+    "steps": [
+      "Visit <a href=\"https://overnight.fi\" target=\"_blank\" rel=\"noopener noreferrer\">Overnight.fi</a> and connect your Web3 wallet.",
+      "Mint USD+ using standard USDC with zero minting fees.",
+      "Watch your wallet balance increase automatically through daily 24-hour rebases.",
+      "Deposit USD+ into concentrated liquidity pairs on Aerodrome or Velodrome.",
+      "Lock OVN tokens for veOVN to vote on weekly liquidity gauges and claim bribes."
+    ],
+    "faqs": [
+      {
+        "question": "What is a rebasing stablecoin?",
+        "answer": "A rebasing token automatically increases its balance in your wallet to reflect earned yield, without requiring you to manually claim or stake."
+      },
+      {
+        "question": "Is USD+ 100% collateralized?",
+        "answer": "Yes. Every USD+ is 100% backed by low-risk collateral held in transparent on-chain vaults (USDC, DAI, Aave aTokens)."
+      }
+    ]
+  },
+  {
+    "id": "makerdao-sky",
+    "name": "MakerDAO",
+    "logo": "/images/airdrops/makerdao-sky.svg",
+    "description": "The foundation of decentralized finance, creator of the DAI stablecoin and transitioning to Sky (USDS & SKY) with SubDAOs.",
+    "reward": "USDS Savings Rate (SSR) & SubDAO Token Drops",
+    "category": "DeFi / Decentralized Stablecoin",
+    "featured": true,
+    "status": "active",
+    "endTime": "2026-12-31T23:59:59Z",
+    "funding": "$54M+ (Historical Backing)",
+    "investors": "Andreessen Horowitz (a16z), Paradigm, Polychain Capital, Dragonfly",
+    "overview": "MakerDAO is the founding titan of decentralized finance (DeFi), established by Rune Christensen in 2014. MakerDAO created DAI—the world's first decentralized, crypto-collateralized stablecoin with billions in circulation. Operating collateralized debt positions (CDPs / Vaults), MakerDAO enables users to generate DAI by locking ETH, WBTC, and real-world assets (US Treasuries).\n\nUnder the landmark \"Endgame\" transition, MakerDAO has officially rebranded to Sky, introducing the new USDS stablecoin and SKY governance token. Sky unlocks autonomous decentralized SubDAOs (such as Spark Protocol), giving birth to independent ecosystem protocols with dedicated token models.\n\nUsers who deposit USDS into the Sky Savings Rate (SSR) earn native risk-free decentralized yield and farm allocations of newly launching SubDAO tokens.",
+    "tokenomics": "The governance token is $MKR (upgrading to $SKY at a 1:24,000 ratio), and the stablecoin is $DAI (upgrading 1:1 to $USDS). SKY holders govern the entire decentralized credit system, set stability fees, and vote on executive upgrades.\n\nSurplus stability fees collected from loan interest are used for the Smart Burn Engine, which automatically buys and burns MKR/SKY on open DEX markets.",
+    "sybilSafety": "Sky Savings Rate and SubDAO token farming are directly proportional to capital deposited into official smart contract vaults on Ethereum and Layer 2s, rendering automated bot scripts ineffective.",
+    "strategy": "Upgrade DAI to USDS or deposit USDC directly into the Sky app at <a href=\"https://sky.money\" target=\"_blank\" rel=\"noopener noreferrer\">Sky.money</a>. Activate the Sky Savings Rate to earn high annual yields paid directly in USDS. Allocate savings to farm newly launched SubDAO tokens (like SPK) without impermanent loss.",
+    "steps": [
+      "Visit <a href=\"https://sky.money\" target=\"_blank\" rel=\"noopener noreferrer\">Sky.money</a> and connect your Web3 wallet.",
+      "Convert DAI to USDS at a guaranteed 1:1 ratio.",
+      "Deposit USDS into the Sky Savings Rate module to earn real-time compounding yield.",
+      "Select a featured SubDAO (such as Spark) to farm upcoming SubDAO governance tokens.",
+      "Participate in Sky governance debates and executive votes."
+    ],
+    "faqs": [
+      {
+        "question": "What is the relationship between MakerDAO and Sky?",
+        "answer": "Sky is the official Endgame evolution and rebrand of MakerDAO, introducing USDS, SKY tokens, and autonomous SubDAOs."
+      },
+      {
+        "question": "Are users forced to upgrade from DAI and MKR?",
+        "answer": "No. Both DAI and MKR will continue to exist alongside USDS and SKY, allowing users to upgrade voluntarily at their convenience."
+      }
+    ]
+  },
+  {
+    "id": "compound-finance",
+    "name": "Compound",
+    "logo": "/images/airdrops/compound-finance.svg",
+    "description": "Pioneer decentralized autonomous algorithmic money market on Ethereum and Layer 2s, powering billions in lending and borrowing.",
+    "reward": "COMP Governance & Supply Interest",
+    "category": "DeFi / Lending",
+    "featured": true,
+    "status": "active",
+    "endTime": "2026-12-31T23:59:59Z",
+    "funding": "$33.2M+",
+    "investors": "a16z, Bain Capital Crypto, Polychain Capital, Paradigm, Coinbase Ventures",
+    "overview": "Compound Finance is a foundational pioneer of the decentralized finance movement, founded by Robert Leshner in 2018. Compound invented algorithmic, autonomous interest rate markets on Ethereum: users deposit cryptocurrency to earn continuous interest, or borrow assets against their collateral with dynamic rates determined by supply and demand curves.\n\nIn 2020, Compound ignited the famous \"DeFi Summer\" by introducing liquidity mining and the $COMP governance token, pioneering the decentralized community governance model widely adopted across Web3 today. With Compound III (Comet), the protocol introduced isolated single-borrowable collateral architectures (such as the USDC and USDS markets), dramatically enhancing security by preventing illiquid collateral contagion.\n\nCompound has safely processed over $50 Billion in cumulative loans across Ethereum, Arbitrum, Optimism, Base, and Polygon.",
+    "tokenomics": "The governance asset is $COMP, capped at 10,000,000 tokens. COMP gives holders complete governance control over protocol parameters, including supported collateral types, borrow limits, and liquidation thresholds.\n\nBorrowers and lenders earn continuous COMP token distributions on supported active markets.",
+    "sybilSafety": "Supply and borrow interest is mathematically determined by on-chain capital allocation in smart contracts. Sybil farming without capital is impossible.",
+    "strategy": "Supply collateral (ETH, cbETH, WBTC) into Compound III on Base or Arbitrum. Borrow USDC against your assets to deploy into high-yield liquidity farms while continuing to earn collateral appreciation. Vote on Compound DAO governance proposals to participate in protocol management.",
+    "steps": [
+      "Connect your Web3 wallet to <a href=\"https://compound.finance\" target=\"_blank\" rel=\"noopener noreferrer\">Compound.finance</a>.",
+      "Select your preferred network (Base, Arbitrum, Ethereum, or Optimism).",
+      "Supply approved collateral assets into the Compound III market.",
+      "Borrow stablecoins or ETH against your deposited collateral balance.",
+      "Monitor your account Health Factor to ensure collateral ratios remain safely above liquidation thresholds."
+    ],
+    "faqs": [
+      {
+        "question": "What is Compound III (Comet)?",
+        "answer": "Compound III is a streamlined architecture where each deployment features a single borrowable asset, preventing risk contagion from volatile collateral."
+      },
+      {
+        "question": "What was the significance of Compound in DeFi history?",
+        "answer": "Compound launched the first major governance token liquidity mining program in 2020, sparking the historic \"DeFi Summer\"."
+      }
+    ]
+  },
+  {
+    "id": "aave-protocol",
+    "name": "Aave",
+    "logo": "/images/airdrops/aave-protocol.svg",
+    "description": "The world's largest decentralized non-custodial liquidity protocol, securing over $20B in assets across 12+ blockchains.",
+    "reward": "AAVE Staking Safety Module & Merit Rewards",
+    "category": "DeFi / Lending",
+    "featured": true,
+    "status": "active",
+    "endTime": "2026-12-31T23:59:59Z",
+    "funding": "$49M+",
+    "investors": "Blockchain Capital, Standard Crypto, Blockchain.com, Three Arrows",
+    "overview": "Aave is the indisputable juggernaut of decentralized finance, operating as the largest non-custodial liquidity protocol in existence with over $20 Billion in Total Value Locked (TVL). Founded by Stani Kulechov and originating as ETHLend in 2017, Aave pioneered cornerstone DeFi primitives including Flash Loans, variable/stable borrow rates, and cross-chain portals.\n\nWith Aave V3, the protocol introduced High-Efficiency Mode (eMode) allowing users to borrow pegged assets with up to 97% capital efficiency, Isolation Mode for risky assets, and cross-chain asset bridging. Aave also launched GHO—a decentralized, multi-collateral stablecoin native to the Aave protocol.\n\nGoverned completely by Aave DAO, the protocol operates the \"Merit\" incentive system, distributing millions in weekly rewards to active users across Ethereum, Arbitrum, Base, and Avalanche.",
+    "tokenomics": "The native governance and security asset is $AAVE, capped at 16,000,000 tokens. Token holders stake AAVE into the Safety Module to act as an insurance backstop, earning protocol fee dividends and discounted borrowing rates on GHO.\n\nAave DAO generates hundreds of millions in annual revenue from protocol reserve factors and liquidation fees.",
+    "sybilSafety": "Merit rewards and staking returns are calculated directly from verified on-chain lending balances and borrowing activity, making Sybil bot manipulation economically unviable.",
+    "strategy": "Deposit USDC, ETH, or wstETH into Aave V3 on Base, Arbitrum, or Ethereum. Borrow GHO at discounted interest rates by holding staked AAVE (stkAAVE). Stake AAVE in the Safety Module to earn staking yield and qualify for Aave DAO Merit reward boosts.",
+    "steps": [
+      "Visit <a href=\"https://aave.com\" target=\"_blank\" rel=\"noopener noreferrer\">Aave.com</a> and connect your non-custodial wallet.",
+      "Deposit assets (ETH, WBTC, USDC) to earn passive supply interest.",
+      "Enable your deposited assets as collateral and borrow GHO or stablecoins.",
+      "Stake AAVE in the Safety Module to earn staking APY and secure the protocol.",
+      "Participate in Aave DAO Snapshot votes and community governance discussions."
+    ],
+    "faqs": [
+      {
+        "question": "What is a Flash Loan?",
+        "answer": "A Flash Loan is an uncollateralized loan that allows users to borrow millions in crypto without upfront collateral, provided the loan is borrowed and repaid within the same blockchain transaction."
+      },
+      {
+        "question": "What is GHO?",
+        "answer": "GHO is a decentralized, overcollateralized stablecoin minted natively against crypto collateral deposited into Aave protocol."
+      }
+    ]
+  },
+  {
+    "id": "uniswap-protocol",
+    "name": "Uniswap",
+    "logo": "/images/airdrops/uniswap-protocol.svg",
+    "description": "The premier decentralized automated market maker, executing over $2 Trillion in volume with V4 hooks and Unichain Layer 2.",
+    "reward": "UNI Governance & Unichain Early Access",
+    "category": "DeFi / AMM",
+    "featured": true,
+    "status": "active",
+    "endTime": "2026-12-31T23:59:59Z",
+    "funding": "$176M+",
+    "investors": "Andreessen Horowitz (a16z), Paradigm, Polychain Capital, Variant",
+    "overview": "Uniswap is the foundational pillar of the entire decentralized exchange landscape, engineered by Hayden Adams in 2018. By introducing the constant product automated market maker formula (x * y = k), Uniswap eliminated the need for centralized order books and market makers, allowing anyone to swap tokens or provide liquidity permissionlessly.\n\nUniswap has processed over $2 Trillion in cumulative volume. Through Uniswap V3, it revolutionized capital efficiency with concentrated liquidity, allowing LPs to allocate capital within custom price ranges. With Uniswap V4, the protocol introduces \"Hooks\"—custom smart contract plugins enabling limit orders, dynamic fees, and on-chain TWAMM orders. Furthermore, Uniswap announced Unichain: a dedicated Superchain Layer 2 rollup built with Flashbots for sub-second execution and provable MEV protection.\n\nUniswap is governed by the Uniswap DAO, which holds one of the largest decentralized treasuries in cryptocurrency.",
+    "tokenomics": "The governance token is $UNI, capped at 1,000,000,000 tokens. UNI was originally distributed via the famous 400 UNI retroactive airdrop in September 2020. The Uniswap DAO governs the protocol fee switch, which can activate fee sharing for UNI stakers.\n\nUnichain validator incentives and transaction sequencing fees will deeply integrate with UNI tokenomics.",
+    "sybilSafety": "Historical and future Uniswap incentives require authentic liquidity provision and real multi-transaction swap history with unique contract interactions.",
+    "strategy": "Provide concentrated liquidity on Uniswap V3 on Ethereum, Base, or Arbitrum across high-volume pairs (ETH/USDC, WBTC/ETH). Test Uniswap V4 hooks and sandbox contracts. Bridge assets to the upcoming Unichain testnet and execute swaps to establish an early activity footprint on Uniswap's native Layer 2.",
+    "steps": [
+      "Visit <a href=\"https://uniswap.org\" target=\"_blank\" rel=\"noopener noreferrer\">Uniswap.org</a> and connect your Web3 wallet.",
+      "Swap tokens with automated Smart Order Routing across Layer 2 networks.",
+      "Provide concentrated liquidity within active tick ranges on Uniswap V3.",
+      "Experiment with Uniswap V4 developer hook templates on testnet.",
+      "Delegate UNI governance votes to verified community delegates or participate in DAO votes."
+    ],
+    "faqs": [
+      {
+        "question": "What is Unichain?",
+        "answer": "Unichain is Uniswap's dedicated Layer 2 network built on the OP Stack in collaboration with Flashbots to deliver 1-second block times and MEV protection."
+      },
+      {
+        "question": "What are Uniswap V4 Hooks?",
+        "answer": "Hooks are plugins that let developers customize how liquidity pools operate, enabling features like on-chain limit orders, dynamic volatility fees, and custom oracles."
+      }
+    ]
+  },
+  {
+    "id": "bancor-network",
+    "name": "Bancor",
+    "logo": "/images/airdrops/bancor-network.svg",
+    "description": "Pioneer of the automated market maker (AMM) in 2017, introducing Carbon DeFi for automated asymmetric trading strategies.",
+    "reward": "BNT Staking & Carbon Trading Rewards",
+    "category": "DeFi / AMM & Carbon",
+    "featured": false,
+    "status": "active",
+    "endTime": "2026-11-30T23:59:59Z",
+    "funding": "$153M+ (Historical ICO & VC)",
+    "investors": "Tim Draper, Blockchain Capital, Collider Ventures",
+    "overview": "Bancor is the historical pioneer of automated liquidity, having invented the world's first automated market maker (AMM) on Ethereum in 2017—a full year before Uniswap. Founded by Guy and Galia Benartzi, Bancor fundamentally proved that mathematical bonding curves could replace order books for digital asset exchange.\n\nIn recent years, Bancor engineered Carbon DeFi: a groundbreaking decentralized trading protocol that enables asymmetric, recurring trading strategies. Unlike traditional AMMs where buy and sell orders are linked to the same price curve, Carbon allows traders to create linked limit orders with distinct buy and sell price ranges (e.g., buy ETH when it dips between $2,400-$2,500 and automatically sell it when it rallies to $2,800-$2,900) with zero MEV sandwich risk.\n\nOperating across Ethereum, Base, Arbitrum, and Sei, Bancor continues to advance on-chain quantitative trading.",
+    "tokenomics": "The native network token is $BNT. BNT is used for governance of the Bancor DAO and provides liquidity backstops within the protocol.\n\nCarbon DeFi strategies generate trading fees that are directed toward BNT token burns and protocol-owned liquidity accumulation.",
+    "sybilSafety": "Carbon DeFi strategies require real deposited liquidity and execution against market price movements. Fake transaction spam is blocked by on-chain gas costs.",
+    "strategy": "Create an automated recurring range trading strategy on Carbon DeFi on Base or Ethereum. Provide liquidity in Bancor pools or stake BNT in the Bancor DAO. Utilize Carbon's asymmetric limit orders to accumulate dips and take profit automatically without paying continuous trading fees.",
+    "steps": [
+      "Visit <a href=\"https://carbondefi.xyz\" target=\"_blank\" rel=\"noopener noreferrer\">CarbonDefi.xyz</a> or Bancor.network.",
+      "Connect your Web3 wallet on Ethereum, Base, or Arbitrum.",
+      "Configure an asymmetric trading strategy (custom buy range and sell range).",
+      "Deposit the quote asset and let smart contracts execute automated buy-low, sell-high cycles.",
+      "Participate in Bancor DAO governance votes on Discourse and Snapshot."
+    ],
+    "faqs": [
+      {
+        "question": "What is Carbon DeFi?",
+        "answer": "Carbon DeFi is Bancor's asymmetric DEX protocol allowing users to create recurring on-chain limit orders that are completely immune to MEV sandwich attacks."
+      },
+      {
+        "question": "Did Bancor invent the AMM?",
+        "answer": "Yes. Bancor introduced the world's first continuous liquidity automated market maker formula on Ethereum in 2017."
+      }
+    ]
+  },
+  {
+    "id": "loopring-l2",
+    "name": "Loopring",
+    "logo": "/images/airdrops/loopring-l2.svg",
+    "description": "Pioneer zkRollup Layer 2 on Ethereum powering decentralized order book exchanges, smart contract wallets, and NFT marketplaces.",
+    "reward": "LRC Staking & Layer 2 VIP Perks",
+    "category": "Layer 2 / zkRollup",
+    "featured": false,
+    "status": "active",
+    "endTime": "2026-12-31T23:59:59Z",
+    "funding": "$45M+",
+    "investors": "Kosmos Capital, Neo Global Capital, Fundamental Labs",
+    "overview": "Loopring is a pioneer in Ethereum scaling, having deployed the world's very first zero-knowledge rollup (zkRollup) on Ethereum mainnet in 2019. Founded by Daniel Wang, Loopring demonstrated that cryptographic SNARK proofs could batch thousands of off-chain transactions into a single proof, slashing gas costs by 99% while inheriting 100% of Ethereum's security.\n\nUnlike standard AMMs, Loopring operates a high-frequency decentralized Central Limit Order Book (CLOB) DEX alongside an automated market maker. Loopring also developed the Loopring Smart Wallet—a mobile smart contract wallet featuring social recovery, guardian key restoration, and zero seed-phrase vulnerability.\n\nSelected by GameStop to power its Web3 NFT marketplace, Loopring provides high-throughput infrastructure for trading, payments, and digital asset custody.",
+    "tokenomics": "The utility and governance token is $LRC, capped at 1,374,513,896 tokens. LRC is staked by DEX operators to open Layer 2 exchanges, staked by users to earn a share of 80% of all protocol trading fees, and burned during protocol slashing events.\n\nLoopring DAO governs protocol fee splits and community ecosystem allocations.",
+    "sybilSafety": "Loopring Layer 2 requires an on-chain account creation transaction on Ethereum. Trading volume and staking rewards are cryptographically proven through Zero-Knowledge SNARK circuits.",
+    "strategy": "Create a Loopring Layer 2 account via the web portal or install the Loopring Smart Wallet mobile app. Stake LRC tokens in the official staking pool to earn protocol trading fee yields. Trade on the decentralized order book DEX and provide liquidity to dual-investment or AMM pools to earn VIP trading fee rebates.",
+    "steps": [
+      "Visit <a href=\"https://loopring.io\" target=\"_blank\" rel=\"noopener noreferrer\">Loopring.io</a> and connect MetaMask to activate your L2 account.",
+      "Deposit ETH or USDC into Loopring Layer 2 with a single batch transaction.",
+      "Place order book limit orders with zero gas fees and instant settlement.",
+      "Stake LRC tokens in the Layer 2 staking module to collect protocol fee dividends.",
+      "Explore Loopring Smart Wallet on iOS or Android for guardian social recovery."
+    ],
+    "faqs": [
+      {
+        "question": "What makes Loopring different from optimistic rollups?",
+        "answer": "Loopring uses Zero-Knowledge (ZK) proofs, meaning transactions are mathematically proven instantly without a 7-day withdrawal challenge delay."
+      },
+      {
+        "question": "What is the Loopring Smart Wallet?",
+        "answer": "It is an Ethereum smart contract wallet on your mobile phone that uses Social Recovery (trusted friends/devices) instead of seed phrases."
+      }
+    ]
+  },
+  {
+    "id": "neon-evm",
+    "name": "Neon EVM",
+    "logo": "/images/airdrops/neon-evm.svg",
+    "description": "The first Ethereum Virtual Machine operating directly on Solana, enabling Solidity dApps to access Solana's 400ms speed and low fees.",
+    "reward": "NEON Staking & Early Ecosystem Quests",
+    "category": "Layer 1 / EVM on Solana",
+    "featured": false,
+    "status": "active",
+    "endTime": "2026-11-30T23:59:59Z",
+    "funding": "$40M+",
+    "investors": "Jump Capital, IDEO CoLab, Three Arrows, Solana Capital",
+    "overview": "Neon EVM is a groundbreaking cross-virtual-machine architecture that brings full Ethereum Virtual Machine (EVM) compatibility directly to the Solana blockchain. Developed by Neon Labs and backed by Jump Capital, Neon EVM enables developers to deploy standard Solidity smart contracts and use tools like MetaMask and Hardhat while executing on Solana's parallelized Sealevel engine.\n\nNeon transactions are packaged by decentralized Proxy operators into native Solana transactions, allowing Ethereum dApps to achieve 2,000+ transactions per second and gas fees under $0.01 without rewriting code in Rust. Neon bridges the vast developer ecosystem of Ethereum with the extreme performance and liquidity of Solana.\n\nWith expanding deployments of lending pools, DEXs, and cross-chain bridges, Neon EVM provides a vital bridge between the two largest smart contract ecosystems.",
+    "tokenomics": "The native token is $NEON, capped at 1,000,000,000 tokens. NEON is used as the native gas fee token on the Neon EVM network, compensates decentralized Proxy operators for executing transactions on Solana, and governs the Neon DAO.\n\nEarly ecosystem grants and liquidity incentives reward developers and active on-chain testers.",
+    "sybilSafety": "Neon EVM tracks wallet transaction signatures on both the EVM side and underlying Solana execution accounts. Community campaigns require authentic dApp usage.",
+    "strategy": "Add Neon EVM to MetaMask using Chainlist. Bridge testnet or mainnet funds from Ethereum or Solana using the official NeonPass bridge. Swap tokens on native Neon DEXs like Morphis and IceCreamSwap. Stake NEON tokens or participate in developer bounties to qualify for ecosystem distributions.",
+    "steps": [
+      "Add Neon EVM (Chain ID 245022934) to MetaMask via <a href=\"https://neonevm.org\" target=\"_blank\" rel=\"noopener noreferrer\">NeonEVM.org</a>.",
+      "Bridge tokens from Solana or Ethereum using <a href=\"https://neonpass.live\" target=\"_blank\" rel=\"noopener noreferrer\">NeonPass</a>.",
+      "Execute token swaps on native Neon EVM decentralized exchanges.",
+      "Deploy a test smart contract using Remix or Hardhat connected to Neon RPC.",
+      "Participate in community quests and governance discussions."
+    ],
+    "faqs": [
+      {
+        "question": "How does Neon EVM work on Solana?",
+        "answer": "It runs as a smart contract program on Solana that interprets EVM bytecode and executes state changes in parallel on Solana's Sealevel engine."
+      },
+      {
+        "question": "What token is used for gas on Neon EVM?",
+        "answer": "The native $NEON token is used to pay for transaction gas fees."
+      }
+    ]
+  },
+  {
+    "id": "aurora-engine",
+    "name": "Aurora",
+    "logo": "/images/airdrops/aurora-engine.svg",
+    "description": "High-throughput Ethereum Virtual Machine built on NEAR Protocol, delivering 1-second block times and gasless transactions with Aurora Cloud.",
+    "reward": "AURORA Staking & Rainbow Bridge Rewards",
+    "category": "Layer 2 / EVM on NEAR",
+    "featured": false,
+    "status": "active",
+    "endTime": "2026-12-31T23:59:59Z",
+    "funding": "$12M+",
+    "investors": "Pantera Capital, Electric Capital, Dragonfly, Alameda Research",
+    "overview": "Aurora is an ultra-fast, EVM-compatible execution environment engineered on top of the sharded NEAR Protocol. Created by former NEAR core developers and led by Alex Shevchenko, Aurora enables Ethereum smart contracts to run with 1-second block finality, sub-cent transaction costs, and complete horizontal scalability.\n\nAurora utilizes native Ethereum ($ETH) as its base gas currency, ensuring a completely familiar experience for MetaMask users. Through the trustless, light-client Rainbow Bridge, users can transfer assets between Ethereum, NEAR, and Aurora with cryptographic security. Furthermore, Aurora Cloud allows enterprises to deploy dedicated private chains and sponsor 100% of user gas fees.\n\nBacked by Pantera Capital and Dragonfly, Aurora supports hundreds of decentralized finance and gaming dApps.",
+    "tokenomics": "The governance asset of the network is $AURORA, capped at 1,000,000,000 tokens. Unlike other chains where the governance token is used for gas, Aurora uses native $ETH for gas, while $AURORA is staked in the Aurora+ portal to earn auto-compounding multi-token staking rewards from ecosystem partner projects.\n\nAurora+ members also receive 50 free gasless transactions per month.",
+    "sybilSafety": "Aurora+ accounts require verified email and anti-bot verification to prevent automated abuse of free gas allocations. Staking rewards require continuous on-chain delegation.",
+    "strategy": "Add Aurora to MetaMask and bridge ETH via the Rainbow Bridge. Stake AURORA tokens on Aurora+ to earn compounding yields and receive partner airdrop streams. Explore decentralized exchanges like Trisolaris and borrow assets on Aurigami to generate an active DeFi footprint.",
+    "steps": [
+      "Connect MetaMask to <a href=\"https://aurora.dev\" target=\"_blank\" rel=\"noopener noreferrer\">Aurora.dev</a> and add the Aurora network.",
+      "Bridge ETH or USDC using the trustless <a href=\"https://rainbowbridge.app\" target=\"_blank\" rel=\"noopener noreferrer\">Rainbow Bridge</a>.",
+      "Create a free account on Aurora+ to unlock 50 free gasless transactions every month.",
+      "Stake AURORA tokens in the Aurora+ dashboard to earn multi-token rewards.",
+      "Swap tokens and provide liquidity on Trisolaris DEX."
+    ],
+    "faqs": [
+      {
+        "question": "What token is used for gas on Aurora?",
+        "answer": "Ethereum (ETH) is the native gas token on Aurora, providing a native Ethereum experience."
+      },
+      {
+        "question": "What is the Rainbow Bridge?",
+        "answer": "The Rainbow Bridge is a completely trustless, light-client bridge linking Ethereum, NEAR, and Aurora without centralized multi-sig relayers."
+      }
+    ]
+  },
+  {
+    "id": "decentral-games",
+    "name": "Decentral Games",
+    "logo": "/images/airdrops/decentral-games.svg",
+    "description": "Pioneer metaverse social gaming and virtual casino DAO operating inside Decentraland, powered by ICE tokenomics on Polygon.",
+    "reward": "BAG Staking & Metaverse Tournament Rewards",
+    "category": "Gaming / Metaverse & Casino",
+    "featured": false,
+    "status": "active",
+    "endTime": "2026-11-30T23:59:59Z",
+    "funding": "$5M+",
+    "investors": "Digital Currency Group, Decentraland, Polygon Studios, Collab+Currency",
+    "overview": "Decentral Games is the pioneer and dominant virtual entertainment and social gaming DAO operating within the Decentraland metaverse. Accounting for over 60% of all foot traffic in Decentraland, Decentral Games operates immersive 3D virtual venues (such as the Tom's Casino and ICE Poker lounges) where players meet, socialize, and play poker, blackjack, and roulette using cryptocurrency.\n\nThe DAO revolutionized metaverse gaming with ICE Poker—a play-and-earn social game where players equip custom wearable NFTs to compete in daily poker challenges on Polygon. The DAO generates substantial revenue from metaverse advertising, venue events, and digital clothing sales, which is funneled back into treasury buybacks and community dividends.\n\nBacked by Digital Currency Group and Polygon Studios, Decentral Games is the prime model of metaverse commerce.",
+    "tokenomics": "The governance and value-accrual token is $BAG (formerly $DG), with $ICE serving as the in-game competition and reward token on Polygon.\n\nStaking BAG grants governance voting power in the Decentral Games DAO, a share of all casino and metaverse venue profits, and VIP tournament invitations.",
+    "sybilSafety": "Decentral Games utilizes real-time bot-detection algorithms and facial/biometric verification on high-stakes tournaments. Players must physically control 3D avatars in Decentraland, eliminating simple script bots.",
+    "strategy": "Launch Decentraland in your browser and visit a Decentral Games venue. Acquire an ICE wearable or tournament pass to compete in daily free-to-play poker tournaments. Stake BAG tokens in the DAO governance pool to earn staking APR and collect a share of ongoing metaverse revenues.",
+    "steps": [
+      "Visit <a href=\"https://decentral.games\" target=\"_blank\" rel=\"noopener noreferrer\">Decentral.games</a> and connect your MetaMask wallet on Polygon.",
+      "Jump into Decentraland to explore the 3D virtual casino district.",
+      "Claim free daily tournament chips to compete in free-to-play ICE Poker games.",
+      "Stake BAG tokens on the official DAO dashboard to earn weekly protocol dividends.",
+      "Vote on DAO proposals regarding game additions and treasury investments."
+    ],
+    "faqs": [
+      {
+        "question": "Do I need real money to play ICE Poker?",
+        "answer": "No! Decentral Games offers free-to-play daily tournaments where players can win cryptocurrency prizes without risking real money."
+      },
+      {
+        "question": "What blockchain does Decentral Games run on?",
+        "answer": "The gaming logic, wearable NFTs, and token transactions run on Polygon for fast, gasless gameplay."
+      }
+    ]
   }
 ];
