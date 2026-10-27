@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
+  <defs>
+    <linearGradient id="strykeGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0284C7"/>
+      <stop offset="100%" stop-color="#38BDF8"/>
+    </linearGradient>
+  </defs>
+  <rect width="128" height="128" rx="32" fill="#0C4A6E"/>
+  <path d="M40 76 L56 46 L72 64 L88 38" stroke="url(#strykeGrad)" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+</svg>

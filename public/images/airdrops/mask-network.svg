@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
+  <defs>
+    <linearGradient id="maskGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1D4ED8"/>
+      <stop offset="100%" stop-color="#2563EB"/>
+    </linearGradient>
+  </defs>
+  <rect width="128" height="128" rx="32" fill="url(#maskGrad)"/>
+  <rect x="40" y="44" width="48" height="40" rx="12" fill="#FFFFFF"/>
+  <circle cx="54" cy="64" r="6" fill="#1D4ED8"/>
+  <circle cx="74" cy="64" r="6" fill="#1D4ED8"/>
+</svg>

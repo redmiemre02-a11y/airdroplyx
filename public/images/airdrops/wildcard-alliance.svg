@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
+  <defs>
+    <linearGradient id="wildGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F59E0B"/>
+      <stop offset="100%" stop-color="#EF4444"/>
+    </linearGradient>
+  </defs>
+  <rect width="128" height="128" rx="32" fill="#18181B"/>
+  <polygon points="64,30 94,88 72,88 64,68 56,88 34,88" fill="url(#wildGrad)"/>
+  <circle cx="64" cy="52" r="6" fill="#FFFFFF"/>
+</svg>

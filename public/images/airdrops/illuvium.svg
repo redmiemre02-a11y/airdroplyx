@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
+  <defs>
+    <linearGradient id="ilvGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#7C3AED"/>
+      <stop offset="100%" stop-color="#06B6D4"/>
+    </linearGradient>
+  </defs>
+  <rect width="128" height="128" rx="32" fill="#0B0E14"/>
+  <polygon points="64,28 92,64 64,100 36,64" fill="none" stroke="url(#ilvGrad)" stroke-width="8"/>
+  <polygon points="64,46 78,64 64,82 50,64" fill="#38BDF8"/>
+</svg>

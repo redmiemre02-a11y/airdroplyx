@@ -26702,5 +26702,905 @@ export const airdrops: Airdrop[] = [
       "Polygon EVM Wallet",
       "The Sandbox client"
     ]
+  },
+  {
+    "id": "aptos-network",
+    "name": "Aptos",
+    "description": "Next-generation Move-based Layer 1 blockchain engineered by former Meta Diem engineers with sub-second parallel execution.",
+    "category": "Layer 1",
+    "status": "active",
+    "reward": "$APT Staking Yields & Ecosystem Foundation Grants",
+    "funding": "$350M+",
+    "investors": "a16z crypto, Multicoin Capital, Coinbase Ventures, Dragonfly, Paxos",
+    "stage": "Mainnet Live",
+    "difficulty": "Easy",
+    "estimatedTime": "10 mins",
+    "featured": true,
+    "logo": "/images/airdrops/aptos-network.svg",
+    "steps": [
+      "Install <strong>Petra Wallet</strong> or Pontem Wallet extension.",
+      "Bridge assets onto Aptos via the official Aptos Bridge powered by LayerZero.",
+      "Delegate native $APT tokens to network validators to earn staking APR.",
+      "Swap tokens and supply liquidity on premier Aptos dApps (Thala, Liquidswap, Amnis Finance)."
+    ],
+    "overview": "Aptos is a high-performance Layer 1 blockchain designed for mainstream safety and extreme scalability. Created by former Meta engineers who spearheaded Diem and Novi, Aptos utilizes the Move programming language and the Block-STM parallel execution engine to process over 160,000 transactions per second with sub-second finality.",
+    "strategy": "Delegate APT tokens to consensus validators, mint MOD stablecoins on Thala, and participate in ecosystem liquid staking on Amnis Finance.",
+    "tokenomics": "$APT is the native fuel of Aptos, utilized for transaction gas fees, securing the network through Proof-of-Stake, and governing on-chain upgrade proposals.",
+    "sybilSafety": "On-chain Move contract execution traces and sustained validator staking delegations ensure authentic user classification.",
+    "faqs": [
+      {
+        "question": "What is the Move language on Aptos?",
+        "answer": "Move is a Rust-derived smart contract language designed with linear types to prevent reentrancy attacks, double spending, and asset duplication."
+      }
+    ],
+    "requirements": [
+      "Petra or Pontem Wallet",
+      "APT tokens",
+      "Web browser"
+    ]
+  },
+  {
+    "id": "near-protocol",
+    "name": "NEAR Protocol",
+    "description": "High-throughput, sharded Proof-of-Stake Layer 1 blockchain pioneering Chain Signatures and User-Owned AI.",
+    "category": "Layer 1",
+    "status": "active",
+    "reward": "$NEAR Staking Rewards & Chain Abstraction Bounties",
+    "funding": "$500M+",
+    "investors": "a16z crypto, Dragonfly Capital, Pantera Capital, Electric Capital, Baidu Ventures",
+    "stage": "Mainnet Live",
+    "difficulty": "Easy",
+    "estimatedTime": "10 mins",
+    "featured": true,
+    "logo": "/images/airdrops/near-protocol.svg",
+    "steps": [
+      "Create a <strong>NEAR Wallet</strong> (Meteor, HERE, or Sender).",
+      "Delegate native $NEAR tokens to active staking pools to earn annual yields.",
+      "Experience Chain Signatures: sign transactions on Bitcoin, Ethereum, and Solana directly from your NEAR account.",
+      "Trade and farm on NEAR-native DeFi protocols (Ref Finance, Burrow Cash)."
+    ],
+    "overview": "NEAR Protocol is a dynamically sharded Layer 1 blockchain engineered with Nightshade consensus to scale Web3 applications to hundreds of millions of users. Pioneering the Chain Abstraction movement, NEARs Chain Signatures allow a single NEAR account to control addresses and execute smart contracts across all other major blockchains.",
+    "strategy": "Delegate NEAR tokens to validator pools, explore Chain Signature dApps, and supply collateral on Burrow lending market.",
+    "tokenomics": "$NEAR is the foundational utility and governance token used for gas fees, staking security, and decentralized storage rent.",
+    "sybilSafety": "Named human-readable account keys (.near) and long-term validator delegations provide solid non-Sybil proof.",
+    "faqs": [
+      {
+        "question": "What are NEAR Chain Signatures?",
+        "answer": "Chain Signatures allow smart contracts on NEAR to natively sign and execute transactions on Bitcoin, Ethereum, and Dogecoin without bridging."
+      }
+    ],
+    "requirements": [
+      "NEAR Wallet (Meteor/HERE)",
+      "NEAR tokens",
+      "Web browser"
+    ]
+  },
+  {
+    "id": "stacks-network",
+    "name": "Stacks",
+    "description": "Leading Bitcoin Layer 2 bringing smart contracts, sub-5-second finality, and decentralized sBTC to Bitcoin.",
+    "category": "Layer 2",
+    "status": "active",
+    "reward": "$STX Stacking Yields in Real Bitcoin (BTC)",
+    "funding": "$75M+",
+    "investors": "Union Square Ventures, Winklevoss Capital, Blockchain Capital, Y Combinator",
+    "stage": "Mainnet Live",
+    "difficulty": "Easy",
+    "estimatedTime": "10 mins",
+    "featured": true,
+    "logo": "/images/airdrops/stacks-network.svg",
+    "steps": [
+      "Install <strong>Xverse</strong> or Leather wallet extension.",
+      "Lock native $STX tokens in Stacking via FastPool or Xverse pool.",
+      "Earn pure native Bitcoin (BTC) paid directly to your Bitcoin address every cycle.",
+      "Mint decentralized sBTC and trade on Bitcoin DeFi protocols (ALEX, Bitflow, Velar)."
+    ],
+    "overview": "Stacks is the premier Bitcoin Layer 2 network that introduces expressive smart contracts and decentralized finance to Bitcoin. Powered by the landmark Nakamoto upgrade and Proof-of-Transfer (PoX) consensus, Stacks achieves sub-5-second block times while inheriting 100% of Bitcoins Proof-of-Work finality.",
+    "strategy": "Stack STX tokens to earn passive BTC rewards, provide liquidity into sBTC pools, and interact with Clarity smart contracts.",
+    "tokenomics": "$STX is the native token used for Clarity contract execution, PoX miner bidding, and Stacking rewards that yield native Bitcoin.",
+    "sybilSafety": "Proof-of-Transfer on-chain locks yielding native BTC provide definitive, un-forgeable proof of legitimate capital allocation.",
+    "faqs": [
+      {
+        "question": "How does Stacking earn native Bitcoin?",
+        "answer": "Miners burn native Bitcoin to mint new STX blocks; that burned Bitcoin is redirected directly to STX holders who lock their tokens in Stacking."
+      }
+    ],
+    "requirements": [
+      "Xverse or Leather Wallet",
+      "STX tokens",
+      "Web browser"
+    ]
+  },
+  {
+    "id": "tezos-network",
+    "name": "Tezos",
+    "description": "Pioneer self-amending Proof-of-Stake Layer 1 blockchain with formal verification and on-chain upgrade governance.",
+    "category": "Layer 1",
+    "status": "active",
+    "reward": "$XTZ Baking Yields & Art Marketplace Drops",
+    "funding": "$232M (Historic ICO)",
+    "investors": "Polychain Capital, Tim Draper, Winklevoss Capital, Boost VC",
+    "stage": "Mainnet Live",
+    "difficulty": "Easy",
+    "estimatedTime": "5 mins",
+    "featured": false,
+    "logo": "/images/airdrops/tezos-network.svg",
+    "steps": [
+      "Install <strong>Temple Wallet</strong> or Kukai wallet (sign in with Google).",
+      "Bake (delegate) native $XTZ tokens to a baker to earn non-custodial staking rewards.",
+      "Trade digital generative art on premier Tezos NFT platforms (objkt.com, fxhash).",
+      "Provide liquidity on Tezos decentralized exchanges like QuipuSwap and Plenty."
+    ],
+    "overview": "Tezos is an ultra-resilient, self-amending Layer 1 blockchain designed to prevent hard fork splits through formal on-chain governance proposals. Renowned for its institutional adoption, energy efficiency, and mathematical formal verification, Tezos hosts vibrant generative digital art and decentralized gaming communities.",
+    "strategy": "Delegate XTZ to community bakers, collect generative art editions on fxhash/objkt, and supply liquidity on QuipuSwap.",
+    "tokenomics": "$XTZ (tez) powers smart contract execution, consensus baking, and votes in five-stage decentralized protocol upgrade referenda.",
+    "sybilSafety": "Non-custodial baking delegations and verified social logins on Kukai confirm authentic human users.",
+    "faqs": [
+      {
+        "question": "What is Baking on Tezos?",
+        "answer": "Baking is the Tezos term for validating blocks; delegating your XTZ to a baker is completely non-custodial and funds never leave your wallet."
+      }
+    ],
+    "requirements": [
+      "Temple or Kukai Wallet",
+      "XTZ tokens",
+      "Web browser"
+    ]
+  },
+  {
+    "id": "nervos-network",
+    "name": "Nervos Network",
+    "description": "Modular Layer 1 and Bitcoin Layer 2 scaling layer powered by the Cell model and the RGB++ isomorphic binding protocol.",
+    "category": "Layer 2",
+    "status": "active",
+    "reward": "$CKB Staking APY & RGB++ Protocol Airdrops",
+    "funding": "$100M+",
+    "investors": "Polychain Capital, Sequoia China, Blockchain Capital, Multicoin Capital",
+    "stage": "Mainnet Live",
+    "difficulty": "Easy",
+    "estimatedTime": "10 mins",
+    "featured": false,
+    "logo": "/images/airdrops/nervos-network.svg",
+    "steps": [
+      "Install <strong>JoyID Wallet</strong> (passkey-based seedless smart account).",
+      "Deposit native $CKB into the Nervos DAO to hedge against secondary token issuance.",
+      "Interact with RGB++ protocol assets, transferring Bitcoin Layer 1 assets to CKB without bridges.",
+      "Trade on native DEXs like UTXOSwap."
+    ],
+    "overview": "Nervos Network is a foundational blockchain platform designed to preserve Bitcoins original UTXO philosophy while enabling Turing-complete smart contracts. Through its breakthrough RGB++ protocol, Nervos binds Bitcoin UTXOs to CKB Cells, enabling trustless cross-chain smart contract execution for Bitcoin assets.",
+    "strategy": "Deposit CKB into the Nervos DAO contract, trade RGB++ tokens on UTXOSwap, and utilize JoyID biometric passkeys.",
+    "tokenomics": "$CKB represents on-chain storage capacity (1 CKB = 1 byte of state storage) and secures the Proof-of-Work base layer.",
+    "sybilSafety": "Nervos DAO time-locked deposits and WebAuthn hardware biometric registrations verify legitimate participant identity.",
+    "faqs": [
+      {
+        "question": "What is the RGB++ protocol?",
+        "answer": "RGB++ uses isomorphic binding to map Bitcoin UTXOs to Nervos CKB cells, enabling smart contract functionality for Bitcoin without wrapping."
+      }
+    ],
+    "requirements": [
+      "JoyID Wallet",
+      "CKB tokens",
+      "Web browser"
+    ]
+  },
+  {
+    "id": "kadena-network",
+    "name": "Kadena",
+    "description": "Braided Proof-of-Work Layer 1 blockchain achieving massive throughput via multi-chain architecture and Pact smart contracts.",
+    "category": "Layer 1",
+    "status": "active",
+    "reward": "$KDA Staking Yields & Chainweaver Ecosystem Bounties",
+    "funding": "$15M+",
+    "investors": "Multicoin Capital, Susquehanna International Group, CoinFund, Devonshire",
+    "stage": "Mainnet Live",
+    "difficulty": "Medium",
+    "estimatedTime": "15 mins",
+    "featured": false,
+    "logo": "/images/airdrops/kadena-network.svg",
+    "steps": [
+      "Install <strong>Koala Wallet</strong> or Chainweaver.",
+      "Transfer native $KDA across Kadenas 20 parallel braided chains.",
+      "Swap tokens and provide liquidity on Kaddex (decentralized zero-gas AMM).",
+      "Stake KDA into partner lending pools and participate in ecosystem hackathons."
+    ],
+    "overview": "Kadena is an enterprise-grade Proof-of-Work blockchain founded by former JPMorgan and SEC blockchain architects. By braiding 20 parallel chains together through the Chainweb protocol, Kadena achieves high transaction throughput while retaining the battle-tested security of PoW and human-readable Pact smart contracts.",
+    "strategy": "Conduct cross-chain transfers on Chainweb, trade on Kaddex with zero gas fees, and explore Pact smart contract deployments.",
+    "tokenomics": "$KDA is the native coin fueling computation, rewarding miners, and settling decentralized transactions across all 20 braided chains.",
+    "sybilSafety": "Multi-chain Proof-of-Work settlements and non-custodial wallet balances provide verifiable non-Sybil proof.",
+    "faqs": [
+      {
+        "question": "What are Pact smart contracts on Kadena?",
+        "answer": "Pact is a human-readable, interpreted smart contract language designed to be formally verifiable and immune to common bugs like reentrancy."
+      }
+    ],
+    "requirements": [
+      "Koala Wallet",
+      "KDA tokens",
+      "Web browser"
+    ]
+  },
+  {
+    "id": "syscoin",
+    "name": "Syscoin",
+    "description": "Bitcoin merge-mined Layer 1 blockchain and Rollux Layer 2 modular rollup platform combining PoW with EVM execution.",
+    "category": "Layer 1",
+    "status": "active",
+    "reward": "$SYS Masternode Rewards & Rollux Ecosystem Points",
+    "funding": "$5M+ Ecosystem Backed",
+    "investors": "Syscoin Foundation, Rollux Labs",
+    "stage": "Mainnet Live",
+    "difficulty": "Easy",
+    "estimatedTime": "10 mins",
+    "featured": false,
+    "logo": "/images/airdrops/syscoin.svg",
+    "steps": [
+      "Connect MetaMask to <strong>Syscoin UTXO</strong> and <strong>Rollux L2</strong>.",
+      "Bridge assets between Syscoin NEVM and Rollux using the official Rollux Portal.",
+      "Lock $SYS to participate in Masternode governance and chain finality voting.",
+      "Trade on native Rollux DEXs (Pegasys) and interact with Web3 gaming dApps."
+    ],
+    "overview": "Syscoin is a dual-layer blockchain that merges Bitcoins security with Ethereum smart contract composability. Merge-mined with over 60% of Bitcoins mining power, Syscoin anchors its Layer 2 rollup (Rollux) directly to Bitcoin, offering sub-cent fees, EVM execution, and decentralized finality.",
+    "strategy": "Bridge assets onto Rollux L2, swap on Pegasys DEX, and hold locked SYS in the Masternode network.",
+    "tokenomics": "$SYS powers gas fees on Syscoin NEVM, secures Masternode quorum finality, and serves as the reserve asset for Rollux.",
+    "sybilSafety": "Bitcoin merge-mined cryptographic confirmations and locked Masternode bonds verify authentic network participation.",
+    "faqs": [
+      {
+        "question": "What is Rollux?",
+        "answer": "Rollux is an EVM-equivalent Layer 2 rollup built on Syscoin, protected directly by Bitcoins merge-mined Proof-of-Work security."
+      }
+    ],
+    "requirements": [
+      "MetaMask / Rabby Wallet",
+      "SYS tokens",
+      "Web browser"
+    ]
+  },
+  {
+    "id": "illuvium",
+    "name": "Illuvium",
+    "description": "Interoperable blockchain gaming universe (IBG) combining open-world exploration, creature collection, and auto-battler arenas.",
+    "category": "Gaming",
+    "status": "active",
+    "reward": "$ILV Staking APY & Arena Season Leaderboard Pools",
+    "funding": "$12M+",
+    "investors": "Framework Ventures, Animoca Brands, Delphi Digital, LD Capital, Bitkraft",
+    "stage": "Mainnet Live",
+    "difficulty": "Medium",
+    "estimatedTime": "20 mins",
+    "featured": true,
+    "logo": "/images/airdrops/illuvium.svg",
+    "steps": [
+      "Create an <strong>Illuvium Account</strong> (Epic Games Store or Illuvium website).",
+      "Download and play Illuvium: Overworld, Arena, and Zero across PC or Mac.",
+      "Capture Illuvials, craft equipment, and compete on competitive ranked leaderboards.",
+      "Stake native $ILV tokens in the Illuvium DAO to earn continuous protocol fee distributions in sILV2."
+    ],
+    "overview": "Illuvium is a landmark AAA gaming ecosystem built on Ethereum and Immutable X. Featuring stunning Unreal Engine 5 graphics, Illuvium spans multiple interconnected titles where players own their captured Illuvials, land plots, and weapon blueprints as fully tradable, zero-gas NFTs.",
+    "strategy": "Compete in Arena PVP matches, explore the Overworld to harvest minerals, and stake ILV tokens for governance revenue share.",
+    "tokenomics": "$ILV is the governance token of the Illuvium DAO, with 100% of all in-game revenue (fuel, cosmetics, land sales) distributed to ILV stakers.",
+    "sybilSafety": "Competitive Ranked gameplay achievements and non-custodial NFT mints on Immutable X eliminate automated botting.",
+    "faqs": [
+      {
+        "question": "Is Illuvium available on mainstream gaming stores?",
+        "answer": "Yes! Illuvium is officially listed on the Epic Games Store for PC and Mac players."
+      }
+    ],
+    "requirements": [
+      "Gaming PC / Mac",
+      "Immutable Passport / EVM Wallet",
+      "Illuvium account"
+    ]
+  },
+  {
+    "id": "gala-games",
+    "name": "Gala Games",
+    "description": "Decentralized Web3 entertainment ecosystem empowering players through player-owned Founder Nodes and GalaChain.",
+    "category": "Gaming",
+    "status": "active",
+    "reward": "$GALA Daily Node Distributions & Game Tournament Prizes",
+    "funding": "Self-Funded / Community Genesis",
+    "investors": "Community / Founder Node Operators",
+    "stage": "Mainnet Live",
+    "difficulty": "Easy",
+    "estimatedTime": "10 mins",
+    "featured": false,
+    "logo": "/images/airdrops/gala-games.svg",
+    "steps": [
+      "Create a free <strong>Gala Games</strong> account (gala.com).",
+      "Play top Web3 titles (Spider Tanks, Champions Arena, Common Ground World, Mirandus).",
+      "Run a Gala Founder Node or Workload Node to support decentralized game hosting.",
+      "Trade in-game NFT items seamlessly on GalaChain with near-zero gas fees."
+    ],
+    "overview": "Gala Games is a pioneering decentralized gaming and entertainment platform founded by Zynga co-founder Eric Schiermeyer. Powered by GalaChain and a global mesh of tens of thousands of community-operated Founder Nodes, Gala returns game ownership, creative control, and asset monetization to players.",
+    "strategy": "Play featured Gala games daily, participate in competitive weekly esports tournaments, and hold GALA on GalaChain.",
+    "tokenomics": "$GALA is the native currency of GalaChain, used to settle transactions, purchase game licenses, and reward node operators.",
+    "sybilSafety": "Continuous gameplay time-stamps and hardware-based Founder Node operations provide definitive human verification.",
+    "faqs": [
+      {
+        "question": "What is GalaChain?",
+        "answer": "GalaChain is a purpose-built Layer 1 blockchain engineered specifically for entertainment, games, and high-frequency digital asset transfers."
+      }
+    ],
+    "requirements": [
+      "Gala Games account",
+      "EVM Wallet",
+      "Web browser"
+    ]
+  },
+  {
+    "id": "decentraland",
+    "name": "Decentraland",
+    "description": "Pioneer decentralized virtual social world where users create, experience, and monetize 3D content and virtual real estate.",
+    "category": "Gaming",
+    "status": "active",
+    "reward": "$MANA DAO Governance Voting & Metaverse Event Bounties",
+    "funding": "$25M+ (Historic ICO)",
+    "investors": "Digital Currency Group, Animoca Brands, Boost VC, FBG Capital",
+    "stage": "Mainnet Live",
+    "difficulty": "Easy",
+    "estimatedTime": "10 mins",
+    "featured": false,
+    "logo": "/images/airdrops/decentraland.svg",
+    "steps": [
+      "Connect Web3 wallet to <strong>Decentraland</strong> (play.decentraland.org).",
+      "Customize your 3D avatar and explore the Genesis Plaza directly in your browser.",
+      "Participate in live virtual events, brand activations, and music festivals.",
+      "Stake $MANA in the Decentraland DAO or trade virtual LAND parcels and wearables on Polygon."
+    ],
+    "overview": "Decentraland is the first fully decentralized virtual social world owned completely by its users. Governed by a DAO on Ethereum and Polygon, users purchase virtual LAND, build interactive 3D games and art galleries, and trade custom avatar wearables with zero centralized platform control.",
+    "strategy": "Attend community events during Metaverse Fashion Week or Music Festivals, claim exclusive wearable NFTs, and vote on DAO proposals.",
+    "tokenomics": "$MANA is the ERC-20 utility token burned to purchase LAND parcels, buy avatar wearables, and participate in community DAO votes.",
+    "sybilSafety": "Active 3D avatar interactions, wearable collections, and on-chain DAO voting records confirm genuine human engagement.",
+    "faqs": [
+      {
+        "question": "Do I need VR gear to explore Decentraland?",
+        "answer": "No! Decentraland runs directly in any modern desktop web browser without requiring VR goggles or special equipment."
+      }
+    ],
+    "requirements": [
+      "Web3 EVM Wallet",
+      "Desktop Web browser",
+      "MANA / LAND (optional)"
+    ]
+  },
+  {
+    "id": "wildcard-alliance",
+    "name": "Wildcard Alliance",
+    "description": "High-energy Web3 spectator arena game combining real-time strategy, MOBA action, and collectible card mechanics.",
+    "category": "Gaming",
+    "status": "active",
+    "reward": "Wildcard Swag Points & Community Playtest Allocations",
+    "funding": "$46M",
+    "investors": "Paradigm, Griffin Gaming Partners, Sabrina Hahn",
+    "stage": "Beta / Playtest",
+    "difficulty": "Easy",
+    "estimatedTime": "10 mins",
+    "featured": false,
+    "logo": "/images/airdrops/wildcard-alliance.svg",
+    "steps": [
+      "Join <strong>Wildcard Alliance</strong> community on Discord and link your Web3 wallet.",
+      "Participate in official closed playtest tournaments on Steam/PC.",
+      "Collect Wildcard Wildpass and Champion character NFTs.",
+      "Engage in spectator arena live-streams to earn viewer points and reward badges."
+    ],
+    "overview": "Wildcard Alliance is a next-generation Web3 video game created by industry veterans Playful Studios. Backed by $46M from Paradigm, Wildcard is engineered from the ground up as a spectator esport, where live viewers can actively interact with matches, influence arena dynamics, and share in competitive prizes.",
+    "strategy": "Register for developer playtests, attend community Discord events, and collect seasonal Wildpass verification passes.",
+    "tokenomics": "Ecosystem rewards recognize active players, playtesters, and live-stream spectators ahead of the decentralized game token rollout.",
+    "sybilSafety": "Steam account linking, Discord verification, and closed playtest performance ensure verified human gamers.",
+    "faqs": [
+      {
+        "question": "Who founded Wildcard Alliance?",
+        "answer": "Wildcard was created by Paul Bettner, the renowned game designer behind blockbuster hits like Words With Friends and Lucky’s Tale."
+      }
+    ],
+    "requirements": [
+      "Steam account",
+      "EVM Wallet",
+      "Discord account"
+    ]
+  },
+  {
+    "id": "shrapnel-game",
+    "name": "Shrapnel",
+    "description": "First-person extraction shooter (FPS) game built on an Avalanche Subnet with creator-generated modding tools.",
+    "category": "Gaming",
+    "status": "active",
+    "reward": "$SHRAP Leaderboard Rewards & Extraction Bounties",
+    "funding": "$27M",
+    "investors": "Polychain Capital, Dragonfly, Griffin Gaming Partners, Brevan Howard",
+    "stage": "Early Access Live",
+    "difficulty": "Medium",
+    "estimatedTime": "20 mins",
+    "featured": false,
+    "logo": "/images/airdrops/shrapnel-game.svg",
+    "steps": [
+      "Create a <strong>Shrapnel</strong> account on the official website or Epic Games Store.",
+      "Equip Operator NFTs and drop into The Zone during scheduled STX extraction sessions.",
+      "Extract valuable compound resources and escape without being eliminated.",
+      "Stake native $SHRAP tokens to promote player-created weapon skins, maps, and content."
+    ],
+    "overview": "Shrapnel is an intense, AAA extraction first-person shooter developed by BAFTA and Emmy award-winning gaming veterans. Built on Unreal Engine 5 and powered by a dedicated Avalanche Subnet, Shrapnel enables players to fight for high-stakes loot and craft personalized game content with true on-chain ownership.",
+    "strategy": "Participate in weekly STX extraction playtest tournaments, climb the survival leaderboard, and stake SHRAP on top creator maps.",
+    "tokenomics": "$SHRAP is the governance and utility token of the ecosystem, used for staking on creator content, purchasing gear, and paying subnet gas.",
+    "sybilSafety": "In-game extraction match completion, hardware FPS play, and Epic Games account verification filter out bots.",
+    "faqs": [
+      {
+        "question": "What is the goal in Shrapnel?",
+        "answer": "Players enter a dangerous quarantine zone to collect valuable resources (Sigma), fighting other players and AI, and must reach an extraction point to secure their loot."
+      }
+    ],
+    "requirements": [
+      "Gaming PC with GPU",
+      "Epic Games account",
+      "EVM / Avalanche Wallet"
+    ]
+  },
+  {
+    "id": "heroes-of-mavia",
+    "name": "Heroes of Mavia",
+    "description": "Mobile Web3 base-building strategy game combining Clash of Clans mechanics with blockchain land ownership.",
+    "category": "Gaming",
+    "status": "active",
+    "reward": "$MAVIA Staking Yields & Ruby Season Rewards",
+    "funding": "$8M",
+    "investors": "Binance Labs, Crypto.com Capital, Genblock Capital, Mechanism Capital",
+    "stage": "Mainnet Live",
+    "difficulty": "Easy",
+    "estimatedTime": "10 mins",
+    "featured": false,
+    "logo": "/images/airdrops/heroes-of-mavia.svg",
+    "steps": [
+      "Download <strong>Heroes of Mavia</strong> on iOS App Store or Google Play.",
+      "Build your fantasy base, train armies, and attack enemy bases for resources.",
+      "Link your Web3 wallet to the Mavia web portal to track seasonal Ruby points.",
+      "Stake native $MAVIA tokens inside the web dashboard to earn governance APR."
+    ],
+    "overview": "Heroes of Mavia is a mobile multiplayer strategy game that surpassed millions of downloads upon its global rollout. By combining accessible mobile base-building gameplay with Ethereum Layer 2 asset ownership (Base and Skale), Mavia bridges casual mobile gamers directly to Web3 rewards.",
+    "strategy": "Upgrade your base headquarters, win daily multiplayer battles, and stake MAVIA tokens to unlock exclusive in-game perks.",
+    "tokenomics": "$MAVIA is the governance and utility token used to upgrade Land NFTs, participate in DAO decisions, and trade cosmetics.",
+    "sybilSafety": "Mobile app store downloads, continuous player progression, and on-chain account binding confirm authentic human players.",
+    "faqs": [
+      {
+        "question": "Is Heroes of Mavia free to play on mobile?",
+        "answer": "Yes! Anyone can download and play Heroes of Mavia completely free on iOS and Android without purchasing an NFT."
+      }
+    ],
+    "requirements": [
+      "iOS or Android smartphone",
+      "Mavia account",
+      "Web3 EVM Wallet"
+    ]
+  },
+  {
+    "id": "parallel-tcg",
+    "name": "Parallel",
+    "description": "Sci-fi collectible trading card game (Parallel TCG) and autonomous AI agent simulation game (Colony) on Base.",
+    "category": "Gaming",
+    "status": "active",
+    "reward": "$PRIME Token Staking Yields & Ranked Win Bounties",
+    "funding": "$50M",
+    "investors": "Paradigm, VanEck, Focus Labs, Solana Ventures, OSS Capital",
+    "stage": "Mainnet Live",
+    "difficulty": "Easy",
+    "estimatedTime": "15 mins",
+    "featured": true,
+    "logo": "/images/airdrops/parallel-tcg.svg",
+    "steps": [
+      "Download the <strong>Parallel TCG Client</strong> on PC or Mac (or register for Colony).",
+      "Build a deck choosing one of five distinct Parallel factions (Augencore, Earthen, Kathari, Marcolian, Shroud).",
+      "Win Ranked matches with an active NFT card in your deck to earn $PRIME tokens daily.",
+      "Stake $PRIME tokens or interact with Colony autonomous AI agents on Base."
+    ],
+    "overview": "Parallel is an acclaimed sci-fi collectible card game that merges competitive esports mechanics with digital asset ownership. Backed by $50M from Paradigm, Parallels ecosystem has expanded into Colony—a groundbreaking AI-driven simulation on Base where autonomous agents manage digital assets, make decisions, and interact on-chain.",
+    "strategy": "Play Ranked TCG matches, climb the competitive leaderboard, hold Prime Keys, and explore Colony AI agent mechanics on Base.",
+    "tokenomics": "$PRIME is the reserve currency of the Echelon Prime Foundation, powering card enhancements, AI agent creation, and sink redistribution.",
+    "sybilSafety": "Competitive match matchmaking, complex tactical deck gameplay, and hardware client execution prevent bot farms.",
+    "faqs": [
+      {
+        "question": "What is Colony in the Parallel ecosystem?",
+        "answer": "Colony is a groundbreaking game where autonomous AI agents have their own Web3 wallets and interact with players and smart contracts on Base."
+      }
+    ],
+    "requirements": [
+      "PC or Mac computer",
+      "Parallel account",
+      "EVM Wallet"
+    ]
+  },
+  {
+    "id": "yield-guild-games",
+    "name": "Yield Guild Games",
+    "description": "Decentralized gaming guild and on-chain questing protocol coordinating player achievements across Web3 metaverses.",
+    "category": "Gaming",
+    "status": "active",
+    "reward": "$YGG Guild Staking & Superquest Achievement Badges",
+    "funding": "$20M+",
+    "investors": "a16z crypto, Paradigm, BITKRAFT, Animoca Brands, Polygon Studios",
+    "stage": "Mainnet Live",
+    "difficulty": "Easy",
+    "estimatedTime": "10 mins",
+    "featured": false,
+    "logo": "/images/airdrops/yield-guild-games.svg",
+    "steps": [
+      "Connect Web3 wallet to <strong>YGG Portal</strong> (yieldguild.io).",
+      "Mint your complimentary YGG Guild Badge (Soulbound NFT) on Polygon or Base.",
+      "Complete Superquests across top Web3 games (Pixels, Big Time, Parallel).",
+      "Stake native $YGG tokens into SubDAO pools to earn targeted game reward allocations."
+    ],
+    "overview": "Yield Guild Games (YGG) is the worlds largest decentralized gaming guild, uniting millions of players and game studios across Web3. Evolving from play-to-earn scholarships into an on-chain questing and identity platform, YGG allows gamers to build verifiable gaming resumes and earn token rewards by completing quests.",
+    "strategy": "Mint your Guild Badge, complete official Superquest achievements on partner games, and stake YGG tokens in active guild pools.",
+    "tokenomics": "$YGG is the governance token of the YGG DAO, used for voting on gaming NFT acquisitions, SubDAO deployments, and reward distributions.",
+    "sybilSafety": "Soulbound Guild Badges and verifiable in-game quest completions provide robust proof of authentic player identity.",
+    "faqs": [
+      {
+        "question": "What are YGG Superquests?",
+        "answer": "Superquests are guided gaming missions where players learn how to play top Web3 games while earning NFT badges and token rewards."
+      }
+    ],
+    "requirements": [
+      "Web3 EVM Wallet (Polygon / Base)",
+      "Free YGG account",
+      "Web browser"
+    ]
+  },
+  {
+    "id": "phaver",
+    "name": "Phaver",
+    "description": "Decentralized social networking app built on Lens Protocol and Farcaster with gamified Web3 reputation scoring.",
+    "category": "Social",
+    "status": "active",
+    "reward": "$SOCIAL Token Staking & Seasonal Phairdrop Rewards",
+    "funding": "$7M",
+    "investors": "Polygon Ventures, Nomad Capital, Foresight Ventures, Symbolic Capital",
+    "stage": "Mainnet Live",
+    "difficulty": "Easy",
+    "estimatedTime": "5 mins",
+    "featured": false,
+    "logo": "/images/airdrops/phaver.svg",
+    "steps": [
+      "Download <strong>Phaver</strong> mobile app on iOS or Android.",
+      "Link your Lens Protocol profile, Farcaster handle, or Web3 wallet.",
+      "Level up your Cred score by connecting Gitcoin Passport or NFT holdings.",
+      "Stake daily free Phaver points on high-quality social posts to earn $SOCIAL tokens."
+    ],
+    "overview": "Phaver is a leading decentralized social application built on open social graphs (Lens Protocol and Farcaster). Designed as an easy onboarding bridge from Web2 to Web3 social, Phaver allows users to own their social graph, cross-post across decentralized networks, and earn token rewards based on content curation.",
+    "strategy": "Maintain a high Phaver Cred level (Level 2+), stake your daily free points on trending posts, and share original content regularly.",
+    "tokenomics": "$SOCIAL is the native utility and reward token powering in-app tipping, premium social perks, and decentralized advertising revenue shares.",
+    "sybilSafety": "Phaver Cred integrates Gitcoin Passport and unique NFT verification to ensure only verified humans reach top reward tiers.",
+    "faqs": [
+      {
+        "question": "Do I need a Lens profile to use Phaver?",
+        "answer": "No! You can create a Phaver account with traditional email, and Phaver can help you mint or connect Lens and Farcaster profiles later."
+      }
+    ],
+    "requirements": [
+      "Smartphone (iOS/Android)",
+      "Phaver App",
+      "Web3 Wallet"
+    ]
+  },
+  {
+    "id": "mask-network",
+    "name": "Mask Network",
+    "description": "Web3 browser portal bringing encryption, decentralized trading, and NFT avatars directly into Twitter/X and Facebook.",
+    "category": "Social",
+    "status": "active",
+    "reward": "$MASK Staking Rewards & Web3 Social Grants",
+    "funding": "$50M+",
+    "investors": "Digital Currency Group, Animoca Brands, HashKey, Binance, Filecoin Ecosystem",
+    "stage": "Mainnet Live",
+    "difficulty": "Easy",
+    "estimatedTime": "5 mins",
+    "featured": false,
+    "logo": "/images/airdrops/mask-network.svg",
+    "steps": [
+      "Install the <strong>Mask Network</strong> extension on Chrome, Brave, or Firefox.",
+      "Connect your Twitter/X account and link your Web3 wallet address.",
+      "Send encrypted tweets that only designated wallet holders can decrypt.",
+      "Trade tokens and inspect NFT avatars directly on Twitter without leaving your feed."
+    ],
+    "overview": "Mask Network is a browser extension and Web3 social protocol that seamlessly bridges the decentralized internet into traditional Web2 social platforms like Twitter and Facebook. Without leaving your social feed, Mask enables peer-to-peer crypto payments, decentralized file storage on IPFS, and encrypted messaging.",
+    "strategy": "Install the Mask extension, execute a swap on Twitter via Uniswap integration, and stake MASK tokens in community governance.",
+    "tokenomics": "$MASK governs the MaskDAO, directing ecosystem grants, decentralized social investments, and protocol integration parameters.",
+    "sybilSafety": "Verified Twitter account integration paired with on-chain Ethereum wallet activity verifies authentic identity.",
+    "faqs": [
+      {
+        "question": "How do encrypted tweets work on Mask?",
+        "answer": "Mask encrypts your text using asymmetric cryptography; only users who hold the required private key or NFT credential can decrypt and read the message."
+      }
+    ],
+    "requirements": [
+      "Chrome / Brave extension",
+      "Twitter/X account",
+      "Web3 Wallet"
+    ]
+  },
+  {
+    "id": "audius",
+    "name": "Audius",
+    "description": "Decentralized music streaming and audio sharing protocol connecting indie artists directly to millions of global listeners on Solana.",
+    "category": "Social",
+    "status": "active",
+    "reward": "$AUDIO Staking Yields & Weekly Trending Music Bounties",
+    "funding": "$13.6M",
+    "investors": "Multicoin Capital, Coinbase Ventures, Pantera Capital, Katy Perry, The Chainsmokers",
+    "stage": "Mainnet Live",
+    "difficulty": "Easy",
+    "estimatedTime": "5 mins",
+    "featured": false,
+    "logo": "/images/airdrops/audius.svg",
+    "steps": [
+      "Create a free account on <strong>Audius</strong> (audius.co) or download the mobile app.",
+      "Listen to music, curate favorite playlists, and tip your favorite indie artists.",
+      "Upload original music tracks or remixes if you are a musical creator.",
+      "Stake native $AUDIO tokens to unlock VIP artist badges, custom tier features, and discovery node rewards."
+    ],
+    "overview": "Audius is a decentralized music streaming platform built to liberate musicians from predatory major record label contracts. Processing streaming audio via a decentralized node network and settling micro-payments on Solana, Audius gives 90% of streaming revenues directly to creators.",
+    "strategy": "Stream music daily, curate public playlists that attract listeners, and stake AUDIO tokens to run a node or support artists.",
+    "tokenomics": "$AUDIO is the governance, security, and utility token of the platform, staked by node operators and used to unlock premium audio features.",
+    "sybilSafety": "Verified social account integrations and streaming listener telemetry prevent automated audio farming.",
+    "faqs": [
+      {
+        "question": "Is Audius completely free for listeners?",
+        "answer": "Yes! Listeners can stream unlimited high-quality audio at 320kbps for free with zero advertisements."
+      }
+    ],
+    "requirements": [
+      "Audius App or Web browser",
+      "Free account",
+      "EVM or Solana Wallet"
+    ]
+  },
+  {
+    "id": "deso-network",
+    "name": "Decentralized Social (DeSo)",
+    "description": "Custom Layer 1 blockchain engineered specifically to scale social media apps, on-chain posts, and Creator Coins.",
+    "category": "Layer 1",
+    "status": "active",
+    "reward": "$DESO Staking APY & Revolution Proof-of-Stake Bounties",
+    "funding": "$200M+",
+    "investors": "a16z crypto, Sequoia Capital, Coinbase Ventures, Social Capital, Pantera Capital",
+    "stage": "Mainnet Live",
+    "difficulty": "Easy",
+    "estimatedTime": "5 mins",
+    "featured": false,
+    "logo": "/images/airdrops/deso-network.svg",
+    "steps": [
+      "Create a <strong>DeSo Identity</strong> account using Google or seed phrase.",
+      "Explore DeSo-powered social applications (Diamond App, DesoDrive, Focus).",
+      "Stake native $DESO tokens in the Revolution Proof-of-Stake consensus module.",
+      "Post on-chain content and trade Creator Coins directly on the DeSo DEX."
+    ],
+    "overview": "Decentralized Social (DeSo) is an open Layer 1 blockchain purpose-built from the ground up to support the massive storage and high transaction throughput demands of decentralized social networks. By storing posts, profiles, follower graphs, and social tips directly on-chain, DeSo prevents social media censorship.",
+    "strategy": "Set up an active DeSo profile on Diamond App, delegate DESO tokens to consensus validators, and post regular social content.",
+    "tokenomics": "$DESO powers transaction gas fees, creator tipping, on-chain profile storage, and secures the Revolution PoS consensus.",
+    "sybilSafety": "On-chain social graph interactions, phone number verification, and validator delegations guarantee authentic user identity.",
+    "faqs": [
+      {
+        "question": "Why does DeSo need its own Layer 1?",
+        "answer": "Traditional blockchains are too expensive for social media; DeSo is custom-engineered to store on-chain posts and profiles at a fraction of standard cost."
+      }
+    ],
+    "requirements": [
+      "DeSo Identity account",
+      "Web browser",
+      "DESO tokens (optional)"
+    ]
+  },
+  {
+    "id": "dhedge",
+    "name": "dHEDGE",
+    "description": "Decentralized, non-custodial asset management and social copy-trading protocol on Optimism and Arbitrum.",
+    "category": "DeFi",
+    "status": "active",
+    "reward": "$DHT Staking Yields & Performance Fee Distributions",
+    "funding": "$2.5M+",
+    "investors": "Framework Ventures, DeFiance Capital, Alameda Research, Divergence Ventures",
+    "stage": "Mainnet Live",
+    "difficulty": "Easy",
+    "estimatedTime": "10 mins",
+    "featured": false,
+    "logo": "/images/airdrops/dhedge.svg",
+    "steps": [
+      "Connect Web3 wallet to <strong>dHEDGE</strong> (app.dhedge.org) on Optimism or Arbitrum.",
+      "Browse top-performing decentralized investment pools managed by veteran DeFi traders.",
+      "Deposit USDC or ETH into a fund to automate portfolio trading without giving up custody.",
+      "Stake native $DHT tokens in the dHEDGE DAO to earn weekly protocol fee dividends."
+    ],
+    "overview": "dHEDGE is an open decentralized asset management protocol powered by smart contracts. Investors can allocate capital into non-custodial pools managed by elite algorithmic and discretionary traders, while pool managers earn performance fees based on verifiable on-chain returns.",
+    "strategy": "Invest in high-reputation pools, explore automated index strategies, and stake DHT tokens for protocol fee sharing.",
+    "tokenomics": "$DHT is the native governance and staking token, capturing a percentage of platform management and performance fees.",
+    "sybilSafety": "Continuous capital deposits in audited smart contracts verify legitimate DeFi participant status.",
+    "faqs": [
+      {
+        "question": "Can a dHEDGE pool manager steal my funds?",
+        "answer": "No! Managers can only execute whitelisted trades through decentralized protocols; they have zero technical ability to withdraw your capital."
+      }
+    ],
+    "requirements": [
+      "Optimism or Arbitrum Wallet",
+      "USDC or ETH",
+      "Web browser"
+    ]
+  },
+  {
+    "id": "toros-finance",
+    "name": "Toros Finance",
+    "description": "Automated leveraged tokens and dynamic yield strategies protocol powered by dHEDGE smart contracts.",
+    "category": "DeFi",
+    "status": "active",
+    "reward": "Yield Vault APY & Ecosystem Trading Points",
+    "funding": "Incubated by dHEDGE DAO",
+    "investors": "dHEDGE Ecosystem, Framework Ventures Partners",
+    "stage": "Mainnet Live",
+    "difficulty": "Easy",
+    "estimatedTime": "5 mins",
+    "featured": false,
+    "logo": "/images/airdrops/toros-finance.svg",
+    "steps": [
+      "Connect Web3 wallet to <strong>Toros Finance</strong> (toros.finance) on Optimism, Arbitrum, or Polygon.",
+      "Deposit stablecoins into Automated Leverage tokens (e.g. BTC 2x Bull, ETH 2x Bull) with zero liquidation risk.",
+      "Supply assets to Dynamic Yield vaults to harvest automated DeFi funding rate returns.",
+      "Hold Toros vault shares to compound returns directly in your self-custody wallet."
+    ],
+    "overview": "Toros Finance is an automated asset management application engineered on dHEDGE infrastructure. Offering tokenized leveraged positions (with automated rebalancing to prevent liquidations) alongside market-neutral funding rate yield vaults, Toros simplifies complex derivatives into single-click tokens.",
+    "strategy": "Deposit into Market Neutral or Bull leveraged vaults during clear market trends, and compound yields over multiple epochs.",
+    "tokenomics": "Platform fees support dHEDGE and Toros treasury buybacks, rewarding long-term vault depositors.",
+    "sybilSafety": "Vault share holding records on Arbitrum and Optimism block explorers establish verified on-chain authenticity.",
+    "faqs": [
+      {
+        "question": "How do Toros leveraged tokens avoid liquidations?",
+        "answer": "Smart contracts automatically rebalance leverage ratios dynamically as underlying asset prices fluctuate, preventing sudden liquidation."
+      }
+    ],
+    "requirements": [
+      "EVM Wallet (Arbitrum/Optimism)",
+      "USDC or ETH",
+      "Web browser"
+    ]
+  },
+  {
+    "id": "jones-dao",
+    "name": "Jones DAO",
+    "description": "Yield, strategy, and options liquidity protocol on Arbitrum delivering institutional risk-managed vaults.",
+    "category": "DeFi",
+    "status": "active",
+    "reward": "$JONES Staking Rewards & jAssets Yield APY",
+    "funding": "Arbitrum Ecosystem Community Launch",
+    "investors": "Arbitrum Foundation Ecosystem, Mechanism Capital, Angel Investors",
+    "stage": "Mainnet Live",
+    "difficulty": "Easy",
+    "estimatedTime": "5 mins",
+    "featured": false,
+    "logo": "/images/airdrops/jones-dao.svg",
+    "steps": [
+      "Connect Web3 wallet to <strong>Jones DAO</strong> (jonesdao.io) on Arbitrum.",
+      "Deposit collateral into jUSDC, jGLP, or jAURA strategy vaults.",
+      "Collect continuous auto-compounding options yields with optimized capital efficiency.",
+      "Stake native $JONES tokens or lock into veJONES to earn protocol revenue sharing."
+    ],
+    "overview": "Jones DAO is a yield and options liquidity protocol built natively on Arbitrum. Offering structured vaults (jAssets) that automate complex options hedging strategies, Jones enables users to earn high yields without needing deep options trading experience.",
+    "strategy": "Supply USDC or blue chips into jAsset vaults, maintain positions over strategy cycles, and lock JONES into veJONES for governance yield.",
+    "tokenomics": "$JONES and $veJONES govern vault risk parameters, direct fee distributions, and direct gauge emissions across protocol strategies.",
+    "sybilSafety": "Arbitrum smart contract vault share receipts provide verifiable on-chain proof of legitimate capital commitment.",
+    "faqs": [
+      {
+        "question": "What are jAssets in Jones DAO?",
+        "answer": "jAssets are yield-bearing tokens representing your share in automated options and structured strategy vaults on Arbitrum."
+      }
+    ],
+    "requirements": [
+      "Arbitrum EVM Wallet",
+      "USDC or ETH collateral",
+      "Web browser"
+    ]
+  },
+  {
+    "id": "stryke-options",
+    "name": "Stryke (formerly Dopex)",
+    "description": "Decentralized options and structured volatility protocol featuring CLAMM (Concentrated Liquidity AMM) on Arbitrum.",
+    "category": "DeFi",
+    "status": "active",
+    "reward": "$SYK Staking Yields & CLAMM Liquidity Bounties",
+    "funding": "$5M+ Ecosystem Backed",
+    "investors": "Orthogonal Trading, Defi Alliance, Mechanism Capital, LedgerPrime",
+    "stage": "Mainnet Live",
+    "difficulty": "Medium",
+    "estimatedTime": "10 mins",
+    "featured": false,
+    "logo": "/images/airdrops/stryke-options.svg",
+    "steps": [
+      "Connect Web3 wallet to <strong>Stryke</strong> (stryke.org) on Arbitrum or Base.",
+      "Buy call or put options with custom strike prices and expiration dates via CLAMM.",
+      "Provide single-sided concentrated options liquidity inside Uniswap V3 ranges to earn trading premiums.",
+      "Stake native $SYK tokens to participate in revenue sharing and governance voting."
+    ],
+    "overview": "Stryke (formerly Dopex) is an innovative decentralized options protocol built on Arbitrum and Base. Utilizing its groundbreaking Concentrated Liquidity Automated Market Maker (CLAMM), Stryke turns standard Uniswap V3 liquidity ticks into dynamic European-style options contracts, providing ultra-deep on-chain options depth.",
+    "strategy": "Provide options liquidity on CLAMM, trade tactical options hedges, and stake SYK tokens for platform revenue shares.",
+    "tokenomics": "$SYK governs the protocol risk parameters, coordinates emissions, and accrues protocol revenue from options trading fees.",
+    "sybilSafety": "On-chain options contracts exercised and liquidity provided on Arbitrum establish genuine Web3 actor identity.",
+    "faqs": [
+      {
+        "question": "What was Dopex rebranded to?",
+        "answer": "Dopex rebranded to Stryke to represent its unified, concentrated liquidity options engine across multiple chains."
+      }
+    ],
+    "requirements": [
+      "Arbitrum or Base Wallet",
+      "ETH or USDC",
+      "Web browser"
+    ]
+  },
+  {
+    "id": "origin-protocol",
+    "name": "Origin Protocol",
+    "description": "Decentralized yield-bearing stablecoins and liquid staking protocol powering OUSD and OETH on Ethereum.",
+    "category": "DeFi",
+    "status": "active",
+    "reward": "$OGN Staking Yields & Automated Rebasing APR",
+    "funding": "$38M",
+    "investors": "Pantera Capital, Foundation Capital, BlockTower, Spartan Group, Steve Chen (YouTube Co-founder)",
+    "stage": "Mainnet Live",
+    "difficulty": "Easy",
+    "estimatedTime": "5 mins",
+    "featured": false,
+    "logo": "/images/airdrops/origin-protocol.svg",
+    "steps": [
+      "Connect Web3 wallet to <strong>Origin Protocol</strong> (originprotocol.com).",
+      "Mint or swap for $OUSD (Origin Dollar) or $OETH (Origin Ether).",
+      "Hold tokens in your self-custody wallet to automatically earn daily rebasing yields without staking lockups.",
+      "Stake native $OGN governance tokens to earn protocol fees and participate in DAO proposals."
+    ],
+    "overview": "Origin Protocol is the creator of OUSD and OETH, two of the earliest automated rebasing decentralized assets in Web3. Backed by $38M from prominent venture funds, Origins smart contracts automatically deploy underlying assets to trusted DeFi protocols (Maker, Compound, Curve) to pass high real yields directly to users wallets.",
+    "strategy": "Hold OUSD or OETH in your personal wallet to compound automated daily rebases, and stake OGN tokens for protocol revenue sharing.",
+    "tokenomics": "$OGN governs all Origin smart contracts, with protocol revenue allocated toward OGN token buybacks and staker rewards.",
+    "sybilSafety": "Verifiable balances of rebasing assets on Ethereum Mainnet provide permanent, non-Sybil proof of authentic capital.",
+    "faqs": [
+      {
+        "question": "Do I need to pay gas to claim OUSD or OETH yield?",
+        "answer": "No! OUSD and OETH automatically rebase inside your wallet; your token balance increases every day with zero gas fees."
+      }
+    ],
+    "requirements": [
+      "Ethereum Wallet (MetaMask/Rabby)",
+      "ETH or stablecoins",
+      "Web browser"
+    ]
+  },
+  {
+    "id": "conic-finance",
+    "name": "Conic Finance",
+    "description": "Decentralized liquidity allocation protocol introducing Omnipools for Curve Finance and Convex on Ethereum.",
+    "category": "DeFi",
+    "status": "active",
+    "reward": "$CNC Staking Rewards & Omnipool Farming Yields",
+    "funding": "Curve Ecosystem Community Launch",
+    "investors": "Curve Ecosystem, Institutional DeFi Stakers",
+    "stage": "Mainnet Live",
+    "difficulty": "Easy",
+    "estimatedTime": "10 mins",
+    "featured": false,
+    "logo": "/images/airdrops/conic-finance.svg",
+    "steps": [
+      "Connect Web3 wallet to <strong>Conic Finance</strong> (conic.finance) on Ethereum.",
+      "Deposit single assets (USDC, USDT, DAI, ETH) into Conic Omnipools.",
+      "Watch Conic automatically allocate capital across multiple Curve pools according to DAO liquidity weights.",
+      "Stake native $CNC tokens in the vlCNC lock module to vote on weekly liquidity allocation gauges."
+    ],
+    "overview": "Conic Finance is a specialized DeFi liquidity allocation platform designed to maximize returns for Curve Finance liquidity providers. Through its single-token Omnipools, Conic solves liquidity fragmentation by dynamically balancing deposits across dozens of Curve pools, optimizing yields while providing depositors with instant liquidity.",
+    "strategy": "Supply single-sided stablecoins into Conic Omnipools, lock CNC into vlCNC, and vote on weekly liquidity allocation gauges.",
+    "tokenomics": "$CNC and $vlCNC govern the protocol, directing Omnipool liquidity flows and earning protocol revenue shares.",
+    "sybilSafety": "Multi-month capital deposits in Ethereum smart contracts and locked vlCNC positions provide definitive proof of authentic DeFi usage.",
+    "faqs": [
+      {
+        "question": "What is a Conic Omnipool?",
+        "answer": "An Omnipool allows users to deposit a single asset (like pure USDC) which is then dynamically distributed across multiple Curve pools to maximize yield."
+      }
+    ],
+    "requirements": [
+      "Ethereum EVM Wallet",
+      "USDC, USDT, or ETH",
+      "Web browser"
+    ]
   }
 ];

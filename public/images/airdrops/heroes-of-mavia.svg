@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
+  <defs>
+    <linearGradient id="maviaGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#06B6D4"/>
+      <stop offset="100%" stop-color="#3B82F6"/>
+    </linearGradient>
+  </defs>
+  <rect width="128" height="128" rx="32" fill="url(#maviaGrad)"/>
+  <path d="M42 40 L64 64 L86 40 L86 88 L72 88 L72 58 L64 68 L56 58 L56 88 L42 88 Z" fill="#FFFFFF"/>
+</svg>

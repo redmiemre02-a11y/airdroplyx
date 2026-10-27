@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
+  <defs>
+    <linearGradient id="manaGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FF2D55"/>
+      <stop offset="100%" stop-color="#FFBC5B"/>
+    </linearGradient>
+  </defs>
+  <rect width="128" height="128" rx="32" fill="url(#manaGrad)"/>
+  <circle cx="64" cy="64" r="28" fill="#FFFFFF"/>
+  <polygon points="64,44 80,76 48,76" fill="#FF2D55"/>
+  <polygon points="76,60 88,76 64,76" fill="#FFBC5B"/>
+</svg>
