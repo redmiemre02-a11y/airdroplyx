@@ -29302,5 +29302,855 @@ export const airdrops: Airdrop[] = [
         "answer": "The gaming logic, wearable NFTs, and token transactions run on Polygon for fast, gasless gameplay."
       }
     ]
+  },
+  {
+    "id": "cardano-foundation",
+    "name": "Cardano",
+    "logo": "/images/airdrops/cardano-foundation.svg",
+    "description": "Peer-reviewed Proof-of-Stake Layer 1 created by Charles Hoskinson, featuring Extended UTXO (EUTXO) architecture and Plutus smart contracts.",
+    "reward": "ADA Staking & Catalyst Project Grants",
+    "category": "Layer 1 / EUTXO",
+    "featured": true,
+    "status": "active",
+    "endTime": "2026-12-31T23:59:59Z",
+    "funding": "$62M+ (Historical ICO)",
+    "investors": "EMURGO, IOHK, Cardano Foundation, Community Stake Pools",
+    "overview": "Cardano is a pioneer Proof-of-Stake blockchain engineered through academic peer-reviewed research and formal methods by Ethereum co-founder Charles Hoskinson. Operating the Ouroboros consensus protocol, Cardano was among the earliest major networks to prove that Proof-of-Stake could achieve provable security equivalent to Bitcoin's Proof-of-Work.\n\nCardano implements the Extended UTXO (EUTXO) ledger model, combining Bitcoin's security and deterministic execution with multi-asset capabilities. Smart contracts are written in Plutus (Haskell-derived) and Aiken, ensuring strong formal verification guarantees. With the Chang hard fork, Cardano entered the Voltaire era—handing 100% of governance, constitutional conventions, and treasury allocation directly to ADA holders.\n\nProject Catalyst manages one of the largest decentralized innovation funds in Web3, distributing tens of millions in ADA grants to community projects.",
+    "tokenomics": "The native cryptocurrency is $ADA, capped at a maximum supply of 45,000,000,000 tokens. ADA secures the network via non-custodial staking to over 3,000 independent community Stake Pool Operators (SPOs).\n\nStaking on Cardano involves zero lockup periods, zero slashing risks, and funds remain fully liquid in the user's wallet while generating ~3-4% annual consensus yield every 5-day epoch.",
+    "sybilSafety": "Project Catalyst voting power is mathematically proportional to locked ADA balances during snapshot epochs, registered via decentralized voting keys. Catalyst registration requires verified mobile and on-chain attestations.",
+    "strategy": "Set up an official non-custodial Cardano wallet (Yoroi, Eternl, or Lace). Delegate your ADA to an active community Stake Pool Operator to earn epoch-based rewards. Participate in Project Catalyst voting periods using the Catalyst voting app to earn voting rewards. Explore native DEXs like Minswap and WingRiders.",
+    "steps": [
+      "Install <a href=\"https://eternl.io\" target=\"_blank\" rel=\"noopener noreferrer\">Eternl Wallet</a> or Lace Wallet.",
+      "Fund your wallet with ADA and delegate to a community Stake Pool with low saturation.",
+      "Register for the upcoming Project Catalyst voting round to earn voter rewards.",
+      "Swap tokens and provide liquidity on <a href=\"https://minswap.org\" target=\"_blank\" rel=\"noopener noreferrer\">Minswap DEX</a>.",
+      "Borrow or lend native Cardano assets on Lenfi or Liqwid Finance."
+    ],
+    "faqs": [
+      {
+        "question": "Can my ADA be slashed if a validator goes offline?",
+        "answer": "No! Cardano's Ouroboros protocol has zero slashing penalty. Your staked ADA never leaves your wallet and cannot be seized."
+      },
+      {
+        "question": "What is an epoch on Cardano?",
+        "answer": "An epoch is a 5-day cycle at the end of which staking rewards are automatically calculated and distributed to wallets."
+      }
+    ]
+  },
+  {
+    "id": "polkadot-network",
+    "name": "Polkadot",
+    "logo": "/images/airdrops/polkadot-network.svg",
+    "description": "Heterogeneous multi-chain network created by Ethereum co-founder Gavin Wood, uniting specialized parachains with shared security.",
+    "reward": "DOT Staking & Agile Coretime Allocation",
+    "category": "Layer 0 / Interoperability",
+    "featured": true,
+    "status": "active",
+    "endTime": "2026-12-31T23:59:59Z",
+    "funding": "$250M+",
+    "investors": "Web3 Foundation, Polychain Capital, Three Arrows, Pantera Capital",
+    "overview": "Polkadot is a foundational Layer-0 blockchain architecture engineered by Dr. Gavin Wood (co-founder and former CTO of Ethereum who invented Solidity). Polkadot addresses blockchain fragmentation by operating a central Relay Chain that coordinates a network of specialized, sovereign Layer-1 blockchains known as Parachains.\n\nAll parachains connected to Polkadot share the Relay Chain's collective economic security and communicate seamlessly via Cross-Consensus Messaging (XCM). With the Polkadot 2.0 evolution, the network transitions from long-term parachain slot auctions to Agile Coretime: a dynamic marketplace where developers purchase computational blockspace on-demand as secondary cores.\n\nBacked by the Web3 Foundation, Polkadot possesses one of the largest decentralized on-chain treasuries in crypto, actively funding ecosystem grants, hackathons, and community airdrops.",
+    "tokenomics": "The native utility and governance token is $DOT. DOT is used for Nominated Proof-of-Stake (NPoS) validator consensus, purchasing blockspace Coretime, and voting on on-chain OpenGov referenda.\n\nStakers who nominate trustworthy validators or participate in Nomination Pools earn ~12-15% annual staking yields.",
+    "sybilSafety": "OpenGov voting and Nomination Pool rewards require real DOT capital lockups. Slashing exists for misbehaving validators, ensuring high economic security.",
+    "strategy": "Stake DOT tokens natively through the official Polkadot Staking Dashboard or join a Nomination Pool with as little as 1 DOT. Vote on OpenGov community spending proposals via Polkassembly. Bridge assets to leading parachains like Moonbeam, Astar, and Hydration to farm ecosystem liquidity incentives.",
+    "steps": [
+      "Install <a href=\"https://subwallet.app\" target=\"_blank\" rel=\"noopener noreferrer\">SubWallet</a> or Talisman for native Polkadot support.",
+      "Visit <a href=\"https://staking.polkadot.network\" target=\"_blank\" rel=\"noopener noreferrer\">Polkadot Staking Dashboard</a> and join a Nomination Pool.",
+      "Participate in OpenGov community referenda using Polkassembly.",
+      "Swap tokens and provide liquidity on Hydration (Omnipool on Polkadot).",
+      "Experiment with Agile Coretime allocation on the Coretime marketplace."
+    ],
+    "faqs": [
+      {
+        "question": "What is a Parachain?",
+        "answer": "A Parachain is a custom, application-specific Layer 1 blockchain that connects to Polkadot to inherit shared security and trust-free cross-chain messaging."
+      },
+      {
+        "question": "What is Polkadot OpenGov?",
+        "answer": "OpenGov is Polkadot's completely decentralized governance system where any DOT holder can propose and vote on network upgrades without centralized councils."
+      }
+    ]
+  },
+  {
+    "id": "kusama-network",
+    "name": "Kusama",
+    "logo": "/images/airdrops/kusama-network.svg",
+    "description": "The canary network for Polkadot, serving as an experimental, fast-governance testing ground for cutting-edge Web3 parachains.",
+    "reward": "KSM Staking & Fast Governance Yields",
+    "category": "Layer 0 / Canary Network",
+    "featured": false,
+    "status": "active",
+    "endTime": "2026-11-30T23:59:59Z",
+    "funding": "Web3 Foundation Incubated",
+    "investors": "Web3 Foundation, Polychain Capital, Community Owned",
+    "overview": "Kusama is the official \"canary network\" of Polkadot, created by Dr. Gavin Wood in 2019 to serve as a fast-paced, experimental development proving ground. Built with almost identical codebase and architecture to Polkadot, Kusama operates with accelerated governance parameters, 7-day unbonding periods, and lower barriers to entry for early-stage blockchain startups.\n\nOn Kusama, parachain teams battle-test experimental decentralized finance protocols, autonomous AI agents, and modular runtimes under real economic conditions before deploying to Polkadot. Notable parachains incubated on Kusama include Karura (Acala canary), Moonriver (Moonbeam canary), and Shiden (Astar canary).\n\nWith low staking thresholds and lightning-fast OpenGov execution, Kusama remains the frontier network for high-risk, high-reward blockchain innovation.",
+    "tokenomics": "The native token is $KSM, with a circulating supply of ~15,000,000 tokens. KSM powers Nominated Proof-of-Stake consensus, OpenGov governance voting, and coretime allocation.\n\nStakers earn ~14-18% annual yield by nominating validators or delegating into community Nomination Pools.",
+    "sybilSafety": "Kusama enforces rigorous validator slashing for double-signing or unresponsiveness. OpenGov referenda require non-trivial conviction voting deposits.",
+    "strategy": "Acquire KSM and delegate to high-reputation validators via SubWallet or Talisman. Follow new parachain launches and deploy liquidity on Moonriver or Karura to farm canary ecosystem rewards. Vote on Kusama OpenGov referenda to earn community governance badges.",
+    "steps": [
+      "Set up a Kusama account in <a href=\"https://talisman.xyz\" target=\"_blank\" rel=\"noopener noreferrer\">Talisman Wallet</a>.",
+      "Access the Kusama Staking Dashboard and join a verified Nomination Pool.",
+      "Vote on fast-track Kusama OpenGov proposals.",
+      "Bridge KSM to Moonriver or Karura using XCM cross-chain channels.",
+      "Explore experimental micro-coretime applications deployed on Kusama."
+    ],
+    "faqs": [
+      {
+        "question": "Is Kusama a testnet?",
+        "answer": "No! Kusama is a fully functional mainnet with real economic value and independent tokenomics, designed to test technologies before Polkadot deployment."
+      },
+      {
+        "question": "Why does Kusama move faster than Polkadot?",
+        "answer": "Governance voting and unbonding periods are up to 4x faster on Kusama, allowing rapid protocol iteration."
+      }
+    ]
+  },
+  {
+    "id": "avalanche-network",
+    "name": "Avalanche",
+    "logo": "/images/airdrops/avalanche-network.svg",
+    "description": "High-speed Proof-of-Stake smart contract platform featuring sub-second finality and customized application-specific Subnets (L1s).",
+    "reward": "AVAX Staking & Subnet Ecosystem Rewards",
+    "category": "Layer 1 / Subnets",
+    "featured": true,
+    "status": "active",
+    "endTime": "2026-12-31T23:59:59Z",
+    "funding": "$290M+",
+    "investors": "Andreessen Horowitz (a16z), Polychain Capital, Dragonfly, Three Arrows",
+    "overview": "Avalanche is a premier high-performance Layer 1 blockchain engineered by Cornell computer science professor Emin Gün Sirer and Ava Labs. Utilizing revolutionary Avalanche Snow consensus, the network achieves sub-second transaction finality, high throughput (4,500+ TPS), and institutional-grade decentralization across thousands of validator nodes.\n\nAvalanche operates a multi-chain architecture consisting of the Primary Network: the Contract Chain (C-Chain for EVM smart contracts), Platform Chain (P-Chain for staking and coordination), and Exchange Chain (X-Chain for assets). The protocol's greatest strength is Avalanche Subnets (now sovereign L1s)—customizable app-chains that can use custom gas tokens, custom virtual machines, and regulatory compliance rules (used by institutions like Citi, JPMorgan, and T. Rowe Price).\n\nWith expanding gaming subnets (Shrapnel, DFK) and institutional RWA initiatives, Avalanche is an enterprise and DeFi powerhouse.",
+    "tokenomics": "The native utility and staking asset is $AVAX, capped at a maximum supply of 720,000,000 tokens. AVAX is used for C-Chain transaction gas, staking to validate the Primary Network and Subnets, and governance.\n\nAll transaction fees on the Avalanche C-Chain are permanently burned, creating strong deflationary pressure as on-chain activity rises.",
+    "sybilSafety": "Validator nodes require 2,000 AVAX minimum stake, while delegators require 25 AVAX. Fee burns on every transaction completely disincentivize wash trading.",
+    "strategy": "Delegate AVAX to verified validator nodes on the official Core Wallet staking portal to earn ~8% APR. Swap tokens and supply liquidity on Trader Joe. Explore gaming subnets like DeFi Kingdoms and participate in Avalanche Foundation ecosystem incentive seasons.",
+    "steps": [
+      "Install <a href=\"https://core.app\" target=\"_blank\" rel=\"noopener noreferrer\">Core Wallet</a> by Ava Labs for desktop or mobile.",
+      "Delegate AVAX to an active validator on the P-Chain staking dashboard.",
+      "Swap tokens and farm liquidity on <a href=\"https://traderjoexyz.com\" target=\"_blank\" rel=\"noopener noreferrer\">Trader Joe DEX</a>.",
+      "Borrow or lend assets on Benqi protocol on the Avalanche C-Chain.",
+      "Bridge assets across sovereign Avalanche Subnets using Avalanche Teleporter (AWM)."
+    ],
+    "faqs": [
+      {
+        "question": "What happens to gas fees on Avalanche?",
+        "answer": "100% of all transaction fees paid in AVAX on the C-Chain are permanently burned, removing them from total circulation."
+      },
+      {
+        "question": "What is Avalanche Teleporter?",
+        "answer": "Teleporter is a cross-subnet communication protocol built on Avalanche Warp Messaging (AWM) that allows subnets to exchange data and assets natively."
+      }
+    ]
+  },
+  {
+    "id": "zcash-network",
+    "name": "Zcash",
+    "logo": "/images/airdrops/zcash-network.svg",
+    "description": "Pioneer privacy-preserving cryptocurrency invented by Zooko Wilcox, introducing zero-knowledge proofs (zk-SNARKs) to Web3.",
+    "reward": "ZEC Mining & Shielded Transaction Incentives",
+    "category": "Privacy / zk-SNARKs",
+    "featured": true,
+    "status": "active",
+    "endTime": "2026-12-31T23:59:59Z",
+    "funding": "$15M+ (Historical Seed)",
+    "investors": "Digital Currency Group, Pantera Capital, Naval Ravikant, Fred Ehrsam",
+    "overview": "Zcash is the foundational pioneer of Zero-Knowledge cryptography in cryptocurrency, launched in 2016 by cypherpunk Zooko Wilcox and an elite team of scientists from MIT, Johns Hopkins, and Tel Aviv University. Zcash was the very first real-world implementation of zk-SNARKs (Zero-Knowledge Succinct Non-Interactive Arguments of Knowledge).\n\nZcash offers users mathematical privacy through dual address types: transparent addresses (t-addresses, functioning similarly to Bitcoin where transactions are visible on-chain) and shielded addresses (z-addresses, where sender, recipient, and transaction amounts are 100% encrypted).\n\nWith the Halo zero-knowledge proving system, Zcash eliminated the historic requirement for a \"trusted setup ceremony,\" enabling trustless recursive proofs. Guided by the Electric Coin Company (ECC) and Zcash Foundation, the network is transitioning toward Proof-of-Stake to unlock staking rewards for shielded holders.",
+    "tokenomics": "The native cryptocurrency is $ZEC, sharing Bitcoin's hard cap of exactly 21,000,000 coins and 4-year halving cycle.\n\nBlock rewards are split between Proof-of-Work miners and the Zcash Community Development Fund (ZCG), which finances open-source privacy tooling and mobile light-wallet protocols.",
+    "sybilSafety": "Zcash is secured by physical compute (Proof-of-Work Equihash). Shielded zero-knowledge transactions mathematically conceal transaction history, preventing chain analysis tracing.",
+    "strategy": "Download the official shielded mobile wallet (Zashi or Ywallet). Withdraw ZEC to a shielded Orchard/Sapling address to experience true mathematical zero-knowledge privacy. Support ecosystem development through Zcash Community Grants (ZCG) bounties.",
+    "steps": [
+      "Download <a href=\"https://zashi.org\" target=\"_blank\" rel=\"noopener noreferrer\">Zashi Wallet</a> or Ywallet on iOS or Android.",
+      "Generate a shielded Orchard address (u-address).",
+      "Shield your transparent ZEC by sending it into the shielded pool.",
+      "Perform peer-to-peer shielded transactions with encrypted memos.",
+      "Participate in community governance discussions on the Zcash Community Forum."
+    ],
+    "faqs": [
+      {
+        "question": "What is the difference between transparent and shielded addresses?",
+        "answer": "Transparent addresses (t-addresses) show balances and transfers publicly like Bitcoin. Shielded addresses (z-addresses) completely encrypt all transaction data."
+      },
+      {
+        "question": "What is Halo cryptography?",
+        "answer": "Halo is a breakthrough zero-knowledge proving system developed by ECC that eliminates the need for a trusted setup ceremony and enables recursive proofs."
+      }
+    ]
+  },
+  {
+    "id": "monero-project",
+    "name": "Monero",
+    "logo": "/images/airdrops/monero-project.svg",
+    "description": "The premier decentralized, untraceable Proof-of-Work privacy cryptocurrency powered by Ring Signatures, Stealth Addresses, and RingCT.",
+    "reward": "XMR CPU Mining & P2P Economy Rewards",
+    "category": "Privacy / Proof of Work",
+    "featured": true,
+    "status": "active",
+    "endTime": "2026-12-31T23:59:59Z",
+    "funding": "100% Community Funded (No VC)",
+    "investors": "Open Source Community, Community Crowdfunding System (CCS)",
+    "overview": "Monero (XMR) is the gold standard of financial privacy and censorship resistance in cryptocurrency. Launched in 2014 as an open-source grassroots project with zero pre-mine, zero ICO, and zero venture capital funding, Monero enforces privacy by default at the protocol level: every single transaction on Monero is completely anonymous and untraceable.\n\nMonero achieves total privacy through a trio of cryptographic primitives: Stealth Addresses (random one-time addresses created for every transaction so the recipient's public address is never visible), Ring Signatures (mixing the sender's output with decoy outputs from the blockchain), and Ring Confidential Transactions (RingCT, which mathematically conceals the transaction amount).\n\nMonero is secured by RandomX—an ASIC-resistant Proof-of-Work algorithm designed specifically for consumer CPUs, ensuring that anyone with a laptop can mine XMR and decentralize the network.",
+    "tokenomics": "The native coin is $XMR. Monero completed its primary emission curve and entered \"Tail Emission\"—a perpetual, fixed reward of 0.6 XMR per 2-minute block.\n\nTail emission ensures miners are perpetually incentivized to secure the blockchain without relying exclusively on transaction fees, guaranteeing sub-cent fees indefinitely.",
+    "sybilSafety": "Monero privacy is enforced by default at the protocol layer. Decoy selection algorithms prevent chain analysis heuristics, and RandomX prevents hashrate centralization.",
+    "strategy": "Download the official Monero GUI Wallet or mobile Cake Wallet. Mine XMR in the background on your home computer CPU using the integrated solo mining or P2Pool decentralized pool. Transact privately with merchants supporting native XMR payments.",
+    "steps": [
+      "Download the official wallet from <a href=\"https://getmonero.org\" target=\"_blank\" rel=\"noopener noreferrer\">GetMonero.org</a> or install Cake Wallet.",
+      "Set up a non-custodial 25-word mnemonic seed phrase.",
+      "Enable P2Pool decentralized mining in the official GUI to mine XMR with your computer CPU.",
+      "Send and receive private transactions with instant stealth addressing.",
+      "Contribute to open-source developer proposals via the Monero Community Crowdfunding System (CCS)."
+    ],
+    "faqs": [
+      {
+        "question": "Is privacy optional on Monero?",
+        "answer": "No! Unlike other privacy coins where privacy is an optional feature, Monero enforces 100% privacy by default on every transaction."
+      },
+      {
+        "question": "What is RandomX?",
+        "answer": "RandomX is Monero's Proof-of-Work algorithm engineered to be mined efficiently only on general-purpose CPUs, preventing ASIC centralization."
+      }
+    ]
+  },
+  {
+    "id": "dash-network",
+    "name": "Dash",
+    "logo": "/images/airdrops/dash-network.svg",
+    "description": "Decentralized digital cash pioneer featuring sub-second InstantSend, ChainLocks security, and decentralized Masternode DAO governance.",
+    "reward": "DASH Masternode Staking & Platform Evolution",
+    "category": "Payments / Digital Cash",
+    "featured": false,
+    "status": "active",
+    "endTime": "2026-11-30T23:59:59Z",
+    "funding": "Self-Funded via On-Chain Treasury",
+    "investors": "Decentralized Masternode Network",
+    "overview": "Dash (Digital Cash) is a pioneer in cryptocurrency payments, founded by Evan Duffield in 2014. Engineered as a fast, user-friendly alternative to Bitcoin, Dash introduced the world's first two-tier network architecture: a first tier of Proof-of-Work miners (X11) and a second tier of collateralized Masternodes.\n\nMasternodes power InstantSend—settling payments irreversibly in under 2 seconds with ChainLocks technology that permanently protects the blockchain from 51% mining attacks. Dash also pioneered decentralized autonomous organizations (DAOs) by establishing the first on-chain Treasury in 2015: 10% of all block rewards fund developer grants and marketing proposals voted on by Masternodes.\n\nWith Dash Platform (Evolution) deploying decentralized cloud data storage and human-readable usernames, Dash delivers frictionless Web3 payments.",
+    "tokenomics": "The native cryptocurrency is $DASH, capped at ~18.9 Million coins. Block rewards are split: 45% to PoW miners, 45% to Masternodes, and 10% to the decentralized on-chain Treasury.\n\nMasternodes require 1,000 DASH collateral (or 4,000 DASH for Evolution High-Performance Masternodes) and earn continuous block reward dividends.",
+    "sybilSafety": "Masternode voting and block payouts require verifiable 1,000 DASH collateral lockups. InstantSend is cryptographically locked by 24-quorums of Masternodes.",
+    "strategy": "Set up an official Dash Electrum or mobile Dash wallet. Use InstantSend to send sub-second crypto payments. Participate in Masternode crowd-pools (with fractional deposits) to earn passive staking yields. Review and vote on monthly treasury proposals on DashCentral.",
+    "steps": [
+      "Download Dash Wallet for iOS, Android, or desktop from <a href=\"https://dash.org\" target=\"_blank\" rel=\"noopener noreferrer\">Dash.org</a>.",
+      "Fund your wallet and experience sub-second InstantSend payments.",
+      "Deposit DASH into a decentralized Masternode staking pool to earn staking APY.",
+      "Create a human-readable username on the Dash Platform testnet.",
+      "Vote or submit grant proposals to the Dash DAO Treasury."
+    ],
+    "faqs": [
+      {
+        "question": "What is InstantSend?",
+        "answer": "InstantSend is a feature that locks transaction inputs through Masternode quorums, confirming payments in under 2 seconds with zero double-spend risk."
+      },
+      {
+        "question": "What was the first crypto DAO in history?",
+        "answer": "Dash created the first functioning decentralized on-chain Treasury and Masternode voting system in 2015, widely considered the first operational DAO."
+      }
+    ]
+  },
+  {
+    "id": "waves-blockchain",
+    "name": "Waves",
+    "logo": "/images/airdrops/waves-blockchain.svg",
+    "description": "High-speed custom token creation platform featuring Leased Proof-of-Stake (LPoS), decentralized leasing yields, and Ride smart contracts.",
+    "reward": "WAVES Staking & WX DEX Farming",
+    "category": "Layer 1 / Leased PoS",
+    "featured": false,
+    "status": "active",
+    "endTime": "2026-12-31T23:59:59Z",
+    "funding": "$16M+ (Historical ICO)",
+    "investors": "Community Funded, Dux Capital",
+    "overview": "Waves is an open-source decentralized blockchain platform founded in 2016 by Sasha Ivanov. Engineered to make blockchain asset creation accessible to non-programmers, Waves introduced frictionless 1-click token creation directly inside the wallet client, years before standard ERC-20 tooling became widespread.\n\nWaves operates Leased Proof-of-Stake (LPoS): users can \"lease\" their WAVES balance to mining validator nodes without transferring custody of their funds. The node uses the leased balance to increase its probability of forging blocks, sharing transaction fee rewards back to the user. Waves executes smart contracts using Ride—a non-Turing complete, deterministic language that prevents unexpected gas drain exploits.\n\nWith the Waves 1.5 upgrade and the WX Network decentralized exchange, Waves provides fast, predictable trading and DeFi.",
+    "tokenomics": "The native asset is $WAVES, which powers block generation fees and smart contract execution.\n\nLeasing WAVES generates continuous leasing rewards paid in WAVES and ecosystem tokens directly from community mining pools.",
+    "sybilSafety": "Leasing rewards are calculated on-chain based on leased WAVES balances. Miners must hold at least 1,000 WAVES to generate blocks.",
+    "strategy": "Install Keeper Wallet or Waves.Exchange. Lease your WAVES balance to top community generating nodes to earn passive weekly staking yields without locking your funds. Swap tokens and provide liquidity on WX Network pools.",
+    "steps": [
+      "Download <a href=\"https://waves.exchange\" target=\"_blank\" rel=\"noopener noreferrer\">Waves.Exchange</a> or Keeper Wallet.",
+      "Navigate to the \"Leasing\" tab and select a verified community mining node.",
+      "Lease your WAVES to start collecting weekly staking payouts.",
+      "Create custom tokens on the 1-click token creation dashboard.",
+      "Explore DeFi liquidity pools on WX Network."
+    ],
+    "faqs": [
+      {
+        "question": "Can a mining node steal my leased WAVES?",
+        "answer": "No! When you lease WAVES, the tokens never leave your wallet. You retain 100% control and can cancel the lease at any second."
+      },
+      {
+        "question": "What is Ride?",
+        "answer": "Ride is Waves' purpose-built smart contract language designed to be deterministic and lightweight, eliminating execution failures."
+      }
+    ]
+  },
+  {
+    "id": "symbol-blockchain",
+    "name": "Symbol",
+    "logo": "/images/airdrops/symbol-blockchain.svg",
+    "description": "Enterprise-grade hybrid blockchain architecture developed by NEM, featuring multi-level multisig, aggregate transactions, and zero gas volatility.",
+    "reward": "XYM Harvesting & Node Delegations",
+    "category": "Layer 1 / Enterprise Hybrid",
+    "featured": false,
+    "status": "active",
+    "endTime": "2026-11-30T23:59:59Z",
+    "funding": "NEM Ecosystem Incubated",
+    "investors": "NEM Trust, Tech Bureau, Community Stakeholders",
+    "overview": "Symbol is a trusted enterprise-grade hybrid blockchain platform developed by the NEM Foundation and launched in 2021. Engineered specifically for enterprise data interoperability, supply chain verification, and asset tokenization, Symbol allows businesses to seamlessly connect private blockchains with the public network.\n\nSymbol features native on-chain plugins that eliminate the need to write complex smart contracts from scratch. These include built-in multi-level multisig accounts (up to 3 levels of nested approvals), atomic cross-chain swaps, and \"Aggregate Transactions\" that batch dozens of operations from multiple parties into a single trustless settlement. Symbol operates Proof-of-Stake Plus (PoS+) consensus.\n\nSymbol enables secure enterprise asset tokenization without smart contract exploit vulnerabilities.",
+    "tokenomics": "The native cryptocurrency is $XYM, capped at 8,999,999,999 tokens. XYM powers transaction fees and secures the PoS+ consensus mechanism.\n\nToken holders participate in \"Harvesting\" (delegated block generation): accounts holding at least 10,000 XYM can delegate their harvesting power to a public node and earn block fees directly into their wallets.",
+    "sybilSafety": "PoS+ consensus incorporates node activity and network transaction volume into account importance scores, preventing passive rich-get-richer centralizations.",
+    "strategy": "Create a Symbol desktop or mobile wallet. Activate Delegated Harvesting on an active node to collect daily XYM block fees without keeping your computer running. Explore enterprise tokenized assets and namespaces on the Symbol Explorer.",
+    "steps": [
+      "Download the official wallet from <a href=\"https://symbolplatform.com\" target=\"_blank\" rel=\"noopener noreferrer\">SymbolPlatform.com</a>.",
+      "Fund your account with at least 10,000 XYM to activate harvesting eligibility.",
+      "Select a community harvesting node in the wallet and click \"Activate Harvesting\".",
+      "Collect continuous XYM transaction fees from harvested blocks.",
+      "Explore native on-chain mosaics (tokens) and namespaces."
+    ],
+    "faqs": [
+      {
+        "question": "What is Harvesting on Symbol?",
+        "answer": "Harvesting is Symbol's consensus mechanism where users delegate their account importance to nodes to earn block creation fees without running server hardware."
+      },
+      {
+        "question": "What are Aggregate Transactions?",
+        "answer": "They are atomic transactions that bundle multiple operations between multiple parties, ensuring all actions succeed together or all fail together."
+      }
+    ]
+  },
+  {
+    "id": "ontology-network",
+    "name": "Ontology",
+    "logo": "/images/airdrops/ontology-network.svg",
+    "description": "High-speed Layer 1 blockchain specializing in decentralized identity (ONT ID) and data privacy, backed by dual-token ONT/ONG tokenomics.",
+    "reward": "ONG Staking Gas Yields & ONT ID Quests",
+    "category": "Layer 1 / Decentralized Identity",
+    "featured": false,
+    "status": "active",
+    "endTime": "2026-12-31T23:59:59Z",
+    "funding": "Self-Funded via Ecosystem Airdrops",
+    "investors": "Onchain, Sequoia China partners, Matrix Partners",
+    "overview": "Ontology is a high-performance open-source blockchain engineered specifically for decentralized digital identity (DID) and data sharing. Launched in 2018 by Li Jun and Onchain, Ontology provides enterprise-grade trust frameworks that allow individuals and institutions to verify credentials without compromising personal data privacy.\n\nThe core of the ecosystem is ONT ID—a W3C-compliant decentralized identity protocol used by millions to manage verifiable credentials across Web3, healthcare, and automotive industries (including Daimler/Mercedes-Benz). Ontology features multi-virtual machine support (Wasm, NeoVM, and full EVM compatibility).\n\nOperating a dual-token model (ONT for governance and ONG for gas), Ontology ensures predictable transaction pricing for enterprise dApps.",
+    "tokenomics": "The primary governance and staking token is $ONT (un-divisible), while $ONG (Ontology Gas) powers smart contract execution and fees.\n\nStaking ONT to consensus nodes generates continuous, passive ONG dividends that automatically accumulate in staker wallets.",
+    "sybilSafety": "Staking rewards require continuous ONT delegation in 120,000-block consensus rounds. ONT ID credential verification uses zero-knowledge cryptography.",
+    "strategy": "Download ONTO Wallet on mobile. Stake ONT tokens to verified community consensus nodes to earn ~8-12% annual percentage yield paid in ONG. Create an ONT ID and verify Web3 credentials to qualify for ecosystem partner airdrops.",
+    "steps": [
+      "Download <a href=\"https://onto.app\" target=\"_blank\" rel=\"noopener noreferrer\">ONTO Wallet</a> on iOS or Android.",
+      "Create your decentralized ONT ID profile.",
+      "Stake ONT tokens on the node staking dashboard to earn passive ONG gas rewards.",
+      "Swap tokens and provide liquidity on Wing Finance (Ontology's cross-chain DeFi hub).",
+      "Explore EVM smart contracts deployed on the Ontology EVM bridge."
+    ],
+    "faqs": [
+      {
+        "question": "What is ONT ID?",
+        "answer": "ONT ID is a decentralized identity framework allowing users to own and manage digital credentials securely without third-party data tracking."
+      },
+      {
+        "question": "Why does Ontology use two tokens?",
+        "answer": "ONT is used for consensus and voting, while ONG is used for gas fees, preventing volatile speculative spikes from disrupting enterprise usage costs."
+      }
+    ]
+  },
+  {
+    "id": "qtum-chain",
+    "name": "Qtum",
+    "logo": "/images/airdrops/qtum-chain.svg",
+    "description": "Pioneer hybrid blockchain merging Bitcoin's rock-solid UTXO accounting with Ethereum's EVM smart contracts and Proof-of-Stake.",
+    "reward": "QTUM Staking & Offline Staking Rewards",
+    "category": "Layer 1 / Hybrid UTXO-EVM",
+    "featured": false,
+    "status": "active",
+    "endTime": "2026-11-30T23:59:59Z",
+    "funding": "$15.6M+ (Historical ICO)",
+    "investors": "Anthony Di Iorio, Roger Ver, Fenbushi Capital, BlockAsset",
+    "overview": "Qtum is an open-source public blockchain founded by Patrick Dai in 2016 that successfully bridged the two dominant paradigms in cryptocurrency: Bitcoin's battle-tested UTXO transaction model and Ethereum's expressive Ethereum Virtual Machine (EVM).\n\nThrough its patented Account Abstraction Layer (AAL), Qtum translates the state of EVM smart contracts into Bitcoin-style unspent transaction outputs. This allows developers to write Solidity smart contracts while benefiting from Bitcoin's lightweight payment verification (SPV) on mobile wallets and institutional Proof-of-Stake (Mutualized Proof-of-Stake - MPoS).\n\nQtum introduced \"Offline Staking,\" enabling users to delegate their UTXO staking power to super-staker nodes without surrendering custody or keeping private keys online.",
+    "tokenomics": "The native cryptocurrency is $QTUM, with a halving schedule mirroring Bitcoin. QTUM powers transaction gas and Proof-of-Stake block validation.\n\nStakers earn continuous block rewards by running full nodes or delegating via Offline Staking.",
+    "sybilSafety": "Offline Staking requires UTXOs to mature for 500 blocks before generating staking weight, preventing rapid-hop bot attacks.",
+    "strategy": "Set up Qtum Core Wallet or Qtum Web Wallet. Use Offline Staking to delegate your QTUM to a verified Super Staker address without exposing your private keys. Deploy Solidity smart contracts via Remix connected to Qtum RPC.",
+    "steps": [
+      "Download Qtum Core or use the <a href=\"https://qtum.org\" target=\"_blank\" rel=\"noopener noreferrer\">Qtum Web Wallet</a>.",
+      "Select \"Delegations\" and paste the address of a trusted Super Staker.",
+      "Delegate your QTUM balance to start earning PoS block rewards.",
+      "Explore decentralized applications deployed on the Qtum EVM.",
+      "Participate in Qtum community governance discussions."
+    ],
+    "faqs": [
+      {
+        "question": "What is the Account Abstraction Layer (AAL)?",
+        "answer": "The AAL is Qtum's proprietary middleware that bridges Bitcoin UTXOs with Ethereum EVM smart contracts."
+      },
+      {
+        "question": "What is Offline Staking on Qtum?",
+        "answer": "It is a non-custodial delegated staking mechanism where you delegate staking address rights while keeping your coins securely offline in cold storage."
+      }
+    ]
+  },
+  {
+    "id": "komodo-platform",
+    "name": "Komodo",
+    "logo": "/images/airdrops/komodo-platform.svg",
+    "description": "Pioneer multi-chain architecture offering delayed Proof-of-Work (dPoW) Bitcoin notary security and native atomic swap DEX (Komodo Wallet).",
+    "reward": "KMD Active User Rewards & Atomic Swap Perks",
+    "category": "Layer 1 / Atomic Swaps & dPoW",
+    "featured": false,
+    "status": "active",
+    "endTime": "2026-12-31T23:59:59Z",
+    "funding": "Community Crowdfunded",
+    "investors": "Open Source Community, Decentralized Notary Nodes",
+    "overview": "Komodo is a veteran open-source blockchain project founded in 2016 by pseudonymous cryptographer JL777. Komodo pioneered two foundational Web3 breakthroughs: Delayed Proof-of-Work (dPoW) and cross-chain peer-to-peer Atomic Swaps.\n\nThrough delayed Proof-of-Work, Komodo notarizes cryptographic backups of its blockchain onto the Bitcoin network every 10 minutes. This gives Komodo independent chains 100% of Bitcoin's multi-billion-dollar hashrate defense against 51% reorganization attacks. Komodo also created Komodo Wallet (formerly AtomicDEX)—the world's leading non-custodial decentralized exchange where users trade native Bitcoin, Ethereum, and Dogecoin directly peer-to-peer without wrapped tokens or cross-chain bridges.\n\nWith expanding developer SDKs and custom Smart Chains, Komodo provides battle-tested sovereign blockchain tooling.",
+    "tokenomics": "The native cryptocurrency is $KMD. KMD is used for notary node notarization fees, transaction gas, and fee discounts on the atomic swap DEX.\n\nActive wallet holders holding at least 10 KMD can claim 5% Active User Rewards directly inside the wallet.",
+    "sybilSafety": "Notary nodes are elected annually by community voting. Atomic swaps require cryptographic Hash Time-Locked Contracts (HTLC) on both chains simultaneously.",
+    "strategy": "Download Komodo Wallet on desktop or mobile. Execute native atomic swaps between Bitcoin, Ethereum, and Solana without centralized bridges. Hold KMD in your wallet to claim monthly Active User Rewards.",
+    "steps": [
+      "Download <a href=\"https://komodoplatform.com\" target=\"_blank\" rel=\"noopener noreferrer\">Komodo Wallet</a> for desktop or mobile.",
+      "Fund your non-custodial multi-coin wallet with BTC, ETH, or KMD.",
+      "Perform a peer-to-peer cross-chain Atomic Swap with zero intermediary risk.",
+      "Claim your monthly 5% KMD Active User Rewards.",
+      "Vote in the annual Notary Node elections to shape network security."
+    ],
+    "faqs": [
+      {
+        "question": "What is Delayed Proof of Work (dPoW)?",
+        "answer": "dPoW notarizes the state of the Komodo blockchain onto Bitcoin, protecting the network with Bitcoin's 51% hashrate security."
+      },
+      {
+        "question": "How do Komodo Atomic Swaps work?",
+        "answer": "They use Hash Time-Locked Contracts (HTLC) to swap native coins across different blockchains without wrapped tokens or custodians."
+      }
+    ]
+  },
+  {
+    "id": "horizen-eon",
+    "name": "Horizen",
+    "logo": "/images/airdrops/horizen-eon.svg",
+    "description": "Zero-knowledge powered smart contract platform featuring Horizen EON EVM sidechain and Zendoo cross-chain verification protocol.",
+    "reward": "ZEN Staking & EON DeFi Liquidity Rewards",
+    "category": "Layer 1 / ZK Sidechains & EVM",
+    "featured": false,
+    "status": "active",
+    "endTime": "2026-11-30T23:59:59Z",
+    "funding": "$10M+ (Historical Community)",
+    "investors": "Digital Currency Group, Liberty City Ventures, Community DAO",
+    "overview": "Horizen is a decentralized Layer 1 blockchain and zero-knowledge modular network founded by Rob Viglione. Operating the Zendoo cross-chain protocol, Horizen allows developers to launch independent, parallel sidechains that verify cryptographic zero-knowledge proofs directly onto the main blockchain.\n\nThe centerpiece of Horizen is EON: a fully EVM-compatible smart contract sidechain running with fast block times and low transaction fees. Developers can deploy Ethereum dApps using standard tools (MetaMask, Hardhat) while tapping into Horizen's massive global node network—one of the largest multi-tiered validator node systems in Web3.\n\nWith expanding partnerships in decentralized finance (SpookySwap, Ascend) and institutional tokenization, Horizen bridges EVM developers with zero-knowledge verification.",
+    "tokenomics": "The native cryptocurrency is $ZEN, sharing Bitcoin's 21,000,000 maximum coin cap. ZEN is used for transaction gas on mainnet and EON, validator node staking (Secure Nodes and Super Nodes), and DAO governance.\n\nNodes and delegators earn consistent block reward yields for maintaining network uptime and verifying cross-chain Zendoo certificates.",
+    "sybilSafety": "Secure Nodes require 42 ZEN collateral and valid TLS certificates. Super Nodes require 500 ZEN collateral and dedicated server hardware.",
+    "strategy": "Add Horizen EON to MetaMask. Bridge ZEN from the mainchain or Ethereum to EON via the official Horizen EON Bridge. Provide liquidity in EON decentralized exchanges and stake ZEN in community node pools to collect staking yield.",
+    "steps": [
+      "Visit <a href=\"https://eon.horizen.io\" target=\"_blank\" rel=\"noopener noreferrer\">Horizen EON</a> and connect your MetaMask wallet.",
+      "Bridge ZEN tokens to EON using the official bridge portal.",
+      "Swap tokens and provide liquidity on native EON DEXs.",
+      "Run a Secure Node or Super Node to earn ongoing block rewards.",
+      "Participate in Horizen DAO governance votes on Discourse and Snapshot."
+    ],
+    "faqs": [
+      {
+        "question": "What is Horizen EON?",
+        "answer": "EON is Horizen's fully EVM-compatible smart contract sidechain allowing developers to build Ethereum dApps backed by Horizen's node network."
+      },
+      {
+        "question": "What is Zendoo?",
+        "answer": "Zendoo is Horizen's zero-knowledge cross-chain protocol that allows sidechains to scale independently while submitting proofs to the mainchain."
+      }
+    ]
+  },
+  {
+    "id": "ergo-platform",
+    "name": "Ergo",
+    "logo": "/images/airdrops/ergo-platform.svg",
+    "description": "DeFi-focused Proof-of-Work Layer 1 utilizing extended UTXO (eUTXO) and Sigma protocols for cryptographic financial contracts.",
+    "reward": "ERG Mining & Rosen Bridge Cross-Chain Yields",
+    "category": "Layer 1 / eUTXO & PoW",
+    "featured": false,
+    "status": "active",
+    "endTime": "2026-12-31T23:59:59Z",
+    "funding": "Fair Launch (No Pre-mine, No VC)",
+    "investors": "100% Community Fair Launch",
+    "overview": "Ergo is a resilient Proof-of-Work Layer 1 blockchain engineered by former IOHK core cryptographer Alexander Chepurnoy. Designed as a contractual financial platform, Ergo combines the secure extended UTXO (eUTXO) accounting model with Turing-complete smart contracts via ErgoScript.\n\nErgo implements Sigma protocols: highly flexible zero-knowledge proofs that allow complex cryptographic contracts (ring signatures, threshold spending, and private escrow) to execute natively without heavy computational overhead. Ergo is mined using Autolykos—a memory-hard Proof-of-Work algorithm designed specifically for consumer GPUs.\n\nThrough Rosen Bridge, Ergo functions as a decentralized, non-custodial cross-chain bridge connecting Bitcoin, Cardano, and Ethereum without custodial risk.",
+    "tokenomics": "The native cryptocurrency is $ERG, capped at 97,739,924 coins with zero pre-mine and zero venture capital seed sales.\n\nAll ERG enters circulation strictly through Proof-of-Work mining. Unspent box storage fees (Storage Rent) prevent blockchain bloat by recycling forgotten coins back to miners after 4 years of inactivity.",
+    "sybilSafety": "Ergo is secured by pure GPU compute (Autolykos PoW). Sigma protocols allow cryptographic multi-signature contracts that prevent Sybil manipulation.",
+    "strategy": "Mine ERG using desktop GPUs. Set up Nautilus Wallet and use Rosen Bridge to bridge assets between Cardano and Ergo. Provide liquidity on Spectrum Finance (eUTXO DEX) or mint SigUSD (algorithmic stablecoin) to participate in native DeFi.",
+    "steps": [
+      "Install <a href=\"https://ergoplatform.org\" target=\"_blank\" rel=\"noopener noreferrer\">Nautilus Wallet</a> for Ergo browser access.",
+      "Bridge assets from Cardano or Ethereum using <a href=\"https://rosen.tech\" target=\"_blank\" rel=\"noopener noreferrer\">Rosen Bridge</a>.",
+      "Swap tokens and farm liquidity on Spectrum Finance DEX.",
+      "Mint SigUSD algorithmic stablecoin on the SigmaUSD protocol.",
+      "Mine ERG on a gaming PC using the Autolykos algorithm."
+    ],
+    "faqs": [
+      {
+        "question": "What is Storage Rent on Ergo?",
+        "answer": "It is a mechanism that charges a nominal fee on UTXO boxes that have been inactive for over 4 years, recycling lost coins back to miners and keeping the state size lean."
+      },
+      {
+        "question": "What is Rosen Bridge?",
+        "answer": "Rosen Bridge is an open-source decentralized bridge that uses Ergo smart contracts and multi-party Guard nodes to transfer assets between Bitcoin, Cardano, and Ergo."
+      }
+    ]
+  },
+  {
+    "id": "ravencoin-blockchain",
+    "name": "Ravencoin",
+    "logo": "/images/airdrops/ravencoin-blockchain.svg",
+    "description": "Bitcoin code-fork Proof-of-Work blockchain optimized specifically for the creation and peer-to-peer transfer of real-world tokenized assets.",
+    "reward": "RVN GPU Mining & Asset Issuance Rewards",
+    "category": "Layer 1 / Asset Tokenization",
+    "featured": false,
+    "status": "active",
+    "endTime": "2026-11-30T23:59:59Z",
+    "funding": "Fair Launch (No Pre-mine, No VC)",
+    "investors": "Overstock.com, Medici Ventures, Fair Launch Community",
+    "overview": "Ravencoin (RVN) is an open-source Proof-of-Work blockchain designed specifically for one clear purpose: the frictionless creation, tracking, and peer-to-peer transfer of digital assets and real-world tokens. Launched in 2018 on the 9th anniversary of Bitcoin, Ravencoin was founded by Bruce Fenton and Tron Black with financial support from Overstock.com's Medici Ventures.\n\nBuilt on a fork of Bitcoin's code, Ravencoin makes token creation native to the protocol layer: users burn 500 RVN to create unique, named asset tokens without requiring complicated smart contracts. Ravencoin assets feature built-in dividend distribution (paying rewards in RVN to all token holders in one transaction) and communication channels to message asset holders.\n\nSecured by the ASIC-resistant KAWPOW algorithm, Ravencoin allows anyone to issue tokenized securities, real estate shares, and collectibles.",
+    "tokenomics": "The native cryptocurrency is $RVN, capped at 21,000,000,000 coins with a 4-year halving schedule mirroring Bitcoin.\n\nToken issuance requires burning 500 RVN permanently, creating a direct deflationary sink as more assets and sub-tokens are minted on-chain.",
+    "sybilSafety": "Secured by Proof-of-Work (KAWPOW algorithm) utilizing consumer GPUs. Creating asset tokens requires burning 500 RVN, making asset spam expensive.",
+    "strategy": "Mine RVN on consumer graphics cards using mining software like Gminer or T-Rex. Create your own custom token or NFT collection inside the official Ravencoin Core wallet by burning RVN. Hold RVN to receive dividend distributions from tokenized projects.",
+    "steps": [
+      "Download the official desktop wallet from <a href=\"https://ravencoin.org\" target=\"_blank\" rel=\"noopener noreferrer\">Ravencoin.org</a>.",
+      "Sync the blockchain and generate your native receiving address.",
+      "Mine RVN by connecting your GPU to a community mining pool.",
+      "Navigate to the \"Assets\" tab and burn 500 RVN to create your own unique asset token.",
+      "Distribute dividends in RVN to all holders of your issued asset."
+    ],
+    "faqs": [
+      {
+        "question": "What is KAWPOW?",
+        "answer": "KAWPOW is Ravencoin's Proof-of-Work mining algorithm that prevents ASIC centralization by requiring GPU memory, ensuring fair decentralized mining."
+      },
+      {
+        "question": "How are dividends paid on Ravencoin?",
+        "answer": "The protocol allows token issuers to send RVN directly to all holders of their token in a single native transaction."
+      }
+    ]
+  },
+  {
+    "id": "decred-network",
+    "name": "Decred",
+    "logo": "/images/airdrops/decred-network.svg",
+    "description": "Pioneer hybrid Proof-of-Work / Proof-of-Stake cryptocurrency featuring Politeia on-chain governance and decentralized coin mixing.",
+    "reward": "DCR Staking (Ticket Buying) & Politeia Governance",
+    "category": "Governance / Hybrid PoW-PoS",
+    "featured": false,
+    "status": "active",
+    "endTime": "2026-12-31T23:59:59Z",
+    "funding": "Self-Funded via Block Reward Treasury",
+    "investors": "Decentralized Community, Decred Treasury",
+    "overview": "Decred (DCR) is a pioneer in decentralized cryptocurrency governance, launched in 2016 by former Bitcoin core developers (Company 0). Engineered to solve Bitcoin's governance stalemates and miner centralization, Decred introduced an innovative hybrid consensus mechanism that binds Proof-of-Work miners with Proof-of-Stake ticket holders.\n\nIn Decred, miners propose blocks, but blocks must be validated by randomly selected PoS ticket holders before they are accepted by the network. Stakeholders have the absolute power to reject miner blocks and hard forks, permanently preventing miner cartels. Furthermore, Decred created Politeia: an on-chain proposal and voting platform where stakeholders direct millions in the decentralized treasury.\n\nWith built-in opt-in CoinShuffle++ privacy mixing directly inside the wallet, Decred provides sovereign digital money.",
+    "tokenomics": "The native cryptocurrency is $DCR, capped at 21,000,000 coins. Block rewards are distributed: 1% to PoW miners, 89% to PoS ticket stakers, and 10% to the decentralized Treasury.\n\nStakers buy \"Tickets\" to lock DCR, vote on network blocks, and earn continuous ~8-10% annual staking rewards.",
+    "sybilSafety": "PoS voting requires locking substantial DCR capital in tickets for an average of 28 days. Politeia proposals require identity fees and cryptographic voting.",
+    "strategy": "Download Decrediton wallet on desktop. Lock DCR into the staking ticket pool to validate blocks and earn high staking yields. Enable CoinShuffle++ to mix your coins for zero-link privacy. Vote on treasury funding proposals on Politeia.",
+    "steps": [
+      "Download <a href=\"https://decred.org\" target=\"_blank\" rel=\"noopener noreferrer\">Decrediton Wallet</a> on PC or Mac.",
+      "Purchase DCR and navigate to the \"Staking\" tab.",
+      "Buy a PoS Ticket (or join a fractional ticket pool) to start voting on blocks.",
+      "Collect your return of locked DCR plus staking reward fees.",
+      "Vote on treasury spending proposals at <a href=\"https://proposals.decred.org\" target=\"_blank\" rel=\"noopener noreferrer\">Politeia</a>."
+    ],
+    "faqs": [
+      {
+        "question": "How does Decred prevent 51% attacks?",
+        "answer": "Attackers cannot simply accumulate hashrate; they must also buy up majority PoS tickets, making 51% attacks economically impossible."
+      },
+      {
+        "question": "What is Politeia?",
+        "answer": "Politeia is Decred's censorship-resistant on-chain platform where stakeholders discuss, propose, and vote on treasury expenditures and consensus rules."
+      }
+    ]
+  },
+  {
+    "id": "beam-privacy",
+    "name": "Beam",
+    "logo": "/images/airdrops/beam-privacy.svg",
+    "description": "Confidential decentralized finance (Confidential DeFi) Layer 1 built on the elegant Mimblewimble privacy protocol with LelantusMW.",
+    "reward": "BEAM Mining & Confidential Asset Staking",
+    "category": "Privacy / Mimblewimble",
+    "featured": false,
+    "status": "active",
+    "endTime": "2026-11-30T23:59:59Z",
+    "funding": "$7M+",
+    "investors": "Reciprocal Ventures, Node Capital, Collaborative Fund",
+    "overview": "Beam is an open-source decentralized cryptocurrency engineered on the elegant Mimblewimble protocol, combined with LelantusMW and Dandelion networking. Launched in 2019, Beam provides default confidential transactions with no blockchain bloat, no addresses, and no amounts visible on-chain.\n\nUnlike traditional blockchains where the ledger size grows infinitely with every transaction history, Mimblewimble utilizes cryptographic transaction cut-through: intermediate transactions are pruned automatically, resulting in an exceptionally compact blockchain footprint. Beam expanded beyond simple payments to create Confidential DeFi: anonymous decentralized exchanges, algorithmic stablecoins, and private smart contract shaders.\n\nWith desktop and mobile apps featuring integrated decentralized app stores, Beam brings comprehensive privacy to Web3 finance.",
+    "tokenomics": "The native cryptocurrency is $BEAM, capped at 262,800,000 coins with 4-year halving cycles. Block rewards are mined through the BeamHash III Proof-of-Work algorithm.\n\nUsers can mint Confidential Assets (custom privacy tokens) directly on Beam, paying transaction gas in BEAM.",
+    "sybilSafety": "Secured by Proof-of-Work (BeamHash III). Transactions require non-custodial cryptographic blinding factors and zero-knowledge bulletproofs.",
+    "strategy": "Download Beam Wallet on desktop or mobile. Mine BEAM using GPU hardware. Mint and swap Confidential Assets inside the built-in decentralized DEX and explore private DeFi applications in the Beam Dapp Store.",
+    "steps": [
+      "Download the official wallet from <a href=\"https://beam.mw\" target=\"_blank\" rel=\"noopener noreferrer\">Beam.mw</a>.",
+      "Set up a non-custodial seed phrase and choose your privacy level (Regular or Max Privacy).",
+      "Swap tokens privately on the integrated Beam DEX.",
+      "Access the Beam Dapp Store to interact with confidential lending contracts.",
+      "Mine BEAM using BeamHash III on compatible graphics cards."
+    ],
+    "faqs": [
+      {
+        "question": "What is Mimblewimble?",
+        "answer": "Mimblewimble is a cryptographic protocol that eliminates transaction addresses and amounts from the public blockchain, allowing past history to be pruned for extreme scalability."
+      },
+      {
+        "question": "What are Confidential Assets?",
+        "answer": "Confidential Assets are custom tokens (similar to ERC-20s) minted on Beam that inherit the same mathematical privacy as native BEAM."
+      }
+    ]
+  },
+  {
+    "id": "grin-mimblewimble",
+    "name": "Grin",
+    "logo": "/images/airdrops/grin-mimblewimble.svg",
+    "description": "Minimalist, fair-launch implementation of the Mimblewimble protocol, featuring private peer-to-peer electronic cash with constant linear emissions.",
+    "reward": "GRIN Cuckatoo Mining Rewards",
+    "category": "Privacy / Mimblewimble & PoW",
+    "featured": false,
+    "status": "active",
+    "endTime": "2026-12-31T23:59:59Z",
+    "funding": "100% Community Donations",
+    "investors": "Grassroots Community, No VC",
+    "overview": "Grin is an open-source, community-driven cryptocurrency that embodies the purest cypherpunk ethos of digital cash. Launched in January 2019 with zero pre-mine, zero ICO, and zero founder allocations, Grin is a minimalist implementation of the Mimblewimble protocol, designed to be private, scalable, and fungible.\n\nGrin transactions have no addresses and no amounts visible on the blockchain. Transactions are constructed through interactive communication between sender and receiver (via Tor, file exchange, or slatepacks). The blockchain ledger does not store historical transaction graphs, meaning past spending cannot be linked to current holders.\n\nGrin operates an inflation model of exactly 1 GRIN created every second forever, mirroring traditional physical gold extraction to discourage hoarding and promote active transactional commerce.",
+    "tokenomics": "The native cryptocurrency is $GRIN, featuring a constant linear emission of 60 GRIN per minute (1 coin per second). The inflation percentage naturally decreases toward zero over time.\n\nMined via the Cuckatoo32 Proof-of-Work algorithm, designed to be ASIC-resistant and decentralized.",
+    "sybilSafety": "Grin is secured strictly by Proof-of-Work compute. Interactive transaction building ensures both parties participate cryptographically in state transitions.",
+    "strategy": "Download Grin++ or Ironbelly wallet. Mine GRIN using GPU or ASIC miners. Practice interactive peer-to-peer payments via Tor slatepacks to experience address-less mathematical privacy.",
+    "steps": [
+      "Download <a href=\"https://grin.mw\" target=\"_blank\" rel=\"noopener noreferrer\">Grin++</a> or Ironbelly wallet.",
+      "Generate your seed phrase and connect through the integrated Tor daemon.",
+      "Send and receive GRIN via encrypted Tor addresses or offline Slatepack files.",
+      "Mine GRIN using compatible GPU hardware on mining pools.",
+      "Contribute to open-source Grin development bounties."
+    ],
+    "faqs": [
+      {
+        "question": "Why does Grin have no addresses?",
+        "answer": "Mimblewimble creates transactions through interactive multi-party cryptographic negotiation, meaning public receiving addresses do not exist on the blockchain."
+      },
+      {
+        "question": "Why does Grin have a 1-coin-per-second emission?",
+        "answer": "Constant emission ensures long-term security without relying on high transaction fees and encourages people to use Grin as medium-of-exchange currency."
+      }
+    ]
+  },
+  {
+    "id": "abracadabra-money",
+    "name": "Abracadabra",
+    "logo": "/images/airdrops/abracadabra-money.svg",
+    "description": "Pioneering collateralized debt protocol that turns interest-bearing crypto assets (yvUSDC, xSUSHI) into the Magic Internet Money (MIM) stablecoin.",
+    "reward": "SPELL Staking & Cauldrons Liquidity Mining",
+    "category": "DeFi / Collateralized Stablecoin",
+    "featured": true,
+    "status": "active",
+    "endTime": "2026-12-31T23:59:59Z",
+    "funding": "$10M+ (Ecosystem TVL)",
+    "investors": "Frog Nation, Daniele Sestagalli, Community DAO",
+    "overview": "Abracadabra.money is an innovative decentralized finance lending protocol that revolutionized stablecoin mechanics by introducing isolated lending markets known as \"Cauldrons\". Abracadabra allows users to deposit interest-bearing tokens (such as Yearn vaults, staked assets, and LP tokens) as collateral to borrow Magic Internet Money ($MIM)—a decentralized, USD-pegged stablecoin.\n\nBecause users deposit assets that are already earning interest, their collateral continues to compound yields in the background, automatically offsetting borrowing costs or paying down loan balances. Using Kashi lending technology, each Cauldron market is completely isolated, preventing an exploit in one volatile token from draining the broader protocol.\n\nOperating across Ethereum, Arbitrum, Avalanche, BNB Chain, and Base, Abracadabra distributes protocol fee revenues directly to $sSPELL stakers.",
+    "tokenomics": "The governance and value-accrual token is $SPELL, with $MIM serving as the decentralized stablecoin.\n\nStaking SPELL for sSPELL earns continuous protocol fees: a portion of all borrowing interest and liquidation fees is used to market-buy SPELL and distribute it to stakers.",
+    "sybilSafety": "Cauldron borrowing and staking rewards require authentic deposited crypto capital and collateral management, preventing bot farm manipulation.",
+    "strategy": "Deposit interest-bearing collateral (like Stargate LP or Yearn vaults) into Abracadabra Cauldrons on Arbitrum or Base. Borrow MIM at low interest rates and deploy it into high-yield Curve or Uniswap pools. Stake SPELL tokens to collect sSPELL protocol revenue fee sharing.",
+    "steps": [
+      "Connect your Web3 wallet to <a href=\"https://abracadabra.money\" target=\"_blank\" rel=\"noopener noreferrer\">Abracadabra.money</a>.",
+      "Select a Cauldron market matching your available interest-bearing collateral.",
+      "Deposit collateral and borrow Magic Internet Money ($MIM).",
+      "Stake earned SPELL tokens in the sSPELL staking contract to earn protocol revenue.",
+      "Provide MIM liquidity in Curve or Camelot pools to earn boosted farming rewards."
+    ],
+    "faqs": [
+      {
+        "question": "What is an isolated Cauldron?",
+        "answer": "A Cauldron is an independent smart contract market for a specific collateral asset, ensuring risk is isolated and other markets cannot be compromised."
+      },
+      {
+        "question": "What is Magic Internet Money (MIM)?",
+        "answer": "MIM is a decentralized, overcollateralized stablecoin pegged to $1.00 USD, minted against interest-earning crypto collateral."
+      }
+    ]
+  },
+  {
+    "id": "liquity-v2",
+    "name": "Liquity V2",
+    "logo": "/images/airdrops/liquity-v2.svg",
+    "description": "Next-generation decentralized borrowing protocol introducing the BOLD stablecoin with user-set interest rates and multiple collateral branches.",
+    "reward": "LQTY Staking & BOLD Stability Pool Yields",
+    "category": "DeFi / Decentralized Borrowing",
+    "featured": true,
+    "status": "active",
+    "endTime": "2026-12-31T23:59:59Z",
+    "funding": "$10M+",
+    "investors": "Polychain Capital, Pantera Capital, 1kx, Robot Ventures",
+    "overview": "Liquity V2 is the landmark evolution of Liquity—the most decentralized and immutable borrowing protocol in crypto history. While Liquity V1 pioneered 0% interest loans against ETH (minting LUSD), Liquity V2 introduces a completely redesigned borrowing architecture centered around the new decentralized stablecoin, $BOLD.\n\nLiquity V2 solves key challenges of DeFi borrowing: borrowers can set their own interest rates dynamically, protecting their troves from redemptions while ensuring the protocol remains solvent during volatile market shocks. V2 expands beyond solo ETH to support multiple collateral branches, including liquid staked tokens (wstETH, rETH) in completely isolated risk pools.\n\nGoverned with zero human administration (immutable smart contracts with zero governance keys), Liquity V2 sets the benchmark for trustless DeFi.",
+    "tokenomics": "The governance and fee-capture token is $LQTY, capped at 100,000,000 tokens. Stakers of LQTY earn 100% of all borrowing fees and redemption fees generated by the protocol in BOLD and ETH.\n\nStability Pool depositors who backstop BOLD liquidations earn liquidation gains and continuous LQTY rewards.",
+    "sybilSafety": "Liquity smart contracts are immutable and non-custodial. Yields are generated exclusively through real capital allocation in Stability Pools or Troves.",
+    "strategy": "Open a Trove on Liquity V2 by depositing ETH or liquid staking tokens (wstETH). Set a competitive interest rate to avoid redemptions and mint BOLD stablecoins. Deposit BOLD into the Stability Pool to capture discounted liquidation collateral and earn LQTY tokens. Stake LQTY to collect continuous borrowing fee distributions.",
+    "steps": [
+      "Visit <a href=\"https://liquity.org\" target=\"_blank\" rel=\"noopener noreferrer\">Liquity.org</a> or use verified community front-ends.",
+      "Deposit ETH or wstETH to open an isolated Trove.",
+      "Set your preferred interest rate and borrow BOLD stablecoins.",
+      "Deposit BOLD into the Stability Pool to earn liquidation bonuses and LQTY rewards.",
+      "Stake LQTY tokens in the official staking contract to collect real-yield ETH and BOLD fees."
+    ],
+    "faqs": [
+      {
+        "question": "What is BOLD?",
+        "answer": "BOLD is Liquity V2's decentralized stablecoin pegged to $1.00 USD, backed by ETH and liquid staked ETH collateral."
+      },
+      {
+        "question": "Why can borrowers set their own interest rates in V2?",
+        "answer": "User-set interest rates create an open market: borrowers who pay higher rates are prioritized during redemptions, while low-rate borrowers enjoy cheaper loans."
+      }
+    ]
+  },
+  {
+    "id": "merlin-chain",
+    "name": "Merlin Chain",
+    "logo": "/images/airdrops/merlin-chain.svg",
+    "description": "Dominant Bitcoin Layer 2 network powered by ZK-Rollup, decentralized oracle network, and on-chain BTC asset scaling.",
+    "reward": "MERL Staking & Bitcoin Ecosystem Points",
+    "category": "Bitcoin L2 / ZK-Rollup",
+    "featured": true,
+    "status": "active",
+    "endTime": "2026-12-31T23:59:59Z",
+    "funding": "$20M+",
+    "investors": "OKX Ventures, Spartan Group, ABCDE Capital, Foresight Ventures",
+    "overview": "Merlin Chain is a dominant native Bitcoin Layer 2 blockchain engineered by Bitmap Tech. Combining zero-knowledge rollups (Polygon CDK), a decentralized oracle network, and on-chain fraud proofs, Merlin Chain scales Bitcoin while supporting native Bitcoin Layer 1 assets including BTC, BRC-20, BRC-420, Ordinals, and Runes.\n\nMerlin Chain achieved massive traction during its Merlin's Seal campaign, locking over $3.5 Billion in Total Value Locked (TVL) and processing tens of millions of transactions. By providing an EVM-compatible execution layer with sub-cent gas fees, Merlin allows Bitcoin native assets to participate in automated market makers, decentralized lending pools, and Web3 games.\n\nBacked by OKX Ventures and Spartan Group, Merlin Chain is the epicentre of the Bitcoin DeFi (BTCFi) movement.",
+    "tokenomics": "The governance and utility token is $MERL, capped at 2,100,000,000 tokens. MERL is used for paying transaction gas, staking to secure decentralized oracle sequencing, and governing the Merlin DAO.\n\nCommunity incentives reward long-term Bitcoin asset stakers and active DeFi users on Merlin Chain.",
+    "sybilSafety": "Merlin's Seal verification requires authentic Bitcoin Layer 1 transactions and capital lockup. Multi-wallet bot operations are filtered through minimum UTXO values.",
+    "strategy": "Bridge native BTC, Ordinals, or BRC-20 tokens to Merlin Chain via the official Merlin Bridge. Provide liquidity in Merlin DEXs like MerlinSwap. Stake MERL tokens in the official staking portal to earn governance yield and partner token drops.",
+    "steps": [
+      "Visit the official portal at <a href=\"https://merlinchain.io\" target=\"_blank\" rel=\"noopener noreferrer\">MerlinChain.io</a>.",
+      "Connect Unisat, Xverse, or MetaMask wallet.",
+      "Bridge BTC from Bitcoin L1 to Merlin Chain via the official bridge.",
+      "Swap tokens and provide liquidity on <a href=\"https://merlinswap.org\" target=\"_blank\" rel=\"noopener noreferrer\">MerlinSwap</a>.",
+      "Stake MERL tokens to participate in decentralized sequencer governance."
+    ],
+    "faqs": [
+      {
+        "question": "What assets can be bridged to Merlin Chain?",
+        "answer": "Native BTC, BRC-20 tokens (ORDI, SATS), Ordinals NFTs, BRC-420 assets, and standard EVM stablecoins."
+      },
+      {
+        "question": "What virtual machine does Merlin Chain use?",
+        "answer": "It uses an EVM-compatible execution layer, allowing MetaMask users to interact with Bitcoin DeFi smoothly."
+      }
+    ]
+  },
+  {
+    "id": "bsquared-network",
+    "name": "B² Network",
+    "logo": "/images/airdrops/bsquared-network.svg",
+    "description": "Modular Bitcoin Layer 2 combining ZK-Rollup execution with B² Hub decentralized data availability verified directly on Bitcoin.",
+    "reward": "BSQ Token Staking & Mining Farm Points",
+    "category": "Bitcoin L2 / Modular ZK",
+    "featured": true,
+    "status": "active",
+    "endTime": "2026-12-31T23:59:59Z",
+    "funding": "$15M+",
+    "investors": "HashKey Capital, OKX Ventures, IDG Capital, KuCoin Ventures",
+    "overview": "B² Network is a leading modular Bitcoin Layer 2 network that pioneered the integration of Zero-Knowledge rollups with native Bitcoin decentralized data availability. Operating the B² Hub, the protocol achieves high throughput EVM execution while submitting cryptographic zero-knowledge proof commitments directly onto the Bitcoin blockchain using Taproot scripts.\n\nUnlike ordinary sidechains that rely on multi-sig bridges, B² Network utilizes challenge-response BitVM verification, allowing any honest verifier on Bitcoin Layer 1 to challenge fraudulent state transitions. The network successfully locked hundreds of millions in Bitcoin liquidity during its B² Buzz campaign.\n\nWith strategic backing from HashKey Capital and OKX Ventures, B² Network offers premier modular infrastructure for Bitcoin decentralized finance.",
+    "tokenomics": "The native token is $BSQ. BSQ powers sequencer node staking, data availability fees on B² Hub, and community governance votes.\n\nStakers of Bitcoin and BRC-20 assets on B² earn continuous ecosystem mining points and token distributions.",
+    "sybilSafety": "B² Buzz requires authentic Bitcoin UTXO bridging and hardware mining rig parts assembly, preventing automated multi-wallet Sybil attacks.",
+    "strategy": "Bridge BTC to B² Network via the official B² Bridge. Deposit BTC into B² DeFi protocols like Shoebill Finance and LayerBank. Stake your bridged Bitcoin in the B² Buzz dashboard to earn daily Mining Farm points and boost your upcoming token allocation.",
+    "steps": [
+      "Connect your wallet (Unisat or MetaMask) to <a href=\"https://bsquared.network\" target=\"_blank\" rel=\"noopener noreferrer\">BSquared.network</a>.",
+      "Bridge BTC from Bitcoin L1 using the official bridge.",
+      "Interact with native DeFi applications deployed on the B² EVM.",
+      "Stake assets in B² Buzz to unlock mining rig components and point multipliers.",
+      "Participate in community testnet developer quests."
+    ],
+    "faqs": [
+      {
+        "question": "How does B² Network ensure Bitcoin security?",
+        "answer": "It submits zero-knowledge proof verification commitments directly to Bitcoin Layer 1 using Taproot script commitments, inheriting Bitcoin finality."
+      },
+      {
+        "question": "What is B² Hub?",
+        "answer": "B² Hub is the specialized modular data availability (DA) layer that verifies and stores rollup transaction data for Bitcoin Layer 2s."
+      }
+    ]
+  },
+  {
+    "id": "bevm-network",
+    "name": "BEVM",
+    "logo": "/images/airdrops/bevm-network.svg",
+    "description": "EVM-compatible Bitcoin Layer 2 utilizing Bitcoin Taproot and Schnorr signatures for decentralized, trustless cross-chain consensus.",
+    "reward": "BEVM Staking & Vision Genesis Rewards",
+    "category": "Bitcoin L2 / Taproot EVM",
+    "featured": false,
+    "status": "active",
+    "endTime": "2026-11-30T23:59:59Z",
+    "funding": "$10M+",
+    "investors": "RockTree Capital, Waterdrip Capital, ArkStream Capital, MH Ventures",
+    "overview": "BEVM is the first fully EVM-compatible Bitcoin Layer 2 network that uses native BTC as its gas currency while utilizing Bitcoin's Taproot upgrade (BIP-340/341/342) for completely decentralized cross-chain consensus. Founded in 2023, BEVM solves the centralized custodian problem that historically plagued wrapped Bitcoin bridges.\n\nThrough its patented Taproot Consensus, BEVM combines Schnorr signatures, MAST (Merklized Alternative Script Trees), and a decentralized network of 1,000 Bitcoin light-node PoS validators. This allows Bitcoin to be bridged trustlessly into an EVM environment without trusting a single central custodian or multi-sig consortium.\n\nBEVM enables developers to deploy standard Solidity dApps that use native Bitcoin directly for gas, DeFi lending, and NFT minting.",
+    "tokenomics": "The governance and security token is $BEVM, capped at 2,100,000,000 tokens. Native $BTC is used for all transaction gas on the Layer 2 network.\n\nBEVM tokens are staked by Taproot Consensus validator nodes and distributed to early ecosystem testnet and mainnet users.",
+    "sybilSafety": "Taproot Consensus requires decentralized node staking. User incentive campaigns require on-chain gas spending in real Bitcoin, eliminating free script bots.",
+    "strategy": "Add BEVM to MetaMask using Chainlist. Bridge native BTC to BEVM using the official Taproot Bridge. Swap tokens on native DEXs like BNSwap and deposit collateral into lending protocols. Complete ecosystem quests on the BEVM Vision portal to earn verified early adopter credentials.",
+    "steps": [
+      "Visit <a href=\"https://bevm.io\" target=\"_blank\" rel=\"noopener noreferrer\">BEVM.io</a> and connect your MetaMask or Unisat wallet.",
+      "Bridge BTC to BEVM using the decentralized Taproot Bridge.",
+      "Swap tokens and provide liquidity on BEVM decentralized exchanges.",
+      "Deploy test contracts or interact with verified ecosystem dApps.",
+      "Stake BEVM tokens to support Taproot Consensus validators."
+    ],
+    "faqs": [
+      {
+        "question": "What token is used for gas on BEVM?",
+        "answer": "Native Bitcoin (BTC) is used as the base gas token on BEVM."
+      },
+      {
+        "question": "What is Taproot Consensus?",
+        "answer": "It is a decentralized cross-chain mechanism that aggregates 1,000 validator signatures using Bitcoin Schnorr signatures and MAST scripts."
+      }
+    ]
+  },
+  {
+    "id": "botanix-labs",
+    "name": "Botanix",
+    "logo": "/images/airdrops/botanix-labs.svg",
+    "description": "Decentralized Proof-of-Stake EVM Layer 2 running directly on Bitcoin, powered by the innovative Spiderchain multi-sig architecture.",
+    "reward": "Botanix Testnet & Spiderchain Rewards",
+    "category": "Bitcoin L2 / Spiderchain",
+    "featured": true,
+    "status": "active",
+    "endTime": "2026-12-31T23:59:59Z",
+    "funding": "$11.5M+",
+    "investors": "Polychain Capital, Placeholder, UTXO Management, ABCDE",
+    "overview": "Botanix Labs is building the first fully decentralized Ethereum Virtual Machine (EVM) Layer 2 powered directly by Bitcoin, introducing the revolutionary \"Spiderchain\" architecture. Founded by Willem Schroé, Botanix allows users to run any Ethereum dApp, smart contract, and tooling while settling in native Bitcoin.\n\nThe Spiderchain is a decentralized network of rotating multisig validators (Orchestrators) who stake Bitcoin to secure a decentralized peg. Unlike centralized federations or bridges that hold funds in static multisigs, the Spiderchain dynamically shuffles collateral across a randomized subset of multisigs on every single Bitcoin block. This makes it impossible for any single entity or cartel to steal locked funds.\n\nBacked by Polychain Capital and Placeholder, Botanix unlocks Ethereum's $100B DeFi tooling directly on Bitcoin.",
+    "tokenomics": "Botanix utilizes native Bitcoin ($BTC) as the exclusive gas currency for all Layer 2 transactions. Orchestrator nodes stake BTC on Bitcoin Layer 1 to validate Spiderchain blocks and earn transaction fee yields.\n\nEarly community testnet participants qualify for future ecosystem incentives and governance allocations.",
+    "sybilSafety": "Botanix testnet quests require authentic EVM contract interactions, faucet verification, and multi-day transaction streaks to prevent automated Sybil farming.",
+    "strategy": "Add Botanix Testnet to MetaMask. Claim testnet BTC from the Botanix faucet. Deploy smart contracts, swap tokens, and mint test NFTs on native Botanix dApps. Complete interactive testnet quests on Galxe and Zealy to build an early activity footprint.",
+    "steps": [
+      "Visit <a href=\"https://botanixlabs.xyz\" target=\"_blank\" rel=\"noopener noreferrer\">BotanixLabs.xyz</a> and add Botanix Testnet to MetaMask.",
+      "Claim testnet BTC from the official Botanix Faucet.",
+      "Perform token swaps on native testnet DEXs (like AvocadoSwap).",
+      "Deploy a test Solidity contract using Remix connected to Botanix RPC.",
+      "Join the Botanix Discord to participate in developer bounties."
+    ],
+    "faqs": [
+      {
+        "question": "What is the Spiderchain?",
+        "answer": "The Spiderchain is Botanix's decentralized architecture that secures Bitcoin on Layer 2 by continuously rotating multisig custody across random validator subsets."
+      },
+      {
+        "question": "Do I need a new token to pay gas on Botanix?",
+        "answer": "No! Botanix uses native Bitcoin (BTC) for all transaction fees."
+      }
+    ]
+  },
+  {
+    "id": "satoshivm",
+    "name": "SatoshiVM",
+    "logo": "/images/airdrops/satoshivm.svg",
+    "description": "Decentralized Bitcoin ZK-Rollup Layer 2 compatible with Ethereum Virtual Machine, utilizing native BTC for gas with BitVM verification.",
+    "reward": "SAVM Staking & Testnet Farming Points",
+    "category": "Bitcoin L2 / ZK-Rollup",
+    "featured": false,
+    "status": "active",
+    "endTime": "2026-11-30T23:59:59Z",
+    "funding": "$5M+ (Token Public Launch)",
+    "investors": "Community Owned, Fair Launch Contributors",
+    "overview": "SatoshiVM is a decentralized Bitcoin Zero-Knowledge Rollup Layer 2 solution engineered to bridge Bitcoin's deep liquidity with the smart contract capabilities of the Ethereum Virtual Machine (EVM). Using native Bitcoin ($BTC) for all transaction gas, SatoshiVM allows developers to build DeFi dApps with standard Ethereum programming languages.\n\nSatoshiVM generates off-chain Zero-Knowledge SNARK proofs for every batch of transactions, posting validity proofs and transaction commitments directly onto the Bitcoin blockchain. Through BitVM-style fraud challenge mechanisms, any honest verifier can trigger dispute resolutions directly on Bitcoin Layer 1, inheriting Bitcoin's supreme censorship resistance.\n\nWith active staking programs and DeFi protocols live on mainnet, SatoshiVM is an active player in the Bitcoin scaling landscape.",
+    "tokenomics": "The utility and governance token is $SAVM, capped at 21,000,000 tokens (mirroring Bitcoin). SAVM is used for paying ZK-prover verification fees, participating in decentralized sequencer staking, and voting on DAO proposals.\n\nStaking SAVM tokens unlocks protocol fee sharing and revenue distributions from cross-chain bridge fees.",
+    "sybilSafety": "Mainnet bridging and trading require real Bitcoin gas fees. Staking rewards require verifiable SAVM token lockups in audited smart contracts.",
+    "strategy": "Add SatoshiVM to MetaMask. Bridge BTC to SatoshiVM via the official bridge. Swap tokens and provide liquidity on SatoshiSwap. Stake SAVM tokens on the official staking dashboard to earn protocol fee dividends and qualify for partner token airdrops.",
+    "steps": [
+      "Connect MetaMask to <a href=\"https://satoshivm.io\" target=\"_blank\" rel=\"noopener noreferrer\">SatoshiVM.io</a>.",
+      "Bridge BTC from Bitcoin L1 or Ethereum to SatoshiVM.",
+      "Trade tokens and provide liquidity on SatoshiSwap DEX.",
+      "Stake SAVM tokens on the official staking portal to earn yield.",
+      "Participate in community governance votes on the SatoshiVM forum."
+    ],
+    "faqs": [
+      {
+        "question": "What token is used for gas on SatoshiVM?",
+        "answer": "Native Bitcoin (BTC) is used as the base gas currency on SatoshiVM."
+      },
+      {
+        "question": "How are transactions verified on Bitcoin?",
+        "answer": "SatoshiVM uses Zero-Knowledge proofs and BitVM-style verification to settle proofs onto Bitcoin Layer 1."
+      }
+    ]
   }
 ];
