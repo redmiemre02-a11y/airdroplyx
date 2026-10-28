@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100" height="100">
+  <defs>
+    <linearGradient id="entangleGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38BDF8"/>
+      <stop offset="100%" stop-color="#818CF8"/>
+    </linearGradient>
+  </defs>
+  <rect width="100" height="100" rx="24" fill="#030712"/>
+  <path d="M30 50c0-12 10-20 20-20s20 8 20 20-10 20-20 20-20-8-20-20z" fill="none" stroke="url(#entangleGrad)" stroke-width="6"/>
+  <path d="M50 30c12 0 20 10 20 20s-8 20-20 20-20-10-20-20 8-20 20-20z" fill="none" stroke="url(#entangleGrad)" stroke-width="6" opacity="0.6"/>
+</svg>

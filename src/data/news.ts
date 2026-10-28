@@ -1483,5 +1483,107 @@ By decoupling individual market risks while preserving pooled liquidity benefits
 Unlike segregated privacy blockchains that require bridging assets across disparate networks, Railgun functions natively on EVM chains. Users shield tokens into private zero-knowledge balances and execute complex decentralized finance interactions—such as token swaps on Uniswap or lending on Aave—directly from shielded addresses using zk-SNARK cryptographic proofs.
 
 To address regulatory compliance and combat illicit finance, Railgun implements Private Proofs of Innocence (PPOI), allowing users to cryptographically demonstrate that their funds originate from verified, non-sanctioned sources without disclosing transaction details or wallet balances. This breakthrough balance between cryptographic privacy and regulatory auditability has positioned Railgun as the primary privacy standard for EVM ecosystems.`
+  },
+  {
+    slug: 'aztec-network-noir-private-contracts-surge',
+    title: 'Aztec Network Unveils Noir 1.0 Milestone as Zero-Knowledge Privacy Adoption Accelerates',
+    excerpt: 'Aztec Network achieves landmark developer milestone with Noir smart contract language, enabling confidential state transitions directly on Ethereum.',
+    author: 'Airdroplyx Privacy Desk',
+    date: 'October 28, 2026',
+    readTime: '5 min read',
+    category: 'Breaking',
+    image: 'https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=1200&q=80',
+    tags: ['Aztec', 'Noir', 'Privacy', 'Zero Knowledge', 'Ethereum'],
+    relatedAirdropId: 'aztec-network',
+    content: `Aztec Network, the high-profile privacy-centric zero-knowledge rollup backed by $119M from Paradigm, a16z crypto, and Vitalik Buterin, has reached a watershed milestone in confidential smart contract infrastructure. The project has expanded its Noir developer ecosystem, enabling engineers to write Turing-complete private smart contracts that execute client-side zero-knowledge proofs.
+
+Unlike traditional public rollups where every balance, address, and transaction amount is publicly readable on block explorers, Aztec combines an encrypted UTXO state tree with a public state tree. This hybrid architecture allows decentralized applications to maintain private user identities and encrypted balances while still settling atomically against shared public liquidity.
+
+With developer testnet participation expanding globally, ecosystem protocols are actively testing confidential voting, dark pools, and private asset transfers. As regulatory clarity surrounding zero-knowledge compliance proofs continues to evolve, Aztec is positioned as the benchmark infrastructure for institutional-grade Ethereum privacy.`
+  },
+  {
+    slug: 'ora-onchain-ai-oracle-imo-launch',
+    title: 'ORA Launches Initial Model Offering (IMO) Framework for Verifiable AI on Ethereum',
+    excerpt: 'ORA introduces decentralized AI model tokenization and verifiable opML inferencing, allowing Web3 protocols to integrate on-chain machine learning.',
+    author: 'Airdroplyx AI Desk',
+    date: 'October 28, 2026',
+    readTime: '4 min read',
+    category: 'Alpha Intel',
+    image: 'https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=1200&q=80',
+    tags: ['ORA', 'AI', 'Machine Learning', 'IMO', 'Ethereum'],
+    relatedAirdropId: 'ora-chain',
+    content: `ORA, the pioneer in decentralized AI oracles and verifiable compute, has officially unveiled its Initial Model Offering (IMO) framework alongside expanding deployment of its Onchain AI Oracle (OAO). By leveraging Optimistic Machine Learning (opML), ORA allows smart contracts on Ethereum, Arbitrum, and other EVM networks to query deep neural networks without paying exorbitant cryptographic proving overheads.
+
+The IMO paradigm enables open-source AI model creators to tokenize their intellectual property on-chain. Token holders participate in protocol revenue generated each time smart contracts trigger model inference, creating an organic economic incentive loop for open-source AI development.
+
+Supported by Polychain Capital and Alliance DAO, ORA's points program and testnet inferencing campaigns have recorded rapid adoption from automated DeFi hedge funds, dynamic NFT collections, and AI agent frameworks seeking trustless machine intelligence.`
+  },
+  {
+    slug: 'dappos-intent-execution-network-volume-record',
+    title: 'dappOS Reaches Record Intent Volume as Cross-Chain Yield Assets Gain Traction',
+    excerpt: 'dappOS surpasses new transaction records as institutional and retail traders leverage interest-earning Intent Assets across major decentralized exchanges.',
+    author: 'Airdroplyx DeFi Desk',
+    date: 'October 28, 2026',
+    readTime: '4 min read',
+    category: 'Alpha Intel',
+    image: 'https://images.unsplash.com/photo-1639762681485-074b7f938ba0?w=1200&q=80',
+    tags: ['dappOS', 'Intents', 'DeFi', 'Binance Labs', 'Cross-Chain'],
+    relatedAirdropId: 'dappos-network',
+    content: `dappOS, the intent execution network backed by Binance Labs, Polychain Capital, and Sequoia China, has reported record multi-chain trading volumes following the widespread integration of its Intent Asset architecture.
+
+Traditional decentralized finance requires users to manually navigate bridging protocols, approve token allowances, and hold distinct gas tokens on each blockchain. dappOS abstracts this friction through intent execution: users simply deposit funds into Intent Assets (such as intentUSD or intentETH), earning passive annualized yield while maintaining liquid capital that can be deployed instantly on any connected chain in a single click.
+
+A decentralized network of service nodes handles routing, gas payments, and atomic execution behind the scenes. With key integrations across GMX, Camelot, and SyncSwap, dappOS has established itself as the leading intent layer driving mainstream Web3 adoption.`
+  },
+  {
+    slug: 'autonomys-network-taurus-incentivized-testnet',
+    title: 'Autonomys Network Launches Taurus Testnet Incentives for Distributed AI Storage',
+    excerpt: 'Autonomys (formerly Subspace) invites global farmers and node operators to pledge storage and validate verifiable AI compute ahead of mainnet.',
+    author: 'Airdroplyx DePIN Desk',
+    date: 'October 28, 2026',
+    readTime: '5 min read',
+    category: 'Testnet',
+    image: 'https://images.unsplash.com/photo-1518770660439-4636190af475?w=1200&q=80',
+    tags: ['Autonomys', 'DePIN', 'AI', 'Storage', 'Pantera Capital'],
+    relatedAirdropId: 'autonomys-network',
+    content: `Autonomys Network, the decentralized AI foundation formerly known as Subspace Network, has officially rolled out the latest phase of its Taurus incentivized testnet, inviting global storage farmers and node operators to participate ahead of mainnet genesis.
+
+Backed by $33M in venture funding from Pantera Capital, Coinbase Ventures, and Crypto.com Capital, Autonomys addresses the critical bottleneck of AI data integrity. Using Proof-of-Archival-Storage (PoAS) consensus, the network creates a massively parallelized, energy-efficient storage fabric capable of archiving petabytes of verifiable AI training data.
+
+Participants running the Space Acres desktop application pledge spare hard drive capacity to validate blocks and earn testnet rewards that convert into mainnet tokens upon launch. The network's decoupling of storage consensus from compute execution provides the high-throughput infrastructure required for autonomous AI agents.`
+  },
+  {
+    slug: 'treehouse-finance-teth-benchmark-rates',
+    title: 'Treehouse Finance Deploys tETH Vaults to Anchor Decentralized Fixed-Income Yields',
+    excerpt: 'Treehouse introduces benchmark Decentralized Offered Rates (DOR) and tETH liquid staking yield curves to bring fixed rates to DeFi.',
+    author: 'Airdroplyx DeFi Desk',
+    date: 'October 28, 2026',
+    readTime: '4 min read',
+    category: 'TGE Alert',
+    image: 'https://images.unsplash.com/photo-1559526324-4b87b5e36e44?w=1200&q=80',
+    tags: ['Treehouse', 'tETH', 'Fixed Income', 'DeFi', 'Liquid Staking'],
+    relatedAirdropId: 'treehouse-finance',
+    content: `Treehouse Finance, supported by $18M in funding from Lightspeed Venture Partners and Binance Labs, has deployed its flagship tETH vaults to establish decentralized benchmark interest rates for the multi-billion dollar liquid staking sector.
+
+In traditional finance, benchmark reference rates (such as SOFR and EURIBOR) underpin hundreds of trillions in derivatives contracts. DeFi has lacked an equivalent institutional standard, subjecting lenders and borrowers to unpredictable floating rate volatility. Treehouse solves this through the Decentralized Offered Rate (DOR)—a consensus-driven reference rate reflecting true on-chain staking economics.
+
+Users depositing ETH or wrapped staked ETH into Treehouse tETH vaults lock in predictable, fixed forward yields while retaining liquid, composable debt tokens. The launch marks a pivotal step in attracting institutional fixed-income capital into Ethereum restaking.`
+  },
+  {
+    slug: 'rabbitx-perpetual-dex-starknet-expansion',
+    title: 'RabbitX Crosses Multi-Billion Perpetual Volume on Custom Starknet Orderbook Engine',
+    excerpt: 'Zero-gas decentralized perpetual exchange RabbitX records substantial volume growth across BTC and ETH derivatives markets.',
+    author: 'Airdroplyx Derivatives Desk',
+    date: 'October 28, 2026',
+    readTime: '4 min read',
+    category: 'Breaking',
+    image: 'https://images.unsplash.com/photo-1642543492481-44e81e3914a7?w=1200&q=80',
+    tags: ['RabbitX', 'Perpetuals', 'DEX', 'Starknet', 'Sequoia'],
+    relatedAirdropId: 'rabbitx-dex',
+    content: `RabbitX, the decentralized derivatives exchange backed by Sequoia Capital and Multicoin Capital, has surpassed multi-billion dollar cumulative trading milestones on its custom Starknet-powered Layer 2 orderbook architecture.
+
+Offering traders an institutional experience with zero gas fees, 50x leverage, and millisecond execution, RabbitX matches off-chain order books with on-chain cryptographic settlement. The exchange's design eliminates front-running and MEV extraction, giving high-frequency traders parity with centralized platforms without sacrificing self-custody.
+
+RabbitX's ongoing seasonal trading epochs distribute protocol governance rewards and liquidity rebates to active traders and market makers, driving continuous liquidity growth across major cryptocurrency perpetual pairs.`
   }
 ];
