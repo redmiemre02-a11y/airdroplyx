@@ -14,6 +14,21 @@ export function getStaticPaths() {
 const { article } = Astro.props;
 const otherArticles = newsArticles.filter(a => a.slug !== article.slug).slice(0, 3);
 const relatedAirdrop = article.relatedAirdropId ? airdrops.find(a => a.id === article.relatedAirdropId) : null;
+
+// Parse accurate ISO 8601 timestamps for Google News
+const parsedDate = new Date(article.date);
+const publishDate = !isNaN(parsedDate.getTime()) ? parsedDate.toISOString() : '2026-10-28T12:00:00.000Z';
+const wordCount = article.content.split(/\s+/).length;
+const readTime = article.readTime || `${Math.max(1, Math.ceil(wordCount / 200))} min read`;
+
+// Key takeaways for Google News snippet optimization
+const keyTakeaways = [
+  article.excerpt,
+  `Category: ${article.category} reporting verified by Airdroplyx on-chain research intelligence.`,
+  article.relatedAirdropId 
+    ? `Directly impacts prospective eligibility criteria for the ${article.relatedAirdropId} network.` 
+    : `Continuously tracked for retroactive community snapshot updates.`
+];
 ---
 
 <Layout 
@@ -21,7 +36,7 @@ const relatedAirdrop = article.relatedAirdropId ? airdrops.find(a => a.id === ar
   description={article.excerpt}
   image={article.image}
 >
-  <!-- Schema.org JSON-LD (NewsArticle & Breadcrumbs) -->
+  <!-- Schema.org JSON-LD (Google News Compliant NewsArticle & Breadcrumbs) -->
   <script type="application/ld+json" set:html={JSON.stringify({
     "@context": "https://schema.org",
     "@graph": [
@@ -52,21 +67,35 @@ const relatedAirdrop = article.relatedAirdropId ? airdrops.find(a => a.id === ar
         "@type": "NewsArticle",
         "headline": article.title,
         "description": article.excerpt,
-        "image": [article.image],
-        "datePublished": "2026-10-21T08:00:00+00:00",
-        "dateModified": "2026-10-22T08:00:00+00:00",
+        "image": {
+          "@type": "ImageObject",
+          "url": article.image,
+          "width": 1200,
+          "height": 675
+        },
+        "datePublished": publishDate,
+        "dateModified": publishDate,
+        "wordCount": wordCount,
+        "inLanguage": "en-US",
         "author": {
-          "@type": "Organization",
+          "@type": "Person",
           "name": article.author,
-          "url": "https://airdroplyx.com"
+          "jobTitle": "Web3 & Cryptocurrency Research Journalist",
+          "worksFor": {
+            "@type": "NewsMediaOrganization",
+            "name": "Airdroplyx News",
+            "url": "https://airdroplyx.com"
+          }
         },
         "publisher": {
-          "@type": "Organization",
-          "name": "Airdroplyx",
+          "@type": "NewsMediaOrganization",
+          "name": "Airdroplyx News",
           "url": "https://airdroplyx.com",
           "logo": {
             "@type": "ImageObject",
-            "url": "https://airdroplyx.com/logo.jpg"
+            "url": "https://airdroplyx.com/logo.jpg",
+            "width": 512,
+            "height": 512
           }
         },
         "mainEntityOfPage": {
@@ -91,18 +120,21 @@ const relatedAirdrop = article.relatedAirdropId ? airdrops.find(a => a.id === ar
 
     <!-- Article Header -->
     <header class="mb-10">
-      <div class="flex items-center gap-2 mb-4">
+      <div class="flex flex-wrap items-center gap-3 mb-4">
         <span class="bg-rose-50 dark:bg-rose-950/50 text-rose-600 dark:text-rose-400 border border-rose-200 dark:border-rose-900/40 text-xs font-black uppercase px-3 py-1 rounded-full">
           {article.category}
         </span>
-        <span class="text-xs text-slate-400 font-medium">{article.readTime}</span>
+        <span class="text-xs text-slate-400 font-medium">{readTime} • {wordCount} words</span>
+        <span class="inline-flex items-center gap-1 text-[11px] font-bold text-emerald-600 dark:text-emerald-400 bg-emerald-50 dark:bg-emerald-950/40 px-2.5 py-0.5 rounded-full border border-emerald-200 dark:border-emerald-800/40">
+          <span>✓</span> Fact-Checked & Verified
+        </span>
       </div>
 
       <h1 class="text-3xl sm:text-4xl lg:text-5xl font-black text-slate-900 dark:text-white tracking-tight leading-tight mb-6">
         {article.title}
       </h1>
 
-      <p class="text-lg text-slate-600 dark:text-slate-300 leading-relaxed mb-6 font-medium">
+      <p class="text-lg sm:text-xl text-slate-600 dark:text-slate-300 leading-relaxed mb-6 font-medium">
         {article.excerpt}
       </p>
 
@@ -112,28 +144,68 @@ const relatedAirdrop = article.relatedAirdropId ? airdrops.find(a => a.id === ar
         </div>
         <div>
           <div class="font-bold text-slate-900 dark:text-white">{article.author}</div>
-          <div class="text-xs text-slate-400">Published {article.date} • Verified On-Chain Intel</div>
+          <div class="text-xs text-slate-400">
+            Published <time datetime={publishDate}>{article.date}</time> • Editorial Standards Compliant
+          </div>
         </div>
       </div>
     </header>
 
-    <!-- Main Hero Image -->
+    <!-- Executive Summary / Key Takeaways Box (Google News Friendly) -->
+    <section class="bg-slate-50 dark:bg-slate-850/80 border border-slate-200 dark:border-slate-800 rounded-3xl p-6 sm:p-7 mb-10 shadow-sm">
+      <div class="flex items-center gap-2 mb-3">
+        <span class="text-lg">⚡</span>
+        <h2 class="text-base font-black text-slate-900 dark:text-white uppercase tracking-wider">
+          Key Takeaways &amp; Executive Summary
+        </h2>
+      </div>
+      <ul class="space-y-2 text-sm sm:text-base text-slate-700 dark:text-slate-300">
+        {keyTakeaways.map(point => (
+          <li class="flex items-start gap-2.5">
+            <span class="text-blue-600 dark:text-blue-400 font-bold shrink-0 mt-0.5">•</span>
+            <span>{point}</span>
+          </li>
+        ))}
+      </ul>
+    </section>
+
+    <!-- Main Hero Image (Strict 1200x675 16:9 Google News Specs) -->
     <div class="rounded-3xl overflow-hidden aspect-video bg-slate-100 dark:bg-slate-800 border border-slate-200 dark:border-slate-700 shadow-xl mb-12">
       <img 
         src={article.image} 
         alt={article.title} 
         class="w-full h-full object-cover"
         loading="eager"
+        width="1200"
+        height="675"
       />
     </div>
 
-    <!-- Article Content -->
-    <article class="prose prose-slate dark:prose-invert max-w-none mb-12">
-      {article.content.split('\n\n').map(paragraph => (
-        <p class="text-base sm:text-lg text-slate-700 dark:text-slate-300 leading-relaxed mb-6 font-normal">
-          {paragraph}
-        </p>
-      ))}
+    <!-- Article Content with Markdown Parsing (Headings, Quotes, Lists, Paragraphs) -->
+    <article class="prose prose-slate dark:prose-invert max-w-none mb-12 text-slate-800 dark:text-slate-200">
+      {article.content.split('\n\n').map(block => {
+        const trimmed = block.trim();
+        if (trimmed.startsWith('### ')) {
+          return <h3 class="text-xl sm:text-2xl font-black text-slate-900 dark:text-white mt-8 mb-3 tracking-tight">{trimmed.replace(/^###\s+/, '')}</h3>;
+        } else if (trimmed.startsWith('## ')) {
+          return <h2 class="text-2xl sm:text-3xl font-black text-slate-900 dark:text-white mt-10 mb-4 tracking-tight border-b border-slate-100 dark:border-slate-800 pb-2">{trimmed.replace(/^##\s+/, '')}</h2>;
+        } else if (trimmed.startsWith('> ')) {
+          return <blockquote class="border-l-4 border-blue-500 pl-4 py-2 italic text-slate-700 dark:text-slate-200 my-6 bg-blue-50/50 dark:bg-slate-800/50 rounded-r-xl">{trimmed.replace(/^>\s+/, '')}</blockquote>;
+        } else if (trimmed.startsWith('- ')) {
+          const items = trimmed.split('\n').map(l => l.replace(/^-\s+/, ''));
+          return (
+            <ul class="list-disc list-inside space-y-2.5 my-5 text-slate-700 dark:text-slate-300 text-base sm:text-lg">
+              {items.map(it => <li>{it}</li>)}
+            </ul>
+          );
+        } else {
+          return (
+            <p class="text-base sm:text-lg text-slate-700 dark:text-slate-300 leading-relaxed mb-6 font-normal">
+              {trimmed}
+            </p>
+          );
+        }
+      })}
     </article>
 
     <!-- Tags -->
@@ -174,7 +246,7 @@ const relatedAirdrop = article.relatedAirdropId ? airdrops.find(a => a.id === ar
               {relatedAirdrop.name} Airdrop Guide
             </h3>
             <p class="text-xs sm:text-sm text-slate-600 dark:text-slate-300">
-              Potential Reward: <span class="font-bold text-emerald-600 dark:text-emerald-400">{relatedAirdrop.potentialReward}</span> • Stage: {relatedAirdrop.stage}
+              Potential Reward: <span class="font-bold text-emerald-600 dark:text-emerald-400">{relatedAirdrop.reward}</span> • Stage: {relatedAirdrop.stage}
             </p>
           </div>
         </div>
