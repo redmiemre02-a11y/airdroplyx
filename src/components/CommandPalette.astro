@@ -1,52 +1,6 @@
 ---
-import { airdrops } from '../data/airdrops';
-import { academyArticles } from '../data/academy';
-import { newsArticles } from '../data/news';
-
-const searchIndex = {
-  airdrops: airdrops.map(a => ({
-    type: 'airdrop',
-    id: a.id,
-    title: a.name,
-    subtitle: `${a.category} • ${a.reward}`,
-    logo: a.logo,
-    url: `/airdrop/${a.id}`
-  })),
-  academy: academyArticles.map(a => ({
-    type: 'academy',
-    id: a.slug,
-    title: a.title,
-    subtitle: 'Academy Masterclass',
-    icon: '🎓',
-    url: `/academy/${a.slug}`
-  })),
-  news: newsArticles.map(n => ({
-    type: 'news',
-    id: n.slug,
-    title: n.title,
-    subtitle: `${n.category} • News`,
-    icon: '📰',
-    url: `/news/${n.slug}`
-  })),
-  pages: [
-    { type: 'page', id: 'home', title: 'Home (All 735+ Airdrops)', subtitle: 'Full Database & Filters', icon: '⚡', url: '/' },
-    { type: 'page', id: 'watchlist', title: 'My Airdrop Watchlist & Tracker', subtitle: 'Personal Farming Checklist', icon: '⭐', url: '/watchlist' },
-    { type: 'page', id: 'planner', title: 'Airdrop Farming Routine Planner', subtitle: 'Personalized Weekly Schedule', icon: '📅', url: '/farming-planner' },
-    { type: 'page', id: 'sybil', title: 'Sybil Risk & Wallet Diagnostic', subtitle: 'Anti-Sybil Clustering Audit', icon: '🛡️', url: '/sybil-checker' },
-    { type: 'page', id: 'faucets', title: 'Verified Testnet Faucets Directory', subtitle: 'Free MON, BERA, Sepolia ETH', icon: '🚰', url: '/faucets' },
-    { type: 'page', id: 'investors', title: 'VC Portfolios & Institutional Radar', subtitle: 'Paradigm, a16z, Binance Labs', icon: '🏛️', url: '/investors' },
-    { type: 'page', id: 'unlocks', title: 'Token Unlocks & Vesting Radar', subtitle: 'Cliff Dates & Sell-Pressure Intel', icon: '🔓', url: '/unlocks' },
-    { type: 'page', id: 'gas', title: 'Real-Time Gas Tracker & Heatmap', subtitle: 'Multi-Chain Gas Fees & Cheap Hours', icon: '⛽', url: '/gas-tracker' },
-    { type: 'page', id: 'compare', title: 'Protocol Comparison Matrix', subtitle: 'Side-by-Side Airdrop Kıyaslama', icon: '⚖️', url: '/compare' },
-    { type: 'page', id: 'calendar', title: 'Airdrop Calendar', subtitle: 'Upcoming Deadlines & TGEs', icon: '📆', url: '/calendar' },
-    { type: 'page', id: 'calculator', title: 'Points ROI Calculator', subtitle: 'Valuation & Yield Modeling', icon: '🧮', url: '/calculator' },
-    { type: 'page', id: 'quiz', title: 'Airdrop Hunter Certification Quiz', subtitle: 'Official Web3 Knowledge Test', icon: '🏆', url: '/academy/quiz' },
-    { type: 'page', id: 'glossary', title: 'Web3 & Airdrop Glossary', subtitle: 'Encyclopedia of 50+ Terms', icon: '📚', url: '/glossary' },
-    { type: 'page', id: 'ecosystems', title: 'Ecosystem Hubs', subtitle: 'Ethereum, Solana, Cosmos, L2s', icon: '🌐', url: '/ecosystems' },
-    { type: 'page', id: 'news', title: 'News Hub', subtitle: 'Verified Market Alpha', icon: '📰', url: '/news' },
-    { type: 'page', id: 'academy', title: 'Airdrop Academy', subtitle: '80 Web3 Masterclasses', icon: '🎓', url: '/academy' }
-  ]
-};
+// Lightweight Command Palette: Search index is loaded on-demand via /search-index.json
+// saving ~200 MB of duplicate HTML across 980+ static pages
 ---
 
 <!-- Global Command Palette Modal Backdrop -->
@@ -96,31 +50,64 @@ const searchIndex = {
     <!-- Palette Footer -->
     <div class="px-5 py-3 bg-slate-50 dark:bg-slate-900/90 border-t border-slate-100 dark:border-slate-800 text-[11px] text-slate-400 flex items-center justify-between">
       <span>Airdroplyx Universal Index</span>
-      <span class="font-semibold text-slate-500 dark:text-slate-400">806 total indexed items</span>
+      <span class="font-semibold text-slate-500 dark:text-slate-400">950+ total indexed items</span>
     </div>
   </div>
 </div>
 
-<script is:inline define:vars={{ indexData: searchIndex }}>
+<script is:inline>
   const backdrop = document.getElementById('command-palette-backdrop');
   const modal = document.getElementById('command-palette-modal');
   const input = document.getElementById('palette-input');
   const resultsContainer = document.getElementById('palette-results');
   let selectedIndex = 0;
   let currentItems = [];
+  let indexData = null;
+  let isFetching = false;
 
-  function openPalette() {
+  async function loadSearchIndex() {
+    if (indexData || isFetching) return indexData;
+    isFetching = true;
+    try {
+      const res = await fetch('/search-index.json');
+      if (res.ok) {
+        indexData = await res.json();
+      }
+    } catch (e) {
+      console.warn('Failed to load search index:', e);
+    } finally {
+      isFetching = false;
+    }
+    return indexData;
+  }
+
+  // Preload search index on idle or when mouse hovers over document
+  if ('requestIdleCallback' in window) {
+    window.requestIdleCallback(() => {
+      loadSearchIndex();
+    }, { timeout: 3000 });
+  } else {
+    setTimeout(loadSearchIndex, 2000);
+  }
+
+  async function openPalette() {
     if (!backdrop || !modal || !input) return;
     backdrop.classList.remove('hidden');
-    // Force browser reflow for smooth transition
     void backdrop.offsetWidth;
     backdrop.classList.remove('opacity-0');
     modal.classList.remove('scale-95');
     modal.classList.add('scale-100');
     input.value = '';
     selectedIndex = 0;
-    renderDefaultView();
     setTimeout(() => input.focus(), 50);
+
+    if (!indexData) {
+      if (resultsContainer) {
+        resultsContainer.innerHTML = '<div class="py-12 text-center text-xs text-slate-400">Loading universal index...</div>';
+      }
+      await loadSearchIndex();
+    }
+    renderDefaultView();
   }
 
   function closePalette() {
@@ -134,9 +121,9 @@ const searchIndex = {
   }
 
   function renderDefaultView() {
-    // Show Quick Navigation & Popular Airdrops
-    const quickPages = indexData.pages;
-    const popularDrops = indexData.airdrops.slice(0, 5);
+    if (!indexData) return;
+    const quickPages = indexData.pages || [];
+    const popularDrops = (indexData.airdrops || []).slice(0, 5);
 
     currentItems = [...quickPages, ...popularDrops];
     renderItems([
@@ -146,26 +133,26 @@ const searchIndex = {
   }
 
   function handleSearch(query) {
+    if (!indexData) return;
     const q = query.toLowerCase().trim();
     if (!q) {
       renderDefaultView();
       return;
     }
 
-    // Filter across categories
-    const matchedDrops = indexData.airdrops
+    const matchedDrops = (indexData.airdrops || [])
       .filter(a => a.title.toLowerCase().includes(q) || a.subtitle.toLowerCase().includes(q))
       .slice(0, 6);
 
-    const matchedAcademy = indexData.academy
+    const matchedAcademy = (indexData.academy || [])
       .filter(a => a.title.toLowerCase().includes(q))
       .slice(0, 4);
 
-    const matchedNews = indexData.news
+    const matchedNews = (indexData.news || [])
       .filter(n => n.title.toLowerCase().includes(q) || n.subtitle.toLowerCase().includes(q))
       .slice(0, 4);
 
-    const matchedPages = indexData.pages
+    const matchedPages = (indexData.pages || [])
       .filter(p => p.title.toLowerCase().includes(q) || p.subtitle.toLowerCase().includes(q));
 
     const sections = [];
@@ -198,118 +185,147 @@ const searchIndex = {
     if (sections.length === 0 || currentItems.length === 0) {
       resultsContainer.innerHTML = `
         <div class="py-12 text-center">
-          <p class="text-sm font-semibold text-slate-500">No results found for "${input.value}".</p>
-          <p class="text-xs text-slate-400 mt-1">Try searching for "Solana", "Testnet", "Bridge", or "Hyperliquid".</p>
+          <p class="text-sm font-semibold text-slate-700 dark:text-slate-300">No matching results found</p>
+          <p class="text-xs text-slate-400 mt-1">Try searching for a different protocol, testnet, or guide</p>
         </div>
       `;
       return;
     }
 
     let globalItemIndex = 0;
-    resultsContainer.innerHTML = sections.map(section => `
-      <div class="pt-2 first:pt-0">
-        <div class="px-3 py-1.5 text-[11px] font-bold uppercase tracking-wider text-slate-400">
-          ${section.title}
-        </div>
-        <div class="space-y-1 mt-1">
-          ${section.items.map(item => {
-            const thisIndex = globalItemIndex++;
-            const isSelected = thisIndex === selectedIndex;
-            
-            let iconMarkup = '';
-            if (item.logo) {
-              iconMarkup = `<img src="${item.logo}" alt="" class="w-8 h-8 rounded-xl bg-slate-100 dark:bg-slate-800 p-1 object-cover shrink-0 border border-slate-200 dark:border-slate-700" />`;
-            } else {
-              iconMarkup = `<span class="w-8 h-8 rounded-xl bg-slate-100 dark:bg-slate-800 text-sm flex items-center justify-center shrink-0 border border-slate-200 dark:border-slate-700">${item.icon || '📄'}</span>`;
-            }
+    let html = '';
 
-            return `
-              <a 
-                href="${item.url}" 
-                class="palette-item flex items-center justify-between p-2.5 rounded-2xl transition-all ${isSelected ? 'bg-blue-50 dark:bg-blue-950/60 text-blue-900 dark:text-blue-100 border border-blue-200 dark:border-blue-800' : 'hover:bg-slate-50 dark:hover:bg-slate-800/60 text-slate-700 dark:text-slate-200'}"
-                data-index="${thisIndex}"
-              >
-                <div class="flex items-center gap-3 min-w-0">
-                  ${iconMarkup}
-                  <div class="min-w-0">
-                    <h4 class="text-sm font-bold text-slate-900 dark:text-white truncate">${item.title}</h4>
-                    <p class="text-xs text-slate-500 dark:text-slate-400 truncate">${item.subtitle}</p>
-                  </div>
+    sections.forEach(section => {
+      html += `
+        <div class="pt-3 first:pt-0">
+          <div class="px-2 pb-2 text-[10px] font-black uppercase tracking-wider text-slate-400 dark:text-slate-500">
+            ${section.title}
+          </div>
+          <div class="space-y-1">
+      `;
+
+      section.items.forEach(item => {
+        const isSelected = globalItemIndex === selectedIndex;
+        const iconOrLogo = item.logo 
+          ? `<img src="${item.logo}" class="w-6 h-6 rounded-lg object-contain bg-slate-100 dark:bg-slate-800 p-0.5 shrink-0" alt="${item.title}" />`
+          : `<span class="w-6 h-6 flex items-center justify-center text-sm shrink-0">${item.icon || '📄'}</span>`;
+
+        html += `
+          <a 
+            href="${item.url}" 
+            data-index="${globalItemIndex}"
+            class="palette-result-item flex items-center justify-between px-3 py-2.5 rounded-2xl transition-colors cursor-pointer ${
+              isSelected 
+                ? 'bg-blue-600 text-white' 
+                : 'hover:bg-slate-100 dark:hover:bg-slate-800 text-slate-800 dark:text-slate-200'
+            }"
+          >
+            <div class="flex items-center gap-3 min-w-0">
+              ${iconOrLogo}
+              <div class="min-w-0">
+                <div class="font-bold text-sm truncate leading-snug ${isSelected ? 'text-white' : 'text-slate-900 dark:text-white'}">
+                  ${item.title}
                 </div>
-                <span class="text-xs text-slate-400 group-hover:text-blue-600 shrink-0 ml-2">&rarr;</span>
-              </a>
-            `;
-          }).join('')}
-        </div>
-      </div>
-    `).join('');
+                <div class="text-[11px] truncate leading-tight ${isSelected ? 'text-blue-100' : 'text-slate-400 dark:text-slate-400'}">
+                  ${item.subtitle}
+                </div>
+              </div>
+            </div>
+            <span class="text-xs shrink-0 ${isSelected ? 'text-blue-200' : 'text-slate-400'} font-medium ml-2">
+              ↵
+            </span>
+          </a>
+        `;
+        globalItemIndex++;
+      });
+
+      html += `</div></div>`;
+    });
+
+    resultsContainer.innerHTML = html;
+
+    // Attach click and mouseenter handlers
+    const itemElements = resultsContainer.querySelectorAll('.palette-result-item');
+    itemElements.forEach(el => {
+      el.addEventListener('mouseenter', (e) => {
+        const idx = parseInt(el.getAttribute('data-index') || '0', 10);
+        updateSelectedItem(idx);
+      });
+    });
   }
 
-  function updateActiveItem() {
-    const allItemEls = resultsContainer?.querySelectorAll('.palette-item');
-    if (!allItemEls) return;
-
-    allItemEls.forEach((el, idx) => {
-      if (idx === selectedIndex) {
-        el.className = 'palette-item flex items-center justify-between p-2.5 rounded-2xl transition-all bg-blue-50 dark:bg-blue-950/60 text-blue-900 dark:text-blue-100 border border-blue-200 dark:border-blue-800';
-        el.scrollIntoView({ block: 'nearest' });
+  function updateSelectedItem(newIndex) {
+    if (currentItems.length === 0) return;
+    selectedIndex = Math.max(0, Math.min(newIndex, currentItems.length - 1));
+    const items = resultsContainer.querySelectorAll('.palette-result-item');
+    items.forEach((item, idx) => {
+      const isSelected = idx === selectedIndex;
+      if (isSelected) {
+        item.classList.add('bg-blue-600', 'text-white');
+        item.classList.remove('hover:bg-slate-100', 'dark:hover:bg-slate-800', 'text-slate-800', 'text-slate-200');
+        const title = item.querySelector('.text-slate-900, .dark\\:text-white');
+        if (title) title.classList.add('text-white');
+        item.scrollIntoView({ block: 'nearest' });
       } else {
-        el.className = 'palette-item flex items-center justify-between p-2.5 rounded-2xl transition-all hover:bg-slate-50 dark:hover:bg-slate-800/60 text-slate-700 dark:text-slate-200';
+        item.classList.remove('bg-blue-600', 'text-white');
+        item.classList.add('hover:bg-slate-100', 'dark:hover:bg-slate-800', 'text-slate-800', 'text-slate-200');
       }
     });
   }
 
-  // Keyboard Shortcuts (Ctrl + K / Cmd + K, Esc, Arrows, Enter)
-  document.addEventListener('keydown', (e) => {
+  // Keybindings
+  window.addEventListener('keydown', (e) => {
     // Open on Ctrl+K or Cmd+K
-    if ((e.ctrlKey || e.metaKey) && e.key.toLowerCase() === 'k') {
+    if ((e.ctrlKey || e.metaKey) && (e.key === 'k' || e.key === 'K')) {
       e.preventDefault();
-      if (backdrop?.classList.contains('hidden')) {
-        openPalette();
-      } else {
+      if (backdrop && !backdrop.classList.contains('hidden')) {
         closePalette();
+      } else {
+        openPalette();
       }
       return;
     }
 
-    // Only process navigation if palette is open
-    if (backdrop?.classList.contains('hidden')) return;
+    if (!backdrop || backdrop.classList.contains('hidden')) return;
 
     if (e.key === 'Escape') {
       e.preventDefault();
       closePalette();
     } else if (e.key === 'ArrowDown') {
       e.preventDefault();
-      if (currentItems.length > 0) {
-        selectedIndex = (selectedIndex + 1) % currentItems.length;
-        updateActiveItem();
-      }
+      updateSelectedItem(selectedIndex + 1);
     } else if (e.key === 'ArrowUp') {
       e.preventDefault();
-      if (currentItems.length > 0) {
-        selectedIndex = (selectedIndex - 1 + currentItems.length) % currentItems.length;
-        updateActiveItem();
-      }
+      updateSelectedItem(selectedIndex - 1);
     } else if (e.key === 'Enter') {
+      e.preventDefault();
       if (currentItems[selectedIndex]) {
-        e.preventDefault();
         window.location.href = currentItems[selectedIndex].url;
       }
     }
   });
 
-  // Search input typing
-  input?.addEventListener('input', (e) => {
-    handleSearch(e.target.value);
-  });
+  // Event Listeners
+  if (input) {
+    input.addEventListener('input', (e) => {
+      handleSearch(e.target.value);
+    });
+  }
 
-  // Close on backdrop click
-  backdrop?.addEventListener('click', (e) => {
-    if (e.target === backdrop) {
-      closePalette();
+  if (backdrop) {
+    backdrop.addEventListener('click', (e) => {
+      if (e.target === backdrop) {
+        closePalette();
+      }
+    });
+  }
+
+  // Global trigger hooks (e.g. from buttons with data-open-palette)
+  document.addEventListener('click', (e) => {
+    const trigger = e.target.closest('[data-open-palette]');
+    if (trigger) {
+      e.preventDefault();
+      openPalette();
     }
   });
-
-  // Global trigger for open button
-  window.openCommandPalette = openPalette;
 </script>
