@@ -35050,4 +35050,665 @@ export const airdrops: Airdrop[] = [
     "isHot": true,
     "isFeatured": true
   }
+,
+  {
+    "id": "space-and-time-db",
+    "name": "Space and Time",
+    "logo": "/images/airdrops/space-and-time-db.svg",
+    "description": "Decentralized verifiable data warehouse connecting tamper-proof on-chain and off-chain data to smart contracts via Proof of SQL.",
+    "reward": "Confirmed Community Allocation ($SxT)",
+    "category": "AI / ZK Data Warehouse",
+    "featured": true,
+    "status": "active",
+    "endTime": "2026-12-31T23:59:59Z",
+    "funding": "$50M",
+    "investors": "Microsoft M12, Framework Ventures, HashKey Capital, Polygon Ventures",
+    "refLink": "https://spaceandtime.io",
+    "overview": "Space and Time (SxT) is the first decentralized AI and data warehouse engineered to deliver cryptographically verifiable queries to Web3 smart contracts and enterprise applications. Backed by $50 Million in venture financing spearheaded by Microsoft's M12 venture fund and Framework Ventures, Space and Time develops 'Proof of SQL'—a revolutionary zero-knowledge cryptographic proof mechanism that verifies SQL query execution against untampered database tables within sub-second latencies.\n\nTraditional databases (PostgreSQL, Snowflake, BigQuery) operate within closed corporate environments, making their computation unverifiable on the blockchain. Space and Time indexes major layer 1 and layer 2 networks (Ethereum, Bitcoin, Polygon, Sui, Aptos) in real-time, allowing developers to query on-chain data joined with off-chain business logic, and send the result directly to smart contracts via ZK-proven oracle payloads.\n\nThe Space and Time community rewards program tracks active queries on the Studio portal, node validation uptime, and data engineering challenges ahead of the $SxT token generation event.",
+    "tokenomics": "The $SxT utility and governance token will coordinate decentralized database node validation, Proof of SQL computation payments, and community governance over query schema standards.",
+    "sybilSafety": "Studio queries are tracked via cryptographic API signatures and human developer accounts. Avoid mass automated querying scripts with identical payload hashes.",
+    "strategy": "1. Create an account on the Space and Time Studio.\n2. Connect your Web3 wallet and generate your developer API key.\n3. Execute standard SQL analytics queries across indexed Ethereum and Polygon datasets.\n4. Build and save custom data dashboards in Studio.\n5. Join the community Discord to verify your Data Engineer and Community Tester roles.",
+    "steps": [
+      "Visit the <a href=\"https://spaceandtime.io\" target=\"_blank\" rel=\"noopener noreferrer\">Space and Time Studio</a>.",
+      "Connect your Web3 wallet and initialize your developer profile.",
+      "Run sample queries and test Proof of SQL cryptographic generation.",
+      "Publish public dashboards or API endpoints using the Studio.",
+      "Participate in community quests on Galxe and Discord."
+    ],
+    "faqs": [
+      {
+        "question": "What is Proof of SQL?",
+        "answer": "Proof of SQL is Space and Time's proprietary zero-knowledge proof that guarantees a database query was calculated correctly without data tampering."
+      }
+    ],
+    "tier": "Tier 1",
+    "cost": "Free",
+    "stage": "Studio / Public Beta",
+    "timeCommitment": "15 mins / week",
+    "snapshot": "Q4 2026",
+    "estDate": "Q4 2026",
+    "socials": {
+      "twitter": "https://x.com/SpaceandTimeDB",
+      "discord": "https://discord.gg/spaceandtime",
+      "website": "https://spaceandtime.io"
+    },
+    "isHot": true,
+    "isFeatured": true
+  },
+  {
+    "id": "talus-network",
+    "name": "Talus Network",
+    "logo": "/images/airdrops/talus-network.svg",
+    "description": "Move-powered high-throughput blockchain ecosystem engineered specifically for autonomous on-chain AI agents and smart workflows.",
+    "reward": "Talus Genesis Points & $TAL Airdrop",
+    "category": "AI / Move Ecosystem",
+    "featured": true,
+    "status": "active",
+    "endTime": "2026-11-30T23:59:59Z",
+    "funding": "$6M",
+    "investors": "Polychain Capital, Animoca Brands, dao5, HashKey Capital",
+    "refLink": "https://talus.network",
+    "overview": "Talus Network is the premier decentralized execution platform engineered for autonomous artificial intelligence agents. Utilizing the Move smart contract language (pioneered by Meta's Diem and utilized by Aptos/Sui), Talus provides a secure, object-centric environment where autonomous AI agents can own assets, execute programmatic trades, and interact with external APIs without risk of reentrancy hacks.\n\nBacked by $6 Million in seed funding led by Polychain Capital with participation from Animoca Brands and dao5, Talus addresses the critical flaw of EVM-based AI integrations: EVM smart contracts lack the native object ownership models and strict memory safety required for non-human autonomous execution.\n\nTalus is operating its public testnet and developer sandbox, distributing Genesis Points to early AI agent testers and ecosystem developers.",
+    "tokenomics": "The native $TAL token powers network gas fees, agent registration bonds, and staking security across the Talus validator consortium.",
+    "sybilSafety": "Talus integrates social graph verification and human developer challenge tasks to prevent automated farming sybils.",
+    "strategy": "1. Access the Talus Network testnet hub.\n2. Connect your Web3 wallet and claim testnet gas tokens.\n3. Interact with autonomous AI agent prototypes in the Talus showcase.\n4. Complete community developer and ambassador quests on Galxe.\n5. Engage in the Talus Discord to claim early role badges.",
+    "steps": [
+      "Navigate to <a href=\"https://talus.network\" target=\"_blank\" rel=\"noopener noreferrer\">Talus Network Hub</a>.",
+      "Connect your wallet and switch to the Talus testnet.",
+      "Claim testnet tokens from the automated faucet.",
+      "Deploy or interact with featured Move AI agents.",
+      "Complete Discord verification to claim community contributor roles."
+    ],
+    "faqs": [
+      {
+        "question": "Why does Talus use the Move language?",
+        "answer": "Move provides formal verification and object-oriented resource safety, preventing AI agents from making unintended fund transfers."
+      }
+    ],
+    "tier": "Tier 1",
+    "cost": "Free (Testnet)",
+    "stage": "Incentivized Testnet",
+    "timeCommitment": "10 mins / week",
+    "snapshot": "Q4 2026",
+    "estDate": "Q4 2026",
+    "socials": {
+      "twitter": "https://x.com/TalusNetwork",
+      "discord": "https://discord.gg/talus",
+      "website": "https://talus.network"
+    },
+    "isHot": true,
+    "isFeatured": false
+  },
+  {
+    "id": "astria-sequencer",
+    "name": "Astria",
+    "logo": "/images/airdrops/astria-sequencer.svg",
+    "description": "Shared sequencing network enabling censorship-resistant decentralized block sequencing for modular rollups across Web3.",
+    "reward": "Astria Flame Testnet Rewards",
+    "category": "Infrastructure / Shared Sequencer",
+    "featured": true,
+    "status": "active",
+    "endTime": "2026-12-15T23:59:59Z",
+    "funding": "$12.5M",
+    "investors": "Bain Capital Crypto, Maven 11, 1kx, Delphi Digital, Figment Capital",
+    "refLink": "https://astria.org",
+    "overview": "Astria is a decentralized shared sequencing layer designed to replace centralized sequencers on EVM and modular rollups. Centralized sequencers pose serious risks of MEV exploitation, single-point failures, and transaction censorship. Astria replaces this model with a decentralized network of sequencers powered by CometBFT consensus.\n\nWith $12.5 Million in funding led by Bain Capital Crypto and Maven 11, Astria allows developers to launch sovereign rollups that inherit instant decentralized ordering from day one without deploying their own consensus infrastructure.\n\nThe Astria 'Flame' testnet is live, featuring an EVM rollup sequenced by Astria and settled to Celestia for data availability. Users and node operators can bridge testnet assets and stress-test the network to earn early testnet allocation points.",
+    "tokenomics": "The Astria network token will serve as staking collateral for decentralized sequencers and gas payment for transaction sequencing auctions.",
+    "sybilSafety": "Node runners must maintain consistent block production uptime. General users should interact through authentic cross-chain bridge actions.",
+    "strategy": "1. Connect your wallet to the Astria Flame Testnet.\n2. Request testnet tokens from the official Astria Faucet.\n3. Execute swaps and bridge transactions on the Flame EVM testnet.\n4. Deploy testnet smart contracts if you are a developer.\n5. Follow Astria on Discord to participate in sequencer stress-test events.",
+    "steps": [
+      "Visit the official <a href=\"https://astria.org\" target=\"_blank\" rel=\"noopener noreferrer\">Astria Portal</a>.",
+      "Add Astria Flame Testnet network parameters to MetaMask.",
+      "Claim testnet tokens from the faucet.",
+      "Bridge assets between Celestia testnet and Astria Flame.",
+      "Engage on-chain on Astria ecosystem dApps."
+    ],
+    "faqs": [
+      {
+        "question": "How does Astria interact with Celestia?",
+        "answer": "Astria handles decentralized transaction ordering, then posts the ordered transaction batches to Celestia for data availability."
+      }
+    ],
+    "tier": "Tier 1",
+    "cost": "Free (Testnet)",
+    "stage": "Flame Testnet",
+    "timeCommitment": "15 mins / week",
+    "snapshot": "Q4 2026",
+    "estDate": "Q4 2026",
+    "socials": {
+      "twitter": "https://x.com/AstriaOrg",
+      "discord": "https://discord.gg/astria",
+      "website": "https://astria.org"
+    },
+    "isHot": true,
+    "isFeatured": true
+  },
+  {
+    "id": "almanak-ai",
+    "name": "Almanak",
+    "logo": "/images/airdrops/almanak-ai.svg",
+    "description": "Autonomous quantitative AI agent platform optimizing decentralized finance yields, algorithmic market making, and automated risk hedging.",
+    "reward": "Almanak Early Strategist Allocation",
+    "category": "AI / Quantitative DeFi",
+    "featured": false,
+    "status": "active",
+    "endTime": "2026-11-20T23:59:59Z",
+    "funding": "$10M",
+    "investors": "Lightspeed Venture Partners, Delphi Digital, Matrixport, Shima Capital",
+    "refLink": "https://almanak.co",
+    "overview": "Almanak is a decentralized financial intelligence platform that empowers Web3 users and institutions to deploy autonomous quantitative AI agents. Built by veteran quantitative traders and machine learning scientists, Almanak agents continuously analyze on-chain liquidity curves, mempool volatility, and lending pool yields to optimize portfolio returns in real-time.\n\nBacked by $10 Million in funding led by Lightspeed Venture Partners with backing from Delphi Digital, Almanak provides an agent development environment where financial models can be backtested on historical blockchain state and deployed with verifiable execution constraints.\n\nAlmanak is running its early beta testing campaign, allowing DeFi strategists and quantitative researchers to test autonomous trading agents ahead of token launch.",
+    "tokenomics": "The Almanak token coordinates agent marketplace curation, revenue fee shares from quantitative strategies, and governance over protocol risk parameters.",
+    "sybilSafety": "Agent simulation and strategy deployment require verified user credentials and authentic on-chain capital allocation.",
+    "strategy": "1. Apply for beta access on Almanak's official website.\n2. Connect your Web3 wallet and explore pre-configured quantitative AI strategies.\n3. Participate in strategy backtesting tournaments.\n4. Join the Almanak Discord server and contribute to financial modeling discussions.\n5. Maintain active engagement on the platform to secure early strategist status.",
+    "steps": [
+      "Access <a href=\"https://almanak.co\" target=\"_blank\" rel=\"noopener noreferrer\">Almanak Platform</a>.",
+      "Sign in with your wallet and request beta tester access.",
+      "Explore autonomous yield and market-making agent models.",
+      "Submit feedback and strategy metrics on Discord.",
+      "Qualify for early strategist rewards ahead of TGE."
+    ],
+    "faqs": [
+      {
+        "question": "Can beginners use Almanak?",
+        "answer": "Yes, Almanak offers both no-code pre-configured agent templates for retail users and Python/Rust SDKs for quantitative developers."
+      }
+    ],
+    "tier": "Tier 2",
+    "cost": "Free (Beta Access)",
+    "stage": "Closed Beta / Testnet",
+    "timeCommitment": "10 mins once",
+    "snapshot": "TBA 2026",
+    "estDate": "Q4 2026",
+    "socials": {
+      "twitter": "https://x.com/Almanak__",
+      "discord": "https://discord.gg/almanak",
+      "website": "https://almanak.co"
+    },
+    "isHot": false,
+    "isFeatured": false
+  },
+  {
+    "id": "renegade-fi",
+    "name": "Renegade",
+    "logo": "/images/airdrops/renegade-fi.svg",
+    "description": "On-chain decentralized dark pool powered by Multi-Party Computation (MPC) and Zero-Knowledge proofs to eliminate MEV and front-running.",
+    "reward": "Renegade Dark Pool Early Trader Allocation",
+    "category": "DeFi / Privacy / ZK",
+    "featured": true,
+    "status": "active",
+    "endTime": "2026-12-10T23:59:59Z",
+    "funding": "$3.4M",
+    "investors": "Dragonfly Capital, Naval Ravikant, Balaji Srinivasan, Robot Ventures",
+    "refLink": "https://renegade.fi",
+    "overview": "Renegade is an innovative on-chain dark pool that brings zero-knowledge privacy to spot cryptocurrency trading. In traditional automated market makers (AMMs) like Uniswap, all orders, limit prices, and wallet balances are broadcast publicly to the mempool, exposing traders to toxic front-running, sandwich attacks, and maximum extractable value (MEV) slippage.\n\nSupported by $3.4 Million in venture capital led by Dragonfly Capital alongside angel investors **Naval Ravikant** and **Balaji Srinivasan**, Renegade utilizes collaborative Multi-Party Computation (MPC) and zero-knowledge proofs. Orders are matched completely invisibly at mid-market prices—no one (not even the relayer or validator) can see the trader's balance, limit order price, or counterparty identity until after the trade settles.\n\nRenegade is live on Arbitrum testnet and mainnet, offering fee rebates and early trader rewards to liquidity providers and active traders.",
+    "tokenomics": "The native protocol asset will govern dark pool matching fees, collateral staking for dark pool relayers, and community treasury allocations.",
+    "sybilSafety": "Real capital trading volume and balance thresholds on Arbitrum filter out Sybil bot clusters.",
+    "strategy": "1. Visit the Renegade Dark Pool portal on Arbitrum.\n2. Connect your wallet and generate your zero-knowledge trading keys.\n3. Deposit USDC, WETH, or WBTC into your private balance.\n4. Execute private peer-to-peer dark pool swaps.\n5. Join the Renegade Discord to claim verified trader roles.",
+    "steps": [
+      "Access <a href=\"https://renegade.fi\" target=\"_blank\" rel=\"noopener noreferrer\">Renegade Dark Pool</a>.",
+      "Initialize your non-custodial MPC trading keys.",
+      "Deposit trading funds into your shielded dark pool account.",
+      "Place hidden limit orders and execute private trades with zero MEV slippage.",
+      "Verify community membership in Discord."
+    ],
+    "faqs": [
+      {
+        "question": "How is Renegade different from Uniswap?",
+        "answer": "Uniswap orders are completely public and vulnerable to sandwich bots. Renegade trades are 100% private and execute at exact mid-market prices with zero MEV."
+      }
+    ],
+    "tier": "Tier 1",
+    "cost": "Low (Gas / Trade)",
+    "stage": "Mainnet Beta",
+    "timeCommitment": "10 mins once",
+    "snapshot": "Q4 2026",
+    "estDate": "Q4 2026",
+    "socials": {
+      "twitter": "https://x.com/renegade_fi",
+      "discord": "https://discord.gg/renegade-fi",
+      "website": "https://renegade.fi"
+    },
+    "isHot": true,
+    "isFeatured": true
+  },
+  {
+    "id": "hyperlane-interchain-l3",
+    "name": "Hyperlane",
+    "logo": "/images/airdrops/hyperlane-interchain-l3.svg",
+    "description": "Permissionless modular interoperability protocol enabling developers to connect any blockchain, rollup, or Layer 3 with zero gatekeepers.",
+    "reward": "Hyperlane Ecosystem Genesis Allocation",
+    "category": "Interoperability / Modular",
+    "featured": true,
+    "status": "active",
+    "endTime": "2026-12-31T23:59:59Z",
+    "funding": "$19M",
+    "investors": "Variant, Circle Ventures, CoinFund, Kraken Ventures",
+    "refLink": "https://hyperlane.xyz",
+    "overview": "Hyperlane is the first permissionless interoperability layer designed for modular blockchains and sovereign rollups. While legacy bridges (LayerZero, Wormhole) require developers to lobby centralized foundations to support new chains, Hyperlane allows anyone to deploy interchain messaging onto any rollup or Layer 3 in minutes using its modular 'Permissionless Interoperability' framework.\n\nBacked by $19 Million from Variant, Circle Ventures, and CoinFund, Hyperlane powers native cross-chain bridges across Celestia, Eclipse, Solana, Injective, Arbitrum Orbit, and Base rollups.\n\nUsers who bridge assets across Hyperlane-connected networks (such as Nexus Bridge, Merkly, and Superbridge) and deploy Interchain Security Modules (ISMs) are building verified on-chain volume for the upcoming genesis token generation event.",
+    "tokenomics": "The Hyperlane token will secure Interchain Security Modules (ISMs), provide staking for message relayers, and govern the core protocol registry.",
+    "sybilSafety": "Hyperlane monitors cross-chain transaction graph consistency. Avoid automated micro-transactions on the same bridge routes.",
+    "strategy": "1. Access Hyperlane-powered bridges (e.g., Nexus Bridge or Merkly).\n2. Bridge tokens across diverse ecosystems (e.g., Injective to Solana, or Arbitrum to Base).\n3. Use Hyperlane Warp Routes for cross-chain native token transfers.\n4. Mint community commemorations and complete developer guides if technical.\n5. Maintain multi-month bridge activity across at least 3 distinct destination networks.",
+    "steps": [
+      "Go to the official <a href=\"https://hyperlane.xyz\" target=\"_blank\" rel=\"noopener noreferrer\">Hyperlane Portal</a>.",
+      "Explore the Warp Routes directory to view supported chains.",
+      "Execute cross-chain transfers between Arbitrum, Optimism, Solana, and Celestia rollups.",
+      "Verify transaction status on the Hyperlane Interchain Explorer.",
+      "Participate in community events on Discord."
+    ],
+    "faqs": [
+      {
+        "question": "What are Hyperlane Warp Routes?",
+        "answer": "Warp Routes are Hyperlane's permissionless, tokenized bridging contracts that allow any token to travel between any two chains."
+      }
+    ],
+    "tier": "Tier 1",
+    "cost": "Low (Bridge Gas)",
+    "stage": "Mainnet / Warp Routes",
+    "timeCommitment": "10 mins / month",
+    "snapshot": "Q4 2026",
+    "estDate": "Q4 2026",
+    "socials": {
+      "twitter": "https://x.com/Hyperlane_xyz",
+      "discord": "https://discord.gg/hyperlane",
+      "website": "https://hyperlane.xyz"
+    },
+    "isHot": true,
+    "isFeatured": true
+  },
+  {
+    "id": "tars-ai-protocol",
+    "name": "TARS AI",
+    "logo": "/images/airdrops/tars-ai-protocol.svg",
+    "description": "Solana-based modular AI ecosystem delivering GPU compute pooling, decentralized model training, and AI agent creation tools.",
+    "reward": "$TAI Community Staking & Airdrop Rewards",
+    "category": "AI / Solana Ecosystem",
+    "featured": false,
+    "status": "active",
+    "endTime": "2026-11-25T23:59:59Z",
+    "funding": "$4M+",
+    "investors": "Solana Foundation Grants, DWF Labs, Big Brain Holdings",
+    "refLink": "https://tars.pro",
+    "overview": "TARS AI is an artificial intelligence infrastructure platform built natively on the Solana blockchain. TARS bridges the gap between Web3 developers and high-performance machine learning by providing on-demand GPU compute clustering, decentralized AI model training pipelines, and a modular framework to deploy autonomous AI agents on Solana.\n\nWith fast transaction finality and low gas fees on Solana, TARS allows retail users to generate AI audio, train personal LLMs, and tokenize AI agent intellectual property natively on-chain.\n\nThe TARS AI points and staking program rewards active participants who stake $TAI tokens, contribute GPU computing resources, and deploy autonomous agents in the TARS marketplace.",
+    "tokenomics": "The $TAI token powers GPU compute rental payments, model training fees, staking multipliers, and DAO governance votes.",
+    "sybilSafety": "Solana wallet activity, staking duration, and platform interaction logs are used to determine genuine users.",
+    "strategy": "1. Connect your Phantom or Backpack wallet to TARS AI on Solana.\n2. Stake $TAI tokens in the native staking vault to activate point multipliers.\n3. Test the TARS AI Space and train a custom AI model.\n4. Complete community tasks on the TARS campaign portal.\n5. Maintain continuous staking to qualify for retroactive ecosystem partner airdrops.",
+    "steps": [
+      "Visit <a href=\"https://tars.pro\" target=\"_blank\" rel=\"noopener noreferrer\">TARS AI Hub</a>.",
+      "Connect your Solana Web3 wallet.",
+      "Explore AI tools including the TARS GPU Hub and Agent Builder.",
+      "Stake $TAI tokens to accumulate ecosystem rewards.",
+      "Join the official Telegram and Discord channels for snapshot notifications."
+    ],
+    "faqs": [
+      {
+        "question": "What network does TARS operate on?",
+        "answer": "TARS operates natively on Solana, utilizing high-speed SVM execution for instant AI micropayments."
+      }
+    ],
+    "tier": "Tier 2",
+    "cost": "Low Cost",
+    "stage": "Live Platform / Staking",
+    "timeCommitment": "5 mins",
+    "snapshot": "Ongoing 2026",
+    "estDate": "Q4 2026",
+    "socials": {
+      "twitter": "https://x.com/tarsprotocol",
+      "discord": "https://discord.gg/tarsprotocol",
+      "website": "https://tars.pro"
+    },
+    "isHot": false,
+    "isFeatured": false
+  },
+  {
+    "id": "alvara-protocol",
+    "name": "Alvara Protocol",
+    "logo": "/images/airdrops/alvara-protocol.svg",
+    "description": "Decentralized fund infrastructure enabling permissionless creation, management, and trading of tokenized basket funds via the ERC-7621 standard.",
+    "reward": "Alvara Hive Staking & $ALVA Rewards",
+    "category": "DeFi / Tokenized ETFs",
+    "featured": false,
+    "status": "active",
+    "endTime": "2026-11-20T23:59:59Z",
+    "funding": "$2.5M+",
+    "investors": "Polkastarter, Master Ventures, Faculty Group",
+    "refLink": "https://alvaraprotocol.io",
+    "overview": "Alvara Protocol is a decentralized asset management platform that introduces the **ERC-7621 (Basket Token)** standard to the Ethereum ecosystem. Similar to how exchange-traded funds (ETFs) revolutionized traditional finance, Alvara allows anyone to create, manage, and invest in multi-token portfolio baskets within a single liquid ERC-20 token.\n\nEvery basket fund (BTS) created on Alvara maintains underlying assets transparently on-chain, rebalancing automatically according to fund manager rules without custodial intermediaries.\n\nThe Alvara 'Hive' rewards campaign allows community members to stake $ALVA, create community token baskets, and provide liquidity to earn yield multipliers and governance incentives.",
+    "tokenomics": "The $ALVA token is required to mint new Basket Tokens, stake in the Hive to earn protocol fees, and vote on ecosystem treasury proposals.",
+    "sybilSafety": "Real on-chain liquidity deposits and ERC-7621 basket minting actions guarantee authentic participation.",
+    "strategy": "1. Connect wallet to Alvara Protocol on Ethereum Mainnet or Arbitrum.\n2. Browse active BTS tokenized funds and invest in curated portfolios.\n3. Mint your own customized ERC-7621 token basket.\n4. Stake $ALVA in the Hive staking portal to earn reward shares.\n5. Participate in community governance discussions.",
+    "steps": [
+      "Access <a href=\"https://alvaraprotocol.io\" target=\"_blank\" rel=\"noopener noreferrer\">Alvara Protocol</a>.",
+      "Connect your Web3 wallet.",
+      "Explore the Basket Token (BTS) marketplace.",
+      "Mint or invest in a multi-token crypto fund.",
+      "Stake $ALVA tokens in the Hive for ongoing reward yields."
+    ],
+    "faqs": [
+      {
+        "question": "What is the ERC-7621 standard?",
+        "answer": "ERC-7621 is an official Ethereum standard pioneered by Alvara that allows a single token to represent ownership of an arbitrary basket of underlying multi-chain tokens."
+      }
+    ],
+    "tier": "Tier 2",
+    "cost": "Low / Medium",
+    "stage": "Mainnet Live",
+    "timeCommitment": "10 mins once",
+    "snapshot": "Ongoing Hive",
+    "estDate": "Q4 2026",
+    "socials": {
+      "twitter": "https://x.com/AlvaraProtocol",
+      "discord": "https://discord.gg/alvara",
+      "website": "https://alvaraprotocol.io"
+    },
+    "isHot": false,
+    "isFeatured": false
+  },
+  {
+    "id": "zeno-exchange-perps",
+    "name": "Zeno Exchange",
+    "logo": "/images/airdrops/zeno-exchange-perps.svg",
+    "description": "High-performance decentralized perpetuals exchange featuring zero price impact, deep aggregated liquidity, and sub-cent fees on Metis L2.",
+    "reward": "Zeno Odyssey Trading Points & $ZENO Token",
+    "category": "DeFi / Perps DEX",
+    "featured": false,
+    "status": "active",
+    "endTime": "2026-12-15T23:59:59Z",
+    "funding": "$2M+",
+    "investors": "Metis Ecosystem Fund, Incubated by native L2 builders",
+    "refLink": "https://zeno.exchange",
+    "overview": "Zeno Exchange is a next-generation decentralized perpetual contracts exchange deployed on Metis Layer 2. Utilizing an advanced peer-to-pool liquidity framework, Zeno enables crypto traders to execute high-leverage perpetual positions on BTC, ETH, and METIS with zero price slippage, low borrowing fees, and real-time oracle price feeds.\n\nBacked by grants from the Metis Decentralized Sequencer Community Fund, Zeno brings capital-efficient derivatives trading to the Metis ecosystem.\n\nZeno has initiated the Zeno Odyssey trading campaign, rewarding active traders and liquidity pool (ZLP) providers with points that will determine their allocation of the native $ZENO governance token.",
+    "tokenomics": "The $ZENO token governs trading fee distributions, staking reward yields, and risk parameters. 70% of all generated protocol trading fees are paid directly to ZLP liquidity providers.",
+    "sybilSafety": "Real trading volume and active open interest thresholds filter bot farms. Wash-trading across identical IPs is disqualified.",
+    "strategy": "1. Bridge assets to Metis Layer 2 via the official Metis Bridge.\n2. Access Zeno Exchange and connect your wallet.\n3. Deposit USDC or METIS into the trading account.\n4. Execute perpetual long or short trades to generate verifiable trading volume.\n5. Mint ZLP tokens to earn liquidity provider yields and Odyssey reward points.",
+    "steps": [
+      "Go to <a href=\"https://zeno.exchange\" target=\"_blank\" rel=\"noopener noreferrer\">Zeno Exchange</a>.",
+      "Connect your Web3 wallet and switch to Metis Network.",
+      "Deposit collateral and open a perpetual trading position.",
+      "Mint ZLP tokens to become a liquidity provider.",
+      "Check your rank on the Zeno Odyssey leaderboard."
+    ],
+    "faqs": [
+      {
+        "question": "What is ZLP?",
+        "answer": "ZLP is the liquidity provider index token of Zeno Exchange that earns 70% of all platform trading fees."
+      }
+    ],
+    "tier": "Tier 2",
+    "cost": "Low (Gas / Volume)",
+    "stage": "Incentivized Mainnet",
+    "timeCommitment": "15 mins / week",
+    "snapshot": "Q4 2026",
+    "estDate": "Q4 2026",
+    "socials": {
+      "twitter": "https://x.com/ZenoExchange",
+      "discord": "https://discord.gg/zenoexchange",
+      "website": "https://zeno.exchange"
+    },
+    "isHot": false,
+    "isFeatured": false
+  },
+  {
+    "id": "reya-network-perps",
+    "name": "Reya Network",
+    "logo": "/images/airdrops/reya-network-perps.svg",
+    "description": "Modular Layer 2 blockchain purpose-built for financial trading, decentralized perpetuals, and capital-efficient margin clearing.",
+    "reward": "Reya Generation XP & $REYA Airdrop",
+    "category": "DeFi / Trading L2",
+    "featured": true,
+    "status": "active",
+    "endTime": "2026-11-25T23:59:59Z",
+    "funding": "$10M",
+    "investors": "Framework Ventures, Coinbase Ventures, Wintermute, Brevan Howard Digital",
+    "refLink": "https://reya.network",
+    "overview": "Reya Network is a modular Layer 2 blockchain purpose-built from the ground up for decentralized financial trading. Built by the creators of Voltz Protocol and backed by $10 Million in funding led by Framework Ventures, Coinbase Ventures, and Wintermute, Reya optimizes rollup architecture specifically for high-speed trading, margin calculation, and shared cross-exchange clearing.\n\nTraditional rollups execute trades sequentially, causing front-running and capital fragmentation. Reya introduces a novel passive liquidity pool mechanism (Reya Liquidity Network) where all decentralized exchanges and derivatives protocols deployed on Reya share a unified global margin pool.\n\nThe Reya Generation liquidity campaign rewards early capital depositors and trading volume generators with Reya XP, converting into $REYA governance tokens at TGE.",
+    "tokenomics": "The $REYA token serves as network staking collateral, gas fee settlement for sequencer blocks, and governance over risk clearinghouse models.",
+    "sybilSafety": "Real USDC capital deposits and trading volume are required to earn Reya XP.",
+    "strategy": "1. Visit the Reya Network portal.\n2. Connect your Web3 wallet on Arbitrum or Ethereum.\n3. Deposit USDC into the Reya shared margin pool.\n4. Stake your deposit to generate continuous passive Reya XP.\n5. Trade on early DEXs deployed on Reya (e.g., Reya Perps) to boost your XP multiplier.",
+    "steps": [
+      "Access <a href=\"https://reya.network\" target=\"_blank\" rel=\"noopener noreferrer\">Reya Network Portal</a>.",
+      "Connect your Web3 wallet.",
+      "Deposit USDC from Arbitrum into the unified margin clearing pool.",
+      "Accumulate Reya Generation XP daily.",
+      "Participate in the Reya Discord to track snapshot deadlines."
+    ],
+    "faqs": [
+      {
+        "question": "How fast is Reya Network?",
+        "answer": "Reya Network benchmarked over 30,000 TPS with sub-millisecond execution times specifically optimized for financial order matching."
+      }
+    ],
+    "tier": "Tier 1",
+    "cost": "Deposit (USDC)",
+    "stage": "Generation Phase",
+    "timeCommitment": "5 mins",
+    "snapshot": "Q4 2026",
+    "estDate": "Q4 2026",
+    "socials": {
+      "twitter": "https://x.com/Reya_xyz",
+      "discord": "https://discord.gg/reya",
+      "website": "https://reya.network"
+    },
+    "isHot": true,
+    "isFeatured": true
+  },
+  {
+    "id": "etherfi-cash",
+    "name": "ether.fi Cash",
+    "logo": "/images/airdrops/etherfi-cash.svg",
+    "description": "Non-custodial crypto credit card and mobile settlement app powered by ether.fi liquid restaked assets on Scroll Layer 2.",
+    "reward": "Season 4 ether.fi Loyalty Points & Cash Back",
+    "category": "DeFi / Crypto Card",
+    "featured": true,
+    "status": "active",
+    "endTime": "2026-12-10T23:59:59Z",
+    "funding": "$32M+",
+    "investors": "Bullish, CoinFund, OKX Ventures, North Island Ventures",
+    "refLink": "https://ether.fi",
+    "overview": "ether.fi Cash is a groundbreaking non-custodial consumer card and mobile payments solution developed by ether.fi, the largest liquid restaking protocol on Ethereum ($6B+ TVL). Built on top of the Scroll zero-knowledge Layer 2, ether.fi Cash allows users to spend crypto at real-world merchants without liquidating their underlying assets.\n\nUsers hold liquid restaked assets (such as eETH and weETH) that continue to earn native Ethereum Proof-of-Stake rewards and EigenLayer restaking yields. When you swipe the ether.fi Cash card (Visa accepted globally), the protocol automatically borrows stablecoins against your collateral at low rates, settling the transaction instantly with up to 3% cash back.\n\nEarly applicants and active card users accumulate Season 4 ether.fi points and exclusive Cash badges ahead of the next major $ETHFI community rewards tranche.",
+    "tokenomics": "The $ETHFI governance token oversees protocol parameters, fee distributions, and card cashback tiers. Staking $ETHFI unlocks premium card tiers and zero borrowing rates.",
+    "sybilSafety": "Real identity KYC for card issuance cryptographically eliminates Sybil attack vulnerabilities.",
+    "strategy": "1. Access the ether.fi Cash pre-order portal.\n2. Connect your wallet and join the priority access queue.\n3. Hold eETH or weETH in your connected wallet to boost your rank.\n4. Complete the identity verification to activate your virtual or physical card.\n5. Use the card for everyday purchases to earn 3% cash back in crypto and Season 4 points.",
+    "steps": [
+      "Go to the official <a href=\"https://ether.fi\" target=\"_blank\" rel=\"noopener noreferrer\">ether.fi Cash Portal</a>.",
+      "Connect your Web3 wallet.",
+      "Reserve your ether.fi Cash card on Scroll L2.",
+      "Maintain active holdings of eETH / weETH to earn daily points.",
+      "Spend with the card to earn compounding Season 4 rewards."
+    ],
+    "faqs": [
+      {
+        "question": "Do I lose my staking yield when using ether.fi Cash?",
+        "answer": "No! Your eETH continues earning proof-of-stake and restaking yields in your wallet while serving as collateral for purchases."
+      }
+    ],
+    "tier": "Tier 1",
+    "cost": "Free to Apply",
+    "stage": "Card Rollout / Season 4",
+    "timeCommitment": "5 mins",
+    "snapshot": "Q4 2026",
+    "estDate": "Q4 2026",
+    "socials": {
+      "twitter": "https://x.com/ether_fi",
+      "discord": "https://discord.gg/etherfi",
+      "website": "https://ether.fi"
+    },
+    "isHot": true,
+    "isFeatured": true
+  },
+  {
+    "id": "dill-network-da",
+    "name": "Dill",
+    "logo": "/images/airdrops/dill-network-da.svg",
+    "description": "Next-generation modular Data Availability network utilizing full 2D Danksharding and scalable light validator nodes.",
+    "reward": "Dill Andromeda Testnet Rewards",
+    "category": "Infrastructure / Modular DA",
+    "featured": false,
+    "status": "active",
+    "endTime": "2026-11-30T23:59:59Z",
+    "funding": "$5M+",
+    "investors": "Modular Capital, Web3 Venture Angels",
+    "refLink": "https://dill.xyz",
+    "overview": "Dill is a high-throughput, modular Data Availability (DA) network that implements Ethereum's complete Danksharding roadmap years ahead of schedule. While existing modular DA networks (Celestia, EigenDA) offer significant throughput improvements over Ethereum L1, Dill takes scaling further by incorporating full 2D erasure coding and data availability sampling (DAS).\n\nDill enables millions of light nodes—running on consumer laptops or mobile devices—to verify data integrity with negligible bandwidth consumption. Rollup networks deployed on Dill can achieve thousands of transactions per second at fractions of a cent per megabyte.\n\nThe Dill 'Andromeda' incentivized testnet rewards node operators and stakers who run validator and light clients on the network.",
+    "tokenomics": "The native Dill token will power DA storage payments, validator staking, and slashable consensus verification.",
+    "sybilSafety": "Node runners must maintain consistent cryptographic heartbeat responses and proof of sampling telemetry.",
+    "strategy": "1. Access the Dill Andromeda testnet documentation.\n2. Spin up a Dill Light Node using Docker or command-line scripts.\n3. Request testnet DILL tokens from the faucet.\n4. Stake your testnet tokens with an active validator.\n5. Verify your node status on the Andromeda network explorer.",
+    "steps": [
+      "Visit the <a href=\"https://dill.xyz\" target=\"_blank\" rel=\"noopener noreferrer\">Dill DA Portal</a>.",
+      "Review the Andromeda Testnet node setup guide.",
+      "Deploy a light validator node on a VPS or home PC.",
+      "Stake testnet tokens to participate in consensus.",
+      "Join the official Discord to claim node operator roles."
+    ],
+    "faqs": [
+      {
+        "question": "Can I run a Dill node on my personal computer?",
+        "answer": "Yes, Dill light nodes are lightweight and require minimal CPU and RAM to run data availability sampling."
+      }
+    ],
+    "tier": "Tier 2",
+    "cost": "Free (Testnet)",
+    "stage": "Andromeda Testnet",
+    "timeCommitment": "20 mins setup",
+    "snapshot": "Q4 2026",
+    "estDate": "Q4 2026",
+    "socials": {
+      "twitter": "https://x.com/dill_xyz_",
+      "discord": "https://discord.gg/dill",
+      "website": "https://dill.xyz"
+    },
+    "isHot": false,
+    "isFeatured": false
+  },
+  {
+    "id": "hemi-network-miner",
+    "name": "Hemi Network (PoP)",
+    "logo": "/images/airdrops/hemi-network-miner.svg",
+    "description": "Modular Layer 2 powered by Bitcoin and Ethereum, introducing Proof-of-Proof (PoP) mining for Bitcoin-level finality on EVM.",
+    "reward": "Hemi Testnet Points & $HEMI Token",
+    "category": "Bitcoin L2 / Modular",
+    "featured": true,
+    "status": "active",
+    "endTime": "2026-12-15T23:59:59Z",
+    "funding": "$15M",
+    "investors": "Binance Labs, Breyer Capital, Big Brain Holdings, HyperChain Capital",
+    "refLink": "https://hemi.xyz",
+    "overview": "Hemi Network is a modular Layer 2 protocol designed to unify Bitcoin and Ethereum into a single cryptographic supernetwork. Founded by early Bitcoin core developer Jeff Garzik and backed by $15 Million in funding led by Binance Labs and Breyer Capital, Hemi introduces the 'Hemi Virtual Machine' (hVM), which integrates a full Bitcoin node directly inside an EVM smart contract environment.\n\nHemi secures its state transitions through 'Proof-of-Proof' (PoP) consensus, anchoring rollup state roots directly into Bitcoin blocks, inheriting Bitcoin's multi-billion-dollar proof-of-work security.\n\nThe Hemi Incentivized Testnet allows users to run PoP miner scripts, bridge testnet assets between Sepolia and Hemi, and interact with native DeFi protocols to accumulate verified testnet points.",
+    "tokenomics": "The $HEMI governance token coordinates PoP miner incentives, sequencer staking, and cross-chain Bitcoin-to-Ethereum asset settlement.",
+    "sybilSafety": "PoP mining requires authentic Bitcoin testnet block submissions and verified hardware computation.",
+    "strategy": "1. Access the Hemi Network Testnet portal.\n2. Connect your Web3 wallet and claim testnet ETH and testnet BTC.\n3. Bridge assets to Hemi using the official Hemi Bridge.\n4. Deploy a PoP miner node on a VPS to earn mining rewards.\n5. Interact with native dApps on Hemi and complete community tasks on Galxe.",
+    "steps": [
+      "Go to the official <a href=\"https://hemi.xyz\" target=\"_blank\" rel=\"noopener noreferrer\">Hemi Network Portal</a>.",
+      "Connect your wallet and add the Hemi Testnet network.",
+      "Claim testnet funds from the faucet.",
+      "(Optional) Run a PoP Miner CLI node to accumulate block rewards.",
+      "Complete social quests on Galxe to earn early community roles."
+    ],
+    "faqs": [
+      {
+        "question": "What is Proof-of-Proof (PoP)?",
+        "answer": "Proof-of-Proof publishes Hemi rollup state proofs directly onto Bitcoin blocks, giving the L2 network Bitcoin-level immutability."
+      }
+    ],
+    "tier": "Tier 1",
+    "cost": "Free (Testnet)",
+    "stage": "Incentivized Testnet",
+    "timeCommitment": "15 mins / week",
+    "snapshot": "Q4 2026",
+    "estDate": "Q4 2026",
+    "socials": {
+      "twitter": "https://x.com/hemi_xyz",
+      "discord": "https://discord.gg/hemi",
+      "website": "https://hemi.xyz"
+    },
+    "isHot": true,
+    "isFeatured": true
+  },
+  {
+    "id": "superform-safari-yield",
+    "name": "Superform Safari",
+    "logo": "/images/airdrops/superform-safari-yield.svg",
+    "description": "Universal cross-chain yield aggregator allowing one-click deposits into any DeFi vault across any EVM chain.",
+    "reward": "Superform Safari XP & Governance Token",
+    "category": "DeFi / Cross-Chain Yield",
+    "featured": false,
+    "status": "active",
+    "endTime": "2026-11-20T23:59:59Z",
+    "funding": "$3M",
+    "investors": "Polychain Capital, BlockTower Capital, Maven 11, Circle Ventures",
+    "refLink": "https://superform.xyz",
+    "overview": "Superform is the universal yield marketplace for decentralized finance. Today, earning yield across Web3 requires users to bridge funds, manage different gas tokens, and navigate dozens of fragmented interfaces. Superform solves this through 'SuperPositions'—ERC-4626 standard yield-bearing tokens that allow users to deposit funds on one chain (e.g., Arbitrum) and instantly gain exposure to a vault on another chain (e.g., Base or Ethereum) in a single click.\n\nBacked by $3 Million from Polychain Capital and BlockTower, Superform functions as the 'App Store for DeFi Yield.'\n\nThe Superform Safari campaign rewards depositors with Superform XP, granting tiered allocations for the upcoming protocol governance token.",
+    "tokenomics": "The native Superform token will govern cross-chain yield router parameters, platform fee sharing, and curation of featured vault protocols.",
+    "sybilSafety": "Real DeFi capital deposits into verified vaults filter out automated bot swarms.",
+    "strategy": "1. Connect your wallet to Superform.\n2. Browse top-yielding vaults across Arbitrum, Base, Optimism, and Ethereum.\n3. Execute a cross-chain deposit with one click using your existing assets.\n4. Mint SuperPositions and hold them in your wallet to earn continuous Safari XP.\n5. Complete quest tournaments on the Superform Safari leaderboard.",
+    "steps": [
+      "Access the <a href=\"https://superform.xyz\" target=\"_blank\" rel=\"noopener noreferrer\">Superform Safari Marketplace</a>.",
+      "Connect your Web3 wallet.",
+      "Select a featured vault on Arbitrum, Base, or Ethereum.",
+      "Execute a 1-click cross-chain deposit.",
+      "Track your Safari XP rank on the global leaderboard."
+    ],
+    "faqs": [
+      {
+        "question": "Do I need native gas tokens on the destination chain?",
+        "answer": "No! Superform's cross-chain router automatically swaps and pays gas behind the scenes."
+      }
+    ],
+    "tier": "Tier 2",
+    "cost": "Low (DeFi Deposit)",
+    "stage": "Safari Campaign",
+    "timeCommitment": "5 mins",
+    "snapshot": "Q4 2026",
+    "estDate": "Q4 2026",
+    "socials": {
+      "twitter": "https://x.com/superformxyz",
+      "discord": "https://discord.gg/superform",
+      "website": "https://superform.xyz"
+    },
+    "isHot": false,
+    "isFeatured": false
+  },
+  {
+    "id": "zerolend-airdrop",
+    "name": "ZeroLend",
+    "logo": "/images/airdrops/zerolend-airdrop.svg",
+    "description": "Premier decentralized lending market on Linea, Blast, and Manta, offering isolated money markets for liquid restaking and RWA assets.",
+    "reward": "ZeroLend Points & $ZERO Airdrop Tranches",
+    "category": "DeFi / Lending",
+    "featured": false,
+    "status": "active",
+    "endTime": "2026-11-20T23:59:59Z",
+    "funding": "$3M",
+    "investors": "Momentum 6, Morningstar Ventures, Newman Capital, GBV Capital",
+    "refLink": "https://zerolend.xyz",
+    "overview": "ZeroLend is one of the fastest-growing decentralized lending protocols in Web3, operating as the dominant native liquidity layer across Linea, Blast, and Manta Network. Built on the proven Aave v3 architecture with custom modular enhancements, ZeroLend offers isolated lending pools for liquid restaking tokens (LRTs), real-world asset (RWA) tokens, and native ecosystem assets.\n\nHaving raised $3 Million from Momentum 6 and Morningstar Ventures, ZeroLend is pioneering account abstraction integrations, allowing users to borrow without manual gas fee management.\n\nZeroLend is distributing community airdrop tranches to users who supply collateral, borrow assets, and stake $ZERO tokens in the protocol governance safety module.",
+    "tokenomics": "The $ZERO token governs money market parameters, safety module insurance, and fee sharing across multi-chain deployment markets.",
+    "sybilSafety": "Real deposit and borrowing activity with healthy collateralization filters automated Sybil farming.",
+    "strategy": "1. Access ZeroLend on Linea or Blast.\n2. Supply stablecoins, ETH, or restaked assets (such as ezETH or wrsETH).\n3. Borrow against your collateral to activate point multipliers.\n4. Stake $ZERO in the protocol safety module to earn platform revenue shares.\n5. Refer active DeFi friends to earn referral bonuses.",
+    "steps": [
+      "Go to <a href=\"https://zerolend.xyz\" target=\"_blank\" rel=\"noopener noreferrer\">ZeroLend Protocol</a>.",
+      "Connect your Web3 wallet and select Linea or Blast.",
+      "Supply liquidity to earning pools.",
+      "Borrow assets to maximize daily ZeroLend points.",
+      "Claim and stake rewards in the protocol dashboard."
+    ],
+    "faqs": [
+      {
+        "question": "What blockchains does ZeroLend support?",
+        "answer": "ZeroLend supports Linea, Blast, Manta Pacific, Ethereum Mainnet, and X Layer."
+      }
+    ],
+    "tier": "Tier 2",
+    "cost": "Low (DeFi Deposit)",
+    "stage": "Airdrop Tranches Live",
+    "timeCommitment": "10 mins once",
+    "snapshot": "Ongoing 2026",
+    "estDate": "Q4 2026",
+    "socials": {
+      "twitter": "https://x.com/zerolendxyz",
+      "discord": "https://discord.gg/zerolend",
+      "website": "https://zerolend.xyz"
+    },
+    "isHot": false,
+    "isFeatured": false
+  }
 ];
