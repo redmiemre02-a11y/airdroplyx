@@ -1,0 +1,119 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Header from '../components/Header.astro';
+---
+
+<Layout 
+  title="Editorial Policy & Journalistic Standards | Airdroplyx News" 
+  description="Read Airdroplyx News editorial standards, fact-checking methodology, corrections policy, and journalistic ethics for Web3 and cryptocurrency reporting."
+>
+  <Header />
+
+  <!-- Schema.org JSON-LD (AboutPage / NewsMediaOrganization Editorial Policy) -->
+  <script type="application/ld+json" set:html={JSON.stringify({
+    "@context": "https://schema.org",
+    "@type": "AboutPage",
+    "name": "Airdroplyx Editorial Policy & Journalistic Standards",
+    "description": "Editorial standards, independence principles, and fact-checking policies for Airdroplyx News.",
+    "url": "https://airdroplyx.com/editorial-policy/",
+    "publisher": {
+      "@type": "NewsMediaOrganization",
+      "name": "Airdroplyx News",
+      "url": "https://airdroplyx.com",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://airdroplyx.com/logo.jpg"
+      },
+      "publishingPrinciples": "https://airdroplyx.com/editorial-policy/"
+    }
+  })} />
+
+  <main class="max-w-[850px] mx-auto px-4 py-16">
+    <div class="bg-white dark:bg-slate-800 rounded-3xl p-8 md:p-12 border border-slate-200 dark:border-slate-700 shadow-sm prose prose-slate dark:prose-invert max-w-none">
+      
+      <div class="flex items-center gap-2 mb-4 not-prose">
+        <span class="bg-blue-100 text-blue-800 dark:bg-blue-900/40 dark:text-blue-300 text-xs font-black px-3 py-1 rounded-full uppercase tracking-wider">
+          Google News E-E-A-T Standards
+        </span>
+        <span class="text-xs text-slate-400 font-medium">Updated: October 2026</span>
+      </div>
+
+      <h1 class="text-3xl md:text-5xl font-black text-slate-900 dark:text-white tracking-tight mb-4">
+        Editorial Policy &amp; Standards
+      </h1>
+      
+      <p class="text-lg text-slate-600 dark:text-slate-300 leading-relaxed font-medium mb-8">
+        At <strong>Airdroplyx News</strong>, our primary mission is to deliver accurate, objective, and verified intelligence regarding cryptocurrency protocols, retroactive airdrops, token generation events (TGE), and on-chain decentralization milestones.
+      </p>
+
+      <div class="p-6 rounded-2xl bg-blue-50 dark:bg-slate-850/80 border border-blue-200 dark:border-blue-900/50 not-prose mb-10 shadow-sm">
+        <h3 class="text-sm font-black text-blue-900 dark:text-blue-300 uppercase tracking-wider mb-2">
+          Core Journalistic Commitment
+        </h3>
+        <p class="text-xs sm:text-sm text-slate-700 dark:text-slate-300 leading-relaxed font-normal">
+          We adhere strictly to the highest standards of journalistic integrity, transparent sourcing, on-chain cryptographic verification, and non-promotional news reporting. Our editorial decisions are completely independent of commercial sponsorships, venture capital investments, or token allocations.
+        </p>
+      </div>
+
+      <h2>1. Editorial Independence &amp; Commercial Separation</h2>
+      <p>
+        Airdroplyx News maintains a strict firewall between our editorial reporting team and commercial, advertising, or affiliate partnerships:
+      </p>
+      <ul>
+        <li><strong>No Paid News:</strong> We never accept payment, token allocations, or gifts in exchange for favorable news coverage, protocol reviews, or front-page placement.</li>
+        <li><strong>Sponsored Content Labeling:</strong> Any sponsored educational content or marketing partnership on the broader platform is explicitly labeled with clear visual tags and disclaimers. Sponsored content never influences our breaking news coverage.</li>
+        <li><strong>Investigative Objectivity:</strong> If a protocol faces an exploit, technical failure, or sybil controversy, our journalists report the facts impartially without bias or soft-pedaling.</li>
+      </ul>
+
+      <h2>2. On-Chain Fact-Checking &amp; Primary Sourcing</h2>
+      <p>
+        In an industry prone to social media rumors and speculative hype, our reporting is anchored to verified primary evidence:
+      </p>
+      <ul>
+        <li><strong>Blockchain Verification:</strong> We corroborate transaction volumes, TVL metrics, and contract deployments directly through block explorers (Etherscan, Solscan, Arbiscan) and decentralized indexers (Dune Analytics, DefiLlama).</li>
+        <li><strong>Official Protocol Documentation:</strong> We verify protocol parameters, tokenomics allocations, and snapshot criteria against official governance forums, GitHub commits, and cryptographically signed foundation statements.</li>
+        <li><strong>Multi-Source Confirmation:</strong> Breaking news stories require verification from at least two independent credible sources or direct confirmation from core protocol contributors before publication.</li>
+      </ul>
+
+      <h2>3. Corrections &amp; Transparency Policy</h2>
+      <p>
+        We are committed to absolute accuracy. When factual errors, typographical mistakes, or outdated metrics occur, we rectify them promptly and transparently:
+      </p>
+      <ul>
+        <li><strong>Public Corrections:</strong> Substantive corrections to news reports are denoted with a clear "Correction" notice at the top or bottom of the article, specifying what was changed and why.</li>
+        <li><strong>Reporting Errors:</strong> Readers who identify potential errors are encouraged to notify our editorial desk at <a href="mailto:editorial@airdroplyx.com">editorial@airdroplyx.com</a>. Every inquiry is reviewed by our senior research editors.</li>
+      </ul>
+
+      <h2>4. Conflict of Interest &amp; Personal Trading Disclosures</h2>
+      <p>
+        Our research journalists and on-chain analysts are bound by ethical trading policies:
+      </p>
+      <ul>
+        <li>Staff members must disclose material holdings in protocols they actively cover.</li>
+        <li>Writers are strictly prohibited from trading tokens or deploying capital based on embargoed, non-public news intelligence before publication.</li>
+      </ul>
+
+      <h2>5. AI &amp; Algorithmic Content Transparency</h2>
+      <p>
+        While Airdroplyx utilizes automated data pipelines to monitor mempool transactions, gas prices, and contract events, <strong>every news article, analysis, and guide is written, curated, and fact-checked by human cryptocurrency researchers</strong>. We never publish raw, unverified generative AI copy.
+      </p>
+
+      <h2>6. Editorial Masthead &amp; Contact Information</h2>
+      <p>
+        Airdroplyx News is managed by an international team of decentralized finance researchers, cryptographic analysts, and blockchain reporters:
+      </p>
+      <ul>
+        <li><strong>Editorial Desk:</strong> <a href="mailto:editorial@airdroplyx.com">editorial@airdroplyx.com</a></li>
+        <li><strong>Corrections &amp; Inquiries:</strong> <a href="mailto:corrections@airdroplyx.com">corrections@airdroplyx.com</a></li>
+        <li><strong>Official Website:</strong> <a href="https://airdroplyx.com">https://airdroplyx.com</a></li>
+      </ul>
+
+      <div class="not-prose pt-6 mt-8 border-t border-slate-200 dark:border-slate-700 flex flex-wrap gap-4 text-xs font-bold text-blue-600 dark:text-blue-400">
+        <a href="/fact-checking" class="hover:underline">→ Fact-Checking Methodology</a>
+        <a href="/disclaimer" class="hover:underline">→ Risk Disclaimer</a>
+        <a href="/privacy-policy" class="hover:underline">→ Privacy Policy</a>
+      </div>
+
+    </div>
+  </main>
+</Layout>

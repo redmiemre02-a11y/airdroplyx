@@ -1,0 +1,112 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Header from '../components/Header.astro';
+---
+
+<Layout 
+  title="Fact-Checking & On-Chain Verification Policy | Airdroplyx News" 
+  description="Learn about Airdroplyx News on-chain fact-checking process, smart contract verification standards, and cryptographic verification methodology."
+>
+  <Header />
+
+  <!-- Schema.org JSON-LD (Fact-Checking Policy) -->
+  <script type="application/ld+json" set:html={JSON.stringify({
+    "@context": "https://schema.org",
+    "@type": "AboutPage",
+    "name": "Airdroplyx Fact-Checking & On-Chain Verification Policy",
+    "description": "On-chain fact-checking methodology, smart contract verification, and data audit procedures.",
+    "url": "https://airdroplyx.com/fact-checking/",
+    "publisher": {
+      "@type": "NewsMediaOrganization",
+      "name": "Airdroplyx News",
+      "url": "https://airdroplyx.com",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://airdroplyx.com/logo.jpg"
+      }
+    }
+  })} />
+
+  <main class="max-w-[850px] mx-auto px-4 py-16">
+    <div class="bg-white dark:bg-slate-800 rounded-3xl p-8 md:p-12 border border-slate-200 dark:border-slate-700 shadow-sm prose prose-slate dark:prose-invert max-w-none">
+      
+      <div class="flex items-center gap-2 mb-4 not-prose">
+        <span class="bg-emerald-100 text-emerald-800 dark:bg-emerald-900/40 dark:text-emerald-300 text-xs font-black px-3 py-1 rounded-full uppercase tracking-wider">
+          Verification Standards
+        </span>
+        <span class="text-xs text-slate-400 font-medium">Updated: October 2026</span>
+      </div>
+
+      <h1 class="text-3xl md:text-5xl font-black text-slate-900 dark:text-white tracking-tight mb-4">
+        Fact-Checking &amp; Verification Policy
+      </h1>
+      
+      <p class="text-lg text-slate-600 dark:text-slate-300 leading-relaxed font-medium mb-8">
+        In the cryptocurrency and blockchain ecosystem, misinformation, fraudulent social media impersonations, and unverified rumors can lead to substantial financial losses. Airdroplyx News maintains an uncompromising, multi-tier on-chain verification workflow to ensure every data point, snapshot claim, and technical metric is accurate before publication.
+      </p>
+
+      <div class="p-6 rounded-2xl bg-emerald-50 dark:bg-slate-850/80 border border-emerald-200 dark:border-emerald-900/50 not-prose mb-10 shadow-sm">
+        <h3 class="text-sm font-black text-emerald-900 dark:text-emerald-300 uppercase tracking-wider mb-2">
+          "Don't Trust, Verify": The Blockchain Standard
+        </h3>
+        <p class="text-xs sm:text-sm text-slate-700 dark:text-slate-300 leading-relaxed font-normal">
+          We treat public statements and social media posts as hypotheses that must be empirically proven via blockchain telemetry, block explorer records, and cryptographically signed consensus data.
+        </p>
+      </div>
+
+      <h2>The 5-Stage Verification Workflow</h2>
+
+      <h3>Stage 1: Primary Source Identification</h3>
+      <p>
+        Every news report begins with authentic primary sources. We do not aggregate unverified Twitter/X rumors or anonymous Telegram channels. We rely exclusively on:
+      </p>
+      <ul>
+        <li>Official cryptographic announcements signed by protocol multisig addresses.</li>
+        <li>Published governance proposals on official forums (Commonwealth, Discourse, Snapshot).</li>
+        <li>Direct communications from verified protocol founders, lead architects, or foundation representatives.</li>
+      </ul>
+
+      <h3>Stage 2: Smart Contract &amp; On-Chain Verification</h3>
+      <p>
+        Before reporting on a token deployment, staking cap increase, or testnet launch, our technical analysts independently verify the underlying on-chain state:
+      </p>
+      <ul>
+        <li><strong>Contract Verification:</strong> We check that smart contract bytecode is verified and open-source on block explorers (such as Etherscan, Arbiscan, Basescan, Solscan).</li>
+        <li><strong>Multisig Audit:</strong> We inspect administrative keys, timelock controllers, and multisig threshold configurations to verify genuine protocol governance.</li>
+        <li><strong>Mempool Monitoring:</strong> In breaking news events (e.g. flash crashes or exploit alerts), we trace transaction hashes and malicious bytecode directly.</li>
+      </ul>
+
+      <h3>Stage 3: Cross-Referencing Independent Analytics</h3>
+      <p>
+        To prevent reporting manipulated metrics or inflated wash-trading figures, all Total Value Locked (TVL), volume, and user numbers are corroborated across multiple independent analytics platforms, including <strong>DefiLlama</strong>, <strong>Dune Analytics</strong>, <strong>Nansen</strong>, and <strong>Token Terminal</strong>.
+      </p>
+
+      <h3>Stage 4: Anti-Phishing &amp; Security Vetting</h3>
+      <p>
+        Crypto airdrops are prime targets for malicious phishing drainers. When linking to any testnet faucet, portal, or dApp:
+      </p>
+      <ul>
+        <li>Our security team verifies domain registration records, SSL certificates, and official DNS configurations.</li>
+        <li>We cross-reference links against blacklists maintained by Web3 security extensions (Rabby, Pocket Universe, Scam Sniffer).</li>
+        <li>We never link to unverified smart contracts that request unlimited token approvals without audit clearance.</li>
+      </ul>
+
+      <h3>Stage 5: Editorial Review &amp; Continuous Monitoring</h3>
+      <p>
+        Every article must receive sign-off from a Senior On-Chain Analyst prior to publication. Following publication, stories are actively monitored for snapshot changes, protocol updates, or community feedback.
+      </p>
+
+      <h2>How to Submit Fact-Checking Feedback</h2>
+      <p>
+        If you are a protocol developer or community member and believe a reported metric or technical detail requires updating or correction, please email our verification team directly at <a href="mailto:corrections@airdroplyx.com">corrections@airdroplyx.com</a> with supporting transaction hashes or GitHub commits.
+      </p>
+
+      <div class="not-prose pt-6 mt-8 border-t border-slate-200 dark:border-slate-700 flex flex-wrap gap-4 text-xs font-bold text-blue-600 dark:text-blue-400">
+        <a href="/editorial-policy" class="hover:underline">→ Editorial Policy &amp; Standards</a>
+        <a href="/disclaimer" class="hover:underline">→ Full Risk Disclaimer</a>
+        <a href="/news" class="hover:underline">→ Browse Verified News Hub</a>
+      </div>
+
+    </div>
+  </main>
+</Layout>
