@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <defs>
+    <linearGradient id="parclGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38BDF8"/>
+      <stop offset="100%" stop-color="#0284C7"/>
+    </linearGradient>
+  </defs>
+  <rect width="100" height="100" rx="24" fill="#061829"/>
+  <path d="M28 68 L28 42 L50 24 L72 42 L72 68 Z" fill="none" stroke="url(#parclGrad)" stroke-width="6" stroke-linejoin="round"/>
+  <rect x="42" y="48" width="16" height="20" fill="url(#parclGrad)"/>
+</svg>
