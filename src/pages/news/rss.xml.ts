@@ -1,12 +1,23 @@
 import { newsArticles } from '../../data/news';
 
 export async function GET() {
-  const items = newsArticles.map(n => {
+  // Sort with most recent articles first for Google News and RSS readers
+  const sortedNews = [...newsArticles].reverse();
+
+  const items = sortedNews.map(n => {
     const parsed = new Date(n.date);
     const pubDate = !isNaN(parsed.getTime()) ? parsed.toUTCString() : new Date().toUTCString();
     
     // Format paragraph content for RSS readers and Google News ingestion
-    const htmlContent = n.content.split('\n\n').map(p => `<p>${p}</p>`).join('');
+    const htmlContent = n.content
+      .split('\n\n')
+      .map(p => `<p>${p.trim()}</p>`)
+      .join('')
+      .replace(/]]>/g, ']]&gt;');
+
+    // Safely escape attribute strings
+    const safeImageUrl = n.image.replace(/&/g, '&amp;').replace(/"/g, '&quot;');
+    const safeCategory = n.category.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
 
     return `
     <item>
@@ -16,9 +27,9 @@ export async function GET() {
       <description><![CDATA[${n.excerpt}]]></description>
       <content:encoded><![CDATA[${htmlContent}]]></content:encoded>
       <dc:creator><![CDATA[${n.author}]]></dc:creator>
-      <category>${n.category}</category>
+      <category>${safeCategory}</category>
       <pubDate>${pubDate}</pubDate>
-      <media:content url="${n.image}" medium="image" width="1200" height="675">
+      <media:content url="${safeImageUrl}" medium="image" width="1200" height="675">
         <media:title><![CDATA[${n.title}]]></media:title>
       </media:content>
     </item>`;
