@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <defs>
+    <linearGradient id="tar-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#9945FF"/>
+      <stop offset="100%" stop-color="#14F195"/>
+    </linearGradient>
+  </defs>
+  <rect width="100" height="100" rx="24" fill="#18181B"/>
+  <!-- Tars AI Monolith Blocks -->
+  <rect x="26" y="24" width="12" height="52" rx="3" fill="#9945FF"/>
+  <rect x="44" y="24" width="12" height="52" rx="3" fill="url(#tar-grad)"/>
+  <rect x="62" y="24" width="12" height="52" rx="3" fill="#14F195"/>
+</svg>
