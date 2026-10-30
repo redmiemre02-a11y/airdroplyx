@@ -520,6 +520,17 @@ import Header from '../components/Header.astro';
 
       </div>
 
+      <!-- Sybil Diagnostic Disclaimer -->
+      <div class="mt-12 p-6 rounded-2xl bg-slate-50 dark:bg-slate-800/60 border border-slate-200 dark:border-slate-700/80">
+        <div class="flex items-start gap-3">
+          <span class="text-xl">🛡️</span>
+          <div class="text-xs text-slate-500 dark:text-slate-400 space-y-1 leading-relaxed">
+            <p><strong class="text-slate-700 dark:text-slate-300">Tool Disclaimer:</strong> The Sybil Risk Checker is an educational heuristic simulation designed to assess common on-chain clustering patterns based on historical airdrop criteria. It operates 100% client-side, does not store wallet information, and never requests private keys or funds.</p>
+            <p>A low risk score does not guarantee eligibility or token distribution from any protocol. Protocol foundations independently determine snapshot criteria and blacklists. Not financial or legal advice. <a href="/disclaimer" class="underline text-blue-600 dark:text-blue-400 font-medium">Read full Risk Disclaimer &rarr;</a></p>
+          </div>
+        </div>
+      </div>
+
     </div>
   </main>
 </Layout>
