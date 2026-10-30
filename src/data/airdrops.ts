@@ -36371,5 +36371,515 @@ export const airdrops: Airdrop[] = [
     },
     "isHot": false,
     "isFeatured": false
-  }
+  },
+  {
+  "id": "zkpass-protocol",
+  "name": "zkPass",
+  "logo": "/images/airdrops/zkpass-protocol.svg",
+  "description": "Private data verification protocol using 3P-TLS and zero-knowledge proofs, backed by Binance Labs and Sequoia China.",
+  "reward": "zkPass Credits & $ZKP Token Airdrop",
+  "category": "Zero Knowledge / Privacy",
+  "featured": true,
+  "status": "active",
+  "endTime": "2026-12-31T23:59:59Z",
+  "funding": "$15M",
+  "investors": "Binance Labs, Sequoia China, OKX Ventures, SIG, Leland Ventures",
+  "refLink": "https://zkpass.org",
+  "overview": "zkPass is the breakthrough private data attestation protocol bridging Web2 private credentials to Web3 blockchains without revealing sensitive personal information. Utilizing revolutionary three-party Transport Layer Security (3P-TLS) and hybrid Zero-Knowledge Proof (ZKP) technology via its TransGate browser extension, zkPass allows users to verify their legal identity, financial solvency, social credentials, or institutional status on-chain entirely privately.\n\nTraditional KYC solutions force users to upload physical passport scans and bank statements to centralized third-party servers, creating massive data honeypots prone to catastrophic hacks. zkPass completely eliminates this vulnerability: data remains strictly on the user's local client device, while a mathematically verifiable cryptographic proof is generated and verified on any EVM or non-EVM blockchain.\n\nWith over $15 million in venture backing led by Binance Labs, Sequoia China, and OKX Ventures, zkPass has launched its TransGate testnet campaign, allowing early users to mint verified attestations and accumulate zkPass Credits convertible into the native $ZKP governance token.",
+  "tokenomics": "The $ZKP token secures the decentralized verifier node network, governs data attestation schemas, and settles protocol verification gas across Layer 1 and Layer 2 rollups.",
+  "sybilSafety": "Real Web2 cryptographic attestation (e.g., verified GitHub contributions, Steam gamer levels, bank balance proofs) provides bulletproof sybil resistance against automated bot farms.",
+  "strategy": "1. Install the official zkPass TransGate Chrome extension.\n2. Connect your Web3 wallet to the zkPass verification dashboard.\n3. Complete diverse zero-knowledge attestations (legal age, Discord membership, GitHub developer status, Binance VIP level).\n4. Mint soulbound attestation passes across Ethereum, Arbitrum, and opBNB.\n5. Claim community roles in the official zkPass Discord to qualify for bonus allocation tiers.",
+  "steps": [
+    "Download the <a href=\"https://zkpass.org\" target=\"_blank\" rel=\"noopener noreferrer\">TransGate Browser Extension</a>.",
+    "Connect your EVM wallet and select a verification schema (GitHub, Binance, Twitter, or Bank).",
+    "Generate a client-side zero-knowledge proof without disclosing private keys or raw passwords.",
+    "Mint your verified zero-knowledge soulbound credential on-chain.",
+    "Track your verified attestations and credits on the zkPass Leaderboard."
+  ],
+  "faqs": [
+    {
+      "question": "Can zkPass see my private passwords or bank login credentials?",
+      "answer": "No. zkPass utilizes 3P-TLS cryptographic hardware isolation. All credential handshakes occur locally in your browser, and only the boolean validity proof (e.g., 'balance > $1000: True') is published on-chain."
+    }
+  ],
+  "tier": "Tier 1",
+  "isHot": true,
+  "isFeatured": true
+},
+  {
+  "id": "ritual-ai",
+  "name": "Ritual",
+  "logo": "/images/airdrops/ritual-ai.svg",
+  "description": "Sovereign AI execution layer bringing coprocessors and verifiable machine learning models directly on-chain, backed by $25M from Archetype and Polychain.",
+  "reward": "Early Node Incentives & $RITUAL Genesis Allocation",
+  "category": "AI / Decentralized Compute",
+  "featured": true,
+  "status": "active",
+  "endTime": "2026-12-31T23:59:59Z",
+  "funding": "$25M",
+  "investors": "Archetype, Polychain Capital, Robot Ventures, dao5, Accel",
+  "refLink": "https://ritual.net",
+  "overview": "Ritual is the premier sovereign execution layer for artificial intelligence, built to seamlessly integrate machine learning models, neural networks, and LLM inference directly into decentralized smart contracts. Backed by $25 million in Series A funding led by Archetype with participation from Polychain Capital and Robot Ventures, Ritual solves the fundamental computational limitation of blockchains: executing resource-heavy AI inference trustlessly on-chain.\n\nRitual's flagship architecture, **Infernet**, operates as an open, decentralized AI coprocessor network. Smart contracts on Ethereum, Base, Arbitrum, or Solana can call Infernet SDKs to trigger off-chain machine learning inferences, receive verifiable cryptographic proofs (zero-knowledge and optimistic proofs), and update on-chain state deterministically.\n\nDevelopers and node operators running Infernet nodes and providing computational resources to the Ritual network earn retroactive credits ahead of the genesis token launch.",
+  "tokenomics": "The native $RITUAL token coordinates economic security across compute nodes, pays for AI inference gas, and governs coprocessor scheduling parameters.",
+  "sybilSafety": "Hardware Docker requirements and cryptographic response signatures on testnet nodes filter out low-effort sybil scripts.",
+  "strategy": "1. Deploy an Infernet node on a Linux VPS or cloud server with Docker enabled.\n2. Configure your Web3 wallet address in the node configuration YAML.\n3. Fulfill sample inference requests for Hugging Face and Ollama models via smart contracts.\n4. Join the Ritual Discord and verify developer roles via GitHub.\n5. Participate in community testing challenges and hackathon tracks.",
+  "steps": [
+    "Access the official <a href=\"https://ritual.net\" target=\"_blank\" rel=\"noopener noreferrer\">Ritual Developer Portal</a>.",
+    "Clone the Infernet container repository and configure your RPC endpoints.",
+    "Run your Infernet node and execute testnet model inference calls.",
+    "Submit proof of node deployment in the Ritual Discord dev channel.",
+    "Track your verified uptime and completed inference jobs."
+  ],
+  "faqs": [
+    {
+      "question": "What hardware is required to run a Ritual Infernet node?",
+      "answer": "A basic VPS with 4 vCPUs, 8GB RAM, and 50GB SSD storage is sufficient to run the lightweight Infernet client for standard inference verification."
+    }
+  ],
+  "tier": "Tier 1",
+  "isHot": true,
+  "isFeatured": true
+},
+  {
+  "id": "hyperbolic-ai",
+  "name": "Hyperbolic",
+  "logo": "/images/airdrops/hyperbolic-ai.svg",
+  "description": "Open access decentralized AI cloud and GPU computing marketplace, backed by $7M from Polychain Capital and Lightspeed Faction.",
+  "reward": "Compute Points & $HYP Token Allocation",
+  "category": "AI / DePIN",
+  "featured": true,
+  "status": "active",
+  "endTime": "2026-12-31T23:59:59Z",
+  "funding": "$7M",
+  "investors": "Polychain Capital, Lightspeed Faction, Chapter One, LongHash Ventures",
+  "refLink": "https://hyperbolic.xyz",
+  "overview": "Hyperbolic is the decentralized open-access AI cloud uniting global graphics processing units (GPUs) into a unified, high-performance computing cluster. Supported by $7 million in seed funding led by Polychain Capital and Lightspeed Faction, Hyperbolic addresses the global artificial intelligence compute bottleneck by democratizing access to high-end enterprise hardware (including NVIDIA H100, A100, and RTX 4090 GPUs).\n\nThrough proprietary Proof of Sampling (PoSP) consensus, Hyperbolic mathematically verifies that decentralized GPU providers execute AI model training and LLM inference accurately without fraudulent computation. By cutting intermediate corporate overhead, Hyperbolic reduces AI computing costs by up to 75% compared to legacy cloud monopolies like AWS and Microsoft Azure.\n\nUsers can earn Hyperbolic Points by renting decentralized GPU compute, providing idle GPU hardware, or querying open-source AI models via the Hyperbolic Playground.",
+  "tokenomics": "The $HYP token settles decentralized GPU rental transactions, stakes provider collateral, and powers governance of the Hyperbolic Proof-of-Sampling consensus protocol.",
+  "sybilSafety": "Real hardware benchmarking, cryptographic PoSP challenges, and verified wallet activity eliminate bot manipulation.",
+  "strategy": "1. Visit the Hyperbolic AI platform and connect your Web3 wallet.\n2. Test AI inference in the Hyperbolic Playground (chat with Llama 3, DeepSeek, or Stable Diffusion).\n3. If you possess consumer or enterprise GPUs, onboard your machine to the Hyperbolic Worker network.\n4. API developers can generate API keys and route open-source AI model requests through Hyperbolic endpoints.\n5. Claim community roles and track your points on the Hyperbolic Dashboard.",
+  "steps": [
+    "Visit the <a href=\"https://hyperbolic.xyz\" target=\"_blank\" rel=\"noopener noreferrer\">Hyperbolic Platform</a> and connect your wallet.",
+    "Interact with open-source AI models in the Playground to earn daily active usage points.",
+    "Deploy an API key and execute developer inference calls.",
+    "Optional: Connect idle GPU hardware via the worker client to earn passive compute rewards.",
+    "Monitor your accumulated points on the official leaderboard."
+  ],
+  "faqs": [
+    {
+      "question": "Can I earn points without owning expensive GPUs?",
+      "answer": "Yes. Regular users can earn points by testing models in the Playground, inviting researchers, and participating in community feedback programs."
+    }
+  ],
+  "tier": "Tier 1",
+  "isHot": true,
+  "isFeatured": false
+},
+  {
+  "id": "kakarot-zk-evm",
+  "name": "Kakarot zkEVM",
+  "logo": "/images/airdrops/kakarot-zk-evm.svg",
+  "description": "Modular Zero-Knowledge EVM built entirely in Cairo on Starknet, backed by Vitalik Buterin, StarkWare, and Founderheads.",
+  "reward": "Testnet Karma & $KKRT Airdrop Tranche",
+  "category": "Layer 2 / zkEVM",
+  "featured": true,
+  "status": "active",
+  "endTime": "2026-12-31T23:59:59Z",
+  "funding": "$3.5M+",
+  "investors": "Vitalik Buterin, StarkWare, Founderheads, Nicolas Bacca (Ledger), Rand Hindi",
+  "refLink": "https://kakarot.org",
+  "overview": "Kakarot zkEVM is the revolutionary Ethereum Virtual Machine implementation built entirely in Cairo, the provable programming language powering Starknet. Supported by Ethereum co-founder Vitalik Buterin and StarkWare, Kakarot combines the universal developer ergonomics of Ethereum with the mathematical scalability of STARK zero-knowledge proofs.\n\nUnlike traditional zkEVM implementations that require massive custom prover circuits, Kakarot runs as a standard smart contract written in Cairo on Starknet. This elegant modular architecture means Kakarot automatically benefits from StarkWare's rapid compiler optimizations, prover breakthroughs, and ultra-cheap transaction settlement.\n\nWith the launch of the Kakarot Sepolia public testnet, users can deploy standard Solidity contracts, bridge testnet assets, and interact with native decentralized applications to accumulate early ecosystem Karma ahead of the token generation event.",
+  "tokenomics": "The $KKRT token decentralizes the Kakarot sequencer network, coordinates state proving across Starknet, and governs protocol fee rebates.",
+  "sybilSafety": "Multi-week on-chain transaction diversity and Gitcoin Passport integration filter out automated Sybil scripts.",
+  "strategy": "1. Add the Kakarot Sepolia network to your MetaMask wallet.\n2. Request testnet ETH from the official Kakarot faucet or bridge from Sepolia.\n3. Execute swaps and supply liquidity on native DEXs (such as Kakarot Swap).\n4. Mint official community testnet badges and commemorative NFTs.\n5. Deploy a simple Solidity smart contract via Remix to register verified developer activity.",
+  "steps": [
+    "Add Kakarot Sepolia RPC to your Web3 wallet via <a href=\"https://kakarot.org\" target=\"_blank\" rel=\"noopener noreferrer\">Kakarot Portal</a>.",
+    "Claim testnet funds from the faucet.",
+    "Bridge Sepolia ETH to Kakarot zkEVM via the official bridge.",
+    "Interact with ecosystem dApps to register unique transaction hashes.",
+    "Check your testnet activity on the Kakarot block explorer."
+  ],
+  "faqs": [
+    {
+      "question": "Can I use standard MetaMask with Kakarot?",
+      "answer": "Yes. Even though Kakarot compiles to Cairo underneath, it presents complete EVM compatibility, meaning standard Ethereum wallets like MetaMask and Rabby work natively."
+    }
+  ],
+  "tier": "Tier 1",
+  "isHot": true,
+  "isFeatured": false
+},
+  {
+  "id": "t3rn-network",
+  "name": "t3rn",
+  "logo": "/images/airdrops/t3rn-network.svg",
+  "description": "Modular multichain transaction protocol ensuring fail-safe, cross-chain atomic execution, backed by $6.5M from Polychain Capital.",
+  "reward": "BRN Rewards & $TRN Genesis Allocation",
+  "category": "Interoperability / Modular",
+  "featured": true,
+  "status": "active",
+  "endTime": "2026-12-31T23:59:59Z",
+  "funding": "$6.5M",
+  "investors": "Polychain Capital, Maven 11, Blockchange, Lemniscap, D1 Ventures",
+  "refLink": "https://t3rn.io",
+  "overview": "t3rn is the modular cross-chain transaction protocol engineered to bring absolute finality and cryptographic fail-safe guarantees to multi-blockchain execution. Backed by $6.5 million in strategic funding led by Polychain Capital with participation from Maven 11, t3rn solves the dangerous multi-hop failure vulnerability that plagues traditional cross-chain bridges and intents.\n\nThrough its revolutionary **Circuit** architecture, t3rn enables atomic cross-chain composability: if any step of a multi-chain execution fails or experiences slippage, the entire transaction reverts seamlessly, guaranteeing zero lost funds. Furthermore, t3rn introduces decentralized **Executors** who bid competitively to settle user transfers in seconds at the lowest possible gas cost.\n\nThe t3rn incentivized testnet rewards active bridge users, liquidity providers, and community members with BRN rewards that will translate directly into $TRN mainnet token allocations.",
+  "tokenomics": "The $TRN token secures the decentralized circuit validator network, provides collateral for cross-chain execution agents, and governs protocol fee routing.",
+  "sybilSafety": "Real cross-chain gas spending and tiered transaction volume criteria filter out sybil clusters.",
+  "strategy": "1. Access the t3rn testnet bridge portal and connect your EVM wallet.\n2. Execute cross-chain transfers between Arbitrum Sepolia, Base Sepolia, and OP Sepolia.\n3. Complete daily cross-chain bridging quests to earn compounding BRN points.\n4. Run a lightweight Executor node to automate cross-chain order settlements.\n5. Join the t3rn Discord and claim verified community roles.",
+  "steps": [
+    "Visit the <a href=\"https://t3rn.io\" target=\"_blank\" rel=\"noopener noreferrer\">t3rn Bridge Portal</a>.",
+    "Connect your Web3 wallet and select source and destination testnets.",
+    "Bridge assets across multiple supported chains to trigger circuit executions.",
+    "Track your accumulated BRN rewards on the official testnet leaderboard.",
+    "Participate in community verification tasks on Zealy and Galxe."
+  ],
+  "faqs": [
+    {
+      "question": "What happens if a cross-chain transfer gets stuck on t3rn?",
+      "answer": "t3rn's Circuit protocol enforces atomic revert guarantees: if an executor fails to finalize the transfer within the execution window, your funds are automatically unlocked on the origin chain."
+    }
+  ],
+  "tier": "Tier 1",
+  "isHot": true,
+  "isFeatured": false
+},
+  {
+  "id": "sovereign-sdk",
+  "name": "Sovereign SDK",
+  "logo": "/images/airdrops/sovereign-sdk.svg",
+  "description": "The premier framework for building seamlessly interoperable, zero-knowledge rollups on any blockchain, backed by $7.4M from Haun Ventures and Robot Ventures.",
+  "reward": "Developer Grants & Early Ecosystem Airdrop",
+  "category": "Infrastructure / ZK Rollups",
+  "featured": false,
+  "status": "active",
+  "endTime": "2026-12-31T23:59:59Z",
+  "funding": "$7.4M",
+  "investors": "Haun Ventures, Robot Ventures, Maven 11, 1kx, Plaintext Capital",
+  "refLink": "https://sovereign.xyz",
+  "overview": "Sovereign SDK is an open-source, modular framework designed to enable any developer to build sovereign zero-knowledge rollups that can deploy on any Layer 1 data availability layer (including Celestia, EigenDA, and Avail). Backed by $7.4 million in seed funding led by Haun Ventures with participation from Robot Ventures and 1kx, Sovereign brings the 'Cosmos SDK moment' to the zero-knowledge rollup ecosystem.\n\nHistorically, developing a ZK rollup required teams of specialized cryptographers to write complex constraint circuits from scratch. Sovereign SDK provides standard modular components—including state machines, cryptographic prover adapters (RISC Zero, SP1), and native bridging modules—allowing developers to write rollups in standard Rust without deep cryptography expertise.\n\nEarly ecosystem developers and testnet participants who deploy Sovereign rollups or interact with native pilot applications qualify for retroactive builder incentives and token rewards.",
+  "tokenomics": "The native governance token decentralizes zero-knowledge proof aggregation, coordinates cross-rollup soft confirmations, and manages shared security pools.",
+  "sybilSafety": "GitHub cryptographic commit verification and real testnet deployment signatures prevent sybil bot participation.",
+  "strategy": "1. Review the Sovereign SDK documentation and clone the official Rust repository.\n2. Spin up a local or Celestia-settled testnet rollup using the Sovereign CLI.\n3. Submit pull requests or report bugs in the official Sovereign GitHub repository.\n4. Test community applications deployed on Sovereign pilot rollups.\n5. Follow official announcement channels for public testnet campaign phases.",
+  "steps": [
+    "Explore the <a href=\"https://sovereign.xyz\" target=\"_blank\" rel=\"noopener noreferrer\">Sovereign SDK Documentation</a>.",
+    "Set up the Sovereign development environment in Rust.",
+    "Deploy a sample ZK rollup settled on Celestia Mocha testnet.",
+    "Join the Sovereign developer community on Discord and register your project.",
+    "Participate in ecosystem hackathons and bounty programs."
+  ],
+  "faqs": [
+    {
+      "question": "Can Sovereign rollups settle on different DA layers?",
+      "answer": "Yes. Sovereign is DA-agnostic, meaning a rollup can seamlessly switch or multi-home between Celestia, Avail, EigenDA, or Ethereum."
+    }
+  ],
+  "tier": "Tier 1",
+  "isHot": false,
+  "isFeatured": false
+},
+  {
+  "id": "goplus-security",
+  "name": "GoPlus Security",
+  "logo": "/images/airdrops/goplus-security.svg",
+  "description": "Open, permissionless Web3 user security network and data infrastructure, backed by $14M from Binance Labs and Redpoint.",
+  "reward": "SecWare Points & $GPS Token Airdrop",
+  "category": "Security / Data",
+  "featured": true,
+  "status": "active",
+  "endTime": "2026-12-31T23:59:59Z",
+  "funding": "$14M",
+  "investors": "Binance Labs, Redpoint China, KuCoin Ventures, Crypto.com Capital, HashKey",
+  "refLink": "https://gopluslabs.io",
+  "overview": "GoPlus Security is the open, decentralized user security network powering risk detection and phishing protection for over 10,000 decentralized applications and millions of Web3 users. Supported by $14 million in financing from Binance Labs, Redpoint China, and KuCoin Ventures, GoPlus processes over 20 million daily security API calls, scanning smart contracts, token approvals, phishing URLs, and wallet drainers in real time.\n\nGoPlus has introduced its modular **SecWare** consumer security framework, enabling retail users to attach decentralized security plugins directly to their Web3 wallets. These modules actively block malicious signatures, intercept honeypot tokens, and simulate transaction outputs before on-chain execution.\n\nUsers who activate SecWare protection, scan their wallets, and complete daily cybersecurity quests earn SecWare Points that convert directly into the upcoming $GPS governance token.",
+  "tokenomics": "The $GPS token incentivizes independent security researchers, governs security risk databases, and pays for enterprise SecWare API consumption.",
+  "sybilSafety": "Verified on-chain wallet age, holding thresholds, and binding to active EVM addresses prevent bot farming.",
+  "strategy": "1. Visit the GoPlus SecWare portal and connect your Web3 wallet.\n2. Perform a comprehensive security audit of your token approvals and revoke high-risk allowances.\n3. Activate SecWare security modules for real-time transaction shielding.\n4. Complete daily security check-ins and cybersecurity educational quizzes.\n5. Refer friends to secure their Web3 wallets and boost your points multiplier.",
+  "steps": [
+    "Access the official <a href=\"https://gopluslabs.io\" target=\"_blank\" rel=\"noopener noreferrer\">GoPlus SecWare Dashboard</a>.",
+    "Connect your EVM wallet and run a complimentary risk scan.",
+    "Revoke dangerous approvals using the integrated Revoke tool.",
+    "Complete daily tasks in the Energy Block rewards center.",
+    "Monitor your SecWare points rank on the global leaderboard."
+  ],
+  "faqs": [
+    {
+      "question": "Is GoPlus SecWare free to use?",
+      "answer": "Yes. Individual wallet scans, approval revoking, and basic SecWare modules are completely free for all community members."
+    }
+  ],
+  "tier": "Tier 1",
+  "isHot": true,
+  "isFeatured": false
+},
+  {
+  "id": "satlayer-btc",
+  "name": "SatLayer",
+  "logo": "/images/airdrops/satlayer-btc.svg",
+  "description": "Bitcoin-secured restaking execution layer built on Babylon, backed by $8M from Hack VC, Castle Island, and Franklin Templeton.",
+  "reward": "SatLayer Points & $SAT Airdrop Tranche",
+  "category": "Bitcoin / Liquid Restaking",
+  "featured": true,
+  "status": "active",
+  "endTime": "2026-12-31T23:59:59Z",
+  "funding": "$8M",
+  "investors": "Hack VC, Castle Island Ventures, Franklin Templeton, OKX Ventures, Mirana",
+  "refLink": "https://satlayer.xyz",
+  "overview": "SatLayer is the universal Bitcoin restaking platform transforming Bitcoin into a foundational security layer for all decentralized applications, oracles, and sidechains. Backed by $8 million in venture funding led by Hack VC and Castle Island Ventures with participation from Franklin Templeton, SatLayer builds directly upon the Babylon native Bitcoin staking protocol.\n\nWhile Babylon provides base-layer time-lock staking on the Bitcoin network, SatLayer deploys **Bitcoin Actively Validated Services (B-AVSs)**—enabling rollups, bridges, and middleware to lease Bitcoin's $1.3 trillion economic security with custom slashing conditions and optimized yield curves. Users can deposit diverse wrapped and liquid Bitcoin tokens (including LBTC, SolvBTC, WBTC, and cbBTC) into SatLayer vaults to capture compounded restaking yields.\n\nEarly depositors in SatLayer vaults earn retroactive SatLayer Points ahead of the $SAT token generation event.",
+  "tokenomics": "The $SAT token coordinates validator delegations across B-AVSs, dictates protocol fee distributions, and governs slashing parameters.",
+  "sybilSafety": "Real Bitcoin deposits and continuous multi-week asset lockups eliminate automated bot farms.",
+  "strategy": "1. Navigate to the SatLayer deposit dApp.\n2. Connect your Web3 wallet on Ethereum, Arbitrum, or Base.\n3. Deposit supported Bitcoin assets (e.g., WBTC, LBTC, eBTC, or cbBTC) into SatLayer B-AVS vaults.\n4. Maintain your active deposit across successive Babylon staking epochs to maximize points velocity.\n5. Participate in partner campaigns and track your rank on the SatLayer leaderboard.",
+  "steps": [
+    "Visit the <a href=\"https://satlayer.xyz\" target=\"_blank\" rel=\"noopener noreferrer\">SatLayer Vaults Portal</a>.",
+    "Connect your EVM wallet with Bitcoin asset balances.",
+    "Select an active B-AVS vault and approve your deposit transaction.",
+    "Earn dual yields from Babylon consensus and SatLayer points.",
+    "Track your accumulated points on the official dashboard."
+  ],
+  "faqs": [
+    {
+      "question": "Can I withdraw my Bitcoin from SatLayer at any time?",
+      "answer": "Yes. SatLayer maintains flexible unstaking windows, though standard Babylon unbonding cooldown periods (typically 7-10 days) apply to ensure economic security."
+    }
+  ],
+  "tier": "Tier 1",
+  "isHot": true,
+  "isFeatured": true
+},
+  {
+  "id": "lagrange-zk",
+  "name": "Lagrange",
+  "logo": "/images/airdrops/lagrange-zk.svg",
+  "description": "Zero-Knowledge Coprocessor and State Committee network for big-data on-chain computations, backed by $13.2M from Founders Fund and Archetype.",
+  "reward": "Early Contributor Points & $LAG Genesis Airdrop",
+  "category": "Zero Knowledge / Coprocessors",
+  "featured": true,
+  "status": "active",
+  "endTime": "2026-12-31T23:59:59Z",
+  "funding": "$13.2M",
+  "investors": "Founders Fund, Archetype, 1kx, Maven 11, Fenbushi Capital",
+  "refLink": "https://lagrange.dev",
+  "overview": "Lagrange is the groundbreaking Zero-Knowledge Coprocessor network that enables decentralized applications to execute complex, big-data computations over historical blockchain data at negligible cost. Backed by $13.2 million in seed funding led by Peter Thiel's Founders Fund with participation from Archetype and 1kx, Lagrange solves one of smart contracts' most severe bottlenecks: analyzing massive datasets on-chain.\n\nThrough its revolutionary **ZK Big Data** engine, Lagrange can run SQL-like database queries (e.g., calculating 30-day volume-weighted average prices, user credit scores, or complex liquidity distributions) off-chain, generate a succinct zero-knowledge proof, and verify the result in a single Ethereum transaction.\n\nLagrange also powers **ZK State Committees**—decentralized networks of restaked operators that generate verifiable proofs of state across Ethereum Layer 2 rollups, enabling trustless cross-chain interoperability.",
+  "tokenomics": "The $LAG token coordinates the decentralized prover network, settles query verification fees, and secures restaked state committee delegations.",
+  "sybilSafety": "Prover node hardware requirements, cryptographic challenge responses, and verified developer integrations eliminate sybil abuse.",
+  "strategy": "1. Explore the Lagrange developer documentation and SDK tutorials.\n2. Deploy a smart contract querying the Lagrange ZK Coprocessor for historical on-chain metrics.\n3. Participate in the Lagrange testnet prover network if you possess enterprise compute hardware.\n4. Join the Lagrange Discord, participate in technical discussions, and claim community roles.\n5. Interact with partner DeFi applications integrated with Lagrange coprocessors.",
+  "steps": [
+    "Access the <a href=\"https://lagrange.dev\" target=\"_blank\" rel=\"noopener noreferrer\">Lagrange Developer Hub</a>.",
+    "Explore live coprocessor query demonstrations on Ethereum Sepolia.",
+    "Execute sample ZK-proven SQL queries via the Lagrange SDK.",
+    "Register your developer address in official community channels.",
+    "Track your verified activity across Lagrange partner integrations."
+  ],
+  "faqs": [
+    {
+      "question": "What is a ZK Coprocessor?",
+      "answer": "A ZK Coprocessor acts like a graphics card (GPU) for smart contracts: it handles massive, expensive data calculations off-chain and returns a mathematically verified cryptographic proof to the blockchain."
+    }
+  ],
+  "tier": "Tier 1",
+  "isHot": true,
+  "isFeatured": false
+},
+  {
+  "id": "allora-network-ai",
+  "name": "Allora Network",
+  "logo": "/images/airdrops/allora-network-ai.svg",
+  "description": "Self-improving decentralized AI network combining peer prediction and contextual machine learning, backed by $35M from Polychain and Framework.",
+  "reward": "Allora Points & $ALLO Token Airdrop",
+  "category": "AI / Machine Learning",
+  "featured": true,
+  "status": "active",
+  "endTime": "2026-12-31T23:59:59Z",
+  "funding": "$35M",
+  "investors": "Polychain Capital, Framework Ventures, CoinFund, Blockchain Capital, Delphi Digital",
+  "refLink": "https://allora.network",
+  "overview": "Allora Network is the self-improving decentralized artificial intelligence network engineered to coordinate and evaluate machine learning models collaboratively. Supported by $35 million in funding from prominent venture capital firms including Polychain Capital, Framework Ventures, and CoinFund, Allora builds a decentralized intelligence layer capable of outperforming any single centralized AI model.\n\nThrough its novel **Context-Aware Peer Prediction** mechanism, Allora dynamically weights model outputs based on historical accuracy in specific contextual environments. When predicting cryptocurrency price volatility, DeFi liquidation risks, or macro market shifts, the network evaluates which independent models possess the highest situational expertise, aggregating their outputs into a superior meta-model.\n\nCommunity members can run worker nodes supplying machine learning predictions, evaluate model performance as reputers, or interact with Allora-powered decentralized applications to accumulate points ahead of the mainnet launch.",
+  "tokenomics": "The $ALLO token coordinates economic staking for worker and reputer nodes, pays for inference access, and governs peer-prediction loss functions.",
+  "sybilSafety": "Real computational model submission requirements, cryptographic scoring accuracy, and worker staking deter sybil farms.",
+  "strategy": "1. Create an Allora wallet via the official testnet dashboard.\n2. Request testnet tokens from the Allora faucet.\n3. Deploy a lightweight ML worker node predicting crypto price feeds (BTC, ETH, SOL).\n4. Delegate stake to top-performing reputers and worker clusters.\n5. Participate in community campaigns on Galxe and Discord to secure early adopter status.",
+  "steps": [
+    "Set up your Allora Web3 identity on the <a href=\"https://allora.network\" target=\"_blank\" rel=\"noopener noreferrer\">Allora Portal</a>.",
+    "Claim testnet tokens from the official faucet.",
+    "Deploy or delegate to active Topic Worker nodes.",
+    "Complete community quests and verified Discord developer roles.",
+    "Track your Allora points and prediction leaderboard standing."
+  ],
+  "faqs": [
+    {
+      "question": "Do I need to be a data scientist to participate in Allora?",
+      "answer": "No. Non-technical users can participate by delegating stake to high-performing model workers, participating in testnet campaigns, and using Allora-integrated dApps."
+    }
+  ],
+  "tier": "Tier 1",
+  "isHot": true,
+  "isFeatured": true
+},
+  {
+  "id": "huma-finance-payfi",
+  "name": "Huma Finance",
+  "logo": "/images/airdrops/huma-finance-payfi.svg",
+  "description": "The premier PayFi (Payment Financing) network for global credit card receivables and cross-border settlement, backed by $38M from Distributed Global and HashKey.",
+  "reward": "Huma Feathers & $HUMA Token Airdrop",
+  "category": "RWA / PayFi",
+  "featured": true,
+  "status": "active",
+  "endTime": "2026-12-31T23:59:59Z",
+  "funding": "$38M",
+  "investors": "Distributed Global, HashKey Capital, Stellar Development Foundation, ParaFi",
+  "refLink": "https://huma.finance",
+  "overview": "Huma Finance is the foundational protocol powering **PayFi (Payment Finance)**—the convergence of real-world payment settlement with decentralized liquidity. Backed by $38 million in venture funding led by Distributed Global with participation from HashKey Capital and the Stellar Development Foundation, Huma has processed over $2 billion in real-world payment financing volume with zero credit defaults.\n\nTraditional global payment networks (credit cards, remittance rails, cross-border corporate transfers) suffer from multi-day settlement delays (T+2 or T+3), trapping hundreds of billions of dollars in transit. Huma provides instant on-chain liquidity against predictable receivables—such as credit card receivables, trade invoices, and remittance flows—delivering sustainable, real-world yields (10% to 15% APY) to DeFi depositors.\n\nUsers who deposit USDC into Huma lending pools on Solana, Polygon, and Celo earn high real-world yields while accumulating 'Feathers' points toward the $HUMA token airdrop.",
+  "tokenomics": "The $HUMA token manages protocol credit underwriting parameters, coordinates junior/senior tranche loss-absorption pools, and governs network fee distributions.",
+  "sybilSafety": "Real USDC capital deposits, institutional KYC for borrowers, and multi-month deposit retention prevent sybil farming.",
+  "strategy": "1. Visit the Huma Finance dApp and connect your Web3 wallet.\n2. Deposit USDC into high-yield PayFi pools (such as Arf credit card receivables).\n3. Earn continuous, real-world APY backed by verified corporate payment flows.\n4. Compound your yields to maximize daily Feathers point velocity.\n5. Participate in community campaigns on Discord to secure priority allocation tiers.",
+  "steps": [
+    "Access the <a href=\"https://huma.finance\" target=\"_blank\" rel=\"noopener noreferrer\">Huma Finance dApp</a>.",
+    "Connect your wallet on Solana or Polygon.",
+    "Deposit USDC into the verified Classic PayFi liquidity pool.",
+    "Accrue high-yield interest and compounding Feathers points daily.",
+    "Check your ranking on the official Huma Feathers Leaderboard."
+  ],
+  "faqs": [
+    {
+      "question": "Where does Huma Finance yield come from?",
+      "answer": "Yield is generated entirely by real-world payment businesses paying interest on working capital loans to settle cross-border remittances and merchant card transactions instantly."
+    }
+  ],
+  "tier": "Tier 1",
+  "isHot": true,
+  "isFeatured": false
+},
+  {
+  "id": "lumia-network-l2",
+  "name": "Lumia",
+  "logo": "/images/airdrops/lumia-network-l2.svg",
+  "description": "The first Restake Rollup hyper-liquid Layer 2 network uniting capital across CeFi and DeFi, backed by $25M from DWF Labs and Jump Crypto.",
+  "reward": "Lumia Points & $LUMIA Mainnet Rewards",
+  "category": "Layer 2 / Restaking",
+  "featured": false,
+  "status": "active",
+  "endTime": "2026-12-31T23:59:59Z",
+  "funding": "$25M",
+  "investors": "DWF Labs, Jump Crypto, Cypher Capital, Optic Capital",
+  "refLink": "https://lumia.org",
+  "overview": "Lumia is the world's first **Restake Rollup** Layer 2 network, engineered to deliver unparalleled deep liquidity across decentralized finance by bridging dormant capital from centralized exchanges directly onto a high-performance EVM rollup. Supported by $25 million in backing from major market makers including DWF Labs and Jump Crypto, Lumia operates as a custom Polygon CDK rollup utilizing Avail for modular data availability.\n\nThrough its proprietary Lumia Stream liquidity engine, Lumia aggregates multi-chain liquidity from centralized orderbooks (Binance, OKX) and top decentralized automated market makers, allowing users and protocols to execute institutional-size trades with virtually zero price slippage.\n\nEarly participants who run Lumia HyperNodes, bridge assets to the Lumia testnet, and provide liquidity in early pools earn lucrative retroactive rewards ahead of the mainnet launch.",
+  "tokenomics": "The $LUMIA token serves as the native gas asset of the Lumia L2 rollup, provides restaked node collateral, and coordinates governance decisions.",
+  "sybilSafety": "Real asset bridging, HyperNode license staking, and verified on-chain trading metrics deter sybil manipulation.",
+  "strategy": "1. Add Lumia testnet RPC to your Web3 wallet.\n2. Request testnet tokens from the official faucet.\n3. Bridge assets between Ethereum Sepolia and Lumia L2.\n4. Execute swaps and provide liquidity on Lumia Stream DEXs.\n5. Node operators can acquire and delegate to HyperNodes to capture elevated network rewards.",
+  "steps": [
+    "Connect your wallet to the <a href=\"https://lumia.org\" target=\"_blank\" rel=\"noopener noreferrer\">Lumia Network Portal</a>.",
+    "Claim testnet gas tokens from the faucet.",
+    "Bridge testnet assets across the official Lumia bridge.",
+    "Interact with native pilot dApps to build on-chain transaction history.",
+    "Verify your community status in the Lumia Discord."
+  ],
+  "faqs": [
+    {
+      "question": "What makes Lumia different from standard Layer 2s?",
+      "answer": "Lumia integrates direct CeFi orderbook liquidity into its L2 AMM pools via Lumia Stream, allowing decentralized traders to tap into centralized exchange liquidity depths."
+    }
+  ],
+  "tier": "Tier 1",
+  "isHot": false,
+  "isFeatured": false
+},
+  {
+  "id": "open-ledger-ai",
+  "name": "Open Ledger",
+  "logo": "/images/airdrops/open-ledger-ai.svg",
+  "description": "Data-centric blockchain built specifically for verifiable AI models, data provenance, and dataset monetization, backed by $8M from Polychain.",
+  "reward": "Early Node Karma & $OPEN Genesis Airdrop",
+  "category": "AI / Blockchain",
+  "featured": false,
+  "status": "active",
+  "endTime": "2026-12-31T23:59:59Z",
+  "funding": "$8M",
+  "investors": "Polychain Capital, Borderless Capital, HashKey Capital, Finality Capital",
+  "refLink": "https://openledger.xyz",
+  "overview": "Open Ledger is the data-centric blockchain built from the ground up to solve the critical data bottleneck in artificial intelligence. Backed by $8 million in venture funding led by Polychain Capital and Borderless Capital, Open Ledger establishes transparent, immutable data provenance, allowing model developers, enterprise researchers, and individual contributors to track, monetize, and verify training data.\n\nAs AI models advance, identifying high-quality, uncontaminated training datasets has become an urgent challenge. Open Ledger turns datasets into liquid, verifiable on-chain assets. When machine learning models generate revenue or execute inferences, data contributors automatically receive programmatic royalties through autonomous smart contracts.\n\nEarly node operators running data validation clients and community members participating in early testnet data labeling accumulate Karma points toward the upcoming $OPEN token distribution.",
+  "tokenomics": "The $OPEN token pays for data retrieval gas, coordinates data validator staking, and distributes royalty payouts to verified data contributors.",
+  "sybilSafety": "Cryptographic dataset verification and real computing node telemetry prevent automated sybil bot exploitation.",
+  "strategy": "1. Connect your Web3 wallet to the Open Ledger dashboard.\n2. Complete verified dataset labeling and human feedback tasks.\n3. Set up and run an Open Ledger data validator node on a VPS.\n4. Participate in community campaigns on Discord and Twitter.\n5. Track your verified Karma points on the official leaderboard.",
+  "steps": [
+    "Access the <a href=\"https://openledger.xyz\" target=\"_blank\" rel=\"noopener noreferrer\">Open Ledger Platform</a>.",
+    "Connect your EVM wallet and complete your contributor profile.",
+    "Participate in early data verification and testnet challenges.",
+    "Deploy a lightweight validator node following official GitHub guidelines.",
+    "Check your ranking and earned Karma on the community dashboard."
+  ],
+  "faqs": [
+    {
+      "question": "How does Open Ledger prevent AI dataset poisoning?",
+      "answer": "Open Ledger utilizes multi-party cryptographic data attestations and peer-review consensus mechanisms to filter out malicious or synthetic junk data before inclusion in training sets."
+    }
+  ],
+  "tier": "Tier 1",
+  "isHot": false,
+  "isFeatured": false
+},
+  {
+  "id": "tea-protocol-oss",
+  "name": "tea Protocol",
+  "logo": "/images/airdrops/tea-protocol-oss.svg",
+  "description": "Decentralized open-source software reward protocol created by Max Howell (creator of Homebrew), backed by $16.9M from Binance Labs.",
+  "reward": "tea Testnet Points & $TEA Token Airdrop",
+  "category": "Open Source / Web3",
+  "featured": false,
+  "status": "active",
+  "endTime": "2026-12-31T23:59:59Z",
+  "funding": "$16.9M",
+  "investors": "Binance Labs, Acord Capital, Woodstock, Bixin Ventures",
+  "refLink": "https://tea.xyz",
+  "overview": "tea Protocol is the decentralized protocol revolutionizing the economics of open-source software, founded by Max Howell, the legendary creator of Homebrew (the package manager used by tens of millions of developers worldwide). Backed by $16.9 million in venture capital led by Binance Labs, tea bridges open-source software directly to blockchain incentives.\n\nHistorically, open-source developers have built the critical digital infrastructure that powers the global internet, tech giants, and blockchain networks without receiving fair financial compensation. tea solves this tragedy of the commons by introducing **Proof of Contribution**: an algorithmic ranking that measures how many downstream applications depend on a given open-source package.\n\nDevelopers who claim their software packages on tea and community members who stake tokens on high-impact projects earn continuous rewards in the native $TEA ecosystem.",
+  "tokenomics": "The $TEA token coordinates package staking, rewards verified open-source maintainers, and governs vulnerability disclosure protocols.",
+  "sybilSafety": "GitHub authentication, package ownership verification, and commit history audits prevent fake repository farming.",
+  "strategy": "1. Sign up on the tea platform using your active GitHub account.\n2. If you maintain open-source repositories, claim your projects by adding a tea configuration file.\n3. Complete daily developer quests and software vulnerability challenges.\n4. Stake testnet tea points on foundational open-source libraries to earn staking yields.\n5. Invite fellow developers and rank on the global contribution leaderboard.",
+  "steps": [
+    "Register at <a href=\"https://tea.xyz\" target=\"_blank\" rel=\"noopener noreferrer\">tea.xyz</a> using your GitHub profile.",
+    "Claim and verify ownership of your open-source software packages.",
+    "Stake testnet points on prominent ecosystem dependencies.",
+    "Complete community quests in the tea rewards center.",
+    "Track your accumulated points on the tea leaderboard."
+  ],
+  "faqs": [
+    {
+      "question": "Can non-developers participate in tea Protocol?",
+      "answer": "Yes. Non-developers can participate by staking testnet points on high-impact open-source packages, supporting open-source software, and earning staking yields."
+    }
+  ],
+  "tier": "Tier 1",
+  "isHot": false,
+  "isFeatured": false
+},
+  {
+  "id": "solayer-sol-restaking",
+  "name": "Solayer",
+  "logo": "/images/airdrops/solayer-sol-restaking.svg",
+  "description": "Sovereign SV-SVM restaking network on Solana securing high-speed application execution, backed by $12M from Polychain Capital and Hack VC.",
+  "reward": "Solayer Points & $LAYER Token Airdrop",
+  "category": "Solana / Restaking",
+  "featured": true,
+  "status": "active",
+  "endTime": "2026-12-31T23:59:59Z",
+  "funding": "$12M",
+  "investors": "Polychain Capital, Hack VC, Nomad Capital, Race Capital, Big Brain Holdings",
+  "refLink": "https://solayer.org",
+  "overview": "Solayer is the pioneering liquid restaking protocol built natively on the Solana blockchain, backed by $12 million in funding led by Polychain Capital with participation from Hack VC and prominent Solana ecosystem leaders. Solayer unlocks unprecedented network utility for staked SOL by channeling economic security into application-specific transaction execution.\n\nWhile Ethereum restaking focuses on middleware and oracles, Solayer introduces **Shared Validator SVM (SV-SVM)** architecture: Solana decentralized applications can reserve dedicated blockspace and transaction execution priority by delegating restaked SOL. This guarantees that high-priority dApps—such as high-frequency DEXs and liquidations—maintain sub-second finality even during periods of extreme Solana network congestion.\n\nUsers deposit native SOL or Solana liquid staking tokens (including mSOL, bSOL, and JitoSOL) to mint **sSOL**, earning base Solana staking yields plus protocol restaking points ahead of the genesis token launch.",
+  "tokenomics": "The $LAYER token manages endogenous AVS consensus parameters, allocates network transaction bandwidth, and governs protocol fee rebates.",
+  "sybilSafety": "Real SOL capital deposits and continuous on-chain balance snapshots filter out sybil address clusters.",
+  "strategy": "1. Navigate to the Solayer deposit portal and connect your Phantom or Solflare wallet.\n2. Deposit native SOL, JitoSOL, mSOL, or bSOL to mint sSOL.\n3. Hold sSOL to automatically accumulate daily restaking points.\n4. Deploy sSOL into integrated Solana DeFi vaults (Kamino, Orca) for boosted yield.\n5. Monitor seasonal snapshot periods and verify your standing on the Solayer dashboard.",
+  "steps": [
+    "Access the official <a href=\"https://solayer.org\" target=\"_blank\" rel=\"noopener noreferrer\">Solayer Platform</a>.",
+    "Connect your Solana wallet (Phantom, Solflare, or Backpack).",
+    "Deposit SOL or supported LSTs into the prime restaking vault.",
+    "Receive sSOL and earn base staking yields plus Solayer points.",
+    "Track your multiplier rank on the official leaderboard."
+  ],
+  "faqs": [
+    {
+      "question": "Is restaking on Solana safe from slashing?",
+      "answer": "Currently, Solana base consensus does not enforce automated slashing. Solayer applies application-level economic security through decentralized validator consensus without risking underlying base SOL principal."
+    }
+  ],
+  "tier": "Tier 1",
+  "isHot": true,
+  "isFeatured": true
+}
 ];
