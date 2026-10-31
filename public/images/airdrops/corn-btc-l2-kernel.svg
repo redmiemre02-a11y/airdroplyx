@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <defs>
+    <linearGradient id="cornGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#EAB308"/>
+      <stop offset="100%" stop-color="#CA8A04"/>
+    </linearGradient>
+  </defs>
+  <rect width="100" height="100" rx="24" fill="#141106"/>
+  <path d="M50 20 C62 30 72 45 68 64 C64 78 50 82 50 82 C50 82 36 78 32 64 C28 45 38 30 50 20 Z" fill="url(#cornGrad)"/>
+  <path d="M44 38 C47 38 49 42 47 46 C45 50 41 50 40 46 C39 42 41 38 44 38 Z" fill="#FEF08A"/>
+  <path d="M56 46 C59 46 61 50 59 54 C57 58 53 58 52 54 C51 50 53 46 56 46 Z" fill="#FEF08A"/>
+  <path d="M46 56 C49 56 51 60 49 64 C47 68 43 68 42 64 C41 60 43 56 46 56 Z" fill="#FEF08A"/>
+</svg>

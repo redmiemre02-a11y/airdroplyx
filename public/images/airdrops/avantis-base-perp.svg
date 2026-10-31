@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <defs>
+    <linearGradient id="avantisGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0052FF"/>
+      <stop offset="100%" stop-color="#00D2FF"/>
+    </linearGradient>
+  </defs>
+  <rect width="100" height="100" rx="24" fill="#050B14"/>
+  <path d="M50 20 L78 75 L62 75 L50 48 L38 75 L22 75 Z" fill="url(#avantisGrad)"/>
+  <polygon points="50,32 66,66 34,66" fill="#050B14" opacity="0.8"/>
+  <circle cx="50" cy="54" r="6" fill="#00D2FF"/>
+</svg>
