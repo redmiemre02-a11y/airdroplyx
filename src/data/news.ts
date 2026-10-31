@@ -1380,7 +1380,6 @@ export const newsArticles: NewsArticle[] = [
       "Governance",
       "CIP-1694"
     ],
-    "relatedAirdropId": "cardano-foundation",
     "content": "Cardano has successfully executed the Chang Hard Fork, marking the dawn of the Voltaire era—the final developmental phase of its ambitious multi-year roadmap. With this milestone, Cardano transitions from centralized development governance into a fully sovereign, self-sustaining decentralized state governed entirely by its global community.\n\nGoverned under the framework established by CIP-1694, the new decentralized structure introduces three distinct legislative bodies: Delegated Representatives (DReps), Constitutional Committee members, and Stake Pool Operators (SPOs). ADA holders can now delegate their voting power to certified DReps or vote directly on protocol governance actions, parameter updates, and treasury disbursements.\n\nThe multi-billion ADA community treasury, previously managed by IOG and the Cardano Foundation, is now directly unlockable only through on-chain cryptographic voting. This historic upgrade positions Cardano as one of the largest decentralized autonomous governments in blockchain history, providing a battle-tested model for sovereign protocol decentralization."
   },
   {
@@ -1399,7 +1398,6 @@ export const newsArticles: NewsArticle[] = [
       "Substrate",
       "Polkadot 2.0"
     ],
-    "relatedAirdropId": "polkadot-network",
     "content": "The Web3 Foundation and Parity Technologies have officially deployed Agile Coretime to the Polkadot Relay Chain mainnet, completing the long-awaited phase one of the Polkadot 2.0 transformation. This release completely dismantles the historical 2-year parachain slot auction mechanism in favor of a flexible, fluid blockspace market.\n\nUnder the new paradigm, execution capacity across the Polkadot supercomputer is represented as discrete \"coretime\". Projects can purchase Bulk Coretime in recurring 28-day billing cycles or utilize Instantaneous On-Demand Coretime for intermittent computation. Furthermore, unutilized coretime can be secondary-marketed as non-fungible tokens or split across multiple smaller applications, driving resource efficiency to unprecedented levels.\n\nThis architectural shift drastically reduces operational barriers for early-stage decentralized applications while positioning Polkadot as an enterprise-grade cloud compute marketplace. Community developers, rollups, and zero-knowledge verification layers can now deploy sovereign execution logic without locking millions of dollars in crowdloan collateral."
   },
   {
@@ -1418,7 +1416,6 @@ export const newsArticles: NewsArticle[] = [
       "Subnets",
       "AWM"
     ],
-    "relatedAirdropId": "avalanche-network",
     "content": "Ava Labs has rolled out Teleporter across the Avalanche mainnet ecosystem, delivering native cross-subnet communication powered by Avalanche Warp Messaging (AWM). Teleporter provides an EVM-compatible messaging layer that allows smart contracts on any Avalanche Subnet (L1) to seamlessly interact with contracts on the primary C-Chain or peer subnets without custodial third-party bridges.\n\nTraditional cross-chain bridges represent the most heavily exploited attack vectors in crypto history. Teleporter bypasses multi-sig vulnerabilities by leveraging the Avalanche validator set itself. Subnet validators cryptographically sign Warp messages directly within their consensus routine, providing mathematical finality and instant cross-chain composability.\n\nWith Teleporter active, decentralized finance protocols, institutional real-world asset (RWA) chains, and GameFi subnets can instantly share liquidity, execute remote atomic swaps, and call cross-subnet contracts. This advancement solidifies Avalanche's vision of an interconnected web of specialized enterprise and public blockchains sharing sovereign security."
   },
   {
