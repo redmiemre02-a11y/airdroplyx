@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <defs>
+    <linearGradient id="synGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#10B981"/>
+      <stop offset="100%" stop-color="#06B6D4"/>
+    </linearGradient>
+  </defs>
+  <rect width="100" height="100" rx="24" fill="#051210"/>
+  <circle cx="50" cy="38" r="12" fill="url(#synGrad)"/>
+  <path d="M28 72 C28 60 38 52 50 52 C62 52 72 60 72 72 Z" fill="url(#synGrad)" opacity="0.8"/>
+  <circle cx="50" cy="38" r="5" fill="#A7F3D0"/>
+</svg>
