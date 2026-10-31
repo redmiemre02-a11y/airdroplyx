@@ -39042,5 +39042,575 @@ export const airdrops: Airdrop[] = [
   "tier": "Tier 1",
   "isHot": false,
   "isFeatured": false
+},
+  {
+  "id": "blast-gold-incentives",
+  "name": "Blast Gold Season 2",
+  "logo": "/images/airdrops/blast-gold-incentives.svg",
+  "description": "The official developer and user reward campaign on Blast L2, distributing tens of millions in Blast Gold and native yield, backed by Paradigm and Standard Crypto.",
+  "reward": "Blast Gold, Native Staking Yield & $BLAST Tokens",
+  "category": "Layer 2 / Yield & Incentives",
+  "featured": true,
+  "status": "active",
+  "endTime": "Q4 2026",
+  "funding": "$20.0M+",
+  "investors": "Paradigm, Standard Crypto, eGirl Capital, Hasu, Andrew Kang",
+  "refLink": "https://blast.io",
+  "overview": "Blast is the only Ethereum Layer 2 with native yield for ETH and stablecoins. Blast Gold is distributed bi-weekly to top ecosystem decentralized applications to reward active liquidity providers, derivatives traders, and on-chain protocol users.",
+  "tokenomics": "The $BLAST token governs the Layer 2 network, directing sequencer fee revenues, native rebasing mechanics, and ecosystem grant disbursements.",
+  "sybilSafety": "Blast Gold distribution is mediated by verified smart contract dApps with stringent TVL and organic volume thresholds.",
+  "strategy": "Deposit ETH and USDB into verified Blast Gold dApps (such as Thruster, Juice Finance, and Ambient), farm decentralized yield vaults, and claim Gold distributions.",
+  "steps": [
+    "Bridge ETH or stablecoins to Blast network via the official Blast Bridge.",
+    "Receive automated 4% native yield on ETH and 5% native yield on USDB.",
+    "Deploy capital into top Blast Gold recipient protocols (Thruster, Hyperlock, Particle).",
+    "Participate in weekly community competitions on Blast ecosystem dashboards.",
+    "Claim and compound your earned Blast Gold ahead of seasonal token distribution snapshots."
+  ],
+  "faqs": [
+    {
+      "question": "What is Blast Gold?",
+      "answer": "Blast Gold is an exclusive developer incentive distributed to dApps to reward organic on-chain activity, carrying significantly higher weight than regular Blast Points."
+    },
+    {
+      "question": "How is native yield generated?",
+      "answer": "ETH yield is generated through Ethereum L1 staking (Lido), while USDB yield is derived from MakerDAO's tokenized T-Bill protocol."
+    }
+  ],
+  "tier": "Tier 1",
+  "isHot": true,
+  "isFeatured": true
+},
+  {
+  "id": "dinari-dshares-rwa",
+  "name": "Dinari Securities",
+  "logo": "/images/airdrops/dinari-dshares-rwa.svg",
+  "description": "The SEC-registered transfer agent bringing 1:1 backed tokenized US public equities (dShares) on-chain with dividend rights, backed by $10M from Spearhead and 500 Global.",
+  "reward": "Dinari Tier Points, Equity Dividends & $DINARI Governance",
+  "category": "RWA / Tokenized Equities",
+  "featured": true,
+  "status": "active",
+  "endTime": "Q4 2026",
+  "funding": "$10.0M",
+  "investors": "Spearhead, 500 Global, Balaji Srinivasan, Sancus Ventures, Version One",
+  "refLink": "https://dinari.com",
+  "overview": "Dinari is bridging traditional capital markets and Web3 through its dShares platform. Users across global jurisdictions can purchase tokenized shares of Apple, Tesla, Nvidia, and MicroStrategy on Arbitrum and Ethereum, backed 1:1 by physical shares held in regulated brokerage custody.",
+  "tokenomics": "The planned $DINARI token coordinates decentralized transfer agent governance, fee discount staking, and cross-chain settlement voting.",
+  "sybilSafety": "Dinari requires regulatory compliance through streamlined KYC/AML verification, preventing automated multi-wallet sybil abuse.",
+  "strategy": "Pass basic KYC on Dinari, mint or trade dShares equities using USDC on Arbitrum, hold stock positions to collect on-chain dividends, and earn Dinari Tier Points.",
+  "steps": [
+    "Access the Dinari dShares trading portal at dinari.com.",
+    "Complete instant decentralized identity or KYC verification.",
+    "Deposit USDC on Arbitrum to purchase tokenized US equities (dAAPL, dTSLA, dNVDA).",
+    "Hold dShares in your non-custodial wallet to automatically receive dividend distributions in USDC.",
+    "Track your accumulated points on the Dinari Rewards leaderboard."
+  ],
+  "faqs": [
+    {
+      "question": "Are dShares fully backed?",
+      "answer": "Yes, every dShare token is backed 1:1 by real stock held in an SEC-registered institutional custodian in the United States."
+    },
+    {
+      "question": "Do dShares pay dividends?",
+      "answer": "Yes, corporate cash dividends are automatically paid out to token holders in USDC directly on-chain."
+    }
+  ],
+  "tier": "Tier 1",
+  "isHot": true,
+  "isFeatured": true
+},
+  {
+  "id": "valantis-modular-amm",
+  "name": "Valantis Labs",
+  "logo": "/images/airdrops/valantis-modular-amm.svg",
+  "description": "The modular DEX framework allowing developers to build custom AMMs with sovereign pricing logic and Loss-Versus-Rebalancing (LVR) protection, backed by $7.5M from Cyber Fund and Kraken.",
+  "reward": "Valantis XP, Liquidity Rebates & Protocol Governance",
+  "category": "DeFi / Modular AMM",
+  "featured": true,
+  "status": "active",
+  "endTime": "Q4 2026",
+  "funding": "$7.5M",
+  "investors": "Cyber Fund, Kraken Ventures, Robot Ventures, Figment Capital, Monoceros",
+  "refLink": "https://valantis.xyz",
+  "overview": "Valantis is a revolutionary modular DEX architecture. By decoupling liquidity custody from pricing logic and fee algorithms, Valantis allows developers to deploy specialized AMMs—such as dynamic fee pools and MEV-resistant order routing—without rebuilding liquidity infrastructure from scratch.",
+  "tokenomics": "The governance token will direct protocol fee switches, modular pool whitelisting, and liquidity bootstrapping incentives.",
+  "sybilSafety": "Points require authentic on-chain liquidity depth and active trading volume, filtering out micro-transaction wash scripts.",
+  "strategy": "Trade on Valantis-powered modular DEXs, supply liquidity to dynamic fee pools (HOT AMM), and participate in community testnet campaigns.",
+  "steps": [
+    "Connect your Web3 wallet to the Valantis portal at valantis.xyz.",
+    "Explore active modular pools operating on Arbitrum and Ethereum.",
+    "Provide liquidity in MEV-protected pools like the Valantis HOT AMM.",
+    "Execute decentralized swaps with reduced price impact and slippage.",
+    "Track your cumulative Valantis XP on the ecosystem dashboard."
+  ],
+  "faqs": [
+    {
+      "question": "What is Loss-Versus-Rebalancing (LVR)?",
+      "answer": "LVR is the systemic impermanent cost that liquidity providers lose to latency arbitrageurs. Valantis modules structurally eliminate LVR through dynamic fee curves."
+    },
+    {
+      "question": "Can developers deploy custom AMMs?",
+      "answer": "Yes, Valantis allows anyone to write custom pricing modules in Solidity while plugging into shared liquidity vaults."
+    }
+  ],
+  "tier": "Tier 1",
+  "isHot": true,
+  "isFeatured": true
+},
+  {
+  "id": "fluence-serverless-cloud",
+  "name": "Fluence Network",
+  "logo": "/images/airdrops/fluence-serverless-cloud.svg",
+  "description": "The decentralized, serverless computing platform offering an open-source alternative to AWS Lambda, backed by $9M from Multicoin Capital and 1kx.",
+  "reward": "Fluence Compute Credits, Staking Yield & $FLT Token",
+  "category": "DePIN / Decentralized Cloud",
+  "featured": true,
+  "status": "active",
+  "endTime": "Q4 2026",
+  "funding": "$9.0M",
+  "investors": "Multicoin Capital, 1kx, Tiger Global, Inception Capital, Blockchange",
+  "refLink": "https://fluence.network",
+  "overview": "Fluence is a decentralized serverless computing platform powered by the Aqua programming language. By aggregating global independent data center capacity, Fluence allows developers to build and deploy off-chain applications, AI inference models, and Web3 backends at up to 80% lower cost than centralized cloud providers.",
+  "tokenomics": "The $FLT token is used for computational capacity staking, node hardware collateralization, and cloud service payment settlements.",
+  "sybilSafety": "Compute providers must stake $FLT tokens and maintain cryptographic Proof-of-Capacity uptime benchmarks.",
+  "strategy": "Stake $FLT tokens to support decentralized compute providers, deploy serverless functions using Aqua, and participate in ecosystem cloud governance.",
+  "steps": [
+    "Visit the Fluence cloud portal at fluence.network.",
+    "Connect your wallet to access the Fluence Compute Marketplace.",
+    "Deploy an Aqua serverless script or decentralized backend container.",
+    "Stake $FLT tokens to earn computational yield and network delegation rewards.",
+    "Monitor your node uptime and compute points on the network explorer."
+  ],
+  "faqs": [
+    {
+      "question": "What is Aqua?",
+      "answer": "Aqua is a peer-to-peer programming language created by Fluence that coordinates distributed serverless workflows across heterogeneous nodes."
+    },
+    {
+      "question": "How does Fluence compare to AWS?",
+      "answer": "Fluence is non-custodial, permissionless, and up to 80% cheaper than Amazon Web Services, eliminating single points of corporate failure."
+    }
+  ],
+  "tier": "Tier 1",
+  "isHot": true,
+  "isFeatured": true
+},
+  {
+  "id": "spacemesh-post-mining",
+  "name": "Spacemesh",
+  "logo": "/images/airdrops/spacemesh-post-mining.svg",
+  "description": "The fair-launch Proof-of-Space-Time (PoST) layer 1 blockchain designed for home computer hard-drive storage mining, backed by $23M from Polychain Capital and Paradigm.",
+  "reward": "SMESH Coin Mining, Storage Yield & Genesis Allocation",
+  "category": "Layer 1 / Proof of Space-Time",
+  "featured": true,
+  "status": "active",
+  "endTime": "Q4 2026",
+  "funding": "$23.0M",
+  "investors": "Polychain Capital, Paradigm, Bain Capital Crypto, 1kx, Electric Capital",
+  "refLink": "https://spacemesh.io",
+  "overview": "Spacemesh is a decentralized Layer 1 consensus protocol powered by Proof-of-Space-Time. Unlike energy-intensive Bitcoin Proof-of-Work, Spacemesh uses spare computer hard drive storage to secure the network, allowing individual home miners to participate in decentralized consensus without specialized ASIC hardware.",
+  "tokenomics": "$SMESH is mined organically through hard-drive capacity allocation, featuring zero pre-mine for retail miners and a linear multi-year halving schedule.",
+  "sybilSafety": "Mining rewards require committed storage proofs (PoST) that take days to initialize on physical SSD/HDD hardware, completely eliminating sybil attacks.",
+  "strategy": "Download the official Smapp application, initialize at least 256GB of storage space on your hard drive, run a local node, and accumulate continuous $SMESH rewards.",
+  "steps": [
+    "Download and install the official Spacemesh Smapp from spacemesh.io.",
+    "Configure your hardware storage allocation (minimum 256GB SSD/HDD).",
+    "Complete the initialization process to generate cryptographic PoST data.",
+    "Keep your Spacemesh node running continuously across active consensus epochs.",
+    "Receive automated $SMESH coin rewards directly into your non-custodial wallet."
+  ],
+  "faqs": [
+    {
+      "question": "Can I mine Spacemesh on a regular PC?",
+      "answer": "Yes, Spacemesh was specifically engineered to run efficiently on ordinary home desktop computers and laptops with free hard drive space."
+    },
+    {
+      "question": "Does Spacemesh consume a lot of electricity?",
+      "answer": "No. After the initial storage setup, running a node consumes negligible electricity comparable to leaving a regular computer idle."
+    }
+  ],
+  "tier": "Tier 1",
+  "isHot": true,
+  "isFeatured": true
+},
+  {
+  "id": "zenith-cross-margin-perp",
+  "name": "Zenith Exchange",
+  "logo": "/images/airdrops/zenith-cross-margin-perp.svg",
+  "description": "The next-generation cross-margin perpetuals and derivatives exchange built for high-speed Layer 2 rollups, featuring sub-cent gas fees and deep orderbook liquidity.",
+  "reward": "Zenith Trading Points, Fee Rebates & $ZENITH Token",
+  "category": "DeFi / Perp DEX",
+  "featured": false,
+  "status": "active",
+  "endTime": "Q1 2027",
+  "funding": "$2.5M+",
+  "investors": "Metis Ecosystem Fund, Pre-Seed DeFi Angels, Alpha Ventures",
+  "refLink": "https://zenith.exchange",
+  "overview": "Zenith is an advanced on-chain derivatives protocol offering up to 50x leverage on major cryptocurrencies and emerging altcoins. Operating on high-throughput EVM rollups, Zenith utilizes a shared multi-asset collateral engine that maximizes capital efficiency while safeguarding solvency via automated keeper liquidations.",
+  "tokenomics": "The $ZENITH governance token distributes 50% of protocol sequencer fees to stakers and provides tiered trading fee discounts.",
+  "sybilSafety": "Trading volume is verified on-chain with wash-trading exclusion filters and minimum open interest holding periods.",
+  "strategy": "Trade perpetual contracts with leverage, deposit USDC into the Zenith Liquidity Pool (ZLP), and climb the seasonal trading leaderboard.",
+  "steps": [
+    "Connect your Web3 wallet to the Zenith trading interface at zenith.exchange.",
+    "Deposit USDC or ETH into your cross-margin collateral vault.",
+    "Execute leveraged long or short trades across BTC, ETH, and layer 2 tokens.",
+    "Provide liquidity to the ZLP vault to earn counterparty yield and trading fees.",
+    "Track your accumulated Zenith Points updated every 24 hours."
+  ],
+  "faqs": [
+    {
+      "question": "What is the ZLP pool?",
+      "answer": "ZLP acts as the unified liquidity counterparty to traders, collecting dynamic protocol fees and liquidations while paying out real yields in USDC."
+    },
+    {
+      "question": "What leverage is available?",
+      "answer": "Traders can access up to 50x leverage across major crypto trading pairs."
+    }
+  ],
+  "tier": "Tier 1",
+  "isHot": false,
+  "isFeatured": false
+},
+  {
+  "id": "mitosis-liquidity-vaults",
+  "name": "Mitosis",
+  "logo": "/images/airdrops/mitosis-liquidity-vaults.svg",
+  "description": "The modular liquidity protocol democratizing cross-chain asset management through programmable liquidity components (miAssets), backed by $7M from Amber Group and Foresight.",
+  "reward": "Mitosis Expedition Badges, Morse Marks & $MITO Token",
+  "category": "DeFi / Modular Liquidity",
+  "featured": true,
+  "status": "active",
+  "endTime": "Q4 2026",
+  "funding": "$7.0M",
+  "investors": "Amber Group, Foresight Ventures, Big Brain Holdings, GSR Markets",
+  "refLink": "https://mitosis.org",
+  "overview": "Mitosis transforms cross-chain liquidity into programmable, yield-bearing assets called miAssets. By depositing assets into Mitosis vaults, users earn multi-chain DeFi yields while their capital simultaneously provides modular liquidity across rollups and execution chains.",
+  "tokenomics": "The $MITO token coordinates cross-chain liquidity allocation proposals, validator consensus, and protocol fee buybacks.",
+  "sybilSafety": "Expedition badges and Morse Marks require verified capital deposits and time-weighted liquidity locks in audited vaults.",
+  "strategy": "Deposit weETH or ETH into Mitosis Expedition vaults on Ethereum, Arbitrum, or Blast, collect Morse Marks, and refer community participants.",
+  "steps": [
+    "Access the Mitosis Expedition portal at app.mitosis.org.",
+    "Connect your EVM wallet and select your preferred network.",
+    "Deposit eligible assets (eETH, weETH, or USDC) into active Expedition vaults.",
+    "Receive 1:1 wrapped miAssets that represent your yield-bearing claim.",
+    "Monitor your accumulated Morse Marks and milestone badges on the dashboard."
+  ],
+  "faqs": [
+    {
+      "question": "What are miAssets?",
+      "answer": "miAssets are 1:1 backed liquid tokens that represent your deposited collateral, allowing you to participate in secondary DeFi while earning Mitosis rewards."
+    },
+    {
+      "question": "What are Morse Marks?",
+      "answer": "Morse Marks are seasonal reward points that determine allocations in the upcoming $MITO genesis distribution."
+    }
+  ],
+  "tier": "Tier 1",
+  "isHot": true,
+  "isFeatured": true
+},
+  {
+  "id": "hyperbeat-auto-compounder",
+  "name": "HyperBeat",
+  "logo": "/images/airdrops/hyperbeat-auto-compounder.svg",
+  "description": "The high-yield automated yield compounder native to Base and Blast, maximizing DeFi returns with optimized autocompounding vaults and zero deposit fees.",
+  "reward": "Beat Points, Auto-Compounded APY & $BEAT Governance",
+  "category": "DeFi / Yield Aggregator",
+  "featured": false,
+  "status": "active",
+  "endTime": "Q1 2027",
+  "funding": "$1.5M+",
+  "investors": "Base Ecosystem Angels, Blast Community Syndicate",
+  "refLink": "https://hyperbeat.fi",
+  "overview": "HyperBeat optimizes liquidity farming returns on Base and Blast by automatically harvesting and reinvesting protocol rewards into underlying liquidity positions multiple times daily. By minimizing gas overhead and maximizing compound interest, HyperBeat boosts annual percentage yields for retail and institutional liquidity providers.",
+  "tokenomics": "The $BEAT token governs performance fee distribution, vault strategy whitelisting, and revenue share staking.",
+  "sybilSafety": "Point accrual requires verifiable LP tokens deposited into smart contract vaults with minimum duration requirements.",
+  "strategy": "Deposit LP tokens from Aerodrome or Thruster into HyperBeat auto-compounding vaults, earn higher effective APY, and accumulate Beat Points.",
+  "steps": [
+    "Navigate to hyperbeat.fi and connect your Web3 wallet on Base or Blast.",
+    "Select an active yield vault matching your LP tokens (e.g., AERO/USDC or USDB/ETH).",
+    "Deposit your liquidity tokens into the auto-compounding vault.",
+    "Watch your LP balance grow automatically without manual harvesting or gas payments.",
+    "Track your accumulated Beat Points on the rewards leaderboard."
+  ],
+  "faqs": [
+    {
+      "question": "How does auto-compounding work?",
+      "answer": "HyperBeat smart contracts batch-harvest reward tokens, swap them for underlying pair assets, and re-deposit them into the pool, maximizing compound returns."
+    },
+    {
+      "question": "Are there withdrawal fees?",
+      "answer": "HyperBeat vaults feature zero deposit or withdrawal fees, applying only a modest performance fee on realized profits."
+    }
+  ],
+  "tier": "Tier 1",
+  "isHot": false,
+  "isFeatured": false
+},
+  {
+  "id": "vanar-chain-ai-gaming",
+  "name": "Vanar Chain",
+  "logo": "/images/airdrops/vanar-chain-ai-gaming.svg",
+  "description": "The carbon-neutral, ultra-fast Layer 1 blockchain specifically engineered for gaming, entertainment, and AI applications, partnered with NVIDIA Inception.",
+  "reward": "Vanar Genesis Points, Testnet Incentives & $VANRY Staking",
+  "category": "Layer 1 / AI & Gaming",
+  "featured": true,
+  "status": "active",
+  "endTime": "Q4 2026",
+  "funding": "$10.0M+",
+  "investors": "NVIDIA Inception Partner, Animoca Brands, Google Cloud Partner",
+  "refLink": "https://vanarchain.com",
+  "overview": "Vanar Chain is a high-performance Layer 1 blockchain built for mainstream entertainment, IP licensing, and decentralized gaming. Featuring sub-second transaction speeds, micro-cent predictable gas fees, and a carbon-neutral footprint, Vanar provides the infrastructure required to onboard billions of gaming consumers.",
+  "tokenomics": "The $VANRY native utility and gas token powers staking security, transaction settlements, and entertainment licensing fees.",
+  "sybilSafety": "Community quests require verified gaming achievements and developer testnet interaction credentials.",
+  "strategy": "Connect your wallet to Vanar Vanguard testnet, bridge testnet assets, interact with ecosystem games, and stake $VANRY on mainnet.",
+  "steps": [
+    "Add the Vanar Chain network to your Web3 wallet using official RPC details.",
+    "Acquire testnet tokens from the Vanar Vanguard faucet.",
+    "Interact with native gaming and AI applications deployed on the Vanar ecosystem.",
+    "Stake $VANRY tokens on the official staking portal to earn network validation yield.",
+    "Participate in community campaigns to earn exclusive ecosystem badges."
+  ],
+  "faqs": [
+    {
+      "question": "How does Vanar achieve carbon neutrality?",
+      "answer": "Vanar utilizes eco-friendly Proof-of-Stake consensus and partners with environmental organizations to offset operational carbon emissions."
+    },
+    {
+      "question": "What is NVIDIA Inception's role?",
+      "answer": "Vanar collaborates with NVIDIA Inception to integrate cutting-edge AI rendering and procedural generation directly with blockchain gaming."
+    }
+  ],
+  "tier": "Tier 1",
+  "isHot": true,
+  "isFeatured": true
+},
+  {
+  "id": "gasp-cross-chain-dex",
+  "name": "Gasp Network",
+  "logo": "/images/airdrops/gasp-cross-chain-dex.svg",
+  "description": "The native cross-rollup decentralized exchange securing fast cross-chain swaps without wrapped tokens, backed by $10.6M from Polychain and EigenLayer restaking.",
+  "reward": "Gasp Points, Zero-Gas Swaps & $GASP Governance",
+  "category": "Interoperability / Cross-Rollup DEX",
+  "featured": true,
+  "status": "active",
+  "endTime": "Q4 2026",
+  "funding": "$10.6M",
+  "investors": "Polychain Capital, CMS Holdings, Master Ventures, Cluster Capital",
+  "refLink": "https://gasp.xyz",
+  "overview": "Gasp (formerly Mangata) is a cross-rollup protocol that enables native cross-chain token swaps between Ethereum, Arbitrum, Optimism, and Base without requiring wrapped assets. Secured by EigenLayer restaked ETH, Gasp provides decentralized escape hatches and MEV-resistant trading.",
+  "tokenomics": "The $GASP token aligns sequencer operators, coordinates restaking reward distributions, and governs protocol fee switches.",
+  "sybilSafety": "Testnet and mainnet participation requires verifiable on-chain swap orders and liquidity deposits, filtering out automated bot addresses.",
+  "strategy": "Join the Gasp testnet, execute native cross-chain swaps between Ethereum and rollups, and earn Gasp Points on the official dashboard.",
+  "steps": [
+    "Access the Gasp trading portal at app.gasp.xyz.",
+    "Connect your EVM wallet and request testnet assets from the faucet.",
+    "Execute native cross-rollup swaps across connected networks without bridging wrapped tokens.",
+    "Provide liquidity to native cross-chain pools to earn trading fees.",
+    "Monitor your accumulated Gasp Points on the official leaderboard."
+  ],
+  "faqs": [
+    {
+      "question": "Why does Gasp not use wrapped tokens?",
+      "answer": "Gasp uses native state proofs and decentralized settlement escrows, allowing users to receive native tokens directly on their destination chain."
+    },
+    {
+      "question": "How is Gasp secured?",
+      "answer": "Gasp leases cryptoeconomic security directly from Ethereum stakers via EigenLayer restaking."
+    }
+  ],
+  "tier": "Tier 1",
+  "isHot": true,
+  "isFeatured": true
+},
+  {
+  "id": "vultisig-mpc-vault",
+  "name": "Vultisig",
+  "logo": "/images/airdrops/vultisig-mpc-vault.svg",
+  "description": "The open-source, multi-device Multi-Party Computation (MPC) vault platform supporting 30+ chains with no seed phrases, backed by THORChain and Nine Realms.",
+  "reward": "VultiPoints, Fee Discounts & $VULT Staking",
+  "category": "Security / Multi-Chain MPC",
+  "featured": false,
+  "status": "active",
+  "endTime": "Q4 2026",
+  "funding": "$5.0M+",
+  "investors": "THORChain Ecosystem, Nine Realms, ShapeShift DAO Angels",
+  "refLink": "https://vultisig.com",
+  "overview": "Vultisig is an institutional-grade, non-custodial multi-chain wallet that replaces seed phrases with threshold Multi-Party Computation (MPC). By splitting cryptographic keys across multiple personal devices (phone, laptop, tablet), Vultisig guarantees that no single device can compromise user assets across Bitcoin, EVM, Solana, and Cosmos.",
+  "tokenomics": "The $VULT token provides vault fee discounts, powers cross-chain swap routing, and earns protocol revenue shares.",
+  "sybilSafety": "Vault creation requires multi-device cryptographic key share generation, preventing automated multi-account scripting.",
+  "strategy": "Download the Vultisig app on two or more devices, create a secure 2-of-2 or 2-of-3 vault, store assets across multiple blockchains, and execute decentralized swaps.",
+  "steps": [
+    "Download Vultisig on your desktop and mobile device from vultisig.com.",
+    "Pair your devices via secure QR code to generate threshold MPC key shares.",
+    "Deposit Bitcoin, ETH, or Solana into your sovereign multi-device vault.",
+    "Execute decentralized in-app cross-chain swaps powered by THORChain.",
+    "Track your active vault security score and accumulated VultiPoints."
+  ],
+  "faqs": [
+    {
+      "question": "Is there a seed phrase in Vultisig?",
+      "answer": "No. Vultisig uses mathematical key shares distributed across your devices, eliminating seed phrase phishing and physical theft vulnerabilities."
+    },
+    {
+      "question": "Which chains does Vultisig support?",
+      "answer": "Vultisig supports over 30 chains including Bitcoin, Ethereum, Solana, THORChain, Cosmos, Arbitrum, and Base."
+    }
+  ],
+  "tier": "Tier 1",
+  "isHot": false,
+  "isFeatured": false
+},
+  {
+  "id": "hyperlend-hyperliquid-lending",
+  "name": "HyperLend",
+  "logo": "/images/airdrops/hyperlend-hyperliquid-lending.svg",
+  "description": "The premier decentralized money market and lending protocol native to Hyperliquid Layer 1, offering native lending yields and cross-margined liquidity.",
+  "reward": "HyperLend Points, Lending Yield & Genesis Token",
+  "category": "DeFi / Hyperliquid Money Market",
+  "featured": true,
+  "status": "active",
+  "endTime": "Q4 2026",
+  "funding": "$3.0M+",
+  "investors": "Hyperliquid Ecosystem Angels, Pre-Seed DeFi Funds",
+  "refLink": "https://hyperlend.finance",
+  "overview": "HyperLend is building the decentralized liquidity and lending foundation for the Hyperliquid L1 blockchain. By enabling users to supply PURR, USDC, and other Hyperliquid native assets to borrow collateral, HyperLend unlocks multi-layered capital efficiency for on-chain traders.",
+  "tokenomics": "The planned governance token will direct interest rate model parameters, reserve factor allocations, and protocol revenue distributions.",
+  "sybilSafety": "Point accrual requires verified capital deposits into smart contract liquidity pools, eliminating empty sybil address creation.",
+  "strategy": "Deposit USDC and Hyperliquid ecosystem tokens into HyperLend pools, borrow against your positions to boost capital efficiency, and earn HyperLend Points.",
+  "steps": [
+    "Connect your Web3 wallet to the HyperLend app on Hyperliquid L1.",
+    "Deposit USDC or supported tokens into the primary money market.",
+    "Borrow against your deposited collateral to maintain active debt utilization.",
+    "Monitor your health factor to ensure safety during market fluctuations.",
+    "Track your accumulated points on the official HyperLend rewards dashboard."
+  ],
+  "faqs": [
+    {
+      "question": "What is Hyperliquid L1?",
+      "answer": "Hyperliquid is a custom-built high-performance Layer 1 blockchain achieving sub-second finality specifically optimized for decentralized financial markets."
+    },
+    {
+      "question": "Can I borrow against PURR tokens?",
+      "answer": "Yes, HyperLend supports native Hyperliquid assets including PURR and USDC as eligible loan collateral."
+    }
+  ],
+  "tier": "Tier 1",
+  "isHot": true,
+  "isFeatured": true
+},
+  {
+  "id": "superposition-stylus-l3",
+  "name": "Superposition",
+  "logo": "/images/airdrops/superposition-stylus-l3.svg",
+  "description": "The yield-bearing Layer 3 consumer blockchain built on Arbitrum Stylus, paying users and developers for executing on-chain activity via Long-Tail AMM mechanics.",
+  "reward": "Superposition Utility Points & Ecosystem Token",
+  "category": "Layer 3 / Arbitrum Stylus",
+  "featured": false,
+  "status": "active",
+  "endTime": "Q1 2027",
+  "funding": "$3.0M+",
+  "investors": "Arbitrum Ecosystem Angels, Superposition Foundation",
+  "refLink": "https://superposition.so",
+  "overview": "Superposition is an application-specific Layer 3 rollup built on Arbitrum and powered by Arbitrum Stylus (Rust/C++). Superposition introduces 'Utility Mining', an innovative economic model that automatically pays users native yield for providing liquidity and placing decentralized orders on-chain.",
+  "tokenomics": "The native token coordinates sequencer operations, governs utility mining emission rates, and subsidizes cross-chain transactions.",
+  "sybilSafety": "Utility mining rewards require verifiable execution of on-chain trading and liquidity commitments, filtering out zero-cost bots.",
+  "strategy": "Bridge testnet funds to Superposition, trade on the native Long-Tail AMM, and accumulate utility points by testing Stylus smart contracts.",
+  "steps": [
+    "Add Superposition testnet to your Web3 wallet via superposition.so.",
+    "Bridge testnet ETH from Arbitrum Sepolia to Superposition.",
+    "Swap tokens and provide liquidity on the native Long-Tail AMM.",
+    "Deploy or interact with Rust-based Stylus smart contracts.",
+    "Check your utility rewards on the Superposition explorer."
+  ],
+  "faqs": [
+    {
+      "question": "What is Arbitrum Stylus?",
+      "answer": "Arbitrum Stylus allows developers to write ultra-fast, gas-efficient smart contracts in programming languages like Rust and C++ alongside Solidity."
+    },
+    {
+      "question": "What is Utility Mining?",
+      "answer": "Utility Mining provides programmatic cash back and yield to users every time they execute a transaction on Superposition."
+    }
+  ],
+  "tier": "Tier 1",
+  "isHot": false,
+  "isFeatured": false
+},
+  {
+  "id": "karrat-protocol-gaming",
+  "name": "Karrat Protocol",
+  "logo": "/images/airdrops/karrat-protocol-gaming.svg",
+  "description": "The decentralized gaming and entertainment infrastructure protocol powering next-gen AAA games like My Pet Hooligan, backed by Animoca Brands and AMGI Studios.",
+  "reward": "Karrat Staking Rewards, Game Items & $KARRAT Token",
+  "category": "Gaming / Web3 Entertainment",
+  "featured": false,
+  "status": "active",
+  "endTime": "Q4 2026",
+  "funding": "$15.0M+",
+  "investors": "Animoca Brands, AMGI Studios, Bitkraft Ventures, Yield Guild Games",
+  "refLink": "https://karratcoin.com",
+  "overview": "Karrat Protocol is a decentralized gaming ecosystem designed to power interactive entertainment and AI animation. Anchored by the flagship game My Pet Hooligan, Karrat provides decentralized identity, asset ownership, and governance for digital entertainment IP.",
+  "tokenomics": "The $KARRAT governance and utility token is used to license IP assets, stake for game reward multipliers, and vote in the Karrat Foundation DAO.",
+  "sybilSafety": "Staking and game item rewards require verified Epic Games and Steam player accounts and on-chain token locks.",
+  "strategy": "Stake $KARRAT tokens on Ethereum or Base, connect your gaming account to My Pet Hooligan, and complete seasonal in-game challenges.",
+  "steps": [
+    "Access the Karrat portal at karratcoin.com and connect your Web3 wallet.",
+    "Stake $KARRAT tokens to unlock player tier rewards and governance voting power.",
+    "Link your Web3 wallet to your My Pet Hooligan player profile on the Epic Games Store.",
+    "Participate in weekly gaming tournaments and community animation events.",
+    "Claim seasonal gaming rewards and digital collectibles."
+  ],
+  "faqs": [
+    {
+      "question": "What is My Pet Hooligan?",
+      "answer": "My Pet Hooligan is an award-winning third-person shooter and social entertainment game developed in Unreal Engine 5 using Karrat Protocol."
+    },
+    {
+      "question": "Where is $KARRAT traded?",
+      "answer": "The $KARRAT token is active on Coinbase, KuCoin, Gate.io, and decentralized exchanges on Ethereum."
+    }
+  ],
+  "tier": "Tier 1",
+  "isHot": false,
+  "isFeatured": false
+},
+  {
+  "id": "kuru-orderbook-monad",
+  "name": "Kuru",
+  "logo": "/images/airdrops/kuru-orderbook-monad.svg",
+  "description": "The ultra-fast on-chain Central Limit Orderbook (CLOB) built natively on Monad, benchmarking microsecond trade execution, backed by $2M from Electric Capital and Brevan Howard.",
+  "reward": "Kuru Early Access Points, Trading Rebates & $KURU Token",
+  "category": "DeFi / Monad Orderbook DEX",
+  "featured": true,
+  "status": "active",
+  "endTime": "Q1 2027",
+  "funding": "$2.0M",
+  "investors": "Electric Capital, Brevan Howard Digital, CMS Holdings, Pivot Global",
+  "refLink": "https://kuru.io",
+  "overview": "Kuru is building the native orderbook exchange on Monad. By harnessing Monad's 10,000 TPS parallel EVM execution and 1-second finality, Kuru enables on-chain central limit orderbook trading that matches the microsecond execution speeds of centralized exchanges.",
+  "tokenomics": "The $KURU token will govern protocol trading fees, market maker rebate programs, and liquidity incentive pools.",
+  "sybilSafety": "Testnet trading and early access require verified Discord credentials and cryptographic trade submission records.",
+  "strategy": "Sign up for Kuru Early Access, trade on the Monad devnet/testnet CLOB interface, provide liquidity, and submit feedback on Discord.",
+  "steps": [
+    "Visit the Kuru portal at kuru.io and register for early access with your wallet.",
+    "Join the official Kuru Discord community to claim tester credentials.",
+    "Execute spot and limit order trades on the Monad testnet trading interface.",
+    "Provide liquidity into on-chain orderbook maker quotes to earn maker rebates.",
+    "Track your verified trading volume and early contributor ranking."
+  ],
+  "faqs": [
+    {
+      "question": "Why build a CLOB on Monad?",
+      "answer": "Traditional blockchains cannot handle the high transaction throughput required for on-chain orderbooks. Monad's 10,000 TPS parallel EVM makes fully on-chain CLOB trading possible."
+    },
+    {
+      "question": "Is Kuru non-custodial?",
+      "answer": "Yes, all user funds remain secured in smart contracts with transparent on-chain settlement."
+    }
+  ],
+  "tier": "Tier 1",
+  "isHot": true,
+  "isFeatured": true
 }
 ];
