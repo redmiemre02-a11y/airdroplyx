@@ -39612,5 +39612,390 @@ export const airdrops: Airdrop[] = [
   "tier": "Tier 1",
   "isHot": true,
   "isFeatured": true
-}
+},
+  {
+    "id": "infrared-finance",
+    "name": "Infrared Finance",
+    "logo": "/images/airdrops/infrared-finance.svg",
+    "description": "Infrared Finance is the premier liquid staking and Proof-of-Liquidity (PoL) infrastructure for Berachain, backed by Binance Labs and Framework Ventures.",
+    "reward": "$IRED Token Distribution & Native iBGT Staking Yields",
+    "category": "DeFi / Liquid Staking",
+    "featured": true,
+    "status": "active",
+    "publishDate": "November 1, 2026",
+    "endTime": "Q1 2027",
+    "funding": "$2.5M Seed Round led by Binance Labs, Framework Ventures & Tribe Capital",
+    "investors": [
+      "Binance Labs",
+      "Framework Ventures",
+      "Tribe Capital",
+      "CitizenX"
+    ],
+    "refLink": "https://infrared.finance",
+    "overview": "Infrared Finance is engineering the foundational liquid staking protocol for the Berachain network. Designed to maximize capital efficiency under Berachain's novel Proof-of-Liquidity (PoL) consensus, Infrared introduces iBGT—a liquid version of Berachain's non-transferable BGT governance token—allowing validators and liquidity providers to capture staking rewards without locking up governance capital.",
+    "strategy": "Stake BERA and partner LP tokens into Infrared testnet vaults to earn iBGT and native Infrared Points. Maintain continuous weekly activity across Infrared testnet pools to maximize your allocation tier.",
+    "tokenomics": "The $IRED governance token powers validator direction, fee capture, and gauge voting within the Berachain Proof-of-Liquidity economy.",
+    "sybilSafety": "Avoid single-block split transfers. Maintain active on-chain balances and engage organically with Berachain faucet contracts.",
+    "steps": [
+      "Obtain Berachain Artio/Bartio testnet BERA from the official network faucet.",
+      "Connect your Web3 wallet to the Infrared Finance dApp interface at infrared.finance.",
+      "Deposit testnet BERA or BERA-HONEY LP tokens into the designated Infrared liquid staking vaults.",
+      "Receive iBGT receipt tokens in your wallet and monitor your accumulated native staking rewards.",
+      "Stake iBGT into the Infrared governance gauge to unlock multiplier points for the upcoming $IRED airdrop.",
+      "Join the official Infrared Discord server, verify your tester role, and submit testnet feedback in the designated channel."
+    ],
+    "faqs": [
+      {
+        "question": "What makes Infrared Finance unique on Berachain?",
+        "answer": "Infrared solves the liquidity lockup of Berachain's native BGT token by tokenizing it into liquid iBGT, enabling composable DeFi strategies while earning staking yield."
+      },
+      {
+        "question": "Is there any financial cost to participate?",
+        "answer": "No, the current testnet phase uses free Berachain testnet tokens, meaning you can qualify with zero real capital expenditure."
+      }
+    ],
+    "tier": "Tier 1",
+    "cost": "Free (Testnet)",
+    "stage": "Public Testnet",
+    "timeCommitment": "10 mins weekly",
+    "snapshot": "Prior to Berachain Mainnet Launch",
+    "estDate": "Q1 2027",
+    "socials": {
+      "twitter": "https://twitter.com/InfraredFinance",
+      "discord": "https://discord.gg/infrared",
+      "website": "https://infrared.finance"
+    },
+    "isHot": true,
+    "isFeatured": true
+  },
+  {
+    "id": "mitosis-defi",
+    "name": "Mitosis",
+    "logo": "/images/airdrops/mitosis-defi.svg",
+    "description": "Mitosis is an Ecosystem-Owned Liquidity (EOL) Layer 1 protocol backed by Amber Group and Foresight, revolutionizing cross-chain DeFi yield.",
+    "reward": "$MITO Genesis Airdrop & Seasonal Matrix Expedition Marks",
+    "category": "Layer 1 / Cross-Chain DeFi",
+    "featured": false,
+    "status": "active",
+    "publishDate": "November 1, 2026",
+    "endTime": "Q1 2027",
+    "funding": "$7M Seed Round led by Amber Group, Foresight Ventures & GSR",
+    "investors": [
+      "Amber Group",
+      "Foresight Ventures",
+      "GSR",
+      "Big Brain Holdings"
+    ],
+    "refLink": "https://mitosis.org",
+    "overview": "Mitosis transforms liquidity provision by establishing Ecosystem-Owned Liquidity (EOL). Rather than relying on temporary mercenary liquidity, Mitosis pools assets across Ethereum, Arbitrum, and other EVM chains into unified yield-bearing vault derivatives (Hub Assets) that yield governance power and multi-layered DeFi dividends.",
+    "strategy": "Deposit supported assets (ETH, weETH, eETH) into Mitosis Matrix vaults to mint miAssets. Hold or deploy miAssets into integrated partner money markets to multiply Expedition Marks.",
+    "tokenomics": "The $MITO token governs cross-chain allocation parameters, revenue sharing from protocol-owned vaults, and node validation on the Mitosis chain.",
+    "sybilSafety": "Maintain vault deposits throughout the expedition epochs. Withdrawing early drastically reduces point tier multipliers.",
+    "steps": [
+      "Access the Mitosis Expedition portal at mitosis.org and connect an EVM-compatible wallet.",
+      "Select a supported network (Ethereum Mainnet or Arbitrum) and choose an asset to deposit (such as eETH or weETH).",
+      "Confirm the vault deposit transaction to mint your equivalent miAssets on Mitosis.",
+      "Navigate to the Mitosis Governance & Matrix tab to verify your daily accrued Expedition Marks.",
+      "Complete ecosystem partner quests on Galxe/Intract linked to the Mitosis campaign for additional bonus multiplier badges.",
+      "Hold your positions active across weekly epoch checkpoints to qualify for top-tier $MITO distribution."
+    ],
+    "faqs": [
+      {
+        "question": "What are miAssets?",
+        "answer": "miAssets represent your 1:1 backed deposit on Mitosis that continue to earn native underlying staking yield plus Mitosis network dividends."
+      },
+      {
+        "question": "Can I withdraw my deposit before the airdrop?",
+        "answer": "Yes, deposits are non-custodial and can be withdrawn, but maintaining continuous deposits grants tier bonuses for the final token distribution."
+      }
+    ],
+    "tier": "Tier 1",
+    "cost": "Low (Gas only)",
+    "stage": "Mainnet Expedition Epoch 3",
+    "timeCommitment": "15 mins once + hold",
+    "snapshot": "Epoch 4 Completion",
+    "estDate": "Q1 2027",
+    "socials": {
+      "twitter": "https://twitter.com/MitosisOrg",
+      "discord": "https://discord.gg/mitosis",
+      "website": "https://mitosis.org"
+    },
+    "isHot": true,
+    "isFeatured": false
+  },
+  {
+    "id": "curvance-monad",
+    "name": "Curvance",
+    "logo": "/images/airdrops/curvance-monad.svg",
+    "description": "Curvance is a modular cross-chain money market with $3.6M funding, bringing high-frequency yield-bearing collateral lending to Monad.",
+    "reward": "$CVE Governance Allocation & Early Tester Loyalty Points",
+    "category": "DeFi / Lending",
+    "featured": false,
+    "status": "active",
+    "publishDate": "November 1, 2026",
+    "endTime": "Q2 2027",
+    "funding": "$3.6M Seed Round with participation from prominent DeFi founders & angel syndicates",
+    "investors": [
+      "Wormhole",
+      "Offchain Labs",
+      "Framewrk Angels",
+      "Pyth Network"
+    ],
+    "refLink": "https://curvance.com",
+    "overview": "Curvance is an omnichain liquidity and lending platform designed specifically for yield-bearing assets (LSTs, LRTs, and LP tokens). Built to take full advantage of Monad's parallel execution engine, Curvance executes health-factor checks and collateral liquidations in sub-second intervals, unlocking deep borrow power with minimized liquidation penalties.",
+    "strategy": "Participate in the Curvance testnet on Sepolia and Monad devnet. Supply testnet collateral, borrow stablecoins, and maintain healthy margin ratios to accumulate platform XP.",
+    "tokenomics": "$CVE tokens feature vote-escrow mechanics (veCVE) that direct protocol emissions, secondary revenue sharing, and pool bribe markets.",
+    "sybilSafety": "Execute varied transactions across multiple days instead of batching identical borrows in a single minute.",
+    "steps": [
+      "Visit curvance.com and launch the Curvance Testnet App.",
+      "Connect your Web3 wallet and claim testnet collateral from the in-app faucet tab.",
+      "Supply test assets (stETH, WBTC, USDC) into the Curvance Money Market core pools.",
+      "Borrow available stablecoin pairs against your collateral while keeping your health factor safely above 1.5.",
+      "Test the 'Zap & Repay' feature to simulate single-transaction debt restructuring.",
+      "Submit feedback and your wallet address in the Curvance tester channel on Discord to secure early tester credentials."
+    ],
+    "faqs": [
+      {
+        "question": "Why is Curvance launching on Monad?",
+        "answer": "Monad's 10,000 TPS and 1-second finality allow Curvance to calculate risk and liquidations instantly without risk of gas spikes during market volatility."
+      },
+      {
+        "question": "Is Curvance audited?",
+        "answer": "Yes, Curvance has undergone comprehensive security audits by top Web3 security firms including Halborn and Cantina."
+      }
+    ],
+    "tier": "Tier 2",
+    "cost": "Free (Testnet)",
+    "stage": "Public Beta",
+    "timeCommitment": "10 mins weekly",
+    "snapshot": "Q1 2027",
+    "estDate": "Q2 2027",
+    "socials": {
+      "twitter": "https://twitter.com/Curvance",
+      "discord": "https://discord.gg/curvance",
+      "website": "https://curvance.com"
+    },
+    "isHot": false,
+    "isFeatured": false
+  },
+  {
+    "id": "ambient-monad",
+    "name": "Ambient Finance",
+    "logo": "/images/airdrops/ambient-monad.svg",
+    "description": "Ambient (formerly CrocSwap) is a zero-to-one decentralized exchange running inside a single smart contract, launching ultra-performant pools on Monad.",
+    "reward": "$AMB Token Distribution & Ambient Points Multiplier",
+    "category": "DeFi / DEX",
+    "featured": true,
+    "status": "active",
+    "publishDate": "November 1, 2026",
+    "endTime": "Q1 2027",
+    "funding": "$6.5M Seed Round led by BlockTower Capital with Jane Street & Naval Ravikant",
+    "investors": [
+      "BlockTower Capital",
+      "Jane Street",
+      "Naval Ravikant",
+      "Yunt Capital"
+    ],
+    "refLink": "https://ambient.run",
+    "overview": "Ambient is a revolutionary decentralized trading protocol that consolidates concentrated liquidity, ambient constant-product pools, and knock-out liquidity into a single smart contract architecture. By combining single-contract gas efficiency with Monad's parallel EVM throughput, Ambient delivers institutional-grade AMM speed with near-zero gas costs.",
+    "strategy": "Swap core tokens regularly on Ambient (Scroll, Blast, and Monad testnet) and provide concentrated liquidity to high-volume pools to accumulate weekly protocol points.",
+    "tokenomics": "The upcoming $AMB governance token controls fee switch activations, localized pool gauges, and liquidity routing rewards.",
+    "sybilSafety": "Make organic trades across diverse pairs. Avoid automated micro-volume looping on single pairs.",
+    "steps": [
+      "Navigate to ambient.run and connect your EVM Web3 wallet.",
+      "Select an active network (Scroll, Blast, or Monad Testnet).",
+      "Perform regular swaps between core crypto pairs (ETH, USDC, native gas tokens).",
+      "Navigate to the 'Pool' tab and supply concentrated liquidity within active price bands.",
+      "Monitor your accumulated Ambient Points on the leaderboard interface.",
+      "Engage with community community challenges and maintain consistent volume across consecutive weeks."
+    ],
+    "faqs": [
+      {
+        "question": "What makes Ambient different from Uniswap v3?",
+        "answer": "Ambient runs its entire exchange within a single smart contract, drastically reducing gas fees and eliminating the need for intermediate token approvals between swaps."
+      },
+      {
+        "question": "How are Ambient Points calculated?",
+        "answer": "Points are distributed based on trading volume, liquidity depth inside active tick ranges, and sustained presence over weekly epochs."
+      }
+    ],
+    "tier": "Tier 1",
+    "cost": "Low (Gas fees only)",
+    "stage": "Active Points Season",
+    "timeCommitment": "15 mins weekly",
+    "snapshot": "TBA Q1 2027",
+    "estDate": "Q1 2027",
+    "socials": {
+      "twitter": "https://twitter.com/ambient_run",
+      "discord": "https://discord.gg/ambient",
+      "website": "https://ambient.run"
+    },
+    "isHot": true,
+    "isFeatured": true
+  },
+  {
+    "id": "shogun-fi",
+    "name": "Shogun",
+    "logo": "/images/airdrops/shogun-fi.svg",
+    "description": "Shogun is an intent-centric modular liquidity protocol backed by $6.9M from Polychain Capital and Binance Labs, maximizing cross-chain order extraction.",
+    "reward": "$SHO Token Allocation & Solver Rebate Rewards",
+    "category": "DeFi / Intents",
+    "featured": false,
+    "status": "active",
+    "publishDate": "November 1, 2026",
+    "endTime": "Q2 2027",
+    "funding": "$6.9M Seed Round led by Polychain Capital, Binance Labs & Maven 11",
+    "investors": [
+      "Polychain Capital",
+      "Binance Labs",
+      "Maven 11",
+      "Robot Ventures"
+    ],
+    "refLink": "https://shogun.fi",
+    "overview": "Shogun is pioneering intent-driven order routing across decentralized finance. Built on a modular architecture that separates order creation from on-chain execution, Shogun utilizes an open network of professional solvers to extract maximal MEV protection, eliminate slippage, and provide traders with optimal cross-chain settlement.",
+    "strategy": "Submit intent swaps on the Shogun beta platform, link your Discord account to the early access dashboard, and participate in solver volume challenges.",
+    "tokenomics": "The $SHO token powers solver staking, slashing parameters, decentralized governance, and platform protocol fee discounts.",
+    "sybilSafety": "Execute real trades with realistic transaction sizes ($20+) rather than automated cent-value transactions.",
+    "steps": [
+      "Visit shogun.fi and request access to the early trader beta program.",
+      "Connect your Web3 wallet and complete the community onboarding verification.",
+      "Submit cross-chain intent orders between supported networks (Ethereum, Arbitrum, Base).",
+      "Verify that your transaction was matched and settled by an authorized Shogun solver with zero slippage.",
+      "Track your cumulative trading volume and solver rebate credits on the user portfolio tab.",
+      "Join the Shogun Discord to participate in community governance discussions and claim early tester badges."
+    ],
+    "faqs": [
+      {
+        "question": "What is intent-centric trading?",
+        "answer": "Instead of submitting a rigid transaction on-chain and risking front-running, you state your desired trade outcome, and decentralized solvers compete to fill it at the best possible price."
+      },
+      {
+        "question": "When will the $SHO token launch?",
+        "answer": "The token generation event is slated for the conclusion of the public solver testnet and mainnet scaling phase in early 2027."
+      }
+    ],
+    "tier": "Tier 1",
+    "cost": "Low (Trading gas)",
+    "stage": "Early Access Beta",
+    "timeCommitment": "10 mins weekly",
+    "snapshot": "Q1 2027",
+    "estDate": "Q2 2027",
+    "socials": {
+      "twitter": "https://twitter.com/shogunfi",
+      "discord": "https://discord.gg/shogun",
+      "website": "https://shogun.fi"
+    },
+    "isHot": false,
+    "isFeatured": false
+  },
+  {
+    "id": "goplus-secware",
+    "name": "GoPlus SecWareX",
+    "logo": "/images/airdrops/goplus-secware.svg",
+    "description": "GoPlus is the premier Web3 user security network with $15M+ funding from Binance Labs and Redpoint, rewarding users for active on-chain threat protection.",
+    "reward": "$GPS Governance Token Distribution & Energy Points Conversion",
+    "category": "Security / Infrastructure",
+    "featured": true,
+    "status": "active",
+    "publishDate": "November 1, 2026",
+    "endTime": "Q1 2027",
+    "funding": "$15M+ across multiple rounds led by Binance Labs, Redpoint China & KuCoin Ventures",
+    "investors": [
+      "Binance Labs",
+      "Redpoint China",
+      "KuCoin Ventures",
+      "Crypto.com Capital"
+    ],
+    "refLink": "https://secwarex.io",
+    "overview": "GoPlus Security is the open, permissionless Web3 user security network. SecWareX, its flagship consumer security platform, equips crypto users with personalized risk detection, malicious smart contract scanning, and automated anti-phishing defense. Users actively earn Energy Points by securing their wallets and completing daily security checkups.",
+    "strategy": "Connect your primary wallet to SecWareX, perform routine vulnerability scans, revoke risky approvals, and complete daily security tasks to accumulate Energy Points.",
+    "tokenomics": "The $GPS token governs the GoPlus security data oracle, validator node staking, and decentralized security intelligence rewards.",
+    "sybilSafety": "Connect wallets with legitimate transaction history. The SecWareX AI engine automatically flags empty burner wallets.",
+    "steps": [
+      "Go to secwarex.io and connect your Web3 wallet.",
+      "Run the full Wallet Security Health Scan to diagnose vulnerabilities, token approvals, and signature risks.",
+      "Revoke dangerous or obsolete smart contract approvals identified during the scan.",
+      "Complete the daily 'Security Checkup' quest to claim bonus Energy Points.",
+      "Bind your Twitter and Telegram accounts to unlock advanced security alert notifications.",
+      "Invite friends using your unique referral link to earn a percentage of their ongoing Energy Points accumulation."
+    ],
+    "faqs": [
+      {
+        "question": "Is SecWareX safe to connect my wallet to?",
+        "answer": "Yes, SecWareX only requires view-level permissions to analyze your on-chain state; it never asks for private keys or blind token transfers."
+      },
+      {
+        "question": "How do Energy Points translate to tokens?",
+        "answer": "Energy Points directly establish your ranking on the global leaderboard, dictating the proportion of $GPS tokens allocated during the genesis distribution."
+      }
+    ],
+    "tier": "Tier 1",
+    "cost": "Free",
+    "stage": "SecWareX Season 2",
+    "timeCommitment": "5 mins daily",
+    "snapshot": "TBA 2027",
+    "estDate": "Q1 2027",
+    "socials": {
+      "twitter": "https://twitter.com/GoplusSecurity",
+      "discord": "https://discord.gg/goplussecurity",
+      "website": "https://secwarex.io"
+    },
+    "isHot": true,
+    "isFeatured": true
+  },
+  {
+    "id": "myshell-ai",
+    "name": "MyShell AI",
+    "logo": "/images/airdrops/myshell-ai.svg",
+    "description": "MyShell is a decentralized AI creator platform with $16.6M in funding from Dragonfly and INCE Capital, empowering users to build, own, and monetize AI agents.",
+    "reward": "$SHELL Ecosystem Token & Genesis Shell Points",
+    "category": "AI / DePIN",
+    "featured": false,
+    "status": "active",
+    "publishDate": "November 1, 2026",
+    "endTime": "Q1 2027",
+    "funding": "$16.6M Series A led by Dragonfly Capital with INCE Capital & HashKey",
+    "investors": [
+      "Dragonfly Capital",
+      "INCE Capital",
+      "HashKey Capital",
+      "Folius Ventures"
+    ],
+    "refLink": "https://myshell.ai",
+    "overview": "MyShell is the leading open platform for creating and discovering AI native agents. By utilizing decentralized compute networks and multimodal voice synthesis, MyShell allows creators to build custom chatbots, voice clones, and automated productivity agents. Users earn Shell Points by interacting with AI agents, completing daily chat tasks, and deploying popular community bots.",
+    "strategy": "Sign up on MyShell, chat with featured AI bots daily, create your own custom AI agent, and stake Shell Points into trending creator pools to earn token dividends.",
+    "tokenomics": "The $SHELL token powers compute gas fees, creator royalties, governance voting, and AI model training incentives.",
+    "sybilSafety": "Interact naturally with bots and complete diverse prompt tasks rather than sending automated repetitive messages.",
+    "steps": [
+      "Visit myshell.ai and create an account using your email or Web3 wallet.",
+      "Navigate to the 'Rewards' dashboard to view current season tasks and point multipliers.",
+      "Interact with at least three different AI agents daily (voice chats, text generators, productivity bots).",
+      "Use the 'Workshop' tool to construct your first custom AI bot and publish it to the community marketplace.",
+      "Stake Shell Points into top-performing AI creator pools to earn shared ecosystem yield.",
+      "Maintain your daily login streak and participate in official Discord AI creator challenges."
+    ],
+    "faqs": [
+      {
+        "question": "Can I use MyShell for free?",
+        "answer": "Yes, MyShell provides daily free energy to all users, allowing complete participation without paying subscription fees."
+      },
+      {
+        "question": "How does MyShell benefit Web3 creators?",
+        "answer": "Creators retain verifiable on-chain ownership of their AI models and earn ongoing royalties whenever other users interact with their agents."
+      }
+    ],
+    "tier": "Tier 1",
+    "cost": "Free",
+    "stage": "Season 3 Rewards",
+    "timeCommitment": "5 mins daily",
+    "snapshot": "Q1 2027",
+    "estDate": "Q1 2027",
+    "socials": {
+      "twitter": "https://twitter.com/myshell_ai",
+      "discord": "https://discord.gg/myshell",
+      "website": "https://myshell.ai"
+    },
+    "isHot": true,
+    "isFeatured": false
+  }
 ];
