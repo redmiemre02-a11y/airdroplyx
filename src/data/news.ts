@@ -1,3 +1,17 @@
+export interface NewsArticle {
+  slug: string;
+  title: string;
+  excerpt: string;
+  author: string;
+  date: string;
+  readTime: string;
+  category: string;
+  image: string;
+  tags: string[];
+  relatedAirdropId?: string;
+  content: string;
+}
+
 export const newsArticles: NewsArticle[] = [
   {
     "slug": "hyperliquid-tge-points-season-final-snapshot",
@@ -1329,7 +1343,6 @@ export const newsArticles: NewsArticle[] = [
       "DeFi",
       "Layer 2"
     ],
-    "relatedAirdropId": "uniswap-protocol",
     "content": "Uniswap Labs, creator of the decentralized automated market maker that has processed over $2 trillion in lifetime volume, has officially unveiled the Unichain public testnet. Built on the OP Stack Superchain in collaboration with MEV research pioneer Flashbots, Unichain is an application-specific Layer 2 rollup optimized specifically for decentralized finance.\n\nUnichain introduces 1-second sub-blocks and verifiable block building through Trusted Execution Environments (TEEs), effectively eliminating toxic MEV sandwich attacks for everyday swappers. Combined with the upcoming release of Uniswap V4 Hooks, developers can launch dynamic-fee liquidity pools and on-chain limit orders with fractional-cent gas costs.\n\nWith the Uniswap DAO treasury and UNI token governance deeply integrated into Unichain sequencing, the development marks a historic evolution for decentralized exchanges."
   },
   {
