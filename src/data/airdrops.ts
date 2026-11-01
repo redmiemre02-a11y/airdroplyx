@@ -37919,5 +37919,387 @@ export const airdrops: Airdrop[] = [
     },
     "isHot": true,
     "isFeatured": false
+  },
+  {
+    "id": "honeypot-finance",
+    "name": "Honeypot Finance",
+    "logo": "/images/airdrops/honeypot-finance.svg",
+    "description": "Honeypot Finance is a community-first DEX and launchpad native to Berachain, integrating Dreampad and HenloDEX under Proof-of-Liquidity.",
+    "reward": "$HPOT Token Distribution & PotPoints Multiplier",
+    "category": "DeFi / Launchpad",
+    "featured": true,
+    "status": "active",
+    "publishDate": "November 1, 2026",
+    "endTime": "Q1 2027",
+    "funding": "$1.3M Seed Round led by D13, CSP DAO & prominent Web3 angels",
+    "investors": [
+      "D13",
+      "CSP DAO",
+      "Aquabera",
+      "Berachain Foundation"
+    ],
+    "refLink": "https://honeypotfinance.xyz",
+    "overview": "Honeypot Finance is engineered as the primary liquidity acceleration layer on Berachain. Combining Dreampad (a fair-launch launchpad mitigating sniper bots) with HenloDEX (a low-slippage AMM utilizing Proof-of-Liquidity gauges), Honeypot enables new ecosystem projects to bootstrap sustainable liquidity while rewarding community farmers with governance yields.",
+    "strategy": "Swap on HenloDEX using testnet BERA and HONEY. Provide liquidity to the testnet pools and participate in Dreampad mock sales to accumulate seasonal PotPoints.",
+    "tokenomics": "The $HPOT token governs launchpad whitelists, fee distribution from HenloDEX swaps, and BGT reward gauge voting.",
+    "sybilSafety": "Engage organically with the Dreampad testnet interface and maintain multiple distinct swap interactions across different days.",
+    "steps": [
+      "Obtain Berachain Bartio testnet BERA from the official network faucet.",
+      "Navigate to honeypotfinance.xyz and connect your Web3 wallet.",
+      "Execute testnet swaps between BERA and HONEY on the HenloDEX tab.",
+      "Deposit liquidity into the BERA-HONEY liquidity pool on the 'Pools' page.",
+      "Participate in active Dreampad mock presales to test fair launch allocation mechanics.",
+      "Verify your accumulated PotPoints on the official rewards leaderboard."
+    ],
+    "faqs": [
+      {
+        "question": "What is Honeypot Finance's role on Berachain?",
+        "answer": "Honeypot Finance acts as the launchpad and liquidity booster, helping new projects fair-launch while maximizing Proof-of-Liquidity rewards for users."
+      },
+      {
+        "question": "Do I need real money to participate?",
+        "answer": "No, all current interactions run on the Berachain Bartio testnet using free faucet tokens."
+      }
+    ],
+    "tier": "Tier 1",
+    "cost": "Free (Testnet)",
+    "stage": "Public Testnet",
+    "timeCommitment": "10 mins weekly",
+    "snapshot": "Q1 2027",
+    "estDate": "Q1 2027",
+    "socials": {
+      "twitter": "https://twitter.com/honeypotfinance",
+      "discord": "https://discord.gg/honeypotfinance",
+      "website": "https://honeypotfinance.xyz"
+    },
+    "isHot": true,
+    "isFeatured": true
+  },
+  {
+    "id": "talent-protocol",
+    "name": "Talent Protocol",
+    "logo": "/images/airdrops/talent-protocol.svg",
+    "description": "Talent Protocol is the leading verifiable reputation and identity infrastructure on Base, supported by Coinbase Ventures.",
+    "reward": "$TAL Ecosystem Token & Builder Score Rewards",
+    "category": "Identity / SocialFi",
+    "featured": false,
+    "status": "active",
+    "publishDate": "November 1, 2026",
+    "endTime": "Q1 2027",
+    "funding": "$4.2M across strategic rounds backed by Coinbase Ventures, Protocol Labs & Flori Ventures",
+    "investors": [
+      "Coinbase Ventures",
+      "Protocol Labs",
+      "Flori Ventures",
+      "Alliance DAO"
+    ],
+    "refLink": "https://talentprotocol.com",
+    "overview": "Talent Protocol builds an open reputation data layer that turns resumes and professional achievements into verifiable on-chain credentials. By aggregating developer contributions, GitHub metrics, social attestations, and on-chain transaction history, Talent Protocol creates a universal 'Builder Score' used by top ecosystems to distribute grants and airdrop rewards.",
+    "strategy": "Mint your Talent Passport on Base, link GitHub, Twitter, and Web3 credentials to boost your Builder Score, and complete ecosystem partner quests.",
+    "tokenomics": "The $TAL token coordinates decentralized reputation attestations, credential staking, and governance over data verification standards.",
+    "sybilSafety": "Connect authentic social profiles and GitHub accounts with genuine commit histories to maximize your score verification.",
+    "steps": [
+      "Visit talentprotocol.com and connect your Base-compatible wallet.",
+      "Mint your digital Talent Passport on the Base network (sub-cent gas fee).",
+      "Connect your GitHub, LinkedIn, and social profiles to verify builder credentials.",
+      "Collect partner credentials (such as Base Builder, Farcaster, and Gitcoin Passport).",
+      "Reach a Builder Score above 50 to qualify for premier credential tiering.",
+      "Stake $TAL or claim daily platform activity rewards on the dashboard."
+    ],
+    "faqs": [
+      {
+        "question": "What is a Builder Score?",
+        "answer": "The Builder Score is a composable on-chain reputation score reflecting your authentic developer, social, and Web3 contributions."
+      },
+      {
+        "question": "Which network does Talent Protocol use?",
+        "answer": "Talent Protocol is natively deployed on Coinbase's Base Layer 2 blockchain."
+      }
+    ],
+    "tier": "Tier 1",
+    "cost": "Sub-cent ($0.10 gas)",
+    "stage": "Mainnet Season 2",
+    "timeCommitment": "15 mins once",
+    "snapshot": "TBA 2027",
+    "estDate": "Q1 2027",
+    "socials": {
+      "twitter": "https://twitter.com/talentprotocol",
+      "discord": "https://discord.gg/talentprotocol",
+      "website": "https://talentprotocol.com"
+    },
+    "isHot": true,
+    "isFeatured": false
+  },
+  {
+    "id": "magma-story",
+    "name": "Magma Protocol",
+    "logo": "/images/airdrops/magma-story.svg",
+    "description": "Magma Protocol is the premier liquid staking and intellectual property liquidity engine built for Story Protocol's programmable IP blockchain.",
+    "reward": "$MAGMA Genesis Allocation & Story Odyssey Points",
+    "category": "DeFi / Liquid Staking",
+    "featured": true,
+    "status": "active",
+    "publishDate": "November 1, 2026",
+    "endTime": "Q2 2027",
+    "funding": "Backed by prominent Story Protocol ecosystem syndicates & Web3 angel investors",
+    "investors": [
+      "Story Ecosystem Fund",
+      "Alliance",
+      "Folius Angels"
+    ],
+    "refLink": "https://magmaprotocol.xyz",
+    "overview": "Magma Protocol is pioneering decentralized financial primitives for the intellectual property economy. Built on top of Story Protocol's Layer 1 blockchain, Magma enables creators and investors to tokenize IP royalty rights, stake native IP assets into liquid yield pools, and unlock instant liquidity without relinquishing underlying intellectual property ownership.",
+    "strategy": "Connect to the Story Protocol Odyssey testnet, claim testnet IP tokens, stake them on Magma to mint liquid stIP tokens, and complete creator liquidity quests.",
+    "tokenomics": "The $MAGMA token governs protocol fee shares, IP vault risk parameters, and gauge weights for creative ecosystem projects.",
+    "sybilSafety": "Interact with the Story Odyssey testnet faucet at normal intervals and perform diverse transactions across testnet days.",
+    "steps": [
+      "Access the Story Protocol Odyssey testnet and claim testnet IP gas tokens.",
+      "Navigate to the Magma Protocol testnet portal at magmaprotocol.xyz.",
+      "Connect your Web3 wallet and deposit testnet IP into the primary staking vault.",
+      "Receive stIP receipt tokens that automatically accrue testnet staking yields.",
+      "Explore the IP Royalty Market tab to test fractional licensing trades.",
+      "Join the Magma community on Discord to submit testnet feedback and earn early supporter roles."
+    ],
+    "faqs": [
+      {
+        "question": "How does Magma integrate with Story Protocol?",
+        "answer": "Magma provides the native liquid staking and DeFi composability layer for Story Protocol's programmable IP assets."
+      },
+      {
+        "question": "Is there any cost to test Magma?",
+        "answer": "No, Magma is currently live on the public Odyssey testnet, which is 100% free to test."
+      }
+    ],
+    "tier": "Tier 1",
+    "cost": "Free (Testnet)",
+    "stage": "Public Odyssey Testnet",
+    "timeCommitment": "10 mins weekly",
+    "snapshot": "Q1 2027",
+    "estDate": "Q2 2027",
+    "socials": {
+      "twitter": "https://twitter.com/MagmaProtocol",
+      "discord": "https://discord.gg/magmaprotocol",
+      "website": "https://magmaprotocol.xyz"
+    },
+    "isHot": true,
+    "isFeatured": true
+  },
+  {
+    "id": "smilee-finance",
+    "name": "Smilee Finance",
+    "logo": "/images/airdrops/smilee-finance.svg",
+    "description": "Smilee Finance is a decentralized volatility and impermanent gain protocol backed by $2M from Dialectic and Superbloom.",
+    "reward": "$SMILEE Token Distribution & Volatility XP Points",
+    "category": "DeFi / Options & Volatility",
+    "featured": false,
+    "status": "active",
+    "publishDate": "November 1, 2026",
+    "endTime": "Q1 2027",
+    "funding": "$2M Seed Round led by Dialectic, Superbloom & seasoned DeFi angels",
+    "investors": [
+      "Dialectic",
+      "Superbloom",
+      "Yunt Capital",
+      "DeFi Founders"
+    ],
+    "refLink": "https://smilee.finance",
+    "overview": "Smilee Finance is engineered to solve impermanent loss in automated market makers. By creating novel 'Impermanent Gain' financial primitives, Smilee enables liquidity providers to hedge against sudden price swings while allowing volatility traders to speculate on market moves with high leverage and zero liquidation risk.",
+    "strategy": "Deposit into Smilee Impermanent Gain vaults on Arbitrum and Berachain testnet. Trade volatility tokens (dVS) to accumulate seasonal platform XP.",
+    "tokenomics": "The $SMILEE token controls fee distribution from structured volatility products, insurance pool staking, and protocol governance.",
+    "sybilSafety": "Maintain active positions over several weeks rather than depositing and immediately withdrawing funds.",
+    "steps": [
+      "Go to smilee.finance and connect an Arbitrum or Berachain testnet wallet.",
+      "Select a supported vault (such as ETH/USDC or BERA/HONEY Impermanent Gain).",
+      "Deposit test collateral into the chosen liquidity vault.",
+      "Mint directional volatility tokens (dVS) to test upside/downside volatility hedging.",
+      "Monitor your accumulated Volatility XP and leaderboard ranking on the rewards page.",
+      "Participate in community testing feedback discussions on the official Smilee Discord."
+    ],
+    "faqs": [
+      {
+        "question": "What is Impermanent Gain?",
+        "answer": "Impermanent Gain transforms the natural divergence of AMM pools into a leveraged options-like payout during volatile price movements."
+      },
+      {
+        "question": "Has Smilee Finance been audited?",
+        "answer": "Yes, Smilee's core smart contracts have undergone rigorous third-party security audits."
+      }
+    ],
+    "tier": "Tier 2",
+    "cost": "Low (Gas only)",
+    "stage": "Mainnet Beta & Testnet",
+    "timeCommitment": "10 mins weekly",
+    "snapshot": "Q1 2027",
+    "estDate": "Q1 2027",
+    "socials": {
+      "twitter": "https://twitter.com/SmileeFinance",
+      "discord": "https://discord.gg/smileefinance",
+      "website": "https://smilee.finance"
+    },
+    "isHot": false,
+    "isFeatured": false
+  },
+  {
+    "id": "towns-protocol",
+    "name": "Towns Protocol",
+    "logo": "/images/airdrops/towns-protocol.svg",
+    "description": "Towns is an open, encrypted, decentralized group messaging network on Base, backed by $25.5M led by a16z crypto.",
+    "reward": "$TOWNS Governance Rights & Early Citizen Experience Points",
+    "category": "SocialFi / Messaging",
+    "featured": true,
+    "status": "active",
+    "publishDate": "November 1, 2026",
+    "endTime": "Q2 2027",
+    "funding": "$25.5M Series A led by Andreessen Horowitz (a16z crypto) with Benchmark & Framework",
+    "investors": [
+      "a16z crypto",
+      "Benchmark",
+      "Framework Ventures"
+    ],
+    "refLink": "https://towns.com",
+    "overview": "Towns is a decentralized, end-to-end encrypted messaging protocol where communities truly own their communication spaces. Built on the River decentralized messaging node network and deployed on Base, Towns allows creators, DAOs, and crypto communities to construct programmable group chat spaces with built-in on-chain governance, bot integration, and monetization.",
+    "strategy": "Join Towns at towns.com, claim your handle on Base, create or join active community towns, and chat daily to earn early citizen badges.",
+    "tokenomics": "The $TOWNS governance token will power decentralized node operation, space creation auctions, and protocol-level treasury voting.",
+    "sybilSafety": "Chat naturally in community spaces and maintain a verified on-chain handle with authentic engagement.",
+    "steps": [
+      "Navigate to towns.com and connect your Web3 wallet on the Base network.",
+      "Claim your unique Towns community username handle.",
+      "Join featured community town spaces (such as Web3 Alpha, Developer Lounge, and Base Ecosystem).",
+      "Send daily messages, participate in town votes, and interact with native community bots.",
+      "Create your own personal town and invite fellow Web3 members to join.",
+      "Link your Farcaster or Twitter account to verify social authenticity."
+    ],
+    "faqs": [
+      {
+        "question": "Is Towns messaging private?",
+        "answer": "Yes, all messages in Towns are end-to-end encrypted using decentralized cryptographic protocols."
+      },
+      {
+        "question": "Do I need a high-end machine to run Towns?",
+        "answer": "No, Towns runs seamlessly directly in modern desktop and mobile web browsers."
+      }
+    ],
+    "tier": "Tier 1",
+    "cost": "Free",
+    "stage": "Public Beta on Base",
+    "timeCommitment": "5 mins daily",
+    "snapshot": "Q1 2027",
+    "estDate": "Q2 2027",
+    "socials": {
+      "twitter": "https://twitter.com/townsxyz",
+      "discord": "https://discord.gg/towns",
+      "website": "https://towns.com"
+    },
+    "isHot": true,
+    "isFeatured": true
+  },
+  {
+    "id": "relay-bridge",
+    "name": "Relay Protocol",
+    "logo": "/images/airdrops/relay-bridge.svg",
+    "description": "Relay is a lightning-fast instant cross-chain execution and bridging protocol engineered by Reservoir, backed by Archetype and Variant.",
+    "reward": "$RELAY Protocol Token & Instant Route Points",
+    "category": "Infrastructure / Cross-Chain",
+    "featured": false,
+    "status": "active",
+    "publishDate": "November 1, 2026",
+    "endTime": "Q1 2027",
+    "funding": "$12M+ across rounds from Archetype, Variant, Seed Club & top Web3 angels",
+    "investors": [
+      "Archetype",
+      "Variant",
+      "Seed Club Ventures",
+      "Robot Ventures"
+    ],
+    "refLink": "https://relay.link",
+    "overview": "Relay by Reservoir enables instant cross-chain token execution with sub-second finality. By utilizing an optimized relayer network and liquidity reservations, Relay allows users to bridge and execute smart contracts across Ethereum, Base, Arbitrum, Optimism, Blast, and Zora in a single, gas-optimized transaction.",
+    "strategy": "Use relay.link to perform regular cross-chain swaps and bridges between major Layer 2 networks. Maintain consistent weekly volume to earn route credits.",
+    "tokenomics": "The $RELAY token powers decentralized solver staking, protocol fee sharing, and relay network routing governance.",
+    "sybilSafety": "Execute realistic cross-chain transfers across varied days rather than repetitive loop transactions within minutes.",
+    "steps": [
+      "Access relay.link and connect your Web3 wallet.",
+      "Select a source network (e.g., Base or Arbitrum) and a destination network (e.g., Optimism or Blast).",
+      "Execute an instant cross-chain token transfer with sub-second settlement.",
+      "Test the cross-chain 'Call Action' to execute a destination contract swap in one click.",
+      "Check your user profile on Relay to view total completed routes and accumulated volume points.",
+      "Participate in ecosystem quests on community platforms partnering with Relay."
+    ],
+    "faqs": [
+      {
+        "question": "How fast is a Relay bridge transaction?",
+        "answer": "Relay settles most cross-rollup transactions in less than 2 seconds, drastically faster than traditional optimistic bridge delays."
+      },
+      {
+        "question": "Which networks are supported?",
+        "answer": "Relay supports Ethereum, Base, Arbitrum, Optimism, Blast, Zora, Polygon, and emerging OP Stack rollups."
+      }
+    ],
+    "tier": "Tier 1",
+    "cost": "Low (Gas only)",
+    "stage": "Active Points Phase",
+    "timeCommitment": "5 mins weekly",
+    "snapshot": "Q1 2027",
+    "estDate": "Q1 2027",
+    "socials": {
+      "twitter": "https://twitter.com/relay_link",
+      "discord": "https://discord.gg/relay",
+      "website": "https://relay.link"
+    },
+    "isHot": true,
+    "isFeatured": false
+  },
+  {
+    "id": "beraborrow",
+    "name": "BeraBorrow",
+    "logo": "/images/airdrops/beraborrow.svg",
+    "description": "BeraBorrow is an autonomous decentralized debt and stablecoin protocol on Berachain, minting NECT backed by Proof-of-Liquidity collateral.",
+    "reward": "$BRROW Governance Token Allocation & NECT Yield Incentives",
+    "category": "DeFi / Lending & Stablecoin",
+    "featured": false,
+    "status": "active",
+    "publishDate": "November 1, 2026",
+    "endTime": "Q1 2027",
+    "funding": "Backed by prominent Berachain ecosystem syndicates & angel investors",
+    "investors": [
+      "Berachain Ecosystem Fund",
+      "Aquabera",
+      "CitizenX"
+    ],
+    "refLink": "https://beraborrow.com",
+    "overview": "BeraBorrow is a governance-minimized decentralized borrowing protocol purpose-built for Berachain. Users deposit yield-bearing assets (iBGT, BERA, and LP tokens) into isolated borrowing vaults to mint **NECT**—a fully collateralized native synthetic dollar. BeraBorrow deeply integrates with Berachain's Proof-of-Liquidity validators to maximize yield generation on deposited collateral.",
+    "strategy": "Deposit testnet collateral on the BeraBorrow Bartio testnet, mint NECT stablecoins, and stake NECT into the Stability Pool to accumulate testnet loyalty credits.",
+    "tokenomics": "The $BRROW token captures borrowing origination fees, liquidation rewards, and directs validator bribe gauges across Berachain.",
+    "sybilSafety": "Maintain active vaults with safe collateralization ratios above 160% across multiple testnet checkpoints.",
+    "steps": [
+      "Obtain Bartio testnet BERA from the official Berachain faucet.",
+      "Launch the BeraBorrow testnet dApp at beraborrow.com.",
+      "Deposit testnet BERA or iBGT into an active collateral vault.",
+      "Mint NECT stablecoins against your deposited collateral.",
+      "Deposit minted NECT into the Stability Pool to earn liquidation rewards and platform points.",
+      "Monitor your vault health factor and track accumulated contributor badges."
+    ],
+    "faqs": [
+      {
+        "question": "What is NECT?",
+        "answer": "NECT is an overcollateralized decentralized stablecoin native to Berachain, minted directly against yield-bearing crypto assets."
+      },
+      {
+        "question": "Is there any financial risk on testnet?",
+        "answer": "No, the current version operates on Berachain Bartio testnet using test tokens with zero financial risk."
+      }
+    ],
+    "tier": "Tier 1",
+    "cost": "Free (Testnet)",
+    "stage": "Public Testnet",
+    "timeCommitment": "10 mins weekly",
+    "snapshot": "Prior to Mainnet",
+    "estDate": "Q1 2027",
+    "socials": {
+      "twitter": "https://twitter.com/BeraBorrow",
+      "discord": "https://discord.gg/beraborrow",
+      "website": "https://beraborrow.com"
+    },
+    "isHot": true,
+    "isFeatured": false
   }
 ];
