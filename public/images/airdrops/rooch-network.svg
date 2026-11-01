@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" fill="none">
+  <defs>
+    <linearGradient id="roochGrad" x1="20" y1="20" x2="108" y2="108" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#F97316" />
+      <stop offset="50%" stop-color="#EA580C" />
+      <stop offset="100%" stop-color="#C2410C" />
+    </linearGradient>
+  </defs>
+  <rect width="128" height="128" rx="28" fill="#1F0E04" />
+  <!-- Move Execution Rocket / Pipeline -->
+  <circle cx="64" cy="64" r="42" stroke="url(#roochGrad)" stroke-width="3" />
+  <path d="M64 34L82 68H68V92H60V68H46L64 34Z" fill="url(#roochGrad)" />
+  <circle cx="64" cy="68" r="6" fill="#FED7AA" />
+</svg>

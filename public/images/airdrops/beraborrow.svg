@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" fill="none">
+  <defs>
+    <linearGradient id="bbGrad" x1="20" y1="20" x2="108" y2="108" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#FBBF24" />
+      <stop offset="100%" stop-color="#D97706" />
+    </linearGradient>
+  </defs>
+  <rect width="128" height="128" rx="28" fill="#201505" />
+  <!-- Shield Vault -->
+  <path d="M64 30L92 42V66C92 82 80 96 64 102C48 96 36 82 36 66V42L64 30Z" fill="url(#bbGrad)" />
+  <circle cx="64" cy="64" r="12" fill="#201505" />
+  <circle cx="64" cy="64" r="6" fill="#FDE68A" />
+</svg>

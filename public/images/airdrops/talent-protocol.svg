@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" fill="none">
+  <defs>
+    <linearGradient id="talentGrad" x1="24" y1="24" x2="104" y2="104" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#6366F1" />
+      <stop offset="100%" stop-color="#4F46E5" />
+    </linearGradient>
+  </defs>
+  <rect width="128" height="128" rx="28" fill="#0B0D1B" />
+  <circle cx="64" cy="64" r="44" stroke="url(#talentGrad)" stroke-width="3" />
+  <!-- Talent Badge / Star Icon -->
+  <path d="M64 32L72 52L94 56L78 72L82 94L64 84L46 94L50 72L34 56L56 52L64 32Z" fill="url(#talentGrad)" />
+  <circle cx="64" cy="64" r="8" fill="#FFFFFF" />
+</svg>

@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" fill="none">
+  <defs>
+    <linearGradient id="hpGrad" x1="20" y1="20" x2="108" y2="108" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#F59E0B" />
+      <stop offset="50%" stop-color="#D97706" />
+      <stop offset="100%" stop-color="#B45309" />
+    </linearGradient>
+  </defs>
+  <rect width="128" height="128" rx="28" fill="#1C1405" />
+  <circle cx="64" cy="64" r="42" stroke="url(#hpGrad)" stroke-width="4" stroke-dasharray="8 6" />
+  <!-- Honeycomb Pot -->
+  <path d="M44 48H84L90 76C90 88 78 96 64 96C50 96 38 88 38 76L44 48Z" fill="url(#hpGrad)" />
+  <path d="M40 44H88V48H40V44Z" rx="2" fill="#FCD34D" />
+  <circle cx="64" cy="72" r="10" fill="#1C1405" />
+  <circle cx="64" cy="72" r="6" fill="#FCD34D" />
+</svg>

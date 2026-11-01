@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" fill="none">
+  <defs>
+    <linearGradient id="ovmGrad" x1="20" y1="20" x2="108" y2="108" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#14B8A6" />
+      <stop offset="100%" stop-color="#0F766E" />
+    </linearGradient>
+  </defs>
+  <rect width="128" height="128" rx="28" fill="#041A18" />
+  <!-- VM Chip / Processor Core -->
+  <rect x="40" y="40" width="48" height="48" rx="10" stroke="url(#ovmGrad)" stroke-width="4" />
+  <path d="M40 52H28M40 64H28M40 76H28" stroke="url(#ovmGrad)" stroke-width="3" stroke-linecap="round" />
+  <path d="M88 52H100M88 64H100M88 76H100" stroke="url(#ovmGrad)" stroke-width="3" stroke-linecap="round" />
+  <path d="M52 40V28M64 40V28M76 40V28" stroke="url(#ovmGrad)" stroke-width="3" stroke-linecap="round" />
+  <path d="M52 88V100M64 88V100M76 88V100" stroke="url(#ovmGrad)" stroke-width="3" stroke-linecap="round" />
+  <circle cx="64" cy="64" r="10" fill="#5EEAD4" />
+</svg>

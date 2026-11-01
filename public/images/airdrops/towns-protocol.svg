@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" fill="none">
+  <defs>
+    <linearGradient id="townsGrad" x1="20" y1="20" x2="108" y2="108" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#06B6D4" />
+      <stop offset="100%" stop-color="#0284C7" />
+    </linearGradient>
+  </defs>
+  <rect width="128" height="128" rx="28" fill="#081822" />
+  <!-- City / Nodes Grid -->
+  <circle cx="64" cy="64" r="42" stroke="url(#townsGrad)" stroke-width="3" />
+  <rect x="42" y="58" width="16" height="34" rx="3" fill="url(#townsGrad)" />
+  <rect x="62" y="44" width="16" height="48" rx="3" fill="#38BDF8" />
+  <rect x="82" y="66" width="16" height="26" rx="3" fill="url(#townsGrad)" />
+  <circle cx="70" cy="36" r="4" fill="#E0F2FE" />
+</svg>

@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" fill="none">
+  <defs>
+    <linearGradient id="magmaGrad" x1="20" y1="20" x2="108" y2="108" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#FF5722" />
+      <stop offset="50%" stop-color="#E64A19" />
+      <stop offset="100%" stop-color="#BF360C" />
+    </linearGradient>
+  </defs>
+  <rect width="128" height="128" rx="28" fill="#1B0A06" />
+  <!-- Magma Flame / Liquid Drop -->
+  <circle cx="64" cy="64" r="42" stroke="url(#magmaGrad)" stroke-width="3" stroke-dasharray="6 4" />
+  <path d="M64 30C64 30 42 62 42 78C42 90.15 51.85 100 64 100C76.15 100 86 90.15 86 78C86 62 64 30 64 30Z" fill="url(#magmaGrad)" />
+  <circle cx="64" cy="80" r="12" fill="#FFA726" />
+</svg>

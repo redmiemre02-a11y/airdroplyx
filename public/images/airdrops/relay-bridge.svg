@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" fill="none">
+  <defs>
+    <linearGradient id="relayGrad" x1="20" y1="20" x2="108" y2="108" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#8B5CF6" />
+      <stop offset="100%" stop-color="#6D28D9" />
+    </linearGradient>
+  </defs>
+  <rect width="128" height="128" rx="28" fill="#130C24" />
+  <circle cx="64" cy="64" r="42" stroke="url(#relayGrad)" stroke-width="3" stroke-dasharray="6 4" />
+  <!-- Fast Bridge Arrows / Lightning -->
+  <path d="M68 34L40 68H64L60 94L88 60H64L68 34Z" fill="url(#relayGrad)" />
+</svg>

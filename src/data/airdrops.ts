@@ -38301,5 +38301,324 @@ export const airdrops: Airdrop[] = [
     },
     "isHot": true,
     "isFeatured": false
+  },
+  {
+    "id": "0g-labs",
+    "name": "0G Labs (ZeroGravity)",
+    "logo": "/images/airdrops/0g-labs.svg",
+    "description": "Modular AI blockchain and high-throughput data availability layer engineered for decentralized artificial intelligence.",
+    "reward": "0G Testnet Points & Potential Genesis Token Allocation",
+    "category": "Modular AI / DA",
+    "featured": true,
+    "status": "active",
+    "publishDate": "November 1, 2026",
+    "endTime": "Q1 2027",
+    "funding": "$35M+ from Hack VC, Delphi Digital, Stanford Blockchain & Alliance DAO",
+    "investors": [
+      "Hack VC",
+      "Delphi Digital",
+      "Stanford Blockchain",
+      "Alliance DAO"
+    ],
+    "refLink": "https://0g.ai",
+    "overview": "0G (ZeroGravity) is an ultra-scalable modular blockchain designed specifically for data-intensive decentralized AI models and high-throughput execution. By separating data storage from consensus and introducing a proprietary distributed storage network, 0G achieves gigabyte-per-second throughput while keeping on-chain publication costs orders of magnitude lower than conventional architectures.",
+    "strategy": "Acquire testnet A0GI tokens via the official 0G faucet. Run a storage node or light client, interact with the testnet scanning explorer, and execute file upload operations to accumulate on-chain proofs.",
+    "tokenomics": "0G tokens will secure the validator set, pay for high-throughput data availability publishing, and incentivize decentralized storage providers.",
+    "sybilSafety": "Avoid automated burst transactions. Ensure steady weekly interactions and verify identity through Discord node runner roles.",
+    "steps": [
+      "Visit the official 0G faucet and request testnet A0GI tokens to your Web3 wallet.",
+      "Connect to the 0G Newton testnet network via the official documentation RPC settings.",
+      "Access the 0G Storage CLI or Web UI to upload sample data payloads and mint data root proofs.",
+      "Stake or delegate testnet A0GI tokens to active validation operators on the testnet portal.",
+      "Join the 0G Discord server to verify your testnet node operator or community roles."
+    ],
+    "faqs": [
+      {
+        "question": "What makes 0G different from other modular DA layers?",
+        "answer": "0G splits data publishing and storage routing into parallel channels, enabling throughput necessary for real-time generative AI inference."
+      },
+      {
+        "question": "Do I need dedicated GPU hardware to participate?",
+        "answer": "Basic testnet faucet claiming, staking, and Web UI uploads require only a browser wallet. Storage node operators require standard server hardware."
+      }
+    ],
+    "tier": "Tier 1",
+    "cost": "Free",
+    "stage": "Testnet",
+    "timeCommitment": "15 mins",
+    "snapshot": "TBA 2027",
+    "isHot": true,
+    "isFeatured": true
+  },
+  {
+    "id": "zerobase-prover",
+    "name": "ZEROBASE",
+    "logo": "/images/airdrops/zerobase-prover.svg",
+    "description": "Decentralized cryptographic zero-knowledge prover network delivering sub-second proof generation and verifiable computing.",
+    "reward": "Prover Network Points & Early Testnet Rewards",
+    "category": "Zero Knowledge / Infra",
+    "featured": true,
+    "status": "active",
+    "publishDate": "November 1, 2026",
+    "endTime": "Q1 2027",
+    "funding": "$5M Seed Round from prominent Web3 cryptographic research funds",
+    "investors": [
+      "Dao5",
+      "SevenX Ventures",
+      "Mirana Ventures"
+    ],
+    "refLink": "https://zerobase.pro",
+    "overview": "ZEROBASE is building a privacy-preserving, lightning-fast decentralized ZK prover network. By coordinating distributed GPU and FPGA clusters with custom cryptographic acceleration, ZEROBASE delivers sub-second proof generation for rollups, cross-chain bridges, and confidential compute applications.",
+    "strategy": "Connect your wallet to the ZEROBASE testnet portal. Delegate compute power or participate in the testnet benchmarking tasks to earn prover credits.",
+    "tokenomics": "Native tokens are utilized for prover collateral, proof verification fees, and decentralized governance.",
+    "sybilSafety": "Use unique hardware signatures if running the prover client, and avoid running duplicate virtual machines from the same IP range.",
+    "steps": [
+      "Navigate to zerobase.pro and review the prover testnet guidelines.",
+      "Connect your Web3 wallet and claim testnet benchmark tasks.",
+      "Submit verifiable computation tasks through the browser-based prover playground.",
+      "Delegate testnet staking credits to high-uptime prover nodes.",
+      "Participate in community feedback channels to earn verifiable contributor badges."
+    ],
+    "faqs": [
+      {
+        "question": "Can retail users without specialized GPUs participate?",
+        "answer": "Yes, non-hardware users can participate by delegating staking credits to registered provers and testing Web-based proof verifications."
+      }
+    ],
+    "tier": "Tier 1",
+    "cost": "Free",
+    "stage": "Testnet",
+    "timeCommitment": "10 mins",
+    "snapshot": "Q1 2027",
+    "isHot": true
+  },
+  {
+    "id": "valence-protocol",
+    "name": "Valence Protocol",
+    "logo": "/images/airdrops/valence-protocol.svg",
+    "description": "Interchain economic agreement layer enabling programmatic financial partnerships, liquidity alliances, and automated cross-chain treasury execution.",
+    "reward": "Valence Treaty Points & Future Community Allocation",
+    "category": "Interchain / DeFi",
+    "featured": false,
+    "status": "active",
+    "publishDate": "November 1, 2026",
+    "endTime": "Q2 2027",
+    "funding": "Backed by the Interchain Foundation and modular DeFi venture syndicates",
+    "investors": [
+      "Interchain Foundation",
+      "Informal Systems",
+      "Chorus One"
+    ],
+    "refLink": "https://valence.zone",
+    "overview": "Valence is the economic relationship protocol for the modular era. Rather than relying on off-chain legal contracts or clunky multi-sig arrangements, Valence allows sovereign chains and DAOs to deploy programmatic economic treaties—such as shared liquidity pools, mutual token staking, and cross-ecosystem treasury diversification.",
+    "strategy": "Participate in testnet economic simulations, test cross-chain liquidity rebalancing modules, and engage in protocol governance discussions.",
+    "tokenomics": "Valence tokens secure the treaty execution coordination network and reward relayer nodes.",
+    "sybilSafety": "Avoid rapid-fire transactions; simulate realistic cross-chain rebalancing flows.",
+    "steps": [
+      "Visit the Valence testnet documentation and connect your testnet wallet.",
+      "Initialize a mock treasury rebalancing contract between two testnet sovereign chains.",
+      "Execute automated liquidity distribution treaties on the testnet dashboard.",
+      "Join the community governance forum to vote on simulated cross-chain economic proposals."
+    ],
+    "faqs": [
+      {
+        "question": "Which blockchains does Valence support?",
+        "answer": "Valence natively integrates IBC-enabled networks and modular EVM rollups via cross-chain messaging layers."
+      }
+    ],
+    "tier": "Tier 2",
+    "cost": "Free",
+    "stage": "Testnet",
+    "timeCommitment": "15 mins",
+    "snapshot": "Q2 2027"
+  },
+  {
+    "id": "openvm-network",
+    "name": "OpenVM",
+    "logo": "/images/airdrops/openvm-network.svg",
+    "description": "Modular and extensible zero-knowledge virtual machine (zkVM) supporting custom cryptographic extensions and high-efficiency Rust execution.",
+    "reward": "Builder XP & Ecosystem Contributor Allocation",
+    "category": "zkVM / Modular",
+    "featured": false,
+    "status": "active",
+    "publishDate": "November 1, 2026",
+    "endTime": "Q2 2027",
+    "funding": "Funded by Paradigm-affiliated researchers and modular cryptography grants",
+    "investors": [
+      "Paradigm Fellows",
+      "Modular Builders Collective"
+    ],
+    "refLink": "https://openvm.dev",
+    "overview": "OpenVM is an open-source, modular zkVM designed to overcome the rigidity of existing virtual machine architectures. Developers can add custom domain-specific opcodes and hardware acceleration extensions, significantly reducing proving overhead for specialized zero-knowledge rollups and decentralized applications.",
+    "strategy": "Run OpenVM Rust benchmark scripts, compile sample programs into verifiable proofs, and contribute to developer testing leaderboards.",
+    "tokenomics": "Tokens will govern opcode standardization, verify circuit libraries, and incentivize decentralized verification nodes.",
+    "sybilSafety": "Submit valid cryptographic proofs with verified GitHub commits or distinct wallet addresses.",
+    "steps": [
+      "Access the OpenVM developer repository at openvm.dev.",
+      "Compile and execute a sample Rust arithmetic program using the OpenVM SDK.",
+      "Generate a local zero-knowledge execution proof and submit the verification hash to the testnet tracker.",
+      "Participate in community benchmarking leaderboards to log verifiable compute cycles."
+    ],
+    "tier": "Tier 2",
+    "cost": "Free",
+    "stage": "Devnet / Testnet",
+    "timeCommitment": "20 mins",
+    "snapshot": "TBA 2027"
+  },
+  {
+    "id": "nebra-zk",
+    "name": "Nebra ZK",
+    "logo": "/images/airdrops/nebra-zk.svg",
+    "description": "Universal zero-knowledge proof aggregator compressing multiple ZK proofs into a single recursive proof to dramatically lower Ethereum verification costs.",
+    "reward": "Universal Proof Points & Verifier Rewards",
+    "category": "ZK Infrastructure",
+    "featured": true,
+    "status": "active",
+    "publishDate": "November 1, 2026",
+    "endTime": "Q1 2027",
+    "funding": "$4.5M Seed Round led by Nascent, Bankless Ventures, and Robot Ventures",
+    "investors": [
+      "Nascent",
+      "Bankless Ventures",
+      "Robot Ventures",
+      "Tim Beiko"
+    ],
+    "refLink": "https://nebra.one",
+    "overview": "Nebra is developing the Universal Proof Aggregator (UPA), an essential scaling primitive for Ethereum. By aggregating proofs from disparate ZK rollups, oracles, and zkVMs into a single batch verification on L1, Nebra cuts proof verification gas costs by over 90%.",
+    "strategy": "Test the Nebra proof aggregator demo on Sepolia, submit test proofs, and participate in community testing campaigns.",
+    "tokenomics": "Nebra governance and utility tokens will align incentives among proof submitters, aggregators, and decentralized verifier sets.",
+    "sybilSafety": "Submit genuine proof tasks with regular time intervals on the Sepolia testnet.",
+    "steps": [
+      "Navigate to the Nebra Universal Proof Aggregator portal on Sepolia testnet.",
+      "Connect your Web3 wallet and obtain Sepolia testnet ETH from a public faucet.",
+      "Select a sample Groth16 or Plonk proof and submit it to the aggregation batch pool.",
+      "Monitor the batch verification status on Etherscan and record the verified transaction hash.",
+      "Join the official Nebra community on Discord to submit feedback and claim early tester roles."
+    ],
+    "faqs": [
+      {
+        "question": "What is proof aggregation?",
+        "answer": "Proof aggregation combines several independent mathematical proofs into one recursive proof, allowing Ethereum to verify hundreds of proofs in a single transaction."
+      }
+    ],
+    "tier": "Tier 1",
+    "cost": "Free",
+    "stage": "Testnet",
+    "timeCommitment": "10 mins",
+    "snapshot": "Q1 2027",
+    "isHot": true
+  },
+  {
+    "id": "rooch-network",
+    "name": "Rooch Network",
+    "logo": "/images/airdrops/rooch-network.svg",
+    "description": "High-performance Bitcoin Layer 2 execution layer leveraging the Move language to bring smart contract programmability and native BTC asset staking.",
+    "reward": "Rooch Testnet Gas Tokens & Early Pioneer Points",
+    "category": "Bitcoin L2 / Move",
+    "featured": true,
+    "status": "active",
+    "publishDate": "November 1, 2026",
+    "endTime": "Q1 2027",
+    "funding": "Seed financing led by HashKey Capital, SevenX Ventures, and Antalpha Ventures",
+    "investors": [
+      "HashKey Capital",
+      "SevenX Ventures",
+      "Antalpha",
+      "Mask Network"
+    ],
+    "refLink": "https://rooch.network",
+    "overview": "Rooch Network connects the security of Bitcoin with the speed and safety of the Move smart contract language. By indexing all Bitcoin UTXOs and states into an off-chain verifiable Move execution environment, Rooch enables complex DeFi, NFTs, and multi-asset protocols without requiring hard forks to the Bitcoin base layer.",
+    "strategy": "Connect your Bitcoin testnet wallet to the Rooch testnet portal. Bridge testnet BTC, deploy sample Move modules, and stake testnet assets.",
+    "tokenomics": "Native tokens will fuel gas execution, validator staking, and governance over the Rooch decentralized sequencer.",
+    "sybilSafety": "Maintain active on-chain history on both Bitcoin Signet/testnet and the Rooch network.",
+    "steps": [
+      "Install a compatible Web3 wallet and configure the Rooch Pioneer testnet.",
+      "Obtain Bitcoin testnet sats from a verified testnet faucet.",
+      "Bridge testnet assets into Rooch via the official Rooch Bridge portal.",
+      "Execute swaps and liquidity operations on the native Move-powered testnet DEX.",
+      "Claim daily Pioneer check-in points on the Rooch Portal to build your consistency score."
+    ],
+    "faqs": [
+      {
+        "question": "Why use Move for a Bitcoin Layer 2?",
+        "answer": "Move provides object-centric asset safety, formally verified execution, and prevents common reentrancy vulnerabilities seen in traditional virtual machines."
+      }
+    ],
+    "tier": "Tier 1",
+    "cost": "Free",
+    "stage": "Testnet",
+    "timeCommitment": "15 mins",
+    "snapshot": "Q1 2027",
+    "isHot": true
+  },
+  {
+    "id": "term-structure-protocol",
+    "name": "Term Structure",
+    "logo": "/images/airdrops/term-structure-protocol.svg",
+    "description": "Non-custodial fixed-income DeFi protocol utilizing zk-Rollup orderbook execution to provide fixed-rate borrowing, lending, and bond trading.",
+    "reward": "Trading Points & Early Borrower Allocations",
+    "category": "Fixed-Rate DeFi / ZK",
+    "featured": false,
+    "status": "active",
+    "publishDate": "November 1, 2026",
+    "endTime": "Q2 2027",
+    "funding": "$4.25M Seed funding led by Cumberland, Decima Fund, and HashKey Capital",
+    "investors": [
+      "Cumberland",
+      "Decima Fund",
+      "HashKey Capital",
+      "MZ Web3 Fund"
+    ],
+    "refLink": "https://ts.finance",
+    "overview": "Term Structure addresses one of the most critical missing pillars in decentralized finance: a reliable fixed-rate lending and bond market. Using proprietary zk-Rollup execution, Term Structure delivers gas-free order placement and deterministic returns for institutional and retail capital.",
+    "strategy": "Deposit testnet collateral, place fixed-term lending bids, borrow against synthetic bonds, and maintain active orders in the orderbook.",
+    "tokenomics": "TS tokens will enable fee discounts, staking for insurance fund yields, and protocol parameter governance.",
+    "sybilSafety": "Place orders with varying expiration dates and avoid circular self-matching trades.",
+    "steps": [
+      "Connect your wallet to the Term Structure testnet application at ts.finance.",
+      "Claim testnet USDC and ETH collateral from the integrated faucet drawer.",
+      "Open a fixed-rate lending position with a 30-day or 90-day maturity date.",
+      "Borrow against collateralized debt tokens and trade synthetic bonds in the orderbook.",
+      "Monitor active positions and redeem matured yield vouchers upon term completion."
+    ],
+    "tier": "Tier 2",
+    "cost": "Free",
+    "stage": "Testnet",
+    "timeCommitment": "15 mins",
+    "snapshot": "Q2 2027"
+  },
+  {
+    "id": "tadle-market",
+    "name": "Tadle",
+    "logo": "/images/airdrops/tadle-market.svg",
+    "description": "Decentralized pre-market infrastructure allowing traders to monetize and hedge unreleased airdrop points and token vesting allocations.",
+    "reward": "Tadle Points & Maker/Taker Trading Incentives",
+    "category": "Pre-Market DeFi",
+    "featured": false,
+    "status": "active",
+    "publishDate": "November 1, 2026",
+    "endTime": "Q1 2027",
+    "funding": "$1.5M Seed Round from Web3 venture capital syndicates",
+    "investors": [
+      "Web3 Pre-Market Syndicate",
+      "Modular Angel Fund"
+    ],
+    "refLink": "https://tadle.com",
+    "overview": "Tadle provides a decentralized secondary marketplace for illiquid Web3 assets: unvested tokens, community airdrop points, and SAFT allocations. By using collateralized smart contracts, buyers and sellers can lock in prices and hedge risks before official Token Generation Events (TGE).",
+    "strategy": "Create limit buy or sell orders for popular testnet points, provide collateral to the settlement vaults, and refer early traders.",
+    "tokenomics": "Tadle tokens provide trading fee rebates, settlement dispute arbitration rights, and platform staking yield.",
+    "sybilSafety": "Do not execute opposing wash trades between linked wallets; use organic trade sizes.",
+    "steps": [
+      "Visit tadle.com and connect your Web3 wallet.",
+      "Explore the available points markets across emerging modular ecosystems.",
+      "Deposit collateral to mint a seller or buyer voucher contract.",
+      "Fulfill orders or list customized bids on the orderbook interface.",
+      "Track your trading volume on the rewards dashboard to earn weekly point allocations."
+    ],
+    "tier": "Tier 2",
+    "cost": "Free",
+    "stage": "Mainnet / Beta",
+    "timeCommitment": "15 mins",
+    "snapshot": "Q1 2027"
   }
 ];
