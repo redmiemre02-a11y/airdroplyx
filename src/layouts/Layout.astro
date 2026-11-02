@@ -34,6 +34,17 @@ const canonicalURL = new URL(Astro.url.pathname, Astro.site || "https://airdropl
 		<link rel="canonical" href={canonicalURL} />
 		<meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
 
+		<!-- Multi-Language SEO hreflang Alternates (Google International Standards) -->
+		<link rel="alternate" hreflang="x-default" href={canonicalURL} />
+		<link rel="alternate" hreflang="en" href={canonicalURL} />
+		<link rel="alternate" hreflang="tr" href={canonicalURL} />
+		<link rel="alternate" hreflang="ru" href={canonicalURL} />
+		<link rel="alternate" hreflang="es" href={canonicalURL} />
+		<link rel="alternate" hreflang="vi" href={canonicalURL} />
+		<link rel="alternate" hreflang="zh-CN" href={canonicalURL} />
+		<link rel="alternate" hreflang="de" href={canonicalURL} />
+		<link rel="alternate" hreflang="ja" href={canonicalURL} />
+
 		<!-- RSS Autodiscovery Feeds -->
 		<link rel="alternate" type="application/rss+xml" title="Airdroplyx - All Airdrops RSS Feed" href="https://airdroplyx.com/rss.xml" />
 		<link rel="alternate" type="application/rss+xml" title="Airdroplyx - Web3 News RSS Feed" href="https://airdroplyx.com/news/rss.xml" />
@@ -93,6 +104,75 @@ const canonicalURL = new URL(Astro.url.pathname, Astro.site || "https://airdropl
 				});
 			});
 		</script>
+
+		<!-- Multi-Language Engine (Google Translate Neural Integration) -->
+		<div id="google_translate_element" style="display:none"></div>
+		<style is:global>
+			.goog-te-banner-frame.skiptranslate, 
+			.goog-te-banner-frame { 
+				display: none !important; 
+			}
+			body { 
+				top: 0px !important; 
+				position: static !important;
+			}
+			.goog-te-gadget { 
+				display: none !important; 
+			}
+			.goog-te-gadget-simple {
+				display: none !important;
+			}
+			#goog-gt-tt, .goog-te-balloon-frame { 
+				display: none !important; 
+			}
+			.goog-text-highlight { 
+				background: none !important; 
+				box-shadow: none !important; 
+			}
+		</style>
+		<script is:inline>
+			// Global language switcher function accessible anywhere
+			window.changeAirdroplyxLanguage = function(langCode, flag, code) {
+				localStorage.setItem('airdroplyx_lang', langCode);
+				localStorage.setItem('airdroplyx_flag', flag);
+				localStorage.setItem('airdroplyx_code', code);
+				document.documentElement.lang = langCode;
+
+				const hostname = window.location.hostname;
+				const isDefault = langCode === 'en';
+				const cookieVal = isDefault ? '' : '/en/' + langCode;
+				const expires = isDefault ? 'expires=Thu, 01 Jan 1970 00:00:00 UTC;' : '';
+
+				document.cookie = 'googtrans=' + cookieVal + '; path=/; ' + expires;
+				if (hostname.includes('.')) {
+					document.cookie = 'googtrans=' + cookieVal + '; path=/; domain=' + hostname + '; ' + expires;
+					document.cookie = 'googtrans=' + cookieVal + '; path=/; domain=.' + hostname + '; ' + expires;
+				}
+
+				const selectEl = document.querySelector('.goog-te-combo');
+				if (selectEl) {
+					selectEl.value = langCode;
+					selectEl.dispatchEvent(new Event('change'));
+				} else {
+					window.location.reload();
+				}
+			};
+
+			window.googleTranslateElementInit = function() {
+				new google.translate.TranslateElement({
+					pageLanguage: 'en',
+					includedLanguages: 'en,tr,ru,es,vi,zh-CN,de,ja',
+					autoDisplay: false
+				}, 'google_translate_element');
+			};
+
+			// Sync html lang attribute early
+			const savedLang = localStorage.getItem('airdroplyx_lang');
+			if (savedLang) {
+				document.documentElement.lang = savedLang;
+			}
+		</script>
+		<script is:inline src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit" async defer></script>
 
 		<script is:inline>
 			if (localStorage.getItem('theme') === 'dark' || (!('theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
