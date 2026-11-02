@@ -29,12 +29,12 @@ export async function GET() {
       url: `/news/${n.slug}`
     })),
     pages: [
-      { type: 'page', id: 'home', title: 'Home (All 735+ Airdrops)', subtitle: 'Full Database & Filters', icon: '⚡', url: '/' },
+      { type: 'page', id: 'home', title: `Home (All ${airdrops.length} Airdrops)`, subtitle: 'Full Database & Filters', icon: '⚡', url: '/' },
       { type: 'page', id: 'watchlist', title: 'My Airdrop Watchlist & Tracker', subtitle: 'Personal Farming Checklist', icon: '⭐', url: '/watchlist' },
       { type: 'page', id: 'planner', title: 'Airdrop Farming Routine Planner', subtitle: 'Personalized Weekly Schedule', icon: '📅', url: '/farming-planner' },
       { type: 'page', id: 'sybil', title: 'Sybil Risk & Wallet Diagnostic', subtitle: 'Anti-Sybil Clustering Audit', icon: '🛡️', url: '/sybil-checker' },
       { type: 'page', id: 'faucets', title: 'Verified Testnet Faucets Directory', subtitle: 'Free MON, BERA, Sepolia ETH', icon: '🚰', url: '/faucets' },
-      { type: 'page', id: 'investors', title: 'VC Portfolios & Institutional Radar', subtitle: 'Paradigm, a16z, Binance Labs', icon: '🏛️', url: '/investors' },
+      { type: 'page', id: 'investors', title: 'VC Portfolios & Institutional Radar', subtitle: 'Top Tier Institutional Web3 Funds', icon: '🏛️', url: '/investors' },
       { type: 'page', id: 'unlocks', title: 'Token Unlocks & Vesting Radar', subtitle: 'Cliff Dates & Sell-Pressure Intel', icon: '🔓', url: '/unlocks' },
       { type: 'page', id: 'gas', title: 'Real-Time Gas Tracker & Heatmap', subtitle: 'Multi-Chain Gas Fees & Cheap Hours', icon: '⛽', url: '/gas-tracker' },
       { type: 'page', id: 'compare', title: 'Protocol Comparison Matrix', subtitle: 'Side-by-Side Airdrop Kıyaslama', icon: '⚖️', url: '/compare' },
@@ -43,8 +43,8 @@ export async function GET() {
       { type: 'page', id: 'quiz', title: 'Airdrop Hunter Certification Quiz', subtitle: 'Official Web3 Knowledge Test', icon: '🏆', url: '/academy/quiz' },
       { type: 'page', id: 'glossary', title: 'Web3 & Airdrop Glossary', subtitle: 'Encyclopedia of 50+ Terms', icon: '📚', url: '/glossary' },
       { type: 'page', id: 'ecosystems', title: 'Ecosystem Hubs', subtitle: 'Ethereum, Solana, Cosmos, L2s', icon: '🌐', url: '/ecosystems' },
-      { type: 'page', id: 'news', title: 'News Hub', subtitle: 'Verified Market Alpha', icon: '📰', url: '/news' },
-      { type: 'page', id: 'academy', title: 'Airdrop Academy', subtitle: '90 Web3 Masterclasses', icon: '🎓', url: '/academy' }
+      { type: 'page', id: 'news', title: 'News Hub', subtitle: `${newsArticles.length} Verified Alpha Stories`, icon: '📰', url: '/news' },
+      { type: 'page', id: 'academy', title: 'Airdrop Academy', subtitle: `${academyArticles.length} Web3 Masterclasses`, icon: '🎓', url: '/academy' }
     ]
   };
 
