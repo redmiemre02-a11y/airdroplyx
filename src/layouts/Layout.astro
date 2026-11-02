@@ -44,6 +44,12 @@ const canonicalURL = new URL(Astro.url.pathname, Astro.site || "https://airdropl
 		<link rel="alternate" hreflang="zh-CN" href={canonicalURL} />
 		<link rel="alternate" hreflang="de" href={canonicalURL} />
 		<link rel="alternate" hreflang="ja" href={canonicalURL} />
+		<link rel="alternate" hreflang="ko" href={canonicalURL} />
+		<link rel="alternate" hreflang="fr" href={canonicalURL} />
+		<link rel="alternate" hreflang="pt" href={canonicalURL} />
+		<link rel="alternate" hreflang="id" href={canonicalURL} />
+		<link rel="alternate" hreflang="uk" href={canonicalURL} />
+		<link rel="alternate" hreflang="ar" href={canonicalURL} />
 
 		<!-- RSS Autodiscovery Feeds -->
 		<link rel="alternate" type="application/rss+xml" title="Airdroplyx - All Airdrops RSS Feed" href="https://airdroplyx.com/rss.xml" />
@@ -106,24 +112,28 @@ const canonicalURL = new URL(Astro.url.pathname, Astro.site || "https://airdropl
 		</script>
 
 		<!-- Multi-Language Engine (Google Translate Neural Integration) -->
-		<div id="google_translate_element" style="display:none"></div>
+		<div id="google_translate_element" style="position:absolute;left:-9999px;top:-9999px;width:1px;height:1px;overflow:hidden;opacity:0;pointer-events:none;" aria-hidden="true"></div>
 		<style is:global>
 			.goog-te-banner-frame.skiptranslate, 
-			.goog-te-banner-frame { 
+			.goog-te-banner-frame,
+			iframe.goog-te-banner-frame { 
 				display: none !important; 
+				visibility: hidden !important;
+				height: 0 !important;
 			}
 			body { 
 				top: 0px !important; 
 				position: static !important;
 			}
-			.goog-te-gadget { 
+			.goog-te-gadget,
+			.goog-te-gadget-simple,
+			#goog-gt-tt, 
+			.goog-te-balloon-frame,
+			.VIpgJd-ZVi9od-ORHb-OEVmcd,
+			.VIpgJd-ZVi9od-aZ2wEe-wOHMyf,
+			.VIpgJd-ZVi9od-aZ2wEe-OiiCO { 
 				display: none !important; 
-			}
-			.goog-te-gadget-simple {
-				display: none !important;
-			}
-			#goog-gt-tt, .goog-te-balloon-frame { 
-				display: none !important; 
+				visibility: hidden !important;
 			}
 			.goog-text-highlight { 
 				background: none !important; 
@@ -131,37 +141,53 @@ const canonicalURL = new URL(Astro.url.pathname, Astro.site || "https://airdropl
 			}
 		</style>
 		<script is:inline>
-			// Global language switcher function accessible anywhere
+			// Bulletproof global language switcher function
 			window.changeAirdroplyxLanguage = function(langCode, flag, code) {
 				localStorage.setItem('airdroplyx_lang', langCode);
 				localStorage.setItem('airdroplyx_flag', flag);
 				localStorage.setItem('airdroplyx_code', code);
 				document.documentElement.lang = langCode;
 
-				const hostname = window.location.hostname;
-				const isDefault = langCode === 'en';
-				const cookieVal = isDefault ? '' : '/en/' + langCode;
-				const expires = isDefault ? 'expires=Thu, 01 Jan 1970 00:00:00 UTC;' : '';
-
-				document.cookie = 'googtrans=' + cookieVal + '; path=/; ' + expires;
-				if (hostname.includes('.')) {
-					document.cookie = 'googtrans=' + cookieVal + '; path=/; domain=' + hostname + '; ' + expires;
-					document.cookie = 'googtrans=' + cookieVal + '; path=/; domain=.' + hostname + '; ' + expires;
+				const isEn = langCode === 'en';
+				const cookieVal = isEn ? '' : '/en/' + langCode;
+				const expiresDate = isEn 
+					? 'expires=Thu, 01 Jan 1970 00:00:00 UTC;' 
+					: 'expires=' + new Date(Date.now() + 365*24*60*60*1000).toUTCString() + ';';
+				
+				const host = window.location.hostname;
+				const hostParts = host ? host.split('.') : [];
+				const domains = [''];
+				if (host) {
+					domains.push(host);
+					domains.push('.' + host);
+				}
+				if (hostParts.length >= 2) {
+					const rootDomain = hostParts.slice(-2).join('.');
+					if (rootDomain !== host) {
+						domains.push(rootDomain);
+						domains.push('.' + rootDomain);
+					}
 				}
 
-				const selectEl = document.querySelector('.goog-te-combo');
-				if (selectEl) {
-					selectEl.value = langCode;
-					selectEl.dispatchEvent(new Event('change'));
-				} else {
-					window.location.reload();
-				}
+				domains.forEach(function(d) {
+					const domAttr = d ? ' domain=' + d + ';' : '';
+					if (isEn) {
+						document.cookie = 'googtrans=; path=/; ' + expiresDate + domAttr;
+						document.cookie = 'googtrans=none; path=/; ' + expiresDate + domAttr;
+						document.cookie = 'googtransopt=; path=/; ' + expiresDate + domAttr;
+					} else {
+						document.cookie = 'googtrans=' + cookieVal + '; path=/; ' + expiresDate + domAttr;
+					}
+				});
+
+				// Instant clean reload to guarantee flawless Google Translation and zero DOM corruption
+				window.location.reload();
 			};
 
 			window.googleTranslateElementInit = function() {
 				new google.translate.TranslateElement({
 					pageLanguage: 'en',
-					includedLanguages: 'en,tr,ru,es,vi,zh-CN,de,ja',
+					includedLanguages: 'en,tr,ru,es,vi,zh-CN,de,ja,ko,fr,pt,id,uk,ar',
 					autoDisplay: false
 				}, 'google_translate_element');
 			};

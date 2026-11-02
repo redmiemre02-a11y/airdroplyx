@@ -74,7 +74,7 @@ import { airdrops } from '../data/airdrops';
         <button 
           type="button" 
           id="lang-btn"
-          class="flex items-center gap-1.5 px-3 py-1.5 rounded-full text-xs font-bold bg-slate-100 hover:bg-slate-200 dark:bg-slate-800 dark:hover:bg-slate-700 text-slate-700 dark:text-slate-200 border border-slate-200 dark:border-slate-700 transition-colors shadow-sm"
+          class="flex items-center gap-1.5 px-3 py-1.5 rounded-full text-xs font-bold bg-slate-100 hover:bg-slate-200 dark:bg-slate-800 dark:hover:bg-slate-700 text-slate-700 dark:text-slate-200 border border-slate-200 dark:border-slate-700 transition-colors shadow-sm cursor-pointer"
           title="Select Language / Dil Seçin"
         >
           <span id="current-lang-flag">🌐</span>
@@ -85,38 +85,61 @@ import { airdrops } from '../data/airdrops';
         <!-- Dropdown Menu -->
         <div 
           id="lang-menu" 
-          class="hidden absolute right-0 mt-2 w-52 bg-white/95 dark:bg-slate-900/95 backdrop-blur-md border border-slate-200 dark:border-slate-800 rounded-2xl shadow-2xl py-1.5 z-50 overflow-hidden"
+          class="hidden absolute right-0 mt-2 w-56 max-h-[460px] overflow-y-auto bg-white/95 dark:bg-slate-900/95 backdrop-blur-md border border-slate-200 dark:border-slate-800 rounded-2xl shadow-2xl py-1.5 z-50 divide-y divide-slate-100 dark:divide-slate-800/40"
         >
-          <div class="px-3.5 py-1.5 text-[10px] font-black uppercase tracking-wider text-slate-400 border-b border-slate-100 dark:border-slate-800">
-            Language / Dil Seçimi
+          <div class="px-3.5 py-1.5 text-[10px] font-black uppercase tracking-wider text-slate-400 bg-slate-50/80 dark:bg-slate-800/80 sticky top-0 backdrop-blur-sm z-10 flex items-center justify-between">
+            <span>Language / Dil Seçimi</span>
+            <span class="text-[9px] font-bold text-blue-600 dark:text-blue-400">14 Languages</span>
           </div>
-          <button type="button" class="lang-item w-full flex items-center justify-between px-3.5 py-2 text-xs font-semibold text-slate-700 dark:text-slate-200 hover:bg-blue-50 dark:hover:bg-slate-800 transition-colors" data-lang="en" data-flag="🇬🇧" data-code="EN">
-            <span class="flex items-center gap-2.5"><span>🇬🇧</span> English</span>
-            <span class="lang-active-check text-blue-600 font-black">✓</span>
-          </button>
-          <button type="button" class="lang-item w-full flex items-center justify-between px-3.5 py-2 text-xs font-semibold text-slate-700 dark:text-slate-200 hover:bg-blue-50 dark:hover:bg-slate-800 transition-colors" data-lang="tr" data-flag="🇹🇷" data-code="TR">
-            <span class="flex items-center gap-2.5"><span>🇹🇷</span> Türkçe</span>
-            <span class="text-[10px] text-emerald-500 font-bold">Popüler</span>
-          </button>
-          <button type="button" class="lang-item w-full flex items-center justify-between px-3.5 py-2 text-xs font-semibold text-slate-700 dark:text-slate-200 hover:bg-blue-50 dark:hover:bg-slate-800 transition-colors" data-lang="ru" data-flag="🇷🇺" data-code="RU">
-            <span class="flex items-center gap-2.5"><span>🇷🇺</span> Русский</span>
-            <span class="text-[10px] text-blue-500 font-bold">Alpha</span>
-          </button>
-          <button type="button" class="lang-item w-full flex items-center justify-between px-3.5 py-2 text-xs font-semibold text-slate-700 dark:text-slate-200 hover:bg-blue-50 dark:hover:bg-slate-800 transition-colors" data-lang="es" data-flag="🇪🇸" data-code="ES">
-            <span class="flex items-center gap-2.5"><span>🇪🇸</span> Español</span>
-          </button>
-          <button type="button" class="lang-item w-full flex items-center justify-between px-3.5 py-2 text-xs font-semibold text-slate-700 dark:text-slate-200 hover:bg-blue-50 dark:hover:bg-slate-800 transition-colors" data-lang="vi" data-flag="🇻🇳" data-code="VI">
-            <span class="flex items-center gap-2.5"><span>🇻🇳</span> Tiếng Việt</span>
-          </button>
-          <button type="button" class="lang-item w-full flex items-center justify-between px-3.5 py-2 text-xs font-semibold text-slate-700 dark:text-slate-200 hover:bg-blue-50 dark:hover:bg-slate-800 transition-colors" data-lang="zh-CN" data-flag="🇨🇳" data-code="ZH">
-            <span class="flex items-center gap-2.5"><span>🇨🇳</span> 简体中文</span>
-          </button>
-          <button type="button" class="lang-item w-full flex items-center justify-between px-3.5 py-2 text-xs font-semibold text-slate-700 dark:text-slate-200 hover:bg-blue-50 dark:hover:bg-slate-800 transition-colors" data-lang="de" data-flag="🇩🇪" data-code="DE">
-            <span class="flex items-center gap-2.5"><span>🇩🇪</span> Deutsch</span>
-          </button>
-          <button type="button" class="lang-item w-full flex items-center justify-between px-3.5 py-2 text-xs font-semibold text-slate-700 dark:text-slate-200 hover:bg-blue-50 dark:hover:bg-slate-800 transition-colors" data-lang="ja" data-flag="🇯🇵" data-code="JA">
-            <span class="flex items-center gap-2.5"><span>🇯🇵</span> 日本語</span>
-          </button>
+          <div class="py-1">
+            <button type="button" class="lang-item w-full flex items-center justify-between px-3.5 py-2 text-xs font-semibold text-slate-700 dark:text-slate-200 hover:bg-blue-50 dark:hover:bg-slate-800 transition-colors cursor-pointer text-left" data-lang="en" data-flag="🇬🇧" data-code="EN">
+              <span class="flex items-center gap-2.5"><span>🇬🇧</span> English</span>
+              <span class="lang-active-check text-blue-600 dark:text-blue-400 font-black">✓</span>
+            </button>
+            <button type="button" class="lang-item w-full flex items-center justify-between px-3.5 py-2 text-xs font-semibold text-slate-700 dark:text-slate-200 hover:bg-blue-50 dark:hover:bg-slate-800 transition-colors cursor-pointer text-left" data-lang="tr" data-flag="🇹🇷" data-code="TR">
+              <span class="flex items-center gap-2.5"><span>🇹🇷</span> Türkçe</span>
+              <span class="text-[10px] text-emerald-500 font-bold">Popüler</span>
+            </button>
+            <button type="button" class="lang-item w-full flex items-center justify-between px-3.5 py-2 text-xs font-semibold text-slate-700 dark:text-slate-200 hover:bg-blue-50 dark:hover:bg-slate-800 transition-colors cursor-pointer text-left" data-lang="ru" data-flag="🇷🇺" data-code="RU">
+              <span class="flex items-center gap-2.5"><span>🇷🇺</span> Русский</span>
+              <span class="text-[10px] text-blue-500 font-bold">Alpha</span>
+            </button>
+            <button type="button" class="lang-item w-full flex items-center justify-between px-3.5 py-2 text-xs font-semibold text-slate-700 dark:text-slate-200 hover:bg-blue-50 dark:hover:bg-slate-800 transition-colors cursor-pointer text-left" data-lang="es" data-flag="🇪🇸" data-code="ES">
+              <span class="flex items-center gap-2.5"><span>🇪🇸</span> Español</span>
+            </button>
+            <button type="button" class="lang-item w-full flex items-center justify-between px-3.5 py-2 text-xs font-semibold text-slate-700 dark:text-slate-200 hover:bg-blue-50 dark:hover:bg-slate-800 transition-colors cursor-pointer text-left" data-lang="vi" data-flag="🇻🇳" data-code="VI">
+              <span class="flex items-center gap-2.5"><span>🇻🇳</span> Tiếng Việt</span>
+              <span class="text-[10px] text-amber-500 font-bold">Airdrop</span>
+            </button>
+            <button type="button" class="lang-item w-full flex items-center justify-between px-3.5 py-2 text-xs font-semibold text-slate-700 dark:text-slate-200 hover:bg-blue-50 dark:hover:bg-slate-800 transition-colors cursor-pointer text-left" data-lang="zh-CN" data-flag="🇨🇳" data-code="ZH">
+              <span class="flex items-center gap-2.5"><span>🇨🇳</span> 简体中文</span>
+            </button>
+            <button type="button" class="lang-item w-full flex items-center justify-between px-3.5 py-2 text-xs font-semibold text-slate-700 dark:text-slate-200 hover:bg-blue-50 dark:hover:bg-slate-800 transition-colors cursor-pointer text-left" data-lang="de" data-flag="🇩🇪" data-code="DE">
+              <span class="flex items-center gap-2.5"><span>🇩🇪</span> Deutsch</span>
+            </button>
+            <button type="button" class="lang-item w-full flex items-center justify-between px-3.5 py-2 text-xs font-semibold text-slate-700 dark:text-slate-200 hover:bg-blue-50 dark:hover:bg-slate-800 transition-colors cursor-pointer text-left" data-lang="ja" data-flag="🇯🇵" data-code="JA">
+              <span class="flex items-center gap-2.5"><span>🇯🇵</span> 日本語</span>
+            </button>
+            <button type="button" class="lang-item w-full flex items-center justify-between px-3.5 py-2 text-xs font-semibold text-slate-700 dark:text-slate-200 hover:bg-blue-50 dark:hover:bg-slate-800 transition-colors cursor-pointer text-left" data-lang="ko" data-flag="🇰🇷" data-code="KO">
+              <span class="flex items-center gap-2.5"><span>🇰🇷</span> 한국어</span>
+              <span class="text-[10px] text-indigo-500 font-bold">Web3</span>
+            </button>
+            <button type="button" class="lang-item w-full flex items-center justify-between px-3.5 py-2 text-xs font-semibold text-slate-700 dark:text-slate-200 hover:bg-blue-50 dark:hover:bg-slate-800 transition-colors cursor-pointer text-left" data-lang="fr" data-flag="🇫🇷" data-code="FR">
+              <span class="flex items-center gap-2.5"><span>🇫🇷</span> Français</span>
+            </button>
+            <button type="button" class="lang-item w-full flex items-center justify-between px-3.5 py-2 text-xs font-semibold text-slate-700 dark:text-slate-200 hover:bg-blue-50 dark:hover:bg-slate-800 transition-colors cursor-pointer text-left" data-lang="pt" data-flag="🇧🇷" data-code="PT">
+              <span class="flex items-center gap-2.5"><span>🇧🇷</span> Português</span>
+            </button>
+            <button type="button" class="lang-item w-full flex items-center justify-between px-3.5 py-2 text-xs font-semibold text-slate-700 dark:text-slate-200 hover:bg-blue-50 dark:hover:bg-slate-800 transition-colors cursor-pointer text-left" data-lang="id" data-flag="🇮🇩" data-code="ID">
+              <span class="flex items-center gap-2.5"><span>🇮🇩</span> Indonesia</span>
+            </button>
+            <button type="button" class="lang-item w-full flex items-center justify-between px-3.5 py-2 text-xs font-semibold text-slate-700 dark:text-slate-200 hover:bg-blue-50 dark:hover:bg-slate-800 transition-colors cursor-pointer text-left" data-lang="uk" data-flag="🇺🇦" data-code="UK">
+              <span class="flex items-center gap-2.5"><span>🇺🇦</span> Українська</span>
+            </button>
+            <button type="button" class="lang-item w-full flex items-center justify-between px-3.5 py-2 text-xs font-semibold text-slate-700 dark:text-slate-200 hover:bg-blue-50 dark:hover:bg-slate-800 transition-colors cursor-pointer text-left" data-lang="ar" data-flag="🇸🇦" data-code="AR">
+              <span class="flex items-center gap-2.5"><span>🇸🇦</span> العربية</span>
+            </button>
+          </div>
         </div>
       </div>
       
@@ -141,18 +164,25 @@ import { airdrops } from '../data/airdrops';
   <div id="mobile-menu" class="hidden lg:hidden bg-white dark:bg-slate-900 border-t border-slate-200 dark:border-slate-800 px-4 py-3 shadow-xl">
     <!-- Mobile Language Selector Row -->
     <div class="mb-3 pb-3 border-b border-slate-100 dark:border-slate-800">
-      <div class="text-[11px] font-black uppercase tracking-wider text-slate-400 mb-2">
-        Language / Dil Seçimi
+      <div class="flex items-center justify-between mb-2">
+        <span class="text-[11px] font-black uppercase tracking-wider text-slate-400">Language / Dil Seçimi</span>
+        <span class="text-[10px] text-blue-600 dark:text-blue-400 font-bold">14 Dilde Çeviri</span>
       </div>
-      <div class="flex flex-wrap gap-1.5">
-        <button type="button" class="mobile-lang-btn px-2.5 py-1 rounded-lg text-xs font-bold border border-slate-200 dark:border-slate-700 bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300" data-lang="en" data-flag="🇬🇧" data-code="EN">🇬🇧 EN</button>
-        <button type="button" class="mobile-lang-btn px-2.5 py-1 rounded-lg text-xs font-bold border border-slate-200 dark:border-slate-700 bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300" data-lang="tr" data-flag="🇹🇷" data-code="TR">🇹🇷 TR</button>
-        <button type="button" class="mobile-lang-btn px-2.5 py-1 rounded-lg text-xs font-bold border border-slate-200 dark:border-slate-700 bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300" data-lang="ru" data-flag="🇷🇺" data-code="RU">🇷🇺 RU</button>
-        <button type="button" class="mobile-lang-btn px-2.5 py-1 rounded-lg text-xs font-bold border border-slate-200 dark:border-slate-700 bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300" data-lang="es" data-flag="🇪🇸" data-code="ES">🇪🇸 ES</button>
-        <button type="button" class="mobile-lang-btn px-2.5 py-1 rounded-lg text-xs font-bold border border-slate-200 dark:border-slate-700 bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300" data-lang="vi" data-flag="🇻🇳" data-code="VI">🇻🇳 VI</button>
-        <button type="button" class="mobile-lang-btn px-2.5 py-1 rounded-lg text-xs font-bold border border-slate-200 dark:border-slate-700 bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300" data-lang="zh-CN" data-flag="🇨🇳" data-code="ZH">🇨🇳 ZH</button>
-        <button type="button" class="mobile-lang-btn px-2.5 py-1 rounded-lg text-xs font-bold border border-slate-200 dark:border-slate-700 bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300" data-lang="de" data-flag="🇩🇪" data-code="DE">🇩🇪 DE</button>
-        <button type="button" class="mobile-lang-btn px-2.5 py-1 rounded-lg text-xs font-bold border border-slate-200 dark:border-slate-700 bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300" data-lang="ja" data-flag="🇯🇵" data-code="JA">🇯🇵 JA</button>
+      <div class="grid grid-cols-4 sm:grid-cols-7 gap-1.5">
+        <button type="button" class="mobile-lang-btn px-2 py-1.5 rounded-lg text-xs font-bold border border-slate-200 dark:border-slate-700 bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 flex items-center justify-center gap-1 cursor-pointer" data-lang="en" data-flag="🇬🇧" data-code="EN">🇬🇧 EN</button>
+        <button type="button" class="mobile-lang-btn px-2 py-1.5 rounded-lg text-xs font-bold border border-slate-200 dark:border-slate-700 bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 flex items-center justify-center gap-1 cursor-pointer" data-lang="tr" data-flag="🇹🇷" data-code="TR">🇹🇷 TR</button>
+        <button type="button" class="mobile-lang-btn px-2 py-1.5 rounded-lg text-xs font-bold border border-slate-200 dark:border-slate-700 bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 flex items-center justify-center gap-1 cursor-pointer" data-lang="ru" data-flag="🇷🇺" data-code="RU">🇷🇺 RU</button>
+        <button type="button" class="mobile-lang-btn px-2 py-1.5 rounded-lg text-xs font-bold border border-slate-200 dark:border-slate-700 bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 flex items-center justify-center gap-1 cursor-pointer" data-lang="es" data-flag="🇪🇸" data-code="ES">🇪🇸 ES</button>
+        <button type="button" class="mobile-lang-btn px-2 py-1.5 rounded-lg text-xs font-bold border border-slate-200 dark:border-slate-700 bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 flex items-center justify-center gap-1 cursor-pointer" data-lang="vi" data-flag="🇻🇳" data-code="VI">🇻🇳 VI</button>
+        <button type="button" class="mobile-lang-btn px-2 py-1.5 rounded-lg text-xs font-bold border border-slate-200 dark:border-slate-700 bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 flex items-center justify-center gap-1 cursor-pointer" data-lang="zh-CN" data-flag="🇨🇳" data-code="ZH">🇨🇳 ZH</button>
+        <button type="button" class="mobile-lang-btn px-2 py-1.5 rounded-lg text-xs font-bold border border-slate-200 dark:border-slate-700 bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 flex items-center justify-center gap-1 cursor-pointer" data-lang="de" data-flag="🇩🇪" data-code="DE">🇩🇪 DE</button>
+        <button type="button" class="mobile-lang-btn px-2 py-1.5 rounded-lg text-xs font-bold border border-slate-200 dark:border-slate-700 bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 flex items-center justify-center gap-1 cursor-pointer" data-lang="ja" data-flag="🇯🇵" data-code="JA">🇯🇵 JA</button>
+        <button type="button" class="mobile-lang-btn px-2 py-1.5 rounded-lg text-xs font-bold border border-slate-200 dark:border-slate-700 bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 flex items-center justify-center gap-1 cursor-pointer" data-lang="ko" data-flag="🇰🇷" data-code="KO">🇰🇷 KO</button>
+        <button type="button" class="mobile-lang-btn px-2 py-1.5 rounded-lg text-xs font-bold border border-slate-200 dark:border-slate-700 bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 flex items-center justify-center gap-1 cursor-pointer" data-lang="fr" data-flag="🇫🇷" data-code="FR">🇫🇷 FR</button>
+        <button type="button" class="mobile-lang-btn px-2 py-1.5 rounded-lg text-xs font-bold border border-slate-200 dark:border-slate-700 bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 flex items-center justify-center gap-1 cursor-pointer" data-lang="pt" data-flag="🇧🇷" data-code="PT">🇧🇷 PT</button>
+        <button type="button" class="mobile-lang-btn px-2 py-1.5 rounded-lg text-xs font-bold border border-slate-200 dark:border-slate-700 bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 flex items-center justify-center gap-1 cursor-pointer" data-lang="id" data-flag="🇮🇩" data-code="ID">🇮🇩 ID</button>
+        <button type="button" class="mobile-lang-btn px-2 py-1.5 rounded-lg text-xs font-bold border border-slate-200 dark:border-slate-700 bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 flex items-center justify-center gap-1 cursor-pointer" data-lang="uk" data-flag="🇺🇦" data-code="UK">🇺🇦 UK</button>
+        <button type="button" class="mobile-lang-btn px-2 py-1.5 rounded-lg text-xs font-bold border border-slate-200 dark:border-slate-700 bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 flex items-center justify-center gap-1 cursor-pointer" data-lang="ar" data-flag="🇸🇦" data-code="AR">🇸🇦 AR</button>
       </div>
     </div>
 
@@ -212,9 +242,10 @@ import { airdrops } from '../data/airdrops';
   if (currentCode) currentCode.textContent = savedCode;
 
   // Highlight active language in desktop dropdown & mobile pills
-  function highlightActiveLang() {
+  function highlightActiveLang(activeLang) {
+    const lang = activeLang || localStorage.getItem('airdroplyx_lang') || 'en';
     document.querySelectorAll('.lang-item').forEach(item => {
-      const isCurrent = item.dataset.lang === savedLang;
+      const isCurrent = item.dataset.lang === lang;
       const checkEl = item.querySelector('.lang-active-check');
       if (checkEl) {
         checkEl.style.display = isCurrent ? 'inline' : 'none';
@@ -227,16 +258,16 @@ import { airdrops } from '../data/airdrops';
     });
 
     document.querySelectorAll('.mobile-lang-btn').forEach(btn => {
-      if (btn.dataset.lang === savedLang) {
-        btn.classList.add('bg-blue-600', 'text-white', 'border-blue-600');
+      if (btn.dataset.lang === lang) {
+        btn.classList.add('bg-blue-600', 'text-white', 'border-blue-600', 'shadow-sm');
         btn.classList.remove('bg-slate-100', 'dark:bg-slate-800', 'text-slate-700', 'dark:text-slate-300');
       } else {
-        btn.classList.remove('bg-blue-600', 'text-white', 'border-blue-600');
+        btn.classList.remove('bg-blue-600', 'text-white', 'border-blue-600', 'shadow-sm');
         btn.classList.add('bg-slate-100', 'dark:bg-slate-800', 'text-slate-700', 'dark:text-slate-300');
       }
     });
   }
-  highlightActiveLang();
+  highlightActiveLang(savedLang);
 
   if (langBtn && langMenu) {
     langBtn.addEventListener('click', (e) => {
@@ -256,6 +287,9 @@ import { airdrops } from '../data/airdrops';
         const flag = item.dataset.flag;
         const code = item.dataset.code;
         langMenu.classList.add('hidden');
+        if (currentFlag) currentFlag.textContent = flag;
+        if (currentCode) currentCode.textContent = code;
+        highlightActiveLang(lang);
         if (typeof window.changeAirdroplyxLanguage === 'function') {
           window.changeAirdroplyxLanguage(lang, flag, code);
         }
@@ -269,6 +303,9 @@ import { airdrops } from '../data/airdrops';
       const lang = btn.dataset.lang;
       const flag = btn.dataset.flag;
       const code = btn.dataset.code;
+      if (currentFlag) currentFlag.textContent = flag;
+      if (currentCode) currentCode.textContent = code;
+      highlightActiveLang(lang);
       if (typeof window.changeAirdroplyxLanguage === 'function') {
         window.changeAirdroplyxLanguage(lang, flag, code);
       }
