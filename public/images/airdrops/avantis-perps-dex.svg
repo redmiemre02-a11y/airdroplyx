@@ -1,0 +1,17 @@
+<svg viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="100" height="100" rx="24" fill="#0B132B"/>
+  <circle cx="50" cy="50" r="36" fill="url(#avantis_glow)" fill-opacity="0.3"/>
+  <!-- Dynamic Chevron Surge (Avantis Leverage) -->
+  <path d="M26 68L50 26L74 68L50 54L26 68Z" fill="url(#avantis_grad)"/>
+  <path d="M38 74L50 64L62 74L50 68L38 74Z" fill="#6FFFE9"/>
+  <defs>
+    <linearGradient id="avantis_grad" x1="26" y1="26" x2="74" y2="68" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#48E5C2"/>
+      <stop offset="1" stop-color="#3AAFA9"/>
+    </linearGradient>
+    <radialGradient id="avantis_glow" cx="50" cy="50" r="36" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#48E5C2"/>
+      <stop offset="1" stop-color="#0B132B" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+</svg>

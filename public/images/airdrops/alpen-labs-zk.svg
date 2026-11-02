@@ -1,0 +1,22 @@
+<svg viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="100" height="100" rx="24" fill="#0D1117"/>
+  <circle cx="50" cy="50" r="36" fill="url(#alpen_glow)" fill-opacity="0.3"/>
+  <!-- Mountain Peaks representing Alpen / Bitcoin ZK -->
+  <path d="M50 20L22 70H78L50 20Z" fill="url(#alpen_grad)"/>
+  <path d="M50 20L40 38L50 44L60 38L50 20Z" fill="#FFFFFF"/>
+  <path d="M62 48L78 70H46L62 48Z" fill="url(#alpen_grad2)"/>
+  <defs>
+    <linearGradient id="alpen_grad" x1="22" y1="20" x2="78" y2="70" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F59E0B"/>
+      <stop offset="1" stop-color="#D97706"/>
+    </linearGradient>
+    <linearGradient id="alpen_grad2" x1="46" y1="48" x2="78" y2="70" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FBBF24"/>
+      <stop offset="1" stop-color="#B45309"/>
+    </linearGradient>
+    <radialGradient id="alpen_glow" cx="50" cy="50" r="36" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F59E0B"/>
+      <stop offset="1" stop-color="#0D1117" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+</svg>

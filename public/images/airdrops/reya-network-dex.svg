@@ -1,0 +1,17 @@
+<svg viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="100" height="100" rx="24" fill="#0F0F14"/>
+  <circle cx="50" cy="50" r="36" fill="url(#reya_glow)" fill-opacity="0.25"/>
+  <!-- Ray of Liquidity / R Crest -->
+  <path d="M30 24H54C64 24 70 30 70 38C70 46 64 52 54 52H44V76H30V24Z" fill="url(#reya_grad)"/>
+  <path d="M52 52L72 76H56L42 56H52Z" fill="#F43F5E"/>
+  <defs>
+    <linearGradient id="reya_grad" x1="30" y1="24" x2="70" y2="76" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FB7185"/>
+      <stop offset="1" stop-color="#E11D48"/>
+    </linearGradient>
+    <radialGradient id="reya_glow" cx="50" cy="50" r="36" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F43F5E"/>
+      <stop offset="1" stop-color="#0F0F14" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+</svg>
