@@ -21,7 +21,7 @@ export const newsArticles: NewsArticle[] = [
     "date": "October 21, 2026",
     "readTime": "4 min read",
     "category": "TGE Alert",
-    "image": "https://images.unsplash.com/photo-1642543492481-44e81e3914a7?w=1200&q=80",
+    "image": "https://images.unsplash.com/photo-1642543492481-44e81e3914a7?w=1200&h=675&fit=crop&q=80",
     "tags": [
       "Hyperliquid",
       "HYPE",
@@ -40,7 +40,7 @@ export const newsArticles: NewsArticle[] = [
     "date": "October 20, 2026",
     "readTime": "5 min read",
     "category": "Testnet",
-    "image": "https://images.unsplash.com/photo-1639762681485-074b7f938ba0?w=1200&q=80",
+    "image": "https://images.unsplash.com/photo-1639762681485-074b7f938ba0?w=1200&h=675&fit=crop&q=80",
     "tags": [
       "Monad",
       "Parallel EVM",
@@ -59,7 +59,7 @@ export const newsArticles: NewsArticle[] = [
     "date": "October 19, 2026",
     "readTime": "4 min read",
     "category": "Breaking",
-    "image": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=1200&q=80",
+    "image": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=1200&h=675&fit=crop&q=80",
     "tags": [
       "Starknet",
       "STRK",
@@ -78,7 +78,7 @@ export const newsArticles: NewsArticle[] = [
     "date": "October 18, 2026",
     "readTime": "5 min read",
     "category": "Alpha Intel",
-    "image": "https://images.unsplash.com/photo-1620321023374-d1a68fbc720d?w=1200&q=80",
+    "image": "https://images.unsplash.com/photo-1620321023374-d1a68fbc720d?w=1200&h=675&fit=crop&q=80",
     "tags": [
       "Berachain",
       "Proof of Liquidity",
@@ -97,7 +97,7 @@ export const newsArticles: NewsArticle[] = [
     "date": "October 17, 2026",
     "readTime": "6 min read",
     "category": "Alpha Intel",
-    "image": "https://images.unsplash.com/photo-1644361566696-3d442b5b482a?w=1200&q=80",
+    "image": "https://images.unsplash.com/photo-1644361566696-3d442b5b482a?w=1200&h=675&fit=crop&q=80",
     "tags": [
       "EigenLayer",
       "Symbiotic",
@@ -116,7 +116,7 @@ export const newsArticles: NewsArticle[] = [
     "date": "October 16, 2026",
     "readTime": "4 min read",
     "category": "Governance",
-    "image": "https://images.unsplash.com/photo-1639762681485-074b7f938ba0?w=1200&q=80",
+    "image": "https://images.unsplash.com/photo-1639762681485-074b7f938ba0?w=1200&h=675&fit=crop&q=80",
     "tags": [
       "Solana",
       "Jupiter",
@@ -135,7 +135,7 @@ export const newsArticles: NewsArticle[] = [
     "date": "October 24, 2026",
     "readTime": "4 min read",
     "category": "Breaking",
-    "image": "https://images.unsplash.com/photo-1639762681485-074b7f938ba0?w=1200&q=80",
+    "image": "https://images.unsplash.com/photo-1639762681485-074b7f938ba0?w=1200&h=675&fit=crop&q=80",
     "tags": [
       "Scroll",
       "SCR",
@@ -154,7 +154,7 @@ export const newsArticles: NewsArticle[] = [
     "date": "October 23, 2026",
     "readTime": "5 min read",
     "category": "Testnet",
-    "image": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=1200&q=80",
+    "image": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=1200&h=675&fit=crop&q=80",
     "tags": [
       "Movement",
       "MoveVM",
@@ -173,7 +173,7 @@ export const newsArticles: NewsArticle[] = [
     "date": "October 23, 2026",
     "readTime": "5 min read",
     "category": "TGE Alert",
-    "image": "https://images.unsplash.com/photo-1642543492481-44e81e3914a7?w=1200&q=80",
+    "image": "https://images.unsplash.com/photo-1642543492481-44e81e3914a7?w=1200&h=675&fit=crop&q=80",
     "tags": [
       "Fuel",
       "Sway",
@@ -192,7 +192,7 @@ export const newsArticles: NewsArticle[] = [
     "date": "October 22, 2026",
     "readTime": "4 min read",
     "category": "Alpha Intel",
-    "image": "https://images.unsplash.com/photo-1620321023374-d1a68fbc720d?w=1200&q=80",
+    "image": "https://images.unsplash.com/photo-1620321023374-d1a68fbc720d?w=1200&h=675&fit=crop&q=80",
     "tags": [
       "Linea",
       "Consensys",
@@ -211,7 +211,7 @@ export const newsArticles: NewsArticle[] = [
     "date": "October 22, 2026",
     "readTime": "5 min read",
     "category": "Breaking",
-    "image": "https://images.unsplash.com/photo-1644361566696-3d442b5b482a?w=1200&q=80",
+    "image": "https://images.unsplash.com/photo-1644361566696-3d442b5b482a?w=1200&h=675&fit=crop&q=80",
     "tags": [
       "Babylon",
       "Bitcoin Staking",
@@ -230,7 +230,7 @@ export const newsArticles: NewsArticle[] = [
     "date": "October 21, 2026",
     "readTime": "4 min read",
     "category": "Alpha Intel",
-    "image": "https://images.unsplash.com/photo-1639762681485-074b7f938ba0?w=1200&q=80",
+    "image": "https://images.unsplash.com/photo-1639762681485-074b7f938ba0?w=1200&h=675&fit=crop&q=80",
     "tags": [
       "Abstract",
       "Pudgy Penguins",
@@ -249,7 +249,7 @@ export const newsArticles: NewsArticle[] = [
     "date": "October 24, 2026",
     "readTime": "4 min read",
     "category": "Breaking",
-    "image": "https://images.unsplash.com/photo-1639762681485-074b7f938ba0?w=1200&q=80",
+    "image": "https://images.unsplash.com/photo-1639762681485-074b7f938ba0?w=1200&h=675&fit=crop&q=80",
     "tags": [
       "Morpho",
       "Morpho Blue",
@@ -268,7 +268,7 @@ export const newsArticles: NewsArticle[] = [
     "date": "October 24, 2026",
     "readTime": "5 min read",
     "category": "Governance",
-    "image": "https://images.unsplash.com/photo-1642543492481-44e81e3914a7?w=1200&q=80",
+    "image": "https://images.unsplash.com/photo-1642543492481-44e81e3914a7?w=1200&h=675&fit=crop&q=80",
     "tags": [
       "deBridge",
       "DBR",
@@ -288,7 +288,7 @@ export const newsArticles: NewsArticle[] = [
     "date": "October 24, 2026",
     "readTime": "4 min read",
     "category": "Alpha Intel",
-    "image": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=1200&q=80",
+    "image": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=1200&h=675&fit=crop&q=80",
     "tags": [
       "Sanctum",
       "CLOUD",
@@ -307,7 +307,7 @@ export const newsArticles: NewsArticle[] = [
     "date": "October 24, 2026",
     "readTime": "5 min read",
     "category": "Breaking",
-    "image": "https://images.unsplash.com/photo-1620321023374-d1a68fbc720d?w=1200&q=80",
+    "image": "https://images.unsplash.com/photo-1620321023374-d1a68fbc720d?w=1200&h=675&fit=crop&q=80",
     "tags": [
       "Bitlayer",
       "Bitcoin L2",
@@ -326,7 +326,7 @@ export const newsArticles: NewsArticle[] = [
     "date": "October 24, 2026",
     "readTime": "4 min read",
     "category": "Alpha Intel",
-    "image": "https://images.unsplash.com/photo-1559526324-4b87b5e36e44?w=1200&q=80",
+    "image": "https://images.unsplash.com/photo-1559526324-4b87b5e36e44?w=1200&h=675&fit=crop&q=80",
     "tags": [
       "ether.fi",
       "Liquid Restaking",
@@ -345,7 +345,7 @@ export const newsArticles: NewsArticle[] = [
     "date": "October 24, 2026",
     "readTime": "5 min read",
     "category": "Testnet",
-    "image": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=1200&q=80",
+    "image": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=1200&h=675&fit=crop&q=80",
     "tags": [
       "Shardeum",
       "Layer 1",
@@ -364,7 +364,7 @@ export const newsArticles: NewsArticle[] = [
     "date": "October 23, 2026",
     "readTime": "4 min read",
     "category": "Breaking",
-    "image": "https://images.unsplash.com/photo-1639762681485-074b7f938ba0?w=1200&q=80",
+    "image": "https://images.unsplash.com/photo-1639762681485-074b7f938ba0?w=1200&h=675&fit=crop&q=80",
     "tags": [
       "Conduit",
       "RaaS",
@@ -383,7 +383,7 @@ export const newsArticles: NewsArticle[] = [
     "date": "October 23, 2026",
     "readTime": "5 min read",
     "category": "Alpha Intel",
-    "image": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=1200&q=80",
+    "image": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=1200&h=675&fit=crop&q=80",
     "tags": [
       "Space and Time",
       "ZK Coprocessor",
@@ -402,7 +402,7 @@ export const newsArticles: NewsArticle[] = [
     "date": "October 22, 2026",
     "readTime": "4 min read",
     "category": "Governance",
-    "image": "https://images.unsplash.com/photo-1642543492481-44e81e3914a7?w=1200&q=80",
+    "image": "https://images.unsplash.com/photo-1642543492481-44e81e3914a7?w=1200&h=675&fit=crop&q=80",
     "tags": [
       "Kodiak",
       "Berachain",
@@ -421,7 +421,7 @@ export const newsArticles: NewsArticle[] = [
     "date": "October 25, 2026",
     "readTime": "4 min read",
     "category": "Testnet",
-    "image": "https://images.unsplash.com/photo-1639762681485-074b7f938ba0?w=1200&q=80",
+    "image": "https://images.unsplash.com/photo-1639762681485-074b7f938ba0?w=1200&h=675&fit=crop&q=80",
     "tags": [
       "Solana",
       "Firedancer",
@@ -440,7 +440,7 @@ export const newsArticles: NewsArticle[] = [
     "date": "October 24, 2026",
     "readTime": "4 min read",
     "category": "Breaking",
-    "image": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=1200&q=80",
+    "image": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=1200&h=675&fit=crop&q=80",
     "tags": [
       "Celestia",
       "TIA",
@@ -459,7 +459,7 @@ export const newsArticles: NewsArticle[] = [
     "date": "October 24, 2026",
     "readTime": "5 min read",
     "category": "Alpha Intel",
-    "image": "https://images.unsplash.com/photo-1621416894569-0f39ed31d247?w=1200&q=80",
+    "image": "https://images.unsplash.com/photo-1621416894569-0f39ed31d247?w=1200&h=675&fit=crop&q=80",
     "tags": [
       "Babylon",
       "Bitcoin Staking",
@@ -478,7 +478,7 @@ export const newsArticles: NewsArticle[] = [
     "date": "October 23, 2026",
     "readTime": "4 min read",
     "category": "Governance",
-    "image": "https://images.unsplash.com/photo-1642543492481-44e81e3914a7?w=1200&q=80",
+    "image": "https://images.unsplash.com/photo-1642543492481-44e81e3914a7?w=1200&h=675&fit=crop&q=80",
     "tags": [
       "Arbitrum Orbit",
       "Layer 3",
@@ -497,7 +497,7 @@ export const newsArticles: NewsArticle[] = [
     "date": "October 23, 2026",
     "readTime": "4 min read",
     "category": "Alpha Intel",
-    "image": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=1200&q=80",
+    "image": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=1200&h=675&fit=crop&q=80",
     "tags": [
       "Morpho",
       "Morpho Blue",
@@ -516,7 +516,7 @@ export const newsArticles: NewsArticle[] = [
     "date": "October 26, 2026",
     "readTime": "4 min read",
     "category": "Breaking",
-    "image": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=1200&q=80",
+    "image": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=1200&h=675&fit=crop&q=80",
     "tags": [
       "peaq",
       "DePIN",
@@ -535,7 +535,7 @@ export const newsArticles: NewsArticle[] = [
     "date": "October 26, 2026",
     "readTime": "4 min read",
     "category": "Alpha Intel",
-    "image": "https://images.unsplash.com/photo-1639762681485-074b7f938ba0?w=1200&q=80",
+    "image": "https://images.unsplash.com/photo-1639762681485-074b7f938ba0?w=1200&h=675&fit=crop&q=80",
     "tags": [
       "Orbiter Finance",
       "Layer 2",
@@ -554,7 +554,7 @@ export const newsArticles: NewsArticle[] = [
     "date": "October 25, 2026",
     "readTime": "5 min read",
     "category": "Alpha Intel",
-    "image": "https://images.unsplash.com/photo-1642543492481-44e81e3914a7?w=1200&q=80",
+    "image": "https://images.unsplash.com/photo-1642543492481-44e81e3914a7?w=1200&h=675&fit=crop&q=80",
     "tags": [
       "Jumper Exchange",
       "LI.FI",
@@ -573,7 +573,7 @@ export const newsArticles: NewsArticle[] = [
     "date": "October 25, 2026",
     "readTime": "4 min read",
     "category": "Governance",
-    "image": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=1200&q=80",
+    "image": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=1200&h=675&fit=crop&q=80",
     "tags": [
       "Shutter Network",
       "MEV",
@@ -592,7 +592,7 @@ export const newsArticles: NewsArticle[] = [
     "date": "October 25, 2026",
     "readTime": "4 min read",
     "category": "Breaking",
-    "image": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=1200&q=80",
+    "image": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=1200&h=675&fit=crop&q=80",
     "tags": [
       "Turnkey",
       "Passkeys",
@@ -611,7 +611,7 @@ export const newsArticles: NewsArticle[] = [
     "date": "October 26, 2026",
     "readTime": "4 min read",
     "category": "TGE Alert",
-    "image": "https://images.unsplash.com/photo-1642543492481-44e81e3914a7?w=1200&q=80",
+    "image": "https://images.unsplash.com/photo-1642543492481-44e81e3914a7?w=1200&h=675&fit=crop&q=80",
     "tags": [
       "Nostra",
       "Starknet",
@@ -630,7 +630,7 @@ export const newsArticles: NewsArticle[] = [
     "date": "October 26, 2026",
     "readTime": "5 min read",
     "category": "Alpha Intel",
-    "image": "https://images.unsplash.com/photo-1621416894569-0f39ed31d247?w=1200&q=80",
+    "image": "https://images.unsplash.com/photo-1621416894569-0f39ed31d247?w=1200&h=675&fit=crop&q=80",
     "tags": [
       "Core DAO",
       "Satoshi Plus",
@@ -649,7 +649,7 @@ export const newsArticles: NewsArticle[] = [
     "date": "October 26, 2026",
     "readTime": "4 min read",
     "category": "Breaking",
-    "image": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=1200&q=80",
+    "image": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=1200&h=675&fit=crop&q=80",
     "tags": [
       "Oasis Network",
       "Sapphire",
@@ -668,7 +668,7 @@ export const newsArticles: NewsArticle[] = [
     "date": "October 26, 2026",
     "readTime": "4 min read",
     "category": "Alpha Intel",
-    "image": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=1200&q=80",
+    "image": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=1200&h=675&fit=crop&q=80",
     "tags": [
       "Subsquid",
       "Data Lake",
@@ -687,7 +687,7 @@ export const newsArticles: NewsArticle[] = [
     "date": "October 26, 2026",
     "readTime": "4 min read",
     "category": "Breaking",
-    "image": "https://images.unsplash.com/photo-1639762681485-074b7f938ba0?w=1200&q=80",
+    "image": "https://images.unsplash.com/photo-1639762681485-074b7f938ba0?w=1200&h=675&fit=crop&q=80",
     "tags": [
       "ALEX",
       "Stacks",
@@ -706,7 +706,7 @@ export const newsArticles: NewsArticle[] = [
     "date": "October 26, 2026",
     "readTime": "4 min read",
     "category": "Breaking",
-    "image": "https://images.unsplash.com/photo-1549399542-7e3f8b79c341?w=1200&q=80",
+    "image": "https://images.unsplash.com/photo-1549399542-7e3f8b79c341?w=1200&h=675&fit=crop&q=80",
     "tags": [
       "Hivemapper",
       "HONEY",
@@ -725,7 +725,7 @@ export const newsArticles: NewsArticle[] = [
     "date": "October 26, 2026",
     "readTime": "5 min read",
     "category": "Alpha Intel",
-    "image": "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?w=1200&q=80",
+    "image": "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?w=1200&h=675&fit=crop&q=80",
     "tags": [
       "Spark",
       "Sky",
@@ -745,7 +745,7 @@ export const newsArticles: NewsArticle[] = [
     "date": "October 26, 2026",
     "readTime": "4 min read",
     "category": "Breaking",
-    "image": "https://images.unsplash.com/photo-1549399542-7e3f8b79c341?w=1200&q=80",
+    "image": "https://images.unsplash.com/photo-1549399542-7e3f8b79c341?w=1200&h=675&fit=crop&q=80",
     "tags": [
       "DIMO",
       "DePIN",
@@ -764,7 +764,7 @@ export const newsArticles: NewsArticle[] = [
     "date": "October 26, 2026",
     "readTime": "4 min read",
     "category": "Alpha Intel",
-    "image": "https://images.unsplash.com/photo-1504608524841-42fe6f032b4b?w=1200&q=80",
+    "image": "https://images.unsplash.com/photo-1504608524841-42fe6f032b4b?w=1200&h=675&fit=crop&q=80",
     "tags": [
       "WeatherXM",
       "WXM",
@@ -783,7 +783,7 @@ export const newsArticles: NewsArticle[] = [
     "date": "October 26, 2026",
     "readTime": "4 min read",
     "category": "Breaking",
-    "image": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=1200&q=80",
+    "image": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=1200&h=675&fit=crop&q=80",
     "tags": [
       "Odos",
       "DEX Aggregator",
@@ -803,7 +803,7 @@ export const newsArticles: NewsArticle[] = [
     "date": "October 27, 2026",
     "readTime": "4 min read",
     "category": "Breaking",
-    "image": "https://images.unsplash.com/photo-1590283603385-17ffb3a7f29f?w=1200&q=80",
+    "image": "https://images.unsplash.com/photo-1590283603385-17ffb3a7f29f?w=1200&h=675&fit=crop&q=80",
     "tags": [
       "Centrifuge",
       "RWA",
@@ -822,7 +822,7 @@ export const newsArticles: NewsArticle[] = [
     "date": "October 27, 2026",
     "readTime": "4 min read",
     "category": "Alpha Intel",
-    "image": "https://images.unsplash.com/photo-1621416894569-0f39ed31d247?w=1200&q=80",
+    "image": "https://images.unsplash.com/photo-1621416894569-0f39ed31d247?w=1200&h=675&fit=crop&q=80",
     "tags": [
       "Chainflip",
       "Bitcoin",
@@ -841,7 +841,7 @@ export const newsArticles: NewsArticle[] = [
     "date": "October 27, 2026",
     "readTime": "4 min read",
     "category": "Breaking",
-    "image": "https://images.unsplash.com/photo-1639762681485-074b7f938ba0?w=1200&q=80",
+    "image": "https://images.unsplash.com/photo-1639762681485-074b7f938ba0?w=1200&h=675&fit=crop&q=80",
     "tags": [
       "Chronicle",
       "Oracles",
@@ -860,7 +860,7 @@ export const newsArticles: NewsArticle[] = [
     "date": "October 27, 2026",
     "readTime": "5 min read",
     "category": "Alpha Intel",
-    "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?w=1200&q=80",
+    "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?w=1200&h=675&fit=crop&q=80",
     "tags": [
       "Ronin",
       "Gaming",
@@ -879,7 +879,7 @@ export const newsArticles: NewsArticle[] = [
     "date": "October 27, 2026",
     "readTime": "4 min read",
     "category": "Alpha Intel",
-    "image": "https://images.unsplash.com/photo-1559526324-4b87b5e36e44?w=1200&q=80",
+    "image": "https://images.unsplash.com/photo-1559526324-4b87b5e36e44?w=1200&h=675&fit=crop&q=80",
     "tags": [
       "Goldfinch",
       "GFI",
@@ -898,7 +898,7 @@ export const newsArticles: NewsArticle[] = [
     "date": "October 27, 2026",
     "readTime": "4 min read",
     "category": "Breaking",
-    "image": "https://images.unsplash.com/photo-1590283603385-17ffb3a7f29f?w=1200&q=80",
+    "image": "https://images.unsplash.com/photo-1590283603385-17ffb3a7f29f?w=1200&h=675&fit=crop&q=80",
     "tags": [
       "UMA",
       "Polymarket",
@@ -917,7 +917,7 @@ export const newsArticles: NewsArticle[] = [
     "date": "October 27, 2026",
     "readTime": "4 min read",
     "category": "Alpha Intel",
-    "image": "https://images.unsplash.com/photo-1642543492481-44e81e3914a7?w=1200&q=80",
+    "image": "https://images.unsplash.com/photo-1642543492481-44e81e3914a7?w=1200&h=675&fit=crop&q=80",
     "tags": [
       "CoW Protocol",
       "COW",
@@ -936,7 +936,7 @@ export const newsArticles: NewsArticle[] = [
     "date": "October 27, 2026",
     "readTime": "4 min read",
     "category": "Breaking",
-    "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?w=1200&q=80",
+    "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?w=1200&h=675&fit=crop&q=80",
     "tags": [
       "Xai",
       "Arbitrum",
@@ -955,7 +955,7 @@ export const newsArticles: NewsArticle[] = [
     "date": "October 27, 2026",
     "readTime": "4 min read",
     "category": "Alpha Intel",
-    "image": "https://images.unsplash.com/photo-1549399542-7e3f8b79c341?w=1200&q=80",
+    "image": "https://images.unsplash.com/photo-1549399542-7e3f8b79c341?w=1200&h=675&fit=crop&q=80",
     "tags": [
       "DAWN",
       "Solana",
@@ -974,7 +974,7 @@ export const newsArticles: NewsArticle[] = [
     "date": "October 27, 2026",
     "readTime": "4 min read",
     "category": "Alpha Intel",
-    "image": "https://images.unsplash.com/photo-1639762681485-074b7f938ba0?w=1200&q=80",
+    "image": "https://images.unsplash.com/photo-1639762681485-074b7f938ba0?w=1200&h=675&fit=crop&q=80",
     "tags": [
       "Stride",
       "Cosmos",
@@ -993,7 +993,7 @@ export const newsArticles: NewsArticle[] = [
     "date": "October 27, 2026",
     "readTime": "4 min read",
     "category": "Breaking",
-    "image": "https://images.unsplash.com/photo-1557804506-669a67965ba0?w=1200&q=80",
+    "image": "https://images.unsplash.com/photo-1557804506-669a67965ba0?w=1200&h=675&fit=crop&q=80",
     "tags": [
       "World Network",
       "Worldcoin",
@@ -1012,7 +1012,7 @@ export const newsArticles: NewsArticle[] = [
     "date": "October 27, 2026",
     "readTime": "4 min read",
     "category": "Alpha Intel",
-    "image": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=1200&q=80",
+    "image": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=1200&h=675&fit=crop&q=80",
     "tags": [
       "Gitcoin",
       "Passport",
@@ -1031,7 +1031,7 @@ export const newsArticles: NewsArticle[] = [
     "date": "October 27, 2026",
     "readTime": "4 min read",
     "category": "Breaking",
-    "image": "https://images.unsplash.com/photo-1639762681485-074b7f938ba0?w=1200&q=80",
+    "image": "https://images.unsplash.com/photo-1639762681485-074b7f938ba0?w=1200&h=675&fit=crop&q=80",
     "tags": [
       "Tellor",
       "TRB",
@@ -1050,7 +1050,7 @@ export const newsArticles: NewsArticle[] = [
     "date": "October 27, 2026",
     "readTime": "4 min read",
     "category": "Alpha Intel",
-    "image": "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?w=1200&q=80",
+    "image": "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?w=1200&h=675&fit=crop&q=80",
     "tags": [
       "THENA",
       "THE",
@@ -1069,7 +1069,7 @@ export const newsArticles: NewsArticle[] = [
     "date": "October 27, 2026",
     "readTime": "4 min read",
     "category": "Alpha Intel",
-    "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?w=1200&q=80",
+    "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?w=1200&h=675&fit=crop&q=80",
     "tags": [
       "Chiliz",
       "CHZ",
@@ -1088,7 +1088,7 @@ export const newsArticles: NewsArticle[] = [
     "date": "October 27, 2026",
     "readTime": "4 min read",
     "category": "Breaking",
-    "image": "https://images.unsplash.com/photo-1639762681485-074b7f938ba0?w=1200&q=80",
+    "image": "https://images.unsplash.com/photo-1639762681485-074b7f938ba0?w=1200&h=675&fit=crop&q=80",
     "tags": [
       "NEAR Protocol",
       "NEAR",
@@ -1107,7 +1107,7 @@ export const newsArticles: NewsArticle[] = [
     "date": "October 27, 2026",
     "readTime": "4 min read",
     "category": "Alpha Intel",
-    "image": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=1200&q=80",
+    "image": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=1200&h=675&fit=crop&q=80",
     "tags": [
       "Aptos",
       "APT",
@@ -1126,7 +1126,7 @@ export const newsArticles: NewsArticle[] = [
     "date": "October 27, 2026",
     "readTime": "4 min read",
     "category": "Breaking",
-    "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=1200&q=80",
+    "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=1200&h=675&fit=crop&q=80",
     "tags": [
       "Stacks",
       "STX",
@@ -1145,7 +1145,7 @@ export const newsArticles: NewsArticle[] = [
     "date": "October 27, 2026",
     "readTime": "4 min read",
     "category": "Alpha Intel",
-    "image": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=1200&q=80",
+    "image": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=1200&h=675&fit=crop&q=80",
     "tags": [
       "Nervos",
       "CKB",
@@ -1164,7 +1164,7 @@ export const newsArticles: NewsArticle[] = [
     "date": "October 27, 2026",
     "readTime": "4 min read",
     "category": "Alpha Intel",
-    "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?w=1200&q=80",
+    "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?w=1200&h=675&fit=crop&q=80",
     "tags": [
       "Parallel",
       "PRIME",
@@ -1183,7 +1183,7 @@ export const newsArticles: NewsArticle[] = [
     "date": "October 27, 2026",
     "readTime": "4 min read",
     "category": "Breaking",
-    "image": "https://images.unsplash.com/photo-1639762681485-074b7f938ba0?w=1200&q=80",
+    "image": "https://images.unsplash.com/photo-1639762681485-074b7f938ba0?w=1200&h=675&fit=crop&q=80",
     "tags": [
       "COTI",
       "COTI V2",
@@ -1202,7 +1202,7 @@ export const newsArticles: NewsArticle[] = [
     "date": "October 27, 2026",
     "readTime": "4 min read",
     "category": "Alpha Intel",
-    "image": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=1200&q=80",
+    "image": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=1200&h=675&fit=crop&q=80",
     "tags": [
       "Fetch.ai",
       "FET",
@@ -1221,7 +1221,7 @@ export const newsArticles: NewsArticle[] = [
     "date": "October 27, 2026",
     "readTime": "4 min read",
     "category": "Breaking",
-    "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=1200&q=80",
+    "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=1200&h=675&fit=crop&q=80",
     "tags": [
       "Kaspa",
       "KAS",
@@ -1240,7 +1240,7 @@ export const newsArticles: NewsArticle[] = [
     "date": "October 27, 2026",
     "readTime": "4 min read",
     "category": "Alpha Intel",
-    "image": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=1200&q=80",
+    "image": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=1200&h=675&fit=crop&q=80",
     "tags": [
       "Helium Mobile",
       "MOBILE",
@@ -1259,7 +1259,7 @@ export const newsArticles: NewsArticle[] = [
     "date": "October 27, 2026",
     "readTime": "4 min read",
     "category": "Alpha Intel",
-    "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?w=1200&q=80",
+    "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?w=1200&h=675&fit=crop&q=80",
     "tags": [
       "Gods Unchained",
       "GODS",
@@ -1278,7 +1278,7 @@ export const newsArticles: NewsArticle[] = [
     "date": "October 27, 2026",
     "readTime": "4 min read",
     "category": "Breaking",
-    "image": "https://images.unsplash.com/photo-1639762681485-074b7f938ba0?w=1200&q=80",
+    "image": "https://images.unsplash.com/photo-1639762681485-074b7f938ba0?w=1200&h=675&fit=crop&q=80",
     "tags": [
       "Hedera",
       "HBAR",
@@ -1297,7 +1297,7 @@ export const newsArticles: NewsArticle[] = [
     "date": "October 27, 2026",
     "readTime": "4 min read",
     "category": "Breaking",
-    "image": "https://images.unsplash.com/photo-1622979135225-d2ba269bc1df?w=1200&q=80",
+    "image": "https://images.unsplash.com/photo-1622979135225-d2ba269bc1df?w=1200&h=675&fit=crop&q=80",
     "tags": [
       "Algorand",
       "ALGO",
@@ -1316,7 +1316,7 @@ export const newsArticles: NewsArticle[] = [
     "date": "October 27, 2026",
     "readTime": "4 min read",
     "category": "Alpha Intel",
-    "image": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=1200&q=80",
+    "image": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=1200&h=675&fit=crop&q=80",
     "tags": [
       "Storj",
       "STORJ",
@@ -1335,7 +1335,7 @@ export const newsArticles: NewsArticle[] = [
     "date": "October 27, 2026",
     "readTime": "4 min read",
     "category": "Alpha Intel",
-    "image": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=1200&q=80",
+    "image": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=1200&h=675&fit=crop&q=80",
     "tags": [
       "Neon EVM",
       "NEON",
@@ -1354,7 +1354,7 @@ export const newsArticles: NewsArticle[] = [
     "date": "October 25, 2026",
     "readTime": "4 min read",
     "category": "Governance",
-    "image": "https://images.unsplash.com/photo-1639762681485-074b7f938ba0?w=1200&q=80",
+    "image": "https://images.unsplash.com/photo-1639762681485-074b7f938ba0?w=1200&h=675&fit=crop&q=80",
     "tags": [
       "Cardano",
       "ADA",
@@ -1372,7 +1372,7 @@ export const newsArticles: NewsArticle[] = [
     "date": "October 25, 2026",
     "readTime": "5 min read",
     "category": "Breaking",
-    "image": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=1200&q=80",
+    "image": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=1200&h=675&fit=crop&q=80",
     "tags": [
       "Polkadot",
       "DOT",
@@ -1390,7 +1390,7 @@ export const newsArticles: NewsArticle[] = [
     "date": "October 26, 2026",
     "readTime": "4 min read",
     "category": "Alpha Intel",
-    "image": "https://images.unsplash.com/photo-1642543492481-44e81e3914a7?w=1200&q=80",
+    "image": "https://images.unsplash.com/photo-1642543492481-44e81e3914a7?w=1200&h=675&fit=crop&q=80",
     "tags": [
       "Avalanche",
       "AVAX",
@@ -1408,7 +1408,7 @@ export const newsArticles: NewsArticle[] = [
     "date": "October 26, 2026",
     "readTime": "4 min read",
     "category": "Breaking",
-    "image": "https://images.unsplash.com/photo-1621416894569-0f39ed31d247?w=1200&q=80",
+    "image": "https://images.unsplash.com/photo-1621416894569-0f39ed31d247?w=1200&h=675&fit=crop&q=80",
     "tags": [
       "Merlin Chain",
       "Bitcoin L2",
@@ -1427,7 +1427,7 @@ export const newsArticles: NewsArticle[] = [
     "date": "October 27, 2026",
     "readTime": "5 min read",
     "category": "TGE Alert",
-    "image": "https://images.unsplash.com/photo-1639762681485-074b7f938ba0?w=1200&q=80",
+    "image": "https://images.unsplash.com/photo-1639762681485-074b7f938ba0?w=1200&h=675&fit=crop&q=80",
     "tags": [
       "Liquity",
       "BOLD",
@@ -1446,7 +1446,7 @@ export const newsArticles: NewsArticle[] = [
     "date": "October 28, 2026",
     "readTime": "4 min read",
     "category": "Alpha Intel",
-    "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=1200&q=80",
+    "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=1200&h=675&fit=crop&q=80",
     "tags": [
       "SatLayer",
       "Bitcoin",
@@ -1465,7 +1465,7 @@ export const newsArticles: NewsArticle[] = [
     "date": "October 28, 2026",
     "readTime": "5 min read",
     "category": "Breaking",
-    "image": "https://images.unsplash.com/photo-1639762681485-074b7f938ba0?w=1200&q=80",
+    "image": "https://images.unsplash.com/photo-1639762681485-074b7f938ba0?w=1200&h=675&fit=crop&q=80",
     "tags": [
       "Safe",
       "Smart Accounts",
@@ -1484,7 +1484,7 @@ export const newsArticles: NewsArticle[] = [
     "date": "October 28, 2026",
     "readTime": "4 min read",
     "category": "Testnet",
-    "image": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=1200&q=80",
+    "image": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=1200&h=675&fit=crop&q=80",
     "tags": [
       "Nexus",
       "zkVM",
@@ -1503,7 +1503,7 @@ export const newsArticles: NewsArticle[] = [
     "date": "October 28, 2026",
     "readTime": "5 min read",
     "category": "TGE Alert",
-    "image": "https://images.unsplash.com/photo-1642543492481-44e81e3914a7?w=1200&q=80",
+    "image": "https://images.unsplash.com/photo-1642543492481-44e81e3914a7?w=1200&h=675&fit=crop&q=80",
     "tags": [
       "Euler",
       "Euler V2",
@@ -1522,7 +1522,7 @@ export const newsArticles: NewsArticle[] = [
     "date": "October 28, 2026",
     "readTime": "4 min read",
     "category": "Alpha Intel",
-    "image": "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=1200&q=80",
+    "image": "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=1200&h=675&fit=crop&q=80",
     "tags": [
       "Railgun",
       "Privacy",
@@ -1541,7 +1541,7 @@ export const newsArticles: NewsArticle[] = [
     "date": "October 28, 2026",
     "readTime": "5 min read",
     "category": "Breaking",
-    "image": "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=1200&q=80",
+    "image": "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=1200&h=675&fit=crop&q=80",
     "tags": [
       "Aztec",
       "Noir",
@@ -1560,7 +1560,7 @@ export const newsArticles: NewsArticle[] = [
     "date": "October 28, 2026",
     "readTime": "4 min read",
     "category": "Alpha Intel",
-    "image": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=1200&q=80",
+    "image": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=1200&h=675&fit=crop&q=80",
     "tags": [
       "ORA",
       "AI",
@@ -1579,7 +1579,7 @@ export const newsArticles: NewsArticle[] = [
     "date": "October 28, 2026",
     "readTime": "4 min read",
     "category": "Alpha Intel",
-    "image": "https://images.unsplash.com/photo-1639762681485-074b7f938ba0?w=1200&q=80",
+    "image": "https://images.unsplash.com/photo-1639762681485-074b7f938ba0?w=1200&h=675&fit=crop&q=80",
     "tags": [
       "dappOS",
       "Intents",
@@ -1598,7 +1598,7 @@ export const newsArticles: NewsArticle[] = [
     "date": "October 28, 2026",
     "readTime": "5 min read",
     "category": "Testnet",
-    "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=1200&q=80",
+    "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=1200&h=675&fit=crop&q=80",
     "tags": [
       "Autonomys",
       "DePIN",
@@ -1617,7 +1617,7 @@ export const newsArticles: NewsArticle[] = [
     "date": "October 28, 2026",
     "readTime": "4 min read",
     "category": "TGE Alert",
-    "image": "https://images.unsplash.com/photo-1559526324-4b87b5e36e44?w=1200&q=80",
+    "image": "https://images.unsplash.com/photo-1559526324-4b87b5e36e44?w=1200&h=675&fit=crop&q=80",
     "tags": [
       "Treehouse",
       "tETH",
@@ -1636,7 +1636,7 @@ export const newsArticles: NewsArticle[] = [
     "date": "October 28, 2026",
     "readTime": "4 min read",
     "category": "Breaking",
-    "image": "https://images.unsplash.com/photo-1642543492481-44e81e3914a7?w=1200&q=80",
+    "image": "https://images.unsplash.com/photo-1642543492481-44e81e3914a7?w=1200&h=675&fit=crop&q=80",
     "tags": [
       "RabbitX",
       "Perpetuals",
@@ -1655,7 +1655,7 @@ export const newsArticles: NewsArticle[] = [
     "date": "October 29, 2026",
     "readTime": "6 min read",
     "category": "Breaking",
-    "image": "https://images.unsplash.com/photo-1639762681485-074b7f938ba0?w=1200&q=80",
+    "image": "https://images.unsplash.com/photo-1639762681485-074b7f938ba0?w=1200&h=675&fit=crop&q=80",
     "tags": [
       "Monad",
       "Parallel EVM",
@@ -1674,7 +1674,7 @@ export const newsArticles: NewsArticle[] = [
     "date": "October 29, 2026",
     "readTime": "6 min read",
     "category": "TGE Alert",
-    "image": "https://images.unsplash.com/photo-1642543492481-44e81e3914a7?w=1200&q=80",
+    "image": "https://images.unsplash.com/photo-1642543492481-44e81e3914a7?w=1200&h=675&fit=crop&q=80",
     "tags": [
       "Berachain",
       "Proof of Liquidity",
@@ -1693,7 +1693,7 @@ export const newsArticles: NewsArticle[] = [
     "date": "October 29, 2026",
     "readTime": "5 min read",
     "category": "Breaking",
-    "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=1200&q=80",
+    "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=1200&h=675&fit=crop&q=80",
     "tags": [
       "Babylon",
       "Bitcoin",
@@ -1712,7 +1712,7 @@ export const newsArticles: NewsArticle[] = [
     "date": "October 29, 2026",
     "readTime": "6 min read",
     "category": "Alpha Intel",
-    "image": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=1200&q=80",
+    "image": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=1200&h=675&fit=crop&q=80",
     "tags": [
       "Story Protocol",
       "Odyssey",
@@ -1731,7 +1731,7 @@ export const newsArticles: NewsArticle[] = [
     "date": "October 29, 2026",
     "readTime": "6 min read",
     "category": "Breaking",
-    "image": "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=1200&q=80",
+    "image": "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=1200&h=675&fit=crop&q=80",
     "tags": [
       "Eclipse",
       "SVM",
@@ -1750,7 +1750,7 @@ export const newsArticles: NewsArticle[] = [
     "date": "October 29, 2026",
     "readTime": "6 min read",
     "category": "Alpha Intel",
-    "image": "https://images.unsplash.com/photo-1559526324-4b87b5e36e44?w=1200&q=80",
+    "image": "https://images.unsplash.com/photo-1559526324-4b87b5e36e44?w=1200&h=675&fit=crop&q=80",
     "tags": [
       "MegaETH",
       "Real-Time EVM",
@@ -1769,7 +1769,7 @@ export const newsArticles: NewsArticle[] = [
     "date": "October 29, 2026",
     "readTime": "6 min read",
     "category": "Breaking",
-    "image": "https://images.unsplash.com/photo-1639762681485-074b7f938ba0?w=1200&q=80",
+    "image": "https://images.unsplash.com/photo-1639762681485-074b7f938ba0?w=1200&h=675&fit=crop&q=80",
     "tags": [
       "Soneium",
       "Sony",
@@ -1788,7 +1788,7 @@ export const newsArticles: NewsArticle[] = [
     "date": "October 29, 2026",
     "readTime": "6 min read",
     "category": "TGE Alert",
-    "image": "https://images.unsplash.com/photo-1642543492481-44e81e3914a7?w=1200&q=80",
+    "image": "https://images.unsplash.com/photo-1642543492481-44e81e3914a7?w=1200&h=675&fit=crop&q=80",
     "tags": [
       "Hyperliquid",
       "HYPE",
@@ -1807,7 +1807,7 @@ export const newsArticles: NewsArticle[] = [
     "date": "October 29, 2026",
     "readTime": "5 min read",
     "category": "TGE Alert",
-    "image": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=1200&q=80",
+    "image": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=1200&h=675&fit=crop&q=80",
     "tags": [
       "Linea",
       "Consensys",
@@ -1826,7 +1826,7 @@ export const newsArticles: NewsArticle[] = [
     "date": "October 29, 2026",
     "readTime": "6 min read",
     "category": "Breaking",
-    "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=1200&q=80",
+    "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=1200&h=675&fit=crop&q=80",
     "tags": [
       "Fuel",
       "FuelVM",
@@ -1845,7 +1845,7 @@ export const newsArticles: NewsArticle[] = [
     "date": "October 29, 2026",
     "readTime": "5 min read",
     "category": "Testnet",
-    "image": "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=1200&q=80",
+    "image": "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=1200&h=675&fit=crop&q=80",
     "tags": [
       "Movement",
       "Move",
@@ -1864,7 +1864,7 @@ export const newsArticles: NewsArticle[] = [
     "date": "October 29, 2026",
     "readTime": "5 min read",
     "category": "Alpha Intel",
-    "image": "https://images.unsplash.com/photo-1559526324-4b87b5e36e44?w=1200&q=80",
+    "image": "https://images.unsplash.com/photo-1559526324-4b87b5e36e44?w=1200&h=675&fit=crop&q=80",
     "tags": [
       "Initia",
       "Interwoven Rollups",
@@ -1883,7 +1883,7 @@ export const newsArticles: NewsArticle[] = [
     "date": "October 29, 2026",
     "readTime": "6 min read",
     "category": "Breaking",
-    "image": "https://images.unsplash.com/photo-1642543492481-44e81e3914a7?w=1200&q=80",
+    "image": "https://images.unsplash.com/photo-1642543492481-44e81e3914a7?w=1200&h=675&fit=crop&q=80",
     "tags": [
       "Symbiotic",
       "Restaking",
@@ -1902,7 +1902,7 @@ export const newsArticles: NewsArticle[] = [
     "date": "October 29, 2026",
     "readTime": "6 min read",
     "category": "TGE Alert",
-    "image": "https://images.unsplash.com/photo-1639762681485-074b7f938ba0?w=1200&q=80",
+    "image": "https://images.unsplash.com/photo-1639762681485-074b7f938ba0?w=1200&h=675&fit=crop&q=80",
     "tags": [
       "Sonic",
       "Fantom",
@@ -1921,7 +1921,7 @@ export const newsArticles: NewsArticle[] = [
     "date": "October 29, 2026",
     "readTime": "6 min read",
     "category": "Breaking",
-    "image": "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?w=1200&q=80",
+    "image": "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?w=1200&h=675&fit=crop&q=80",
     "tags": [
       "Ondo Finance",
       "RWA",
@@ -1940,7 +1940,7 @@ export const newsArticles: NewsArticle[] = [
     "date": "October 29, 2026",
     "readTime": "6 min read",
     "category": "Alpha Intel",
-    "image": "https://images.unsplash.com/photo-1620712943543-bcc4688e7485?w=1200&q=80",
+    "image": "https://images.unsplash.com/photo-1620712943543-bcc4688e7485?w=1200&h=675&fit=crop&q=80",
     "tags": [
       "io.net",
       "DePIN",
@@ -1959,7 +1959,7 @@ export const newsArticles: NewsArticle[] = [
     "date": "October 29, 2026",
     "readTime": "6 min read",
     "category": "Breaking",
-    "image": "https://images.unsplash.com/photo-1642543492481-44e81e3914a7?w=1200&q=80",
+    "image": "https://images.unsplash.com/photo-1642543492481-44e81e3914a7?w=1200&h=675&fit=crop&q=80",
     "tags": [
       "Particle Network",
       "Chain Abstraction",
@@ -1978,7 +1978,7 @@ export const newsArticles: NewsArticle[] = [
     "date": "October 29, 2026",
     "readTime": "6 min read",
     "category": "Alpha Intel",
-    "image": "https://images.unsplash.com/photo-1639762681485-074b7f938ba0?w=1200&q=80",
+    "image": "https://images.unsplash.com/photo-1639762681485-074b7f938ba0?w=1200&h=675&fit=crop&q=80",
     "tags": [
       "Karak",
       "Restaking",
@@ -1997,7 +1997,7 @@ export const newsArticles: NewsArticle[] = [
     "date": "October 29, 2026",
     "readTime": "6 min read",
     "category": "Breaking",
-    "image": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=1200&q=80",
+    "image": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=1200&h=675&fit=crop&q=80",
     "tags": [
       "Sahara AI",
       "AI",
@@ -2016,7 +2016,7 @@ export const newsArticles: NewsArticle[] = [
     "date": "October 29, 2026",
     "readTime": "6 min read",
     "category": "TGE Alert",
-    "image": "https://images.unsplash.com/photo-1559526324-4b87b5e36e44?w=1200&q=80",
+    "image": "https://images.unsplash.com/photo-1559526324-4b87b5e36e44?w=1200&h=675&fit=crop&q=80",
     "tags": [
       "Magic Eden",
       "ME Token",
@@ -2035,7 +2035,7 @@ export const newsArticles: NewsArticle[] = [
     "date": "October 29, 2026",
     "readTime": "6 min read",
     "category": "Alpha Intel",
-    "image": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=1200&q=80",
+    "image": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=1200&h=675&fit=crop&q=80",
     "tags": [
       "Farcaster",
       "SocialFi",
@@ -2054,7 +2054,7 @@ export const newsArticles: NewsArticle[] = [
     "date": "October 29, 2026",
     "readTime": "6 min read",
     "category": "Breaking",
-    "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=1200&q=80",
+    "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=1200&h=675&fit=crop&q=80",
     "tags": [
       "Mezo",
       "Bitcoin",
@@ -2073,7 +2073,7 @@ export const newsArticles: NewsArticle[] = [
     "date": "October 29, 2026",
     "readTime": "6 min read",
     "category": "Alpha Intel",
-    "image": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=1200&q=80",
+    "image": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=1200&h=675&fit=crop&q=80",
     "tags": [
       "Zora",
       "Layer 2",
@@ -2092,7 +2092,7 @@ export const newsArticles: NewsArticle[] = [
     "date": "October 29, 2026",
     "readTime": "6 min read",
     "category": "Breaking",
-    "image": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=1200&q=80",
+    "image": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=1200&h=675&fit=crop&q=80",
     "tags": [
       "TAC",
       "Telegram",
@@ -2111,7 +2111,7 @@ export const newsArticles: NewsArticle[] = [
     "date": "October 29, 2026",
     "readTime": "6 min read",
     "category": "Alpha Intel",
-    "image": "https://images.unsplash.com/photo-1639762681485-074b7f938ba0?w=1200&q=80",
+    "image": "https://images.unsplash.com/photo-1639762681485-074b7f938ba0?w=1200&h=675&fit=crop&q=80",
     "tags": [
       "Succinct",
       "Zero Knowledge",
@@ -2130,7 +2130,7 @@ export const newsArticles: NewsArticle[] = [
     "date": "October 29, 2026",
     "readTime": "6 min read",
     "category": "Breaking",
-    "image": "https://images.unsplash.com/photo-1620712943543-bcc4688e7485?w=1200&q=80",
+    "image": "https://images.unsplash.com/photo-1620712943543-bcc4688e7485?w=1200&h=675&fit=crop&q=80",
     "tags": [
       "DIN",
       "AI Data",
@@ -2149,7 +2149,7 @@ export const newsArticles: NewsArticle[] = [
     "date": "October 29, 2026",
     "readTime": "6 min read",
     "category": "Breaking",
-    "image": "https://images.unsplash.com/photo-1642543492481-44e81e3914a7?w=1200&q=80",
+    "image": "https://images.unsplash.com/photo-1642543492481-44e81e3914a7?w=1200&h=675&fit=crop&q=80",
     "tags": [
       "Layer N",
       "Founders Fund",
@@ -2168,7 +2168,7 @@ export const newsArticles: NewsArticle[] = [
     "date": "October 29, 2026",
     "readTime": "6 min read",
     "category": "Alpha Intel",
-    "image": "https://images.unsplash.com/photo-1639762681485-074b7f938ba0?w=1200&q=80",
+    "image": "https://images.unsplash.com/photo-1639762681485-074b7f938ba0?w=1200&h=675&fit=crop&q=80",
     "tags": [
       "Kroma",
       "ZK Rollup",
@@ -2187,7 +2187,7 @@ export const newsArticles: NewsArticle[] = [
     "date": "October 29, 2026",
     "readTime": "6 min read",
     "category": "Breaking",
-    "image": "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?w=1200&q=80",
+    "image": "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?w=1200&h=675&fit=crop&q=80",
     "tags": [
       "Avantis",
       "Base",
@@ -2206,7 +2206,7 @@ export const newsArticles: NewsArticle[] = [
     "date": "October 29, 2026",
     "readTime": "6 min read",
     "category": "Alpha Intel",
-    "image": "https://images.unsplash.com/photo-1559526324-4b87b5e36e44?w=1200&q=80",
+    "image": "https://images.unsplash.com/photo-1559526324-4b87b5e36e44?w=1200&h=675&fit=crop&q=80",
     "tags": [
       "Superstate",
       "RWA",
@@ -2225,7 +2225,7 @@ export const newsArticles: NewsArticle[] = [
     "date": "October 29, 2026",
     "readTime": "6 min read",
     "category": "Breaking",
-    "image": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=1200&q=80",
+    "image": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=1200&h=675&fit=crop&q=80",
     "tags": [
       "Swan Chain",
       "AI Compute",
@@ -2244,7 +2244,7 @@ export const newsArticles: NewsArticle[] = [
     "date": "October 29, 2026",
     "readTime": "6 min read",
     "category": "Alpha Intel",
-    "image": "https://images.unsplash.com/photo-1639762681485-074b7f938ba0?w=1200&q=80",
+    "image": "https://images.unsplash.com/photo-1639762681485-074b7f938ba0?w=1200&h=675&fit=crop&q=80",
     "tags": [
       "Kakarot",
       "Cairo",
@@ -2263,7 +2263,7 @@ export const newsArticles: NewsArticle[] = [
     "date": "October 29, 2026",
     "readTime": "6 min read",
     "category": "Breaking",
-    "image": "https://images.unsplash.com/photo-1642543492481-44e81e3914a7?w=1200&q=80",
+    "image": "https://images.unsplash.com/photo-1642543492481-44e81e3914a7?w=1200&h=675&fit=crop&q=80",
     "tags": [
       "Zerion",
       "Zero Network",
@@ -2282,7 +2282,7 @@ export const newsArticles: NewsArticle[] = [
     "date": "October 29, 2026",
     "readTime": "6 min read",
     "category": "Breaking",
-    "image": "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?w=1200&q=80",
+    "image": "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?w=1200&h=675&fit=crop&q=80",
     "tags": [
       "Valantis",
       "DeFi",
@@ -2301,7 +2301,7 @@ export const newsArticles: NewsArticle[] = [
     "date": "October 29, 2026",
     "readTime": "6 min read",
     "category": "Alpha Intel",
-    "image": "https://images.unsplash.com/photo-1639762681485-074b7f938ba0?w=1200&q=80",
+    "image": "https://images.unsplash.com/photo-1639762681485-074b7f938ba0?w=1200&h=675&fit=crop&q=80",
     "tags": [
       "Gasp",
       "EigenLayer",
@@ -2320,7 +2320,7 @@ export const newsArticles: NewsArticle[] = [
     "date": "October 29, 2026",
     "readTime": "6 min read",
     "category": "Breaking",
-    "image": "https://images.unsplash.com/photo-1559526324-4b87b5e36e44?w=1200&q=80",
+    "image": "https://images.unsplash.com/photo-1559526324-4b87b5e36e44?w=1200&h=675&fit=crop&q=80",
     "tags": [
       "Vanar Chain",
       "Nvidia",
@@ -2339,7 +2339,7 @@ export const newsArticles: NewsArticle[] = [
     "date": "October 29, 2026",
     "readTime": "6 min read",
     "category": "Alpha Intel",
-    "image": "https://images.unsplash.com/photo-1642543492481-44e81e3914a7?w=1200&q=80",
+    "image": "https://images.unsplash.com/photo-1642543492481-44e81e3914a7?w=1200&h=675&fit=crop&q=80",
     "tags": [
       "Vultisig",
       "MPC",
@@ -2358,7 +2358,7 @@ export const newsArticles: NewsArticle[] = [
     "date": "October 29, 2026",
     "readTime": "6 min read",
     "category": "Breaking",
-    "image": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=1200&q=80",
+    "image": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=1200&h=675&fit=crop&q=80",
     "tags": [
       "Dinari",
       "Tokenized Stocks",
@@ -2377,7 +2377,7 @@ export const newsArticles: NewsArticle[] = [
     "date": "October 29, 2026",
     "readTime": "6 min read",
     "category": "Breaking",
-    "image": "https://images.unsplash.com/photo-1642543492481-44e81e3914a7?w=1200&q=80",
+    "image": "https://images.unsplash.com/photo-1642543492481-44e81e3914a7?w=1200&h=675&fit=crop&q=80",
     "tags": [
       "Hyperlend",
       "Hyperliquid",
@@ -2396,7 +2396,7 @@ export const newsArticles: NewsArticle[] = [
     "date": "October 29, 2026",
     "readTime": "6 min read",
     "category": "Alpha Intel",
-    "image": "https://images.unsplash.com/photo-1639762681485-074b7f938ba0?w=1200&q=80",
+    "image": "https://images.unsplash.com/photo-1639762681485-074b7f938ba0?w=1200&h=675&fit=crop&q=80",
     "tags": [
       "Superposition",
       "Arbitrum",
@@ -2415,7 +2415,7 @@ export const newsArticles: NewsArticle[] = [
     "date": "October 29, 2026",
     "readTime": "6 min read",
     "category": "Breaking",
-    "image": "https://images.unsplash.com/photo-1620712943543-bcc4688e7485?w=1200&q=80",
+    "image": "https://images.unsplash.com/photo-1620712943543-bcc4688e7485?w=1200&h=675&fit=crop&q=80",
     "tags": [
       "Chainbase",
       "AI Data",
@@ -2434,7 +2434,7 @@ export const newsArticles: NewsArticle[] = [
     "date": "October 29, 2026",
     "readTime": "6 min read",
     "category": "Alpha Intel",
-    "image": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=1200&q=80",
+    "image": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=1200&h=675&fit=crop&q=80",
     "tags": [
       "Fluence",
       "DePIN",
@@ -2453,7 +2453,7 @@ export const newsArticles: NewsArticle[] = [
     "date": "October 29, 2026",
     "readTime": "6 min read",
     "category": "Breaking",
-    "image": "https://images.unsplash.com/photo-1639762681485-074b7f938ba0?w=1200&q=80",
+    "image": "https://images.unsplash.com/photo-1639762681485-074b7f938ba0?w=1200&h=675&fit=crop&q=80",
     "tags": [
       "Swell Chain",
       "Polygon CDK",
@@ -2472,7 +2472,7 @@ export const newsArticles: NewsArticle[] = [
     "date": "October 29, 2026",
     "readTime": "6 min read",
     "category": "Breaking",
-    "image": "https://images.unsplash.com/photo-1639762681485-074b7f938ba0?w=1200&q=80",
+    "image": "https://images.unsplash.com/photo-1639762681485-074b7f938ba0?w=1200&h=675&fit=crop&q=80",
     "tags": [
       "MegaETH",
       "Real-Time EVM",
@@ -2491,7 +2491,7 @@ export const newsArticles: NewsArticle[] = [
     "date": "October 29, 2026",
     "readTime": "6 min read",
     "category": "TGE Alert",
-    "image": "https://images.unsplash.com/photo-1642543492481-44e81e3914a7?w=1200&q=80",
+    "image": "https://images.unsplash.com/photo-1642543492481-44e81e3914a7?w=1200&h=675&fit=crop&q=80",
     "tags": [
       "Infinex",
       "Kain Warwick",
@@ -2510,7 +2510,7 @@ export const newsArticles: NewsArticle[] = [
     "date": "October 29, 2026",
     "readTime": "6 min read",
     "category": "Breaking",
-    "image": "https://images.unsplash.com/photo-1620712943543-bcc4688e7485?w=1200&q=80",
+    "image": "https://images.unsplash.com/photo-1620712943543-bcc4688e7485?w=1200&h=675&fit=crop&q=80",
     "tags": [
       "RedStone",
       "Oracles",
@@ -2529,7 +2529,7 @@ export const newsArticles: NewsArticle[] = [
     "date": "October 29, 2026",
     "readTime": "6 min read",
     "category": "Alpha Intel",
-    "image": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=1200&q=80",
+    "image": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=1200&h=675&fit=crop&q=80",
     "tags": [
       "Espresso Systems",
       "Shared Sequencer",
@@ -2548,7 +2548,7 @@ export const newsArticles: NewsArticle[] = [
     "date": "October 29, 2026",
     "readTime": "6 min read",
     "category": "Breaking",
-    "image": "https://images.unsplash.com/photo-1639762681485-074b7f938ba0?w=1200&q=80",
+    "image": "https://images.unsplash.com/photo-1639762681485-074b7f938ba0?w=1200&h=675&fit=crop&q=80",
     "tags": [
       "Morph",
       "Layer 2",
@@ -2567,7 +2567,7 @@ export const newsArticles: NewsArticle[] = [
     "date": "October 29, 2026",
     "readTime": "6 min read",
     "category": "Alpha Intel",
-    "image": "https://images.unsplash.com/photo-1550745165-9bc0b252726f?w=1200&q=80",
+    "image": "https://images.unsplash.com/photo-1550745165-9bc0b252726f?w=1200&h=675&fit=crop&q=80",
     "tags": [
       "Sonic SVM",
       "Solana",
@@ -2586,7 +2586,7 @@ export const newsArticles: NewsArticle[] = [
     "date": "October 29, 2026",
     "readTime": "6 min read",
     "category": "Breaking",
-    "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=1200&q=80",
+    "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=1200&h=675&fit=crop&q=80",
     "tags": [
       "Nubit",
       "Bitcoin DA",
@@ -2605,7 +2605,7 @@ export const newsArticles: NewsArticle[] = [
     "date": "October 29, 2026",
     "readTime": "6 min read",
     "category": "Testnet",
-    "image": "https://images.unsplash.com/photo-1642543492481-44e81e3914a7?w=1200&q=80",
+    "image": "https://images.unsplash.com/photo-1642543492481-44e81e3914a7?w=1200&h=675&fit=crop&q=80",
     "tags": [
       "Curvance",
       "Money Market",
@@ -2624,7 +2624,7 @@ export const newsArticles: NewsArticle[] = [
     "date": "October 29, 2026",
     "readTime": "6 min read",
     "category": "Alpha Intel",
-    "image": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=1200&q=80",
+    "image": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=1200&h=675&fit=crop&q=80",
     "tags": [
       "Privasea",
       "FHE",
@@ -2643,7 +2643,7 @@ export const newsArticles: NewsArticle[] = [
     "date": "October 29, 2026",
     "readTime": "6 min read",
     "category": "Testnet",
-    "image": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=1200&q=80",
+    "image": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=1200&h=675&fit=crop&q=80",
     "tags": [
       "Nexus",
       "zkVM",
@@ -2662,7 +2662,7 @@ export const newsArticles: NewsArticle[] = [
     "date": "October 29, 2026",
     "readTime": "6 min read",
     "category": "Breaking",
-    "image": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=1200&q=80",
+    "image": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=1200&h=675&fit=crop&q=80",
     "tags": [
       "Space and Time",
       "Proof of SQL",
@@ -2681,7 +2681,7 @@ export const newsArticles: NewsArticle[] = [
     "date": "October 29, 2026",
     "readTime": "6 min read",
     "category": "Breaking",
-    "image": "https://images.unsplash.com/photo-1620712943543-bcc4688e7485?w=1200&q=80",
+    "image": "https://images.unsplash.com/photo-1620712943543-bcc4688e7485?w=1200&h=675&fit=crop&q=80",
     "tags": [
       "Talus Network",
       "Move Language",
@@ -2700,7 +2700,7 @@ export const newsArticles: NewsArticle[] = [
     "date": "October 29, 2026",
     "readTime": "6 min read",
     "category": "Alpha Intel",
-    "image": "https://images.unsplash.com/photo-1639762681485-074b7f938ba0?w=1200&q=80",
+    "image": "https://images.unsplash.com/photo-1639762681485-074b7f938ba0?w=1200&h=675&fit=crop&q=80",
     "tags": [
       "Astria",
       "Shared Sequencer",
@@ -2719,7 +2719,7 @@ export const newsArticles: NewsArticle[] = [
     "date": "October 29, 2026",
     "readTime": "6 min read",
     "category": "Breaking",
-    "image": "https://images.unsplash.com/photo-1642543492481-44e81e3914a7?w=1200&q=80",
+    "image": "https://images.unsplash.com/photo-1642543492481-44e81e3914a7?w=1200&h=675&fit=crop&q=80",
     "tags": [
       "Almanak",
       "Quantitative AI",
@@ -2738,7 +2738,7 @@ export const newsArticles: NewsArticle[] = [
     "date": "October 29, 2026",
     "readTime": "6 min read",
     "category": "Alpha Intel",
-    "image": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=1200&q=80",
+    "image": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=1200&h=675&fit=crop&q=80",
     "tags": [
       "Renegade",
       "Dark Pool",
@@ -2757,7 +2757,7 @@ export const newsArticles: NewsArticle[] = [
     "date": "October 29, 2026",
     "readTime": "6 min read",
     "category": "Breaking",
-    "image": "https://images.unsplash.com/photo-1550745165-9bc0b252726f?w=1200&q=80",
+    "image": "https://images.unsplash.com/photo-1550745165-9bc0b252726f?w=1200&h=675&fit=crop&q=80",
     "tags": [
       "Hyperlane",
       "Interoperability",
@@ -2776,7 +2776,7 @@ export const newsArticles: NewsArticle[] = [
     "date": "October 29, 2026",
     "readTime": "6 min read",
     "category": "Alpha Intel",
-    "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=1200&q=80",
+    "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=1200&h=675&fit=crop&q=80",
     "tags": [
       "TARS AI",
       "Solana",
@@ -2795,7 +2795,7 @@ export const newsArticles: NewsArticle[] = [
     "date": "October 29, 2026",
     "readTime": "6 min read",
     "category": "Breaking",
-    "image": "https://images.unsplash.com/photo-1639762681485-074b7f938ba0?w=1200&q=80",
+    "image": "https://images.unsplash.com/photo-1639762681485-074b7f938ba0?w=1200&h=675&fit=crop&q=80",
     "tags": [
       "Alvara Protocol",
       "ERC-7621",
@@ -2814,7 +2814,7 @@ export const newsArticles: NewsArticle[] = [
     "date": "October 29, 2026",
     "readTime": "6 min read",
     "category": "Breaking",
-    "image": "https://images.unsplash.com/photo-1642543492481-44e81e3914a7?w=1200&q=80",
+    "image": "https://images.unsplash.com/photo-1642543492481-44e81e3914a7?w=1200&h=675&fit=crop&q=80",
     "tags": [
       "Reya Network",
       "Layer 2",
@@ -2833,7 +2833,7 @@ export const newsArticles: NewsArticle[] = [
     "date": "October 29, 2026",
     "readTime": "6 min read",
     "category": "Breaking",
-    "image": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=1200&q=80",
+    "image": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=1200&h=675&fit=crop&q=80",
     "tags": [
       "ether.fi",
       "Crypto Card",
@@ -2852,7 +2852,7 @@ export const newsArticles: NewsArticle[] = [
     "date": "October 29, 2026",
     "readTime": "7 min read",
     "category": "Breaking",
-    "image": "https://images.unsplash.com/photo-1639762681485-074b7f938ba0?w=1200&q=80",
+    "image": "https://images.unsplash.com/photo-1639762681485-074b7f938ba0?w=1200&h=675&fit=crop&q=80",
     "tags": [
       "Lombard",
       "LBTC",
@@ -2871,7 +2871,7 @@ export const newsArticles: NewsArticle[] = [
     "date": "October 29, 2026",
     "readTime": "7 min read",
     "category": "Breaking",
-    "image": "https://images.unsplash.com/photo-1621416894569-0f39ed31d247?w=1200&q=80",
+    "image": "https://images.unsplash.com/photo-1621416894569-0f39ed31d247?w=1200&h=675&fit=crop&q=80",
     "tags": [
       "Solv Protocol",
       "SolvBTC",
@@ -2890,7 +2890,7 @@ export const newsArticles: NewsArticle[] = [
     "date": "October 29, 2026",
     "readTime": "7 min read",
     "category": "Alpha Intel",
-    "image": "https://images.unsplash.com/photo-1642543492481-44e81e3914a7?w=1200&q=80",
+    "image": "https://images.unsplash.com/photo-1642543492481-44e81e3914a7?w=1200&h=675&fit=crop&q=80",
     "tags": [
       "Bedrock",
       "uniBTC",
@@ -2909,7 +2909,7 @@ export const newsArticles: NewsArticle[] = [
     "date": "October 29, 2026",
     "readTime": "7 min read",
     "category": "Breaking",
-    "image": "https://images.unsplash.com/photo-1550745165-9bc0b252726f?w=1200&q=80",
+    "image": "https://images.unsplash.com/photo-1550745165-9bc0b252726f?w=1200&h=675&fit=crop&q=80",
     "tags": [
       "Sanctum",
       "Solana",
@@ -2928,7 +2928,7 @@ export const newsArticles: NewsArticle[] = [
     "date": "October 29, 2026",
     "readTime": "7 min read",
     "category": "Breaking",
-    "image": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=1200&q=80",
+    "image": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=1200&h=675&fit=crop&q=80",
     "tags": [
       "Degen Chain",
       "Arbitrum Orbit",
@@ -2947,7 +2947,7 @@ export const newsArticles: NewsArticle[] = [
     "date": "October 29, 2026",
     "readTime": "7 min read",
     "category": "Breaking",
-    "image": "https://images.unsplash.com/photo-1622979135225-d2ba269bc1df?w=1200&q=80",
+    "image": "https://images.unsplash.com/photo-1622979135225-d2ba269bc1df?w=1200&h=675&fit=crop&q=80",
     "tags": [
       "Elixir",
       "deUSD",
@@ -2966,7 +2966,7 @@ export const newsArticles: NewsArticle[] = [
     "date": "October 29, 2026",
     "readTime": "7 min read",
     "category": "Breaking",
-    "image": "https://images.unsplash.com/photo-1560518883-ce09059eeffa?w=1200&q=80",
+    "image": "https://images.unsplash.com/photo-1560518883-ce09059eeffa?w=1200&h=675&fit=crop&q=80",
     "tags": [
       "Parcl",
       "RWA",
@@ -2985,7 +2985,7 @@ export const newsArticles: NewsArticle[] = [
     "date": "October 29, 2026",
     "readTime": "7 min read",
     "category": "Breaking",
-    "image": "https://images.unsplash.com/photo-1559526324-4b87b5e36e44?w=1200&q=80",
+    "image": "https://images.unsplash.com/photo-1559526324-4b87b5e36e44?w=1200&h=675&fit=crop&q=80",
     "tags": [
       "Corn",
       "BTCN",
@@ -3004,7 +3004,7 @@ export const newsArticles: NewsArticle[] = [
     "date": "October 29, 2026",
     "readTime": "7 min read",
     "category": "Alpha Intel",
-    "image": "https://images.unsplash.com/photo-1639762681057-408e52192e55?w=1200&q=80",
+    "image": "https://images.unsplash.com/photo-1639762681057-408e52192e55?w=1200&h=675&fit=crop&q=80",
     "tags": [
       "Movement Labs",
       "Move-EVM",
@@ -3023,7 +3023,7 @@ export const newsArticles: NewsArticle[] = [
     "date": "October 29, 2026",
     "readTime": "7 min read",
     "category": "Breaking",
-    "image": "https://images.unsplash.com/photo-1642790106117-e829e14a795f?w=1200&q=80",
+    "image": "https://images.unsplash.com/photo-1642790106117-e829e14a795f?w=1200&h=675&fit=crop&q=80",
     "tags": [
       "Derive",
       "Lyra",
@@ -3042,7 +3042,7 @@ export const newsArticles: NewsArticle[] = [
     "date": "October 30, 2026",
     "readTime": "7 min read",
     "category": "Breaking",
-    "image": "https://images.unsplash.com/photo-1677442136019-21780efad99a?w=1200&q=80",
+    "image": "https://images.unsplash.com/photo-1677442136019-21780efad99a?w=1200&h=675&fit=crop&q=80",
     "tags": [
       "Ritual",
       "Infernet",
@@ -3061,7 +3061,7 @@ export const newsArticles: NewsArticle[] = [
     "date": "October 30, 2026",
     "readTime": "7 min read",
     "category": "Breaking",
-    "image": "https://images.unsplash.com/photo-1639762681485-074b7f938ba0?w=1200&q=80",
+    "image": "https://images.unsplash.com/photo-1639762681485-074b7f938ba0?w=1200&h=675&fit=crop&q=80",
     "tags": [
       "zkPass",
       "TransGate",
@@ -3080,7 +3080,7 @@ export const newsArticles: NewsArticle[] = [
     "date": "October 30, 2026",
     "readTime": "7 min read",
     "category": "Breaking",
-    "image": "https://images.unsplash.com/photo-1620712943543-bcc4688e7485?w=1200&q=80",
+    "image": "https://images.unsplash.com/photo-1620712943543-bcc4688e7485?w=1200&h=675&fit=crop&q=80",
     "tags": [
       "Hyperbolic",
       "GPU",
@@ -3099,7 +3099,7 @@ export const newsArticles: NewsArticle[] = [
     "date": "October 30, 2026",
     "readTime": "7 min read",
     "category": "Alpha Intel",
-    "image": "https://images.unsplash.com/photo-1507146426996-ef05306b995a?w=1200&q=80",
+    "image": "https://images.unsplash.com/photo-1507146426996-ef05306b995a?w=1200&h=675&fit=crop&q=80",
     "tags": [
       "Allora Network",
       "Peer Prediction",
@@ -3118,7 +3118,7 @@ export const newsArticles: NewsArticle[] = [
     "date": "October 30, 2026",
     "readTime": "7 min read",
     "category": "Breaking",
-    "image": "https://images.unsplash.com/photo-1639762681057-408e52192e55?w=1200&q=80",
+    "image": "https://images.unsplash.com/photo-1639762681057-408e52192e55?w=1200&h=675&fit=crop&q=80",
     "tags": [
       "Kakarot",
       "zkEVM",
@@ -3137,7 +3137,7 @@ export const newsArticles: NewsArticle[] = [
     "date": "October 30, 2026",
     "readTime": "7 min read",
     "category": "Breaking",
-    "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=1200&q=80",
+    "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=1200&h=675&fit=crop&q=80",
     "tags": [
       "SatLayer",
       "Babylon",
@@ -3156,7 +3156,7 @@ export const newsArticles: NewsArticle[] = [
     "date": "October 30, 2026",
     "readTime": "7 min read",
     "category": "Breaking",
-    "image": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=1200&q=80",
+    "image": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=1200&h=675&fit=crop&q=80",
     "tags": [
       "t3rn",
       "Cross-Chain",
@@ -3175,7 +3175,7 @@ export const newsArticles: NewsArticle[] = [
     "date": "October 30, 2026",
     "readTime": "7 min read",
     "category": "Breaking",
-    "image": "https://images.unsplash.com/photo-1559526324-4b87b5e36e44?w=1200&q=80",
+    "image": "https://images.unsplash.com/photo-1559526324-4b87b5e36e44?w=1200&h=675&fit=crop&q=80",
     "tags": [
       "Huma Finance",
       "PayFi",
@@ -3194,7 +3194,7 @@ export const newsArticles: NewsArticle[] = [
     "date": "October 30, 2026",
     "readTime": "7 min read",
     "category": "Breaking",
-    "image": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=1200&q=80",
+    "image": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=1200&h=675&fit=crop&q=80",
     "tags": [
       "Lagrange",
       "ZK Coprocessor",
@@ -3213,7 +3213,7 @@ export const newsArticles: NewsArticle[] = [
     "date": "October 30, 2026",
     "readTime": "7 min read",
     "category": "Breaking",
-    "image": "https://images.unsplash.com/photo-1550745165-9bc0b252726f?w=1200&q=80",
+    "image": "https://images.unsplash.com/photo-1550745165-9bc0b252726f?w=1200&h=675&fit=crop&q=80",
     "tags": [
       "Solayer",
       "Solana",
@@ -3232,7 +3232,7 @@ export const newsArticles: NewsArticle[] = [
     "date": "October 30, 2026",
     "readTime": "7 min read",
     "category": "Breaking",
-    "image": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=1200&q=80",
+    "image": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=1200&h=675&fit=crop&q=80",
     "tags": [
       "Story Foundation",
       "Intellectual Property",
@@ -3251,7 +3251,7 @@ export const newsArticles: NewsArticle[] = [
     "date": "October 30, 2026",
     "readTime": "7 min read",
     "category": "Breaking",
-    "image": "https://images.unsplash.com/photo-1639762681485-074b7f938ba0?w=1200&q=80",
+    "image": "https://images.unsplash.com/photo-1639762681485-074b7f938ba0?w=1200&h=675&fit=crop&q=80",
     "tags": [
       "Mezo",
       "Bitcoin",
@@ -3270,7 +3270,7 @@ export const newsArticles: NewsArticle[] = [
     "date": "October 30, 2026",
     "readTime": "7 min read",
     "category": "Breaking",
-    "image": "https://images.unsplash.com/photo-1560518883-ce09059eeffa?w=1200&q=80",
+    "image": "https://images.unsplash.com/photo-1560518883-ce09059eeffa?w=1200&h=675&fit=crop&q=80",
     "tags": [
       "Plume Network",
       "RWA",
@@ -3289,7 +3289,7 @@ export const newsArticles: NewsArticle[] = [
     "date": "October 30, 2026",
     "readTime": "7 min read",
     "category": "Breaking",
-    "image": "https://images.unsplash.com/photo-1621416894569-0f39ed31d247?w=1200&q=80",
+    "image": "https://images.unsplash.com/photo-1621416894569-0f39ed31d247?w=1200&h=675&fit=crop&q=80",
     "tags": [
       "BounceBit",
       "CeDeFi",
@@ -3308,7 +3308,7 @@ export const newsArticles: NewsArticle[] = [
     "date": "October 30, 2026",
     "readTime": "7 min read",
     "category": "Breaking",
-    "image": "https://images.unsplash.com/photo-1550745165-9bc0b252726f?w=1200&q=80",
+    "image": "https://images.unsplash.com/photo-1550745165-9bc0b252726f?w=1200&h=675&fit=crop&q=80",
     "tags": [
       "Sonic Labs",
       "SVM",
@@ -3327,7 +3327,7 @@ export const newsArticles: NewsArticle[] = [
     "date": "October 30, 2026",
     "readTime": "7 min read",
     "category": "Breaking",
-    "image": "https://images.unsplash.com/photo-1639762681057-408e52192e55?w=1200&q=80",
+    "image": "https://images.unsplash.com/photo-1639762681057-408e52192e55?w=1200&h=675&fit=crop&q=80",
     "tags": [
       "Hemi Network",
       "Bitcoin",
@@ -3346,7 +3346,7 @@ export const newsArticles: NewsArticle[] = [
     "date": "October 30, 2026",
     "readTime": "7 min read",
     "category": "Breaking",
-    "image": "https://images.unsplash.com/photo-1642543492481-44e81e3914a7?w=1200&q=80",
+    "image": "https://images.unsplash.com/photo-1642543492481-44e81e3914a7?w=1200&h=675&fit=crop&q=80",
     "tags": [
       "Mitosis",
       "DeFi",
@@ -3365,7 +3365,7 @@ export const newsArticles: NewsArticle[] = [
     "date": "October 30, 2026",
     "readTime": "7 min read",
     "category": "Breaking",
-    "image": "https://images.unsplash.com/photo-1507146426996-ef05306b995a?w=1200&q=80",
+    "image": "https://images.unsplash.com/photo-1507146426996-ef05306b995a?w=1200&h=675&fit=crop&q=80",
     "tags": [
       "Privasea",
       "FHE",
@@ -3384,7 +3384,7 @@ export const newsArticles: NewsArticle[] = [
     "date": "October 30, 2026",
     "readTime": "7 min read",
     "category": "Breaking",
-    "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=1200&q=80",
+    "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=1200&h=675&fit=crop&q=80",
     "tags": [
       "Avalon Finance",
       "Bitcoin Lending",
@@ -3403,7 +3403,7 @@ export const newsArticles: NewsArticle[] = [
     "date": "October 30, 2026",
     "readTime": "7 min read",
     "category": "Breaking",
-    "image": "https://images.unsplash.com/photo-1620712943543-bcc4688e7485?w=1200&q=80",
+    "image": "https://images.unsplash.com/photo-1620712943543-bcc4688e7485?w=1200&h=675&fit=crop&q=80",
     "tags": [
       "Swell Network",
       "Restaked L2",
@@ -3422,7 +3422,7 @@ export const newsArticles: NewsArticle[] = [
     "date": "October 31, 2026",
     "readTime": "7 min read",
     "category": "Breaking",
-    "image": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=1200&q=80",
+    "image": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=1200&h=675&fit=crop&q=80",
     "tags": [
       "MegaETH",
       "Real-Time EVM",
@@ -3441,7 +3441,7 @@ export const newsArticles: NewsArticle[] = [
     "date": "October 31, 2026",
     "readTime": "7 min read",
     "category": "Breaking",
-    "image": "https://images.unsplash.com/photo-1639762681485-074b7f938ba0?w=1200&q=80",
+    "image": "https://images.unsplash.com/photo-1639762681485-074b7f938ba0?w=1200&h=675&fit=crop&q=80",
     "tags": [
       "Initia",
       "Interwoven Rollups",
@@ -3460,7 +3460,7 @@ export const newsArticles: NewsArticle[] = [
     "date": "October 31, 2026",
     "readTime": "7 min read",
     "category": "Breaking",
-    "image": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=1200&q=80",
+    "image": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=1200&h=675&fit=crop&q=80",
     "tags": [
       "Morph",
       "Layer 2",
@@ -3479,7 +3479,7 @@ export const newsArticles: NewsArticle[] = [
     "date": "October 31, 2026",
     "readTime": "7 min read",
     "category": "Breaking",
-    "image": "https://images.unsplash.com/photo-1559526324-4b87b5e36e44?w=1200&q=80",
+    "image": "https://images.unsplash.com/photo-1559526324-4b87b5e36e44?w=1200&h=675&fit=crop&q=80",
     "tags": [
       "Ondo Finance",
       "RWA",
@@ -3498,7 +3498,7 @@ export const newsArticles: NewsArticle[] = [
     "date": "October 31, 2026",
     "readTime": "7 min read",
     "category": "Breaking",
-    "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=1200&q=80",
+    "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=1200&h=675&fit=crop&q=80",
     "tags": [
       "Nubit",
       "Bitcoin DA",
@@ -3517,7 +3517,7 @@ export const newsArticles: NewsArticle[] = [
     "date": "October 31, 2026",
     "readTime": "7 min read",
     "category": "Breaking",
-    "image": "https://images.unsplash.com/photo-1620712943543-bcc4688e7485?w=1200&q=80",
+    "image": "https://images.unsplash.com/photo-1620712943543-bcc4688e7485?w=1200&h=675&fit=crop&q=80",
     "tags": [
       "Succinct",
       "SP1",
@@ -3536,7 +3536,7 @@ export const newsArticles: NewsArticle[] = [
     "date": "October 31, 2026",
     "readTime": "7 min read",
     "category": "Breaking",
-    "image": "https://images.unsplash.com/photo-1642790106117-e829e14a795f?w=1200&q=80",
+    "image": "https://images.unsplash.com/photo-1642790106117-e829e14a795f?w=1200&h=675&fit=crop&q=80",
     "tags": [
       "RedStone",
       "Oracles",
@@ -3555,7 +3555,7 @@ export const newsArticles: NewsArticle[] = [
     "date": "October 31, 2026",
     "readTime": "7 min read",
     "category": "Breaking",
-    "image": "https://images.unsplash.com/photo-1507146426996-ef05306b995a?w=1200&q=80",
+    "image": "https://images.unsplash.com/photo-1507146426996-ef05306b995a?w=1200&h=675&fit=crop&q=80",
     "tags": [
       "Kinto",
       "Institutional DeFi",
@@ -3574,7 +3574,7 @@ export const newsArticles: NewsArticle[] = [
     "date": "October 31, 2026",
     "readTime": "7 min read",
     "category": "Breaking",
-    "image": "https://images.unsplash.com/photo-1621416894569-0f39ed31d247?w=1200&q=80",
+    "image": "https://images.unsplash.com/photo-1621416894569-0f39ed31d247?w=1200&h=675&fit=crop&q=80",
     "tags": [
       "Superstate",
       "Robert Leshner",
@@ -3593,7 +3593,7 @@ export const newsArticles: NewsArticle[] = [
     "date": "October 31, 2026",
     "readTime": "7 min read",
     "category": "Breaking",
-    "image": "https://images.unsplash.com/photo-1639762681057-408e52192e55?w=1200&q=80",
+    "image": "https://images.unsplash.com/photo-1639762681057-408e52192e55?w=1200&h=675&fit=crop&q=80",
     "tags": [
       "Zero Network",
       "Zerion",
@@ -4737,7 +4737,7 @@ export const newsArticles: NewsArticle[] = [
     "date": "2026-11-01T20:15:00Z",
     "readTime": "4 min read",
     "category": "AI & DePIN",
-    "image": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=1200&q=80",
+    "image": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=1200&h=675&fit=crop&q=80",
     "tags": [
       "0G Labs",
       "Artificial Intelligence",
@@ -4756,7 +4756,7 @@ export const newsArticles: NewsArticle[] = [
     "date": "2026-11-01T20:20:00Z",
     "readTime": "3 min read",
     "category": "Zero Knowledge",
-    "image": "https://images.unsplash.com/photo-1639762681485-074b7f938ba0?w=1200&q=80",
+    "image": "https://images.unsplash.com/photo-1639762681485-074b7f938ba0?w=1200&h=675&fit=crop&q=80",
     "tags": [
       "ZEROBASE",
       "Zero Knowledge",
@@ -4775,7 +4775,7 @@ export const newsArticles: NewsArticle[] = [
     "date": "2026-11-01T20:25:00Z",
     "readTime": "4 min read",
     "category": "Bitcoin L2",
-    "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=1200&q=80",
+    "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=1200&h=675&fit=crop&q=80",
     "tags": [
       "Rooch Network",
       "Bitcoin L2",
@@ -4794,7 +4794,7 @@ export const newsArticles: NewsArticle[] = [
     "date": "2026-11-01T20:30:00Z",
     "readTime": "3 min read",
     "category": "Layer 1",
-    "image": "https://images.unsplash.com/photo-1622979135225-d2ba269bc1df?w=1200&q=80",
+    "image": "https://images.unsplash.com/photo-1622979135225-d2ba269bc1df?w=1200&h=675&fit=crop&q=80",
     "tags": [
       "Berachain",
       "Proof of Liquidity",
@@ -4812,7 +4812,7 @@ export const newsArticles: NewsArticle[] = [
     "date": "2026-11-01T20:35:00Z",
     "readTime": "3 min read",
     "category": "Zero Knowledge",
-    "image": "https://images.unsplash.com/photo-1639762681057-408e52192e55?w=1200&q=80",
+    "image": "https://images.unsplash.com/photo-1639762681057-408e52192e55?w=1200&h=675&fit=crop&q=80",
     "tags": [
       "Nebra",
       "ZK Proofs",
@@ -4831,7 +4831,7 @@ export const newsArticles: NewsArticle[] = [
     "date": "2026-11-01T20:40:00Z",
     "readTime": "4 min read",
     "category": "Interchain / DeFi",
-    "image": "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=1200&q=80",
+    "image": "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=1200&h=675&fit=crop&q=80",
     "tags": [
       "Valence",
       "Interchain",
@@ -4850,7 +4850,7 @@ export const newsArticles: NewsArticle[] = [
     "date": "2026-11-01T20:45:00Z",
     "readTime": "3 min read",
     "category": "zkVM / Modular",
-    "image": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=1200&q=80",
+    "image": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=1200&h=675&fit=crop&q=80",
     "tags": [
       "OpenVM",
       "zkVM",
@@ -4869,7 +4869,7 @@ export const newsArticles: NewsArticle[] = [
     "date": "2026-11-01T20:50:00Z",
     "readTime": "4 min read",
     "category": "Fixed-Rate DeFi",
-    "image": "https://images.unsplash.com/photo-1559526324-4b87b5e36e44?w=1200&q=80",
+    "image": "https://images.unsplash.com/photo-1559526324-4b87b5e36e44?w=1200&h=675&fit=crop&q=80",
     "tags": [
       "Term Structure",
       "DeFi",
@@ -4888,7 +4888,7 @@ export const newsArticles: NewsArticle[] = [
     "date": "2026-11-01T20:55:00Z",
     "readTime": "3 min read",
     "category": "Pre-Market DeFi",
-    "image": "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?w=1200&q=80",
+    "image": "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?w=1200&h=675&fit=crop&q=80",
     "tags": [
       "Tadle",
       "Pre-Market",
@@ -4907,7 +4907,7 @@ export const newsArticles: NewsArticle[] = [
     "date": "2026-11-01T21:00:00Z",
     "readTime": "4 min read",
     "category": "Restaking",
-    "image": "https://images.unsplash.com/photo-1642543492481-44e81e3914a7?w=1200&q=80",
+    "image": "https://images.unsplash.com/photo-1642543492481-44e81e3914a7?w=1200&h=675&fit=crop&q=80",
     "tags": [
       "EigenLayer",
       "Restaking",
@@ -4925,7 +4925,7 @@ export const newsArticles: NewsArticle[] = [
     "date": "2026-11-01T21:05:00Z",
     "readTime": "3 min read",
     "category": "Layer 1",
-    "image": "https://images.unsplash.com/photo-1509228468518-180dd4864904?w=1200&q=80",
+    "image": "https://images.unsplash.com/photo-1509228468518-180dd4864904?w=1200&h=675&fit=crop&q=80",
     "tags": [
       "Monad",
       "Parallel EVM",
@@ -4943,7 +4943,7 @@ export const newsArticles: NewsArticle[] = [
     "date": "2026-11-01T21:10:00Z",
     "readTime": "4 min read",
     "category": "Cryptography & Privacy",
-    "image": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=1200&q=80",
+    "image": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=1200&h=675&fit=crop&q=80",
     "tags": [
       "FHE",
       "Cryptography",
@@ -4961,7 +4961,7 @@ export const newsArticles: NewsArticle[] = [
     "date": "2026-11-01T21:15:00Z",
     "readTime": "3 min read",
     "category": "Bitcoin Ecosystem",
-    "image": "https://images.unsplash.com/photo-1516245834210-c4c142787335?w=1200&q=80",
+    "image": "https://images.unsplash.com/photo-1516245834210-c4c142787335?w=1200&h=675&fit=crop&q=80",
     "tags": [
       "Bitcoin",
       "BTC Restaking",
@@ -4979,7 +4979,7 @@ export const newsArticles: NewsArticle[] = [
     "date": "2026-11-01T21:20:00Z",
     "readTime": "4 min read",
     "category": "Payments & Macro",
-    "image": "https://images.unsplash.com/photo-1526304640581-d334cdbbf45e?w=1200&q=80",
+    "image": "https://images.unsplash.com/photo-1526304640581-d334cdbbf45e?w=1200&h=675&fit=crop&q=80",
     "tags": [
       "Stablecoins",
       "Payments",
@@ -4997,7 +4997,7 @@ export const newsArticles: NewsArticle[] = [
     "date": "2026-11-01T21:25:00Z",
     "readTime": "3 min read",
     "category": "Layer 2",
-    "image": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=1200&q=80",
+    "image": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=1200&h=675&fit=crop&q=80",
     "tags": [
       "Ethereum",
       "Layer 2",
@@ -5006,5 +5006,283 @@ export const newsArticles: NewsArticle[] = [
       "Gas Fees"
     ],
     "content": "Transaction fees across Ethereum Layer-2 rollups have reached historic lows, with simple token transfers and DEX swaps routinely settling for less than one-tenth of a cent. The sustained drop in user costs follows extensive optimizations in how rollup sequencers pack and compress data before publishing it to Ethereum's dedicated blobspace.\n\nTechnological refinements introduced over recent network hard forks have expanded blob throughput, providing ample capacity for high-frequency gaming, micropayments, and social applications. Concurrently, zero-knowledge rollups have implemented recursive state compression, reducing the byte size of each submitted proof by up to 60%.\n\nWith gas cost barriers largely eradicated, decentralized application activity is migrating at an accelerated pace to Layer-2 networks, fulfilling the community's multi-year rollup-centric scaling vision."
+  },
+  {
+    "slug": "citrea-bitcoin-zkevm-testnet-milestone",
+    "title": "Citrea Deploys Bitcoin zkEVM Testnet Processing Over 500,000 Zero-Knowledge Transactions",
+    "excerpt": "The first validity rollup settling on Bitcoin surpasses half a million testnet transactions, proving recursive BitVM proof verification.",
+    "author": "Airdroplyx Intel Desk",
+    "date": "2026-11-02T16:00:00Z",
+    "readTime": "4 min read",
+    "category": "Bitcoin ZK",
+    "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=1200&h=675&fit=crop&q=80",
+    "tags": [
+      "Citrea",
+      "Bitcoin L2",
+      "zkEVM",
+      "BitVM",
+      "Zero Knowledge"
+    ],
+    "relatedAirdropId": "citrea-bitcoin-testnet",
+    "content": "The Bitcoin scaling narrative achieved a historic technical milestone today as Citrea announced that its public testnet has successfully processed more than 500,000 transactions with recursive validity proofs verified via BitVM on Bitcoin Layer 1.\n\nHistorically, Bitcoin's limited scripting language prevented direct verification of complex smart contracts. Citrea bypasses this limitation by generating succinct zero-knowledge execution proofs off-chain and compiling them into fraud-provable BitVM commitment scripts on the Bitcoin base chain. This allows users to retain native Bitcoin security while executing high-speed EVM transactions.\n\nWith tier-1 backing from Founders Fund and Galaxy Ventures, the Citrea testnet is experiencing record developer activity across decentralized lending, automated market makers, and NFT bridges ahead of an anticipated mainnet rollout."
+  },
+  {
+    "slug": "mind-network-fhe-restaking-ai-security",
+    "title": "Mind Network Activates Fully Homomorphic Encryption Restaking Layer for Decentralized AI",
+    "excerpt": "Breakthrough cryptosystem allows restaked assets to secure encrypted AI inference and prevent data poisoning across decentralized model hubs.",
+    "author": "Airdroplyx Intel Desk",
+    "date": "2026-11-02T16:10:00Z",
+    "readTime": "4 min read",
+    "category": "AI & Privacy",
+    "image": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=1200&h=675&fit=crop&q=80",
+    "tags": [
+      "Mind Network",
+      "FHE",
+      "Restaking",
+      "Artificial Intelligence",
+      "Cryptography"
+    ],
+    "relatedAirdropId": "mind-network-restaking",
+    "content": "Mind Network has officially launched its Fully Homomorphic Encryption (FHE) restaking testnet phase, providing cryptographic security guarantees for decentralized artificial intelligence. By combining shared economic security from restaked assets with FHE computations, the protocol ensures that decentralized AI agents can process private corporate and user data without exposing underlying models.\n\nIn standard decentralized computing setups, node operators can inspect plain-text model weights and user inputs, creating catastrophic data privacy hazards for financial and medical applications. Mind Network resolves this vulnerability by evaluating AI inference queries strictly over encrypted ciphertexts.\n\nRestakers on the testnet are actively delegating testnet ETH and BTC into specialized FHE subnets, earning verifiable proof points and participating in decentralized governance."
+  },
+  {
+    "slug": "fhenix-confidential-coprocessor-ethereum",
+    "title": "Fhenix Launches FHE Coprocessor Enabling Private Smart Contract State for Ethereum L1 and L2s",
+    "excerpt": "New developer infrastructure allows existing Solidity decentralized applications to integrate confidential computations with minimal code adjustments.",
+    "author": "Airdroplyx Intel Desk",
+    "date": "2026-11-02T16:15:00Z",
+    "readTime": "3 min read",
+    "category": "FHE / EVM",
+    "image": "https://images.unsplash.com/photo-1639762681485-074b7f938ba0?w=1200&h=675&fit=crop&q=80",
+    "tags": [
+      "Fhenix",
+      "FHE",
+      "Ethereum",
+      "Smart Contracts",
+      "Confidential Computing"
+    ],
+    "relatedAirdropId": "fhenix-coprocessor",
+    "content": "Confidentiality pioneer Fhenix has unveiled its FHE Coprocessor, a breakthrough scaling layer designed to bring confidential execution directly to existing Ethereum Layer-1 smart contracts and Layer-2 rollups. Rather than forcing developers to migrate to separate, isolated privacy blockchains, the coprocessor allows standard Solidity contracts to offload private computations off-chain.\n\nKey use cases demonstrated during the public demo include sealed-bid auctions that prevent front-running, confidential collateral ratios that protect borrowers from predatory liquidation sniping, and private gaming mechanics.\n\nWith $15 Million in Series A venture capital, Fhenix has expanded its Nitrogen testnet questline, rewarding community participants who wrap testnet assets into encrypted tokens."
+  },
+  {
+    "slug": "dill-network-data-availability-sampling-records",
+    "title": "Dill DA Benchmarks Reveal 100 MB/s Sampling Bandwidth for High-Frequency Modular Rollups",
+    "excerpt": "Next-generation data availability network sets new speed records for decentralized blob storage using 2D Reed-Solomon erasure coding.",
+    "author": "Airdroplyx Intel Desk",
+    "date": "2026-11-02T16:20:00Z",
+    "readTime": "3 min read",
+    "category": "Data Availability",
+    "image": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=1200&h=675&fit=crop&q=80",
+    "tags": [
+      "Dill",
+      "Data Availability",
+      "Modular",
+      "DAS",
+      "Scalability"
+    ],
+    "relatedAirdropId": "dill-da-network",
+    "content": "Modular infrastructure network Dill has published audited benchmark data showing its Data Availability layer capable of sustaining 100 megabytes per second of sampling throughput. The technical breakthrough positions Dill among the fastest decentralized DA networks currently operating in Web3.\n\nThrough advanced 2D Reed-Solomon erasure coding and decentralized validator sharding, light clients running on consumer-grade hardware can verify that block data has been made fully available by randomly downloading a tiny fraction of the block bytes. This eliminates the requirement for individual nodes to store multi-terabyte blockchain histories.\n\nOver 10,000 independent testnet light nodes are currently participating in the testing campaign, helping calibrate network parameters ahead of the upcoming token generation event."
+  },
+  {
+    "slug": "astria-shared-sequencer-rollup-composability",
+    "title": "Astria Shared Sequencer Connects Multiple Sovereign Rollups for Atomic Cross-Rollup Execution",
+    "excerpt": "Decentralized sequencing layer enables seamless cross-rollup liquidity flows without relying on traditional wrapped token bridges.",
+    "author": "Airdroplyx Intel Desk",
+    "date": "2026-11-02T16:25:00Z",
+    "readTime": "4 min read",
+    "category": "Shared Sequencing",
+    "image": "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=1200&h=675&fit=crop&q=80",
+    "tags": [
+      "Astria",
+      "Shared Sequencer",
+      "Rollup Composability",
+      "Modular",
+      "Layer 2"
+    ],
+    "relatedAirdropId": "astria-shared-network",
+    "content": "Astria has completed a major architectural upgrade to its Flame testnet, enabling atomic cross-rollup execution across multiple sovereign Layer-2 chains. By coordinating the ordering of transactions across several rollups within a single shared consensus block, Astria allows smart contracts on chain A to execute synchronously with smart contracts on chain B.\n\nThis solves one of modular blockchain architectures' greatest historical weaknesses: fragmented user experience and asynchronous bridging delays. Traders can execute cross-chain arbitrage and portfolio rebalancing with the exact same atomic guarantees previously available only on single monolithic layer-1 networks.\n\nEcosystem partners building on Astria report near-instant soft-finality, shielding retail users from centralized sequencer halts."
+  },
+  {
+    "slug": "fairblock-pre-execution-privacy-mev-defense",
+    "title": "Fairblock Deploys Encrypted Mempools on Testnet to Neutralize Toxic Front-Running Attacks",
+    "excerpt": "Decentralized witness encryption protocol conceals transaction parameters until block inclusion, ending sandwich exploitation.",
+    "author": "Airdroplyx Intel Desk",
+    "date": "2026-11-02T16:30:00Z",
+    "readTime": "3 min read",
+    "category": "MEV Defense",
+    "image": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=1200&h=675&fit=crop&q=80",
+    "tags": [
+      "Fairblock",
+      "MEV",
+      "Encrypted Mempool",
+      "Privacy",
+      "DeFi"
+    ],
+    "relatedAirdropId": "fairblock-confidential",
+    "content": "Decentralized privacy protocol Fairblock has rolled out encrypted mempool infrastructure across its testnet environment, delivering an effective countermeasure against predatory maximal extractable value (MEV) searcher bots. On public blockchains, unconfirmed transactions wait in transparent mempools where bots can sandwich trades and drain retail slippage.\n\nFairblock solves this by encrypting transaction payloads using identity-based cryptography before broadcasting. The contents of a transaction remain cryptographically scrambled until validator consensus has sealed the transaction order, making it mathematically impossible for bots to front-run trades.\n\nEarly performance metrics indicate zero transaction latency penalties, paving the way for broad adoption across decentralized exchanges and automated treasury vaults."
+  },
+  {
+    "slug": "spire-based-rollups-ethereum-l1-settlement",
+    "title": "Spire Introduces Framework for Based Rollups That Inherit Direct L1 Ethereum Sequencing",
+    "excerpt": "New developer tooling simplifies the deployment of application-specific rollups that outsource block ordering to Ethereum validators.",
+    "author": "Airdroplyx Intel Desk",
+    "date": "2026-11-02T16:35:00Z",
+    "readTime": "3 min read",
+    "category": "Based Rollups",
+    "image": "https://images.unsplash.com/photo-1639762681057-408e52192e55?w=1200&h=675&fit=crop&q=80",
+    "tags": [
+      "Spire",
+      "Based Rollups",
+      "Ethereum L1",
+      "Sequencing",
+      "Infra"
+    ],
+    "relatedAirdropId": "spire-based-rollup",
+    "content": "Spire has released its open-source software development kit designed to streamline the creation of 'based rollups'. By delegating the responsibility of transaction ordering to Ethereum Layer-1 block proposers, Spire rollups eliminate the security, governance, and regulatory burdens associated with maintaining centralized sequencers.\n\nBased rollups inherit the full economic security, censorship resistance, and 100% historical uptime of the Ethereum base layer. Furthermore, because based rollups share the same block proposers, they can achieve atomic composability with other based rollups and Ethereum L1 smart contracts within the exact same block.\n\nDevelopment teams are invited to deploy sandbox rollups on the Spire Holesky testnet to test gas optimization and state transition verifications."
+  },
+  {
+    "slug": "kura-protocol-cross-rollup-settlement-engine",
+    "title": "Kura Protocol Unveils Unified Clearing Layer Connecting Fragmented Liquidity Across EVM Chains",
+    "excerpt": "Off-chain clearinghouse architecture settles multi-chain balance proofs recursively, eliminating bridge slippage and locked liquidity pools.",
+    "author": "Airdroplyx Intel Desk",
+    "date": "2026-11-02T16:40:00Z",
+    "readTime": "4 min read",
+    "category": "Modular Liquidity",
+    "image": "https://images.unsplash.com/photo-1622979135225-d2ba269bc1df?w=1200&h=675&fit=crop&q=80",
+    "tags": [
+      "Kura Protocol",
+      "Cross-Rollup",
+      "DeFi",
+      "Liquidity",
+      "Interoperability"
+    ],
+    "relatedAirdropId": "kura-protocol",
+    "content": "Kura Protocol has officially launched its incentivized testnet, unveiling an off-chain clearinghouse system designed to unite liquidity across EVM rollups. Currently, users moving capital between Layer-2 networks encounter substantial friction, high bridge spreads, and capital-inefficient fragmented liquidity pools.\n\nKura resolves this by implementing a unified state clearing engine. Rather than physically moving tokens across slow bridges for each transaction, Kura nets balances off-chain and periodically settles cryptographic state roots back to Ethereum Layer 1, delivering sub-second swap execution with near-zero slippage.\n\nCommunity members testing the platform can execute cross-chain deposits and swaps to earn seasonal testnet XP and early adopter roles."
+  },
+  {
+    "slug": "ethereum-l1-validator-churn-limit-dynamics",
+    "title": "Ethereum Validator Churn Reaches Optimal Steady State as Institutional Staking Stabilizes",
+    "excerpt": "On-chain metrics indicate healthy balance in validator entry and exit queues following recent protocol parameter adjustments.",
+    "author": "Airdroplyx Intel Desk",
+    "date": "2026-11-02T16:45:00Z",
+    "readTime": "3 min read",
+    "category": "Ethereum Staking",
+    "image": "https://images.unsplash.com/photo-1509228468518-180dd4864904?w=1200&h=675&fit=crop&q=80",
+    "tags": [
+      "Ethereum",
+      "Staking",
+      "Validators",
+      "Consensus",
+      "Proof of Stake"
+    ],
+    "content": "Ethereum consensus layer metrics reveal that validator activation and exit queues have reached an optimal steady state, reflecting mature institutional capital deployment. Following targeted protocol adjustments designed to manage validator set growth without over-burdening peer-to-peer gossip subnets, network liveness continues to record 99.99% participation rates.\n\nStaking yields across diversified liquid staking and restaking pools remain stable around 3.2% to 3.8% APR, bolstered by steady Layer-1 transaction execution and base fee burns. Analysts note that validator geographic distribution has improved substantially as home-stakers take advantage of lightweight client software.\n\nNetwork researchers confirm that Ethereum's proof-of-stake foundation is operating with unprecedented resilience as modular scaling accelerates."
+  },
+  {
+    "slug": "zero-knowledge-compiler-breakthrough-rust-circom",
+    "title": "New Open-Source ZK Compilers Slash Circuit Compilation Times by 70% Across Rust Environments",
+    "excerpt": "Next-generation cryptographic toolchains make zero-knowledge circuit development faster and more accessible for Web3 software engineers.",
+    "author": "Airdroplyx Intel Desk",
+    "date": "2026-11-02T16:50:00Z",
+    "readTime": "3 min read",
+    "category": "Zero Knowledge",
+    "image": "https://images.unsplash.com/photo-1559526324-4b87b5e36e44?w=1200&h=675&fit=crop&q=80",
+    "tags": [
+      "Zero Knowledge",
+      "ZK Compilers",
+      "Rust",
+      "Cryptography",
+      "Developer Tools"
+    ],
+    "content": "A consortium of open-source Web3 cryptography researchers has released major performance upgrades to modern zero-knowledge circuit compilers. In rigorous developer benchmarks, the updated toolchains demonstrated an average 70% reduction in compilation latency, removing a primary friction point in zero-knowledge dApp engineering.\n\nWriting and auditing arithmetic circuits has historically required specialized domain-specific languages and hours of compilation time for complex smart contract logic. The new compiler suite translates standard Rust code directly into optimized Plonk and Groth16 constraint systems with automated witness generation.\n\nThe breakthrough enables developer teams to iterate on ZK rollups, privacy circuits, and verifiable compute proofs with modern software development lifecycle speeds."
+  },
+  {
+    "slug": "bitcoin-l2-ecosystem-tvl-surpasses-record-high",
+    "title": "Bitcoin Layer-2 Ecosystem Capital Inflows Accelerate Past Record Heights as Yield-Bearing BTC Expands",
+    "excerpt": "Institutional custody providers and retail holders lock billions into programmable Bitcoin layers, reshaping digital asset economics.",
+    "author": "Airdroplyx Intel Desk",
+    "date": "2026-11-02T16:55:00Z",
+    "readTime": "4 min read",
+    "category": "Bitcoin Ecosystem",
+    "image": "https://images.unsplash.com/photo-1516245834210-c4c142787335?w=1200&h=675&fit=crop&q=80",
+    "tags": [
+      "Bitcoin",
+      "Layer 2",
+      "BTC DeFi",
+      "Total Value Locked",
+      "Yield"
+    ],
+    "content": "Capital committed to Bitcoin Layer-2 networks, sidechains, and restaking protocols has surged past all-time highs, driven by growing demand for native Bitcoin yield generation. With the total circulating supply of Bitcoin remaining strictly scarce, institutional holders are turning to trust-minimized Layer-2s to earn returns without sacrificing underlying asset exposure.\n\nMove-powered Bitcoin networks, BitVM-settled zero-knowledge rollups, and decentralized restaking layers have captured the vast majority of new capital inflows. Unlike earlier experimental token standards, modern Bitcoin Layer-2 architectures focus on audited smart contract security and non-custodial cryptographic guarantees.\n\nFinancial analysts project that over 5% of all circulating Bitcoin will participate in active Layer-2 staking and DeFi protocols over the next cycle."
+  },
+  {
+    "slug": "depin-physical-infrastructure-real-world-adoption",
+    "title": "Decentralized Physical Infrastructure Networks (DePIN) Report 300% Year-Over-Year Bandwidth Growth",
+    "excerpt": "Decentralized compute, storage, and wireless networks reach commercial profitability milestones as enterprise clients adopt Web3 hardware.",
+    "author": "Airdroplyx Intel Desk",
+    "date": "2026-11-02T17:00:00Z",
+    "readTime": "3 min read",
+    "category": "DePIN",
+    "image": "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?w=1200&h=675&fit=crop&q=80",
+    "tags": [
+      "DePIN",
+      "Decentralized Hardware",
+      "Compute",
+      "Telecom",
+      "Web3 Infrastructure"
+    ],
+    "content": "Decentralized Physical Infrastructure Networks (DePIN) have experienced phenomenal commercial expansion over the past twelve months, with aggregate bandwidth consumption surging more than 300% across decentralized wireless, GPU rendering, and distributed storage networks.\n\nRather than spending hundreds of millions on centralized data centers, DePIN protocols bootstrap hardware infrastructure permissionlessly by rewarding everyday individuals with cryptographic tokens for sharing idle bandwidth, sensor data, and GPU compute power. This crowdsourced model provides services at a 60% to 80% discount compared to legacy corporate cloud providers.\n\nEnterprise demand from artificial intelligence startups seeking affordable GPU training clusters continues to fuel sustainable protocol fee revenues across leading DePIN ecosystems."
+  },
+  {
+    "slug": "sec-cftc-harmonized-guidance-defi-smart-contracts",
+    "title": "Global Financial Regulators Release Harmonized Framework Distinguishing Code from Intermediaries",
+    "excerpt": "Regulatory bodies clarify that non-custodial, immutable smart contracts without central admin keys fall under technological safe harbors.",
+    "author": "Airdroplyx Intel Desk",
+    "date": "2026-11-02T17:05:00Z",
+    "readTime": "4 min read",
+    "category": "Regulation & Policy",
+    "image": "https://images.unsplash.com/photo-1526304640581-d334cdbbf45e?w=1200&h=675&fit=crop&q=80",
+    "tags": [
+      "Regulation",
+      "DeFi",
+      "Smart Contracts",
+      "Compliance",
+      "Policy"
+    ],
+    "content": "In a landmark international joint statement, financial regulatory agencies have released an updated regulatory guidance paper establishing clear distinctions between custodial intermediaries and decentralized software protocols. The framework explicitly affirms that self-executing, non-custodial smart contracts lacking centralized admin controls do not constitute financial broker-dealers.\n\nThe guidance provides much-needed legal clarity for open-source software developers, emphasizing that writing and deploying decentralized smart contracts is protected speech, while custodial entities holding customer funds remain subject to traditional anti-money laundering and solvency compliance rules.\n\nIndustry organizations and legal scholars have praised the updated stance as a crucial milestone that safeguards open-source innovation while focusing enforcement on bad actors."
+  },
+  {
+    "slug": "layer-3-application-chains-scaling-high-throughput",
+    "title": "Layer-3 Appchains Gain Traction for Web3 Gaming and High-Frequency Decentralized Derivatives",
+    "excerpt": "Custom execution environments settling to Layer-2 networks achieve micro-cent transaction fees and customized gas economies.",
+    "author": "Airdroplyx Intel Desk",
+    "date": "2026-11-02T17:10:00Z",
+    "readTime": "3 min read",
+    "category": "Layer 3",
+    "image": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=1200&h=675&fit=crop&q=80",
+    "tags": [
+      "Layer 3",
+      "Appchains",
+      "Gaming",
+      "Derivatives",
+      "Throughput"
+    ],
+    "content": "The adoption of Layer-3 application-specific blockchains is accelerating across gaming and decentralized financial engineering. By settling to Layer-2 rollups rather than directly to Ethereum Layer 1, Layer-3 chains unlock ultra-low execution costs measured in fractions of a cent while preserving verifiable cryptographic security.\n\nAppchain developers can customize state transition rules, introduce zero-gas paymaster accounts for seamless user onboarding, and utilize native application tokens for gas fees. High-frequency decentralized perpetual exchanges and real-time multiplayer games are leading the charge, operating with millisecond block times.\n\nEcosystem modular frameworks make spinning up dedicated Layer-3 environments faster and more accessible than ever before."
+  },
+  {
+    "slug": "cross-chain-intent-solvers-settle-record-volumes",
+    "title": "Intent-Based Protocols Outpace Standard Bridges with $5 Billion in Monthly Gas-Optimized Volume",
+    "excerpt": "Declarative transaction architectures allow decentralized solvers to fulfill cross-chain user intents with zero bridge slippage.",
+    "author": "Airdroplyx Intel Desk",
+    "date": "2026-11-02T17:15:00Z",
+    "readTime": "3 min read",
+    "category": "Intent Architecture",
+    "image": "https://images.unsplash.com/photo-1642543492481-44e81e3914a7?w=1200&h=675&fit=crop&q=80",
+    "tags": [
+      "Intents",
+      "Cross-Chain",
+      "Solvers",
+      "DeFi",
+      "Execution"
+    ],
+    "content": "Intent-based cross-chain protocols have achieved an all-time record, settling over $5 Billion in monthly volume and surpassing conventional lock-and-mint bridges. Rather than specifying complex multi-hop transaction routes, users simply declare their desired end state—such as swapping token A on chain X for token B on chain Y—and decentralized solvers compete to fulfill the order at the best possible price.\n\nSolvers front their own capital to fulfill user intents instantly, absorbing all cross-chain rebalancing risk and batching settlements efficiently behind the scenes. This architecture protects retail traders from MEV exploitation and eradicates the risk of funds getting stuck in bridge smart contracts.\n\nWith major wallets integrating intent APIs natively, declarative execution is rapidly becoming the universal standard for Web3 transactions."
   }
 ];

@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" fill="none">
+  <defs>
+    <linearGradient id="spireGrad" x1="20" y1="20" x2="108" y2="108" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#F43F5E" />
+      <stop offset="50%" stop-color="#E11D48" />
+      <stop offset="100%" stop-color="#9F1239" />
+    </linearGradient>
+  </defs>
+  <rect width="128" height="128" rx="28" fill="#1A060E" />
+  <!-- Spire Tower / Ethereum L1 Based Tower -->
+  <circle cx="64" cy="64" r="42" stroke="url(#spireGrad)" stroke-width="3" />
+  <polygon points="64,28 78,88 50,88" fill="url(#spireGrad)" />
+  <polygon points="64,36 73,88 55,88" fill="#FDA4AF" />
+  <line x1="36" y1="94" x2="92" y2="94" stroke="#FB7185" stroke-width="4" stroke-linecap="round" />
+  <circle cx="64" cy="28" r="4" fill="#FFFFFF" />
+</svg>

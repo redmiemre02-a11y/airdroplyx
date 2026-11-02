@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" fill="none">
+  <defs>
+    <linearGradient id="kuraGrad" x1="20" y1="20" x2="108" y2="108" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#06B6D4" />
+      <stop offset="50%" stop-color="#3B82F6" />
+      <stop offset="100%" stop-color="#1D4ED8" />
+    </linearGradient>
+  </defs>
+  <rect width="128" height="128" rx="28" fill="#061224" />
+  <circle cx="64" cy="64" r="42" stroke="url(#kuraGrad)" stroke-width="3" stroke-dasharray="6 4" />
+  <!-- Kura Liquid Knot / Cross-Rollup Infinity Ring -->
+  <path d="M46 50C46 42 54 36 64 36C74 36 82 42 82 50C82 62 46 66 46 78C46 86 54 92 64 92C74 92 82 86 82 78" stroke="url(#kuraGrad)" stroke-width="8" stroke-linecap="round" />
+  <circle cx="64" cy="64" r="5" fill="#38BDF8" />
+</svg>
