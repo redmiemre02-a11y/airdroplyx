@@ -2,97 +2,93 @@
 import Layout from '../../layouts/Layout.astro';
 import Header from '../../components/Header.astro';
 import Footer from '../../components/Footer.astro';
-import { airdrops } from '../../data/airdrops';
 import { ecosystems } from '../../data/ecosystems';
+import { airdrops } from '../../data/airdrops';
 
-// Calculate ecosystem stats
-const ecosystemStats = ecosystems.map(eco => {
-  const matched = airdrops.filter(a => eco.match(a));
-  const activeCount = matched.filter(a => a.status === 'active').length;
-  const topTokens = matched.slice(0, 4).map(a => a.name);
+// Calculate live airdrop counts per ecosystem
+const ecosystemsWithCounts = ecosystems.map(eco => {
+  const matchingAirdrops = airdrops.filter(a => eco.match(a));
   return {
     ...eco,
-    count: matched.length,
-    activeCount,
-    topTokens
+    count: matchingAirdrops.length,
+    sampleLogos: matchingAirdrops.slice(0, 4).map(a => a.logo)
   };
 });
 ---
 
 <Layout 
-  title="Web3 Airdrop Ecosystems & Sectors (2026) | Airdroplyx"
-  description="Explore verified crypto airdrops categorized by blockchain ecosystem: Solana, Ethereum Layer 2, DePIN, Decentralized AI, Bitcoin L2, and Liquid Restaking."
+  title="Top Crypto Airdrop Ecosystems 2026 | Berachain, Monad, Solana, Bitcoin L2 | Airdroplyx"
+  description="Explore categorized cryptocurrency airdrops by blockchain ecosystem. Complete guides for Berachain, Monad, Solana, Bitcoin L2, Story Protocol, AI & DePIN, and Ethereum Layer 2."
 >
-  <!-- Schema.org JSON-LD -->
-  <script type="application/ld+json" set:html={JSON.stringify({
-    "@context": "https://schema.org",
-    "@type": "CollectionPage",
-    "name": "Web3 Airdrop Ecosystems & Sectors 2026",
-    "description": "Directory of cryptocurrency airdrop ecosystems including Solana, Ethereum Layer 2, DePIN, Decentralized AI, Bitcoin L2, and Restaking.",
-    "url": "https://airdroplyx.com/ecosystems/"
-  })} />
-
   <Header />
 
-  <!-- Hero Section -->
-  <div class="bg-gradient-to-b from-slate-950 via-slate-900 to-slate-800 text-white py-16 md:py-20 border-b-4 border-blue-600">
-    <div class="max-w-[1200px] mx-auto px-4 text-center">
-      <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-blue-500/20 border border-blue-400/30 text-blue-300 text-xs font-bold uppercase tracking-wider mb-6">
-        <span>🌐</span> Blockchain Sector Hubs
+  <main class="max-w-[1280px] mx-auto px-4 py-12">
+    <!-- Hero Header -->
+    <header class="text-center max-w-3xl mx-auto mb-14">
+      <div class="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-indigo-50 dark:bg-indigo-950/60 border border-indigo-200 dark:border-indigo-900/40 text-indigo-600 dark:text-indigo-400 text-xs font-bold uppercase tracking-wider mb-4">
+        <span>🌐</span> Categorized Alpha Hubs
       </div>
-      <h1 class="text-3xl md:text-5xl font-black tracking-tight mb-4 leading-tight text-white">
-        Web3 Airdrop <span class="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 via-indigo-300 to-purple-400">Ecosystem Hubs</span>
+      <h1 class="text-3xl sm:text-4xl lg:text-5xl font-black text-slate-900 dark:text-white tracking-tight leading-tight mb-4">
+        Web3 Airdrop Ecosystems
       </h1>
-      <p class="text-base md:text-lg text-slate-300 max-w-2xl mx-auto leading-relaxed">
-        Target high-yield airdrop campaigns categorized by technology sector. From high-speed Solana DeFi to modular execution layers and zero-capital DePIN mining.
+      <p class="text-base sm:text-lg text-slate-600 dark:text-slate-300 leading-relaxed font-medium">
+        Target your farming capital and time effectively. Dive deep into curated ecosystem hubs featuring verified testnet guides, faucet links, validator strategies, and institutional tokenomics.
       </p>
-    </div>
-  </div>
+    </header>
 
-  <!-- Main Ecosystems Grid -->
-  <main class="max-w-[1200px] mx-auto px-4 py-16">
-    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-8">
-      {ecosystemStats.map(eco => (
+    <!-- Ecosystems Grid -->
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+      {ecosystemsWithCounts.map((eco) => (
         <a 
-          href={`/ecosystem/${eco.slug}`}
-          class="bg-white dark:bg-slate-800 rounded-3xl p-7 md:p-8 border border-slate-200 dark:border-slate-700 shadow-sm hover:shadow-2xl hover:-translate-y-1.5 transition-all duration-300 flex flex-col justify-between group"
+          href={`/ecosystem/${eco.slug}/`}
+          class="group bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-3xl p-7 shadow-sm hover:shadow-xl hover:border-blue-500/50 dark:hover:border-blue-500/50 transition-all flex flex-col justify-between"
         >
           <div>
-            <div class="flex items-center justify-between gap-4 mb-5">
-              <span class="text-4xl">{eco.icon}</span>
-              <span class="text-xs font-bold px-3 py-1 rounded-full bg-slate-100 dark:bg-slate-700 text-slate-700 dark:text-slate-300">
+            <!-- Top Badges -->
+            <div class="flex items-center justify-between gap-2 mb-4">
+              <span class="inline-block text-[11px] font-black uppercase tracking-wider px-3 py-1 rounded-full bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 border border-slate-200 dark:border-slate-700">
                 {eco.badge}
+              </span>
+              <span class="text-xs font-black text-blue-600 dark:text-blue-400 bg-blue-50 dark:bg-blue-950/60 px-2.5 py-0.5 rounded-full">
+                {eco.count} Airdrops
               </span>
             </div>
 
-            <h2 class="text-2xl font-extrabold text-slate-900 dark:text-white group-hover:text-blue-600 transition-colors mb-2">
-              {eco.name}
-            </h2>
+            <!-- Title & Tagline -->
+            <div class="flex items-center gap-3 mb-3">
+              <span class="text-3xl shrink-0 group-hover:scale-110 transition-transform">{eco.icon}</span>
+              <h2 class="text-2xl font-black text-slate-900 dark:text-white group-hover:text-blue-600 dark:group-hover:text-blue-400 transition-colors">
+                {eco.name}
+              </h2>
+            </div>
 
-            <p class="text-sm font-medium text-slate-500 dark:text-slate-400 mb-6 leading-relaxed">
+            <p class="text-xs font-semibold text-slate-500 dark:text-slate-400 mb-4 line-clamp-1">
               {eco.tagline}
             </p>
 
-            <div class="flex flex-wrap gap-2 mb-6">
-              {eco.topTokens.map(token => (
-                <span class="text-xs bg-slate-50 dark:bg-slate-700/60 text-slate-600 dark:text-slate-300 px-2.5 py-1 rounded-lg border border-slate-200/60 dark:border-slate-600/60 font-semibold">
-                  {token}
-                </span>
-              ))}
-              <span class="text-xs text-slate-400 py-1 font-medium">+{eco.count - eco.topTokens.length} more</span>
-            </div>
+            <p class="text-sm text-slate-600 dark:text-slate-300 leading-relaxed mb-6 line-clamp-3">
+              {eco.description}
+            </p>
           </div>
 
-          <div class="pt-5 border-t border-slate-100 dark:border-slate-700 flex items-center justify-between">
-            <div class="flex items-center gap-2">
-              <span class="inline-block w-2 h-2 rounded-full bg-emerald-500"></span>
-              <span class="text-xs font-bold text-slate-700 dark:text-slate-300">
-                {eco.count} Verified Guides ({eco.activeCount} Active)
+          <div>
+            <!-- Sample Logos -->
+            <div class="flex items-center justify-between pt-4 border-t border-slate-100 dark:border-slate-800">
+              <div class="flex -space-x-2">
+                {eco.sampleLogos.map((logo, idx) => (
+                  <img 
+                    src={logo} 
+                    alt="Protocol logo" 
+                    class="w-7 h-7 rounded-full border-2 border-white dark:border-slate-900 object-cover bg-slate-100" 
+                    loading="lazy"
+                  />
+                ))}
+              </div>
+
+              <span class="text-xs font-bold text-blue-600 dark:text-blue-400 group-hover:translate-x-1 transition-transform inline-flex items-center gap-1">
+                Explore Hub <span>→</span>
               </span>
             </div>
-            <span class="text-sm font-bold text-blue-600 group-hover:translate-x-1 transition-transform flex items-center gap-1">
-              Explore Hub →
-            </span>
           </div>
         </a>
       ))}

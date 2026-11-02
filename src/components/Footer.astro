@@ -1,4 +1,8 @@
 ---
+import { airdrops } from '../data/airdrops';
+import { newsArticles } from '../data/news';
+import { academyArticles } from '../data/academy';
+
 const year = new Date().getFullYear();
 ---
 
@@ -14,42 +18,43 @@ const year = new Date().getFullYear();
           The premier platform for verified cryptocurrency airdrops, testnet guides, and Web3 yield farming strategies. Updated 24/7 by crypto researchers.
         </p>
         <div class="text-xs text-slate-500 space-y-1">
-          <p>• 870 Verified Tier-1 Airdrops</p>
-          <p>• 90 Academy Masterclasses</p>
-          <p>• 220 Verified News Stories</p>
+          <p>• {airdrops.length} Verified Tier-1 Airdrops</p>
+          <p>• {academyArticles.length} Academy Masterclasses</p>
+          <p>• {newsArticles.length} Verified News Stories</p>
         </div>
       </div>
 
       <div>
         <h4 class="text-white font-bold mb-4 uppercase tracking-wider text-sm">Interactive Tools</h4>
         <ul class="flex flex-col gap-2 text-sm text-slate-400">
-          <li><a href="/" class="hover:text-blue-400 transition-colors">⚡ Latest Airdrops</a></li>
-          <li><a href="/watchlist" class="hover:text-amber-400 transition-colors">⭐ Watchlist & Tracker</a></li>
+          <li><a href="/" class="hover:text-blue-400 transition-colors">🔥 Latest Airdrops</a></li>
+          <li><a href="/faucets" class="hover:text-blue-400 transition-colors">🚰 Testnet Faucets</a></li>
+          <li><a href="/watchlist" class="hover:text-amber-400 transition-colors">⭐ Watchlist &amp; Tracker</a></li>
           <li><a href="/farming-planner" class="hover:text-emerald-400 transition-colors">📅 Farming Planner</a></li>
           <li><a href="/sybil-checker" class="hover:text-rose-400 transition-colors">🛡️ Sybil Risk Checker</a></li>
-          <li><a href="/gas-tracker" class="hover:text-blue-400 transition-colors">⛽ Live Gas Tracker</a></li>
+          <li><a href="/gas-tracker" class="hover:text-blue-400 transition-colors">⚡ Live Gas Tracker</a></li>
           <li><a href="/compare" class="hover:text-blue-400 transition-colors">⚖️ Compare Protocols</a></li>
           <li><a href="/calculator" class="hover:text-blue-400 transition-colors">🧮 Points Calculator</a></li>
-          <li><a href="/calendar" class="hover:text-blue-400 transition-colors">📆 Airdrop Calendar</a></li>
+          <li><a href="/calendar" class="hover:text-blue-400 transition-colors">🗓️ Airdrop Calendar</a></li>
         </ul>
       </div>
 
       <div>
-        <h4 class="text-white font-bold mb-4 uppercase tracking-wider text-sm">Market & Knowledge</h4>
+        <h4 class="text-white font-bold mb-4 uppercase tracking-wider text-sm">Market &amp; Knowledge</h4>
         <ul class="flex flex-col gap-2 text-sm text-slate-400">
+          <li><a href="/ecosystems" class="hover:text-blue-400 transition-colors">🌐 Ecosystem Hubs</a></li>
           <li><a href="/faucets" class="hover:text-blue-400 transition-colors">🚰 Testnet Faucets</a></li>
-          <li><a href="/investors" class="hover:text-purple-400 transition-colors">🏛️ VC Portfolios</a></li>
+          <li><a href="/investors" class="hover:text-purple-400 transition-colors">💼 VC Portfolios</a></li>
           <li><a href="/unlocks" class="hover:text-amber-400 transition-colors">🔓 Token Unlocks</a></li>
           <li><a href="/academy" class="hover:text-blue-400 transition-colors">🎓 Airdrop Academy</a></li>
-          <li><a href="/academy/quiz" class="hover:text-indigo-400 transition-colors">🏆 Hunter Quiz & Cert</a></li>
-          <li><a href="/glossary" class="hover:text-blue-400 transition-colors">📚 Web3 Glossary</a></li>
-          <li><a href="/ecosystems" class="hover:text-blue-400 transition-colors">🌐 Ecosystem Hubs</a></li>
-          <li><a href="/news" class="hover:text-blue-400 transition-colors">📰 Daily News & Alpha</a></li>
+          <li><a href="/academy/quiz" class="hover:text-indigo-400 transition-colors">🏆 Hunter Quiz &amp; Cert</a></li>
+          <li><a href="/glossary" class="hover:text-blue-400 transition-colors">📖 Web3 Glossary</a></li>
+          <li><a href="/news" class="hover:text-blue-400 transition-colors">📰 Daily News &amp; Alpha</a></li>
         </ul>
       </div>
 
       <div>
-        <h4 class="text-white font-bold mb-4 uppercase tracking-wider text-sm">Legal & Compliance</h4>
+        <h4 class="text-white font-bold mb-4 uppercase tracking-wider text-sm">Legal &amp; Compliance</h4>
         <ul class="flex flex-col gap-2 text-sm text-slate-400">
           <li><a href="/about" class="hover:text-blue-400 transition-colors">About Us</a></li>
           <li><a href="/contact" class="hover:text-blue-400 transition-colors">Contact Us</a></li>

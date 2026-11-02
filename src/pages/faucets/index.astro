@@ -1,0 +1,298 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import Header from '../../components/Header.astro';
+import Footer from '../../components/Footer.astro';
+import { testnetFaucets } from '../../data/faucets';
+
+const categories = ['All', 'Next-Gen L1', 'Bitcoin L2', 'Modular & DA', 'Ethereum L1/L2', 'Move & SVM'];
+---
+
+<Layout 
+  title="Crypto Testnet Faucets 2026 | Free Testnet ETH, BERA, MON, BTC Faucets | Airdroplyx"
+  description="Discover 100% verified and active cryptocurrency testnet faucets. Claim free Berachain BERA, Monad MON, Sepolia ETH, Citrea cBTC, 0G Labs A0GI, and Story IP testnet gas tokens."
+>
+  <Header />
+
+  <main class="max-w-[1280px] mx-auto px-4 py-12">
+    <!-- Hero Section -->
+    <header class="text-center max-w-3xl mx-auto mb-12">
+      <div class="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-blue-50 dark:bg-blue-950/60 border border-blue-200 dark:border-blue-900/40 text-blue-600 dark:text-blue-400 text-xs font-bold uppercase tracking-wider mb-4">
+        <span>🚰</span> Verified Crypto Faucet Directory
+      </div>
+      <h1 class="text-3xl sm:text-4xl lg:text-5xl font-black text-slate-900 dark:text-white tracking-tight leading-tight mb-4">
+        Live Web3 Testnet Faucets
+      </h1>
+      <p class="text-base sm:text-lg text-slate-600 dark:text-slate-300 leading-relaxed font-medium">
+        Claim free testnet gas tokens across major blockchain networks. 1-click add custom RPCs to your wallet, check drip frequencies, and never get stuck with zero gas while airdrop hunting.
+      </p>
+    </header>
+
+    <!-- Controls: Search & Category Filter -->
+    <div class="bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-3xl p-5 mb-10 shadow-sm">
+      <div class="flex flex-col sm:flex-row gap-4 items-center justify-between mb-4">
+        <!-- Search Input -->
+        <div class="relative w-full sm:w-80">
+          <span class="absolute left-3.5 top-1/2 -translate-y-1/2 text-slate-400">🔍</span>
+          <input 
+            type="text" 
+            id="faucetSearch" 
+            placeholder="Search network or token (e.g. Berachain, Monad, Sepolia)..." 
+            class="w-full pl-10 pr-4 py-2.5 text-sm bg-slate-50 dark:bg-slate-800/80 border border-slate-200 dark:border-slate-700 rounded-2xl text-slate-900 dark:text-white placeholder-slate-400 focus:outline-none focus:ring-2 focus:ring-blue-500"
+          />
+        </div>
+
+        <div class="text-xs font-semibold text-slate-500 dark:text-slate-400">
+          Showing <span id="faucetCount" class="font-bold text-blue-600 dark:text-blue-400">{testnetFaucets.length}</span> verified faucets
+        </div>
+      </div>
+
+      <!-- Categories Filter -->
+      <div class="flex flex-wrap gap-2">
+        {categories.map((cat, idx) => (
+          <button 
+            type="button"
+            class={`category-filter-btn px-4 py-2 rounded-xl text-xs font-bold transition-all ${idx === 0 ? 'bg-blue-600 text-white shadow-md' : 'bg-slate-100 dark:bg-slate-800 text-slate-600 dark:text-slate-300 hover:bg-slate-200 dark:hover:bg-slate-700'}`}
+            data-category={cat}
+          >
+            {cat}
+          </button>
+        ))}
+      </div>
+    </div>
+
+    <!-- Faucets Grid -->
+    <div id="faucetsGrid" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+      {testnetFaucets.map((faucet) => (
+        <article 
+          class="faucet-card bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-3xl p-6 shadow-sm hover:shadow-lg transition-all flex flex-col justify-between"
+          data-name={faucet.name.toLowerCase()}
+          data-network={faucet.network.toLowerCase()}
+          data-symbol={faucet.tokenSymbol.toLowerCase()}
+          data-category={faucet.category}
+        >
+          <div>
+            <!-- Top Card Header -->
+            <div class="flex items-start justify-between gap-3 mb-4">
+              <div>
+                <span class="inline-block text-[11px] font-black uppercase tracking-wider px-2.5 py-0.5 rounded-full bg-blue-50 dark:bg-blue-950/60 text-blue-600 dark:text-blue-400 border border-blue-200 dark:border-blue-900/40 mb-2">
+                  {faucet.category}
+                </span>
+                <h2 class="text-xl font-black text-slate-900 dark:text-white leading-tight">
+                  {faucet.name}
+                </h2>
+                <p class="text-xs text-slate-500 dark:text-slate-400 font-medium mt-0.5">
+                  {faucet.network}
+                </p>
+              </div>
+
+              <div class="w-12 h-12 rounded-2xl bg-gradient-to-tr from-blue-600 to-indigo-600 flex items-center justify-center text-white font-black text-xs shadow-md shrink-0">
+                ${faucet.tokenSymbol}
+              </div>
+            </div>
+
+            <p class="text-xs text-slate-600 dark:text-slate-300 leading-relaxed mb-4 line-clamp-3">
+              {faucet.description}
+            </p>
+
+            <!-- Specs Grid -->
+            <div class="bg-slate-50 dark:bg-slate-850/80 rounded-2xl p-3.5 mb-4 border border-slate-100 dark:border-slate-800 text-xs space-y-2">
+              <div class="flex items-center justify-between">
+                <span class="text-slate-500 dark:text-slate-400 font-medium">Drip Amount:</span>
+                <span class="font-bold text-slate-900 dark:text-white">{faucet.dripAmount}</span>
+              </div>
+              <div class="flex items-center justify-between">
+                <span class="text-slate-500 dark:text-slate-400 font-medium">Frequency:</span>
+                <span class="font-bold text-slate-900 dark:text-white">{faucet.frequency}</span>
+              </div>
+              <div class="flex items-center justify-between">
+                <span class="text-slate-500 dark:text-slate-400 font-medium">Chain ID:</span>
+                <span class="font-mono font-bold text-slate-700 dark:text-slate-300">{faucet.chainId}</span>
+              </div>
+              <div class="pt-1.5 border-t border-slate-200/60 dark:border-slate-700/60 text-[11px] text-slate-500 dark:text-slate-400">
+                <span class="font-semibold text-slate-700 dark:text-slate-300">Requirement:</span> {faucet.requirements}
+              </div>
+            </div>
+
+            <!-- Alternative Mirrors if available -->
+            {faucet.alternativeFaucets && faucet.alternativeFaucets.length > 0 && (
+              <div class="mb-4 text-[11px]">
+                <span class="text-slate-400 font-medium">Alternative Mirrors:</span>
+                <div class="flex flex-wrap gap-1.5 mt-1">
+                  {faucet.alternativeFaucets.map(alt => (
+                    <a 
+                      href={alt.url} 
+                      target="_blank" 
+                      rel="noopener noreferrer" 
+                      class="px-2 py-0.5 rounded-lg bg-slate-100 dark:bg-slate-800 text-slate-600 dark:text-slate-300 hover:text-blue-600 dark:hover:text-blue-400 transition-colors"
+                    >
+                      {alt.name} ↗
+                    </a>
+                  ))}
+                </div>
+              </div>
+            )}
+          </div>
+
+          <!-- Action Buttons -->
+          <div class="space-y-2 pt-2">
+            <a 
+              href={faucet.faucetUrl} 
+              target="_blank" 
+              rel="noopener noreferrer"
+              class="w-full inline-flex items-center justify-center gap-2 py-3 px-4 rounded-xl font-black text-sm bg-blue-600 hover:bg-blue-700 text-white shadow-md hover:shadow-lg transition-all"
+            >
+              <span>🚰</span> Claim Free {faucet.tokenSymbol}
+            </a>
+
+            <div class="grid grid-cols-2 gap-2">
+              <button 
+                type="button" 
+                class="add-network-btn py-2 px-3 rounded-xl text-xs font-bold border border-slate-200 dark:border-slate-700 text-slate-700 dark:text-slate-300 hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors flex items-center justify-center gap-1.5"
+                data-chainid={faucet.chainId}
+                data-name={faucet.network}
+                data-rpc={faucet.rpcUrl}
+                data-symbol={faucet.tokenSymbol}
+                data-explorer={faucet.explorerUrl}
+              >
+                <span>🦊</span> Add to Wallet
+              </button>
+
+              <button 
+                type="button" 
+                class="copy-rpc-btn py-2 px-3 rounded-xl text-xs font-bold border border-slate-200 dark:border-slate-700 text-slate-700 dark:text-slate-300 hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors flex items-center justify-center gap-1.5"
+                data-rpc={faucet.rpcUrl}
+              >
+                <span>📋</span> Copy RPC
+              </button>
+            </div>
+          </div>
+        </article>
+      ))}
+    </div>
+
+    <!-- Informational SEO Guide -->
+    <section class="mt-16 bg-slate-50 dark:bg-slate-850/80 border border-slate-200 dark:border-slate-800 rounded-3xl p-8 lg:p-10 shadow-sm">
+      <h2 class="text-2xl font-black text-slate-900 dark:text-white tracking-tight mb-4">
+        What is a Crypto Testnet Faucet and How Does It Work?
+      </h2>
+      <div class="prose prose-slate dark:prose-invert max-w-none text-slate-600 dark:text-slate-300 text-sm sm:text-base space-y-4">
+        <p>
+          A <strong>cryptocurrency testnet faucet</strong> is a developer and community tool that distributes free, simulated testnet tokens (such as Sepolia ETH, Berachain BERA, or Monad MON). These tokens have no real-world monetary value, but they are absolutely essential for executing smart contracts, paying transaction gas fees, and stress-testing decentralized applications before a network's official Mainnet launch.
+        </p>
+        <p>
+          To prevent Sybil bots and automated scripts from exhausting testnet faucet reserves, most modern faucets implement anti-bot restrictions, such as requiring a small balance of Ethereum mainnet ETH (e.g. 0.001 ETH), Google authentication, or proof-of-work (PoW) client-side mining.
+        </p>
+      </div>
+    </section>
+  </main>
+
+  <Footer />
+</Layout>
+
+<script is:inline>
+  // Search & Filter Logic
+  const searchInput = document.getElementById('faucetSearch');
+  const countEl = document.getElementById('faucetCount');
+  const cards = document.querySelectorAll('.faucet-card');
+  const filterBtns = document.querySelectorAll('.category-filter-btn');
+
+  let activeCategory = 'All';
+  let searchTerm = '';
+
+  function filterFaucets() {
+    let visibleCount = 0;
+    cards.forEach(card => {
+      const name = card.dataset.name || '';
+      const network = card.dataset.network || '';
+      const symbol = card.dataset.symbol || '';
+      const category = card.dataset.category || '';
+
+      const matchesSearch = !searchTerm || name.includes(searchTerm) || network.includes(searchTerm) || symbol.includes(searchTerm);
+      const matchesCategory = activeCategory === 'All' || category === activeCategory;
+
+      if (matchesSearch && matchesCategory) {
+        card.style.display = 'flex';
+        visibleCount++;
+      } else {
+        card.style.display = 'none';
+      }
+    });
+
+    if (countEl) countEl.textContent = visibleCount;
+  }
+
+  if (searchInput) {
+    searchInput.addEventListener('input', (e) => {
+      searchTerm = e.target.value.toLowerCase().trim();
+      filterFaucets();
+    });
+  }
+
+  filterBtns.forEach(btn => {
+    btn.addEventListener('click', () => {
+      filterBtns.forEach(b => {
+        b.classList.remove('bg-blue-600', 'text-white', 'shadow-md');
+        b.classList.add('bg-slate-100', 'dark:bg-slate-800', 'text-slate-600', 'dark:text-slate-300');
+      });
+      btn.classList.remove('bg-slate-100', 'dark:bg-slate-800', 'text-slate-600', 'dark:text-slate-300');
+      btn.classList.add('bg-blue-600', 'text-white', 'shadow-md');
+
+      activeCategory = btn.dataset.category || 'All';
+      filterFaucets();
+    });
+  });
+
+  // 1-Click Add Network to Wallet (EIP-3085)
+  document.querySelectorAll('.add-network-btn').forEach(btn => {
+    btn.addEventListener('click', async () => {
+      const chainIdHex = '0x' + parseInt(btn.dataset.chainid, 10).toString(16);
+      const chainName = btn.dataset.name;
+      const rpcUrl = btn.dataset.rpc;
+      const symbol = btn.dataset.symbol;
+      const explorer = btn.dataset.explorer;
+
+      if (typeof window.ethereum !== 'undefined') {
+        try {
+          await window.ethereum.request({
+            method: 'wallet_addEthereumChain',
+            params: [{
+              chainId: chainIdHex,
+              chainName: chainName,
+              nativeCurrency: {
+                name: symbol,
+                symbol: symbol,
+                decimals: 18
+              },
+              rpcUrls: [rpcUrl],
+              blockExplorerUrls: [explorer]
+            }]
+          });
+          btn.innerHTML = '<span>✅</span> Added!';
+          setTimeout(() => {
+            btn.innerHTML = '<span>🦊</span> Add to Wallet';
+          }, 2500);
+        } catch (err) {
+          alert('Could not add network automatically: ' + err.message);
+        }
+      } else {
+        alert('No Web3 wallet detected. Please install a self-custodial browser wallet (e.g. Rabby, MetaMask, or OKX Web3).');
+      }
+    });
+  });
+
+  // Copy RPC Button
+  document.querySelectorAll('.copy-rpc-btn').forEach(btn => {
+    btn.addEventListener('click', async () => {
+      const rpc = btn.dataset.rpc;
+      try {
+        await navigator.clipboard.writeText(rpc);
+        btn.innerHTML = '<span>✅</span> Copied!';
+        setTimeout(() => {
+          btn.innerHTML = '<span>📋</span> Copy RPC';
+        }, 2000);
+      } catch (e) {
+        alert('RPC URL: ' + rpc);
+      }
+    });
+  });
+</script>
