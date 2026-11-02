@@ -1,0 +1,22 @@
+<svg viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="100" height="100" rx="24" fill="#0B132B"/>
+  <circle cx="50" cy="50" r="38" fill="url(#termina_glow)" fill-opacity="0.25"/>
+  <!-- SVM prism chevron geometry -->
+  <path d="M26 34H74L64 48H20L26 34Z" fill="url(#termina_grad1)"/>
+  <path d="M36 52H80L70 66H16L36 52Z" fill="url(#termina_grad2)"/>
+  <circle cx="72" cy="34" r="4" fill="#00FFA3"/>
+  <defs>
+    <linearGradient id="termina_grad1" x1="20" y1="34" x2="74" y2="48" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#00FFA3"/>
+      <stop offset="1" stop-color="#00D2FF"/>
+    </linearGradient>
+    <linearGradient id="termina_grad2" x1="16" y1="52" x2="80" y2="66" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#DC1FFF"/>
+      <stop offset="1" stop-color="#00FFA3"/>
+    </linearGradient>
+    <radialGradient id="termina_glow" cx="50" cy="50" r="38" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#00FFA3"/>
+      <stop offset="1" stop-color="#0B132B" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+</svg>

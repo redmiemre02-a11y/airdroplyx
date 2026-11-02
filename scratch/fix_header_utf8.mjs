@@ -1,0 +1,420 @@
+import fs from 'fs';
+import path from 'path';
+
+const headerContent = `---
+import { airdrops } from '../data/airdrops';
+---
+<header class="bg-white dark:bg-slate-900 border-b border-gray-200 dark:border-slate-800 sticky top-0 z-50 shadow-sm transition-colors duration-200">
+  <!-- Top Announcement Bar -->
+  <div class="bg-slate-950 text-white text-xs py-2 border-b border-slate-800/80">
+    <div class="max-w-[1200px] mx-auto px-4 flex justify-between items-center">
+      <div class="flex items-center gap-2">
+        <span class="inline-block w-2 h-2 rounded-full bg-emerald-400 animate-pulse"></span>
+        <span class="text-slate-300 font-medium">{airdrops.length} Verified Crypto Airdrops & Guides • Updated November 2026</span>
+      </div>
+      <div class="hidden sm:flex gap-3 items-center text-[11px]">
+        <a href="/editorial-policy" class="text-slate-400 hover:text-white transition-colors">Editorial Policy</a>
+        <span class="text-slate-700">•</span>
+        <a href="/fact-checking" class="text-slate-400 hover:text-white transition-colors">Fact-Checking</a>
+        <span class="text-slate-700">•</span>
+        <a href="/disclaimer" class="text-slate-400 hover:text-white transition-colors">Risk Disclaimer</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Main Navbar -->
+  <div class="max-w-[1200px] mx-auto px-4 flex items-center justify-between h-[72px]">
+    <!-- Logo -->
+    <a href="/" class="flex items-center gap-2.5">
+      <img src="/logo.jpg" alt="Airdroplyx Logo" class="w-10 h-10 rounded-xl shadow-md object-cover" />
+      <span class="text-slate-900 dark:text-white font-extrabold text-2xl tracking-tight">
+        airdroplyx
+      </span>
+    </a>
+    
+    <!-- Navigation -->
+    <nav class="hidden lg:flex h-full">
+      <ul class="flex h-full items-center">
+        <li><a href="/" class="flex items-center h-full px-2.5 text-[12px] font-bold text-slate-700 dark:text-slate-200 uppercase hover:text-blue-600 border-b-2 border-transparent hover:border-blue-600 transition-all">Home</a></li>
+        <li><a href="/ecosystems" class="flex items-center h-full px-2.5 text-[12px] font-bold text-slate-700 dark:text-slate-200 uppercase hover:text-blue-600 border-b-2 border-transparent hover:border-blue-600 transition-all">Ecosystems</a></li>
+        <li><a href="/faucets" class="flex items-center h-full px-2.5 text-[12px] font-bold text-blue-600 dark:text-blue-400 uppercase hover:text-blue-700 border-b-2 border-transparent hover:border-blue-600 transition-all gap-1"><span>🚰</span><span>Faucets</span></a></li>
+        <li><a href="/calendar" class="flex items-center h-full px-2.5 text-[12px] font-bold text-slate-700 dark:text-slate-200 uppercase hover:text-blue-600 border-b-2 border-transparent hover:border-blue-600 transition-all">Calendar</a></li>
+        <li><a href="/watchlist" class="flex items-center h-full px-2.5 text-[12px] font-bold text-slate-700 dark:text-slate-200 uppercase hover:text-amber-500 border-b-2 border-transparent hover:border-amber-500 transition-all gap-1">
+          <span>⭐</span>
+          <span>Watchlist</span>
+          <span id="header-watchlist-badge" class="hidden px-1.5 py-0.2 rounded-full text-[10px] bg-amber-500 text-white font-extrabold leading-tight">0</span>
+        </a></li>
+        <li><a href="/sybil-checker" class="flex items-center h-full px-2.5 text-[12px] font-bold text-slate-700 dark:text-slate-200 uppercase hover:text-rose-600 border-b-2 border-transparent hover:border-rose-600 transition-all gap-1">
+          <span>🛡️</span>
+          <span>Sybil Check</span>
+        </a></li>
+        <li><a href="/calculator" class="flex items-center h-full px-2.5 text-[12px] font-bold text-slate-700 dark:text-slate-200 uppercase hover:text-blue-600 border-b-2 border-transparent hover:border-blue-600 transition-all">Calculator</a></li>
+        <li><a href="/news" class="flex items-center h-full px-2.5 text-[12px] font-bold text-slate-700 dark:text-slate-200 uppercase hover:text-blue-600 border-b-2 border-transparent hover:border-blue-600 transition-all">News</a></li>
+        <li><a href="/academy" class="flex items-center h-full px-2.5 text-[12px] font-bold text-slate-700 dark:text-slate-200 uppercase hover:text-blue-600 border-b-2 border-transparent hover:border-blue-600 transition-all">Academy</a></li>
+      </ul>
+    </nav>
+    
+    <!-- Right Actions -->
+    <div class="flex items-center gap-2.5 sm:gap-3">
+      <!-- Universal Search Trigger -->
+      <div class="relative">
+        <button 
+          type="button"
+          id="global-search-trigger"
+          class="flex items-center justify-between bg-gray-100 hover:bg-gray-200 dark:bg-slate-800 dark:hover:bg-slate-700 border border-slate-200/60 dark:border-slate-700/60 rounded-full py-2 pl-3 pr-2.5 text-xs sm:text-sm w-32 sm:w-44 transition-all text-slate-500 dark:text-slate-400 group cursor-pointer shadow-sm"
+          title="Search all airdrops, academy, and news (Ctrl+K)"
+        >
+          <div class="flex items-center gap-1.5 truncate">
+            <svg class="w-4 h-4 text-slate-400 group-hover:text-blue-500 transition-colors shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path></svg>
+            <span class="truncate">Search...</span>
+          </div>
+          <kbd class="hidden sm:inline-block px-1.5 py-0.5 text-[10px] font-mono font-bold text-slate-400 bg-white dark:bg-slate-700 rounded border border-slate-200 dark:border-slate-600">Ctrl K</kbd>
+        </button>
+      </div>
+
+      <!-- Multi-Language Switcher Dropdown (Desktop) -->
+      <div class="relative" id="lang-dropdown-wrapper">
+        <button 
+          type="button" 
+          id="lang-btn"
+          class="flex items-center gap-1.5 px-3 py-1.5 rounded-full text-xs font-bold bg-slate-100 hover:bg-slate-200 dark:bg-slate-800 dark:hover:bg-slate-700 text-slate-700 dark:text-slate-200 border border-slate-200 dark:border-slate-700 transition-colors shadow-sm"
+          title="Select Language / Dil Seçin"
+        >
+          <span id="current-lang-flag">🌐</span>
+          <span id="current-lang-code" class="uppercase">EN</span>
+          <svg class="w-3 h-3 text-slate-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
+        </button>
+
+        <!-- Dropdown Menu -->
+        <div 
+          id="lang-menu" 
+          class="hidden absolute right-0 mt-2 w-52 bg-white/95 dark:bg-slate-900/95 backdrop-blur-md border border-slate-200 dark:border-slate-800 rounded-2xl shadow-2xl py-1.5 z-50 overflow-hidden"
+        >
+          <div class="px-3.5 py-1.5 text-[10px] font-black uppercase tracking-wider text-slate-400 border-b border-slate-100 dark:border-slate-800">
+            Language / Dil Seçimi
+          </div>
+          <button type="button" class="lang-item w-full flex items-center justify-between px-3.5 py-2 text-xs font-semibold text-slate-700 dark:text-slate-200 hover:bg-blue-50 dark:hover:bg-slate-800 transition-colors" data-lang="en" data-flag="🇬🇧" data-code="EN">
+            <span class="flex items-center gap-2.5"><span>🇬🇧</span> English</span>
+            <span class="lang-active-check text-blue-600 font-black">✓</span>
+          </button>
+          <button type="button" class="lang-item w-full flex items-center justify-between px-3.5 py-2 text-xs font-semibold text-slate-700 dark:text-slate-200 hover:bg-blue-50 dark:hover:bg-slate-800 transition-colors" data-lang="tr" data-flag="🇹🇷" data-code="TR">
+            <span class="flex items-center gap-2.5"><span>🇹🇷</span> Türkçe</span>
+            <span class="text-[10px] text-emerald-500 font-bold">Popüler</span>
+          </button>
+          <button type="button" class="lang-item w-full flex items-center justify-between px-3.5 py-2 text-xs font-semibold text-slate-700 dark:text-slate-200 hover:bg-blue-50 dark:hover:bg-slate-800 transition-colors" data-lang="ru" data-flag="🇷🇺" data-code="RU">
+            <span class="flex items-center gap-2.5"><span>🇷🇺</span> Русский</span>
+            <span class="text-[10px] text-blue-500 font-bold">Alpha</span>
+          </button>
+          <button type="button" class="lang-item w-full flex items-center justify-between px-3.5 py-2 text-xs font-semibold text-slate-700 dark:text-slate-200 hover:bg-blue-50 dark:hover:bg-slate-800 transition-colors" data-lang="es" data-flag="🇪🇸" data-code="ES">
+            <span class="flex items-center gap-2.5"><span>🇪🇸</span> Español</span>
+          </button>
+          <button type="button" class="lang-item w-full flex items-center justify-between px-3.5 py-2 text-xs font-semibold text-slate-700 dark:text-slate-200 hover:bg-blue-50 dark:hover:bg-slate-800 transition-colors" data-lang="vi" data-flag="🇻🇳" data-code="VI">
+            <span class="flex items-center gap-2.5"><span>🇻🇳</span> Tiếng Việt</span>
+          </button>
+          <button type="button" class="lang-item w-full flex items-center justify-between px-3.5 py-2 text-xs font-semibold text-slate-700 dark:text-slate-200 hover:bg-blue-50 dark:hover:bg-slate-800 transition-colors" data-lang="zh-CN" data-flag="🇨🇳" data-code="ZH">
+            <span class="flex items-center gap-2.5"><span>🇨🇳</span> 简体中文</span>
+          </button>
+          <button type="button" class="lang-item w-full flex items-center justify-between px-3.5 py-2 text-xs font-semibold text-slate-700 dark:text-slate-200 hover:bg-blue-50 dark:hover:bg-slate-800 transition-colors" data-lang="de" data-flag="🇩🇪" data-code="DE">
+            <span class="flex items-center gap-2.5"><span>🇩🇪</span> Deutsch</span>
+          </button>
+          <button type="button" class="lang-item w-full flex items-center justify-between px-3.5 py-2 text-xs font-semibold text-slate-700 dark:text-slate-200 hover:bg-blue-50 dark:hover:bg-slate-800 transition-colors" data-lang="ja" data-flag="🇯🇵" data-code="JA">
+            <span class="flex items-center gap-2.5"><span>🇯🇵</span> 日本語</span>
+          </button>
+        </div>
+      </div>
+      
+      <!-- Dark Mode Toggle -->
+      <button id="theme-toggle" class="p-2 rounded-full text-slate-500 hover:text-slate-900 dark:text-slate-400 dark:hover:text-white hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors" aria-label="Toggle Theme">
+        <svg id="theme-toggle-dark-icon" class="hidden w-5 h-5" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M17.293 13.293A8 8 0 016.707 2.707a8.001 8.001 0 1010.586 10.586z"></path></svg>
+        <svg id="theme-toggle-light-icon" class="hidden w-5 h-5" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M10 2a1 1 0 011 1v1a1 1 0 11-2 0V3a1 1 0 011-1zm4 8a4 4 0 11-8 0 4 4 0 018 0zm-.464 4.95l.707.707a1 1 0 001.414-1.414l-.707-.707a1 1 0 00-1.414 1.414zm2.12-10.607a1 1 0 010 1.414l-.706.707a1 1 0 11-1.414-1.414l.707-.707a1 1 0 011.414 0zM17 11a1 1 0 100-2h-1a1 1 0 100 2h1zm-7 4a1 1 0 011 1v1a1 1 0 11-2 0v-1a1 1 0 011-1zM5.05 6.464A1 1 0 106.465 5.05l-.708-.707a1 1 0 00-1.414 1.414l.707.707zm1.414 8.486l-.707.707a1 1 0 01-1.414-1.414l.707-.707a1 1 0 011.414 1.414zM4 11a1 1 0 100-2H3a1 1 0 000 2h1z" fill-rule="evenodd" clip-rule="evenodd"></path></svg>
+      </button>
+
+      <!-- Mobile Menu Button -->
+      <button id="mobile-menu-btn" class="lg:hidden p-2 rounded-xl text-slate-600 dark:text-slate-300 hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors" aria-label="Open Mobile Menu">
+        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path></svg>
+      </button>
+
+      <a href="#newsletter" class="hidden sm:inline-block bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-full font-bold text-xs shadow-md shadow-blue-500/20 transition-all text-center">
+        Subscribe
+      </a>
+    </div>
+  </div>
+
+  <!-- Mobile Navigation Dropdown Menu -->
+  <div id="mobile-menu" class="hidden lg:hidden bg-white dark:bg-slate-900 border-t border-slate-200 dark:border-slate-800 px-4 py-3 shadow-xl">
+    <!-- Mobile Language Selector Row -->
+    <div class="mb-3 pb-3 border-b border-slate-100 dark:border-slate-800">
+      <div class="text-[11px] font-black uppercase tracking-wider text-slate-400 mb-2">
+        Language / Dil Seçimi
+      </div>
+      <div class="flex flex-wrap gap-1.5">
+        <button type="button" class="mobile-lang-btn px-2.5 py-1 rounded-lg text-xs font-bold border border-slate-200 dark:border-slate-700 bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300" data-lang="en" data-flag="🇬🇧" data-code="EN">🇬🇧 EN</button>
+        <button type="button" class="mobile-lang-btn px-2.5 py-1 rounded-lg text-xs font-bold border border-slate-200 dark:border-slate-700 bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300" data-lang="tr" data-flag="🇹🇷" data-code="TR">🇹🇷 TR</button>
+        <button type="button" class="mobile-lang-btn px-2.5 py-1 rounded-lg text-xs font-bold border border-slate-200 dark:border-slate-700 bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300" data-lang="ru" data-flag="🇷🇺" data-code="RU">🇷🇺 RU</button>
+        <button type="button" class="mobile-lang-btn px-2.5 py-1 rounded-lg text-xs font-bold border border-slate-200 dark:border-slate-700 bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300" data-lang="es" data-flag="🇪🇸" data-code="ES">🇪🇸 ES</button>
+        <button type="button" class="mobile-lang-btn px-2.5 py-1 rounded-lg text-xs font-bold border border-slate-200 dark:border-slate-700 bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300" data-lang="vi" data-flag="🇻🇳" data-code="VI">🇻🇳 VI</button>
+        <button type="button" class="mobile-lang-btn px-2.5 py-1 rounded-lg text-xs font-bold border border-slate-200 dark:border-slate-700 bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300" data-lang="zh-CN" data-flag="🇨🇳" data-code="ZH">🇨🇳 ZH</button>
+        <button type="button" class="mobile-lang-btn px-2.5 py-1 rounded-lg text-xs font-bold border border-slate-200 dark:border-slate-700 bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300" data-lang="de" data-flag="🇩🇪" data-code="DE">🇩🇪 DE</button>
+        <button type="button" class="mobile-lang-btn px-2.5 py-1 rounded-lg text-xs font-bold border border-slate-200 dark:border-slate-700 bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300" data-lang="ja" data-flag="🇯🇵" data-code="JA">🇯🇵 JA</button>
+      </div>
+    </div>
+
+    <nav class="flex flex-col gap-1">
+      <a href="/" class="flex items-center gap-2.5 px-3 py-2.5 rounded-xl text-sm font-bold text-slate-700 dark:text-slate-200 hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors">
+        <span>🏠</span> Home (All Airdrops)
+      </a>
+      <a href="/ecosystems" class="flex items-center gap-2.5 px-3 py-2.5 rounded-xl text-sm font-bold text-slate-700 dark:text-slate-200 hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors">
+        <span>🌐</span> Ecosystem Hubs
+      </a>
+      <a href="/faucets" class="flex items-center gap-2.5 px-3 py-2.5 rounded-xl text-sm font-bold text-blue-600 dark:text-blue-400 hover:bg-blue-50 dark:hover:bg-blue-950/30 transition-colors">
+        <span>🚰</span> Testnet Faucets
+      </a>
+      <a href="/watchlist" class="flex items-center justify-between px-3 py-2.5 rounded-xl text-sm font-bold text-amber-600 dark:text-amber-400 hover:bg-amber-50 dark:hover:bg-amber-950/30 transition-colors">
+        <span class="flex items-center gap-2.5">
+          <span>⭐</span> Watchlist &amp; Tracker
+        </span>
+        <span id="mobile-watchlist-badge" class="hidden px-2 py-0.5 rounded-full text-xs bg-amber-500 text-white font-extrabold">0</span>
+      </a>
+      <a href="/farming-planner" class="flex items-center gap-2.5 px-3 py-2.5 rounded-xl text-sm font-bold text-emerald-600 dark:text-emerald-400 hover:bg-emerald-50 dark:hover:bg-emerald-950/30 transition-colors">
+        <span>📅</span> Farming Planner
+      </a>
+      <a href="/sybil-checker" class="flex items-center gap-2.5 px-3 py-2.5 rounded-xl text-sm font-bold text-rose-600 dark:text-rose-400 hover:bg-rose-50 dark:hover:bg-rose-950/30 transition-colors">
+        <span>🛡️</span> Sybil Risk Checker
+      </a>
+      <a href="/calendar" class="flex items-center gap-2.5 px-3 py-2.5 rounded-xl text-sm font-bold text-slate-700 dark:text-slate-200 hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors">
+        <span>🗓️</span> Airdrop Calendar
+      </a>
+      <a href="/calculator" class="flex items-center gap-2.5 px-3 py-2.5 rounded-xl text-sm font-bold text-slate-700 dark:text-slate-200 hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors">
+        <span>🧮</span> Points Calculator
+      </a>
+      <a href="/news" class="flex items-center gap-2.5 px-3 py-2.5 rounded-xl text-sm font-bold text-slate-700 dark:text-slate-200 hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors">
+        <span>📰</span> Daily News &amp; Alpha
+      </a>
+      <a href="/academy" class="flex items-center gap-2.5 px-3 py-2.5 rounded-xl text-sm font-bold text-slate-700 dark:text-slate-200 hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors">
+        <span>🎓</span> Airdrop Academy
+      </a>
+      <a href="/disclaimer" class="flex items-center gap-2.5 px-3 py-2.5 rounded-xl text-xs font-semibold text-amber-600 dark:text-amber-400 hover:bg-amber-50 dark:hover:bg-amber-950/30 transition-colors">
+        <span>⚖️</span> Risk Disclaimer
+      </a>
+    </nav>
+  </div>
+</header>
+
+<script is:inline>
+  // Language Switcher Dropdown Interaction & State Management
+  const langBtn = document.getElementById('lang-btn');
+  const langMenu = document.getElementById('lang-menu');
+  const currentFlag = document.getElementById('current-lang-flag');
+  const currentCode = document.getElementById('current-lang-code');
+
+  const savedLang = localStorage.getItem('airdroplyx_lang') || 'en';
+  const savedFlag = localStorage.getItem('airdroplyx_flag') || '🇬🇧';
+  const savedCode = localStorage.getItem('airdroplyx_code') || 'EN';
+
+  if (currentFlag) currentFlag.textContent = savedFlag;
+  if (currentCode) currentCode.textContent = savedCode;
+
+  // Highlight active language in desktop dropdown & mobile pills
+  function highlightActiveLang() {
+    document.querySelectorAll('.lang-item').forEach(item => {
+      const isCurrent = item.dataset.lang === savedLang;
+      const checkEl = item.querySelector('.lang-active-check');
+      if (checkEl) {
+        checkEl.style.display = isCurrent ? 'inline' : 'none';
+      }
+      if (isCurrent) {
+        item.classList.add('bg-blue-50', 'dark:bg-slate-800', 'font-bold');
+      } else {
+        item.classList.remove('bg-blue-50', 'dark:bg-slate-800', 'font-bold');
+      }
+    });
+
+    document.querySelectorAll('.mobile-lang-btn').forEach(btn => {
+      if (btn.dataset.lang === savedLang) {
+        btn.classList.add('bg-blue-600', 'text-white', 'border-blue-600');
+        btn.classList.remove('bg-slate-100', 'dark:bg-slate-800', 'text-slate-700', 'dark:text-slate-300');
+      } else {
+        btn.classList.remove('bg-blue-600', 'text-white', 'border-blue-600');
+        btn.classList.add('bg-slate-100', 'dark:bg-slate-800', 'text-slate-700', 'dark:text-slate-300');
+      }
+    });
+  }
+  highlightActiveLang();
+
+  if (langBtn && langMenu) {
+    langBtn.addEventListener('click', (e) => {
+      e.stopPropagation();
+      langMenu.classList.toggle('hidden');
+    });
+
+    document.addEventListener('click', (e) => {
+      if (!langMenu.contains(e.target) && !langBtn.contains(e.target)) {
+        langMenu.classList.add('hidden');
+      }
+    });
+
+    document.querySelectorAll('.lang-item').forEach(item => {
+      item.addEventListener('click', () => {
+        const lang = item.dataset.lang;
+        const flag = item.dataset.flag;
+        const code = item.dataset.code;
+        langMenu.classList.add('hidden');
+        if (typeof window.changeAirdroplyxLanguage === 'function') {
+          window.changeAirdroplyxLanguage(lang, flag, code);
+        }
+      });
+    });
+  }
+
+  // Mobile language button listener
+  document.querySelectorAll('.mobile-lang-btn').forEach(btn => {
+    btn.addEventListener('click', () => {
+      const lang = btn.dataset.lang;
+      const flag = btn.dataset.flag;
+      const code = btn.dataset.code;
+      if (typeof window.changeAirdroplyxLanguage === 'function') {
+        window.changeAirdroplyxLanguage(lang, flag, code);
+      }
+    });
+  });
+
+  // Universal Search Palette Trigger
+  const globalSearchBtn = document.getElementById('global-search-trigger');
+  if (globalSearchBtn) {
+    globalSearchBtn.addEventListener('click', () => {
+      if (typeof window.openCommandPalette === 'function') {
+        window.openCommandPalette();
+      }
+    });
+  }
+
+  // Theme Toggle
+  const themeToggleBtn = document.getElementById('theme-toggle');
+  const darkIcon = document.getElementById('theme-toggle-dark-icon');
+  const lightIcon = document.getElementById('theme-toggle-light-icon');
+
+  if (localStorage.getItem('theme') === 'dark' || (!('theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+      lightIcon?.classList.remove('hidden');
+  } else {
+      darkIcon?.classList.remove('hidden');
+  }
+
+  themeToggleBtn?.addEventListener('click', function() {
+      darkIcon?.classList.toggle('hidden');
+      lightIcon?.classList.toggle('hidden');
+
+      if (localStorage.getItem('theme')) {
+          if (localStorage.getItem('theme') === 'light') {
+              document.documentElement.classList.add('dark');
+              localStorage.setItem('theme', 'dark');
+          } else {
+              document.documentElement.classList.remove('dark');
+              localStorage.setItem('theme', 'light');
+          }
+      } else {
+          if (document.documentElement.classList.contains('dark')) {
+              document.documentElement.classList.remove('dark');
+              localStorage.setItem('theme', 'light');
+          } else {
+              document.documentElement.classList.add('dark');
+              localStorage.setItem('theme', 'dark');
+          }
+      }
+  });
+
+  // Mobile Menu Drawer Toggle
+  const mobileMenuBtn = document.getElementById('mobile-menu-btn');
+  const mobileMenu = document.getElementById('mobile-menu');
+  if (mobileMenuBtn && mobileMenu) {
+    mobileMenuBtn.addEventListener('click', () => {
+      mobileMenu.classList.toggle('hidden');
+    });
+  }
+
+  // Global Watchlist & Bookmark Synchronization
+  function syncWatchlistGlobal() {
+    let list = [];
+    try {
+      list = JSON.parse(localStorage.getItem('airdroplyx_watchlist') || '[]');
+    } catch(e) {
+      list = [];
+    }
+
+    const badge = document.getElementById('header-watchlist-badge');
+    const mobileBadge = document.getElementById('mobile-watchlist-badge');
+    if (badge) {
+      if (list.length > 0) {
+        badge.textContent = list.length;
+        badge.classList.remove('hidden');
+      } else {
+        badge.classList.add('hidden');
+      }
+    }
+    if (mobileBadge) {
+      if (list.length > 0) {
+        mobileBadge.textContent = list.length;
+        mobileBadge.classList.remove('hidden');
+      } else {
+        mobileBadge.classList.add('hidden');
+      }
+    }
+
+    // Sync all bookmark buttons currently on the page
+    document.querySelectorAll('.bookmark-toggle-btn').forEach(btn => {
+      const id = btn.dataset.id;
+      const isSaved = list.includes(id);
+      const svg = btn.querySelector('.star-svg');
+      if (isSaved) {
+        btn.classList.add('text-amber-500');
+        btn.classList.remove('text-slate-400');
+        if (svg) {
+          svg.setAttribute('fill', 'currentColor');
+          svg.classList.add('text-amber-500');
+        }
+      } else {
+        btn.classList.remove('text-amber-500');
+        btn.classList.add('text-slate-400');
+        if (svg) {
+          svg.setAttribute('fill', 'none');
+          svg.classList.remove('text-amber-500');
+        }
+      }
+    });
+  }
+
+  // Delegate Bookmark Clicks Globally
+  document.addEventListener('click', (e) => {
+    const btn = e.target.closest('.bookmark-toggle-btn');
+    if (!btn) return;
+    e.preventDefault();
+    e.stopPropagation();
+
+    const id = btn.dataset.id;
+    if (!id) return;
+
+    let list = [];
+    try {
+      list = JSON.parse(localStorage.getItem('airdroplyx_watchlist') || '[]');
+    } catch(err) {
+      list = [];
+    }
+
+    if (list.includes(id)) {
+      list = list.filter(item => item !== id);
+    } else {
+      list.push(id);
+    }
+
+    localStorage.setItem('airdroplyx_watchlist', JSON.stringify(list));
+    window.dispatchEvent(new Event('watchlistUpdated'));
+    syncWatchlistGlobal();
+  });
+
+  window.addEventListener('watchlistUpdated', syncWatchlistGlobal);
+  document.addEventListener('DOMContentLoaded', syncWatchlistGlobal);
+  syncWatchlistGlobal();
+</script>
+`;
+
+fs.writeFileSync(path.resolve('src/components/Header.astro'), headerContent, 'utf8');
+console.log('Fixed Header.astro with clean UTF-8 emojis and mobile language picker!');

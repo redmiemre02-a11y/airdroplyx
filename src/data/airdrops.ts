@@ -39292,5 +39292,348 @@ export const airdrops: Airdrop[] = [
       "answer": "Yes. The Morpho community governance recently activated token transferability, allowing reward recipients to trade or stake their tokens freely."
     }
   ]
-}
+},
+  {
+    "id": "cysic-zk-network",
+    "name": "Cysic Network (Hardware ZK Prover)",
+    "logo": "/images/airdrops/cysic-zk-network.svg",
+    "description": "Hardware-accelerated zero-knowledge prover network and DePIN compute infrastructure delivering real-time ZK proof generation.",
+    "reward": "Confirmed Prover Testnet Points & $CYSIC Allocation",
+    "category": "DePIN / ZK Compute",
+    "featured": true,
+    "status": "active",
+    "funding": "$18M",
+    "investors": "Polychain Capital, HashKey Capital, ABCDE, Web3.com Ventures",
+    "overview": "Cysic is engineering high-speed zero-knowledge verification by designing proprietary hardware accelerators, including custom FPGA chips and dedicated ASICs specifically optimized for ZK-SNARK and STARK mathematical proving.\n\nAs the zero-knowledge ecosystem expands into complex Layer 2 rollups and decentralized AI, computation bottlenecks in proof generation threaten to slow down transaction finality. Cysic solves this by aggregating decentralized GPU, FPGA, and ASIC hardware into an open, permissionless prover network.\n\nBacked by $18 million in institutional financing from Polychain Capital and HashKey Capital, Cysic has launched its Phase 2 incentivized testnet, rewarding individual hardware operators, node runners, and community testers.",
+    "tokenomics": "The native token of the Cysic network is $CYSIC. A dedicated 14% of the total token genesis distribution is reserved for hardware miners, community testnet node runners, and ecosystem grants.\n\n$CYSIC is utilized to pay proof generation fees for rollups, staked by proving cluster operators to guarantee execution honesty, and used in decentralized governance to direct protocol parameters.",
+    "sybilSafety": "Cysic evaluates node contributions using verifiable cryptographic Proof of Work and hardware benchmark telemetry. Synthetic virtual machines producing identical machine signatures without valid proof generation will be filtered out.\n\nTestnet participants running software prover agents should maintain continuous uptime, genuine proof throughput, and avoid sybil multi-accounting on identical IP ranges.",
+    "strategy": "Maximize your Cysic testnet standing by participating in the prover incentive program.\n\nRegister on the Cysic Verifier dashboard with your non-custodial Web3 wallet, link your GitHub or developer credentials, download the Cysic Prover binary on your Linux or desktop workstation, and generate valid proof batches to accumulate daily on-chain points.",
+    "steps": [
+      "Visit the official <a href=\"https://cysic.xyz/\" target=\"_blank\" rel=\"noopener noreferrer\">Cysic Network Portal</a> and register your Web3 wallet.",
+      "Navigate to the Testnet Prover dashboard to generate your unique prover credentials.",
+      "Download the official Cysic Prover CLI or desktop client suitable for your operating system.",
+      "Bind your wallet address to the prover client configuration file.",
+      "Start the prover daemon to compute and submit zero-knowledge proofs to the network coordinator.",
+      "Check your real-time verified proof count and accumulated points on the public leaderboard.",
+      "Join the official Cysic Discord community to receive role verification for active testnet provers."
+    ],
+    "faqs": [
+      {
+        "question": "Can I participate in Cysic without advanced mining hardware?",
+        "answer": "Yes. While enterprise FPGAs earn the highest proving weight, community users can run CPU/GPU lightweight verifier nodes or participate in community quest tasks."
+      },
+      {
+        "question": "Are Cysic testnet points convertible to tokens?",
+        "answer": "Yes. Cysic's published roadmap confirms that community testnet points will serve as the benchmark metric for retroactive token allocation at TGE."
+      }
+    ]
+  },
+  {
+    "id": "rise-chain-parallel-evm",
+    "name": "Rise Chain (Gigagas Parallel EVM L2)",
+    "logo": "/images/airdrops/rise-chain-parallel-evm.svg",
+    "description": "Next-generation parallelized Layer 2 blockchain achieving 100,000+ TPS and 1 Gigagas per second execution throughput on Ethereum.",
+    "reward": "Incentivized Testnet Badges & $RISE Community Pool",
+    "category": "Parallel EVM / Layer 2",
+    "featured": true,
+    "status": "active",
+    "funding": "$3.2M",
+    "investors": "Finality Capital, MH Ventures, prominent modular ecosystem angels",
+    "overview": "Rise Chain is a breakthrough parallelized Ethereum Layer 2 designed to shatter traditional scalability boundaries by delivering 100,000+ transactions per second at continuous 1 Gigagas/sec execution capacity.\n\nBy leveraging advanced continuous pipelining, optimistic parallel execution, decoupled transaction sequencing, and Celestia modular data availability, Rise Chain eliminates the sequential processing bottleneck of traditional EVMs without breaking EVM compatibility.\n\nWith $3.2 million in seed funding led by Finality Capital, Rise Chain has launched its public developer and community testnet to battle-test high-throughput smart contract applications.",
+    "tokenomics": "The native token $RISE powers transaction fees, decentralized sequencer staking, and community governance. The project tokenomics architecture allocates 15% of total genesis tokens to early ecosystem participants, testnet users, and liquidity bootsappers.\n\nA portion of network gas fees is programmatically routed to token burn mechanisms and continuous developer revenue sharing.",
+    "sybilSafety": "Rise Chain utilizes automated behavioral clustering to detect bot nets. Repeated micro-transactions between identical counterparty wallets without interaction with diverse ecosystem smart contracts will be disqualified.\n\nEnsure organic engagement by exploring multiple testnet DEXs, deploying genuine smart contracts, and interacting on distinct days.",
+    "strategy": "Engage with Rise Chain's public testnet campaign by adding the network RPC to your non-custodial Web3 wallet, claiming test ETH from the faucet, and executing high-frequency swaps and liquidity provisions across native testnet applications.",
+    "steps": [
+      "Access the <a href=\"https://www.riselabs.xyz/\" target=\"_blank\" rel=\"noopener noreferrer\">Rise Chain Portal</a> and documentation center.",
+      "Add the Rise Sepolia Testnet RPC parameters to your self-custodial browser wallet.",
+      "Request testnet assets from the official Rise faucet dispenser.",
+      "Bridge test funds from Ethereum Sepolia to Rise Chain via the official native testnet bridge.",
+      "Execute transactions on ecosystem testnet protocols including AMM swaps, NFT mints, and lending vaults.",
+      "Verify your transaction volume and gas efficiency on the Rise block explorer.",
+      "Participate in the Rise community guild and complete social verification quests."
+    ],
+    "faqs": [
+      {
+        "question": "What is Gigagas throughput?",
+        "answer": "Gigagas throughput means the blockchain can process 1 billion units of gas per second, allowing thousands of complex smart contract transactions simultaneously."
+      },
+      {
+        "question": "Is the Rise testnet completely free to use?",
+        "answer": "Yes. All transactions on Rise testnet use free Sepolia test tokens distributed via public faucets."
+      }
+    ]
+  },
+  {
+    "id": "termina-svm-solana",
+    "name": "Termina (Solana SVM Rollup Platform)",
+    "logo": "/images/airdrops/termina-svm-solana.svg",
+    "description": "Modular Rollup-as-a-Service and execution engine enabling customizable Solana Virtual Machine (SVM) rollups and appchains.",
+    "reward": "Developer Devnet Points & $TERM Token Rewards",
+    "category": "SVM / Modular Rollup",
+    "featured": true,
+    "status": "active",
+    "funding": "$4M",
+    "investors": "Lemniscap, Animoca Brands, Hypersphere Ventures, Bitscale Capital",
+    "overview": "Termina, developed by Nitro Labs, brings the unmatched execution performance of the Solana Virtual Machine (SVM) into the modular blockchain paradigm. By enabling developers to deploy sovereign SVM rollups that settle to various base layers, Termina combines Solana's parallel runtime with modular flexibility.\n\nApplications demanding ultra-low latency and dedicated throughput—such as on-chain orderbook exchanges, high-frequency gaming, and AI agents—can launch dedicated appchains in minutes.\n\nBacked by $4 million from leading venture funds including Lemniscap and Animoca Brands, Termina is expanding its testnet ecosystem with active developer and early tester incentive programs.",
+    "tokenomics": "The $TERM utility and governance token fuels the Termina ecosystem. 12% of the initial supply is designated for community early adopters, rollup operators, and decentralized relayer nodes.\n\n$TERM is staked by sequencer operators to secure SVM rollups, used for cross-rollup state settlement, and utilized in protocol governance votes.",
+    "sybilSafety": "Termina monitors on-chain devnet and testnet activity using wallet longevity and multi-dApp interaction graphs. Wallets created immediately prior to interactions without prior on-chain footprints may be assigned reduced points multipliers.\n\nUse an established self-custodial wallet with historical mainnet transactions across recognized Web3 ecosystems.",
+    "strategy": "Participate in Termina's modular SVM devnet. Connect your wallet to the Termina testnet bridge, test cross-rollup transfers between EVM and SVM environments, and interact with early preview dApps deployed on Termina rollups.",
+    "steps": [
+      "Visit the <a href=\"https://termina.xyz/\" target=\"_blank\" rel=\"noopener noreferrer\">Termina Official Platform</a> and explore the ecosystem dashboard.",
+      "Connect your compatible Web3 wallet and obtain devnet test tokens.",
+      "Test the Termina SVM bridge by transferring assets between the settlement layer and an SVM rollup.",
+      "Deploy a sample program or interact with live SVM dApp demonstrations.",
+      "Provide constructive technical feedback in the community feedback channel.",
+      "Track your devnet activity score on the community dashboard."
+    ],
+    "faqs": [
+      {
+        "question": "Can I use Termina with regular Web3 wallets?",
+        "answer": "Yes. Termina supports both SVM-native wallets and EVM wallets through universal bridge connectors."
+      },
+      {
+        "question": "What is the primary benefit of an SVM rollup?",
+        "answer": "SVM rollups provide parallel transaction processing using SeaLevel runtime, preventing single popular contracts from driving up network fees for everyone else."
+      }
+    ]
+  },
+  {
+    "id": "rome-protocol-shared-sequencer",
+    "name": "Rome Protocol (Solana Shared Sequencer)",
+    "logo": "/images/airdrops/rome-protocol-shared-sequencer.svg",
+    "description": "Shared sequencing network leveraging Solana as a decentralized sequencing layer for Ethereum Layer 2 rollups.",
+    "reward": "Confirmed Ecosystem Pass & $ROME Genesis Allocation",
+    "category": "Shared Sequencing / Layer 2",
+    "featured": true,
+    "status": "active",
+    "funding": "$9M",
+    "investors": "Hack VC, Portal Ventures, Bankless Ventures, Robot Ventures",
+    "overview": "Rome Protocol represents one of the most innovative cross-ecosystem architectures in Web3, utilizing Solana's ultra-fast consensus engine to provide shared sequencing for Ethereum rollups.\n\nBy leveraging Solana as a shared sequencer, Rome enables atomic, synchronous composability across different Ethereum Layer 2s, allowing users to execute flash loans, arbitrage, and cross-chain swaps in a single slot without relying on centralized bridge intermediaries.\n\nBacked by $9 million in venture capital led by Hack VC and Portal Ventures, Rome Protocol is launching its public devnet and community incentive campaign.",
+    "tokenomics": "The $ROME token underpins the economic security of the shared sequencing network. 16% of the token genesis supply is earmarked for community contributors, testnet pioneers, and decentralized validator participants.\n\n$ROME is used to pay shared sequencing fees, staked by validators ensuring fair transaction ordering, and utilized in protocol governance.",
+    "sybilSafety": "Rome Protocol tracks authentic multi-network participation. Sybil protection systems analyze transaction graphs across both connected testnets to eliminate automated script farms.\n\nMaintain genuine activity across both connected environments and avoid repetitive scripted interactions.",
+    "strategy": "Engage with Rome Protocol's shared sequencing demonstration testnets. Test atomic cross-rollup transaction execution between participating rollups and verify transaction sequencing receipts.",
+    "steps": [
+      "Access the official <a href=\"https://www.romeprotocol.xyz/\" target=\"_blank\" rel=\"noopener noreferrer\">Rome Protocol Portal</a>.",
+      "Review the architectural overview and testnet user guide.",
+      "Connect your self-custodial Web3 wallet to the Rome testnet interface.",
+      "Execute an atomic cross-rollup transfer to experience sub-second shared sequencing.",
+      "Inspect the transaction finality proofs on the Rome sequencing explorer.",
+      "Join the official Rome community to claim your early tester Discord roles."
+    ],
+    "faqs": [
+      {
+        "question": "How does Rome enable atomic transactions across rollups?",
+        "answer": "Because Solana orders transactions for multiple rollups simultaneously in a single block, transactions across those rollups can be executed and finalized atomically together."
+      },
+      {
+        "question": "Do I need real funds to test Rome Protocol?",
+        "answer": "No. Rome operates testnet environments utilizing free test assets from faucets."
+      }
+    ]
+  },
+  {
+    "id": "radius-shared-sequencer",
+    "name": "Radius (Encrypted Mempool Sequencer)",
+    "logo": "/images/airdrops/radius-shared-sequencer.svg",
+    "description": "Trustless shared sequencing layer utilizing zero-knowledge cryptography to provide an encrypted mempool that eliminates toxic MEV.",
+    "reward": "Testnet Quest Points & $RAD Governance Share",
+    "category": "Modular Infra / Sequencer",
+    "featured": true,
+    "status": "active",
+    "funding": "$1.7M",
+    "investors": "Hashed, Superscrypt, Alma Labs, Presto Labs",
+    "overview": "Radius is an open, trustless shared sequencing layer engineered to solve the multi-billion dollar toxic MEV problem on modular blockchains. By implementing Practical Verifiable Delay Encryption (PVDE), Radius ensures that user transactions are encrypted before entering the mempool and only decrypted after their execution order is cryptographically locked.\n\nThis prevents malicious sequencers and searchers from frontrunning, sandwiching, or censoring user transactions, restoring fair price execution for decentralized finance.\n\nBacked by Hashed and Superscrypt, Radius is conducting public testnet deployments across leading rollup frameworks with confirmed retroactive reward campaigns.",
+    "tokenomics": "The $RAD token serves as the governance and staking backbone of the Radius network. 10% of total tokens are designated for testnet users, rollup integrations, and decentralized validator stakers.\n\nValidators stake $RAD to participate in encrypted sequencing rounds and earn a share of cryptographic verification fees.",
+    "sybilSafety": "Radius filters out robotic interaction patterns using cryptographic verification proofs. Ensure that transactions submitted on the testnet represent diverse smart contract interactions rather than continuous empty transfers.",
+    "strategy": "Interact with rollups integrated with the Radius encrypted mempool. Connect your non-custodial wallet, submit encrypted testnet transactions on integrated DEXs, and confirm frontrunning protection proofs.",
+    "steps": [
+      "Go to the <a href=\"https://www.theradius.tech/\" target=\"_blank\" rel=\"noopener noreferrer\">Radius Network Website</a>.",
+      "Connect your self-custodial Web3 wallet to the testnet sandbox.",
+      "Obtain testnet tokens through the integrated sandbox faucet.",
+      "Submit an encrypted transaction via the Radius sequencing interface.",
+      "Verify the decryption receipt on the Radius transaction explorer.",
+      "Complete community learning quests on the official portal to secure points."
+    ],
+    "faqs": [
+      {
+        "question": "What is an encrypted mempool?",
+        "answer": "An encrypted mempool hides transaction contents (such as token amounts and slippage) until their order is permanently fixed, preventing MEV bots from frontrunning your trade."
+      },
+      {
+        "question": "Which rollups can use Radius?",
+        "answer": "Radius is rollup-agnostic and supports OP Stack, Arbitrum Orbit, Polygon CDK, and custom sovereign rollups."
+      }
+    ]
+  },
+  {
+    "id": "mira-network-ai",
+    "name": "Mira Network (Decentralized AI Verification)",
+    "logo": "/images/airdrops/mira-network-ai.svg",
+    "description": "Decentralized cryptographic verification protocol generating verified consensus over generative AI model outputs and LLM inference.",
+    "reward": "Mira Points & Confirmed $MIRA Token Allocation",
+    "category": "AI / Cryptographic Consensus",
+    "featured": true,
+    "status": "active",
+    "funding": "$9M",
+    "investors": "BITKRAFT Ventures, Framework Ventures, Accel, Folius Ventures",
+    "overview": "Mira Network tackles one of the foundational challenges of modern artificial intelligence: hallucination, output unreliability, and lack of verifiable provenance. By breaking down complex LLM inference tasks into deterministic sub-queries evaluated across a decentralized network of independent verifier nodes, Mira creates mathematically provable AI outputs.\n\nDevelopers can integrate Mira's decentralized API to generate verified AI summaries, autonomous agent decisions, and verifiable code generation with cryptographic certainty.\n\nBacked by $9 million from BITKRAFT Ventures and Framework Ventures, Mira has opened its developer testnet and points incentive program for early ecosystem contributors.",
+    "tokenomics": "The $MIRA token coordinates economic security across the decentralized AI verification network. 15% of the total token allocation is reserved for node verifiers, prompt contributors, and early API builders.\n\nTokens are staked by verifier nodes to ensure truthfulness and burned as query verification fees by applications consuming verified AI intelligence.",
+    "sybilSafety": "Mira evaluates verification quality using cryptographically signed consensus scoring. Wallets that submit random or low-entropy evaluation outputs are automatically down-weighted by network consensus algorithms.",
+    "strategy": "Accumulate Mira Points by participating in the testnet verification playground. Register your Web3 wallet on the Mira portal, submit prompt evaluation tasks, test developer APIs, and contribute compute as a community verifier node.",
+    "steps": [
+      "Visit the <a href=\"https://mira.network/\" target=\"_blank\" rel=\"noopener noreferrer\">Mira Network Platform</a> and connect your Web3 wallet.",
+      "Access the Mira AI Verification Playground.",
+      "Generate test queries and review multi-node consensus evaluations.",
+      "Submit verification ratings on sample LLM outputs to earn contributor points.",
+      "Explore the developer SDK to test automated verification calls.",
+      "Track your verified points and leaderboard ranking on the community portal."
+    ],
+    "faqs": [
+      {
+        "question": "Why is decentralized AI verification important?",
+        "answer": "Centralized AI models can hallucinate or be quietly modified. Decentralized verification ensures that critical decisions made by AI agents are cryptographically vetted by independent consensus."
+      },
+      {
+        "question": "Do I need coding skills to earn Mira points?",
+        "answer": "No. Non-technical users can interact with the web playground and evaluate outputs to earn points."
+      }
+    ]
+  },
+  {
+    "id": "pond-ai-crypto",
+    "name": "Pond (Graph Neural Network Crypto AI)",
+    "logo": "/images/airdrops/pond-ai-crypto.svg",
+    "description": "Decentralized foundational AI models built on Graph Neural Networks (GNNs) analyzing on-chain behaviors and smart contract intelligence.",
+    "reward": "Pond Ecosystem Points & $POND Genesis Rewards",
+    "category": "AI / Machine Learning",
+    "featured": true,
+    "status": "active",
+    "funding": "$7.5M",
+    "investors": "Archetype, Cyber Fund, Delphi Digital angels, NEAR Foundation",
+    "overview": "Pond is creating the foundational AI intelligence layer for Web3 by developing domain-specific Graph Neural Networks (GNNs). Unlike standard language models that understand text, Pond's neural models are trained directly on multi-billion transaction graphs across leading blockchains.\n\nThis enables unprecedented capabilities, including automated smart contract vulnerability auditing, real-time wallet credit scoring, and predictive liquidity rebalancing across decentralized finance.\n\nBacked by $7.5 million from Archetype and Cyber Fund, Pond is distributing points to early model testers, data providers, and on-chain community participants.",
+    "tokenomics": "The $POND token powers model training coordination, inference staking, and decentralized governance. 14% of the genesis token supply is dedicated to community contributors and model tuners.\n\nStakers earn a share of protocol inference fees paid by protocols utilizing Pond's on-chain predictive intelligence.",
+    "sybilSafety": "Pond uses its own proprietary Graph Neural Network algorithms to analyze connecting wallets. Sybil rings and multi-wallet clusters are automatically detected through topological graph analysis.",
+    "strategy": "Connect your active Web3 wallet to the Pond intelligence portal. Test model queries, evaluate predictive recommendations, and participate in community data curation campaigns to earn Pond points.",
+    "steps": [
+      "Navigate to the <a href=\"https://cryptopond.xyz/\" target=\"_blank\" rel=\"noopener noreferrer\">Pond AI Official Website</a>.",
+      "Connect your self-custodial Web3 wallet.",
+      "Explore the GNN model exploration dashboard and query on-chain behavior graphs.",
+      "Interact with community model testing apps and contribute feedback.",
+      "Monitor your points accumulation on the community dashboard.",
+      "Engage with Pond community discussions on official channels to unlock tester badges."
+    ],
+    "faqs": [
+      {
+        "question": "What is a Graph Neural Network in crypto?",
+        "answer": "A Graph Neural Network treats wallets as nodes and transactions as edges, learning the structural patterns of blockchain capital flow to make highly accurate predictions."
+      },
+      {
+        "question": "Is participation on Pond free?",
+        "answer": "Yes. Community exploration and model testing are free during the public testnet phase."
+      }
+    ]
+  },
+  {
+    "id": "sapien-gamified-ai",
+    "name": "Sapien (Decentralized AI Data Labeling)",
+    "logo": "/images/airdrops/sapien-gamified-ai.svg",
+    "description": "Gamified decentralized human-in-the-loop data labeling protocol enabling global contributors to train frontier AI models.",
+    "reward": "Sapien Reputation Points & $SPN Token Airdrop",
+    "category": "AI / DePIN",
+    "featured": true,
+    "status": "active",
+    "funding": "$10.5M",
+    "investors": "Variant, Primitive Ventures, Animoca Brands, Yield Guild Games",
+    "overview": "Sapien transforms the multi-billion dollar AI data labeling industry by decentralizing and gamifying data annotation. High-quality human feedback (RLHF) is essential for training advanced artificial intelligence, yet traditional data labeling relies on centralized, low-wage sweatshops.\n\nSapien empowers a global workforce of internet users to annotate text, image, and audio datasets through engaging, gamified micro-tasks, earning on-chain reputation points and token rewards with verifiable proof of quality.\n\nWith $10.5 million in funding led by Variant and Primitive Ventures, Sapien's active contributor campaign has attracted over 500,000 global participants ahead of its token generation event.",
+    "tokenomics": "The $SPN token aligns quality incentives between AI enterprises and global annotators. A substantial 20% of the total token genesis distribution is allocated directly to active human annotators and quality validators.\n\n$SPN is staked by annotators to guarantee labeling accuracy, used as payment currency by AI developers, and burned in governance mechanisms.",
+    "sybilSafety": "Sapien enforces strict quality validation checks (Consensus Verification). Users who attempt to use automated scripts or random inputs fail quality traps and have their reputation slashed.",
+    "strategy": "Create a free profile on the Sapien platform. Complete gamified labeling tasks with high accuracy, participate in daily quests, maintain a high quality score, and invite friends to maximize your reputation points.",
+    "steps": [
+      "Visit the <a href=\"https://www.sapien.io/\" target=\"_blank\" rel=\"noopener noreferrer\">Sapien Platform Portal</a> and sign up with your non-custodial Web3 wallet.",
+      "Complete the introductory onboarding tutorial to calibrate your labeling accuracy.",
+      "Select an active labeling campaign (images, audio, or text evaluation).",
+      "Perform micro-labeling tasks accurately to boost your accuracy multiplier.",
+      "Check your accumulated reputation points on your personal dashboard.",
+      "Join the official community Discord to participate in special tagging events."
+    ],
+    "faqs": [
+      {
+        "question": "Can anyone participate in Sapien labeling?",
+        "answer": "Yes! Anyone with an internet connection and a Web3 wallet can complete gamified labeling tasks from desktop or mobile devices."
+      },
+      {
+        "question": "How do I maximize my Sapien rewards?",
+        "answer": "Focus on high accuracy rather than speed. Consistent high-quality evaluations trigger higher reward tiers and bonus multipliers."
+      }
+    ]
+  },
+  {
+    "id": "echo-protocol-btc",
+    "name": "Echo Protocol (Aptos Bitcoin Restaking)",
+    "logo": "/images/airdrops/echo-protocol-btc.svg",
+    "description": "Premier Bitcoin liquid restaking and yield generation layer built natively in the Move programming language on Aptos.",
+    "reward": "Echo Points & Confirmed $ECHO Airdrop Allocation",
+    "category": "Bitcoin / Aptos DeFi",
+    "featured": true,
+    "status": "active",
+    "funding": "$4M",
+    "investors": "Spartan Group, Amber Group, prominent Aptos ecosystem venture funds",
+    "overview": "Echo Protocol introduces native Bitcoin liquid restaking to the Aptos blockchain, unlocking multi-layered yield opportunities for Bitcoin holders utilizing the high security and sub-second finality of Move.\n\nBy depositing bridged Bitcoin assets (such as LBTC, WBTC, and tBTC) into Echo's smart contracts, users receive a liquid restaked receipt token (aBTC) that continues earning underlying Bitcoin yield while simultaneously participating in Aptos DeFi money markets and automated market makers.\n\nBacked by $4 million from Spartan Group and Amber Group, Echo Protocol is running its Season 1 Points campaign with confirmed token rewards for early liquidity depositors.",
+    "tokenomics": "The native token $ECHO serves as the governance and yield booster asset for the protocol. 12% of total $ECHO tokens are allocated to early testnet and mainnet liquidity contributors.\n\nLocking $ECHO boosts daily point multipliers and grants voting power over protocol asset listing and interest rate models.",
+    "sybilSafety": "Echo evaluates wallets based on deposit size, duration of liquidity lock, and authentic participation in Aptos ecosystem applications. Rapid deposit-and-withdraw cycles earn zero qualifying points.",
+    "strategy": "Maximize Echo Points by depositing qualifying Bitcoin assets on Aptos. Supply assets to lending pools, provide liquidity on Move DEXs, and maintain deposits throughout Season 1 to capture maximum point accumulation.",
+    "steps": [
+      "Navigate to the <a href=\"https://echo-protocol.xyz/\" target=\"_blank\" rel=\"noopener noreferrer\">Echo Protocol Dashboard</a>.",
+      "Connect your compatible Aptos wallet.",
+      "Deposit supported Bitcoin tokens into the Echo Liquid Restaking vault.",
+      "Receive aBTC liquid receipt tokens in your wallet.",
+      "Deploy your aBTC into partner Aptos DeFi protocols to compound points.",
+      "Monitor your accumulated points and referral ranking on the Echo leaderboard."
+    ],
+    "faqs": [
+      {
+        "question": "What wallet do I need for Echo Protocol?",
+        "answer": "You can use any standard Aptos wallet (such as Petra, Pontem, or Nightly) to interact with Echo Protocol."
+      },
+      {
+        "question": "Is my deposited Bitcoin locked permanently?",
+        "answer": "No. You can withdraw your deposited Bitcoin at any time subject to standard unbonding periods."
+      }
+    ]
+  },
+  {
+    "id": "kintsu-liquid-staking",
+    "name": "Kintsu (Next-Gen Liquid Staking)",
+    "logo": "/images/airdrops/kintsu-liquid-staking.svg",
+    "description": "Modular liquid staking protocol designed for parallelized Layer 1 blockchains including Monad and Aleph Zero.",
+    "reward": "Kintsu Golden Shards & Confirmed $KINTSU Airdrop",
+    "category": "Liquid Staking / Monad & L1",
+    "featured": true,
+    "status": "active",
+    "funding": "$4M",
+    "investors": "Castle Island Ventures, Brevan Howard Digital, CMT Digital, Spartan Group",
+    "overview": "Kintsu is a next-generation liquid staking protocol purpose-built for the ultra-high-performance requirements of parallelized blockchains like Monad and Aleph Zero. Named after the Japanese art of Kintsugi (repairing ceramics with gold lacquer), Kintsu restores liquidity and capital efficiency to staked native assets.\n\nUsers deposit native tokens to receive sAssets (such as sMON and sAZERO), capturing consensus staking yields while maintaining full freedom to deploy their capital across decentralized lending, perps, and automated market makers.\n\nBacked by $4 million in funding led by Castle Island Ventures and Brevan Howard Digital, Kintsu has rolled out its Golden Shards incentive program rewarding early community stakers and testnet ambassadors.",
+    "tokenomics": "The $KINTSU governance token directs validator allocation strategies and fee distribution. 15% of the total genesis supply is allocated to early liquid stakers, liquidity pool providers, and testnet community members.\n\nStaking $KINTSU unlocks governance voting rights and a share of protocol staking revenue.",
+    "sybilSafety": "Kintsu utilizes stake-duration weighting to reward authentic community members. Wallets that maintain long-term liquid staking positions earn exponentially higher shard multipliers than short-term opportunistic depositors.",
+    "strategy": "Participate in Kintsu's public testnet and early access staking vaults. Stake native testnet assets to mint sAssets, supply liquidity on partner DEX pools, and collect daily Golden Shards.",
+    "steps": [
+      "Access the official <a href=\"https://kintsu.xyz/\" target=\"_blank\" rel=\"noopener noreferrer\">Kintsu Protocol Portal</a>.",
+      "Connect your self-custodial Web3 wallet.",
+      "Select your network (Monad Testnet or Aleph Zero).",
+      "Deposit native tokens into the liquid staking contract to mint liquid sTokens.",
+      "Supply your sTokens to eligible testnet liquidity pools to earn double shard rewards.",
+      "Check your Golden Shards balance on the Kintsu community leaderboard.",
+      "Verify your community roles on the Kintsu Discord server."
+    ],
+    "faqs": [
+      {
+        "question": "What is the benefit of liquid staking on Monad with Kintsu?",
+        "answer": "Liquid staking allows you to earn native Monad consensus staking yield while retaining full liquidity to trade or use your capital in DeFi."
+      },
+      {
+        "question": "Are Golden Shards convertible to tokens?",
+        "answer": "Yes. Golden Shards represent your relative contribution share to the protocol and will convert to $KINTSU tokens upon TGE."
+      }
+    ]
+  }
 ];

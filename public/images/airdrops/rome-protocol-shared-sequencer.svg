@@ -1,0 +1,19 @@
+<svg viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="100" height="100" rx="24" fill="#140C24"/>
+  <circle cx="50" cy="50" r="36" fill="url(#rome_glow)" fill-opacity="0.3"/>
+  <circle cx="50" cy="50" r="28" stroke="url(#rome_grad)" stroke-width="3.5" stroke-dasharray="6 3"/>
+  <!-- Roman Arch Pillar Sequencer Symbol -->
+  <path d="M38 70V46C38 39.3726 43.3726 34 50 34C56.6274 34 62 39.3726 62 46V70" stroke="url(#rome_grad)" stroke-width="4" stroke-linecap="round"/>
+  <path d="M32 70H68" stroke="url(#rome_grad)" stroke-width="4" stroke-linecap="round"/>
+  <circle cx="50" cy="46" r="5" fill="#FBBF24"/>
+  <defs>
+    <linearGradient id="rome_grad" x1="32" y1="34" x2="68" y2="70" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FBBF24"/>
+      <stop offset="1" stop-color="#A855F7"/>
+    </linearGradient>
+    <radialGradient id="rome_glow" cx="50" cy="50" r="36" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#A855F7"/>
+      <stop offset="1" stop-color="#140C24" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+</svg>
