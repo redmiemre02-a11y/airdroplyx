@@ -112,8 +112,7 @@ const canonicalURL = new URL(Astro.url.pathname, Astro.site || "https://airdropl
 			});
 		</script>
 
-		<!-- Multi-Language Engine (Google Translate Neural Integration) -->
-		<div id="google_translate_element" style="position:absolute;left:-9999px;top:-9999px;width:1px;height:1px;overflow:hidden;opacity:0;pointer-events:none;" aria-hidden="true"></div>
+		<!-- Multi-Language Engine Styles -->
 		<style is:global>
 			.goog-te-banner-frame.skiptranslate, 
 			.goog-te-banner-frame,
@@ -144,9 +143,10 @@ const canonicalURL = new URL(Astro.url.pathname, Astro.site || "https://airdropl
 		<script is:inline>
 			// Bulletproof global language switcher function
 			window.changeAirdroplyxLanguage = function(langCode, flag, code) {
+				if (!langCode) return;
 				localStorage.setItem('airdroplyx_lang', langCode);
-				localStorage.setItem('airdroplyx_flag', flag);
-				localStorage.setItem('airdroplyx_code', code);
+				if (flag) localStorage.setItem('airdroplyx_flag', flag);
+				if (code) localStorage.setItem('airdroplyx_code', code);
 				document.documentElement.lang = langCode;
 
 				const isEn = langCode === 'en';
@@ -178,11 +178,21 @@ const canonicalURL = new URL(Astro.url.pathname, Astro.site || "https://airdropl
 						document.cookie = 'googtransopt=; path=/; ' + expiresDate + domAttr;
 					} else {
 						document.cookie = 'googtrans=' + cookieVal + '; path=/; ' + expiresDate + domAttr;
+						document.cookie = 'googtrans=/auto/' + langCode + '; path=/; ' + expiresDate + domAttr;
 					}
 				});
 
-				// Instant clean reload to guarantee flawless Google Translation and zero DOM corruption
-				window.location.reload();
+				// Check if Google Translate combo is currently available in DOM
+				const combo = document.querySelector('.goog-te-combo');
+				if (combo) {
+					combo.value = isEn ? 'en' : langCode;
+					combo.dispatchEvent(new Event('change'));
+					setTimeout(function() {
+						window.location.reload();
+					}, 150);
+				} else {
+					window.location.reload();
+				}
 			};
 
 			window.googleTranslateElementInit = function() {
@@ -191,6 +201,24 @@ const canonicalURL = new URL(Astro.url.pathname, Astro.site || "https://airdropl
 					includedLanguages: 'en,tr,ru,es,vi,zh-CN,de,ja,ko,fr,pt,id,uk,ar',
 					autoDisplay: false
 				}, 'google_translate_element');
+
+				// Auto-sync translation if non-English language is set in localStorage
+				const saved = localStorage.getItem('airdroplyx_lang');
+				if (saved && saved !== 'en') {
+					let attempts = 0;
+					const interval = setInterval(function() {
+						attempts++;
+						const combo = document.querySelector('.goog-te-combo');
+						if (combo) {
+							if (combo.value !== saved) {
+								combo.value = saved;
+								combo.dispatchEvent(new Event('change'));
+							}
+							clearInterval(interval);
+						}
+						if (attempts > 25) clearInterval(interval);
+					}, 200);
+				}
 			};
 
 			// Sync html lang attribute early
@@ -210,6 +238,8 @@ const canonicalURL = new URL(Astro.url.pathname, Astro.site || "https://airdropl
 		</script>
 	</head>
 	<body class="bg-gray-50 dark:bg-slate-900 text-slate-800 dark:text-slate-100 min-h-screen flex flex-col font-sans antialiased transition-colors duration-200">
+		<!-- Google Translate Neural Integration Container inside body -->
+		<div id="google_translate_element" style="position:absolute;left:-9999px;top:-9999px;width:1px;height:1px;overflow:hidden;opacity:0;pointer-events:none;" aria-hidden="true"></div>
 		<slot />
 		<Footer />
 		<CookieBanner />
