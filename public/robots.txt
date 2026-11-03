@@ -1,5 +1,9 @@
 User-agent: *
 Allow: /
 
+# XML & RSS Sitemaps for Google, Bing & Search Engines
 Sitemap: https://airdroplyx.com/sitemap-index.xml
 Sitemap: https://airdroplyx.com/news-sitemap.xml
+Sitemap: https://airdroplyx.com/rss-sitemap.xml
+Sitemap: https://airdroplyx.com/rss.xml
+Sitemap: https://airdroplyx.com/news/rss.xml

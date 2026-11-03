@@ -1,8 +1,8 @@
 import { newsArticles } from '../../data/news';
 
 export async function GET() {
-  // Sort with most recent articles first for Google News and RSS readers
-  const sortedNews = [...newsArticles].reverse();
+  // Take the most recent 50 articles in chronological order (newest first)
+  const sortedNews = newsArticles.slice(0, 50);
 
   const items = sortedNews.map(n => {
     const parsed = new Date(n.date);
@@ -11,29 +11,46 @@ export async function GET() {
     // Format paragraph content for RSS readers and Google News ingestion
     const htmlContent = n.content
       .split('\n\n')
-      .map(p => `<p>${p.trim()}</p>`)
-      .join('')
+      .map(p => {
+        const trimmed = p.trim();
+        if (trimmed.startsWith('## ')) {
+          return `<h3>${trimmed.substring(3)}</h3>`;
+        }
+        if (trimmed.startsWith('> ')) {
+          return `<blockquote><p>${trimmed.substring(2)}</p></blockquote>`;
+        }
+        if (trimmed.startsWith('* ') || trimmed.startsWith('- ')) {
+          const listItems = trimmed.split('\n').map(li => `<li>${li.replace(/^[\*\-]\s+/, '')}</li>`).join('');
+          return `<ul>${listItems}</ul>`;
+        }
+        return `<p>${trimmed}</p>`;
+      })
+      .join('\n')
       .replace(/]]>/g, ']]&gt;');
 
     // Safely escape attribute strings
     const safeImageUrl = n.image.replace(/&/g, '&amp;').replace(/"/g, '&quot;');
     const safeCategory = n.category.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
 
-    return `
-    <item>
+    return `    <item>
       <title><![CDATA[${n.title}]]></title>
       <link>https://airdroplyx.com/news/${n.slug}/</link>
       <guid isPermaLink="true">https://airdroplyx.com/news/${n.slug}/</guid>
       <description><![CDATA[${n.excerpt}]]></description>
-      <content:encoded><![CDATA[${htmlContent}]]></content:encoded>
+      <content:encoded><![CDATA[
+        <p><img src="${safeImageUrl}" alt="${n.title.replace(/"/g, '')}" width="1200" height="675" /></p>
+        <p><strong>${n.excerpt}</strong></p>
+        ${htmlContent}
+      ]]></content:encoded>
       <dc:creator><![CDATA[${n.author}]]></dc:creator>
       <category>${safeCategory}</category>
       <pubDate>${pubDate}</pubDate>
+      <enclosure url="${safeImageUrl}" length="120000" type="image/jpeg" />
       <media:content url="${safeImageUrl}" medium="image" width="1200" height="675">
         <media:title><![CDATA[${n.title}]]></media:title>
       </media:content>
     </item>`;
-  }).join('');
+  }).join('\n');
 
   const rss = `<?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" 
@@ -48,13 +65,14 @@ export async function GET() {
     <language>en-us</language>
     <lastBuildDate>${new Date().toUTCString()}</lastBuildDate>
     <atom:link href="https://airdroplyx.com/news/rss.xml" rel="self" type="application/rss+xml" />
-    ${items}
+${items}
   </channel>
 </rss>`;
 
   return new Response(rss.trim(), {
     headers: {
-      'Content-Type': 'application/xml; charset=utf-8'
+      'Content-Type': 'application/xml; charset=utf-8',
+      'Cache-Control': 'public, max-age=3600, stale-while-revalidate=86400'
     }
   });
 }

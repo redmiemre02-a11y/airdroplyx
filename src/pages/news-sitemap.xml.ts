@@ -1,19 +1,21 @@
 import { newsArticles } from '../data/news';
 
 export async function GET() {
-  // Sort news by date descending or take the most recent articles
-  const sortedArticles = [...newsArticles].slice(-50).reverse();
+  // Take the most recent 50 articles (articles are prepended, so index 0 is newest)
+  const sortedArticles = newsArticles.slice(0, 50);
 
   const urlEntries = sortedArticles.map(article => {
     const parsed = new Date(article.date);
     const pubDate = !isNaN(parsed.getTime()) ? parsed.toISOString() : new Date().toISOString();
-    // Escape XML special characters
+    
+    // Safely escape XML special characters
     const safeTitle = article.title
       .replace(/&/g, '&amp;')
       .replace(/</g, '&lt;')
       .replace(/>/g, '&gt;')
       .replace(/"/g, '&quot;')
       .replace(/'/g, '&apos;');
+      
     const safeImage = article.image
       .replace(/&/g, '&amp;')
       .replace(/</g, '&lt;')
@@ -47,7 +49,8 @@ ${urlEntries}
 
   return new Response(xml.trim(), {
     headers: {
-      'Content-Type': 'application/xml; charset=utf-8'
+      'Content-Type': 'application/xml; charset=utf-8',
+      'Cache-Control': 'public, max-age=3600, stale-while-revalidate=86400'
     }
   });
 }
