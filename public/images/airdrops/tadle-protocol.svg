@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" fill="none">
+  <defs>
+    <linearGradient id="tadleGrad" x1="20" y1="20" x2="108" y2="108" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#06B6D4" />
+      <stop offset="100%" stop-color="#0284C7" />
+    </linearGradient>
+  </defs>
+  <rect width="128" height="128" rx="28" fill="#041824" />
+  <rect x="36" y="36" width="56" height="56" rx="14" stroke="url(#tadleGrad)" stroke-width="6" />
+  <path d="M48 64H80M64 48V80" stroke="url(#tadleGrad)" stroke-width="6" stroke-linecap="round" />
+  <circle cx="64" cy="64" r="7" fill="#67E8F9" />
+</svg>

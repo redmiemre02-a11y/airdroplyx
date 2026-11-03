@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" fill="none">
+  <defs>
+    <linearGradient id="fuelGrad" x1="20" y1="20" x2="108" y2="108" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#00F58C" />
+      <stop offset="100%" stop-color="#00A859" />
+    </linearGradient>
+  </defs>
+  <rect width="128" height="128" rx="28" fill="#05140D" />
+  <path d="M64 24C64 24 40 52 40 76C40 89.25 50.75 100 64 100C77.25 100 88 89.25 88 76C88 52 64 24 64 24Z" fill="url(#fuelGrad)" />
+  <path d="M64 54C64 54 52 68 52 80C52 86.6 57.4 92 64 92C70.6 92 76 86.6 76 80C76 68 64 54 64 54Z" fill="#05140D" />
+</svg>

@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" fill="none">
+  <defs>
+    <linearGradient id="cornGrad" x1="20" y1="20" x2="108" y2="108" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#EAB308" />
+      <stop offset="50%" stop-color="#CA8A04" />
+      <stop offset="100%" stop-color="#854D0E" />
+    </linearGradient>
+  </defs>
+  <rect width="128" height="128" rx="28" fill="#1C1402" />
+  <ellipse cx="64" cy="64" rx="26" ry="40" fill="url(#cornGrad)" transform="rotate(15 64 64)" />
+  <circle cx="58" cy="52" r="5" fill="#FEF08A" />
+  <circle cx="70" cy="56" r="5" fill="#FEF08A" />
+  <circle cx="60" cy="68" r="5" fill="#FEF08A" />
+  <circle cx="72" cy="72" r="5" fill="#FEF08A" />
+</svg>

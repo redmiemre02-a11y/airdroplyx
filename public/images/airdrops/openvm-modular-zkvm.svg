@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" fill="none">
+  <defs>
+    <linearGradient id="openvmGrad" x1="16" y1="16" x2="112" y2="112" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#14B8A6" />
+      <stop offset="100%" stop-color="#0F766E" />
+    </linearGradient>
+  </defs>
+  <rect width="128" height="128" rx="28" fill="#041A17" />
+  <path d="M64 28L96 46V82L64 100L32 82V46L64 28Z" stroke="url(#openvmGrad)" stroke-width="6" stroke-linejoin="round" />
+  <path d="M64 28V64L96 82M64 64L32 82" stroke="url(#openvmGrad)" stroke-width="4" />
+  <circle cx="64" cy="64" r="8" fill="#5EEAD4" />
+</svg>

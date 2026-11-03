@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" fill="none">
+  <defs>
+    <linearGradient id="tsGrad" x1="16" y1="16" x2="112" y2="112" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#3B82F6" />
+      <stop offset="50%" stop-color="#1D4ED8" />
+      <stop offset="100%" stop-color="#0F172A" />
+    </linearGradient>
+  </defs>
+  <rect width="128" height="128" rx="28" fill="#0B132B" />
+  <path d="M34 40H94M64 40V96M48 68L64 84L80 68" stroke="url(#tsGrad)" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" />
+  <circle cx="64" cy="40" r="6" fill="#60A5FA" />
+  <circle cx="64" cy="96" r="6" fill="#93C5FD" />
+</svg>

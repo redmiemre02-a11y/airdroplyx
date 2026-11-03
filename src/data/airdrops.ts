@@ -35,6 +35,371 @@ export interface Airdrop {
 
 export const airdrops: Airdrop[] = [
   {
+    "id": "term-structure",
+    "name": "Term Structure",
+    "logo": "/images/airdrops/term-structure.svg",
+    "description": "Institutional-grade fixed-rate borrowing and lending protocol powered by custom ZK-Rollup architecture.",
+    "reward": "Confirmed Token Airdrop & Points",
+    "category": "DeFi / Fixed-Rate",
+    "featured": true,
+    "status": "active",
+    "endTime": "2026-12-15T23:59:59Z",
+    "funding": "$4.25M+",
+    "investors": "Cumberland, Decima Fund, HashKey Capital, LongHash Ventures",
+    "refLink": "https://ts.finance",
+    "overview": "Term Structure is a non-custodial decentralized fixed-income protocol engineered to bring institutional fixed-rate borrowing and lending to Web3. Built on a proprietary Zero-Knowledge Rollup (zkTrue), Term Structure utilizes order-book matching and periodic auction markets to deliver fixed-interest loans without the unpredictable variable APY volatility that plagues conventional DeFi money markets.\n\nBorrowers can lock collateral to secure capital at guaranteed annualized rates, while lenders purchase fixed-term bond tokens that mature at exact face value. The underlying ZK-Rollup batches all matching orders into succinct zero-knowledge proofs, reducing gas costs to near-zero while anchoring final settlement onto Ethereum mainnet security.\n\nThe protocol has concluded a $4.25M funding round led by Cumberland and Decima, and is currently distributing Term Points to early testnet and mainnet fixed-rate liquidity participants ahead of the protocol token generation event.",
+    "tokenomics": "The native utility and governance token is designed to anchor protocol incentives. A dedicated 12% allocation of the total token generation supply is formally allocated to community rewards, retroactive testnet participants, and fixed-term liquidity providers.\n\nToken utility includes protocol revenue sharing, voting rights on approved collateral assets, interest rate model parameters, and fee discount tiers for institutional bond desks.",
+    "sybilSafety": "Term Structure monitors on-chain interactions using volume-weighted verification. To ensure high Sybil safety scores, avoid single-block wash trading. Maintain open fixed-rate positions across at least two distinct maturity dates, and interact with the protocol across multiple weekly epochs using a primary Web3 wallet.",
+    "strategy": "The highest expected value strategy involves depositing collateral into the primary lending vault, bidding in at least three consecutive periodic auctions, and rolling over matured bond tokens into the subsequent term. Participants who hold positions until full maturity earn a 2.5x Term Points multiplier.",
+    "steps": [
+      "Navigate to the official <a href=\"https://ts.finance\" target=\"_blank\" rel=\"noopener noreferrer\">Term Structure App Portal</a>.",
+      "Connect your Web3 Wallet (such as Rabby or Rainbow) and switch your network to Ethereum or the supported testnet.",
+      "Claim testnet collateral tokens from the faucet if participating in the incentivized testnet season.",
+      "Deposit collateral into the primary lending market to unlock borrowing capacity.",
+      "Place a fixed-rate lend or borrow order in the active periodic auction order book.",
+      "Upon auction clearing, monitor your held fixed-rate bond tokens until maturity.",
+      "Participate in secondary bond market trading to accumulate additional trading volume points."
+    ],
+    "faqs": [
+      {
+        "question": "What makes Term Structure different from variable DeFi lending?",
+        "answer": "Unlike variable-rate protocols where borrowing rates can spike unexpectedly, Term Structure locks in an immutable, guaranteed interest rate for the entire duration of the term."
+      },
+      {
+        "question": "How are Term Points converted to tokens?",
+        "answer": "Accumulated points determine your pro-rata share of the 12% community airdrop pool at the Token Generation Event."
+      },
+      {
+        "question": "Is collateral safe during the fixed term?",
+        "answer": "Collateral is locked within audited zkTrue smart contracts with automatic liquidation thresholds preventing insolvency."
+      }
+    ]
+  },
+  {
+    "id": "nebra-aggregator",
+    "name": "Nebra",
+    "logo": "/images/airdrops/nebra-aggregator.svg",
+    "description": "The first universal Zero-Knowledge Proof Aggregator protocol reducing on-chain verification costs by over 90%.",
+    "reward": "Nebra Points & Protocol Token",
+    "category": "Modular / ZK Proofs",
+    "featured": true,
+    "status": "active",
+    "endTime": "2026-12-20T23:59:59Z",
+    "funding": "$4.5M+",
+    "investors": "Nascent, Bankless Ventures, Robot Ventures, Tim Beiko",
+    "refLink": "https://nebra.one",
+    "overview": "Nebra is pioneering universal Zero-Knowledge Proof Aggregation, resolving one of the most pressing scalability bottlenecks in modular Web3 infrastructure. Verifying individual ZK-SNARKs and ZK-STARKs on Ethereum Layer 1 costs hundreds of thousands of gas per proof, making high-frequency cryptographic verification economically prohibitive for decentralized applications.\n\nNebra's Universal Proof Aggregator (UPA) batches thousands of distinct proofs—originating from disparate zkEVMs, privacy protocols, and cross-chain bridges—into a single recursive meta-proof. This breakthrough compresses on-chain verification gas expenditure by more than 90%, democratizing zero-knowledge verification for consumer-scale applications.\n\nBacked by $4.5M in seed funding from Nascent, Bankless Ventures, and Robot Ventures, Nebra is actively running its community prover incentive program and developer aggregation points campaign.",
+    "tokenomics": "The Nebra protocol token coordinates the decentralized prover network and aggregation auctions. A confirmed 10% token allocation is earmarked for community testnet provers, developers integrating the UPA SDK, and early node operators.\n\nToken utility comprises staking for prover validation rights, staking slashing insurance for incorrect aggregation, and governance over supported elliptic curves.",
+    "sybilSafety": "Nebra utilizes cryptographic proof verification rather than social tasks to prevent Sybil exploitation. Only valid proofs submitted through authenticated SDK endpoints or testnet contracts earn aggregation rewards.",
+    "strategy": "Maximize Nebra Points by setting up a lightweight testnet proof generator or submitting recursive verification jobs via the public developer playground. Staking in the community proof verification pool provides passive point accumulation.",
+    "steps": [
+      "Visit the <a href=\"https://nebra.one\" target=\"_blank\" rel=\"noopener noreferrer\">Nebra Portal</a> and review the Universal Proof Aggregator documentation.",
+      "Connect your Web3 Wallet (Rabby, Keplr, or Backpack) to the Nebra dashboard.",
+      "Access the testnet developer playground and submit sample ZK proofs for recursive batching.",
+      "Join the Community Prover program by running the open-source CLI prover script.",
+      "Stake testnet tokens in the aggregation security contract to earn daily staking multipliers.",
+      "Complete ecosystem partner integration quests on the official portal."
+    ],
+    "faqs": [
+      {
+        "question": "What is proof aggregation?",
+        "answer": "Proof aggregation combines multiple independent cryptographic proofs into a single recursive proof that verifies all underlying computations simultaneously on-chain."
+      },
+      {
+        "question": "Do I need specialized hardware to earn Nebra Points?",
+        "answer": "Basic testnet interaction and community staking do not require specialized hardware, though running a high-throughput prover node benefits from dedicated GPUs."
+      }
+    ]
+  },
+  {
+    "id": "spire-rollups",
+    "name": "Spire",
+    "logo": "/images/airdrops/spire-rollups.svg",
+    "description": "Based rollup infrastructure framework enabling Layer 2s to sequence transactions directly through Ethereum L1 proposers.",
+    "reward": "Early Sequencer Allocations",
+    "category": "Layer 2 / Based Rollups",
+    "featured": true,
+    "status": "active",
+    "endTime": "2026-12-31T23:59:59Z",
+    "funding": "Seed Round",
+    "investors": "Maven 11, Robot Ventures, Bankless Ventures",
+    "refLink": "https://spire.build",
+    "overview": "Spire is building the premier framework for 'Based Rollups'—an innovative Layer 2 scaling paradigm that outsources transaction sequencing directly to Ethereum Layer 1 block proposers. Unlike conventional optimistic or ZK rollups that rely on centralized or semi-permissioned sequencer clusters, based rollups inherit 100% of Ethereum's native decentralization, censorship resistance, and liveness.\n\nSpire empowers app-chains and rollup developers to deploy custom execution environments with sub-second pre-confirmations while maintaining composability with the broader Ethereum ecosystem. Developers can leverage Spire's turnkey SDK to launch based rollups in minutes.\n\nBacked by leading modular thesis funds including Maven 11 and Robot Ventures, Spire has unveiled its public developer devnet and early adopter reward framework.",
+    "tokenomics": "Spire's economic layer revolves around coordinating decentralized pre-confirmation providers and sequencing incentives. A reserved 10% community pool is dedicated to early devnet builders, based rollup node testers, and active ecosystem users.",
+    "sybilSafety": "Spire requires authentic smart contract deployment or continuous validator pre-confirmation telemetry. Faucet abuse and automated script spam are filtered out via GitHub authentication and on-chain heuristic checks.",
+    "strategy": "Deploy a lightweight based rollup test instance using Spire's CLI starter toolkit, bridge testnet assets into the based environment, and execute native transactions to establish verified builder reputation.",
+    "steps": [
+      "Explore the official <a href=\"https://spire.build\" target=\"_blank\" rel=\"noopener noreferrer\">Spire Documentation and Console</a>.",
+      "Connect your Web3 Wallet and link your verified GitHub account for developer tier access.",
+      "Initialize a based rollup devnet node using Spire's Docker container.",
+      "Bridge testnet Goerli/Sepolia ETH to your deployed based rollup execution instance.",
+      "Execute state transition transactions and test cross-rollup atomic composability calls.",
+      "Submit feedback in the developer telemetry portal to log testnet verification points."
+    ],
+    "faqs": [
+      {
+        "question": "What is a Based Rollup?",
+        "answer": "A based rollup is a Layer 2 blockchain whose transactions are ordered and sequenced directly by Ethereum Layer 1 validators rather than an isolated external sequencer."
+      },
+      {
+        "question": "Why is based sequencing considered more secure?",
+        "answer": "It completely removes the centralized sequencer single-point-of-failure, eliminating MEV extraction monopolies and inheriting Ethereum's native censorship resistance."
+      }
+    ]
+  },
+  {
+    "id": "fuel-ignition",
+    "name": "Fuel Ignition",
+    "logo": "/images/airdrops/fuel-ignition.svg",
+    "description": "High-performance modular execution layer leveraging parallel UTXO processing and the Sway programming language.",
+    "reward": "Fuel Phase 2 Points & $FUEL",
+    "category": "Layer 2 / Modular Execution",
+    "featured": true,
+    "status": "active",
+    "endTime": "2026-12-10T23:59:59Z",
+    "funding": "$80M+",
+    "investors": "Blockchain Capital, Stratos Technologies, CoinFund, Bain Capital Crypto",
+    "refLink": "https://fuel.network",
+    "overview": "Fuel represents the pinnacle of modular execution technology. Engineered from the ground up to solve the state bloat and single-threaded execution bottlenecks of the EVM, Fuel's purpose-built FuelVM introduces strict parallel transaction execution via an advanced UTXO (Unspent Transaction Output) model.\n\nBy combining parallel execution with the powerful Rust-inspired Sway language, Fuel achieves unprecedented throughput, deterministic gas costs, and trustless state proofs. The Fuel Ignition mainnet campaign is now active, allowing liquidity providers and DeFi enthusiasts to deposit assets into the pre-launch yield portal and accumulate Fuel Points toward the confirmed $FUEL token launch.",
+    "tokenomics": "The $FUEL token powers validator staking, fee markets, and governance across the Fuel execution ecosystem. The official foundation documentation confirms substantial multi-season community distributions to reward early liquidity pioneers.",
+    "sybilSafety": "Fuel tracks continuous capital commitment and multi-dApp transaction diversity. Withdrawing deposits prematurely cancels accumulated point streaks. Maintain uninterrupted liquidity in approved ecosystem vaults.",
+    "strategy": "Deposit qualifying blue-chip assets (ETH, USDC, or wstETH) into the Fuel Ignition portal. Spread deposited capital into native Fuel ecosystem applications such as Mira DEX and SwayLend to trigger compounding ecosystem multipliers.",
+    "steps": [
+      "Access the official <a href=\"https://fuel.network\" target=\"_blank\" rel=\"noopener noreferrer\">Fuel Ignition Portal</a>.",
+      "Connect your Web3 Wallet and generate a native Fuel Wallet address using the Fuel Browser Extension.",
+      "Deposit supported assets (ETH, USDC, or eETH) via the canonical Fuel bridge.",
+      "Provide liquidity on native Fuel AMM protocols like Mira to activate enhanced LP point yields.",
+      "Supply collateral on SwayLend to participate in decentralized credit markets.",
+      "Check your points dashboard daily to verify accrued Fuel Points and season badges."
+    ],
+    "faqs": [
+      {
+        "question": "What is the FuelVM?",
+        "answer": "FuelVM is a custom virtual machine designed specifically for parallel transaction execution, avoiding EVM thread contention and reducing fees dramatically."
+      },
+      {
+        "question": "Can I withdraw my deposited funds at any time?",
+        "answer": "Yes, deposits remain non-custodial and can be withdrawn according to standard bridge delay intervals."
+      }
+    ]
+  },
+  {
+    "id": "eclipse-mainnet",
+    "name": "Eclipse Mainnet",
+    "logo": "/images/airdrops/eclipse-mainnet.svg",
+    "description": "Ethereum's fastest Layer 2 powered by the Solana Virtual Machine (SVM) and Celestia modular data availability.",
+    "reward": "Turbine Season Rewards",
+    "category": "Layer 2 / SVM on Ethereum",
+    "featured": true,
+    "status": "active",
+    "endTime": "2026-12-25T23:59:59Z",
+    "funding": "$65M+",
+    "investors": "Polychain Capital, Tribe Capital, Hack VC, Placeholder, Maven 11",
+    "refLink": "https://eclipse.builders",
+    "overview": "Eclipse is an unprecedented modular Layer 2 architecture that combines the unmatched execution speed of the Solana Virtual Machine (SVM) with the supreme economic security of Ethereum and the cost-effective data availability of Celestia.\n\nBy executing transactions in parallel using SVM bytecode while settling state commitments back to Ethereum Layer 1, Eclipse achieves over 10,000 TPS with sub-cent transaction fees. Developers can deploy existing Rust/Solana programs directly to an Ethereum L2 without rewriting smart contracts, unlocking high-frequency trading, Web3 gaming, and high-performance consumer dApps.\n\nWith $65M in venture backing, Eclipse has initiated its public mainnet launch season, encouraging early users to bridge capital and interact with native SVM applications.",
+    "tokenomics": "The native Eclipse governance token coordinates sequencer decentralization, proof verification incentives, and network gas fee models. A dedicated community allocation is structured for active bridge users and ecosystem participants.",
+    "sybilSafety": "Eclipse filters automated bridge loops. Maintain real dApp interactions: perform swaps on native DEXs, participate in perpetual contracts, and hold active wallet balances across several weeks.",
+    "strategy": "Bridge native ETH through the official canonical bridge, swap tokens on Orca-style invariant pools on Eclipse, and interact with inaugural NFT and DeFi protocols deployed in the mainnet launch wave.",
+    "steps": [
+      "Open the <a href=\"https://eclipse.builders\" target=\"_blank\" rel=\"noopener noreferrer\">Eclipse Mainnet Bridge Portal</a>.",
+      "Connect both an EVM wallet (for source funds) and a Solana-compatible wallet (such as Backpack or Phantom).",
+      "Bridge ETH from Ethereum Layer 1 to the Eclipse network.",
+      "Explore featured mainnet ecosystem applications listed on the official portal.",
+      "Execute swaps on native DEXs and supply liquidity to earn volume scores.",
+      "Mint verified mainnet pioneer badges to seal early-adopter snapshot status."
+    ],
+    "faqs": [
+      {
+        "question": "How does Eclipse achieve Solana-level speeds on Ethereum?",
+        "answer": "Eclipse executes transactions using the Solana Virtual Machine (SVM) runtime, enabling parallel multi-threaded compute while using Celestia for scalable data storage and Ethereum for final settlement."
+      },
+      {
+        "question": "Which wallet should I use for Eclipse?",
+        "answer": "Eclipse supports SVM-compatible wallets including Backpack and Phantom configured for the Eclipse network RPC."
+      }
+    ]
+  },
+  {
+    "id": "tadle-protocol",
+    "name": "Tadle Protocol",
+    "logo": "/images/airdrops/tadle-protocol.svg",
+    "description": "Decentralized pre-market infrastructure allowing non-custodial trading of unreleased tokens and airdrop points.",
+    "reward": "$TADLE Airdrop & Points",
+    "category": "Pre-Market / Infrastructure",
+    "featured": true,
+    "status": "active",
+    "endTime": "2026-12-18T23:59:59Z",
+    "funding": "Seed Investment",
+    "investors": "Animoca Brands, Web3 Ventures, DWF Labs",
+    "refLink": "https://tadle.com",
+    "overview": "Tadle is a pioneer in decentralized pre-market infrastructure, creating a secure, trustless protocol for trading pre-TGE tokens, unreleased airdrop points, and OTC Web3 allocations. Before Tadle, secondary trading of unreleased points occurred in high-risk centralized OTC chatrooms plagued by counterparty default and scam escrows.\n\nTadle eliminates these risks through smart-contract-enforced collateral vaults. Both buyers and sellers deposit security collateral into decentralized escrow. When a project completes its TGE, sellers are automatically obligated to deliver the designated tokens or forfeit their collateral directly to the buyer.\n\nWith strategic backing from major Web3 funds, Tadle is running an active incentive campaign rewarding pre-market traders, points suppliers, and market makers.",
+    "tokenomics": "The $TADLE protocol token powers dispute resolution staking, fee distribution, and buyer collateral subsidization. Exactly 10% of the token supply is allocated for community rewards and trading leaderboard distributions.",
+    "sybilSafety": "Tadle utilizes collateralized transactions, making Sybil bot creation economically prohibitive. Ensure trades reflect realistic market valuations rather than micro-transactions designed solely to farm counts.",
+    "strategy": "Supply points collateral for prominent upcoming airdrops, take buyer positions on undervalued allocations, and stake platform fees to maximize your cumulative Tadle XP score.",
+    "steps": [
+      "Navigate to the <a href=\"https://tadle.com\" target=\"_blank\" rel=\"noopener noreferrer\">Tadle Protocol Platform</a>.",
+      "Connect your Web3 Wallet on Ethereum, Arbitrum, or Base.",
+      "Browse the Pre-Market directory to evaluate active airdrop point markets.",
+      "Lock collateral to list points for forward sale or purchase pre-market allocations.",
+      "Provide liquidity to the platform guarantee vaults to earn trading fee cuts.",
+      "Participate in community governance proposals to earn voting multiplier bonuses."
+    ],
+    "faqs": [
+      {
+        "question": "How are pre-market trades settled on Tadle?",
+        "answer": "Sellers deposit collateral into smart contracts. Upon TGE, sellers have a designated delivery window to deliver tokens. If they fail to deliver, their collateral is automatically awarded to the buyer."
+      },
+      {
+        "question": "What happens if a project cancels its airdrop?",
+        "answer": "In cases of canceled airdrops, smart contract rules dictate mutual collateral return according to predetermined market terms."
+      }
+    ]
+  },
+  {
+    "id": "valence-economic-alliance",
+    "name": "Valence",
+    "logo": "/images/airdrops/valence-economic-alliance.svg",
+    "description": "Interchain economic covenants protocol enabling sovereign blockchains to establish mutual defense and treasury alliances.",
+    "reward": "Interchain Security Points",
+    "category": "Interchain / Security",
+    "featured": true,
+    "status": "active",
+    "endTime": "2026-12-28T23:59:59Z",
+    "funding": "Cosmos & Ecosystem Grant",
+    "investors": "Timewave, Osmosis Foundation, Informal Systems",
+    "refLink": "https://valence.zone",
+    "overview": "Valence is an advanced interchain economic security protocol engineered to connect sovereign blockchains through cryptographically enforceable mutual defense agreements, shared treasury covenants, and automated liquidity alliances.\n\nIn standard interchain setups, isolated app-chains must bootstrap their own validator security from scratch, leaving smaller networks vulnerable to economic attacks. Valence introduces programmatic covenants that allow networks to swap validator staking tokens, share security guarantees, and orchestrate automated cross-chain treasury operations without centralized coordination.\n\nBuilt in partnership with Timewave and core Cosmos contributors, Valence is conducting an incentivized public testnet and policy authoring campaign ahead of broad ecosystem rollout.",
+    "tokenomics": "Valence tokens govern protocol covenant templates, dispute arbitration procedures, and cross-chain relaying rewards. Early participants in governance simulations and covenant deployments receive direct token rewards.",
+    "sybilSafety": "Participation requires active on-chain policy configuration and governance voting across connected testnet chains, filtering low-effort automated Sybil farms.",
+    "strategy": "Simulate a cross-chain covenant deployment on testnet, participate in active governance votes on covenant parameter changes, and delegate validator shares to supported economic alliance nodes.",
+    "steps": [
+      "Visit the <a href=\"https://valence.zone\" target=\"_blank\" rel=\"noopener noreferrer\">Valence Interchain Console</a>.",
+      "Connect your Keplr or Leap wallet and add the Valence testnet chain.",
+      "Claim testnet tokens from the automated developer faucet.",
+      "Review the Covenant Library and launch a test mutual liquidity agreement between two testnet chains.",
+      "Vote on active community covenant proposals in the governance dashboard.",
+      "Complete the interchain economic policy quiz to log verified contributor status."
+    ],
+    "faqs": [
+      {
+        "question": "What is an Interchain Covenant?",
+        "answer": "An interchain covenant is a deterministic cross-chain smart agreement that autonomously manages token balances, validator shares, and liquidity across multiple independent blockchains."
+      },
+      {
+        "question": "Do I need technical skills to participate?",
+        "answer": "No. The Valence web console provides intuitive visual templates for configuring and testing economic alliances without writing code."
+      }
+    ]
+  },
+  {
+    "id": "initia-omnitia",
+    "name": "Initia Omnitia",
+    "logo": "/images/airdrops/initia-omnitia.svg",
+    "description": "Network for interwoven rollups combining Move and EVM execution with unified native liquidity and Jennie rewards.",
+    "reward": "Jennies & $INIT Airdrop",
+    "category": "Layer 1 / Interwoven Rollups",
+    "featured": true,
+    "status": "active",
+    "endTime": "2026-12-14T23:59:59Z",
+    "funding": "$25M+",
+    "investors": "Theory Ventures, Delphi Digital, Hack VC, Nascent",
+    "refLink": "https://initia.xyz",
+    "overview": "Initia is architecting the 'Network for Interwoven Rollups'—a unified Layer 1 infrastructure layer engineered to orchestrate thousands of customizable application-specific rollups (Minitias). While traditional modular setups force users to deal with fragmented bridges, mismatched gas tokens, and disconnected liquidity, Initia unifies the entire ecosystem under a single interwoven architecture.\n\nSupporting both EVM and MoveVM execution, Initia incorporates a native decentralized exchange directly into Layer 1, enabling seamless cross-Minitia swaps and instant asset routing without third-party bridges.\n\nHaving raised over $25M from Theory Ventures, Delphi Digital, and Hack VC, Initia's public incentivized testnet 'The Initiation' allows users to complete weekly quests, collect and evolve their virtual Jennie companions, and secure allocations of the upcoming $INIT token.",
+    "tokenomics": "The $INIT token is the foundational reserve and governance asset of the Initia ecosystem. It is utilized for native validator staking, cross-Minitia security guarantees, and decentralized exchange routing fees. Substantial airdrop allocations are formally dedicated to active testnet participants.",
+    "sybilSafety": "Initia filters automated farming through Jennie pet maintenance and quest progression. Wallets that fail to regularly feed their Jennie or complete verified dApp quests are phased out of top tier reward distributions.",
+    "strategy": "Mint your Jennie NFT on the official Initia portal, claim weekly faucet tokens, and complete interactive quests across Minitias (such as Tucana, Blackwing, and Lunch). Feed your Jennie consistently to maximize your evolution level before snapshot.",
+    "steps": [
+      "Access <a href=\"https://initia.xyz\" target=\"_blank\" rel=\"noopener noreferrer\">Initia Portal</a> and create an Initia Wallet or connect Rabby.",
+      "Claim testnet $INIT gas tokens from the integrated faucet.",
+      "Mint your companion Jennie NFT pet to initiate your quest tracker.",
+      "Complete featured weekly Minitia quests involving swaps, staking, and gaming interactions.",
+      "Buy food and accessories from the in-game store to feed and level up your Jennie.",
+      "Participate in the native L1 DEX liquidity pools to maximize your DeFi ranking score."
+    ],
+    "faqs": [
+      {
+        "question": "What are Minitias?",
+        "answer": "Minitias are modular application-specific rollups built on top of Initia, capable of running EVM, Move, or Wasm execution environments with native interoperability."
+      },
+      {
+        "question": "Why is Jennie level important?",
+        "answer": "Your Jennie's level and happiness directly correlate to your final airdrop points multiplier and tiered $INIT allocation at mainnet launch."
+      }
+    ]
+  },
+  {
+    "id": "openvm-modular-zkvm",
+    "name": "OpenVM",
+    "logo": "/images/airdrops/openvm-modular-zkvm.svg",
+    "description": "High-performance, modular, and customizable zero-knowledge virtual machine built in Rust for scalable verifiable compute.",
+    "reward": "Verifiable Compute Points",
+    "category": "Zero-Knowledge / Infrastructure",
+    "featured": true,
+    "status": "active",
+    "endTime": "2026-12-22T23:59:59Z",
+    "funding": "Axiom & Paradigm Backed",
+    "investors": "Axiom, Paradigm Research Partners, Robot Ventures",
+    "refLink": "https://openvm.dev",
+    "overview": "OpenVM is an open-source, highly modular, hardware-accelerated Zero-Knowledge Virtual Machine (zkVM) designed to execute arbitrary Rust code with verifiable cryptographic proofs. While earlier zkVMs were monolithic and rigid, OpenVM introduces a flexible plugin architecture that lets developers add custom cryptographic instructions, extensions, and specialized coprocessors without redesigning the core proving system.\n\nOpenVM leverages state-of-the-art STARK proving systems with FRI commitments, achieving proof generation speeds several times faster than traditional zero-knowledge compute runtimes. The project is backed by prominent researchers and leading venture incubators.\n\nThe OpenVM testnet and proving benchmark network is actively running, allowing developers and node contributors to earn verifiable compute points.",
+    "tokenomics": "The OpenVM protocol token decentralizes the prover marketplace, where applications request verifiable compute and independent hardware provers compete to generate proofs. A confirmed percentage of tokens is reserved for early open-source contributors and prover benchmarks.",
+    "sybilSafety": "Points require cryptographic proof submission and verifiable benchmark outputs, preventing automated Sybil script manipulation.",
+    "strategy": "Install the OpenVM CLI, compile sample Rust programs into verifiable zkVM guest code, and submit execution proofs to the public testnet leaderboard.",
+    "steps": [
+      "Visit the <a href=\"https://openvm.dev\" target=\"_blank\" rel=\"noopener noreferrer\">OpenVM Developer Hub</a>.",
+      "Connect your GitHub and Web3 Wallet to initialize developer telemetry.",
+      "Install the OpenVM toolchain via Cargo/Rust on your local development machine.",
+      "Compile a sample mathematical computation into an OpenVM verifiable proof.",
+      "Submit your generated proof to the public verification network.",
+      "Monitor your prover performance score on the global community dashboard."
+    ],
+    "faqs": [
+      {
+        "question": "What is OpenVM's primary innovation?",
+        "answer": "Its modularity: developers can plug in custom algebraic extensions, making zero-knowledge proving up to 10x faster for specific cryptographic algorithms."
+      },
+      {
+        "question": "Do I need a GPU to participate?",
+        "answer": "Basic CLI testing can run on standard multi-core CPUs, while high-throughput proving nodes benefit from CUDA/GPU acceleration."
+      }
+    ]
+  },
+  {
+    "id": "corn-kernels",
+    "name": "Corn Kernels",
+    "logo": "/images/airdrops/corn-kernels.svg",
+    "description": "Ethereum Layer 2 leveraging Bitcoin ($BTCN) as native gas token with high-yield Corn Silos and Kernels points.",
+    "reward": "Kernels Season 2 Rewards",
+    "category": "Bitcoin Layer 2 / Yield",
+    "featured": true,
+    "status": "active",
+    "endTime": "2026-12-16T23:59:59Z",
+    "funding": "$6.7M+",
+    "investors": "Polychain Capital, Sandeep Nailwal, Primitive Ventures, Relayer Capital",
+    "refLink": "https://usecorn.com",
+    "overview": "Corn is an Ethereum Layer 2 network built using Arbitrum Orbit stack that fundamentally transforms Bitcoin utility by establishing a hybrid tokenized Bitcoin ($BTCN) as its native gas currency. Instead of paying gas in ETH, users on Corn utilize Bitcoin to power decentralized applications, bridging the world's most valuable cryptocurrency into high-velocity Layer 2 DeFi.\n\nBacked by $6.7M from Polychain Capital and Polygon co-founder Sandeep Nailwal, Corn features a native yield architecture called 'Silos' that automatically routes network revenue and yield to ecosystem depositors.\n\nThe Corn Kernels Season 2 program is live, rewarding liquidity providers with Kernels points that will determine future airdrop distribution tiers.",
+    "tokenomics": "The $CORN ecosystem token directs yield routing, sequencer gas rebates, and governance over supported Silo vaults. A substantial portion of the community treasury is reserved for Kernels point holders.",
+    "sybilSafety": "Corn tracks capital commitment duration and active dApp engagement. Quick deposit-and-withdraw cycles are penalized with point decay. Maintain sustained deposits in Corn Silos.",
+    "strategy": "Bridge WBTC, tBTC, or approved stablecoins into Corn, deposit funds into designated high-multiplier Corn Silos, and interact with native AMM pairs to harvest compounding Kernels points.",
+    "steps": [
+      "Access the official <a href=\"https://usecorn.com\" target=\"_blank\" rel=\"noopener noreferrer\">Corn Portal</a>.",
+      "Connect your Web3 Wallet (Rabby, Rainbow, or Core).",
+      "Bridge eligible assets (WBTC, ETH, or USDC) to the Corn network.",
+      "Deposit your bridged assets into featured Corn Silo vaults to begin accumulating Kernels.",
+      "Swap tokens on native Corn DEXs to generate on-chain activity transactions.",
+      "Check your Kernels leaderboard standing and unlock streak milestones."
+    ],
+    "faqs": [
+      {
+        "question": "What is $BTCN?",
+        "answer": "$BTCN is Corn's native gas token, backed 1:1 by Bitcoin collateral and used to pay all transaction fees on the Corn Layer 2 network."
+      },
+      {
+        "question": "How do Kernels translate to airdrops?",
+        "answer": "Kernels represent your accumulated loyalty score, which will convert directly into $CORN token allocations at the Season 2 conclusion."
+      }
+    ]
+  },
+  {
     "id": "push-chain",
     "name": "Push Chain",
     "logo": "/images/airdrops/push-chain.svg",

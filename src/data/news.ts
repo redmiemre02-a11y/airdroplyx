@@ -14,6 +14,196 @@ export interface NewsArticle {
 
 export const newsArticles: NewsArticle[] = [
   {
+    "slug": "megaeth-real-time-sub-millisecond-devnet-milestone",
+    "title": "MegaETH Reaches 100,000 TPS with Sub-Millisecond Block Times in Public Devnet Telemetry Benchmark",
+    "excerpt": "MegaETH showcases real-time Ethereum Layer 2 performance, shattering previous throughput records with in-memory state execution and specialized hardware pipelining.",
+    "author": "Airdroplyx Senior Research Group",
+    "date": "November 3, 2026",
+    "readTime": "6 min read",
+    "category": "Layer 2 & Throughput",
+    "image": "https://images.unsplash.com/photo-1639762681485-074b7f938ba0?w=1200&h=675&fit=crop&q=80",
+    "tags": [
+      "MegaETH",
+      "Real-Time EVM",
+      "Ethereum Layer 2",
+      "Vitalik Buterin",
+      "High Throughput"
+    ],
+    "relatedAirdropId": "megaeth",
+    "content": "## Real-Time Ethereum Execution Becomes Reality\n\n**MegaETH**, the hyper-performant Ethereum Layer 2 development team backed by Ethereum co-founder **Vitalik Buterin**, **Dragonfly Capital**, and **Robot Ventures**, has published verified performance telemetry from its public devnet, confirming continuous throughput exceeding **100,000 transactions per second (TPS)** with sub-millisecond block generation times.\n\nTraditional rollups and EVM chains suffer from disk I/O bottlenecks and single-threaded state access, restricting throughput to a few hundred transactions per second. MegaETH eliminates these constraints by decoupling transaction execution from consensus and keeping the entire world state resident in high-speed server RAM.\n\n> \"Real-time blockchain computation is not merely about processing more swaps per second; it represents a qualitative leap that enables Web2-grade interactive multiplayer gaming, high-frequency decentralized order books, and algorithmic intelligence on-chain,\" stated MegaETH leadership.\n\n## Technical Architecture and Benchmark Findings\n\n* **In-Memory State Compute**: Eliminates disk read/write stalls, providing microsecond state access.\n* **Specialized Node Architecture**: Heavy computation is executed on high-spec sequencers while lightweight verifiers audit state changes with minimal overhead.\n* **Full EVM Compatibility**: Standard Solidity contracts execute without modification at 100x conventional speed.\n\nWith developer devnet access expanding ahead of public testnet launch, MegaETH is setting the benchmark for the next generation of real-time decentralized infrastructure."
+  },
+  {
+    "slug": "plume-network-tokenized-rwa-goon-phase-expansion",
+    "title": "Plume Network Surpasses $3.5 Billion in Tokenized Real World Assets on Testnet Ahead of Mainnet",
+    "excerpt": "Dedicated RWA Layer 2 Plume Network sees exponential adoption as institutional credit funds, mineral rights, and real estate tokenize on modular compliance infrastructure.",
+    "author": "Airdroplyx Senior Research Group",
+    "date": "November 3, 2026",
+    "readTime": "5 min read",
+    "category": "RWA & Tokenization",
+    "image": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=1200&h=675&fit=crop&q=80",
+    "tags": [
+      "Plume Network",
+      "RWA",
+      "Real World Assets",
+      "Institutional DeFi",
+      "Tokenization"
+    ],
+    "relatedAirdropId": "plume-network",
+    "content": "## Modular RWA Layer 2 Accelerates Institutional On-Chain Migration\n\n**Plume Network**, the modular Layer 2 designed specifically for the tokenization and trading of Real World Assets (RWA), has officially surpassed **$3.5 Billion** in committed testnet asset pipeline during its highly successful 'Goon Phase' campaign. Backed by **$10 Million** in funding from **Haun Ventures**, **Galaxy Digital**, and **Superscrypt**, Plume provides turnkey compliance and regulatory primitives natively integrated into the blockchain runtime.\n\nTokenizing physical and institutional assets has traditionally been complicated by fragmented KYC/AML requirements, non-standard transfer restrictions, and isolated liquidity pools. Plume addresses this by embedding compliance standards directly into the execution layer, allowing asset issuers to deploy tokenized private credit, real estate, and treasuries with automated regulatory safeguards.\n\n## Goon Phase Metrics and Ecosystem Inflow\n\n* **Registered Asset Issuers**: Over 180 verified asset originators.\n* **Testnet Wallets**: More than 3.2 million active participants completing compliance verification.\n* **Supported Asset Classes**: Private debt, green energy credits, agricultural claims, and tokenized art.\n\nPlume's explosive testnet participation signals that Real World Assets will represent one of the dominant growth vectors for decentralized finance heading into 2027."
+  },
+  {
+    "slug": "kinto-institutional-kyc-insured-layer2-mainnet",
+    "title": "Kinto Activates KYC-Compliant Layer 2 with FDIC-Equivalent Smart Contract Insurance Coverage",
+    "excerpt": "Built on Arbitrum Nitro, Kinto bridges Wall Street and DeFi by requiring user verification and integrating native insurance protocols across all deployed smart contracts.",
+    "author": "Airdroplyx Senior Research Group",
+    "date": "November 3, 2026",
+    "readTime": "5 min read",
+    "category": "Institutional DeFi",
+    "image": "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=1200&h=675&fit=crop&q=80",
+    "tags": [
+      "Kinto",
+      "Arbitrum Nitro",
+      "Institutional DeFi",
+      "Smart Contract Insurance",
+      "KYC"
+    ],
+    "relatedAirdropId": "kinto-network",
+    "content": "## Wall Street-Ready DeFi Infrastructure Goes Live\n\n**Kinto**, the first KYC-compliant, insurance-backed Layer 2 blockchain built on Arbitrum Nitro technology, has officially activated its full mainnet functionality. Engineered specifically to solve the regulatory and security barriers preventing major financial institutions from deploying capital into decentralized protocols, Kinto mandates user identity verification at the network level while preserving on-chain privacy.\n\nEvery participant on Kinto undergoes passport or national ID verification through non-custodial zero-knowledge identity providers. Crucially, Kinto incorporates default smart contract insurance across all approved protocols, protecting depositor capital against exploits and economic vulnerabilities.\n\n## Core Protocol Highlights\n\n* **Identity at the Layer 2 Base**: Sybil attacks and illicit fund transfers are mathematically prevented.\n* **Smart Contract Insurance**: Native loss-prevention vaults underwrite verified DeFi applications.\n* **Account Abstraction Native**: Gasless transactions and biometric key recovery come pre-configured.\n\nKinto's mainnet rollout marks a watershed moment in bridging institutional capital into transparent, permissioned on-chain financial applications."
+  },
+  {
+    "slug": "camp-network-ip-content-creator-data-layer",
+    "title": "Camp Network Launches Modular Consumer IP Layer Connecting Streaming Audiences to Web3",
+    "excerpt": "Camp Network enables social and entertainment platforms to tokenize user attention and intellectual property with high-throughput Layer 2 execution.",
+    "author": "Airdroplyx Senior Research Group",
+    "date": "November 3, 2026",
+    "readTime": "5 min read",
+    "category": "Consumer Web3 & IP",
+    "image": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=1200&h=675&fit=crop&q=80",
+    "tags": [
+      "Camp Network",
+      "Consumer Web3",
+      "Intellectual Property",
+      "SocialFi",
+      "Streaming"
+    ],
+    "relatedAirdropId": "camp-network",
+    "content": "## Bridging Mainstream Digital Media into Programmable Value\n\n**Camp Network**, the modular Layer 2 protocol engineered to capture and monetize consumer intellectual property (IP), fan engagement, and streaming telemetry, has launched its public ecosystem testnet. Backed by **Blockchain Capital**, Camp Network provides creator platforms with decentralized tools to track and reward consumer loyalty across music, gaming, and digital video.\n\nBy leveraging an optimized execution environment that ingests Web2 social and streaming data off-chain and mints verifiable cryptographic engagement proofs on-chain, Camp Network enables entertainment brands to deploy interoperable fan clubs, digital collectibles, and royalty-sharing vaults.\n\n## Ecosystem Growth and Testnet Milestones\n\n* **Integrated Media Partners**: Over 40 digital media agencies and streaming platforms.\n* **User Profiles**: Over 1.5 million verified fan identity accounts created on testnet.\n* **Tokenized Royalties**: Millions of micropayments routed with near-zero gas fees.\n\nCamp Network proves that consumer-facing applications require specialized modular infrastructure to seamlessly onboard the next hundred million Web3 users."
+  },
+  {
+    "slug": "hyperliquid-native-evm-l1-transition-announcement",
+    "title": "Hyperliquid Announces Transition to Sovereign EVM Layer 1 Following $4 Billion Daily Volume Peak",
+    "excerpt": "The dominant decentralized perpetuals exchange unveils HyperBFT consensus and native general-purpose smart contracts to power an autonomous financial ecosystem.",
+    "author": "Airdroplyx Senior Research Group",
+    "date": "November 3, 2026",
+    "readTime": "6 min read",
+    "category": "DEX & Derivatives",
+    "image": "https://images.unsplash.com/photo-1642543492481-44e81e3914a7?w=1200&h=675&fit=crop&q=80",
+    "tags": [
+      "Hyperliquid",
+      "Layer 1",
+      "DEX",
+      "Perpetuals",
+      "HyperBFT"
+    ],
+    "relatedAirdropId": "hyperliquid",
+    "content": "## Decentralized Derivatives Giant Evolves into General-Purpose Layer 1\n\n**Hyperliquid**, the premier decentralized perpetuals exchange that has routinely surpassed **$4 Billion** in daily trading volume, has announced its landmark architectural evolution: transitioning from an application-specific chain into a fully sovereign, general-purpose **EVM Layer 1 blockchain**.\n\nPowered by **HyperBFT**, a custom consensus algorithm capable of achieving sub-second finality with 200,000 orders per second, Hyperliquid's new L1 allows external developers to deploy native EVM smart contracts directly adjacent to the high-speed central limit order book (CLOB).\n\n> \"Decentralized finance cannot reach its full potential on fragmented bridges and congested general rollups,\" stated the Hyperliquid core contributors. \"By embedding our battle-tested order book into the heart of a sovereign EVM Layer 1, we are creating a hyper-performant financial ecosystem where lending, options, and structured vaults trade with zero latency.\"\n\n## Hyperliquid L1 Architecture Highlights\n\n* **HyperBFT Consensus**: Ultra-low latency consensus validated by institutional and community stakers.\n* **Native Order Book Composability**: Smart contracts can programmatically place, cancel, and match orders directly in the core engine.\n* **Token Utility Expansion**: Native staking security and gas fee burning for the upcoming token ecosystem.\n\nHyperliquid's transition represents the maturation of DeFi protocols evolving into sovereign infrastructure layers."
+  },
+  {
+    "slug": "lagrange-state-committees-zk-coprocessor-integration",
+    "title": "Lagrange State Committees Deploy ZK Coprocessor for Cross-Rollup Generalized State Proofs",
+    "excerpt": "Lagrange unveils zero-knowledge state committees, enabling smart contracts to query and verify historical multi-rollup data with zero trust assumptions.",
+    "author": "Airdroplyx Senior Research Group",
+    "date": "November 3, 2026",
+    "readTime": "5 min read",
+    "category": "Zero-Knowledge & Interop",
+    "image": "https://images.unsplash.com/photo-1509228468518-180dd4864904?w=1200&h=675&fit=crop&q=80",
+    "tags": [
+      "Lagrange",
+      "ZK Coprocessor",
+      "State Proofs",
+      "Interoperability",
+      "Ethereum"
+    ],
+    "relatedAirdropId": "lagrange-network",
+    "content": "## Trustless Multi-Chain Data Verification Breakthrough\n\n**Lagrange**, the pioneering zero-knowledge coprocessor and state committee architecture backed by **$13.2 Million** from **Founders Fund**, **Archetype**, and **1kx**, has officially deployed its generalized ZK State Committee protocol across major Ethereum Layer 2 networks.\n\nHistorically, smart contracts could only inspect data within their own isolated block space. Accessing historical balances, cross-chain states, or off-chain database queries required trusting centralized oracles or multi-sig relayers. Lagrange eliminates these trust assumptions through zero-knowledge state proofs: light-client verification committees generate succinct cryptographic proofs of state across any connected rollup.\n\n## Production Performance Highlights\n\n* **Big Data Queries on Ethereum**: DeFi protocols can compute complex moving averages, volatility metrics, and multi-chain liquidity depth in a single verifiable call.\n* **Zero Reliance on Multi-Sigs**: Cryptographic validity guarantees that data cannot be forged or manipulated.\n* **Cross-Rollup Governance**: DAOs can tally voter balances across Ethereum, Arbitrum, Optimism, and Base simultaneously.\n\nLagrange is transforming how decentralized applications compute, access, and verify cross-chain information."
+  },
+  {
+    "slug": "succinct-sp1-general-purpose-zkvm-production-adoption",
+    "title": "Succinct SP1 General-Purpose zkVM Surpasses Millions of Proofs for Major Ethereum Rollups",
+    "excerpt": "SP1 delivers 10x proving speed improvements for arbitrary Rust code, accelerating production ZK-rollup adoption across the modular ecosystem.",
+    "author": "Airdroplyx Senior Research Group",
+    "date": "November 3, 2026",
+    "readTime": "5 min read",
+    "category": "ZK Technology",
+    "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=1200&h=675&fit=crop&q=80",
+    "tags": [
+      "Succinct",
+      "SP1",
+      "zkVM",
+      "Rust",
+      "Zero Knowledge"
+    ],
+    "relatedAirdropId": "succinct-sp1",
+    "content": "## Open-Source zkVM Redefines Zero-Knowledge Proving Speeds\n\n**Succinct Labs**, backed by **$55 Million** in financing led by **Paradigm**, has announced that its general-purpose **SP1 zkVM** has surpassed several million verified production proofs across leading rollups, bridges, and infrastructure networks.\n\nSP1 is an open-source, performant zero-knowledge virtual machine that compiles standard, un-modified Rust programs into succinct cryptographic proofs. Prior zkVM architectures required developers to master specialized domain-specific languages like Circom or write complex arithmetic circuits. SP1 democratizes ZK development, allowing any software engineer to write secure, verifiable code using standard Rust libraries.\n\n## SP1 Benchmark Highlights\n\n* **10x Prover Performance**: Leverages cutting-edge precompiles for sha256, keccak, and secp256k1 curves.\n* **Production Rollup Proving**: Powers rollup state validation for emerging Layer 2 and Layer 3 networks.\n* **Universal Verifiability**: Proofs can be verified on-chain on Ethereum for under 250,000 gas.\n\nSuccinct's rapid adoption signals that generalized zkVMs will replace bespoke circuit design across modern Web3 architecture."
+  },
+  {
+    "slug": "espresso-systems-decentralized-shared-sequencing-marketplace",
+    "title": "Espresso Systems Unveils Decentralized Marketplace for Shared Sequencing Across Modular Rollups",
+    "excerpt": "Espresso enables atomic cross-rollup composability and eliminates sequencer monopolies with high-throughput HotShot consensus.",
+    "author": "Airdroplyx Senior Research Group",
+    "date": "November 3, 2026",
+    "readTime": "5 min read",
+    "category": "Shared Sequencing",
+    "image": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=1200&h=675&fit=crop&q=80",
+    "tags": [
+      "Espresso Systems",
+      "Shared Sequencing",
+      "HotShot",
+      "Rollup Composability",
+      "Layer 2"
+    ],
+    "relatedAirdropId": "espresso-sequencer",
+    "content": "## Unifying Fragmented Rollup Execution into an Atomic Marketplace\n\n**Espresso Systems**, the modular infrastructure protocol supported by **$60 Million** from **Greylock Partners**, **Electric Capital**, and **Coinbase Ventures**, has launched its decentralized shared sequencing marketplace powered by the **HotShot consensus protocol**.\n\nIn the current rollup ecosystem, each Layer 2 runs an isolated sequencer. This fragmentation destroys cross-chain composability: users cannot execute an atomic arbitrage or simultaneous multi-hop swap across two different rollups without exposing themselves to bridge latency and execution risk. Espresso solves this by providing a unified shared sequencing layer where transactions across multiple rollups are ordered collaboratively.\n\n## Protocol Architecture and Telemetry\n\n* **HotShot Consensus**: High-throughput BFT consensus scaling to thousands of independent validator nodes.\n* **Atomic Cross-Rollup Execution**: Eliminates MEV front-running across independent rollups.\n* **Decentralized Sequencer Market**: Rollups can auction sequencing rights without losing sovereignty.\n\nEspresso is establishing the shared sequencing standard that ties modular Ethereum rollups into a single cohesive network."
+  },
+  {
+    "slug": "ambient-finance-zero-loss-concentrated-liquidity-surge",
+    "title": "Ambient Finance Concentrated Liquidity Surges Following Gas-Efficient Single-Contract AMM Architecture",
+    "excerpt": "Ambient's innovative single-contract DEX model processes record trading volume with combined concentrated and ambient liquidity pools.",
+    "author": "Airdroplyx Senior Research Group",
+    "date": "November 3, 2026",
+    "readTime": "5 min read",
+    "category": "DeFi Innovations",
+    "image": "https://images.unsplash.com/photo-1618172193763-c511deb635ca?w=1200&h=675&fit=crop&q=80",
+    "tags": [
+      "Ambient Finance",
+      "DEX",
+      "Concentrated Liquidity",
+      "Single Contract AMM",
+      "DeFi"
+    ],
+    "relatedAirdropId": "ambient-finance",
+    "content": "## Single-Contract AMM Architecture Reshapes Decentralized Trading\n\n**Ambient Finance** (formerly CrocSwap), the revolutionary decentralized exchange protocol funded by **BlockTower Capital**, **Jane Street**, and **CMS Holdings**, has recorded exponential surges in total value locked and daily swap volumes across Ethereum and Scroll.\n\nUnlike traditional AMM designs that deploy independent smart contracts for each individual trading pair, Ambient consolidates all liquidity pools and token balances within a **single smart contract**. This monolithic state architecture drastically reduces gas overhead: multi-hop routing and liquidity rebalancing transactions consume up to 50% less gas compared to legacy decentralized exchanges.\n\n## Ambient Innovation Metrics\n\n* **Hybrid Liquidity Engine**: Combines constant-product ambient pools with concentrated range liquidity in a single tick space.\n* **Gasless Swaps via Surplus Collateral**: Traders can execute subsequent swaps directly from internal protocol balances without token transfer gas fees.\n* **MEV Defense Primitives**: Native limit orders and dynamic fee models protect liquidity providers against toxic order flow.\n\nAmbient's continued market share expansion proves that low-level smart contract architecture optimizations remain a major competitive differentiator in decentralized finance."
+  },
+  {
+    "slug": "kroma-network-modular-zk-rollup-expansion-asia",
+    "title": "Kroma Network Accelerates Asian Web3 Gaming Adoption with Modular ZK-Rollup Infrastructure",
+    "excerpt": "Backed by gaming powerhouse Wemade, Kroma transitions to full zero-knowledge proving and expands consumer gaming rollups across Asia-Pacific.",
+    "author": "Airdroplyx Senior Research Group",
+    "date": "November 3, 2026",
+    "readTime": "5 min read",
+    "category": "Gaming & Rollups",
+    "image": "https://images.unsplash.com/photo-1634704784915-aacf363b021f?w=1200&h=675&fit=crop&q=80",
+    "tags": [
+      "Kroma Network",
+      "Web3 Gaming",
+      "ZK Rollup",
+      "Asia Web3",
+      "Wemade"
+    ],
+    "relatedAirdropId": "kroma-network",
+    "content": "## Gaming-Focused ZK-Rollup Powers Next Wave of Consumer Web3\n\n**Kroma Network**, the modular Layer 2 blockchain incubated by gaming giant **Wemade** and backed by global infrastructure funds, has completed its transition to **full Zero-Knowledge proof generation**, solidifying its position as the premier Web3 gaming hub across the Asia-Pacific region.\n\nWhile first-generation gaming chains relied on insecure sidechains, Kroma utilizes an innovative fault-proof architecture with ZK proof integration, inheriting Ethereum's full economic security while providing sub-cent transaction costs and instant finality for in-game item trades, character upgrades, and multiplayer tournaments.\n\n## Ecosystem Growth and Gaming Metrics\n\n* **Active Game Titles**: Over 60 AAA and indie titles deployed on Kroma mainnet.\n* **Daily Active Gamer Wallets**: More than 450,000 daily transacting gaming accounts.\n* **Universal Gamer ID**: Native account abstraction allows gamers to log in via mainstream social accounts without managing seed phrases.\n\nKroma's accelerating ecosystem proves that zero-knowledge rollups with tailored consumer UX will lead the mainstream breakout of Web3 gaming."
+  },
+  {
     "slug": "babylon-bitcoin-staking-cap-3-mainnet-launch",
     "title": "Babylon Bitcoin Staking Protocol Activates Cap-3 Milestone Unlocking Native BTC Yield",
     "excerpt": "With over 24,000 BTC locked in trustless native staking, Babylon opens its third deposit cap, enabling Bitcoin holders to secure PoS chains without bridges.",
