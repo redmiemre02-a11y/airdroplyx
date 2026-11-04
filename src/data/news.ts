@@ -14,6 +14,86 @@ export interface NewsArticle {
 
 export const newsArticles: NewsArticle[] = [
   {
+    "slug": "risc-zero-boundless-proof-marketplace-bonsai-launch",
+    "title": "RISC Zero Deploys Boundless Proof Marketplace on Bonsai Decentralized Prover Network",
+    "excerpt": "Backed by $40M from Blockchain Capital and Bain Capital Crypto, RISC Zero enables on-demand zero-knowledge proof generation for standard Rust applications.",
+    "author": "Airdroplyx Senior Research Group",
+    "date": "November 4, 2026",
+    "readTime": "6 min read",
+    "category": "ZK Infrastructure & Compute",
+    "image": "https://images.unsplash.com/photo-1639762681485-074b7f938ba0?w=1200&h=675&fit=crop&q=80",
+    "tags": [
+      "RISC Zero",
+      "zkVM",
+      "Zero Knowledge",
+      "Blockchain Capital",
+      "Bonsai Network",
+      "Rust"
+    ],
+    "relatedAirdropId": "risc-zero",
+    "content": "## Standard Programming Meets Succinct Cryptography\n\n**RISC Zero**, the pioneer of general-purpose Zero-Knowledge Virtual Machines (zkVM), has officially launched the **Boundless Proof Marketplace** on its decentralized **Bonsai Prover Network**. Backed by **$40 Million** in Series A capital led by **Blockchain Capital**, with participation from **Bain Capital Crypto**, **Galaxy Digital**, and **Delphi Digital**, the deployment brings on-demand zero-knowledge computing to decentralized applications globally.\n\nFor years, building zero-knowledge applications required mastering specialized constraint systems like Circom or Noir. RISC Zero fundamentally altered this paradigm by building a zkVM around the open-standard RISC-V architecture. Any software developer can write standard, idiomatic **Rust** code and compile it directly into provable programs.\n\n## The Boundless Decentralized Marketplace\n\n* **On-Demand Proving**: Smart contracts post computational proof requests to the Boundless smart contract, which decentralized prover nodes bid on and satisfy within seconds.\n* **Massive Cost Reductions**: Hardware-accelerated GPU clusters generate recursive proofs that settle on Ethereum mainnet at sub-cent verification costs.\n* **Bonsai Prover Integration**: Developers interact with the network via unified REST and RPC APIs without having to deploy local GPU hardware clusters.\n\nWith hundreds of developer teams already utilizing RISC Zero for verifiable off-chain game engines, trustless bridges, and AI coprocessors, the Boundless launch represents a critical leap for scalable Web3 infrastructure."
+  },
+  {
+    "slug": "rome-protocol-solana-shared-sequencer-testnet",
+    "title": "Rome Protocol Launches Solana-Sequenced Rollup Testnet Enabling Atomic Cross-Rollup Composability",
+    "excerpt": "Backed by Hack VC and HashKey, Rome Protocol turns Solana into a decentralized shared sequencer for Ethereum Layer 2s, delivering sub-400ms transaction finality.",
+    "author": "Airdroplyx Senior Research Group",
+    "date": "November 4, 2026",
+    "readTime": "5 min read",
+    "category": "Modular Rollups & Sequencing",
+    "image": "https://images.unsplash.com/photo-1642543492481-44e81e3914a7?w=1200&h=675&fit=crop&q=80",
+    "tags": [
+      "Rome Protocol",
+      "Solana",
+      "Shared Sequencer",
+      "Ethereum Rollups",
+      "Hack VC",
+      "Modular"
+    ],
+    "relatedAirdropId": "rome-protocol",
+    "content": "## Unifying Ethereum Rollups with Solana-Grade Speed\n\n**Rome Protocol**, the modular infrastructure layer engineered to solve rollup fragmentation, has officially launched its **Public Shared Sequencer Testnet**. Backed by **$9 Million** in seed financing led by **Hack VC** and **HashKey Capital**, with contributions from **Portal Ventures** and **Bankless Ventures**, Rome utilizes the high-throughput **Solana** blockchain to provide decentralized sequencing for Ethereum Layer 2 and Layer 3 rollups.\n\nAs the number of Ethereum rollups proliferated, liquidity became isolated inside independent chains with centralized sequencers posing censorship risks. Rome eliminates this bottleneck by deploying smart contracts on Solana that order and batch EVM rollup transactions.\n\n## Core Advantages of Rome Sequencing\n\n* **Sub-400ms Slot Finality**: Rollups inherit Solana's lightning-fast block times, giving users near-instant transaction confirmations.\n* **Atomic Cross-Rollup Swaps**: Transactions across multiple independent rollups execute atomically within the same block, eliminating bridge delay risks.\n* **Decentralized MEV Redistribution**: Sequencer value is transparently auctioned and redistributed to users and liquidity providers.\n\nRome's novel bridging of Solana's raw throughput and Ethereum's economic security represents one of the most exciting developments in modular blockchain design."
+  },
+  {
+    "slug": "conduit-series-a-haun-ventures-rollup-infrastructure",
+    "title": "Conduit Expands Modular Rollup Infrastructure Following $37M Funding Round Led by Haun Ventures",
+    "excerpt": "Powering major chains like Degen Chain and Proof of Play, Paradigm-backed Conduit debuts self-service rollup customization across OP Stack and Arbitrum Orbit.",
+    "author": "Airdroplyx Senior Research Group",
+    "date": "November 4, 2026",
+    "readTime": "5 min read",
+    "category": "Rollup Infrastructure & Tooling",
+    "image": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=1200&h=675&fit=crop&q=80",
+    "tags": [
+      "Conduit",
+      "RaaS",
+      "Haun Ventures",
+      "Paradigm",
+      "OP Stack",
+      "Arbitrum Orbit"
+    ],
+    "relatedAirdropId": "conduit",
+    "content": "## Turnkey Rollups Power the Modular Era\n\n**Conduit**, the premier Rollup-as-a-Service (RaaS) platform responsible for deploying high-profile modular blockchains across Web3, has closed a landmark **$37 Million Series A** round led by **Haun Ventures**, with participation from **Paradigm**, bringing its cumulative capitalization to **$44 Million**.\n\nLaunching an independent Layer 2 or Layer 3 rollup traditionally required dedicated infrastructure engineering teams to orchestrate RPC nodes, validators, bridge contracts, block explorers, and data availability integrations. Conduit transforms this complex multi-month process into a self-service console where customized rollups deploy in minutes.\n\n## Platform Milestones and Ecosystem Scale\n\n* **High-Profile Production Chains**: Powers leading consumer and gaming rollups including Degen Chain, Proof of Play, Mode, and Aevo.\n* **Multi-Framework Flexibility**: Native support for Optimism's OP Stack, Arbitrum Orbit, Celestia, and EigenDA.\n* **Automated Scalability**: Enterprise infrastructure with zero-downtime upgrades and automatic state synchronization.\n\nWith new developer sandbox environments and deployment credit programs launching today, Conduit is setting the standard for institutional and indie rollup deployment."
+  },
+  {
+    "slug": "superposition-utility-mining-arbitrum-orbit-layer3",
+    "title": "Superposition Activates Utility Mining and Longcat AMM on Arbitrum Orbit Layer 3 Testnet",
+    "excerpt": "Built with Arbitrum Stylus, Superposition brings subsidized gas fees, high-speed Rust smart contracts, and native yield streaming to DeFi liquidity providers.",
+    "author": "Airdroplyx Senior Research Group",
+    "date": "November 4, 2026",
+    "readTime": "5 min read",
+    "category": "Layer 3 & DeFi",
+    "image": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=1200&h=675&fit=crop&q=80",
+    "tags": [
+      "Superposition",
+      "Arbitrum Orbit",
+      "Stylus",
+      "Layer 3",
+      "DeFi",
+      "Longcat AMM"
+    ],
+    "relatedAirdropId": "superposition",
+    "content": "## Rethinking Liquidity Incentives on Layer 3\n\n**Superposition**, the high-speed yield-centric Layer 3 network built on **Arbitrum Orbit**, has officially launched its public incentivized testnet featuring the native **Longcat AMM** and **Utility Mining** protocols. Backed by the **Arbitrum Foundation** and **Orange DAO**, Superposition leverages **Arbitrum Stylus** to execute smart contracts written in Rust and C++ with sub-cent gas fees.\n\nTraditional decentralized exchanges rely on inflationary token emissions to attract mercenary liquidity, which often leaves protocols as soon as rewards dwindle. Superposition introduces Utility Mining—an algorithmic reward mechanism where transaction gas fees are directly recycled back to liquidity providers as streamed yields.\n\n## Highlights of the Superposition Architecture\n\n* **Stylus-Powered Execution**: Up to 10x compute throughput compared to standard EVM rollups.\n* **Subsidized DeFi Swaps**: Core trading pairs benefit from subsidized gas fees funded by protocol treasury yield engines.\n* **Native Yield Streaming**: Liquidity positions continuously accrue compounding yields in real time.\n\nTraders and yield farmers can now bridge test assets from Arbitrum Sepolia and participate in the early testnet phase ahead of mainnet token generation."
+  },
+  {
     "slug": "sentient-ai-public-alignment-testnet-launch-85m",
     "title": "Sentient AI Deploys Public Model Alignment Testnet Following Landmark $85M Funding Round",
     "excerpt": "Backed by Peter Thiel's Founders Fund and Pantera Capital, Sandeep Nailwal's Sentient AI launches open-source AGI testing to challenge corporate AI monopolies.",
