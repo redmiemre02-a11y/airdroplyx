@@ -49,8 +49,55 @@ const endedAirdrops = airdrops.filter(a => a.status === 'ended');
   </div>
 
   <!-- Main Content Area -->
-  <main class="max-w-[1200px] mx-auto px-4 py-16">
+  <main class="max-w-[1200px] mx-auto px-4 py-12 md:py-16">
     
+    <!-- Quick Discovery Hub (Interactive Tools) -->
+    <section class="grid grid-cols-2 lg:grid-cols-4 gap-3.5 sm:gap-5 mb-14">
+      <a href="/strategy-matrix" class="p-5 rounded-2xl bg-white dark:bg-slate-800 border border-slate-200/80 dark:border-slate-700 shadow-sm hover:shadow-md hover:border-indigo-400 dark:hover:border-indigo-500 transition-all group flex flex-col justify-between">
+        <div>
+          <div class="w-10 h-10 rounded-xl bg-indigo-50 dark:bg-indigo-950/40 text-indigo-600 dark:text-indigo-400 font-black text-lg flex items-center justify-center mb-3 group-hover:scale-110 transition-transform">
+            🎯
+          </div>
+          <h3 class="font-extrabold text-sm sm:text-base text-slate-900 dark:text-white mb-1 group-hover:text-indigo-600 transition-colors">Strategy Matrix</h3>
+          <p class="text-xs text-slate-500 dark:text-slate-400 leading-relaxed">Allocate capital ($0, $50, $500+) and calculate optimal farming ROI.</p>
+        </div>
+        <span class="text-[11px] font-bold text-indigo-600 dark:text-indigo-400 mt-3 inline-flex items-center gap-1">Open Matrix →</span>
+      </a>
+
+      <a href="/faucets" class="p-5 rounded-2xl bg-white dark:bg-slate-800 border border-slate-200/80 dark:border-slate-700 shadow-sm hover:shadow-md hover:border-blue-400 dark:hover:border-blue-500 transition-all group flex flex-col justify-between">
+        <div>
+          <div class="w-10 h-10 rounded-xl bg-blue-50 dark:bg-blue-950/40 text-blue-600 dark:text-blue-400 font-black text-lg flex items-center justify-center mb-3 group-hover:scale-110 transition-transform">
+            🚰
+          </div>
+          <h3 class="font-extrabold text-sm sm:text-base text-slate-900 dark:text-white mb-1 group-hover:text-blue-600 transition-colors">Testnet Faucets</h3>
+          <p class="text-xs text-slate-500 dark:text-slate-400 leading-relaxed">Claim free gas tokens across Monad, Berachain, Story and 20+ chains.</p>
+        </div>
+        <span class="text-[11px] font-bold text-blue-600 dark:text-blue-400 mt-3 inline-flex items-center gap-1">Claim Faucets →</span>
+      </a>
+
+      <a href="/sybil-checker" class="p-5 rounded-2xl bg-white dark:bg-slate-800 border border-slate-200/80 dark:border-slate-700 shadow-sm hover:shadow-md hover:border-rose-400 dark:hover:border-rose-500 transition-all group flex flex-col justify-between">
+        <div>
+          <div class="w-10 h-10 rounded-xl bg-rose-50 dark:bg-rose-950/40 text-rose-600 dark:text-rose-400 font-black text-lg flex items-center justify-center mb-3 group-hover:scale-110 transition-transform">
+            🛡️
+          </div>
+          <h3 class="font-extrabold text-sm sm:text-base text-slate-900 dark:text-white mb-1 group-hover:text-rose-600 transition-colors">Sybil Risk Audit</h3>
+          <p class="text-xs text-slate-500 dark:text-slate-400 leading-relaxed">Check multi-wallet clustering, circular funding, and cluster defense.</p>
+        </div>
+        <span class="text-[11px] font-bold text-rose-600 dark:text-rose-400 mt-3 inline-flex items-center gap-1">Audit Wallet →</span>
+      </a>
+
+      <a href="/academy" class="p-5 rounded-2xl bg-white dark:bg-slate-800 border border-slate-200/80 dark:border-slate-700 shadow-sm hover:shadow-md hover:border-emerald-400 dark:hover:border-emerald-500 transition-all group flex flex-col justify-between">
+        <div>
+          <div class="w-10 h-10 rounded-xl bg-emerald-50 dark:bg-emerald-950/40 text-emerald-600 dark:text-emerald-400 font-black text-lg flex items-center justify-center mb-3 group-hover:scale-110 transition-transform">
+            🎓
+          </div>
+          <h3 class="font-extrabold text-sm sm:text-base text-slate-900 dark:text-white mb-1 group-hover:text-emerald-600 transition-colors">Airdrop Academy</h3>
+          <p class="text-xs text-slate-500 dark:text-slate-400 leading-relaxed">Master parallel EVM farming, ZK coprocessors, and wallet drainer defense.</p>
+        </div>
+        <span class="text-[11px] font-bold text-emerald-600 dark:text-emerald-400 mt-3 inline-flex items-center gap-1">Start Learning →</span>
+      </a>
+    </section>
+
     <!-- Top Featured Spotlight Section -->
     <section id="hottest" class="mb-16">
       <div class="flex items-center justify-between border-b border-slate-200 dark:border-slate-700 pb-4 mb-6">
@@ -128,6 +175,12 @@ const endedAirdrops = airdrops.filter(a => a.status === 'ended');
         </button>
         <button class="home-filter-pill px-3.5 py-1.5 rounded-xl text-xs font-bold transition-all bg-slate-100 dark:bg-slate-800 text-slate-600 dark:text-slate-300 hover:bg-slate-200 dark:hover:bg-slate-700" data-filter="free">
           🆓 Free Testnet ($0)
+        </button>
+        <button class="home-filter-pill px-3.5 py-1.5 rounded-xl text-xs font-bold transition-all bg-slate-100 dark:bg-slate-800 text-slate-600 dark:text-slate-300 hover:bg-slate-200 dark:hover:bg-slate-700" data-filter="parallel-evm">
+          ⚡ Parallel EVM
+        </button>
+        <button class="home-filter-pill px-3.5 py-1.5 rounded-xl text-xs font-bold transition-all bg-slate-100 dark:bg-slate-800 text-slate-600 dark:text-slate-300 hover:bg-slate-200 dark:hover:bg-slate-700" data-filter="zk-coprocessor">
+          🔐 ZK &amp; Coprocessor
         </button>
       </div>
 
@@ -386,6 +439,8 @@ const endedAirdrops = airdrops.filter(a => a.status === 'ended');
     if (activeFilter === 'bitcoin') return cat.includes('bitcoin') || desc.includes('bitcoin') || desc.includes('btc') || desc.includes('babylon');
     if (activeFilter === 'restaking') return cat.includes('restaking') || desc.includes('restaking') || desc.includes('eigenlayer') || desc.includes('symbiotic');
     if (activeFilter === 'free') return cat.includes('testnet') || desc.includes('testnet') || desc.includes('free') || desc.includes('zero capital');
+    if (activeFilter === 'parallel-evm') return cat.includes('parallel') || desc.includes('parallel') || desc.includes('monad') || desc.includes('megaeth') || desc.includes('clob') || desc.includes('kuru');
+    if (activeFilter === 'zk-coprocessor') return cat.includes('zk') || desc.includes('zk') || desc.includes('zero-knowledge') || desc.includes('coprocessor') || desc.includes('prover') || desc.includes('succinct');
 
     return true;
   }

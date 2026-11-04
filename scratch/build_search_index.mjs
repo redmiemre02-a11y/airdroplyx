@@ -76,6 +76,7 @@ const pages = [
   { type: 'page', id: 'home', title: `Home (All ${airdrops.length} Airdrops)`, subtitle: 'Full Database & Search', icon: '⚡', url: '/', badge: 'Explorer' },
   { type: 'page', id: 'watchlist', title: 'My Airdrop Watchlist & Tracker', subtitle: 'Personal Farming Checklist', icon: '⭐', url: '/watchlist', badge: 'Tracker' },
   { type: 'page', id: 'planner', title: 'Airdrop Farming Routine Planner', subtitle: 'Personalized Weekly Schedule', icon: '📅', url: '/farming-planner', badge: 'Tool' },
+  { type: 'page', id: 'strategy-matrix', title: 'Airdrop Strategy Matrix & Capital Allocator', subtitle: 'Capital ($0, $50, $500+) & ROI Simulator', icon: '🎯', url: '/strategy-matrix', badge: 'Tool' },
   { type: 'page', id: 'sybil', title: 'Sybil Risk & Wallet Diagnostic', subtitle: 'Anti-Sybil Clustering Audit', icon: '🛡️', url: '/sybil-checker', badge: 'Security' },
   { type: 'page', id: 'faucets', title: 'Verified Testnet Faucets Hub', subtitle: 'Free MON, BERA, Sepolia ETH', icon: '🚰', url: '/faucets', badge: 'Faucets' },
   { type: 'page', id: 'investors', title: 'VC Portfolios & Institutional Radar', subtitle: 'Top Tier Institutional Web3 Funds', icon: '🏛️', url: '/investors', badge: 'VCs' },
