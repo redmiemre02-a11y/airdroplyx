@@ -16201,15 +16201,15 @@ export const airdrops: Airdrop[] = [
   {
     "id": "raydium",
     "name": "Raydium",
-    "category": "DeFi",
+    "category": "Solana Liquidity & Yield",
     "tier": "Tier 1",
     "status": "Active",
     "stage": "Mainnet",
-    "potentialReward": "$1,200 - $7,000",
+    "potentialReward": "CLMM Fee APR & Ecosystem Launch Rights",
     "cost": "Sub-cent Solana transaction fees",
     "timeRequired": "10 mins / weekly",
     "platform": "Web / Solana",
-    "description": "Solana's foundational automated market maker and concentrated liquidity protocol (CLMM) commanding billions in daily volume, powering decentralized trading and new token launches.",
+    "description": "Solana's premier automated market maker and concentrated liquidity protocol. Note: $RAY token is actively trading (launched 2021); this guide covers CLMM liquidity fee yields, $RAY staking rewards, and Solana ecosystem token launch allocations.",
     "logo": "/images/airdrops/raydium.svg",
     "refLink": "https://raydium.io",
     "tags": [
@@ -16222,22 +16222,22 @@ export const airdrops: Airdrop[] = [
     ],
     "featured": true,
     "startDate": "Feb 2021",
-    "endDate": "Q4 2025",
+    "endDate": "Ongoing",
     "requirements": [
-      "Solana Wallet (Phantom/Solflare)",
+      "Solana Wallet (Phantom, Solflare, or Backpack)",
       "Execute Token Swaps on Raydium AMM",
       "Provide Liquidity to Concentrated Liquidity Market Maker (CLMM) Pools",
       "Stake RAY Tokens in Raydium Governance Staking",
       "Participate in AcceleRaytor Ecosystem Launches"
     ],
-    "overview": "Raydium is the foundational on-chain automated market maker (AMM) and concentrated liquidity engine of the Solana blockchain. Launched in February 2021, Raydium was instrumental in proving that high-speed Layer 1 blockchains could support decentralized finance at global scale. Today, Raydium processes billions of dollars in daily decentralized trading volume, serving as the primary liquidity foundation for trending tokens, meme coins, and premier Solana protocols.\n\nRaydium features a dual-engine trading architecture. Its standard AMM pools (Standard AMM and CPMM) enable permissionless token listing and instant trading pools with zero barrier to entry. Raydium's flagship innovation is the Concentrated Liquidity Market Maker (CLMM), which allows liquidity providers to define specific price intervals for their capital. This enables orders to execute with minimal slippage while LPs earn up to hundreds of times higher fee yields per dollar of capital compared to legacy constant-product AMMs.\n\nRaydium also operates AcceleRaytor (an on-chain launchpad for premier Solana projects) and single-sided RAY Staking. Powered by the native $RAY token, which captures a share of all protocol trading fees across standard and concentrated pools, active Solana traders and CLMM liquidity providers occupy the most liquid core of the Solana DeFi ecosystem.",
+    "overview": "IMPORTANT NOTICE: Raydium's native utility token ($RAY) officially launched in February 2021 and actively trades across global digital asset markets. Raydium is not conducting a new native token airdrop. Instead, this verified guide details how active liquidity providers and traders utilize Raydium's Concentrated Liquidity Market Maker (CLMM) infrastructure to capture high-yield trading fees, earn $RAY staking dividends, and qualify for upcoming Solana ecosystem token launchpad allocations (AcceleRaytor).\n\nRaydium is the foundational on-chain automated market maker (AMM) and concentrated liquidity engine of the Solana blockchain. Launched in February 2021, Raydium was instrumental in proving that high-speed Layer 1 blockchains could support decentralized finance at global scale. Today, Raydium processes billions of dollars in daily decentralized trading volume, serving as the primary liquidity foundation for trending tokens, meme coins, and premier Solana protocols.\n\nRaydium features a dual-engine trading architecture. Its standard AMM pools (Standard AMM and CPMM) enable permissionless token listing and instant trading pools with zero barrier to entry. Raydium's flagship innovation is the Concentrated Liquidity Market Maker (CLMM), which allows liquidity providers to define specific price intervals for their capital. This enables orders to execute with minimal slippage while LPs earn up to hundreds of times higher fee yields per dollar of capital compared to legacy constant-product AMMs.\n\nRaydium also operates AcceleRaytor (an on-chain launchpad for premier Solana projects) and single-sided RAY Staking. Powered by the native $RAY token, which captures a share of all protocol trading fees across standard and concentrated pools, active Solana traders and CLMM liquidity providers occupy the most liquid core of the Solana DeFi ecosystem.",
     "tokenomics": "The native $RAY token has a fixed maximum supply of 555 Million tokens. Staking RAY captures protocol trading fee dividends, grants voting rights on DAO proposals, and provides lottery ticket allocations for AcceleRaytor launchpad public sales.",
     "sybilDefense": "Raydium tracks verifiable on-chain swap volume, CLMM position duration within active price ranges, and sustained RAY staking tenure. Rapid automated bots that execute flash loan swaps within single blocks receive zero staking multipliers.",
     "strategy": "To maximize your positioning for Raydium ($RAY) fee yields and Solana ecosystem rewards:\n\n1. Connect your Solana wallet (Phantom, Solflare, or Backpack) to Raydium.\n2. Execute decentralized token swaps across Solana native pairs (SOL, USDC, RAY, trending ecosystem tokens).\n3. Provide liquidity into high-volume Concentrated Liquidity (CLMM) pools within active price ranges.\n4. Collect accumulated trading fees regularly and compound them back into your liquidity positions.\n5. Acquire and stake $RAY tokens in Raydium single-sided staking to earn passive fee APR.",
     "steps": [
       "Visit the official <a href=\"https://raydium.io\" target=\"_blank\" rel=\"noopener noreferrer\">Raydium Platform</a>.",
       "Launch the decentralized trading app at <a href=\"https://raydium.io/swap\" target=\"_blank\" rel=\"noopener noreferrer\">Raydium Swap</a>.",
-      "Connect your Solana wallet (Phantom or Solflare).",
+      "Connect your Solana wallet (Phantom, Solflare, or Backpack).",
       "Execute token trades with low fees and instant confirmation.",
       "Explore concentrated liquidity pools on <a href=\"https://raydium.io/clmm/create-pool\" target=\"_blank\" rel=\"noopener noreferrer\">Raydium CLMM Pools</a>.",
       "Deposit liquidity into tight price bands to maximize fee generation.",
@@ -16245,6 +16245,10 @@ export const airdrops: Airdrop[] = [
       "Participate in community governance and ecosystem token launches on AcceleRaytor."
     ],
     "faqs": [
+      {
+        "question": "Does Raydium have a new token airdrop in 2026?",
+        "answer": "No. The native $RAY token launched in February 2021 and is fully circulating. This guide is an ecosystem yield farming and launchpad positioning guide, demonstrating how to generate high CLMM fee yields, earn staking rewards, and qualify for new third-party Solana projects launching on Raydium."
+      },
       {
         "question": "What is Raydium?",
         "answer": "Raydium is an automated market maker and concentrated liquidity protocol built on Solana for high-speed, low-fee token trading."
@@ -16270,7 +16274,7 @@ export const airdrops: Airdrop[] = [
         "answer": "Trades on Raydium cost a fraction of a cent in SOL network gas fees and confirm in less than a second."
       }
     ],
-    "reward": "$1,200 - $7,000",
+    "reward": "CLMM Fee APR & Ecosystem Launch Rights",
     "funding": "Tier-1 Backed"
   },
   {
