@@ -14,6 +14,86 @@ export interface NewsArticle {
 
 export const newsArticles: NewsArticle[] = [
   {
+    "slug": "sentient-ai-public-alignment-testnet-launch-85m",
+    "title": "Sentient AI Deploys Public Model Alignment Testnet Following Landmark $85M Funding Round",
+    "excerpt": "Backed by Peter Thiel's Founders Fund and Pantera Capital, Sandeep Nailwal's Sentient AI launches open-source AGI testing to challenge corporate AI monopolies.",
+    "author": "Airdroplyx Senior Research Group",
+    "date": "November 4, 2026",
+    "readTime": "6 min read",
+    "category": "AI & Decentralized Compute",
+    "image": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=1200&h=675&fit=crop&q=80",
+    "tags": [
+      "Sentient AI",
+      "Artificial Intelligence",
+      "AGI",
+      "Founders Fund",
+      "Peter Thiel",
+      "DePIN"
+    ],
+    "relatedAirdropId": "sentient-ai",
+    "content": "## Challenging Centralized Artificial Intelligence Monopolies\n\n**Sentient AI**, the decentralized Open Artificial General Intelligence (O-AGI) protocol co-founded by Polygon co-founder **Sandeep Nailwal** and esteemed academic computer scientists **Pramod Viswanath** and **Himanshu Tyagi**, has officially activated its **Public Model Alignment & Benchmark Testnet** following an oversubscribed **$85 Million** seed funding round.\n\nThe historic funding round was co-led by **Peter Thiel’s Founders Fund**, **Pantera Capital**, and **Framework Ventures**, with additional backing from **Delphi Ventures**, **Primitive**, **Hack VC**, and **Robot Ventures**. The capital injection positions Sentient as the most heavily capitalized decentralized artificial intelligence foundation in Web3 history.\n\n> \"The trajectory of artificial intelligence cannot be surrendered to three or four Silicon Valley boardroom monopolies,\" stated Sandeep Nailwal. \"True artificial general intelligence belongs to humanity. By embedding open cryptographic incentives directly into model weights, Sentient makes open-source AI economically sustainable for researchers and developers worldwide.\"\n\n## The Open-Source Monetization Protocol (OMP)\n\nHistorically, open-source AI developers faced a structural economic disadvantage: closed companies like OpenAI and Google monetized foundational research while open contributors received zero recurring revenue. Sentient's Open-Source Monetization Protocol fixes this dynamic:\n\n* **Cryptographic Weight Attribution**: Developers embed verifiable signatures within open-source model weights.\n* **Inference Royalty Engine**: Enterprise API invocations automatically route micro-royalties back to originators and dataset labelers.\n* **Verifiable Alignment Benchmarks**: Global community testers evaluate model safety and performance to earn protocol governance incentives.\n\nWith millions of test interactions already logging across the testnet dashboard, Sentient is establishing the foundation for community-owned frontier intelligence."
+  },
+  {
+    "slug": "kuru-monad-clob-dex-testnet-deployment",
+    "title": "Kuru Activates High-Throughput On-Chain Order Book on Monad Testnet Ahead of Mainnet",
+    "excerpt": "Harnessing Monad's 10,000 TPS parallel EVM, Kuru launches an institutional Central Limit Order Book DEX, eliminating off-chain sequencers and slippage.",
+    "author": "Airdroplyx Senior Research Group",
+    "date": "November 4, 2026",
+    "readTime": "5 min read",
+    "category": "DeFi & High-Throughput",
+    "image": "https://images.unsplash.com/photo-1642543492481-44e81e3914a7?w=1200&h=675&fit=crop&q=80",
+    "tags": [
+      "Kuru",
+      "Monad",
+      "Parallel EVM",
+      "Order Book DEX",
+      "Electric Capital",
+      "DeFi"
+    ],
+    "relatedAirdropId": "kuru-monad",
+    "content": "## Eliminating the DeFi Slippage Penalty on Parallel EVM\n\n**Kuru**, the premier native central limit order book (CLOB) exchange engineered specifically for the **Monad** parallel EVM blockchain, has officially deployed its public testnet trading infrastructure. Backed by **$2 Million+** in seed capital from **Electric Capital**, **Brevan Howard Digital**, and **CMS Holdings**, Kuru represents a massive architectural leap forward for decentralized financial markets.\n\nSince the dawn of automated market makers (AMMs), decentralized traders have been forced to accept high slippage, frontrunning sandwich attacks, and impermanent loss due to block latency constraints. By deploying natively on Monad's high-speed consensus and parallel execution pipeline—capable of sustaining **10,000 transactions per second with sub-second finality**—Kuru executes limit orders, stops, and algorithmic market maker spreads entirely on-chain.\n\n## Technical Innovations of the Kuru Engine\n\n* **Zero Off-Chain Matchers**: All bid-ask order states are stored and matched directly within Monad smart contracts, guaranteeing 100% self-custody and censorship resistance.\n* **Microsecond Settlement**: Orders execute with centralized-exchange speed while retaining decentralized on-chain verifiability.\n* **Kuru Shards Program**: Active order makers and liquidity tighteners are accumulating points ahead of the protocol's genesis token generation event.\n\nAs developer and trader excitement around Monad intensifies, Kuru is poised to become the foundational liquidity anchor for the entire parallel EVM ecosystem."
+  },
+  {
+    "slug": "openledger-data-network-ai-testnet-milestone",
+    "title": "OpenLedger Surpasses 500,000 Active Data Nodes in AI Training Protocol Ahead of TGE",
+    "excerpt": "Polychain-backed OpenLedger sees massive global adoption as decentralized node operators and data labelers provide high-integrity datasets for AI models.",
+    "author": "Airdroplyx Senior Research Group",
+    "date": "November 4, 2026",
+    "readTime": "5 min read",
+    "category": "AI & Data Infrastructure",
+    "image": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=1200&h=675&fit=crop&q=80",
+    "tags": [
+      "OpenLedger",
+      "AI Data",
+      "Polychain Capital",
+      "Machine Learning",
+      "DePIN",
+      "Web3 AI"
+    ],
+    "relatedAirdropId": "openledger",
+    "content": "## Resolving the Frontier AI Data Starvation Crisis\n\n**OpenLedger**, known throughout the decentralized technology ecosystem as \"The Data Blockchain for AI\", has announced that its global network has officially surpassed **500,000 active telemetry and validation nodes**. Backed by **$8 Million** in venture funding led by **Polychain Capital** and **Borderless Capital**, with participation from **HashKey Capital** and **Finality Capital**, the network provides the sovereign data pipeline necessary to train transparent, bias-minimized AI systems.\n\nArtificial intelligence research labs globally are confronting an imminent \"data wall\"—the exhaustion of high-quality public internet text and data suitable for model training. OpenLedger overcomes this bottleneck by turning data curation into a decentralized, permissionless market where contributors around the world are incentivized to collect, clean, and validate specialized multimodal datasets.\n\n## Key Milestones and Network Architecture\n\n* **500,000+ Active Nodes**: Operating across 140 countries, auditing data integrity in real time.\n* **Cryptographic Proof of Attribution**: Ensures originators permanently capture attribution royalties whenever models query or train on their uploaded corpora.\n* **Incentivized Testnet Leaderboard**: Node operators earn daily OpenLedger Points redeemable for protocol tokens at the upcoming Token Generation Event.\n\nOpenLedger's remarkable growth underscores how Web3 incentive design is uniquely suited to solve critical infrastructure bottlenecks in artificial intelligence."
+  },
+  {
+    "slug": "vlayer-zk-coprocessor-solidity-devnet-live",
+    "title": "vlayer Activates Zero-Knowledge Solidity Coprocessor Testnet Supported by a16z Crypto",
+    "excerpt": "Backed by $10M from a16z crypto CSX and Credibly Neutral, vlayer introduces 'Solidity 2.0' with zk-TLS Web Proofs and trustless historical state time-travel.",
+    "author": "Airdroplyx Senior Research Group",
+    "date": "November 4, 2026",
+    "readTime": "5 min read",
+    "category": "ZK Infrastructure & Tooling",
+    "image": "https://images.unsplash.com/photo-1639762681485-074b7f938ba0?w=1200&h=675&fit=crop&q=80",
+    "tags": [
+      "vlayer",
+      "Zero Knowledge",
+      "ZK Coprocessor",
+      "a16z crypto",
+      "Solidity 2.0",
+      "zk-TLS"
+    ],
+    "relatedAirdropId": "vlayer",
+    "content": "## Unlocking 'Solidity 2.0' with Verifiable Zero-Knowledge Computation\n\n**vlayer**, the next-generation zero-knowledge verifiable coprocessor layer, has officially launched its public developer devnet and interactive proving sandbox following a successful **$10 Million** pre-seed funding round led by **a16z crypto CSX**, **Credibly Neutral**, and **BlockTower Capital**, with participation from **Robot Ventures** and **Builder Capital**.\n\nUntil now, Ethereum smart contracts were strictly confined to their own isolated environment: they could not inspect past historical state without prohibitively expensive archive queries, could not perform intensive computation without hitting gas caps, and could not verify external Web2 internet data without centralized oracles. vlayer eliminates all three limitations simultaneously through its zero-knowledge coprocessor suite.\n\n## The Four Pillars of vlayer Infrastructure\n\n* **Time Travel**: Smart contracts can trustlessly read and verify historical Ethereum state across any preceding block using succinct ZK proofs.\n* **zk-TLS Web Proofs**: Users generate client-side cryptographic proofs of private Web2 information (such as bank balances or KYC credentials) without disclosing underlying secrets.\n* **Teleport**: Seamlessly execute cross-chain contract calls with cryptographic certainty, avoiding bridge hacks.\n* **Off-Chain Gasless Compute**: Heavy logic is computed off-chain and verified on-chain at sub-cent gas fees.\n\nWith developer documentation and devnet endpoints live, vlayer is redefining what is possible for decentralized application development on Ethereum."
+  },
+  {
     "slug": "megaeth-real-time-sub-millisecond-devnet-milestone",
     "title": "MegaETH Reaches 100,000 TPS with Sub-Millisecond Block Times in Public Devnet Telemetry Benchmark",
     "excerpt": "MegaETH showcases real-time Ethereum Layer 2 performance, shattering previous throughput records with in-memory state execution and specialized hardware pipelining.",
