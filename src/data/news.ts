@@ -14,6 +14,85 @@ export interface NewsArticle {
 
 export const newsArticles: NewsArticle[] = [
   {
+    "slug": "solayer-solana-restaking-surpasses-500m-tvl",
+    "title": "Solayer Surpasses $500M in Solana Restaking TVL as Institutional AVS Demand Accelerates",
+    "excerpt": "Backed by Polychain Capital and Hack VC, Solayer's endogenous AVS restaking model gains massive traction among Solana validators and liquid staking protocols.",
+    "author": "Airdroplyx Senior Research Group",
+    "date": "November 5, 2026",
+    "readTime": "6 min read",
+    "category": "Solana & Restaking",
+    "image": "https://images.unsplash.com/photo-1639762681485-074b7f938ba0?w=1200&h=675&fit=crop&q=80",
+    "tags": [
+      "Solayer",
+      "Solana",
+      "Restaking",
+      "Polychain Capital",
+      "DeFi",
+      "AVS"
+    ],
+    "relatedAirdropId": "solayer",
+    "content": "## Solana Restaking Enters the Mainstream\n\n**Solayer Labs**, the premier native restaking network for the Solana ecosystem, has officially surpassed **$500 Million in Total Value Locked (TVL)** following an influx of liquid staking token (LST) deposits from institutional validators and decentralized finance participants.\n\nBacked by **$12 Million+** in seed capital from **Polychain Capital**, **Hack VC**, **Big Brain Holdings**, and **Nomad Capital**, Solayer introduces an innovative 'endogenous AVS' architecture. Rather than only securing external sidechains or bridge relays, Solayer allows decentralized applications on Solana to rent validator capacity and reserve execution bandwidth during periods of volatile market activity.\n\n> \"Solana's architecture offers unparalleled raw throughput, but decentralized applications still compete for blockspace during extreme volatility,\" explained Solayer leadership. \"By restaking SOL, protocols secure dedicated transaction lanes, ensuring user trades and liquidations execute deterministically.\"\n\n## Explosive Ecosystem Growth Metrics\n\n* **Total Value Locked**: Over 3.2 million SOL ($500M+) committed across core restaking vaults.\n* **Supported Assets**: Native SOL alongside major liquid staking assets including JitoSOL, mSOL, and bSOL.\n* **Integrated AVS Protocols**: 14 high-throughput Solana protocols currently securing dedicated bandwidth.\n\nWith Season 2 points compounding for early depositors, Solayer has firmly established restaking as a foundational pillar of Solana's DeFi renaissance."
+  },
+  {
+    "slug": "fhenix-confidential-fhe-rollup-testnet-helium",
+    "title": "Fhenix Deploys Helium Testnet Enabling Confidential Smart Contracts with Fully Homomorphic Encryption",
+    "excerpt": "Backed by $15M from Hack VC and Amber Group, Fhenix activates the first FHE-powered confidential Layer 2, solving blockchain's transparency paradox.",
+    "author": "Airdroplyx Senior Research Group",
+    "date": "November 5, 2026",
+    "readTime": "5 min read",
+    "category": "Confidential EVM & FHE",
+    "image": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=1200&h=675&fit=crop&q=80",
+    "tags": [
+      "Fhenix",
+      "FHE",
+      "Confidential Computing",
+      "Hack VC",
+      "Layer 2",
+      "Privacy"
+    ],
+    "relatedAirdropId": "fhenix",
+    "content": "## Solving the Public Blockchain Privacy Dilemma\n\n**Fhenix**, the pioneer in confidential smart contract computation, has launched its **Helium Testnet**, bringing Fully Homomorphic Encryption (FHE) natively to Ethereum Virtual Machine (EVM) rollups. Backed by **$15 Million** in venture funding led by **Hack VC**, **Amber Group**, and **Foresight Ventures**, Fhenix enables applications to process confidential data without ever revealing underlying inputs to validators or the public.\n\nFor more than a decade, public blockchains forced an uncompromising trade-off: public verifiability came at the cost of total transparency. All account balances, trade quantities, and contract variables were visible to everyone, severely hindering enterprise adoption and exposing traders to frontrunning.\n\n## How the Helium Testnet Operates\n\n* **fhEVM Architecture**: Developers write standard Solidity contracts using encrypted data types (`euint`, `ebool`) with zero specialized cryptography required.\n* **On-Chain Confidentiality**: Computations execute over encrypted ciphertexts; only the owner of the decryption key can view the plaintext result.\n* **MEV Elimination**: Frontrunning and sandwich attacks become mathematically impossible because order details remain encrypted within the mempool.\n\nWith hundreds of developer teams currently deploying confidential voting, sealed auctions, and private DeFi order books on Helium, Fhenix is paving the way for institutional-grade Web3 computation."
+  },
+  {
+    "slug": "astria-shared-sequencer-mainnet-readiness",
+    "title": "Astria Reaches Final Milestone Ahead of Mainnet Shared Sequencer Rollout for Modular Chains",
+    "excerpt": "Powering the Flame EVM rollup and Celestia DA integration, Maven 11-backed Astria eliminates centralized sequencer risks across modular rollups.",
+    "author": "Airdroplyx Senior Research Group",
+    "date": "November 5, 2026",
+    "readTime": "5 min read",
+    "category": "Modular Sequencing",
+    "image": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=1200&h=675&fit=crop&q=80",
+    "tags": [
+      "Astria",
+      "Shared Sequencer",
+      "Celestia",
+      "Maven 11",
+      "Modular",
+      "Flame EVM"
+    ],
+    "relatedAirdropId": "astria",
+    "content": "## Ending the Era of Centralized Rollup Sequencers\n\n**Astria**, the decentralized shared sequencer network backed by **$12.5 Million** from **Maven 11**, **1kx**, and **Delphi Digital**, has officially entered the final phase of its **Flame Testnet**, achieving record-breaking multi-rollup ordering stability ahead of its production mainnet rollout.\n\nWhile Layer 2 rollups provide massive throughput scaling for Ethereum, nearly all production rollups currently depend on a single, centralized sequencer operated by their founding teams. This setup introduces severe vulnerabilities: sequencer hardware failures can halt entire blockchains, and centralized operators maintain the power to reorder or censor user transactions.\n\n## Technical Innovations of the Astria Network\n\n* **Decentralized CometBFT Consensus**: Transaction ordering is decentralized across a global cluster of independent validators.\n* **Celestia DA Settlement**: Ordered transaction blocks are posted directly to Celestia for succinct data availability sampling.\n* **Atomic Composability**: Astria enables atomic cross-rollup interactions, allowing simultaneous swaps across independent rollups without bridge vulnerabilities.\n\nAstria's shared sequencing platform marks a crucial milestone in transforming modular rollups into resilient, decentralized consumer infrastructure."
+  },
+  {
+    "slug": "hyle-zk-settlement-layer-performance-benchmarks",
+    "title": "Hyle Publishes Zero-Knowledge Settlement Benchmarks Achieving 2,000 Verified Proofs Per Second",
+    "excerpt": "Framework-backed Hyle demonstrates lean Layer 1 architecture focused strictly on proof verification, reducing settlement latency to sub-second levels.",
+    "author": "Airdroplyx Senior Research Group",
+    "date": "November 5, 2026",
+    "readTime": "5 min read",
+    "category": "ZK Settlement",
+    "image": "https://images.unsplash.com/photo-1639762681485-074b7f938ba0?w=1200&h=675&fit=crop&q=80",
+    "tags": [
+      "Hyle",
+      "ZK Settlement",
+      "Framework Ventures",
+      "Zero Knowledge",
+      "Proof Verification"
+    ],
+    "relatedAirdropId": "hyle",
+    "content": "## Dedicated Proof Verification Outperforms General-Purpose Blockchains\n\n**Hyle**, the specialized Layer 1 designed exclusively for zero-knowledge proof settlement, has released verified performance telemetry from its public devnet, confirming continuous throughput exceeding **2,000 verified zero-knowledge proofs per second** with sub-second state finality.\n\nBacked by **$3.5 Million** in seed funding led by **Framework Ventures**, with participation from **Cherry Crypto** and **First Minute Capital**, Hyle eliminates all legacy general-purpose execution code. By removing the need to execute smart contracts on-chain, Hyle functions as a pure mathematical settlement layer for off-chain zero-knowledge applications.\n\n## Architectural Highlights from Hyle Telemetry\n\n* **Multi-Proof Support**: Natively verifies proofs generated in Noir, Cairo, Risc Zero, SP1, and Circom.\n* **Sub-Cent Settlement Fees**: Proof verification gas costs are over 95% lower than Ethereum Layer 1 verifiers.\n* **Succinct State Transitions**: State transitions update deterministically without execution bottlenecks.\n\nWith developer participation surging across Hyle's devnet challenges, the network is proving that specialized settlement infrastructure is essential to unlock scalable Web3 zero-knowledge applications."
+  },
+  {
     "slug": "risc-zero-boundless-proof-marketplace-bonsai-launch",
     "title": "RISC Zero Deploys Boundless Proof Marketplace on Bonsai Decentralized Prover Network",
     "excerpt": "Backed by $40M from Blockchain Capital and Bain Capital Crypto, RISC Zero enables on-demand zero-knowledge proof generation for standard Rust applications.",

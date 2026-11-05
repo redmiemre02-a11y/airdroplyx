@@ -35,6 +35,166 @@ export interface Airdrop {
 
 export const airdrops: Airdrop[] = [
   {
+    "id": "solayer",
+    "name": "Solayer Labs",
+    "logo": "/images/airdrops/solayer.svg",
+    "description": "The premier native restaking network on Solana securing endogenous Actively Validated Services (AVS) and application execution bandwidth.",
+    "reward": "Solayer Points & Protocol Genesis Allocation",
+    "category": "Solana Restaking",
+    "featured": true,
+    "status": "active",
+    "endTime": "2026-12-31T23:59:59Z",
+    "funding": "$12M+",
+    "investors": "Polychain Capital, Hack VC, Big Brain Holdings, Nomad Capital",
+    "refLink": "https://solayer.org",
+    "overview": "Solayer Labs is the foundational restaking protocol engineered specifically for the high-performance Solana blockchain. While Ethereum restaking protocols focus on off-chain data availability and oracle networks, Solayer leverages Solana's high-speed execution to secure 'endogenous AVS'—on-chain applications that require prioritized blockspace and dedicated consensus verification.\n\nBy depositing SOL or liquid staking tokens (such as mSOL, JitoSOL, or bSOL) into Solayer, delegators earn baseline staking yields, protocol restaking yields, and application transaction fee dividends. Solayer's architecture allows decentralized applications (dApps) to reserve validator processing capacity, guaranteeing deterministic execution even during peak network congestion periods.\n\nBacked by $12M+ in seed capital led by Polychain Capital and Hack VC, Solayer has surpassed $500M in Total Value Locked (TVL). The protocol distributes Solayer Points across multiple epoch seasons ahead of the protocol token generation event.",
+    "tokenomics": "The Solayer protocol token coordinates restaking slash conditions, governs AVS onboarding standards, and captures protocol fee sharing. 18% of the total token generation supply is dedicated to early depositors, liquid restakers, and ecosystem AVS integration partners.",
+    "sybilSafety": "Solayer tracks verifiable time-weighted deposits (TVL x Duration) directly on Solana. Micro-deposits held for fewer than 48 hours or automated churning scripts receive zero point multipliers.",
+    "strategy": "To maximize your Solayer Points and positioning for the genesis airdrop:\n\n1. Connect your Solana Web3 wallet (Phantom, Solflare, or Backpack) to the official Solayer portal.\n2. Deposit native SOL or liquid staking derivatives (LSTs) into Solayer core vaults.\n3. Delegate your restaked assets to active endogenous AVS protocols to unlock yield multipliers.\n4. Maintain steady deposit balances across multiple consecutive monthly epochs.\n5. Compound accrued staking and restaking rewards back into your core positions.",
+    "steps": [
+      "Navigate to the official <a href=\"https://solayer.org\" target=\"_blank\" rel=\"noopener noreferrer\">Solayer Labs App</a>.",
+      "Connect your Solana wallet (such as Phantom, Solflare, or Backpack).",
+      "Select your preferred staking asset (Native SOL, JitoSOL, or mSOL).",
+      "Authorize the restaking deposit transaction.",
+      "Allocate restaked voting weight to active AVS modules in the Delegation dashboard.",
+      "Track your real-time Solayer Points on the community leaderboard."
+    ],
+    "faqs": [
+      {
+        "question": "What is Solayer Labs?",
+        "answer": "Solayer is a decentralized restaking network on Solana that repurposes staked SOL to secure decentralized applications and grant them dedicated execution bandwidth."
+      },
+      {
+        "question": "Are restaked assets locked permanently?",
+        "answer": "No, users can unstake their deposited assets according to the standard Solana epoch withdrawal timeline (typically 2-3 days)."
+      },
+      {
+        "question": "What wallets are supported?",
+        "answer": "Solayer supports all major self-custodial Solana Web3 wallets, including Phantom, Solflare, and Backpack."
+      }
+    ]
+  },
+  {
+    "id": "fhenix",
+    "name": "Fhenix",
+    "logo": "/images/airdrops/fhenix.svg",
+    "description": "The first Confidential Layer 2 powered by Fully Homomorphic Encryption (FHE) with native EVM compatibility.",
+    "reward": "Helium Testnet Badges & $FHENIX Allocation",
+    "category": "Confidential EVM / FHE",
+    "featured": true,
+    "status": "active",
+    "endTime": "2026-12-31T23:59:59Z",
+    "funding": "$15M",
+    "investors": "Hack VC, Amber Group, Foresight Ventures, Multicoin Capital",
+    "refLink": "https://fhenix.io",
+    "overview": "Fhenix is the groundbreaking confidential Layer 2 rollup powered by Fully Homomorphic Encryption (FHE). Unlike traditional public blockchains where all account balances, transaction inputs, and smart contract states are completely transparent to every observer, Fhenix enables developers to write Solidity smart contracts that compute over encrypted data without ever decrypting it.\n\nUtilizing the FHE-Rollup architecture and the fhEVM library, Fhenix unlocks entirely new categories of Web3 applications that were previously impossible: confidential on-chain voting, sealed-bid decentralized auctions, institutional credit scoring without public balance leaks, and private DeFi order execution with complete frontrunning immunity.\n\nSupported by $15M in funding led by Hack VC and Amber Group, Fhenix is currently operating its public 'Helium Testnet', allowing developers and Web3 community members to interact with confidential dApps, execute encrypted transactions, and earn verified network badges ahead of mainnet.",
+    "tokenomics": "The $FHENIX token secures the confidential sequencer network, powers cryptographic threshold decryption keys, and pays for FHE computation gas. 15% of genesis supply is reserved for early testnet pioneers, smart contract deployers, and confidential dApp testers.",
+    "sybilSafety": "Fhenix tracks cryptographic transaction proofs and active contract deployment telemetry. Simple automated scripts that send empty non-encrypted payload loops are excluded by heuristic filters.",
+    "strategy": "The optimal strategy to position for Fhenix rewards:\n\n1. Connect your Web3 wallet (Rabby or Rainbow) to the Fhenix Helium Testnet.\n2. Claim testnet FHE tokens from the official Fhenix faucet.\n3. Interact with confidential testnet applications (sealed auctions, encrypted token transfers).\n4. If technically inclined, deploy a sample fhEVM Solidity contract using Fhenix developer guides.\n5. Complete community Discord quests to claim official 'Helium Pioneer' credentials.",
+    "steps": [
+      "Access the official <a href=\"https://fhenix.io\" target=\"_blank\" rel=\"noopener noreferrer\">Fhenix Network Hub</a>.",
+      "Connect your Web3 wallet (such as Rabby) configured for Fhenix Helium Testnet.",
+      "Claim testnet gas tokens via the Helium faucet.",
+      "Wrap public tokens into encrypted confidential assets (eFHE).",
+      "Perform private token transfers and test confidential voting on sample dApps.",
+      "Monitor your testnet activity and badge progress on the community dashboard."
+    ],
+    "faqs": [
+      {
+        "question": "What is Fully Homomorphic Encryption (FHE)?",
+        "answer": "FHE is an advanced cryptographic technique that allows mathematical computations to be performed directly on encrypted data without decrypting it first."
+      },
+      {
+        "question": "Can I use standard Solidity on Fhenix?",
+        "answer": "Yes, Fhenix is fully compatible with standard Solidity, adding native encrypted data types (euint, ebool) via the fhEVM library."
+      },
+      {
+        "question": "Is participation free?",
+        "answer": "Yes, all interactions on the Fhenix Helium testnet use free testnet tokens from authenticated faucets."
+      }
+    ]
+  },
+  {
+    "id": "astria",
+    "name": "Astria",
+    "logo": "/images/airdrops/astria.svg",
+    "description": "Decentralized shared sequencer network providing fast finality, censorship resistance, and composability for modular rollups.",
+    "reward": "Flame Testnet Credits & Genesis Sequencer Rights",
+    "category": "Modular Sequencing",
+    "featured": true,
+    "status": "active",
+    "endTime": "2026-12-31T23:59:59Z",
+    "funding": "$12.5M",
+    "investors": "Maven 11, 1kx, Delphi Digital, Robot Ventures",
+    "refLink": "https://astria.org",
+    "overview": "Astria is the leading decentralized shared sequencer network engineered to liberate Ethereum rollups from centralized sequencer vulnerabilities. In conventional rollup setups, a single company or foundation operates the sequencer, creating single points of failure, censorship risks, and monopolistic MEV extraction. Astria replaces these isolated sequencers with a robust, decentralized consensus network powered by CometBFT.\n\nAstria batches and orders rollup transactions across multiple independent chains simultaneously, providing sub-second soft commitments while publishing the definitive ordered data to Celestia for high-throughput Data Availability. Furthermore, Astria operates 'Flame', an EVM-compatible rollup built directly on top of the shared sequencer, showcasing cross-rollup atomic composability.\n\nBacked by $12.5M in venture funding led by Maven 11, 1kx, and Delphi Digital, Astria is operating its incentivized Flame Testnet, allowing users and developers to test decentralized sequencer performance.",
+    "tokenomics": "The Astria token aligns decentralized sequencer node staking, secures cross-rollup batch verification, and captures network ordering fees. A dedicated community genesis pool is allocated to testnet sequencer runners and Flame rollup users.",
+    "sybilSafety": "Astria monitors on-chain sequence confirmations and multi-epoch transaction retention. Sybil clusters that execute repetitive zero-value bridge loops are filtered via sequence heuristic analysis.",
+    "strategy": "To maximize your positioning for Astria rewards:\n\n1. Connect your Web3 wallet (Rabby) configured for the Astria Flame Testnet.\n2. Claim testnet tokens from the official Flame faucet.\n3. Execute decentralized swaps and contract calls on Flame EVM.\n4. Test cross-chain asset bridging between the shared sequencer network and Celestia DA.\n5. Participate in community sequencer node testing sprints.",
+    "steps": [
+      "Visit the official <a href=\"https://astria.org\" target=\"_blank\" rel=\"noopener noreferrer\">Astria Network Portal</a>.",
+      "Connect your Web3 wallet (Rabby or Rainbow) to the Flame Testnet.",
+      "Claim testnet tokens from the official integrated faucet.",
+      "Execute token swaps and transfers on Flame EVM dApps.",
+      "Test Celestia data availability rollup bridge interactions.",
+      "Join the Astria Discord and log your testnet transactions."
+    ],
+    "faqs": [
+      {
+        "question": "What is a Shared Sequencer?",
+        "answer": "A shared sequencer is an independent, decentralized network that orders transactions for multiple rollups simultaneously, eliminating centralized sequencer downtime and censorship."
+      },
+      {
+        "question": "What is Flame?",
+        "answer": "Flame is Astria's flagship EVM rollup demonstrating high-speed decentralized sequencing and atomic settlement on Celestia."
+      },
+      {
+        "question": "How are Astria rewards earned?",
+        "answer": "Participants earn eligibility by actively stress-testing Flame rollup dApps, bridging test assets, and running sequencer nodes."
+      }
+    ]
+  },
+  {
+    "id": "hyle",
+    "name": "Hyle",
+    "logo": "/images/airdrops/hyle.svg",
+    "description": "The lean, ultra-fast Layer 1 specialized exclusively for zero-knowledge proof verification and state settlement.",
+    "reward": "Hyle Devnet Pioneer Badges & Token Rights",
+    "category": "ZK Settlement L1",
+    "featured": true,
+    "status": "active",
+    "endTime": "2026-12-31T23:59:59Z",
+    "funding": "$3.5M",
+    "investors": "Framework Ventures, Cherry Crypto, First Minute Capital",
+    "refLink": "https://hyle.eu",
+    "overview": "Hyle is a specialized Layer 1 blockchain engineered exclusively for zero-knowledge proof settlement. Traditional general-purpose blockchains must execute all transaction logic directly within execution environments, creating network congestion and high transaction fees. Hyle operates on a fundamentally different philosophy: computation occurs entirely off-chain, and Hyle solely verifies succinct ZK proofs and updates state.\n\nBy stripping away general-purpose VM execution overhead, Hyle achieves unmatched proof verification throughput and sub-cent settlement costs. Any off-chain application—whether written in Cairo, Noir, SP1, or RISC-V—can submit verification proofs to Hyle for deterministic, tamper-proof state finality.\n\nBacked by $3.5M in seed funding led by Framework Ventures, Hyle has launched its public devnet and testnet validator program, onboarding ZK circuit builders, prover node operators, and early Web3 privacy testers.",
+    "tokenomics": "The native Hyle token coordinates consensus proof validators, provides staking security for proof settlement consensus, and pays for on-chain state updates. A substantial allocation is set aside for early ZK developers and testnet proof submitters.",
+    "sybilSafety": "Hyle validates cryptographic proof receipts generated by client-side provers. Empty bot transactions that do not contain valid ZK execution proofs cannot post to the settlement layer.",
+    "strategy": "The optimal strategy to position for Hyle rewards:\n\n1. Connect your Web3 wallet (Rabby) to the Hyle Devnet Console.\n2. Request testnet proof verification credits.\n3. Generate a sample zero-knowledge proof using the Hyle SDK or browser prover.\n4. Submit the proof to Hyle's verification consensus layer.\n5. Run a lightweight testnet validator node or participate in developer proof sprints.",
+    "steps": [
+      "Access the official <a href=\"https://hyle.eu\" target=\"_blank\" rel=\"noopener noreferrer\">Hyle Platform</a>.",
+      "Connect your Web3 wallet to access the Devnet dashboard.",
+      "Claim testnet settlement gas from the developer console.",
+      "Generate a client-side proof using Noir, Cairo, or SP1.",
+      "Submit and verify the proof on the Hyle settlement explorer.",
+      "Check your verified proof score on the developer telemetry leaderboard."
+    ],
+    "faqs": [
+      {
+        "question": "What makes Hyle different from other Layer 1s?",
+        "answer": "Hyle is not a general-purpose execution blockchain; it does not execute application code. It only verifies ZK proofs, making it orders of magnitude faster and cheaper for ZK settlement."
+      },
+      {
+        "question": "Which ZK proof systems does Hyle support?",
+        "answer": "Hyle is proof-system agnostic, supporting Noir, Cairo, Risc Zero, SP1, and Circom proofs."
+      },
+      {
+        "question": "Do I need hardware to participate?",
+        "answer": "Basic testing can be done via browser playgrounds; node runners require standard multi-core desktop computers."
+      }
+    ]
+  },
+  {
     "id": "risc-zero",
     "name": "RISC Zero",
     "logo": "/images/airdrops/risc-zero.svg",

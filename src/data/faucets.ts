@@ -18,6 +18,226 @@ export interface TestnetFaucet {
 
 export const testnetFaucets: TestnetFaucet[] = [
   {
+    "id": "sonic-blaze-testnet",
+    "name": "Sonic Blaze Testnet Faucet",
+    "network": "Sonic Blaze Testnet",
+    "category": "Next-Gen L1",
+    "tokenSymbol": "S",
+    "chainId": 57054,
+    "rpcUrl": "https://rpc.blaze.soniclabs.com",
+    "explorerUrl": "https://testnet.sonicscan.org",
+    "faucetUrl": "https://testnet.soniclabs.com/account",
+    "alternativeFaucets": [
+      {
+        "name": "Sonic Community Discord Faucet",
+        "url": "https://discord.gg/soniclabs"
+      }
+    ],
+    "dripAmount": "5.0 S",
+    "frequency": "Every 24 Hours",
+    "requirements": "Web3 Wallet (Rabby) & Social Verification",
+    "status": "online",
+    "description": "Official testnet faucet for Sonic (formerly Fantom) high-speed EVM Layer 1 capable of 10,000 TPS. Testnet $S tokens allow users to test instant swap settlement and bridge apps."
+  },
+  {
+    "id": "story-odyssey-testnet",
+    "name": "Story Protocol Odyssey Faucet",
+    "network": "Story Odyssey Testnet",
+    "category": "Next-Gen L1",
+    "tokenSymbol": "IP",
+    "chainId": 1516,
+    "rpcUrl": "https://odyssey.storyrpc.io",
+    "explorerUrl": "https://odyssey.storyscan.xyz",
+    "faucetUrl": "https://faucet.story.foundation",
+    "alternativeFaucets": [
+      {
+        "name": "QuickNode Story Odyssey Faucet",
+        "url": "https://faucet.quicknode.com/story/odyssey"
+      }
+    ],
+    "dripAmount": "1.0 IP",
+    "frequency": "Every 24 Hours",
+    "requirements": "Twitter / X account verification (Anti-bot)",
+    "status": "online",
+    "description": "Official faucet for Story Protocol Odyssey testnet. IP tokens are required to register intellectual property assets, license IP legos, and test programmable copyright smart contracts."
+  },
+  {
+    "id": "initia-public-testnet",
+    "name": "Initia Public Testnet Faucet",
+    "network": "Initia Public Testnet",
+    "category": "Modular & DA",
+    "tokenSymbol": "INIT",
+    "chainId": 354,
+    "rpcUrl": "https://rpc.testnet.initia.xyz",
+    "explorerUrl": "https://scan.testnet.initia.xyz",
+    "faucetUrl": "https://faucet.testnet.initia.xyz",
+    "alternativeFaucets": [
+      {
+        "name": "Initia Discord Faucet Bot",
+        "url": "https://discord.gg/initia"
+      }
+    ],
+    "dripAmount": "0.5 INIT",
+    "frequency": "Every 12 Hours",
+    "requirements": "Discord role verification or Github binding",
+    "status": "online",
+    "description": "Official testnet faucet for Initia, the network for interwoven rollups. INIT tokens are used for multi-chain gas, staking, and testing Minitia interoperability bridges."
+  },
+  {
+    "id": "plume-network-faucet",
+    "name": "Plume Network Testnet Faucet",
+    "network": "Plume Goon Phase Testnet",
+    "category": "Ethereum L1/L2",
+    "tokenSymbol": "PLUME",
+    "chainId": 98864,
+    "rpcUrl": "https://testnet-rpc.plumenetwork.xyz",
+    "explorerUrl": "https://testnet-explorer.plumenetwork.xyz",
+    "faucetUrl": "https://faucet.plumenetwork.xyz",
+    "alternativeFaucets": [
+      {
+        "name": "Plume Discord Faucet",
+        "url": "https://discord.gg/plumenetwork"
+      }
+    ],
+    "dripAmount": "0.1 PLUME",
+    "frequency": "Every 24 Hours",
+    "requirements": "Web3 wallet connection & Goon role",
+    "status": "online",
+    "description": "Official testnet faucet for Plume Network, the dedicated Real World Asset (RWA) Layer 2. Used to test institutional private credit tokenization and compliance primitives."
+  },
+  {
+    "id": "fuel-ignition-testnet",
+    "name": "Fuel Sepolia Testnet Faucet",
+    "network": "Fuel Sepolia Testnet",
+    "category": "Modular & DA",
+    "tokenSymbol": "ETH",
+    "chainId": 0,
+    "rpcUrl": "https://testnet.fuel.network/v1/graphql",
+    "explorerUrl": "https://app.fuel.network",
+    "faucetUrl": "https://faucet-testnet.fuel.network",
+    "alternativeFaucets": [
+      {
+        "name": "Fuel Community Discord Faucet",
+        "url": "https://discord.gg/fuelnetwork"
+      }
+    ],
+    "dripAmount": "0.5 testETH",
+    "frequency": "Every 12 Hours",
+    "requirements": "Captcha verification (Fast drip)",
+    "status": "online",
+    "description": "Official faucet for the Fuel Network modular execution layer. Powers Sway language smart contracts, parallel transaction tests, and UTXO-based trading protocols."
+  },
+  {
+    "id": "vlayer-coprocessor-faucet",
+    "name": "vlayer ZK Devnet Faucet",
+    "network": "Ethereum Sepolia / vlayer Sandbox",
+    "category": "Modular & DA",
+    "tokenSymbol": "vETH",
+    "chainId": 11155111,
+    "rpcUrl": "https://rpc.sepolia.org",
+    "explorerUrl": "https://sepolia.etherscan.io",
+    "faucetUrl": "https://vlayer.xyz/faucet",
+    "alternativeFaucets": [
+      {
+        "name": "vlayer Developer Portal",
+        "url": "https://docs.vlayer.xyz"
+      }
+    ],
+    "dripAmount": "0.2 vETH",
+    "frequency": "Every 24 Hours",
+    "requirements": "Web3 wallet connection (Rabby/Rainbow)",
+    "status": "online",
+    "description": "Dedicated faucet for testing vlayer zero-knowledge coprocessor smart contracts, historical time-travel queries, and client-side zk-TLS Web Proofs."
+  },
+  {
+    "id": "rome-protocol-faucet",
+    "name": "Rome Shared Sequencer Faucet",
+    "network": "Rome Rollup Testnet",
+    "category": "Modular & DA",
+    "tokenSymbol": "ROME",
+    "chainId": 8808,
+    "rpcUrl": "https://testnet-rpc.romeprotocol.xyz",
+    "explorerUrl": "https://explorer.romeprotocol.xyz",
+    "faucetUrl": "https://romeprotocol.xyz/faucet",
+    "alternativeFaucets": [
+      {
+        "name": "Rome Community Hub",
+        "url": "https://discord.gg/romeprotocol"
+      }
+    ],
+    "dripAmount": "1.0 ROME",
+    "frequency": "Every 24 Hours",
+    "requirements": "Solana or EVM Wallet address input",
+    "status": "online",
+    "description": "Official faucet for Rome Protocol, testing Solana-based shared sequencing for Ethereum rollups and sub-second atomic cross-rollup swaps."
+  },
+  {
+    "id": "superposition-l3-faucet",
+    "name": "Superposition Layer 3 Faucet",
+    "network": "Superposition Testnet (Arbitrum Orbit)",
+    "category": "Ethereum L1/L2",
+    "tokenSymbol": "SPN",
+    "chainId": 55244,
+    "rpcUrl": "https://testnet-rpc.superposition.so",
+    "explorerUrl": "https://testnet-explorer.superposition.so",
+    "faucetUrl": "https://faucet.superposition.so",
+    "alternativeFaucets": [
+      {
+        "name": "Arbitrum Sepolia Bridge",
+        "url": "https://bridge.superposition.so"
+      }
+    ],
+    "dripAmount": "0.1 SPN",
+    "frequency": "Every 24 Hours",
+    "requirements": "Arbitrum Sepolia gas balance",
+    "status": "online",
+    "description": "Official testnet faucet for Superposition yield-centric Layer 3 with Stylus support. Used to test Longcat AMM fee-subsidized swaps and Utility Mining yield streaming."
+  },
+  {
+    "id": "sahara-ai-faucet",
+    "name": "Sahara AI Testnet Faucet",
+    "network": "Sahara Testnet",
+    "category": "Next-Gen L1",
+    "tokenSymbol": "SAHARA",
+    "chainId": 313313,
+    "rpcUrl": "https://testnet-rpc.saharalabs.ai",
+    "explorerUrl": "https://explorer.saharalabs.ai",
+    "faucetUrl": "https://faucet.saharalabs.ai",
+    "alternativeFaucets": [
+      {
+        "name": "Sahara AI Knowledge Faucet",
+        "url": "https://discord.gg/saharalabs"
+      }
+    ],
+    "dripAmount": "2.0 SAHARA",
+    "frequency": "Every 24 Hours",
+    "requirements": "Social verification & human proof challenge",
+    "status": "online",
+    "description": "Official faucet for Sahara AI decentralized collaborative intelligence network, supporting knowledge asset tokenization and collaborative AI agent training."
+  },
+  {
+    "id": "fractal-bitcoin-faucet",
+    "name": "Fractal Bitcoin Testnet Faucet",
+    "network": "Fractal Bitcoin Testnet",
+    "category": "Bitcoin L2",
+    "tokenSymbol": "tFB",
+    "chainId": 0,
+    "rpcUrl": "https://mempool.fractalbitcoin.io/testnet/api",
+    "explorerUrl": "https://mempool.fractalbitcoin.io/testnet",
+    "faucetUrl": "https://faucet.fractalbitcoin.io",
+    "alternativeFaucets": [
+      {
+        "name": "Fractal Community Faucet",
+        "url": "https://discord.gg/fractalbitcoin"
+      }
+    ],
+    "dripAmount": "0.01 tFB",
+    "frequency": "Every 12 Hours",
+    "requirements": "Bitcoin testnet wallet address (UniSat / Xverse)",
+    "status": "high-demand",
+    "description": "Official faucet for Fractal Bitcoin, natively scaling Bitcoin using recursive consensus virtualization. Tokens test BRC-20 and Runes asset transfers."
+  },
+  {
     id: 'berachain-bartio',
     name: 'Berachain Bartio Faucet',
     network: 'Berachain Bartio (Testnet)',
