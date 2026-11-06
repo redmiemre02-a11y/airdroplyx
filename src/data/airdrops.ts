@@ -35,6 +35,166 @@ export interface Airdrop {
 
 export const airdrops: Airdrop[] = [
   {
+    "id": "fairblock",
+    "name": "Fairblock",
+    "logo": "/images/airdrops/fairblock.svg",
+    "description": "Dynamic conditional encryption and pre-execution privacy protocol neutralizing predatory MEV and front-running on EVM rollups.",
+    "reward": "FairyRing Points & $FAIR Protocol Allocation",
+    "category": "Modular Privacy & MEV Defense",
+    "featured": true,
+    "status": "active",
+    "endTime": "2026-12-31T23:59:59Z",
+    "funding": "$2.5M+",
+    "investors": "Galileo, Robot Ventures, GSR, Divergence Ventures",
+    "refLink": "https://fairblock.network",
+    "overview": "Fairblock is a modular conditional encryption and pre-execution privacy framework designed to solve the chronic frontrunning and sandwich attack epidemic across decentralized finance. In standard public blockchains, pending transactions wait in a transparent mempool where automated predatory MEV searchers extract billions by reordering and front-running trades.\n\nFairblock solves this through dynamic identity-based encryption (IBE) and witness encryption. User transactions are encrypted client-side and remain confidential until the moment they are definitively sequenced and included within a validated block. Once sequenced, the Fairblock FairyRing consensus network automatically decrypts and executes the payload, making frontrunning mathematically impossible.\n\nBacked by $2.5M in funding from Robot Ventures and Galileo, Fairblock is running the FairyRing testnet, allowing traders, liquidity providers, and developers to test private limit orders and MEV-shielded swaps.",
+    "tokenomics": "The $FAIR token coordinates decentralized key generation (DKG) nodes, secures conditional threshold decryption committees, and distributes protocol protection fees. 16% of total genesis tokens are designated for early testnet traders and FairyRing cryptographic node operators.",
+    "sybilSafety": "Fairblock tracks verifiable encrypted transaction volume and active key generation participation. Automated spam scripts that generate empty non-decryptable payloads are slashed from point accumulation.",
+    "strategy": "To maximize FairyRing Points and positioning for the $FAIR airdrop:\n\n1. Connect your Web3 wallet (Rabby or Rainbow) to the Fairblock FairyRing portal.\n2. Claim testnet gas from the official Fairblock faucet.\n3. Execute private MEV-shielded swaps and conditional limit orders on the testnet demo app.\n4. Participate in conditional time-lock transaction demos.\n5. Join the Fairblock Discord to claim verified tester roles and track weekly leaderboard scores.",
+    "steps": [
+      "Access the official <a href=\"https://fairblock.network\" target=\"_blank\" rel=\"noopener noreferrer\">Fairblock Network Hub</a>.",
+      "Connect your Web3 wallet (such as Rabby or Rainbow) to FairyRing Testnet.",
+      "Claim testnet tokens via the developer faucet.",
+      "Execute an encrypted private swap on the FairyRing DEX demo.",
+      "Test conditional time-locked transactions that execute at predetermined block heights.",
+      "Check your transaction confirmation and points status on the FairyRing explorer."
+    ],
+    "faqs": [
+      {
+        "question": "What is Pre-Execution Privacy?",
+        "answer": "Pre-execution privacy keeps transaction parameters hidden while in the mempool, only revealing and executing them once their block position is securely locked."
+      },
+      {
+        "question": "Does Fairblock work on standard EVM rollups?",
+        "answer": "Yes, Fairblock is modular and integrates with OP Stack rollups, Arbitrum Orbit, Cosmos app-chains, and Ethereum L2s."
+      },
+      {
+        "question": "Are testnet funds free?",
+        "answer": "Yes, testing on Fairblock FairyRing utilizes free testnet tokens from authenticated faucets."
+      }
+    ]
+  },
+  {
+    "id": "openvm",
+    "name": "OpenVM",
+    "logo": "/images/airdrops/openvm.svg",
+    "description": "The open-standard modular Zero-Knowledge Virtual Machine (zkVM) enabling custom Rust instruction extensions and hardware acceleration.",
+    "reward": "OpenVM Developer Credits & Genesis Prover Share",
+    "category": "Modular zkVM & Infrastructure",
+    "featured": true,
+    "status": "active",
+    "endTime": "2026-12-31T23:59:59Z",
+    "funding": "Axiom & Paradigm Ecosystem Backed",
+    "investors": "Axiom, Paradigm Research Alumni, Modular Capital",
+    "refLink": "https://openvm.dev",
+    "overview": "OpenVM is an open-source, extensible Zero-Knowledge Virtual Machine designed from the ground up for maximum developer modularity and high-speed Rust execution. While legacy zkVMs constrain developers to fixed instruction sets that struggle with complex cryptographic hashing or signature verification, OpenVM introduces a pluggable architecture where engineers can define custom cryptographic opcodes in software.\n\nBy creating hardware-accelerated instruction extensions for Keccak, SHA-256, and elliptic curve arithmetic, OpenVM reduces zero-knowledge proof generation overhead by over 70% compared to monolithic virtual machines. The system enables developers to write standard Rust applications that execute with succinct, verifiable cryptographic guarantees.\n\nBacked by leading zero-knowledge researchers from the Axiom and Paradigm ecosystems, OpenVM is running its developer testnet and prover benchmarking challenge, rewarding teams that write extensions and verify computational workloads.",
+    "tokenomics": "The OpenVM protocol token aligns decentralized prover clusters, funds community instruction extension development, and governs core zkVM architectural standards. 15% of genesis allocation is set aside for early circuit contributors, extension authors, and prover benchmark runners.",
+    "sybilSafety": "Contributions require submitting verified SNARK proof receipts and passing GitHub developer pull-request code reviews. Automated script bots cannot fake zero-knowledge proof generation.",
+    "strategy": "The optimal strategy to position for OpenVM rewards:\n\n1. Connect your Web3 wallet (Rabby) to the OpenVM developer console.\n2. Clone the OpenVM open-source repository and compile a sample Rust zkVM guest program.\n3. Implement or test a custom instruction extension in the OpenVM testing harness.\n4. Run local or cloud prover benchmarks and submit verified execution receipts.\n5. Star and fork the official GitHub repository and join technical community developer calls.",
+    "steps": [
+      "Visit the official <a href=\"https://openvm.dev\" target=\"_blank\" rel=\"noopener noreferrer\">OpenVM Portal</a>.",
+      "Connect your Web3 wallet (such as Rabby) to the developer sandbox.",
+      "Download the OpenVM Rust CLI and toolchain.",
+      "Compile a basic verifiable program and generate an execution proof.",
+      "Submit the proof receipt to the OpenVM on-chain verification contract on Sepolia.",
+      "Track your verified proof metrics and benchmark scores on the developer leaderboard."
+    ],
+    "faqs": [
+      {
+        "question": "What is OpenVM?",
+        "answer": "OpenVM is a modular, open-standard zkVM that allows developers to add custom cryptographic extensions to accelerate Rust code execution."
+      },
+      {
+        "question": "How is OpenVM different from other zkVMs?",
+        "answer": "Unlike monolithic zkVMs with fixed instruction sets, OpenVM lets developers plug in dedicated circuits for specific operations like Keccak or BLS signatures."
+      },
+      {
+        "question": "Do I need Rust experience to participate?",
+        "answer": "Basic Rust understanding is recommended for developers; non-developers can participate through community benchmarking and tester node telemetry."
+      }
+    ]
+  },
+  {
+    "id": "playtron",
+    "name": "Playtron",
+    "logo": "/images/airdrops/playtron.svg",
+    "description": "Sovereign Web3 & open gaming operating system unifying PC gaming libraries with decentralized asset custody (SuiPlay0X1 partner).",
+    "reward": "Playtron Gamer XP & Protocol Allocation",
+    "category": "Gaming OS & DePIN",
+    "featured": true,
+    "status": "active",
+    "endTime": "2026-12-31T23:59:59Z",
+    "funding": "$10M",
+    "investors": "Polychain Capital, Samsung Next, Circle Ventures, Mysten Labs",
+    "refLink": "https://playtron.one",
+    "overview": "Playtron is an open, Linux-based gaming operating system engineered to liberate video game players and developers from closed corporate storefront monopolies (such as Apple and Valve). Partnered with Mysten Labs to power the groundbreaking SuiPlay0X1 handheld gaming console, Playtron allows players to access their existing PC game libraries alongside decentralized Web3 games and digital collectibles within a unified console-grade interface.\n\nPlaytron integrates native self-custody wallet primitives directly into the OS kernel. Gamers can earn, trade, and store decentralized gaming assets, in-game skins, and tournament prizes without leaving their games or dealing with intrusive third-party browser popups.\n\nBacked by $10M in venture funding led by Polychain Capital and Samsung Next, Playtron is running the Playtron Pioneer Beta, rewarding early gamers, device testers, and community builders with Playtron Gamer XP ahead of the protocol token generation event.",
+    "tokenomics": "The Playtron token powers decentralized OS game store revenue sharing, anchors hardware device licensing incentives, and coordinates community game curation councils. 20% of the token supply is dedicated to early gamer rewards, handheld preorder testers, and indie game developers.",
+    "sybilSafety": "Playtron tracks verified gameplay hours, linked authentic gaming platform IDs, and hardware telemetry to filter out automated emulator bots.",
+    "strategy": "To maximize Playtron Gamer XP and positioning for the token airdrop:\n\n1. Connect your Web3 wallet (Phantom, Solflare, or Rabby) to the Playtron Pioneer Hub.\n2. Link your verified gaming identities and Discord credentials.\n3. Download and test the Playtron OS open beta or community emulator client.\n4. Play participating indie and Web3 partner games to earn gameplay telemetry XP.\n5. Complete weekly community gaming challenges and submit bug reports to claim tester badges.",
+    "steps": [
+      "Navigate to the official <a href=\"https://playtron.one\" target=\"_blank\" rel=\"noopener noreferrer\">Playtron Hub</a>.",
+      "Connect your Web3 wallet to register your gaming profile.",
+      "Link your active gaming credentials to prove human player history.",
+      "Participate in the Playtron OS Public Beta testing program.",
+      "Log gameplay sessions in verified Web3 gaming titles.",
+      "Monitor your accumulated Gamer XP on the official Pioneer leaderboard."
+    ],
+    "faqs": [
+      {
+        "question": "What is Playtron?",
+        "answer": "Playtron is an open gaming operating system for handheld devices and PCs that unifies traditional PC game stores with Web3 self-custodial asset ownership."
+      },
+      {
+        "question": "What is the SuiPlay0X1?",
+        "answer": "SuiPlay0X1 is the first native Web3 handheld gaming device, running Playtron OS and integrated with the Sui blockchain."
+      },
+      {
+        "question": "Can I test Playtron without dedicated hardware?",
+        "answer": "Yes, Playtron offers PC dual-boot ISOs and desktop test clients for participants without handheld devices."
+      }
+    ]
+  },
+  {
+    "id": "tadle",
+    "name": "Tadle",
+    "logo": "/images/airdrops/tadle.svg",
+    "description": "Decentralized pre-market infrastructure enabling trustless secondary liquidity for unvested airdrop points and pre-TGE allocations.",
+    "reward": "Tadle Points & Genesis Governance Rights",
+    "category": "DeFi / Pre-Market",
+    "featured": true,
+    "status": "active",
+    "endTime": "2026-12-31T23:59:59Z",
+    "funding": "$1.5M+",
+    "investors": "DeFi Syndicates, Web3 Capital Angels",
+    "refLink": "https://tadle.com",
+    "overview": "Tadle is the premier non-custodial pre-market infrastructure protocol designed to bring transparent price discovery and secondary liquidity to the multi-billion dollar airdrop points economy. Until now, users who farmed points across emerging protocols had to wait months or years with zero liquidity, exposed to unpredictable dilution and team delays.\n\nTadle introduces collateralized point settlement contracts and token voucher markets. Sellers lock collateral to guarantee future token delivery upon TGE, while buyers purchase future token entitlements at market-determined discounts. If a seller fails to settle upon token generation, the smart contract automatically slashes their collateral and compensates the buyer.\n\nTadle has surpassed $120M in cumulative pre-market trading volume across major protocols (including Monad, Berachain, and Linea points). Tadle is distributing platform points to early buyers, sellers, and liquidity providers ahead of its native token launch.",
+    "tokenomics": "The Tadle token captures trading protocol fees, governs pre-market collateral ratios, and provides staking yields for trade dispute arbiters. 14% of the supply is earmarked for early testnet and mainnet pre-market traders.",
+    "sybilSafety": "Tadle enforces strict collateral requirements for all open orders, making automated Sybil spam financially punitive and economically unviable.",
+    "strategy": "The optimal strategy to position for Tadle rewards:\n\n1. Connect your Web3 wallet (Rabby or Rainbow) to the official Tadle application.\n2. Explore available pre-market points listings across active airdrop campaigns.\n3. Place limit buy orders or list points for sale backed by stable collateral.\n4. Provide liquidity to the pre-market collateral clearing vaults.\n5. Maintain continuous trading activity across multiple distinct points markets.",
+    "steps": [
+      "Access the official <a href=\"https://tadle.com\" target=\"_blank\" rel=\"noopener noreferrer\">Tadle Pre-Market DEX</a>.",
+      "Connect your Web3 wallet (such as Rabby).",
+      "Deposit collateral to activate trading capacity.",
+      "Browse active pre-TGE point listings (Monad, Berachain, Linea).",
+      "Execute a buy or sell trade in the order book.",
+      "Track your verified volume and accumulated Tadle Points in the portfolio dashboard."
+    ],
+    "faqs": [
+      {
+        "question": "What is Tadle?",
+        "answer": "Tadle is a non-custodial pre-market decentralized platform allowing users to buy and sell unvested airdrop points and pre-TGE token allocations with collateral protection."
+      },
+      {
+        "question": "How are buyers protected if a seller defaults?",
+        "answer": "Sellers must lock sufficient collateral in smart contracts; if tokens are not delivered at TGE, the collateral is automatically transferred to the buyer as compensation."
+      },
+      {
+        "question": "Which networks does Tadle support?",
+        "answer": "Tadle operates on leading low-cost Layer 2 networks including Arbitrum and Base."
+      }
+    ]
+  },
+  {
     "id": "solayer",
     "name": "Solayer Labs",
     "logo": "/images/airdrops/solayer.svg",
