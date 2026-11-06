@@ -14,6 +14,86 @@ export interface NewsArticle {
 
 export const newsArticles: NewsArticle[] = [
   {
+    "slug": "concrete-protocol-credit-markets-testnet-launch",
+    "title": "Concrete Protocol Launches Credit Markets on Ethereum Layer 2 Supported by $7.5M Funding",
+    "excerpt": "Backed by Tribe Capital and Portal Ventures, Concrete introduces automated credit default swaps and debt derivatives to safeguard DeFi borrowing.",
+    "author": "Airdroplyx Senior Research Group",
+    "date": "November 6, 2026",
+    "readTime": "6 min read",
+    "category": "DeFi & Structured Credit",
+    "image": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=1200&h=675&fit=crop&q=80",
+    "tags": [
+      "Concrete Protocol",
+      "DeFi Credit",
+      "Tribe Capital",
+      "Structured Finance",
+      "Layer 2",
+      "Risk Management"
+    ],
+    "relatedAirdropId": "concrete-protocol",
+    "content": "## Eliminating Cascading Liquidation Risk in Decentralized Finance\n\n**Concrete Protocol**, the institutional credit and structured debt protocol engineered to modernize decentralized borrowing, has officially launched its public testnet on Ethereum Layer 2. Backed by **$7.5 Million** in venture financing led by **Tribe Capital**, **Portal Ventures**, and **Hashed**, Concrete addresses the core vulnerability that has hindered institutional capital from entering DeFi: unpredictable liquidation cascades.\n\nIn standard DeFi money markets, market flash crashes trigger automated liquidations that dump collateral into illiquid markets, driving prices further downward and creating bad debt for protocols. Concrete resolves this through automated credit default swaps (CDS) and algorithmic protection reserves.\n\n## Platform Architecture and Key Innovations\n\n* **Quantitative Protection Vaults**: Borrowers pay fractional protection fees to secure downside liquidation immunity.\n* **Institutional Yield Tranches**: Lenders choose between senior insured tranches with guaranteed APY or junior yield tranches capturing higher fee premiums.\n* **Blueprint Points Program**: Early depositors and borrowers testing credit vaults accumulate points ahead of the protocol's upcoming token generation event.\n\nConcrete's structured credit infrastructure provides the risk-management foundation necessary to attract institutional debt desks to on-chain capital markets."
+  },
+  {
+    "slug": "union-zero-knowledge-interoperability-testnet-milestone",
+    "title": "Union Reaches 500,000 Cross-Chain Proofs on Modular Zero-Knowledge Bridge Testnet",
+    "excerpt": "Powered by BLS consensus proofs and light client verification, Union connects Ethereum and Cosmos ecosystems without trusted multi-signature relays.",
+    "author": "Airdroplyx Senior Research Group",
+    "date": "November 6, 2026",
+    "readTime": "5 min read",
+    "category": "ZK Interoperability & Bridges",
+    "image": "https://images.unsplash.com/photo-1639762681485-074b7f938ba0?w=1200&h=675&fit=crop&q=80",
+    "tags": [
+      "Union",
+      "Zero Knowledge",
+      "Interoperability",
+      "Cosmos",
+      "Ethereum",
+      "IBC"
+    ],
+    "relatedAirdropId": "union",
+    "content": "## Replacing Multi-Sig Bridges with Mathematical Cryptography\n\n**Union**, the modular zero-knowledge interoperability layer connecting disparate blockchain ecosystems, has officially surpassed **500,000 verified cross-chain consensus proofs** on its public testnet. Backed by **$4 Million** in seed funding from **Galileo**, **Semantic Ventures**, and **Tioga Capital**, Union represents a critical architectural upgrade for cross-chain communications.\n\nOver $2.8 Billion has been lost in bridge exploits throughout crypto history due to vulnerable multi-signature committees and compromised validator keys. Union eliminates trusted intermediaries by verifying source chain consensus directly within zero-knowledge cryptographic light clients.\n\n## Core Advantages of Union Interoperability\n\n* **BLS Consensus Proofs**: Verifies state transitions mathematically rather than relying on human committee attestations.\n* **Cosmos IBC to EVM Rollups**: Natively connects Cosmos chains to Ethereum Layer 1, Arbitrum, and OP Stack rollups.\n* **Sub-Second Proof Generation**: Succinct proofs verify on-chain for mere fractions of a cent in gas.\n\nAs modular ecosystems expand across hundreds of independent chains, Union's trustless verification infrastructure is setting the security benchmark for Web3 interoperability."
+  },
+  {
+    "slug": "elys-network-launches-oracle-driven-dex-mainnet-readiness",
+    "title": "Elys Network Surpasses 1.5 Million Testnet Swaps on Oracle-Driven Layer 1 Ahead of Mainnet",
+    "excerpt": "Cosmos-based Elys Network eliminates DEX slippage with Pyth-integrated oracle pricing and non-inflationary yield distribution to liquidity providers.",
+    "author": "Airdroplyx Senior Research Group",
+    "date": "November 6, 2026",
+    "readTime": "5 min read",
+    "category": "Layer 1 & DEX Infrastructure",
+    "image": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=1200&h=675&fit=crop&q=80",
+    "tags": [
+      "Elys Network",
+      "Cosmos",
+      "Oracle AMM",
+      "Real Yield",
+      "DeFi",
+      "Pyth Network"
+    ],
+    "relatedAirdropId": "elys-network",
+    "content": "## Sustainable Real-Yield Trading Arrives on Cosmos\n\n**Elys Network**, the dedicated decentralized finance Layer 1 blockchain engineered on the Cosmos SDK, has announced that testnet activity has exceeded **1.5 Million completed decentralized swaps** ahead of its mainnet launch. Supported by institutional Cosmos validators and **$2.5 Million+** in seed capital, Elys solves the sustainability crisis facing decentralized exchanges.\n\nMost decentralized trading platforms rely on inflationary governance token printing to attract liquidity, resulting in steep token dilution and impermanent loss for liquidity providers. Elys replaces constant-product curves with an Oracle-driven AMM powered by real-time Pyth Network pricing feeds.\n\n## Platform Innovations and Financial Architecture\n\n* **Zero Slippage Execution**: Swaps execute at exact institutional oracle spot prices without frontrunning.\n* **100% Real-Yield Distribution**: Protocol trading fees are distributed directly to stakers and LPs in stablecoins and native gas tokens.\n* **Integrated 50x Perpetual Engine**: Native leveraged trading integrated with on-chain risk clearing vaults.\n\nWith Season 3 testnet XP concluding, Elys Network is preparing to deliver institutional-grade trading infrastructure to the Cosmos ecosystem."
+  },
+  {
+    "slug": "boundless-pay-launches-zk-powered-web3-debit-card-beta",
+    "title": "Boundless Pay Deploys Zero-Knowledge Web3 Neo-Banking Platform with Global Debit Cards",
+    "excerpt": "Bridging decentralized self-custodial assets with real-world card terminals, Boundless Pay introduces privacy-preserving payment settlement.",
+    "author": "Airdroplyx Senior Research Group",
+    "date": "November 6, 2026",
+    "readTime": "5 min read",
+    "category": "Web3 Neo-Banking & Payments",
+    "image": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=1200&h=675&fit=crop&q=80",
+    "tags": [
+      "Boundless Pay",
+      "Web3 Payments",
+      "Neo-Banking",
+      "Debit Cards",
+      "Zero Knowledge",
+      "DeFi"
+    ],
+    "relatedAirdropId": "boundless-pay",
+    "content": "## Self-Custody Meets Everyday Global Commerce\n\n**Boundless Pay**, the digital neo-banking platform bridging decentralized cryptocurrency custody with global retail commerce, has launched the public beta of its **Zero-Knowledge Web3 Debit Card** service across supported mobile and web platforms.\n\nTraditionally, spending crypto in daily life required depositing assets to centralized intermediaries, waiting through withdrawal holds, and compromising privacy. Boundless Pay enables users to maintain 100% self-custody of their crypto until the exact microsecond a card swipe occurs at any of 60 million global payment terminals.\n\n## Highlights of the Boundless Pay Platform\n\n* **Non-Custodial Architecture**: Assets remain securely in your Web3 wallet (Rabby, Phantom) until POS terminal authorization.\n* **Zero-Knowledge Privacy Settlement**: zk-SNARKs protect sensitive personal transaction history while adhering to international compliance rules.\n* **Instant Crypto-to-Fiat Conversion**: Automated Layer 2 liquidity routing converts stablecoins to local fiat currencies in under 2 seconds.\n\nWith virtual debit card issuance and peer-to-peer cross-border payments now live in beta, Boundless Pay is making self-custodial crypto usable for daily retail commerce."
+  },
+  {
     "slug": "fairblock-fairyring-testnet-conditional-encryption",
     "title": "Fairblock Launches FairyRing Testnet Bringing Conditional Encryption to EVM Rollups",
     "excerpt": "Backed by Robot Ventures, Fairblock introduces pre-execution privacy, neutralizing frontrunning and malicious MEV across decentralized exchanges.",

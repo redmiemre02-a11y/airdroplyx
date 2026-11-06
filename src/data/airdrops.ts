@@ -35,6 +35,166 @@ export interface Airdrop {
 
 export const airdrops: Airdrop[] = [
   {
+    "id": "concrete-protocol",
+    "name": "Concrete Protocol",
+    "logo": "/images/airdrops/concrete-protocol.svg",
+    "description": "Institutional credit and debt derivatives framework eliminating liquidation cascades and protecting DeFi loan collateral.",
+    "reward": "Concrete Blueprint Points & $CONCRETE Allocation",
+    "category": "DeFi / Credit & Debt",
+    "featured": true,
+    "status": "active",
+    "endTime": "2026-12-31T23:59:59Z",
+    "funding": "$7.5M",
+    "investors": "Tribe Capital, Portal Ventures, Hashed, Seed Club Ventures",
+    "refLink": "https://concrete.xyz",
+    "overview": "Concrete Protocol is an institutional-grade credit and structured debt derivatives infrastructure built to solve the fragility of decentralized lending markets. In legacy DeFi money markets, sudden market drawdowns trigger cascading liquidations that wipe out borrower collateral and cause bad debt for lending protocols.\n\nConcrete introduces automated credit default swaps (CDS) and quantitative protection vaults. Borrowers pay fractional protection fees to secure downside liquidation immunity, while lenders earn elevated risk-adjusted yields backed by quantitative reserve buffers. By transforming speculative variable debt into predictable fixed-income tranches, Concrete unlocks institutional debt capital for Web3.\n\nBacked by $7.5M in venture funding led by Tribe Capital and Portal Ventures, Concrete is running the Blueprint Points campaign, incentivizing early borrowers, depositors, and credit vault liquidity providers.",
+    "tokenomics": "The $CONCRETE token governs credit parameter risks, sets protocol reserve insurance ratios, and distributes credit protection fees. 15% of the total token generation supply is dedicated to early vault depositors and liquidity pioneers.",
+    "sybilSafety": "Concrete tracks verifiable capital deposit durations and credit position tenure. Flash-loan deposits and micro-churning across single blocks receive zero Blueprint point multipliers.",
+    "strategy": "To maximize Concrete Blueprint Points and positioning for the $CONCRETE airdrop:\n\n1. Connect your Web3 wallet (Rabby or Rainbow) to the Concrete Protocol app.\n2. Deposit collateral assets (ETH, stETH, or USDC) into active credit protection vaults.\n3. Borrow against protected positions to test downside liquidation prevention.\n4. Maintain steady liquidity across consecutive weekly epochs.\n5. Compound accrued deposit yields back into the primary insurance reserve.",
+    "steps": [
+      "Access the official <a href=\"https://concrete.xyz\" target=\"_blank\" rel=\"noopener noreferrer\">Concrete Protocol Portal</a>.",
+      "Connect your Web3 wallet (such as Rabby or Rainbow).",
+      "Navigate to the Vaults tab and select a supported collateral pair.",
+      "Deposit collateral into the automated protection vault.",
+      "Activate credit default coverage on active borrowing lines.",
+      "Monitor your accumulated Blueprint Points on the rewards dashboard."
+    ],
+    "faqs": [
+      {
+        "question": "What is Concrete Protocol?",
+        "answer": "Concrete is a DeFi structured credit and debt protection protocol that eliminates sudden liquidation cascades for crypto borrowers."
+      },
+      {
+        "question": "How does Concrete prevent liquidations?",
+        "answer": "Concrete utilizes automated credit default swaps and algorithmic reserve buffers that absorb market shocks before positions reach insolvency."
+      },
+      {
+        "question": "Which networks are supported?",
+        "answer": "Concrete deploys on Ethereum mainnet and leading Layer 2 networks including Arbitrum and Base."
+      }
+    ]
+  },
+  {
+    "id": "union",
+    "name": "Union",
+    "logo": "/images/airdrops/union.svg",
+    "description": "Zero-Knowledge modular interoperability layer connecting Cosmos, Ethereum rollups, and EVM chains using BLS consensus proofs.",
+    "reward": "Union Testnet Credits & Genesis Allocation",
+    "category": "Modular ZK Interoperability",
+    "featured": true,
+    "status": "active",
+    "endTime": "2026-12-31T23:59:59Z",
+    "funding": "$4M",
+    "investors": "Galileo, Semantic Ventures, Tioga Capital, Nascent",
+    "refLink": "https://union.build",
+    "overview": "Union is a zero-knowledge cross-chain interoperability protocol engineered to establish trustless, high-speed message and liquidity transmission across sovereign blockchains. While traditional bridges rely on trusted multi-signature committees—introducing the greatest security attack surface in crypto history—Union utilizes succinct zero-knowledge consensus proofs and state light clients.\n\nUnion generates BLS signature verification proofs to mathematically attest to the state of one blockchain on another without intermediary relays or centralized validators. The protocol seamlessly links the Cosmos Inter-Blockchain Communication (IBC) framework with Ethereum Layer 1, OP Stack rollups, and Arbitrum Orbit chains.\n\nBacked by $4M in funding led by Galileo and Semantic Ventures, Union is running its incentivized testnet, allowing users and developers to execute trustless cross-chain asset transfers and earn testnet participation credits.",
+    "tokenomics": "The Union token coordinates decentralized prover relayers, provides economic staking security for cross-chain channels, and pays for ZK proof verification gas. 16% of total genesis tokens are set aside for early cross-chain testers, relayers, and developer ecosystem grants.",
+    "sybilSafety": "Union verifies cryptographic light client header transitions and cross-chain execution proofs. Repetitive zero-value spam calls that fail state proof verification are excluded from reward accounting.",
+    "strategy": "The optimal strategy to position for Union rewards:\n\n1. Connect your Web3 wallet (Rabby for EVM, Keplr or Leap for Cosmos) to the Union Testnet.\n2. Claim testnet gas tokens from the integrated faucet.\n3. Execute trustless cross-chain token transfers between Sepolia and Cosmos testnets.\n4. If running developer tooling, deploy a test contract utilizing Union IBC message passing.\n5. Complete community developer bounties and track verified transactions on Union Scan.",
+    "steps": [
+      "Visit the official <a href=\"https://union.build\" target=\"_blank\" rel=\"noopener noreferrer\">Union Interoperability Hub</a>.",
+      "Connect your EVM wallet (Rabby) and Cosmos wallet (Keplr).",
+      "Claim testnet tokens via the Union faucet.",
+      "Execute cross-chain transfers between supported testnet zones.",
+      "Inspect the generated zero-knowledge consensus proof on the Union block explorer.",
+      "Join the official Discord and register your wallet for testnet credit tracking."
+    ],
+    "faqs": [
+      {
+        "question": "What makes Union different from traditional bridges?",
+        "answer": "Union does not use trusted multi-sig validators; it uses mathematical zero-knowledge consensus proofs and light clients to verify transactions trustlessly."
+      },
+      {
+        "question": "Which ecosystems does Union connect?",
+        "answer": "Union bridges Ethereum L1, Ethereum Layer 2 rollups, and the Cosmos IBC ecosystem."
+      },
+      {
+        "question": "Are testnet funds free?",
+        "answer": "Yes, testing on Union uses free testnet tokens from authenticated community faucets."
+      }
+    ]
+  },
+  {
+    "id": "elys-network",
+    "name": "Elys Network",
+    "logo": "/images/airdrops/elys-network.svg",
+    "description": "Fast Layer 1 built on Cosmos SDK with Oracle-driven AMM, non-inflationary DEX yields, and native Bitcoin bridging.",
+    "reward": "Elys Testnet XP & $ELYS Staking Allocation",
+    "category": "Cosmos Layer 1 / DeFi",
+    "featured": true,
+    "status": "active",
+    "endTime": "2026-12-31T23:59:59Z",
+    "funding": "$2.5M+",
+    "investors": "Karatage, Commercio, Institutional Cosmos Validators",
+    "refLink": "https://elys.network",
+    "overview": "Elys Network is an all-in-one decentralized financial Layer 1 blockchain engineered using the Cosmos SDK and CometBFT consensus. Unlike conventional DEXs that suffer from impermanent loss and rely on highly dilutive inflationary token printing to attract liquidity, Elys features an Oracle-driven Automated Market Maker (AMM) that quotes institutional pricing directly from Pyth and decentralized oracle feeds.\n\nElys integrates spot trading, perpetual leverage up to 50x, non-custodial index funds, and native Bitcoin bridging into a single unified trading environment. Protocol trading fees are distributed directly to liquidity providers and $ELYS stakers in USDC and native gas tokens, creating a non-inflationary real-yield economy.\n\nElys has concluded over 1.5 million testnet swaps and is distributing testnet XP across multiple seasons ahead of the mainnet genesis token generation event.",
+    "tokenomics": "The $ELYS token powers Proof-of-Stake validator consensus, captures 100% of protocol real-yield fee distributions, and directs decentralized index fund allocations. 18% of the genesis supply is designated for testnet users, liquidity contributors, and Cosmos community stakers.",
+    "sybilSafety": "Elys tracks cumulative trading volume, multi-asset portfolio balancing, and consistent weekly testnet participation to disqualify automated single-session bot scripts.",
+    "strategy": "To maximize Elys Testnet XP and positioning for the $ELYS airdrop:\n\n1. Connect your Cosmos Web3 wallet (Keplr or Leap) to the Elys Network testnet portal.\n2. Claim testnet tokens (USDC, ELYS, BTC) from the integrated daily faucet.\n3. Execute spot swaps and test perpetual leverage trades on the Oracle AMM.\n4. Deposit liquidity into multi-asset liquidity pools to earn real-yield rewards.\n5. Stake testnet ELYS tokens to validators to accumulate governance staking points.",
+    "steps": [
+      "Access the official <a href=\"https://elys.network\" target=\"_blank\" rel=\"noopener noreferrer\">Elys Network App</a>.",
+      "Connect your Cosmos wallet (such as Keplr or Leap).",
+      "Claim daily faucet assets in the Faucet tab.",
+      "Swap tokens on the Oracle-driven AMM interface.",
+      "Open a test perpetual position and provide liquidity into core pools.",
+      "Track your verified testnet XP on the community leaderboard."
+    ],
+    "faqs": [
+      {
+        "question": "What is Elys Network?",
+        "answer": "Elys is a Cosmos SDK Layer 1 blockchain offering an Oracle-driven DEX, perpetual trading, native Bitcoin integration, and non-inflationary real yields."
+      },
+      {
+        "question": "How does the Oracle AMM eliminate impermanent loss?",
+        "answer": "By using real-time oracle price feeds rather than constant-product curves, Elys prices trades with zero slippage and mitigates toxic arbitrage."
+      },
+      {
+        "question": "What wallets work with Elys?",
+        "answer": "All major self-custodial Cosmos wallets are supported, including Keplr, Leap, and Cosmostation."
+      }
+    ]
+  },
+  {
+    "id": "boundless-pay",
+    "name": "Boundless Pay",
+    "logo": "/images/airdrops/boundless-pay.svg",
+    "description": "Zero-Knowledge digital neobank providing non-custodial Web3 debit cards, cross-border payments, and instant crypto-to-fiat merchant settlement.",
+    "reward": "Boundless Genesis Points & Card Fee Dividends",
+    "category": "Web3 Payments & Neo-Banking",
+    "featured": true,
+    "status": "active",
+    "endTime": "2026-12-31T23:59:59Z",
+    "funding": "FinTech & Web3 Venture Syndicates",
+    "investors": "FinTech Venture Partners, Digital Asset Angels",
+    "refLink": "https://boundlesspay.com",
+    "overview": "Boundless Pay is a next-generation decentralized neo-banking protocol designed to bridge self-custodial cryptocurrency holdings with real-world financial commerce. While traditional off-ramps require arduous bank transfers and centralized custody, Boundless Pay introduces non-custodial virtual and physical Web3 debit cards powered by zero-knowledge payment settlement.\n\nCardholders spend their decentralized stablecoins and digital assets directly at over 60 million global payment terminals, with settlement converting instantaneously via automated on-chain liquidity routing. Boundless Pay incorporates zk-SNARK verification to protect user identity and transaction privacy while complying with international travel rule standards.\n\nBoundless Pay is operating its global Pioneer beta, allowing early Web3 users to register digital accounts, test cross-border virtual payments, and accumulate Boundless Genesis Points.",
+    "tokenomics": "The native Boundless token captures a share of global merchant interchange fees, grants card tier upgrades, and provides cash-back staking rewards. 14% of the token supply is set aside for early card testers and transaction volume participants.",
+    "sybilSafety": "Boundless Pay enforces multi-factor device verification and proof-of-humanity checks, preventing multi-account farming syndicates from abusing platform points.",
+    "strategy": "The optimal strategy to position for Boundless Pay rewards:\n\n1. Connect your Web3 wallet (Rabby, Rainbow, or Phantom) to the Boundless Pay portal.\n2. Complete decentralized account onboarding and set up a virtual Web3 card.\n3. Execute peer-to-peer cross-border test payments across supported Layer 2 networks.\n4. Complete daily app check-ins and claim Pioneer tester badges.\n5. Refer verified Web3 peers to earn referral tier multipliers.",
+    "steps": [
+      "Visit the official <a href=\"https://boundlesspay.com\" target=\"_blank\" rel=\"noopener noreferrer\">Boundless Pay Hub</a>.",
+      "Connect your Web3 wallet to initialize your neo-banking profile.",
+      "Request a virtual testnet Web3 payment card.",
+      "Execute a testnet merchant transaction using stablecoin collateral.",
+      "Test instant cross-border peer-to-peer transfers.",
+      "Monitor your accumulated Boundless Points on the dashboard."
+    ],
+    "faqs": [
+      {
+        "question": "What is Boundless Pay?",
+        "answer": "Boundless Pay is a non-custodial Web3 neo-bank providing global debit cards and cross-border payment settlement from self-custodial wallets."
+      },
+      {
+        "question": "Do I have to surrender custody of my crypto?",
+        "answer": "No, funds remain in your self-custodial Web3 wallet until the exact second a card transaction is authorized."
+      },
+      {
+        "question": "Which networks are supported?",
+        "answer": "Boundless Pay operates across low-fee networks including Arbitrum, Base, and Solana."
+      }
+    ]
+  },
+  {
     "id": "fairblock",
     "name": "Fairblock",
     "logo": "/images/airdrops/fairblock.svg",
