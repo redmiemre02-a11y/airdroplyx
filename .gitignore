@@ -24,3 +24,6 @@ pnpm-debug.log*
 .idea/
 
 .vercel
+
+scratch/deploy_cf.mjs
+
