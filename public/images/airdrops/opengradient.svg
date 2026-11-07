@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100" height="100">
+  <defs>
+    <linearGradient id="ogGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FF512F" />
+      <stop offset="50%" stop-color="#DD2476" />
+      <stop offset="100%" stop-color="#7928CA" />
+    </linearGradient>
+  </defs>
+  <rect width="100" height="100" rx="22" fill="#0D0914" />
+  <!-- Neural gradient network mesh -->
+  <circle cx="50" cy="50" r="28" fill="none" stroke="url(#ogGrad)" stroke-width="3" stroke-dasharray="4 2" />
+  <circle cx="50" cy="32" r="6" fill="#FF512F" />
+  <circle cx="34" cy="58" r="6" fill="#DD2476" />
+  <circle cx="66" cy="58" r="6" fill="#7928CA" />
+  <path d="M50 32 L34 58 L66 58 Z" fill="none" stroke="#FFF" stroke-width="2" opacity="0.7" />
+  <!-- Center AI Node -->
+  <circle cx="50" cy="50" r="7" fill="url(#ogGrad)" />
+</svg>

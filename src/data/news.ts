@@ -13,6 +13,101 @@ export interface NewsArticle {
 }
 
 export const newsArticles: NewsArticle[] = [
+{
+  "slug": "fabric-cryptography-vpu-testnet-launch-33m-funding",
+  "title": "Fabric Cryptography Launches Verifiable Processing Unit Testnet Following $33M Series A Funding",
+  "excerpt": "Backed by Blockchain Capital and 1kx, Fabric Cryptography opens its developer testnet for custom hardware-accelerated zero-knowledge and FHE computations.",
+  "author": "Antigravity Research",
+  "date": "November 7, 2026",
+  "readTime": "4 min read",
+  "category": "Zero-Knowledge",
+  "image": "/images/airdrops/fabric-cryptography.svg",
+  "tags": [
+    "Fabric Cryptography",
+    "VPU",
+    "Hardware",
+    "Zero-Knowledge",
+    "Airdrop"
+  ],
+  "relatedAirdropId": "fabric-cryptography",
+  "content": "Fabric Cryptography announced the public developer testnet for its Verifiable Processing Unit (VPU) architecture following the completion of a $33 million Series A funding round co-led by Blockchain Capital and 1kx, with strategic participation from Offchain Labs and Polygon Ventures.\n\nThe cryptographic hardware acceleration market has emerged as one of the most critical frontiers in blockchain scalability. As zero-knowledge rollups and fully homomorphic encryption (FHE) protocols increase proof complexity, general-purpose CPUs and GPUs face substantial thermal and throughput constraints. Fabric's custom VPU architecture delivers dedicated silicon logic specifically optimized for polynomial arithmetic and multi-scalar multiplication (MSM).\n\nThrough the new developer testnet, engineers can compile circuits from Circom, Halo2, and Plonky3 directly into Fabric's hardware-accelerated prover registry. Fabric also unveiled an incentive program rewarding developers who test benchmark suites and provide cryptographic telemetry. With zero-knowledge proofs rapidly becoming the standard for cross-chain settlement, Fabric Cryptography's hardware infrastructure promises to reduce proof latency from minutes to milliseconds."
+},
+{
+  "slug": "opengradient-on-chain-ai-compute-layer-testnet",
+  "title": "OpenGradient Deploys Decentralized On-Chain AI Execution Layer with $8.5M Seed Backing",
+  "excerpt": "Supported by a16z CSX and leading AI innovators, OpenGradient enables smart contracts to natively execute neural network models and verifiable machine learning inferences.",
+  "author": "Antigravity Research",
+  "date": "November 7, 2026",
+  "readTime": "5 min read",
+  "category": "AI & DePIN",
+  "image": "/images/airdrops/opengradient.svg",
+  "tags": [
+    "OpenGradient",
+    "AI",
+    "DeFi",
+    "Machine Learning",
+    "Airdrop"
+  ],
+  "relatedAirdropId": "opengradient",
+  "content": "OpenGradient has deployed its public Sepolia testnet execution layer, marking a breakthrough in the convergence of decentralized finance and artificial intelligence. The protocol, supported by $8.5 million from a16z Crypto Startup Accelerator (CSX), SV Angel, and Coinbase Ventures, brings verifiable machine learning inference directly into the blockchain runtime.\n\nTraditional smart contracts are strictly deterministic and lack the capability to compute floating-point machine learning inferences natively. OpenGradient bridges this gap by offering a custom EVM execution framework where developers can deploy model weights directly on-chain and trigger inference calls within single-block transactions. Use cases demonstrated on the testnet include dynamic lending liquidation parameters, algorithmic liquidity rebalancing, and automated risk scoring.\n\nEarly participants can interact with testnet demonstration dApps, request faucet compute credits, and test machine learning inference contracts. OpenGradient has confirmed that early developer engagement, model deployments, and telemetry feedback will factor into future decentralized community governance and network incentive allocations."
+},
+{
+  "slug": "hemera-protocol-indexes-one-million-web3-identities",
+  "title": "Hemera Protocol Surpasses 1 Million Verified Web3 Account Identifiers on Modular Indexing Network",
+  "excerpt": "The User Account Network protocol achieves a historic indexing milestone, connecting multi-chain social graphs and identity scores across Ethereum, Base, and Arbitrum.",
+  "author": "Antigravity Research",
+  "date": "November 7, 2026",
+  "readTime": "4 min read",
+  "category": "SocialFi & Identity",
+  "image": "/images/airdrops/hemera-protocol.svg",
+  "tags": [
+    "Hemera Protocol",
+    "Account Abstraction",
+    "SocialFi",
+    "Identity",
+    "Airdrop"
+  ],
+  "relatedAirdropId": "hemera-protocol",
+  "content": "Hemera Protocol announced that its User Account Network (UAN) has officially indexed more than 1,000,000 unique Web3 identity credentials and social accounts across major EVM ecosystems, including Ethereum mainnet, Base, Arbitrum, and Optimism.\n\nBuilt to resolve fragmented on-chain data, Hemera acts as a decentralized intelligence layer that maps user activity, NFT holdings, governance participation, and social graph links into unified account abstraction profiles. By offering real-time indexing queries, Web3 applications can deliver customized user interfaces and sybil-resistant community distributions without compromising privacy.\n\nAlongside this milestone, Hemera revealed its updated Community Rewards Portal, allowing users holding the Hemera UAN Identity Pass to monitor their multi-chain reputation scores and complete ecosystem quests. With growing adoption among leading consumer dApps, Hemera is positioning itself as the core identity registry for the next generation of decentralized social applications."
+},
+{
+  "slug": "hinkal-protocol-confidential-defi-shielded-vaults-record-volume",
+  "title": "Hinkal Protocol Shielded Vaults Surpass $250 Million in Institutional Confidential DeFi Volume",
+  "excerpt": "Hinkal Protocol reaches a major milestone as zero-knowledge shielded liquidity pools attract institutional traders demanding privacy and regulatory compliance.",
+  "author": "Antigravity Research",
+  "date": "November 7, 2026",
+  "readTime": "4 min read",
+  "category": "Privacy & Security",
+  "image": "/images/airdrops/hinkal-protocol.svg",
+  "tags": [
+    "Hinkal Protocol",
+    "Privacy",
+    "DeFi",
+    "ZK-SNARKs",
+    "Airdrop"
+  ],
+  "relatedAirdropId": "hinkal-protocol",
+  "content": "Hinkal Protocol, the privacy-focused decentralized finance layer backed by Draper Associates and SALT Fund, announced that cumulative transaction volume across its shielded liquidity pools has crossed $250 million across Ethereum, Arbitrum, and Polygon.\n\nInstitutional capital entering decentralized finance has traditionally struggled with public ledger transparency, which exposes trading strategies, front-running risks, and counterparty positions. Hinkal overcomes this obstacle through patented zero-knowledge shielded pools that obfuscate wallet balances and transfer paths while maintaining verifiable KYC/KYB compliance credentials.\n\nUsers who deposit into Hinkal shielded vaults continue to earn liquidity rewards and governance points while executing private swaps and yield strategies. The protocol team reiterated its commitment to decentralized community governance, noting that historical shielded pool participants and liquidity providers will form the foundation of future protocol governance token distribution."
+},
+{
+  "slug": "ethereum-core-developers-finalize-pectra-staking-specifications",
+  "title": "Ethereum Core Developers Finalize Prague-Electra Protocol Specifications with Focus on Verkle Trees and Staking Caps",
+  "excerpt": "The Ethereum consensus and execution layers prepare for the Pectra upgrade, introducing major enhancements to validator limits, gas limits, and smart contract account abstraction.",
+  "author": "Antigravity Research",
+  "date": "November 7, 2026",
+  "readTime": "5 min read",
+  "category": "Ethereum Ecosystem",
+  "image": "/images/airdrops/ethereum-ecosystem.svg",
+  "tags": [
+    "Ethereum",
+    "Pectra",
+    "Layer 1",
+    "Staking",
+    "Research"
+  ],
+  "content": "Ethereum core developers concluded their latest All Core Developers Execution (ACDE) meeting, finalizing core specifications for the upcoming Prague-Electra (Pectra) hard fork scheduled for testnet deployment in early 2027.\n\nPectra represents one of the most comprehensive upgrades in Ethereum's roadmap, combining critical improvements for both stakers and end-users. Central to the upgrade is EIP-7251, which raises the effective maximum balance for validators from 32 ETH to 2,048 ETH. This change allows institutional staking providers and solo node operators to consolidate hundreds of separate validator keys into unified instances, significantly dampening peer-to-peer message bandwidth and validator churn overhead.\n\nAdditionally, Pectra advances account abstraction via EIP-7702, enabling externally owned accounts (EOAs) to temporarily adopt smart contract code execution during transaction processing. This paves the way for native gas sponsorship, batch transaction execution, and social recovery without requiring users to migrate existing wallet balances to dedicated smart accounts. Community sentiment across the developer ecosystem remains highly optimistic as devnet testing accelerates."
+},
+
   {
     "slug": "concrete-protocol-credit-markets-testnet-launch",
     "title": "Concrete Protocol Launches Credit Markets on Ethereum Layer 2 Supported by $7.5M Funding",

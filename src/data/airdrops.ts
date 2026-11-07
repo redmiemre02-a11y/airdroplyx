@@ -34,6 +34,181 @@ export interface Airdrop {
 }
 
 export const airdrops: Airdrop[] = [
+{
+  "id": "fabric-cryptography",
+  "name": "Fabric Cryptography",
+  "logo": "/images/airdrops/fabric-cryptography.svg",
+  "description": "Hardware-accelerated cryptography network creating custom silicon Verifiable Processing Units (VPUs) for zero-knowledge proofs and fully homomorphic encryption with $33M funding.",
+  "reward": "Confirmed Ecosystem Rewards & Testnet Prover Allocation",
+  "category": "Infrastructure",
+  "featured": true,
+  "status": "Active",
+  "endTime": "Q1 2027",
+  "funding": "$33M",
+  "investors": [
+    "Blockchain Capital",
+    "1kx",
+    "Offchain Labs",
+    "Polygon Ventures"
+  ],
+  "refLink": "https://airdroplyx.com/airdrop/fabric-cryptography",
+  "overview": "Fabric Cryptography is developing the Verifiable Processing Unit (VPU), an application-specific cryptographic processor built to accelerate zero-knowledge proofs and fully homomorphic encryption by orders of magnitude. Backed by $33M from Blockchain Capital and 1kx, Fabric's software stack enables developers to compile Circom, Halo2, and Plonky3 circuits directly to hardware-accelerated prover networks.",
+  "tokenomics": "The native $FABRIC utility and governance token will settle hardware prover fees, secure decentralized validator coordination, and incentivize global zero-knowledge compute nodes across the network.",
+  "sybilSafety": "Participate using dedicated developer tools, run verifiable benchmark CLI tests, verify community accounts, and maintain clean on-chain interaction records without automated sybil patterns.",
+  "strategy": "Register on the official Fabric Cryptography developer portal, submit compute benchmarks, deploy sample ZK circuits to the public testnet harness, and claim early contributor roles.",
+  "steps": [
+    "Visit the official Fabric Cryptography developer portal and link your Web3 wallet (Rabby or Rainbow recommended).",
+    "Apply for the Verifiable Processing Unit (VPU) developer testnet access.",
+    "Download the Fabric CLI SDK and compile a sample zero-knowledge circuit.",
+    "Submit proof generation telemetry benchmarks to the testnet prover registry.",
+    "Join the official Fabric Cryptography Discord and verify your builder credentials."
+  ],
+  "faqs": [
+    {
+      "question": "What is Fabric Cryptography and what makes it unique?",
+      "answer": "Fabric Cryptography is building dedicated silicon microchips (VPUs) engineered specifically for zero-knowledge math and fully homomorphic encryption, solving the compute bottleneck of cryptography."
+    },
+    {
+      "question": "How much funding has Fabric Cryptography raised?",
+      "answer": "Fabric Cryptography raised $33M in Series A funding co-led by Blockchain Capital and 1kx, alongside top cryptographic engineering firms."
+    },
+    {
+      "question": "Do I need dedicated hardware to participate in the early testnet?",
+      "answer": "No, software emulation SDKs and cloud prover benchmarks allow any developer or enthusiast to participate and qualify during the early phase."
+    }
+  ]
+},
+{
+  "id": "opengradient",
+  "name": "OpenGradient",
+  "logo": "/images/airdrops/opengradient.svg",
+  "description": "Decentralized AI execution and on-chain machine learning compute infrastructure powered by verifiable neural network inference backed by $8.5M funding.",
+  "reward": "Testnet Compute Credits & Potential $GRADIENT Token Airdrop",
+  "category": "AI",
+  "featured": true,
+  "status": "Active",
+  "endTime": "Q4 2026",
+  "funding": "$8.5M",
+  "investors": [
+    "a16z CSX",
+    "SV Angel",
+    "Coinbase Ventures",
+    "Balaji Srinivasan"
+  ],
+  "refLink": "https://airdroplyx.com/airdrop/opengradient",
+  "overview": "OpenGradient is an EVM-compatible execution layer designed from the ground up for verifiable artificial intelligence and on-chain machine learning inference. Supported by $8.5M from a16z CSX and leading AI innovators, OpenGradient enables smart contracts to call neural models natively for algorithmic DeFi trading, automated vault rebalancing, and dynamic risk management.",
+  "tokenomics": "The $GRADIENT token coordinates decentralized AI node operators, pays for verifiable inference compute gas, and governs model deployment parameters across the network.",
+  "sybilSafety": "Execute genuine on-chain inference queries across multiple distinct models, interact over spaced-out days, and avoid rapid-fire scripted calls to ensure organic user scoring.",
+  "strategy": "Add OpenGradient Sepolia testnet to your wallet, claim testnet gas from the official faucet, interact with decentralized machine learning dApps, and test on-chain model inferences.",
+  "steps": [
+    "Connect your EVM wallet (Rabby or Rainbow) to the OpenGradient Testnet portal.",
+    "Add OpenGradient RPC network configuration to your wallet settings.",
+    "Claim testnet tokens from the official OpenGradient developer faucet.",
+    "Interact with native AI inference showcase dApps (price prediction, portfolio optimizer).",
+    "Deploy or test an open-weights machine learning model contract using the OpenGradient SDK."
+  ],
+  "faqs": [
+    {
+      "question": "What is OpenGradient?",
+      "answer": "OpenGradient is a dedicated blockchain execution environment that allows smart contracts to natively run and verify artificial intelligence and machine learning models on-chain."
+    },
+    {
+      "question": "Who are the major investors behind OpenGradient?",
+      "answer": "OpenGradient raised $8.5M from prominent funds including a16z Crypto Startup Accelerator (CSX), SV Angel, and prominent AI researchers."
+    },
+    {
+      "question": "What activities qualify for the testnet rewards?",
+      "answer": "Interacting with testnet AI dApps, submitting inference requests, testing smart contract integrations, and participating in developer hackathons."
+    }
+  ]
+},
+{
+  "id": "hemera-protocol",
+  "name": "Hemera Protocol",
+  "logo": "/images/airdrops/hemera-protocol.svg",
+  "description": "Decentralized User Account Network (UAN) and Web3 account abstraction indexing protocol powering cross-chain social identity and on-chain reputation.",
+  "reward": "Hemera Points, Early Identity Pass & Future Token Governance",
+  "category": "SocialFi",
+  "featured": true,
+  "status": "Active",
+  "endTime": "Q2 2027",
+  "funding": "$3.9M",
+  "investors": [
+    "Founders Fund Angels",
+    "SNZ Holding",
+    "Mask Network"
+  ],
+  "refLink": "https://airdroplyx.com/airdrop/hemera-protocol",
+  "overview": "Hemera Protocol introduces the User Account Network (UAN), an open asset and identity indexing framework designed to aggregate multi-chain user reputations, social graphs, and on-chain transaction provenance. With over 1 million indexed identities, Hemera empowers dApps to personalize Web3 experiences through high-throughput decentralized indexing.",
+  "tokenomics": "The $HEMERA token will incentivize indexing node operators, govern social taxonomy schemas, and unlock premium developer querying APIs.",
+  "sybilSafety": "Bind authentic social profiles, maintain multi-chain wallet history with genuine transaction volume, and complete periodic verified check-ins.",
+  "strategy": "Connect your primary active Web3 wallet to Hemera Portal, mint your free Hemera Identity Pass, complete ecosystem partner quests, and check your on-chain credit score.",
+  "steps": [
+    "Navigate to the Hemera Protocol portal and connect your primary Web3 wallet (Rabby or Rainbow).",
+    "Mint your Hemera UAN Identity Pass on Base or Arbitrum network.",
+    "Link your X (Twitter) and Discord accounts to verify Web2 and Web3 social graph ownership.",
+    "Check your on-chain activity score and view historical badges across supported EVM networks.",
+    "Complete community quests and maintain consecutive check-ins to accrue Hemera reward points."
+  ],
+  "faqs": [
+    {
+      "question": "What is Hemera Protocol?",
+      "answer": "Hemera is a decentralized account indexing network that structures and verifies cross-chain wallet identities, social graphs, and reputations for Web3 applications."
+    },
+    {
+      "question": "How do I earn Hemera points?",
+      "answer": "By minting the Hemera ID Pass, connecting verified social channels, completing explorer tasks, and participating in ecosystem partner campaigns."
+    },
+    {
+      "question": "Which networks does Hemera support?",
+      "answer": "Hemera indexes major EVM networks including Ethereum mainnet, Base, Arbitrum, Optimism, Polygon, and Monad testnet."
+    }
+  ]
+},
+{
+  "id": "hinkal-protocol",
+  "name": "Hinkal Protocol",
+  "logo": "/images/airdrops/hinkal-protocol.svg",
+  "description": "Institutional-grade confidential DeFi protocol using zero-knowledge shielded liquidity pools and compliance-friendly privacy with $5.8M funding.",
+  "reward": "Shielded Pool Liquidity Points & Governance Token Allocation",
+  "category": "DeFi",
+  "featured": true,
+  "status": "Active",
+  "endTime": "Q1 2027",
+  "funding": "$5.8M",
+  "investors": [
+    "Draper Associates",
+    "SALT Fund",
+    "Revelo Intel"
+  ],
+  "refLink": "https://airdroplyx.com/airdrop/hinkal-protocol",
+  "overview": "Hinkal Protocol brings compliant on-chain privacy to decentralized finance. Using zero-knowledge proofs and disposable shielded addresses, Hinkal allows traders and institutions to execute swaps, provide liquidity, and borrow assets across Ethereum, Arbitrum, and Polygon without broadcasting their trading strategies or public balances.",
+  "tokenomics": "The $HINKAL token provides fee-discount utility, governs supported privacy pool parameters, and rewards liquidity providers who anchor shielded balance pools.",
+  "sybilSafety": "Use verified non-custodial wallets with authentic transaction history, avoid circular transfers between fresh addresses, and hold funds in shielded vaults over sustained periods.",
+  "strategy": "Connect to Hinkal, generate your confidential zero-knowledge access key, deposit assets into the shielded pool, execute private swaps, and earn points on liquidity deposits.",
+  "steps": [
+    "Access the Hinkal Protocol app and connect your Web3 wallet (Rabby, Rainbow, or Solflare).",
+    "Generate and save your private zero-knowledge encryption key.",
+    "Deposit USDC or ETH into the Hinkal Shielded Pool on Arbitrum or Ethereum.",
+    "Execute a confidential swap within the shielded environment.",
+    "Hold assets in the Shielded Vault to accumulate liquidity points and early user governance multipliers."
+  ],
+  "faqs": [
+    {
+      "question": "What is Hinkal Protocol?",
+      "answer": "Hinkal is a confidential DeFi platform enabling private swaps and yield farming through zero-knowledge cryptography while maintaining regulatory compliance."
+    },
+    {
+      "question": "How does Hinkal protect user privacy?",
+      "answer": "Hinkal utilizes ZK-SNARKs and shielded liquidity pools, disconnecting deposit addresses from swap execution and withdrawal destinations."
+    },
+    {
+      "question": "Is Hinkal compliant with security and anti-money laundering standards?",
+      "answer": "Yes, Hinkal implements patented zero-knowledge compliance verification that screens wallets without exposing sensitive personal identity data on-chain."
+    }
+  ]
+},
+
   {
     "id": "concrete-protocol",
     "name": "Concrete Protocol",
