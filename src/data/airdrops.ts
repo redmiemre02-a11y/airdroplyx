@@ -35,6 +35,180 @@ export interface Airdrop {
 
 export const airdrops: Airdrop[] = [
 {
+  "id": "goat-network",
+  "name": "Goat Network",
+  "logo": "/images/airdrops/goat-network.svg",
+  "description": "The first decentralized Bitcoin Layer 2 network powered by an optimistic sequencer framework with native BTC yield and high-throughput EVM execution.",
+  "reward": "Testnet Sequencer Points & Future Native Token Airdrop",
+  "category": "Layer 2",
+  "featured": true,
+  "status": "Active",
+  "endTime": "Q1 2027",
+  "funding": "$10M+",
+  "investors": [
+    "Metis Foundation",
+    "Waterdrip Capital",
+    "Satoshi Lab"
+  ],
+  "refLink": "https://airdroplyx.com/airdrop/goat-network",
+  "overview": "Goat Network is an innovative Bitcoin Layer 2 scaling protocol built to solve the centralization dilemma of rollups. Utilizing a decentralized sequencer network and optimistic verification, Goat Network enables Bitcoin holders to earn native yield on locked BTC while executing decentralized finance transactions with EVM compatibility and near-zero fees.",
+  "tokenomics": "The native $GOAT token coordinates decentralized sequencer node operations, secures cross-chain proof verification, and provides governance over economic security parameters.",
+  "sybilSafety": "Execute organic bridge transfers across diverse days, maintain active testnet staking positions, and avoid automated high-frequency scripts.",
+  "strategy": "Obtain testnet BTC from the official faucet, bridge assets to Goat Network Testnet, stake in the decentralized validator vault, and complete ecosystem partner quests.",
+  "steps": [
+    "Connect your EVM wallet (Rabby or Rainbow) to the official Goat Network portal.",
+    "Add Goat Network Testnet RPC settings to your wallet.",
+    "Claim testnet BTC from the Goat faucet or bridge test BTC from Sepolia.",
+    "Deposit testnet BTC into Goat Validator Staking pools to earn early sequencer points.",
+    "Interact with native testnet DeFi dApps (swap, borrow, and lend)."
+  ],
+  "faqs": [
+    {
+      "question": "What is Goat Network?",
+      "answer": "Goat Network is the first decentralized Bitcoin Layer 2 utilizing a decentralized sequencer network to offer native BTC yields and EVM smart contract execution."
+    },
+    {
+      "question": "How do I earn points on the Goat Network testnet?",
+      "answer": "By bridging testnet BTC, staking in sequencer validator nodes, executing dApp swaps, and participating in ecosystem quest campaigns."
+    },
+    {
+      "question": "What makes Goat Network unique compared to other Bitcoin L2s?",
+      "answer": "Goat Network eliminates single-point-of-failure centralized sequencers, distributing block production and fee revenue to decentralized node operators."
+    }
+  ]
+},
+{
+  "id": "rivalz-network",
+  "name": "Rivalz Network",
+  "logo": "/images/airdrops/rivalz-network.svg",
+  "description": "AI Intel Layer and DePIN decentralized synthetic data provenance blockchain powered by Dymension rollapps and multi-tier storage nodes with $9M+ funding.",
+  "reward": "Rivalz Fragment Points, Early Node Rewards & $RIZ Token",
+  "category": "AI",
+  "featured": true,
+  "status": "Active",
+  "endTime": "Q4 2026",
+  "funding": "$9M+",
+  "investors": [
+    "Delphi Ventures",
+    "DWF Labs",
+    "Mask Network",
+    "Magnus Capital"
+  ],
+  "refLink": "https://airdroplyx.com/airdrop/rivalz-network",
+  "overview": "Rivalz Network is an AI-driven decentralized data provenance and intelligence layer built as a sovereign RollApp on Dymension. By combining DePIN storage nodes (rNodes) with decentralized validation (zNodes), Rivalz enables compliant AI agents and enterprises to license, verify, and process untampered synthetic datasets.",
+  "tokenomics": "The $RIZ utility and governance token powers data licensing fees, node staking collateral, and AI agent query micro-transactions across the network.",
+  "sybilSafety": "Run verified rNode desktop clients with sustained uptime, connect authentic Web3 social accounts, and maintain regular epoch check-ins.",
+  "strategy": "Connect your Web3 wallet to Rivalz testnet dashboard, install the lightweight rNode client to allocate idle storage, verify social credentials, and claim epoch reward fragments.",
+  "steps": [
+    "Visit the Rivalz Network Testnet portal and connect your Web3 wallet (Rabby or Rainbow).",
+    "Download and install the official Rivalz rNode desktop client for Windows or Linux.",
+    "Allocate a portion of free hard drive space (e.g., 20GB-50GB) to start validation.",
+    "Link your Discord and X accounts to mint your early AI Contributor Passport.",
+    "Complete daily check-in tasks and monitor accumulated $RIZ fragment points."
+  ],
+  "faqs": [
+    {
+      "question": "What is Rivalz Network?",
+      "answer": "Rivalz Network is an AI Intel Layer providing decentralized data provenance, validation, and storage for autonomous AI agents and machine learning models."
+    },
+    {
+      "question": "What are rNodes on Rivalz?",
+      "answer": "rNodes are lightweight decentralized storage nodes that users can run on standard consumer PCs to earn fragment points for sharing unused storage."
+    },
+    {
+      "question": "Who are the key backers of Rivalz Network?",
+      "answer": "Rivalz is backed by prominent venture funds including Delphi Ventures, DWF Labs, and Mask Network, having raised over $9 million."
+    }
+  ]
+},
+{
+  "id": "lighter-xyz",
+  "name": "Lighter",
+  "logo": "/images/airdrops/lighter-xyz.svg",
+  "description": "Ultra-fast on-chain orderbook DEX on Arbitrum backed by $6.8M from a16z crypto, offering zero gas cancellations and institutional limit order execution.",
+  "reward": "Trading League Points & Season 1 Governance Token Airdrop",
+  "category": "DeFi",
+  "featured": true,
+  "status": "Active",
+  "endTime": "Q1 2027",
+  "funding": "$6.8M",
+  "investors": [
+    "a16z crypto",
+    "Robot Ventures",
+    "Maven 11 Capital"
+  ],
+  "refLink": "https://airdroplyx.com/airdrop/lighter-xyz",
+  "overview": "Lighter is a high-throughput central limit orderbook (CLOB) decentralized exchange deployed on Arbitrum. Designed with verifiable matching engines, Lighter provides traders with the speed of centralized order matching combined with non-custodial cryptographic security, eliminating MEV front-running and gas fees for order placement and cancellations.",
+  "tokenomics": "The $LIGHT token governs protocol fee distributions, staking reward multipliers for liquidity providers, and DAO parameters for supported collateral assets.",
+  "sybilSafety": "Execute realistic multi-asset trading volume, maintain resting limit orders, and avoid wash trading between self-controlled wallets.",
+  "strategy": "Connect your EVM wallet to Lighter on Arbitrum, deposit USDC into your non-custodial trading balance, execute limit and market trades, and supply liquidity to market-making vaults.",
+  "steps": [
+    "Connect your EVM wallet (Rabby or Rainbow) to the official Lighter DEX.",
+    "Switch your network to Arbitrum One.",
+    "Deposit USDC or ETH into your personal smart contract margin account.",
+    "Place competitive limit orders across major trading pairs (ETH/USDC, BTC/USDC).",
+    "Participate in the Lighter Trading League to climb the seasonal reward leaderboard."
+  ],
+  "faqs": [
+    {
+      "question": "What is Lighter?",
+      "answer": "Lighter is an institutional-grade orderbook DEX on Arbitrum that provides zero-gas order cancellations and microsecond matching."
+    },
+    {
+      "question": "Who backed Lighter?",
+      "answer": "Lighter raised $6.8 million in funding co-led by a16z crypto and Robot Ventures."
+    },
+    {
+      "question": "How do I qualify for the Lighter airdrop?",
+      "answer": "By trading on the orderbook, maintaining open limit orders, and providing liquidity to Lighter vaults."
+    }
+  ]
+},
+{
+  "id": "nesa-network",
+  "name": "Nesa",
+  "logo": "/images/airdrops/nesa-network.svg",
+  "description": "The premier Layer 1 blockchain engineered for verifiable, privacy-preserving AI model inference and decentralized zero-knowledge machine learning (ZKML).",
+  "reward": "Testnet Compute Mining Credits & Confirmed $NESA Genesis Airdrop",
+  "category": "AI",
+  "featured": true,
+  "status": "Active",
+  "endTime": "Q2 2027",
+  "funding": "$4.5M",
+  "investors": [
+    "Cogitent Ventures",
+    "Cadenza Ventures",
+    "HashKey Capital"
+  ],
+  "refLink": "https://airdroplyx.com/airdrop/nesa-network",
+  "overview": "Nesa is an AI-native Layer 1 blockchain that introduces the AI Virtual Machine (AIVM). Built specifically for zero-knowledge machine learning (ZKML) and confidential decentralized neural inference, Nesa allows users and smart contracts to query private models on-chain without revealing sensitive user prompts or proprietary model weights.",
+  "tokenomics": "The $NESA utility and gas token compensates AI node operators who compute verifiable inferences, powers model registry staking, and governs on-chain AI governance.",
+  "sybilSafety": "Engage with the testnet inference terminal organically, complete diverse queries across different models, and avoid robotic spam patterns.",
+  "strategy": "Join the Nesa incentivized devnet portal, connect your Web3 wallet, test AI model inference queries, complete developer challenges, and claim early community roles.",
+  "steps": [
+    "Access the official Nesa AI network portal and connect your Web3 wallet (Rabby, Rainbow, or Keplr).",
+    "Request testnet compute tokens from the official Nesa faucet.",
+    "Submit AI inference queries using the Nesa on-chain AI terminal.",
+    "Test different open-source model weights (LLMs and image generation models).",
+    "Join the official Nesa Discord community to register your testnet miner address."
+  ],
+  "faqs": [
+    {
+      "question": "What is Nesa?",
+      "answer": "Nesa is a dedicated Layer 1 blockchain platform for private, verifiable AI execution using zero-knowledge machine learning."
+    },
+    {
+      "question": "What is the AI Virtual Machine (AIVM)?",
+      "answer": "The AIVM is Nesa's custom execution environment designed to execute and verify complex neural network computations on-chain."
+    },
+    {
+      "question": "How can I participate in the Nesa airdrop program?",
+      "answer": "By querying models on the incentivized testnet, staking testnet tokens on validators, and joining early developer campaigns."
+    }
+  ]
+},
+
+{
   "id": "fabric-cryptography",
   "name": "Fabric Cryptography",
   "logo": "/images/airdrops/fabric-cryptography.svg",
@@ -17174,85 +17348,7 @@ export const airdrops: Airdrop[] = [
     "reward": "$1,200 - $8,500",
     "funding": "Tier-1 Backed"
   },
-  {
-    "id": "raydium",
-    "name": "Raydium",
-    "category": "Solana Liquidity & Yield",
-    "tier": "Tier 1",
-    "status": "Active",
-    "stage": "Mainnet",
-    "potentialReward": "CLMM Fee APR & Ecosystem Launch Rights",
-    "cost": "Sub-cent Solana transaction fees",
-    "timeRequired": "10 mins / weekly",
-    "platform": "Web / Solana",
-    "description": "Solana's premier automated market maker and concentrated liquidity protocol. Note: $RAY token is actively trading (launched 2021); this guide covers CLMM liquidity fee yields, $RAY staking rewards, and Solana ecosystem token launch allocations.",
-    "logo": "/images/airdrops/raydium.svg",
-    "refLink": "https://raydium.io",
-    "tags": [
-      "Solana",
-      "AMM",
-      "CLMM",
-      "Concentrated Liquidity",
-      "RAY",
-      "Tier 1"
-    ],
-    "featured": true,
-    "startDate": "Feb 2021",
-    "endDate": "Ongoing",
-    "requirements": [
-      "Solana Wallet (Phantom, Solflare, or Backpack)",
-      "Execute Token Swaps on Raydium AMM",
-      "Provide Liquidity to Concentrated Liquidity Market Maker (CLMM) Pools",
-      "Stake RAY Tokens in Raydium Governance Staking",
-      "Participate in AcceleRaytor Ecosystem Launches"
-    ],
-    "overview": "IMPORTANT NOTICE: Raydium's native utility token ($RAY) officially launched in February 2021 and actively trades across global digital asset markets. Raydium is not conducting a new native token airdrop. Instead, this verified guide details how active liquidity providers and traders utilize Raydium's Concentrated Liquidity Market Maker (CLMM) infrastructure to capture high-yield trading fees, earn $RAY staking dividends, and qualify for upcoming Solana ecosystem token launchpad allocations (AcceleRaytor).\n\nRaydium is the foundational on-chain automated market maker (AMM) and concentrated liquidity engine of the Solana blockchain. Launched in February 2021, Raydium was instrumental in proving that high-speed Layer 1 blockchains could support decentralized finance at global scale. Today, Raydium processes billions of dollars in daily decentralized trading volume, serving as the primary liquidity foundation for trending tokens, meme coins, and premier Solana protocols.\n\nRaydium features a dual-engine trading architecture. Its standard AMM pools (Standard AMM and CPMM) enable permissionless token listing and instant trading pools with zero barrier to entry. Raydium's flagship innovation is the Concentrated Liquidity Market Maker (CLMM), which allows liquidity providers to define specific price intervals for their capital. This enables orders to execute with minimal slippage while LPs earn up to hundreds of times higher fee yields per dollar of capital compared to legacy constant-product AMMs.\n\nRaydium also operates AcceleRaytor (an on-chain launchpad for premier Solana projects) and single-sided RAY Staking. Powered by the native $RAY token, which captures a share of all protocol trading fees across standard and concentrated pools, active Solana traders and CLMM liquidity providers occupy the most liquid core of the Solana DeFi ecosystem.",
-    "tokenomics": "The native $RAY token has a fixed maximum supply of 555 Million tokens. Staking RAY captures protocol trading fee dividends, grants voting rights on DAO proposals, and provides lottery ticket allocations for AcceleRaytor launchpad public sales.",
-    "sybilDefense": "Raydium tracks verifiable on-chain swap volume, CLMM position duration within active price ranges, and sustained RAY staking tenure. Rapid automated bots that execute flash loan swaps within single blocks receive zero staking multipliers.",
-    "strategy": "To maximize your positioning for Raydium ($RAY) fee yields and Solana ecosystem rewards:\n\n1. Connect your Solana wallet (Phantom, Solflare, or Backpack) to Raydium.\n2. Execute decentralized token swaps across Solana native pairs (SOL, USDC, RAY, trending ecosystem tokens).\n3. Provide liquidity into high-volume Concentrated Liquidity (CLMM) pools within active price ranges.\n4. Collect accumulated trading fees regularly and compound them back into your liquidity positions.\n5. Acquire and stake $RAY tokens in Raydium single-sided staking to earn passive fee APR.",
-    "steps": [
-      "Visit the official <a href=\"https://raydium.io\" target=\"_blank\" rel=\"noopener noreferrer\">Raydium Platform</a>.",
-      "Launch the decentralized trading app at <a href=\"https://raydium.io/swap\" target=\"_blank\" rel=\"noopener noreferrer\">Raydium Swap</a>.",
-      "Connect your Solana wallet (Phantom, Solflare, or Backpack).",
-      "Execute token trades with low fees and instant confirmation.",
-      "Explore concentrated liquidity pools on <a href=\"https://raydium.io/clmm/create-pool\" target=\"_blank\" rel=\"noopener noreferrer\">Raydium CLMM Pools</a>.",
-      "Deposit liquidity into tight price bands to maximize fee generation.",
-      "Stake $RAY tokens at <a href=\"https://raydium.io/staking\" target=\"_blank\" rel=\"noopener noreferrer\">Raydium Staking Portal</a>.",
-      "Participate in community governance and ecosystem token launches on AcceleRaytor."
-    ],
-    "faqs": [
-      {
-        "question": "Does Raydium have a new token airdrop in 2026?",
-        "answer": "No. The native $RAY token launched in February 2021 and is fully circulating. This guide is an ecosystem yield farming and launchpad positioning guide, demonstrating how to generate high CLMM fee yields, earn staking rewards, and qualify for new third-party Solana projects launching on Raydium."
-      },
-      {
-        "question": "What is Raydium?",
-        "answer": "Raydium is an automated market maker and concentrated liquidity protocol built on Solana for high-speed, low-fee token trading."
-      },
-      {
-        "question": "What is Raydium CLMM?",
-        "answer": "CLMM stands for Concentrated Liquidity Market Maker, allowing LPs to allocate capital in specific price ranges to earn higher trading fees."
-      },
-      {
-        "question": "What is AcceleRaytor?",
-        "answer": "AcceleRaytor is Raydium's native launchpad that allows early-stage Solana projects to raise capital and bootstrap initial liquidity."
-      },
-      {
-        "question": "What is the utility of the $RAY token?",
-        "answer": "RAY is used for protocol fee sharing through staking, launchpad lottery tickets, and governing the Raydium protocol."
-      },
-      {
-        "question": "What wallets work with Raydium?",
-        "answer": "Raydium supports all major Solana wallets including Phantom, Solflare, Backpack, and Torus."
-      },
-      {
-        "question": "How cheap are transactions on Raydium?",
-        "answer": "Trades on Raydium cost a fraction of a cent in SOL network gas fees and confirm in less than a second."
-      }
-    ],
-    "reward": "CLMM Fee APR & Ecosystem Launch Rights",
-    "funding": "Tier-1 Backed"
-  },
+  
   {
     "id": "marinade-finance",
     "name": "Marinade Finance",

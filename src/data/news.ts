@@ -14,6 +14,83 @@ export interface NewsArticle {
 
 export const newsArticles: NewsArticle[] = [
 {
+  "slug": "goat-network-launches-decentralized-bitcoin-sequencer-testnet",
+  "title": "Goat Network Launches Public Testnet for Decentralized Bitcoin Sequencer Architecture",
+  "excerpt": "Supported by the Metis Foundation and prominent Bitcoin venture funds, Goat Network opens testnet access for its decentralized sequencer and native BTC yield protocol.",
+  "author": "Antigravity Research",
+  "date": "November 7, 2026",
+  "readTime": "4 min read",
+  "category": "Bitcoin Ecosystem",
+  "image": "/images/airdrops/goat-network.svg",
+  "tags": [
+    "Goat Network",
+    "Bitcoin",
+    "Layer 2",
+    "Sequencer",
+    "Airdrop"
+  ],
+  "relatedAirdropId": "goat-network",
+  "content": "Goat Network has announced the official launch of its public incentivized testnet, unveiling an optimistic decentralized sequencer framework tailored for Bitcoin Layer 2 scaling. Supported by ecosystem grants and backing from the Metis Foundation and Satoshi Lab, Goat Network directly addresses the vulnerability of centralized rollup sequencers in the Bitcoin space.\n\nTraditional rollups depend on a single sequencer operated by the development team, creating censorship risks, MEV vulnerability, and potential network halts. Goat Network disrupts this paradigm by implementing an open, distributed sequencer network where independent node operators stake assets to coordinate transaction ordering and batch verification. Additionally, the network introduces native yield generation for locked Bitcoin, allowing participants to earn returns without sacrificing custody.\n\nEarly community members and developers can now bridge testnet assets, stake in sequencer validator pools, and interact with the initial wave of native DeFi dApps. Goat Network confirmed that early testnet participants will earn sequencer points directly redeemable for governance allocations upon mainnet genesis."
+},
+{
+  "slug": "rivalz-network-reaches-fifty-thousand-depin-nodes",
+  "title": "Rivalz Network Surpasses 50,000 Active DePIN Data Nodes Ahead of Q4 Mainnet Launch",
+  "excerpt": "Backed by $9M in venture funding, the AI Intel Layer achieves a major infrastructure milestone as global contributors deploy rNodes for synthetic data validation.",
+  "author": "Antigravity Research",
+  "date": "November 7, 2026",
+  "readTime": "4 min read",
+  "category": "AI & DePIN",
+  "image": "/images/airdrops/rivalz-network.svg",
+  "tags": [
+    "Rivalz Network",
+    "AI",
+    "DePIN",
+    "Dymension",
+    "Airdrop"
+  ],
+  "relatedAirdropId": "rivalz-network",
+  "content": "Rivalz Network, the AI Intel Layer building decentralized synthetic data provenance on Dymension, announced that its decentralized physical infrastructure network has surpassed 50,000 active nodes deployed across more than 120 countries worldwide.\n\nWith artificial intelligence development rapidly exhausting public training data, the demand for verified, privacy-compliant synthetic datasets has skyrocketed. Rivalz Network enables developers and AI enterprises to access decentralized data storage through lightweight consumer nodes (rNodes) paired with zero-knowledge validation consensus (zNodes). Node operators earn token fragments by dedicating unused hard drive capacity and local compute bandwidth to the network.\n\nSupported by Delphi Ventures, DWF Labs, and Mask Network with over $9 million in capital, Rivalz is finalizing its transition to mainnet. Participants operating testnet nodes and holding AI Passport credentials will receive priority allocations during the forthcoming $RIZ token generation event."
+},
+{
+  "slug": "lighter-deploys-zero-knowledge-matching-engine-arbitrum",
+  "title": "Lighter Deploys Next-Gen Orderbook Matching Engine with Verifiable Zero-Knowledge Settling on Arbitrum",
+  "excerpt": "Backed by $6.8M from a16z crypto, Lighter delivers microsecond limit order execution and zero-gas cancellations to Ethereum Layer 2 decentralized trading.",
+  "author": "Antigravity Research",
+  "date": "November 7, 2026",
+  "readTime": "5 min read",
+  "category": "DeFi & Scaling",
+  "image": "/images/airdrops/lighter-xyz.svg",
+  "tags": [
+    "Lighter",
+    "Arbitrum",
+    "DEX",
+    "Orderbook",
+    "Airdrop"
+  ],
+  "relatedAirdropId": "lighter-xyz",
+  "content": "Lighter has completed the deployment of its high-speed on-chain central limit orderbook (CLOB) on Arbitrum One, offering professional and retail crypto traders institutional execution speeds with verifiable non-custodial custody. The protocol is backed by $6.8 million in seed funding led by a16z crypto and Robot Ventures.\n\nUnlike traditional automated market makers (AMMs) that subject traders to high slippage and toxic MEV sandwich attacks, Lighter utilizes a specialized zero-knowledge matching architecture. Orders match off-chain in microseconds and settle verifiably on Arbitrum, enabling traders to place, modify, and cancel limit orders completely gas-free. Capital efficiency is further augmented by unified cross-margin accounts, allowing multi-collateral borrowing and perpetual exposure under a single balance.\n\nTo reward organic trading liquidity, Lighter unveiled Season 1 of its Trading League, distributing weekly leaderboard points based on Maker volume, resting order depth, and liquidity vault deposits. Active traders qualify for early community governance incentives ahead of the protocol's upcoming decentralization roadmap."
+},
+{
+  "slug": "nesa-deploys-aivm-testnet-private-ai-inference",
+  "title": "Nesa Deploys Privacy-Preserving AI Virtual Machine (AIVM) Testnet for Decentralized Neural Inference",
+  "excerpt": "The specialized AI Layer 1 blockchain enables smart contracts to execute verifiable zero-knowledge machine learning queries without compromising sensitive data.",
+  "author": "Antigravity Research",
+  "date": "November 7, 2026",
+  "readTime": "4 min read",
+  "category": "Artificial Intelligence",
+  "image": "/images/airdrops/nesa-network.svg",
+  "tags": [
+    "Nesa",
+    "AI",
+    "ZKML",
+    "Layer 1",
+    "Airdrop"
+  ],
+  "relatedAirdropId": "nesa-network",
+  "content": "Nesa has officially launched the public incentivized testnet for its AI Virtual Machine (AIVM), establishing the first Layer 1 blockchain specifically architected for confidential, zero-knowledge machine learning (ZKML) inference. Backed by $4.5 million from Cogitent Ventures and HashKey Capital, Nesa bridges the critical gap between Web3 privacy and advanced artificial intelligence.\n\nCurrent centralized AI APIs expose sensitive prompts and proprietary corporate weights to centralized servers. Nesa's AIVM allows decentralized applications and enterprise users to submit machine learning queries that are verified across a decentralized network of cryptographic compute nodes. Using zero-knowledge proofs and secure enclaves, neither the validator nodes nor third-party observers can view the query content or model weights, while mathematical proof of correct execution is recorded on-chain.\n\nThe public testnet allows developers to interact with on-chain models, run validator nodes, and earn compute mining points. Nesa confirmed that early testnet participation metrics will be weighted heavily for the upcoming $NESA genesis community token distribution."
+},
+
+{
   "slug": "fabric-cryptography-vpu-testnet-launch-33m-funding",
   "title": "Fabric Cryptography Launches Verifiable Processing Unit Testnet Following $33M Series A Funding",
   "excerpt": "Backed by Blockchain Capital and 1kx, Fabric Cryptography opens its developer testnet for custom hardware-accelerated zero-knowledge and FHE computations.",
