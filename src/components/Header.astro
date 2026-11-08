@@ -1,15 +1,17 @@
 ---
 import { airdrops } from '../data/airdrops';
 ---
-<header class="bg-white dark:bg-slate-900 border-b border-gray-200 dark:border-slate-800 sticky top-0 z-50 shadow-sm transition-colors duration-200">
-  <!-- Top Announcement Bar -->
-  <div class="bg-slate-950 text-white text-xs py-2 border-b border-slate-800/80">
-    <div class="max-w-[1200px] mx-auto px-4 flex justify-between items-center">
-      <div class="flex items-center gap-2">
-        <span class="inline-block w-2 h-2 rounded-full bg-emerald-400 animate-pulse"></span>
-        <span class="text-slate-300 font-medium">{airdrops.length} Verified Crypto Airdrops & Guides • Updated November 2026</span>
+<header class="bg-white/95 dark:bg-slate-900/95 backdrop-blur-md border-b border-gray-200 dark:border-slate-800 sticky top-0 z-50 shadow-sm transition-colors duration-200">
+  <!-- Top Announcement Bar (Ultra-clean on mobile, full on desktop) -->
+  <div class="bg-slate-950 text-white text-[11px] sm:text-xs py-1.5 border-b border-slate-800/80">
+    <div class="max-w-[1200px] mx-auto px-3 sm:px-4 flex justify-between items-center">
+      <div class="flex items-center gap-2 truncate">
+        <span class="inline-block w-2 h-2 rounded-full bg-emerald-400 animate-pulse shrink-0"></span>
+        <span class="text-slate-300 font-medium truncate">
+          <strong class="text-emerald-400 font-bold">{airdrops.length}</strong> Verified Crypto Airdrops &amp; Guides • November 2026
+        </span>
       </div>
-      <div class="hidden sm:flex gap-3 items-center text-[11px]">
+      <div class="hidden sm:flex gap-3 items-center text-[11px] shrink-0">
         <a href="/editorial-policy" class="text-slate-400 hover:text-white transition-colors">Editorial Policy</a>
         <span class="text-slate-700">•</span>
         <a href="/fact-checking" class="text-slate-400 hover:text-white transition-colors">Fact-Checking</a>
@@ -20,16 +22,16 @@ import { airdrops } from '../data/airdrops';
   </div>
 
   <!-- Main Navbar -->
-  <div class="max-w-[1200px] mx-auto px-4 flex items-center justify-between h-[72px]">
+  <div class="max-w-[1200px] mx-auto px-3 sm:px-4 flex items-center justify-between h-16 sm:h-[72px]">
     <!-- Logo -->
-    <a href="/" class="flex items-center gap-2.5">
-      <img src="/logo.jpg" alt="Airdroplyx Logo" class="w-10 h-10 rounded-xl shadow-md object-cover" />
-      <span class="text-slate-900 dark:text-white font-extrabold text-2xl tracking-tight">
+    <a href="/" class="flex items-center gap-2 sm:gap-2.5 shrink-0 py-1" aria-label="Airdroplyx Home">
+      <img src="/logo.jpg" alt="Airdroplyx Logo" class="w-8 h-8 sm:w-10 sm:h-10 rounded-xl shadow-md object-cover shrink-0" />
+      <span class="text-slate-900 dark:text-white font-extrabold text-xl sm:text-2xl tracking-tight">
         airdroplyx
       </span>
     </a>
     
-    <!-- Navigation -->
+    <!-- Desktop Navigation -->
     <nav class="hidden lg:flex h-full">
       <ul class="flex h-full items-center">
         <li><a href="/" class="flex items-center h-full px-2.5 text-[12px] font-bold text-slate-700 dark:text-slate-200 uppercase hover:text-blue-600 border-b-2 border-transparent hover:border-blue-600 transition-all">Home</a></li>
@@ -56,43 +58,41 @@ import { airdrops } from '../data/airdrops';
     </nav>
     
     <!-- Right Actions -->
-    <div class="flex items-center gap-1.5 sm:gap-2.5">
+    <div class="flex items-center gap-1.5 sm:gap-2">
       <!-- Universal Search Trigger -->
-      <div class="relative">
-        <button 
-          type="button"
-          id="global-search-trigger"
-          data-open-palette
-          class="flex items-center justify-center sm:justify-between bg-gray-100 hover:bg-gray-200 dark:bg-slate-800 dark:hover:bg-slate-700 border border-slate-200/70 dark:border-slate-700/70 rounded-full w-9 h-9 sm:w-44 sm:h-auto sm:py-2 sm:pl-3 sm:pr-2.5 text-xs sm:text-sm transition-all text-slate-500 dark:text-slate-400 group cursor-pointer shadow-sm shrink-0"
-          title="Search all airdrops, academy, and news (Ctrl+K)"
-          aria-label="Search universal catalog"
-        >
-          <div class="flex items-center gap-1.5 truncate">
-            <svg class="w-4 h-4 text-slate-500 group-hover:text-blue-500 transition-colors shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path></svg>
-            <span class="hidden sm:inline-block truncate">Search...</span>
-          </div>
-          <kbd class="hidden sm:inline-block px-1.5 py-0.5 text-[10px] font-mono font-bold text-slate-400 bg-white dark:bg-slate-700 rounded border border-slate-200 dark:border-slate-600">Ctrl K</kbd>
-        </button>
-      </div>
+      <button 
+        type="button"
+        id="global-search-trigger"
+        data-open-palette
+        class="flex items-center justify-center sm:justify-between bg-gray-100 hover:bg-gray-200 dark:bg-slate-800 dark:hover:bg-slate-700 border border-slate-200/70 dark:border-slate-700/70 rounded-full w-9 h-9 sm:w-44 sm:h-auto sm:py-2 sm:pl-3 sm:pr-2.5 text-xs sm:text-sm transition-all text-slate-500 dark:text-slate-400 group cursor-pointer shadow-sm shrink-0 touch-manipulation"
+        title="Search all airdrops, academy, and news (Ctrl+K)"
+        aria-label="Search universal catalog"
+      >
+        <div class="flex items-center gap-1.5 truncate">
+          <svg class="w-4 h-4 text-slate-500 group-hover:text-blue-500 transition-colors shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path></svg>
+          <span class="hidden sm:inline-block truncate">Search...</span>
+        </div>
+        <kbd class="hidden sm:inline-block px-1.5 py-0.5 text-[10px] font-mono font-bold text-slate-400 bg-white dark:bg-slate-700 rounded border border-slate-200 dark:border-slate-600">Ctrl K</kbd>
+      </button>
 
-      <!-- Multi-Language Switcher Dropdown -->
-      <div class="relative" id="lang-dropdown-wrapper">
+      <!-- Multi-Language Switcher (Visible on sm+ screens, mobile uses drawer) -->
+      <div class="relative hidden sm:block" id="lang-dropdown-wrapper">
         <button 
           type="button" 
           id="lang-btn"
-          class="flex items-center gap-1 sm:gap-1.5 px-2.5 sm:px-3 py-1.5 rounded-full text-xs font-bold bg-slate-100 hover:bg-slate-200 dark:bg-slate-800 dark:hover:bg-slate-700 text-slate-700 dark:text-slate-200 border border-slate-200 dark:border-slate-700 transition-colors shadow-sm cursor-pointer shrink-0"
+          class="flex items-center gap-1.5 px-3 py-1.5 rounded-full text-xs font-bold bg-slate-100 hover:bg-slate-200 dark:bg-slate-800 dark:hover:bg-slate-700 text-slate-700 dark:text-slate-200 border border-slate-200 dark:border-slate-700 transition-colors shadow-sm cursor-pointer shrink-0 touch-manipulation"
           title="Select Language / Dil Seçin"
           aria-label="Language selector"
         >
           <span id="current-lang-flag">🌐</span>
-          <span id="current-lang-code" class="uppercase text-[11px] sm:text-xs">EN</span>
+          <span id="current-lang-code" class="uppercase text-xs">EN</span>
           <svg class="w-3 h-3 text-slate-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
         </button>
 
-        <!-- Dropdown Menu (Centered modal-style on mobile, sleek dropdown on desktop) -->
+        <!-- Dropdown Menu -->
         <div 
           id="lang-menu" 
-          class="hidden fixed inset-x-3 top-[76px] sm:absolute sm:inset-auto sm:right-0 sm:top-full sm:mt-2 w-auto sm:w-56 max-h-[75vh] sm:max-h-[460px] overflow-y-auto bg-white/98 dark:bg-slate-900/98 backdrop-blur-md border border-slate-200 dark:border-slate-800 rounded-2xl shadow-2xl py-1.5 z-50 divide-y divide-slate-100 dark:divide-slate-800/40"
+          class="hidden absolute right-0 top-full mt-2 w-56 max-h-[460px] overflow-y-auto bg-white/98 dark:bg-slate-900/98 backdrop-blur-md border border-slate-200 dark:border-slate-800 rounded-2xl shadow-2xl py-1.5 z-50 divide-y divide-slate-100 dark:divide-slate-800/40"
         >
           <div class="px-3.5 py-1.5 text-[10px] font-black uppercase tracking-wider text-slate-400 bg-slate-50/80 dark:bg-slate-800/80 sticky top-0 backdrop-blur-sm z-10 flex items-center justify-between">
             <span>Language / Dil Seçimi</span>
@@ -150,56 +150,70 @@ import { airdrops } from '../data/airdrops';
         </div>
       </div>
       
-      <!-- Dark Mode Toggle -->
-      <button id="theme-toggle" class="p-2 rounded-full text-slate-500 hover:text-slate-900 dark:text-slate-400 dark:hover:text-white hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors shrink-0 cursor-pointer" aria-label="Toggle Theme">
+      <!-- Dark Mode Toggle (Min 40x40px touch area) -->
+      <button 
+        id="theme-toggle" 
+        class="w-9 h-9 sm:w-10 sm:h-10 flex items-center justify-center rounded-full text-slate-500 hover:text-slate-900 dark:text-slate-400 dark:hover:text-white hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors shrink-0 cursor-pointer touch-manipulation" 
+        aria-label="Toggle Dark Theme"
+      >
         <svg id="theme-toggle-dark-icon" class="hidden w-5 h-5" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M17.293 13.293A8 8 0 016.707 2.707a8.001 8.001 0 1010.586 10.586z"></path></svg>
         <svg id="theme-toggle-light-icon" class="hidden w-5 h-5" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M10 2a1 1 0 011 1v1a1 1 0 11-2 0V3a1 1 0 011-1zm4 8a4 4 0 11-8 0 4 4 0 018 0zm-.464 4.95l.707.707a1 1 0 001.414-1.414l-.707-.707a1 1 0 00-1.414 1.414zm2.12-10.607a1 1 0 010 1.414l-.706.707a1 1 0 11-1.414-1.414l.707-.707a1 1 0 011.414 0zM17 11a1 1 0 100-2h-1a1 1 0 100 2h1zm-7 4a1 1 0 011 1v1a1 1 0 11-2 0v-1a1 1 0 011-1zM5.05 6.464A1 1 0 106.465 5.05l-.708-.707a1 1 0 00-1.414 1.414l.707.707zm1.414 8.486l-.707.707a1 1 0 01-1.414-1.414l.707-.707a1 1 0 011.414 1.414zM4 11a1 1 0 100-2H3a1 1 0 000 2h1z" fill-rule="evenodd" clip-rule="evenodd"></path></svg>
       </button>
 
-      <!-- Mobile Menu Button (Hamburger & Close states) -->
+      <!-- Mobile Menu Hamburger Button (Large comfortable 40x40 touch target) -->
       <button 
         type="button" 
         id="mobile-menu-btn" 
-        class="lg:hidden p-2 rounded-xl text-slate-600 dark:text-slate-300 hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors shrink-0 cursor-pointer" 
+        class="lg:hidden w-10 h-10 flex items-center justify-center rounded-xl text-slate-700 dark:text-slate-200 hover:bg-slate-100 dark:hover:bg-slate-800 active:scale-95 transition-all shrink-0 cursor-pointer touch-manipulation focus:outline-none focus:ring-2 focus:ring-blue-500" 
         aria-label="Toggle Navigation Menu"
         aria-expanded="false"
       >
-        <svg id="mobile-menu-icon-open" class="w-6 h-6 block" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path></svg>
-        <svg id="mobile-menu-icon-close" class="w-6 h-6 hidden" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path></svg>
+        <svg id="mobile-menu-icon-open" class="w-6 h-6 block transition-transform duration-200" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M4 6h16M4 12h16M4 18h16"></path></svg>
+        <svg id="mobile-menu-icon-close" class="w-6 h-6 hidden transition-transform duration-200" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M6 18L18 6M6 6l12 12"></path></svg>
       </button>
 
+      <!-- Desktop Subscribe CTA -->
       <a href="#newsletter" class="hidden sm:inline-block bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-full font-bold text-xs shadow-md shadow-blue-500/20 transition-all text-center shrink-0">
         Subscribe
       </a>
     </div>
   </div>
 
-  <!-- Mobile Navigation Dropdown Menu -->
+  <!-- Mobile Backdrop Overlay (Closes menu on tap) -->
+  <div 
+    id="mobile-menu-backdrop" 
+    class="hidden fixed inset-0 top-[100px] bg-slate-950/60 backdrop-blur-sm z-40 transition-opacity duration-300"
+    aria-hidden="true"
+  ></div>
+
+  <!-- Mobile Navigation Drawer Menu -->
   <div 
     id="mobile-menu" 
-    class="hidden lg:hidden bg-white dark:bg-slate-900 border-t border-slate-200 dark:border-slate-800 px-4 py-4 shadow-2xl max-h-[calc(100vh-76px)] overflow-y-auto overscroll-contain pb-12"
+    class="hidden lg:hidden bg-white dark:bg-slate-900 border-t border-slate-200 dark:border-slate-800 px-4 py-4 shadow-2xl max-h-[calc(100vh-100px)] overflow-y-auto overscroll-contain pb-16 z-50 transition-all duration-200"
   >
     <!-- Search Bar in Mobile Menu -->
-    <div class="mb-3.5 pb-3.5 border-b border-slate-100 dark:border-slate-800">
+    <div class="mb-4">
       <button 
         type="button" 
         data-open-palette
         id="mobile-drawer-search-trigger"
-        class="w-full flex items-center justify-between bg-slate-100 hover:bg-slate-200 dark:bg-slate-800 dark:hover:bg-slate-750 px-3.5 py-2.5 rounded-xl text-xs font-semibold text-slate-600 dark:text-slate-300 transition-colors cursor-pointer border border-slate-200/60 dark:border-slate-700/60"
+        class="w-full flex items-center justify-between bg-slate-100 hover:bg-slate-200 dark:bg-slate-800 dark:hover:bg-slate-750 px-3.5 py-3 rounded-xl text-xs font-semibold text-slate-700 dark:text-slate-200 transition-colors cursor-pointer border border-slate-200/80 dark:border-slate-700/80 active:scale-[0.99] touch-manipulation shadow-sm"
       >
-        <span class="flex items-center gap-2">
+        <span class="flex items-center gap-2.5 truncate">
           <svg class="w-4 h-4 text-blue-600 dark:text-blue-400 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path></svg>
-          <span class="font-medium text-slate-500 dark:text-slate-400">Search 884+ airdrops &amp; news...</span>
+          <span class="font-medium text-slate-600 dark:text-slate-300 truncate">Search {airdrops.length}+ airdrops, news &amp; academy...</span>
         </span>
-        <span class="text-[10px] bg-white dark:bg-slate-700 px-2 py-0.5 rounded font-bold text-slate-500 dark:text-slate-300 shadow-sm">Search</span>
+        <span class="text-[10px] bg-white dark:bg-slate-700 px-2 py-0.5 rounded-md font-bold text-slate-500 dark:text-slate-300 shadow-sm shrink-0">Search</span>
       </button>
     </div>
 
-    <!-- Mobile Language Selector Row -->
+    <!-- Mobile Language Selector Grid (14 Languages) -->
     <div class="mb-4 pb-4 border-b border-slate-100 dark:border-slate-800">
-      <div class="flex items-center justify-between mb-2">
-        <span class="text-[11px] font-black uppercase tracking-wider text-slate-400">Language / Dil Seçimi</span>
-        <span class="text-[10px] text-blue-600 dark:text-blue-400 font-bold">14 Dilde Çeviri</span>
+      <div class="flex items-center justify-between mb-2.5">
+        <span class="text-[11px] font-black uppercase tracking-wider text-slate-400 flex items-center gap-1.5">
+          <span>🌐</span> Language / Dil Seçimi
+        </span>
+        <span class="text-[10px] text-blue-600 dark:text-blue-400 font-bold bg-blue-50 dark:bg-blue-950/40 px-2 py-0.5 rounded-full">14 Languages</span>
       </div>
       <div class="grid grid-cols-4 sm:grid-cols-7 gap-1.5">
         <button type="button" class="mobile-lang-btn px-2 py-2 rounded-xl text-xs font-bold border border-slate-200 dark:border-slate-700 bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 flex items-center justify-center gap-1 cursor-pointer transition-all active:scale-95 touch-manipulation" data-lang="en" data-flag="🇬🇧" data-code="EN">🇬🇧 EN</button>
@@ -219,47 +233,73 @@ import { airdrops } from '../data/airdrops';
       </div>
     </div>
 
-    <nav class="flex flex-col gap-1">
-      <a href="/" class="flex items-center gap-2.5 px-3 py-2.5 rounded-xl text-sm font-bold text-slate-700 dark:text-slate-200 hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors">
-        <span>🏠</span> Home (All Airdrops)
+    <!-- Navigation Section: Explore & Hubs -->
+    <div class="mb-3">
+      <div class="px-2 mb-1.5 text-[10px] font-black uppercase tracking-wider text-slate-400">Main Discovery</div>
+      <nav class="flex flex-col gap-1">
+        <a href="/" class="flex items-center gap-3 px-3 py-2.5 rounded-xl text-sm font-bold text-slate-800 dark:text-slate-100 hover:bg-slate-100 dark:hover:bg-slate-800 active:bg-blue-50 dark:active:bg-slate-750 transition-colors touch-manipulation">
+          <span class="text-base">🏠</span>
+          <span>Home ({airdrops.length} Airdrops)</span>
+        </a>
+        <a href="/ecosystems" class="flex items-center gap-3 px-3 py-2.5 rounded-xl text-sm font-bold text-slate-800 dark:text-slate-100 hover:bg-slate-100 dark:hover:bg-slate-800 active:bg-blue-50 dark:active:bg-slate-750 transition-colors touch-manipulation">
+          <span class="text-base">🌐</span>
+          <span>Ecosystem Hubs</span>
+        </a>
+        <a href="/faucets" class="flex items-center gap-3 px-3 py-2.5 rounded-xl text-sm font-bold text-blue-600 dark:text-blue-400 hover:bg-blue-50 dark:hover:bg-blue-950/30 active:bg-blue-100 transition-colors touch-manipulation">
+          <span class="text-base">🚰</span>
+          <span>Testnet Faucets</span>
+        </a>
+        <a href="/calendar" class="flex items-center gap-3 px-3 py-2.5 rounded-xl text-sm font-bold text-slate-800 dark:text-slate-100 hover:bg-slate-100 dark:hover:bg-slate-800 active:bg-blue-50 dark:active:bg-slate-750 transition-colors touch-manipulation">
+          <span class="text-base">🗓️</span>
+          <span>Airdrop Calendar</span>
+        </a>
+        <a href="/news" class="flex items-center gap-3 px-3 py-2.5 rounded-xl text-sm font-bold text-slate-800 dark:text-slate-100 hover:bg-slate-100 dark:hover:bg-slate-800 active:bg-blue-50 dark:active:bg-slate-750 transition-colors touch-manipulation">
+          <span class="text-base">📰</span>
+          <span>Daily News &amp; Alpha</span>
+        </a>
+        <a href="/academy" class="flex items-center gap-3 px-3 py-2.5 rounded-xl text-sm font-bold text-slate-800 dark:text-slate-100 hover:bg-slate-100 dark:hover:bg-slate-800 active:bg-blue-50 dark:active:bg-slate-750 transition-colors touch-manipulation">
+          <span class="text-base">🎓</span>
+          <span>Airdrop Academy</span>
+        </a>
+      </nav>
+    </div>
+
+    <!-- Navigation Section: Farming & Safety Tools -->
+    <div class="mb-3 pt-2 border-t border-slate-100 dark:border-slate-800">
+      <div class="px-2 mb-1.5 text-[10px] font-black uppercase tracking-wider text-slate-400">Tools &amp; Strategy</div>
+      <nav class="flex flex-col gap-1">
+        <a href="/watchlist" class="flex items-center justify-between px-3 py-2.5 rounded-xl text-sm font-bold text-amber-600 dark:text-amber-400 hover:bg-amber-50 dark:hover:bg-amber-950/30 active:bg-amber-100 transition-colors touch-manipulation">
+          <span class="flex items-center gap-3">
+            <span class="text-base">⭐</span>
+            <span>Watchlist &amp; Tracker</span>
+          </span>
+          <span id="mobile-watchlist-badge" class="hidden px-2 py-0.5 rounded-full text-xs bg-amber-500 text-white font-extrabold shadow-sm">0</span>
+        </a>
+        <a href="/strategy-matrix" class="flex items-center gap-3 px-3 py-2.5 rounded-xl text-sm font-bold text-indigo-600 dark:text-indigo-400 hover:bg-indigo-50 dark:hover:bg-indigo-950/30 active:bg-indigo-100 transition-colors touch-manipulation">
+          <span class="text-base">🎯</span>
+          <span>Strategy Matrix</span>
+        </a>
+        <a href="/sybil-checker" class="flex items-center gap-3 px-3 py-2.5 rounded-xl text-sm font-bold text-rose-600 dark:text-rose-400 hover:bg-rose-50 dark:hover:bg-rose-950/30 active:bg-rose-100 transition-colors touch-manipulation">
+          <span class="text-base">🛡️</span>
+          <span>Sybil Risk Checker</span>
+        </a>
+        <a href="/farming-planner" class="flex items-center gap-3 px-3 py-2.5 rounded-xl text-sm font-bold text-emerald-600 dark:text-emerald-400 hover:bg-emerald-50 dark:hover:bg-emerald-950/30 active:bg-emerald-100 transition-colors touch-manipulation">
+          <span class="text-base">📅</span>
+          <span>Farming Planner</span>
+        </a>
+        <a href="/calculator" class="flex items-center gap-3 px-3 py-2.5 rounded-xl text-sm font-bold text-slate-800 dark:text-slate-100 hover:bg-slate-100 dark:hover:bg-slate-800 active:bg-blue-50 dark:active:bg-slate-750 transition-colors touch-manipulation">
+          <span class="text-base">🧮</span>
+          <span>Points Calculator</span>
+        </a>
+      </nav>
+    </div>
+
+    <!-- Legal & Risk -->
+    <div class="pt-2 border-t border-slate-100 dark:border-slate-800">
+      <a href="/disclaimer" class="flex items-center gap-2.5 px-3 py-2 rounded-xl text-xs font-semibold text-slate-500 hover:text-slate-800 dark:text-slate-400 dark:hover:text-slate-200 transition-colors touch-manipulation">
+        <span>⚖️</span> Risk Disclaimer &amp; Terms
       </a>
-      <a href="/ecosystems" class="flex items-center gap-2.5 px-3 py-2.5 rounded-xl text-sm font-bold text-slate-700 dark:text-slate-200 hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors">
-        <span>🌐</span> Ecosystem Hubs
-      </a>
-      <a href="/faucets" class="flex items-center gap-2.5 px-3 py-2.5 rounded-xl text-sm font-bold text-blue-600 dark:text-blue-400 hover:bg-blue-50 dark:hover:bg-blue-950/30 transition-colors">
-        <span>🚰</span> Testnet Faucets
-      </a>
-      <a href="/watchlist" class="flex items-center justify-between px-3 py-2.5 rounded-xl text-sm font-bold text-amber-600 dark:text-amber-400 hover:bg-amber-50 dark:hover:bg-amber-950/30 transition-colors">
-        <span class="flex items-center gap-2.5">
-          <span>⭐</span> Watchlist &amp; Tracker
-        </span>
-        <span id="mobile-watchlist-badge" class="hidden px-2 py-0.5 rounded-full text-xs bg-amber-500 text-white font-extrabold">0</span>
-      </a>
-      <a href="/farming-planner" class="flex items-center gap-2.5 px-3 py-2.5 rounded-xl text-sm font-bold text-emerald-600 dark:text-emerald-400 hover:bg-emerald-50 dark:hover:bg-emerald-950/30 transition-colors">
-        <span>📅</span> Farming Planner
-      </a>
-      <a href="/sybil-checker" class="flex items-center gap-2.5 px-3 py-2.5 rounded-xl text-sm font-bold text-rose-600 dark:text-rose-400 hover:bg-rose-50 dark:hover:bg-rose-950/30 transition-colors">
-        <span>🛡️</span> Sybil Risk Checker
-      </a>
-      <a href="/strategy-matrix" class="flex items-center gap-2.5 px-3 py-2.5 rounded-xl text-sm font-bold text-indigo-600 dark:text-indigo-400 hover:bg-indigo-50 dark:hover:bg-indigo-950/30 transition-colors">
-        <span>🎯</span> Strategy Matrix
-      </a>
-      <a href="/calendar" class="flex items-center gap-2.5 px-3 py-2.5 rounded-xl text-sm font-bold text-slate-700 dark:text-slate-200 hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors">
-        <span>🗓️</span> Airdrop Calendar
-      </a>
-      <a href="/calculator" class="flex items-center gap-2.5 px-3 py-2.5 rounded-xl text-sm font-bold text-slate-700 dark:text-slate-200 hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors">
-        <span>🧮</span> Points Calculator
-      </a>
-      <a href="/news" class="flex items-center gap-2.5 px-3 py-2.5 rounded-xl text-sm font-bold text-slate-700 dark:text-slate-200 hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors">
-        <span>📰</span> Daily News &amp; Alpha
-      </a>
-      <a href="/academy" class="flex items-center gap-2.5 px-3 py-2.5 rounded-xl text-sm font-bold text-slate-700 dark:text-slate-200 hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors">
-        <span>🎓</span> Airdrop Academy
-      </a>
-      <a href="/disclaimer" class="flex items-center gap-2.5 px-3 py-2.5 rounded-xl text-xs font-semibold text-amber-600 dark:text-amber-400 hover:bg-amber-50 dark:hover:bg-amber-950/30 transition-colors">
-        <span>⚖️</span> Risk Disclaimer
-      </a>
-    </nav>
+    </div>
   </div>
 </header>
 
@@ -360,12 +400,7 @@ import { airdrops } from '../data/airdrops';
   if (mobileDrawerSearchBtn) {
     mobileDrawerSearchBtn.addEventListener('click', (e) => {
       e.preventDefault();
-      const mobileMenu = document.getElementById('mobile-menu');
-      if (mobileMenu) {
-        mobileMenu.classList.add('hidden');
-        document.getElementById('mobile-menu-icon-open')?.classList.remove('hidden');
-        document.getElementById('mobile-menu-icon-close')?.classList.add('hidden');
-      }
+      setMobileMenuState(false);
       if (typeof window.openCommandPalette === 'function') {
         window.openCommandPalette();
       }
@@ -383,7 +418,8 @@ import { airdrops } from '../data/airdrops';
       darkIcon?.classList.remove('hidden');
   }
 
-  themeToggleBtn?.addEventListener('click', function() {
+  themeToggleBtn?.addEventListener('click', function(e) {
+      e.preventDefault();
       darkIcon?.classList.toggle('hidden');
       lightIcon?.classList.toggle('hidden');
 
@@ -409,6 +445,7 @@ import { airdrops } from '../data/airdrops';
   // Mobile Menu Drawer Toggle & State Management
   const mobileMenuBtn = document.getElementById('mobile-menu-btn');
   const mobileMenu = document.getElementById('mobile-menu');
+  const mobileBackdrop = document.getElementById('mobile-menu-backdrop');
   const menuIconOpen = document.getElementById('mobile-menu-icon-open');
   const menuIconClose = document.getElementById('mobile-menu-icon-close');
 
@@ -416,23 +453,34 @@ import { airdrops } from '../data/airdrops';
     if (!mobileMenu) return;
     if (isOpen) {
       mobileMenu.classList.remove('hidden');
+      mobileBackdrop?.classList.remove('hidden');
       menuIconOpen?.classList.add('hidden');
       menuIconClose?.classList.remove('hidden');
       mobileMenuBtn?.setAttribute('aria-expanded', 'true');
+      document.body.style.overflow = 'hidden';
     } else {
       mobileMenu.classList.add('hidden');
+      mobileBackdrop?.classList.add('hidden');
       menuIconOpen?.classList.remove('hidden');
       menuIconClose?.classList.add('hidden');
       mobileMenuBtn?.setAttribute('aria-expanded', 'false');
+      document.body.style.overflow = '';
     }
   }
 
   if (mobileMenuBtn && mobileMenu) {
+    // Touch/click toggle
     mobileMenuBtn.addEventListener('click', (e) => {
+      e.preventDefault();
       e.stopPropagation();
       if (langMenu) langMenu.classList.add('hidden');
       const isClosed = mobileMenu.classList.contains('hidden');
       setMobileMenuState(isClosed);
+    });
+
+    // Prevent clicks inside the drawer from closing it
+    mobileMenu.addEventListener('click', (e) => {
+      e.stopPropagation();
     });
 
     // Close when clicking any navigation link inside the drawer
@@ -442,9 +490,23 @@ import { airdrops } from '../data/airdrops';
       });
     });
 
+    // Backdrop click closes the drawer
+    if (mobileBackdrop) {
+      mobileBackdrop.addEventListener('click', () => {
+        setMobileMenuState(false);
+      });
+    }
+
     // Close mobile menu when clicking outside
     document.addEventListener('click', (e) => {
       if (!mobileMenu.contains(e.target) && !mobileMenuBtn.contains(e.target)) {
+        setMobileMenuState(false);
+      }
+    });
+
+    // Close on Escape key
+    document.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape') {
         setMobileMenuState(false);
       }
     });
