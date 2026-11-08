@@ -14,6 +14,84 @@ export interface NewsArticle {
 
 export const newsArticles: NewsArticle[] = [
 {
+  "slug": "pharos-network-secures-eight-million-seed-rwa-layer-one",
+  "title": "Pharos Network Closes $8M Seed Round to Build Ultra-Fast RWA Settlement Layer 1",
+  "excerpt": "Backed by Hack VC and SNZ Capital, Pharos Network targets internet-scale real-world asset payments and trustless cross-border settlement with sub-second finality.",
+  "author": "Antigravity Research",
+  "date": "November 8, 2026",
+  "readTime": "4 min read",
+  "category": "RWA & Payments",
+  "image": "/images/airdrops/pharos-network.svg",
+  "tags": [
+    "Pharos Network",
+    "Layer 1",
+    "RWA",
+    "Payments",
+    "Airdrop"
+  ],
+  "relatedAirdropId": "pharos-network",
+  "content": "Pharos Network has successfully closed an $8 million seed funding round co-led by Hack VC and SNZ Capital, alongside Dispersion Capital, Hash Global, and Reflexive Capital. The protocol aims to become the foundational Layer 1 infrastructure for real-world asset (RWA) payments and institutional internet-scale Web3 finance.\n\nWhile first-generation blockchains struggle with latency and transaction predictability required by enterprise treasury desks, Pharos Network introduces a proprietary parallel consensus architecture capable of executing tens of thousands of transactions per second. The network natively integrates zero-knowledge compliance frameworks and sub-second settlement finality, allowing financial institutions to tokenize credit, debt instruments, and stablecoin payments directly on-chain.\n\nIn tandem with the funding announcement, Pharos launched its public incentivized testnet, inviting global developers and node operators to participate. The Pharos foundation confirmed that early validator delegations, network testing, and technical feedback will play an integral role in determining genesis community token allocations."
+},
+{
+  "slug": "lumio-network-launches-multi-vm-testnet-evm-svm-move",
+  "title": "Lumio Network Launches Multi-VM Testnet Unifying EVM, Solana SVM, and Move Execution",
+  "excerpt": "Backed by $10.5M from Lightspeed Faction and Pontem Network, Lumio opens its public testnet allowing developers to run Solana and Move code on Ethereum Layer 2.",
+  "author": "Antigravity Research",
+  "date": "November 8, 2026",
+  "readTime": "5 min read",
+  "category": "Layer 2 & Scaling",
+  "image": "/images/airdrops/lumio-network.svg",
+  "tags": [
+    "Lumio Network",
+    "Multi-VM",
+    "Solana",
+    "EVM",
+    "Move",
+    "Airdrop"
+  ],
+  "relatedAirdropId": "lumio-network",
+  "content": "Lumio Network has announced the deployment of its public multi-virtual machine (Multi-VM) testnet, marking a milestone in cross-ecosystem blockchain scaling. Supported by Pontem Network and $10.5 million in capital from Lightspeed Faction, Pantera Capital, and Mechanism Capital, Lumio provides a unified rollup environment capable of executing EVM, Solana SVM, and Move VM contracts simultaneously.\n\nFragmentation between virtual machines has long forced developers to choose between Ethereum's deep liquidity and Solana's execution speed. Lumio bridges this divide by deploying a modular Layer 2 that settles to Ethereum while utilizing parallel execution runtimes. Developers can deploy high-speed Solana Rust contracts or Move code without losing composability with standard EVM smart contracts.\n\nUsers can now bridge testnet assets, interact with cross-VM decentralized exchanges, and deploy experimental dApps. Lumio has established a comprehensive points leaderboard rewarding early testnet explorers, liquidity providers, and bridge operators ahead of its anticipated mainnet release."
+},
+{
+  "slug": "symphony-blockchain-unveils-rwa-stablecoin-testnet",
+  "title": "Symphony Blockchain Unveils Sovereign RWA Stablecoin Testnet on Cosmos Interchain",
+  "excerpt": "The specialized Cosmos Layer 1 introduces tokenized real-world asset debt collateralization and multi-currency decentralized stablecoin minting on public testnet.",
+  "author": "Antigravity Research",
+  "date": "November 8, 2026",
+  "readTime": "4 min read",
+  "category": "Cosmos Ecosystem",
+  "image": "/images/airdrops/symphony-blockchain.svg",
+  "tags": [
+    "Symphony",
+    "Cosmos",
+    "RWA",
+    "Stablecoin",
+    "Airdrop"
+  ],
+  "relatedAirdropId": "symphony-blockchain",
+  "content": "Symphony, a sovereign Layer 1 blockchain built on the Cosmos SDK, has unveiled its public incentivized testnet designed for Real-World Asset (RWA) debt tokenization and multi-currency algorithmic stablecoins. The protocol allows off-chain yield sources and tangible collateral to serve as backing for interchain decentralized stablecoins.\n\nTraditional decentralized stablecoins often suffer from reliance on volatile crypto collateral or centralized fiat reserves. Symphony introduces an algorithmic basket model where verified physical assets and institutional debt contracts are tokenized into IBC-enabled modules. This structure generates native real-world yield for stablecoin holders while maintaining decentralized price stability across market cycles.\n\nParticipants can test the protocol by setting up Cosmos-compatible wallets like Keplr or Leap, claiming testnet tokens from the official faucet, and staking on validator nodes. Symphony's core team confirmed that active testnet delegators and governance voters will receive allocations of the protocol's upcoming $MLD token during genesis."
+},
+{
+  "slug": "capx-ai-surpasses-five-hundred-thousand-contributors",
+  "title": "Capx AI Surpasses 500,000 Verified Community Contributors on Decentralized Data Layer",
+  "excerpt": "Backed by $10.5M in funding, Capx AI accelerates decentralized machine learning dataset curation and model training ahead of Season 1 token distribution.",
+  "author": "Antigravity Research",
+  "date": "November 8, 2026",
+  "readTime": "4 min read",
+  "category": "Artificial Intelligence",
+  "image": "/images/airdrops/capx-ai.svg",
+  "tags": [
+    "Capx AI",
+    "AI",
+    "Data",
+    "DePIN",
+    "Airdrop"
+  ],
+  "relatedAirdropId": "capx-ai",
+  "content": "Capx AI, the decentralized artificial intelligence data and model refinement infrastructure network, announced that its verified community of data curators has crossed 500,000 global participants across more than 100 countries.\n\nAs artificial intelligence laboratories face bottlenecks in sourcing clean, human-annotated data, Capx AI provides a decentralized marketplace where community members earn tokenized incentives for labeling text, evaluating prompts, and verifying neural model outputs. Supported by over $10.5 million in funding, Capx's protocol ensures data provenance and authenticity through cryptographic verification.\n\nAlongside the user milestone, Capx launched the finale of its Season 1 Community Campaign, enabling active curators to accumulate Capx IOU points convertible into governance tokens upon the forthcoming token generation event (TGE). With major Web3 AI partners integrating Capx's curated datasets, the protocol is establishing itself as a premier data rail for open-source artificial intelligence."
+},
+
+{
   "slug": "goat-network-launches-decentralized-bitcoin-sequencer-testnet",
   "title": "Goat Network Launches Public Testnet for Decentralized Bitcoin Sequencer Architecture",
   "excerpt": "Supported by the Metis Foundation and prominent Bitcoin venture funds, Goat Network opens testnet access for its decentralized sequencer and native BTC yield protocol.",

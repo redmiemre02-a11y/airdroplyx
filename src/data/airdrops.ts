@@ -35,6 +35,181 @@ export interface Airdrop {
 
 export const airdrops: Airdrop[] = [
 {
+  "id": "pharos-network",
+  "name": "Pharos Network",
+  "logo": "/images/airdrops/pharos-network.svg",
+  "description": "Ultra-high-speed Layer 1 blockchain engineered for real-time Real-World Asset (RWA) payments and institutional internet-scale finance with $8M seed funding.",
+  "reward": "Incentivized Testnet Points & Future $PHAROS Airdrop Allocation",
+  "category": "Layer 1",
+  "featured": true,
+  "status": "Active",
+  "endTime": "Q1 2027",
+  "funding": "$8M",
+  "investors": [
+    "Hack VC",
+    "SNZ Capital",
+    "Dispersion Capital",
+    "Reflexive Capital"
+  ],
+  "refLink": "https://airdroplyx.com/airdrop/pharos-network",
+  "overview": "Pharos Network is an ultra-fast, EVM-compatible Layer 1 blockchain built specifically for real-time asset settlement, cross-border payment corridors, and institutional Real-World Asset (RWA) tokenization. Backed by $8 million from Hack VC and SNZ Capital, Pharos leverages custom parallel consensus mechanisms capable of handling tens of thousands of transactions per second with sub-second finality.",
+  "tokenomics": "The native $PHAROS token secures the proof-of-stake validator network, pays for low-cost transaction gas, and enables DAO governance over supported RWA collateral frameworks.",
+  "sybilSafety": "Execute realistic cross-asset testnet transfers, maintain validator delegations across multiple epochs, and avoid automated scripted spam.",
+  "strategy": "Connect your Web3 wallet (Rabby or Rainbow) to Pharos Testnet, request testnet faucet tokens, execute smart contract interactions, and delegate tokens to active testnet validators.",
+  "steps": [
+    "Visit the official Pharos Network Portal and connect your EVM wallet (Rabby or Rainbow).",
+    "Add Pharos Testnet RPC configuration to your wallet settings.",
+    "Claim testnet gas and test RWA tokens from the official Pharos faucet.",
+    "Execute on-chain transfers and interact with Pharos ecosystem showcase dApps.",
+    "Delegate testnet tokens to validator nodes to earn early network staking points."
+  ],
+  "faqs": [
+    {
+      "question": "What is Pharos Network?",
+      "answer": "Pharos Network is an ultra-fast Layer 1 blockchain optimized for real-time payments, RWA asset tokenization, and institutional Web3 finance."
+    },
+    {
+      "question": "Who backed Pharos Network?",
+      "answer": "Pharos raised $8M in seed funding led by Hack VC and SNZ Capital, with participation from top infrastructure venture funds."
+    },
+    {
+      "question": "How do I earn rewards on the Pharos testnet?",
+      "answer": "By claiming faucet tokens, delegating to validators, executing contract transfers, and submitting technical feedback on GitHub and Discord."
+    }
+  ]
+},
+{
+  "id": "lumio-network",
+  "name": "Lumio Network",
+  "logo": "/images/airdrops/lumio-network.svg",
+  "description": "Modular Multi-VM Layer 2 network uniting Ethereum EVM, Solana SVM, and Aptos Move execution with $10.5M+ backing from Pontem Network and Lightspeed.",
+  "reward": "Lumio Points, Early Tester Badges & Token Allocation",
+  "category": "Layer 2",
+  "featured": true,
+  "status": "Active",
+  "endTime": "Q4 2026",
+  "funding": "$10.5M",
+  "investors": [
+    "Lightspeed Faction",
+    "Mechanism Capital",
+    "Pantera Capital",
+    "Pontem Network"
+  ],
+  "refLink": "https://airdroplyx.com/airdrop/lumio-network",
+  "overview": "Lumio Network is the first modular Layer 2 that supports multiple virtual machines simultaneously—including EVM, Solana's SVM, and Move VM. Developed in collaboration with Pontem Network and backed by $10.5 million, Lumio enables developers to write apps in Rust or Solidity while utilizing Ethereum's settlement security and modular data availability.",
+  "tokenomics": "The native $LUMIO token powers cross-VM execution gas fees, coordinates decentralized sequencer rotation, and governs multi-chain bridge parameters.",
+  "sybilSafety": "Interact across both EVM and SVM modules, bridge genuine testnet assets, and maintain a diversified transaction history across different weeks.",
+  "strategy": "Connect your EVM (Rabby) and Solana (Phantom) wallets to Lumio Testnet, bridge test ETH, perform cross-VM swaps, and provide test liquidity into Lumio DEX pools.",
+  "steps": [
+    "Access the Lumio Network portal and connect your preferred Web3 wallet (Rabby or Phantom).",
+    "Bridge Sepolia testnet ETH to Lumio L2 using the official native bridge.",
+    "Interact with Lumio SVM and Move test environments.",
+    "Deploy or interact with smart contracts on the Lumio multi-VM playground.",
+    "Join the Lumio Discord to claim early tester roles and link your wallet address."
+  ],
+  "faqs": [
+    {
+      "question": "What is Lumio Network?",
+      "answer": "Lumio is a modular rollup that allows developers to run Solana SVM, EVM, and Move smart contracts with shared liquidity and Ethereum security."
+    },
+    {
+      "question": "How much funding has Lumio raised?",
+      "answer": "Lumio is supported by Pontem Network and top venture capital firms including Lightspeed Faction, Mechanism, and Pantera Capital."
+    },
+    {
+      "question": "Can I use both EVM and Solana wallets on Lumio?",
+      "answer": "Yes, Lumio natively bridges EVM accounts and Solana SVM keypairs within a unified layer."
+    }
+  ]
+},
+{
+  "id": "symphony-blockchain",
+  "name": "Symphony",
+  "logo": "/images/airdrops/symphony-blockchain.svg",
+  "description": "Cosmos-based sovereign Layer 1 blockchain specializing in Real-World Asset (RWA) debt tokenization and multi-currency decentralized stablecoins.",
+  "reward": "Incentivized Testnet Rewards & Confirmed $MLD Token Airdrop",
+  "category": "RWA",
+  "featured": true,
+  "status": "Active",
+  "endTime": "Q1 2027",
+  "funding": "Ecosystem Backed",
+  "investors": [
+    "Cosmos Ecosystem Grants",
+    "Orkese Capital",
+    "Community DAO"
+  ],
+  "refLink": "https://airdroplyx.com/airdrop/symphony-blockchain",
+  "overview": "Symphony is a specialized Cosmos SDK sovereign blockchain built for Real-World Asset (RWA) tokenization and algorithmic, multi-currency decentralized debt instruments. By tokenizing off-chain revenue yields and physical collateral into IBC-compatible modules, Symphony provides trustless yield-bearing stablecoins across the Cosmos interchain.",
+  "tokenomics": "The native $MLD token serves as the primary governance, staking, and collateral rebalancing asset for Symphony's algorithmic multi-currency stablecoin baskets.",
+  "sybilSafety": "Delegate to multiple independent testnet validators, keep active IBC transfer channels, and avoid robotic automated loops.",
+  "strategy": "Set up a Cosmos wallet (Keplr or Leap), connect to Symphony Testnet, request testnet tokens from the faucet, bond tokens to validators, and test RWA collateral minting.",
+  "steps": [
+    "Install and open your Cosmos wallet (Keplr or Leap).",
+    "Connect to the Symphony Testnet web dashboard.",
+    "Request testnet tokens from the official Symphony faucet bot.",
+    "Stake and delegate tokens to testnet validators in the governance interface.",
+    "Test minting synthetic RWA debt tokens and transferring them via IBC."
+  ],
+  "faqs": [
+    {
+      "question": "What is Symphony?",
+      "answer": "Symphony is an RWA-focused blockchain in the Cosmos ecosystem designed for multi-currency stablecoins backed by real-world debt and collateral."
+    },
+    {
+      "question": "What wallet do I need for Symphony?",
+      "answer": "Any Cosmos-compatible wallet like Keplr or Leap works seamlessly with Symphony."
+    },
+    {
+      "question": "Are testnet rewards confirmed?",
+      "answer": "Yes, Symphony has designated a specific pool of $MLD tokens for active testnet validators, delegators, and bug bounty hunters."
+    }
+  ]
+},
+{
+  "id": "capx-ai",
+  "name": "Capx AI",
+  "logo": "/images/airdrops/capx-ai.svg",
+  "description": "Decentralized AI data preparation and intelligence layer enabling community contributors to curate datasets and train models with $10.5M funding.",
+  "reward": "Capx IOU Points, Season 1 Rewards & Governance Token",
+  "category": "AI",
+  "featured": true,
+  "status": "Active",
+  "endTime": "Q4 2026",
+  "funding": "$10.5M",
+  "investors": [
+    "Google for Startups Accelerator",
+    "Web3 AI Syndicate",
+    "Polymorphic Capital"
+  ],
+  "refLink": "https://airdroplyx.com/airdrop/capx-ai",
+  "overview": "Capx AI is building a decentralized artificial intelligence data layer designed to crowdsource, clean, and verify high-quality datasets for AI models. Supported by $10.5 million in funding, Capx rewards millions of global contributors with on-chain tokenized incentives for evaluating prompts, training agents, and verifying synthetic data outputs.",
+  "tokenomics": "The $CAPX token governs AI data marketplace fees, pays micro-rewards to data curators, and coordinates decentralized model validation nodes.",
+  "sybilSafety": "Complete authentic human data labeling tasks, maintain accurate response ratings, and connect verified social credentials.",
+  "strategy": "Connect your Web3 wallet to the Capx App, claim your Capx Member Passport, complete daily AI curation tasks, and refer contributors to boost point multipliers.",
+  "steps": [
+    "Visit the official Capx AI web platform and connect your Web3 wallet (Rabby or Rainbow).",
+    "Mint your free Capx Member ID profile badge.",
+    "Complete AI data labeling, classification, and prompt refinement quests.",
+    "Accumulate Capx IOU Points through daily streaks and knowledge challenges.",
+    "Track your ranking on the Season 1 Global Contributor Leaderboard."
+  ],
+  "faqs": [
+    {
+      "question": "What is Capx AI?",
+      "answer": "Capx AI is a decentralized platform that connects AI developers with a global community to label, curate, and verify training data for machine learning."
+    },
+    {
+      "question": "How do I earn Capx rewards?",
+      "answer": "By completing AI evaluation tasks, maintaining daily activity streaks, and participating in community data verification challenges."
+    },
+    {
+      "question": "How much has Capx raised?",
+      "answer": "Capx has raised over $10.5 million from top crypto venture funds, angel syndicates, and startup accelerator programs."
+    }
+  ]
+},
+
+{
   "id": "goat-network",
   "name": "Goat Network",
   "logo": "/images/airdrops/goat-network.svg",
