@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100" height="100">
+  <defs>
+    <linearGradient id="kb-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#EC4899" />
+      <stop offset="100%" stop-color="#BE185D" />
+    </linearGradient>
+  </defs>
+  <rect width="100" height="100" rx="24" fill="url(#kb-grad)" />
+  <!-- Beast / Creature Horns and Head -->
+  <circle cx="50" cy="54" r="22" fill="#FDF2F8" />
+  <!-- Beast Ears / Horns -->
+  <polygon points="32,46 22,26 40,36" fill="#F472B6" />
+  <polygon points="68,46 78,26 60,36" fill="#F472B6" />
+  <!-- Eyes -->
+  <circle cx="43" cy="52" r="3.5" fill="#831843" />
+  <circle cx="57" cy="52" r="3.5" fill="#831843" />
+  <!-- Nose/smile -->
+  <path d="M47 60 Q50 63 53 60" fill="none" stroke="#831843" stroke-width="2.5" stroke-linecap="round" />
+</svg>

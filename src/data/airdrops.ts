@@ -41251,5 +41251,270 @@ export const airdrops: Airdrop[] = [
         "answer": "Yes. Golden Shards represent your relative contribution share to the protocol and will convert to $KINTSU tokens upon TGE."
       }
     ]
+  },
+{
+  "id": "holdcoin",
+  "name": "HoldCoin",
+  "logo": "/images/airdrops/holdcoin.svg",
+  "description": "HoldCoin is a prominent Telegram-native cryptocurrency simulation and tap-to-earn ecosystem on The Open Network (TON), featuring diamond farming, holding challenges, and community airdrop rewards.",
+  "reward": "$HOLD Tokens & In-Game Diamond Staking Rewards",
+  "category": "Telegram",
+  "featured": true,
+  "isHot": true,
+  "isFeatured": true,
+  "status": "active",
+  "publishDate": "2026-11-09",
+  "endTime": "Q1 2027",
+  "funding": "Community & Ecosystem Backed",
+  "investors": "TON Community & Seed Gaming Angels",
+  "refLink": "https://t.me/HoldCoin_Bot",
+  "overview": "HoldCoin has quickly amassed over 5 million players by reimagining the classic tap-to-earn dynamic into a strategic 'hold-to-earn' experience on TON. Players complete daily holding drills, join syndicate teams, and collect diamonds that determine their allocation share of the forthcoming $HOLD governance and ecosystem token.",
+  "strategy": "Log in daily to claim holding bonuses, solve daily combo quizzes, upgrade your asset storage level, and connect your non-custodial Tonkeeper or Telegram Wallet.",
+  "tokenomics": "65% of the total $HOLD supply is allocated to the community via in-game score conversions and active holding multipliers.",
+  "sybilSafety": "Anti-bot verification ensures genuine Telegram accounts with phone verification and activity milestones receive allocations.",
+  "steps": [
+    "Launch the official HoldCoin mini-app bot on Telegram.",
+    "Tap and hold to accumulate diamond energy and increase your holding mastery tier.",
+    "Complete daily tasks, check-in streaks, and partner educational quests.",
+    "Connect a non-custodial TON wallet (such as Tonkeeper or Telegram Wallet) to link your address for the upcoming snapshot.",
+    "Form or join a HoldCoin squad to unlock passive team yield bonuses."
+  ],
+  "faqs": [
+    {
+      "question": "What is HoldCoin?",
+      "answer": "HoldCoin is a Telegram mini-app on TON that rewards users for completing holding challenges and daily crypto drills with $HOLD tokens."
+    },
+    {
+      "question": "How will the airdrop be calculated?",
+      "answer": "The airdrop considers accumulated diamond balances, account age, quest completion, and wallet connection status."
+    },
+    {
+      "question": "Which wallet should I use?",
+      "answer": "You can connect Tonkeeper, MyTonWallet, or Telegram Wallet (non-custodial mode)."
+    }
+  ],
+  "tier": "Tier 1",
+  "cost": "Free ($0)",
+  "stage": "Public Beta & Pre-TGE",
+  "timeCommitment": "3 mins / day",
+  "snapshot": "Q4 2026 - Q1 2027",
+  "estDate": "Q1 2027",
+  "socials": {
+    "twitter": "https://x.com/HoldCoinOrg",
+    "telegram": "https://t.me/HoldCoin_Bot",
+    "website": "https://holdcoin.io"
   }
+},
+{
+  "id": "hexacore",
+  "name": "Hexacore Gaming",
+  "logo": "/images/airdrops/hexacore.svg",
+  "description": "Hexacore is a premier Web3 mobile game publisher and Telegram mini-app gaming platform with over 10 million lifetime users, rewarding gameplay with $AGO and $HXT tokens on TON.",
+  "reward": "$AGO & $HXT Token Airdrop",
+  "category": "Telegram",
+  "featured": true,
+  "isHot": true,
+  "isFeatured": false,
+  "status": "active",
+  "publishDate": "2026-11-09",
+  "endTime": "Q1 2027",
+  "funding": "$3.5M",
+  "investors": "Web3 Gaming Angels & TON Ventures",
+  "refLink": "https://t.me/HexacoreGamingBot",
+  "overview": "Hexacore is an established mobile gaming publisher that transitioned millions of gamers into Web3 via Telegram mini-apps. Players customize 3D game avatars, upgrade NFT equipment, tap cubes to mine AGO points, and prepare for multi-token distributions on The Open Network.",
+  "strategy": "Upgrade avatar gear, tap to mine cubes daily, complete ecosystem partner quests, and maintain daily login streaks.",
+  "tokenomics": "AGO points convert directly to governance and game utility tokens during TGE with dedicated allocations for active mobile players.",
+  "sybilSafety": "On-chain transaction verification and active playtime thresholds eliminate passive bot farms.",
+  "steps": [
+    "Open the Hexacore Gaming mini-app on Telegram.",
+    "Mine cubes and collect AGO points by tapping and using auto-mining upgrades.",
+    "Equip and level up your character gear to boost mining multipliers.",
+    "Connect your non-custodial TON wallet (Tonkeeper or Telegram Wallet).",
+    "Participate in tournaments and syndicate guild quests for bonus allocations."
+  ],
+  "faqs": [
+    {
+      "question": "What is Hexacore?",
+      "answer": "Hexacore is a mobile Web3 game studio and Telegram mini-app with over 10 million players, preparing to distribute $AGO tokens."
+    },
+    {
+      "question": "Are there any entry fees?",
+      "answer": "No, Hexacore is completely free to play directly within Telegram."
+    },
+    {
+      "question": "When is the Hexacore token generation event?",
+      "answer": "The TGE and snapshot are scheduled for late 2026 to early 2027."
+    }
+  ],
+  "tier": "Tier 1",
+  "cost": "Free ($0)",
+  "stage": "Pre-TGE Mining Phase",
+  "timeCommitment": "5 mins / day",
+  "snapshot": "Q4 2026",
+  "estDate": "Q1 2027",
+  "socials": {
+    "twitter": "https://x.com/HexacoreGaming",
+    "telegram": "https://t.me/HexacoreGamingBot",
+    "website": "https://hexacore.io"
+  }
+},
+{
+  "id": "gemz",
+  "name": "Gemz",
+  "logo": "/images/airdrops/gemz.svg",
+  "description": "Gemz is an AI-powered tap-to-earn game and community hub built by gaming veterans on The Open Network (TON), featuring daily combo cards, gear crafting, and guaranteed community token drops.",
+  "reward": "$GEMZ Token Distribution",
+  "category": "Telegram",
+  "featured": true,
+  "isHot": true,
+  "isFeatured": true,
+  "status": "active",
+  "publishDate": "2026-11-09",
+  "endTime": "Q1 2027",
+  "funding": "Strategic Ecosystem Grants",
+  "investors": "GameFi Industry Angels",
+  "refLink": "https://t.me/gemzcoin_bot",
+  "overview": "Gemz incorporates rich card-collecting mechanics and passive income generator upgrades inside Telegram. Led by seasoned Web3 game producers, Gemz has engaged over 8 million users with AI mining assistants, daily mystery combos, and community guild battles.",
+  "strategy": "Purchase and level up passive income cards, solve the daily 5M combo cards, and connect your TON wallet.",
+  "tokenomics": "Over 60% of the $GEMZ supply will be distributed to Telegram players based on passive hourly profit and community achievements.",
+  "sybilSafety": "Proof-of-play heuristics and captcha mechanics prevent script automation.",
+  "steps": [
+    "Start the Gemz bot on Telegram.",
+    "Tap the Gem to gather initial coins and purchase passive mining workers.",
+    "Unlock daily combo cards to instantly earn millions of bonus coins.",
+    "Connect your non-custodial TON wallet to qualify for the official token distribution.",
+    "Complete Telegram community missions and invite fellow gaming enthusiasts."
+  ],
+  "faqs": [
+    {
+      "question": "What is Gemz?",
+      "answer": "Gemz is a viral Telegram tap-and-build game on TON designed by gaming veterans featuring passive card upgrades and token rewards."
+    },
+    {
+      "question": "What is the most important metric for the Gemz airdrop?",
+      "answer": "Passive hourly profit rate and overall activity consistency are the primary metrics."
+    },
+    {
+      "question": "Is it safe to connect my wallet?",
+      "answer": "Yes, always use a non-custodial wallet like Tonkeeper or Telegram Wallet and never share your secret seed phrase."
+    }
+  ],
+  "tier": "Tier 1",
+  "cost": "Free ($0)",
+  "stage": "Mining & Season 1",
+  "timeCommitment": "4 mins / day",
+  "snapshot": "Q4 2026 - Q1 2027",
+  "estDate": "Q1 2027",
+  "socials": {
+    "twitter": "https://x.com/gemzcoin",
+    "telegram": "https://t.me/gemzcoin_bot",
+    "website": "https://gemz.fun"
+  }
+},
+{
+  "id": "bounty-bay",
+  "name": "Bounty Bay",
+  "logo": "/images/airdrops/bounty-bay.svg",
+  "description": "Bounty Bay is the leading Web3 social commerce and viral marketing mini-app on TON, backed by HashKey Capital and TON Foundation, distributing $BTY reward tokens.",
+  "reward": "$BTY Ecosystem Tokens & Cash Drops",
+  "category": "Telegram",
+  "featured": true,
+  "isHot": true,
+  "isFeatured": false,
+  "status": "active",
+  "publishDate": "2026-11-09",
+  "endTime": "Q1 2027",
+  "funding": "Seed Funding backed by HashKey Capital",
+  "investors": "HashKey Capital, TON Foundation Grants",
+  "refLink": "https://t.me/bountybay_bot",
+  "overview": "Bounty Bay bridges Web3 commerce and viral social interactions directly inside Telegram. Users browse curated lifestyle and digital merchandise, share product links with friends to earn commission rebates, and accumulate BTY points convertible into native governance tokens.",
+  "strategy": "Check in daily, share viral product bounties with friends, spin the lucky wheel, and connect your TON wallet.",
+  "tokenomics": "Decentralized community commerce incentives represent 50% of total token allocation to bootstrap viral peer-to-peer commerce on TON.",
+  "sybilSafety": "Real social engagement tracking and anti-sybil graph analysis reward genuine viral recommenders.",
+  "steps": [
+    "Open the Bounty Bay mini-app on Telegram.",
+    "Claim daily check-in rewards and test your luck on the daily bounty wheel.",
+    "Share product drops or campaigns with friends on Telegram channels or groups.",
+    "Connect your Tonkeeper or Telegram Wallet to bind your reward profile.",
+    "Earn BTY loyalty points on every friend view and verified purchase."
+  ],
+  "faqs": [
+    {
+      "question": "What makes Bounty Bay different from clicker games?",
+      "answer": "Bounty Bay is a real social commerce protocol backed by HashKey, enabling users to earn real crypto rewards through peer-to-peer product sharing."
+    },
+    {
+      "question": "Do I need to buy products to earn airdrops?",
+      "answer": "No. Free daily check-ins, sharing links, and completing community bounties earn full airdrop eligibility."
+    },
+    {
+      "question": "When will BTY tokens be claimable?",
+      "answer": "Token claims will launch during the upcoming TGE on TON."
+    }
+  ],
+  "tier": "Tier 1",
+  "cost": "Free ($0)",
+  "stage": "Viral Growth & Reward Phase",
+  "timeCommitment": "3 mins / day",
+  "snapshot": "Q4 2026",
+  "estDate": "Q1 2027",
+  "socials": {
+    "twitter": "https://x.com/BountyBayApp",
+    "telegram": "https://t.me/bountybay_bot",
+    "website": "https://bountybay.app"
+  }
+},
+{
+  "id": "kuroro-beasts",
+  "name": "Kuroro Beasts",
+  "logo": "/images/airdrops/kuroro-beasts.svg",
+  "description": "Kuroro Beasts is an expansive Web3 creature RPG and Telegram mini-app backed by Animoca Brands, rewarding players with $KURO tokens across PvP battles and beast collections.",
+  "reward": "$KURO Token Allocation & Rare Beast Badges",
+  "category": "Telegram",
+  "featured": true,
+  "isHot": true,
+  "isFeatured": true,
+  "status": "active",
+  "publishDate": "2026-11-09",
+  "endTime": "Q1 2027",
+  "funding": "$2.5M Seed Round",
+  "investors": "Animoca Brands, Sanctor Capital",
+  "refLink": "https://t.me/KuroroBeastsBot",
+  "overview": "Kuroro Beasts brings high-fidelity creature collection and tactical turn-based RPG gameplay to Telegram and PC. Having secured investment from Animoca Brands, Kuroro's mini-app allows Telegram users to train beasts, hatch rare eggs, send pets on passive foraging expeditions, and earn $KURO tokens.",
+  "strategy": "Send Kuroros on daily foraging expeditions, complete beast combat trials, hatch eggs, and link your non-custodial wallet.",
+  "tokenomics": "Community gameplay incentives and Telegram mini-app rewards make up 40% of the total $KURO ecosystem token supply.",
+  "sybilSafety": "Gameplay validation algorithms ensure only active battlers and beast keepers receive allocations.",
+  "steps": [
+    "Launch the Kuroro Beasts mini-app on Telegram.",
+    "Adopt your starter Kuroro beast and send it on daily exploration expeditions.",
+    "Collect rare food, materials, and battle badges to level up your team.",
+    "Connect your non-custodial wallet to record your achievements.",
+    "Join PvP tournaments and community boss raids for bonus token allocations."
+  ],
+  "faqs": [
+    {
+      "question": "What is Kuroro Beasts?",
+      "answer": "Kuroro Beasts is an Animoca Brands-backed monster-taming RPG franchise featuring a fast-paced Telegram mini-app."
+    },
+    {
+      "question": "How do I earn $KURO tokens?",
+      "answer": "Earn Kuro XP and foraging materials through daily mini-app expeditions, which convert into $KURO tokens at TGE."
+    },
+    {
+      "question": "Is Kuroro Beasts free to play?",
+      "answer": "Yes, every player receives a free starter beast directly in the Telegram mini-app."
+    }
+  ],
+  "tier": "Tier 1",
+  "cost": "Free ($0)",
+  "stage": "Pre-Season Mini-App Live",
+  "timeCommitment": "5 mins / day",
+  "snapshot": "Q4 2026 - Q1 2027",
+  "estDate": "Q1 2027",
+  "socials": {
+    "twitter": "https://x.com/KuroroBeasts",
+    "telegram": "https://t.me/KuroroBeastsBot",
+    "website": "https://kurorobeasts.com"
+  }
+}
 ];

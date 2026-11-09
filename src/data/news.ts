@@ -6712,5 +6712,100 @@ export const newsArticles: NewsArticle[] = [
   ],
   "relatedAirdropId": "morpho-isolated-lending",
   "content": "## The Shift from Monolithic to Isolated Lending Architecture\n\n**Morpho**, the modular decentralized lending protocol supported by more than $50 million in institutional backing from **a16z crypto**, **Ribbit Capital**, and **Pantera Capital**, has crossed an unprecedented $2.5 billion in Total Value Locked (TVL). The milestone highlights the structural transition of decentralized finance away from monolithic shared-pool lending models toward hyper-efficient isolated risk markets.\n\nFirst-generation lending protocols pool all collateral and debt assets into single massive liquidity pools. While simple, this shared-risk design exposes the entire protocol to catastrophic insolvency if even a single collateral asset suffers an oracle exploit or sudden liquidity collapse. **Morpho Blue** completely eliminates systemic contagion by isolating each lending market into independent, permissionless pairs with customized risk parameters.\n\n> \"Isolated lending is the only architecture capable of scaling decentralized finance to trillions in institutional capital,\" stated Morpho DAO contributors. \"By decoupling risk curation from the immutable base protocol, MetaMorpho vaults allow specialized risk curators to compete and innovate without endangering the wider ecosystem.\"\n\n## MetaMorpho Vault Growth and Institutional Adoption\n\n| Protocol Metric | Morpho Blue Architecture | Monolithic Pooled Lending | Traditional Prime Brokerage |\n| :--- | :--- | :--- | :--- |\n| **Total Value Locked** | $2,500,000,000+ | $8,000,000,000 (Legacy) | Institutional Off-Chain |\n| **Risk Isolation** | 100% Isolated Markets | Shared Contagion Risk | Bilateral Counterparty Risk |\n| **Governance Overhead** | Zero (Permissionless Creation) | High (DAO Voting Delays) | Centralized Risk Desks |\n| **Gas Efficiency** | ~70% Gas Reduction | Baseline High Gas | N/A (Off-chain) |\n\nMetaMorpho vaults curated by elite institutional risk managers—including Gauntlet, Steakhouse Financial, and Re7 Capital—have attracted massive institutional liquidity deposits in USDC, ETH, and yield-bearing assets. Suppliers earn optimized lending yields combined with continuous $MORPHO token allocations, marking a new golden era for resilient decentralized money markets."
+},
+{
+  "slug": "holdcoin-telegram-mini-app-crosses-five-million-players",
+  "title": "HoldCoin Surpasses 5 Million Active Users on TON Ahead of TGE Snapshot",
+  "excerpt": "The popular hold-to-earn Telegram mini-app HoldCoin reaches a major milestone as millions prepare their non-custodial wallets for the upcoming $HOLD token distribution.",
+  "author": "Antigravity Research",
+  "date": "November 9, 2026",
+  "readTime": "3 min read",
+  "category": "Telegram Mini-Apps",
+  "image": "/images/airdrops/holdcoin.svg",
+  "tags": [
+    "HoldCoin",
+    "TON",
+    "Telegram",
+    "Airdrop",
+    "Gaming"
+  ],
+  "relatedAirdropId": "holdcoin",
+  "content": "HoldCoin has officially crossed the milestone of 5 million active users within The Open Network (TON) ecosystem. Unlike traditional tap-to-earn apps that require frantic tapping, HoldCoin challenges players to practice disciplined 'holding drills', staking virtual diamonds and solving daily combos. The development team confirmed that wallet connectivity via Tonkeeper and Telegram Wallet will serve as a core requirement for the snapshot taking place ahead of the Q1 2027 token generation event."
+},
+{
+  "slug": "hexacore-gaming-announces-ago-tokenomics-on-ton",
+  "title": "Hexacore Unveils Community-Driven $AGO Tokenomics for Telegram Mobile Gamers",
+  "excerpt": "With over 10 million players across its casual gaming titles, Hexacore Gaming details its tokenomics structure allocating major portions of $AGO directly to Telegram players.",
+  "author": "Antigravity Research",
+  "date": "November 9, 2026",
+  "readTime": "4 min read",
+  "category": "Gaming & Metaverse",
+  "image": "/images/airdrops/hexacore.svg",
+  "tags": [
+    "Hexacore",
+    "AGO",
+    "Telegram",
+    "TON",
+    "GameFi"
+  ],
+  "relatedAirdropId": "hexacore",
+  "content": "Hexacore Gaming, backed by prominent Web3 gaming angels and TON Ventures, has unveiled its official tokenomics breakdown for the upcoming $AGO governance and utility token. Players who have actively mined cubes, customized avatar equipment, and participated in guild raids within the Telegram mini-app will be rewarded with a dedicated community pool. The team also highlighted strict sybil-prevention checks to reward dedicated, authentic community players."
+},
+{
+  "slug": "gemz-reveals-season-one-airdrop-criteria-and-mining-multipliers",
+  "title": "Gemz Publishes Season 1 Airdrop Eligibility Rules and Card Multiplier System",
+  "excerpt": "AI-driven Telegram sensation Gemz clarifies how passive hourly mining profits and daily combo card collections will translate into $GEMZ tokens.",
+  "author": "Antigravity Research",
+  "date": "November 10, 2026",
+  "readTime": "3 min read",
+  "category": "Telegram Mini-Apps",
+  "image": "/images/airdrops/gemz.svg",
+  "tags": [
+    "Gemz",
+    "TON",
+    "Tap-to-Earn",
+    "Airdrop",
+    "Crypto"
+  ],
+  "relatedAirdropId": "gemz",
+  "content": "Gemz has published its comprehensive Season 1 airdrop criteria, shedding light on the exact calculations that will govern the $GEMZ token drop. According to the announcement, raw coin balances will be secondary to a player's hourly passive profit rate, daily combo completion streak, and active squad participation. Players are encouraged to connect non-custodial TON wallets to verify their addresses in advance of the final snapshot."
+},
+{
+  "slug": "bounty-bay-unveils-hashkey-backed-social-commerce-airdrop-on-telegram",
+  "title": "Bounty Bay Integrates Viral Social Commerce on TON with Backing from HashKey Capital",
+  "excerpt": "Bounty Bay demonstrates the power of peer-to-peer social commerce within Telegram, rewarding viral shoppers and community sharers with BTY points.",
+  "author": "Antigravity Research",
+  "date": "November 10, 2026",
+  "readTime": "4 min read",
+  "category": "Web3 Commerce",
+  "image": "/images/airdrops/bounty-bay.svg",
+  "tags": [
+    "Bounty Bay",
+    "HashKey",
+    "TON",
+    "Telegram",
+    "DeFi"
+  ],
+  "relatedAirdropId": "bounty-bay",
+  "content": "Social commerce on Telegram is entering a new frontier with Bounty Bay, a platform supported by HashKey Capital and TON Foundation grants. The mini-app transforms everyday product recommendations and viral shopping into decentralized crypto rewards. Users can claim daily mystery spins, share curated product links, and accumulate BTY reward points that will convert into tokens at the upcoming TGE."
+},
+{
+  "slug": "kuroro-beasts-animoca-backed-creature-rpg-expands-telegram-airdrop",
+  "title": "Animoca-Backed Kuroro Beasts Expands Telegram Mini-App with $KURO Token Rewards",
+  "excerpt": "Turn-based creature RPG Kuroro Beasts launches its companion Telegram mini-app, allowing players to forage, battle, and earn $KURO tokens on the go.",
+  "author": "Antigravity Research",
+  "date": "November 10, 2026",
+  "readTime": "4 min read",
+  "category": "Gaming & Metaverse",
+  "image": "/images/airdrops/kuroro-beasts.svg",
+  "tags": [
+    "Kuroro Beasts",
+    "Animoca Brands",
+    "KURO",
+    "TON",
+    "Telegram"
+  ],
+  "relatedAirdropId": "kuroro-beasts",
+  "content": "Kuroro Beasts, the creature-collecting RPG backed by Animoca Brands and Sanctor Capital, has officially expanded its ecosystem onto Telegram. The companion mini-app lets players adopt starter beasts, send them on automated foraging adventures, and accumulate Kuroro XP. A sizable 40% of the $KURO token supply has been reserved for community gaming rewards, bridging casual mobile players into the broader Kuroro franchise."
 }
 ];
