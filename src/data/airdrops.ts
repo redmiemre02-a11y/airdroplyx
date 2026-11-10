@@ -41516,5 +41516,323 @@ export const airdrops: Airdrop[] = [
     "telegram": "https://t.me/KuroroBeastsBot",
     "website": "https://kurorobeasts.com"
   }
+},
+{
+  "id": "goats-app",
+  "name": "GOATS",
+  "logo": "/images/airdrops/goats-app.svg",
+  "description": "GOATS is one of the most viral Telegram meme mini-apps on The Open Network (TON), distributing $GOATS tokens based on Telegram account age, Telegram Premium status, and active gaming achievements.",
+  "reward": "$GOATS Token Allocation & Real TON Rewards",
+  "category": "Telegram",
+  "featured": true,
+  "isHot": true,
+  "isFeatured": true,
+  "status": "active",
+  "publishDate": "2026-11-10",
+  "endTime": "Q1 2027",
+  "funding": "Community & Viral Growth Backed",
+  "investors": "TON Ecosystem Angels & Community Memes",
+  "refLink": "https://t.me/realgoats_bot",
+  "overview": "GOATS has surged past 15 million registered accounts across Telegram. Following the proven blueprint of viral hit DOGS, GOATS scans and evaluates your Telegram profile—rewarding veteran accounts, Telegram Premium subscribers, and active community participants with instant $GOATS point balances. In addition to account age rewards, the mini-app features daily mini-games, lottery pools, and direct TON rewards.",
+  "strategy": "Launch the bot to claim your historical Telegram age reward, log in daily to claim goat drops, play the coin-flip mini-games, and connect your Tonkeeper wallet before the snapshot.",
+  "tokenomics": "80% of the entire $GOATS supply is dedicated directly to community players with zero institutional locks or VC private rounds.",
+  "sybilSafety": "Real Telegram phone verification, minimum account age thresholds, and bot-farm detection algorithms protect real users.",
+  "steps": [
+    "Open the official GOATS Telegram mini-app bot.",
+    "Allow the app to calculate your Telegram account age and Premium status to receive your initial $GOATS bonus.",
+    "Complete daily partner tasks, check-in streaks, and social missions.",
+    "Connect your non-custodial TON wallet (Tonkeeper, MyTonWallet, or Telegram Wallet).",
+    "Participate in the community goat games to multiply your allocation before the TGE snapshot."
+  ],
+  "faqs": [
+    {
+      "question": "How does GOATS calculate my airdrop allocation?",
+      "answer": "Your initial allocation is based on the creation year of your Telegram account, active Telegram Premium subscription, daily logins, and completed gaming tasks."
+    },
+    {
+      "question": "When is the GOATS listing date?",
+      "answer": "The $GOATS token generation event (TGE) and exchange listings are planned for late 2026 / Q1 2027 on major TON decentralized and centralized trading venues."
+    },
+    {
+      "question": "Which wallet is recommended for GOATS?",
+      "answer": "Non-custodial TON wallets like Tonkeeper, OpenMask, or Telegram Wallet (self-custody mode) are fully supported."
+    }
+  ],
+  "tier": "Tier 1",
+  "cost": "Free ($0)",
+  "stage": "Pre-TGE Mining & Final Snapshot",
+  "timeCommitment": "2 mins / day",
+  "snapshot": "Q4 2026 - Q1 2027",
+  "estDate": "Q1 2027",
+  "socials": {
+    "twitter": "https://x.com/realgoats_bot",
+    "telegram": "https://t.me/realgoats_bot",
+    "website": "https://goats.tech"
+  }
+},
+{
+  "id": "spinner-coin",
+  "name": "SpinnerCoin",
+  "logo": "/images/airdrops/spinner-coin.svg",
+  "description": "SpinnerCoin is a physics-based fidget spinner mining game on TON with over 8 million users, allowing players to upgrade spinner gears, boost RPM speed, and earn $SPIN tokens.",
+  "reward": "$SPIN Token Airdrop & Gear Box NFTs",
+  "category": "Telegram",
+  "featured": true,
+  "isHot": true,
+  "isFeatured": false,
+  "status": "active",
+  "publishDate": "2026-11-10",
+  "endTime": "Q1 2027",
+  "funding": "$1.8M Ecosystem Seed",
+  "investors": "TON GameFi Grants & Private Angels",
+  "refLink": "https://t.me/SpinnerCoin_bot",
+  "overview": "SpinnerCoin turns the universally addictive fidget spinner into a high-octane Web3 mining mechanism on The Open Network. Players swipe to spin their 3D fidget spinner, boosting Revolutions Per Minute (RPM) to mine Spinner points. Points can be reinvested into ball bearings, aerodynamic alloys, and turbo boosters, or saved to claim $SPIN airdrops upon network launch.",
+  "strategy": "Spin your fidget toy daily to reach max RPM, upgrade bearing tiers for passive spinning while offline, and link your Tonkeeper wallet.",
+  "tokenomics": "Community mining pool captures 60% of the total $SPIN token supply, distributed according to lifetime RPM and gear level achievements.",
+  "sybilSafety": "Real touch-gesture physics validation prevents automated clicker scripts from artificially generating fake spins.",
+  "steps": [
+    "Launch the SpinnerCoin bot inside Telegram.",
+    "Swipe vigorously on your screen to spin the spinner and generate initial RPM points.",
+    "Upgrade your spinner's speed, friction resistance, and passive auto-spin stats in the Workshop.",
+    "Complete daily social missions and invite friends to increase squad mining multipliers.",
+    "Connect your non-custodial TON wallet to qualify for the $SPIN distribution."
+  ],
+  "faqs": [
+    {
+      "question": "What is SpinnerCoin?",
+      "answer": "SpinnerCoin is a viral Telegram tap-and-spin mini-app on TON where players upgrade fidget spinners to farm $SPIN cryptocurrency."
+    },
+    {
+      "question": "Can I earn points while the app is closed?",
+      "answer": "Yes, by upgrading your auto-spinner and bearing endurance, your spinner continues generating points offline for up to 8 hours."
+    },
+    {
+      "question": "When is the SpinnerCoin snapshot date?",
+      "answer": "The snapshot is scheduled ahead of the Q1 2027 TGE on TON."
+    }
+  ],
+  "tier": "Tier 1",
+  "cost": "Free ($0)",
+  "stage": "RPM Mining Season",
+  "timeCommitment": "3 mins / day",
+  "snapshot": "Q4 2026",
+  "estDate": "Q1 2027",
+  "socials": {
+    "twitter": "https://x.com/SpinnerCoin",
+    "telegram": "https://t.me/SpinnerCoin_bot",
+    "website": "https://spinnercoin.org"
+  }
+},
+{
+  "id": "cyberfinance",
+  "name": "CyberFinance",
+  "logo": "/images/airdrops/cyberfinance.svg",
+  "description": "CyberFinance (CFI) is a gamified DeFi yield generation mini-app on TON, where users crack cybernetic eggs every few hours to harvest $CFI tokens and unlock institutional-grade yield vaults.",
+  "reward": "$CFI Token Airdrop & DeFi Fee Rebates",
+  "category": "Telegram",
+  "featured": true,
+  "isHot": true,
+  "isFeatured": true,
+  "status": "active",
+  "publishDate": "2026-11-10",
+  "endTime": "Q1 2027",
+  "funding": "$2.0M Seed Round",
+  "investors": "TON DeFi Labs & Strategic Web3 Capital",
+  "refLink": "https://t.me/CyberFinanceBot",
+  "overview": "CyberFinance bridges the gap between casual Telegram mini-app gameplay and advanced decentralized perpetual trading on TON. Players start by cracking digital cyber-eggs every 3 to 6 hours to harvest raw $CFI points. As players level up their Cyber Hammer, they unlock higher crack yields, squad staking pools, and fee-sharing rights on the upcoming CyberFinance DEX.",
+  "strategy": "Crack your cyber egg regularly before the timer fills up, upgrade your Hammer level to boost crack efficiency, and connect a verified TON wallet.",
+  "tokenomics": "70% of $CFI is reserved for ecosystem participants, active egg crackers, and liquidity providers.",
+  "sybilSafety": "Time-interval cooldowns and on-chain interaction verification eliminate automated bot exploiters.",
+  "steps": [
+    "Open the CyberFinance bot on Telegram.",
+    "Tap the central cybernetic egg to crack it and claim your stored $CFI rewards.",
+    "Upgrade your Cyber Hammer to accelerate the egg cracking regeneration rate.",
+    "Complete educational DeFi quests and join a trading squad for bonus yields.",
+    "Link your non-custodial Tonkeeper or Telegram Wallet to secure your airdrop allocation."
+  ],
+  "faqs": [
+    {
+      "question": "What is CyberFinance (CFI)?",
+      "answer": "CyberFinance is a gamified DeFi portal and Telegram mini-app on TON allowing users to farm $CFI tokens through egg-cracking mechanics."
+    },
+    {
+      "question": "How often do I need to crack the egg?",
+      "answer": "Default eggs fill up in 3 hours. Upgrading your hammer expands storage time up to 8 hours."
+    },
+    {
+      "question": "Is there any financial cost to participate?",
+      "answer": "No, mining $CFI via egg cracking is 100% free."
+    }
+  ],
+  "tier": "Tier 1",
+  "cost": "Free ($0)",
+  "stage": "Egg Cracking Phase 2",
+  "timeCommitment": "2 mins / day",
+  "snapshot": "Q4 2026 - Q1 2027",
+  "estDate": "Q1 2027",
+  "socials": {
+    "twitter": "https://x.com/CyberFinance",
+    "telegram": "https://t.me/CyberFinanceBot",
+    "website": "https://cyberfin.xyz"
+  }
+},
+{
+  "id": "grand-combat",
+  "name": "Grand Combat",
+  "logo": "/images/airdrops/grand-combat.svg",
+  "description": "Grand Combat is a Web3 startup tycoon and crypto battle simulator on Telegram, featuring daily card combo sets, executive hiring, and $GRAND token distribution on TON.",
+  "reward": "$GRAND Token Allocation & Founder NFT Badges",
+  "category": "Telegram",
+  "featured": true,
+  "isHot": true,
+  "isFeatured": false,
+  "status": "active",
+  "publishDate": "2026-11-10",
+  "endTime": "Q1 2027",
+  "funding": "Incubated by Web3 Gaming Syndicate",
+  "investors": "TON GameFi Angels & Venture Partners",
+  "refLink": "https://t.me/GrandCombatBot",
+  "overview": "Grand Combat invites players to roleplay as ambitious crypto founders building their Web3 conglomerate from scratch. By tapping to raise venture capital, hiring blockchain engineers, acquiring marketing rights, and solving daily card combos, players skyrocket their hourly profit. The project is actively building toward its $GRAND token listing on The Open Network.",
+  "strategy": "Solve the daily 3-card combo every 24 hours for instant multi-million bonus points, level up high-ROI startup cards, and connect your TON wallet.",
+  "tokenomics": "The $GRAND token distribution rewards hourly profit rate, card collection breadth, and invite network activity.",
+  "sybilSafety": "Active gameplay analytics and suspicious pattern detection weed out multiple account automation.",
+  "steps": [
+    "Launch the Grand Combat mini-app in Telegram.",
+    "Tap to raise seed capital and recruit startup executives and marketing teams.",
+    "Invest in business cards to raise your passive hourly profit rate.",
+    "Check daily combo guides to match the 3 secret cards and claim big token rewards.",
+    "Connect your non-custodial Tonkeeper wallet to lock in your airdrop eligibility."
+  ],
+  "faqs": [
+    {
+      "question": "What is Grand Combat?",
+      "answer": "Grand Combat is a crypto startup management tap-to-earn game on Telegram that rewards strategic business upgrades with $GRAND tokens."
+    },
+    {
+      "question": "How do daily combos work in Grand Combat?",
+      "answer": "Each day, 3 specific business cards form a combo. Finding and leveling them up rewards millions of free game points instantly."
+    },
+    {
+      "question": "Which metric is most crucial for the $GRAND airdrop?",
+      "answer": "Passive profit per hour is the primary metric considered for the final token allocation."
+    }
+  ],
+  "tier": "Tier 1",
+  "cost": "Free ($0)",
+  "stage": "Pre-Listing Tycoon Phase",
+  "timeCommitment": "4 mins / day",
+  "snapshot": "Q4 2026",
+  "estDate": "Q1 2027",
+  "socials": {
+    "twitter": "https://x.com/GrandCombat",
+    "telegram": "https://t.me/GrandCombatBot",
+    "website": "https://grandcombat.io"
+  }
+},
+{
+  "id": "starsfi",
+  "name": "StarsFi",
+  "logo": "/images/airdrops/starsfi.svg",
+  "description": "StarsFi is an innovative Telegram Stars utility and staking protocol on TON, empowering users to monetize Telegram Stars and farm $STARFI token airdrops.",
+  "reward": "$STARFI Token Distribution & Daily Staking Yield",
+  "category": "Telegram",
+  "featured": true,
+  "isHot": true,
+  "isFeatured": true,
+  "status": "active",
+  "publishDate": "2026-11-10",
+  "endTime": "Q1 2027",
+  "funding": "Seed Backed by TON Builders Fund",
+  "investors": "TON Builders Collective & Web3 Angel Group",
+  "refLink": "https://t.me/starsfi_bot",
+  "overview": "Telegram Stars has become the official native currency for digital goods across Telegram. StarsFi is the first decentralized platform designed specifically to turn Telegram Stars into productive DeFi yield and airdrop rewards on TON. Users complete social quests, deposit or stake Stars, and harvest daily $STARFI loyalty tokens before the public token generation event.",
+  "strategy": "Collect daily free Star credits, complete community quests, stake idle Stars for boosted yields, and link your Tonkeeper wallet.",
+  "tokenomics": "Over 55% of the total $STARFI supply is allocated to early Telegram mini-app participants and community stakers.",
+  "sybilSafety": "Telegram Stars transactions create cryptographic on-chain receipts, preventing bot replication.",
+  "steps": [
+    "Open the StarsFi mini-app bot on Telegram.",
+    "Claim daily Star check-ins and complete social onboarding missions.",
+    "Stake or allocate Stars to earn continuous $STARFI yield.",
+    "Connect your non-custodial TON wallet (Tonkeeper or Telegram Wallet).",
+    "Invite friends to earn reciprocal StarFi reward splits on their activity."
+  ],
+  "faqs": [
+    {
+      "question": "What is StarsFi?",
+      "answer": "StarsFi is a DeFi platform and Telegram mini-app on TON that provides yield generation and airdrop incentives based on Telegram Stars."
+    },
+    {
+      "question": "Do I have to spend money on Stars to participate?",
+      "answer": "No, StarsFi offers free daily check-in star credits and social bounties that require zero purchases."
+    },
+    {
+      "question": "When will $STARFI tokens be launched?",
+      "answer": "The $STARFI token generation event is scheduled for early 2027 on The Open Network."
+    }
+  ],
+  "tier": "Tier 1",
+  "cost": "Free ($0)",
+  "stage": "Stars Staking Alpha",
+  "timeCommitment": "3 mins / day",
+  "snapshot": "Q4 2026 - Q1 2027",
+  "estDate": "Q1 2027",
+  "socials": {
+    "twitter": "https://x.com/StarsFi_App",
+    "telegram": "https://t.me/starsfi_bot",
+    "website": "https://starsfi.io"
+  }
+},
+{
+  "id": "dragonz-land",
+  "name": "Dragonz Land",
+  "logo": "/images/airdrops/dragonz-land.svg",
+  "description": "Dragonz Land is an immersive fantasy dragon-breeding and tactical card battle game on Telegram and TON, rewarding dragon masters with $DRG tokens and legendary NFT cards.",
+  "reward": "$DRG Tokens & Dragon Egg Whitelist",
+  "category": "Telegram",
+  "featured": true,
+  "isHot": true,
+  "isFeatured": false,
+  "status": "active",
+  "publishDate": "2026-11-10",
+  "endTime": "Q1 2027",
+  "funding": "$1.5M Private Round",
+  "investors": "GameFi Syndicate & Asian Crypto Funds",
+  "refLink": "https://t.me/dragonz_land_bot",
+  "overview": "Dragonz Land brings strategic fantasy combat directly to Telegram. Players hatch elemental dragon eggs (Fire, Water, Earth, Lightning), train their beasts, build competitive card decks, and battle in PvP tournaments. Every victory, daily training quest, and hatched dragon egg accumulates Dragon Points, which directly convert into $DRG governance tokens on TON.",
+  "strategy": "Train your dragons daily, hatch rare elemental eggs, assemble the strongest card synergy deck, and link your Tonkeeper wallet.",
+  "tokenomics": "45% of $DRG tokens are reserved for player battles, breeding achievements, and community tournament pools.",
+  "sybilSafety": "Real gameplay completion requirements and battle win-rate audits weed out idle clicker bots.",
+  "steps": [
+    "Start the Dragonz Land bot on Telegram.",
+    "Receive your complimentary starter dragon egg and hatch your first companion.",
+    "Complete daily foraging and training drills to level up your dragon's elemental stats.",
+    "Engage in tactical card battles to earn victory trophies and Dragon Points.",
+    "Connect your non-custodial TON wallet to qualify for the $DRG token airdrop."
+  ],
+  "faqs": [
+    {
+      "question": "What is Dragonz Land?",
+      "answer": "Dragonz Land is a dragon-taming RPG and card battler mini-app on Telegram powered by The Open Network (TON)."
+    },
+    {
+      "question": "Is Dragonz Land free to play?",
+      "answer": "Yes, every player receives a free dragon egg upon joining and can earn full airdrop rewards through gameplay."
+    },
+    {
+      "question": "How will the $DRG airdrop be distributed?",
+      "answer": "Airdrops will be distributed to linked non-custodial TON wallets based on dragon level, combat rating, and quest achievements."
+    }
+  ],
+  "tier": "Tier 1",
+  "cost": "Free ($0)",
+  "stage": "Breeding & Combat Season 1",
+  "timeCommitment": "5 mins / day",
+  "snapshot": "Q4 2026",
+  "estDate": "Q1 2027",
+  "socials": {
+    "twitter": "https://x.com/DragonzLand",
+    "telegram": "https://t.me/dragonz_land_bot",
+    "website": "https://dragonz.land"
+  }
 }
 ];

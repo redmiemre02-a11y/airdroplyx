@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100" height="100">
+  <defs>
+    <linearGradient id="goats-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#18181B" />
+      <stop offset="100%" stop-color="#09090B" />
+    </linearGradient>
+  </defs>
+  <rect width="100" height="100" rx="24" fill="url(#goats-grad)" stroke="#27272A" stroke-width="2" />
+  <!-- Goat Horns and Head silhouette -->
+  <path d="M30 40 C24 25 32 18 42 26 C40 32 36 36 30 40 Z" fill="#F43F5E" />
+  <path d="M70 40 C76 25 68 18 58 26 C60 32 64 36 70 40 Z" fill="#F43F5E" />
+  <polygon points="50,78 34,42 66,42" fill="#FAFAFA" />
+  <circle cx="43" cy="50" r="3.5" fill="#18181B" />
+  <circle cx="57" cy="50" r="3.5" fill="#18181B" />
+  <path d="M46 66 L50 72 L54 66 Z" fill="#F43F5E" />
+</svg>

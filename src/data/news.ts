@@ -6807,5 +6807,119 @@ export const newsArticles: NewsArticle[] = [
   ],
   "relatedAirdropId": "kuroro-beasts",
   "content": "Kuroro Beasts, the creature-collecting RPG backed by Animoca Brands and Sanctor Capital, has officially expanded its ecosystem onto Telegram. The companion mini-app lets players adopt starter beasts, send them on automated foraging adventures, and accumulate Kuroro XP. A sizable 40% of the $KURO token supply has been reserved for community gaming rewards, bridging casual mobile players into the broader Kuroro franchise."
+},
+{
+  "slug": "goats-telegram-airdrop-criteria-and-listing-timeline",
+  "title": "GOATS Telegram Mini-App Crosses 15 Million Users: Comprehensive Airdrop Criteria and Listing Timeline",
+  "excerpt": "With over 15 million players, the viral meme sensation GOATS reveals how account age, Telegram Premium status, and daily gaming milestones translate into $GOATS tokens on TON.",
+  "author": "Antigravity Research",
+  "date": "November 10, 2026",
+  "readTime": "4 min read",
+  "category": "Telegram Mini-Apps",
+  "image": "/images/airdrops/goats-app.svg",
+  "tags": [
+    "GOATS",
+    "TON",
+    "Telegram",
+    "Airdrop",
+    "MemeCoin"
+  ],
+  "relatedAirdropId": "goats-app",
+  "content": "The viral Telegram mini-app GOATS has officially surpassed 15 million registered accounts, establishing itself as one of the fastest-growing meme projects on The Open Network (TON). Echoing the historic success of DOGS, GOATS evaluates users based on their Telegram account longevity, with older accounts receiving significant point multipliers. In its latest announcement, the development team confirmed that 80% of the total $GOATS supply will be distributed to authentic community participants, with zero VC vesting locks. Users must ensure their Tonkeeper or non-custodial Telegram Wallet is linked ahead of the imminent snapshot."
+},
+{
+  "slug": "spinner-coin-ton-fidget-mining-airdrop-mechanics",
+  "title": "SpinnerCoin Brings Fidget Spinner Physics to Web3: $SPIN Airdrop Details and Mechanics",
+  "excerpt": "SpinnerCoin captures 8 million players with physics-driven fidget spinning, unlocking passive token mining and NFT gear upgrades on The Open Network.",
+  "author": "Antigravity Research",
+  "date": "November 10, 2026",
+  "readTime": "3 min read",
+  "category": "Telegram Mini-Apps",
+  "image": "/images/airdrops/spinner-coin.svg",
+  "tags": [
+    "SpinnerCoin",
+    "TON",
+    "Gaming",
+    "Airdrop",
+    "Tap-to-Earn"
+  ],
+  "relatedAirdropId": "spinner-coin",
+  "content": "SpinnerCoin has transformed nostalgia into Web3 gaming traction, drawing over 8 million users to its Telegram mini-app. By simulating genuine fidget spinner aerodynamics, the game rewards players who upgrade bearing friction, aerodynamics, and turbo multipliers. The development team announced that lifetime RPM and workshop upgrade levels will serve as the primary weighting factors for the forthcoming $SPIN token airdrop. Anti-macro bot filters have been implemented to guarantee that genuine touch-screen users are rewarded fairly."
+},
+{
+  "slug": "cyberfinance-egg-cracking-yield-and-cfi-tokenomics",
+  "title": "CyberFinance Unveils Egg-Cracking Gamified DeFi Portal and $CFI Tokenomics on TON",
+  "excerpt": "Merging casual Telegram mechanics with institutional-grade perpetual DEX infrastructure, CyberFinance reveals its $CFI token distribution model.",
+  "author": "Antigravity Research",
+  "date": "November 10, 2026",
+  "readTime": "4 min read",
+  "category": "DeFi & Trading",
+  "image": "/images/airdrops/cyberfinance.svg",
+  "tags": [
+    "CyberFinance",
+    "CFI",
+    "DeFi",
+    "TON",
+    "Telegram"
+  ],
+  "relatedAirdropId": "cyberfinance",
+  "content": "CyberFinance is demonstrating how Telegram mini-apps can act as user-friendly gateways into sophisticated decentralized finance. By allowing players to crack cybernetic eggs every few hours to harvest $CFI points, the platform has cultivated a loyal user base of active DeFi enthusiasts. The project confirmed that $CFI token holders will enjoy platform trading fee rebates, governance voting rights, and staking yield bonuses on the upcoming CyberFinance perpetual exchange built on TON."
+},
+{
+  "slug": "grand-combat-daily-combo-and-grand-token-tge-guide",
+  "title": "Grand Combat Announces Daily Combo Multipliers and Q1 2027 $GRAND Token Listing Roadmap",
+  "excerpt": "Startup tycoon mini-app Grand Combat outlines its community reward distribution, emphasizing passive hourly profits and daily 3-card combo solutions.",
+  "author": "Antigravity Research",
+  "date": "November 10, 2026",
+  "readTime": "4 min read",
+  "category": "Gaming & Metaverse",
+  "image": "/images/airdrops/grand-combat.svg",
+  "tags": [
+    "Grand Combat",
+    "Daily Combo",
+    "TON",
+    "Telegram",
+    "GameFi"
+  ],
+  "relatedAirdropId": "grand-combat",
+  "content": "Grand Combat, the Web3 startup management tycoon on Telegram, has published its comprehensive roadmap leading toward the $GRAND token generation event. Players who focus on growing their hourly passive income and consistently solving the daily 3-card combo cards will receive prime allocations in the community airdrop pool. The team reinforced that raw click counts are deprioritized in favor of strategic management decisions, hiring choices, and authenticated TON wallet connections."
+},
+{
+  "slug": "starsfi-monetizes-telegram-stars-with-starfi-airdrop",
+  "title": "StarsFi Launches First Telegram Stars Staking Protocol with Community $STARFI Airdrop",
+  "excerpt": "Capitalizing on the viral adoption of Telegram Stars, StarsFi introduces decentralized staking and yield farming mechanics natively inside Telegram.",
+  "author": "Antigravity Research",
+  "date": "November 10, 2026",
+  "readTime": "3 min read",
+  "category": "DeFi & Yield",
+  "image": "/images/airdrops/starsfi.svg",
+  "tags": [
+    "StarsFi",
+    "Telegram Stars",
+    "TON",
+    "Staking",
+    "Airdrop"
+  ],
+  "relatedAirdropId": "starsfi",
+  "content": "As Telegram Stars solidifies its status as the default virtual currency for Telegram bots and mini-apps, StarsFi has debuted the first native DeFi staking protocol built around Stars. The platform allows users to complete daily check-ins, participate in social bounties, and stake idle Stars to farm $STARFI governance tokens. Backed by the TON Builders Collective, StarsFi aims to bridge Web2 in-app purchases with Web3 tokenized yield."
+},
+{
+  "slug": "dragonz-land-launches-card-battler-airdrop-on-ton",
+  "title": "Dragonz Land Combines Fantasy RPG Battles and Telegram Mini-Apps for $DRG Token Distribution",
+  "excerpt": "With elemental dragon breeding, tactical turn-based card battles, and PvP arenas, Dragonz Land introduces its GameFi airdrop campaign on TON.",
+  "author": "Antigravity Research",
+  "date": "November 10, 2026",
+  "readTime": "4 min read",
+  "category": "Gaming & Metaverse",
+  "image": "/images/airdrops/dragonz-land.svg",
+  "tags": [
+    "Dragonz Land",
+    "GameFi",
+    "TON",
+    "Telegram",
+    "NFT"
+  ],
+  "relatedAirdropId": "dragonz-land",
+  "content": "Dragonz Land has rolled out its companion mini-app on Telegram, giving fantasy gaming fans a high-fidelity card battler on The Open Network. Players can hatch free starter dragon eggs, upgrade elemental stats, and challenge other users in tactical PvP duels. 45% of the total $DRG token supply has been allocated to community game rewards, ensuring that dedicated dragon masters are rewarded based on combat ranking, breeding diversity, and daily mission completion."
 }
 ];
