@@ -7035,5 +7035,119 @@ export const newsArticles: NewsArticle[] = [
   ],
   "relatedAirdropId": "midas-ton",
   "content": "Midas Protocol, the premier liquid Real-World Asset (RWA) platform backed by Framework Ventures and Hack VC, has officially debuted on Telegram and TON. The protocol enables users to gain exposure to tokenized U.S. Treasury bills (mTBILL) and basis trade yields natively inside Telegram. The Midas Points program rewards early participants with guaranteed allocations of the upcoming $MIDAS governance token."
+},
+{
+  "slug": "gomble-games-eggdrop-telegram-airdrop-gm-tokens",
+  "title": "Binance Labs-Backed Gomble Games Debuts EggDrop on TON with $GM Community Token Airdrop",
+  "excerpt": "Backed by Binance Labs and Animoca Brands, casual gaming powerhouse Gomble Games launches EggDrop on TON, unveiling its $GM token distribution criteria.",
+  "author": "Antigravity Research",
+  "date": "November 10, 2026",
+  "readTime": "4 min read",
+  "category": "Gaming & Metaverse",
+  "image": "/images/airdrops/gomble-games.svg",
+  "tags": [
+    "Gomble Games",
+    "EggDrop",
+    "Binance Labs",
+    "TON",
+    "Airdrop"
+  ],
+  "relatedAirdropId": "gomble-games",
+  "content": "Gomble Games, the casual Web3 studio backed by Binance Labs, Animoca Brands, and Altos Ventures, has expanded into The Open Network with its viral EggDrop mini-app. Players drop eggs through bouncy obstacle courses to collect GE points and upgrade bird nests. The team announced that active EggDrop participants will receive guaranteed allocations of the native $GM token during its upcoming public launch."
+},
+{
+  "slug": "qna3-ai-expands-crypto-intent-mining-to-telegram",
+  "title": "QnA3.AI Expands Decentralized AI Knowledge Network to Telegram Ahead of $QNA Snapshot",
+  "excerpt": "Incubated by Binance Labs, QnA3.AI brings AI crypto question-answering and compute credit mining directly into a Telegram bot.",
+  "author": "Antigravity Research",
+  "date": "November 10, 2026",
+  "readTime": "3 min read",
+  "category": "AI & Data",
+  "image": "/images/airdrops/qna3-bot.svg",
+  "tags": [
+    "QnA3",
+    "AI",
+    "Binance Labs",
+    "Telegram",
+    "Airdrop"
+  ],
+  "relatedAirdropId": "qna3-bot",
+  "content": "QnA3.AI, the AI-driven Web3 search and intent network incubated in Binance Labs Season 6, has expanded its reach with an official Telegram bot. Users can query real-time crypto analytics, vote on curated research threads, and mine background compute credits. These credits will convert into $QNA tokens, bridging casual Telegram users into decentralized AI infrastructure."
+},
+{
+  "slug": "ton-punks-arcade-runner-unveils-punk-tokenomics",
+  "title": "TON Punks Launches Cyberpunk Endless Runner and Underground Fight Club with $PUNK Airdrop",
+  "excerpt": "Bringing neon cyberpunk aesthetics and street-runner gameplay to Telegram, TON Punks announces community tokenomics for $PUNK.",
+  "author": "Antigravity Research",
+  "date": "November 10, 2026",
+  "readTime": "3 min read",
+  "category": "Telegram Mini-Apps",
+  "image": "/images/airdrops/ton-punks.svg",
+  "tags": [
+    "TON Punks",
+    "TON",
+    "Cyberpunk",
+    "Gaming",
+    "Airdrop"
+  ],
+  "relatedAirdropId": "ton-punks",
+  "content": "TON Punks has captured the attention of over 2 million players on The Open Network with its cyberpunk obstacle runner. Players dodge security drones, upgrade street runners, and battle in underground fight club tournaments. The developers confirmed that high scores, loot crates, and daily streak rewards will dictate the distribution of $PUNK tokens at the upcoming TGE."
+},
+{
+  "slug": "cattea-boba-shop-tycoon-crosses-three-million-players",
+  "title": "Cattea Boba Cafe Simulator Surpasses 3.5 Million Players on TON with Community $TEA Rewards",
+  "excerpt": "Combining cozy feline barista management with decentralized token rewards, Cattea details how daily boba recipes unlock $TEA airdrop allocations.",
+  "author": "Antigravity Research",
+  "date": "November 10, 2026",
+  "readTime": "4 min read",
+  "category": "Telegram Mini-Apps",
+  "image": "/images/airdrops/cattea.svg",
+  "tags": [
+    "Cattea",
+    "TON",
+    "GameFi",
+    "Telegram",
+    "Airdrop"
+  ],
+  "relatedAirdropId": "cattea",
+  "content": "Cattea has emerged as a breakout cozy simulation hit on TON, crossing 3.5 million active shop managers. Players brew bubble tea, upgrade pearl cooking machines, and hire cat baristas to generate passive income. Over 60% of the upcoming $TEA token supply is reserved for cafe owners, with daily recipe puzzle solvers receiving extra reward multipliers."
+},
+{
+  "slug": "gamerboom-hashkey-backed-ai-gaming-telegram-airdrop",
+  "title": "HashKey-Backed GamerBoom Introduces AI Voice Companion and $GBOOM Token Airdrop on Telegram",
+  "excerpt": "Supported by HashKey Capital, GamerBoom launches its Telegram companion mini-app to reward cross-game achievements with $GBOOM tokens.",
+  "author": "Antigravity Research",
+  "date": "November 10, 2026",
+  "readTime": "3 min read",
+  "category": "AI & Gaming",
+  "image": "/images/airdrops/gamerboom.svg",
+  "tags": [
+    "GamerBoom",
+    "HashKey Capital",
+    "AI",
+    "Gaming",
+    "Airdrop"
+  ],
+  "relatedAirdropId": "gamerboom",
+  "content": "GamerBoom, the AI-driven gaming social network supported by HashKey Capital and Folius Ventures, has deployed its Telegram companion mini-app. By connecting game telemetry and completing daily community quests, gamers earn Boomer points. These points will convert into $GBOOM governance and AI access tokens during the upcoming Q1 2027 token distribution."
+},
+{
+  "slug": "astra-nova-black-pass-telegram-expedition-airdrop",
+  "title": "HashKey-Backed RPG Astra Nova Expands to Telegram with Black Pass Expeditions for $RVV Airdrop",
+  "excerpt": "Unreal Engine fantasy RPG Astra Nova rolls out its Black Pass bot, allowing Telegram players to send scout ships on salvage missions to earn $RVV.",
+  "author": "Antigravity Research",
+  "date": "November 10, 2026",
+  "readTime": "4 min read",
+  "category": "Gaming & Metaverse",
+  "image": "/images/airdrops/astra-nova.svg",
+  "tags": [
+    "Astra Nova",
+    "HashKey Capital",
+    "Black Pass",
+    "RPG",
+    "Airdrop"
+  ],
+  "relatedAirdropId": "astra-nova",
+  "content": "Astra Nova, the action RPG backed by HashKey Capital, Moonrock Capital, and Polygon Ventures, has launched its Black Pass Telegram companion app. Players send cosmic scout ships on automated salvage expeditions across the Five Worlds to earn Deviant shards. The team confirmed that 40% of the $RVV token supply has been allocated to community explorers ahead of the TGE."
 }
 ];

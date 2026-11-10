@@ -42152,5 +42152,323 @@ export const airdrops: Airdrop[] = [
     "telegram": "https://t.me/MidasRWA_bot",
     "website": "https://midas.app"
   }
+},
+{
+  "id": "gomble-games",
+  "name": "Gomble Games (EggDrop)",
+  "logo": "/images/airdrops/gomble-games.svg",
+  "description": "Gomble Games is a Web3 casual gaming powerhouse backed by Binance Labs, Animoca Brands, and Altos Ventures, delivering the viral EggDrop mini-app on TON with $GM community airdrops.",
+  "reward": "$GM Governance Token Airdrop & Rare Egg Drops",
+  "category": "Telegram",
+  "featured": true,
+  "isHot": true,
+  "isFeatured": true,
+  "status": "active",
+  "publishDate": "2026-11-10",
+  "endTime": "Q1 2027",
+  "funding": "$10.0M Multi-Round Funding",
+  "investors": "Binance Labs, Animoca Brands, Altos Ventures, Shima Capital",
+  "refLink": "https://t.me/EggDrop_GombleBot",
+  "overview": "Gomble Games, the casual gaming studio with over 100M downloads in Web2 backed by Binance Labs and Animoca Brands, expanded onto TON with EggDrop. Players bounce and drop lucky eggs, collect GE energy points, complete bird nest upgrades, and qualify for guaranteed allocations of the native $GM ecosystem token.",
+  "strategy": "Drop eggs daily to hit high multiplier buckets, level up nest tiers for passive egg regeneration, and link your Tonkeeper wallet.",
+  "tokenomics": "The $GM token powers the entire Gomble multi-game ecosystem with dedicated community allocations for active Telegram mini-app players.",
+  "sybilSafety": "Physics-based interaction heuristics and account verification stop clicker automation.",
+  "steps": [
+    "Launch the EggDrop mini-app by Gomble Games on Telegram.",
+    "Drop eggs into rotating prize nests to accumulate in-game GE energy points.",
+    "Upgrade your incubator machinery to enhance daily egg drop capacities.",
+    "Participate in daily bird squad tournaments with fellow gamers.",
+    "Connect your non-custodial Tonkeeper or Telegram Wallet to secure your airdrop eligibility."
+  ],
+  "faqs": [
+    {
+      "question": "What is Gomble Games EggDrop?",
+      "answer": "EggDrop is a physics-based casual drop game on Telegram created by Gomble Games, a premier studio backed by Binance Labs and Animoca Brands."
+    },
+    {
+      "question": "How do I qualify for the $GM airdrop?",
+      "answer": "Accumulate GE points by dropping eggs, completing daily quests, leveling up nests, and linking your verified TON wallet."
+    },
+    {
+      "question": "Is EggDrop free to play?",
+      "answer": "Yes, free daily eggs regenerate continuously, allowing users to play without paying fees."
+    }
+  ],
+  "tier": "Tier 1",
+  "cost": "Free ($0)",
+  "stage": "EggDrop Season 1",
+  "timeCommitment": "3 mins / day",
+  "snapshot": "Q4 2026 - Q1 2027",
+  "estDate": "Q1 2027",
+  "socials": {
+    "twitter": "https://x.com/gomblegames",
+    "telegram": "https://t.me/EggDrop_GombleBot",
+    "website": "https://gomble.io"
+  }
+},
+{
+  "id": "qna3-bot",
+  "name": "QnA3.AI",
+  "logo": "/images/airdrops/qna3-bot.svg",
+  "description": "QnA3.AI is an AI-powered Web3 knowledge and intent training network backed by Binance Labs, enabling Telegram users to mine computing credits and earn $QNA tokens.",
+  "reward": "$QNA Token Airdrop & AI Compute Credits",
+  "category": "Telegram",
+  "featured": true,
+  "isHot": true,
+  "isFeatured": false,
+  "status": "active",
+  "publishDate": "2026-11-10",
+  "endTime": "Q1 2027",
+  "funding": "Incubated by Binance Labs (Season 6)",
+  "investors": "Binance Labs, Solana Foundation, Foresight Ventures",
+  "refLink": "https://t.me/qna3_bot",
+  "overview": "QnA3.AI acts as the decentralized ChatGPT and search engine for Web3. Through its streamlined Telegram bot, users can ask natural language questions regarding cryptocurrency market trends, token tokenomics, and airdrops. Asking questions, voting on community answers, and running background data verification mines compute credits convertible into $QNA tokens.",
+  "strategy": "Submit daily AI search queries, vote on high-signal crypto questions, claim daily check-in credit boosts, and connect your Web3 wallet.",
+  "tokenomics": "The $QNA token facilitates decentralized query execution, AI model fine-tuning incentives, and governance votes.",
+  "sybilSafety": "Natural language query semantics and IP telemetry verification ensure real human intent.",
+  "steps": [
+    "Start the QnA3.AI bot inside Telegram.",
+    "Check in daily to claim free compute credits and voting power.",
+    "Ask crypto research questions and browse trending market queries.",
+    "Vote on community-curated questions to earn additional reward multipliers.",
+    "Connect your non-custodial wallet to record your contributions on-chain."
+  ],
+  "faqs": [
+    {
+      "question": "What is QnA3.AI?",
+      "answer": "QnA3.AI is an AI-powered knowledge sharing and search engine for crypto, incubated by Binance Labs."
+    },
+    {
+      "question": "How do I earn $QNA tokens through Telegram?",
+      "answer": "Earn compute credits through daily check-ins, asking questions, and voting, which convert into $QNA tokens."
+    },
+    {
+      "question": "Is there any subscription fee?",
+      "answer": "No, QnA3.AI is completely free to use on Telegram."
+    }
+  ],
+  "tier": "Tier 1",
+  "cost": "Free ($0)",
+  "stage": "AI Data Mining Phase",
+  "timeCommitment": "2 mins / day",
+  "snapshot": "Q4 2026",
+  "estDate": "Q1 2027",
+  "socials": {
+    "twitter": "https://x.com/qnaweb3",
+    "telegram": "https://t.me/qna3_bot",
+    "website": "https://qna3.ai"
+  }
+},
+{
+  "id": "ton-punks",
+  "name": "TON Punks",
+  "logo": "/images/airdrops/ton-punks.svg",
+  "description": "TON Punks is a cyberpunk retro runner and fight club franchise native to The Open Network, rewarding street runners and underground fighters with $PUNK token distributions.",
+  "reward": "$PUNK Token Airdrop & Punk Gear NFTs",
+  "category": "Telegram",
+  "featured": true,
+  "isHot": true,
+  "isFeatured": true,
+  "status": "active",
+  "publishDate": "2026-11-10",
+  "endTime": "Q1 2027",
+  "funding": "$1.4M Ecosystem Round",
+  "investors": "TON Syndicate & Web3 Gaming Guilds",
+  "refLink": "https://t.me/tonpunks_bot",
+  "overview": "TON Punks brings neo-cyberpunk aesthetic and competitive obstacle-runner gameplay to Telegram. Players guide their punk avatar through neon alleyways, dodge security drones, loot digital crypto crates, and challenge other punks in underground PvP fight rings. High scores and collected punk shards translate into $PUNK governance token claims.",
+  "strategy": "Play daily runner matches to collect punk shards, upgrade runner stamina and shield perks, and connect your Tonkeeper wallet.",
+  "tokenomics": "The $PUNK token powers underground arena wagers, custom cyberware crafting, and community DAO governance.",
+  "sybilSafety": "Real-time obstacle collision physics and leaderboard cheat detection eliminate automated bots.",
+  "steps": [
+    "Open the TON Punks mini-app on Telegram.",
+    "Select your starter punk character and jump into the neon street runner.",
+    "Collect cyberpunk battery shards while dodging street obstacles.",
+    "Challenge other players in turn-based PvP fight club rounds.",
+    "Connect your non-custodial TON wallet to qualify for the $PUNK airdrop snapshot."
+  ],
+  "faqs": [
+    {
+      "question": "What is TON Punks?",
+      "answer": "TON Punks is a fast-paced cyberpunk endless runner and fight mini-app on Telegram powered by TON."
+    },
+    {
+      "question": "How do I boost my $PUNK allocation?",
+      "answer": "Achieve higher runner distances, win PvP fight club matches, and maintain a daily check-in streak."
+    },
+    {
+      "question": "When is the TON Punks TGE?",
+      "answer": "The token generation event and snapshot are slated for late 2026 / Q1 2027."
+    }
+  ],
+  "tier": "Tier 1",
+  "cost": "Free ($0)",
+  "stage": "Cyber Season 1",
+  "timeCommitment": "4 mins / day",
+  "snapshot": "Q4 2026 - Q1 2027",
+  "estDate": "Q1 2027",
+  "socials": {
+    "twitter": "https://x.com/tonpunks",
+    "telegram": "https://t.me/tonpunks_bot",
+    "website": "https://tonpunks.io"
+  }
+},
+{
+  "id": "cattea",
+  "name": "Cattea",
+  "logo": "/images/airdrops/cattea.svg",
+  "description": "Cattea is a cozy cat-themed boba bubble tea shop tycoon on Telegram and TON with 3.5 million players, rewarding master tea brewers with $TEA token airdrops.",
+  "reward": "$TEA Token Allocation & Legendary Boba Recipes",
+  "category": "Telegram",
+  "featured": true,
+  "isHot": true,
+  "isFeatured": false,
+  "status": "active",
+  "publishDate": "2026-11-10",
+  "endTime": "Q1 2027",
+  "funding": "Incubated by TON GameFi Collective",
+  "investors": "TON Community Builders & Casual Game Angels",
+  "refLink": "https://t.me/CatteaGameBot",
+  "overview": "Cattea combines cozy management simulation with Web3 earnings inside Telegram. Players manage a thriving boba tea parlor staffed by adorable felines. By unlocking gourmet tea leaves, hiring cat baristas, upgrading tapioca pearl cookers, and serving VIP feline guests, players skyrocket their passive shop earnings ahead of the $TEA token distribution.",
+  "strategy": "Brew and serve boba tea to level up your parlor, solve the daily recipe secret combo, upgrade offline pearl production, and connect your Tonkeeper wallet.",
+  "tokenomics": "Over 60% of $TEA tokens are allocated to tea shop owners based on lifetime boba sales and parlor tier.",
+  "sybilSafety": "Multi-step recipe craft logic and offline earning cooldowns prevent script abuse.",
+  "steps": [
+    "Launch the Cattea bot in Telegram.",
+    "Brew your first batch of milk tea to open your tea shop.",
+    "Recruit cat baristas to automate bubble tea preparation and pearl cooking.",
+    "Discover daily secret boba recipes to claim massive coin bonuses.",
+    "Connect your non-custodial TON wallet to register for the $TEA airdrop."
+  ],
+  "faqs": [
+    {
+      "question": "What is Cattea?",
+      "answer": "Cattea is a cat-themed boba cafe simulation game on Telegram and TON where players earn $TEA cryptocurrency."
+    },
+    {
+      "question": "Does my tea shop earn while I am offline?",
+      "answer": "Yes, hiring barista cats allows your shop to generate revenue offline for up to 6 hours."
+    },
+    {
+      "question": "Is Cattea free?",
+      "answer": "Yes, Cattea is 100% free-to-play with zero required in-app purchases."
+    }
+  ],
+  "tier": "Tier 1",
+  "cost": "Free ($0)",
+  "stage": "Cafe Expansion Season",
+  "timeCommitment": "3 mins / day",
+  "snapshot": "Q4 2026",
+  "estDate": "Q1 2027",
+  "socials": {
+    "twitter": "https://x.com/CatteaGame",
+    "telegram": "https://t.me/CatteaGameBot",
+    "website": "https://cattea.game"
+  }
+},
+{
+  "id": "gamerboom",
+  "name": "GamerBoom",
+  "logo": "/images/airdrops/gamerboom.svg",
+  "description": "GamerBoom is an AI-powered gaming social network and voice companion protocol backed by HashKey Capital, rewarding Telegram users with $GBOOM tokens and gamer identity scores.",
+  "reward": "$GBOOM Token Airdrop & AI Voice Perks",
+  "category": "Telegram",
+  "featured": true,
+  "isHot": true,
+  "isFeatured": true,
+  "status": "active",
+  "publishDate": "2026-11-10",
+  "endTime": "Q1 2027",
+  "funding": "Seed Funding backed by HashKey Capital",
+  "investors": "HashKey Capital, Folius Ventures & Gaming Angels",
+  "refLink": "https://t.me/GamerBoomBot",
+  "overview": "GamerBoom bridges Web2 and Web3 gamers through AI gaming assistants and real-time game telemetry. Through its interactive Telegram companion app, users link their favorite games (Steam, mobile titles), track daily in-game achievements, interact with AI voice coaching bots, and harvest Boomer points convertible into $GBOOM tokens upon TGE.",
+  "strategy": "Complete daily gaming bounties, check in with the AI gaming companion bot, claim Boomer energy refills, and link your Tonkeeper or EVM wallet.",
+  "tokenomics": "The $GBOOM token powers AI model access, premium voice mods, tournament registration fees, and staking rewards.",
+  "sybilSafety": "Real gaming account verification and behavioral AI analytics stop fake accounts.",
+  "steps": [
+    "Open the GamerBoom bot on Telegram.",
+    "Set up your gamer profile and choose your preferred AI gaming assistant.",
+    "Complete daily social missions and gaming onboarding tasks.",
+    "Accumulate Boomer points through daily check-in streaks and partner quests.",
+    "Link your non-custodial Web3 wallet to prepare for the token distribution."
+  ],
+  "faqs": [
+    {
+      "question": "What is GamerBoom?",
+      "answer": "GamerBoom is an AI-powered gaming social network backed by HashKey Capital that turns gaming achievements into crypto rewards."
+    },
+    {
+      "question": "Who are the key backers of GamerBoom?",
+      "answer": "GamerBoom is supported by HashKey Capital and top Web3 gaming venture funds."
+    },
+    {
+      "question": "How do I claim $GBOOM tokens?",
+      "answer": "Tokens will be claimable on-chain directly to linked non-custodial wallets during the Q1 2027 TGE."
+    }
+  ],
+  "tier": "Tier 1",
+  "cost": "Free ($0)",
+  "stage": "Genesis Campaign",
+  "timeCommitment": "2 mins / day",
+  "snapshot": "Q4 2026 - Q1 2027",
+  "estDate": "Q1 2027",
+  "socials": {
+    "twitter": "https://x.com/GamerBoom_Web3",
+    "telegram": "https://t.me/GamerBoomBot",
+    "website": "https://gamerboom.com"
+  }
+},
+{
+  "id": "astra-nova",
+  "name": "Astra Nova",
+  "logo": "/images/airdrops/astra-nova.svg",
+  "description": "Astra Nova is a premier Web3 action RPG backed by HashKey Capital, featuring the Black Pass Telegram companion app for interplanetary expeditions and $RVV token airdrops.",
+  "reward": "$RVV Token Allocation & Black Pass Shards",
+  "category": "Telegram",
+  "featured": true,
+  "isHot": true,
+  "isFeatured": true,
+  "status": "active",
+  "publishDate": "2026-11-10",
+  "endTime": "Q1 2027",
+  "funding": "$3.0M Round backed by HashKey Capital",
+  "investors": "HashKey Capital, Moonrock Capital, Polygon Ventures",
+  "refLink": "https://t.me/AstraNovaBot",
+  "overview": "Astra Nova is an ambitious action RPG set in a decaying fantasy universe called the Five Worlds. Built with Unreal Engine, Astra Nova launched the Telegram Black Pass companion bot to onboard millions of casual Web3 gamers. Players send scout teams on automated salvage expeditions, solve celestial lore riddles, and harvest Deviant shards that directly convert into $RVV tokens.",
+  "strategy": "Send daily scout ships on salvage missions, claim celestial crystals every 4 hours, complete lore riddles, and connect your Web3 wallet.",
+  "tokenomics": "40% of the $RVV token pool is reserved for game explorers, Telegram expedition travelers, and active guild leaders.",
+  "sybilSafety": "Expedition mission timing constraints and on-chain identity checks eliminate bot networks.",
+  "steps": [
+    "Launch the Astra Nova Black Pass bot on Telegram.",
+    "Claim your cosmic scout ship and deploy it on an interplanetary salvage mission.",
+    "Collect salvaged crystals, weapon blueprints, and Deviant shards upon mission completion.",
+    "Complete ecosystem community quests to upgrade your Black Pass tier.",
+    "Connect your non-custodial wallet to ensure your $RVV allocation is logged."
+  ],
+  "faqs": [
+    {
+      "question": "What is Astra Nova?",
+      "answer": "Astra Nova is a Web3 action RPG backed by HashKey Capital, featuring a Telegram companion bot called Black Pass."
+    },
+    {
+      "question": "What are Deviant shards in Astra Nova?",
+      "answer": "Deviant shards are points earned from Telegram expeditions that convert directly into $RVV tokens at TGE."
+    },
+    {
+      "question": "Is there any cost to send expeditions?",
+      "answer": "No, expeditions are 100% free with automated energy regeneration."
+    }
+  ],
+  "tier": "Tier 1",
+  "cost": "Free ($0)",
+  "stage": "Black Pass Expedition Season",
+  "timeCommitment": "3 mins / day",
+  "snapshot": "Q4 2026 - Q1 2027",
+  "estDate": "Q1 2027",
+  "socials": {
+    "twitter": "https://x.com/Astra__Nova",
+    "telegram": "https://t.me/AstraNovaBot",
+    "website": "https://astranova.world"
+  }
 }
 ];

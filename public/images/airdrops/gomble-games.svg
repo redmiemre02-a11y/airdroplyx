@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100" height="100">
+  <defs>
+    <linearGradient id="gm-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F59E0B" />
+      <stop offset="100%" stop-color="#EF4444" />
+    </linearGradient>
+  </defs>
+  <rect width="100" height="100" rx="24" fill="url(#gm-grad)" />
+  <!-- Cute EggDrop Egg silhouette -->
+  <path d="M50 20 C36 20 26 40 26 62 C26 76 36 82 50 82 C64 82 74 76 74 62 C74 40 64 20 50 20 Z" fill="#FFFFFF" />
+  <!-- Cheerful eyes & blush -->
+  <circle cx="42" cy="52" r="3.5" fill="#1F2937" />
+  <circle cx="58" cy="52" r="3.5" fill="#1F2937" />
+  <ellipse cx="36" cy="58" rx="3" ry="1.5" fill="#FDA4AF" />
+  <ellipse cx="64" cy="58" rx="3" ry="1.5" fill="#FDA4AF" />
+  <!-- Smile -->
+  <path d="M47 58 Q50 63 53 58" fill="none" stroke="#1F2937" stroke-width="2" stroke-linecap="round" />
+  <!-- Small sprout on top -->
+  <path d="M50 20 C50 14 55 12 58 14 C58 18 53 19 50 20 Z" fill="#10B981" />
+</svg>
