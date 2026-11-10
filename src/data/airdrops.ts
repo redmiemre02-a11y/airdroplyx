@@ -41834,5 +41834,323 @@ export const airdrops: Airdrop[] = [
     "telegram": "https://t.me/dragonz_land_bot",
     "website": "https://dragonz.land"
   }
+},
+{
+  "id": "fanton",
+  "name": "Fanton Fantasy Football",
+  "logo": "/images/airdrops/fanton.svg",
+  "description": "Fanton is the premier Web3 fantasy football mini-app on Telegram and The Open Network (TON), with over 3 million football fans competing with NFT player cards for $FTON token rewards.",
+  "reward": "$FTON Token Allocation & Rare Player Cards",
+  "category": "Telegram",
+  "featured": true,
+  "isHot": true,
+  "isFeatured": true,
+  "status": "active",
+  "publishDate": "2026-11-10",
+  "endTime": "Q1 2027",
+  "funding": "$3.0M Backed by TONcoin.Fund",
+  "investors": "TONcoin.Fund, First Stage Labs & Sports Angels",
+  "refLink": "https://t.me/FanTonGameBot",
+  "overview": "Fanton turns global football matches into daily fantasy tournaments inside Telegram. Integrated with top European football leagues, players scout real-world football talent, assemble weekly starting lineups, and earn points based on live player match statistics (goals, assists, clean sheets). Top fantasy managers win weekly TON cryptocurrency pools and accumulate $FTON governance tokens.",
+  "strategy": "Set up free starting squads every match day, optimize lineups around player injury reports, enter free beginner cups, and connect your Tonkeeper wallet.",
+  "tokenomics": "The $FTON token acts as tournament entry gas, card crafting utility, and governance voting token, with 50% allocated to tournament participants.",
+  "sybilSafety": "Real matchday performance mechanics and sports scoring algorithms prevent bot farm manipulation.",
+  "steps": [
+    "Launch the Fanton bot inside Telegram.",
+    "Claim your complimentary starter pack of football player cards.",
+    "Enter the upcoming Premier League, Champions League, or La Liga fantasy tournaments.",
+    "Set your 5-a-side starting lineup before the match kick-off deadline.",
+    "Connect your non-custodial Tonkeeper or Telegram Wallet to receive cash prizes and $FTON airdrops."
+  ],
+  "faqs": [
+    {
+      "question": "What is Fanton Fantasy Football?",
+      "answer": "Fanton is an officially backed fantasy football mini-app on Telegram where users assemble teams of real footballers and win crypto rewards based on live match performances."
+    },
+    {
+      "question": "Is Fanton free to play?",
+      "answer": "Yes, Fanton provides free-to-play tournaments in every major football league with real TON and $FTON reward pools."
+    },
+    {
+      "question": "How do I claim my Fanton airdrop?",
+      "answer": "Connect your non-custodial TON wallet inside the bot; rewards and $FTON token claims are distributed directly to your verified address."
+    }
+  ],
+  "tier": "Tier 1",
+  "cost": "Free ($0)",
+  "stage": "Mainnet Season 2",
+  "timeCommitment": "5 mins / matchday",
+  "snapshot": "Q4 2026 - Q1 2027",
+  "estDate": "Q1 2027",
+  "socials": {
+    "twitter": "https://x.com/FantonFantasy",
+    "telegram": "https://t.me/FanTonGameBot",
+    "website": "https://fanton.football"
+  }
+},
+{
+  "id": "sleepagotchi",
+  "name": "Sleepagotchi",
+  "logo": "/images/airdrops/sleepagotchi.svg",
+  "description": "Sleepagotchi is a gamified sleep-tracking and habit-building mini-app on Telegram, backed by 6th Man Ventures, rewarding consistent healthy sleep with $SHEEP tokens and digital collectibles.",
+  "reward": "$SHEEP Token Distribution & Virtual Bedroom NFTs",
+  "category": "Telegram",
+  "featured": true,
+  "isHot": true,
+  "isFeatured": false,
+  "status": "active",
+  "publishDate": "2026-11-10",
+  "endTime": "Q1 2027",
+  "funding": "$3.5M Seed Round",
+  "investors": "6th Man Ventures, Collab+Currency, Shima Capital",
+  "refLink": "https://t.me/SleepagotchiBot",
+  "overview": "Sleepagotchi revolutionizes sleep hygiene by transforming healthy bedtime habits into Web3 rewards. Over 3 million users track their daily sleep schedules, decorate interactive virtual bedrooms, and open daily mystery 'SleepBoxes'. By keeping sleep duration and bedtime consistent within a 15-minute target window, users farm $SHEEP tokens and unlock rare digital furniture.",
+  "strategy": "Set your target bedtime, check in every morning within 2 hours of waking to open your SleepBox, and connect your TON wallet.",
+  "tokenomics": "The $SHEEP token serves as the primary governance and cosmetic upgrade asset, with 60% assigned to verified sleep trackers.",
+  "sybilSafety": "Smartphone sensory verification and natural biometric sleep patterns eliminate bot emulation.",
+  "steps": [
+    "Open the Sleepagotchi mini-app on Telegram.",
+    "Configure your personalized target bedtime and wake-up duration.",
+    "Check in every morning to verify your sleep consistency and open your daily reward chest.",
+    "Equip and upgrade your virtual room items to maximize daily $SHEEP mining yield.",
+    "Connect your Tonkeeper or Telegram Wallet to lock in your seasonal airdrop status."
+  ],
+  "faqs": [
+    {
+      "question": "What is Sleepagotchi?",
+      "answer": "Sleepagotchi is a sleep-to-earn mobile and Telegram application that gamifies healthy sleep habits with tokenized rewards."
+    },
+    {
+      "question": "Do I need a wearable device like Apple Watch?",
+      "answer": "No, Sleepagotchi can track your sleep schedule directly through your phone without requiring external hardware."
+    },
+    {
+      "question": "When is the $SHEEP airdrop snapshot?",
+      "answer": "The snapshot is planned across late 2026 and early 2027 ahead of token generation."
+    }
+  ],
+  "tier": "Tier 1",
+  "cost": "Free ($0)",
+  "stage": "Telegram Lite Season",
+  "timeCommitment": "2 mins / day",
+  "snapshot": "Q4 2026",
+  "estDate": "Q1 2027",
+  "socials": {
+    "twitter": "https://x.com/sleepagotchi",
+    "telegram": "https://t.me/SleepagotchiBot",
+    "website": "https://sleepagotchi.com"
+  }
+},
+{
+  "id": "booms-ton",
+  "name": "Booms",
+  "logo": "/images/airdrops/booms-ton.svg",
+  "description": "Booms is a high-speed cryptocurrency prediction and trading battle mini-app on TON with over 4 million players, rewarding accurate market calls with $BOOMS token airdrops.",
+  "reward": "$BOOMS Token Airdrop & Broker Ranks",
+  "category": "Telegram",
+  "featured": true,
+  "isHot": true,
+  "isFeatured": true,
+  "status": "active",
+  "publishDate": "2026-11-10",
+  "endTime": "Q1 2027",
+  "funding": "$1.6M Ecosystem Grants",
+  "investors": "TON GameFi Syndicate & Trading Angels",
+  "refLink": "https://t.me/booms_io_bot",
+  "overview": "Booms turns market analysis into a fast-paced interactive prediction game inside Telegram. Players forecast 30-second price trends for Bitcoin, Ethereum, and TON. Winning streaks unlock higher broker license levels, lucrative trade cards, and substantial $BOOMS token allocations ahead of public exchange listings.",
+  "strategy": "Play daily price predictions, upgrade your automated Trading Desk cards, maintain win streaks, and connect your Tonkeeper wallet.",
+  "tokenomics": "Community prediction rewards and trading pool allocations encompass 65% of the total $BOOMS supply.",
+  "sybilSafety": "Real-time volatility timing and anti-script algorithms prevent bot manipulation.",
+  "steps": [
+    "Open the Booms bot on Telegram.",
+    "Predict whether the price will move Up or Down in the next 30 seconds.",
+    "Reinvest your profits into purchasing passive trading office cards.",
+    "Complete daily partner tasks and claim free energy refills.",
+    "Connect your non-custodial TON wallet to register for the official token distribution."
+  ],
+  "faqs": [
+    {
+      "question": "What is Booms?",
+      "answer": "Booms is a gamified crypto market prediction mini-app on Telegram rewarding accurate forecasts with $BOOMS tokens."
+    },
+    {
+      "question": "Do I risk real money making predictions?",
+      "answer": "No, all predictions in the airdrop campaign are made using free in-game trading points."
+    },
+    {
+      "question": "What is the key factor for the $BOOMS airdrop?",
+      "answer": "Broker license level, passive hourly profit from cards, and prediction accuracy rate."
+    }
+  ],
+  "tier": "Tier 1",
+  "cost": "Free ($0)",
+  "stage": "Broker Season 1",
+  "timeCommitment": "4 mins / day",
+  "snapshot": "Q4 2026 - Q1 2027",
+  "estDate": "Q1 2027",
+  "socials": {
+    "twitter": "https://x.com/booms_io",
+    "telegram": "https://t.me/booms_io_bot",
+    "website": "https://booms.io"
+  }
+},
+{
+  "id": "notbored-puppies",
+  "name": "NotBored Puppies",
+  "logo": "/images/airdrops/notbored-puppies.svg",
+  "description": "NotBored Puppies is a viral canine-breeding and idle merge game on TON with over 6 million players, featuring daily sound ciphers, kennel upgrades, and $PUP airdrop distributions.",
+  "reward": "$PUP Tokens & Golden Bone Rewards",
+  "category": "Telegram",
+  "featured": true,
+  "isHot": true,
+  "isFeatured": false,
+  "status": "active",
+  "publishDate": "2026-11-10",
+  "endTime": "Q1 2027",
+  "funding": "Community GameFi Incubator",
+  "investors": "TON Community Fund & Pet Guild Angels",
+  "refLink": "https://t.me/notboredpuppies_bot",
+  "overview": "NotBored Puppies has captured animal lovers across Telegram by combining addictive merge mechanics with meme culture. Players adopt cute puppies, merge matching breeds to unlock legendary show dogs, and solve the daily bark cipher code for millions of bonus bones. Accumulated bone points directly dictate your share of the forthcoming $PUP token airdrop.",
+  "strategy": "Merge puppies to reach higher breed levels, solve the daily Morse bark code, claim 4-hour kennel drops, and link your Tonkeeper wallet.",
+  "tokenomics": "75% of $PUP tokens are dedicated to community puppy parents with zero VC allocation.",
+  "sybilSafety": "Interactive merge validation and captcha bark puzzles stop automated clicker scripts.",
+  "steps": [
+    "Launch the NotBored Puppies bot on Telegram.",
+    "Merge two level-1 puppies into level-2, and continue merging to unlock rare dog breeds.",
+    "Crack the daily bark cipher code to earn instant bone multipliers.",
+    "Collect bones every 4 hours from your automated puppy park.",
+    "Connect your non-custodial TON wallet to qualify for the $PUP snapshot."
+  ],
+  "faqs": [
+    {
+      "question": "What is NotBored Puppies?",
+      "answer": "NotBored Puppies is a dog-themed merge and idle mini-app on TON that distributes $PUP cryptocurrency."
+    },
+    {
+      "question": "How do I find the daily cipher code?",
+      "answer": "The daily bark code is shared through community hints and can be tapped into the puppy collar for big coin rewards."
+    },
+    {
+      "question": "Is there any cost to join?",
+      "answer": "No, NotBored Puppies is completely free to play."
+    }
+  ],
+  "tier": "Tier 1",
+  "cost": "Free ($0)",
+  "stage": "Puppy Merge Phase 1",
+  "timeCommitment": "3 mins / day",
+  "snapshot": "Q4 2026",
+  "estDate": "Q1 2027",
+  "socials": {
+    "twitter": "https://x.com/NotBoredPuppies",
+    "telegram": "https://t.me/notboredpuppies_bot",
+    "website": "https://notboredpuppies.xyz"
+  }
+},
+{
+  "id": "televerse",
+  "name": "Televerse",
+  "logo": "/images/airdrops/televerse.svg",
+  "description": "Televerse is a decentralized gaming portal and gamer identity network on TON, aggregating dozens of casual mini-games under a unified gamer passport and $TELE token rewards.",
+  "reward": "$TELE Governance Tokens & Gamer Passport",
+  "category": "Telegram",
+  "featured": true,
+  "isHot": true,
+  "isFeatured": true,
+  "status": "active",
+  "publishDate": "2026-11-10",
+  "endTime": "Q1 2027",
+  "funding": "$2.0M Seed Round",
+  "investors": "Web3 Gaming Alliance & TON Ecosystem Fund",
+  "refLink": "https://t.me/TeleverseWorld_bot",
+  "overview": "Televerse acts as the 'Steam of Telegram', providing players with access to a curated library of arcade, strategy, and puzzle games without leaving Telegram. Every achievement, tournament score, and friend referral earns unified Televerse EXP. This cross-game reputation translates directly into $TELE token claims upon launch.",
+  "strategy": "Play featured games in the arcade library daily, mint your free gamer passport, participate in weekly leaderboard tournaments, and connect your TON wallet.",
+  "tokenomics": "50% of the $TELE token economy is allocated to game players, tournament champions, and indie game developers on TON.",
+  "sybilSafety": "Cross-game telemetry and multi-game skill audits ensure real players receive rewards.",
+  "steps": [
+    "Open the Televerse bot on Telegram.",
+    "Mint your complimentary on-chain Gamer Passport to begin tracking game stats.",
+    "Play games in the Televerse arcade to rack up high scores and EXP.",
+    "Complete ecosystem partner challenges and invite friends to your gaming guild.",
+    "Connect your non-custodial Tonkeeper wallet to receive $TELE token allocations."
+  ],
+  "faqs": [
+    {
+      "question": "What is Televerse?",
+      "answer": "Televerse is a gaming platform and identity layer on TON that unites multiple mini-games under one token ecosystem."
+    },
+    {
+      "question": "Do I need to install multiple bots?",
+      "answer": "No, Televerse allows you to play dozens of games directly inside a single Telegram mini-app."
+    },
+    {
+      "question": "When will the $TELE token launch?",
+      "answer": "The TGE and airdrop snapshot are scheduled for late 2026 / Q1 2027."
+    }
+  ],
+  "tier": "Tier 1",
+  "cost": "Free ($0)",
+  "stage": "Arcade Beta Season",
+  "timeCommitment": "5 mins / day",
+  "snapshot": "Q4 2026 - Q1 2027",
+  "estDate": "Q1 2027",
+  "socials": {
+    "twitter": "https://x.com/TeleverseWorld",
+    "telegram": "https://t.me/TeleverseWorld_bot",
+    "website": "https://televerse.world"
+  }
+},
+{
+  "id": "midas-ton",
+  "name": "Midas Protocol",
+  "logo": "/images/airdrops/midas-ton.svg",
+  "description": "Midas Protocol is an institutional-grade liquid RWA yield protocol expanding onto TON and Telegram, rewarding users who deposit stablecoins and hold mTBILL with $MIDAS governance tokens.",
+  "reward": "$MIDAS Governance Airdrop & Yield Points",
+  "category": "Telegram",
+  "featured": true,
+  "isHot": true,
+  "isFeatured": true,
+  "status": "active",
+  "publishDate": "2026-11-10",
+  "endTime": "Q1 2027",
+  "funding": "$8.75M Round led by Framework Ventures",
+  "investors": "Framework Ventures, Hack VC, 6th Man Ventures",
+  "refLink": "https://t.me/MidasRWA_bot",
+  "overview": "Backed by tier-1 institutional investors including Framework Ventures and Hack VC, Midas Protocol brings tokenized U.S. Treasury bills (mTBILL) and delta-neutral basis yields (mBASIS) onto The Open Network. Through its streamlined Telegram mini-app, users can explore institutional-grade yields, complete financial education quests, and earn Midas Points convertible into $MIDAS governance tokens.",
+  "strategy": "Complete educational RWA quizzes in the Telegram bot, hold or simulate mTBILL positions, and connect your Tonkeeper wallet for snapshot multipliers.",
+  "tokenomics": "Community incentives and liquidity bootstrapping allocate 40% of the total $MIDAS token supply to verified users.",
+  "sybilSafety": "Cryptographic verification and real wallet balance audits eliminate sybil farmers.",
+  "steps": [
+    "Open the Midas Protocol mini-app on Telegram.",
+    "Complete the onboarding questionnaire and explore institutional RWA vault strategies.",
+    "Participate in the Midas Points farming program through daily check-ins and knowledge tests.",
+    "Connect your non-custodial Tonkeeper or Telegram Wallet to bind your address.",
+    "Hold or supply stablecoins in TON DeFi partners to trigger boosted point multipliers."
+  ],
+  "faqs": [
+    {
+      "question": "What is Midas Protocol?",
+      "answer": "Midas is an institutional liquid Real-World Asset (RWA) protocol bringing yield-bearing Treasury bills and basis trade products to Web3 and TON."
+    },
+    {
+      "question": "Who are the investors behind Midas?",
+      "answer": "Midas raised $8.75M from premier crypto funds including Framework Ventures and Hack VC."
+    },
+    {
+      "question": "Is there a free way to qualify for the airdrop?",
+      "answer": "Yes, completing Telegram mini-app tasks, educational modules, and daily check-ins awards free Midas Points."
+    }
+  ],
+  "tier": "Tier 1",
+  "cost": "Free ($0)",
+  "stage": "Points Program Season 1",
+  "timeCommitment": "2 mins / day",
+  "snapshot": "Q4 2026 - Q1 2027",
+  "estDate": "Q1 2027",
+  "socials": {
+    "twitter": "https://x.com/MidasRWA",
+    "telegram": "https://t.me/MidasRWA_bot",
+    "website": "https://midas.app"
+  }
 }
 ];

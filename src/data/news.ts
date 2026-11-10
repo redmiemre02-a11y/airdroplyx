@@ -6921,5 +6921,119 @@ export const newsArticles: NewsArticle[] = [
   ],
   "relatedAirdropId": "dragonz-land",
   "content": "Dragonz Land has rolled out its companion mini-app on Telegram, giving fantasy gaming fans a high-fidelity card battler on The Open Network. Players can hatch free starter dragon eggs, upgrade elemental stats, and challenge other users in tactical PvP duels. 45% of the total $DRG token supply has been allocated to community game rewards, ensuring that dedicated dragon masters are rewarded based on combat ranking, breeding diversity, and daily mission completion."
+},
+{
+  "slug": "fanton-fantasy-football-telegram-airdrop-fton-tokens",
+  "title": "Fanton Fantasy Football Rallies 3 Million Fans on TON Ahead of $FTON Token Airdrop",
+  "excerpt": "Combining live European soccer action with Telegram mini-app mechanics, Fanton details how matchday managers can earn $FTON tokens and TON rewards.",
+  "author": "Antigravity Research",
+  "date": "November 10, 2026",
+  "readTime": "4 min read",
+  "category": "Sports & GameFi",
+  "image": "/images/airdrops/fanton.svg",
+  "tags": [
+    "Fanton",
+    "Fantasy Football",
+    "TON",
+    "Telegram",
+    "Airdrop"
+  ],
+  "relatedAirdropId": "fanton",
+  "content": "Fanton has emerged as the premier fantasy sports destination on The Open Network (TON), boasting over 3 million registered football enthusiasts. Covering top competitions including the UEFA Champions League, English Premier League, and Spanish La Liga, the mini-app allows users to build competitive squads of real footballers. The development team confirmed that 50% of the upcoming $FTON token supply will be distributed to tournament competitors and cardholders, with weekly leaderboard snapshots in progress."
+},
+{
+  "slug": "sleepagotchi-telegram-sleep-to-earn-airdrop-guide",
+  "title": "Sleepagotchi Brings Sleep-to-Earn to Telegram with $3.5M in Backing: $SHEEP Airdrop Guide",
+  "excerpt": "Backed by 6th Man Ventures and Collab+Currency, Sleepagotchi gamifies sleep consistency on Telegram, offering daily SleepBox rewards and $SHEEP tokens.",
+  "author": "Antigravity Research",
+  "date": "November 10, 2026",
+  "readTime": "4 min read",
+  "category": "Telegram Mini-Apps",
+  "image": "/images/airdrops/sleepagotchi.svg",
+  "tags": [
+    "Sleepagotchi",
+    "Sleep-to-Earn",
+    "Telegram",
+    "Airdrop",
+    "Web3"
+  ],
+  "relatedAirdropId": "sleepagotchi",
+  "content": "Sleepagotchi has expanded its acclaimed mobile sleep-tracking concept directly into Telegram with a streamlined mini-app. Backed by $3.5 million from 6th Man Ventures and Collab+Currency, the app rewards users who maintain consistent sleep schedules within a target 15-minute window. Morning check-ins award mystery SleepBoxes containing NFT bedroom items and $SHEEP token allocations, turning routine wellness habits into productive crypto rewards."
+},
+{
+  "slug": "booms-ton-market-prediction-airdrop-mechanics",
+  "title": "Booms Crosses 4 Million Players on TON: 30-Second Market Prediction and $BOOMS Airdrop Rules",
+  "excerpt": "Fast-paced crypto trading battle mini-app Booms publishes its token distribution model rewarding high-accuracy market forecasters and broker upgrades.",
+  "author": "Antigravity Research",
+  "date": "November 10, 2026",
+  "readTime": "3 min read",
+  "category": "Telegram Mini-Apps",
+  "image": "/images/airdrops/booms-ton.svg",
+  "tags": [
+    "Booms",
+    "TON",
+    "Prediction Market",
+    "Airdrop",
+    "Telegram"
+  ],
+  "relatedAirdropId": "booms-ton",
+  "content": "Booms has captivated more than 4 million users across Telegram with its 30-second crypto price prediction battles. Instead of mindless tapping, players forecast short-term Bitcoin, Ethereum, and TON movements, leveling up their virtual trading firms. The project announced that 65% of the $BOOMS token supply will go to community players based on broker license rank, win streaks, and passive hourly profit cards."
+},
+{
+  "slug": "notbored-puppies-telegram-daily-cipher-pup-airdrop",
+  "title": "NotBored Puppies Reaches 6 Million Users on TON: Daily Morse Cipher and $PUP Token Snapshot",
+  "excerpt": "Merging adorable puppy breeds with Morse bark ciphers, NotBored Puppies establishes itself as a leading idle tap game on The Open Network.",
+  "author": "Antigravity Research",
+  "date": "November 10, 2026",
+  "readTime": "3 min read",
+  "category": "Gaming & Metaverse",
+  "image": "/images/airdrops/notbored-puppies.svg",
+  "tags": [
+    "NotBored Puppies",
+    "TON",
+    "GameFi",
+    "Daily Cipher",
+    "Airdrop"
+  ],
+  "relatedAirdropId": "notbored-puppies",
+  "content": "NotBored Puppies has quickly expanded to over 6 million active players on TON. Combining casual idle merging mechanics with daily secret bark ciphers, the mini-app rewards dedicated dog trainers with bone multipliers. A significant 75% of the forthcoming $PUP token supply has been allocated to active players with zero private investor allocations, making it one of the most community-centric token drops on Telegram."
+},
+{
+  "slug": "televerse-telegram-gaming-network-tele-tokenomics",
+  "title": "Televerse Unveils 'Steam of Telegram' Gaming Portal and $TELE Community Tokenomics",
+  "excerpt": "Aggregating dozens of casual games under a single gamer passport, Televerse reveals its cross-game achievement system and $TELE distribution on TON.",
+  "author": "Antigravity Research",
+  "date": "November 10, 2026",
+  "readTime": "4 min read",
+  "category": "Gaming & Metaverse",
+  "image": "/images/airdrops/televerse.svg",
+  "tags": [
+    "Televerse",
+    "TON",
+    "Gaming",
+    "Telegram",
+    "Airdrop"
+  ],
+  "relatedAirdropId": "televerse",
+  "content": "Televerse has launched its comprehensive gaming network on TON, positioning itself as the decentralized arcade hub of Telegram. By allowing players to mint a free on-chain Gamer Passport, Televerse tracks player achievements, high scores, and tournament standings across dozens of integrated mini-games. The project confirmed that 50% of the $TELE token economy will reward players and tournament leaders upon network launch."
+},
+{
+  "slug": "midas-rwa-yield-vault-launches-telegram-airdrop-on-ton",
+  "title": "Framework-Backed Midas Protocol Expands Liquid RWA Yields to Telegram Ahead of $MIDAS TGE",
+  "excerpt": "Supported by $8.75M from Framework Ventures and Hack VC, Midas Protocol introduces tokenized U.S. Treasuries and yield points farming to TON users.",
+  "author": "Antigravity Research",
+  "date": "November 10, 2026",
+  "readTime": "4 min read",
+  "category": "RWA & Yield",
+  "image": "/images/airdrops/midas-ton.svg",
+  "tags": [
+    "Midas Protocol",
+    "RWA",
+    "TON",
+    "Framework Ventures",
+    "Airdrop"
+  ],
+  "relatedAirdropId": "midas-ton",
+  "content": "Midas Protocol, the premier liquid Real-World Asset (RWA) platform backed by Framework Ventures and Hack VC, has officially debuted on Telegram and TON. The protocol enables users to gain exposure to tokenized U.S. Treasury bills (mTBILL) and basis trade yields natively inside Telegram. The Midas Points program rewards early participants with guaranteed allocations of the upcoming $MIDAS governance token."
 }
 ];

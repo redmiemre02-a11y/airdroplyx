@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100" height="100">
+  <defs>
+    <linearGradient id="tv-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0EA5E9" />
+      <stop offset="100%" stop-color="#0369A1" />
+    </linearGradient>
+  </defs>
+  <rect width="100" height="100" rx="24" fill="url(#tv-grad)" />
+  <!-- Gamepad icon -->
+  <rect x="22" y="36" width="56" height="34" rx="14" fill="#FFFFFF" />
+  <!-- D-pad cross -->
+  <path d="M36 46 V58 M30 52 H42" stroke="#0284C7" stroke-width="3" stroke-linecap="round" />
+  <!-- Action buttons -->
+  <circle cx="62" cy="48" r="2.5" fill="#EF4444" />
+  <circle cx="68" cy="54" r="2.5" fill="#3B82F6" />
+</svg>

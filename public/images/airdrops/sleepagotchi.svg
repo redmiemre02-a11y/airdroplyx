@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100" height="100">
+  <defs>
+    <linearGradient id="slp-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#6366F1" />
+      <stop offset="100%" stop-color="#312E81" />
+    </linearGradient>
+  </defs>
+  <rect width="100" height="100" rx="24" fill="url(#slp-grad)" />
+  <!-- Crescent moon and sleepy stars -->
+  <path d="M56 26 C42 26 32 38 32 52 C32 66 42 78 56 78 C59 78 62 77 65 76 C52 72 44 61 44 50 C44 39 52 28 65 24 C62 25 59 26 56 26 Z" fill="#FDE047" />
+  <!-- ZZZ sleep letters -->
+  <path d="M68 34 L76 34 L68 44 L76 44" stroke="#E0E7FF" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round" />
+  <circle cx="72" cy="54" r="3" fill="#C7D2FE" />
+</svg>
