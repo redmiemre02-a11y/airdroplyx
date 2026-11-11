@@ -42470,5 +42470,323 @@ export const airdrops: Airdrop[] = [
     "telegram": "https://t.me/AstraNovaBot",
     "website": "https://astranova.world"
   }
+},
+{
+  "id": "quack-quack",
+  "name": "Quack Quack",
+  "logo": "/images/airdrops/quack-quack.svg",
+  "description": "Quack Quack is a viral duck-breeding and golden egg harvesting mini-app on TON with over 4 million players, rewarding active farm keepers with $QUACK community tokens.",
+  "reward": "$QUACK Token Airdrop & Golden Egg Rewards",
+  "category": "Telegram",
+  "featured": true,
+  "isHot": true,
+  "isFeatured": true,
+  "status": "active",
+  "publishDate": "2026-11-11",
+  "endTime": "Q1 2027",
+  "funding": "$1.8M Ecosystem Round",
+  "investors": "TON GameFi Angels & Community Syndicate",
+  "refLink": "https://t.me/quackquack_game_bot",
+  "overview": "Quack Quack combines cozy idle farming with exponential token collection on The Open Network. Players hatch collectible ducks, feed them to speed up egg laying intervals, and harvest golden eggs containing in-game TON and $QUACK allocations. Upgrading farm ponds and discovering rare duck breeds unlocks passive offline earnings.",
+  "strategy": "Feed ducks regularly to maximize egg lay rates, hatch rare mutant breeds, upgrade the pond for extended offline storage, and connect your Tonkeeper wallet.",
+  "tokenomics": "The $QUACK token economy dedicates 65% of supply to community duck farmers based on lifetime eggs laid and farm level.",
+  "sybilSafety": "Interactive feeding cooldowns and farm harvest verifications weed out automated scripts.",
+  "steps": [
+    "Open the Quack Quack bot inside Telegram.",
+    "Hatch your complimentary starter duckling and place it into the pond.",
+    "Collect laid eggs and reinvest in premium feed to accelerate egg generation.",
+    "Unlock mutant and cyber duck species to boost egg rarity multipliers.",
+    "Link your non-custodial Tonkeeper or Telegram Wallet to ensure snapshot eligibility."
+  ],
+  "faqs": [
+    {
+      "question": "What is Quack Quack?",
+      "answer": "Quack Quack is an idle duck-breeding and egg-harvesting Telegram mini-app on TON that distributes $QUACK cryptocurrency."
+    },
+    {
+      "question": "Can my ducks lay eggs while I am offline?",
+      "answer": "Yes, upgrading pond nests allows automatic egg storage for up to 8 hours."
+    },
+    {
+      "question": "How do I claim my airdrop rewards?",
+      "answer": "Connect your non-custodial TON wallet; token claims will be unlocked directly upon TGE."
+    }
+  ],
+  "tier": "Tier 1",
+  "cost": "Free ($0)",
+  "stage": "Duck Nest Season 1",
+  "timeCommitment": "3 mins / day",
+  "snapshot": "Q4 2026 - Q1 2027",
+  "estDate": "Q1 2027",
+  "socials": {
+    "twitter": "https://x.com/QuackQuackGame",
+    "telegram": "https://t.me/quackquack_game_bot",
+    "website": "https://quackquack.game"
+  }
+},
+{
+  "id": "memes-war",
+  "name": "Memes War",
+  "logo": "/images/airdrops/memes-war.svg",
+  "description": "Memes War is a strategic meme turf-war and guild battle game on TON with over 3 million players, where Doge, Pepe, and Cat armies clash for $MWAR token dominance.",
+  "reward": "$MWAR Token Allocation & Meme Legion Badges",
+  "category": "Telegram",
+  "featured": true,
+  "isHot": true,
+  "isFeatured": false,
+  "status": "active",
+  "publishDate": "2026-11-11",
+  "endTime": "Q1 2027",
+  "funding": "Incubated by TON Meme Lab",
+  "investors": "TON Community Fund & Meme Venture Angels",
+  "refLink": "https://t.me/memeswar_bot",
+  "overview": "Memes War pits internet culture factions against each other in real-time territorial warfare inside Telegram. Players pledge allegiance to Doge, Pepe, Cat, or Frog factions, upgrade defensive fortifications, and launch daily raids against rival meme clans. Victories capture territorial yield and distribute $MWAR tokens to active war combatants.",
+  "strategy": "Join an active meme faction, participate in daily territory conquest battles, level up your war commander, and connect your TON wallet.",
+  "tokenomics": "70% of total $MWAR token supply is allocated to faction members and turf war champions with zero team pre-mines.",
+  "sybilSafety": "Real-time battle coordination and anti-bot verification eliminate multiple account exploitation.",
+  "steps": [
+    "Launch the Memes War mini-app in Telegram.",
+    "Select your founding meme faction (Doge, Pepe, Cat, or Frog).",
+    "Upgrade your fortress defenses and recruit meme soldiers.",
+    "Deploy troops in hourly conquest skirmishes to claim rival territory.",
+    "Connect your non-custodial Tonkeeper wallet to receive $MWAR war spoils."
+  ],
+  "faqs": [
+    {
+      "question": "What is Memes War?",
+      "answer": "Memes War is a faction-based strategy game on Telegram and TON rewarding tactical territory control with $MWAR tokens."
+    },
+    {
+      "question": "Which faction should I join?",
+      "answer": "You can choose any faction; rewards depend on individual battle performance and overall faction territorial control."
+    },
+    {
+      "question": "Is there any cost to play?",
+      "answer": "No, Memes War provides free daily troop reinforcements and energy refills."
+    }
+  ],
+  "tier": "Tier 1",
+  "cost": "Free ($0)",
+  "stage": "Faction Wars Alpha",
+  "timeCommitment": "4 mins / day",
+  "snapshot": "Q4 2026",
+  "estDate": "Q1 2027",
+  "socials": {
+    "twitter": "https://x.com/MemesWar_TON",
+    "telegram": "https://t.me/memeswar_bot",
+    "website": "https://memeswar.io"
+  }
+},
+{
+  "id": "pokeyquest",
+  "name": "PokeyQuest",
+  "logo": "/images/airdrops/pokeyquest.svg",
+  "description": "PokeyQuest is an AI virtual pet and dungeon crawler RPG on Telegram with 2.5 million users, rewarding pet training and boss expeditions with $POKEY tokens.",
+  "reward": "$POKEY Token Distribution & Legendary Relic NFTs",
+  "category": "Telegram",
+  "featured": true,
+  "isHot": true,
+  "isFeatured": true,
+  "status": "active",
+  "publishDate": "2026-11-11",
+  "endTime": "Q1 2027",
+  "funding": "$2.2M Seed Round",
+  "investors": "Web3 AI Syndicate & TON Gaming Ventures",
+  "refLink": "https://t.me/PokeyQuest_bot",
+  "overview": "PokeyQuest blends Tamagotchi-style pet companionship with procedural dungeon crawling RPG action inside Telegram. Players hatch and nurture an AI-driven Pokey companion, teaching it elemental combat skills and sending it into labyrinth dungeons. Conquering rogue bosses yields crystal relics that convert into $POKEY tokens at TGE.",
+  "strategy": "Feed and train your Pokey companion daily, send it on multi-stage dungeon runs, craft elemental battle gear, and link your Tonkeeper wallet.",
+  "tokenomics": "The $POKEY token fuels creature breeding, dungeon revival potions, and community governance, with 50% reserved for game players.",
+  "sybilSafety": "Dynamic dungeon puzzle logic and pet mood heuristics block automated clicker scripts.",
+  "steps": [
+    "Open the PokeyQuest bot on Telegram.",
+    "Adopt your starter Pokey companion and customize its appearance.",
+    "Send your Pokey on daily dungeon explorations to gather XP and crystals.",
+    "Defeat world bosses alongside squad members for rare artifact drops.",
+    "Connect your non-custodial TON wallet to register your pet's rank for the airdrop."
+  ],
+  "faqs": [
+    {
+      "question": "What is PokeyQuest?",
+      "answer": "PokeyQuest is an AI virtual pet companion and RPG dungeon exploration mini-app on TON."
+    },
+    {
+      "question": "How does my Pokey get stronger?",
+      "answer": "Feed it daily treats, train battle attributes, and equip crafted dungeon weapons."
+    },
+    {
+      "question": "When is the $POKEY token release?",
+      "answer": "The token release and snapshot are scheduled for late 2026 to early 2027."
+    }
+  ],
+  "tier": "Tier 1",
+  "cost": "Free ($0)",
+  "stage": "Dungeon Season 1",
+  "timeCommitment": "4 mins / day",
+  "snapshot": "Q4 2026 - Q1 2027",
+  "estDate": "Q1 2027",
+  "socials": {
+    "twitter": "https://x.com/PokeyQuest",
+    "telegram": "https://t.me/PokeyQuest_bot",
+    "website": "https://pokeyquest.com"
+  }
+},
+{
+  "id": "super-meow",
+  "name": "Super Meow",
+  "logo": "/images/airdrops/super-meow.svg",
+  "description": "Super Meow is an action-packed superhero feline arcade battler on TON with 2.5 million players, rewarding daily comic ciphers and villain battles with $MEOW tokens.",
+  "reward": "$MEOW Token Airdrop & Superhero Cat NFTs",
+  "category": "Telegram",
+  "featured": true,
+  "isHot": true,
+  "isFeatured": false,
+  "status": "active",
+  "publishDate": "2026-11-11",
+  "endTime": "Q1 2027",
+  "funding": "$1.5M Private Seed",
+  "investors": "TON GameFi Alliance & Asian Web3 Angels",
+  "refLink": "https://t.me/SuperMeow_bot",
+  "overview": "Super Meow puts players in command of superhero felines defending the galaxy against invading mutant mice. Through fast-paced tap combos, skill upgrades, and secret daily comic book ciphers, players level up their Super Meow headquarters. High cosmic ranking and accumulated catnip coins dictate $MEOW token allocations upon listing.",
+  "strategy": "Solve the daily comic secret code, upgrade hero cat superpowers, clear daily boss waves, and connect your Tonkeeper wallet.",
+  "tokenomics": "60% of $MEOW tokens are dedicated to comic book readers and arcade battlers with no early private sale unlocks.",
+  "sybilSafety": "Real-time combat reaction prompts and comic code verification prevent script exploitation.",
+  "steps": [
+    "Launch the Super Meow bot in Telegram.",
+    "Assemble your hero cat team and equip special comic gadget perks.",
+    "Tap to unleash superhero combos against galactic villain waves.",
+    "Crack the daily comic cipher to unlock millions of bonus catnip coins.",
+    "Connect your non-custodial TON wallet to claim your $MEOW allocation."
+  ],
+  "faqs": [
+    {
+      "question": "What is Super Meow?",
+      "answer": "Super Meow is a superhero-themed cat arcade battler and tap-to-earn mini-app on TON."
+    },
+    {
+      "question": "How do I find the daily comic cipher?",
+      "answer": "Daily clues are posted in the community channel and unlock massive coin multipliers when entered into the HQ terminal."
+    },
+    {
+      "question": "Is Super Meow free to play?",
+      "answer": "Yes, it is 100% free with unlimited energy regeneration."
+    }
+  ],
+  "tier": "Tier 1",
+  "cost": "Free ($0)",
+  "stage": "Comic Issue 1",
+  "timeCommitment": "3 mins / day",
+  "snapshot": "Q4 2026",
+  "estDate": "Q1 2027",
+  "socials": {
+    "twitter": "https://x.com/SuperMeow_TON",
+    "telegram": "https://t.me/SuperMeow_bot",
+    "website": "https://supermeow.fun"
+  }
+},
+{
+  "id": "tatsumeeko",
+  "name": "Tatsumeeko",
+  "logo": "/images/airdrops/tatsumeeko.svg",
+  "description": "Tatsumeeko is an acclaimed Web3 fantasy anime RPG backed by Delphi Digital, BITKRAFT, and DeFiance Capital with $7.5M in funding, featuring the Telegram Lumina expedition mini-app for $MKL token airdrops.",
+  "reward": "$MKL Token Allocation & Adventurer Relics",
+  "category": "Telegram",
+  "featured": true,
+  "isHot": true,
+  "isFeatured": true,
+  "status": "active",
+  "publishDate": "2026-11-11",
+  "endTime": "Q1 2027",
+  "funding": "$7.5M Seed Round",
+  "investors": "Delphi Digital, BITKRAFT Ventures, DeFiance Capital, Binance Labs",
+  "refLink": "https://t.me/TatsumeekoBot",
+  "overview": "Tatsumeeko is one of the most prestigious gaming projects in Web3, having raised $7.5M from top-tier venture funds Delphi Digital and BITKRAFT. The team launched Lumina, a specialized Telegram companion mini-app, allowing players to embark on tactical anime expeditions, craft enchanted gear, and farm Lumina shards that convert directly into $MKL governance tokens.",
+  "strategy": "Deploy adventurer parties on 4-hour exploration quests, forge rare gear sets, complete story quests, and link your non-custodial wallet.",
+  "tokenomics": "Over 45% of $MKL tokens are reserved for adventurer rewards, in-game crafting economies, and guild staking vaults.",
+  "sybilSafety": "Multi-class character party rules and stamina telemetry protect against automated bots.",
+  "steps": [
+    "Open the Tatsumeeko Lumina bot on Telegram.",
+    "Recruit your anime adventurer party (Warrior, Mage, Archer).",
+    "Dispatch teams on automated wilderness salvage expeditions.",
+    "Craft rare enchanted equipment from collected monster cores.",
+    "Connect your non-custodial Web3 wallet to lock in your $MKL airdrop tier."
+  ],
+  "faqs": [
+    {
+      "question": "What is Tatsumeeko?",
+      "answer": "Tatsumeeko is a top-tier Web3 anime RPG franchise backed by Delphi Digital and BITKRAFT with over $7.5M raised."
+    },
+    {
+      "question": "How does the Telegram Lumina app relate to the main game?",
+      "answer": "The Telegram mini-app lets you manage expeditions and earn $MKL token allocations directly on mobile."
+    },
+    {
+      "question": "When is the $MKL token launch?",
+      "answer": "The TGE and snapshot are scheduled for late 2026 / Q1 2027."
+    }
+  ],
+  "tier": "Tier 1",
+  "cost": "Free ($0)",
+  "stage": "Lumina Expedition Season",
+  "timeCommitment": "4 mins / day",
+  "snapshot": "Q4 2026 - Q1 2027",
+  "estDate": "Q1 2027",
+  "socials": {
+    "twitter": "https://x.com/tatsumeeko",
+    "telegram": "https://t.me/TatsumeekoBot",
+    "website": "https://tatsumeeko.com"
+  }
+},
+{
+  "id": "chain-harvest",
+  "name": "Chain Harvest",
+  "logo": "/images/airdrops/chain-harvest.svg",
+  "description": "Chain Harvest is a relaxing pixel-art farming simulation on TON with over 3 million players, rewarding greenhouse builders and crop harvesters with $HARVEST tokens.",
+  "reward": "$HARVEST Token Distribution & Farm Land Deeds",
+  "category": "Telegram",
+  "featured": true,
+  "isHot": true,
+  "isFeatured": true,
+  "status": "active",
+  "publishDate": "2026-11-11",
+  "endTime": "Q1 2027",
+  "funding": "$1.7M Ecosystem Round",
+  "investors": "TON GameFi Collective & Agriculture DAO Angels",
+  "refLink": "https://t.me/chainharvest_bot",
+  "overview": "Chain Harvest delivers the nostalgic charm of classic farm simulators inside Telegram. Players till pixel soil, plant mystical seeds (Solar Wheat, Lunar Berries), harvest crops, and fulfill community market orders. Reinvesting harvest profits into irrigation systems and barns skyrockets daily crop yield and secures $HARVEST airdrop rewards.",
+  "strategy": "Plant and harvest high-yield seasonal crops, fulfill daily grocery orders, expand your farm acreage, and connect your Tonkeeper wallet.",
+  "tokenomics": "The $HARVEST token powers land expansion, livestock breeding, and DAO governance, with 60% allocated to community farmers.",
+  "sybilSafety": "Seasonal weather cycles and real-time watering intervals prevent bot farm abuse.",
+  "steps": [
+    "Open the Chain Harvest bot on Telegram.",
+    "Clear your initial plot of farmland and plant your first wheat seeds.",
+    "Water crops and harvest them when fully matured to earn harvest coins.",
+    "Fulfill daily community farm delivery orders for bonus EXP.",
+    "Connect your non-custodial Tonkeeper or Telegram Wallet to qualify for the $HARVEST drop."
+  ],
+  "faqs": [
+    {
+      "question": "What is Chain Harvest?",
+      "answer": "Chain Harvest is a cozy pixel farming mini-app on TON where players manage virtual farms and earn $HARVEST tokens."
+    },
+    {
+      "question": "Do my crops wither if I don't harvest them immediately?",
+      "answer": "No, crops in Chain Harvest remain safely stored on your plot until you collect them."
+    },
+    {
+      "question": "How do I participate in the airdrop?",
+      "answer": "Maintain active farm level, complete daily orders, and connect a non-custodial TON wallet before the snapshot."
+    }
+  ],
+  "tier": "Tier 1",
+  "cost": "Free ($0)",
+  "stage": "Harvest Season 1",
+  "timeCommitment": "3 mins / day",
+  "snapshot": "Q4 2026 - Q1 2027",
+  "estDate": "Q1 2027",
+  "socials": {
+    "twitter": "https://x.com/ChainHarvest",
+    "telegram": "https://t.me/chainharvest_bot",
+    "website": "https://chainharvest.farm"
+  }
 }
 ];

@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100" height="100">
+  <defs>
+    <linearGradient id="ch-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#16A34A" />
+      <stop offset="100%" stop-color="#14532D" />
+    </linearGradient>
+  </defs>
+  <rect width="100" height="100" rx="24" fill="url(#ch-grad)" />
+  <!-- Sprout & Golden Wheat -->
+  <path d="M50 78 V38" stroke="#FEF08A" stroke-width="4" stroke-linecap="round" />
+  <!-- Leaves / Wheat grains -->
+  <path d="M50 48 Q64 42 66 32 Q54 36 50 48" fill="#FACC15" />
+  <path d="M50 48 Q36 42 34 32 Q46 36 50 48" fill="#FACC15" />
+  <path d="M50 62 Q64 56 66 46 Q54 50 50 62" fill="#FACC15" />
+  <path d="M50 62 Q36 56 34 46 Q46 50 50 62" fill="#FACC15" />
+  <!-- Soil base -->
+  <ellipse cx="50" cy="80" rx="22" ry="5" fill="#78350F" />
+</svg>

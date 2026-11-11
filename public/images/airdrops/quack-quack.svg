@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100" height="100">
+  <defs>
+    <linearGradient id="qq-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FACC15" />
+      <stop offset="100%" stop-color="#EAB308" />
+    </linearGradient>
+  </defs>
+  <rect width="100" height="100" rx="24" fill="url(#qq-grad)" />
+  <!-- Rubber Duck silhouette -->
+  <path d="M48 24 C40 24 34 30 34 38 C34 44 38 48 44 50 C36 52 24 58 24 70 C24 78 32 82 48 82 C68 82 76 76 76 66 C76 56 68 54 58 52 C60 48 62 44 62 38 C62 30 56 24 48 24 Z" fill="#FEF08A" stroke="#CA8A04" stroke-width="2.5" />
+  <!-- Beak -->
+  <path d="M58 38 C68 36 74 42 66 46 Z" fill="#F97316" />
+  <!-- Eye -->
+  <circle cx="50" cy="34" r="3" fill="#1F2937" />
+  <!-- Golden egg beside duck -->
+  <ellipse cx="68" cy="72" rx="7" ry="10" fill="#F59E0B" stroke="#B45309" stroke-width="1.5" />
+</svg>

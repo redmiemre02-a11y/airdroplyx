@@ -7149,5 +7149,119 @@ export const newsArticles: NewsArticle[] = [
   ],
   "relatedAirdropId": "astra-nova",
   "content": "Astra Nova, the action RPG backed by HashKey Capital, Moonrock Capital, and Polygon Ventures, has launched its Black Pass Telegram companion app. Players send cosmic scout ships on automated salvage expeditions across the Five Worlds to earn Deviant shards. The team confirmed that 40% of the $RVV token supply has been allocated to community explorers ahead of the TGE."
+},
+{
+  "slug": "quack-quack-telegram-duck-breeding-airdrop-quack-tokens",
+  "title": "Quack Quack Crosses 4 Million Players on TON: Duck Breeding Mechanics and $QUACK Token Airdrop Guide",
+  "excerpt": "Combining cozy idle farming with golden egg harvesting on TON, Quack Quack reveals its community tokenomics and wallet snapshot criteria.",
+  "author": "Antigravity Research",
+  "date": "November 11, 2026",
+  "readTime": "3 min read",
+  "category": "Telegram Mini-Apps",
+  "image": "/images/airdrops/quack-quack.svg",
+  "tags": [
+    "Quack Quack",
+    "TON",
+    "GameFi",
+    "Telegram",
+    "Airdrop"
+  ],
+  "relatedAirdropId": "quack-quack",
+  "content": "Quack Quack has rapidly surpassed 4 million registered users within The Open Network ecosystem. The mini-app tasks players with breeding unique duck varieties and collecting golden eggs that yield in-game TON and point multipliers. The development team officially announced that 65% of the total $QUACK token supply is reserved for active players, with pond upgrades and egg production rates serving as primary snapshot weighting factors."
+},
+{
+  "slug": "memes-war-telegram-guild-battles-mwar-token-airdrop",
+  "title": "Memes War Unveils Faction Turf Wars on TON: Doge, Pepe, and Cat Legions Clash for $MWAR",
+  "excerpt": "With over 3 million players engaged in viral territory battles, Memes War publishes its faction conquest reward model on Telegram.",
+  "author": "Antigravity Research",
+  "date": "November 11, 2026",
+  "readTime": "4 min read",
+  "category": "Gaming & Metaverse",
+  "image": "/images/airdrops/memes-war.svg",
+  "tags": [
+    "Memes War",
+    "TON",
+    "MemeCoin",
+    "Telegram",
+    "Airdrop"
+  ],
+  "relatedAirdropId": "memes-war",
+  "content": "Memes War is turning Telegram into a massive battleground for internet meme culture. Players pledge loyalty to Doge, Pepe, Cat, or Frog factions, building defenses and capturing territorial zones in real-time battles. The team confirmed that 70% of the upcoming $MWAR token supply will be distributed to active war participants and conquest leaders, with zero VC allocations."
+},
+{
+  "slug": "pokeyquest-ai-virtual-pet-rpg-telegram-airdrop",
+  "title": "PokeyQuest Merges AI Virtual Pets and Dungeon Crawling on Telegram with $POKEY Token Airdrop",
+  "excerpt": "Supported by $2.2M in seed capital, PokeyQuest lets 2.5 million users nurture AI companions and conquer rogue dungeons on TON.",
+  "author": "Antigravity Research",
+  "date": "November 11, 2026",
+  "readTime": "3 min read",
+  "category": "AI & Gaming",
+  "image": "/images/airdrops/pokeyquest.svg",
+  "tags": [
+    "PokeyQuest",
+    "AI",
+    "TON",
+    "RPG",
+    "Airdrop"
+  ],
+  "relatedAirdropId": "pokeyquest",
+  "content": "PokeyQuest has engaged 2.5 million players on Telegram by combining Tamagotchi-style pet care with procedural dungeon exploration. Players train an AI companion and send it on dungeon expeditions to recover crystal relics. The development team detailed that 50% of the $POKEY token economy will reward pet owners and dungeon champions upon the Q1 2027 token distribution."
+},
+{
+  "slug": "super-meow-superhero-cat-battler-telegram-airdrop",
+  "title": "Super Meow Reaches 2.5 Million Players: Arcade Superhero Tap Combos and $MEOW Airdrop Details",
+  "excerpt": "Defending the galaxy with feline heroes, Super Meow shares how daily comic ciphers and boss clears translate into $MEOW tokens on TON.",
+  "author": "Antigravity Research",
+  "date": "November 11, 2026",
+  "readTime": "3 min read",
+  "category": "Telegram Mini-Apps",
+  "image": "/images/airdrops/super-meow.svg",
+  "tags": [
+    "Super Meow",
+    "TON",
+    "Daily Cipher",
+    "GameFi",
+    "Airdrop"
+  ],
+  "relatedAirdropId": "super-meow",
+  "content": "Super Meow has become a trending favorite on TON with over 2.5 million active players. Players assemble superhero cat squads to battle cosmic villain waves and crack daily secret comic ciphers. The developers highlighted that 60% of the $MEOW token supply will be distributed directly to players based on comic cipher streaks, HQ upgrades, and verified TON wallet connections."
+},
+{
+  "slug": "tatsumeeko-delphi-backed-anime-rpg-telegram-airdrop",
+  "title": "Delphi-Backed Tatsumeeko Expands Lumina Expedition Companion to Telegram for $MKL Airdrop",
+  "excerpt": "Backed by $7.5M from Delphi Digital and BITKRAFT, Tatsumeeko launches its Telegram expedition bot to reward Web3 anime RPG players.",
+  "author": "Antigravity Research",
+  "date": "November 11, 2026",
+  "readTime": "4 min read",
+  "category": "Gaming & Metaverse",
+  "image": "/images/airdrops/tatsumeeko.svg",
+  "tags": [
+    "Tatsumeeko",
+    "Delphi Digital",
+    "BITKRAFT",
+    "RPG",
+    "Airdrop"
+  ],
+  "relatedAirdropId": "tatsumeeko",
+  "content": "Tatsumeeko, the acclaimed Web3 anime RPG backed by $7.5 million from Delphi Digital, BITKRAFT Ventures, and DeFiance Capital, has debuted its Lumina expedition companion on Telegram. Players can dispatch adventurer parties on wilderness exploration quests and forge enchanted gear on mobile. The team confirmed that 45% of the $MKL token economy will be distributed to active adventurers ahead of TGE."
+},
+{
+  "slug": "chain-harvest-pixel-farming-tycoon-airdrop-on-ton",
+  "title": "Chain Harvest Attracts 3 Million Cozy Farmers on TON with $HARVEST Token Distribution Model",
+  "excerpt": "Bringing nostalgic pixel farm simulation to Telegram, Chain Harvest details how crop harvesting and market fulfillment earn $HARVEST airdrops.",
+  "author": "Antigravity Research",
+  "date": "November 11, 2026",
+  "readTime": "3 min read",
+  "category": "Telegram Mini-Apps",
+  "image": "/images/airdrops/chain-harvest.svg",
+  "tags": [
+    "Chain Harvest",
+    "TON",
+    "Farming",
+    "Telegram",
+    "Airdrop"
+  ],
+  "relatedAirdropId": "chain-harvest",
+  "content": "Chain Harvest has established itself as the leading cozy farming simulation on The Open Network, crossing 3 million active farmers. Players plant mystical crops, fulfill grocery market orders, and upgrade irrigation machinery. Over 60% of the $HARVEST token supply is allocated to farm managers, rewarding farm land expansion and continuous harvest activity."
 }
 ];
