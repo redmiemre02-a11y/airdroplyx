@@ -1,0 +1,254 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Header from '../components/Header.astro';
+import { airdrops } from '../data/airdrops';
+
+const todayLabel = "November 13, 2026";
+
+const comboEntries = [
+  {
+    id: "holdcoin",
+    name: "HoldCoin",
+    logo: "/images/airdrops/holdcoin.svg",
+    mechanic: "Daily Diamond Combo & Seed Phrase Puzzle",
+    reward: "5,000,000+ Coins & Diamond Multiplier",
+    tip: "Open the 'Hold Box' tab inside the HoldCoin Telegram bot and arrange today's 12-word diamond seed order or claim the daily streak.",
+    resetUtc: "00:00 UTC",
+    status: "Active Today"
+  },
+  {
+    id: "gemz",
+    name: "Gemz",
+    logo: "/images/airdrops/gemz.svg",
+    mechanic: "Daily 3-Card Combo & Morse Cipher",
+    reward: "5,000,000 Coins + Hourly Profit Boost",
+    tip: "Navigate to the 'Mine' tab, upgrade or purchase today's 3 highlighted Gear/Workers cards, and tap the Daily Code in Morse.",
+    resetUtc: "12:00 UTC",
+    status: "Active Today"
+  },
+  {
+    id: "grand-combat",
+    name: "Grand Combat",
+    logo: "/images/airdrops/grand-combat.svg",
+    mechanic: "Daily 3-Card Startup Combo",
+    reward: "3,000,000+ $GRAND Points",
+    tip: "Open the 'Upgrade' menu across Tech, Team, and Marketing categories to unlock the 3 daily founder combo cards.",
+    resetUtc: "00:00 UTC",
+    status: "Active Today"
+  },
+  {
+    id: "notbored-puppies",
+    name: "NotBored Puppies",
+    logo: "/images/airdrops/notbored-puppies.svg",
+    mechanic: "Daily Bark Morse Cipher",
+    reward: "1,500,000+ Golden Bones",
+    tip: "Tap the Puppy Collar icon on the main screen using short taps (.) and long holds (-) to enter today's 5-letter bark code.",
+    resetUtc: "19:00 UTC",
+    status: "Active Today"
+  },
+  {
+    id: "super-meow",
+    name: "Super Meow",
+    logo: "/images/airdrops/super-meow.svg",
+    mechanic: "Daily Comic Book Secret Cipher",
+    reward: "2,000,000+ Catnip Coins",
+    tip: "Open the HQ Terminal inside Super Meow and input today's superhero comic issue keyword to unlock the bonus vault.",
+    resetUtc: "00:00 UTC",
+    status: "Active Today"
+  },
+  {
+    id: "cattea",
+    name: "Cattea",
+    logo: "/images/airdrops/cattea.svg",
+    mechanic: "Daily Secret Boba Recipe",
+    reward: "Free $TEA Shop Revenue Multiplier",
+    tip: "Combine the 3 featured boba ingredients in the Kitchen tab to serve the VIP feline order and claim today's recipe bonus.",
+    resetUtc: "00:00 UTC",
+    status: "Active Today"
+  },
+  {
+    id: "tomarket",
+    name: "Tomarket",
+    logo: "/images/airdrops/tomarket.svg",
+    mechanic: "Daily Tomato Tap Sequence Combo",
+    reward: "2,500–10,000 $TOMA Stars",
+    tip: "Tap the Tomato head and Hamster/Cat objects in the exact daily sequence inside the Tomarket mini-app to unlock the secret chest.",
+    resetUtc: "00:00 UTC",
+    status: "Active Today"
+  },
+  {
+    id: "major",
+    name: "Major",
+    logo: "/images/airdrops/major.svg",
+    mechanic: "Durov's Puzzle 4-Avatar Combo",
+    reward: "5,000 Rating Stars",
+    tip: "Go to Games → Puzzle Durov inside Major and select the 4 matching avatar tiles in the correct row order.",
+    resetUtc: "00:00 UTC",
+    status: "Active Today"
+  },
+  {
+    id: "dropee",
+    name: "Dropee",
+    logo: "/images/airdrops/dropee.svg",
+    mechanic: "Daily Combo & Question of the Day",
+    reward: "Instant Spin Tickets & Coin Pool",
+    tip: "Check the 'Improve' tab for the 3 daily upgrade cards and answer the Question of the Day in the Quests menu.",
+    resetUtc: "12:00 UTC",
+    status: "Active Today"
+  },
+  {
+    id: "bums",
+    name: "Bums",
+    logo: "/images/airdrops/bums.svg",
+    mechanic: "Daily Lottery 3-Card Combo",
+    reward: "2,000,000+ Bums Coins",
+    tip: "Open the 'City' → 'Lottery' tab and pick the 3 winning street-hustle cards before the daily timer resets.",
+    resetUtc: "00:00 UTC",
+    status: "Active Today"
+  }
+];
+
+const faqs = [
+  {
+    question: "What time do Telegram airdrop daily combos reset?",
+    answer: "Most Telegram mini-apps reset their daily combos and ciphers at 00:00 UTC or 12:00 UTC. Completing them right after reset preserves your consecutive login streak and maximizes your airdrop multiplier."
+  },
+  {
+    question: "Do daily combos matter more than manual tapping?",
+    answer: "Yes. Almost all 2026 TON mini-apps prioritize passive hourly profit, daily combo completion streaks, and verified Tonkeeper wallet links over raw manual tap counts."
+  },
+  {
+    question: "How do I enter Morse code ciphers in Telegram games?",
+    answer: "Activate Cipher Mode inside the mini-app, then perform a quick tap for a dot (.) and hold for roughly 1 second for a dash (-). Pause briefly between each letter until it registers on screen."
+  },
+  {
+    question: "Can completing daily combos get my account flagged as Sybil?",
+    answer: "No, as long as you complete combos manually on one primary Telegram account per device and avoid automated clicker bots or scripts."
+  }
+];
+---
+
+<Layout
+  title="Today's Telegram Airdrop Daily Combos & Ciphers (2026) | Airdroplyx"
+  description="Complete daily hub for Telegram Mini-App daily combos, Morse ciphers, secret recipes, and puzzle strategies. Updated daily for HoldCoin, Gemz, Grand Combat, Cattea, Major, and Tomarket."
+>
+  <script type="application/ld+json" set:html={JSON.stringify({
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://airdroplyx.com/" },
+          { "@type": "ListItem", "position": 2, "name": "Telegram Ecosystem", "item": "https://airdroplyx.com/ecosystem/telegram/" },
+          { "@type": "ListItem", "position": 3, "name": "Daily Combos & Ciphers", "item": "https://airdroplyx.com/daily-combos/" }
+        ]
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": faqs.map(f => ({
+          "@type": "Question",
+          "name": f.question,
+          "acceptedAnswer": { "@type": "Answer", "text": f.answer }
+        }))
+      }
+    ]
+  })} />
+
+  <Header />
+
+  <main class="max-w-[1280px] mx-auto px-4 py-10">
+    <!-- Breadcrumbs -->
+    <nav class="flex items-center gap-2 text-xs font-bold text-slate-500 dark:text-slate-400 mb-6">
+      <a href="/" class="hover:text-sky-600 transition-colors">Home</a>
+      <span>/</span>
+      <a href="/ecosystem/telegram/" class="hover:text-sky-600 transition-colors">Telegram Mini-Apps</a>
+      <span>/</span>
+      <span class="text-slate-800 dark:text-slate-200">Daily Combos & Ciphers</span>
+    </nav>
+
+    <!-- Hero -->
+    <section class="relative overflow-hidden rounded-3xl bg-gradient-to-br from-slate-900 via-indigo-950 to-slate-900 border border-indigo-500/30 p-8 sm:p-10 mb-10 text-white shadow-xl">
+      <div class="max-w-3xl">
+        <div class="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-emerald-500/20 border border-emerald-400/30 text-emerald-300 text-xs font-bold uppercase tracking-wider mb-4">
+          <span class="w-2 h-2 rounded-full bg-emerald-400 animate-pulse"></span>
+          Updated: {todayLabel} • UTC Daily Reset Tracker
+        </div>
+        <h1 class="text-3xl sm:text-4xl lg:text-5xl font-black tracking-tight leading-tight mb-4">
+          Telegram Daily Combos &amp; Secret Ciphers Hub
+        </h1>
+        <p class="text-base sm:text-lg text-slate-300 leading-relaxed mb-6">
+          Maximize your passive hourly profit and TGE airdrop allocation across the top TON &amp; Telegram mini-apps. Track daily combo reset schedules, Morse cipher mechanics, and verified farming guides in one place.
+        </p>
+        <div class="flex flex-wrap gap-3">
+          <a href="/ecosystem/telegram/" class="inline-flex items-center gap-2 px-5 py-2.5 rounded-xl bg-sky-500 hover:bg-sky-400 text-slate-950 font-extrabold text-sm transition-colors">
+            Browse All 100+ Telegram Airdrops →
+          </a>
+          <a href="/ecosystem/ton/" class="inline-flex items-center gap-2 px-5 py-2.5 rounded-xl bg-white/10 hover:bg-white/20 border border-white/15 text-white font-bold text-sm transition-colors">
+            💎 TON Ecosystem Guide
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Combo Cards Grid -->
+    <section class="mb-14">
+      <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-4 mb-6">
+        <div>
+          <h2 class="text-2xl font-black text-slate-900 dark:text-white">Active Daily Combo &amp; Cipher Protocols</h2>
+          <p class="text-sm text-slate-500 dark:text-slate-400">Click any project to view full step-by-step wallet connection and snapshot verification steps.</p>
+        </div>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+        {comboEntries.map((item) => {
+          const exists = airdrops.find(a => a.id === item.id);
+          const href = exists ? `/airdrop/${item.id}/` : '/ecosystem/telegram/';
+          return (
+            <article class="bg-white dark:bg-slate-800/80 border border-gray-200 dark:border-slate-700/80 rounded-2xl p-6 shadow-sm hover:shadow-md hover:border-sky-400 dark:hover:border-sky-500 transition-all flex flex-col justify-between">
+              <div>
+                <div class="flex items-start justify-between gap-4 mb-4">
+                  <div class="flex items-center gap-3.5">
+                    <img src={item.logo} alt={`${item.name} logo`} class="w-12 h-12 rounded-xl object-cover bg-slate-100 dark:bg-slate-900 border border-gray-200 dark:border-slate-700" loading="lazy" />
+                    <div>
+                      <h3 class="text-lg font-extrabold text-slate-900 dark:text-white">{item.name}</h3>
+                      <span class="text-xs font-bold text-sky-600 dark:text-sky-400">{item.mechanic}</span>
+                    </div>
+                  </div>
+                  <span class="shrink-0 inline-flex items-center px-2.5 py-1 rounded-full text-[11px] font-bold bg-emerald-100 dark:bg-emerald-950/60 text-emerald-700 dark:text-emerald-400 border border-emerald-200 dark:border-emerald-800">
+                    Reset: {item.resetUtc}
+                  </span>
+                </div>
+
+                <div class="mb-4 p-3.5 rounded-xl bg-slate-50 dark:bg-slate-900/60 border border-gray-100 dark:border-slate-700/50">
+                  <div class="text-[11px] font-bold uppercase tracking-wider text-slate-400 mb-1">Daily Bonus Reward</div>
+                  <div class="text-sm font-extrabold text-amber-600 dark:text-amber-400 mb-2">{item.reward}</div>
+                  <p class="text-xs sm:text-sm text-slate-600 dark:text-slate-300 leading-relaxed">{item.tip}</p>
+                </div>
+              </div>
+
+              <div class="flex items-center justify-between pt-3 border-t border-gray-100 dark:border-slate-700/60">
+                <span class="text-xs font-semibold text-slate-500 dark:text-slate-400">Free ($0 Cost) • Tonkeeper Ready</span>
+                <a href={href} class="inline-flex items-center gap-1.5 text-sm font-extrabold text-sky-600 dark:text-sky-400 hover:underline">
+                  Full Airdrop Guide →
+                </a>
+              </div>
+            </article>
+          );
+        })}
+      </div>
+    </section>
+
+    <!-- Featured Snippet Optimized FAQ Section -->
+    <section class="bg-white dark:bg-slate-800/70 border border-gray-200 dark:border-slate-700/80 rounded-3xl p-6 sm:p-8 shadow-sm">
+      <h2 class="text-2xl font-black text-slate-900 dark:text-white mb-6">Frequently Asked Questions: Telegram Daily Combos</h2>
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+        {faqs.map(faq => (
+          <div class="p-5 rounded-2xl bg-slate-50 dark:bg-slate-900/60 border border-gray-100 dark:border-slate-700/60">
+            <h3 class="text-base font-extrabold text-slate-900 dark:text-white mb-2">{faq.question}</h3>
+            <p class="text-sm text-slate-600 dark:text-slate-300 leading-relaxed">{faq.answer}</p>
+          </div>
+        ))}
+      </div>
+    </section>
+  </main>
+</Layout>

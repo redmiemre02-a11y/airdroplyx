@@ -12,8 +12,13 @@ export function getStaticPaths() {
 }
 
 const { article } = Astro.props;
-const otherArticles = newsArticles.filter(a => a.slug !== article.slug).slice(0, 3);
+const sameCatArticles = newsArticles.filter(a => a.slug !== article.slug && a.category === article.category);
+const otherArticles = (sameCatArticles.length >= 3 ? sameCatArticles : newsArticles.filter(a => a.slug !== article.slug)).slice(0, 3);
 const relatedAirdrop = article.relatedAirdropId ? airdrops.find(a => a.id === article.relatedAirdropId) : null;
+const articleUrl = `https://airdroplyx.com/news/${article.slug}/`;
+const shareText = encodeURIComponent(`${article.title} — Read full Web3 report:`);
+const telegramShareUrl = `https://t.me/share/url?url=${encodeURIComponent(articleUrl)}&text=${shareText}`;
+const xShareUrl = `https://x.com/intent/tweet?url=${encodeURIComponent(articleUrl)}&text=${shareText}`;
 
 // Parse accurate ISO 8601 timestamps for Google News
 const parsedDate = new Date(article.date);
@@ -208,14 +213,24 @@ const keyTakeaways = [
       })}
     </article>
 
-    <!-- Tags -->
-    <div class="flex flex-wrap items-center gap-2 pt-6 border-t border-slate-200 dark:border-slate-800 mb-8">
-      <span class="text-xs font-bold uppercase tracking-wider text-slate-400 mr-2">Tags:</span>
-      {article.tags.map(tag => (
-        <span class="text-xs font-semibold bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 px-3 py-1.5 rounded-xl border border-slate-200/60 dark:border-slate-700/60">
-          #{tag}
-        </span>
-      ))}
+    <!-- Tags & Social Sharing -->
+    <div class="flex flex-wrap items-center justify-between gap-4 pt-6 border-t border-slate-200 dark:border-slate-800 mb-8">
+      <div class="flex flex-wrap items-center gap-2">
+        <span class="text-xs font-bold uppercase tracking-wider text-slate-400 mr-2">Tags:</span>
+        {article.tags.map(tag => (
+          <span class="text-xs font-semibold bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 px-3 py-1.5 rounded-xl border border-slate-200/60 dark:border-slate-700/60">
+            #{tag}
+          </span>
+        ))}
+      </div>
+      <div class="flex items-center gap-2 shrink-0">
+        <a href={telegramShareUrl} target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-1.5 px-3.5 py-2 rounded-xl bg-sky-50 dark:bg-sky-950/40 hover:bg-sky-100 dark:hover:bg-sky-900/50 text-sky-700 dark:text-sky-300 border border-sky-200 dark:border-sky-800/60 text-xs font-bold transition-colors">
+          <span>✈️</span> Share on Telegram
+        </a>
+        <a href={xShareUrl} target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-1.5 px-3.5 py-2 rounded-xl bg-slate-100 dark:bg-slate-800 hover:bg-slate-200 dark:hover:bg-slate-700 text-slate-800 dark:text-slate-200 border border-slate-200 dark:border-slate-700 text-xs font-bold transition-colors">
+          <span>𝕏</span> Post on X
+        </a>
+      </div>
     </div>
 
     <!-- Editorial & Regulatory News Disclaimer -->

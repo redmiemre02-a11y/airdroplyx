@@ -398,5 +398,85 @@ export const ecosystems: Ecosystem[] = [
       }
 ],
     match: (a) => /story|ip asset|programmable ip/i.test(a.category) || /story protocol|odyssey|iliad|magma-story/i.test(a.description) || /story|magma-story/i.test(a.id)
+  },
+  {
+    slug: 'telegram',
+    name: 'Telegram Mini-Apps',
+    title: 'Best Telegram Airdrops 2026 » Verified Tap-to-Earn & Mini-App Guides',
+    tagline: 'Zero-Capital Telegram Bots, Daily Combos, Tap-to-Earn & TGE Snapshots',
+    badge: '✈️ Zero Capital • 100+ Verified Bots',
+    icon: '✈️',
+    description: 'The ultimate directory of verified Telegram Mini-App airdrops for 2026. Complete step-by-step guides, listing dates, daily combo strategies, and Tonkeeper wallet setup.',
+    overview: `Telegram Mini-Apps have sparked the largest consumer onboarding wave in Web3 history, bringing hundreds of millions of mobile users directly onto The Open Network (TON) without complex browser extensions or seed phrase friction.\n\nFollowing landmark community distributions like Notcoin ($NOT) and DOGS ($DOGS), a new generation of high-retention Telegram mini-apps—spanning hold-to-earn simulators, AI virtual pets, social commerce protocols, and fantasy sports—are preparing major Token Generation Events (TGE) across Q4 2026 and Q1 2027.\n\nUnlike traditional DeFi farming, Telegram mini-app airdrops require zero upfront capital. Protocols evaluate users based on daily check-in streaks, passive hourly profit rates, daily cipher/combo accuracy, Telegram account age, and verified non-custodial TON wallet connections.`,
+    farmingTips: [
+      'Prioritize upgrading passive hourly profit and auto-mining cards over raw manual tapping.',
+      'Connect a non-custodial TON wallet such as Tonkeeper, MyTonWallet, or Telegram Wallet (self-custody mode) early.',
+      'Check daily combos, Morse ciphers, and secret recipes consistently—they typically yield 5x to 10x more points than manual play.',
+      'Avoid multi-account bot farms on a single device; modern TON mini-apps use device fingerprinting and Telegram phone verification to filter Sybil accounts.'
+    ],
+    topKeywords: [
+      'Best Telegram airdrops 2026',
+      'Telegram mini app airdrops',
+      'Telegram tap to earn list',
+      'HoldCoin airdrop',
+      'GOATS listing date',
+      'Grand Combat daily combo'
+    ],
+    faqs: [
+      {
+        question: 'Are Telegram Mini-App airdrops free to join?',
+        answer: 'Yes. Almost all verified Telegram mini-app airdrops require zero upfront capital ($0 cost) and reward daily gameplay, check-ins, and social tasks.'
+      },
+      {
+        question: 'Which wallet should I use for Telegram airdrops?',
+        answer: 'Tonkeeper and MyTonWallet are the gold-standard non-custodial wallets for The Open Network (TON), alongside Telegram Wallet in non-custodial TON Space mode.'
+      },
+      {
+        question: 'What matters most for Telegram airdrop allocations?',
+        answer: 'Protocols primarily weight passive hourly profit rate, daily login consistency, verified wallet connection, and Sybil-free organic engagement rather than raw tap count.'
+      },
+      {
+        question: 'How do I claim tokens when a Telegram airdrop lists?',
+        answer: 'Once the TGE snapshot completes, projects open an in-app Claim portal allowing you to withdraw tokens directly to your linked Tonkeeper wallet with minimal TON gas fees (usually under $0.10).'
+      }
+    ],
+    match: (a: any) => /telegram/i.test(a.category) || /telegram/i.test(a.description) || /t\.me\//i.test(a.refLink || '')
+  },
+  {
+    slug: 'ton',
+    name: 'The Open Network (TON)',
+    title: 'Top TON Ecosystem Airdrops 2026 » DeFi, Liquid Staking & Mini-Apps',
+    tagline: 'Native TON DeFi, Jettons, Liquid Staking, DEXs & Consumer Mini-Apps',
+    badge: '💎 950M+ User Funnel • Ultra Low Gas',
+    icon: '💎',
+    description: 'Explore verified TON (The Open Network) airdrops in 2026. Guides for TON DeFi protocols, liquid staking, perpetual DEXs, and viral Telegram mini-apps.',
+    overview: `The Open Network (TON) has rapidly evolved into a premier Layer 1 blockchain powered by native integration inside Telegram's 950+ million user ecosystem. Using infinite sharding and asynchronous actor-model smart contracts, TON processes millions of daily transactions with sub-second confirmation times and negligible fees.\n\nBeyond viral consumer mini-apps, the TON DeFi landscape has matured rapidly with decentralized AMMs, liquid staking protocols (tsTON, stTON), lending money markets, and RWA vaults offering substantial incentive seasons and Open League rewards.\n\nTo maximize TON ecosystem airdrop eligibility, users should maintain a small native TON balance (1–3 TON) in Tonkeeper for on-chain gas, interact with core TON DeFi primitives, and verify their wallet across active mini-app campaigns.`,
+    farmingTips: [
+      'Hold at least 1–2 native TON in your Tonkeeper wallet to cover smart contract claim fees and Open League on-chain verification.',
+      'Participate in TON liquid staking and DeFi liquidity pools to qualify for dual protocol + Open League ecosystem rewards.',
+      'Never share your 24-word Tonkeeper recovery phrase with any Telegram bot or external claim website.'
+    ],
+    topKeywords: [
+      'TON ecosystem airdrops',
+      'TON DeFi farming 2026',
+      'Open League TON rewards',
+      'Tonkeeper airdrop guide',
+      'TON mini app tokens'
+    ],
+    faqs: [
+      {
+        question: 'How much TON do I need for gas fees to claim airdrops?',
+        answer: 'TON transactions are extremely inexpensive, typically costing between 0.02 and 0.08 TON per claim or swap. Keeping 1 TON in your wallet is sufficient for dozens of transactions.'
+      },
+      {
+        question: 'What is TON Space in Telegram Wallet?',
+        answer: 'TON Space is the self-custodial mode built directly inside Telegram Wallet, giving you full control of your private keys and seamless dApp connectivity across TON.'
+      },
+      {
+        question: 'Can I farm TON DeFi and Telegram Mini-Apps with the same wallet?',
+        answer: 'Yes. Using one primary Tonkeeper address across both TON DeFi protocols and Telegram mini-apps strengthens your on-chain reputation and helps pass Sybil filters.'
+      }
+    ],
+    match: (a: any) => /telegram|ton/i.test(a.category) || /\bton\b|tonkeeper|the open network/i.test(a.description)
   }
 ];
