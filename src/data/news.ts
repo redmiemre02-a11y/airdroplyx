@@ -7263,5 +7263,119 @@ export const newsArticles: NewsArticle[] = [
   ],
   "relatedAirdropId": "chain-harvest",
   "content": "Chain Harvest has established itself as the leading cozy farming simulation on The Open Network, crossing 3 million active farmers. Players plant mystical crops, fulfill grocery market orders, and upgrade irrigation machinery. Over 60% of the $HARVEST token supply is allocated to farm managers, rewarding farm land expansion and continuous harvest activity."
+},
+{
+  "slug": "tiny-verse-telegram-galaxy-stardust-airdrop-guide",
+  "title": "Tiny Verse Telegram Mini-App Guide: How to Farm Stardust for the $TINY Airdrop",
+  "excerpt": "A complete strategy guide to Tiny Verse on TON—build 3D galaxies, optimize stardust collection cycles, and link Tonkeeper for $TINY rewards.",
+  "author": "Antigravity Research",
+  "date": "November 14, 2026",
+  "readTime": "4 min read",
+  "category": "Telegram Mini-Apps",
+  "image": "/images/airdrops/tiny-verse.svg",
+  "tags": [
+    "Tiny Verse",
+    "TON",
+    "Telegram Mini-Apps",
+    "Stardust",
+    "Airdrop"
+  ],
+  "relatedAirdropId": "tiny-verse",
+  "content": "Tiny Verse has quickly emerged as one of the most visually engaging Telegram Mini-Apps on The Open Network. Instead of repetitive clicking, users cultivate 3D star systems and harvest stardust before storage caps fill. With 55% of the $TINY ecosystem supply dedicated to active stargazers, maintaining consistent collection cycles and connecting a non-custodial Tonkeeper wallet puts early players in prime position ahead of the Q1 2027 snapshot."
+},
+{
+  "slug": "mozo-ai-telegram-decentralized-data-labeling-mozo-airdrop",
+  "title": "Mozo AI Launches Decentralized Data-Labeling Mini-App on Telegram for $MOZO Airdrop",
+  "excerpt": "Earn $MOZO compute points directly inside Telegram by completing fast AI dataset validation tasks and daily accuracy streaks.",
+  "author": "Antigravity Research",
+  "date": "November 14, 2026",
+  "readTime": "4 min read",
+  "category": "Telegram Mini-Apps",
+  "image": "/images/airdrops/mozo-ai.svg",
+  "tags": [
+    "Mozo AI",
+    "AI",
+    "DePIN",
+    "Telegram",
+    "Airdrop"
+  ],
+  "relatedAirdropId": "mozo-ai",
+  "content": "Mozo AI is bridging decentralized AI training with Telegram's mobile audience through bite-sized data verification tasks. Contributors earn $MOZO points for accurate image and text labeling rather than mindless tapping, with consensus scoring filtering out automated bots. Half of the $MOZO token supply is allocated to active annotators and verified wallet holders."
+},
+{
+  "slug": "fomohash-ton-epoch-mining-telegram-fhash-airdrop",
+  "title": "FomoHash Brings Halving Epoch Mining to Telegram with 80% $FHASH Community Supply",
+  "excerpt": "Learn how FomoHash simulates proof-of-work block epochs on TON and why early miners capture higher $FHASH rewards.",
+  "author": "Antigravity Research",
+  "date": "November 14, 2026",
+  "readTime": "3 min read",
+  "category": "Telegram Mini-Apps",
+  "image": "/images/airdrops/fomohash.svg",
+  "tags": [
+    "FomoHash",
+    "TON",
+    "Mining",
+    "Telegram",
+    "Airdrop"
+  ],
+  "relatedAirdropId": "fomohash",
+  "content": "FomoHash introduces a fair-launch block-mining model inside Telegram where 80% of the $FHASH supply is distributed across halving epochs. Players upgrade passive energy efficiency rather than relying solely on taps, and connect Tonkeeper or Telegram Wallet to verify human miner status before token distribution."
+},
+{
+  "slug": "kibble-ton-defi-mini-app-kib-loyalty-airdrop",
+  "title": "Kibble Combines TON DeFi Swaps and Telegram Quests for the $KIB Airdrop",
+  "excerpt": "How to stack free loyalty points and on-chain TON swap multipliers inside the Kibble Telegram Mini-App.",
+  "author": "Antigravity Research",
+  "date": "November 14, 2026",
+  "readTime": "4 min read",
+  "category": "Telegram Mini-Apps",
+  "image": "/images/airdrops/kibble-exchange.svg",
+  "tags": [
+    "Kibble",
+    "TON DeFi",
+    "Telegram",
+    "Airdrop",
+    "$KIB"
+  ],
+  "relatedAirdropId": "kibble-exchange",
+  "content": "Kibble pairs real TON decentralized finance tools with an accessible Telegram Mini-App quest tracker. While daily check-ins and social tasks are completely free, users who connect Tonkeeper and test organic TON swaps inside Kibble unlock higher-weighted DeFi tiers for the $KIB token airdrop."
+},
+{
+  "slug": "iceberg-telegram-web3-workspace-productivity-airdrop",
+  "title": "Iceberg Turns Telegram Into a Web3 Productivity Workspace with $ICEBERG Farming",
+  "excerpt": "Use Iceberg's built-in crypto calendar, notes, and 6-hour farming cycles inside Telegram to qualify for $ICEBERG tokens.",
+  "author": "Antigravity Research",
+  "date": "November 14, 2026",
+  "readTime": "3 min read",
+  "category": "Telegram Mini-Apps",
+  "image": "/images/airdrops/iceberg-telegram.svg",
+  "tags": [
+    "Iceberg",
+    "TON",
+    "Productivity",
+    "Telegram Mini-Apps",
+    "Airdrop"
+  ],
+  "relatedAirdropId": "iceberg-telegram",
+  "content": "Iceberg differentiates itself from standard Telegram clickers by offering practical Web3 productivity features—including crypto calendars, task boards, and personal notes—inside a lightweight mini-app. Users farm $ICEBERG every six hours while building multi-day workspace streaks ahead of the upcoming snapshot."
+},
+{
+  "slug": "bcoin-2048-skill-based-puzzle-mining-ton-airdrop",
+  "title": "Bcoin 2048 Rewards Skill-Based Puzzle Players on TON with $BCOIN Token Drops",
+  "excerpt": "Merge crypto tiles to 2048 in Telegram to mine $BCOIN blocks, boost halving multipliers, and qualify for leaderboard rewards.",
+  "author": "Antigravity Research",
+  "date": "November 14, 2026",
+  "readTime": "3 min read",
+  "category": "Telegram Mini-Apps",
+  "image": "/images/airdrops/bcoin-2048.svg",
+  "tags": [
+    "Bcoin 2048",
+    "GameFi",
+    "TON",
+    "Telegram",
+    "Airdrop"
+  ],
+  "relatedAirdropId": "bcoin-2048",
+  "content": "Bcoin 2048 brings classic 2048 tile-merging strategy to The Open Network, rewarding puzzle skill rather than automated tapping. Reaching 1024 and 2048 tiles significantly boosts $BCOIN mining output, while Tonkeeper verification ensures fair leaderboard payouts."
 }
 ];

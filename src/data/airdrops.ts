@@ -42788,5 +42788,323 @@ export const airdrops: Airdrop[] = [
     "telegram": "https://t.me/chainharvest_bot",
     "website": "https://chainharvest.farm"
   }
+},
+{
+  "id": "tiny-verse",
+  "name": "Tiny Verse",
+  "logo": "/images/airdrops/tiny-verse.svg",
+  "description": "Tiny Verse is a cosmic galaxy-building Telegram Mini-App on TON where players spawn stars, collect stardust, and convert galaxy milestones into $TINY ecosystem rewards.",
+  "reward": "$TINY Token Allocation & Galaxy Pioneer Badges",
+  "category": "Telegram",
+  "featured": true,
+  "isHot": true,
+  "isFeatured": true,
+  "status": "active",
+  "publishDate": "2026-11-14",
+  "endTime": "Q1 2027",
+  "funding": "$2.1M TON Ecosystem & Angel Backing",
+  "investors": "TON Gaming Builders & Telegram Stars Collective",
+  "refLink": "https://t.me/tverse",
+  "overview": "Tiny Verse turns your Telegram screen into an interactive 3D galaxy simulator. Instead of mindless tapping, players nurture living star systems, harvest stardust every few hours, and unlock cosmic constellations. Integrated natively with TON Connect and Telegram Stars, Tiny Verse rewards consistent galaxy growth, cosmic event participation, and verified Tonkeeper wallet links.",
+  "strategy": "Claim stardust before your storage cap fills, expand your star count consistently, participate in weekly cosmic dust boosts, and link your Tonkeeper or Telegram Wallet early.",
+  "tokenomics": "The $TINY token fuels inter-galaxy trading, constellation NFT minting, and community governance, with 55% reserved for active stargazers.",
+  "sybilSafety": "Stardust capacity timers, organic galaxy progression curves, and on-chain Tonkeeper verification filter out automated multi-account bots.",
+  "steps": [
+    "Launch the Tiny Verse Mini-App via Telegram (@tverse).",
+    "Create your starter galaxy and trigger your first stardust generation cycle.",
+    "Log in every 4 to 8 hours to collect accumulated stardust and spawn new stars.",
+    "Complete social and cosmic milestone quests in the Missions tab.",
+    "Connect your non-custodial Tonkeeper or Telegram Wallet to lock in your $TINY snapshot eligibility."
+  ],
+  "faqs": [
+    {
+      "question": "What is Tiny Verse on Telegram?",
+      "answer": "Tiny Verse is a 3D interactive galaxy simulator mini-app on TON where users grow star systems and collect stardust for upcoming token rewards."
+    },
+    {
+      "question": "Do I need to spend Telegram Stars to qualify for the airdrop?",
+      "answer": "No, free-to-play stardust collection and daily quests qualify, though optional boosts can accelerate star growth."
+    },
+    {
+      "question": "Which wallet should I connect to Tiny Verse?",
+      "answer": "Connect a non-custodial TON wallet such as Tonkeeper or Telegram Wallet via TON Connect."
+    }
+  ],
+  "tier": "Tier 1",
+  "cost": "Free ($0)",
+  "stage": "Cosmic Season 1",
+  "timeCommitment": "3 mins / day",
+  "snapshot": "Q4 2026 - Q1 2027",
+  "estDate": "Q1 2027",
+  "socials": {
+    "twitter": "https://x.com/tinyverse_ton",
+    "telegram": "https://t.me/tverse",
+    "website": "https://tinyverse.space"
+  }
+},
+{
+  "id": "mozo-ai",
+  "name": "Mozo AI",
+  "logo": "/images/airdrops/mozo-ai.svg",
+  "description": "Mozo AI is a decentralized AI data-labeling and micro-compute Telegram Mini-App rewarding contributors with $MOZO points for training lightweight Web3 models.",
+  "reward": "$MOZO Points to Token Conversion & AI Contributor Tier",
+  "category": "Telegram",
+  "featured": true,
+  "isHot": true,
+  "isFeatured": true,
+  "status": "active",
+  "publishDate": "2026-11-14",
+  "endTime": "Q1 2027",
+  "funding": "$3.4M Seed & AI Compute Grant",
+  "investors": "Decentralized AI Labs & Web3 DePIN Angels",
+  "refLink": "https://t.me/MozoAI_bot",
+  "overview": "Mozo AI bridges Telegram's massive user base with decentralized AI data curation. Inside the mini-app, users complete fast image, text, and sentiment verification tasks—turning spare mobile minutes into verified AI training datasets. Each accurate validation earns $MOZO compute points that convert into on-chain tokens at TGE.",
+  "strategy": "Maintain high validation accuracy on daily AI micro-tasks, activate passive node-check streaks, and bind a non-custodial wallet (Tonkeeper or Phantom) in your profile.",
+  "tokenomics": "$MOZO serves as the settlement and staking asset for AI inference requests, allocating 50% of supply to community data annotators and node runners.",
+  "sybilSafety": "Consensus-based accuracy scoring and hidden gold-standard test prompts automatically penalize random clicking or scripted bots.",
+  "steps": [
+    "Open the Mozo AI bot on Telegram and initialize your AI Contributor profile.",
+    "Complete the daily AI data-labeling batches with high accuracy.",
+    "Claim your daily passive compute check-in bonus.",
+    "Verify your social tasks and invite genuine human contributors.",
+    "Bind your Tonkeeper or Rabby wallet in the Airdrop tab before the snapshot."
+  ],
+  "faqs": [
+    {
+      "question": "How does Mozo AI reward Telegram users?",
+      "answer": "Users earn $MOZO points by completing quick AI dataset verification tasks and maintaining daily check-in streaks."
+    },
+    {
+      "question": "Does accuracy matter in Mozo AI?",
+      "answer": "Yes, higher accuracy multipliers increase your point yield and protect your account from anti-bot filtering."
+    },
+    {
+      "question": "Is Mozo AI free to join?",
+      "answer": "Yes, participating in AI micro-tasks and daily check-ins is 100% free."
+    }
+  ],
+  "tier": "Tier 1",
+  "cost": "Free ($0)",
+  "stage": "AI Data Epoch 2",
+  "timeCommitment": "5 mins / day",
+  "snapshot": "Q1 2027",
+  "estDate": "Q1 2027",
+  "socials": {
+    "twitter": "https://x.com/MozoAI_Official",
+    "telegram": "https://t.me/MozoAI_bot",
+    "website": "https://mozo.ai"
+  }
+},
+{
+  "id": "fomohash",
+  "name": "FomoHash",
+  "logo": "/images/airdrops/fomohash.svg",
+  "description": "FomoHash is a TON-powered block-hashing and energy-mining Telegram Mini-App distributing $FHASH tokens across time-limited halving epochs.",
+  "reward": "$FHASH Epoch Mining Rewards & Early Miner Multiplier",
+  "category": "Telegram",
+  "featured": true,
+  "isHot": true,
+  "isFeatured": true,
+  "status": "active",
+  "publishDate": "2026-11-14",
+  "endTime": "Q1 2027",
+  "funding": "$1.5M Community Mining Pool",
+  "investors": "TON Mining Syndicate & Hashrate Angels",
+  "refLink": "https://t.me/FomoHash_bot",
+  "overview": "Inspired by proof-of-work block epochs, FomoHash brings fair-launch block-hashing mechanics to Telegram. Users join active mining rounds, allocate energy efficiency upgrades, and earn shares of each mined block in $FHASH. As supply halvings occur across epochs, early consistent miners capture the steepest reward multipliers.",
+  "strategy": "Start mining during early epochs, upgrade energy regeneration before raw tap power, and link your Tonkeeper wallet to verify on-chain miner identity.",
+  "tokenomics": "80% of $FHASH supply is emitted directly through in-app block mining epochs, with zero VC unlock cliffs.",
+  "sybilSafety": "Epoch block difficulty adjustments and TON Connect wallet verification prevent multi-account hashrate spoofing.",
+  "steps": [
+    "Start the FomoHash Telegram Mini-App and activate your miner rig.",
+    "Join the live block-hashing epoch to accumulate $FHASH shares.",
+    "Reinvest initial in-game energy into passive hashrate and battery upgrades.",
+    "Complete daily mining streak quests for bonus block shares.",
+    "Connect your Tonkeeper or Telegram Wallet to secure on-chain token claims."
+  ],
+  "faqs": [
+    {
+      "question": "Does FomoHash drain my phone battery or CPU?",
+      "answer": "No, FomoHash uses server-side epoch simulation rather than heavy local cryptographic hashing."
+    },
+    {
+      "question": "Why are early FomoHash epochs important?",
+      "answer": "Block rewards halve over time, meaning earlier epochs distribute significantly more $FHASH per share."
+    },
+    {
+      "question": "How will $FHASH be distributed?",
+      "answer": "Tokens will be distributed on TON to connected Tonkeeper or Telegram Wallet addresses after the final mining epoch."
+    }
+  ],
+  "tier": "Tier 1",
+  "cost": "Free ($0)",
+  "stage": "Halving Epoch 3",
+  "timeCommitment": "3 mins / day",
+  "snapshot": "Q4 2026 - Q1 2027",
+  "estDate": "Q1 2027",
+  "socials": {
+    "twitter": "https://x.com/FomoHashTON",
+    "telegram": "https://t.me/FomoHash_bot",
+    "website": "https://fomohash.io"
+  }
+},
+{
+  "id": "kibble-exchange",
+  "name": "Kibble",
+  "logo": "/images/airdrops/kibble-exchange.svg",
+  "description": "Kibble is a native TON DeFi hub and Telegram Mini-App combining cross-pool swaps, staking, and a $KIB loyalty quest campaign.",
+  "reward": "$KIB Token Airdrop & DeFi Early Adopter Points",
+  "category": "Telegram",
+  "featured": true,
+  "isHot": false,
+  "isFeatured": true,
+  "status": "active",
+  "publishDate": "2026-11-14",
+  "endTime": "Q1 2027",
+  "funding": "$2.8M TON DeFi Seed",
+  "investors": "TON Venture Partners & DeFi Liquidity Guilds",
+  "refLink": "https://t.me/kibble_bot",
+  "overview": "Kibble streamlines decentralized finance on The Open Network directly inside Telegram. Users can track TON tokens, execute low-slippage swaps, and complete daily DeFi loyalty quests inside the Kibble Mini-App. Because Kibble combines real on-chain utility with quest farming, participants earn both social points and higher-weighted on-chain $KIB multipliers.",
+  "strategy": "Complete free daily check-ins and social tasks in the Kibble bot, then perform at least one small organic TON swap via Tonkeeper to unlock the higher DeFi airdrop tier.",
+  "tokenomics": "The $KIB token governs liquidity incentives, fee rebates, and launchpad access on Kibble, with 40% earmarked for community quests and early swappers.",
+  "sybilSafety": "On-chain swap volume tiers and Tonkeeper wallet age checks separate genuine TON DeFi users from zero-activity bot accounts.",
+  "steps": [
+    "Open the Kibble Mini-App on Telegram and start the $KIB Points tracker.",
+    "Claim daily check-in points and complete ecosystem partner quests.",
+    "Connect your Tonkeeper wallet via TON Connect.",
+    "Optionally execute a small organic TON ecosystem swap inside the Kibble portal for bonus DeFi multiplier points.",
+    "Monitor your tier rank in the Kibble Leaderboard ahead of TGE."
+  ],
+  "faqs": [
+    {
+      "question": "Can I farm Kibble without spending money?",
+      "answer": "Yes, daily check-ins and social quests are free, while optional small swaps on TON grant additional DeFi multiplier points."
+    },
+    {
+      "question": "Which wallets work with Kibble?",
+      "answer": "Tonkeeper, Telegram Wallet, and MyTonWallet are supported via TON Connect."
+    },
+    {
+      "question": "When is the $KIB token generation event?",
+      "answer": "The $KIB TGE and airdrop claim are targeted for Q1 2027."
+    }
+  ],
+  "tier": "Tier 1",
+  "cost": "Free ($0) / Optional Gas",
+  "stage": "DeFi Loyalty Season 2",
+  "timeCommitment": "3 mins / day",
+  "snapshot": "Q1 2027",
+  "estDate": "Q1 2027",
+  "socials": {
+    "twitter": "https://x.com/KibbleExchange",
+    "telegram": "https://t.me/kibble_bot",
+    "website": "https://kibble.exchange"
+  }
+},
+{
+  "id": "iceberg-telegram",
+  "name": "Iceberg",
+  "logo": "/images/airdrops/iceberg-telegram.svg",
+  "description": "Iceberg is a Web3 productivity workspace, calendar, and task manager built as a Telegram Mini-App rewarding users with $ICEBERG points.",
+  "reward": "$ICEBERG Token Airdrop & Workspace Streak Bonus",
+  "category": "Telegram",
+  "featured": true,
+  "isHot": false,
+  "isFeatured": true,
+  "status": "active",
+  "publishDate": "2026-11-14",
+  "endTime": "Q1 2027",
+  "funding": "$1.9M Ecosystem & Angel Round",
+  "investors": "TON Productivity Collective & Web3 SaaS Angels",
+  "refLink": "https://t.me/IcebergAppBot",
+  "overview": "Iceberg stands out among Telegram Mini-Apps by building practical Web3 productivity tools—notes, crypto event calendars, CRM checklists, and team task boards—directly inside Telegram. Users earn $ICEBERG points through passive 6-hour farming cycles, creating personal tasks, and completing partner ecosystem quests.",
+  "strategy": "Restart your 6-hour farming timer twice daily, use the in-app planner/notes features to register real workspace activity, and link your TON wallet.",
+  "tokenomics": "$ICEBERG unlocks premium Web3 workspace automation, team collaboration seats, and community reward pools.",
+  "sybilSafety": "Workspace feature usage, multi-day streak consistency, and TON wallet binding help filter out single-click bot farms.",
+  "steps": [
+    "Launch Iceberg (@IcebergAppBot) in Telegram.",
+    "Activate the 6-hour $ICEBERG farming cycle from the main dashboard.",
+    "Create sample crypto airdrop reminders or notes in the Workspace tab.",
+    "Finish verified partner quests in the Tasks section.",
+    "Connect your Tonkeeper or Telegram Wallet to secure your airdrop allocation."
+  ],
+  "faqs": [
+    {
+      "question": "How is Iceberg different from tap-to-earn games?",
+      "answer": "Iceberg is a functional Web3 calendar, notes, and task-management app inside Telegram rather than a pure clicker game."
+    },
+    {
+      "question": "How often do I need to claim in Iceberg?",
+      "answer": "Farming cycles run every 6 hours, requiring only a few seconds to claim and restart."
+    },
+    {
+      "question": "Is Iceberg free to use?",
+      "answer": "Yes, all core productivity tools and $ICEBERG airdrop farming are completely free."
+    }
+  ],
+  "tier": "Tier 2",
+  "cost": "Free ($0)",
+  "stage": "Workspace Beta Season",
+  "timeCommitment": "2 mins / day",
+  "snapshot": "Q4 2026 - Q1 2027",
+  "estDate": "Q1 2027",
+  "socials": {
+    "twitter": "https://x.com/Iceberg_App",
+    "telegram": "https://t.me/IcebergAppBot",
+    "website": "https://0xiceberg.com"
+  }
+},
+{
+  "id": "bcoin-2048",
+  "name": "Bcoin 2048",
+  "logo": "/images/airdrops/bcoin-2048.svg",
+  "description": "Bcoin 2048 is a skill-based 2048 tile-merging puzzle mini-app on TON where high-score players mine $BCOIN blocks and climb seasonal leaderboards.",
+  "reward": "$BCOIN Token Mining Pool & Leaderboard Drops",
+  "category": "Telegram",
+  "featured": true,
+  "isHot": true,
+  "isFeatured": true,
+  "status": "active",
+  "publishDate": "2026-11-14",
+  "endTime": "Q1 2027",
+  "funding": "$1.4M GameFi Seed",
+  "investors": "TON Casual Gaming Guilds & Arcade Angels",
+  "refLink": "https://t.me/Bcoin2048bot",
+  "overview": "Bcoin 2048 replaces repetitive screen-tapping with classic 2048 strategy gameplay on Telegram. Every tile merge contributes to your mined $BCOIN score, while reaching 1024 and 2048 tiles unlocks bonus halving multipliers. With built-in energy regeneration and weekly puzzle tournaments, skilled players earn significantly larger airdrop shares than passive bots.",
+  "strategy": "Play full 2048 runs whenever energy refills, aim for corner-stacking tile merges to reach 2048+, and connect your Tonkeeper wallet for leaderboard payouts.",
+  "tokenomics": "$BCOIN features a capped 21-million-style supply model emitted through puzzle mining, tournament rewards, and staking pools.",
+  "sybilSafety": "Move-sequence validation and human puzzle-solving patterns naturally block automated tap macros.",
+  "steps": [
+    "Open the Bcoin 2048 bot in Telegram.",
+    "Start a 2048 puzzle board and merge matching crypto tiles to mine $BCOIN.",
+    "Use earned coins to upgrade your energy capacity and tile bonus multipliers.",
+    "Complete daily puzzle milestones and social tasks.",
+    "Bind your Tonkeeper or Telegram Wallet to receive your $BCOIN distribution."
+  ],
+  "faqs": [
+    {
+      "question": "Is Bcoin 2048 skill-based?",
+      "answer": "Yes, reaching higher tiles like 1024 and 2048 multiplies your $BCOIN yield per game."
+    },
+    {
+      "question": "Can I play Bcoin 2048 for free?",
+      "answer": "Yes, energy regenerates automatically for free every few hours."
+    },
+    {
+      "question": "Which wallet is needed for Bcoin 2048?",
+      "answer": "A non-custodial TON wallet such as Tonkeeper or Telegram Wallet."
+    }
+  ],
+  "tier": "Tier 2",
+  "cost": "Free ($0)",
+  "stage": "Halving Puzzle Season",
+  "timeCommitment": "5 mins / day",
+  "snapshot": "Q1 2027",
+  "estDate": "Q1 2027",
+  "socials": {
+    "twitter": "https://x.com/bcoin2048",
+    "telegram": "https://t.me/Bcoin2048bot",
+    "website": "https://bcoin2048.com"
+  }
 }
 ];
