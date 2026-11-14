@@ -118,7 +118,7 @@ const keyTakeaways = [
     <nav class="flex items-center gap-2 text-xs font-semibold text-slate-400 mb-8" aria-label="Breadcrumb">
       <a href="/" class="hover:text-slate-900 dark:hover:text-white transition-colors">Home</a>
       <span>/</span>
-      <a href="/news" class="hover:text-slate-900 dark:hover:text-white transition-colors">News</a>
+      <a href="/news/" class="hover:text-slate-900 dark:hover:text-white transition-colors">News</a>
       <span>/</span>
       <span class="text-slate-900 dark:text-white line-clamp-1">{article.title}</span>
     </nav>
@@ -130,7 +130,7 @@ const keyTakeaways = [
           {article.category}
         </span>
         <span class="text-xs text-slate-400 font-medium">{readTime} • {wordCount} words</span>
-        <a href="/fact-checking" class="inline-flex items-center gap-1 text-[11px] font-bold text-emerald-600 dark:text-emerald-400 bg-emerald-50 dark:bg-emerald-950/40 px-2.5 py-0.5 rounded-full border border-emerald-200 dark:border-emerald-800/40 hover:bg-emerald-100 dark:hover:bg-emerald-900/60 transition-colors">
+        <a href="/fact-checking/" class="inline-flex items-center gap-1 text-[11px] font-bold text-emerald-600 dark:text-emerald-400 bg-emerald-50 dark:bg-emerald-950/40 px-2.5 py-0.5 rounded-full border border-emerald-200 dark:border-emerald-800/40 hover:bg-emerald-100 dark:hover:bg-emerald-900/60 transition-colors">
           <span>✓</span> Fact-Checked &amp; Verified
         </a>
       </div>
@@ -239,7 +239,7 @@ const keyTakeaways = [
         <span class="text-xl">⚖️</span>
         <div class="text-xs text-slate-500 dark:text-slate-400 space-y-1 leading-relaxed">
           <p><strong class="text-slate-700 dark:text-slate-300">Editorial Disclaimer:</strong> This news report is published strictly for objective industry monitoring and informational research purposes. None of the token developments, testnet announcements, or protocol metrics mentioned constitute investment, legal, or financial advice.</p>
-          <p>Airdroplyx is an independent aggregator and does not guarantee airdrop allocations or token values. Cryptocurrency transactions carry technical and market risks. Always DYOR. <a href="/disclaimer" class="underline text-blue-600 dark:text-blue-400 font-medium">Read our full Risk Disclaimer &rarr;</a></p>
+          <p>Airdroplyx is an independent aggregator and does not guarantee airdrop allocations or token values. Cryptocurrency transactions carry technical and market risks. Always DYOR. <a href="/disclaimer/" class="underline text-blue-600 dark:text-blue-400 font-medium">Read our full Risk Disclaimer &rarr;</a></p>
         </div>
       </div>
     </div>
@@ -266,7 +266,7 @@ const keyTakeaways = [
           </div>
         </div>
         <a 
-          href={`/airdrop/${relatedAirdrop.id}`} 
+          href={`/airdrop/${relatedAirdrop.id}/`} 
           class="w-full sm:w-auto text-center whitespace-nowrap bg-blue-600 hover:bg-blue-500 text-white font-bold text-sm px-6 py-3 rounded-full transition-all shadow-lg shadow-blue-600/30"
         >
           View Full Guide →
@@ -281,7 +281,7 @@ const keyTakeaways = [
       </h3>
       <div class="grid grid-cols-1 sm:grid-cols-3 gap-6">
         {otherArticles.map(other => (
-          <a href={`/news/${other.slug}`} class="group flex flex-col bg-white dark:bg-slate-800 rounded-2xl p-4 border border-slate-200 dark:border-slate-700/80 shadow-sm hover:shadow-md transition-all">
+          <a href={`/news/${other.slug}/`} class="group flex flex-col bg-white dark:bg-slate-800 rounded-2xl p-4 border border-slate-200 dark:border-slate-700/80 shadow-sm hover:shadow-md transition-all">
             <div class="aspect-video w-full rounded-xl overflow-hidden bg-slate-100 dark:bg-slate-700 mb-3">
               <img src={other.image} alt={other.title} class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" loading="lazy" />
             </div>

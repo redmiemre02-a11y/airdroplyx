@@ -3,12 +3,14 @@ import { newsArticles } from '../data/news';
 
 export async function GET() {
   // Combine latest 35 news articles + latest 25 airdrops for a rich 60-item universal feed
-  const recentNews = newsArticles.slice(0, 35).map(n => {
+  const recentNews = newsArticles.slice(-35).reverse().map(n => {
     const parsed = new Date(n.date);
     const dateObj = !isNaN(parsed.getTime()) ? parsed : new Date();
     
-    const safeImageUrl = n.image.replace(/&/g, '&amp;').replace(/"/g, '&quot;');
+    const fullImage = n.image.startsWith('http') ? n.image : `https://airdroplyx.com${n.image}`;
+    const safeImageUrl = fullImage.replace(/&/g, '&amp;').replace(/"/g, '&quot;');
     const safeCategory = n.category.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+    const mimeType = fullImage.endsWith('.svg') ? 'image/svg+xml' : fullImage.endsWith('.png') ? 'image/png' : 'image/jpeg';
 
     return {
       type: 'news',
@@ -21,7 +23,8 @@ export async function GET() {
       author: n.author,
       description: n.excerpt,
       contentHtml: `<p><img src="${safeImageUrl}" alt="${n.title.replace(/"/g, '')}" width="1200" height="675" /></p><p>${n.excerpt}</p>`,
-      imageUrl: safeImageUrl
+      imageUrl: safeImageUrl,
+      mimeType
     };
   });
 
@@ -30,7 +33,9 @@ export async function GET() {
     const safeLogo = a.logo.startsWith('http') ? a.logo : `https://airdroplyx.com${a.logo}`;
     const safeLogoXml = safeLogo.replace(/&/g, '&amp;').replace(/"/g, '&quot;');
     const safeCategory = a.category.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
-    const dateObj = new Date('2026-11-03T08:00:00Z');
+    const parsedPub = a.publishDate ? new Date(a.publishDate) : new Date('2026-11-11T08:00:00Z');
+    const dateObj = !isNaN(parsedPub.getTime()) ? parsedPub : new Date('2026-11-11T08:00:00Z');
+    const mimeType = safeLogo.endsWith('.svg') ? 'image/svg+xml' : safeLogo.endsWith('.png') ? 'image/png' : 'image/jpeg';
 
     return {
       type: 'airdrop',
@@ -43,7 +48,8 @@ export async function GET() {
       author: 'Airdroplyx Research Team',
       description: `${a.description} Expected Reward: ${a.reward}. Total Funding: ${a.funding}. Category: ${a.category}.`,
       contentHtml: `<p><img src="${safeLogoXml}" alt="${a.name.replace(/"/g, '')}" width="256" height="256" /></p><p><strong>Reward:</strong> ${a.reward} | <strong>Funding:</strong> ${a.funding}</p><p>${a.overview || a.description}</p>`,
-      imageUrl: safeLogoXml
+      imageUrl: safeLogoXml,
+      mimeType
     };
   });
 
@@ -59,7 +65,7 @@ export async function GET() {
       <dc:creator><![CDATA[${item.author}]]></dc:creator>
       <category>${item.category}</category>
       <pubDate>${item.pubDate}</pubDate>
-      <enclosure url="${item.imageUrl}" length="120000" type="image/jpeg" />
+      <enclosure url="${item.imageUrl}" length="120000" type="${item.mimeType}" />
       <media:content url="${item.imageUrl}" medium="image">
         <media:title><![CDATA[${item.title}]]></media:title>
       </media:content>
@@ -74,7 +80,7 @@ export async function GET() {
   <channel>
     <title>Airdroplyx - Verified Crypto Airdrops, Intelligence &amp; Breaking News</title>
     <link>https://airdroplyx.com/</link>
-    <description>The premier cryptocurrency airdrop aggregator, tracking 870+ verified airdrops, testnet incentives, tokenomics analysis, and institutional Web3 news.</description>
+    <description>The premier cryptocurrency airdrop aggregator, tracking 940+ verified airdrops, testnet incentives, tokenomics analysis, and institutional Web3 news.</description>
     <language>en-us</language>
     <lastBuildDate>${new Date().toUTCString()}</lastBuildDate>
     <atom:link href="https://airdroplyx.com/rss.xml" rel="self" type="application/rss+xml" />

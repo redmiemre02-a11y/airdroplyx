@@ -162,7 +162,7 @@ const lastVerifiedDate = airdrop.publishDate || '2026-11-13';
         <div class="flex flex-wrap items-center gap-3 text-emerald-800 dark:text-emerald-300 font-semibold">
           <span>✅ Last Verified: <strong>{lastVerifiedDate}</strong></span>
           <span class="hidden sm:inline text-emerald-400">•</span>
-          <a href="/fact-checking" class="hover:underline">Reviewed by Airdroplyx Research Desk</a>
+          <a href="/fact-checking/" class="hover:underline">Reviewed by Airdroplyx Research Desk</a>
         </div>
         <a href={ecosystemUrl} class="font-bold text-sky-700 dark:text-sky-400 hover:underline">
           Explore all {ecosystemLabel} →
@@ -405,7 +405,7 @@ const lastVerifiedDate = airdrop.publishDate || '2026-11-13';
                 This guide for <strong>{airdrop.name}</strong> is published strictly for educational and informational research purposes. Airdrop participation, testnet tasks, and smart contract interactions involve technical and financial risks. <strong>Airdroplyx is not a financial advisor, broker, or custodian</strong>, does not provide investment, legal, or tax advice, and cannot guarantee token allocations, eligibility, or future monetary value.
               </p>
               <p class="text-xs text-amber-800 dark:text-amber-400 font-medium pt-1">
-                Always conduct your own due diligence (DYOR), use a dedicated burner wallet with zero primary funds, and never share your seed phrase or private keys. <a href="/disclaimer" class="underline font-bold hover:text-amber-600 dark:hover:text-amber-200">Read our full Risk Disclaimer &rarr;</a>
+                Always conduct your own due diligence (DYOR), use a dedicated burner wallet with zero primary funds, and never share your seed phrase or private keys. <a href="/disclaimer/" class="underline font-bold hover:text-amber-600 dark:hover:text-amber-200">Read our full Risk Disclaimer &rarr;</a>
               </p>
               <div class="pt-2 text-[11px] text-amber-800/80 dark:text-amber-400/70 border-t border-amber-200/60 dark:border-amber-900/40 flex items-center gap-1.5">
                 <span>🔗</span> <strong>Affiliate Disclosure:</strong> External links to registration portals may be referral links that help maintain this free database at zero cost to you.
@@ -509,7 +509,7 @@ const lastVerifiedDate = airdrop.publishDate || '2026-11-13';
           <h3 class="font-bold text-slate-900 dark:text-white mb-4">Other Hot Airdrops</h3>
           <div class="space-y-3">
             {relatedAirdrops.map(item => (
-              <a href={`/airdrop/${item.id}`} class="flex items-center gap-3 p-2.5 rounded-xl hover:bg-slate-50 dark:hover:bg-slate-700 transition-colors">
+              <a href={`/airdrop/${item.id}/`} class="flex items-center gap-3 p-2.5 rounded-xl hover:bg-slate-50 dark:hover:bg-slate-700 transition-colors">
                 <img src={item.logo} alt={item.name} class="w-10 h-10 rounded-lg object-contain bg-slate-50 dark:bg-slate-600 p-1 border border-slate-200 dark:border-slate-500" />
                 <div class="flex-1 min-w-0">
                   <h4 class="text-sm font-bold text-slate-800 dark:text-white truncate">{item.name}</h4>

@@ -17,7 +17,8 @@ const {
 	image = "https://airdroplyx.com/logo.jpg"
 } = Astro.props;
 
-const canonicalURL = new URL(Astro.url.pathname, Astro.site || "https://airdroplyx.com");
+const normalizedPath = Astro.url.pathname.endsWith('/') || Astro.url.pathname.includes('.') ? Astro.url.pathname : `${Astro.url.pathname}/`;
+const canonicalURL = new URL(normalizedPath, Astro.site || "https://airdroplyx.com");
 ---
 
 <!doctype html>
@@ -34,27 +35,8 @@ const canonicalURL = new URL(Astro.url.pathname, Astro.site || "https://airdropl
 		<link rel="canonical" href={canonicalURL} />
 		<meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
 
-		<!-- Multi-Language SEO hreflang Alternates (Google International Standards) -->
-		<link rel="alternate" hreflang="x-default" href={canonicalURL} />
-		<link rel="alternate" hreflang="en" href={canonicalURL} />
-		<link rel="alternate" hreflang="tr" href={canonicalURL} />
-		<link rel="alternate" hreflang="ru" href={canonicalURL} />
-		<link rel="alternate" hreflang="es" href={canonicalURL} />
-		<link rel="alternate" hreflang="vi" href={canonicalURL} />
-		<link rel="alternate" hreflang="zh-CN" href={canonicalURL} />
-		<link rel="alternate" hreflang="de" href={canonicalURL} />
-		<link rel="alternate" hreflang="ja" href={canonicalURL} />
-		<link rel="alternate" hreflang="ko" href={canonicalURL} />
-		<link rel="alternate" hreflang="fr" href={canonicalURL} />
-		<link rel="alternate" hreflang="pt" href={canonicalURL} />
-		<link rel="alternate" hreflang="id" href={canonicalURL} />
-		<link rel="alternate" hreflang="uk" href={canonicalURL} />
-		<link rel="alternate" hreflang="ar" href={canonicalURL} />
-
-		<!-- RSS Autodiscovery Feeds -->
+		<!-- RSS Autodiscovery Feed -->
 		<link rel="alternate" type="application/rss+xml" title="Airdroplyx - Master RSS Feed" href="https://airdroplyx.com/rss.xml" />
-		<link rel="alternate" type="application/rss+xml" title="Airdroplyx - Web3 News RSS Feed" href="https://airdroplyx.com/news/rss.xml" />
-		<link rel="alternate" type="application/rss+xml" title="Airdroplyx - Google RSS Sitemap" href="https://airdroplyx.com/rss-sitemap.xml" />
 
 		<!-- Open Graph / Facebook -->
 		<meta property="og:type" content="website" />
