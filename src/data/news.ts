@@ -7377,5 +7377,119 @@ export const newsArticles: NewsArticle[] = [
   ],
   "relatedAirdropId": "bcoin-2048",
   "content": "Bcoin 2048 brings classic 2048 tile-merging strategy to The Open Network, rewarding puzzle skill rather than automated tapping. Reaching 1024 and 2048 tiles significantly boosts $BCOIN mining output, while Tonkeeper verification ensures fair leaderboard payouts."
+},
+{
+  "slug": "bump-tonkeeper-mmpro-telegram-mini-app-airdrop-guide",
+  "title": "Bump Telegram Mini-App Guide: How Tonkeeper & MMPro Reward $BUMP Farmers",
+  "excerpt": "Complete walkthrough for Bump on Telegram—optimize 6-hour farming cycles, unlock RWA pre-market vouchers, and connect Tonkeeper for $BUMP.",
+  "author": "Antigravity Research",
+  "date": "November 14, 2026",
+  "readTime": "4 min read",
+  "category": "Telegram Mini-Apps",
+  "image": "/images/airdrops/bump-ton.svg",
+  "tags": [
+    "Bump",
+    "Tonkeeper",
+    "TON",
+    "RWA",
+    "Airdrop"
+  ],
+  "relatedAirdropId": "bump-ton",
+  "content": "Developed by MMPro Trust alongside Tonkeeper, Bump connects Telegram's massive mini-app audience with real-world pre-market asset vouchers. By maintaining 6-hour farming cycles and upgrading passive hourly boosters, users accumulate $BUMP points that unlock both ecosystem vouchers and upcoming token airdrop allocations."
+},
+{
+  "slug": "gleam-aqua-protocol-ton-stablecoin-telegram-airdrop",
+  "title": "Aqua Protocol Expands TON Stablecoin Ecosystem via Gleam Telegram Mini-App",
+  "excerpt": "Farm $GLEAM and AquaXP every 8 hours inside Telegram and combine free DeFi quests with Tonkeeper verification.",
+  "author": "Antigravity Research",
+  "date": "November 14, 2026",
+  "readTime": "3 min read",
+  "category": "Telegram Mini-Apps",
+  "image": "/images/airdrops/gleam-aqua.svg",
+  "tags": [
+    "Gleam",
+    "Aqua Protocol",
+    "TON DeFi",
+    "Telegram",
+    "Airdrop"
+  ],
+  "relatedAirdropId": "gleam-aqua",
+  "content": "Gleam serves as the official Telegram onboarding hub for Aqua Protocol, bringing decentralized stablecoin education and AquaXP farming to mobile users. Consistent 8-hour claims and optional on-chain Tonkeeper interactions position early participants for the $GLEAM and AquaXP reward conversion."
+},
+{
+  "slug": "cell-wallet-multi-chain-telegram-mini-app-cell-mining",
+  "title": "Cell Wallet Integrates Multi-Chain Self-Custody and $CELL Mining Inside Telegram",
+  "excerpt": "How to set up Cell Wallet in Telegram, upgrade mining storage batteries, and qualify for early wallet adopter $CELL rewards.",
+  "author": "Antigravity Research",
+  "date": "November 14, 2026",
+  "readTime": "3 min read",
+  "category": "Telegram Mini-Apps",
+  "image": "/images/airdrops/cell-wallet.svg",
+  "tags": [
+    "Cell Wallet",
+    "TON",
+    "Self-Custody",
+    "Telegram",
+    "Airdrop"
+  ],
+  "relatedAirdropId": "cell-wallet",
+  "content": "Cell Wallet simplifies Web3 onboarding by placing a non-custodial multi-chain wallet directly inside a Telegram Mini-App. Early adopters who secure their recovery phrase, upgrade battery storage, and claim $CELL energy blocks daily earn priority status for the upcoming wallet token drop."
+},
+{
+  "slug": "pin-ai-a16z-backed-telegram-mini-app-pin-airdrop",
+  "title": "a16z CSX-Backed PIN AI Launches Telegram Mini-App for $PIN Airdrop Farming",
+  "excerpt": "With $10M from a16z CSX and Hack VC, PIN AI rewards Telegram users for training personal AI companions and connecting verified wallets.",
+  "author": "Antigravity Research",
+  "date": "November 14, 2026",
+  "readTime": "4 min read",
+  "category": "Telegram Mini-Apps",
+  "image": "/images/airdrops/pinai-telegram.svg",
+  "tags": [
+    "PIN AI",
+    "a16z CSX",
+    "AI Agents",
+    "Telegram",
+    "Airdrop"
+  ],
+  "relatedAirdropId": "pinai-telegram",
+  "content": "PIN AI stands out in the Telegram Mini-App landscape with $10 million in backing from a16z CSX, Hack VC, and Symbolic Capital. Users train personal AI agents directly in Telegram, complete daily intelligence tasks, and link Phantom or Rabby wallets to stack $PIN points ahead of TGE."
+},
+{
+  "slug": "onchain-coin-base-ton-telegram-streak-airdrop",
+  "title": "Onchain Bridges Base and TON Communities in Telegram with 70% $ONCHAIN Supply",
+  "excerpt": "Keep your daily chain streak alive in the Onchain Telegram Mini-App and link Rabby or Tonkeeper for cross-chain multipliers.",
+  "author": "Antigravity Research",
+  "date": "November 14, 2026",
+  "readTime": "3 min read",
+  "category": "Telegram Mini-Apps",
+  "image": "/images/airdrops/onchain-coin.svg",
+  "tags": [
+    "Onchain",
+    "Base",
+    "TON",
+    "Telegram",
+    "Airdrop"
+  ],
+  "relatedAirdropId": "onchain-coin",
+  "content": "Onchain connects Base and TON airdrop hunters inside a single Telegram Mini-App, dedicating 70% of its $ONCHAIN token supply to active community players. Unbroken daily streaks and verified non-custodial wallet bindings are key to maximizing your seasonal allocation."
+},
+{
+  "slug": "ton-flash-arcade-reaction-mini-app-flash-airdrop",
+  "title": "TON Flash Launches 60-Second Reaction Arcade on Telegram for $FLASH Rewards",
+  "excerpt": "Compete in fast arcade challenges, collect Flash Bolts, and climb the TON Flash leaderboard for $FLASH token drops.",
+  "author": "Antigravity Research",
+  "date": "November 14, 2026",
+  "readTime": "3 min read",
+  "category": "Telegram Mini-Apps",
+  "image": "/images/airdrops/ton-flash.svg",
+  "tags": [
+    "TON Flash",
+    "Arcade",
+    "TON",
+    "Telegram",
+    "Airdrop"
+  ],
+  "relatedAirdropId": "ton-flash",
+  "content": "TON Flash replaces passive clicking with 60-second reaction mini-games and TON ecosystem discovery quests. Players earn Flash Bolts from daily arcade rounds and verify Tonkeeper wallets to qualify for seasonal $FLASH leaderboard distributions."
 }
 ];

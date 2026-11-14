@@ -43106,5 +43106,327 @@ export const airdrops: Airdrop[] = [
     "telegram": "https://t.me/Bcoin2048bot",
     "website": "https://bcoin2048.com"
   }
+},
+{
+  "id": "bump-ton",
+  "name": "Bump",
+  "logo": "/images/airdrops/bump-ton.svg",
+  "description": "Bump is a Tonkeeper and MMPro-backed Telegram Mini-App connecting tap-farming, pre-market RWA vouchers, and $BUMP token rewards.",
+  "reward": "$BUMP Token Allocation & Pre-Market RWA Vouchers",
+  "category": "Telegram",
+  "featured": true,
+  "isHot": true,
+  "isFeatured": true,
+  "status": "active",
+  "publishDate": "2026-11-14",
+  "endTime": "Q1 2027",
+  "funding": "$3.0M Strategic TON & RWA Backing",
+  "investors": "MMPro Trust & Tonkeeper Ecosystem Partners",
+  "refLink": "https://t.me/MMproBump_bot",
+  "overview": "Built in collaboration with Tonkeeper and MMPro Trust, Bump brings real-world pre-market asset exposure directly into Telegram. Players farm $BUMP points via 6-hour farming cycles, upgrade passive boosters, and convert accumulated points into discounted RWA vouchers and upcoming $BUMP token allocations.",
+  "strategy": "Restart your 6-hour Bump farming cycle consistently, prioritize passive hourly rate upgrades over one-time taps, and connect your Tonkeeper wallet early.",
+  "tokenomics": "The $BUMP token powers pre-market voucher discounts, staking tiers, and liquidity rewards across the TON RWA marketplace.",
+  "sybilSafety": "Tonkeeper wallet binding, voucher claim verification, and anti-macro tap checks filter out automated bot farms.",
+  "steps": [
+    "Open the Bump Telegram Mini-App (@MMproBump_bot).",
+    "Start your 6-hour farming cycle and tap to build initial balance.",
+    "Reinvest points into passive hourly boosters in the Boost section.",
+    "Complete Tonkeeper and partner ecosystem tasks in the Tasks tab.",
+    "Connect your Tonkeeper wallet to qualify for $BUMP rewards and RWA vouchers."
+  ],
+  "faqs": [
+    {
+      "question": "Who is behind the Bump Telegram Mini-App?",
+      "answer": "Bump is developed by MMPro Trust in partnership with Tonkeeper to bring RWA and pre-market token access to TON users."
+    },
+    {
+      "question": "Is Bump free to farm?",
+      "answer": "Yes, 6-hour farming cycles and social tasks are completely free."
+    },
+    {
+      "question": "Which wallet should I connect to Bump?",
+      "answer": "Tonkeeper is the primary recommended wallet via TON Connect."
+    }
+  ],
+  "tier": "Tier 1",
+  "cost": "Free ($0)",
+  "stage": "Pre-Market Farming Season",
+  "timeCommitment": "3 mins / day",
+  "snapshot": "Q4 2026 - Q1 2027",
+  "estDate": "Q1 2027",
+  "socials": {
+    "twitter": "https://x.com/MMproBump",
+    "telegram": "https://t.me/MMproBump_bot",
+    "website": "https://mmprotrust.com"
+  }
+},
+{
+  "id": "gleam-aqua",
+  "name": "Gleam (Aqua Protocol)",
+  "logo": "/images/airdrops/gleam-aqua.svg",
+  "description": "Gleam is the official Telegram Mini-App for Aqua Protocol on TON, rewarding users with $GLEAM and AquaXP for 8-hour farming and DeFi quests.",
+  "reward": "$GLEAM & AquaXP Airdrop Conversion",
+  "category": "Telegram",
+  "featured": true,
+  "isHot": true,
+  "isFeatured": true,
+  "status": "active",
+  "publishDate": "2026-11-14",
+  "endTime": "Q1 2027",
+  "funding": "$2.4M TON DeFi & Stablecoin Grants",
+  "investors": "TON Foundation Grant & Aqua DeFi Angels",
+  "refLink": "https://t.me/GleamRewardsBot",
+  "overview": "Gleam is the community growth and onboarding mini-app built by Aqua Protocol, the decentralized over-collateralized stablecoin ($AQUAUSD) protocol on TON. Users collect Gleam drops every 8 hours, finish educational DeFi quests, and optionally test $AQUAUSD minting via Tonkeeper for boosted AquaXP.",
+  "strategy": "Claim Gleam drops every 8 hours without breaking your streak, complete all free DeFi onboarding quests, and connect Tonkeeper for on-chain multiplier points.",
+  "tokenomics": "Gleam points and AquaXP convert into $AQUA / $GLEAM governance and liquidity incentives across the TON stablecoin ecosystem.",
+  "sybilSafety": "Multi-day streak consistency and optional on-chain Tonkeeper interactions help separate real DeFi participants from sybil farms.",
+  "steps": [
+    "Launch the Gleam Mini-App on Telegram (@GleamRewardsBot).",
+    "Start the 8-hour energy farming timer and collect your first Gleam points.",
+    "Complete partner and Aqua Protocol educational tasks.",
+    "Connect your non-custodial Tonkeeper or Telegram Wallet.",
+    "Optionally mint or hold a small $AQUAUSD position on TON for bonus AquaXP."
+  ],
+  "faqs": [
+    {
+      "question": "How is Gleam connected to Aqua Protocol?",
+      "answer": "Gleam is the official Telegram Mini-App hub for Aqua Protocol, TON's native decentralized stablecoin platform."
+    },
+    {
+      "question": "Do I need to deposit funds to farm Gleam?",
+      "answer": "No, 8-hour check-ins and social quests are 100% free; on-chain DeFi actions only provide optional bonus multipliers."
+    },
+    {
+      "question": "When is the Gleam snapshot?",
+      "answer": "The snapshot and AquaXP conversion are scheduled ahead of Q1 2027."
+    }
+  ],
+  "tier": "Tier 1",
+  "cost": "Free ($0)",
+  "stage": "AquaXP Season 2",
+  "timeCommitment": "2 mins / day",
+  "snapshot": "Q1 2027",
+  "estDate": "Q1 2027",
+  "socials": {
+    "twitter": "https://x.com/aquaprotocolxyz",
+    "telegram": "https://t.me/GleamRewardsBot",
+    "website": "https://aquaprotocol.xyz"
+  }
+},
+{
+  "id": "cell-wallet",
+  "name": "Cell Wallet",
+  "logo": "/images/airdrops/cell-wallet.svg",
+  "description": "Cell Wallet is a multi-chain self-custody Telegram Mini-App wallet featuring built-in $CELL energy mining and daily gasless quest rewards.",
+  "reward": "$CELL Token Mining & Early Wallet Adopter Drop",
+  "category": "Telegram",
+  "featured": true,
+  "isHot": false,
+  "isFeatured": true,
+  "status": "active",
+  "publishDate": "2026-11-14",
+  "endTime": "Q1 2027",
+  "funding": "$2.0M Seed & Multi-Chain Wallet Round",
+  "investors": "Web3 Wallet Ventures & TON Ecosystem Angels",
+  "refLink": "https://t.me/cellcoin_bot",
+  "overview": "Cell Wallet embeds a lightweight non-custodial multi-chain wallet directly inside Telegram. To bootstrap early wallet adoption, Cell runs an in-app $CELL mining pool where users claim energy blocks, upgrade storage batteries, and test cross-chain wallet transfers without leaving Telegram.",
+  "strategy": "Back up your Cell Wallet seed phrase safely offline, upgrade battery storage so you never lose idle mining time, and complete daily check-in quests.",
+  "tokenomics": "The $CELL token supports gas abstraction, swap fee discounts, and referral rebates inside Cell Wallet.",
+  "sybilSafety": "Active wallet creation, multi-day battery claims, and optional on-chain transactions verify genuine wallet users.",
+  "steps": [
+    "Open the Cell Wallet bot on Telegram (@cellcoin_bot) and create your non-custodial wallet.",
+    "Securely write down your recovery phrase offline.",
+    "Claim mined $CELL blocks every few hours from the Mine tab.",
+    "Upgrade storage capacity and mining speed using earned $CELL.",
+    "Complete daily wallet quests to climb the airdrop leaderboard."
+  ],
+  "faqs": [
+    {
+      "question": "Is Cell Wallet non-custodial?",
+      "answer": "Yes, you control your own recovery keys directly inside the Telegram Mini-App."
+    },
+    {
+      "question": "Does mining $CELL cost any gas fees?",
+      "answer": "No, claiming standard in-app $CELL mining cycles is free."
+    },
+    {
+      "question": "How do I maximize my $CELL airdrop?",
+      "answer": "Upgrade storage early, maintain daily check-ins, and keep your wallet active."
+    }
+  ],
+  "tier": "Tier 2",
+  "cost": "Free ($0)",
+  "stage": "Wallet Mining Phase 2",
+  "timeCommitment": "3 mins / day",
+  "snapshot": "Q1 2027",
+  "estDate": "Q1 2027",
+  "socials": {
+    "twitter": "https://x.com/cellwallet_app",
+    "telegram": "https://t.me/cellcoin_bot",
+    "website": "https://cellwallet.io"
+  }
+},
+{
+  "id": "pinai-telegram",
+  "name": "PIN AI",
+  "logo": "/images/airdrops/pinai-telegram.svg",
+  "description": "PIN AI is an a16z CSX-backed Personal Intelligence Network with a Telegram Mini-App rewarding users with $PIN points for data-owned AI training.",
+  "reward": "$PIN Token Allocation & Personal AI Agent Tiers",
+  "category": "Telegram",
+  "featured": true,
+  "isHot": true,
+  "isFeatured": true,
+  "status": "active",
+  "publishDate": "2026-11-14",
+  "endTime": "Q1 2027",
+  "funding": "$10.0M Seed (a16z CSX & Hack VC)",
+  "investors": [
+    "a16z CSX",
+    "Hack VC",
+    "Symbolic Capital"
+  ],
+  "refLink": "https://t.me/PINAI_Bot",
+  "overview": "Backed by $10 million from a16z CSX and Hack VC, PIN AI builds an open-source Personal Intelligence Network where users own and monetize their personal AI context. Through the official PIN AI Telegram Mini-App, early adopters train their personal AI companion, complete daily intelligence quests, and accumulate $PIN points.",
+  "strategy": "Log in daily to feed your PIN AI companion, complete all verified social and data-connector quests, and bind a non-custodial wallet (Phantom or Rabby) in your profile.",
+  "tokenomics": "The $PIN token coordinates user data ownership, AI agent inference payments, and ecosystem staking rewards.",
+  "sybilSafety": "Personalized AI interaction history, verified social connectors, and wallet signature checks eliminate low-effort bot accounts.",
+  "steps": [
+    "Launch the official PIN AI Telegram Mini-App (@PINAI_Bot).",
+    "Initialize your Personal AI Agent and claim your onboarding bonus.",
+    "Complete daily AI training prompts and ecosystem tasks.",
+    "Connect optional verified social accounts to boost your data multiplier.",
+    "Link your Phantom or Rabby wallet in the Rewards section."
+  ],
+  "faqs": [
+    {
+      "question": "Who invested in PIN AI?",
+      "answer": "PIN AI raised $10M led by a16z Crypto Startup Accelerator (CSX), Hack VC, and Symbolic Capital."
+    },
+    {
+      "question": "Is the PIN AI Telegram app free?",
+      "answer": "Yes, training your AI companion and earning $PIN points on Telegram is completely free."
+    },
+    {
+      "question": "Why is PIN AI a high-priority Telegram airdrop?",
+      "answer": "Unlike anonymous clickers, PIN AI has Tier-1 VC backing ($10M) and real AI agent infrastructure."
+    }
+  ],
+  "tier": "Tier 1",
+  "cost": "Free ($0)",
+  "stage": "Personal AI Season 1",
+  "timeCommitment": "3 mins / day",
+  "snapshot": "Q4 2026 - Q1 2027",
+  "estDate": "Q1 2027",
+  "socials": {
+    "twitter": "https://x.com/PINAI_io",
+    "telegram": "https://t.me/PINAI_Bot",
+    "website": "https://pinai.io"
+  }
+},
+{
+  "id": "onchain-coin",
+  "name": "Onchain",
+  "logo": "/images/airdrops/onchain-coin.svg",
+  "description": "Onchain is a cross-chain Telegram Mini-App bridging Base and TON social gaming with daily chain-link streaks and $ONCHAIN rewards.",
+  "reward": "$ONCHAIN Token Distribution & Chain Streak Multipliers",
+  "category": "Telegram",
+  "featured": true,
+  "isHot": false,
+  "isFeatured": true,
+  "status": "active",
+  "publishDate": "2026-11-14",
+  "endTime": "Q1 2027",
+  "funding": "$1.8M Base & TON Ecosystem Grants",
+  "investors": "Onchain Gaming Collective & L2 Builders",
+  "refLink": "https://t.me/onchaincoin_bot",
+  "overview": "Onchain unites Base Layer-2 and TON communities inside a single Telegram Mini-App. Players tap chain links, maintain daily streak multipliers, and complete cross-chain social challenges. By verifying an active EVM wallet (Rabby) or Tonkeeper address, participants lock in higher-tier $ONCHAIN airdrop eligibility.",
+  "strategy": "Keep your daily chain streak unbroken for maximum multiplier scaling, upgrade energy regeneration first, and bind your Rabby or Tonkeeper wallet.",
+  "tokenomics": "70% of the $ONCHAIN token supply is dedicated to community players, streak holders, and cross-chain liquidity incentives.",
+  "sybilSafety": "Wallet age verification across Base/TON and unbroken daily streak scoring protect distribution fairness.",
+  "steps": [
+    "Open the Onchain Mini-App on Telegram (@onchaincoin_bot).",
+    "Tap and upgrade your Chain Link energy boosters.",
+    "Log in daily to preserve your streak multiplier.",
+    "Finish partner tasks in the Quests tab.",
+    "Connect your Rabby or Tonkeeper wallet to verify on-chain eligibility."
+  ],
+  "faqs": [
+    {
+      "question": "Which networks does Onchain support?",
+      "answer": "Onchain connects both Base (EVM) and TON ecosystems inside Telegram."
+    },
+    {
+      "question": "Do I need gas to play Onchain?",
+      "answer": "No, all in-app farming and daily streaks are free."
+    },
+    {
+      "question": "How do I qualify for the highest tier?",
+      "answer": "Maintain a long daily streak and connect an active non-custodial wallet."
+    }
+  ],
+  "tier": "Tier 2",
+  "cost": "Free ($0)",
+  "stage": "Chain Streak Season 2",
+  "timeCommitment": "3 mins / day",
+  "snapshot": "Q1 2027",
+  "estDate": "Q1 2027",
+  "socials": {
+    "twitter": "https://x.com/onchaincoin",
+    "telegram": "https://t.me/onchaincoin_bot",
+    "website": "https://onchaincoin.io"
+  }
+},
+{
+  "id": "ton-flash",
+  "name": "TON Flash",
+  "logo": "/images/airdrops/ton-flash.svg",
+  "description": "TON Flash is a high-speed arcade challenge and instant-quest Telegram Mini-App on TON rewarding $FLASH tokens to active challengers.",
+  "reward": "$FLASH Token Airdrop & Arcade Leaderboard Prizes",
+  "category": "Telegram",
+  "featured": true,
+  "isHot": false,
+  "isFeatured": true,
+  "status": "active",
+  "publishDate": "2026-11-14",
+  "endTime": "Q1 2027",
+  "funding": "$1.2M TON Arcade Seed",
+  "investors": "TON Casual Guilds & Angel Syndicate",
+  "refLink": "https://t.me/TonFlash_bot",
+  "overview": "TON Flash packs fast 60-second reaction mini-games and daily Telegram ecosystem discovery quests into a single lightweight app. Players compete in lightning-round arcade challenges, collect Flash Bolts, and earn $FLASH token allocations based on weekly leaderboard finishes and quest completion.",
+  "strategy": "Play the daily lightning challenges to stay in the top weekly percentile, complete zero-cost ecosystem quests, and link your Tonkeeper wallet.",
+  "tokenomics": "$FLASH fuels tournament entry pools, arcade skin unlocks, and seasonal community prize distributions.",
+  "sybilSafety": "Reaction-time telemetry and Tonkeeper wallet binding ensure rewards go to real human players.",
+  "steps": [
+    "Start the TON Flash Mini-App on Telegram (@TonFlash_bot).",
+    "Play daily 60-second reaction arcade rounds to earn Flash Bolts.",
+    "Complete featured TON ecosystem discovery quests.",
+    "Upgrade your bolt multiplier in the Garage tab.",
+    "Connect your Tonkeeper or Telegram Wallet before the season ends."
+  ],
+  "faqs": [
+    {
+      "question": "How long does TON Flash take per day?",
+      "answer": "Only 2 to 3 minutes per day for daily challenges and bolt claims."
+    },
+    {
+      "question": "Is TON Flash free to play?",
+      "answer": "Yes, all arcade rounds and discovery quests are free."
+    },
+    {
+      "question": "When are $FLASH rewards distributed?",
+      "answer": "Season 1 rewards are scheduled for distribution in Q1 2027."
+    }
+  ],
+  "tier": "Tier 2",
+  "cost": "Free ($0)",
+  "stage": "Lightning Season 1",
+  "timeCommitment": "3 mins / day",
+  "snapshot": "Q1 2027",
+  "estDate": "Q1 2027",
+  "socials": {
+    "twitter": "https://x.com/TonFlashApp",
+    "telegram": "https://t.me/TonFlash_bot",
+    "website": "https://tonflash.app"
+  }
 }
 ];
