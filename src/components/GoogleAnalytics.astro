@@ -6,12 +6,27 @@ interface Props {
 const { measurementId = 'G-WHG0TVMEDM' } = Astro.props;
 ---
 
-<!-- Google tag (gtag.js) -->
-<script is:inline async src={`https://www.googletagmanager.com/gtag/js?id=${measurementId}`}></script>
+<!-- Deferred Google tag (gtag.js) for zero main-thread blocking on initial paint -->
 <script is:inline define:vars={{ measurementId }}>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
+  window.gtag = gtag;
   gtag('js', new Date());
-
   gtag('config', measurementId);
+
+  (function() {
+    let loaded = false;
+    function loadGA() {
+      if (loaded) return;
+      loaded = true;
+      const s = document.createElement('script');
+      s.async = true;
+      s.src = 'https://www.googletagmanager.com/gtag/js?id=' + measurementId;
+      document.head.appendChild(s);
+    }
+    ['pointerdown', 'keydown', 'scroll', 'touchstart'].forEach(function(evt) {
+      window.addEventListener(evt, loadGA, { once: true, passive: true });
+    });
+    setTimeout(loadGA, 2500);
+  })();
 </script>

@@ -184,10 +184,10 @@ const endedAirdrops = airdrops.filter(a => a.status === 'ended');
         </button>
       </div>
 
-      <!-- Main Filterable Cards Grid (Two columns) -->
+      <!-- Main Filterable Cards Grid (Two columns) - Initial 24 SSR for instant LCP & minimal DOM -->
       <div class="grid grid-cols-1 md:grid-cols-2 gap-6" id="home-airdrop-grid">
-        {latestAirdrops.map((airdrop, index) => (
-          <div class={`grid-item-wrapper ${index >= 24 ? 'hidden' : ''}`} data-index={index}>
+        {latestAirdrops.slice(0, 24).map((airdrop, index) => (
+          <div class="grid-item-wrapper" data-index={index}>
             <AirdropCard airdrop={airdrop} />
           </div>
         ))}
@@ -337,7 +337,7 @@ const endedAirdrops = airdrops.filter(a => a.status === 'ended');
         {newsArticles.slice(0, 3).map(news => (
           <a href={`/news/${news.slug}`} class="bg-white dark:bg-slate-800 rounded-2xl border border-slate-200 dark:border-slate-700 overflow-hidden hover:shadow-xl transition-all group flex flex-col">
             <div class="aspect-video w-full overflow-hidden bg-slate-100 relative">
-              <img src={news.image} alt={news.title} class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" loading="lazy" />
+              <img src={news.image} alt={news.title} width="400" height="225" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" loading="lazy" decoding="async" />
               <span class="absolute top-3 left-3 text-[10px] font-black uppercase px-2.5 py-0.5 rounded-full shadow-md bg-rose-600 text-white">
                 {news.category}
               </span>
@@ -382,7 +382,7 @@ const endedAirdrops = airdrops.filter(a => a.status === 'ended');
         {academyArticles.slice(0, 3).map(article => (
           <a href={`/academy/${article.slug}`} class="bg-white dark:bg-slate-800 rounded-2xl border border-slate-200 dark:border-slate-700 overflow-hidden hover:shadow-lg transition-all group flex flex-col">
             <div class="aspect-video w-full overflow-hidden bg-slate-100">
-              <img src={article.image} alt={article.title} class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" />
+              <img src={article.image} alt={article.title} width="400" height="225" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" loading="lazy" decoding="async" />
             </div>
             <div class="p-5 flex-1 flex flex-col justify-between">
               <div>
@@ -404,10 +404,10 @@ const endedAirdrops = airdrops.filter(a => a.status === 'ended');
 </Layout>
 
 <script is:inline>
-  // Instant Home Filter, Live Search & Progressive Loading Script
+  // Instant Home Filter, Live Search & On-Demand Progressive Loading (Zero Initial DOM Bloat)
   const filterPills = document.querySelectorAll('.home-filter-pill');
   const searchInput = document.getElementById('home-airdrop-search');
-  const wrappers = document.querySelectorAll('.grid-item-wrapper');
+  const gridContainer = document.getElementById('home-airdrop-grid');
   const loadMoreBtn = document.getElementById('btn-load-more');
   const loadMoreContainer = document.getElementById('load-more-container');
   const counterText = document.getElementById('load-more-counter');
@@ -415,21 +415,98 @@ const endedAirdrops = airdrops.filter(a => a.status === 'ended');
   let activeFilter = 'all';
   let activeSearch = '';
   let visibleLimit = 24;
+  let allAirdropsData = null;
+  let fetchPromise = null;
 
-  function filterAirdrop(card) {
-    const name = card.dataset.airdropName || '';
-    const cat = card.dataset.airdropCategory || '';
-    const desc = card.dataset.airdropDesc || '';
-    const isFeatured = card.dataset.airdropFeatured === 'true';
+  function ensureDataLoaded() {
+    if (allAirdropsData) return Promise.resolve(allAirdropsData);
+    if (!fetchPromise) {
+      fetchPromise = fetch('/api/airdrops-index.json')
+        .then(res => res.json())
+        .then(data => {
+          allAirdropsData = data;
+          return data;
+        })
+        .catch(() => []);
+    }
+    return fetchPromise;
+  }
 
-    // 1. Check Search Query
+  function escapeHtml(str) {
+    return String(str || '')
+      .replace(/&/g, '&amp;')
+      .replace(/</g, '&lt;')
+      .replace(/>/g, '&gt;')
+      .replace(/"/g, '&quot;');
+  }
+
+  function renderCardHtml(a) {
+    const statusBadgeColor = a.status === 'active'
+      ? 'bg-emerald-50 dark:bg-emerald-950/40 text-emerald-600 dark:text-emerald-400 border-emerald-200 dark:border-emerald-800'
+      : a.status === 'upcoming'
+      ? 'bg-amber-50 dark:bg-amber-950/40 text-amber-600 dark:text-amber-400 border-amber-200 dark:border-amber-800'
+      : 'bg-slate-50 dark:bg-slate-800 text-slate-500 dark:text-slate-400 border-slate-200 dark:border-slate-700';
+
+    const hotBadge = a.featured ? `
+      <div class="absolute -top-3 -right-3 inline-flex items-center gap-1.5 bg-gradient-to-r from-orange-400 to-red-500 rounded-full px-3 py-1 text-[11px] font-bold text-white shadow-lg shadow-orange-500/30 z-10">
+        <svg xmlns="http://www.w3.org/2000/svg" class="w-3 h-3" viewBox="0 0 24 24" fill="currentColor" stroke="none"><path d="M17.5 11.2c-.3-.3-.8-.3-1.1 0-1.8 1.8-3.4 3.7-3.4 6.3 0 1.9 1.6 3.5 3.5 3.5s3.5-1.6 3.5-3.5c0-2.6-1.6-4.5-3.4-6.3zm-10-2.4c-1.8 1.8-3.4 3.7-3.4 6.3 0 1.9 1.6 3.5 3.5 3.5s3.5-1.6 3.5-3.5c0-2.6-1.6-4.5-3.4-6.3-.3-.3-.8-.3-1.1 0zM12 2C7.6 2 4 5.6 4 10s3.6 8 8 8 8-3.6 8-8-3.6-8-8-8zm0 14c-3.3 0-6-2.7-6-6s2.7-6 6-6 6 2.7 6 6-2.7 6-6 6z"/></svg>
+        <span>HOT</span>
+      </div>` : '';
+
+    const releaseBadge = a.publishDate && a.publishDate > '2026-09-13'
+      ? `<span class="flex items-center gap-1 text-[11px] font-bold text-indigo-600 bg-indigo-50 px-3 py-1 rounded-full border border-indigo-200">📅 Releases ${new Date(a.publishDate).toLocaleDateString('en-US', { month: 'short', day: 'numeric' })}</span>`
+      : a.status === 'active'
+      ? `<span class="flex items-center gap-1.5 text-[11px] font-bold text-red-500 bg-red-50 px-3 py-1 rounded-full border border-red-100 animate-pulse"><svg class="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>Active Drop</span>`
+      : '';
+
+    return `
+      <div class="grid-item-wrapper">
+        <div class="airdrop-card-item bg-white dark:bg-slate-800 rounded-2xl p-5 border border-slate-200 dark:border-slate-700 shadow-sm hover:shadow-xl hover:-translate-y-1 transition-all duration-300 group relative mb-5" data-airdrop-id="${escapeHtml(a.id)}">
+          ${hotBadge}
+          <div class="flex items-start gap-4">
+            <div class="w-[72px] h-[72px] rounded-xl bg-slate-50 dark:bg-slate-700/60 border border-slate-100 dark:border-slate-700 flex items-center justify-center shrink-0 p-1.5 shadow-inner overflow-hidden">
+              <img src="${escapeHtml(a.logo)}" alt="${escapeHtml(a.name)}" width="60" height="60" class="w-full h-full object-cover rounded-lg drop-shadow-sm group-hover:scale-110 transition-transform duration-300" loading="lazy" decoding="async" />
+            </div>
+            <div class="flex-1 min-w-0">
+              <h3 class="text-[18px] font-bold text-slate-900 dark:text-white mb-1 truncate group-hover:text-blue-600 dark:group-hover:text-blue-400 transition-colors">
+                <a href="/airdrop/${escapeHtml(a.id)}/" class="before:absolute before:inset-0">${escapeHtml(a.name)}</a>
+              </h3>
+              <div class="inline-flex items-center gap-1.5 text-[13px] font-medium text-slate-600 dark:text-slate-300 bg-slate-100 dark:bg-slate-700/60 px-2.5 py-1 rounded-md mb-3">
+                <svg class="w-4 h-4 text-slate-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+                <span>${escapeHtml(a.reward)}</span>
+              </div>
+              <p class="text-[14px] text-slate-500 dark:text-slate-400 line-clamp-2 leading-relaxed">${escapeHtml(a.desc)}</p>
+            </div>
+          </div>
+          <div class="mt-4 pt-4 border-t border-slate-100 dark:border-slate-700 flex flex-wrap items-center justify-between gap-3 relative z-20">
+            <div class="flex items-center gap-2">
+              <span class="text-[11px] font-extrabold uppercase px-3 py-1 rounded-full border tracking-wide ${statusBadgeColor}">${escapeHtml(a.status)}</span>
+              <span class="text-[11px] font-bold uppercase px-3 py-1 rounded-full border bg-slate-50 dark:bg-slate-800 border-slate-200 dark:border-slate-700 text-slate-600 dark:text-slate-300 tracking-wide hidden sm:inline-block">${escapeHtml(a.category)}</span>
+              ${releaseBadge}
+            </div>
+            <div class="flex items-center gap-2 relative z-30">
+              <a href="/airdrop/${escapeHtml(a.id)}/" class="text-sm font-bold text-blue-600 hover:text-blue-700 flex items-center gap-1 group/btn">
+                Guide
+                <svg class="w-4 h-4 group-hover/btn:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path></svg>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>`;
+  }
+
+  function matchesFilter(a) {
+    const name = (a.name || '').toLowerCase();
+    const cat = (a.category || '').toLowerCase();
+    const desc = (a.desc || '').toLowerCase();
+    const isFeatured = Boolean(a.featured);
+
     if (activeSearch) {
       if (!name.includes(activeSearch) && !cat.includes(activeSearch) && !desc.includes(activeSearch)) {
         return false;
       }
     }
 
-    // 2. Check Pill Filter
     if (activeFilter === 'all') return true;
     if (activeFilter === 'featured') return isFeatured;
     if (activeFilter === 'solana') return cat.includes('solana') || desc.includes('solana');
@@ -445,34 +522,21 @@ const endedAirdrops = airdrops.filter(a => a.status === 'ended');
     return true;
   }
 
-  function updateDisplay() {
-    let matchedCount = 0;
-    let currentlyVisible = 0;
+  async function updateDisplay() {
+    const data = await ensureDataLoaded();
+    const matched = data.filter(matchesFilter);
+    const slice = matched.slice(0, visibleLimit);
 
-    wrappers.forEach(wrapper => {
-      const card = wrapper.querySelector('.airdrop-card-item');
-      if (!card) return;
-
-      const isMatch = filterAirdrop(card);
-      if (isMatch) {
-        matchedCount++;
-        if (matchedCount <= visibleLimit) {
-          wrapper.classList.remove('hidden');
-          currentlyVisible++;
-        } else {
-          wrapper.classList.add('hidden');
-        }
-      } else {
-        wrapper.classList.add('hidden');
-      }
-    });
+    if (gridContainer) {
+      gridContainer.innerHTML = slice.map(renderCardHtml).join('');
+    }
 
     if (counterText) {
-      counterText.textContent = `Showing ${currentlyVisible} of ${matchedCount} verified airdrops`;
+      counterText.textContent = `Showing ${slice.length} of ${matched.length} verified airdrops`;
     }
 
     if (loadMoreContainer) {
-      if (currentlyVisible >= matchedCount) {
+      if (slice.length >= matched.length) {
         loadMoreContainer.classList.add('hidden');
       } else {
         loadMoreContainer.classList.remove('hidden');
@@ -480,7 +544,6 @@ const endedAirdrops = airdrops.filter(a => a.status === 'ended');
     }
   }
 
-  // Filter Pill Click Handlers
   filterPills.forEach(pill => {
     pill.addEventListener('click', () => {
       filterPills.forEach(p => {
@@ -491,12 +554,11 @@ const endedAirdrops = airdrops.filter(a => a.status === 'ended');
       pill.classList.add('bg-blue-600', 'text-white', 'active');
 
       activeFilter = pill.dataset.filter;
-      visibleLimit = 24; // Reset to 24 on new filter
+      visibleLimit = 24;
       updateDisplay();
     });
   });
 
-  // Search Input Handler
   if (searchInput) {
     searchInput.addEventListener('input', (e) => {
       activeSearch = e.target.value.toLowerCase().trim();
@@ -505,14 +567,10 @@ const endedAirdrops = airdrops.filter(a => a.status === 'ended');
     });
   }
 
-  // Load More Button Handler
   if (loadMoreBtn) {
     loadMoreBtn.addEventListener('click', () => {
       visibleLimit += 24;
       updateDisplay();
     });
   }
-
-  // Initial Run
-  updateDisplay();
 </script>

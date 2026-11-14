@@ -62,12 +62,44 @@ const canonicalURL = new URL(normalizedPath, Astro.site || "https://airdroplyx.c
 		<!-- Google Analytics (GA4) -->
 		<GoogleAnalytics />
 
-		<!-- Google AdSense -->
-		<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2409736261623563" crossorigin="anonymous"></script>
+		<!-- Google AdSense & OneSignal (Deferred for Core Web Vitals) -->
+		<script is:inline>
+			(function() {
+				let thirdPartyLoaded = false;
+				function loadThirdParty() {
+					if (thirdPartyLoaded) return;
+					thirdPartyLoaded = true;
+
+					// Google AdSense
+					const ads = document.createElement('script');
+					ads.async = true;
+					ads.crossOrigin = 'anonymous';
+					ads.src = 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2409736261623563';
+					document.head.appendChild(ads);
+
+					// OneSignal Web Push
+					window.OneSignalDeferred = window.OneSignalDeferred || [];
+					window.OneSignalDeferred.push(async function(OneSignal) {
+						await OneSignal.init({
+							appId: "fe3434ff-e2df-4d5f-9faa-6859e830cb97",
+						});
+					});
+					const os = document.createElement('script');
+					os.defer = true;
+					os.src = 'https://cdn.onesignal.com/sdks/web/v16/OneSignalSDK.page.js';
+					document.head.appendChild(os);
+				}
+				['pointerdown', 'keydown', 'scroll', 'touchstart'].forEach(function(evt) {
+					window.addEventListener(evt, loadThirdParty, { once: true, passive: true });
+				});
+				setTimeout(loadThirdParty, 3500);
+			})();
+		</script>
 		
 		<link rel="preconnect" href="https://fonts.googleapis.com">
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-		<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
+		<noscript><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet"></noscript>
 		
 		<!-- JSON-LD WebSite Structured Data -->
 		<script type="application/ld+json" set:html={JSON.stringify({
@@ -82,17 +114,6 @@ const canonicalURL = new URL(normalizedPath, Astro.site || "https://airdroplyx.c
 				"query-input": "required name=search_term_string"
 			}
 		})} />
-
-		<!-- OneSignal Web Push -->
-		<script src="https://cdn.onesignal.com/sdks/web/v16/OneSignalSDK.page.js" defer></script>
-		<script>
-			window.OneSignalDeferred = window.OneSignalDeferred || [];
-			OneSignalDeferred.push(async function(OneSignal) {
-				await OneSignal.init({
-					appId: "fe3434ff-e2df-4d5f-9faa-6859e830cb97",
-				});
-			});
-		</script>
 
 		<!-- Multi-Language Engine Styles -->
 		<style is:global>
@@ -203,13 +224,18 @@ const canonicalURL = new URL(normalizedPath, Astro.site || "https://airdroplyx.c
 				}
 			};
 
-			// Sync html lang attribute early
+			// Sync html lang attribute early & load Google Translate ONLY when needed
 			const savedLang = localStorage.getItem('airdroplyx_lang');
 			if (savedLang) {
 				document.documentElement.lang = savedLang;
+				if (savedLang !== 'en') {
+					const gt = document.createElement('script');
+					gt.async = true;
+					gt.src = 'https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit';
+					document.head.appendChild(gt);
+				}
 			}
 		</script>
-		<script is:inline src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit" async defer></script>
 
 		<script is:inline>
 			if (localStorage.getItem('theme') === 'dark' || (!('theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
