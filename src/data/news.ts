@@ -7491,5 +7491,119 @@ export const newsArticles: NewsArticle[] = [
   ],
   "relatedAirdropId": "ton-flash",
   "content": "TON Flash replaces passive clicking with 60-second reaction mini-games and TON ecosystem discovery quests. Players earn Flash Bolts from daily arcade rounds and verify Tonkeeper wallets to qualify for seasonal $FLASH leaderboard distributions."
+},
+{
+  "slug": "wonton-ton-mantle-culinary-cards-telegram-airdrop",
+  "title": "WONTON Combines TON and Mantle Ecosystems in Culinary Card Telegram Mini-App for $WTON",
+  "excerpt": "Open daily Wonton packs, upgrade rare chef cards for passive hourly yield, and link Tonkeeper or Rabby for $WTON airdrop eligibility.",
+  "author": "Antigravity Research",
+  "date": "November 15, 2026",
+  "readTime": "4 min read",
+  "category": "Telegram Mini-Apps",
+  "image": "/images/airdrops/wonton-ton.svg",
+  "tags": [
+    "WONTON",
+    "TON",
+    "Mantle",
+    "Telegram Mini-Apps",
+    "Airdrop"
+  ],
+  "relatedAirdropId": "wonton-ton",
+  "content": "WONTON brings gacha-style culinary card collecting to Telegram with backing from both the TON and Mantle ecosystems. By opening free daily dish packs and equipping high-rarity cards, players build steady passive yield toward the upcoming $WTON token distribution."
+},
+{
+  "slug": "snapster-telegram-meme-discovery-snaps-airdrop-guide",
+  "title": "Snapster Turns Telegram Into a Zero-Risk Meme Discovery League for $SNAPS Airdrop",
+  "excerpt": "Farm hourly $SNAPS pools and join free prediction leagues inside Telegram without risking capital on volatile tokens.",
+  "author": "Antigravity Research",
+  "date": "November 15, 2026",
+  "readTime": "3 min read",
+  "category": "Telegram Mini-Apps",
+  "image": "/images/airdrops/snapster-ton.svg",
+  "tags": [
+    "Snapster",
+    "TON",
+    "SocialFi",
+    "Telegram",
+    "Airdrop"
+  ],
+  "relatedAirdropId": "snapster-ton",
+  "content": "Snapster allocates 50% of its $SNAPS token supply to early Telegram testers and prediction league participants. Users collect hourly mining pools and test meme-token watchlists risk-free before linking Tonkeeper for verification."
+},
+{
+  "slug": "shuttle-ton-orbital-space-mining-telegram-airdrop",
+  "title": "Shuttle Launches Orbital Spacecraft Mining on TON with 65% $SHUTTLE Community Allocation",
+  "excerpt": "Upgrade thrusters and fuel cargo in the Shuttle Telegram Mini-App to mine $SHUTTLE passively during offline orbital runs.",
+  "author": "Antigravity Research",
+  "date": "November 15, 2026",
+  "readTime": "3 min read",
+  "category": "Telegram Mini-Apps",
+  "image": "/images/airdrops/shuttle-ton.svg",
+  "tags": [
+    "Shuttle",
+    "TON",
+    "GameFi",
+    "Telegram",
+    "Airdrop"
+  ],
+  "relatedAirdropId": "shuttle-ton",
+  "content": "Shuttle replaces repetitive screen-tapping with timed orbital mining missions on TON. Commanders reinvest fuel into reactor efficiency and cargo capacity while qualifying for 65% of the $SHUTTLE community token supply."
+},
+{
+  "slug": "timeton-8-hour-capsule-mining-telegram-airdrop-guide",
+  "title": "TimeTON Rewards Consistent 8-Hour Capsule Claims and Daily Clock Combos with $TIMETON",
+  "excerpt": "A quick-start guide to TimeTON's passive 8-hour mining cycles, capsule upgrades, and Tonkeeper verification.",
+  "author": "Antigravity Research",
+  "date": "November 15, 2026",
+  "readTime": "3 min read",
+  "category": "Telegram Mini-Apps",
+  "image": "/images/airdrops/timeton.svg",
+  "tags": [
+    "TimeTON",
+    "TON",
+    "Passive Mining",
+    "Telegram",
+    "Airdrop"
+  ],
+  "relatedAirdropId": "timeton",
+  "content": "TimeTON is designed for low-effort daily consistency rather than constant tapping. Players claim 8-hour time capsules, solve daily clock-combo puzzles, and reserve their share of the 60% $TIMETON community pool."
+},
+{
+  "slug": "hot-wallet-near-multi-chain-telegram-hot-mining-guide",
+  "title": "HOT Wallet Guide: How to Mine $HOT and Join Launchpad Airdrops Inside Telegram",
+  "excerpt": "Set up the self-custody NEAR and multi-chain HOT Wallet on Telegram, upgrade Fireplace multipliers, and unlock ecosystem drops.",
+  "author": "Antigravity Research",
+  "date": "November 15, 2026",
+  "readTime": "4 min read",
+  "category": "Telegram Mini-Apps",
+  "image": "/images/airdrops/hot-wallet.svg",
+  "tags": [
+    "HOT Wallet",
+    "NEAR",
+    "Self-Custody",
+    "Telegram",
+    "Airdrop"
+  ],
+  "relatedAirdropId": "hot-wallet",
+  "content": "Developed by the HERE Wallet team on NEAR Protocol, HOT Wallet combines a full non-custodial multi-chain wallet with ongoing $HOT mining and HOT Pad token launches directly inside Telegram."
+},
+{
+  "slug": "rocky-rabbit-enigma-superset-telegram-rbtc-airdrop",
+  "title": "Rocky Rabbit Season 2 Guide: Maximizing PPH, Daily Enigma & $RBTC Rewards on TON",
+  "excerpt": "Boost passive Profit Per Hour in Rocky Rabbit with Fighter/Coach cards and daily SuperSet and Easter Egg bonuses.",
+  "author": "Antigravity Research",
+  "date": "November 15, 2026",
+  "readTime": "3 min read",
+  "category": "Telegram Mini-Apps",
+  "image": "/images/airdrops/rocky-rabbit.svg",
+  "tags": [
+    "Rocky Rabbit",
+    "TON",
+    "GameFi",
+    "Telegram",
+    "Airdrop"
+  ],
+  "relatedAirdropId": "rocky-rabbit",
+  "content": "Rocky Rabbit keeps players engaged with daily Enigma word puzzles, hidden Easter Eggs, and fighter-gym upgrades on TON. Focusing on passive hourly income and Tonkeeper binding maximizes seasonal $RBTC allocations."
 }
 ];

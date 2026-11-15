@@ -43428,5 +43428,323 @@ export const airdrops: Airdrop[] = [
     "telegram": "https://t.me/TonFlash_bot",
     "website": "https://tonflash.app"
   }
+},
+{
+  "id": "wonton-ton",
+  "name": "WONTON",
+  "logo": "/images/airdrops/wonton-ton.svg",
+  "description": "WONTON is a TON and Mantle-backed Telegram Mini-App blending culinary card collecting, chef upgrades, and $WTON airdrop farming.",
+  "reward": "$WTON Token Distribution & Chef Card Rewards",
+  "category": "Telegram",
+  "featured": true,
+  "isHot": true,
+  "isFeatured": true,
+  "status": "active",
+  "publishDate": "2026-11-15",
+  "endTime": "Q1 2027",
+  "funding": "$2.5M TON & Mantle Ecosystem Grants",
+  "investors": "TON Builders Fund & Mantle EcoFund",
+  "refLink": "https://t.me/WontonOrgBot",
+  "overview": "WONTON combines gacha-style culinary card collecting with passive yield farming directly inside Telegram. Backed by both the TON and Mantle ecosystems, players open daily Wonton packs, upgrade rare dish cards to boost hourly yield, and complete cross-chain social quests to earn $WTON token allocations.",
+  "strategy": "Open free daily Wonton card packs, equip your highest-tier cards for passive hourly yield, and link both your Tonkeeper and Rabby wallets for cross-chain bonus multipliers.",
+  "tokenomics": "The $WTON token powers card marketplace fees, chef tournament staking, and community governance across TON and Mantle.",
+  "sybilSafety": "Multi-day card progression, TON Connect verification, and randomized pack drop rates prevent scripted bot farming.",
+  "steps": [
+    "Open the WONTON Telegram Mini-App (@WontonOrgBot).",
+    "Claim your starter kitchen and open your first free Wonton card pack.",
+    "Equip rare culinary cards to increase your passive farming rate.",
+    "Complete daily check-ins and ecosystem partner tasks.",
+    "Connect your Tonkeeper or Rabby wallet in the Profile section."
+  ],
+  "faqs": [
+    {
+      "question": "Which blockchains back WONTON?",
+      "answer": "WONTON integrates both The Open Network (TON) and Mantle Network ecosystems."
+    },
+    {
+      "question": "Is WONTON free to play?",
+      "answer": "Yes, daily card packs, kitchen farming, and quests are free."
+    },
+    {
+      "question": "How do I maximize $WTON rewards?",
+      "answer": "Upgrade high-rarity culinary cards early and maintain unbroken daily check-in streaks."
+    }
+  ],
+  "tier": "Tier 1",
+  "cost": "Free ($0)",
+  "stage": "Kitchen Season 2",
+  "timeCommitment": "3 mins / day",
+  "snapshot": "Q1 2027",
+  "estDate": "Q1 2027",
+  "socials": {
+    "twitter": "https://x.com/WontonOrg",
+    "telegram": "https://t.me/WontonOrgBot",
+    "website": "https://wonton.org"
+  }
+},
+{
+  "id": "snapster-ton",
+  "name": "Snapster",
+  "logo": "/images/airdrops/snapster-ton.svg",
+  "description": "Snapster is a Telegram Mini-App for meme token discovery and social trading leagues rewarding active testers with $SNAPS points.",
+  "reward": "$SNAPS Token Airdrop & Discovery League Prizes",
+  "category": "Telegram",
+  "featured": true,
+  "isHot": false,
+  "isFeatured": true,
+  "status": "active",
+  "publishDate": "2026-11-15",
+  "endTime": "Q1 2027",
+  "funding": "$1.8M Seed & TON Trading Grants",
+  "investors": "TON SocialFi Collective & Angel Traders",
+  "refLink": "https://t.me/snapster_bot",
+  "overview": "Snapster turns Telegram into a lightweight meme-token discovery and paper-trading arena. Users earn $SNAPS points every hour by claiming mining pools, testing token watchlists, and joining zero-risk prediction leagues—without needing to risk real capital on volatile memecoins.",
+  "strategy": "Claim hourly $SNAPS pools consistently, participate in free paper-trading prediction rounds, and link your Tonkeeper wallet for final verification.",
+  "tokenomics": "50% of $SNAPS supply is allocated to early Telegram testers, leaderboard winners, and community liquidity incentives.",
+  "sybilSafety": "Prediction league participation and Tonkeeper signature checks separate genuine traders from automated clickers.",
+  "steps": [
+    "Launch Snapster on Telegram (@snapster_bot).",
+    "Claim your onboarding $SNAPS bonus and activate the passive points timer.",
+    "Join free daily meme discovery and prediction challenges.",
+    "Complete social tasks in the Quests tab.",
+    "Bind your Tonkeeper or Telegram Wallet ahead of the snapshot."
+  ],
+  "faqs": [
+    {
+      "question": "Do I need real money to earn $SNAPS in Snapster?",
+      "answer": "No, passive hourly mining and social discovery leagues are completely free."
+    },
+    {
+      "question": "What wallet is supported by Snapster?",
+      "answer": "Tonkeeper and Telegram Wallet via TON Connect."
+    },
+    {
+      "question": "When will $SNAPS launch?",
+      "answer": "The $SNAPS token distribution is planned for Q1 2027."
+    }
+  ],
+  "tier": "Tier 2",
+  "cost": "Free ($0)",
+  "stage": "Discovery League Season 1",
+  "timeCommitment": "3 mins / day",
+  "snapshot": "Q1 2027",
+  "estDate": "Q1 2027",
+  "socials": {
+    "twitter": "https://x.com/snapster_app",
+    "telegram": "https://t.me/snapster_bot",
+    "website": "https://snapster.bot"
+  }
+},
+{
+  "id": "shuttle-ton",
+  "name": "Shuttle",
+  "logo": "/images/airdrops/shuttle-ton.svg",
+  "description": "Shuttle is a space-exploration Telegram Mini-App on TON where players upgrade orbital thrusters, mine asteroid fuel, and farm $SHUTTLE tokens.",
+  "reward": "$SHUTTLE Token Allocation & Astronaut NFT Tiers",
+  "category": "Telegram",
+  "featured": true,
+  "isHot": true,
+  "isFeatured": true,
+  "status": "active",
+  "publishDate": "2026-11-15",
+  "endTime": "Q1 2027",
+  "funding": "$1.6M TON GameFi Seed",
+  "investors": "TON Space Guild & Casual Gaming Angels",
+  "refLink": "https://t.me/ShuttleTON_bot",
+  "overview": "Shuttle puts players in command of a customizable orbital spacecraft inside Telegram. Instead of endless tapping, commanders allocate fuel to deep-space mining missions, upgrade reactor efficiency, and unlock planetary checkpoints that multiply $SHUTTLE airdrop allocations.",
+  "strategy": "Prioritize fuel tank and thruster upgrades so your spacecraft mines longer while offline, complete planetary checkpoint missions, and connect Tonkeeper.",
+  "tokenomics": "65% of $SHUTTLE supply is dedicated to spacecraft commanders based on total light-years traveled and mission completions.",
+  "sybilSafety": "Fuel-burn timers and TON wallet binding prevent instant multi-account farming.",
+  "steps": [
+    "Open the Shuttle Mini-App on Telegram (@ShuttleTON_bot).",
+    "Launch your starter spacecraft on its first orbital mining run.",
+    "Reinvest initial fuel coins into reactor speed and cargo capacity.",
+    "Complete daily space station quests for bonus warp boosts.",
+    "Connect your Tonkeeper or Telegram Wallet to secure your $SHUTTLE drop."
+  ],
+  "faqs": [
+    {
+      "question": "How does Shuttle differ from tap-to-earn bots?",
+      "answer": "Shuttle uses timed orbital mining runs and ship upgrades rather than continuous screen tapping."
+    },
+    {
+      "question": "Is Shuttle free to play?",
+      "answer": "Yes, all core orbital missions and ship upgrades are 100% free."
+    },
+    {
+      "question": "Which wallet should I connect?",
+      "answer": "Use Tonkeeper or Telegram Wallet via TON Connect."
+    }
+  ],
+  "tier": "Tier 2",
+  "cost": "Free ($0)",
+  "stage": "Orbital Season 1",
+  "timeCommitment": "3 mins / day",
+  "snapshot": "Q1 2027",
+  "estDate": "Q1 2027",
+  "socials": {
+    "twitter": "https://x.com/ShuttleTON",
+    "telegram": "https://t.me/ShuttleTON_bot",
+    "website": "https://shuttleton.space"
+  }
+},
+{
+  "id": "timeton",
+  "name": "TimeTON",
+  "logo": "/images/airdrops/timeton.svg",
+  "description": "TimeTON is a Telegram Mini-App featuring 8-hour passive time-capsule mining, daily combo clocks, and $TIMETON rewards.",
+  "reward": "$TIMETON Token Airdrop & Early Timekeeper Bonus",
+  "category": "Telegram",
+  "featured": true,
+  "isHot": false,
+  "isFeatured": true,
+  "status": "active",
+  "publishDate": "2026-11-15",
+  "endTime": "Q1 2027",
+  "funding": "$1.3M Community Ecosystem Pool",
+  "investors": "TON Builders Collective",
+  "refLink": "https://t.me/TimeTON_bot",
+  "overview": "TimeTON rewards consistency over screen-tapping speed. Players activate 8-hour time capsules inside Telegram, solve daily clock-combo puzzles, and upgrade capsule duration so passive $TIMETON mining runs smoothly around the clock.",
+  "strategy": "Upgrade capsule duration early, solve the daily clock combo for instant bonus multipliers, and bind your Tonkeeper wallet before TGE.",
+  "tokenomics": "60% of $TIMETON supply is reserved for active timekeepers and verified TON wallet holders.",
+  "sybilSafety": "Strict 8-hour claim windows and daily puzzle verification filter out automated farm scripts.",
+  "steps": [
+    "Start the TimeTON Mini-App in Telegram (@TimeTON_bot).",
+    "Activate your first 8-hour time capsule mining cycle.",
+    "Check in every 8 hours to claim $TIMETON and restart the clock.",
+    "Complete daily social and combo-clock challenges.",
+    "Link your Tonkeeper or Telegram Wallet in the Wallet tab."
+  ],
+  "faqs": [
+    {
+      "question": "How often do I need to open TimeTON?",
+      "answer": "Only once every 8 hours (or longer after upgrading capsule duration) to claim your mined balance."
+    },
+    {
+      "question": "Is TimeTON free?",
+      "answer": "Yes, mining and daily combo puzzles are completely free."
+    },
+    {
+      "question": "When is the $TIMETON TGE?",
+      "answer": "Token generation and wallet claims are targeted for Q1 2027."
+    }
+  ],
+  "tier": "Tier 2",
+  "cost": "Free ($0)",
+  "stage": "Chronos Season 2",
+  "timeCommitment": "2 mins / day",
+  "snapshot": "Q1 2027",
+  "estDate": "Q1 2027",
+  "socials": {
+    "twitter": "https://x.com/TimeTON_App",
+    "telegram": "https://t.me/TimeTON_bot",
+    "website": "https://timeton.app"
+  }
+},
+{
+  "id": "hot-wallet",
+  "name": "HOT Wallet",
+  "logo": "/images/airdrops/hot-wallet.svg",
+  "description": "HOT Wallet is the flagship self-custody NEAR and multi-chain Telegram Mini-App wallet featuring built-in $HOT mining and launchpad drops.",
+  "reward": "$HOT Token Mining & Ecosystem Launchpad Airdrops",
+  "category": "Telegram",
+  "featured": true,
+  "isHot": true,
+  "isFeatured": true,
+  "status": "active",
+  "publishDate": "2026-11-15",
+  "endTime": "Q1 2027",
+  "funding": "NEAR Foundation & Ecosystem Grants",
+  "investors": "NEAR Protocol & Multi-Chain Wallet Collective",
+  "refLink": "https://t.me/herewalletbot",
+  "overview": "Built by the team behind HERE Wallet on NEAR Protocol, HOT Wallet is one of the highest-utility Telegram Mini-Apps in Web3. It provides a full non-custodial multi-chain wallet (NEAR, TON, EVM, Solana) inside Telegram while letting users mine $HOT tokens, join Villages, and participate in exclusive ecosystem launchpad airdrops.",
+  "strategy": "Back up your seed phrase safely, upgrade your Fireplace and Storage early using mined $HOT, join an active Village for 5% bonus yield, and hold a tiny NEAR balance for on-chain claim missions.",
+  "tokenomics": "$HOT powers gasless cross-chain transactions, launchpad allocations, and multi-chain swap discounts inside HOT Wallet.",
+  "sybilSafety": "On-chain NEAR account creation and gas-backed claim transactions naturally filter out zero-balance sybil bots.",
+  "steps": [
+    "Open HOT Wallet (@herewalletbot) in Telegram and create your non-custodial wallet.",
+    "Save your recovery phrase securely offline.",
+    "Claim your initial $HOT from the mining dashboard every few hours.",
+    "Upgrade Fireplace and Wood storage multipliers using mined $HOT.",
+    "Join a Village and complete Missions to boost mining speed and launchpad eligibility."
+  ],
+  "faqs": [
+    {
+      "question": "Is HOT Wallet safe and non-custodial?",
+      "answer": "Yes, HOT Wallet is developed by the official HERE Wallet team on NEAR and gives you full ownership of your private keys."
+    },
+    {
+      "question": "Do I need NEAR tokens to claim $HOT?",
+      "answer": "You get free initial gasless claims, and holding a tiny amount of NEAR (~$0.50) unlocks unlimited low-fee on-chain claims."
+    },
+    {
+      "question": "What else can $HOT be used for?",
+      "answer": "$HOT grants access to HOT Pad ecosystem token launches and multi-chain fee abstraction."
+    }
+  ],
+  "tier": "Tier 1",
+  "cost": "Free ($0) / Tiny NEAR Gas",
+  "stage": "Multi-Chain Mining",
+  "timeCommitment": "3 mins / day",
+  "snapshot": "Ongoing Multi-Phase",
+  "estDate": "Q1 2027",
+  "socials": {
+    "twitter": "https://x.com/hotdao_",
+    "telegram": "https://t.me/herewalletbot",
+    "website": "https://hot-labs.org"
+  }
+},
+{
+  "id": "rocky-rabbit",
+  "name": "Rocky Rabbit",
+  "logo": "/images/airdrops/rocky-rabbit.svg",
+  "description": "Rocky Rabbit is a fighter-training Telegram Mini-App on TON featuring daily Enigma passphrases, Easter Eggs, and $RBTC seasonal rewards.",
+  "reward": "$RBTC Token Rewards & Fighter League Drops",
+  "category": "Telegram",
+  "featured": true,
+  "isHot": false,
+  "isFeatured": true,
+  "status": "active",
+  "publishDate": "2026-11-15",
+  "endTime": "Q1 2027",
+  "funding": "$2.0M TON GameFi Ecosystem",
+  "investors": "TON Gaming Guilds & Angel Syndicate",
+  "refLink": "https://t.me/rocky_rabbit_bot",
+  "overview": "Rocky Rabbit blends idle fighter-gym management with daily puzzle hunting on Telegram. Players train their virtual rabbit champion, upgrade nutrition and coach cards for passive hourly profit, and hunt daily Enigma word orders and Easter Eggs to multiply their $RBTC airdrop allocation.",
+  "strategy": "Focus on upgrading Fighter, Coach, and Tournament passive income cards, solve the daily SuperSet and Enigma challenges, and connect Tonkeeper.",
+  "tokenomics": "$RBTC serves as the in-game tournament currency, staking asset, and community reward token on TON.",
+  "sybilSafety": "Daily Enigma puzzle solving and Tonkeeper wallet verification protect seasonal reward pools.",
+  "steps": [
+    "Launch Rocky Rabbit (@rocky_rabbit_bot) on Telegram.",
+    "Upgrade your Fighter and Coach cards in the Mine tab for passive hourly income.",
+    "Solve the daily SuperSet combo and Enigma word challenge for bonus coins.",
+    "Find the 3 hidden Easter Egg coins each day.",
+    "Connect your Tonkeeper wallet in the Airdrop section."
+  ],
+  "faqs": [
+    {
+      "question": "What matters most for the Rocky Rabbit airdrop?",
+      "answer": "Consistent passive Profit Per Hour (PPH), daily SuperSet/Enigma streaks, and a verified Tonkeeper wallet."
+    },
+    {
+      "question": "Is Rocky Rabbit free to play?",
+      "answer": "Yes, training your fighter and solving daily puzzles are free."
+    },
+    {
+      "question": "Which wallet should I use?",
+      "answer": "Connect Tonkeeper or Telegram Wallet via TON Connect."
+    }
+  ],
+  "tier": "Tier 2",
+  "cost": "Free ($0)",
+  "stage": "Fighter Season 2",
+  "timeCommitment": "4 mins / day",
+  "snapshot": "Q1 2027",
+  "estDate": "Q1 2027",
+  "socials": {
+    "twitter": "https://x.com/rockyrabbitio",
+    "telegram": "https://t.me/rocky_rabbit_bot",
+    "website": "https://rockyrabbit.io"
+  }
 }
 ];
