@@ -44064,5 +44064,327 @@ export const airdrops: Airdrop[] = [
     "telegram": "https://t.me/xdao_bot",
     "website": "https://xdao.app"
   }
+},
+{
+  "id": "dedust-ton",
+  "name": "DeDust",
+  "logo": "/images/airdrops/dedust-ton.svg",
+  "description": "DeDust is a leading decentralized exchange and AMM built natively on TON with a Telegram Mini-App for instant swaps, liquidity pools, and $DUST / $SCALE rewards.",
+  "reward": "$SCALE Staking Rewards & TON Liquidity Incentives",
+  "category": "Telegram",
+  "featured": true,
+  "isHot": true,
+  "isFeatured": true,
+  "status": "active",
+  "publishDate": "2026-11-16",
+  "endTime": "Q1 2027",
+  "funding": "TON Foundation & Ecosystem TVL",
+  "investors": "TON DeFi Collective & Scaleton Labs",
+  "refLink": "https://t.me/dedust_bot",
+  "overview": "DeDust is one of the cornerstone DeFi protocols on The Open Network, featuring the custom DeDust 2.0 AMM architecture and an integrated Telegram Mini-App. Users can swap Jettons directly inside Telegram, provide liquidity to boosted TON pools, and stake $SCALE to earn ongoing protocol fee distributions and ecosystem drops.",
+  "strategy": "Connect Tonkeeper or MyTonWallet to DeDust's Telegram Mini-App, perform organic TON/Jetton swaps across multiple days, and optionally stake $SCALE or provide LP.",
+  "tokenomics": "The $SCALE token captures DeDust swap fees and unlocks boosted liquidity incentives across TON ecosystem partner pools.",
+  "sybilSafety": "Real on-chain swap volume, LP duration, and Tonkeeper wallet age naturally filter out zero-value bot accounts.",
+  "steps": [
+    "Launch the DeDust Telegram Mini-App (@dedust_bot) or web portal.",
+    "Connect your non-custodial Tonkeeper or MyTonWallet via TON Connect.",
+    "Execute organic swaps between TON and verified Jettons.",
+    "Explore boosted liquidity pools or $SCALE staking vaults.",
+    "Track your on-chain TON DeFi activity ahead of partner snapshots."
+  ],
+  "faqs": [
+    {
+      "question": "Does DeDust have a Telegram Mini-App?",
+      "answer": "Yes, DeDust lets users swap TON tokens and manage liquidity directly inside Telegram."
+    },
+    {
+      "question": "Which wallets work with DeDust?",
+      "answer": "Tonkeeper, MyTonWallet, and Telegram Wallet via TON Connect."
+    },
+    {
+      "question": "How do users earn rewards on DeDust?",
+      "answer": "Through boosted LP incentives, $SCALE staking, and TON ecosystem partner campaigns."
+    }
+  ],
+  "tier": "Tier 1",
+  "cost": "Gas / Swap Volume",
+  "stage": "TON DeFi Season",
+  "timeCommitment": "5 mins / week",
+  "snapshot": "Ongoing Epochs",
+  "estDate": "Q1 2027",
+  "socials": {
+    "twitter": "https://x.com/dedust_io",
+    "telegram": "https://t.me/dedust_bot",
+    "website": "https://dedust.io"
+  }
+},
+{
+  "id": "mytonwallet",
+  "name": "MyTonWallet",
+  "logo": "/images/airdrops/mytonwallet.svg",
+  "description": "MyTonWallet is the leading open-source self-custody TON wallet and Telegram Mini-App featuring $MY loyalty rewards and gasless Jetton transfers.",
+  "reward": "$MY Loyalty Token Rewards & Staking Boosts",
+  "category": "Telegram",
+  "featured": true,
+  "isHot": true,
+  "isFeatured": true,
+  "status": "active",
+  "publishDate": "2026-11-16",
+  "endTime": "Q1 2027",
+  "funding": "TON Foundation Grant & Community DAO",
+  "investors": "TON Open-Source Builders",
+  "refLink": "https://t.me/MyTonWalletBot",
+  "overview": "MyTonWallet is one of the most trusted open-source, non-custodial wallets in the TON ecosystem, accessible as a browser extension, mobile app, and Telegram Mini-App. Its $MY utility token rewards loyal wallet users, TON stakers, and active mini-app participants with fee-free perks and seasonal distributions.",
+  "strategy": "Import or create a non-custodial wallet in MyTonWallet's Telegram Mini-App, stake a small amount of TON natively, and complete loyalty quests.",
+  "tokenomics": "The $MY token powers wallet staking tiers, hardware-grade security perks, and community governance.",
+  "sybilSafety": "Active TON staking positions and multi-week wallet activity distinguish genuine users from empty sybil wallets.",
+  "steps": [
+    "Open the official MyTonWallet Telegram Mini-App (@MyTonWalletBot).",
+    "Create a new non-custodial wallet or securely import your existing TON wallet.",
+    "Back up your 24-word recovery phrase offline.",
+    "Use built-in TON staking or Jetton swaps to register organic activity.",
+    "Check the Loyalty / $MY tab for seasonal rewards."
+  ],
+  "faqs": [
+    {
+      "question": "Is MyTonWallet safe and open-source?",
+      "answer": "Yes, MyTonWallet is fully open-source, non-custodial, and officially supported across the TON ecosystem."
+    },
+    {
+      "question": "What is the $MY token used for?",
+      "answer": "$MY unlocks loyalty tiers, fee rebates, and community reward pools."
+    },
+    {
+      "question": "Can I use MyTonWallet inside Telegram?",
+      "answer": "Yes, MyTonWallet provides a dedicated Telegram Mini-App alongside mobile and desktop apps."
+    }
+  ],
+  "tier": "Tier 1",
+  "cost": "Free ($0) / Optional Staking",
+  "stage": "Wallet Loyalty Season",
+  "timeCommitment": "3 mins / week",
+  "snapshot": "Q1 2027",
+  "estDate": "Q1 2027",
+  "socials": {
+    "twitter": "https://x.com/mytonwallet_io",
+    "telegram": "https://t.me/MyTonWalletBot",
+    "website": "https://mytonwallet.io"
+  }
+},
+{
+  "id": "treasure-tapper",
+  "name": "Treasure Tapper",
+  "logo": "/images/airdrops/treasure-tapper.svg",
+  "description": "Treasure Tapper is Gala Games' official Telegram Mini-App where players hunt daily treasure chests, solve daily codes, and earn $TREZ tokens.",
+  "reward": "$TREZ Token Distribution & GalaChain Rewards",
+  "category": "Telegram",
+  "featured": true,
+  "isHot": true,
+  "isFeatured": true,
+  "status": "active",
+  "publishDate": "2026-11-16",
+  "endTime": "Q1 2027",
+  "funding": "Gala Games Ecosystem Fund",
+  "investors": "Gala Games & GalaChain Partners",
+  "refLink": "https://t.me/treasure_tapper_bot",
+  "overview": "Built by Web3 gaming giant Gala Games, Treasure Tapper brings cross-chain treasure hunting into Telegram. Players unlock daily treasure chests, crack Morse-style daily codes, upgrade passive chest-opening speed, and link their GalaChain or Tonkeeper wallet to earn $TREZ token rewards.",
+  "strategy": "Upgrade passive chest yield before tap power, claim the daily secret code bonus every 24 hours, and link your Gala/TON wallet early.",
+  "tokenomics": "$TREZ is designed as a community-first GalaChain token rewarding active Telegram treasure hunters.",
+  "sybilSafety": "Daily code verification and GalaChain/TON wallet binding filter out automated multi-account bots.",
+  "steps": [
+    "Open the Treasure Tapper bot on Telegram (@treasure_tapper_bot).",
+    "Tap to open your starter chests and collect initial coins.",
+    "Invest coins into passive hourly chest upgrades in the Boost tab.",
+    "Enter the daily secret cipher for bonus treasure.",
+    "Link your GalaChain or Tonkeeper wallet in the Wallet section."
+  ],
+  "faqs": [
+    {
+      "question": "Who created Treasure Tapper?",
+      "answer": "Treasure Tapper is an official Telegram Mini-App built by Gala Games."
+    },
+    {
+      "question": "Is Treasure Tapper free to play?",
+      "answer": "Yes, chest hunting, upgrades, and daily ciphers are 100% free."
+    },
+    {
+      "question": "Which network will $TREZ launch on?",
+      "answer": "Rewards are integrated with GalaChain and TON ecosystem wallets."
+    }
+  ],
+  "tier": "Tier 1",
+  "cost": "Free ($0)",
+  "stage": "GalaChain Season 2",
+  "timeCommitment": "3 mins / day",
+  "snapshot": "Q1 2027",
+  "estDate": "Q1 2027",
+  "socials": {
+    "twitter": "https://x.com/GoGalaGames",
+    "telegram": "https://t.me/treasure_tapper_bot",
+    "website": "https://games.gala.com"
+  }
+},
+{
+  "id": "tonchi",
+  "name": "Tonchi",
+  "logo": "/images/airdrops/tonchi.svg",
+  "description": "Tonchi is a Tamagotchi-style virtual pet Telegram Mini-App on TON rewarding daily caretaking, pet evolution, and $TONCHI points.",
+  "reward": "$TONCHI Token Allocation & Pet Evolution Tiers",
+  "category": "Telegram",
+  "featured": true,
+  "isHot": false,
+  "isFeatured": true,
+  "status": "active",
+  "publishDate": "2026-11-16",
+  "endTime": "Q1 2027",
+  "funding": "$1.4M TON GameFi Seed",
+  "investors": "TON Casual Gaming Collective",
+  "refLink": "https://t.me/Tonchi_bot",
+  "overview": "Tonchi brings nostalgic 90s virtual pet caretaking directly to Telegram. Players hatch a digital Tonchi companion, keep its hunger, mood, and energy balanced through quick daily check-ins, and evolve it through higher rarity stages to unlock larger $TONCHI airdrop shares.",
+  "strategy": "Check in twice daily to keep your pet's happiness streak at 100%, prioritize food and toy upgrades, and link Tonkeeper.",
+  "tokenomics": "60% of $TONCHI supply is reserved for active caretakers based on pet evolution level and care streak length.",
+  "sybilSafety": "Real-time pet mood decay and caretaking streak checks prevent passive bot farming.",
+  "steps": [
+    "Launch Tonchi (@Tonchi_bot) in Telegram.",
+    "Hatch your virtual Tonchi companion.",
+    "Feed, play, and rest your pet daily to earn $TONCHI care points.",
+    "Complete social and ecosystem partner quests for bonus food.",
+    "Connect your Tonkeeper or Telegram Wallet before snapshot."
+  ],
+  "faqs": [
+    {
+      "question": "How long does Tonchi take per day?",
+      "answer": "Just 2 minutes a day to feed and play with your virtual pet."
+    },
+    {
+      "question": "Is Tonchi free?",
+      "answer": "Yes, hatching and raising your Tonchi companion is free."
+    },
+    {
+      "question": "Which wallet should I connect?",
+      "answer": "Tonkeeper or Telegram Wallet via TON Connect."
+    }
+  ],
+  "tier": "Tier 2",
+  "cost": "Free ($0)",
+  "stage": "Pet Evolution Season 1",
+  "timeCommitment": "2 mins / day",
+  "snapshot": "Q1 2027",
+  "estDate": "Q1 2027",
+  "socials": {
+    "twitter": "https://x.com/Tonchi_TON",
+    "telegram": "https://t.me/Tonchi_bot",
+    "website": "https://tonchi.app"
+  }
+},
+{
+  "id": "getgems-ton",
+  "name": "Getgems",
+  "logo": "/images/airdrops/getgems-ton.svg",
+  "description": "Getgems is the largest NFT marketplace on TON with an integrated Telegram Mini-App for NFT minting, trading quests, and ecosystem drops.",
+  "reward": "TON NFT Marketplace Loyalty & Partner Airdrop Drops",
+  "category": "Telegram",
+  "featured": true,
+  "isHot": false,
+  "isFeatured": true,
+  "status": "active",
+  "publishDate": "2026-11-16",
+  "endTime": "Q1 2027",
+  "funding": "TON Ecosystem & Marketplace Revenue",
+  "investors": "TON Venture Builders",
+  "refLink": "https://t.me/getgems_bot",
+  "overview": "Getgems serves as the primary NFT marketplace on The Open Network, powering Telegram usernames, anonymous numbers, and major TON game collections right inside a Telegram Mini-App. Active collectors and creators who participate in seasonal mints and verified collection quests regularly qualify for partner TON ecosystem drops.",
+  "strategy": "Link your Tonkeeper or MyTonWallet inside Getgems' Telegram Mini-App, claim free or low-cost ecosystem commemorative SBT/NFTs, and build authentic TON NFT history.",
+  "tokenomics": "Getgems loyalty campaigns distribute partner Jettons, fee rebates, and exclusive whitelist mints across active TON wallets.",
+  "sybilSafety": "On-chain NFT ownership and TON Connect wallet history naturally filter out bot accounts.",
+  "steps": [
+    "Open the Getgems Telegram Mini-App (@getgems_bot).",
+    "Connect your Tonkeeper or MyTonWallet via TON Connect.",
+    "Browse featured TON collections and free commemorative mints.",
+    "Complete active marketplace quest campaigns.",
+    "Keep your verified TON NFTs in your connected wallet."
+  ],
+  "faqs": [
+    {
+      "question": "Can I use Getgems directly inside Telegram?",
+      "answer": "Yes, Getgems offers a full-featured Telegram Mini-App for browsing, minting, and trading TON NFTs."
+    },
+    {
+      "question": "Are there free NFT quests on Getgems?",
+      "answer": "Yes, many TON projects host free or gas-only commemorative mints on Getgems."
+    },
+    {
+      "question": "Which wallet works best?",
+      "answer": "Tonkeeper or MyTonWallet."
+    }
+  ],
+  "tier": "Tier 1",
+  "cost": "Free / Tiny TON Gas",
+  "stage": "NFT Loyalty Quests",
+  "timeCommitment": "5 mins / week",
+  "snapshot": "Ongoing Campaigns",
+  "estDate": "Q1 2027",
+  "socials": {
+    "twitter": "https://x.com/getgemsdotio",
+    "telegram": "https://t.me/getgems_bot",
+    "website": "https://getgems.io"
+  }
+},
+{
+  "id": "tada-telegram",
+  "name": "Ta-da",
+  "logo": "/images/airdrops/tada-telegram.svg",
+  "description": "Ta-da is a decentralized AI voice and data verification Telegram Mini-App rewarding human contributors with $TADA tokens.",
+  "reward": "$TADA Token Rewards & AI Data Contributor Quests",
+  "category": "Telegram",
+  "featured": true,
+  "isHot": true,
+  "isFeatured": true,
+  "status": "active",
+  "publishDate": "2026-11-16",
+  "endTime": "Q1 2027",
+  "funding": "$3.5M MorningStar Ventures & MultiversX",
+  "investors": [
+    "Morningstar Ventures",
+    "MultiversX",
+    "GBV Capital"
+  ],
+  "refLink": "https://t.me/TadaAppBot",
+  "overview": "Backed by $3.5M from Morningstar Ventures and MultiversX, Ta-da gamifies AI dataset creation inside Telegram. Users record short voice prompts or verify AI audio clips in seconds, earning verifiable $TADA token rewards for improving real-world machine learning datasets.",
+  "strategy": "Complete daily voice-check and audio-labeling micro-tasks with high accuracy, maintain weekly streaks, and bind your non-custodial wallet.",
+  "tokenomics": "The $TADA token pays data contributors and settles enterprise AI dataset purchases on-chain.",
+  "sybilSafety": "Peer-to-peer audio verification and human voice checks eliminate automated clicker bots.",
+  "steps": [
+    "Open the Ta-da Telegram Mini-App (@TadaAppBot).",
+    "Complete the short onboarding tutorial for audio verification.",
+    "Label or record quick AI voice tasks daily to earn points.",
+    "Maintain high accuracy scores to unlock higher-paying task tiers.",
+    "Connect your non-custodial wallet for $TADA payouts."
+  ],
+  "faqs": [
+    {
+      "question": "Who backs Ta-da?",
+      "answer": "Ta-da raised $3.5M from Morningstar Ventures, MultiversX, and GBV Capital."
+    },
+    {
+      "question": "Is Ta-da free to join?",
+      "answer": "Yes, contributing audio validations inside Telegram is 100% free."
+    },
+    {
+      "question": "Why are AI data mini-apps attractive for airdrops?",
+      "answer": "Human voice and accuracy verification drastically reduces sybil dilution compared to simple tap games."
+    }
+  ],
+  "tier": "Tier 1",
+  "cost": "Free ($0)",
+  "stage": "AI Voice Season 2",
+  "timeCommitment": "4 mins / day",
+  "snapshot": "Q1 2027",
+  "estDate": "Q1 2027",
+  "socials": {
+    "twitter": "https://x.com/Tada_io",
+    "telegram": "https://t.me/TadaAppBot",
+    "website": "https://ta-da.io"
+  }
 }
 ];

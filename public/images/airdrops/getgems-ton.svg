@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100" height="100">
+  <defs>
+    <linearGradient id="gtg-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38BDF8" />
+      <stop offset="100%" stop-color="#2563EB" />
+    </linearGradient>
+  </defs>
+  <rect width="100" height="100" rx="24" fill="url(#gtg-grad)" />
+  <polygon points="34,24 66,24 80,44 50,78 20,44" fill="#F0F9FF" />
+  <polyline points="20,44 80,44" stroke="#0284C7" stroke-width="3" />
+  <polyline points="34,24 50,44 66,24" fill="none" stroke="#0284C7" stroke-width="3" />
+</svg>

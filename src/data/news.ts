@@ -7719,5 +7719,118 @@ export const newsArticles: NewsArticle[] = [
   ],
   "relatedAirdropId": "xdao-ton",
   "content": "XDAO brings no-code DAO creation and squad governance directly to Telegram. Joining an active DAO squad and claiming daily governance energy positions participants for upcoming $XDAO token incentives."
+},
+{
+  "slug": "dedust-ton-amm-telegram-mini-app-scale-rewards",
+  "title": "DeDust Telegram Mini-App Guide: Earning $SCALE Staking and TON DeFi Rewards",
+  "excerpt": "How to swap Jettons, provide boosted liquidity, and stake $SCALE directly inside DeDust's native TON Telegram Mini-App.",
+  "author": "Antigravity Research",
+  "date": "November 16, 2026",
+  "readTime": "4 min read",
+  "category": "Telegram Mini-Apps",
+  "image": "/images/airdrops/dedust-ton.svg",
+  "tags": [
+    "DeDust",
+    "TON DeFi",
+    "$SCALE",
+    "Telegram Mini-Apps",
+    "Airdrop"
+  ],
+  "relatedAirdropId": "dedust-ton",
+  "content": "DeDust powers seamless Jetton swaps and liquidity pools directly inside Telegram via TON Connect. Organic on-chain swaps, boosted LP positions, and $SCALE staking help users build verifiable TON DeFi history for ecosystem partner drops."
+},
+{
+  "slug": "mytonwallet-open-source-telegram-wallet-my-loyalty-guide",
+  "title": "MyTonWallet Brings Open-Source Self-Custody and $MY Loyalty Perks to Telegram",
+  "excerpt": "Set up MyTonWallet inside Telegram, back up your recovery phrase, and earn $MY loyalty benefits through native TON staking.",
+  "author": "Antigravity Research",
+  "date": "November 16, 2026",
+  "readTime": "3 min read",
+  "category": "Telegram Mini-Apps",
+  "image": "/images/airdrops/mytonwallet.svg",
+  "tags": [
+    "MyTonWallet",
+    "TON",
+    "Self-Custody",
+    "Telegram",
+    "Airdrop"
+  ],
+  "relatedAirdropId": "mytonwallet",
+  "content": "MyTonWallet combines open-source security with a convenient Telegram Mini-App interface. Native TON staking and regular Jetton activity position loyal wallet users for $MY ecosystem perks and partner campaigns."
+},
+{
+  "slug": "treasure-tapper-gala-games-telegram-trez-airdrop-guide",
+  "title": "Gala Games' Treasure Tapper Expands $TREZ Chest Hunting Inside Telegram",
+  "excerpt": "Optimize passive chest upgrades, enter daily secret codes, and link GalaChain or Tonkeeper wallets for $TREZ token rewards.",
+  "author": "Antigravity Research",
+  "date": "November 16, 2026",
+  "readTime": "3 min read",
+  "category": "Telegram Mini-Apps",
+  "image": "/images/airdrops/treasure-tapper.svg",
+  "tags": [
+    "Treasure Tapper",
+    "Gala Games",
+    "TON",
+    "Telegram",
+    "Airdrop"
+  ],
+  "relatedAirdropId": "treasure-tapper",
+  "content": "Developed by Gala Games, Treasure Tapper brings daily secret cipher chests and passive upgrades to Telegram. Linking a GalaChain or Tonkeeper wallet early ensures eligibility for $TREZ community distributions."
+},
+{
+  "slug": "tonchi-virtual-pet-tamagotchi-telegram-ton-airdrop",
+  "title": "Tonchi Brings Retro Virtual Pet Caretaking to TON for $TONCHI Airdrop",
+  "excerpt": "Feed, play, and evolve your Tonchi companion inside Telegram to maintain 100% mood streaks ahead of the $TONCHI snapshot.",
+  "author": "Antigravity Research",
+  "date": "November 16, 2026",
+  "readTime": "3 min read",
+  "category": "Telegram Mini-Apps",
+  "image": "/images/airdrops/tonchi.svg",
+  "tags": [
+    "Tonchi",
+    "GameFi",
+    "TON",
+    "Telegram",
+    "Airdrop"
+  ],
+  "relatedAirdropId": "tonchi",
+  "content": "Tonchi allocates 60% of its token supply to active virtual pet caretakers on TON. Consistent daily feeding and pet evolution stages naturally filter out automated bots."
+},
+{
+  "slug": "getgems-ton-nft-marketplace-telegram-mini-app-quests",
+  "title": "Getgems Telegram Mini-App Guide: Building On-Chain TON NFT History for Drops",
+  "excerpt": "Use Getgems inside Telegram to claim free commemorative TON NFTs and qualify for ecosystem marketplace campaigns.",
+  "author": "Antigravity Research",
+  "date": "November 16, 2026",
+  "readTime": "3 min read",
+  "category": "Telegram Mini-Apps",
+  "image": "/images/airdrops/getgems-ton.svg",
+  "tags": [
+    "Getgems",
+    "TON NFTs",
+    "Telegram Mini-Apps",
+    "Airdrop"
+  ],
+  "relatedAirdropId": "getgems-ton",
+  "content": "Getgems brings TON's largest NFT marketplace directly into Telegram. Participating in free commemorative mints and verified collection quests builds strong on-chain Tonkeeper history."
+},
+{
+  "slug": "tada-ai-voice-verification-telegram-mini-app-airdrop",
+  "title": "Morningstar-Backed Ta-da Gamifies AI Voice Verification Inside Telegram for $TADA",
+  "excerpt": "Complete quick audio validation tasks in Telegram to earn $TADA tokens with strong anti-sybil human verification.",
+  "author": "Antigravity Research",
+  "date": "November 16, 2026",
+  "readTime": "4 min read",
+  "category": "Telegram Mini-Apps",
+  "image": "/images/airdrops/tada-telegram.svg",
+  "tags": [
+    "Ta-da",
+    "AI",
+    "DePIN",
+    "Telegram",
+    "Airdrop"
+  ],
+  "relatedAirdropId": "tada-telegram",
+  "content": "Backed by $3.5M from Morningstar Ventures and MultiversX, Ta-da rewards Telegram users with $TADA tokens for completing short audio validation and voice tasks that filter out automated clicker bots."
 }
 ];
