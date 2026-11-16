@@ -43746,5 +43746,323 @@ export const airdrops: Airdrop[] = [
     "telegram": "https://t.me/rocky_rabbit_bot",
     "website": "https://rockyrabbit.io"
   }
+},
+{
+  "id": "fintopio",
+  "name": "Fintopio",
+  "logo": "/images/airdrops/fintopio.svg",
+  "description": "Fintopio is a Telegram Mini-App CeDeFi & self-custody wallet platform where users mine $HOLD points by cracking daily asteroids and completing wallet quests.",
+  "reward": "$HOLD Points to Token Airdrop & Wallet Tier Bonuses",
+  "category": "Telegram",
+  "featured": true,
+  "isHot": true,
+  "isFeatured": true,
+  "status": "active",
+  "publishDate": "2026-11-16",
+  "endTime": "Q1 2027",
+  "funding": "$4.0M Seed & Strategic Wallet Round",
+  "investors": "Web3 Payments Collective & TON Angels",
+  "refLink": "https://t.me/fintopio",
+  "overview": "Fintopio delivers an intuitive hybrid wallet inside Telegram, enabling instant token transfers by username alongside an interactive Hold-to-Earn mini-game. Users earn $HOLD points every few hours, crack bonus asteroids, and unlock higher multiplier tiers by activating their in-app non-custodial DeFi wallet.",
+  "strategy": "Claim asteroid mining cycles consistently, activate your self-custody DeFi wallet inside Fintopio, and complete daily streak check-ins.",
+  "tokenomics": "The $HOLD token unlocks cross-chain fee rebates, launchpad access, and community governance rewards.",
+  "sybilSafety": "Active wallet initialization, streak consistency, and on-chain transfer milestones filter out automated multi-account farms.",
+  "steps": [
+    "Launch the Fintopio Telegram Mini-App (@fintopio).",
+    "Activate both your Telegram wallet and non-custodial DeFi wallet inside the app.",
+    "Visit the Hold section to crack asteroids and collect $HOLD points.",
+    "Complete daily check-ins and ecosystem partner tasks.",
+    "Verify your TON address via Tonkeeper or built-in wallet ahead of TGE."
+  ],
+  "faqs": [
+    {
+      "question": "Is Fintopio free to farm?",
+      "answer": "Yes, asteroid mining, daily check-ins, and social tasks are completely free."
+    },
+    {
+      "question": "Does Fintopio include a real Web3 wallet?",
+      "answer": "Yes, Fintopio offers both instant Telegram transfers and a self-custody multi-chain DeFi wallet."
+    },
+    {
+      "question": "When is the $HOLD token snapshot?",
+      "answer": "The snapshot and distribution are targeted for Q1 2027."
+    }
+  ],
+  "tier": "Tier 1",
+  "cost": "Free ($0)",
+  "stage": "Hold Season 2",
+  "timeCommitment": "3 mins / day",
+  "snapshot": "Q1 2027",
+  "estDate": "Q1 2027",
+  "socials": {
+    "twitter": "https://x.com/fintopio",
+    "telegram": "https://t.me/fintopio",
+    "website": "https://fintopio.com"
+  }
+},
+{
+  "id": "goblin-mine",
+  "name": "Goblin Mine",
+  "logo": "/images/airdrops/goblin-mine.svg",
+  "description": "Goblin Mine is a mine-tycoon Telegram Mini-App on TON where players hire goblin crews, upgrade shafts, and farm $GOBLIN silver & token drops.",
+  "reward": "$GOBLIN Token Allocation & Mine Tycoon Pool",
+  "category": "Telegram",
+  "featured": true,
+  "isHot": true,
+  "isFeatured": true,
+  "status": "active",
+  "publishDate": "2026-11-16",
+  "endTime": "Q1 2027",
+  "funding": "$1.6M TON GameFi Seed",
+  "investors": "TON Casual Guilds & GameFi Angels",
+  "refLink": "https://t.me/GoblinMine_bot",
+  "overview": "Goblin Mine replaces repetitive tapping with an idle mine-management simulation on TON. Players unlock progressive underground shafts, hire goblin miners, upgrade minecart capacity, and convert accumulated silver and bronze yields into verified $GOBLIN airdrop shares.",
+  "strategy": "Reinvest early earnings into unlocking higher-level mine shafts and hiring extra miners before upgrading cart capacity.",
+  "tokenomics": "60% of $GOBLIN supply is allocated to active mine managers and verified Tonkeeper wallet holders.",
+  "sybilSafety": "Shaft progression milestones, minecart capacity timers, and TON Connect verification block low-effort bot accounts.",
+  "steps": [
+    "Open the Goblin Mine bot on Telegram (@GoblinMine_bot).",
+    "Unlock your first underground mine shaft and assign starter goblin workers.",
+    "Collect mined silver before minecarts reach capacity.",
+    "Upgrade worker tools and unlock deeper shafts for exponential hourly yield.",
+    "Connect your Tonkeeper or Telegram Wallet to secure your $GOBLIN drop."
+  ],
+  "faqs": [
+    {
+      "question": "Do I need to tap continuously in Goblin Mine?",
+      "answer": "No, goblin miners work automatically—you only check in to empty minecarts and upgrade shafts."
+    },
+    {
+      "question": "Is Goblin Mine free to start?",
+      "answer": "Yes, starter shafts and daily tasks are 100% free."
+    },
+    {
+      "question": "Which wallet works with Goblin Mine?",
+      "answer": "Tonkeeper and Telegram Wallet via TON Connect."
+    }
+  ],
+  "tier": "Tier 2",
+  "cost": "Free ($0)",
+  "stage": "Deep Shaft Season 1",
+  "timeCommitment": "3 mins / day",
+  "snapshot": "Q1 2027",
+  "estDate": "Q1 2027",
+  "socials": {
+    "twitter": "https://x.com/GoblinMineTON",
+    "telegram": "https://t.me/GoblinMine_bot",
+    "website": "https://goblinmine.game"
+  }
+},
+{
+  "id": "meme-hash",
+  "name": "MemeHash",
+  "logo": "/images/airdrops/meme-hash.svg",
+  "description": "MemeHash is a TON-based proof-of-meme block mining Telegram Mini-App distributing $MEMEHASH tokens across community mining epochs.",
+  "reward": "$MEMEHASH Block Mining Rewards & Early Miner Multiplier",
+  "category": "Telegram",
+  "featured": true,
+  "isHot": false,
+  "isFeatured": true,
+  "status": "active",
+  "publishDate": "2026-11-16",
+  "endTime": "Q1 2027",
+  "funding": "$1.4M Community Mining Pool",
+  "investors": "TON Hashrate Collective",
+  "refLink": "https://t.me/memhash_bot",
+  "overview": "MemeHash brings gamified block-reward mining directly into Telegram. Users join live mining epochs, balance energy consumption with hash-power upgrades, and earn proportional shares of every mined block in $MEMEHASH.",
+  "strategy": "Focus on energy regeneration upgrades early so your miner stays active across peak block-reward epochs, and verify Tonkeeper early.",
+  "tokenomics": "75% of $MEMEHASH supply is emitted directly to active Telegram miners across halving epochs.",
+  "sybilSafety": "Epoch participation rules and TON Connect wallet verification protect block reward fairness.",
+  "steps": [
+    "Launch the MemeHash Mini-App on Telegram (@memhash_bot).",
+    "Activate your miner rig during the current block epoch.",
+    "Upgrade energy capacity and regeneration speed.",
+    "Complete social and daily check-in quests for bonus energy.",
+    "Connect your Tonkeeper wallet to claim on-chain block rewards."
+  ],
+  "faqs": [
+    {
+      "question": "Is MemeHash free to mine?",
+      "answer": "Yes, daily energy regenerates for free and social quests grant extra energy."
+    },
+    {
+      "question": "Which network does MemeHash use?",
+      "answer": "MemeHash settles token rewards on The Open Network (TON)."
+    },
+    {
+      "question": "What wallet is required?",
+      "answer": "Tonkeeper or Telegram Wallet."
+    }
+  ],
+  "tier": "Tier 2",
+  "cost": "Free ($0)",
+  "stage": "Halving Epoch 2",
+  "timeCommitment": "3 mins / day",
+  "snapshot": "Q1 2027",
+  "estDate": "Q1 2027",
+  "socials": {
+    "twitter": "https://x.com/MemeHashTON",
+    "telegram": "https://t.me/memhash_bot",
+    "website": "https://memehash.org"
+  }
+},
+{
+  "id": "kolo-ton",
+  "name": "Kolo",
+  "logo": "/images/airdrops/kolo-ton.svg",
+  "description": "Kolo is a Telegram Mini-App crypto wallet and virtual payment card hub on TON rewarding early users with $KOLO points.",
+  "reward": "$KOLO Points & Early Crypto Card Waitlist Drop",
+  "category": "Telegram",
+  "featured": true,
+  "isHot": true,
+  "isFeatured": true,
+  "status": "active",
+  "publishDate": "2026-11-16",
+  "endTime": "Q1 2027",
+  "funding": "$2.9M Fintech & TON Ecosystem Seed",
+  "investors": "TON PayFi Angels & Crypto Card Collective",
+  "refLink": "https://t.me/kolo",
+  "overview": "Kolo integrates a sleek crypto wallet and virtual card waitlist directly inside Telegram. Users farm $KOLO points via daily check-ins, PayFi educational quests, and card waitlist referrals—positioning themselves for upcoming $KOLO token rewards and zero-fee card perks.",
+  "strategy": "Join the virtual card waitlist inside the Kolo Mini-App, maintain daily check-in streaks, and link your Tonkeeper wallet.",
+  "tokenomics": "The $KOLO token powers cashback rewards, zero-FX payment tiers, and PayFi liquidity incentives on TON.",
+  "sybilSafety": "Waitlist verification and TON Connect wallet binding filter out automated multi-account bots.",
+  "steps": [
+    "Open the Kolo Telegram Mini-App (@kolo).",
+    "Join the Kolo Crypto Card waitlist and initialize your profile.",
+    "Claim daily $KOLO check-in points.",
+    "Complete all PayFi and partner ecosystem quests.",
+    "Connect your Tonkeeper or Telegram Wallet in Settings."
+  ],
+  "faqs": [
+    {
+      "question": "Do I have to order a physical card to earn $KOLO?",
+      "answer": "No, joining the waitlist and completing daily check-in quests in Telegram is completely free."
+    },
+    {
+      "question": "What blockchain does Kolo build on?",
+      "answer": "Kolo is built natively for Telegram and The Open Network (TON)."
+    },
+    {
+      "question": "When is the $KOLO airdrop?",
+      "answer": "Token distribution is planned for Q1 2027."
+    }
+  ],
+  "tier": "Tier 1",
+  "cost": "Free ($0)",
+  "stage": "PayFi Card Waitlist",
+  "timeCommitment": "2 mins / day",
+  "snapshot": "Q1 2027",
+  "estDate": "Q1 2027",
+  "socials": {
+    "twitter": "https://x.com/kolo_app",
+    "telegram": "https://t.me/kolo",
+    "website": "https://kolo.in"
+  }
+},
+{
+  "id": "pocket-rocket",
+  "name": "Pocket Rocket",
+  "logo": "/images/airdrops/pocket-rocket.svg",
+  "description": "Pocket Rocket is a Web3 space-arcade Telegram Mini-App where commanders mine space crystals, upgrade starships, and farm seasonal token rewards.",
+  "reward": "Space Crystal Points & Seasonal Token Airdrop",
+  "category": "Telegram",
+  "featured": true,
+  "isHot": false,
+  "isFeatured": true,
+  "status": "active",
+  "publishDate": "2026-11-16",
+  "endTime": "Q1 2027",
+  "funding": "$1.5M GameFi Ecosystem Pool",
+  "investors": "TON Arcade Syndicate",
+  "refLink": "https://t.me/pocket_rocket_game_bot",
+  "overview": "Pocket Rocket turns Telegram into a fast-paced asteroid-blasting space arcade. Players pilot their starship, mine space crystals, upgrade hull and laser modules, and climb seasonal galactic leagues to earn token airdrop allocations.",
+  "strategy": "Upgrade auto-mining wings and crystal storage first so passive crystal collection runs smoothly between arcade runs.",
+  "tokenomics": "Seasonal crystal leaderboard points convert into ecosystem token rewards and rare starship NFTs.",
+  "sybilSafety": "Active gameplay telemetry and non-custodial wallet binding ensure fair seasonal payouts.",
+  "steps": [
+    "Launch Pocket Rocket (@pocket_rocket_game_bot) in Telegram.",
+    "Pilot your starter ship to mine initial space crystals.",
+    "Upgrade ship wings, reactor, and storage capacity.",
+    "Complete daily galactic missions and league milestones.",
+    "Connect your non-custodial TON or EVM wallet (Tonkeeper / Rabby)."
+  ],
+  "faqs": [
+    {
+      "question": "Is Pocket Rocket free to play?",
+      "answer": "Yes, all starship upgrades and space-mining leagues are free."
+    },
+    {
+      "question": "How long does Pocket Rocket take daily?",
+      "answer": "About 3 minutes per day for upgrades and crystal collection."
+    },
+    {
+      "question": "Which wallet should I link?",
+      "answer": "Tonkeeper or Rabby Wallet."
+    }
+  ],
+  "tier": "Tier 2",
+  "cost": "Free ($0)",
+  "stage": "Galactic League Season 2",
+  "timeCommitment": "3 mins / day",
+  "snapshot": "Q1 2027",
+  "estDate": "Q1 2027",
+  "socials": {
+    "twitter": "https://x.com/PocketRocketWeb3",
+    "telegram": "https://t.me/pocket_rocket_game_bot",
+    "website": "https://pocketrocket.game"
+  }
+},
+{
+  "id": "xdao-ton",
+  "name": "XDAO",
+  "logo": "/images/airdrops/xdao-ton.svg",
+  "description": "XDAO brings decentralized autonomous organization creation and $XDAO energy farming directly into a lightweight Telegram Mini-App.",
+  "reward": "$XDAO Energy Conversion & DAO Pioneer Airdrop",
+  "category": "Telegram",
+  "featured": true,
+  "isHot": false,
+  "isFeatured": true,
+  "status": "active",
+  "publishDate": "2026-11-16",
+  "endTime": "Q1 2027",
+  "funding": "$2.2M Multi-Chain DAO Infrastructure",
+  "investors": "Grizzly Capital & Web3 Governance Angels",
+  "refLink": "https://t.me/xdao_bot",
+  "overview": "XDAO—known for its multi-chain DAO infrastructure—launched a Telegram Mini-App where communities form micro-DAOs, pool governance energy, and complete Web3 governance quests. Active DAO members and squad leaders earn $XDAO energy points convertible into governance token rewards.",
+  "strategy": "Join or form an active Telegram DAO squad, claim daily governance energy, and connect your Rabby or Tonkeeper wallet.",
+  "tokenomics": "The $XDAO token governs protocol treasury modules, DAO deployment tools, and community incentive pools.",
+  "sybilSafety": "DAO squad governance actions and verified non-custodial wallet signatures filter out passive bot farms.",
+  "steps": [
+    "Open the XDAO Telegram Mini-App (@xdao_bot).",
+    "Join an existing DAO or create a new community DAO.",
+    "Claim daily governance energy and complete partner tasks.",
+    "Participate in mini-app governance polls.",
+    "Bind your Rabby or Tonkeeper wallet for $XDAO distribution."
+  ],
+  "faqs": [
+    {
+      "question": "Do I need coding skills to use XDAO on Telegram?",
+      "answer": "No, XDAO lets anyone join or launch a DAO inside Telegram in a few clicks."
+    },
+    {
+      "question": "Is farming $XDAO energy free?",
+      "answer": "Yes, daily energy claims and governance quests are free."
+    },
+    {
+      "question": "Which wallets work with XDAO?",
+      "answer": "Rabby (EVM) and Tonkeeper (TON)."
+    }
+  ],
+  "tier": "Tier 2",
+  "cost": "Free ($0)",
+  "stage": "DAO Energy Season 1",
+  "timeCommitment": "2 mins / day",
+  "snapshot": "Q1 2027",
+  "estDate": "Q1 2027",
+  "socials": {
+    "twitter": "https://x.com/xdaoapp",
+    "telegram": "https://t.me/xdao_bot",
+    "website": "https://xdao.app"
+  }
 }
 ];

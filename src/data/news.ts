@@ -7605,5 +7605,119 @@ export const newsArticles: NewsArticle[] = [
   ],
   "relatedAirdropId": "rocky-rabbit",
   "content": "Rocky Rabbit keeps players engaged with daily Enigma word puzzles, hidden Easter Eggs, and fighter-gym upgrades on TON. Focusing on passive hourly income and Tonkeeper binding maximizes seasonal $RBTC allocations."
+},
+{
+  "slug": "fintopio-telegram-cedefi-wallet-hold-airdrop-guide",
+  "title": "Fintopio Launches Hybrid Telegram Wallet and $HOLD Asteroid Mining Airdrop",
+  "excerpt": "Activate your self-custody DeFi wallet inside Fintopio, crack daily asteroids, and stack $HOLD multiplier tiers ahead of Q1 2027.",
+  "author": "Antigravity Research",
+  "date": "November 16, 2026",
+  "readTime": "4 min read",
+  "category": "Telegram Mini-Apps",
+  "image": "/images/airdrops/fintopio.svg",
+  "tags": [
+    "Fintopio",
+    "TON",
+    "Self-Custody",
+    "Telegram Mini-Apps",
+    "Airdrop"
+  ],
+  "relatedAirdropId": "fintopio",
+  "content": "Fintopio merges username-based Telegram transfers with a self-custody DeFi wallet and Hold-to-Earn mini-game. Users who activate their DeFi wallet and maintain asteroid mining streaks unlock higher $HOLD reward multipliers."
+},
+{
+  "slug": "goblin-mine-ton-idle-tycoon-telegram-airdrop",
+  "title": "Goblin Mine Brings Idle Shaft Tycoon Gameplay to TON for $GOBLIN Airdrop",
+  "excerpt": "Hire goblin crews, upgrade minecart capacity, and farm passive $GOBLIN silver inside Telegram without endless tapping.",
+  "author": "Antigravity Research",
+  "date": "November 16, 2026",
+  "readTime": "3 min read",
+  "category": "Telegram Mini-Apps",
+  "image": "/images/airdrops/goblin-mine.svg",
+  "tags": [
+    "Goblin Mine",
+    "TON",
+    "GameFi",
+    "Telegram",
+    "Airdrop"
+  ],
+  "relatedAirdropId": "goblin-mine",
+  "content": "Goblin Mine replaces repetitive clicker mechanics with underground mine-tycoon strategy on TON. With 60% of the $GOBLIN supply dedicated to active managers, unlocking deeper shafts and connecting Tonkeeper sets early players apart."
+},
+{
+  "slug": "memehash-ton-epoch-block-mining-telegram-airdrop",
+  "title": "MemeHash Allocates 75% of Supply to Telegram Epoch Miners on TON",
+  "excerpt": "Optimize energy regeneration in MemeHash to capture block-reward shares across halving epochs on The Open Network.",
+  "author": "Antigravity Research",
+  "date": "November 16, 2026",
+  "readTime": "3 min read",
+  "category": "Telegram Mini-Apps",
+  "image": "/images/airdrops/meme-hash.svg",
+  "tags": [
+    "MemeHash",
+    "TON",
+    "Mining",
+    "Telegram",
+    "Airdrop"
+  ],
+  "relatedAirdropId": "meme-hash",
+  "content": "MemeHash distributes 75% of its $MEMEHASH token supply through gamified Telegram mining epochs. Upgrading energy regeneration early and linking Tonkeeper ensures consistent block shares."
+},
+{
+  "slug": "kolo-ton-crypto-card-waitlist-telegram-airdrop",
+  "title": "Kolo Combines Telegram Crypto Card Waitlist with Daily $KOLO Point Farming",
+  "excerpt": "Join Kolo's PayFi virtual card waitlist inside Telegram and farm free daily $KOLO points on TON.",
+  "author": "Antigravity Research",
+  "date": "November 16, 2026",
+  "readTime": "3 min read",
+  "category": "Telegram Mini-Apps",
+  "image": "/images/airdrops/kolo-ton.svg",
+  "tags": [
+    "Kolo",
+    "PayFi",
+    "TON",
+    "Telegram",
+    "Airdrop"
+  ],
+  "relatedAirdropId": "kolo-ton",
+  "content": "Kolo is bringing PayFi and virtual crypto cards directly into Telegram. Early waitlist members earn $KOLO points through free daily check-ins and Tonkeeper verification ahead of the Q1 2027 distribution."
+},
+{
+  "slug": "pocket-rocket-space-arcade-telegram-airdrop-guide",
+  "title": "Pocket Rocket Space Arcade Rewards Telegram Commanders with Crystal Mining Drops",
+  "excerpt": "Upgrade starship wings and auto-mining reactors in Pocket Rocket to climb seasonal galactic leaderboards.",
+  "author": "Antigravity Research",
+  "date": "November 16, 2026",
+  "readTime": "3 min read",
+  "category": "Telegram Mini-Apps",
+  "image": "/images/airdrops/pocket-rocket.svg",
+  "tags": [
+    "Pocket Rocket",
+    "GameFi",
+    "TON",
+    "Telegram",
+    "Airdrop"
+  ],
+  "relatedAirdropId": "pocket-rocket",
+  "content": "Pocket Rocket blends arcade asteroid-blasting with passive reactor upgrades inside Telegram. Players collect space crystals, climb galactic leagues, and link Tonkeeper or Rabby for seasonal token rewards."
+},
+{
+  "slug": "xdao-telegram-mini-app-governance-energy-airdrop",
+  "title": "XDAO Expands Multi-Chain DAO Creation and $XDAO Energy Farming to Telegram",
+  "excerpt": "Form micro-DAOs, vote in community polls, and collect daily $XDAO energy inside the official Telegram Mini-App.",
+  "author": "Antigravity Research",
+  "date": "November 16, 2026",
+  "readTime": "3 min read",
+  "category": "Telegram Mini-Apps",
+  "image": "/images/airdrops/xdao-ton.svg",
+  "tags": [
+    "XDAO",
+    "DAO",
+    "TON",
+    "Telegram",
+    "Airdrop"
+  ],
+  "relatedAirdropId": "xdao-ton",
+  "content": "XDAO brings no-code DAO creation and squad governance directly to Telegram. Joining an active DAO squad and claiming daily governance energy positions participants for upcoming $XDAO token incentives."
 }
 ];
