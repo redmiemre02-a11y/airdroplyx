@@ -8400,5 +8400,117 @@ export const newsArticles: NewsArticle[] = [
   ],
   "relatedAirdropId": "royal-fortress",
   "content": "Royal Fortress allocates 60% of its seasonal community pool to fortress commanders on TON who defend siege waves and link Tonkeeper."
+},
+{
+  "slug": "ton-planet-mars-colony-strategy-telegram-mc-airdrop",
+  "title": "TON Planet Brings Martian Base Strategy and $MC Crystal Farming to Telegram",
+  "excerpt": "Build solar generators and crystal refineries inside TON Planet's Telegram Mini-App for passive $MC rewards.",
+  "author": "Antigravity Research",
+  "date": "November 19, 2026",
+  "readTime": "3 min read",
+  "category": "Telegram Mini-Apps",
+  "image": "/images/airdrops/ton-planet.svg",
+  "tags": [
+    "TON Planet",
+    "$MC",
+    "GameFi",
+    "TON",
+    "Telegram"
+  ],
+  "relatedAirdropId": "ton-planet",
+  "content": "TON Planet lets Telegram players construct Martian colonies and upgrade passive crystal extraction modules ahead of seasonal $MC and TON ecosystem rewards."
+},
+{
+  "slug": "tonviewer-tonkeeper-block-explorer-telegram-airdrop-safety",
+  "title": "How to Verify TON Airdrop Contracts Safely Using Tonviewer Inside Telegram",
+  "excerpt": "Use the Tonkeeper-built Tonviewer Telegram Mini-App to inspect Jetton contracts, wallet age, and on-chain snapshot activity.",
+  "author": "Antigravity Research",
+  "date": "November 19, 2026",
+  "readTime": "3 min read",
+  "category": "Telegram Mini-Apps",
+  "image": "/images/airdrops/tonviewer.svg",
+  "tags": [
+    "Tonviewer",
+    "Tonkeeper",
+    "TON",
+    "Security",
+    "Telegram"
+  ],
+  "relatedAirdropId": "tonviewer",
+  "content": "Built by the Tonkeeper team, Tonviewer lets airdrop hunters verify Jetton contracts and confirm genuine on-chain TON activity directly inside Telegram."
+},
+{
+  "slug": "redoubt-ton-foundation-analytics-telegram-points-guide",
+  "title": "TON Foundation-Backed re:doubt Brings On-Chain Whale Alerts to Telegram",
+  "excerpt": "Set up free Jetton liquidity alerts inside re:doubt's Telegram Mini-App and link Tonkeeper for early analyst points.",
+  "author": "Antigravity Research",
+  "date": "November 19, 2026",
+  "readTime": "3 min read",
+  "category": "Telegram Mini-Apps",
+  "image": "/images/airdrops/redoubt.svg",
+  "tags": [
+    "re:doubt",
+    "TON Analytics",
+    "Telegram",
+    "Airdrop"
+  ],
+  "relatedAirdropId": "redoubt",
+  "content": "Backed by a TON Foundation grant, re:doubt equips TON airdrop hunters with whale tracking, Jetton liquidity dashboards, and early analyst loyalty points."
+},
+{
+  "slug": "telegram-apps-center-tapps-safe-airdrop-discovery-guide",
+  "title": "Telegram Apps Center (@tapps): How to Find Verified Mini-Apps and Avoid Fake Bots",
+  "excerpt": "Use the official Telegram Apps Center directory to verify new TON airdrop bots before connecting Tonkeeper.",
+  "author": "Antigravity Research",
+  "date": "November 19, 2026",
+  "readTime": "3 min read",
+  "category": "Telegram Mini-Apps",
+  "image": "/images/airdrops/tapps-center.svg",
+  "tags": [
+    "Telegram Apps Center",
+    "Security",
+    "TON",
+    "Telegram Mini-Apps"
+  ],
+  "relatedAirdropId": "tapps-center",
+  "content": "Telegram Apps Center (@tapps) serves as the curated directory for legitimate TON mini-apps, helping hunters avoid phishing clones and discover verified campaigns early."
+},
+{
+  "slug": "zenrock-spartan-backed-dmpc-telegram-rock-airdrop",
+  "title": "Spartan-Backed Zenrock Launches Telegram Mini-App Quests for $ROCK Points",
+  "excerpt": "Complete free dMPC quests inside Zenrock's Telegram Mini-App and link Phantom or Rabby for $ROCK eligibility.",
+  "author": "Antigravity Research",
+  "date": "November 19, 2026",
+  "readTime": "4 min read",
+  "category": "Telegram Mini-Apps",
+  "image": "/images/airdrops/zenrock-tg.svg",
+  "tags": [
+    "Zenrock",
+    "$ROCK",
+    "Spartan Group",
+    "Telegram",
+    "Airdrop"
+  ],
+  "relatedAirdropId": "zenrock-tg",
+  "content": "Backed by $3.2M from Spartan Group and Maven 11, Zenrock brings decentralized MPC education and daily $ROCK point quests directly to Telegram."
+},
+{
+  "slug": "tonx-snz-backed-superapp-quests-telegram-airdrop-guide",
+  "title": "SNZ-Backed TONX Launches SuperApp Discovery Quests on Telegram",
+  "excerpt": "Test TONX-powered SuperApps inside Telegram and connect Tonkeeper to earn ecosystem loyalty points.",
+  "author": "Antigravity Research",
+  "date": "November 19, 2026",
+  "readTime": "4 min read",
+  "category": "Telegram Mini-Apps",
+  "image": "/images/airdrops/ton-x-dao.svg",
+  "tags": [
+    "TONX",
+    "SNZ Holding",
+    "TON",
+    "Telegram Mini-Apps",
+    "Airdrop"
+  ],
+  "relatedAirdropId": "ton-x-dao",
+  "content": "With $4M in backing from SNZ Holding and Summer Ventures, TONX rewards early Telegram SuperApp testers who explore partner mini-apps and link Tonkeeper."
 }
 ];

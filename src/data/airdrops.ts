@@ -45991,5 +45991,324 @@ export const airdrops: Airdrop[] = [
     "telegram": "https://t.me/RoyalFortressBot",
     "website": "https://royalfortress.game"
   }
+},
+{
+  "id": "ton-planet",
+  "name": "TON Planet",
+  "logo": "/images/airdrops/ton-planet.svg",
+  "description": "TON Planet is a Mars-colonization strategy Telegram Mini-App on TON where players build Martian bases, harvest $MC crystals, and earn ecosystem rewards.",
+  "reward": "$MC Token Rewards & Martian Land Yields",
+  "category": "Telegram",
+  "featured": true,
+  "isHot": false,
+  "isFeatured": true,
+  "status": "active",
+  "publishDate": "2026-11-19",
+  "endTime": "Q1 2027",
+  "funding": "$1.5M TON GameFi Ecosystem",
+  "investors": "TON Space Builders",
+  "refLink": "https://t.me/tonplanet_bot",
+  "overview": "TON Planet turns Telegram into a Martian base-building strategy game on The Open Network. Players construct solar generators, upgrade crystal refineries, complete colony quests, and link Tonkeeper to claim $MC and TON ecosystem rewards.",
+  "strategy": "Upgrade solar power and crystal extraction buildings early so your Martian base generates passive resources 24/7, and connect Tonkeeper.",
+  "tokenomics": "$MC powers Martian land upgrades, colony alliances, and seasonal community reward pools.",
+  "sybilSafety": "Base construction timers and TON Connect wallet verification protect colony pools from automated farms.",
+  "steps": [
+    "Open TON Planet on Telegram (@tonplanet_bot).",
+    "Establish your starter Martian base and solar generator.",
+    "Upgrade crystal extraction modules for passive hourly yield.",
+    "Complete daily colony and partner quests.",
+    "Connect your Tonkeeper or MyTonWallet."
+  ],
+  "faqs": [
+    {
+      "question": "Is TON Planet free to play?",
+      "answer": "Yes, building your starter Martian base and completing daily quests is free."
+    },
+    {
+      "question": "Which wallet should I connect?",
+      "answer": "Tonkeeper or MyTonWallet."
+    },
+    {
+      "question": "How are rewards earned?",
+      "answer": "Through passive crystal extraction, colony upgrades, and seasonal leaderboards."
+    }
+  ],
+  "tier": "Tier 2",
+  "cost": "Free ($0)",
+  "stage": "Mars Colony Season 2",
+  "timeCommitment": "3 mins / day",
+  "snapshot": "Q1 2027",
+  "estDate": "Q1 2027",
+  "socials": {
+    "twitter": "https://x.com/tonplanet_mars",
+    "telegram": "https://t.me/tonplanet_bot",
+    "website": "https://tonplanet.mars"
+  }
+},
+{
+  "id": "tonviewer",
+  "name": "Tonviewer",
+  "logo": "/images/airdrops/tonviewer.svg",
+  "description": "Tonviewer is the flagship TON blockchain explorer built by the Tonkeeper team, featuring a Telegram Mini-App for wallet tracking and on-chain verification.",
+  "reward": "Tonkeeper Ecosystem Reputation & Verified Wallet Tools",
+  "category": "Telegram",
+  "featured": true,
+  "isHot": false,
+  "isFeatured": true,
+  "status": "active",
+  "publishDate": "2026-11-19",
+  "endTime": "Ongoing",
+  "funding": "Tonkeeper & TON Core Ecosystem",
+  "investors": "Tonkeeper Team",
+  "refLink": "https://t.me/tonviewer_bot",
+  "overview": "Maintained by the Tonkeeper team, Tonviewer is the go-to block explorer for The Open Network, also accessible as a lightweight Telegram Mini-App. Airdrop hunters use Tonviewer to verify Jetton contracts, check snapshot eligibility transactions, and monitor Tonkeeper wallet reputation.",
+  "strategy": "Bookmark Tonviewer inside Telegram to inspect every new mini-app contract before signing transactions and verify your Tonkeeper on-chain activity count.",
+  "tokenomics": "Core TON infrastructure tool supporting transparent Jetton and NFT verification.",
+  "sybilSafety": "Helps users avoid malicious drainer contracts and verify legitimate TON airdrop claims.",
+  "steps": [
+    "Open Tonviewer on Telegram (@tonviewer_bot) or tonviewer.com.",
+    "Enter your Tonkeeper address to inspect your on-chain transaction history.",
+    "Verify Jetton contract addresses before claiming or swapping new airdrops.",
+    "Monitor gas fees and wallet age metrics."
+  ],
+  "faqs": [
+    {
+      "question": "Who operates Tonviewer?",
+      "answer": "Tonviewer is built and maintained by the Tonkeeper team."
+    },
+    {
+      "question": "Is Tonviewer free?",
+      "answer": "Yes, exploring wallets, Jettons, and smart contracts is 100% free."
+    },
+    {
+      "question": "How does Tonviewer help airdrop hunters?",
+      "answer": "It lets you verify legitimate token contracts and confirm your on-chain activity before snapshots."
+    }
+  ],
+  "tier": "Tier 1",
+  "cost": "Free ($0)",
+  "stage": "Core TON Explorer",
+  "timeCommitment": "2 mins / week",
+  "snapshot": "Ongoing Utility",
+  "estDate": "Ongoing",
+  "socials": {
+    "twitter": "https://x.com/tonviewer",
+    "telegram": "https://t.me/tonviewer_bot",
+    "website": "https://tonviewer.com"
+  }
+},
+{
+  "id": "redoubt",
+  "name": "re:doubt",
+  "logo": "/images/airdrops/redoubt.svg",
+  "description": "re:doubt is a TON Foundation-supported on-chain analytics and Telegram Mini-App intelligence platform rewarding active analysts and data contributors.",
+  "reward": "re:doubt Analyst Points & TON Data Rewards",
+  "category": "Telegram",
+  "featured": true,
+  "isHot": false,
+  "isFeatured": true,
+  "status": "active",
+  "publishDate": "2026-11-19",
+  "endTime": "Q1 2027",
+  "funding": "TON Foundation Grant",
+  "investors": "TON Foundation & Data Collective",
+  "refLink": "https://t.me/redoubt_bot",
+  "overview": "Backed by a TON Foundation grant, re:doubt provides deep on-chain analytics, whale tracking, and Jetton liquidity monitoring for The Open Network inside Telegram. Early users who test alert bots, track TON DeFi metrics, and link Tonkeeper earn analyst loyalty points.",
+  "strategy": "Use re:doubt's Telegram analytics bot to set free whale/Jetton alerts and connect your Tonkeeper wallet for early researcher status.",
+  "tokenomics": "Community analyst points track early tool adoption and ecosystem data contributions on TON.",
+  "sybilSafety": "Active alert configuration and TON Connect verification prevent automated farming.",
+  "steps": [
+    "Launch re:doubt on Telegram (@redoubt_bot).",
+    "Connect your Tonkeeper or MyTonWallet.",
+    "Explore trending TON Jetton liquidity dashboards.",
+    "Configure free on-chain alerts for ecosystem tokens."
+  ],
+  "faqs": [
+    {
+      "question": "Is re:doubt supported by TON Foundation?",
+      "answer": "Yes, re:doubt received a grant from the TON Foundation."
+    },
+    {
+      "question": "Is it free to use?",
+      "answer": "Yes, core TON analytics and Telegram alerts are free."
+    },
+    {
+      "question": "Which wallet should I link?",
+      "answer": "Tonkeeper or MyTonWallet."
+    }
+  ],
+  "tier": "Tier 2",
+  "cost": "Free ($0)",
+  "stage": "Analytics Beta",
+  "timeCommitment": "3 mins / week",
+  "snapshot": "Q1 2027",
+  "estDate": "Q1 2027",
+  "socials": {
+    "twitter": "https://x.com/redoubt_ton",
+    "telegram": "https://t.me/redoubt_bot",
+    "website": "https://redoubt.online"
+  }
+},
+{
+  "id": "tapps-center",
+  "name": "Telegram Apps Center",
+  "logo": "/images/airdrops/tapps-center.svg",
+  "description": "Telegram Apps Center (tapps.center) is the curated directory of verified Telegram Mini-Apps on TON, helping hunters discover safe drops and avoid scam bots.",
+  "reward": "Verified Mini-App Discovery & Partner Campaigns",
+  "category": "Telegram",
+  "featured": true,
+  "isHot": true,
+  "isFeatured": true,
+  "status": "active",
+  "publishDate": "2026-11-19",
+  "endTime": "Ongoing",
+  "funding": "TON Ecosystem & Open Builders",
+  "investors": "TON App Directory",
+  "refLink": "https://t.me/tapps",
+  "overview": "Telegram Apps Center (@tapps) is the official catalog for discovering verified Telegram Mini-Apps, TON games, and DeFi tools. Launching new airdrop bots via Telegram Apps Center protects you from phishing clones while highlighting trending verified TON campaigns.",
+  "strategy": "Always verify new Telegram airdrop bots through @tapps and connect your Tonkeeper wallet to track curated ecosystem quests.",
+  "tokenomics": "Acts as the central discovery gateway for verified TON Mini-App token launches.",
+  "sybilSafety": "Curated app verification drastically reduces exposure to fake clone bots and wallet drainers.",
+  "steps": [
+    "Open Telegram Apps Center (@tapps) or tapps.center.",
+    "Browse the Top Airdrops, Games, and DeFi categories.",
+    "Verify official bot handles before launching any new mini-app.",
+    "Connect your dedicated Tonkeeper airdrop wallet only to verified apps."
+  ],
+  "faqs": [
+    {
+      "question": "Why use Telegram Apps Center?",
+      "answer": "It lists verified official Telegram Mini-App links so you avoid fake phishing clones."
+    },
+    {
+      "question": "Is @tapps free?",
+      "answer": "Yes, browsing and launching verified mini-apps is 100% free."
+    },
+    {
+      "question": "Which wallet should I use with listed apps?",
+      "answer": "Tonkeeper, MyTonWallet, or Telegram Wallet."
+    }
+  ],
+  "tier": "Tier 1",
+  "cost": "Free ($0)",
+  "stage": "Verified Directory",
+  "timeCommitment": "2 mins / day",
+  "snapshot": "Ongoing",
+  "estDate": "Ongoing",
+  "socials": {
+    "twitter": "https://x.com/tapps_center",
+    "telegram": "https://t.me/tapps",
+    "website": "https://tapps.center"
+  }
+},
+{
+  "id": "zenrock-tg",
+  "name": "Zenrock",
+  "logo": "/images/airdrops/zenrock-tg.svg",
+  "description": "Zenrock is a decentralized multi-party computation (dMPC) protocol with a Telegram Mini-App rewarding early testers with $ROCK points.",
+  "reward": "$ROCK Token Allocation & dMPC Quest Points",
+  "category": "Telegram",
+  "featured": true,
+  "isHot": false,
+  "isFeatured": true,
+  "status": "active",
+  "publishDate": "2026-11-19",
+  "endTime": "Q1 2027",
+  "funding": "$3.2M Seed (Spartan Group & Maven 11)",
+  "investors": [
+    "Spartan Group",
+    "Maven 11"
+  ],
+  "refLink": "https://t.me/ZenrockBot",
+  "overview": "Backed by Spartan Group and Maven 11, Zenrock builds decentralized MPC custody for cross-chain Bitcoin and wrapped assets (zenBTC). Through its Telegram Mini-App, users complete daily security quests, learn about dMPC custody, and stack $ROCK points ahead of TGE.",
+  "strategy": "Complete all free dMPC quests in Zenrock's Telegram Mini-App, maintain daily check-in streaks, and bind your Phantom or Rabby wallet.",
+  "tokenomics": "The $ROCK token secures decentralized MPC signers and rewards early community testers.",
+  "sybilSafety": "Wallet signature checks and multi-week quest streaks protect community allocations.",
+  "steps": [
+    "Open the Zenrock Telegram Mini-App (@ZenrockBot).",
+    "Initialize your profile and claim onboarding points.",
+    "Complete daily check-ins and dMPC educational quizzes.",
+    "Connect your Phantom or Rabby wallet in Settings."
+  ],
+  "faqs": [
+    {
+      "question": "Who backs Zenrock?",
+      "answer": "Zenrock is backed by Spartan Group and Maven 11."
+    },
+    {
+      "question": "Is the Zenrock Telegram quest free?",
+      "answer": "Yes, participating in the Telegram Mini-App quests is completely free."
+    },
+    {
+      "question": "Which wallet should I connect?",
+      "answer": "Phantom (Solana) or Rabby (EVM)."
+    }
+  ],
+  "tier": "Tier 1",
+  "cost": "Free ($0)",
+  "stage": "dMPC Quest Season",
+  "timeCommitment": "2 mins / day",
+  "snapshot": "Q1 2027",
+  "estDate": "Q1 2027",
+  "socials": {
+    "twitter": "https://x.com/zenrock",
+    "telegram": "https://t.me/ZenrockBot",
+    "website": "https://zenrocklabs.io"
+  }
+},
+{
+  "id": "ton-x-dao",
+  "name": "TONX",
+  "logo": "/images/airdrops/ton-x-dao.svg",
+  "description": "TONX is a core TON developer API and ecosystem studio running Telegram Mini-App community quests and SuperApp builder incentives.",
+  "reward": "TONX Ecosystem Points & Partner SuperApp Drops",
+  "category": "Telegram",
+  "featured": true,
+  "isHot": false,
+  "isFeatured": true,
+  "status": "active",
+  "publishDate": "2026-11-19",
+  "endTime": "Q1 2027",
+  "funding": "$4.0M Seed (SNZ Holding & Summer Ventures)",
+  "investors": [
+    "SNZ Holding",
+    "Summer Ventures"
+  ],
+  "refLink": "https://t.me/tonxstudio_bot",
+  "overview": "Backed by $4M from SNZ Holding and Summer Ventures, TONX provides enterprise-grade TON RPC APIs and SuperApp tooling. Through its Telegram Mini-App quests, early adopters test TONX-powered mini-apps and collect loyalty points for ecosystem drops.",
+  "strategy": "Complete free TONX SuperApp discovery quests inside Telegram and link your Tonkeeper wallet early.",
+  "tokenomics": "Community quest points track early SuperApp testers across TONX partner launches.",
+  "sybilSafety": "TON Connect wallet binding and partner task verification filter out automated farm accounts.",
+  "steps": [
+    "Launch the TONX Telegram Mini-App (@tonxstudio_bot).",
+    "Connect your Tonkeeper or MyTonWallet.",
+    "Complete featured SuperApp discovery tasks.",
+    "Check in weekly for new partner ecosystem quests."
+  ],
+  "faqs": [
+    {
+      "question": "Who invested in TONX?",
+      "answer": "TONX raised $4M led by SNZ Holding and Summer Ventures."
+    },
+    {
+      "question": "Is TONX free to join?",
+      "answer": "Yes, community discovery quests inside Telegram are free."
+    },
+    {
+      "question": "Which wallet works with TONX?",
+      "answer": "Tonkeeper and MyTonWallet."
+    }
+  ],
+  "tier": "Tier 1",
+  "cost": "Free ($0)",
+  "stage": "SuperApp Ecosystem",
+  "timeCommitment": "3 mins / week",
+  "snapshot": "Q1 2027",
+  "estDate": "Q1 2027",
+  "socials": {
+    "twitter": "https://x.com/TONX_Studio",
+    "telegram": "https://t.me/tonxstudio_bot",
+    "website": "https://tonx.studio"
+  }
 }
 ];
