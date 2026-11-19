@@ -45033,5 +45033,323 @@ export const airdrops: Airdrop[] = [
     "telegram": "https://t.me/notgames_bot",
     "website": "https://notgames.io"
   }
+},
+{
+  "id": "ton-raffles",
+  "name": "Ton Raffles",
+  "logo": "/images/airdrops/ton-raffles.svg",
+  "description": "Ton Raffles is a multi-tool TON ecosystem launchpad, staking platform, and Telegram Mini-App hub rewarding $RAFF stakers and quest participants.",
+  "reward": "$RAFF Staking Yield & Ecosystem Partner Airdrops",
+  "category": "Telegram",
+  "featured": true,
+  "isHot": true,
+  "isFeatured": true,
+  "status": "active",
+  "publishDate": "2026-11-19",
+  "endTime": "Q1 2027",
+  "funding": "TON Ecosystem & Protocol Fees",
+  "investors": "TON Venture Builders",
+  "refLink": "https://t.me/TonRafflesBot",
+  "overview": "Ton Raffles provides token launches, Jetton staking pools, NFT raffles, and a dedicated Telegram Mini-App quest center on The Open Network. Users who complete ecosystem discovery tasks, participate in fairlaunches, or stake $RAFF earn ongoing partner Jetton drops.",
+  "strategy": "Complete free TON ecosystem quests inside the Ton Raffles Telegram Mini-App, connect your Tonkeeper wallet, and explore low-cost Jetton staking pools.",
+  "tokenomics": "The $RAFF token captures launchpad fees, unlocks whitelist tiers, and receives seasonal partner ecosystem distributions.",
+  "sybilSafety": "On-chain Tonkeeper wallet verification and staking duration checks protect reward pools from bot farms.",
+  "steps": [
+    "Open the Ton Raffles Telegram Mini-App (@TonRafflesBot).",
+    "Connect your Tonkeeper or MyTonWallet via TON Connect.",
+    "Complete active TON partner quests in the Tasks tab.",
+    "Explore verified Jetton staking or raffle campaigns.",
+    "Track eligible partner drops in your dashboard."
+  ],
+  "faqs": [
+    {
+      "question": "What is Ton Raffles?",
+      "answer": "Ton Raffles is a TON launchpad, staking, and community quest hub accessible via Telegram and web."
+    },
+    {
+      "question": "Can I use Ton Raffles quests for free?",
+      "answer": "Yes, social and ecosystem discovery quests inside the mini-app are free."
+    },
+    {
+      "question": "Which wallet works best?",
+      "answer": "Tonkeeper or MyTonWallet."
+    }
+  ],
+  "tier": "Tier 1",
+  "cost": "Free ($0) / Optional Staking",
+  "stage": "TON Launchpad Season",
+  "timeCommitment": "3 mins / day",
+  "snapshot": "Ongoing Campaigns",
+  "estDate": "Q1 2027",
+  "socials": {
+    "twitter": "https://x.com/TonRaffles",
+    "telegram": "https://t.me/TonRafflesBot",
+    "website": "https://tonraffles.app"
+  }
+},
+{
+  "id": "jvault-ton",
+  "name": "JVault",
+  "logo": "/images/airdrops/jvault-ton.svg",
+  "description": "JVault is a decentralized Jetton staking protocol and Telegram Mini-App on TON distributing $JVT staking rewards and partner ecosystem drops.",
+  "reward": "$JVT Token Rewards & Jetton Staking Drops",
+  "category": "Telegram",
+  "featured": true,
+  "isHot": false,
+  "isFeatured": true,
+  "status": "active",
+  "publishDate": "2026-11-19",
+  "endTime": "Q1 2027",
+  "funding": "TON DeFi Grants & Protocol Treasury",
+  "investors": "TON DeFi Collective",
+  "refLink": "https://t.me/JVaultBot",
+  "overview": "JVault enables any TON Jetton project to launch non-custodial staking vaults directly inside Telegram. Users who stake supported TON tokens or complete JVault ecosystem quests earn $JVT protocol rewards and partner Jetton incentives.",
+  "strategy": "Connect Tonkeeper to JVault's Telegram Mini-App, complete free ecosystem quests, and stake small Jetton balances in verified vaults.",
+  "tokenomics": "The $JVT token powers vault creation fee rebates, governance voting, and boosted staking APY tiers.",
+  "sybilSafety": "On-chain Jetton staking locks and Tonkeeper signature checks prevent automated zero-balance farming.",
+  "steps": [
+    "Launch the JVault Telegram Mini-App (@JVaultBot).",
+    "Connect your Tonkeeper or MyTonWallet.",
+    "Complete free onboarding and partner quests.",
+    "Optionally stake supported TON Jettons in non-custodial vaults.",
+    "Claim accrued $JVT and partner rewards."
+  ],
+  "faqs": [
+    {
+      "question": "Is JVault non-custodial?",
+      "answer": "Yes, staking vaults operate on-chain via TON smart contracts."
+    },
+    {
+      "question": "Which wallet should I connect?",
+      "answer": "Tonkeeper or MyTonWallet via TON Connect."
+    },
+    {
+      "question": "How do I earn $JVT?",
+      "answer": "By staking in active vaults and completing community quests."
+    }
+  ],
+  "tier": "Tier 2",
+  "cost": "Free Quests / Optional Staking",
+  "stage": "Vault Season 2",
+  "timeCommitment": "3 mins / week",
+  "snapshot": "Q1 2027",
+  "estDate": "Q1 2027",
+  "socials": {
+    "twitter": "https://x.com/JVault_app",
+    "telegram": "https://t.me/JVaultBot",
+    "website": "https://jvault.xyz"
+  }
+},
+{
+  "id": "true-coin",
+  "name": "Truecoin",
+  "logo": "/images/airdrops/true-coin.svg",
+  "description": "Truecoin is a spin-to-earn and daily mining Telegram Mini-App on TON rewarding active spinners with $TRUE token points.",
+  "reward": "$TRUE Token Allocation & Spin Streaks",
+  "category": "Telegram",
+  "featured": true,
+  "isHot": false,
+  "isFeatured": true,
+  "status": "active",
+  "publishDate": "2026-11-19",
+  "endTime": "Q1 2027",
+  "funding": "$1.4M TON GameFi Seed",
+  "investors": "TON Casual Guilds",
+  "refLink": "https://t.me/true_coin_bot",
+  "overview": "Truecoin delivers a lightweight spin-wheel and energy-mining game inside Telegram. Players use regenerating spins to collect Truecoins, upgrade spin multipliers, and finish daily quests toward the upcoming $TRUE token snapshot.",
+  "strategy": "Use regenerating spins twice daily so spin energy never caps out, upgrade spin capacity first, and connect Tonkeeper.",
+  "tokenomics": "60% of $TRUE supply is earmarked for active Telegram players and verified TON wallet holders.",
+  "sybilSafety": "Regenerating spin timers and TON Connect wallet verification block automated bot farms.",
+  "steps": [
+    "Open Truecoin on Telegram (@true_coin_bot).",
+    "Spin the reward wheel using free regenerating energy.",
+    "Upgrade spin capacity and coin multipliers.",
+    "Complete daily social tasks for bonus spins.",
+    "Bind your Tonkeeper or Telegram Wallet."
+  ],
+  "faqs": [
+    {
+      "question": "Is Truecoin free to play?",
+      "answer": "Yes, spins regenerate automatically for free."
+    },
+    {
+      "question": "Which wallet works with Truecoin?",
+      "answer": "Tonkeeper and Telegram Wallet."
+    },
+    {
+      "question": "When is the $TRUE snapshot?",
+      "answer": "Expected in Q1 2027."
+    }
+  ],
+  "tier": "Tier 2",
+  "cost": "Free ($0)",
+  "stage": "Spin Season 2",
+  "timeCommitment": "2 mins / day",
+  "snapshot": "Q1 2027",
+  "estDate": "Q1 2027",
+  "socials": {
+    "twitter": "https://x.com/truecoin_app",
+    "telegram": "https://t.me/true_coin_bot",
+    "website": "https://truecoin.app"
+  }
+},
+{
+  "id": "tap-tether",
+  "name": "Tap Tether",
+  "logo": "/images/airdrops/tap-tether.svg",
+  "description": "Tap Tether is a TON-native Telegram Mini-App combining daily USDT-themed mining pools, partner quests, and $TAP token rewards.",
+  "reward": "$TAP Token Distribution & USDT Quest Pools",
+  "category": "Telegram",
+  "featured": true,
+  "isHot": false,
+  "isFeatured": true,
+  "status": "active",
+  "publishDate": "2026-11-19",
+  "endTime": "Q1 2027",
+  "funding": "$1.5M TON Ecosystem Pool",
+  "investors": "TON Builders Collective",
+  "refLink": "https://t.me/taptether_bot",
+  "overview": "Tap Tether rides the wave of native USDT adoption on TON by rewarding Telegram users with $TAP points and seasonal stablecoin quest pools. Players upgrade passive mining speed, complete daily check-ins, and link Tonkeeper for final verification.",
+  "strategy": "Upgrade passive hourly rate before manual taps, complete daily check-in streaks, and connect Tonkeeper early.",
+  "tokenomics": "65% of $TAP tokens are allocated to active Telegram community members and quest completers.",
+  "sybilSafety": "Daily check-in streak rules and TON Connect verification prevent scripted multi-account farming.",
+  "steps": [
+    "Launch Tap Tether on Telegram (@taptether_bot).",
+    "Start your passive mining cycle and collect initial points.",
+    "Upgrade hourly rate boosters in the Shop tab.",
+    "Complete daily social and partner quests.",
+    "Connect your Tonkeeper or Telegram Wallet."
+  ],
+  "faqs": [
+    {
+      "question": "Is Tap Tether free to join?",
+      "answer": "Yes, mining and daily quests are 100% free."
+    },
+    {
+      "question": "Which wallet should I link?",
+      "answer": "Tonkeeper or Telegram Wallet via TON Connect."
+    },
+    {
+      "question": "When is the $TAP token launch?",
+      "answer": "Scheduled for Q1 2027."
+    }
+  ],
+  "tier": "Tier 2",
+  "cost": "Free ($0)",
+  "stage": "TON Stablecoin Season",
+  "timeCommitment": "2 mins / day",
+  "snapshot": "Q1 2027",
+  "estDate": "Q1 2027",
+  "socials": {
+    "twitter": "https://x.com/taptether",
+    "telegram": "https://t.me/taptether_bot",
+    "website": "https://taptether.io"
+  }
+},
+{
+  "id": "fragment-ton",
+  "name": "Fragment",
+  "logo": "/images/airdrops/fragment-ton.svg",
+  "description": "Fragment is Telegram's official TON marketplace for collectible usernames, anonymous numbers, and Telegram Stars settlement.",
+  "reward": "TON Ecosystem Multiplier & Collectible Identity Eligibility",
+  "category": "Telegram",
+  "featured": true,
+  "isHot": true,
+  "isFeatured": true,
+  "status": "active",
+  "publishDate": "2026-11-19",
+  "endTime": "Ongoing",
+  "funding": "Telegram & TON Core Ecosystem",
+  "investors": "TON Foundation Ecosystem",
+  "refLink": "https://fragment.com",
+  "overview": "Fragment is the official decentralized auction and collectible platform built for Telegram on The Open Network. Holding a collectible Telegram username, anonymous +888 number, or interacting with Fragment via Tonkeeper is frequently used by TON projects as a high-trust anti-sybil signal for premium airdrop multipliers.",
+  "strategy": "Link your Tonkeeper wallet and Telegram account on Fragment so your on-chain TON identity is verifiable across upcoming TON ecosystem snapshots.",
+  "tokenomics": "All Fragment settlements occur natively in TON on-chain, building permanent verifiable wallet reputation.",
+  "sybilSafety": "On-chain collectible ownership and Telegram account verification on Fragment provide one of the strongest anti-sybil proofs on TON.",
+  "steps": [
+    "Visit the official Fragment portal (fragment.com).",
+    "Connect your non-custodial Tonkeeper or MyTonWallet via TON Connect.",
+    "Link your Telegram account securely.",
+    "Optionally explore collectible usernames or Telegram Premium/Stars auctions.",
+    "Keep your verified Tonkeeper wallet active for TON ecosystem snapshots."
+  ],
+  "faqs": [
+    {
+      "question": "Why does Fragment matter for TON airdrops?",
+      "answer": "Many TON projects check Fragment collectibles and on-chain Tonkeeper activity as high-trust anti-sybil criteria."
+    },
+    {
+      "question": "Which wallets work on Fragment?",
+      "answer": "Tonkeeper, MyTonWallet, and Telegram Wallet via TON Connect."
+    },
+    {
+      "question": "Is Fragment official?",
+      "answer": "Yes, Fragment is Telegram's official TON-based collectible marketplace."
+    }
+  ],
+  "tier": "Tier 1",
+  "cost": "Free to Link / Optional Collectibles",
+  "stage": "TON Identity Signal",
+  "timeCommitment": "5 mins once",
+  "snapshot": "Ongoing Ecosystem",
+  "estDate": "Ongoing",
+  "socials": {
+    "twitter": "https://x.com/ton_blockchain",
+    "telegram": "https://t.me/fragment",
+    "website": "https://fragment.com"
+  }
+},
+{
+  "id": "ton-dns",
+  "name": "TON DNS",
+  "logo": "/images/airdrops/ton-dns.svg",
+  "description": "TON DNS lets users mint human-readable .ton Web3 domain names linked to Tonkeeper wallets, serving as a key on-chain identity signal for TON drops.",
+  "reward": "On-Chain .ton Identity & Ecosystem Airdrop Multipliers",
+  "category": "Telegram",
+  "featured": true,
+  "isHot": false,
+  "isFeatured": true,
+  "status": "active",
+  "publishDate": "2026-11-19",
+  "endTime": "Ongoing",
+  "funding": "TON Foundation Core Protocol",
+  "investors": "TON Foundation",
+  "refLink": "https://dns.ton.org",
+  "overview": "TON DNS is the official decentralized naming system of The Open Network, turning long Tonkeeper wallet addresses into memorable .ton domains. Because .ton domains require on-chain registration and renewal, holding an active .ton domain is a widely recognized anti-sybil badge across TON DeFi and Telegram Mini-App airdrops.",
+  "strategy": "Register or bid on an affordable .ton domain via dns.ton.org or Getgems, bind it to your primary Tonkeeper airdrop wallet, and resolve it on-chain.",
+  "tokenomics": "TON DNS auctions burn or lock TON according to core network naming rules, creating verifiable on-chain domain NFTs.",
+  "sybilSafety": "On-chain .ton NFT ownership separates committed TON ecosystem users from disposable bot wallets.",
+  "steps": [
+    "Visit dns.ton.org and connect your Tonkeeper or MyTonWallet.",
+    "Search for an available .ton domain name.",
+    "Place a minimum bid or purchase an existing .ton domain on Getgems.",
+    "Set your Tonkeeper wallet address as the resolver for your .ton domain.",
+    "Use this wallet across Telegram Mini-Apps and TON DeFi protocols."
+  ],
+  "faqs": [
+    {
+      "question": "Does holding a .ton domain help with airdrops?",
+      "answer": "Yes, Web3 domain ownership (.ton) is frequently weighted as a human-identity and anti-sybil multiplier on TON."
+    },
+    {
+      "question": "Which wallet should hold my .ton domain?",
+      "answer": "Your primary Tonkeeper or MyTonWallet airdrop address."
+    },
+    {
+      "question": "Where can I buy a .ton domain?",
+      "answer": "Directly via dns.ton.org or on the Getgems NFT marketplace."
+    }
+  ],
+  "tier": "Tier 1",
+  "cost": "Low TON Fee",
+  "stage": "TON Identity",
+  "timeCommitment": "5 mins once",
+  "snapshot": "Ongoing Ecosystem",
+  "estDate": "Ongoing",
+  "socials": {
+    "twitter": "https://x.com/ton_blockchain",
+    "telegram": "https://t.me/toncoin",
+    "website": "https://dns.ton.org"
+  }
 }
 ];

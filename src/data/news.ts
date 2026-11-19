@@ -8059,5 +8059,119 @@ export const newsArticles: NewsArticle[] = [
   ],
   "relatedAirdropId": "not-games",
   "content": "Not Games brings multiple indie TON arcade titles into one Open Builders Telegram hub, rewarding real gameplay achievements and Tonkeeper verification with unified seasonal drops."
+},
+{
+  "slug": "ton-raffles-launchpad-staking-telegram-mini-app-raff",
+  "title": "Ton Raffles Expands Jetton Staking and Partner Quests Inside Telegram for $RAFF",
+  "excerpt": "Complete free TON partner quests inside Ton Raffles' Telegram Mini-App and stake $RAFF via Tonkeeper for ecosystem drops.",
+  "author": "Antigravity Research",
+  "date": "November 19, 2026",
+  "readTime": "4 min read",
+  "category": "Telegram Mini-Apps",
+  "image": "/images/airdrops/ton-raffles.svg",
+  "tags": [
+    "Ton Raffles",
+    "$RAFF",
+    "TON",
+    "Launchpad",
+    "Airdrop"
+  ],
+  "relatedAirdropId": "ton-raffles",
+  "content": "Ton Raffles combines a native TON token launchpad, NFT raffles, and a Telegram Mini-App quest center. Completing partner discovery tasks and staking $RAFF positions users for recurring Jetton ecosystem drops."
+},
+{
+  "slug": "jvault-ton-jetton-staking-vaults-jvt-airdrop",
+  "title": "JVault Brings Non-Custodial Jetton Staking Vaults to Telegram for $JVT Rewards",
+  "excerpt": "Explore JVault's TON smart-contract staking vaults and free Telegram Mini-App quests ahead of the $JVT snapshot.",
+  "author": "Antigravity Research",
+  "date": "November 19, 2026",
+  "readTime": "3 min read",
+  "category": "Telegram Mini-Apps",
+  "image": "/images/airdrops/jvault-ton.svg",
+  "tags": [
+    "JVault",
+    "$JVT",
+    "TON DeFi",
+    "Telegram",
+    "Airdrop"
+  ],
+  "relatedAirdropId": "jvault-ton",
+  "content": "JVault allows TON users to stake Jettons in non-custodial smart-contract vaults directly through Telegram Connect. Free quests and active vault staking qualify participants for $JVT and partner rewards."
+},
+{
+  "slug": "truecoin-spin-to-earn-telegram-mini-app-true-airdrop",
+  "title": "Truecoin Gamifies Spin-to-Earn Mining on Telegram for $TRUE Token Allocation",
+  "excerpt": "Use free regenerating spins in Truecoin, upgrade spin capacity, and connect Tonkeeper ahead of the $TRUE snapshot.",
+  "author": "Antigravity Research",
+  "date": "November 19, 2026",
+  "readTime": "3 min read",
+  "category": "Telegram Mini-Apps",
+  "image": "/images/airdrops/true-coin.svg",
+  "tags": [
+    "Truecoin",
+    "$TRUE",
+    "TON",
+    "Telegram",
+    "Airdrop"
+  ],
+  "relatedAirdropId": "true-coin",
+  "content": "Truecoin allocates 60% of its $TRUE token supply to active Telegram players. Using regenerating spins twice daily and connecting Tonkeeper maximizes seasonal eligibility."
+},
+{
+  "slug": "tap-tether-ton-stablecoin-quests-telegram-tap-airdrop",
+  "title": "Tap Tether Combines TON Stablecoin Quests with Passive $TAP Farming",
+  "excerpt": "Upgrade passive hourly rates and finish daily TON ecosystem tasks in Tap Tether's Telegram Mini-App for $TAP rewards.",
+  "author": "Antigravity Research",
+  "date": "November 19, 2026",
+  "readTime": "3 min read",
+  "category": "Telegram Mini-Apps",
+  "image": "/images/airdrops/tap-tether.svg",
+  "tags": [
+    "Tap Tether",
+    "TON",
+    "$TAP",
+    "Telegram",
+    "Airdrop"
+  ],
+  "relatedAirdropId": "tap-tether",
+  "content": "Tap Tether dedicates 65% of its $TAP supply to Telegram community farmers. Prioritizing hourly passive upgrades and Tonkeeper verification builds strong snapshot positioning."
+},
+{
+  "slug": "fragment-ton-collectible-identity-airdrop-multiplier-guide",
+  "title": "Why Fragment Verification Acts as a Key Anti-Sybil Signal for TON Airdrops",
+  "excerpt": "How linking your Telegram account and Tonkeeper wallet on Fragment strengthens on-chain reputation across TON ecosystem drops.",
+  "author": "Antigravity Research",
+  "date": "November 19, 2026",
+  "readTime": "4 min read",
+  "category": "Telegram Mini-Apps",
+  "image": "/images/airdrops/fragment-ton.svg",
+  "tags": [
+    "Fragment",
+    "TON",
+    "Anti-Sybil",
+    "Telegram",
+    "Airdrop"
+  ],
+  "relatedAirdropId": "fragment-ton",
+  "content": "Fragment is Telegram's official TON collectible marketplace for usernames and anonymous numbers. Linking Tonkeeper on Fragment provides a strong on-chain identity signal valued by TON airdrop campaigns."
+},
+{
+  "slug": "ton-dns-domains-on-chain-identity-tonkeeper-airdrop-guide",
+  "title": "TON DNS (.ton Domains) Guide: Boosting Wallet Reputation for TON Ecosystem Drops",
+  "excerpt": "Learn how registering and resolving a .ton domain to Tonkeeper strengthens your anti-sybil profile across TON DeFi and Mini-Apps.",
+  "author": "Antigravity Research",
+  "date": "November 19, 2026",
+  "readTime": "4 min read",
+  "category": "Telegram Mini-Apps",
+  "image": "/images/airdrops/ton-dns.svg",
+  "tags": [
+    "TON DNS",
+    "Tonkeeper",
+    "TON",
+    "Anti-Sybil",
+    "Airdrop"
+  ],
+  "relatedAirdropId": "ton-dns",
+  "content": "TON DNS maps memorable .ton domain names directly to Tonkeeper addresses on-chain. Holding a resolved .ton domain serves as a widely respected human-identity badge across TON ecosystem snapshots."
 }
 ];
