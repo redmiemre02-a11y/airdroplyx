@@ -10,13 +10,15 @@ interface Props {
 	description?: string;
 	image?: string;
 	lang?: string;
+	alternates?: { lang: string; href: string }[];
 }
 
 const { 
 	title, 
 	description = "The ultimate guide to verified crypto airdrops, testnet guides, and Web3 farming strategies.",
 	image = "https://airdroplyx.com/logo.jpg",
-	lang = "en"
+	lang = "en",
+	alternates = []
 } = Astro.props;
 
 const rawAbsImage = image.startsWith('http') ? image : `https://airdroplyx.com${image.startsWith('/') ? '' : '/'}${image}`;
@@ -38,6 +40,9 @@ const canonicalURL = new URL(normalizedPath, Astro.site || "https://airdroplyx.c
 		<title>{title}</title>
 		<meta name="description" content={description} />
 		<link rel="canonical" href={canonicalURL} />
+		{alternates.map(alt => (
+			<link rel="alternate" hreflang={alt.lang} href={alt.href} />
+		))}
 		<meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
 
 		<!-- RSS Autodiscovery Feed -->

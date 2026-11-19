@@ -1,0 +1,174 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Header from './Header.astro';
+import { airdrops } from '../data/airdrops';
+
+interface FAQItem {
+  q: string;
+  a: string;
+}
+
+interface TipCard {
+  title: string;
+  body: string;
+}
+
+interface Props {
+  lang: string;
+  flag: string;
+  badgeText: string;
+  title: string;
+  description: string;
+  h1: string;
+  intro: string;
+  listTitle: string;
+  activeBadge: string;
+  guideCta: string;
+  homeLabel: string;
+  breadcrumbLabel: string;
+  faqTitle: string;
+  tips: TipCard[];
+  faqs: FAQItem[];
+}
+
+const {
+  lang,
+  flag,
+  badgeText,
+  title,
+  description,
+  h1,
+  intro,
+  listTitle,
+  activeBadge,
+  guideCta,
+  homeLabel,
+  breadcrumbLabel,
+  faqTitle,
+  tips,
+  faqs
+} = Astro.props;
+
+const alternates = [
+  { lang: 'en', href: 'https://airdroplyx.com/ecosystem/telegram/' },
+  { lang: 'tr', href: 'https://airdroplyx.com/tr/telegram-airdroplari/' },
+  { lang: 'ru', href: 'https://airdroplyx.com/ru/telegram-airdrops/' },
+  { lang: 'id', href: 'https://airdroplyx.com/id/airdrop-telegram/' },
+  { lang: 'vi', href: 'https://airdroplyx.com/vi/airdrop-telegram/' },
+  { lang: 'es', href: 'https://airdroplyx.com/es/airdrops-telegram/' },
+  { lang: 'pt', href: 'https://airdroplyx.com/pt/airdrops-telegram/' },
+  { lang: 'x-default', href: 'https://airdroplyx.com/ecosystem/telegram/' }
+];
+
+const currentDate = new Date().toISOString().split('T')[0];
+const telegramAirdrops = airdrops
+  .filter(a => (!a.publishDate || a.publishDate <= currentDate) && a.status === 'active' && /telegram/i.test(a.category))
+  .slice(-36)
+  .reverse();
+
+const currentAlt = alternates.find(a => a.lang === lang)?.href || 'https://airdroplyx.com/';
+---
+
+<Layout lang={lang} title={title} description={description} alternates={alternates}>
+  <script type="application/ld+json" set:html={JSON.stringify({
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          { "@type": "ListItem", "position": 1, "name": homeLabel, "item": "https://airdroplyx.com/" },
+          { "@type": "ListItem", "position": 2, "name": breadcrumbLabel, "item": currentAlt }
+        ]
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": faqs.map(f => ({
+          "@type": "Question",
+          "name": f.q,
+          "acceptedAnswer": { "@type": "Answer", "text": f.a }
+        }))
+      }
+    ]
+  })} />
+
+  <Header />
+
+  <main class="max-w-[1150px] mx-auto px-4 py-12">
+    <nav class="flex items-center gap-2 text-xs font-semibold text-slate-400 mb-6" aria-label="Breadcrumb">
+      <a href="/" class="hover:text-slate-900 dark:hover:text-white">{homeLabel}</a>
+      <span>/</span>
+      <span class="text-slate-900 dark:text-white">{breadcrumbLabel}</span>
+    </nav>
+
+    <header class="bg-gradient-to-br from-slate-900 via-blue-950 to-slate-900 text-white rounded-3xl p-8 md:p-12 mb-10 border border-blue-500/20 shadow-xl">
+      <span class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-blue-500/20 border border-blue-400/30 text-blue-300 text-xs font-bold uppercase tracking-wider mb-4">
+        {flag} {badgeText} • {telegramAirdrops.length}+
+      </span>
+      <h1 class="text-3xl md:text-5xl font-black tracking-tight mb-4 leading-tight">{h1}</h1>
+      <p class="text-slate-300 text-base md:text-lg max-w-3xl leading-relaxed mb-6">{intro}</p>
+
+      <div class="flex flex-wrap gap-2 pt-2">
+        <a href="/ecosystem/telegram/" class={`px-3 py-1.5 rounded-lg text-xs font-bold border ${lang === 'en' ? 'bg-blue-600 border-blue-500 text-white' : 'bg-white/10 border-white/15 text-slate-200 hover:bg-white/20'}`}>🇬🇧 EN</a>
+        <a href="/tr/telegram-airdroplari/" class={`px-3 py-1.5 rounded-lg text-xs font-bold border ${lang === 'tr' ? 'bg-blue-600 border-blue-500 text-white' : 'bg-white/10 border-white/15 text-slate-200 hover:bg-white/20'}`}>🇹🇷 TR</a>
+        <a href="/ru/telegram-airdrops/" class={`px-3 py-1.5 rounded-lg text-xs font-bold border ${lang === 'ru' ? 'bg-blue-600 border-blue-500 text-white' : 'bg-white/10 border-white/15 text-slate-200 hover:bg-white/20'}`}>🇷🇺 RU</a>
+        <a href="/id/airdrop-telegram/" class={`px-3 py-1.5 rounded-lg text-xs font-bold border ${lang === 'id' ? 'bg-blue-600 border-blue-500 text-white' : 'bg-white/10 border-white/15 text-slate-200 hover:bg-white/20'}`}>🇮🇩 ID</a>
+        <a href="/vi/airdrop-telegram/" class={`px-3 py-1.5 rounded-lg text-xs font-bold border ${lang === 'vi' ? 'bg-blue-600 border-blue-500 text-white' : 'bg-white/10 border-white/15 text-slate-200 hover:bg-white/20'}`}>🇻🇳 VI</a>
+        <a href="/es/airdrops-telegram/" class={`px-3 py-1.5 rounded-lg text-xs font-bold border ${lang === 'es' ? 'bg-blue-600 border-blue-500 text-white' : 'bg-white/10 border-white/15 text-slate-200 hover:bg-white/20'}`}>🇪🇸 ES</a>
+        <a href="/pt/airdrops-telegram/" class={`px-3 py-1.5 rounded-lg text-xs font-bold border ${lang === 'pt' ? 'bg-blue-600 border-blue-500 text-white' : 'bg-white/10 border-white/15 text-slate-200 hover:bg-white/20'}`}>🇧🇷 PT</a>
+      </div>
+    </header>
+
+    <section class="grid grid-cols-1 md:grid-cols-3 gap-5 mb-12">
+      {tips.map(tip => (
+        <div class="p-6 rounded-2xl bg-white dark:bg-slate-800 border border-slate-200 dark:border-slate-700">
+          <h2 class="font-extrabold text-lg text-slate-900 dark:text-white mb-2">{tip.title}</h2>
+          <p class="text-sm text-slate-600 dark:text-slate-300 leading-relaxed">{tip.body}</p>
+        </div>
+      ))}
+    </section>
+
+    <section id="list" class="mb-16">
+      <div class="flex items-center justify-between border-b border-slate-200 dark:border-slate-700 pb-4 mb-6">
+        <h2 class="text-2xl font-black text-slate-900 dark:text-white">{listTitle}</h2>
+        <span class="text-xs font-bold bg-emerald-100 dark:bg-emerald-950/50 text-emerald-700 dark:text-emerald-300 px-3 py-1 rounded-full">
+          {activeBadge}
+        </span>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
+        {telegramAirdrops.map(drop => (
+          <a href={`/airdrop/${drop.id}/`} class="bg-white dark:bg-slate-800 rounded-2xl p-5 border border-slate-200 dark:border-slate-700 hover:border-blue-500 hover:shadow-lg transition-all flex flex-col justify-between group">
+            <div>
+              <div class="flex items-center gap-3 mb-3">
+                <img src={drop.logo} alt={drop.name} width="48" height="48" loading="lazy" decoding="async" class="w-12 h-12 rounded-xl object-cover bg-slate-50 p-1 border border-slate-100 dark:border-slate-700 shrink-0" />
+                <div class="min-w-0">
+                  <h3 class="font-bold text-base text-slate-900 dark:text-white group-hover:text-blue-600 transition-colors truncate">{drop.name}</h3>
+                  <span class="text-xs font-semibold text-emerald-600 dark:text-emerald-400 block truncate">{drop.cost || 'Free ($0)'}</span>
+                </div>
+              </div>
+              <p class="text-xs text-slate-600 dark:text-slate-300 line-clamp-2 leading-relaxed mb-4">
+                {drop.description}
+              </p>
+            </div>
+            <div class="pt-3 border-t border-slate-100 dark:border-slate-700 flex items-center justify-between text-xs">
+              <span class="font-semibold text-slate-500 dark:text-slate-400 truncate max-w-[65%]">{drop.reward}</span>
+              <span class="font-bold text-blue-600 dark:text-blue-400 shrink-0">{guideCta} →</span>
+            </div>
+          </a>
+        ))}
+      </div>
+    </section>
+
+    <section class="bg-slate-50 dark:bg-slate-800/50 rounded-3xl p-6 md:p-8 border border-slate-200 dark:border-slate-700">
+      <h2 class="text-2xl font-black text-slate-900 dark:text-white mb-5">{faqTitle}</h2>
+      <div class="space-y-4">
+        {faqs.map(f => (
+          <div class="p-4 rounded-2xl bg-white dark:bg-slate-900/60 border border-slate-200/70 dark:border-slate-700/70">
+            <h3 class="font-bold text-slate-900 dark:text-white text-base mb-1">{f.q}</h3>
+            <p class="text-sm text-slate-600 dark:text-slate-300 leading-relaxed">{f.a}</p>
+          </div>
+        ))}
+      </div>
+    </section>
+  </main>
+</Layout>
