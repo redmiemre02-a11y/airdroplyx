@@ -1,0 +1,63 @@
+---
+import Layout from '../../../layouts/Layout.astro';
+import Header from '../../../components/Header.astro';
+---
+
+<Layout
+  lang="tr"
+  title="Tonkeeper Airdrop Çekimi & Cüzdan Bağlama Rehberi (2026) | Airdroplyx"
+  description="Telegram Mini-App airdroplarından kazanılan tokenları Tonkeeper ve MyTonWallet ile güvenli şekilde çekme, TON Connect bağlantısı ve gas ücreti rehberi."
+>
+  <Header />
+
+  <main class="max-w-[900px] mx-auto px-4 py-12">
+    <nav class="flex items-center gap-2 text-xs font-semibold text-slate-400 mb-6" aria-label="Breadcrumb">
+      <a href="/" class="hover:text-slate-900 dark:hover:text-white">Ana Sayfa</a>
+      <span>/</span>
+      <a href="/tr/telegram-airdroplari/" class="hover:text-slate-900 dark:hover:text-white">Telegram Airdropları</a>
+      <span>/</span>
+      <span class="text-slate-900 dark:text-white">Tonkeeper Çekim Rehberi</span>
+    </nav>
+
+    <header class="mb-10">
+      <span class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-emerald-50 dark:bg-emerald-950/40 text-emerald-700 dark:text-emerald-300 border border-emerald-200 dark:border-emerald-800 text-xs font-bold uppercase mb-4">
+        🛡️ Güvenli Çekim &amp; Cüzdan Kurulumu
+      </span>
+      <h1 class="text-3xl md:text-4xl font-black text-slate-900 dark:text-white leading-tight mb-4">
+        Telegram Airdropları Tonkeeper ve MyTonWallet ile Nasıl Çekilir?
+      </h1>
+      <p class="text-slate-600 dark:text-slate-300 text-base md:text-lg leading-relaxed">
+        Telegram oyunlarından ve mini uygulamalardan kazandığınız tokenları güvenli şekilde kendi cüzdanınıza almak için bilmeniz gereken tüm adımlar.
+      </p>
+    </header>
+
+    <div class="space-y-8 text-slate-700 dark:text-slate-300">
+      <section class="p-6 rounded-2xl bg-white dark:bg-slate-800 border border-slate-200 dark:border-slate-700">
+        <h2 class="text-xl font-black text-slate-900 dark:text-white mb-3">1. Airdrop İçin Ayrı Bir TON Cüzdanı Oluşturun</h2>
+        <p class="text-sm sm:text-base leading-relaxed mb-3">
+          Tonkeeper veya MyTonWallet uygulamasını indirip yeni bir cüzdan oluşturun. Size verilen <strong>24 kelimelik gizli kurtarma ifadesini</strong> mutlaka kağıda yazıp çevrimdışı saklayın; ekran görüntüsü almayın ve kesinlikle hiçbir Telegram botuna yazmayın.
+        </p>
+      </section>
+
+      <section class="p-6 rounded-2xl bg-white dark:bg-slate-800 border border-slate-200 dark:border-slate-700">
+        <h2 class="text-xl font-black text-slate-900 dark:text-white mb-3">2. TON Connect ile Botlara Güvenli Bağlanın</h2>
+        <p class="text-sm sm:text-base leading-relaxed mb-3">
+          Mini-App içinde <em>Connect Wallet</em> veya <em>Airdrop</em> sekmesine girip <strong>Tonkeeper</strong> seçeneğini seçin. Onay penceresi yalnızca cüzdan adresinizi okur; siz onay vermeden cüzdanınızdan token çekemez.
+        </p>
+      </section>
+
+      <section class="p-6 rounded-2xl bg-white dark:bg-slate-800 border border-slate-200 dark:border-slate-700">
+        <h2 class="text-xl font-black text-slate-900 dark:text-white mb-3">3. Ağ Ücreti (Gas Fee) İçin Küçük Miktar TON Bulundurun</h2>
+        <p class="text-sm sm:text-base leading-relaxed">
+          Token dağıtım (claim) günü geldiğinde on-chain işlem onaylamak için cüzdanınızda yaklaşık <strong>0.1 – 0.3 TON</strong> bulunması yeterlidir. "Ödül kilidi açmak için 2 TON gönderin" diyen sahte botlardan kesinlikle uzak durun.
+        </p>
+      </section>
+
+      <div class="pt-4">
+        <a href="/tr/telegram-airdroplari/" class="inline-flex items-center gap-2 bg-blue-600 hover:bg-blue-700 text-white font-bold px-6 py-3.5 rounded-xl text-sm transition-colors">
+          ← Tüm Aktif Telegram Airdroplarına Dön
+        </a>
+      </div>
+    </div>
+  </main>
+</Layout>
