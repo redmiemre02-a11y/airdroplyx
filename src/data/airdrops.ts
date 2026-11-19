@@ -45351,5 +45351,324 @@ export const airdrops: Airdrop[] = [
     "telegram": "https://t.me/toncoin",
     "website": "https://dns.ton.org"
   }
+},
+{
+  "id": "xrocket-ton",
+  "name": "xRocket",
+  "logo": "/images/airdrops/xrocket-ton.svg",
+  "description": "xRocket is a multi-feature Telegram crypto wallet, Jetton giveaway bot, and TON DEX hub rewarding active users with $XROCK incentives.",
+  "reward": "$XROCK Loyalty Rewards & Jetton Giveaway Drops",
+  "category": "Telegram",
+  "featured": true,
+  "isHot": true,
+  "isFeatured": true,
+  "status": "active",
+  "publishDate": "2026-11-19",
+  "endTime": "Q1 2027",
+  "funding": "TON Ecosystem & Protocol Fees",
+  "investors": "TON Builders Collective",
+  "refLink": "https://t.me/xrocket",
+  "overview": "xRocket is one of the longest-running TON ecosystem bots inside Telegram, powering instant Jetton cheques, community giveaways, and peer-to-peer TON swaps. Active users who claim verified community cheques, test swaps, and link Tonkeeper earn $XROCK loyalty rewards.",
+  "strategy": "Use xRocket inside Telegram for small organic TON Jetton swaps, claim verified partner cheques, and withdraw rewards to your non-custodial Tonkeeper wallet.",
+  "tokenomics": "The $XROCK token unlocks fee discounts, giveaway hosting perks, and ecosystem partner drops.",
+  "sybilSafety": "On-chain deposit/withdrawal history and Telegram account age checks filter out disposable farm accounts.",
+  "steps": [
+    "Open the official xRocket bot on Telegram (@xrocket).",
+    "Explore the built-in TON Exchange and Jetton cheque features.",
+    "Complete verified partner community tasks.",
+    "Withdraw or connect your non-custodial Tonkeeper wallet.",
+    "Track $XROCK loyalty tiers ahead of seasonal distributions."
+  ],
+  "faqs": [
+    {
+      "question": "What is xRocket on Telegram?",
+      "answer": "xRocket is a popular TON Telegram bot for Jetton transfers, community giveaways, and fast swaps."
+    },
+    {
+      "question": "Should I store large funds in Telegram bots?",
+      "answer": "No—always keep long-term holdings in a self-custody wallet like Tonkeeper or MyTonWallet."
+    },
+    {
+      "question": "How do I earn $XROCK incentives?",
+      "answer": "Through organic TON swaps, verified partner campaigns, and loyalty quests."
+    }
+  ],
+  "tier": "Tier 1",
+  "cost": "Free / Optional Swap Gas",
+  "stage": "TON Loyalty Season",
+  "timeCommitment": "3 mins / week",
+  "snapshot": "Ongoing Epochs",
+  "estDate": "Q1 2027",
+  "socials": {
+    "twitter": "https://x.com/xrocket_ton",
+    "telegram": "https://t.me/xrocket",
+    "website": "https://xrocket.tg"
+  }
+},
+{
+  "id": "tribute-ton",
+  "name": "Tribute",
+  "logo": "/images/airdrops/tribute-ton.svg",
+  "description": "Tribute is Telegram's native creator monetization and subscription Mini-App powered by TON and Telegram Stars.",
+  "reward": "Creator Ecosystem Incentives & TON Activity Signal",
+  "category": "Telegram",
+  "featured": true,
+  "isHot": false,
+  "isFeatured": true,
+  "status": "active",
+  "publishDate": "2026-11-19",
+  "endTime": "Ongoing",
+  "funding": "TON Ecosystem Builders",
+  "investors": "TON Venture Builders",
+  "refLink": "https://t.me/tribute",
+  "overview": "Tribute enables Telegram channel owners and creators to accept subscriptions, donations, and digital product payments directly via TON and Telegram Stars. Setting up or supporting creators via Tribute builds authentic Telegram & Tonkeeper ecosystem history.",
+  "strategy": "Link your Tonkeeper wallet inside Tribute and explore creator support tools to establish genuine Telegram economy activity.",
+  "tokenomics": "Native TON and Telegram Stars settlement powers creator payouts with minimal friction.",
+  "sybilSafety": "Verified Telegram channel ownership and real TON settlement transactions distinguish genuine participants from automated bots.",
+  "steps": [
+    "Launch Tribute on Telegram (@tribute).",
+    "Connect your non-custodial Tonkeeper or Telegram Wallet.",
+    "Configure creator payout settings or follow verified creators.",
+    "Maintain authentic Telegram ecosystem engagement."
+  ],
+  "faqs": [
+    {
+      "question": "Who is Tribute built for?",
+      "answer": "Telegram creators, communities, and supporters using TON and Telegram Stars."
+    },
+    {
+      "question": "Which wallet connects to Tribute?",
+      "answer": "Tonkeeper and Telegram Wallet via TON Connect."
+    },
+    {
+      "question": "Is Tribute free to explore?",
+      "answer": "Yes, connecting your wallet and setting up a creator profile is free."
+    }
+  ],
+  "tier": "Tier 2",
+  "cost": "Free ($0)",
+  "stage": "Telegram Creator Economy",
+  "timeCommitment": "5 mins once",
+  "snapshot": "Ongoing Ecosystem",
+  "estDate": "Ongoing",
+  "socials": {
+    "twitter": "https://x.com/tribute_tg",
+    "telegram": "https://t.me/tribute",
+    "website": "https://tribute.tg"
+  }
+},
+{
+  "id": "megaton-finance",
+  "name": "Megaton Finance",
+  "logo": "/images/airdrops/megaton-finance.svg",
+  "description": "Megaton Finance is an Ozys-built autonomous AMM DEX on TON supporting cross-chain wrapped assets and $MEGA liquidity mining.",
+  "reward": "$MEGA Yield Farming & TON DeFi Incentives",
+  "category": "Telegram",
+  "featured": true,
+  "isHot": false,
+  "isFeatured": true,
+  "status": "active",
+  "publishDate": "2026-11-19",
+  "endTime": "Q1 2027",
+  "funding": "$1.5M+ (Ozys & TON Foundation Grant)",
+  "investors": [
+    "TONcoin.fund",
+    "Ozys",
+    "Cypher Capital"
+  ],
+  "refLink": "https://megaton.fi",
+  "overview": "Developed by Ozys with backing from TONcoin.fund and Cypher Capital, Megaton Finance is one of the earliest AMM DEX protocols on The Open Network. Users swap bridged assets, supply liquidity to TON/Jetton pools, and farm $MEGA rewards via Tonkeeper.",
+  "strategy": "Connect Tonkeeper to Megaton Finance, execute organic Jetton swaps, and explore incentivized LP pools for ongoing $MEGA emissions.",
+  "tokenomics": "The $MEGA token governs liquidity pool emission weights and protocol fee sharing on TON.",
+  "sybilSafety": "Real on-chain LP duration and Tonkeeper transaction history protect farming rewards.",
+  "steps": [
+    "Visit megaton.fi and connect your Tonkeeper or MyTonWallet.",
+    "Execute organic swaps across supported TON Jetton pairs.",
+    "Optionally supply liquidity to active farming pools.",
+    "Harvest $MEGA rewards periodically to build on-chain TON DeFi history."
+  ],
+  "faqs": [
+    {
+      "question": "Who built Megaton Finance?",
+      "answer": "Megaton Finance was built by Ozys and backed by TONcoin.fund and Cypher Capital."
+    },
+    {
+      "question": "Which wallets work with Megaton Finance?",
+      "answer": "Tonkeeper and MyTonWallet."
+    },
+    {
+      "question": "What is $MEGA?",
+      "answer": "$MEGA is the governance and liquidity incentive token of Megaton Finance."
+    }
+  ],
+  "tier": "Tier 1",
+  "cost": "Gas / Optional LP",
+  "stage": "TON DeFi Mining",
+  "timeCommitment": "5 mins / week",
+  "snapshot": "Ongoing",
+  "estDate": "Q1 2027",
+  "socials": {
+    "twitter": "https://x.com/MegatonFinance",
+    "telegram": "https://t.me/MegatonFinanceOfficial",
+    "website": "https://megaton.fi"
+  }
+},
+{
+  "id": "ton-bridge",
+  "name": "TON Bridge",
+  "logo": "/images/airdrops/ton-bridge.svg",
+  "description": "TON Bridge is the official cross-chain bridge connecting Ethereum and EVM networks to The Open Network via Tonkeeper and Rabby.",
+  "reward": "On-Chain Cross-Chain Reputation & TON Ecosystem Multiplier",
+  "category": "Telegram",
+  "featured": true,
+  "isHot": false,
+  "isFeatured": true,
+  "status": "active",
+  "publishDate": "2026-11-19",
+  "endTime": "Ongoing",
+  "funding": "TON Foundation Core Infrastructure",
+  "investors": "TON Foundation",
+  "refLink": "https://bridge.ton.org",
+  "overview": "TON Bridge is the canonical decentralized bridge built by the TON Foundation to transfer TON and wrapped tokens between EVM networks and The Open Network. Bridging assets directly between Rabby and Tonkeeper establishes high-value cross-chain provenance often checked by TON ecosystem airdrops.",
+  "strategy": "Bridge a small organic amount between EVM (Rabby) and TON (Tonkeeper) using bridge.ton.org to register canonical cross-chain history.",
+  "tokenomics": "Canonical bridge transactions operate natively on TON validators without centralized custody.",
+  "sybilSafety": "Cross-chain gas-backed bridge transactions are one of the hardest signals for sybil bots to fake at scale.",
+  "steps": [
+    "Visit the official TON Bridge portal (bridge.ton.org).",
+    "Connect both your EVM wallet (Rabby) and Tonkeeper wallet.",
+    "Select a supported asset and execute a small organic cross-chain transfer.",
+    "Verify the bridged balance inside Tonkeeper."
+  ],
+  "faqs": [
+    {
+      "question": "Is bridge.ton.org the official TON bridge?",
+      "answer": "Yes, it is the canonical cross-chain bridge maintained by the TON Foundation."
+    },
+    {
+      "question": "Which wallets do I need?",
+      "answer": "An EVM wallet like Rabby paired with Tonkeeper or MyTonWallet."
+    },
+    {
+      "question": "Why bridge on-chain for airdrops?",
+      "answer": "Cross-chain bridge usage is a strong anti-sybil indicator across both EVM and TON ecosystems."
+    }
+  ],
+  "tier": "Tier 1",
+  "cost": "Bridge Gas Fee",
+  "stage": "Core Infrastructure",
+  "timeCommitment": "5 mins once",
+  "snapshot": "Ongoing Ecosystem",
+  "estDate": "Ongoing",
+  "socials": {
+    "twitter": "https://x.com/ton_blockchain",
+    "telegram": "https://t.me/toncoin",
+    "website": "https://bridge.ton.org"
+  }
+},
+{
+  "id": "oasis-ai",
+  "name": "Oasis AI",
+  "logo": "/images/airdrops/oasis-ai.svg",
+  "description": "Oasis AI is a decentralized AI compute and Telegram Mini-App network rewarding contributors with $OAI points for lightweight AI tasks.",
+  "reward": "$OAI Token Allocation & Early Node/App Points",
+  "category": "Telegram",
+  "featured": true,
+  "isHot": true,
+  "isFeatured": true,
+  "status": "active",
+  "publishDate": "2026-11-19",
+  "endTime": "Q1 2027",
+  "funding": "$2.5M Seed & DePIN AI Grant",
+  "investors": "DePIN & AI Compute Angels",
+  "refLink": "https://t.me/OasisAI_bot",
+  "overview": "Oasis AI connects idle consumer devices and mobile Telegram users to a decentralized AI inference network. Through its Telegram Mini-App, users complete fast daily AI verification quests and link their desktop node or Phantom/Rabby wallet to stack $OAI points.",
+  "strategy": "Combine daily Telegram Mini-App check-ins with the lightweight browser/desktop Oasis AI node for dual-channel $OAI point accumulation.",
+  "tokenomics": "The $OAI token settles decentralized AI inference workloads and rewards network contributors.",
+  "sybilSafety": "Uptime verification and non-custodial wallet binding filter out duplicate bot farms.",
+  "steps": [
+    "Launch the Oasis AI Telegram Mini-App (@OasisAI_bot).",
+    "Create your contributor account and claim daily check-in points.",
+    "Complete AI verification and social tasks.",
+    "Optionally connect the Oasis AI browser node for passive uptime points.",
+    "Bind your Phantom or Rabby wallet in the Profile tab."
+  ],
+  "faqs": [
+    {
+      "question": "Can I farm Oasis AI from Telegram only?",
+      "answer": "Yes, daily quests and check-ins work inside Telegram, while the optional browser node adds passive uptime points."
+    },
+    {
+      "question": "Is Oasis AI free?",
+      "answer": "Yes, joining the network and farming $OAI points is 100% free."
+    },
+    {
+      "question": "Which wallet should I connect?",
+      "answer": "Phantom or Rabby Wallet."
+    }
+  ],
+  "tier": "Tier 1",
+  "cost": "Free ($0)",
+  "stage": "DePIN AI Season 2",
+  "timeCommitment": "2 mins / day",
+  "snapshot": "Q1 2027",
+  "estDate": "Q1 2027",
+  "socials": {
+    "twitter": "https://x.com/oasisai_io",
+    "telegram": "https://t.me/OasisAI_bot",
+    "website": "https://oasis.ai"
+  }
+},
+{
+  "id": "hamster-king",
+  "name": "Hamster King",
+  "logo": "/images/airdrops/hamster-king.svg",
+  "description": "Hamster King is a royal-treasury builder Telegram Mini-App on TON featuring hourly vault upgrades, daily quests, and $HKING rewards.",
+  "reward": "$HKING Token Distribution & Royal Treasury Pool",
+  "category": "Telegram",
+  "featured": true,
+  "isHot": false,
+  "isFeatured": true,
+  "status": "active",
+  "publishDate": "2026-11-19",
+  "endTime": "Q1 2027",
+  "funding": "$1.3M TON GameFi Seed",
+  "investors": "TON Casual Guilds",
+  "refLink": "https://t.me/HamsterKing_bot",
+  "overview": "Hamster King brings kingdom treasury management to Telegram. Players upgrade royal vaults, unlock knight and merchant cards for passive hourly coins, and complete daily treasure quests to qualify for $HKING airdrop allocations.",
+  "strategy": "Invest early coins into royal merchant and vault cards for passive hourly yield, complete daily quests, and link Tonkeeper.",
+  "tokenomics": "60% of $HKING supply is reserved for active kingdom builders and verified TON wallet holders.",
+  "sybilSafety": "Hourly vault timers and TON Connect verification prevent automated clicker abuse.",
+  "steps": [
+    "Open Hamster King on Telegram (@HamsterKing_bot).",
+    "Claim your starter royal treasury.",
+    "Upgrade Merchant and Knight cards for passive hourly coins.",
+    "Complete daily social tasks in the Quests tab.",
+    "Connect your Tonkeeper or Telegram Wallet."
+  ],
+  "faqs": [
+    {
+      "question": "Is Hamster King free to play?",
+      "answer": "Yes, all treasury upgrades and daily quests are free."
+    },
+    {
+      "question": "What wallet is required?",
+      "answer": "Tonkeeper or Telegram Wallet."
+    },
+    {
+      "question": "When is the $HKING snapshot?",
+      "answer": "Targeted for Q1 2027."
+    }
+  ],
+  "tier": "Tier 2",
+  "cost": "Free ($0)",
+  "stage": "Royal Season 1",
+  "timeCommitment": "3 mins / day",
+  "snapshot": "Q1 2027",
+  "estDate": "Q1 2027",
+  "socials": {
+    "twitter": "https://x.com/HamsterKingTON",
+    "telegram": "https://t.me/HamsterKing_bot",
+    "website": "https://hamsterking.io"
+  }
 }
 ];

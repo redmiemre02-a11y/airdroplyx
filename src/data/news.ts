@@ -8173,5 +8173,118 @@ export const newsArticles: NewsArticle[] = [
   ],
   "relatedAirdropId": "ton-dns",
   "content": "TON DNS maps memorable .ton domain names directly to Tonkeeper addresses on-chain. Holding a resolved .ton domain serves as a widely respected human-identity badge across TON ecosystem snapshots."
+},
+{
+  "slug": "xrocket-telegram-wallet-jetton-swaps-xrock-rewards",
+  "title": "xRocket Expands Telegram Jetton Swaps and $XROCK Loyalty Tiers on TON",
+  "excerpt": "Use xRocket inside Telegram for organic TON Jetton swaps, verified partner cheques, and $XROCK loyalty rewards.",
+  "author": "Antigravity Research",
+  "date": "November 19, 2026",
+  "readTime": "3 min read",
+  "category": "Telegram Mini-Apps",
+  "image": "/images/airdrops/xrocket-ton.svg",
+  "tags": [
+    "xRocket",
+    "$XROCK",
+    "TON",
+    "Telegram",
+    "Airdrop"
+  ],
+  "relatedAirdropId": "xrocket-ton",
+  "content": "xRocket remains one of Telegram's most active TON bots for instant Jetton cheques and swaps. Combining organic swaps with Tonkeeper withdrawals builds strong loyalty positioning for $XROCK incentives."
+},
+{
+  "slug": "tribute-telegram-creator-monetization-ton-stars-guide",
+  "title": "Tribute Powers Telegram Creator Monetization with TON and Telegram Stars",
+  "excerpt": "How connecting Tonkeeper to Tribute builds verifiable creator and community economy activity on The Open Network.",
+  "author": "Antigravity Research",
+  "date": "November 19, 2026",
+  "readTime": "3 min read",
+  "category": "Telegram Mini-Apps",
+  "image": "/images/airdrops/tribute-ton.svg",
+  "tags": [
+    "Tribute",
+    "TON",
+    "Telegram Stars",
+    "Creator Economy",
+    "Airdrop"
+  ],
+  "relatedAirdropId": "tribute-ton",
+  "content": "Tribute allows Telegram channel creators to accept TON and Stars subscriptions directly inside a lightweight Mini-App, strengthening authentic on-chain Telegram wallet history."
+},
+{
+  "slug": "megaton-finance-ozys-ton-amm-mega-liquidity-mining",
+  "title": "Megaton Finance Continues $MEGA Liquidity Mining on The Open Network",
+  "excerpt": "Backed by Ozys and TONcoin.fund, Megaton Finance rewards TON Jetton swappers and liquidity providers with $MEGA.",
+  "author": "Antigravity Research",
+  "date": "November 19, 2026",
+  "readTime": "4 min read",
+  "category": "Telegram Mini-Apps",
+  "image": "/images/airdrops/megaton-finance.svg",
+  "tags": [
+    "Megaton Finance",
+    "$MEGA",
+    "TON DeFi",
+    "Airdrop"
+  ],
+  "relatedAirdropId": "megaton-finance",
+  "content": "Megaton Finance brings autonomous AMM swaps and liquidity pools to TON with backing from Ozys, TONcoin.fund, and Cypher Capital. Active Tonkeeper LPs earn ongoing $MEGA incentives."
+},
+{
+  "slug": "ton-bridge-canonical-evm-to-ton-cross-chain-airdrop-signal",
+  "title": "Why Using the Official TON Bridge Strengthens Cross-Chain Airdrop Eligibility",
+  "excerpt": "Bridging between Rabby and Tonkeeper via bridge.ton.org creates hard-to-fake cross-chain provenance across TON ecosystems.",
+  "author": "Antigravity Research",
+  "date": "November 19, 2026",
+  "readTime": "4 min read",
+  "category": "Telegram Mini-Apps",
+  "image": "/images/airdrops/ton-bridge.svg",
+  "tags": [
+    "TON Bridge",
+    "Tonkeeper",
+    "Rabby",
+    "Cross-Chain",
+    "Airdrop"
+  ],
+  "relatedAirdropId": "ton-bridge",
+  "content": "Canonical cross-chain transfers on bridge.ton.org link EVM and TON wallet histories on-chain, providing one of the strongest anti-sybil signals for TON ecosystem distributions."
+},
+{
+  "slug": "oasis-ai-depin-telegram-mini-app-oai-points-guide",
+  "title": "Oasis AI Combines Telegram Quests with Lightweight DePIN Nodes for $OAI",
+  "excerpt": "Stack $OAI points for free using Oasis AI's Telegram Mini-App alongside its passive browser compute node.",
+  "author": "Antigravity Research",
+  "date": "November 19, 2026",
+  "readTime": "3 min read",
+  "category": "Telegram Mini-Apps",
+  "image": "/images/airdrops/oasis-ai.svg",
+  "tags": [
+    "Oasis AI",
+    "DePIN",
+    "AI",
+    "Telegram",
+    "Airdrop"
+  ],
+  "relatedAirdropId": "oasis-ai",
+  "content": "Oasis AI lets users earn $OAI points both from quick daily Telegram Mini-App tasks and optional browser node uptime, with Phantom or Rabby wallet binding."
+},
+{
+  "slug": "hamster-king-royal-treasury-telegram-hking-airdrop",
+  "title": "Hamster King Introduces Royal Treasury Upgrades on TON for $HKING Rewards",
+  "excerpt": "Upgrade royal merchant and knight cards inside Hamster King to maximize passive hourly yield ahead of the $HKING snapshot.",
+  "author": "Antigravity Research",
+  "date": "November 19, 2026",
+  "readTime": "3 min read",
+  "category": "Telegram Mini-Apps",
+  "image": "/images/airdrops/hamster-king.svg",
+  "tags": [
+    "Hamster King",
+    "TON",
+    "GameFi",
+    "Telegram",
+    "Airdrop"
+  ],
+  "relatedAirdropId": "hamster-king",
+  "content": "Hamster King allocates 60% of its $HKING token supply to kingdom builders on TON, rewarding passive card upgrades and verified Tonkeeper connections."
 }
 ];
