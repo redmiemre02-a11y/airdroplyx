@@ -7832,5 +7832,119 @@ export const newsArticles: NewsArticle[] = [
   ],
   "relatedAirdropId": "tada-telegram",
   "content": "Backed by $3.5M from Morningstar Ventures and MultiversX, Ta-da rewards Telegram users with $TADA tokens for completing short audio validation and voice tasks that filter out automated clicker bots."
+},
+{
+  "slug": "swap-coffee-ton-dex-aggregator-telegram-ces-rewards",
+  "title": "swap.coffee Expands TON DEX Aggregation and Limit Orders Inside Telegram",
+  "excerpt": "Route split-path TON swaps, set limit orders, and stake $CES inside the swap.coffee Telegram Mini-App for ecosystem loyalty drops.",
+  "author": "Antigravity Research",
+  "date": "November 19, 2026",
+  "readTime": "4 min read",
+  "category": "Telegram Mini-Apps",
+  "image": "/images/airdrops/swap-coffee.svg",
+  "tags": [
+    "swap.coffee",
+    "TON DeFi",
+    "$CES",
+    "Telegram Mini-Apps",
+    "Airdrop"
+  ],
+  "relatedAirdropId": "swap-coffee",
+  "content": "swap.coffee brings smart split-route DEX aggregation, limit orders, and DCA tools directly into Telegram. Connecting Tonkeeper or MyTonWallet for organic swaps builds verifiable TON DeFi history for $CES and partner rewards."
+},
+{
+  "slug": "torch-finance-ton-stableswap-telegram-torch-points",
+  "title": "Torch Finance Launches Stableswap and Liquidity Vault Quests on Telegram for $TORCH",
+  "excerpt": "Test low-slippage stablecoin swaps on TON inside Torch Finance's Telegram Mini-App to earn seasonal $TORCH points.",
+  "author": "Antigravity Research",
+  "date": "November 19, 2026",
+  "readTime": "3 min read",
+  "category": "Telegram Mini-Apps",
+  "image": "/images/airdrops/torch-finance.svg",
+  "tags": [
+    "Torch Finance",
+    "TON DeFi",
+    "Stableswap",
+    "Telegram",
+    "Airdrop"
+  ],
+  "relatedAirdropId": "torch-finance",
+  "content": "Torch Finance optimizes stablecoin swaps and single-sided liquidity on The Open Network. Completing DeFi onboarding quests and organic swaps with Tonkeeper earns $TORCH points ahead of TGE."
+},
+{
+  "slug": "bidask-ton-clmm-dex-telegram-early-adopter-airdrop",
+  "title": "Bidask Introduces Concentrated Liquidity (CLMM) Trading Inside Telegram on TON",
+  "excerpt": "Explore tight-spread CLMM swaps and concentrated LP ranges on Bidask's Telegram Mini-App for early adopter points.",
+  "author": "Antigravity Research",
+  "date": "November 19, 2026",
+  "readTime": "3 min read",
+  "category": "Telegram Mini-Apps",
+  "image": "/images/airdrops/bidask-ton.svg",
+  "tags": [
+    "Bidask",
+    "TON DeFi",
+    "CLMM",
+    "Telegram",
+    "Airdrop"
+  ],
+  "relatedAirdropId": "bidask-ton",
+  "content": "Bidask brings concentrated liquidity market making (CLMM) to TON users via Telegram Connect. Early swappers and liquidity testers accumulate points weighted toward real fee generation."
+},
+{
+  "slug": "ton-diamonds-glint-telegram-mini-app-nft-quests",
+  "title": "TON Diamonds Rewards Daily Check-Ins and Creator Quests with $GLINT on Telegram",
+  "excerpt": "Build daily diamond streaks for free in the TON Diamonds Telegram Mini-App and link Tonkeeper for collector multipliers.",
+  "author": "Antigravity Research",
+  "date": "November 19, 2026",
+  "readTime": "3 min read",
+  "category": "Telegram Mini-Apps",
+  "image": "/images/airdrops/ton-diamonds.svg",
+  "tags": [
+    "TON Diamonds",
+    "$GLINT",
+    "TON NFTs",
+    "Telegram",
+    "Airdrop"
+  ],
+  "relatedAirdropId": "ton-diamonds",
+  "content": "TON Diamonds combines curated digital art with accessible Telegram Mini-App quests. Free daily diamond streaks and TON Connect wallet verification help users qualify for $GLINT rewards."
+},
+{
+  "slug": "pixelverse-delphi-backed-telegram-arena-pixfi-season-2",
+  "title": "Delphi-Backed Pixelverse Rolls Out Telegram Arena Season 2 for $PIXFI Rewards",
+  "excerpt": "Craft combat bots, solve daily 4-card combos, and compete in quick PvP duels inside Pixelverse's Telegram Mini-App.",
+  "author": "Antigravity Research",
+  "date": "November 19, 2026",
+  "readTime": "4 min read",
+  "category": "Telegram Mini-Apps",
+  "image": "/images/airdrops/pixelverse.svg",
+  "tags": [
+    "Pixelverse",
+    "Delphi Ventures",
+    "$PIXFI",
+    "Telegram",
+    "Airdrop"
+  ],
+  "relatedAirdropId": "pixelverse",
+  "content": "Backed by $7.5M from Delphi Ventures and Merit Circle, Pixelverse continues expanding its cyberpunk combat arena on Telegram. Daily bot combos and PvP wins boost seasonal $PIXFI allocations."
+},
+{
+  "slug": "ton-ai-telegram-assistant-prompt-mining-airdrop",
+  "title": "TON AI Rewards Daily Generative Prompts Inside Telegram with $TONAI Points",
+  "excerpt": "Use free daily AI text and image prompts inside TON AI's Telegram Mini-App to stack $TONAI points before snapshot.",
+  "author": "Antigravity Research",
+  "date": "November 19, 2026",
+  "readTime": "3 min read",
+  "category": "Telegram Mini-Apps",
+  "image": "/images/airdrops/ton-ai.svg",
+  "tags": [
+    "TON AI",
+    "AI",
+    "TON",
+    "Telegram Mini-Apps",
+    "Airdrop"
+  ],
+  "relatedAirdropId": "ton-ai",
+  "content": "TON AI allocates 55% of its token supply to active prompt miners on Telegram. Using free daily AI allowances and connecting Tonkeeper secures early contributor status."
 }
 ];

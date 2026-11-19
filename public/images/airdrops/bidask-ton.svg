@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100" height="100">
+  <defs>
+    <linearGradient id="bdk-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0D9488" />
+      <stop offset="100%" stop-color="#134E4A" />
+    </linearGradient>
+  </defs>
+  <rect width="100" height="100" rx="24" fill="url(#bdk-grad)" />
+  <path d="M24 66 L44 46 L58 58 L76 32" fill="none" stroke="#99F6E4" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" />
+  <circle cx="44" cy="46" r="5" fill="#FDE047" />
+  <circle cx="76" cy="32" r="5" fill="#FDE047" />
+</svg>

@@ -44386,5 +44386,327 @@ export const airdrops: Airdrop[] = [
     "telegram": "https://t.me/TadaAppBot",
     "website": "https://ta-da.io"
   }
+},
+{
+  "id": "swap-coffee",
+  "name": "swap.coffee",
+  "logo": "/images/airdrops/swap-coffee.svg",
+  "description": "swap.coffee is a leading TON DEX aggregator and DCA/limit-order Telegram Mini-App rewarding active swappers and $CES stakers.",
+  "reward": "$CES Token Incentives & Aggregator Loyalty Drops",
+  "category": "Telegram",
+  "featured": true,
+  "isHot": true,
+  "isFeatured": true,
+  "status": "active",
+  "publishDate": "2026-11-19",
+  "endTime": "Q1 2027",
+  "funding": "$2.5M TON DeFi Seed",
+  "investors": "TON Venture Builders & DeFi Liquidity Angels",
+  "refLink": "https://t.me/swap_coffee_bot",
+  "overview": "swap.coffee aggregates liquidity across major TON decentralized pools directly inside a Telegram Mini-App, supporting split-route swaps, limit orders, and automated DCA strategies. Active TON traders who route swaps through swap.coffee and stake $CES accumulate loyalty points for ecosystem drops.",
+  "strategy": "Connect Tonkeeper or MyTonWallet inside the swap.coffee Telegram Mini-App, test organic split-route swaps or limit orders, and complete aggregator quests.",
+  "tokenomics": "The $CES token governs aggregator fee rebates, limit-order execution rewards, and TON partner airdrop pools.",
+  "sybilSafety": "Real on-chain swap routing, limit-order executions, and Tonkeeper wallet history prevent zero-volume bot farming.",
+  "steps": [
+    "Open the swap.coffee Telegram Mini-App (@swap_coffee_bot).",
+    "Connect your Tonkeeper or MyTonWallet via TON Connect.",
+    "Execute organic TON or Jetton swaps using optimal split routing.",
+    "Try setting a small limit order or DCA task inside the app.",
+    "Claim loyalty points in the Rewards tab."
+  ],
+  "faqs": [
+    {
+      "question": "What does swap.coffee do on TON?",
+      "answer": "swap.coffee is a smart DEX aggregator on TON offering best-rate split routing, limit orders, and DCA inside Telegram."
+    },
+    {
+      "question": "Which wallets are supported?",
+      "answer": "Tonkeeper, MyTonWallet, and Telegram Wallet via TON Connect."
+    },
+    {
+      "question": "How do I qualify for swap.coffee rewards?",
+      "answer": "Maintain organic swap volume, test limit orders, and complete seasonal loyalty quests."
+    }
+  ],
+  "tier": "Tier 1",
+  "cost": "Gas / Organic Swap Volume",
+  "stage": "TON Aggregator Season 2",
+  "timeCommitment": "5 mins / week",
+  "snapshot": "Ongoing Epochs",
+  "estDate": "Q1 2027",
+  "socials": {
+    "twitter": "https://x.com/swap_coffee_ton",
+    "telegram": "https://t.me/swap_coffee_bot",
+    "website": "https://swap.coffee"
+  }
+},
+{
+  "id": "torch-finance",
+  "name": "Torch Finance",
+  "logo": "/images/airdrops/torch-finance.svg",
+  "description": "Torch Finance is a TON stableswap and concentrated liquidity Telegram Mini-App rewarding early liquidity providers and swappers with $TORCH points.",
+  "reward": "$TORCH Points & Stableswap LP Incentives",
+  "category": "Telegram",
+  "featured": true,
+  "isHot": false,
+  "isFeatured": true,
+  "status": "active",
+  "publishDate": "2026-11-19",
+  "endTime": "Q1 2027",
+  "funding": "$1.8M TON Foundation & DeFi Seed",
+  "investors": "TON DeFi Collective",
+  "refLink": "https://t.me/TorchFinanceBot",
+  "overview": "Torch Finance brings ultra-low-slippage stablecoin swaps (USDT/TON-pegged assets) and single-sided liquidity vaults directly into Telegram. Early users who connect Tonkeeper, test stableswap routes, and complete DeFi quests earn $TORCH points ahead of token distribution.",
+  "strategy": "Connect Tonkeeper to Torch Finance inside Telegram, execute low-slippage stablecoin swaps, and optionally provide small LP for boosted $TORCH points.",
+  "tokenomics": "The $TORCH token distributes protocol stableswap fees, liquidity mining emissions, and DAO governance power.",
+  "sybilSafety": "On-chain stableswap volume and LP time-weighting protect genuine DeFi participants from sybil dilution.",
+  "steps": [
+    "Launch Torch Finance on Telegram (@TorchFinanceBot).",
+    "Connect your non-custodial Tonkeeper or MyTonWallet.",
+    "Complete the onboarding DeFi quests in the Points tab.",
+    "Execute an organic stablecoin swap with minimal slippage.",
+    "Track your seasonal $TORCH point rank."
+  ],
+  "faqs": [
+    {
+      "question": "What is Torch Finance?",
+      "answer": "Torch Finance is a dedicated stableswap and liquidity hub built on TON with a Telegram Mini-App."
+    },
+    {
+      "question": "Do I need large capital to farm $TORCH?",
+      "answer": "No, small organic stablecoin swaps and free DeFi quests still register on-chain eligibility."
+    },
+    {
+      "question": "Which wallet should I use?",
+      "answer": "Tonkeeper or MyTonWallet."
+    }
+  ],
+  "tier": "Tier 1",
+  "cost": "Low Gas / Optional LP",
+  "stage": "Stableswap Points Season",
+  "timeCommitment": "5 mins / week",
+  "snapshot": "Q1 2027",
+  "estDate": "Q1 2027",
+  "socials": {
+    "twitter": "https://x.com/torch_finance",
+    "telegram": "https://t.me/TorchFinanceBot",
+    "website": "https://torch.finance"
+  }
+},
+{
+  "id": "bidask-ton",
+  "name": "Bidask",
+  "logo": "/images/airdrops/bidask-ton.svg",
+  "description": "Bidask is a next-gen concentrated liquidity (CLMM) DEX and Telegram Mini-App on TON rewarding early traders and range-LP testers.",
+  "reward": "Bidask Early Adopter Points & Future Token Allocation",
+  "category": "Telegram",
+  "featured": true,
+  "isHot": false,
+  "isFeatured": true,
+  "status": "active",
+  "publishDate": "2026-11-19",
+  "endTime": "Q1 2027",
+  "funding": "$1.5M TON DeFi Seed",
+  "investors": "TON Venture Builders",
+  "refLink": "https://t.me/bidask_bot",
+  "overview": "Bidask introduces dynamic concentrated liquidity market making (CLMM) to The Open Network inside a lightweight Telegram Mini-App. Traders enjoy tight spreads while liquidity providers earn higher fee APRs and early adopter points toward Bidask's upcoming token launch.",
+  "strategy": "Test organic swaps inside Bidask's Telegram Mini-App using Tonkeeper and explore narrow-range LP positions to capture fee and point multipliers.",
+  "tokenomics": "Early swap volume and active concentrated LP positions weight heavily in seasonal community reward formulas.",
+  "sybilSafety": "Active CLMM fee generation and Tonkeeper wallet verification prevent zero-cost bot farming.",
+  "steps": [
+    "Open the Bidask Telegram Mini-App (@bidask_bot).",
+    "Connect your Tonkeeper or MyTonWallet via TON Connect.",
+    "Perform a few organic swaps across TON pairs.",
+    "Optionally open a small concentrated liquidity position.",
+    "Monitor your early adopter point tier."
+  ],
+  "faqs": [
+    {
+      "question": "How is Bidask different from standard TON AMMs?",
+      "answer": "Bidask uses concentrated liquidity ranges (CLMM) for tighter spreads and higher capital efficiency on TON."
+    },
+    {
+      "question": "Which wallet is required?",
+      "answer": "Tonkeeper or MyTonWallet."
+    },
+    {
+      "question": "When is the snapshot?",
+      "answer": "Expected in Q1 2027."
+    }
+  ],
+  "tier": "Tier 2",
+  "cost": "Low TON Gas",
+  "stage": "CLMM Launch Season",
+  "timeCommitment": "5 mins / week",
+  "snapshot": "Q1 2027",
+  "estDate": "Q1 2027",
+  "socials": {
+    "twitter": "https://x.com/bidask_finance",
+    "telegram": "https://t.me/bidask_bot",
+    "website": "https://bidask.finance"
+  }
+},
+{
+  "id": "ton-diamonds",
+  "name": "TON Diamonds",
+  "logo": "/images/airdrops/ton-diamonds.svg",
+  "description": "TON Diamonds is a curated digital art and NFT hub on TON featuring a Telegram Mini-App where users collect $GLINT diamonds and complete creator quests.",
+  "reward": "$GLINT Token Rewards & Curated TON NFT Drops",
+  "category": "Telegram",
+  "featured": true,
+  "isHot": true,
+  "isFeatured": true,
+  "status": "active",
+  "publishDate": "2026-11-19",
+  "endTime": "Q1 2027",
+  "funding": "$2.0M TON NFT Ecosystem",
+  "investors": "TON Creators Collective",
+  "refLink": "https://t.me/TONDiamondsBot",
+  "overview": "TON Diamonds curates top-tier digital artists and NFT collections on The Open Network. Through its Telegram Mini-App, collectors and newcomers complete zero-fee daily diamond check-ins, explore featured drops, and earn $GLINT ecosystem rewards.",
+  "strategy": "Complete daily diamond check-ins and free creator quests in the TON Diamonds bot, and link your Tonkeeper wallet for collector tier bonuses.",
+  "tokenomics": "The $GLINT token powers zero-fee marketplace perks, artist launchpad whitelists, and community staking.",
+  "sybilSafety": "Daily streak tracking and TON Connect NFT ownership checks protect reward pools.",
+  "steps": [
+    "Launch TON Diamonds on Telegram (@TONDiamondsBot).",
+    "Claim your daily diamond streak in the Quests tab.",
+    "Complete featured TON artist and ecosystem tasks.",
+    "Connect your Tonkeeper or MyTonWallet via TON Connect.",
+    "Hold any verified TON Diamonds NFT or SBT for extra multiplier."
+  ],
+  "faqs": [
+    {
+      "question": "Do I have to buy expensive NFTs to earn $GLINT?",
+      "answer": "No, daily check-ins and partner quests in the Telegram Mini-App are free."
+    },
+    {
+      "question": "What is $GLINT?",
+      "answer": "$GLINT is the utility and loyalty token of the TON Diamonds ecosystem."
+    },
+    {
+      "question": "Which wallet works with TON Diamonds?",
+      "answer": "Tonkeeper and MyTonWallet."
+    }
+  ],
+  "tier": "Tier 1",
+  "cost": "Free ($0)",
+  "stage": "Diamond Quests Season 2",
+  "timeCommitment": "2 mins / day",
+  "snapshot": "Q1 2027",
+  "estDate": "Q1 2027",
+  "socials": {
+    "twitter": "https://x.com/TONDiamonds",
+    "telegram": "https://t.me/TONDiamondsBot",
+    "website": "https://ton.diamonds"
+  }
+},
+{
+  "id": "pixelverse",
+  "name": "Pixelverse",
+  "logo": "/images/airdrops/pixelverse.svg",
+  "description": "Pixelverse is a Delphi Ventures-backed cyberpunk Web3 gaming ecosystem offering Telegram arena battles, daily bot crafting, and $PIXFI seasonal drops.",
+  "reward": "$PIXFI Token Rewards & Cyberpunk Bot NFTs",
+  "category": "Telegram",
+  "featured": true,
+  "isHot": true,
+  "isFeatured": true,
+  "status": "active",
+  "publishDate": "2026-11-19",
+  "endTime": "Q1 2027",
+  "funding": "$7.5M (Delphi Ventures, Merit Circle & Mechanism Capital)",
+  "investors": [
+    "Delphi Ventures",
+    "Merit Circle",
+    "Mechanism Capital"
+  ],
+  "refLink": "https://t.me/pixelversexyzbot",
+  "overview": "Backed by $7.5M from Delphi Ventures and Merit Circle, Pixelverse combines a browser cyberpunk RPG with an accessible Telegram Mini-App battle arena. Players craft and upgrade combat bots, win PvP mini-duels, and crack daily bot combos to earn seasonal $PIXFI rewards.",
+  "strategy": "Upgrade your combat bots before entering PvP duels, claim the daily 4-bot combo card bonus, and bind a non-custodial EVM or TON wallet (Rabby or Tonkeeper).",
+  "tokenomics": "$PIXFI fuels marketplace trading, bot crafting, and seasonal tournament prize pools across the Pixelverse ecosystem.",
+  "sybilSafety": "Real-time PvP battle outcomes, daily combo verification, and wallet binding block passive script farms.",
+  "steps": [
+    "Open the Pixelverse Telegram Mini-App (@pixelversexyzbot).",
+    "Claim your starter combat bot and passive hourly income.",
+    "Solve the daily 4-card combo puzzle for instant coin bonuses.",
+    "Upgrade bot stats and win quick PvP arena duels.",
+    "Connect your Rabby or Tonkeeper wallet in the Profile tab."
+  ],
+  "faqs": [
+    {
+      "question": "Who invested in Pixelverse?",
+      "answer": "Pixelverse raised $7.5M from Delphi Ventures, Merit Circle, and Mechanism Capital."
+    },
+    {
+      "question": "Is Pixelverse free to play on Telegram?",
+      "answer": "Yes, bot upgrades, PvP battles, and daily combos are completely free."
+    },
+    {
+      "question": "Which wallet should I connect?",
+      "answer": "Connect a non-custodial wallet such as Rabby or Tonkeeper."
+    }
+  ],
+  "tier": "Tier 1",
+  "cost": "Free ($0)",
+  "stage": "Arena Season 2",
+  "timeCommitment": "4 mins / day",
+  "snapshot": "Q1 2027",
+  "estDate": "Q1 2027",
+  "socials": {
+    "twitter": "https://x.com/pixelverse_xyz",
+    "telegram": "https://t.me/pixelversexyzbot",
+    "website": "https://pixelverse.xyz"
+  }
+},
+{
+  "id": "ton-ai",
+  "name": "TON AI",
+  "logo": "/images/airdrops/ton-ai.svg",
+  "description": "TON AI is a native Telegram Mini-App AI assistant and prompt-mining hub rewarding daily AI interactions and image prompts with $TONAI points.",
+  "reward": "$TONAI Points to Token Conversion",
+  "category": "Telegram",
+  "featured": true,
+  "isHot": false,
+  "isFeatured": true,
+  "status": "active",
+  "publishDate": "2026-11-19",
+  "endTime": "Q1 2027",
+  "funding": "$1.5M AI & TON Ecosystem Seed",
+  "investors": "TON AI Collective",
+  "refLink": "https://t.me/TonAI_bot",
+  "overview": "TON AI embeds an all-in-one generative AI assistant directly inside Telegram. Users generate Web3 research summaries, create AI stickers, and complete daily prompt quests—earning $TONAI points that convert into ecosystem token rewards ahead of TGE.",
+  "strategy": "Use your free daily AI prompt allowance every day, maintain check-in streaks, and connect your Tonkeeper wallet early.",
+  "tokenomics": "55% of $TONAI supply is reserved for active prompt miners and community contributors.",
+  "sybilSafety": "Prompt-generation rate limits and TON Connect verification prevent automated farming.",
+  "steps": [
+    "Launch TON AI on Telegram (@TonAI_bot).",
+    "Claim your daily login bonus in the Rewards tab.",
+    "Run your free daily AI text or image prompts to earn $TONAI points.",
+    "Complete social and partner tasks.",
+    "Bind your Tonkeeper or Telegram Wallet."
+  ],
+  "faqs": [
+    {
+      "question": "Is TON AI free to use?",
+      "answer": "Yes, daily prompt allowances and check-in quests are free."
+    },
+    {
+      "question": "How do I earn $TONAI points?",
+      "answer": "By running daily AI prompts, maintaining login streaks, and completing partner tasks."
+    },
+    {
+      "question": "Which wallet should I link?",
+      "answer": "Tonkeeper or Telegram Wallet."
+    }
+  ],
+  "tier": "Tier 2",
+  "cost": "Free ($0)",
+  "stage": "Prompt Mining Season 1",
+  "timeCommitment": "2 mins / day",
+  "snapshot": "Q1 2027",
+  "estDate": "Q1 2027",
+  "socials": {
+    "twitter": "https://x.com/TonAI_app",
+    "telegram": "https://t.me/TonAI_bot",
+    "website": "https://tonai.app"
+  }
 }
 ];
