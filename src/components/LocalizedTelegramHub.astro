@@ -27,6 +27,8 @@ interface Props {
   homeLabel: string;
   breadcrumbLabel: string;
   faqTitle: string;
+  testnetHref?: string;
+  testnetCta?: string;
   tips: TipCard[];
   faqs: FAQItem[];
 }
@@ -45,6 +47,8 @@ const {
   homeLabel,
   breadcrumbLabel,
   faqTitle,
+  testnetHref,
+  testnetCta,
   tips,
   faqs
 } = Astro.props;
@@ -63,6 +67,7 @@ const alternates = [
   { lang: 'de', href: 'https://airdroplyx.com/de/telegram-airdrops/' },
   { lang: 'fr', href: 'https://airdroplyx.com/fr/airdrops-telegram/' },
   { lang: 'uk', href: 'https://airdroplyx.com/uk/telegram-airdrops/' },
+  { lang: 'zh-CN', href: 'https://airdroplyx.com/zh/telegram-airdrops/' },
   { lang: 'x-default', href: 'https://airdroplyx.com/ecosystem/telegram/' }
 ];
 
@@ -113,6 +118,14 @@ const currentAlt = alternates.find(a => a.lang === lang)?.href || 'https://airdr
       <h1 class="text-3xl md:text-5xl font-black tracking-tight mb-4 leading-tight">{h1}</h1>
       <p class="text-slate-300 text-base md:text-lg max-w-3xl leading-relaxed mb-6">{intro}</p>
 
+      {testnetHref && testnetCta && (
+        <div class="mb-5">
+          <a href={testnetHref} class="inline-flex items-center gap-2 bg-blue-600 hover:bg-blue-500 text-white font-bold px-5 py-2.5 rounded-xl text-sm transition-colors">
+            {testnetCta} →
+          </a>
+        </div>
+      )}
+
       <div class="flex flex-wrap gap-2 pt-2">
         <a href="/ecosystem/telegram/" class={`px-3 py-1.5 rounded-lg text-xs font-bold border ${lang === 'en' ? 'bg-blue-600 border-blue-500 text-white' : 'bg-white/10 border-white/15 text-slate-200 hover:bg-white/20'}`}>🇬🇧 EN</a>
         <a href="/tr/telegram-airdroplari/" class={`px-3 py-1.5 rounded-lg text-xs font-bold border ${lang === 'tr' ? 'bg-blue-600 border-blue-500 text-white' : 'bg-white/10 border-white/15 text-slate-200 hover:bg-white/20'}`}>🇹🇷 TR</a>
@@ -127,6 +140,7 @@ const currentAlt = alternates.find(a => a.lang === lang)?.href || 'https://airdr
         <a href="/de/telegram-airdrops/" class={`px-3 py-1.5 rounded-lg text-xs font-bold border ${lang === 'de' ? 'bg-blue-600 border-blue-500 text-white' : 'bg-white/10 border-white/15 text-slate-200 hover:bg-white/20'}`}>🇩🇪 DE</a>
         <a href="/fr/airdrops-telegram/" class={`px-3 py-1.5 rounded-lg text-xs font-bold border ${lang === 'fr' ? 'bg-blue-600 border-blue-500 text-white' : 'bg-white/10 border-white/15 text-slate-200 hover:bg-white/20'}`}>🇫🇷 FR</a>
         <a href="/uk/telegram-airdrops/" class={`px-3 py-1.5 rounded-lg text-xs font-bold border ${lang === 'uk' ? 'bg-blue-600 border-blue-500 text-white' : 'bg-white/10 border-white/15 text-slate-200 hover:bg-white/20'}`}>🇺🇦 UK</a>
+        <a href="/zh/telegram-airdrops/" class={`px-3 py-1.5 rounded-lg text-xs font-bold border ${lang === 'zh-CN' ? 'bg-blue-600 border-blue-500 text-white' : 'bg-white/10 border-white/15 text-slate-200 hover:bg-white/20'}`}>🇨🇳 ZH</a>
       </div>
     </header>
 

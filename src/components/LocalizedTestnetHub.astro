@@ -67,6 +67,7 @@ const alternates = [
   { lang: 'de', href: 'https://airdroplyx.com/de/kostenlose-testnets/' },
   { lang: 'fr', href: 'https://airdroplyx.com/fr/testnets-gratuits/' },
   { lang: 'uk', href: 'https://airdroplyx.com/uk/bezkoshtovni-testnety/' },
+  { lang: 'zh-CN', href: 'https://airdroplyx.com/zh/free-testnets/' },
   { lang: 'x-default', href: 'https://airdroplyx.com/faucets/' }
 ];
 
@@ -142,6 +143,7 @@ const currentAlt = alternates.find(a => a.lang === lang)?.href || 'https://airdr
         <a href="/de/kostenlose-testnets/" class={`px-3 py-1.5 rounded-lg text-xs font-bold border ${lang === 'de' ? 'bg-indigo-600 border-indigo-500 text-white' : 'bg-white/10 border-white/15 text-slate-200 hover:bg-white/20'}`}>🇩🇪 DE</a>
         <a href="/fr/testnets-gratuits/" class={`px-3 py-1.5 rounded-lg text-xs font-bold border ${lang === 'fr' ? 'bg-indigo-600 border-indigo-500 text-white' : 'bg-white/10 border-white/15 text-slate-200 hover:bg-white/20'}`}>🇫🇷 FR</a>
         <a href="/uk/bezkoshtovni-testnety/" class={`px-3 py-1.5 rounded-lg text-xs font-bold border ${lang === 'uk' ? 'bg-indigo-600 border-indigo-500 text-white' : 'bg-white/10 border-white/15 text-slate-200 hover:bg-white/20'}`}>🇺🇦 UK</a>
+        <a href="/zh/free-testnets/" class={`px-3 py-1.5 rounded-lg text-xs font-bold border ${lang === 'zh-CN' ? 'bg-indigo-600 border-indigo-500 text-white' : 'bg-white/10 border-white/15 text-slate-200 hover:bg-white/20'}`}>🇨🇳 ZH</a>
       </div>
     </header>
 
