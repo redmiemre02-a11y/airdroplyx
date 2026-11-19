@@ -23,8 +23,23 @@ const xShareUrl = `https://x.com/intent/tweet?url=${encodeURIComponent(articleUr
 // Parse accurate ISO 8601 timestamps for Google News
 const parsedDate = new Date(article.date);
 const publishDate = !isNaN(parsedDate.getTime()) ? parsedDate.toISOString() : '2026-10-28T12:00:00.000Z';
-const wordCount = article.content.split(/\s+/).length;
-const readTime = article.readTime || `${Math.max(1, Math.ceil(wordCount / 200))} min read`;
+const extraText = relatedAirdrop
+  ? [
+      relatedAirdrop.overview,
+      relatedAirdrop.strategy,
+      relatedAirdrop.tokenomics || '',
+      relatedAirdrop.sybilSafety || '',
+      ...(relatedAirdrop.steps || []),
+      ...(relatedAirdrop.faqs || []).map(f => `${f.question} ${f.answer}`)
+    ].join(' ')
+  : '';
+const wordCount = `${article.content} ${extraText}`.trim().split(/\s+/).length;
+const readTime = `${Math.max(2, Math.ceil(wordCount / 200))} min read`;
+const absSchemaImage = article.image.startsWith('http')
+  ? article.image
+  : article.image.endsWith('.svg')
+  ? 'https://airdroplyx.com/logo.jpg'
+  : `https://airdroplyx.com${article.image}`;
 
 // Key takeaways for Google News snippet optimization
 const keyTakeaways = [
@@ -74,7 +89,7 @@ const keyTakeaways = [
         "description": article.excerpt,
         "image": {
           "@type": "ImageObject",
-          "url": article.image,
+          "url": absSchemaImage,
           "width": 1200,
           "height": 675
         },
@@ -150,7 +165,7 @@ const keyTakeaways = [
         <div>
           <div class="font-bold text-slate-900 dark:text-white">{article.author}</div>
           <div class="text-xs text-slate-400">
-            Published <time datetime={publishDate}>{article.date}</time> • <a href="/editorial-policy" class="hover:text-blue-500 underline underline-offset-2 transition-colors">Editorial Standards Compliant</a>
+            Published <time datetime={publishDate}>{article.date}</time> • <a href="/editorial-policy/" class="hover:text-blue-500 underline underline-offset-2 transition-colors">Editorial Standards Compliant</a>
           </div>
         </div>
       </div>
@@ -211,6 +226,106 @@ const keyTakeaways = [
           );
         }
       })}
+
+      {relatedAirdrop && (
+        <div class="mt-10 space-y-10 not-prose">
+          <!-- Key Specs Table -->
+          <section class="bg-slate-50 dark:bg-slate-800/60 border border-slate-200 dark:border-slate-700 rounded-2xl p-6">
+            <h2 class="text-xl font-black text-slate-900 dark:text-white mb-4">
+              {relatedAirdrop.name} Airdrop Key Specifications &amp; Eligibility
+            </h2>
+            <div class="grid grid-cols-2 sm:grid-cols-3 gap-4 text-sm">
+              <div class="p-3 rounded-xl bg-white dark:bg-slate-900/60 border border-slate-200/70 dark:border-slate-700/70">
+                <div class="text-[11px] font-bold uppercase text-slate-400">Estimated Reward</div>
+                <div class="font-bold text-slate-900 dark:text-white mt-0.5">{relatedAirdrop.reward}</div>
+              </div>
+              <div class="p-3 rounded-xl bg-white dark:bg-slate-900/60 border border-slate-200/70 dark:border-slate-700/70">
+                <div class="text-[11px] font-bold uppercase text-slate-400">Entry Cost</div>
+                <div class="font-bold text-emerald-600 dark:text-emerald-400 mt-0.5">{relatedAirdrop.cost || 'Free ($0)'}</div>
+              </div>
+              <div class="p-3 rounded-xl bg-white dark:bg-slate-900/60 border border-slate-200/70 dark:border-slate-700/70">
+                <div class="text-[11px] font-bold uppercase text-slate-400">Funding / Backing</div>
+                <div class="font-bold text-slate-900 dark:text-white mt-0.5">{relatedAirdrop.funding}</div>
+              </div>
+              <div class="p-3 rounded-xl bg-white dark:bg-slate-900/60 border border-slate-200/70 dark:border-slate-700/70">
+                <div class="text-[11px] font-bold uppercase text-slate-400">Snapshot Window</div>
+                <div class="font-bold text-slate-900 dark:text-white mt-0.5">{relatedAirdrop.snapshot || 'TBA / Q1 2027'}</div>
+              </div>
+              <div class="p-3 rounded-xl bg-white dark:bg-slate-900/60 border border-slate-200/70 dark:border-slate-700/70">
+                <div class="text-[11px] font-bold uppercase text-slate-400">Daily Time</div>
+                <div class="font-bold text-slate-900 dark:text-white mt-0.5">{relatedAirdrop.timeCommitment || '3 mins / day'}</div>
+              </div>
+              <div class="p-3 rounded-xl bg-white dark:bg-slate-900/60 border border-slate-200/70 dark:border-slate-700/70">
+                <div class="text-[11px] font-bold uppercase text-slate-400">Current Stage</div>
+                <div class="font-bold text-blue-600 dark:text-blue-400 mt-0.5">{relatedAirdrop.stage || relatedAirdrop.status}</div>
+              </div>
+            </div>
+          </section>
+
+          <!-- Deep-Dive Overview & Tokenomics -->
+          <section>
+            <h2 class="text-2xl font-black text-slate-900 dark:text-white mb-3">
+              Project Overview &amp; Tokenomics Analysis
+            </h2>
+            <p class="text-base sm:text-lg text-slate-700 dark:text-slate-300 leading-relaxed mb-4">
+              {relatedAirdrop.overview}
+            </p>
+            {relatedAirdrop.tokenomics && (
+              <p class="text-base sm:text-lg text-slate-700 dark:text-slate-300 leading-relaxed">
+                {relatedAirdrop.tokenomics}
+              </p>
+            )}
+          </section>
+
+          <!-- Step-by-Step Claim & Farming Guide -->
+          {relatedAirdrop.steps && relatedAirdrop.steps.length > 0 && (
+            <section>
+              <h2 class="text-2xl font-black text-slate-900 dark:text-white mb-4">
+                How to Qualify &amp; Claim {relatedAirdrop.name} Airdrop (Step-by-Step)
+              </h2>
+              <ol class="space-y-3">
+                {relatedAirdrop.steps.map((step, i) => (
+                  <li class="flex items-start gap-3 p-4 rounded-xl bg-slate-50 dark:bg-slate-800/50 border border-slate-200/70 dark:border-slate-700/70">
+                    <span class="w-6 h-6 rounded-full bg-blue-600 text-white text-xs font-black flex items-center justify-center shrink-0 mt-0.5">{i + 1}</span>
+                    <span class="text-sm sm:text-base text-slate-700 dark:text-slate-200 leading-relaxed">{step}</span>
+                  </li>
+                ))}
+              </ol>
+            </section>
+          )}
+
+          <!-- Optimal Strategy & Sybil Defense -->
+          <section class="grid grid-cols-1 md:grid-cols-2 gap-5">
+            <div class="p-5 rounded-2xl bg-blue-50/70 dark:bg-blue-950/30 border border-blue-200/80 dark:border-blue-900/50">
+              <h3 class="text-base font-black text-blue-900 dark:text-blue-200 mb-2">🎯 Optimal Farming Strategy</h3>
+              <p class="text-sm text-slate-700 dark:text-slate-300 leading-relaxed">{relatedAirdrop.strategy}</p>
+            </div>
+            {relatedAirdrop.sybilSafety && (
+              <div class="p-5 rounded-2xl bg-emerald-50/70 dark:bg-emerald-950/30 border border-emerald-200/80 dark:border-emerald-900/50">
+                <h3 class="text-base font-black text-emerald-900 dark:text-emerald-200 mb-2">🛡️ Sybil &amp; Wallet Safety</h3>
+                <p class="text-sm text-slate-700 dark:text-slate-300 leading-relaxed">{relatedAirdrop.sybilSafety}</p>
+              </div>
+            )}
+          </section>
+
+          <!-- FAQs -->
+          {relatedAirdrop.faqs && relatedAirdrop.faqs.length > 0 && (
+            <section>
+              <h2 class="text-2xl font-black text-slate-900 dark:text-white mb-4">
+                {relatedAirdrop.name} Airdrop Frequently Asked Questions
+              </h2>
+              <div class="space-y-3">
+                {relatedAirdrop.faqs.map(faq => (
+                  <div class="p-4 rounded-xl bg-slate-50 dark:bg-slate-800/50 border border-slate-200/70 dark:border-slate-700/70">
+                    <h3 class="font-bold text-slate-900 dark:text-white text-sm sm:text-base mb-1">{faq.question}</h3>
+                    <p class="text-sm text-slate-600 dark:text-slate-300 leading-relaxed">{faq.answer}</p>
+                  </div>
+                ))}
+              </div>
+            </section>
+          )}
+        </div>
+      )}
     </article>
 
     <!-- Tags & Social Sharing -->

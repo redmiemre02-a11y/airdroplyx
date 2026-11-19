@@ -17,6 +17,9 @@ const {
 	image = "https://airdroplyx.com/logo.jpg"
 } = Astro.props;
 
+const rawAbsImage = image.startsWith('http') ? image : `https://airdroplyx.com${image.startsWith('/') ? '' : '/'}${image}`;
+const ogImage = rawAbsImage.endsWith('.svg') ? "https://airdroplyx.com/logo.jpg" : rawAbsImage;
+
 const normalizedPath = Astro.url.pathname.endsWith('/') || Astro.url.pathname.includes('.') ? Astro.url.pathname : `${Astro.url.pathname}/`;
 const canonicalURL = new URL(normalizedPath, Astro.site || "https://airdroplyx.com");
 ---
@@ -44,7 +47,7 @@ const canonicalURL = new URL(normalizedPath, Astro.site || "https://airdroplyx.c
 		<meta property="og:site_name" content="Airdroplyx" />
 		<meta property="og:title" content={title} />
 		<meta property="og:description" content={description} />
-		<meta property="og:image" content={image} />
+		<meta property="og:image" content={ogImage} />
 		<meta property="og:image:width" content="1200" />
 		<meta property="og:image:height" content="675" />
 		<meta property="og:image:type" content="image/jpeg" />
@@ -54,7 +57,7 @@ const canonicalURL = new URL(normalizedPath, Astro.site || "https://airdroplyx.c
 		<meta name="twitter:url" content={canonicalURL} />
 		<meta name="twitter:title" content={title} />
 		<meta name="twitter:description" content={description} />
-		<meta name="twitter:image" content={image} />
+		<meta name="twitter:image" content={ogImage} />
 
 		<!-- Google Search Console Verification -->
 		<meta name="google-site-verification" content="miXhgrypb-Z3tfLedIHMe1bBxiEVSsw0NPXUYXmtp0U" />

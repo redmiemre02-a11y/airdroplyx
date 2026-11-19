@@ -29,12 +29,17 @@ const pageUrl = `https://airdroplyx.com/airdrop/${airdrop.id}/`;
 const shareText = encodeURIComponent(`${airdrop.name} Airdrop Guide (2026) — Reward: ${airdrop.reward}. Step-by-step claim guide:`);
 const telegramShareUrl = `https://t.me/share/url?url=${encodeURIComponent(pageUrl)}&text=${shareText}`;
 const xShareUrl = `https://x.com/intent/tweet?url=${encodeURIComponent(pageUrl)}&text=${shareText}`;
-const lastVerifiedDate = airdrop.publishDate || '2026-11-13';
+const lastVerifiedDate = airdrop.publishDate || '2026-11-19';
+const absSchemaImage = airdrop.logo.startsWith('http')
+  ? airdrop.logo
+  : airdrop.logo.endsWith('.svg')
+  ? 'https://airdroplyx.com/logo.jpg'
+  : `https://airdroplyx.com${airdrop.logo}`;
 ---
 
 <Layout 
-  title={`${airdrop.name} Airdrop Guide & Verification (2026) | Airdroplyx`} 
-  description={`Complete step-by-step guide to farming the confirmed ${airdrop.name} crypto airdrop. Verified requirements, funding stats, and strategy.`}
+  title={`${airdrop.name} Airdrop (2026): Claim Guide, Snapshot & Eligibility | Airdroplyx`} 
+  description={`How to claim ${airdrop.name} airdrop (${airdrop.reward}). Cost: ${airdrop.cost || 'Free ($0)'}, Snapshot: ${airdrop.snapshot || 'Q1 2027'}. Verified steps, sybil safety & wallet guide.`}
   image={airdrop.logo}
 >
   <!-- Schema.org JSON-LD (HowTo, FAQPage, BreadcrumbList) -->
@@ -68,7 +73,7 @@ const lastVerifiedDate = airdrop.publishDate || '2026-11-13';
         "@type": "HowTo",
         "name": `How to Claim and Farm the ${airdrop.name} Airdrop`,
         "description": airdrop.description,
-        "image": airdrop.logo,
+        "image": absSchemaImage,
         "totalTime": "PT10M",
         "step": airdrop.steps.map((step, idx) => ({
           "@type": "HowToStep",
