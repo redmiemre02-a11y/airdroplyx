@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100" height="100">
+  <defs>
+    <linearGradient id="gat-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#10B981" />
+      <stop offset="100%" stop-color="#065F46" />
+    </linearGradient>
+  </defs>
+  <rect width="100" height="100" rx="24" fill="url(#gat-grad)" />
+  <polygon points="28,42 36,20 46,38" fill="#FEF08A" />
+  <polygon points="72,42 64,20 54,38" fill="#FEF08A" />
+  <circle cx="50" cy="56" r="22" fill="#ECFDF5" />
+  <circle cx="42" cy="52" r="3.5" fill="#064E3B" />
+  <circle cx="58" cy="52" r="3.5" fill="#064E3B" />
+  <path d="M45 62 Q50 67 55 62" fill="none" stroke="#064E3B" stroke-width="3" stroke-linecap="round" />
+</svg>

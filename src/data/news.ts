@@ -8286,5 +8286,119 @@ export const newsArticles: NewsArticle[] = [
   ],
   "relatedAirdropId": "hamster-king",
   "content": "Hamster King allocates 60% of its $HKING token supply to kingdom builders on TON, rewarding passive card upgrades and verified Tonkeeper connections."
+},
+{
+  "slug": "playdeck-ton-official-telegram-game-hub-quests",
+  "title": "PlayDeck Curates Verified TON Mini-Games and Partner Quests Inside Telegram",
+  "excerpt": "Discover verified TON games in PlayDeck, unlock cross-game achievement badges, and claim partner Jetton drops via Tonkeeper.",
+  "author": "Antigravity Research",
+  "date": "November 19, 2026",
+  "readTime": "4 min read",
+  "category": "Telegram Mini-Apps",
+  "image": "/images/airdrops/playdeck-ton.svg",
+  "tags": [
+    "PlayDeck",
+    "TON Play",
+    "GameFi",
+    "Telegram Mini-Apps",
+    "Airdrop"
+  ],
+  "relatedAirdropId": "playdeck-ton",
+  "content": "PlayDeck gives Telegram gamers a safe, curated catalog of TON mini-games with unified cross-game achievement quests and partner Jetton prize pools."
+},
+{
+  "slug": "fanzee-battles-toncoin-fund-prediction-telegram-fnz",
+  "title": "TONcoin.fund-Backed Fanzee Battles Rewards Prediction Streaks with $FNZ",
+  "excerpt": "Join free daily sports and crypto prediction battles inside Fanzee Battles on Telegram to climb leagues for $FNZ.",
+  "author": "Antigravity Research",
+  "date": "November 19, 2026",
+  "readTime": "3 min read",
+  "category": "Telegram Mini-Apps",
+  "image": "/images/airdrops/fanzee-ton.svg",
+  "tags": [
+    "Fanzee Battles",
+    "$FNZ",
+    "TON",
+    "Telegram",
+    "Airdrop"
+  ],
+  "relatedAirdropId": "fanzee-ton",
+  "content": "Backed by $2M from TONcoin.fund and First Stage Labs, Fanzee Battles lets Telegram users compete in zero-risk prediction leagues for $FNZ token prizes."
+},
+{
+  "slug": "gatto-ton-pet-breeding-racing-telegram-gton-guide",
+  "title": "Gatto Combines Virtual Pet Care with Competitive TON Races for $GTON",
+  "excerpt": "Hatch and level up Gattomon pets inside Telegram and compete in running and swimming leagues for $GTON and TON rewards.",
+  "author": "Antigravity Research",
+  "date": "November 19, 2026",
+  "readTime": "3 min read",
+  "category": "Telegram Mini-Apps",
+  "image": "/images/airdrops/gatto-ton.svg",
+  "tags": [
+    "Gatto",
+    "$GTON",
+    "TON",
+    "GameFi",
+    "Airdrop"
+  ],
+  "relatedAirdropId": "gatto-ton",
+  "content": "Gatto stands out on TON by pairing daily virtual pet care with real-time racing leagues, rewarding dedicated trainers with $GTON and collectible NFTs."
+},
+{
+  "slug": "dyor-io-ton-jetton-analytics-telegram-dyor-points",
+  "title": "DYOR.io Rewards TON Token Researchers with $DYOR Loyalty Points in Telegram",
+  "excerpt": "Screen TON Jetton trust scores directly inside Telegram and earn $DYOR points through daily researcher check-ins.",
+  "author": "Antigravity Research",
+  "date": "November 19, 2026",
+  "readTime": "3 min read",
+  "category": "Telegram Mini-Apps",
+  "image": "/images/airdrops/dyor-io.svg",
+  "tags": [
+    "DYOR.io",
+    "TON Analytics",
+    "Security",
+    "Telegram",
+    "Airdrop"
+  ],
+  "relatedAirdropId": "dyor-io",
+  "content": "DYOR.io helps TON users inspect Jetton liquidity locks and contract safety inside Telegram while rewarding daily researchers with $DYOR loyalty points."
+},
+{
+  "slug": "stonks-ton-telegram-jetton-trading-loyalty-points",
+  "title": "Stonks Brings Fast TON Jetton Swaps and Limit Orders to Telegram Mini-App",
+  "excerpt": "Execute organic TON swaps and limit orders inside Stonks' Telegram Mini-App to accumulate seasonal trading loyalty points.",
+  "author": "Antigravity Research",
+  "date": "November 19, 2026",
+  "readTime": "3 min read",
+  "category": "Telegram Mini-Apps",
+  "image": "/images/airdrops/stonks-ton.svg",
+  "tags": [
+    "Stonks",
+    "TON DeFi",
+    "Trading",
+    "Telegram",
+    "Airdrop"
+  ],
+  "relatedAirdropId": "stonks-ton",
+  "content": "Stonks equips TON traders with fast Telegram-native Jetton swaps and limit orders, tracking organic swap volume for seasonal loyalty rewards."
+},
+{
+  "slug": "royal-fortress-ton-tower-defense-telegram-airdrop",
+  "title": "Royal Fortress Brings Castle Defense Strategy to Telegram for TON Rewards",
+  "excerpt": "Upgrade gold mines, recruit defenders, and survive daily siege waves in Royal Fortress on TON.",
+  "author": "Antigravity Research",
+  "date": "November 19, 2026",
+  "readTime": "3 min read",
+  "category": "Telegram Mini-Apps",
+  "image": "/images/airdrops/royal-fortress.svg",
+  "tags": [
+    "Royal Fortress",
+    "GameFi",
+    "TON",
+    "Telegram",
+    "Airdrop"
+  ],
+  "relatedAirdropId": "royal-fortress",
+  "content": "Royal Fortress allocates 60% of its seasonal community pool to fortress commanders on TON who defend siege waves and link Tonkeeper."
 }
 ];

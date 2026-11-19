@@ -45670,5 +45670,326 @@ export const airdrops: Airdrop[] = [
     "telegram": "https://t.me/HamsterKing_bot",
     "website": "https://hamsterking.io"
   }
+},
+{
+  "id": "playdeck-ton",
+  "name": "PlayDeck",
+  "logo": "/images/airdrops/playdeck-ton.svg",
+  "description": "PlayDeck is TON's official Telegram gaming catalog and multi-game quest hub distributing partner Jetton airdrops and seasonal achievement rewards.",
+  "reward": "Multi-Game TON Partner Drops & $PLAY Quests",
+  "category": "Telegram",
+  "featured": true,
+  "isHot": true,
+  "isFeatured": true,
+  "status": "active",
+  "publishDate": "2026-11-19",
+  "endTime": "Q1 2027",
+  "funding": "TON Foundation & TON Play Ecosystem",
+  "investors": "TON Play Collective",
+  "refLink": "https://t.me/playdeckbot",
+  "overview": "PlayDeck is the official game discovery hub built for Telegram by the TON Play ecosystem. Instead of hunting random links, players launch verified TON mini-games directly inside PlayDeck, complete cross-game achievement quests, and earn seasonal partner token drops via Tonkeeper.",
+  "strategy": "Launch featured TON games through PlayDeck's Quest tab, connect your Tonkeeper wallet, and complete cross-game achievement milestones.",
+  "tokenomics": "PlayDeck coordinates seasonal community prize pools and Jetton launch rewards across dozens of indie TON studios.",
+  "sybilSafety": "Cross-game achievement tracking and TON Connect verification block single-click bot accounts.",
+  "steps": [
+    "Open PlayDeck on Telegram (@playdeckbot).",
+    "Connect your Tonkeeper or MyTonWallet via TON Connect.",
+    "Browse the featured Quests & Tournaments section.",
+    "Play verified TON mini-games to unlock achievement badges.",
+    "Claim partner rewards directly to your connected TON wallet."
+  ],
+  "faqs": [
+    {
+      "question": "Is PlayDeck safe to discover new Telegram games?",
+      "answer": "Yes, PlayDeck curates verified TON ecosystem games inside a single official hub."
+    },
+    {
+      "question": "Is PlayDeck free to use?",
+      "answer": "Yes, playing featured games and completing quests is free."
+    },
+    {
+      "question": "Which wallet should I connect?",
+      "answer": "Tonkeeper or MyTonWallet."
+    }
+  ],
+  "tier": "Tier 1",
+  "cost": "Free ($0)",
+  "stage": "TON Game Hub Season",
+  "timeCommitment": "5 mins / day",
+  "snapshot": "Ongoing Seasons",
+  "estDate": "Q1 2027",
+  "socials": {
+    "twitter": "https://x.com/playdeck_ton",
+    "telegram": "https://t.me/playdeckbot",
+    "website": "https://tonplay.io"
+  }
+},
+{
+  "id": "fanzee-ton",
+  "name": "Fanzee Battles",
+  "logo": "/images/airdrops/fanzee-ton.svg",
+  "description": "Fanzee Battles is a TON Foundation-backed sports and crypto prediction Telegram Mini-App rewarding accurate forecasters with $FNZ tokens.",
+  "reward": "$FNZ Token Rewards & Prediction League Prizes",
+  "category": "Telegram",
+  "featured": true,
+  "isHot": false,
+  "isFeatured": true,
+  "status": "active",
+  "publishDate": "2026-11-19",
+  "endTime": "Q1 2027",
+  "funding": "$2.0M (TONcoin.fund & First Stage Labs)",
+  "investors": [
+    "TONcoin.fund",
+    "First Stage Labs",
+    "Huobi Incubator"
+  ],
+  "refLink": "https://t.me/FanzeeBattlesBot",
+  "overview": "Backed by $2M from TONcoin.fund and First Stage Labs, Fanzee Battles brings zero-risk sports, esports, and crypto event predictions into Telegram. Players stake free in-app points on live match outcomes, climb weekly prediction leagues, and earn $FNZ rewards.",
+  "strategy": "Claim daily free prediction energy, vote on high-probability sports and crypto events, and bind your Tonkeeper wallet for $FNZ payouts.",
+  "tokenomics": "The $FNZ token fuels prediction tournament prize pools, fan club perks, and community governance on TON.",
+  "sybilSafety": "Prediction accuracy leaderboards and TON Connect wallet verification protect prize distributions.",
+  "steps": [
+    "Open Fanzee Battles on Telegram (@FanzeeBattlesBot).",
+    "Claim your starter free prediction points.",
+    "Join daily sports, esports, and crypto prediction battles.",
+    "Complete social tasks for extra energy.",
+    "Connect your Tonkeeper or Telegram Wallet."
+  ],
+  "faqs": [
+    {
+      "question": "Do I risk real money on Fanzee Battles?",
+      "answer": "No, daily prediction battles use free in-app points rather than real funds."
+    },
+    {
+      "question": "Who backs Fanzee?",
+      "answer": "Fanzee raised $2M from TONcoin.fund and First Stage Labs."
+    },
+    {
+      "question": "Which wallet is required?",
+      "answer": "Tonkeeper or Telegram Wallet."
+    }
+  ],
+  "tier": "Tier 1",
+  "cost": "Free ($0)",
+  "stage": "Prediction Season 3",
+  "timeCommitment": "3 mins / day",
+  "snapshot": "Weekly & Seasonal",
+  "estDate": "Q1 2027",
+  "socials": {
+    "twitter": "https://x.com/Fanzeebattles",
+    "telegram": "https://t.me/FanzeeBattlesBot",
+    "website": "https://fanzee.app"
+  }
+},
+{
+  "id": "gatto-ton",
+  "name": "Gatto",
+  "logo": "/images/airdrops/gatto-ton.svg",
+  "description": "Gatto is a popular Play-to-Earn virtual pet breeding and racing Telegram Mini-App on TON rewarding active trainers with $GTON and TON prizes.",
+  "reward": "$GTON Token Rewards & Competitive Pet Races",
+  "category": "Telegram",
+  "featured": true,
+  "isHot": true,
+  "isFeatured": true,
+  "status": "active",
+  "publishDate": "2026-11-19",
+  "endTime": "Q1 2027",
+  "funding": "TON GameFi Ecosystem & In-Game Economy",
+  "investors": "TON Gaming Builders",
+  "refLink": "https://t.me/gatto_gamebot",
+  "overview": "Gatto combines Tamagotchi-style pet care with real-time PvP running and swimming competitions directly inside Telegram. Players hatch unique Gattomons, level up their stats through daily care, and compete in leagues to earn $GTON and TON ecosystem rewards.",
+  "strategy": "Hatch and feed your starter Gattomon daily, enter free league races as soon as stamina refills, and connect your Tonkeeper wallet.",
+  "tokenomics": "$GTON powers pet breeding, marketplace trading on Getgems, and seasonal tournament rewards on TON.",
+  "sybilSafety": "Active race participation, pet leveling timers, and Tonkeeper verification filter out passive bots.",
+  "steps": [
+    "Launch Gatto on Telegram (@gatto_gamebot).",
+    "Hatch your starter Gattomon pet.",
+    "Feed and care for your pet daily to raise its stats.",
+    "Enter competitive running and swimming races for $GTON rewards.",
+    "Connect your Tonkeeper or MyTonWallet."
+  ],
+  "faqs": [
+    {
+      "question": "Can I play Gatto for free?",
+      "answer": "Yes, starter pets and daily races are free to play."
+    },
+    {
+      "question": "What can I earn in Gatto?",
+      "answer": "Active trainers earn $GTON tokens, collectible pet NFTs, and seasonal TON prizes."
+    },
+    {
+      "question": "Which wallet works with Gatto?",
+      "answer": "Tonkeeper and MyTonWallet."
+    }
+  ],
+  "tier": "Tier 1",
+  "cost": "Free ($0)",
+  "stage": "Pet League Season",
+  "timeCommitment": "4 mins / day",
+  "snapshot": "Ongoing Seasons",
+  "estDate": "Q1 2027",
+  "socials": {
+    "twitter": "https://x.com/gatto_game",
+    "telegram": "https://t.me/gatto_gamebot",
+    "website": "https://gatto.pw"
+  }
+},
+{
+  "id": "dyor-io",
+  "name": "DYOR.io",
+  "logo": "/images/airdrops/dyor-io.svg",
+  "description": "DYOR.io is TON's leading on-chain Jetton analytics and token-screener Telegram Mini-App rewarding active researchers with $DYOR loyalty points.",
+  "reward": "$DYOR Token Allocation & Analytics Contributor Drops",
+  "category": "Telegram",
+  "featured": true,
+  "isHot": false,
+  "isFeatured": true,
+  "status": "active",
+  "publishDate": "2026-11-19",
+  "endTime": "Q1 2027",
+  "funding": "TON Foundation Grant & Analytics Revenue",
+  "investors": "TON Data Builders",
+  "refLink": "https://t.me/dyor_io_bot",
+  "overview": "DYOR.io helps TON traders verify Jetton smart contracts, liquidity locks, and holder distribution directly inside Telegram. Users who check daily token trust scores, submit community reviews, and link Tonkeeper earn $DYOR loyalty points.",
+  "strategy": "Use DYOR.io inside Telegram to screen TON Jettons before interacting with new projects, claim daily researcher check-ins, and bind Tonkeeper.",
+  "tokenomics": "The $DYOR token unlocks pro on-chain alerts, API access, and community curation rewards on TON.",
+  "sybilSafety": "Researcher activity scoring and TON Connect verification prevent automated farming.",
+  "steps": [
+    "Open DYOR.io on Telegram (@dyor_io_bot).",
+    "Connect your Tonkeeper or MyTonWallet.",
+    "Check trust scores of trending TON Jettons.",
+    "Complete daily researcher check-ins and quests.",
+    "Track your $DYOR loyalty tier."
+  ],
+  "faqs": [
+    {
+      "question": "Why use DYOR.io for TON airdrops?",
+      "answer": "It helps you verify whether a new TON token or mini-app is legitimate while earning $DYOR loyalty points."
+    },
+    {
+      "question": "Is DYOR.io free?",
+      "answer": "Yes, core token analytics and Telegram quests are free."
+    },
+    {
+      "question": "Which wallet should I connect?",
+      "answer": "Tonkeeper or MyTonWallet."
+    }
+  ],
+  "tier": "Tier 2",
+  "cost": "Free ($0)",
+  "stage": "Researcher Loyalty",
+  "timeCommitment": "2 mins / day",
+  "snapshot": "Q1 2027",
+  "estDate": "Q1 2027",
+  "socials": {
+    "twitter": "https://x.com/dyor_io",
+    "telegram": "https://t.me/dyor_io_bot",
+    "website": "https://dyor.io"
+  }
+},
+{
+  "id": "stonks-ton",
+  "name": "Stonks",
+  "logo": "/images/airdrops/stonks-ton.svg",
+  "description": "Stonks is a high-speed TON Jetton trading and limit-order Telegram Mini-App rewarding early active traders with loyalty points.",
+  "reward": "Stonks Trading Points & TON Ecosystem Drops",
+  "category": "Telegram",
+  "featured": true,
+  "isHot": false,
+  "isFeatured": true,
+  "status": "active",
+  "publishDate": "2026-11-19",
+  "endTime": "Q1 2027",
+  "funding": "$1.2M TON Trading Tools Seed",
+  "investors": "TON DeFi Angels",
+  "refLink": "https://t.me/stonks_sniper_bot",
+  "overview": "Stonks delivers fast Jetton swaps, limit orders, and token-launch sniping tools directly inside a Telegram Mini-App. Traders who connect Tonkeeper or MyTonWallet and route organic TON trades accumulate volume-weighted loyalty points.",
+  "strategy": "Link a dedicated airdrop Tonkeeper wallet to Stonks, test small organic TON Jetton swaps or limit orders, and complete social quests.",
+  "tokenomics": "Loyalty points track organic trading volume and referral activity toward seasonal protocol rewards.",
+  "sybilSafety": "Real on-chain swap fees and Tonkeeper signature checks filter out zero-activity bots.",
+  "steps": [
+    "Open the Stonks bot on Telegram (@stonks_sniper_bot).",
+    "Connect or import a dedicated TON airdrop wallet.",
+    "Execute small organic Jetton swaps or limit orders.",
+    "Complete loyalty quests in the Rewards section."
+  ],
+  "faqs": [
+    {
+      "question": "Should I use a separate wallet with trading bots?",
+      "answer": "Yes, always use a dedicated airdrop/trading wallet rather than your main cold storage wallet."
+    },
+    {
+      "question": "Which network does Stonks run on?",
+      "answer": "The Open Network (TON)."
+    },
+    {
+      "question": "How are points earned?",
+      "answer": "Through organic TON swap volume and seasonal loyalty tasks."
+    }
+  ],
+  "tier": "Tier 2",
+  "cost": "Low TON Gas",
+  "stage": "Trading Points Season",
+  "timeCommitment": "5 mins / week",
+  "snapshot": "Q1 2027",
+  "estDate": "Q1 2027",
+  "socials": {
+    "twitter": "https://x.com/stonks_ton",
+    "telegram": "https://t.me/stonks_sniper_bot",
+    "website": "https://stonks.app"
+  }
+},
+{
+  "id": "royal-fortress",
+  "name": "Royal Fortress",
+  "logo": "/images/airdrops/royal-fortress.svg",
+  "description": "Royal Fortress is a castle-defense strategy Telegram Mini-App on TON where players recruit defenders, upgrade battlements, and farm seasonal token drops.",
+  "reward": "Fortress Gold Conversion & Seasonal TON Token Drop",
+  "category": "Telegram",
+  "featured": true,
+  "isHot": false,
+  "isFeatured": true,
+  "status": "active",
+  "publishDate": "2026-11-19",
+  "endTime": "Q1 2027",
+  "funding": "$1.4M TON GameFi Seed",
+  "investors": "TON Casual Guilds",
+  "refLink": "https://t.me/RoyalFortressBot",
+  "overview": "Royal Fortress turns Telegram into a tower-defense strategy game. Players build castle walls, recruit archers and knights, defend against daily siege waves, and earn Fortress Gold convertible into seasonal TON ecosystem rewards.",
+  "strategy": "Upgrade gold mines and castle walls first so your fortress earns passive income between siege waves, and connect Tonkeeper.",
+  "tokenomics": "60% of seasonal community tokens are distributed to active fortress commanders based on defense wave milestones.",
+  "sybilSafety": "Wave progression milestones and TON Connect wallet verification protect community pools.",
+  "steps": [
+    "Launch Royal Fortress on Telegram (@RoyalFortressBot).",
+    "Construct your starter castle and gold mine.",
+    "Recruit defenders and clear daily siege waves.",
+    "Upgrade passive gold generation buildings.",
+    "Connect your Tonkeeper or Telegram Wallet."
+  ],
+  "faqs": [
+    {
+      "question": "Is Royal Fortress free to play?",
+      "answer": "Yes, building your fortress and defending siege waves is free."
+    },
+    {
+      "question": "Which wallet is supported?",
+      "answer": "Tonkeeper and Telegram Wallet."
+    },
+    {
+      "question": "When is the seasonal snapshot?",
+      "answer": "Targeted for Q1 2027."
+    }
+  ],
+  "tier": "Tier 2",
+  "cost": "Free ($0)",
+  "stage": "Siege Season 1",
+  "timeCommitment": "3 mins / day",
+  "snapshot": "Q1 2027",
+  "estDate": "Q1 2027",
+  "socials": {
+    "twitter": "https://x.com/RoyalFortressTG",
+    "telegram": "https://t.me/RoyalFortressBot",
+    "website": "https://royalfortress.game"
+  }
 }
 ];
