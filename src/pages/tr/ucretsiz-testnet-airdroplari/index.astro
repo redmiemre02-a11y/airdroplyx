@@ -26,10 +26,24 @@ const faqs = [
     a: "Tek bir gün yerine farklı haftalara yayılmış düzenli işlemler yapın, faucet üzerinden test token alıp akıllı kontratlarla (swap, stake, köprü) etkileşime girin ve Sybil filtresine takılmamak için tek temiz cüzdanla ilerleyin."
   }
 ];
+const trTestnetAlternates = [
+  { lang: 'en', href: 'https://airdroplyx.com/faucets/' },
+  { lang: 'tr', href: 'https://airdroplyx.com/tr/ucretsiz-testnet-airdroplari/' },
+  { lang: 'ru', href: 'https://airdroplyx.com/ru/free-testnets/' },
+  { lang: 'id', href: 'https://airdroplyx.com/id/testnet-gratis/' },
+  { lang: 'vi', href: 'https://airdroplyx.com/vi/testnet-mien-phi/' },
+  { lang: 'es', href: 'https://airdroplyx.com/es/testnets-gratis/' },
+  { lang: 'pt', href: 'https://airdroplyx.com/pt/testnets-gratis/' },
+  { lang: 'ko', href: 'https://airdroplyx.com/ko/free-testnets/' },
+  { lang: 'ja', href: 'https://airdroplyx.com/ja/free-testnets/' },
+  { lang: 'ar', href: 'https://airdroplyx.com/ar/free-testnets/' },
+  { lang: 'x-default', href: 'https://airdroplyx.com/faucets/' }
+];
 ---
 
 <Layout
   lang="tr"
+  alternates={trTestnetAlternates}
   title="Ücretsiz Testnet Airdropları 2026: Sermayesiz ($0) Kripto Rehberi | Airdroplyx"
   description="2026 yılının en kazançlı ücretsiz ($0) Layer-1, Layer-2 ve ZK testnet airdropları. Faucet kullanımı, adım adım test görevleri ve Sybil koruma rehberi."
 >
