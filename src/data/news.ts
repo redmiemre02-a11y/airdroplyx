@@ -7946,5 +7946,118 @@ export const newsArticles: NewsArticle[] = [
   ],
   "relatedAirdropId": "ton-ai",
   "content": "TON AI allocates 55% of its token supply to active prompt miners on Telegram. Using free daily AI allowances and connecting Tonkeeper secures early contributor status."
+},
+{
+  "slug": "tonup-launchpad-telegram-mini-app-up-staking-airdrop",
+  "title": "TONUP Expands TON Launchpad Quests Inside Telegram for $UP & Partner Airdrops",
+  "excerpt": "Complete free TONUP ecosystem discovery quests in Telegram and connect Tonkeeper to qualify for partner token distributions.",
+  "author": "Antigravity Research",
+  "date": "November 19, 2026",
+  "readTime": "4 min read",
+  "category": "Telegram Mini-Apps",
+  "image": "/images/airdrops/tonup.svg",
+  "tags": [
+    "TONUP",
+    "TON",
+    "Launchpad",
+    "Telegram Mini-Apps",
+    "Airdrop"
+  ],
+  "relatedAirdropId": "tonup",
+  "content": "Backed by TONcoin.fund and Foresight X, TONUP brings native TON launchpad quests directly to Telegram. Completing free partner discovery tasks and connecting Tonkeeper qualifies users for ongoing ecosystem drops."
+},
+{
+  "slug": "ton-place-socialfi-creator-rewards-telegram-airdrop",
+  "title": "TON Place Rewards Daily SocialFi Engagement Streaks Inside Telegram",
+  "excerpt": "Build daily creator and community engagement streaks in TON Place to earn SocialFi rewards via Tonkeeper.",
+  "author": "Antigravity Research",
+  "date": "November 19, 2026",
+  "readTime": "3 min read",
+  "category": "Telegram Mini-Apps",
+  "image": "/images/airdrops/ton-place.svg",
+  "tags": [
+    "TON Place",
+    "SocialFi",
+    "TON",
+    "Telegram",
+    "Airdrop"
+  ],
+  "relatedAirdropId": "ton-place",
+  "content": "TON Place brings creator-focused SocialFi directly into Telegram. Maintaining daily engagement streaks and linking a verified Tonkeeper wallet helps users qualify for seasonal community distributions."
+},
+{
+  "slug": "ton-gifts-collectible-mystery-box-telegram-airdrop",
+  "title": "TON Gifts Gamifies Collectible Gift Merging on Telegram for Seasonal Drops",
+  "excerpt": "Unbox free daily mystery gifts inside TON Gifts and merge matching collectibles to boost your seasonal rarity tier.",
+  "author": "Antigravity Research",
+  "date": "November 19, 2026",
+  "readTime": "3 min read",
+  "category": "Telegram Mini-Apps",
+  "image": "/images/airdrops/ton-gifts.svg",
+  "tags": [
+    "TON Gifts",
+    "Collectibles",
+    "TON",
+    "Telegram",
+    "Airdrop"
+  ],
+  "relatedAirdropId": "ton-gifts",
+  "content": "TON Gifts taps into Telegram's viral collectible gifts ecosystem with free 24-hour mystery boxes and rarity merging. Consistent daily unboxing and Tonkeeper verification boost seasonal eligibility."
+},
+{
+  "slug": "memeland-telegram-mini-app-stakeland-quests-guide",
+  "title": "Memeland Launches Telegram Mini-App Quests Tied to Stakeland Partner Drops",
+  "excerpt": "Complete free daily meme quests inside Memeland's Telegram bot to stack points for Stakeland multi-token partner airdrops.",
+  "author": "Antigravity Research",
+  "date": "November 19, 2026",
+  "readTime": "4 min read",
+  "category": "Telegram Mini-Apps",
+  "image": "/images/airdrops/memeland-tg.svg",
+  "tags": [
+    "Memeland",
+    "Stakeland",
+    "Telegram Mini-Apps",
+    "Airdrop"
+  ],
+  "relatedAirdropId": "memeland-tg",
+  "content": "Created by the 9GAG team, Memeland's Telegram Mini-App lets users farm daily meme check-ins and earn points connected to Stakeland partner airdrop campaigns."
+},
+{
+  "slug": "whale-ton-daily-spin-loyalty-telegram-airdrop-guide",
+  "title": "Whale Rewards Daily Spin Streaks and TON Quests with $WHALE Loyalty Points",
+  "excerpt": "Claim free daily reward spins inside the Whale Telegram Mini-App and bind Tonkeeper for quarterly loyalty distributions.",
+  "author": "Antigravity Research",
+  "date": "November 19, 2026",
+  "readTime": "3 min read",
+  "category": "Telegram Mini-Apps",
+  "image": "/images/airdrops/whale-ton.svg",
+  "tags": [
+    "Whale",
+    "TON",
+    "SocialFi",
+    "Telegram",
+    "Airdrop"
+  ],
+  "relatedAirdropId": "whale-ton",
+  "content": "Whale offers zero-cost daily reward spins and TON partner quests inside Telegram, converting quarterly loyalty points into $WHALE and ecosystem prizes."
+},
+{
+  "slug": "not-games-open-builders-telegram-arcade-hub-airdrop",
+  "title": "Not Games Unifies Indie TON Arcade Titles Under One Telegram Reward Hub",
+  "excerpt": "Play curated mini-games in Not Games, unlock cross-title achievement badges, and earn unified TON ecosystem points.",
+  "author": "Antigravity Research",
+  "date": "November 19, 2026",
+  "readTime": "4 min read",
+  "category": "Telegram Mini-Apps",
+  "image": "/images/airdrops/not-games.svg",
+  "tags": [
+    "Not Games",
+    "Open Builders",
+    "TON",
+    "Telegram",
+    "Airdrop"
+  ],
+  "relatedAirdropId": "not-games",
+  "content": "Not Games brings multiple indie TON arcade titles into one Open Builders Telegram hub, rewarding real gameplay achievements and Tonkeeper verification with unified seasonal drops."
 }
 ];

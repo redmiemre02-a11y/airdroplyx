@@ -44708,5 +44708,330 @@ export const airdrops: Airdrop[] = [
     "telegram": "https://t.me/TonAI_bot",
     "website": "https://tonai.app"
   }
+},
+{
+  "id": "tonup",
+  "name": "TONUP",
+  "logo": "/images/airdrops/tonup.svg",
+  "description": "TONUP is the leading TON Foundation and Foresight X-backed launchpad on The Open Network with a Telegram Mini-App for $UP staking and ecosystem quest drops.",
+  "reward": "$UP Staking Rewards & Launchpad Partner Airdrops",
+  "category": "Telegram",
+  "featured": true,
+  "isHot": true,
+  "isFeatured": true,
+  "status": "active",
+  "publishDate": "2026-11-19",
+  "endTime": "Q1 2027",
+  "funding": "TONcoin.fund & Foresight X",
+  "investors": [
+    "TON Foundation",
+    "Foresight X",
+    "Waterdrip Capital"
+  ],
+  "refLink": "https://t.me/TONUP_io_bot",
+  "overview": "Supported by TONcoin.fund and Foresight X, TONUP serves as a premier token launchpad for native TON projects. Through its Telegram Mini-App, users complete partner project quests, stake $UP for launchpad allocations, and earn early ecosystem airdrops directly via Tonkeeper.",
+  "strategy": "Complete free TONUP partner quests inside Telegram, connect your Tonkeeper wallet, and optionally stake $UP to unlock tiered launchpad drops.",
+  "tokenomics": "The $UP token governs IDO allocations, community liquidity pools, and partner airdrop distributions on TON.",
+  "sybilSafety": "TON Connect wallet binding and launchpad KYC/tier checks filter out automated multi-account bots.",
+  "steps": [
+    "Launch the TONUP Telegram Mini-App (@TONUP_io_bot).",
+    "Connect your Tonkeeper or MyTonWallet via TON Connect.",
+    "Complete active TON ecosystem partner quests.",
+    "Track upcoming TON project launchpad pools.",
+    "Claim verified quest rewards directly to your connected TON wallet."
+  ],
+  "faqs": [
+    {
+      "question": "Who backs TONUP?",
+      "answer": "TONUP is backed by TONcoin.fund, Foresight X, and Waterdrip Capital."
+    },
+    {
+      "question": "Can I participate in TONUP quests for free?",
+      "answer": "Yes, social and ecosystem discovery quests inside the Telegram Mini-App are free."
+    },
+    {
+      "question": "Which wallet is supported?",
+      "answer": "Tonkeeper, MyTonWallet, and Telegram Wallet."
+    }
+  ],
+  "tier": "Tier 1",
+  "cost": "Free ($0) / Optional Staking",
+  "stage": "Launchpad Quests",
+  "timeCommitment": "3 mins / day",
+  "snapshot": "Ongoing Pools",
+  "estDate": "Q1 2027",
+  "socials": {
+    "twitter": "https://x.com/TONUP_io",
+    "telegram": "https://t.me/TONUP_io_bot",
+    "website": "https://tonup.io"
+  }
+},
+{
+  "id": "ton-place",
+  "name": "TON Place",
+  "logo": "/images/airdrops/ton-place.svg",
+  "description": "TON Place is a creator-focused SocialFi Telegram Mini-App on TON rewarding daily engagement, referrals, and creator milestones.",
+  "reward": "Daily TON Creator Rewards & SocialFi Points",
+  "category": "Telegram",
+  "featured": true,
+  "isHot": false,
+  "isFeatured": true,
+  "status": "active",
+  "publishDate": "2026-11-19",
+  "endTime": "Q1 2027",
+  "funding": "$1.7M TON SocialFi Seed",
+  "investors": "TON Social Builders Collective",
+  "refLink": "https://t.me/tonplace_bot",
+  "overview": "TON Place brings decentralized creator monetization directly into Telegram. Users earn daily engagement points by posting content, liking curated community posts, and completing SocialFi streaks linked to their Tonkeeper address.",
+  "strategy": "Maintain daily SocialFi engagement streaks inside the TON Place mini-app and verify your Tonkeeper wallet early.",
+  "tokenomics": "Community engagement rewards are distributed across active creators and daily streak holders on TON.",
+  "sybilSafety": "Content engagement scoring and TON Connect wallet checks prevent low-effort spam bots.",
+  "steps": [
+    "Open the TON Place bot on Telegram (@tonplace_bot).",
+    "Create your SocialFi profile and complete onboarding.",
+    "Engage with daily community posts and creator challenges.",
+    "Claim daily login streak bonuses.",
+    "Connect your Tonkeeper or Telegram Wallet."
+  ],
+  "faqs": [
+    {
+      "question": "Is TON Place free to join?",
+      "answer": "Yes, creating a profile and earning daily engagement points is free."
+    },
+    {
+      "question": "Which wallet should I connect?",
+      "answer": "Tonkeeper or Telegram Wallet via TON Connect."
+    },
+    {
+      "question": "How are rewards calculated?",
+      "answer": "Based on daily engagement streaks, creator activity, and verified wallet status."
+    }
+  ],
+  "tier": "Tier 2",
+  "cost": "Free ($0)",
+  "stage": "SocialFi Season 2",
+  "timeCommitment": "3 mins / day",
+  "snapshot": "Q1 2027",
+  "estDate": "Q1 2027",
+  "socials": {
+    "twitter": "https://x.com/tonplace_app",
+    "telegram": "https://t.me/tonplace_bot",
+    "website": "https://ton.place"
+  }
+},
+{
+  "id": "ton-gifts",
+  "name": "TON Gifts",
+  "logo": "/images/airdrops/ton-gifts.svg",
+  "description": "TON Gifts is a collectible gift-opening Telegram Mini-App powered by TON and Telegram Stars rewarding daily box unboxers.",
+  "reward": "Collectible Gift NFTs & Seasonal Token Drop",
+  "category": "Telegram",
+  "featured": true,
+  "isHot": false,
+  "isFeatured": true,
+  "status": "active",
+  "publishDate": "2026-11-19",
+  "endTime": "Q1 2027",
+  "funding": "$1.4M TON Collectible Seed",
+  "investors": "Telegram Collectible Angels",
+  "refLink": "https://t.me/TonGifts_bot",
+  "overview": "Inspired by Telegram's native collectible gifts trend, TON Gifts lets users unbox daily mystery gifts, merge duplicate collectibles into higher rarities, and accumulate gift points toward seasonal TON ecosystem drops.",
+  "strategy": "Claim your free daily gift box every 24 hours, merge common collectibles into rare tiers, and bind your Tonkeeper wallet.",
+  "tokenomics": "Seasonal gift rarity points and verified TON wallet ownership determine community token allocation tiers.",
+  "sybilSafety": "24-hour box cooldowns and TON Connect verification block automated multi-account farming.",
+  "steps": [
+    "Launch TON Gifts in Telegram (@TonGifts_bot).",
+    "Open your free daily starter gift box.",
+    "Merge matching collectibles to increase your rarity score.",
+    "Complete social tasks for extra mystery boxes.",
+    "Connect your Tonkeeper or Telegram Wallet."
+  ],
+  "faqs": [
+    {
+      "question": "Do I need to spend Telegram Stars in TON Gifts?",
+      "answer": "No, free daily gift boxes and social quests allow 100% free participation."
+    },
+    {
+      "question": "What happens when I merge collectibles?",
+      "answer": "Merging boosts your rarity tier and seasonal airdrop multiplier."
+    },
+    {
+      "question": "Which wallet is required?",
+      "answer": "Tonkeeper or Telegram Wallet."
+    }
+  ],
+  "tier": "Tier 2",
+  "cost": "Free ($0)",
+  "stage": "Gift Merge Season 1",
+  "timeCommitment": "2 mins / day",
+  "snapshot": "Q1 2027",
+  "estDate": "Q1 2027",
+  "socials": {
+    "twitter": "https://x.com/TonGiftsApp",
+    "telegram": "https://t.me/TonGifts_bot",
+    "website": "https://tongifts.app"
+  }
+},
+{
+  "id": "memeland-tg",
+  "name": "Memeland",
+  "logo": "/images/airdrops/memeland-tg.svg",
+  "description": "Memeland's Telegram Mini-App brings $MEME community farming, daily meme quests, and Stakeland partner drops directly to mobile users.",
+  "reward": "$MEME Ecosystem Points & Stakeland Partner Drops",
+  "category": "Telegram",
+  "featured": true,
+  "isHot": true,
+  "isFeatured": true,
+  "status": "active",
+  "publishDate": "2026-11-19",
+  "endTime": "Q1 2027",
+  "funding": "$15.0M+ (9GAG & Memeland Ecosystem)",
+  "investors": [
+    "9GAG",
+    "Web3 Cultural Angels"
+  ],
+  "refLink": "https://t.me/MemelandBot",
+  "overview": "Built by the team behind 9GAG and Stakeland, Memeland's Telegram Mini-App lets community members complete daily meme farming quests, verify social streaks, and earn points redeemable across Stakeland's multi-token partner airdrop campaigns.",
+  "strategy": "Complete daily farming check-ins inside Memeland's Telegram bot and link your non-custodial Rabby or Tonkeeper wallet to stack Stakeland partner drops.",
+  "tokenomics": "Community quest points feed into curated Stakeland partner token distributions and $MEME ecosystem rewards.",
+  "sybilSafety": "Social proof verification and non-custodial wallet binding eliminate low-effort bot accounts.",
+  "steps": [
+    "Open the Memeland Telegram Mini-App (@MemelandBot).",
+    "Claim your daily meme farming check-in.",
+    "Complete featured Stakeland partner quests.",
+    "Maintain an unbroken weekly streak for multiplier boosts.",
+    "Bind your Rabby or Tonkeeper wallet in Settings."
+  ],
+  "faqs": [
+    {
+      "question": "Is Memeland backed by 9GAG?",
+      "answer": "Yes, Memeland is the official Web3 venture studio created by the 9GAG team."
+    },
+    {
+      "question": "Is the Telegram Mini-App free?",
+      "answer": "Yes, daily farming check-ins and quests are completely free."
+    },
+    {
+      "question": "Which wallet should I connect?",
+      "answer": "Rabby (EVM) or Tonkeeper (TON)."
+    }
+  ],
+  "tier": "Tier 1",
+  "cost": "Free ($0)",
+  "stage": "Stakeland Telegram Quests",
+  "timeCommitment": "2 mins / day",
+  "snapshot": "Ongoing Campaigns",
+  "estDate": "Q1 2027",
+  "socials": {
+    "twitter": "https://x.com/Memeland",
+    "telegram": "https://t.me/MemelandBot",
+    "website": "https://memeland.com"
+  }
+},
+{
+  "id": "whale-ton",
+  "name": "Whale",
+  "logo": "/images/airdrops/whale-ton.svg",
+  "description": "Whale is a TON-native social gaming and daily spin-quest Telegram Mini-App distributing $WHALE loyalty points and ecosystem prizes.",
+  "reward": "$WHALE Loyalty Points & TON Prize Pool",
+  "category": "Telegram",
+  "featured": true,
+  "isHot": false,
+  "isFeatured": true,
+  "status": "active",
+  "publishDate": "2026-11-19",
+  "endTime": "Q1 2027",
+  "funding": "$2.0M TON Gaming Ecosystem",
+  "investors": "TON Social Gaming Angels",
+  "refLink": "https://t.me/whale",
+  "overview": "Whale is a fast-growing TON social gaming hub inside Telegram featuring free daily reward wheels, community tournaments, and partner token quests. Players earn $WHALE loyalty points every day without risking capital and verify their Tonkeeper wallet for seasonal drops.",
+  "strategy": "Claim your free daily spin and check-in streak, finish zero-cost partner quests, and bind Tonkeeper before the seasonal snapshot.",
+  "tokenomics": "Loyalty points convert into seasonal $WHALE token rewards and TON ecosystem partner prizes.",
+  "sybilSafety": "Daily streak verification and TON Connect wallet binding protect community reward pools.",
+  "steps": [
+    "Launch the Whale Mini-App on Telegram (@whale).",
+    "Claim your free daily reward spin and check-in bonus.",
+    "Complete featured TON ecosystem quests.",
+    "Climb the weekly loyalty tier.",
+    "Connect your Tonkeeper or Telegram Wallet."
+  ],
+  "faqs": [
+    {
+      "question": "Can I farm Whale points without spending TON?",
+      "answer": "Yes, daily check-ins, free spins, and social quests require zero capital."
+    },
+    {
+      "question": "Which wallet works with Whale?",
+      "answer": "Tonkeeper and Telegram Wallet."
+    },
+    {
+      "question": "When are seasonal rewards distributed?",
+      "answer": "At the end of each quarterly loyalty season."
+    }
+  ],
+  "tier": "Tier 2",
+  "cost": "Free ($0)",
+  "stage": "Loyalty Season 2",
+  "timeCommitment": "2 mins / day",
+  "snapshot": "Q1 2027",
+  "estDate": "Q1 2027",
+  "socials": {
+    "twitter": "https://x.com/WhaleTON_io",
+    "telegram": "https://t.me/whale",
+    "website": "https://whale.io"
+  }
+},
+{
+  "id": "not-games",
+  "name": "Not Games",
+  "logo": "/images/airdrops/not-games.svg",
+  "description": "Not Games is the Open Builders multi-game Telegram Mini-App hub unifying indie TON arcade titles under a shared seasonal reward pool.",
+  "reward": "Unified Not Games Points & TON Partner Airdrops",
+  "category": "Telegram",
+  "featured": true,
+  "isHot": true,
+  "isFeatured": true,
+  "status": "active",
+  "publishDate": "2026-11-19",
+  "endTime": "Q1 2027",
+  "funding": "Open Builders & TON Ecosystem",
+  "investors": "Open Builders Collective",
+  "refLink": "https://t.me/notgames_bot",
+  "overview": "Created within the Open Builders ecosystem, Not Games aggregates curated indie arcade and puzzle games directly inside Telegram. Instead of grinding isolated bots, players earn unified Not Games points across multiple titles and qualify for cross-game TON token drops.",
+  "strategy": "Play featured daily mini-games inside the Not Games hub, unlock early player achievement badges, and link your Tonkeeper wallet.",
+  "tokenomics": "Unified hub points distribute seasonal partner tokens and Open Builders ecosystem incentives.",
+  "sybilSafety": "Cross-game skill achievements and TON Connect wallet history filter out automated clicker farms.",
+  "steps": [
+    "Open the Not Games hub on Telegram (@notgames_bot).",
+    "Connect your Tonkeeper or Telegram Wallet.",
+    "Play daily featured indie mini-games to earn unified points.",
+    "Unlock achievement badges across multiple titles.",
+    "Monitor seasonal reward pools in the Rewards tab."
+  ],
+  "faqs": [
+    {
+      "question": "What is Not Games?",
+      "answer": "Not Games is a Telegram Mini-App gaming hub in the Open Builders TON ecosystem featuring multiple curated games."
+    },
+    {
+      "question": "Is Not Games free to play?",
+      "answer": "Yes, all featured games and achievement quests are free."
+    },
+    {
+      "question": "Which wallet should I connect?",
+      "answer": "Tonkeeper or Telegram Wallet via TON Connect."
+    }
+  ],
+  "tier": "Tier 1",
+  "cost": "Free ($0)",
+  "stage": "Arcade Hub Season 1",
+  "timeCommitment": "5 mins / day",
+  "snapshot": "Q1 2027",
+  "estDate": "Q1 2027",
+  "socials": {
+    "twitter": "https://x.com/thenotgames",
+    "telegram": "https://t.me/notgames_bot",
+    "website": "https://notgames.io"
+  }
 }
 ];

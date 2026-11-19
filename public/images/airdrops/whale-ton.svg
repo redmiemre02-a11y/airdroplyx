@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100" height="100">
+  <defs>
+    <linearGradient id="whl-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#06B6D4" />
+      <stop offset="100%" stop-color="#1E3A8A" />
+    </linearGradient>
+  </defs>
+  <rect width="100" height="100" rx="24" fill="url(#whl-grad)" />
+  <path d="M22 56 C22 38 38 30 56 32 C68 33 76 42 78 52 C70 52 66 48 64 56 C62 64 52 70 38 70 C28 70 22 64 22 56 Z" fill="#E0F2FE" />
+  <circle cx="36" cy="48" r="3.5" fill="#1E3A8A" />
+</svg>

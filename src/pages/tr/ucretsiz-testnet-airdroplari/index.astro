@@ -1,0 +1,131 @@
+---
+import Layout from '../../../layouts/Layout.astro';
+import Header from '../../../components/Header.astro';
+import { airdrops } from '../../../data/airdrops';
+
+const currentDate = new Date().toISOString().split('T')[0];
+const freeTestnets = airdrops
+  .filter(a =>
+    (!a.publishDate || a.publishDate <= currentDate) &&
+    a.status === 'active' &&
+    (/free|\$0/i.test(a.cost || '') || /testnet|layer 1|layer 2|depin|zk/i.test(a.category || ''))
+  )
+  .slice(0, 30);
+
+const faqs = [
+  {
+    q: "Testnet airdropları tamamen ücretsiz mi?",
+    a: "Evet, testnet ağları gerçek para yerine ücretsiz test tokenları (faucet) kullanır. Sıfır sermaye ($0) ile işlem yaparak projelerin erken test kullanıcılarına ayırdığı ana ağ (mainnet) airdroplarına hak kazanabilirsiniz."
+  },
+  {
+    q: "Testnet için hangi cüzdanları kullanmalıyım?",
+    a: "EVM ağları için Rabby veya Rainbow, Solana tabanlı testler için Phantom, TON ekosistemi için ise Tonkeeper veya MyTonWallet kullanabilirsiniz."
+  },
+  {
+    q: "Testnet airdroplarında nelere dikkat edilmeli?",
+    a: "Tek bir gün yerine farklı haftalara yayılmış düzenli işlemler yapın, faucet üzerinden test token alıp akıllı kontratlarla (swap, stake, köprü) etkileşime girin ve Sybil filtresine takılmamak için tek temiz cüzdanla ilerleyin."
+  }
+];
+---
+
+<Layout
+  lang="tr"
+  title="Ücretsiz Testnet Airdropları 2026: Sermayesiz ($0) Kripto Rehberi | Airdroplyx"
+  description="2026 yılının en kazançlı ücretsiz ($0) Layer-1, Layer-2 ve ZK testnet airdropları. Faucet kullanımı, adım adım test görevleri ve Sybil koruma rehberi."
+>
+  <script type="application/ld+json" set:html={JSON.stringify({
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://airdroplyx.com/" },
+          { "@type": "ListItem", "position": 2, "name": "Ücretsiz Testnet Airdropları (TR)", "item": "https://airdroplyx.com/tr/ucretsiz-testnet-airdroplari/" }
+        ]
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": faqs.map(f => ({
+          "@type": "Question",
+          "name": f.q,
+          "acceptedAnswer": { "@type": "Answer", "text": f.a }
+        }))
+      }
+    ]
+  })} />
+
+  <Header />
+
+  <main class="max-w-[1150px] mx-auto px-4 py-12">
+    <nav class="flex items-center gap-2 text-xs font-semibold text-slate-400 mb-6" aria-label="Breadcrumb">
+      <a href="/" class="hover:text-slate-900 dark:hover:text-white">Ana Sayfa</a>
+      <span>/</span>
+      <span class="text-slate-900 dark:text-white">Ücretsiz Testnet Airdropları (TR)</span>
+    </nav>
+
+    <header class="bg-gradient-to-br from-slate-900 via-indigo-950 to-slate-900 text-white rounded-3xl p-8 md:p-12 mb-12 border border-indigo-500/20 shadow-xl">
+      <span class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-emerald-500/20 border border-emerald-400/30 text-emerald-300 text-xs font-bold uppercase tracking-wider mb-4">
+        🆓 $0 Sermaye • Doğrulanmış Testnetler
+      </span>
+      <h1 class="text-3xl md:text-5xl font-black tracking-tight mb-4 leading-tight">
+        Ücretsiz Testnet Airdropları &amp; Faucet Rehberi (2026)
+      </h1>
+      <p class="text-slate-300 text-base md:text-lg max-w-3xl leading-relaxed mb-6">
+        Gerçek para riske atmadan büyük yatırımcılardan milyonlarca dolar fon toplamış Layer-1, Layer-2, DePIN ve ZK ağlarının test aşamalarına katılın.
+      </p>
+      <div class="flex flex-wrap gap-3">
+        <a href="/faucets/" class="bg-indigo-600 hover:bg-indigo-500 text-white font-bold px-5 py-3 rounded-xl text-sm transition-colors">
+          Ücretsiz Testnet Faucetleri →
+        </a>
+        <a href="/tr/telegram-airdroplari/" class="bg-white/10 hover:bg-white/20 text-white font-bold px-5 py-3 rounded-xl text-sm border border-white/15 transition-colors">
+          🇹🇷 Telegram Airdropları
+        </a>
+      </div>
+    </header>
+
+    <section class="mb-14">
+      <div class="flex items-center justify-between border-b border-slate-200 dark:border-slate-700 pb-4 mb-6">
+        <h2 class="text-2xl font-black text-slate-900 dark:text-white">
+          Öne Çıkan Ücretsiz Testnet &amp; Erken Ağ Airdropları ({freeTestnets.length})
+        </h2>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
+        {freeTestnets.map(drop => (
+          <a href={`/airdrop/${drop.id}/`} class="bg-white dark:bg-slate-800 rounded-2xl p-5 border border-slate-200 dark:border-slate-700 hover:border-indigo-500 hover:shadow-lg transition-all flex flex-col justify-between group">
+            <div>
+              <div class="flex items-center gap-3 mb-3">
+                <img src={drop.logo} alt={drop.name} width="48" height="48" loading="lazy" decoding="async" class="w-12 h-12 rounded-xl object-cover bg-slate-50 p-1 border border-slate-100 dark:border-slate-700 shrink-0" />
+                <div class="min-w-0">
+                  <h3 class="font-bold text-base text-slate-900 dark:text-white group-hover:text-indigo-600 transition-colors truncate">{drop.name}</h3>
+                  <span class="text-xs font-semibold text-indigo-600 dark:text-indigo-400 block truncate">{drop.funding}</span>
+                </div>
+              </div>
+              <p class="text-xs text-slate-600 dark:text-slate-300 line-clamp-2 leading-relaxed mb-4">
+                {drop.description}
+              </p>
+            </div>
+            <div class="pt-3 border-t border-slate-100 dark:border-slate-700 flex items-center justify-between text-xs">
+              <span class="font-semibold text-emerald-600 dark:text-emerald-400">{drop.cost || 'Free ($0)'}</span>
+              <span class="font-bold text-indigo-600 dark:text-indigo-400">Adımlar →</span>
+            </div>
+          </a>
+        ))}
+      </div>
+    </section>
+
+    <section class="bg-slate-50 dark:bg-slate-800/50 rounded-3xl p-6 md:p-8 border border-slate-200 dark:border-slate-700">
+      <h2 class="text-2xl font-black text-slate-900 dark:text-white mb-5">
+        Testnet Airdropları Hakkında Sıkça Sorulan Sorular
+      </h2>
+      <div class="space-y-4">
+        {faqs.map(f => (
+          <div class="p-4 rounded-2xl bg-white dark:bg-slate-900/60 border border-slate-200/70 dark:border-slate-700/70">
+            <h3 class="font-bold text-slate-900 dark:text-white text-base mb-1">{f.q}</h3>
+            <p class="text-sm text-slate-600 dark:text-slate-300 leading-relaxed">{f.a}</p>
+          </div>
+        ))}
+      </div>
+    </section>
+  </main>
+</Layout>
