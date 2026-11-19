@@ -29,7 +29,7 @@ const canonicalURL = new URL(normalizedPath, Astro.site || "https://airdroplyx.c
 ---
 
 <!doctype html>
-<html lang={lang}>
+<html lang={lang} dir={lang === 'ar' ? 'rtl' : 'ltr'}>
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
