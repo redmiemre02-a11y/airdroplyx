@@ -1425,6 +1425,1482 @@ export const localizedAirdropGuides: LocalizedAirdropGuide[] = [
     ],
     ctaText: 'Otwórz Tiny Verse',
     englishVersionLabel: 'Wersja angielska'
+  },
+
+  // ================= BLUM (16 LANGUAGES) =================
+  {
+    id: 'blum',
+    slug: 'tr',
+    lang: 'tr',
+    flag: '🇹🇷',
+    homeLabel: 'Ana Sayfa',
+    hubLabel: 'Telegram Airdropları',
+    hubHref: '/tr/telegram-airdroplari/',
+    title: 'Blum Airdrop Rehberi (2026): $BP Puan Kasma & TON Cüzdan | Airdroplyx',
+    description: '60M+ kullanıcılı Telegram hibrit DEX projesi Blum ile 8 saatlik pasif $BP puan madenciliği, Drop Game taktikleri ve Tonkeeper bağlantısı Türkçe rehberi.',
+    h1: 'Blum ($BP) Telegram Airdrop ve Puan Kasma Rehberi',
+    badge: 'Telegram Mini-App • Ücretsiz',
+    rewardLabel: 'Tahmini Ödül',
+    costLabel: 'Maliyet',
+    snapshotLabel: 'Beklenen Dönem',
+    timeLabel: 'Günlük Süre',
+    overviewHeading: 'Proje Özeti',
+    overview: 'Blum, Telegram içinde çalışan yeni nesil bir hibrit kripto ticaret uygulaması ve non-custodial (kendi kontrolünüzde) cüzdan deneyimidir. MVB VII hızlandırma programına seçilen proje, 30’dan fazla blokzincir ağında karmaşık köprülerle uğraşmadan tek arayüzden token alım satımı ve MemePad lansmanları sunar. 60 milyonu aşkın kayıtlı kullanıcısıyla Telegram’daki en büyük airdrop ekosistemlerinden biridir.',
+    tokenomicsHeading: '$BP Puanları ve Tokenomik',
+    tokenomics: 'Biriktirilen Blum Puanları ($BP), TGE döneminde gerçekleştirilecek topluluk airdrop dağıtımındaki payınızı belirleyen ana ölçüttür. Yerel token; işlem ücreti indirimleri, MemePad erken erişim hakları ve yönetişim işlevleri için kullanılacaktır.',
+    stepsHeading: 'Adım Adım Katılım Rehberi',
+    steps: [
+      'Resmi Blum Telegram Mini Uygulamasını başlatın ve hesabınızı oluşturun.',
+      'Ana ekrandaki "Start farming" butonuna basarak 8 saatlik pasif $BP üretimini başlatın.',
+      'Her 8 saatte bir giriş yaparak biriken puanları toplayın ve sayacı yeniden başlatın.',
+      'Günlük giriş serinizi bozmadan ücretsiz Game Pass biletleri kazanın ve Drop Game oynayarak yeşil kristalleri yakalayın.',
+      'Görevler (Tasks) sekmesindeki sosyal ve topluluk görevlerini tamamlayın; cüzdan sekmesinden Tonkeeper veya MyTonWallet bağlayın.'
+    ],
+    strategyHeading: 'Maksimum Ödül Stratejisi',
+    strategy: '8 saatlik sayaç dolduğunda üretim durur; bu nedenle günde 3 kez düzenli talep yapmak puan kaybını önler. Drop Game oynarken bombalardan kaçınıp buz kristallerini zamanında kullanmak tek turda yüksek $BP toplamanızı sağlar.',
+    sybilHeading: 'Sybil Koruması ve Güvenlik',
+    sybilSafety: 'Blum, otomatik tıklama botlarını ve emülatör tabanlı çoklu hesapları tespit eden davranışsal analiz sistemleri kullanır. Gerçek günlük seri korumak ve doğrulanmış bir Tonkeeper cüzdanı bağlamak uygunluk için kritik önem taşır.',
+    faqHeading: 'Sıkça Sorulan Sorular',
+    faqs: [
+      {
+        q: 'Blum airdrop katılımı ücretsiz mi?',
+        a: 'Evet, 8 saatlik puan madenciliği, günlük giriş ödülleri, Drop Game ve görevler tamamen ücretsizdir ($0).'
+      },
+      {
+        q: 'Hangi cüzdanı bağlamalıyım?',
+        a: 'Cüzdan sekmesinden Tonkeeper veya MyTonWallet gibi self-custody bir TON cüzdanı bağlamanız önerilir.'
+      }
+    ],
+    ctaText: 'Blum’u Başlat',
+    englishVersionLabel: 'İngilizce Sürüm'
+  },
+  {
+    id: 'blum',
+    slug: 'ru',
+    lang: 'ru',
+    flag: '🇷🇺',
+    homeLabel: 'Главная',
+    hubLabel: 'Telegram-аирдропы',
+    hubHref: '/ru/telegram-airdrops/',
+    title: 'Гайд по аирдропу Blum (2026): фарм $BP и подключение Tonkeeper | Airdroplyx',
+    description: 'Подробное руководство по Blum в Telegram: как собирать Blum Points ($BP) каждые 8 часов, играть в Drop Game и подключить кошелек Tonkeeper без вложений.',
+    h1: 'Blum ($BP): гайд по аирдропу и фарму поинтов в Telegram',
+    badge: 'Telegram Mini-App • Бесплатно',
+    rewardLabel: 'Ожидаемая награда',
+    costLabel: 'Затраты',
+    snapshotLabel: 'Ожидаемый период',
+    timeLabel: 'Время в день',
+    overviewHeading: 'Обзор проекта',
+    overview: 'Blum — гибридная криптовалютная торговая платформа в формате Telegram Mini App с поддержкой более 30 блокчейнов и некастодиальным доступом. Проект прошел отбор в программу акселерации MVB VII и объединил свыше 60 миллионов пользователей, предлагая удобный доступ к токенам, мемкоинам на MemePad и фарму поинтов $BP.',
+    tokenomicsHeading: 'Токеномика и поинты $BP',
+    tokenomics: 'Накопленные Blum Points ($BP) служат основным показателем вклада пользователя для распределения токенов на TGE. Нативный токен будет использоваться для скидок на комиссии, участия в запусках MemePad и стейкинга.',
+    stepsHeading: 'Пошаговая инструкция',
+    steps: [
+      'Откройте официальный мини-апп Blum в Telegram и создайте профиль.',
+      'Нажмите "Start farming", чтобы запустить 8-часовой цикл пассивного фарма $BP.',
+      'Заходите каждые 8 часов, забирайте накопленные поинты и перезапускайте таймер.',
+      'Поддерживайте ежедневный стрик для получения Game Passes и ловите зеленые кристаллы в Drop Game.',
+      'Выполните задания во вкладке Tasks и привяжите некастодиальный кошелек Tonkeeper или MyTonWallet.'
+    ],
+    strategyHeading: 'Стратегия фарма',
+    strategy: 'После истечения 8 часов начисление останавливается, поэтому старайтесь собирать поинты трижды в день. В Drop Game избегайте бомб и используйте заморозку времени в пиковые моменты падения кристаллов.',
+    sybilHeading: 'Защита от ботов и безопасность',
+    sybilSafety: 'Blum анализирует ритм нажатий и отсеивает автокликеры с эмуляторными фермами. Регулярные ежедневные входы и привязка верифицированного кошелька Tonkeeper защищают аккаунт от фильтрации.',
+    faqHeading: 'Частые вопросы',
+    faqs: [
+      {
+        q: 'Нужны ли вложения для участия в Blum?',
+        a: 'Нет, фарм поинтов, Drop Game и выполнение заданий полностью бесплатны ($0).'
+      },
+      {
+        q: 'Обязательно ли подключать TON-кошелек?',
+        a: 'Да, привязка некастодиального кошелька вроде Tonkeeper или MyTonWallet необходима для получения дропа.'
+      }
+    ],
+    ctaText: 'Открыть Blum',
+    englishVersionLabel: 'Английская версия'
+  },
+  {
+    id: 'blum',
+    slug: 'id',
+    lang: 'id',
+    flag: '🇮🇩',
+    homeLabel: 'Beranda',
+    hubLabel: 'Airdrop Telegram',
+    hubHref: '/id/airdrop-telegram/',
+    title: 'Panduan Airdrop Blum (2026): Cara Farm $BP & Hubungkan Tonkeeper | Airdroplyx',
+    description: 'Panduan lengkap airdrop Blum di Telegram: cara klaim Blum Points ($BP) setiap 8 jam, tips Drop Game, dan hubungkan dompet Tonkeeper gratis.',
+    h1: 'Blum ($BP): Panduan Airdrop Telegram & Strategi Farming',
+    badge: 'Telegram Mini-App • Gratis',
+    rewardLabel: 'Estimasi Hadiah',
+    costLabel: 'Biaya',
+    snapshotLabel: 'Perkiraan Snapshot',
+    timeLabel: 'Waktu Harian',
+    overviewHeading: 'Ringkasan Proyek',
+    overview: 'Blum adalah aplikasi perdagangan kripto hibrida di dalam Telegram yang menggabungkan kemudahan antarmuka dan kontrol dompet non-kustodial di lebih dari 30 jaringan. Terpilih dalam program akselerator MVB VII dan memiliki lebih dari 60 juta pengguna, Blum menghadirkan fitur MemePad serta pengumpulan Blum Points ($BP).',
+    tokenomicsHeading: 'Tokenomik & Poin $BP',
+    tokenomics: 'Total Blum Points ($BP) yang Anda kumpulkan menjadi metrik utama untuk menentukan alokasi token pada acara TGE. Token utilitas Blum nantinya dipakai untuk diskon biaya transaksi, akses MemePad, dan tata kelola.',
+    stepsHeading: 'Langkah-Langkah Mengikuti Airdrop',
+    steps: [
+      'Buka Mini App resmi Blum di Telegram dan selesaikan pendaftaran akun.',
+      'Ketuk "Start farming" untuk memulai siklus pengumpulan poin $BP selama 8 jam.',
+      'Buka aplikasi setiap 8 jam untuk mengklaim poin dan memulai ulang penghitung waktu.',
+      'Pertahankan login harian untuk meraih Game Pass gratis dan mainkan Drop Game.',
+      'Selesaikan misi di tab Tasks lalu hubungkan dompet Tonkeeper atau MyTonWallet di menu Wallet.'
+    ],
+    strategyHeading: 'Strategi Maksimal',
+    strategy: 'Produksi poin berhenti setelah 8 jam, jadi jadwalkan klaim rutin setiap 8 jam sekali. Saat bermain Drop Game, hindari bom dan manfaatkan kristal es untuk menangkap lebih banyak poin hijau.',
+    sybilHeading: 'Keamanan & Anti-Sybil',
+    sybilSafety: 'Blum menerapkan analisis perilaku untuk memblokir bot klik otomatis dan akun emulator massal. Bermain Drop Game secara alami serta menautkan dompet Tonkeeper menjaga kelayakan akun Anda.',
+    faqHeading: 'Pertanyaan Umum',
+    faqs: [
+      {
+        q: 'Apakah airdrop Blum gratis?',
+        a: 'Ya, farming poin 8 jam, check-in harian, dan Drop Game 100% gratis tanpa modal ($0).'
+      },
+      {
+        q: 'Dompet apa yang harus dihubungkan ke Blum?',
+        a: 'Gunakan dompet TON non-kustodial seperti Tonkeeper atau MyTonWallet pada tab Wallet.'
+      }
+    ],
+    ctaText: 'Buka Blum',
+    englishVersionLabel: 'Versi Bahasa Inggris'
+  },
+  {
+    id: 'blum',
+    slug: 'vi',
+    lang: 'vi',
+    flag: '🇻🇳',
+    homeLabel: 'Trang chủ',
+    hubLabel: 'Airdrop Telegram',
+    hubHref: '/vi/airdrop-telegram/',
+    title: 'Hướng dẫn Airdrop Blum (2026): Farm $BP & Kết nối Tonkeeper | Airdroplyx',
+    description: 'Cách tham gia airdrop Blum trên Telegram miễn phí: nhận Blum Points ($BP) mỗi 8 giờ, chơi Drop Game hiệu quả và liên kết ví Tonkeeper.',
+    h1: 'Blum ($BP): Hướng dẫn Airdrop Telegram & Tối ưu Điểm',
+    badge: 'Telegram Mini-App • Miễn phí',
+    rewardLabel: 'Phần thưởng dự kiến',
+    costLabel: 'Chi phí',
+    snapshotLabel: 'Thời gian dự kiến',
+    timeLabel: 'Thời gian mỗi ngày',
+    overviewHeading: 'Tổng quan dự án',
+    overview: 'Blum là nền tảng giao dịch crypto lai (hybrid) hoạt động trực tiếp dưới dạng Telegram Mini-App, hỗ trợ hơn 30 blockchain mà không cần cầu nối phức tạp. Được ươm tạo trong chương trình MVB VII với hơn 60 triệu người dùng, Blum cho phép kiếm Blum Points ($BP) và khám phá token mới qua MemePad.',
+    tokenomicsHeading: 'Tokenomics & Điểm $BP',
+    tokenomics: 'Số lượng Blum Points ($BP) tích lũy là căn cứ chính để quy đổi sang token gốc tại sự kiện TGE. Token của hệ sinh thái Blum dùng để giảm phí giao dịch, tham gia MemePad và quản trị.',
+    stepsHeading: 'Các bước tham gia chi tiết',
+    steps: [
+      'Mở Telegram Mini-App chính thức của Blum và khởi tạo tài khoản.',
+      'Nhấn "Start farming" để bắt đầu chu kỳ khai thác điểm $BP kéo dài 8 giờ.',
+      'Quay lại mỗi 8 giờ để nhận điểm đã tích lũy và kích hoạt lại bộ đếm.',
+      'Điểm danh hàng ngày để nhận vé Game Pass miễn phí và chơi Drop Game thu thập tinh thể xanh.',
+      'Hoàn thành nhiệm vụ trong mục Tasks và kết nối ví Tonkeeper hoặc MyTonWallet trong mục Wallet.'
+    ],
+    strategyHeading: 'Chiến lược tối ưu điểm',
+    strategy: 'Bộ đếm sẽ tạm dừng sau mỗi 8 giờ, vì vậy hãy đặt nhắc nhở nhận điểm đều đặn 3 lần mỗi ngày. Trong Drop Game, hãy tránh bom và tận dụng tinh thể đóng băng thời gian để đạt điểm tối đa.',
+    sybilHeading: 'Chống Sybil & Bảo mật',
+    sybilSafety: 'Hệ thống của Blum phân tích thao tác chạm và loại bỏ các tài khoản dùng auto-click hoặc giả lập hàng loạt. Hãy duy trì chuỗi điểm danh tự nhiên và liên kết ví Tonkeeper chính chủ.',
+    faqHeading: 'Câu hỏi thường gặp',
+    faqs: [
+      {
+        q: 'Tham gia farm Blum có mất phí không?',
+        a: 'Hoàn toàn miễn phí ($0), bạn không cần nạp tiền để cày điểm $BP hoặc chơi Drop Game.'
+      },
+      {
+        q: 'Cần dùng ví nào để nhận airdrop Blum?',
+        a: 'Bạn cần kết nối ví TON tự quản lý như Tonkeeper hoặc MyTonWallet ngay trong ứng dụng.'
+      }
+    ],
+    ctaText: 'Mở Blum',
+    englishVersionLabel: 'Bản tiếng Anh'
+  },
+  {
+    id: 'blum',
+    slug: 'es',
+    lang: 'es',
+    flag: '🇪🇸',
+    homeLabel: 'Inicio',
+    hubLabel: 'Airdrops de Telegram',
+    hubHref: '/es/airdrops-telegram/',
+    title: 'Guía Airdrop Blum (2026): Farmear Puntos $BP y Conectar Tonkeeper | Airdroplyx',
+    description: 'Cómo participar gratis en el airdrop de Blum en Telegram: reclama Blum Points ($BP) cada 8 horas, domina el Drop Game y vincula Tonkeeper.',
+    h1: 'Blum ($BP): Guía del Airdrop en Telegram y Estrategia de Puntos',
+    badge: 'Telegram Mini-App • Gratis',
+    rewardLabel: 'Recompensa estimada',
+    costLabel: 'Costo',
+    snapshotLabel: 'Periodo estimado',
+    timeLabel: 'Tiempo diario',
+    overviewHeading: 'Resumen del proyecto',
+    overview: 'Blum es una plataforma híbrida de intercambio cripto integrada nativamente en Telegram con soporte para más de 30 cadenas y custodia propia. Seleccionada en el programa MVB VII y con más de 60 millones de usuarios, ofrece MemePad y acumulación de Blum Points ($BP).',
+    tokenomicsHeading: 'Tokenomics y Puntos $BP',
+    tokenomics: 'Los Blum Points ($BP) acumulados determinan tu participación proporcional en el airdrop del token nativo durante el TGE. El token ofrecerá descuentos en comisiones, acceso a MemePad y gobernanza.',
+    stepsHeading: 'Pasos para participar',
+    steps: [
+      'Inicia la Mini App oficial de Blum en Telegram y crea tu cuenta.',
+      'Pulsa "Start farming" para activar el ciclo pasivo de 8 horas.',
+      'Entra cada 8 horas para reclamar tus $BP acumulados y reiniciar el contador.',
+      'Mantén tu racha diaria para obtener Game Passes y juega al Drop Game atrapando cristales verdes.',
+      'Completa las misiones en la pestaña Tasks y vincula tu billetera Tonkeeper o MyTonWallet.'
+    ],
+    strategyHeading: 'Estrategia para maximizar recompensas',
+    strategy: 'El contador se detiene al cumplir 8 horas, así que reclama tres veces al día para no perder rendimiento. En el Drop Game evita las bombas y aprovecha los cristales de hielo.',
+    sybilHeading: 'Seguridad y protección Sybil',
+    sybilSafety: 'Blum analiza el patrón táctil para detectar scripts automáticos y emuladores. Mantener una racha diaria genuina y conectar Tonkeeper protege tu elegibilidad.',
+    faqHeading: 'Preguntas frecuentes',
+    faqs: [
+      {
+        q: '¿Es gratis farmear en Blum?',
+        a: 'Sí, el farmeo de 8 horas, el Drop Game y las tareas son 100% gratuitos ($0).'
+      },
+      {
+        q: '¿Qué billetera debo conectar?',
+        a: 'Conecta una billetera TON de autocustodia como Tonkeeper o MyTonWallet en la pestaña Wallet.'
+      }
+    ],
+    ctaText: 'Abrir Blum',
+    englishVersionLabel: 'Versión en inglés'
+  },
+  {
+    id: 'blum',
+    slug: 'pt',
+    lang: 'pt',
+    flag: '🇧🇷',
+    homeLabel: 'Início',
+    hubLabel: 'Airdrops do Telegram',
+    hubHref: '/pt/airdrops-telegram/',
+    title: 'Guia Airdrop Blum (2026): Farmar $BP e Conectar Tonkeeper | Airdroplyx',
+    description: 'Passo a passo completo para o airdrop da Blum no Telegram: colete Blum Points ($BP) a cada 8 horas, jogue o Drop Game e conecte a Tonkeeper grátis.',
+    h1: 'Blum ($BP): Guia do Airdrop no Telegram e Estratégia',
+    badge: 'Telegram Mini-App • Grátis',
+    rewardLabel: 'Recompensa estimada',
+    costLabel: 'Custo',
+    snapshotLabel: 'Previsão',
+    timeLabel: 'Tempo diário',
+    overviewHeading: 'Visão geral do projeto',
+    overview: 'A Blum é uma plataforma híbrida de negociação cripto nativa no Telegram com suporte a mais de 30 blockchains e autocustódia. Selecionada pelo programa MVB VII e com mais de 60 milhões de usuários, reúne o MemePad e o sistema de Blum Points ($BP).',
+    tokenomicsHeading: 'Tokenomics e Pontos $BP',
+    tokenomics: 'Seus Blum Points ($BP) acumulados definem a parcela do airdrop comunitário no TGE. O token nativo trará descontos em taxas, acesso ao MemePad e recompensas de participação.',
+    stepsHeading: 'Passo a passo para participar',
+    steps: [
+      'Abra o Mini App oficial da Blum no Telegram e crie sua conta.',
+      'Toque em "Start farming" para ativar a geração passiva por 8 horas.',
+      'Retorne a cada 8 horas para resgatar os pontos $BP e reiniciar o ciclo.',
+      'Mantenha a sequência diária para ganhar Game Passes e capture cristais verdes no Drop Game.',
+      'Conclua as missões na aba Tasks e vincule sua carteira Tonkeeper ou MyTonWallet.'
+    ],
+    strategyHeading: 'Estratégia de ganhos',
+    strategy: 'A mineração pausa após 8 horas; portanto, faça 3 coletas diárias para manter o ritmo máximo. No Drop Game, desvie das bombas e use os cristais de gelo nos momentos certos.',
+    sybilHeading: 'Proteção Sybil e segurança',
+    sybilSafety: 'A Blum utiliza análise comportamental para filtrar scripts de clique e emuladores. Manter check-ins reais e vincular uma carteira Tonkeeper garante sua elegibilidade.',
+    faqHeading: 'Perguntas frequentes',
+    faqs: [
+      {
+        q: 'O airdrop da Blum é gratuito?',
+        a: 'Sim, todo o farm de 8 horas, Drop Game e tarefas são 100% gratuitos ($0).'
+      },
+      {
+        q: 'Qual carteira devo usar na Blum?',
+        a: 'Conecte uma carteira TON de autocustódia como Tonkeeper ou MyTonWallet.'
+      }
+    ],
+    ctaText: 'Abrir Blum',
+    englishVersionLabel: 'Versão em inglês'
+  },
+  {
+    id: 'blum',
+    slug: 'ko',
+    lang: 'ko',
+    flag: '🇰🇷',
+    homeLabel: '홈',
+    hubLabel: '텔레그램 에어드랍',
+    hubHref: '/ko/telegram-airdrops/',
+    title: 'Blum 에어드랍 가이드 (2026): $BP 포인트 채굴 & Tonkeeper 연결 | Airdroplyx',
+    description: '6,000만 유저가 참여하는 텔레그램 하이브리드 거래 앱 Blum 완벽 공략: 8시간 파밍, Drop Game 공략, Tonkeeper 지갑 연동 방법.',
+    h1: 'Blum ($BP) 텔레그램 에어드랍 및 포인트 파밍 가이드',
+    badge: '텔레그램 미니앱 • 무료',
+    rewardLabel: '예상 보상',
+    costLabel: '비용',
+    snapshotLabel: '예상 시기',
+    timeLabel: '일일 소요 시간',
+    overviewHeading: '프로젝트 개요',
+    overview: 'Blum은 복잡한 크로스체인 브릿지 없이 30개 이상의 블록체인 토큰을 텔레그램 안에서 바로 거래할 수 있는 하이브리드 크립토 앱입니다. MVB VII 인큐베이팅 프로그램 선정 프로젝트로 6,000만 명 이상의 가입자를 확보했으며, MemePad와 Blum Points($BP) 파밍을 제공합니다.',
+    tokenomicsHeading: '$BP 포인트 및 토크노믹스',
+    tokenomics: '누적된 Blum Points($BP)는 TGE 시점 커뮤니티 에어드랍 배분 비중을 결정하는 핵심 지표입니다. 네이티브 토큰은 거래 수수료 할인, MemePad 참여 및 거버넌스에 활용됩니다.',
+    stepsHeading: '단계별 참여 방법',
+    steps: [
+      '텔레그램에서 공식 Blum 미니앱을 실행하고 계정을 생성하세요.',
+      '"Start farming"을 눌러 8시간 자동 $BP 파밍 사이클을 시작하세요.',
+      '8시간마다 접속해 포인트를 수령(Claim)하고 다시 파밍을 활성화하세요.',
+      '매일 출석 체크를 유지해 무료 Game Pass를 받고 Drop Game에서 초록색 크리스탈을 획득하세요.',
+      'Tasks 탭의 소셜 미션을 완료하고 Wallet 탭에서 Tonkeeper 또는 MyTonWallet을 연결하세요.'
+    ],
+    strategyHeading: '보상 극대화 전략',
+    strategy: '8시간이 지나면 파밍이 멈추므로 하루 3번 꾸준히 수령하는 것이 중요합니다. Drop Game에서는 폭탄을 피하고 얼음 아이템을 활용해 고득점을 노리세요.',
+    sybilHeading: '시빌 방지 및 보안',
+    sybilSafety: 'Blum은 터치 패턴 분석으로 자동 클릭 매크로와 다계정 에뮬레이터를 차단합니다. 자연스러운 일일 출석과 Tonkeeper 지갑 연동이 필수입니다.',
+    faqHeading: '자주 묻는 질문',
+    faqs: [
+      {
+        q: 'Blum 파밍은 무료인가요?',
+        a: '네, 8시간 파밍과 Drop Game, 미션 참여 모두 별도 비용 없이 무료($0)입니다.'
+      },
+      {
+        q: '어떤 지갑을 연결해야 하나요?',
+        a: 'Wallet 메뉴에서 Tonkeeper 또는 MyTonWallet 같은 비수탁 TON 지갑을 연결하면 됩니다.'
+      }
+    ],
+    ctaText: 'Blum 시작하기',
+    englishVersionLabel: '영문 버전'
+  },
+  {
+    id: 'blum',
+    slug: 'ja',
+    lang: 'ja',
+    flag: '🇯🇵',
+    homeLabel: 'ホーム',
+    hubLabel: 'Telegramエアドロップ',
+    hubHref: '/ja/telegram-airdrops/',
+    title: 'Blum エアドロップ攻略 (2026): $BP稼ぎ方・Tonkeeper連携 | Airdroplyx',
+    description: '6,000万人以上が参加するTelegramアプリBlumの完全ガイド：8時間ごとの$BP回収、Drop Gameのコツ、Tonkeeperウォレット接続手順。',
+    h1: 'Blum ($BP) Telegramエアドロップ＆ポイント獲得ガイド',
+    badge: 'Telegramミニアプリ • 無料',
+    rewardLabel: '予想報酬',
+    costLabel: '費用',
+    snapshotLabel: '予定時期',
+    timeLabel: '1日の作業時間',
+    overviewHeading: 'プロジェクト概要',
+    overview: 'Blumは、30以上のブロックチェーンに対応したTelegramネイティブのハイブリッド暗号資産取引アプリです。MVB VIIアクセラレーターに選出され、6,000万人以上のユーザーを獲得しており、MemePadやBlum Points（$BP）のファーミング機能を提供しています。',
+    tokenomicsHeading: '$BPポイントとトケノミクス',
+    tokenomics: '蓄積したBlum Points（$BP）は、TGE時のエアドロップ配分量を決める主要指標となります。ネイティブトークンは取引手数料割引やMemePad参加権などに使われる予定です。',
+    stepsHeading: '参加ステップ',
+    steps: [
+      'Telegramで公式Blumミニアプリを起動し、アカウントを作成します。',
+      '「Start farming」をタップして8時間の自動$BPファーミングを開始します。',
+      '8時間ごとにアプリを開き、貯まったポイントを回収して再度サイクルを回します。',
+      '毎日ログインしてGame Passを受け取り、Drop Gameで緑のクリスタルを集めます。',
+      'Tasksタブのミッションを完了し、WalletタブからTonkeeperまたはMyTonWalletを接続します。'
+    ],
+    strategyHeading: '報酬最大化のコツ',
+    strategy: '8時間でカウントが停止するため、1日3回の定期回収を心がけましょう。Drop Gameでは爆弾を避けつつ氷アイテムを活用するとスコアが伸びます。',
+    sybilHeading: 'シビル対策と安全性',
+    sybilSafety: 'Blumは操作パターンの解析により自動ボットやエミュレーター複垢を除外しています。毎日の継続ログインとTonkeeper連携で対象資格を確保しましょう。',
+    faqHeading: 'よくある質問',
+    faqs: [
+      {
+        q: 'Blumは無料で参加できますか？',
+        a: 'はい、8時間ファーミング、Drop Game、タスクはすべて無料（$0）です。'
+      },
+      {
+        q: 'どのウォレットを接続すればよいですか？',
+        a: 'TonkeeperやMyTonWalletなどのセルフカストディ型TONウォレットを接続してください。'
+      }
+    ],
+    ctaText: 'Blumを開く',
+    englishVersionLabel: '英語版を見る'
+  },
+  {
+    id: 'blum',
+    slug: 'ar',
+    lang: 'ar',
+    flag: '🇸🇦',
+    homeLabel: 'الرئيسية',
+    hubLabel: 'إيردروبات تيليجرام',
+    hubHref: '/ar/telegram-airdrops/',
+    title: 'دليل إيردروب Blum (2026): تعدين نقاط $BP وربط Tonkeeper | Airdroplyx',
+    description: 'دليل شامل للمشاركة مجاناً في إيردروب Blum على تيليجرام: اجمع نقاط $BP كل 8 ساعات، والعب Drop Game، واربط محفظة Tonkeeper.',
+    h1: 'Blum ($BP): دليل إيردروب تيليجرام وتعدين النقاط',
+    badge: 'تطبيق تيليجرام • مجاني',
+    rewardLabel: 'المكافأة المتوقعة',
+    costLabel: 'التكلفة',
+    snapshotLabel: 'الفترة المتوقعة',
+    timeLabel: 'الوقت اليومي',
+    overviewHeading: 'نظرة عامة على المشروع',
+    overview: 'تطبيق Blum هو منصة تداول هجينة مدمجة داخل تيليجرام تدعم أكثر من 30 شبكة بلوكشين بدون تعقيدات الجسور التقليدية. تم اختيار المشروع في برنامج تسريع الأعمال MVB VII ويضم أكثر من 60 مليون مستخدم يجمعون نقاط $BP.',
+    tokenomicsHeading: 'اقتصاديات $BP والتوزيع',
+    tokenomics: 'تحدد نقاط Blum ($BP) المتراكمة حصتك النسبية من توزيع العملة عند الإطلاق (TGE). وستُستخدم العملة الأصلية لخصومات الرسوم، ومنصة إطلاق MemePad، والحوكمة.',
+    stepsHeading: 'خطوات المشاركة',
+    steps: [
+      'افتح تطبيق Blum الرسمي داخل تيليجرام وأنشئ حسابك.',
+      'اضغط على "Start farming" لبدء دورة جمع النقاط كل 8 ساعات.',
+      'ادخل كل 8 ساعات للمطالبة بنقاط $BP المتراكمة وإعادة تشغيل العداد.',
+      'حافظ على سلسلة الدخول اليومية للحصول على بطاقات Game Pass واللعب في Drop Game.',
+      'أكمل المهام في تبويب Tasks واربط محفظة Tonkeeper أو MyTonWallet.'
+    ],
+    strategyHeading: 'استراتيجية تعظيم المكافآت',
+    strategy: 'يتوقف التعدين عند انتهاء 8 ساعات، لذا يُنصح بالمطالبة 3 مرات يومياً. وفي لعبة Drop Game، تجنب القنابل واستخدم بلورات التجميد لجمع أكبر عدد من النقاط الخضراء.',
+    sybilHeading: 'الحماية من الحسابات الوهمية والأمان',
+    sybilSafety: 'تراقب Blum أنماط اللمس لاستبعاد برامج النقر التلقائي والمحاكيات المتعددة. الحفاظ على دخول يومي طبيعي وربط محفظة Tonkeeper موثقة يضمن أهليتك.',
+    faqHeading: 'الأسئلة الشائعة',
+    faqs: [
+      {
+        q: 'هل إيردروب Blum مجاني؟',
+        a: 'نعم، تعدين النقاط كل 8 ساعات ولعبة Drop Game والمهام مجانية 100% ($0).'
+      },
+      {
+        q: 'ما المحفظة التي يجب ربطها؟',
+        a: 'اربط محفظة TON ذاتية الحفظ مثل Tonkeeper أو MyTonWallet من تبويب المحفظة.'
+      }
+    ],
+    ctaText: 'افتح Blum',
+    englishVersionLabel: 'النسخة الإنجليزية'
+  },
+  {
+    id: 'blum',
+    slug: 'de',
+    lang: 'de',
+    flag: '🇩🇪',
+    homeLabel: 'Startseite',
+    hubLabel: 'Telegram-Airdrops',
+    hubHref: '/de/telegram-airdrops/',
+    title: 'Blum Airdrop Guide (2026): $BP farmen & Tonkeeper verbinden | Airdroplyx',
+    description: 'Anleitung für den Blum Airdrop in Telegram: Alle 8 Stunden Blum Points ($BP) einsammeln, Drop Game optimieren und Tonkeeper kostenlos verknüpfen.',
+    h1: 'Blum ($BP): Telegram-Airdrop & Farming-Guide',
+    badge: 'Telegram Mini-App • Kostenlos',
+    rewardLabel: 'Geschätzte Belohnung',
+    costLabel: 'Kosten',
+    snapshotLabel: 'Erwarteter Zeitraum',
+    timeLabel: 'Täglicher Aufwand',
+    overviewHeading: 'Projektübersicht',
+    overview: 'Blum ist eine hybride Krypto-Handels-App direkt in Telegram mit Unterstützung für über 30 Blockchains und Non-Custodial-Kontrolle. Das Projekt wurde für das MVB-VII-Programm ausgewählt und zählt über 60 Millionen registrierte Nutzer.',
+    tokenomicsHeading: '$BP-Punkte & Tokenomics',
+    tokenomics: 'Gesammelte Blum Points ($BP) sind die zentrale Grundlage für deinen Anteil am Community-Airdrop beim TGE. Der native Token bietet Gebührenrabatte, MemePad-Zugang und Governance-Rechte.',
+    stepsHeading: 'Schritt-für-Schritt-Anleitung',
+    steps: [
+      'Starte die offizielle Blum Mini App in Telegram und erstelle dein Konto.',
+      'Tippe auf "Start farming", um den 8-Stunden-Zyklus für $BP zu starten.',
+      'Kehre alle 8 Stunden zurück, fordere deine Punkte an und starte den Timer neu.',
+      'Halte deine tägliche Check-in-Serie für kostenlose Game Passes und spiele das Drop Game.',
+      'Erledige die Aufgaben im Reiter Tasks und verbinde Tonkeeper oder MyTonWallet.'
+    ],
+    strategyHeading: 'Strategie für maximale Punkte',
+    strategy: 'Nach 8 Stunden pausiert das Farming, daher lohnen sich drei Claims pro Tag. Weiche im Drop Game Bomben aus und nutze Eiskristalle für hohe Punktzahlen.',
+    sybilHeading: 'Sybil-Schutz & Sicherheit',
+    sybilSafety: 'Blum erkennt automatisierte Klick-Skripte und Emulator-Farmen anhand von Verhaltensanalysen. Regelmäßige Logins und eine verifizierte Tonkeeper-Wallet sichern deine Berechtigung.',
+    faqHeading: 'Häufig gestellte Fragen',
+    faqs: [
+      {
+        q: 'Ist das Blum-Farming kostenlos?',
+        a: 'Ja, 8-Stunden-Farming, Drop Game und alle Aufgaben sind komplett kostenlos ($0).'
+      },
+      {
+        q: 'Welche Wallet sollte ich verbinden?',
+        a: 'Verbinde eine Non-Custodial TON-Wallet wie Tonkeeper oder MyTonWallet.'
+      }
+    ],
+    ctaText: 'Blum öffnen',
+    englishVersionLabel: 'Englische Version'
+  },
+  {
+    id: 'blum',
+    slug: 'fr',
+    lang: 'fr',
+    flag: '🇫🇷',
+    homeLabel: 'Accueil',
+    hubLabel: 'Airdrops Telegram',
+    hubHref: '/fr/airdrops-telegram/',
+    title: 'Guide Airdrop Blum (2026) : Farmer $BP et lier Tonkeeper | Airdroplyx',
+    description: 'Comment participer gratuitement à l’airdrop Blum sur Telegram : réclamez vos points $BP toutes les 8 heures, maîtrisez le Drop Game et connectez Tonkeeper.',
+    h1: 'Blum ($BP) : Guide Airdrop Telegram et Stratégie de Farming',
+    badge: 'Telegram Mini-App • Gratuit',
+    rewardLabel: 'Récompense estimée',
+    costLabel: 'Coût',
+    snapshotLabel: 'Période estimée',
+    timeLabel: 'Temps quotidien',
+    overviewHeading: 'Présentation du projet',
+    overview: 'Blum est une application de trading crypto hybride intégrée à Telegram prenant en charge plus de 30 blockchains en auto-garde. Sélectionné dans le programme MVB VII avec plus de 60 millions d’utilisateurs, Blum propose MemePad et le farming de Blum Points ($BP).',
+    tokenomicsHeading: 'Tokenomics et Points $BP',
+    tokenomics: 'Les Blum Points ($BP) accumulés déterminent votre part de l’airdrop lors du TGE. Le jeton natif servira aux réductions de frais, à l’accès au MemePad et à la gouvernance.',
+    stepsHeading: 'Étapes pour participer',
+    steps: [
+      'Ouvrez la Mini App officielle Blum sur Telegram et créez votre compte.',
+      'Appuyez sur "Start farming" pour lancer le cycle passif de 8 heures.',
+      'Revenez toutes les 8 heures pour réclamer vos $BP et relancer le compteur.',
+      'Maintenez votre série quotidienne pour recevoir des Game Passes et jouer au Drop Game.',
+      'Accomplissez les quêtes de l’onglet Tasks et liez votre portefeuille Tonkeeper ou MyTonWallet.'
+    ],
+    strategyHeading: 'Stratégie d’optimisation',
+    strategy: 'Le compteur s’arrête au bout de 8 heures : trois réclamations par jour évitent toute perte. Dans le Drop Game, évitez les bombes et déclenchez les cristaux de glace.',
+    sybilHeading: 'Protection Anti-Sybil et sécurité',
+    sybilSafety: 'Blum analyse les interactions tactiles pour filtrer les bots et émulateurs. Une présence quotidienne régulière et un portefeuille Tonkeeper connecté protègent votre éligibilité.',
+    faqHeading: 'Questions fréquentes',
+    faqs: [
+      {
+        q: 'L’airdrop Blum est-il gratuit ?',
+        a: 'Oui, le farming de 8 heures, le Drop Game et les quêtes sont 100 % gratuits ($0).'
+      },
+      {
+        q: 'Quel portefeuille connecter à Blum ?',
+        a: 'Connectez un portefeuille TON non-custodial comme Tonkeeper ou MyTonWallet.'
+      }
+    ],
+    ctaText: 'Ouvrir Blum',
+    englishVersionLabel: 'Version anglaise'
+  },
+  {
+    id: 'blum',
+    slug: 'uk',
+    lang: 'uk',
+    flag: '🇺🇦',
+    homeLabel: 'Головна',
+    hubLabel: 'Telegram-аірдропи',
+    hubHref: '/uk/telegram-airdrops/',
+    title: 'Гайд з аірдропу Blum (2026): фарм $BP і підключення Tonkeeper | Airdroplyx',
+    description: 'Покрокова інструкція для аірдропу Blum у Telegram: збирайте Blum Points ($BP) кожні 8 годин, грайте у Drop Game та підключіть Tonkeeper.',
+    h1: 'Blum ($BP): гайд з аірдропу та фарму поінтів у Telegram',
+    badge: 'Telegram Mini-App • Безкоштовно',
+    rewardLabel: 'Очікувана винагорода',
+    costLabel: 'Витрати',
+    snapshotLabel: 'Очікуваний період',
+    timeLabel: 'Час на день',
+    overviewHeading: 'Огляд проєкту',
+    overview: 'Blum — гібридний криптододаток у Telegram із підтримкою понад 30 блокчейнів та некастодіальним доступом. Проєкт пройшов відбір до акселератора MVB VII та об’єднав понад 60 мільйонів користувачів, поєднуючи MemePad і фарм $BP.',
+    tokenomicsHeading: 'Токеноміка та поінти $BP',
+    tokenomics: 'Накопичені Blum Points ($BP) визначають вашу частку токена на TGE. Нативний актив використовуватиметься для знижок на комісії, запусків MemePad та управління.',
+    stepsHeading: 'Покрокова інструкція',
+    steps: [
+      'Запустіть офіційний міні-додаток Blum у Telegram і створіть акаунт.',
+      'Натисніть "Start farming", щоб запустити 8-годинний цикл збору $BP.',
+      'Заходьте кожні 8 годин, забирайте поінти та перезапускайте таймер.',
+      'Підтримуйте щоденний стрік для отримання Game Pass і ловіть зелені кристали у Drop Game.',
+      'Виконайте завдання у вкладці Tasks і підключіть гаманець Tonkeeper або MyTonWallet.'
+    ],
+    strategyHeading: 'Стратегія максимізації нагород',
+    strategy: 'Після 8 годин фарм зупиняється, тому збирайте поінти тричі на добу. У Drop Game уникайте бомб і використовуйте заморозку часу для рекордних результатів.',
+    sybilHeading: 'Захист від Sybil та безпека',
+    sybilSafety: 'Blum аналізує поведінку користувачів для блокування автоклікерів і ферм емуляторів. Щоденна активність і прив’язаний гаманець Tonkeeper гарантують допуск до дропу.',
+    faqHeading: 'Часті запитання',
+    faqs: [
+      {
+        q: 'Чи безкоштовний аірдроп Blum?',
+        a: 'Так, 8-годинний фарм, Drop Game та виконання завдань повністю безкоштовні ($0).'
+      },
+      {
+        q: 'Який гаманець варто підключити?',
+        a: 'Некастодіальний TON-гаманець, зокрема Tonkeeper або MyTonWallet.'
+      }
+    ],
+    ctaText: 'Відкрити Blum',
+    englishVersionLabel: 'Англійська версія'
+  },
+  {
+    id: 'blum',
+    slug: 'zh',
+    lang: 'zh-CN',
+    flag: '🇨🇳',
+    homeLabel: '首页',
+    hubLabel: 'Telegram 空投',
+    hubHref: '/zh/telegram-airdrops/',
+    title: 'Blum 空投教程 (2026)：$BP 积分挖矿与 Tonkeeper 绑定指南 | Airdroplyx',
+    description: '超 6000 万用户的 Telegram 混合交易应用 Blum 完整教程：每 8 小时领取 $BP 积分、Drop Game 高分技巧与 Tonkeeper 钱包绑定。',
+    h1: 'Blum ($BP) Telegram 空投及积分获取指南',
+    badge: 'Telegram 小程序 • 零撸免费',
+    rewardLabel: '预估奖励',
+    costLabel: '参与成本',
+    snapshotLabel: '预期周期',
+    timeLabel: '每日耗时',
+    overviewHeading: '项目简介',
+    overview: 'Blum 是运行在 Telegram 内的混合加密交易迷你应用，支持 30 多条区块链的非托管交易体验。该项目入选 MVB VII 孵化计划并拥有超过 6000 万注册用户，提供 MemePad 启动台与 Blum Points ($BP) 挖矿功能。',
+    tokenomicsHeading: '$BP 积分与代币经济',
+    tokenomics: '累计的 Blum Points ($BP) 将作为 TGE 时空投分配比例的核心依据。原生代币可用于交易手续费折扣、MemePad 参与资格以及生态治理。',
+    stepsHeading: '详细参与步骤',
+    steps: [
+      '在 Telegram 中启动官方 Blum 小程序并注册账户。',
+      '点击 "Start farming" 开启每 8 小时一次的 $BP 自动产分周期。',
+      '每隔 8 小时登录领取已累积积分并重新开启倒计时。',
+      '保持每日连续签到获取免费 Game Pass，参与 Drop Game 接取绿色水晶。',
+      '完成 Tasks 栏中的任务，并在 Wallet 页面绑定 Tonkeeper 或 MyTonWallet 钱包。'
+    ],
+    strategyHeading: '高收益策略',
+    strategy: '满 8 小时后产分会暂停，建议每天定时领取三次以防漏单；玩 Drop Game 时注意避开炸弹并合理使用冰冻道具。',
+    sybilHeading: '防女巫机制与安全提示',
+    sybilSafety: 'Blum 会通过触控行为分析识别自动脚本与模拟器多号。保持真实日常签到并绑定 Tonkeeper 钱包是获得空投资格的关键。',
+    faqHeading: '常见问题',
+    faqs: [
+      {
+        q: '参与 Blum 空投需要成本吗？',
+        a: '不需要，8 小时挖矿、Drop Game 和社区任务均完全免费（$0）。'
+      },
+      {
+        q: '需要绑定哪种钱包？',
+        a: '请在钱包页面绑定 Tonkeeper 或 MyTonWallet 等非托管 TON 钱包。'
+      }
+    ],
+    ctaText: '打开 Blum',
+    englishVersionLabel: '英文原版'
+  },
+  {
+    id: 'blum',
+    slug: 'hi',
+    lang: 'hi',
+    flag: '🇮🇳',
+    homeLabel: 'होम',
+    hubLabel: 'टेलीग्राम एयरड्रॉप',
+    hubHref: '/hi/telegram-airdrops/',
+    title: 'Blum एयरड्रॉप गाइड (2026): $BP पॉइंट्स फार्मिंग और Tonkeeper सेटअप | Airdroplyx',
+    description: '6 करोड़+ यूज़र्स वाले Telegram मिनी-ऐप Blum में मुफ्त भाग लेने की पूरी गाइड: हर 8 घंटे में $BP क्लेम, Drop Game टिप्स और Tonkeeper कनेक्शन।',
+    h1: 'Blum ($BP) टेलीग्राम एयरड्रॉप और पॉइंट्स गाइड',
+    badge: 'टेलीग्राम मिनी-ऐप • मुफ़्त',
+    rewardLabel: 'अनुमानित इनाम',
+    costLabel: 'लागत',
+    snapshotLabel: 'अनुमानित समय',
+    timeLabel: 'दैनिक समय',
+    overviewHeading: 'प्रोजेक्ट का परिचय',
+    overview: 'Blum, Telegram के अंदर बना एक हाइब्रिड क्रिप्टो ट्रेडिंग मिनी-ऐप है जो 30+ ब्लॉकचेन पर नॉन-कस्टोडियल अनुभव देता है। MVB VII प्रोग्राम के लिए चुने गए इस प्रोजेक्ट के 6 करोड़ से अधिक यूज़र्स हैं और यह MemePad व $BP पॉइंट्स फार्मिंग प्रदान करता है।',
+    tokenomicsHeading: '$BP पॉइंट्स और टोकनॉमिक्स',
+    tokenomics: 'आपके द्वारा इकट्ठा किए गए Blum Points ($BP) TGE के समय एयरड्रॉप हिस्सेदारी तय करते हैं। नेटिव टोकन का उपयोग ट्रेडिंग फीस छूट, MemePad एक्सेस और गवर्नेंस में होगा।',
+    stepsHeading: 'भाग लेने के आसान चरण',
+    steps: [
+      'Telegram में आधिकारिक Blum मिनी-ऐप खोलें और अकाउंट बनाएं।',
+      '8 घंटे का पैसिव $BP फार्मिंग चक्र शुरू करने के लिए "Start farming" पर टैप करें।',
+      'हर 8 घंटे में आकर पॉइंट्स क्लेम करें और टाइमर दोबारा शुरू करें।',
+      'मुफ्त Game Pass पाने के लिए रोज़ाना चेक-इन करें और Drop Game में हरे क्रिस्टल पकड़ें।',
+      'Tasks टैब के मिशन पूरे करें और Wallet टैब में Tonkeeper या MyTonWallet कनेक्ट करें।'
+    ],
+    strategyHeading: 'अधिकतम इनाम की रणनीति',
+    strategy: '8 घंटे पूरे होते ही फार्मिंग रुक जाती है, इसलिए दिन में 3 बार नियमित क्लेम करें। Drop Game में बम से बचें और फ्रीज़ क्रिस्टल का सही समय पर उपयोग करें।',
+    sybilHeading: 'सिबिल सुरक्षा और सावधानियाँ',
+    sybilSafety: 'Blum ऑटो-क्लिक बॉट्स और एम्युलेटर फार्म को रोकने के लिए बिहेवियरल एनालिटिक्स का उपयोग करता है। नियमित लॉगिन और Tonkeeper वॉलेट लिंक करना ज़रूरी है।',
+    faqHeading: 'अक्सर पूछे जाने वाले प्रश्न',
+    faqs: [
+      {
+        q: 'क्या Blum एयरड्रॉप मुफ़्त है?',
+        a: 'हाँ, 8 घंटे की फार्मिंग, Drop Game और टास्क पूरी तरह मुफ़्त ($0) हैं।'
+      },
+      {
+        q: 'कौन सा वॉलेट जोड़ना चाहिए?',
+        a: 'Wallet सेक्शन में Tonkeeper या MyTonWallet जैसा नॉन-कस्टोडियल TON वॉलेट जोड़ें।'
+      }
+    ],
+    ctaText: 'Blum खोलें',
+    englishVersionLabel: 'अंग्रेज़ी संस्करण'
+  },
+  {
+    id: 'blum',
+    slug: 'it',
+    lang: 'it',
+    flag: '🇮🇹',
+    homeLabel: 'Home',
+    hubLabel: 'Airdrop Telegram',
+    hubHref: '/it/airdrop-telegram/',
+    title: 'Guida Airdrop Blum (2026): Farmare $BP e Collegare Tonkeeper | Airdroplyx',
+    description: 'Come partecipare gratis all’airdrop di Blum su Telegram: raccogli Blum Points ($BP) ogni 8 ore, gioca al Drop Game e collega Tonkeeper.',
+    h1: 'Blum ($BP): Guida Airdrop Telegram e Strategia Punti',
+    badge: 'Telegram Mini-App • Gratis',
+    rewardLabel: 'Ricompensa stimata',
+    costLabel: 'Costo',
+    snapshotLabel: 'Periodo previsto',
+    timeLabel: 'Tempo giornaliero',
+    overviewHeading: 'Panoramica del progetto',
+    overview: 'Blum è una piattaforma di trading crypto ibrida integrata in Telegram con supporto a oltre 30 blockchain in autocustodia. Selezionata nel programma MVB VII con più di 60 milioni di utenti, integra MemePad e la raccolta di Blum Points ($BP).',
+    tokenomicsHeading: 'Tokenomics e Punti $BP',
+    tokenomics: 'I Blum Points ($BP) accumulati determinano la quota di airdrop al TGE. Il token nativo servirà per sconti sulle commissioni, lancio su MemePad e governance.',
+    stepsHeading: 'Come partecipare passo dopo passo',
+    steps: [
+      'Avvia la Mini App ufficiale di Blum su Telegram e crea il profilo.',
+      'Tocca "Start farming" per avviare il ciclo passivo di 8 ore.',
+      'Torna ogni 8 ore per riscattare i punti $BP e riavviare il timer.',
+      'Mantieni la serie giornaliera per ottenere Game Pass gratuiti e gioca al Drop Game.',
+      'Completa le missioni nella scheda Tasks e collega Tonkeeper o MyTonWallet.'
+    ],
+    strategyHeading: 'Strategia per massimizzare i punti',
+    strategy: 'Il contatore si ferma allo scadere delle 8 ore: riscatta tre volte al giorno per evitare pause. Nel Drop Game evita le bombe e sfrutta i cristalli di ghiaccio.',
+    sybilHeading: 'Sicurezza e protezione Sybil',
+    sybilSafety: 'Blum utilizza analisi comportamentali per filtrare bot ed emulatori multi-account. Accessi giornalieri autentici e un wallet Tonkeeper collegato proteggono l’idoneità.',
+    faqHeading: 'Domande frequenti',
+    faqs: [
+      {
+        q: 'L’airdrop di Blum è gratuito?',
+        a: 'Sì, il farming ogni 8 ore, il Drop Game e le missioni sono al 100% gratuiti ($0).'
+      },
+      {
+        q: 'Quale wallet devo collegare?',
+        a: 'Collega un wallet TON non-custodial come Tonkeeper o MyTonWallet.'
+      }
+    ],
+    ctaText: 'Apri Blum',
+    englishVersionLabel: 'Versione inglese'
+  },
+  {
+    id: 'blum',
+    slug: 'pl',
+    lang: 'pl',
+    flag: '🇵🇱',
+    homeLabel: 'Strona główna',
+    hubLabel: 'Airdropy Telegram',
+    hubHref: '/pl/airdrop-telegram/',
+    title: 'Poradnik Airdrop Blum (2026): Zbieranie $BP i Tonkeeper | Airdroplyx',
+    description: 'Jak za darmo zdobyć airdrop Blum na Telegramie: odbieraj Blum Points ($BP) co 8 godzin, graj w Drop Game i podłącz portfel Tonkeeper.',
+    h1: 'Blum ($BP): Poradnik Airdropu Telegram i Zbierania Punktów',
+    badge: 'Telegram Mini-App • Darmowy',
+    rewardLabel: 'Szacowana nagroda',
+    costLabel: 'Koszt',
+    snapshotLabel: 'Przewidywany okres',
+    timeLabel: 'Czas dziennie',
+    overviewHeading: 'Opis projektu',
+    overview: 'Blum to hybrydowa platforma tradingowa działająca bezpośrednio jako Telegram Mini-App z obsługą ponad 30 sieci w modelu non-custodial. Projekt wybrany do programu MVB VII zgromadził ponad 60 milionów użytkowników, oferując MemePad i zbieranie punktów $BP.',
+    tokenomicsHeading: 'Tokenomika i Punkty $BP',
+    tokenomics: 'Zgromadzone Blum Points ($BP) wyznaczają udział w dystrybucji tokenów podczas TGE. Natywny token zapewni zniżki opłat, dostęp do MemePad oraz głosowanie.',
+    stepsHeading: 'Instrukcja krok po kroku',
+    steps: [
+      'Uruchom oficjalną aplikację Blum na Telegramie i załóż konto.',
+      'Kliknij "Start farming", aby rozpocząć 8-godzinny cykl naliczania $BP.',
+      'Odbieraj punkty co 8 godzin i uruchamiaj licznik ponownie.',
+      'Utrzymuj codzienną serię logowań po darmowe Game Passy i łap zielone kryształy w Drop Game.',
+      'Wykonaj zadania w zakładce Tasks i podłącz portfel Tonkeeper lub MyTonWallet.'
+    ],
+    strategyHeading: 'Strategia maksymalizacji nagród',
+    strategy: 'Po 8 godzinach produkcja zatrzymuje się, więc odbieraj punkty trzy razy dziennie. W grze Drop Game omijaj bomby i używaj kryształów zamrażających czas.',
+    sybilHeading: 'Ochrona Anti-Sybil i bezpieczeństwo',
+    sybilSafety: 'Blum wykrywa skrypty klikające oraz farmy emulatorów poprzez analizę zachowania. Regularne logowanie i podpięty portfel Tonkeeper gwarantują kwalifikację.',
+    faqHeading: 'Często zadawane pytania',
+    faqs: [
+      {
+        q: 'Czy udział w Blum jest darmowy?',
+        a: 'Tak, 8-godzinny farming, Drop Game oraz zadania są całkowicie darmowe ($0).'
+      },
+      {
+        q: 'Jaki portfel podłączyć do Blum?',
+        a: 'Podłącz niepowierniczy portfel TON, taki jak Tonkeeper lub MyTonWallet.'
+      }
+    ],
+    ctaText: 'Otwórz Blum',
+    englishVersionLabel: 'Wersja angielska'
+  },
+
+  // ================= MAJOR OF TELEGRAM (16 LANGUAGES) =================
+  {
+    id: 'major',
+    slug: 'tr',
+    lang: 'tr',
+    flag: '🇹🇷',
+    homeLabel: 'Ana Sayfa',
+    hubLabel: 'Telegram Airdropları',
+    hubHref: '/tr/telegram-airdroplari/',
+    title: 'Major Airdrop Rehberi (2026): $MAJOR Rating Kasma & TON | Airdroplyx',
+    description: '40M+ oyunculu Telegram derecelendirme oyunu Major ile günlük Rating puanı kasma, Hold Coin, Durov Puzzle ve Tonkeeper bağlantısı Türkçe rehberi.',
+    h1: 'Major of Telegram ($MAJOR) Airdrop ve Rating Rehberi',
+    badge: 'TON & Stars • Ücretsiz',
+    rewardLabel: 'Tahmini Ödül',
+    costLabel: 'Maliyet',
+    snapshotLabel: 'Beklenen Dönem',
+    timeLabel: 'Günlük Süre',
+    overviewHeading: 'Proje Özeti',
+    overview: 'Major of Telegram, TON blokzinciri ve Telegram Stars üzerine inşa edilmiş ilk merkeziyetsiz sosyal derecelendirme ve sıralama oyunudur. 40 milyonu aşkın aktif oyuncuya sahip olan proje, günlük mini oyunlar ve görevlerle kazanılan Rating puanlarını şeffaf bir liderlik tablosuna dönüştürür ve TGE döneminde $MAJOR token dağıtımıyla ödüllendirir.',
+    tokenomicsHeading: '$MAJOR Tokenomik ve Dağıtım',
+    tokenomics: '$MAJOR token arzının büyük bölümü doğrudan oyunculara, toplam Rating puanlarına ve küresel sıralamadaki seviyelerine (Bronze’dan Royal’e) göre dağıtılır. Token, platform içi turnuvalar ve yönetişim için kullanılır.',
+    stepsHeading: 'Adım Adım Katılım Rehberi',
+    steps: [
+      'Resmi Major Telegram Mini Uygulamasını başlatın ve hesap yaşınıza göre ilk Rating bonusunuzu alın.',
+      'Her gün Şans Çarkını (Daily Lucky Roulette) çevirerek ekstra Rating ve oyun hakkı kazanın.',
+      'Hold Coin oyununda parmağınızı 60 saniye basılı tutarak maksimum günlük puanı toplayın.',
+      'Günlük Durov Puzzle bulmacasında 4 doğru avatarı sırayla seçerek anında 5.000 bonus Rating kazanın.',
+      'Earn sekmesindeki görevleri tamamlayın ve uygunluğunuzu onaylamak için Tonkeeper veya MyTonWallet bağlayın.'
+    ],
+    strategyHeading: 'Maksimum Ödül Stratejisi',
+    strategy: 'Hiç harcama yapmadan yüksek sıralamaya çıkmak için her gün Durov Puzzle, Hold Coin ve Rulet üçlüsünü eksiksiz tamamlayın. Günlük seriyi bozmamak sıralama çarpanınızı hızla yükseltir.',
+    sybilHeading: 'Sybil Koruması ve Güvenlik',
+    sybilSafety: 'Major, sahte numaralarla açılmış hesapları ve otomatik tıklama botlarını liderlik tablosundan eler. Düzenli günlük mini oyun aktivitesi ve doğrulanmış Tonkeeper cüzdanı bağlamak güvenli katılım sağlar.',
+    faqHeading: 'Sıkça Sorulan Sorular',
+    faqs: [
+      {
+        q: 'Major airdrop katılımı ücretsiz mi?',
+        a: 'Evet, günlük Rulet, Hold Coin, Durov Puzzle ve görevler üzerinden ücretsiz ($0) Rating kazanabilirsiniz.'
+      },
+      {
+        q: 'Hangi cüzdanı bağlamalıyım?',
+        a: 'Tonkeeper, MyTonWallet veya Telegram Wallet (self-custody modu) cüzdanlarından birini bağlayabilirsiniz.'
+      }
+    ],
+    ctaText: 'Major’u Başlat',
+    englishVersionLabel: 'İngilizce Sürüm'
+  },
+  {
+    id: 'major',
+    slug: 'ru',
+    lang: 'ru',
+    flag: '🇷🇺',
+    homeLabel: 'Главная',
+    hubLabel: 'Telegram-аирдропы',
+    hubHref: '/ru/telegram-airdrops/',
+    title: 'Гайд по аирдропу Major (2026): фарм $MAJOR и рейтинг TON | Airdroplyx',
+    description: 'Подробное руководство по игре Major в Telegram: как набирать Rating в Hold Coin, Durov Puzzle и рулетке, и подключить кошелек Tonkeeper без вложений.',
+    h1: 'Major of Telegram ($MAJOR): гайд по аирдропу и рейтингу',
+    badge: 'TON и Stars • Бесплатно',
+    rewardLabel: 'Ожидаемая награда',
+    costLabel: 'Затраты',
+    snapshotLabel: 'Ожидаемый период',
+    timeLabel: 'Время в день',
+    overviewHeading: 'Обзор проекта',
+    overview: 'Major of Telegram — первая рейтинговая социальная игра в Telegram с нативной интеграцией блокчейна TON и Telegram Stars. Проект объединил более 40 миллионов игроков, превратив ежедневные мини-игры и задания в таблицу лидеров для распределения токена $MAJOR.',
+    tokenomicsHeading: 'Токеномика $MAJOR',
+    tokenomics: 'Основная часть эмиссии $MAJOR распределяется между игроками пропорционально накопленному Rating и позиции в таблице лидеров на дату снимка. Токен используется в экосистеме турниров и управления.',
+    stepsHeading: 'Пошаговая инструкция',
+    steps: [
+      'Откройте официальный мини-апп Major в Telegram и получите стартовый Rating за возраст аккаунта.',
+      'Ежедневно крутите рулетку (Daily Lucky Roulette) для получения бонусных очков.',
+      'Играйте в Hold Coin: удерживайте монету на экране 60 секунд для максимальной награды.',
+      'Собирайте ежедневный Durov Puzzle из 4 правильных аватаров и забирайте +5 000 Rating.',
+      'Выполните задания во вкладке Earn и подключите кошелек Tonkeeper или MyTonWallet.'
+    ],
+    strategyHeading: 'Стратегия фарма',
+    strategy: 'Чтобы расти в рейтинге без вложений, ежедневно проходите связку из рулетки, Hold Coin и Durov Puzzle. Постоянство серий дает преимущество перед неактивными аккаунтами.',
+    sybilHeading: 'Защита от ботов и безопасность',
+    sybilSafety: 'Антифрод-алгоритмы Major отсекают бот-фермы и нечестные скрипты. Ежедневное ручное прохождение головоломок и привязанный Tonkeeper подтверждают реальную активность.',
+    faqHeading: 'Частые вопросы',
+    faqs: [
+      {
+        q: 'Можно ли получить $MAJOR без доната?',
+        a: 'Да, все ежедневные игры — рулетка, Hold Coin, Durov Puzzle и задания — доступны бесплатно ($0).'
+      },
+      {
+        q: 'Какой кошелек подключить к Major?',
+        a: 'Используйте некастодиальный кошелек Tonkeeper, MyTonWallet или Telegram Wallet.'
+      }
+    ],
+    ctaText: 'Открыть Major',
+    englishVersionLabel: 'Английская версия'
+  },
+  {
+    id: 'major',
+    slug: 'id',
+    lang: 'id',
+    flag: '🇮🇩',
+    homeLabel: 'Beranda',
+    hubLabel: 'Airdrop Telegram',
+    hubHref: '/id/airdrop-telegram/',
+    title: 'Panduan Airdrop Major (2026): Kejar Rating $MAJOR di TON | Airdroplyx',
+    description: 'Cara mendapatkan airdrop $MAJOR di Telegram secara gratis: mainkan Hold Coin, selesaikan Durov Puzzle harian, dan hubungkan dompet Tonkeeper.',
+    h1: 'Major of Telegram ($MAJOR): Panduan Airdrop & Peringkat',
+    badge: 'TON & Stars • Gratis',
+    rewardLabel: 'Estimasi Hadiah',
+    costLabel: 'Biaya',
+    snapshotLabel: 'Perkiraan Snapshot',
+    timeLabel: 'Waktu Harian',
+    overviewHeading: 'Ringkasan Proyek',
+    overview: 'Major of Telegram adalah game peringkat sosial terdesentralisasi pertama di Telegram yang terintegrasi dengan blockchain TON dan Telegram Stars. Dengan lebih dari 40 juta pemain aktif, pemain mengumpulkan poin Rating melalui mini-game harian untuk alokasi token $MAJOR.',
+    tokenomicsHeading: 'Tokenomik $MAJOR',
+    tokenomics: 'Mayoritas distribusi token $MAJOR dialokasikan langsung kepada pemain berdasarkan total Rating dan peringkat papan skor global mereka saat snapshot. Token ini mendukung tata kelola dan turnamen ekosistem.',
+    stepsHeading: 'Langkah-Langkah Mengikuti Airdrop',
+    steps: [
+      'Buka Mini App resmi Major di Telegram dan klaim skor Rating awal berdasarkan usia akun Anda.',
+      'Putar Daily Lucky Roulette setiap hari untuk memenangkan poin Rating tambahan.',
+      'Mainkan Hold Coin dengan menahan koin di layar selama 60 detik penuh.',
+      'Selesaikan teka-teki harian Durov Puzzle dengan memilih 4 avatar yang tepat untuk bonus 5.000 Rating.',
+      'Selesaikan tugas di tab Earn dan hubungkan dompet Tonkeeper atau MyTonWallet Anda.'
+    ],
+    strategyHeading: 'Strategi Maksimal',
+    strategy: 'Selesaikan kombinasi harian Roulette, Hold Coin, dan Durov Puzzle tanpa terlewat untuk naik peringkat secara gratis. Konsistensi harian sangat memengaruhi posisi papan peringkat.',
+    sybilHeading: 'Keamanan & Anti-Sybil',
+    sybilSafety: 'Major menyaring akun bot otomatis dan klik palsu melalui verifikasi aktivitas. Bermain teka-teki secara manual serta menghubungkan Tonkeeper memastikan kelayakan akun Anda.',
+    faqHeading: 'Pertanyaan Umum',
+    faqs: [
+      {
+        q: 'Apakah airdrop Major gratis diikuti?',
+        a: 'Ya, Anda dapat mengumpulkan Rating secara gratis ($0) melalui game harian dan misi.'
+      },
+      {
+        q: 'Dompet apa yang cocok untuk Major?',
+        a: 'Hubungkan Tonkeeper, MyTonWallet, atau Telegram Wallet (mode kustodi mandiri).'
+      }
+    ],
+    ctaText: 'Buka Major',
+    englishVersionLabel: 'Versi Bahasa Inggris'
+  },
+  {
+    id: 'major',
+    slug: 'vi',
+    lang: 'vi',
+    flag: '🇻🇳',
+    homeLabel: 'Trang chủ',
+    hubLabel: 'Airdrop Telegram',
+    hubHref: '/vi/airdrop-telegram/',
+    title: 'Hướng dẫn Airdrop Major (2026): Cày Rating $MAJOR trên TON | Airdroplyx',
+    description: 'Hướng dẫn chi tiết chơi Major trên Telegram miễn phí: quay Roulette, chơi Hold Coin, giải Durov Puzzle hàng ngày và kết nối ví Tonkeeper.',
+    h1: 'Major of Telegram ($MAJOR): Hướng dẫn Airdrop & Bảng xếp hạng',
+    badge: 'TON & Stars • Miễn phí',
+    rewardLabel: 'Phần thưởng dự kiến',
+    costLabel: 'Chi phí',
+    snapshotLabel: 'Thời gian dự kiến',
+    timeLabel: 'Thời gian mỗi ngày',
+    overviewHeading: 'Tổng quan dự án',
+    overview: 'Major of Telegram là trò chơi xếp hạng xã hội đầu tiên tích hợp trực tiếp với blockchain TON và Telegram Stars. Với hơn 40 triệu người chơi, dự án ghi nhận điểm Rating từ các mini-game và nhiệm vụ hàng ngày để phân bổ token $MAJOR.',
+    tokenomicsHeading: 'Tokenomics $MAJOR',
+    tokenomics: 'Phần lớn nguồn cung $MAJOR được phân bổ trực tiếp cho người chơi dựa trên tổng điểm Rating và thứ hạng bảng xếp hạng toàn cầu tại thời điểm snapshot.',
+    stepsHeading: 'Các bước tham gia chi tiết',
+    steps: [
+      'Khởi chạy Mini App chính thức của Major trên Telegram để nhận điểm Rating khởi đầu theo tuổi tài khoản.',
+      'Quay vòng quay may mắn hàng ngày (Daily Lucky Roulette) để nhận thêm Rating.',
+      'Chơi trò Hold Coin bằng cách giữ ngón tay trên đồng xu 60 giây liên tục.',
+      'Giải câu đố Durov Puzzle mỗi ngày bằng cách chọn đúng 4 avatar để nhận ngay 5.000 Rating.',
+      'Hoàn thành nhiệm vụ trong mục Earn và kết nối ví Tonkeeper hoặc MyTonWallet.'
+    ],
+    strategyHeading: 'Chiến lược tối ưu điểm',
+    strategy: 'Duy trì đều đặn bộ ba Roulette, Hold Coin và Durov Puzzle mỗi ngày để leo hạng miễn phí. Chuỗi đăng nhập liên tục giúp bạn vượt xa các tài khoản không hoạt động.',
+    sybilHeading: 'Chống Sybil & Bảo mật',
+    sybilSafety: 'Major loại bỏ các tài khoản bot và auto-click khỏi bảng xếp hạng. Tham gia mini-game thủ công mỗi ngày và liên kết ví Tonkeeper giúp xác thực tài khoản thật.',
+    faqHeading: 'Câu hỏi thường gặp',
+    faqs: [
+      {
+        q: 'Có thể kiếm $MAJOR miễn phí không?',
+        a: 'Có, bạn hoàn toàn có thể cày Rating miễn phí ($0) qua Roulette, Hold Coin, Durov Puzzle và nhiệm vụ.'
+      },
+      {
+        q: 'Nên kết nối ví nào cho Major?',
+        a: 'Bạn có thể kết nối Tonkeeper, MyTonWallet hoặc Telegram Wallet hỗ trợ TON.'
+      }
+    ],
+    ctaText: 'Mở Major',
+    englishVersionLabel: 'Bản tiếng Anh'
+  },
+  {
+    id: 'major',
+    slug: 'es',
+    lang: 'es',
+    flag: '🇪🇸',
+    homeLabel: 'Inicio',
+    hubLabel: 'Airdrops de Telegram',
+    hubHref: '/es/airdrops-telegram/',
+    title: 'Guía Airdrop Major (2026): Subir Rating $MAJOR en TON | Airdroplyx',
+    description: 'Cómo participar gratis en el airdrop de Major en Telegram: ruleta diaria, Hold Coin, Durov Puzzle y conexión con Tonkeeper.',
+    h1: 'Major of Telegram ($MAJOR): Guía del Airdrop y Clasificación',
+    badge: 'TON & Stars • Gratis',
+    rewardLabel: 'Recompensa estimada',
+    costLabel: 'Costo',
+    snapshotLabel: 'Periodo estimado',
+    timeLabel: 'Tiempo diario',
+    overviewHeading: 'Resumen del proyecto',
+    overview: 'Major of Telegram es el primer juego social de clasificación integrado de forma nativa con la blockchain TON y Telegram Stars. Con más de 40 millones de jugadores, convierte los puntos Rating de minijuegos y misiones diarias en recompensas del token $MAJOR.',
+    tokenomicsHeading: 'Tokenomics de $MAJOR',
+    tokenomics: 'Un porcentaje dominante del suministro de $MAJOR se asigna a los jugadores según su Rating acumulado y su posición en el ranking global en la fecha del snapshot.',
+    stepsHeading: 'Pasos para participar',
+    steps: [
+      'Abre la Mini App oficial de Major en Telegram y recibe tu Rating inicial según la antigüedad de tu cuenta.',
+      'Gira la ruleta diaria (Daily Lucky Roulette) para sumar puntos extra.',
+      'Juega a Hold Coin manteniendo pulsada la moneda durante 60 segundos sin soltar.',
+      'Resuelve el Durov Puzzle diario eligiendo los 4 avatares correctos para ganar 5.000 puntos.',
+      'Completa las tareas de la pestaña Earn y vincula tu billetera Tonkeeper o MyTonWallet.'
+    ],
+    strategyHeading: 'Estrategia para maximizar recompensas',
+    strategy: 'Completa todos los días el trío de Ruleta, Hold Coin y Durov Puzzle para escalar posiciones sin gastar dinero. La constancia diaria marca la diferencia en el ranking.',
+    sybilHeading: 'Seguridad y protección Sybil',
+    sybilSafety: 'Major filtra cuentas automatizadas y patrones de clic artificiales. Resolver los minijuegos manualmente y vincular Tonkeeper protege tu elegibilidad.',
+    faqHeading: 'Preguntas frecuentes',
+    faqs: [
+      {
+        q: '¿Se puede ganar $MAJOR gratis?',
+        a: 'Sí, la ruleta diaria, Hold Coin, Durov Puzzle y las misiones sociales son gratuitos ($0).'
+      },
+      {
+        q: '¿Qué billetera debo conectar?',
+        a: 'Conecta Tonkeeper, MyTonWallet o Telegram Wallet compatible con TON.'
+      }
+    ],
+    ctaText: 'Abrir Major',
+    englishVersionLabel: 'Versión en inglés'
+  },
+  {
+    id: 'major',
+    slug: 'pt',
+    lang: 'pt',
+    flag: '🇧🇷',
+    homeLabel: 'Início',
+    hubLabel: 'Airdrops do Telegram',
+    hubHref: '/pt/airdrops-telegram/',
+    title: 'Guia Airdrop Major (2026): Pontos $MAJOR e Ranking TON | Airdroplyx',
+    description: 'Veja como ganhar no airdrop Major no Telegram grátis: roleta diária, Hold Coin, Durov Puzzle e conexão segura com a carteira Tonkeeper.',
+    h1: 'Major of Telegram ($MAJOR): Guia do Airdrop e Rating',
+    badge: 'TON & Stars • Grátis',
+    rewardLabel: 'Recompensa estimada',
+    costLabel: 'Custo',
+    snapshotLabel: 'Previsão',
+    timeLabel: 'Tempo diário',
+    overviewHeading: 'Visão geral do projeto',
+    overview: 'Major of Telegram é o primeiro jogo de classificação social integrado nativamente à blockchain TON e ao Telegram Stars. Com mais de 40 milhões de jogadores ativos, transforma pontos de Rating obtidos em minijogos diários em distribuição do token $MAJOR.',
+    tokenomicsHeading: 'Tokenomics do $MAJOR',
+    tokenomics: 'A maior parte dos tokens $MAJOR é distribuída aos jogadores conforme o Rating total acumulado e a posição no ranking global no momento do snapshot.',
+    stepsHeading: 'Passo a passo para participar',
+    steps: [
+      'Inicie o Mini App oficial do Major no Telegram e receba seu Rating inicial.',
+      'Gire a roleta diária (Daily Lucky Roulette) para ganhar pontos extras de Rating.',
+      'Jogue o Hold Coin segurando a moeda na tela por 60 segundos completos.',
+      'Resolva o Durov Puzzle diário selecionando os 4 avatares corretos para ganhar 5.000 pontos.',
+      'Conclua as tarefas na aba Earn e conecte sua carteira Tonkeeper ou MyTonWallet.'
+    ],
+    strategyHeading: 'Estratégia de ganhos',
+    strategy: 'Faça diariamente a rotina de Roleta, Hold Coin e Durov Puzzle para subir no ranking sem gastar nada. Manter a sequência diária acelera sua pontuação.',
+    sybilHeading: 'Proteção Sybil e segurança',
+    sybilSafety: 'O Major bloqueia contas automatizadas e bots de clique. Jogar manualmente os desafios diários e vincular uma carteira Tonkeeper garante sua elegibilidade.',
+    faqHeading: 'Perguntas frequentes',
+    faqs: [
+      {
+        q: 'É possível ganhar $MAJOR sem gastar?',
+        a: 'Sim, roleta diária, Hold Coin, Durov Puzzle e tarefas sociais são gratuitos ($0).'
+      },
+      {
+        q: 'Qual carteira devo usar?',
+        a: 'Conecte Tonkeeper, MyTonWallet ou Telegram Wallet com suporte à rede TON.'
+      }
+    ],
+    ctaText: 'Abrir Major',
+    englishVersionLabel: 'Versão em inglês'
+  },
+  {
+    id: 'major',
+    slug: 'ko',
+    lang: 'ko',
+    flag: '🇰🇷',
+    homeLabel: '홈',
+    hubLabel: '텔레그램 에어드랍',
+    hubHref: '/ko/telegram-airdrops/',
+    title: 'Major 에어드랍 가이드 (2026): $MAJOR 레이팅 & TON 지갑 | Airdroplyx',
+    description: '4,000만 유저가 참여하는 텔레그램 랭킹 게임 Major 공략: 룰렛, Hold Coin, Durov Puzzle로 무료 Rating 쌓기 및 Tonkeeper 연결 방법.',
+    h1: 'Major of Telegram ($MAJOR) 에어드랍 및 랭킹 가이드',
+    badge: 'TON & Stars • 무료',
+    rewardLabel: '예상 보상',
+    costLabel: '비용',
+    snapshotLabel: '예상 시기',
+    timeLabel: '일일 소요 시간',
+    overviewHeading: '프로젝트 개요',
+    overview: 'Major of Telegram은 TON 블록체인과 Telegram Stars를 기반으로 구축된 소셜 랭킹 미니앱입니다. 4,000만 명 이상의 플레이어가 참여하고 있으며, 일일 미니게임과 미션으로 얻은 Rating 점수에 따라 $MAJOR 토큰이 배분됩니다.',
+    tokenomicsHeading: '$MAJOR 토크노믹스',
+    tokenomics: '$MAJOR 공급량의 핵심 비중은 스냅샷 기준 누적 Rating과 글로벌 리더보드 순위에 따라 플레이어에게 직접 배정됩니다.',
+    stepsHeading: '단계별 참여 방법',
+    steps: [
+      '텔레그램에서 공식 Major 미니앱을 실행하고 계정 연식에 따른 초기 Rating을 확인하세요.',
+      '매일 Daily Lucky Roulette를 돌려 추가 Rating 점수를 획득하세요.',
+      'Hold Coin 게임에서 60초 동안 화면의 코인을 누르고 있어 최대 점수를 받으세요.',
+      '매일 Durov Puzzle의 4개 아바타 조합을 맞춰 5,000 Rating 보너스를 챙기세요.',
+      'Earn 탭의 미션을 완료하고 Tonkeeper 또는 MyTonWallet을 연결하세요.'
+    ],
+    strategyHeading: '보상 극대화 전략',
+    strategy: '과금 없이 순위를 올리려면 매일 룰렛, Hold Coin, Durov Puzzle 3종을 빠짐없이 완료하는 것이 핵심입니다. 꾸준한 일일 참여가 등급 상승으로 이어집니다.',
+    sybilHeading: '시빌 방지 및 보안',
+    sybilSafety: 'Major는 비정상적인 매크로 클릭과 다계정 봇을 리더보드에서 제외합니다. 매일 직접 퍼즐을 풀고 Tonkeeper 지갑을 연동해 자격을 유지하세요.',
+    faqHeading: '자주 묻는 질문',
+    faqs: [
+      {
+        q: '무료로도 $MAJOR를 받을 수 있나요?',
+        a: '네, 룰렛, Hold Coin, Durov Puzzle 및 소셜 퀘스트만으로 무료($0) 참여가 가능합니다.'
+      },
+      {
+        q: '어떤 지갑을 연결해야 하나요?',
+        a: 'Tonkeeper, MyTonWallet 또는 TON 지원 Telegram Wallet을 연결하세요.'
+      }
+    ],
+    ctaText: 'Major 시작하기',
+    englishVersionLabel: '영문 버전'
+  },
+  {
+    id: 'major',
+    slug: 'ja',
+    lang: 'ja',
+    flag: '🇯🇵',
+    homeLabel: 'ホーム',
+    hubLabel: 'Telegramエアドロップ',
+    hubHref: '/ja/telegram-airdrops/',
+    title: 'Major エアドロップ攻略 (2026): $MAJOR Rating稼ぎ方・TON連携 | Airdroplyx',
+    description: '4,000万人以上が遊ぶTelegramランキングゲームMajorの攻略ガイド：ルーレット、Hold Coin、Durov PuzzleとTonkeeper接続手順。',
+    h1: 'Major of Telegram ($MAJOR) エアドロップ＆ランキング攻略',
+    badge: 'TON & Stars • 無料',
+    rewardLabel: '予想報酬',
+    costLabel: '費用',
+    snapshotLabel: '予定時期',
+    timeLabel: '1日の作業時間',
+    overviewHeading: 'プロジェクト概要',
+    overview: 'Major of Telegramは、TONブロックチェーンとTelegram Starsにネイティブ統合されたソーシャルランキングゲームです。4,000万人以上のプレイヤーが日々のミニゲームでRatingポイントを競い、成績に応じて$MAJORトークンが配布されます。',
+    tokenomicsHeading: '$MAJOR トケノミクス',
+    tokenomics: '$MAJOR供給量の大部分は、スナップショット時点の累計Ratingおよびグローバルランキング順位に基づいてプレイヤーへ割り当てられます。',
+    stepsHeading: '参加ステップ',
+    steps: [
+      'Telegramで公式Majorミニアプリを起動し、アカウント歴に応じた初期Ratingを受け取ります。',
+      '毎日のDaily Lucky Rouletteを回してボーナスRatingを獲得します。',
+      'Hold Coinゲームでコインを60秒間長押しし、最大ポイントを取得します。',
+      '毎日のDurov Puzzleで4つの正しいアバターを選び、5,000 Ratingを獲得します。',
+      'Earnタブのタスクを完了し、TonkeeperまたはMyTonWalletを接続します。'
+    ],
+    strategyHeading: '報酬最大化のコツ',
+    strategy: '無課金で順位を上げるには、毎日のルーレット・Hold Coin・Durov Puzzleを欠かさずこなすことが最も効果的です。',
+    sybilHeading: 'シビル対策と安全性',
+    sybilSafety: 'Majorは自動クリックツールやボットアカウントをランキングから除外します。毎日の手動プレイとTonkeeperウォレット接続で資格を確保しましょう。',
+    faqHeading: 'よくある質問',
+    faqs: [
+      {
+        q: '無料で$MAJORを狙えますか？',
+        a: 'はい、ルーレットやHold Coin、Durov Puzzle、各種タスクはすべて無料（$0）で参加できます。'
+      },
+      {
+        q: 'どのウォレットを接続すればよいですか？',
+        a: 'Tonkeeper、MyTonWallet、またはTelegram Walletを接続できます。'
+      }
+    ],
+    ctaText: 'Majorを開く',
+    englishVersionLabel: '英語版を見る'
+  },
+  {
+    id: 'major',
+    slug: 'ar',
+    lang: 'ar',
+    flag: '🇸🇦',
+    homeLabel: 'الرئيسية',
+    hubLabel: 'إيردروبات تيليجرام',
+    hubHref: '/ar/telegram-airdrops/',
+    title: 'دليل إيردروب Major (2026): نقاط $MAJOR وربط Tonkeeper | Airdroplyx',
+    description: 'دليل شامل للمشاركة مجاناً في لعبة Major على تيليجرام: العجلة اليومية، Hold Coin، لغز Durov Puzzle وربط محفظة Tonkeeper.',
+    h1: 'Major of Telegram ($MAJOR): دليل الإيردروب والتصنيف',
+    badge: 'TON و Stars • مجاني',
+    rewardLabel: 'المكافأة المتوقعة',
+    costLabel: 'التكلفة',
+    snapshotLabel: 'الفترة المتوقعة',
+    timeLabel: 'الوقت اليومي',
+    overviewHeading: 'نظرة عامة على المشروع',
+    overview: 'تطبيق Major of Telegram هو أول لعبة تصنيف اجتماعي لا مركزية مدمجة مع شبكة TON ونجوم تيليجرام. يضم أكثر من 40 مليون لاعب يجمعون نقاط Rating عبر الألعاب المصغرة اليومية للحصول على توزيع عملة $MAJOR.',
+    tokenomicsHeading: 'اقتصاديات $MAJOR',
+    tokenomics: 'تُخصص النسبة الأكبر من معروض $MAJOR مباشرة للاعبين بناءً على إجمالي نقاط Rating وترتيبهم في لوحة الصدارة العالمية عند اللقطة.',
+    stepsHeading: 'خطوات المشاركة',
+    steps: [
+      'افتح تطبيق Major الرسمي داخل تيليجرام واحصل على نقاط Rating الأولية حسب عمر حسابك.',
+      'أدر عجلة الحظ اليومية (Daily Lucky Roulette) لكسب نقاط إضافية.',
+      'العب Hold Coin بالضغط المستمر على العملة لمدة 60 ثانية لتحقيق أعلى نقاط.',
+      'حل لغز Durov Puzzle اليومي باختيار 4 صور رمزية صحيحة لربح 5,000 نقطة فوراً.',
+      'أكمل المهام في تبويب Earn واربط محفظة Tonkeeper أو MyTonWallet.'
+    ],
+    strategyHeading: 'استراتيجية تعظيم المكافآت',
+    strategy: 'للصعود في الترتيب مجاناً، التزم يومياً بإكمال العجلة اليومية وHold Coin ولغز Durov Puzzle دون انقطاع.',
+    sybilHeading: 'الحماية من الحسابات الوهمية والأمان',
+    sybilSafety: 'يستبعد نظام Major حسابات البوتات والنقر التلقائي من لوحة الصدارة. اللعب اليدوي اليومي وربط محفظة Tonkeeper يضمنان أهليتك.',
+    faqHeading: 'الأسئلة الشائعة',
+    faqs: [
+      {
+        q: 'هل يمكن ربح $MAJOR مجاناً؟',
+        a: 'نعم، العجلة اليومية وHold Coin ولغز Durov Puzzle والمهام مجانية تماماً ($0).'
+      },
+      {
+        q: 'ما المحافظ المدعومة؟',
+        a: 'يمكنك ربط Tonkeeper أو MyTonWallet أو Telegram Wallet الداعمة لشبكة TON.'
+      }
+    ],
+    ctaText: 'افتح Major',
+    englishVersionLabel: 'النسخة الإنجليزية'
+  },
+  {
+    id: 'major',
+    slug: 'de',
+    lang: 'de',
+    flag: '🇩🇪',
+    homeLabel: 'Startseite',
+    hubLabel: 'Telegram-Airdrops',
+    hubHref: '/de/telegram-airdrops/',
+    title: 'Major Airdrop Guide (2026): $MAJOR Rating & TON Wallet | Airdroplyx',
+    description: 'Anleitung für Major auf Telegram: Täglich Rating über Glücksrad, Hold Coin und Durov Puzzle kostenlos sammeln und Tonkeeper verknüpfen.',
+    h1: 'Major of Telegram ($MAJOR): Airdrop- & Ranking-Guide',
+    badge: 'TON & Stars • Kostenlos',
+    rewardLabel: 'Geschätzte Belohnung',
+    costLabel: 'Kosten',
+    snapshotLabel: 'Erwarteter Zeitraum',
+    timeLabel: 'Täglicher Aufwand',
+    overviewHeading: 'Projektübersicht',
+    overview: 'Major of Telegram ist das erste soziale Ranking-Spiel direkt in Telegram mit nativer Integration der TON-Blockchain und Telegram Stars. Über 40 Millionen aktive Spieler sammeln Rating-Punkte für die Zuteilung des $MAJOR-Tokens.',
+    tokenomicsHeading: '$MAJOR Tokenomics',
+    tokenomics: 'Ein überwiegender Teil des $MAJOR-Angebots geht direkt an Spieler auf Basis ihres gesammelten Ratings und ihres globalen Leaderboard-Rangs.',
+    stepsHeading: 'Schritt-für-Schritt-Anleitung',
+    steps: [
+      'Starte die offizielle Major Mini App in Telegram und sichere dir dein Start-Rating.',
+      'Drehe täglich das Daily Lucky Roulette für zusätzliche Rating-Punkte.',
+      'Spiele Hold Coin, indem du die Münze 60 Sekunden lang gedrückt hältst.',
+      'Löse das tägliche Durov Puzzle mit den 4 richtigen Avataren für 5.000 Bonus-Punkte.',
+      'Erledige die Aufgaben im Reiter Earn und verbinde Tonkeeper oder MyTonWallet.'
+    ],
+    strategyHeading: 'Strategie für maximale Punkte',
+    strategy: 'Kombiniere jeden Tag Roulette, Hold Coin und Durov Puzzle, um ohne Ausgaben stetig im Ranking aufzusteigen.',
+    sybilHeading: 'Sybil-Schutz & Sicherheit',
+    sybilSafety: 'Major filtert automatisierte Klick-Bots aus der Rangliste. Manuelles tägliches Spielen und eine verknüpfte Tonkeeper-Wallet sichern deine Teilnahme.',
+    faqHeading: 'Häufig gestellte Fragen',
+    faqs: [
+      {
+        q: 'Kann man $MAJOR kostenlos verdienen?',
+        a: 'Ja, Roulette, Hold Coin, Durov Puzzle und soziale Aufgaben sind komplett kostenlos ($0).'
+      },
+      {
+        q: 'Welche Wallet sollte ich verbinden?',
+        a: 'Tonkeeper, MyTonWallet oder Telegram Wallet im Self-Custody-Modus.'
+      }
+    ],
+    ctaText: 'Major öffnen',
+    englishVersionLabel: 'Englische Version'
+  },
+  {
+    id: 'major',
+    slug: 'fr',
+    lang: 'fr',
+    flag: '🇫🇷',
+    homeLabel: 'Accueil',
+    hubLabel: 'Airdrops Telegram',
+    hubHref: '/fr/airdrops-telegram/',
+    title: 'Guide Airdrop Major (2026) : Rating $MAJOR sur TON | Airdroplyx',
+    description: 'Comment gagner des jetons $MAJOR gratuitement sur Telegram : Roulette quotidienne, Hold Coin, Durov Puzzle et connexion Tonkeeper.',
+    h1: 'Major of Telegram ($MAJOR) : Guide Airdrop et Classement',
+    badge: 'TON & Stars • Gratuit',
+    rewardLabel: 'Récompense estimée',
+    costLabel: 'Coût',
+    snapshotLabel: 'Période estimée',
+    timeLabel: 'Temps quotidien',
+    overviewHeading: 'Présentation du projet',
+    overview: 'Major of Telegram est le premier jeu social de classement natif sur Telegram intégrant la blockchain TON et Telegram Stars. Plus de 40 millions de joueurs accumulent du Rating via des mini-jeux quotidiens pour obtenir l’airdrop $MAJOR.',
+    tokenomicsHeading: 'Tokenomics de $MAJOR',
+    tokenomics: 'La majeure partie de l’offre de $MAJOR est attribuée aux joueurs selon leur Rating total et leur rang mondial lors du snapshot.',
+    stepsHeading: 'Étapes pour participer',
+    steps: [
+      'Ouvrez la Mini App officielle Major sur Telegram pour recevoir votre Rating initial.',
+      'Tournez la Daily Lucky Roulette chaque jour pour gagner des points bonus.',
+      'Jouez à Hold Coin en maintenant la pièce appuyée pendant 60 secondes.',
+      'Résolvez le Durov Puzzle quotidien avec les 4 bons avatars pour obtenir 5 000 points.',
+      'Complétez les missions de l’onglet Earn et connectez Tonkeeper ou MyTonWallet.'
+    ],
+    strategyHeading: 'Stratégie d’optimisation',
+    strategy: 'Effectuez chaque jour le trio Roulette, Hold Coin et Durov Puzzle pour progresser gratuitement dans le classement mondial.',
+    sybilHeading: 'Protection Anti-Sybil et sécurité',
+    sybilSafety: 'Major exclut les bots et clics automatisés du classement. Une activité manuelle quotidienne et un portefeuille Tonkeeper lié garantissent votre éligibilité.',
+    faqHeading: 'Questions fréquentes',
+    faqs: [
+      {
+        q: 'Peut-on obtenir $MAJOR gratuitement ?',
+        a: 'Oui, la roulette, Hold Coin, Durov Puzzle et les quêtes sont entièrement gratuits ($0).'
+      },
+      {
+        q: 'Quel portefeuille connecter ?',
+        a: 'Utilisez Tonkeeper, MyTonWallet ou Telegram Wallet sur le réseau TON.'
+      }
+    ],
+    ctaText: 'Ouvrir Major',
+    englishVersionLabel: 'Version anglaise'
+  },
+  {
+    id: 'major',
+    slug: 'uk',
+    lang: 'uk',
+    flag: '🇺🇦',
+    homeLabel: 'Головна',
+    hubLabel: 'Telegram-аірдропи',
+    hubHref: '/uk/telegram-airdrops/',
+    title: 'Гайд з аірдропу Major (2026): фарм $MAJOR та рейтинг TON | Airdroplyx',
+    description: 'Покрокова інструкція для Major у Telegram: щоденна рулетка, Hold Coin, Durov Puzzle та підключення Tonkeeper без вкладень.',
+    h1: 'Major of Telegram ($MAJOR): гайд з аірдропу та рейтингу',
+    badge: 'TON і Stars • Безкоштовно',
+    rewardLabel: 'Очікувана винагорода',
+    costLabel: 'Витрати',
+    snapshotLabel: 'Очікуваний період',
+    timeLabel: 'Час на день',
+    overviewHeading: 'Огляд проєкту',
+    overview: 'Major of Telegram — перша соціальна рейтингова гра у Telegram із нативною підтримкою блокчейна TON і Telegram Stars. Понад 40 мільйонів гравців збирають Rating у щоденних міні-іграх для розподілу токена $MAJOR.',
+    tokenomicsHeading: 'Токеноміка $MAJOR',
+    tokenomics: 'Основна частка емісії $MAJOR розподіляється серед гравців залежно від накопиченого Rating і позиції у глобальному рейтингу на момент знімка.',
+    stepsHeading: 'Покрокова інструкція',
+    steps: [
+      'Запустіть офіційний міні-додаток Major у Telegram і отримайте стартовий Rating.',
+      'Щодня крутіть Daily Lucky Roulette для додаткових очок.',
+      'Грайте в Hold Coin, утримуючи монету на екрані 60 секунд.',
+      'Розв’язуйте щоденний Durov Puzzle із 4 правильних аватарів за +5 000 Rating.',
+      'Виконайте завдання у вкладці Earn та підключіть гаманець Tonkeeper або MyTonWallet.'
+    ],
+    strategyHeading: 'Стратегія максимізації нагород',
+    strategy: 'Щодня проходьте рулетку, Hold Coin і Durov Puzzle, щоб підійматися в рейтингу без жодних витрат.',
+    sybilHeading: 'Захист від Sybil та безпека',
+    sybilSafety: 'Major відфільтровує бот-ферми та автоклікери. Ручне щоденне проходження ігор і прив’язаний Tonkeeper підтверджують вашу реальну активність.',
+    faqHeading: 'Часті запитання',
+    faqs: [
+      {
+        q: 'Чи можна отримати $MAJOR безкоштовно?',
+        a: 'Так, рулетка, Hold Coin, Durov Puzzle і завдання повністю безкоштовні ($0).'
+      },
+      {
+        q: 'Який гаманець підключити?',
+        a: 'Tonkeeper, MyTonWallet або вбудований Telegram Wallet із підтримкою TON.'
+      }
+    ],
+    ctaText: 'Відкрити Major',
+    englishVersionLabel: 'Англійська версія'
+  },
+  {
+    id: 'major',
+    slug: 'zh',
+    lang: 'zh-CN',
+    flag: '🇨🇳',
+    homeLabel: '首页',
+    hubLabel: 'Telegram 空投',
+    hubHref: '/zh/telegram-airdrops/',
+    title: 'Major 空投教程 (2026)：$MAJOR 积分排行与 TON 绑定 | Airdroplyx',
+    description: '超 4000 万玩家的 Telegram 社交排行游戏 Major 完整攻略：每日转盘、Hold Coin、Durov 拼图与 Tonkeeper 钱包绑定。',
+    h1: 'Major of Telegram ($MAJOR) 空投及排行指南',
+    badge: 'TON 与 Stars • 零撸免费',
+    rewardLabel: '预估奖励',
+    costLabel: '参与成本',
+    snapshotLabel: '预期周期',
+    timeLabel: '每日耗时',
+    overviewHeading: '项目简介',
+    overview: 'Major of Telegram 是原生集成 TON 区块链与 Telegram Stars 的去中心化社交排行游戏，拥有超过 4000 万活跃玩家。用户通过每日小游戏与任务积累 Rating 积分，角逐 $MAJOR 代币空投。',
+    tokenomicsHeading: '$MAJOR 代币经济',
+    tokenomics: '$MAJOR 代币的大部分供应量将根据快照时玩家的累计 Rating 与全球排行榜名次直接分配给社区玩家。',
+    stepsHeading: '详细参与步骤',
+    steps: [
+      '在 Telegram 中打开官方 Major 小程序，领取基于账号注册年限的初始 Rating。',
+      '每日转动幸运大转盘（Daily Lucky Roulette）赢取额外积分。',
+      '游玩 Hold Coin 小游戏，长按屏幕金币 60 秒获取最高每日积分。',
+      '完成每日 Durov Puzzle，选出 4 个正确头像即可立得 5,000 积分奖励。',
+      '完成 Earn 栏任务，并绑定 Tonkeeper 或 MyTonWallet 钱包。'
+    ],
+    strategyHeading: '高收益策略',
+    strategy: '每天坚持完成转盘、Hold Coin 和 Durov 拼图三项免费玩法，无需氪金即可稳步提升排名。',
+    sybilHeading: '防女巫机制与安全提示',
+    sybilSafety: 'Major 会剔除自动脚本与批量刷号账号。每日手动完成小游戏并绑定 Tonkeeper 钱包可确保空投资格。',
+    faqHeading: '常见问题',
+    faqs: [
+      {
+        q: '零氪可以参与 Major 空投吗？',
+        a: '可以，每日转盘、Hold Coin、Durov 拼图及任务全部免费（$0）。'
+      },
+      {
+        q: '需要绑定哪款钱包？',
+        a: '支持 Tonkeeper、MyTonWallet 或 Telegram Wallet（自托管模式）。'
+      }
+    ],
+    ctaText: '打开 Major',
+    englishVersionLabel: '英文原版'
+  },
+  {
+    id: 'major',
+    slug: 'hi',
+    lang: 'hi',
+    flag: '🇮🇳',
+    homeLabel: 'होम',
+    hubLabel: 'टेलीग्राम एयरड्रॉप',
+    hubHref: '/hi/telegram-airdrops/',
+    title: 'Major एयरड्रॉप गाइड (2026): $MAJOR रेटिंग और TON वॉलेट | Airdroplyx',
+    description: '4 करोड़+ खिलाड़ियों वाले Telegram गेम Major में मुफ्त $MAJOR कमाने की गाइड: डेली रूलेट, Hold Coin, Durov Puzzle और Tonkeeper कनेक्शन।',
+    h1: 'Major of Telegram ($MAJOR) एयरड्रॉप और रैंकिंग गाइड',
+    badge: 'TON और Stars • मुफ़्त',
+    rewardLabel: 'अनुमानित इनाम',
+    costLabel: 'लागत',
+    snapshotLabel: 'अनुमानित समय',
+    timeLabel: 'दैनिक समय',
+    overviewHeading: 'प्रोजेक्ट का परिचय',
+    overview: 'Major of Telegram, TON ब्लॉकचेन और Telegram Stars पर बना पहला सोशल रेटिंग गेम है। 4 करोड़ से अधिक खिलाड़ी रोज़ाना मिनी-गेम और टास्क पूरे करके $MAJOR टोकन आवंटन के लिए Rating कमाते हैं।',
+    tokenomicsHeading: '$MAJOR टोकनॉमिक्स',
+    tokenomics: '$MAJOR सप्लाई का मुख्य हिस्सा स्नैपशॉट के समय खिलाड़ियों के कुल Rating और ग्लोबल लीडरबोर्ड रैंक के आधार पर वितरित किया जाता है।',
+    stepsHeading: 'भाग लेने के आसान चरण',
+    steps: [
+      'Telegram में आधिकारिक Major मिनी-ऐप खोलें और अकाउंट की उम्र के अनुसार शुरुआती Rating पाएं।',
+      'अतिरिक्त Rating पॉइंट्स के लिए रोज़ाना Daily Lucky Roulette घुमाएं।',
+      'Hold Coin गेम में 60 सेकंड तक स्क्रीन पर कॉइन दबाए रखकर अधिकतम पॉइंट्स पाएं।',
+      'रोज़ाना Durov Puzzle में 4 सही अवतार चुनकर तुरंत 5,000 Rating बोनस जीतें।',
+      'Earn टैब के टास्क पूरे करें और Tonkeeper या MyTonWallet कनेक्ट करें।'
+    ],
+    strategyHeading: 'अधिकतम इनाम की रणनीति',
+    strategy: 'बिना पैसे खर्च किए रैंक बढ़ाने के लिए रोज़ाना रूलेट, Hold Coin और Durov Puzzle तीनों ज़रूर खेलें।',
+    sybilHeading: 'सिबिल सुरक्षा और सावधानियाँ',
+    sybilSafety: 'Major बॉट अकाउंट्स और ऑटो-क्लिकर्स को रैंकिंग से बाहर करता है। रोज़ाना मैन्युअल गेम खेलना और Tonkeeper जोड़ना सुरक्षित भागीदारी सुनिश्चित करता है।',
+    faqHeading: 'अक्सर पूछे जाने वाले प्रश्न',
+    faqs: [
+      {
+        q: 'क्या Major में मुफ्त भागीदारी संभव है?',
+        a: 'हाँ, डेली रूलेट, Hold Coin, Durov Puzzle और सोशल टास्क पूरी तरह मुफ़्त ($0) हैं।'
+      },
+      {
+        q: 'कौन सा वॉलेट कनेक्ट करें?',
+        a: 'आप Tonkeeper, MyTonWallet या Telegram Wallet जोड़ सकते हैं।'
+      }
+    ],
+    ctaText: 'Major खोलें',
+    englishVersionLabel: 'अंग्रेज़ी संस्करण'
+  },
+  {
+    id: 'major',
+    slug: 'it',
+    lang: 'it',
+    flag: '🇮🇹',
+    homeLabel: 'Home',
+    hubLabel: 'Airdrop Telegram',
+    hubHref: '/it/airdrop-telegram/',
+    title: 'Guida Airdrop Major (2026): Rating $MAJOR su TON | Airdroplyx',
+    description: 'Come ottenere $MAJOR gratis su Telegram: ruota giornaliera, Hold Coin, Durov Puzzle e collegamento sicuro al wallet Tonkeeper.',
+    h1: 'Major of Telegram ($MAJOR): Guida Airdrop e Classifica',
+    badge: 'TON & Stars • Gratis',
+    rewardLabel: 'Ricompensa stimata',
+    costLabel: 'Costo',
+    snapshotLabel: 'Periodo previsto',
+    timeLabel: 'Tempo giornaliero',
+    overviewHeading: 'Panoramica del progetto',
+    overview: 'Major of Telegram è il primo gioco sociale di classifica integrato nativamente con TON e Telegram Stars. Oltre 40 milioni di giocatori accumulano punti Rating tramite mini-giochi giornalieri per l’assegnazione del token $MAJOR.',
+    tokenomicsHeading: 'Tokenomics di $MAJOR',
+    tokenomics: 'La quota principale di $MAJOR viene distribuita ai giocatori in base al Rating totale e alla posizione nella classifica globale allo snapshot.',
+    stepsHeading: 'Come partecipare passo dopo passo',
+    steps: [
+      'Apri la Mini App ufficiale Major su Telegram e ottieni il Rating iniziale.',
+      'Gira ogni giorno la Daily Lucky Roulette per vincere punti extra.',
+      'Gioca a Hold Coin tenendo premuta la moneta sullo schermo per 60 secondi.',
+      'Risolvi il Durov Puzzle quotidiano selezionando i 4 avatar corretti per 5.000 punti.',
+      'Completa le missioni nella scheda Earn e collega Tonkeeper o MyTonWallet.'
+    ],
+    strategyHeading: 'Strategia per massimizzare i punti',
+    strategy: 'Completa ogni giorno Roulette, Hold Coin e Durov Puzzle per scalare la classifica gratuitamente senza interruzioni.',
+    sybilHeading: 'Sicurezza e protezione Sybil',
+    sybilSafety: 'Major esclude bot automatici e clicker dalla classifica. Giocare manualmente ogni giorno e collegare Tonkeeper garantisce l’idoneità.',
+    faqHeading: 'Domande frequenti',
+    faqs: [
+      {
+        q: 'Si può partecipare gratis a Major?',
+        a: 'Sì, ruota giornaliera, Hold Coin, Durov Puzzle e missioni sono gratuiti ($0).'
+      },
+      {
+        q: 'Quale wallet devo usare?',
+        a: 'Collega Tonkeeper, MyTonWallet o Telegram Wallet sulla rete TON.'
+      }
+    ],
+    ctaText: 'Apri Major',
+    englishVersionLabel: 'Versione inglese'
+  },
+  {
+    id: 'major',
+    slug: 'pl',
+    lang: 'pl',
+    flag: '🇵🇱',
+    homeLabel: 'Strona główna',
+    hubLabel: 'Airdropy Telegram',
+    hubHref: '/pl/airdrop-telegram/',
+    title: 'Poradnik Airdrop Major (2026): Ranking $MAJOR w TON | Airdroplyx',
+    description: 'Jak zdobyć airdrop $MAJOR na Telegramie za darmo: codzienna ruletka, Hold Coin, Durov Puzzle oraz podłączenie portfela Tonkeeper.',
+    h1: 'Major of Telegram ($MAJOR): Poradnik Airdropu i Rankingu',
+    badge: 'TON i Stars • Darmowy',
+    rewardLabel: 'Szacowana nagroda',
+    costLabel: 'Koszt',
+    snapshotLabel: 'Przewidywany okres',
+    timeLabel: 'Czas dziennie',
+    overviewHeading: 'Opis projektu',
+    overview: 'Major of Telegram to pierwsza społecznościowa gra rankingowa na Telegramie z natywną integracją blockchaina TON oraz Telegram Stars. Ponad 40 milionów graczy zbiera punkty Rating w codziennych minigrach, aby zdobyć tokeny $MAJOR.',
+    tokenomicsHeading: 'Tokenomika $MAJOR',
+    tokenomics: 'Główna część podaży $MAJOR trafia do graczy na podstawie zgromadzonego Ratingu i pozycji w globalnym rankingu w dniu migawki.',
+    stepsHeading: 'Instrukcja krok po kroku',
+    steps: [
+      'Uruchom oficjalną aplikację Major na Telegramie i odbierz początkowy Rating.',
+      'Codziennie kręć kołem Daily Lucky Roulette po dodatkowe punkty.',
+      'Zagraj w Hold Coin, przytrzymując monetę na ekranie przez 60 sekund.',
+      'Rozwiąż codzienny Durov Puzzle, wybierając 4 właściwe awatary za 5 000 punktów.',
+      'Wykonaj zadania w zakładce Earn i podłącz portfel Tonkeeper lub MyTonWallet.'
+    ],
+    strategyHeading: 'Strategia maksymalizacji nagród',
+    strategy: 'Wykonuj codziennie zestaw Ruletka, Hold Coin i Durov Puzzle, aby piąć się w tabeli bez żadnych opłat.',
+    sybilHeading: 'Ochrona Anti-Sybil i bezpieczeństwo',
+    sybilSafety: 'Major usuwa z tabeli automatyczne boty i farmy klikaczy. Ręczna codzienna gra oraz podłączony portfel Tonkeeper chronią Twój udział.',
+    faqHeading: 'Często zadawane pytania',
+    faqs: [
+      {
+        q: 'Czy udział w Major jest darmowy?',
+        a: 'Tak, codzienna ruletka, Hold Coin, Durov Puzzle oraz zadania są w pełni darmowe ($0).'
+      },
+      {
+        q: 'Jaki portfel podłączyć do Major?',
+        a: 'Użyj portfela Tonkeeper, MyTonWallet lub Telegram Wallet w sieci TON.'
+      }
+    ],
+    ctaText: 'Otwórz Major',
+    englishVersionLabel: 'Wersja angielska'
   }
 ];
 
