@@ -4377,6 +4377,1482 @@ export const localizedAirdropGuides: LocalizedAirdropGuide[] = [
     ],
     ctaText: 'Otwórz Not Pixel',
     englishVersionLabel: 'Wersja angielska'
+  },
+
+  // ================= TELEGRAM APPS CENTER (16 LANGUAGES) =================
+  {
+    id: 'tapps-center',
+    slug: 'tr',
+    lang: 'tr',
+    flag: '🇹🇷',
+    homeLabel: 'Ana Sayfa',
+    hubLabel: 'Telegram Airdropları',
+    hubHref: '/tr/telegram-airdroplari/',
+    title: 'Telegram Apps Center (@tapps) Rehberi (2026): Güvenli Mini-App Keşfi | Airdroplyx',
+    description: 'TON ve Open Builders destekli resmi Telegram Apps Center (@tapps) ile sahte botlardan korunma, doğrulanmış airdrop keşfi ve Tonkeeper güvenlik rehberi.',
+    h1: 'Telegram Apps Center (@tapps): Doğrulanmış Airdrop ve Güvenlik Rehberi',
+    badge: 'TON Ekosistemi • Ücretsiz',
+    rewardLabel: 'Ödül Türü',
+    costLabel: 'Maliyet',
+    snapshotLabel: 'Dönem',
+    timeLabel: 'Günlük Süre',
+    overviewHeading: 'Proje Özeti',
+    overview: 'Telegram Apps Center (@tapps / tapps.center), TON ekosistemi üzerindeki doğrulanmış Telegram Mini Uygulamalarını, oyunları ve DeFi araçlarını bir araya getiren resmi kürasyon dizinidir. Yeni çıkan airdrop botlarını doğrudan @tapps üzerinden açmak sahte klon botlara ve cüzdan boşaltıcı (drainer) tuzaklarına yakalanma riskinizi büyük ölçüde azaltır.',
+    tokenomicsHeading: 'Ekosistem ve Kampanyalar',
+    tokenomics: '@tapps, doğrulanmış TON Mini-App token lansmanları ve partner keşif kampanyaları için merkezi geçiş kapısı görevi görür. Trend olan projeleri erken keşfetmek ilk aşama airdrop avantajı sağlar.',
+    stepsHeading: 'Adım Adım Kullanım Rehberi',
+    steps: [
+      'Telegram üzerinden resmi Telegram Apps Center (@tapps) botunu veya tapps.center dizinini açın.',
+      'Top Airdrops, Games ve DeFi kategorilerini inceleyerek güncel ve onaylı projeleri listeleyin.',
+      'Herhangi bir yeni mini uygulamayı başlatmadan önce resmi bot kullanıcı adını @tapps üzerinden doğrulayın.',
+      'Yalnızca doğrulanmış uygulamalara airdrop için ayırdığınız ayrı bir Tonkeeper veya MyTonWallet cüzdanı bağlayın.',
+      'Partner kampanyalarını düzenli takip ederek yeni TON ekosistem fırsatlarına erken katılın.'
+    ],
+    strategyHeading: 'Güvenli Airdrop Keşif Stratejisi',
+    strategy: 'Sosyal medyada gördüğünüz rastgele bağlantılara tıklamak yerine her yeni Telegram airdropunu önce @tapps dizininden aratarak açın. Bu alışkanlık hem erken dönem kampanyaları yakalamanızı sağlar hem de kimlik avı saldırılarını önler.',
+    sybilHeading: 'Güvenlik ve Dolandırıcılık Koruması',
+    sybilSafety: 'Kürasyonlu uygulama doğrulaması sahte klon botlara maruz kalmayı en aza indirir. Ana varlıklarınızı tuttuğunuz cüzdanı değil, yalnızca airdrop görevleri için oluşturulmuş ayrı bir Tonkeeper cüzdanı kullanın.',
+    faqHeading: 'Sıkça Sorulan Sorular',
+    faqs: [
+      {
+        q: 'Neden Telegram Apps Center (@tapps) kullanmalıyım?',
+        a: 'Doğrulanmış resmi Telegram Mini-App bağlantılarını listelediği için sahte oltalama (phishing) botlarından korunmanızı sağlar.'
+      },
+      {
+        q: '@tapps kullanımı ücretsiz mi?',
+        a: 'Evet, dizinde gezinmek ve doğrulanmış mini uygulamaları başlatmak %100 ücretsizdir ($0).'
+      }
+    ],
+    ctaText: '@tapps Dizinini Aç',
+    englishVersionLabel: 'İngilizce Sürüm'
+  },
+  {
+    id: 'tapps-center',
+    slug: 'ru',
+    lang: 'ru',
+    flag: '🇷🇺',
+    homeLabel: 'Главная',
+    hubLabel: 'Telegram-аирдропы',
+    hubHref: '/ru/telegram-airdrops/',
+    title: 'Гайд по Telegram Apps Center (@tapps) 2026: безопасный поиск дропов | Airdroplyx',
+    description: 'Как пользоваться официальным каталогом Telegram Apps Center (@tapps): проверка подлинности мини-приложений TON, защита от фишинга и подключение Tonkeeper.',
+    h1: 'Telegram Apps Center (@tapps): каталог проверенных мини-приложений и дропов',
+    badge: 'Экосистема TON • Бесплатно',
+    rewardLabel: 'Тип наград',
+    costLabel: 'Затраты',
+    snapshotLabel: 'Период',
+    timeLabel: 'Время в день',
+    overviewHeading: 'Обзор проекта',
+    overview: 'Telegram Apps Center (@tapps / tapps.center) — официальный курируемый каталог проверенных Telegram Mini-Apps, игр и DeFi-инструментов в сети TON. Запуск новых дроп-ботов через @tapps защищает от фишинговых клонов и помогает находить партнерские кампании на раннем этапе.',
+    tokenomicsHeading: 'Экосистема и кампании',
+    tokenomics: '@tapps служит центральной точкой входа для проверенных запусков токенов TON Mini-App и партнерских активностей.',
+    stepsHeading: 'Пошаговая инструкция',
+    steps: [
+      'Откройте официальный каталог Telegram Apps Center (@tapps) или сайт tapps.center.',
+      'Изучите разделы Top Airdrops, Games и DeFi для поиска актуальных проектов.',
+      'Перед запуском любого нового бота проверяйте его официальный тег через @tapps.',
+      'Подключайте отдельный некастодиальный кошелек Tonkeeper или MyTonWallet только к проверенным приложениям.',
+      'Регулярно отслеживайте новые партнерские кампании в каталоге.'
+    ],
+    strategyHeading: 'Стратегия безопасного поиска',
+    strategy: 'Не переходите по случайным ссылкам из комментариев — всегда ищите новый проект сначала в каталоге @tapps, чтобы совместить ранний вход и защиту средств.',
+    sybilHeading: 'Безопасность и защита от скама',
+    sybilSafety: 'Модерация каталога резко снижает риск столкнуться с фейковыми ботами-дрейнерами. Для активностей используйте отдельный кошелек Tonkeeper.',
+    faqHeading: 'Частые вопросы',
+    faqs: [
+      {
+        q: 'Зачем использовать Telegram Apps Center?',
+        a: 'Каталог содержит только проверенные ссылки на официальные Mini-Apps и защищает от фишинговых клонов.'
+      },
+      {
+        q: 'Каталог @tapps бесплатный?',
+        a: 'Да, поиск и запуск приложений полностью бесплатны ($0).'
+      }
+    ],
+    ctaText: 'Открыть @tapps',
+    englishVersionLabel: 'Английская версия'
+  },
+  {
+    id: 'tapps-center',
+    slug: 'id',
+    lang: 'id',
+    flag: '🇮🇩',
+    homeLabel: 'Beranda',
+    hubLabel: 'Airdrop Telegram',
+    hubHref: '/id/airdrop-telegram/',
+    title: 'Panduan Telegram Apps Center (@tapps) 2026: Cari Airdrop Aman | Airdroplyx',
+    description: 'Cara memakai direktori resmi Telegram Apps Center (@tapps) untuk menemukan Mini App TON terverifikasi, menghindari bot phishing, dan ikut kampanye partner.',
+    h1: 'Telegram Apps Center (@tapps): Direktori Mini-App Aman & Terverifikasi',
+    badge: 'Ekosistem TON • Gratis',
+    rewardLabel: 'Jenis Hadiah',
+    costLabel: 'Biaya',
+    snapshotLabel: 'Periode',
+    timeLabel: 'Waktu Harian',
+    overviewHeading: 'Ringkasan Proyek',
+    overview: 'Telegram Apps Center (@tapps / tapps.center) adalah direktori resmi aplikasi mini Telegram terverifikasi di jaringan TON. Membuka bot airdrop baru melalui @tapps melindungi Anda dari bot kloning palsu sekaligus menyoroti kampanye partner terbaru.',
+    tokenomicsHeading: 'Ekosistem & Kampanye',
+    tokenomics: '@tapps menjadi gerbang utama untuk peluncuran token Mini-App TON yang terverifikasi serta berbagai kampanye komunitas.',
+    stepsHeading: 'Langkah-Langkah Penggunaan',
+    steps: [
+      'Buka Telegram Apps Center (@tapps) di Telegram atau kunjungi tapps.center.',
+      'Jelajahi kategori Top Airdrops, Games, dan DeFi.',
+      'Selalu verifikasi handle bot resmi sebelum menjalankan mini-app baru.',
+      'Hubungkan dompet khusus airdrop (Tonkeeper atau MyTonWallet) hanya ke aplikasi terverifikasi.',
+      'Pantau kampanye partner terbaru secara berkala.'
+    ],
+    strategyHeading: 'Strategi Penemuan Airdrop',
+    strategy: 'Biasakan mencari proyek baru lewat @tapps daripada mengklik tautan acak agar Anda tetap aman sekaligus masuk lebih awal.',
+    sybilHeading: 'Keamanan & Perlindungan',
+    sybilSafety: 'Verifikasi kurasi di direktori ini meminimalkan paparan terhadap bot tiruan dan drainer dompet. Gunakan dompet Tonkeeper terpisah untuk berburu airdrop.',
+    faqHeading: 'Pertanyaan Umum',
+    faqs: [
+      {
+        q: 'Mengapa harus menggunakan Telegram Apps Center?',
+        a: 'Direktori ini memuat tautan Mini-App resmi yang terverifikasi sehingga menghindarkan Anda dari kloning phishing.'
+      },
+      {
+        q: 'Apakah @tapps gratis?',
+        a: 'Ya, menjelajah dan membuka aplikasi di dalamnya 100% gratis ($0).'
+      }
+    ],
+    ctaText: 'Buka @tapps',
+    englishVersionLabel: 'Versi Bahasa Inggris'
+  },
+  {
+    id: 'tapps-center',
+    slug: 'vi',
+    lang: 'vi',
+    flag: '🇻🇳',
+    homeLabel: 'Trang chủ',
+    hubLabel: 'Airdrop Telegram',
+    hubHref: '/vi/airdrop-telegram/',
+    title: 'Hướng dẫn Telegram Apps Center (@tapps) 2026: Tìm Airdrop An Toàn | Airdroplyx',
+    description: 'Cách sử dụng danh mục chính thức Telegram Apps Center (@tapps) để khám phá Mini-App TON đã xác minh, tránh bot giả mạo và kết nối Tonkeeper an toàn.',
+    h1: 'Telegram Apps Center (@tapps): Danh Mục Mini-App & Airdrop Đã Xác Minh',
+    badge: 'Hệ sinh thái TON • Miễn phí',
+    rewardLabel: 'Loại phần thưởng',
+    costLabel: 'Chi phí',
+    snapshotLabel: 'Thời gian',
+    timeLabel: 'Thời gian mỗi ngày',
+    overviewHeading: 'Tổng quan dự án',
+    overview: 'Telegram Apps Center (@tapps / tapps.center) là danh mục tuyển chọn chính thức các Telegram Mini-App, trò chơi và công cụ DeFi đã xác minh trên TON. Khởi chạy bot mới qua @tapps giúp tránh bot lừa đảo và tiếp cận sớm chiến dịch đối tác.',
+    tokenomicsHeading: 'Hệ sinh thái & Chiến dịch',
+    tokenomics: '@tapps đóng vai trò cổng khám phá trung tâm cho các đợt ra mắt token Mini-App uy tín trên mạng TON.',
+    stepsHeading: 'Các bước sử dụng chi tiết',
+    steps: [
+      'Mở Telegram Apps Center (@tapps) trên Telegram hoặc truy cập tapps.center.',
+      'Duyệt các mục Top Airdrops, Games và DeFi.',
+      'Kiểm tra chính xác tên bot chính thức trước khi tham gia bất kỳ ứng dụng mới nào.',
+      'Chỉ kết nối ví Tonkeeper hoặc MyTonWallet dành riêng cho airdrop với ứng dụng đã xác minh.',
+      'Theo dõi thường xuyên các chiến dịch đối tác nổi bật.'
+    ],
+    strategyHeading: 'Chiến lược săn airdrop an toàn',
+    strategy: 'Thay vì bấm vào link lạ trên mạng xã hội, hãy tìm kiếm dự án qua @tapps để vừa phát hiện kèo sớm vừa bảo vệ tài sản.',
+    sybilHeading: 'Bảo mật & Chống lừa đảo',
+    sybilSafety: 'Danh mục được kiểm duyệt giúp giảm mạnh nguy cơ gặp bot drainer giả mạo. Luôn tách biệt ví săn airdrop trên Tonkeeper với ví lưu trữ chính.',
+    faqHeading: 'Câu hỏi thường gặp',
+    faqs: [
+      {
+        q: 'Tại sao nên dùng Telegram Apps Center?',
+        a: 'Nền tảng tổng hợp link Mini-App chính thức đã xác minh, giúp bạn tránh các bản sao giả mạo.'
+      },
+      {
+        q: 'Dùng @tapps có mất phí không?',
+        a: 'Không, hoàn toàn miễn phí ($0).'
+      }
+    ],
+    ctaText: 'Mở @tapps',
+    englishVersionLabel: 'Bản tiếng Anh'
+  },
+  {
+    id: 'tapps-center',
+    slug: 'es',
+    lang: 'es',
+    flag: '🇪🇸',
+    homeLabel: 'Inicio',
+    hubLabel: 'Airdrops de Telegram',
+    hubHref: '/es/airdrops-telegram/',
+    title: 'Guía Telegram Apps Center (@tapps) 2026: Descubrir Airdrops Seguros | Airdroplyx',
+    description: 'Cómo usar el directorio oficial Telegram Apps Center (@tapps) para encontrar Mini Apps verificadas en TON, evitar clones phishing y conectar Tonkeeper.',
+    h1: 'Telegram Apps Center (@tapps): Directorio Seguro de Mini Apps y Airdrops',
+    badge: 'Ecosistema TON • Gratis',
+    rewardLabel: 'Tipo de recompensa',
+    costLabel: 'Costo',
+    snapshotLabel: 'Periodo',
+    timeLabel: 'Tiempo diario',
+    overviewHeading: 'Resumen del proyecto',
+    overview: 'Telegram Apps Center (@tapps / tapps.center) es el catálogo curado oficial de Mini Apps de Telegram, juegos y herramientas DeFi verificadas en TON. Abrir nuevos bots desde @tapps te protege frente a clones maliciosos y destaca campañas asociadas.',
+    tokenomicsHeading: 'Ecosistema y Campañas',
+    tokenomics: '@tapps funciona como puerta central de descubrimiento para lanzamientos verificados de tokens en Mini Apps de TON.',
+    stepsHeading: 'Pasos para usarlo',
+    steps: [
+      'Abre Telegram Apps Center (@tapps) en Telegram o visita tapps.center.',
+      'Explora las categorías Top Airdrops, Games y DeFi.',
+      'Verifica el nombre oficial del bot antes de iniciar cualquier nueva aplicación.',
+      'Conecta tu billetera dedicada de Tonkeeper o MyTonWallet solo en apps verificadas.',
+      'Revisa periódicamente las campañas asociadas destacadas.'
+    ],
+    strategyHeading: 'Estrategia de descubrimiento seguro',
+    strategy: 'Busca siempre los nuevos bots directamente dentro de @tapps en lugar de usar enlaces desconocidos para entrar temprano sin comprometer tu seguridad.',
+    sybilHeading: 'Seguridad y protección',
+    sybilSafety: 'La verificación del directorio reduce drásticamente el riesgo de bots falsos y drenadores de billeteras. Usa una Tonkeeper separada para airdrops.',
+    faqHeading: 'Preguntas frecuentes',
+    faqs: [
+      {
+        q: '¿Por qué usar Telegram Apps Center?',
+        a: 'Lista enlaces oficiales verificados de Mini Apps para evitar imitaciones de phishing.'
+      },
+      {
+        q: '¿Es gratis @tapps?',
+        a: 'Sí, explorar y abrir aplicaciones verificadas es 100% gratuito ($0).'
+      }
+    ],
+    ctaText: 'Abrir @tapps',
+    englishVersionLabel: 'Versión en inglés'
+  },
+  {
+    id: 'tapps-center',
+    slug: 'pt',
+    lang: 'pt',
+    flag: '🇧🇷',
+    homeLabel: 'Início',
+    hubLabel: 'Airdrops do Telegram',
+    hubHref: '/pt/airdrops-telegram/',
+    title: 'Guia Telegram Apps Center (@tapps) 2026: Airdrops Seguros na TON | Airdroplyx',
+    description: 'Saiba como usar o catálogo oficial Telegram Apps Center (@tapps) para descobrir Mini Apps verificados na TON, evitar golpes e conectar a Tonkeeper.',
+    h1: 'Telegram Apps Center (@tapps): Diretório Verificado de Airdrops e Mini Apps',
+    badge: 'Ecossistema TON • Grátis',
+    rewardLabel: 'Tipo de recompensa',
+    costLabel: 'Custo',
+    snapshotLabel: 'Período',
+    timeLabel: 'Tempo diário',
+    overviewHeading: 'Visão geral do projeto',
+    overview: 'Telegram Apps Center (@tapps / tapps.center) é o diretório oficial com curadoria de Mini Apps verificados no Telegram e na rede TON. Iniciar novos bots pelo @tapps protege contra clones falsos e destaca campanhas de parceiros.',
+    tokenomicsHeading: 'Ecossistema e Campanhas',
+    tokenomics: '@tapps atua como porta de entrada para lançamentos verificados de tokens em Mini Apps da TON.',
+    stepsHeading: 'Passo a passo para usar',
+    steps: [
+      'Abra o Telegram Apps Center (@tapps) ou acesse tapps.center.',
+      'Navegue pelas categorias Top Airdrops, Games e DeFi.',
+      'Confirme o usuário oficial do bot antes de abrir qualquer novo mini app.',
+      'Conecte sua carteira Tonkeeper ou MyTonWallet dedicada apenas a aplicativos verificados.',
+      'Acompanhe regularmente as campanhas de parceiros em destaque.'
+    ],
+    strategyHeading: 'Estratégia de descoberta segura',
+    strategy: 'Procure novos projetos diretamente no @tapps em vez de clicar em links aleatórios para garantir entrada antecipada com segurança.',
+    sybilHeading: 'Segurança e proteção',
+    sybilSafety: 'A curadoria reduz drasticamente o risco de bots de phishing. Use uma carteira Tonkeeper exclusiva para airdrops.',
+    faqHeading: 'Perguntas frequentes',
+    faqs: [
+      {
+        q: 'Por que usar o Telegram Apps Center?',
+        a: 'Ele reúne links oficiais verificados de Mini Apps, protegendo você contra cópias fraudulentas.'
+      },
+      {
+        q: 'O @tapps é gratuito?',
+        a: 'Sim, navegar e abrir os aplicativos é 100% gratuito ($0).'
+      }
+    ],
+    ctaText: 'Abrir @tapps',
+    englishVersionLabel: 'Versão em inglês'
+  },
+  {
+    id: 'tapps-center',
+    slug: 'ko',
+    lang: 'ko',
+    flag: '🇰🇷',
+    homeLabel: '홈',
+    hubLabel: '텔레그램 에어드랍',
+    hubHref: '/ko/telegram-airdrops/',
+    title: 'Telegram Apps Center (@tapps) 가이드 (2026): 안전한 미니앱 탐색 | Airdroplyx',
+    description: '공식 텔레그램 앱 센터(@tapps)로 검증된 TON 미니앱과 에어드랍을 안전하게 찾고 피싱 봇을 피하는 방법 및 Tonkeeper 보안 가이드.',
+    h1: 'Telegram Apps Center (@tapps): 검증된 에어드랍 탐색 가이드',
+    badge: 'TON 생태계 • 무료',
+    rewardLabel: '보상 유형',
+    costLabel: '비용',
+    snapshotLabel: '진행 기간',
+    timeLabel: '일일 소요 시간',
+    overviewHeading: '프로젝트 개요',
+    overview: 'Telegram Apps Center(@tapps / tapps.center)는 TON 생태계의 검증된 텔레그램 미니앱, 게임, DeFi 도구를 모아둔 공식 큐레이션 디렉토리입니다. @tapps를 통해 새 봇을 실행하면 가짜 피싱 봇 위험을 크게 줄일 수 있습니다.',
+    tokenomicsHeading: '생태계 및 파트너 캠페인',
+    tokenomics: '@tapps는 검증된 TON 미니앱 토큰 출시와 파트너 퀘스트 캠페인을 가장 먼저 접할 수 있는 공식 관문 역할을 합니다.',
+    stepsHeading: '단계별 이용 방법',
+    steps: [
+      '텔레그램에서 공식 Telegram Apps Center(@tapps) 또는 tapps.center를 여세요.',
+      'Top Airdrops, Games, DeFi 카테고리를 살펴보세요.',
+      '새 미니앱을 실행하기 전에 반드시 공식 봇 핸들을 확인하세요.',
+      '검증된 앱에만 에어드랍 전용 Tonkeeper 또는 MyTonWallet 지갑을 연결하세요.',
+      '주목받는 파트너 캠페인을 정기적으로 확인하세요.'
+    ],
+    strategyHeading: '안전한 에어드랍 탐색 전략',
+    strategy: 'SNS의 출처 불명 링크 대신 @tapps 디렉토리에서 직접 프로젝트를 검색해 실행하면 초기 참여와 지갑 보안을 동시에 챙길 수 있습니다.',
+    sybilHeading: '보안 및 스캠 예방',
+    sybilSafety: '사전 검증된 앱 목록은 가짜 드레이너 봇 노출을 줄여줍니다. 항상 에어드랍 전용 Tonkeeper 지갑을 분리해 사용하세요.',
+    faqHeading: '자주 묻는 질문',
+    faqs: [
+      {
+        q: 'Telegram Apps Center를 써야 하는 이유는 무엇인가요?',
+        a: '검증된 공식 미니앱 링크만 제공해 피싱 복제 봇을 피할 수 있습니다.'
+      },
+      {
+        q: '@tapps 이용은 무료인가요?',
+        a: '네, 탐색과 미니앱 실행 모두 100% 무료($0)입니다.'
+      }
+    ],
+    ctaText: '@tapps 열기',
+    englishVersionLabel: '영문 버전'
+  },
+  {
+    id: 'tapps-center',
+    slug: 'ja',
+    lang: 'ja',
+    flag: '🇯🇵',
+    homeLabel: 'ホーム',
+    hubLabel: 'Telegramエアドロップ',
+    hubHref: '/ja/telegram-airdrops/',
+    title: 'Telegram Apps Center (@tapps) 攻略 (2026): 安全なミニアプリ探し | Airdroplyx',
+    description: '公式ディレクトリTelegram Apps Center (@tapps) を使って検証済みTONミニアプリを発見し、偽ボットやフィッシングを防ぐ安全な参加手順。',
+    h1: 'Telegram Apps Center (@tapps): 検証済みエアドロップ発見ガイド',
+    badge: 'TONエコシステム • 無料',
+    rewardLabel: '報酬タイプ',
+    costLabel: '費用',
+    snapshotLabel: '開催期間',
+    timeLabel: '1日の作業時間',
+    overviewHeading: 'プロジェクト概要',
+    overview: 'Telegram Apps Center（@tapps / tapps.center）は、TON上の検証済みTelegramミニアプリやゲーム、DeFiツールをまとめた公式キュレーションディレクトリです。@tapps経由で新規ボットを起動することで、偽クローンボットやフィッシング被害を防げます。',
+    tokenomicsHeading: 'エコシステムとキャンペーン',
+    tokenomics: '@tappsは検証済みTONミニアプリのトークンローンチやパートナーキャンペーンを探す中心的なゲートウェイです。',
+    stepsHeading: '利用ステップ',
+    steps: [
+      'Telegramで公式Telegram Apps Center（@tapps）またはtapps.centerを開きます。',
+      'Top Airdrops、Games、DeFiカテゴリから注目プロジェクトを探します。',
+      '新しいミニアプリを開く前に、公式ボットハンドルを@tappsで確認します。',
+      '検証済みアプリにのみ、エアドロップ専用のTonkeeperまたはMyTonWalletを接続します。',
+      '注目のパートナーキャンペーンを定期的にチェックします。'
+    ],
+    strategyHeading: '安全なエアドロップ探索戦略',
+    strategy: 'SNSの怪しいリンクを直接踏むのではなく、必ず@tappsから検索して起動する習慣をつけることで、早期参加と資産保護を両立できます。',
+    sybilHeading: 'セキュリティと詐欺対策',
+    sybilSafety: '公式キュレーションにより偽ドレイナーボットへの接触を大幅に減らせます。メイン資産とは別のTonkeeperウォレットを使用してください。',
+    faqHeading: 'よくある質問',
+    faqs: [
+      {
+        q: 'なぜTelegram Apps Centerを使うべきですか？',
+        a: '検証済みの公式ミニアプリリンクのみが掲載されており、フィッシング詐欺を回避できるためです。'
+      },
+      {
+        q: '@tappsは無料で使えますか？',
+        a: 'はい、閲覧およびアプリの起動は完全無料（$0）です。'
+      }
+    ],
+    ctaText: '@tappsを開く',
+    englishVersionLabel: '英語版を見る'
+  },
+  {
+    id: 'tapps-center',
+    slug: 'ar',
+    lang: 'ar',
+    flag: '🇸🇦',
+    homeLabel: 'الرئيسية',
+    hubLabel: 'إيردروبات تيليجرام',
+    hubHref: '/ar/telegram-airdrops/',
+    title: 'دليل Telegram Apps Center (@tapps) 2026: اكتشاف الإيردروبات بأمان | Airdroplyx',
+    description: 'كيف تستخدم الدليل الرسمي Telegram Apps Center (@tapps) للوصول إلى تطبيقات TON الموثقة، وتجنب البوتات المزيفة وربط Tonkeeper بأمان.',
+    h1: 'Telegram Apps Center (@tapps): دليل التطبيقات المصغرة الموثقة',
+    badge: 'نظام TON • مجاني',
+    rewardLabel: 'نوع المكافأة',
+    costLabel: 'التكلفة',
+    snapshotLabel: 'الفترة',
+    timeLabel: 'الوقت اليومي',
+    overviewHeading: 'نظرة عامة على المشروع',
+    overview: 'يُعد Telegram Apps Center (@tapps / tapps.center) الدليل الرسمي المنسق لاكتشاف تطبيقات تيليجرام المصغرة وألعاب TON وأدوات DeFi الموثقة. تشغيل البوتات الجديدة عبر @tapps يحميك من النسخ المزيفة والاحتيال.',
+    tokenomicsHeading: 'النظام البيئي والحملات',
+    tokenomics: 'يعمل @tapps كبوابة اكتشاف مركزية لإطلاقات عملات تطبيقات TON الموثقة وحملات الشركاء.',
+    stepsHeading: 'خطوات الاستخدام',
+    steps: [
+      'افتح Telegram Apps Center (@tapps) على تيليجرام أو موقع tapps.center.',
+      'تصفح أقسام Top Airdrops وGames وDeFi.',
+      'تحقق دائماً من المعرّف الرسمي للبوت قبل تشغيل أي تطبيق مصغر جديد.',
+      'اربط محفظة Tonkeeper أو MyTonWallet مخصصة للإيردروبات فقط بالتطبيقات الموثقة.',
+      'تابع حملات الشركاء المميزة بشكل دوري.'
+    ],
+    strategyHeading: 'استراتيجية الاكتشاف الآمن',
+    strategy: 'بدلاً من النقر على الروابط العشوائية في وسائل التواصل، ابحث دائماً عن المشاريع الجديدة داخل @tapps لضمان الأمان والمشاركة المبكرة.',
+    sybilHeading: 'الأمان والحماية من الاحتيال',
+    sybilSafety: 'يقلل التحقق المنسق للتطبيقات من التعرض لبوتات سحب المحافظ المزيفة. استخدم محفظة Tonkeeper منفصلة عن أصولك الرئيسية.',
+    faqHeading: 'الأسئلة الشائعة',
+    faqs: [
+      {
+        q: 'لماذا أستخدم Telegram Apps Center؟',
+        a: 'لأنه يدرج روابط التطبيقات المصغرة الرسمية الموثقة فقط مما يجنبك النسخ التصيدية.'
+      },
+      {
+        q: 'هل @tapps مجاني؟',
+        a: 'نعم، التصفح وتشغيل التطبيقات الموثقة مجاني 100% ($0).'
+      }
+    ],
+    ctaText: 'افتح @tapps',
+    englishVersionLabel: 'النسخة الإنجليزية'
+  },
+  {
+    id: 'tapps-center',
+    slug: 'de',
+    lang: 'de',
+    flag: '🇩🇪',
+    homeLabel: 'Startseite',
+    hubLabel: 'Telegram-Airdrops',
+    hubHref: '/de/telegram-airdrops/',
+    title: 'Telegram Apps Center (@tapps) Guide 2026: Sichere Mini-Apps | Airdroplyx',
+    description: 'So nutzt du das offizielle Verzeichnis Telegram Apps Center (@tapps), um verifizierte TON Mini Apps zu finden und Phishing-Bots zu vermeiden.',
+    h1: 'Telegram Apps Center (@tapps): Verifiziertes Airdrop-Verzeichnis',
+    badge: 'TON-Ökosystem • Kostenlos',
+    rewardLabel: 'Belohnungsart',
+    costLabel: 'Kosten',
+    snapshotLabel: 'Zeitraum',
+    timeLabel: 'Täglicher Aufwand',
+    overviewHeading: 'Projektübersicht',
+    overview: 'Das Telegram Apps Center (@tapps / tapps.center) ist der offizielle Katalog für verifizierte Telegram Mini Apps, Spiele und DeFi-Tools im TON-Netzwerk. Über @tapps geöffnete Bots schützen vor Phishing-Klonen und zeigen Partnerkampagnen.',
+    tokenomicsHeading: 'Ökosystem & Kampagnen',
+    tokenomics: '@tapps dient als zentraler Einstiegspunkt für geprüfte TON-Mini-App-Launches und Partner-Airdrops.',
+    stepsHeading: 'Schritt-für-Schritt-Anleitung',
+    steps: [
+      'Öffne Telegram Apps Center (@tapps) in Telegram oder besuche tapps.center.',
+      'Durchstöbere die Kategorien Top Airdrops, Games und DeFi.',
+      'Prüfe immer den offiziellen Bot-Namen über @tapps, bevor du eine neue App startest.',
+      'Verbinde eine separate Tonkeeper- oder MyTonWallet-Airdrop-Wallet nur mit geprüften Apps.',
+      'Verfolge regelmäßig neue Partnerkampagnen im Katalog.'
+    ],
+    strategyHeading: 'Sichere Entdeckungsstrategie',
+    strategy: 'Suche neue Airdrop-Bots immer zuerst in @tapps statt auf fremde Social-Media-Links zu klicken.',
+    sybilHeading: 'Sicherheit & Schutz vor Betrug',
+    sybilSafety: 'Die Kuratierung minimiert das Risiko gefälschter Drainer-Bots. Nutze für Airdrops stets eine eigene Tonkeeper-Wallet.',
+    faqHeading: 'Häufig gestellte Fragen',
+    faqs: [
+      {
+        q: 'Warum sollte man Telegram Apps Center nutzen?',
+        a: 'Es listet geprüfte offizielle Mini-App-Links und schützt so vor gefälschten Klonen.'
+      },
+      {
+        q: 'Ist @tapps kostenlos?',
+        a: 'Ja, das Stöbern und Starten der Apps ist zu 100 % kostenlos ($0).'
+      }
+    ],
+    ctaText: '@tapps öffnen',
+    englishVersionLabel: 'Englische Version'
+  },
+  {
+    id: 'tapps-center',
+    slug: 'fr',
+    lang: 'fr',
+    flag: '🇫🇷',
+    homeLabel: 'Accueil',
+    hubLabel: 'Airdrops Telegram',
+    hubHref: '/fr/airdrops-telegram/',
+    title: 'Guide Telegram Apps Center (@tapps) 2026 : Mini Apps sûres | Airdroplyx',
+    description: 'Comment utiliser le répertoire officiel Telegram Apps Center (@tapps) pour trouver des Mini Apps TON vérifiées et éviter les bots de phishing.',
+    h1: 'Telegram Apps Center (@tapps) : Annuaire Vérifié d’Airdrops TON',
+    badge: 'Écosystème TON • Gratuit',
+    rewardLabel: 'Type de récompense',
+    costLabel: 'Coût',
+    snapshotLabel: 'Période',
+    timeLabel: 'Temps quotidien',
+    overviewHeading: 'Présentation du projet',
+    overview: 'Telegram Apps Center (@tapps / tapps.center) est l’annuaire officiel des Mini Apps Telegram, jeux et outils DeFi vérifiés sur TON. Lancer de nouveaux bots depuis @tapps protège contre les clones malveillants et met en avant les campagnes partenaires.',
+    tokenomicsHeading: 'Écosystème et Campagnes',
+    tokenomics: '@tapps sert de portail central pour découvrir les lancements de jetons vérifiés sur les Mini Apps TON.',
+    stepsHeading: 'Étapes d’utilisation',
+    steps: [
+      'Ouvrez Telegram Apps Center (@tapps) ou rendez-vous sur tapps.center.',
+      'Parcourez les catégories Top Airdrops, Games et DeFi.',
+      'Vérifiez toujours l’identifiant officiel du bot avant de lancer une nouvelle application.',
+      'Connectez un portefeuille Tonkeeper ou MyTonWallet dédié uniquement aux apps vérifiées.',
+      'Suivez régulièrement les campagnes partenaires mises en avant.'
+    ],
+    strategyHeading: 'Stratégie de découverte sécurisée',
+    strategy: 'Cherchez toujours les nouveaux projets directement dans @tapps plutôt que via des liens inconnus sur les réseaux sociaux.',
+    sybilHeading: 'Sécurité et protection anti-arnaque',
+    sybilSafety: 'La vérification du répertoire réduit fortement le risque de faux bots draineurs. Utilisez un portefeuille Tonkeeper séparé.',
+    faqHeading: 'Questions fréquentes',
+    faqs: [
+      {
+        q: 'Pourquoi utiliser Telegram Apps Center ?',
+        a: 'Il répertorie les liens officiels vérifiés afin d’éviter les clones de phishing.'
+      },
+      {
+        q: '@tapps est-il gratuit ?',
+        a: 'Oui, la navigation et l’accès aux applications sont 100 % gratuits ($0).'
+      }
+    ],
+    ctaText: 'Ouvrir @tapps',
+    englishVersionLabel: 'Version anglaise'
+  },
+  {
+    id: 'tapps-center',
+    slug: 'uk',
+    lang: 'uk',
+    flag: '🇺🇦',
+    homeLabel: 'Головна',
+    hubLabel: 'Telegram-аірдропи',
+    hubHref: '/uk/telegram-airdrops/',
+    title: 'Гайд по Telegram Apps Center (@tapps) 2026: безпечний пошук дропів | Airdroplyx',
+    description: 'Як користуватися офіційним каталогом Telegram Apps Center (@tapps) для пошуку перевірених TON Mini-Apps та захисту від фішингових ботів.',
+    h1: 'Telegram Apps Center (@tapps): каталог перевірених аірдропів TON',
+    badge: 'Екосистема TON • Безкоштовно',
+    rewardLabel: 'Тип винагороди',
+    costLabel: 'Витрати',
+    snapshotLabel: 'Період',
+    timeLabel: 'Час на день',
+    overviewHeading: 'Огляд проєкту',
+    overview: 'Telegram Apps Center (@tapps / tapps.center) — офіційний каталог перевірених Telegram Mini-Apps, ігор і DeFi-сервісів у мережі TON. Запуск нових ботів через @tapps захищає від фішингових клонів і показує партнерські кампанії.',
+    tokenomicsHeading: 'Екосистема та кампанії',
+    tokenomics: '@tapps виступає головним шлюзом для перевірених запусків токенів TON Mini-App та партнерських активностей.',
+    stepsHeading: 'Покрокова інструкція',
+    steps: [
+      'Відкрийте Telegram Apps Center (@tapps) або сайт tapps.center.',
+      'Перегляньте категорії Top Airdrops, Games і DeFi.',
+      'Завжди звіряйте офіційний нік бота через @tapps перед запуском.',
+      'Підключайте окремий гаманець Tonkeeper або MyTonWallet лише до перевірених додатків.',
+      'Регулярно відстежуйте нові партнерські кампанії.'
+    ],
+    strategyHeading: 'Стратегія безпечного пошуку',
+    strategy: 'Замість переходу за випадковими посиланнями в коментарях завжди перевіряйте нові проєкти через каталог @tapps.',
+    sybilHeading: 'Безпека та захист від шахраїв',
+    sybilSafety: 'Модерація каталогу різко зменшує ризик натрапити на фейкові боти-дрейнери. Використовуйте окремий гаманець Tonkeeper для аірдропів.',
+    faqHeading: 'Часті запитання',
+    faqs: [
+      {
+        q: 'Навіщо користуватися Telegram Apps Center?',
+        a: 'Він містить лише перевірені офіційні посилання Mini-Apps і захищає від фішингу.'
+      },
+      {
+        q: 'Чи безкоштовний @tapps?',
+        a: 'Так, пошук і запуск додатків повністю безкоштовні ($0).'
+      }
+    ],
+    ctaText: 'Відкрити @tapps',
+    englishVersionLabel: 'Англійська версія'
+  },
+  {
+    id: 'tapps-center',
+    slug: 'zh',
+    lang: 'zh-CN',
+    flag: '🇨🇳',
+    homeLabel: '首页',
+    hubLabel: 'Telegram 空投',
+    hubHref: '/zh/telegram-airdrops/',
+    title: 'Telegram Apps Center (@tapps) 教程 2026：安全发现已验证空投 | Airdroplyx',
+    description: '如何使用官方目录 Telegram Apps Center (@tapps) 查找 TON 生态已验证小程序、防范钓鱼仿冒机器人并安全连接 Tonkeeper。',
+    h1: 'Telegram Apps Center (@tapps)：官方验证空投与小程序指南',
+    badge: 'TON 生态 • 零撸免费',
+    rewardLabel: '奖励类型',
+    costLabel: '参与成本',
+    snapshotLabel: '活动周期',
+    timeLabel: '每日耗时',
+    overviewHeading: '项目简介',
+    overview: 'Telegram Apps Center (@tapps / tapps.center) 是 TON 生态官方精选的已验证 Telegram 小程序、链游与 DeFi 工具目录。通过 @tapps 启动新项目可有效避开仿冒钓鱼机器人并第一时间发现合作方空投活动。',
+    tokenomicsHeading: '生态与合作活动',
+    tokenomics: '@tapps 作为已验证 TON 小程序代币发布与合作方探索任务的统一入口，帮助玩家安全抢占早期红利。',
+    stepsHeading: '详细使用步骤',
+    steps: [
+      '在 Telegram 中打开官方 Telegram Apps Center (@tapps) 或访问 tapps.center。',
+      '浏览 Top Airdrops、Games 与 DeFi 分类榜单。',
+      '在启动任何新小程序前，务必通过 @tapps 核对官方机器人用户名。',
+      '仅将专用于空投的 Tonkeeper 或 MyTonWallet 钱包连接至已验证应用。',
+      '定期关注目录中推荐的合作方活动。'
+    ],
+    strategyHeading: '安全探索策略',
+    strategy: '养成从 @tapps 目录检索新项目而非点击社交媒体不明链接的习惯，既能早鸟参与又能杜绝钓鱼盗币风险。',
+    sybilHeading: '安全提示与防骗',
+    sybilSafety: '精选目录审核机制大幅降低了遇到恶意仿盘的概率。参与空投建议使用与主资产隔离的独立 Tonkeeper 钱包。',
+    faqHeading: '常见问题',
+    faqs: [
+      {
+        q: '为什么要使用 Telegram Apps Center？',
+        a: '它只收录经过核验的官方小程序链接，能有效帮你避开钓鱼仿冒机器人。'
+      },
+      {
+        q: '使用 @tapps 需要收费吗？',
+        a: '完全免费（$0），浏览与启动应用均不收取费用。'
+      }
+    ],
+    ctaText: '打开 @tapps',
+    englishVersionLabel: '英文原版'
+  },
+  {
+    id: 'tapps-center',
+    slug: 'hi',
+    lang: 'hi',
+    flag: '🇮🇳',
+    homeLabel: 'होम',
+    hubLabel: 'टेलीग्राम एयरड्रॉप',
+    hubHref: '/hi/telegram-airdrops/',
+    title: 'Telegram Apps Center (@tapps) गाइड 2026: सुरक्षित एयरड्रॉप खोज | Airdroplyx',
+    description: 'आधिकारिक Telegram Apps Center (@tapps) से वेरिफाइड TON मिनी-ऐप्स खोजने, फर्जी बॉट्स से बचने और Tonkeeper को सुरक्षित जोड़ने की गाइड।',
+    h1: 'Telegram Apps Center (@tapps): वेरिफाइड मिनी-ऐप और एयरड्रॉप डायरेक्टरी',
+    badge: 'TON इकोसिस्टम • मुफ़्त',
+    rewardLabel: 'इनाम का प्रकार',
+    costLabel: 'लागत',
+    snapshotLabel: 'अवधि',
+    timeLabel: 'दैनिक समय',
+    overviewHeading: 'प्रोजेक्ट का परिचय',
+    overview: 'Telegram Apps Center (@tapps / tapps.center) TON नेटवर्क पर वेरिफाइड Telegram मिनी-ऐप्स, गेम्स और DeFi टूल्स की आधिकारिक डायरेक्टरी है। @tapps से नए एयरड्रॉप बॉट खोलने से आप नकली फ़िशिंग बॉट्स से सुरक्षित रहते हैं।',
+    tokenomicsHeading: 'इकोसिस्टम और अभियान',
+    tokenomics: '@tapps वेरिफाइड TON मिनी-ऐप टोकन लॉन्च और पार्टनर अभियानों के लिए मुख्य प्रवेश द्वार का काम करता है।',
+    stepsHeading: 'उपयोग के चरण',
+    steps: [
+      'Telegram में आधिकारिक Telegram Apps Center (@tapps) या tapps.center खोलें।',
+      'Top Airdrops, Games और DeFi श्रेणियों को ब्राउज़ करें।',
+      'कोई भी नया मिनी-ऐप चलाने से पहले @tapps पर उसका आधिकारिक हैंडल जांचें।',
+      'केवल वेरिफाइड ऐप्स से ही अपना अलग एयरड्रॉप Tonkeeper या MyTonWallet जोड़ें।',
+      'नए पार्टनर अभियानों के लिए नियमित रूप से डायरेक्टरी देखें।'
+    ],
+    strategyHeading: 'सुरक्षित एयरड्रॉप रणनीति',
+    strategy: 'सोशल मीडिया के अनजान लिंक पर क्लिक करने के बजाय हमेशा @tapps में प्रोजेक्ट खोजकर खोलें।',
+    sybilHeading: 'सुरक्षा और धोखाधड़ी से बचाव',
+    sybilSafety: 'क्यूरेटेड वेरिफिकेशन नकली ड्रेनर बॉट्स के खतरे को कम करता है। एयरड्रॉप के लिए मुख्य फंड्स से अलग Tonkeeper वॉलेट इस्तेमाल करें।',
+    faqHeading: 'अक्सर पूछे जाने वाले प्रश्न',
+    faqs: [
+      {
+        q: 'Telegram Apps Center क्यों इस्तेमाल करें?',
+        a: 'यहाँ केवल वेरिफाइड आधिकारिक मिनी-ऐप लिंक मिलते हैं जिससे फ़िशिंग क्लोन से बचाव होता है।'
+      },
+      {
+        q: 'क्या @tapps मुफ़्त है?',
+        a: 'हाँ, इसे ब्राउज़ करना और ऐप्स चलाना 100% मुफ़्त ($0) है।'
+      }
+    ],
+    ctaText: '@tapps खोलें',
+    englishVersionLabel: 'अंग्रेज़ी संस्करण'
+  },
+  {
+    id: 'tapps-center',
+    slug: 'it',
+    lang: 'it',
+    flag: '🇮🇹',
+    homeLabel: 'Home',
+    hubLabel: 'Airdrop Telegram',
+    hubHref: '/it/airdrop-telegram/',
+    title: 'Guida Telegram Apps Center (@tapps) 2026: Mini App Sicure | Airdroplyx',
+    description: 'Come usare la directory ufficiale Telegram Apps Center (@tapps) per scoprire Mini App TON verificate, evitare bot phishing e collegare Tonkeeper.',
+    h1: 'Telegram Apps Center (@tapps): Directory Verificata di Airdrop TON',
+    badge: 'Ecosistema TON • Gratis',
+    rewardLabel: 'Tipo di ricompensa',
+    costLabel: 'Costo',
+    snapshotLabel: 'Periodo',
+    timeLabel: 'Tempo giornaliero',
+    overviewHeading: 'Panoramica del progetto',
+    overview: 'Telegram Apps Center (@tapps / tapps.center) è il catalogo ufficiale curato di Mini App Telegram, giochi e strumenti DeFi verificati su TON. Avviare nuovi bot tramite @tapps protegge dai cloni phishing e mette in evidenza campagne partner.',
+    tokenomicsHeading: 'Ecosistema e Campagne',
+    tokenomics: '@tapps funge da porta d’accesso centrale per lanci di token verificati su Mini App TON e campagne partner.',
+    stepsHeading: 'Come usarlo passo dopo passo',
+    steps: [
+      'Apri Telegram Apps Center (@tapps) su Telegram o visita tapps.center.',
+      'Esplora le categorie Top Airdrops, Games e DeFi.',
+      'Verifica sempre il nome ufficiale del bot su @tapps prima di avviare una nuova app.',
+      'Collega un wallet Tonkeeper o MyTonWallet dedicato solo alle app verificate.',
+      'Controlla regolarmente le campagne partner in evidenza.'
+    ],
+    strategyHeading: 'Strategia di scoperta sicura',
+    strategy: 'Cerca sempre i nuovi progetti direttamente dentro @tapps invece di cliccare link casuali sui social per partecipare presto in sicurezza.',
+    sybilHeading: 'Sicurezza e protezione dalle truffe',
+    sybilSafety: 'La verifica curata riduce drasticamente l’esposizione a bot drainer falsi. Usa un wallet Tonkeeper separato per gli airdrop.',
+    faqHeading: 'Domande frequenti',
+    faqs: [
+      {
+        q: 'Perché usare Telegram Apps Center?',
+        a: 'Elenca solo link ufficiali verificati di Mini App per evitare copie phishing.'
+      },
+      {
+        q: '@tapps è gratuito?',
+        a: 'Sì, esplorare e avviare le app è gratuito al 100% ($0).'
+      }
+    ],
+    ctaText: 'Apri @tapps',
+    englishVersionLabel: 'Versione inglese'
+  },
+  {
+    id: 'tapps-center',
+    slug: 'pl',
+    lang: 'pl',
+    flag: '🇵🇱',
+    homeLabel: 'Strona główna',
+    hubLabel: 'Airdropy Telegram',
+    hubHref: '/pl/airdrop-telegram/',
+    title: 'Poradnik Telegram Apps Center (@tapps) 2026: Bezpieczne Airdropy | Airdroplyx',
+    description: 'Jak korzystać z oficjalnego katalogu Telegram Apps Center (@tapps), aby odkrywać zweryfikowane aplikacje TON i unikać fałszywych botów.',
+    h1: 'Telegram Apps Center (@tapps): Zweryfikowany Katalog Airdropów TON',
+    badge: 'Ekosystem TON • Darmowy',
+    rewardLabel: 'Rodzaj nagrody',
+    costLabel: 'Koszt',
+    snapshotLabel: 'Okres',
+    timeLabel: 'Czas dziennie',
+    overviewHeading: 'Opis projektu',
+    overview: 'Telegram Apps Center (@tapps / tapps.center) to oficjalny katalog zweryfikowanych aplikacji Telegram Mini-Apps, gier i narzędzi DeFi w sieci TON. Uruchamianie nowych botów przez @tapps chroni przed klonami phishingowymi.',
+    tokenomicsHeading: 'Ekosystem i Kampanie',
+    tokenomics: '@tapps pełni rolę centralnego punktu odkrywania zweryfikowanych startów tokenów TON Mini-App oraz kampanii partnerskich.',
+    stepsHeading: 'Instrukcja krok po kroku',
+    steps: [
+      'Otwórz Telegram Apps Center (@tapps) na Telegramie lub stronę tapps.center.',
+      'Przejrzyj kategorie Top Airdrops, Games i DeFi.',
+      'Zawsze potwierdź oficjalną nazwę bota w @tapps przed uruchomieniem nowej aplikacji.',
+      'Podłącz oddzielny portfel Tonkeeper lub MyTonWallet wyłącznie do zweryfikowanych aplikacji.',
+      'Regularnie sprawdzaj wyróżnione kampanie partnerskie.'
+    ],
+    strategyHeading: 'Bezpieczna strategia odkrywania',
+    strategy: 'Wyszukuj nowe projekty bezpośrednio w katalogu @tapps zamiast klikać przypadkowe linki w mediach społecznościowych.',
+    sybilHeading: 'Bezpieczeństwo i ochrona przed oszustwami',
+    sybilSafety: 'Weryfikacja katalogu ogranicza ryzyko fałszywych botów typu drainer. Do airdropów używaj osobnego portfela Tonkeeper.',
+    faqHeading: 'Często zadawane pytania',
+    faqs: [
+      {
+        q: 'Dlaczego warto korzystać z Telegram Apps Center?',
+        a: 'Zawiera zweryfikowane, oficjalne linki do Mini-Apps, co chroni przed fałszywymi klonami.'
+      },
+      {
+        q: 'Czy @tapps jest darmowy?',
+        a: 'Tak, przeglądanie i uruchamianie aplikacji jest w 100% darmowe ($0).'
+      }
+    ],
+    ctaText: 'Otwórz @tapps',
+    englishVersionLabel: 'Wersja angielska'
+  },
+
+  // ================= ZENROCK (16 LANGUAGES) =================
+  {
+    id: 'zenrock-tg',
+    slug: 'tr',
+    lang: 'tr',
+    flag: '🇹🇷',
+    homeLabel: 'Ana Sayfa',
+    hubLabel: 'Telegram Airdropları',
+    hubHref: '/tr/telegram-airdroplari/',
+    title: 'Zenrock Airdrop Rehberi (2026): $ROCK Puan & dMPC Görevleri | Airdroplyx',
+    description: 'Spartan Group ve Maven 11 destekli Zenrock ($3.2M Seed) Telegram Mini-App ile ücretsiz $ROCK puanı kasma, dMPC testleri ve Phantom/Rabby bağlantısı.',
+    h1: 'Zenrock ($ROCK) Telegram Airdrop ve dMPC Görev Rehberi',
+    badge: '$3.2M Yatırım • Ücretsiz',
+    rewardLabel: 'Tahmini Ödül',
+    costLabel: 'Maliyet',
+    snapshotLabel: 'Beklenen Dönem',
+    timeLabel: 'Günlük Süre',
+    overviewHeading: 'Proje Özeti',
+    overview: 'Spartan Group ve Maven 11 liderliğinde 3,2 milyon dolar yatırım alan Zenrock, zincirler arası Bitcoin ve sarılmış varlıklar (zenBTC) için merkeziyetsiz çok taraflı hesaplama (dMPC) saklama altyapısı geliştirir. Kullanıcılar @ZenrockBot üzerinden günlük güvenlik görevlerini ve testleri tamamlayarak TGE öncesi $ROCK puanları biriktirir.',
+    tokenomicsHeading: '$ROCK Tokenomik ve Dağıtım',
+    tokenomics: '$ROCK tokenı, merkeziyetsiz MPC imzalayıcı ağını güvence altına alır ve erken dönem topluluk test kullanıcılarını ödüllendirmek için kullanılır.',
+    stepsHeading: 'Adım Adım Katılım Rehberi',
+    steps: [
+      'Resmi Zenrock Telegram Mini Uygulamasını (@ZenrockBot) başlatın.',
+      'Profilinizi oluşturun ve başlangıç $ROCK puanlarınızı talep edin.',
+      'Günlük giriş (check-in) görevlerini ve dMPC eğitim testlerini tamamlayın.',
+      'Ayarlar bölümünden Phantom (Solana) veya Rabby (EVM) cüzdanınızı bağlayın.',
+      'Haftalık yeni güvenlik görevlerini takip ederek puan serinizi koruyun.'
+    ],
+    strategyHeading: 'Maksimum Ödül Stratejisi',
+    strategy: 'Tüm ücretsiz dMPC testlerini eksiksiz çözün, günlük giriş serinizi bozmayın ve puanlarınızın kaydedilmesi için hem Phantom hem de Rabby cüzdan bağlantısını erken tamamlayın.',
+    sybilHeading: 'Sybil Koruması ve Güvenlik',
+    sybilSafety: 'Cüzdan imza doğrulamaları ve çok haftalık görev serileri topluluk dağıtımını botlardan korur. Yalnızca resmi @ZenrockBot üzerinden işlem yapın.',
+    faqHeading: 'Sıkça Sorulan Sorular',
+    faqs: [
+      {
+        q: 'Zenrock projesinin yatırımcıları kimler?',
+        a: 'Zenrock, Spartan Group ve Maven 11 tarafından 3,2 milyon dolarlık Seed yatırımıyla desteklenmektedir.'
+      },
+      {
+        q: 'Zenrock Telegram görevleri ücretsiz mi?',
+        a: 'Evet, @ZenrockBot içindeki tüm günlük giriş ve dMPC test görevleri tamamen ücretsizdir ($0).'
+      }
+    ],
+    ctaText: 'Zenrock’u Başlat',
+    englishVersionLabel: 'İngilizce Sürüm'
+  },
+  {
+    id: 'zenrock-tg',
+    slug: 'ru',
+    lang: 'ru',
+    flag: '🇷🇺',
+    homeLabel: 'Главная',
+    hubLabel: 'Telegram-аирдропы',
+    hubHref: '/ru/telegram-airdrops/',
+    title: 'Гайд по аирдропу Zenrock (2026): фарм $ROCK и dMPC квесты | Airdroplyx',
+    description: 'Как бесплатно получать поинты $ROCK в Telegram Mini-App Zenrock ($3.2M от Spartan Group и Maven 11): ежедневные задания и привязка Phantom/Rabby.',
+    h1: 'Zenrock ($ROCK): гайд по аирдропу и dMPC-квестам в Telegram',
+    badge: 'Инвестиции $3.2M • Бесплатно',
+    rewardLabel: 'Ожидаемая награда',
+    costLabel: 'Затраты',
+    snapshotLabel: 'Ожидаемый период',
+    timeLabel: 'Время в день',
+    overviewHeading: 'Обзор проекта',
+    overview: 'Zenrock (привлёк $3.2M от Spartan Group и Maven 11) создаёт децентрализованную MPC-инфраструктуру для кросс-чейн Bitcoin и zenBTC. В мини-приложении @ZenrockBot пользователи выполняют ежедневные квесты и викторины по dMPC, накапливая поинты $ROCK до TGE.',
+    tokenomicsHeading: 'Токеномика $ROCK',
+    tokenomics: 'Токен $ROCK обеспечивает безопасность децентрализованных MPC-подписантов и распределяется среди ранних тестировщиков сообщества.',
+    stepsHeading: 'Пошаговая инструкция',
+    steps: [
+      'Откройте официальный Telegram Mini-App Zenrock (@ZenrockBot).',
+      'Создайте профиль и заберите приветственные поинты $ROCK.',
+      'Выполняйте ежедневные отметки (check-in) и образовательные тесты по dMPC.',
+      'Привяжите кошелек Phantom (Solana) или Rabby (EVM) в настройках.',
+      'Поддерживайте многонедельный стрик активности до снимка.'
+    ],
+    strategyHeading: 'Стратегия фарма',
+    strategy: 'Закройте все бесплатные dMPC-квизы, не пропускайте ежедневные серии входов и заранее привяжите Phantom или Rabby.',
+    sybilHeading: 'Защита от ботов и безопасность',
+    sybilSafety: 'Проверка подписи кошелька и длительность стриков защищают пул наград от автоматизированных ферм. Не делитесь сид-фразой.',
+    faqHeading: 'Частые вопросы',
+    faqs: [
+      {
+        q: 'Кто инвестировал в Zenrock?',
+        a: 'Проект привлёк $3.2M Seed-раунда от фондов Spartan Group и Maven 11.'
+      },
+      {
+        q: 'Нужны ли вложения для квестов Zenrock?',
+        a: 'Нет, участие в заданиях Telegram Mini-App полностью бесплатное ($0).'
+      }
+    ],
+    ctaText: 'Открыть Zenrock',
+    englishVersionLabel: 'Английская версия'
+  },
+  {
+    id: 'zenrock-tg',
+    slug: 'id',
+    lang: 'id',
+    flag: '🇮🇩',
+    homeLabel: 'Beranda',
+    hubLabel: 'Airdrop Telegram',
+    hubHref: '/id/airdrop-telegram/',
+    title: 'Panduan Airdrop Zenrock (2026): Kumpul Poin $ROCK Gratis | Airdroplyx',
+    description: 'Cara ikut airdrop Zenrock ($3.2M Seed dari Spartan Group & Maven 11) di Telegram: selesaikan kuis dMPC, check-in harian, dan hubungkan Phantom/Rabby.',
+    h1: 'Zenrock ($ROCK): Panduan Airdrop Telegram & Misi dMPC',
+    badge: 'Pendanaan $3.2M • Gratis',
+    rewardLabel: 'Estimasi Hadiah',
+    costLabel: 'Biaya',
+    snapshotLabel: 'Perkiraan Snapshot',
+    timeLabel: 'Waktu Harian',
+    overviewHeading: 'Ringkasan Proyek',
+    overview: 'Didukung pendanaan $3,2 juta dari Spartan Group dan Maven 11, Zenrock membangun kustodi multi-party computation terdesentralisasi (dMPC) untuk aset Bitcoin lintas rantai (zenBTC). Melalui @ZenrockBot, pengguna mengumpulkan poin $ROCK dengan menyelesaikan misi harian.',
+    tokenomicsHeading: 'Tokenomik $ROCK',
+    tokenomics: 'Token $ROCK mengamankan penanda tangan MPC terdesentralisasi serta memberi penghargaan bagi penguji komunitas awal.',
+    stepsHeading: 'Langkah-Langkah Mengikuti Airdrop',
+    steps: [
+      'Buka Mini App resmi Zenrock di Telegram (@ZenrockBot).',
+      'Atur profil Anda dan klaim poin awal $ROCK.',
+      'Selesaikan check-in harian dan kuis edukasi dMPC.',
+      'Hubungkan dompet Phantom (Solana) atau Rabby (EVM) di menu Settings.',
+      'Pertahankan rekor misi mingguan hingga periode TGE.'
+    ],
+    strategyHeading: 'Strategi Maksimal',
+    strategy: 'Selesaikan seluruh kuis dMPC gratis, jaga rekor check-in harian tanpa putus, dan tautkan dompet Phantom atau Rabby sejak dini.',
+    sybilHeading: 'Keamanan & Anti-Sybil',
+    sybilSafety: 'Verifikasi tanda tangan dompet dan konsistensi misi multi-minggu melindungi alokasi komunitas dari bot. Jangan bagikan seed phrase Anda.',
+    faqHeading: 'Pertanyaan Umum',
+    faqs: [
+      {
+        q: 'Siapa pendukung di balik Zenrock?',
+        a: 'Zenrock didanai $3,2 juta oleh Spartan Group dan Maven 11.'
+      },
+      {
+        q: 'Apakah misi Zenrock gratis?',
+        a: 'Ya, seluruh misi di Telegram Mini-App gratis 100% ($0).'
+      }
+    ],
+    ctaText: 'Buka Zenrock',
+    englishVersionLabel: 'Versi Bahasa Inggris'
+  },
+  {
+    id: 'zenrock-tg',
+    slug: 'vi',
+    lang: 'vi',
+    flag: '🇻🇳',
+    homeLabel: 'Trang chủ',
+    hubLabel: 'Airdrop Telegram',
+    hubHref: '/vi/airdrop-telegram/',
+    title: 'Hướng dẫn Airdrop Zenrock (2026): Cày điểm $ROCK trên Telegram | Airdroplyx',
+    description: 'Cách tham gia airdrop Zenrock (gọi vốn $3.2M từ Spartan Group & Maven 11): làm nhiệm vụ dMPC hàng ngày trên @ZenrockBot và kết nối ví Phantom/Rabby.',
+    h1: 'Zenrock ($ROCK): Hướng dẫn Airdrop Telegram & Nhiệm Vụ dMPC',
+    badge: 'Gọi vốn $3.2M • Miễn phí',
+    rewardLabel: 'Phần thưởng dự kiến',
+    costLabel: 'Chi phí',
+    snapshotLabel: 'Thời gian dự kiến',
+    timeLabel: 'Thời gian mỗi ngày',
+    overviewHeading: 'Tổng quan dự án',
+    overview: 'Được hậu thuẫn $3.2M bởi Spartan Group và Maven 11, Zenrock phát triển giao thức lưu ký dMPC phi tập trung cho Bitcoin đa chuỗi (zenBTC). Qua @ZenrockBot trên Telegram, người dùng hoàn thành câu đố bảo mật và điểm danh để tích lũy điểm $ROCK.',
+    tokenomicsHeading: 'Tokenomics $ROCK',
+    tokenomics: 'Token $ROCK bảo mật mạng lưới ký dMPC phi tập trung và thưởng cho những người thử nghiệm sớm.',
+    stepsHeading: 'Các bước tham gia chi tiết',
+    steps: [
+      'Mở Telegram Mini-App chính thức của Zenrock (@ZenrockBot).',
+      'Khởi tạo hồ sơ và nhận điểm $ROCK chào mừng.',
+      'Hoàn thành điểm danh hàng ngày và các bài kiểm tra kiến thức dMPC.',
+      'Kết nối ví Phantom (Solana) hoặc Rabby (EVM) trong phần Settings.',
+      'Duy trì chuỗi hoạt động hàng tuần đến khi snapshot.'
+    ],
+    strategyHeading: 'Chiến lược tối ưu điểm',
+    strategy: 'Hoàn thành toàn bộ câu đố dMPC miễn phí, giữ chuỗi điểm danh liên tục và liên kết ví Phantom hoặc Rabby sớm.',
+    sybilHeading: 'Chống Sybil & Bảo mật',
+    sybilSafety: 'Kiểm tra chữ ký ví và chuỗi nhiệm vụ nhiều tuần giúp lọc tài khoản bot. Tuyệt đối giữ bí mật cụm từ khôi phục ví.',
+    faqHeading: 'Câu hỏi thường gặp',
+    faqs: [
+      {
+        q: 'Quỹ nào đầu tư vào Zenrock?',
+        a: 'Zenrock gọi vốn $3.2M vòng Seed từ Spartan Group và Maven 11.'
+      },
+      {
+        q: 'Làm nhiệm vụ Zenrock có miễn phí không?',
+        a: 'Có, tham gia nhiệm vụ trên @ZenrockBot hoàn toàn miễn phí ($0).'
+      }
+    ],
+    ctaText: 'Mở Zenrock',
+    englishVersionLabel: 'Bản tiếng Anh'
+  },
+  {
+    id: 'zenrock-tg',
+    slug: 'es',
+    lang: 'es',
+    flag: '🇪🇸',
+    homeLabel: 'Inicio',
+    hubLabel: 'Airdrops de Telegram',
+    hubHref: '/es/airdrops-telegram/',
+    title: 'Guía Airdrop Zenrock (2026): Puntos $ROCK y Misiones dMPC | Airdroplyx',
+    description: 'Cómo participar gratis en Zenrock ($3.2M de Spartan Group y Maven 11): completa cuestionarios dMPC en @ZenrockBot y vincula Phantom o Rabby.',
+    h1: 'Zenrock ($ROCK): Guía del Airdrop en Telegram y Custodia dMPC',
+    badge: 'Financiación $3.2M • Gratis',
+    rewardLabel: 'Recompensa estimada',
+    costLabel: 'Costo',
+    snapshotLabel: 'Periodo estimado',
+    timeLabel: 'Tiempo diario',
+    overviewHeading: 'Resumen del proyecto',
+    overview: 'Respaldado con $3,2 millones por Spartan Group y Maven 11, Zenrock desarrolla custodia descentralizada dMPC para Bitcoin multicadena (zenBTC). En @ZenrockBot, los usuarios completan misiones diarias de seguridad para acumular puntos $ROCK.',
+    tokenomicsHeading: 'Tokenomics de $ROCK',
+    tokenomics: 'El token $ROCK asegura a los firmantes MPC descentralizados y recompensa a los primeros probadores de la comunidad.',
+    stepsHeading: 'Pasos para participar',
+    steps: [
+      'Abre la Mini App oficial de Zenrock en Telegram (@ZenrockBot).',
+      'Inicializa tu perfil y reclama los puntos iniciales de $ROCK.',
+      'Completa los registros diarios y los cuestionarios educativos de dMPC.',
+      'Conecta tu billetera Phantom (Solana) o Rabby (EVM) en Ajustes.',
+      'Mantén tu racha semanal de misiones hasta el TGE.'
+    ],
+    strategyHeading: 'Estrategia para maximizar recompensas',
+    strategy: 'Responde todos los cuestionarios dMPC gratuitos, no rompas tu racha diaria y vincula cuanto antes tu billetera Phantom o Rabby.',
+    sybilHeading: 'Seguridad y protección Sybil',
+    sybilSafety: 'Las verificaciones de firma y rachas de varias semanas protegen las asignaciones frente a bots. Nunca compartas tu frase semilla.',
+    faqHeading: 'Preguntas frecuentes',
+    faqs: [
+      {
+        q: '¿Quién respalda a Zenrock?',
+        a: 'Zenrock recaudó $3,2 millones en ronda Seed liderada por Spartan Group y Maven 11.'
+      },
+      {
+        q: '¿Son gratuitas las misiones de Zenrock?',
+        a: 'Sí, participar en @ZenrockBot es completamente gratuito ($0).'
+      }
+    ],
+    ctaText: 'Abrir Zenrock',
+    englishVersionLabel: 'Versión en inglés'
+  },
+  {
+    id: 'zenrock-tg',
+    slug: 'pt',
+    lang: 'pt',
+    flag: '🇧🇷',
+    homeLabel: 'Início',
+    hubLabel: 'Airdrops do Telegram',
+    hubHref: '/pt/airdrops-telegram/',
+    title: 'Guia Airdrop Zenrock (2026): Pontos $ROCK e Missões dMPC | Airdroplyx',
+    description: 'Saiba como ganhar pontos $ROCK grátis no Zenrock ($3,2M da Spartan Group e Maven 11): quizzes dMPC no @ZenrockBot e conexão Phantom ou Rabby.',
+    h1: 'Zenrock ($ROCK): Guia do Airdrop no Telegram e Protocolo dMPC',
+    badge: 'Investimento $3.2M • Grátis',
+    rewardLabel: 'Recompensa estimada',
+    costLabel: 'Custo',
+    snapshotLabel: 'Previsão',
+    timeLabel: 'Tempo diário',
+    overviewHeading: 'Visão geral do projeto',
+    overview: 'Apoiado por $3,2 milhões da Spartan Group e Maven 11, o Zenrock constrói custódia descentralizada dMPC para Bitcoin multichain (zenBTC). Pelo @ZenrockBot no Telegram, usuários fazem check-ins e quizzes de segurança para somar pontos $ROCK.',
+    tokenomicsHeading: 'Tokenomics do $ROCK',
+    tokenomics: 'O token $ROCK protege os assinantes MPC descentralizados e recompensa os primeiros participantes da comunidade.',
+    stepsHeading: 'Passo a passo para participar',
+    steps: [
+      'Inicie o Mini App oficial do Zenrock no Telegram (@ZenrockBot).',
+      'Crie seu perfil e resgate os pontos iniciais de $ROCK.',
+      'Faça o check-in diário e responda aos quizzes educativos de dMPC.',
+      'Conecte sua carteira Phantom (Solana) ou Rabby (EVM) nas configurações.',
+      'Mantenha a sequência semanal de tarefas até o snapshot.'
+    ],
+    strategyHeading: 'Estratégia de ganhos',
+    strategy: 'Complete todos os quizzes dMPC gratuitos, mantenha a sequência diária e conecte sua carteira Phantom ou Rabby logo no início.',
+    sybilHeading: 'Proteção Sybil e segurança',
+    sybilSafety: 'Assinaturas de carteira e sequências de várias semanas filtram contas automatizadas. Nunca compartilhe sua frase secreta.',
+    faqHeading: 'Perguntas frequentes',
+    faqs: [
+      {
+        q: 'Quem investe no Zenrock?',
+        a: 'O projeto recebeu $3,2 milhões da Spartan Group e da Maven 11.'
+      },
+      {
+        q: 'As missões no Telegram são gratuitas?',
+        a: 'Sim, todas as tarefas no @ZenrockBot são 100% gratuitas ($0).'
+      }
+    ],
+    ctaText: 'Abrir Zenrock',
+    englishVersionLabel: 'Versão em inglês'
+  },
+  {
+    id: 'zenrock-tg',
+    slug: 'ko',
+    lang: 'ko',
+    flag: '🇰🇷',
+    homeLabel: '홈',
+    hubLabel: '텔레그램 에어드랍',
+    hubHref: '/ko/telegram-airdrops/',
+    title: 'Zenrock 에어드랍 가이드 (2026): $ROCK 포인트 & dMPC 퀘스트 | Airdroplyx',
+    description: 'Spartan Group과 Maven 11이 투자한 Zenrock($3.2M 시드) 텔레그램 미니앱 공략: dMPC 퀴즈, 일일 출석 및 Phantom/Rabby 지갑 연동.',
+    h1: 'Zenrock ($ROCK) 텔레그램 에어드랍 및 dMPC 퀘스트 가이드',
+    badge: '$3.2M 투자 유치 • 무료',
+    rewardLabel: '예상 보상',
+    costLabel: '비용',
+    snapshotLabel: '예상 시기',
+    timeLabel: '일일 소요 시간',
+    overviewHeading: '프로젝트 개요',
+    overview: 'Spartan Group과 Maven 11로부터 320만 달러 시드 투자를 유치한 Zenrock은 크로스체인 비트코인(zenBTC)을 위한 탈중앙화 다자간 연산(dMPC) 커스터디 프로토콜입니다. @ZenrockBot에서 일일 체크인과 퀴즈를 완료해 $ROCK 포인트를 모을 수 있습니다.',
+    tokenomicsHeading: '$ROCK 토크노믹스',
+    tokenomics: '$ROCK 토큰은 탈중앙화 MPC 서명자 네트워크 보안과 초기 커뮤니티 테스터 보상에 사용됩니다.',
+    stepsHeading: '단계별 참여 방법',
+    steps: [
+      '텔레그램에서 공식 Zenrock 미니앱(@ZenrockBot)을 실행하세요.',
+      '프로필을 생성하고 초기 $ROCK 보너스 포인트를 수령하세요.',
+      '일일 출석 체크와 dMPC 보안 퀴즈를 완료하세요.',
+      '설정에서 Phantom(Solana) 또는 Rabby(EVM) 지갑을 연결하세요.',
+      '스냅샷 전까지 주간 퀘스트 스트릭을 꾸준히 유지하세요.'
+    ],
+    strategyHeading: '보상 극대화 전략',
+    strategy: '모든 무료 dMPC 퀴즈를 빠짐없이 풀고, 연속 출석 스트릭을 유지하며 Phantom 또는 Rabby 지갑을 미리 연동해 두세요.',
+    sybilHeading: '시빌 방지 및 보안',
+    sybilSafety: '지갑 서명 검증과 다주간 퀘스트 기록을 통해 다계정 봇을 걸러냅니다. 지갑 복구 구문은 절대 공유하지 마세요.',
+    faqHeading: '자주 묻는 질문',
+    faqs: [
+      {
+        q: 'Zenrock의 주요 투자자는 누구인가요?',
+        a: 'Spartan Group과 Maven 11으로부터 320만 달러 투자를 받았습니다.'
+      },
+      {
+        q: 'Zenrock 텔레그램 퀘스트는 무료인가요?',
+        a: '네, @ZenrockBot 내 모든 퀘스트는 비용 없이 무료($0)입니다.'
+      }
+    ],
+    ctaText: 'Zenrock 시작하기',
+    englishVersionLabel: '영문 버전'
+  },
+  {
+    id: 'zenrock-tg',
+    slug: 'ja',
+    lang: 'ja',
+    flag: '🇯🇵',
+    homeLabel: 'ホーム',
+    hubLabel: 'Telegramエアドロップ',
+    hubHref: '/ja/telegram-airdrops/',
+    title: 'Zenrock エアドロップ攻略 (2026): $ROCK獲得・dMPCクエスト | Airdroplyx',
+    description: 'Spartan Group・Maven 11出資（$3.2M調達）のZenrock攻略：@ZenrockBotでの無料dMPCクイズ、毎日チェックイン、Phantom/Rabby連携手順。',
+    h1: 'Zenrock ($ROCK) Telegramエアドロップ＆dMPCクエストガイド',
+    badge: '$3.2M調達済み • 無料',
+    rewardLabel: '予想報酬',
+    costLabel: '費用',
+    snapshotLabel: '予定時期',
+    timeLabel: '1日の作業時間',
+    overviewHeading: 'プロジェクト概要',
+    overview: 'Spartan GroupおよびMaven 11から320万ドルを調達したZenrockは、クロスチェーンBitcoin（zenBTC）向けの分散型MPC（dMPC）カストディプロトコルです。@ZenrockBotで毎日のチェックインとセキュリティクイズを完了し、$ROCKポイントを貯められます。',
+    tokenomicsHeading: '$ROCK トケノミクス',
+    tokenomics: '$ROCKトークンは分散型MPC署名ネットワークの保護と、初期コミュニティテスターへの報酬配分に充てられます。',
+    stepsHeading: '参加ステップ',
+    steps: [
+      'Telegramで公式Zenrockミニアプリ（@ZenrockBot）を起動します。',
+      'プロフィールを作成し、初回$ROCKポイントを受け取ります。',
+      '毎日のチェックインとdMPC学習クイズを完了します。',
+      '設定からPhantom（Solana）またはRabby（EVM）ウォレットを接続します。',
+      'スナップショットまで継続して連続ログイン記録を伸ばします。'
+    ],
+    strategyHeading: '報酬最大化のコツ',
+    strategy: '無料のdMPCクイズをすべてクリアし、毎日の連続記録を途切れさせずにPhantomまたはRabbyを早めに連携させましょう。',
+    sybilHeading: 'シビル対策と安全性',
+    sybilSafety: 'ウォレット署名チェックと複数週のクエスト継続記録によってボットアカウントを排除しています。シードフレーズは絶対に共有しないでください。',
+    faqHeading: 'よくある質問',
+    faqs: [
+      {
+        q: 'Zenrockの出資元はどこですか？',
+        a: 'Spartan GroupとMaven 11からシードラウンドで320万ドルを調達しています。'
+      },
+      {
+        q: 'ZenrockのTelegramクエストは無料ですか？',
+        a: 'はい、@ZenrockBot内のタスクはすべて完全無料（$0）です。'
+      }
+    ],
+    ctaText: 'Zenrockを開く',
+    englishVersionLabel: '英語版を見る'
+  },
+  {
+    id: 'zenrock-tg',
+    slug: 'ar',
+    lang: 'ar',
+    flag: '🇸🇦',
+    homeLabel: 'الرئيسية',
+    hubLabel: 'إيردروبات تيليجرام',
+    hubHref: '/ar/telegram-airdrops/',
+    title: 'دليل إيردروب Zenrock (2026): نقاط $ROCK ومهام dMPC | Airdroplyx',
+    description: 'دليل المشاركة مجاناً في إيردروب Zenrock (بتمويل 3.2 مليون دولار من Spartan Group وMaven 11): مهام @ZenrockBot وربط Phantom وRabby.',
+    h1: 'Zenrock ($ROCK): دليل إيردروب تيليجرام وبروتوكول dMPC',
+    badge: 'تمويل $3.2M • مجاني',
+    rewardLabel: 'المكافأة المتوقعة',
+    costLabel: 'التكلفة',
+    snapshotLabel: 'الفترة المتوقعة',
+    timeLabel: 'الوقت اليومي',
+    overviewHeading: 'نظرة عامة على المشروع',
+    overview: 'حصل مشروع Zenrock على تمويل 3.2 مليون دولار من Spartan Group وMaven 11 لبناء حفظ لا مركزي dMPC لعملة بيتكوين عبر السلاسل (zenBTC). عبر @ZenrockBot على تيليجرام، يكمل المستخدمون اختبارات الأمان اليومية لجمع نقاط $ROCK.',
+    tokenomicsHeading: 'اقتصاديات $ROCK',
+    tokenomics: 'تؤمّن عملة $ROCK شبكة موقعي MPC اللامركزية وتُستخدم لمكافأة المختبرين الأوائل في المجتمع.',
+    stepsHeading: 'خطوات المشاركة',
+    steps: [
+      'افتح تطبيق Zenrock الرسمي داخل تيليجرام (@ZenrockBot).',
+      'أنشئ ملفك الشخصي واحصل على نقاط $ROCK الترحيبية.',
+      'أكمل تسجيل الدخول اليومي والاختبارات التعليمية حول dMPC.',
+      'اربط محفظة Phantom (Solana) أو Rabby (EVM) من الإعدادات.',
+      'حافظ على سلسلة المهام الأسبوعية حتى موعد اللقطة.'
+    ],
+    strategyHeading: 'استراتيجية تعظيم المكافآت',
+    strategy: 'أجب عن جميع اختبارات dMPC المجانية، وحافظ على سلسلة الدخول اليومي، واربط محفظة Phantom أو Rabby مبكراً.',
+    sybilHeading: 'الحماية من الحسابات الوهمية والأمان',
+    sybilSafety: 'تحمي فحوصات توقيع المحفظة وسلاسل المهام المتعددة توزيعات المجتمع من البوتات. لا تشارك عبارة الاسترداد أبداً.',
+    faqHeading: 'الأسئلة الشائعة',
+    faqs: [
+      {
+        q: 'من هم المستثمرون في Zenrock؟',
+        a: 'حصلت Zenrock على 3.2 مليون دولار بقيادة Spartan Group وMaven 11.'
+      },
+      {
+        q: 'هل مهام Zenrock على تيليجرام مجانية؟',
+        a: 'نعم، المشاركة في مهام @ZenrockBot مجانية بالكامل ($0).'
+      }
+    ],
+    ctaText: 'افتح Zenrock',
+    englishVersionLabel: 'النسخة الإنجليزية'
+  },
+  {
+    id: 'zenrock-tg',
+    slug: 'de',
+    lang: 'de',
+    flag: '🇩🇪',
+    homeLabel: 'Startseite',
+    hubLabel: 'Telegram-Airdrops',
+    hubHref: '/de/telegram-airdrops/',
+    title: 'Zenrock Airdrop Guide (2026): $ROCK Punkte & dMPC Quests | Airdroplyx',
+    description: 'Anleitung für Zenrock ($3.2M Seed von Spartan Group & Maven 11): Kostenlos $ROCK-Punkte in @ZenrockBot sammeln und Phantom oder Rabby verbinden.',
+    h1: 'Zenrock ($ROCK): Telegram-Airdrop & dMPC-Quest Guide',
+    badge: '$3.2M Finanzierung • Kostenlos',
+    rewardLabel: 'Geschätzte Belohnung',
+    costLabel: 'Kosten',
+    snapshotLabel: 'Erwarteter Zeitraum',
+    timeLabel: 'Täglicher Aufwand',
+    overviewHeading: 'Projektübersicht',
+    overview: 'Unterstützt mit 3,2 Mio. US-Dollar von Spartan Group und Maven 11 entwickelt Zenrock dezentrale dMPC-Verwahrung für Cross-Chain-Bitcoin (zenBTC). Über @ZenrockBot erledigen Nutzer tägliche Sicherheits-Quests für $ROCK-Punkte.',
+    tokenomicsHeading: '$ROCK Tokenomics',
+    tokenomics: 'Der $ROCK-Token sichert dezentrale MPC-Unterzeichner ab und belohnt frühe Community-Tester.',
+    stepsHeading: 'Schritt-für-Schritt-Anleitung',
+    steps: [
+      'Starte die offizielle Zenrock Mini App in Telegram (@ZenrockBot).',
+      'Richte dein Profil ein und sichere dir die Startpunkte in $ROCK.',
+      'Erledige tägliche Check-ins und die dMPC-Lernquizze.',
+      'Verbinde deine Phantom- (Solana) oder Rabby-Wallet (EVM) in den Einstellungen.',
+      'Halte deine wöchentliche Quest-Serie bis zum Snapshot aufrecht.'
+    ],
+    strategyHeading: 'Strategie für maximale Punkte',
+    strategy: 'Löse alle kostenlosen dMPC-Quizze, halte die tägliche Check-in-Serie und verknüpfe Phantom oder Rabby frühzeitig.',
+    sybilHeading: 'Sybil-Schutz & Sicherheit',
+    sybilSafety: 'Wallet-Signaturprüfungen und mehrwöchige Serien schützen die Community-Zuteilung vor Bots. Teile niemals deine Seed-Phrase.',
+    faqHeading: 'Häufig gestellte Fragen',
+    faqs: [
+      {
+        q: 'Wer unterstützt Zenrock?',
+        a: 'Zenrock erhielt 3,2 Millionen US-Dollar von Spartan Group und Maven 11.'
+      },
+      {
+        q: 'Sind die Zenrock-Quests kostenlos?',
+        a: 'Ja, alle Aufgaben in @ZenrockBot sind komplett kostenlos ($0).'
+      }
+    ],
+    ctaText: 'Zenrock öffnen',
+    englishVersionLabel: 'Englische Version'
+  },
+  {
+    id: 'zenrock-tg',
+    slug: 'fr',
+    lang: 'fr',
+    flag: '🇫🇷',
+    homeLabel: 'Accueil',
+    hubLabel: 'Airdrops Telegram',
+    hubHref: '/fr/airdrops-telegram/',
+    title: 'Guide Airdrop Zenrock (2026) : Points $ROCK & Quêtes dMPC | Airdroplyx',
+    description: 'Comment participer gratuitement à Zenrock (3,2 M$ de Spartan Group et Maven 11) : quiz dMPC sur @ZenrockBot et connexion Phantom ou Rabby.',
+    h1: 'Zenrock ($ROCK) : Guide Airdrop Telegram et Protocole dMPC',
+    badge: 'Financement $3.2M • Gratuit',
+    rewardLabel: 'Récompense estimée',
+    costLabel: 'Coût',
+    snapshotLabel: 'Période estimée',
+    timeLabel: 'Temps quotidien',
+    overviewHeading: 'Présentation du projet',
+    overview: 'Soutenu à hauteur de 3,2 M$ par Spartan Group et Maven 11, Zenrock développe une garde décentralisée dMPC pour le Bitcoin multi-chaînes (zenBTC). Via @ZenrockBot, les utilisateurs complètent des quiz quotidiens pour accumuler des points $ROCK.',
+    tokenomicsHeading: 'Tokenomics de $ROCK',
+    tokenomics: 'Le jeton $ROCK sécurise les signataires MPC décentralisés et récompense les premiers testeurs de la communauté.',
+    stepsHeading: 'Étapes pour participer',
+    steps: [
+      'Ouvrez la Mini App officielle Zenrock sur Telegram (@ZenrockBot).',
+      'Initialisez votre profil et réclamez vos points de bienvenue $ROCK.',
+      'Complétez les connexions quotidiennes et les quiz éducatifs dMPC.',
+      'Liez votre portefeuille Phantom (Solana) ou Rabby (EVM) dans les paramètres.',
+      'Maintenez votre série hebdomadaire jusqu’au snapshot.'
+    ],
+    strategyHeading: 'Stratégie d’optimisation',
+    strategy: 'Réussissez tous les quiz dMPC gratuits, conservez votre série quotidienne et connectez Phantom ou Rabby sans attendre.',
+    sybilHeading: 'Protection Anti-Sybil et sécurité',
+    sybilSafety: 'Les signatures de portefeuille et séries sur plusieurs semaines filtrent les bots. Ne partagez jamais votre phrase secrète.',
+    faqHeading: 'Questions fréquentes',
+    faqs: [
+      {
+        q: 'Qui finance Zenrock ?',
+        a: 'Zenrock a levé 3,2 M$ auprès de Spartan Group et Maven 11.'
+      },
+      {
+        q: 'Les quêtes Telegram Zenrock sont-elles gratuites ?',
+        a: 'Oui, la participation sur @ZenrockBot est 100 % gratuite ($0).'
+      }
+    ],
+    ctaText: 'Ouvrir Zenrock',
+    englishVersionLabel: 'Version anglaise'
+  },
+  {
+    id: 'zenrock-tg',
+    slug: 'uk',
+    lang: 'uk',
+    flag: '🇺🇦',
+    homeLabel: 'Головна',
+    hubLabel: 'Telegram-аірдропи',
+    hubHref: '/uk/telegram-airdrops/',
+    title: 'Гайд з аірдропу Zenrock (2026): поінти $ROCK і dMPC квести | Airdroplyx',
+    description: 'Як безкоштовно заробляти $ROCK у Zenrock ($3.2M від Spartan Group і Maven 11): квести в @ZenrockBot та підключення Phantom/Rabby.',
+    h1: 'Zenrock ($ROCK): гайд з аірдропу та dMPC-квестів у Telegram',
+    badge: 'Інвестиції $3.2M • Безкоштовно',
+    rewardLabel: 'Очікувана винагорода',
+    costLabel: 'Витрати',
+    snapshotLabel: 'Очікуваний період',
+    timeLabel: 'Час на день',
+    overviewHeading: 'Огляд проєкту',
+    overview: 'Zenrock залучив $3.2M від Spartan Group і Maven 11 для створення децентралізованої dMPC-інфраструктури зберігання крос-чейн Bitcoin (zenBTC). У @ZenrockBot користувачі виконують щоденні тести та збирають поінти $ROCK.',
+    tokenomicsHeading: 'Токеноміка $ROCK',
+    tokenomics: 'Токен $ROCK захищає децентралізованих MPC-підписантів і винагороджує ранніх тестувальників спільноти.',
+    stepsHeading: 'Покрокова інструкція',
+    steps: [
+      'Запустіть офіційний Telegram Mini-App Zenrock (@ZenrockBot).',
+      'Створіть профіль і заберіть стартові поінти $ROCK.',
+      'Виконуйте щоденні чек-іни та освітні вікторини з dMPC.',
+      'Підключіть гаманець Phantom (Solana) або Rabby (EVM) у налаштуваннях.',
+      'Підтримуйте тижневу серію активності до знімка.'
+    ],
+    strategyHeading: 'Стратегія максимізації нагород',
+    strategy: 'Пройдіть усі безкоштовні dMPC-вікторини, не переривайте щоденну серію та завчасно прив’яжіть Phantom або Rabby.',
+    sybilHeading: 'Захист від Sybil та безпека',
+    sybilSafety: 'Перевірка підпису гаманця та тривалі серії захищають пул від ботів. Ніколи не передавайте сід-фразу.',
+    faqHeading: 'Часті запитання',
+    faqs: [
+      {
+        q: 'Хто інвестував у Zenrock?',
+        a: 'Проєкт підтримали Spartan Group і Maven 11 на $3.2M у Seed-раунді.'
+      },
+      {
+        q: 'Чи безкоштовні квести Zenrock?',
+        a: 'Так, усі завдання у @ZenrockBot повністю безкоштовні ($0).'
+      }
+    ],
+    ctaText: 'Відкрити Zenrock',
+    englishVersionLabel: 'Англійська версія'
+  },
+  {
+    id: 'zenrock-tg',
+    slug: 'zh',
+    lang: 'zh-CN',
+    flag: '🇨🇳',
+    homeLabel: '首页',
+    hubLabel: 'Telegram 空投',
+    hubHref: '/zh/telegram-airdrops/',
+    title: 'Zenrock 空投教程 (2026)：$ROCK 积分与 dMPC 零撸任务 | Airdroplyx',
+    description: 'Spartan Group 与 Maven 11 投资（$3.2M 种子轮）的 Zenrock 完整指南：在 @ZenrockBot 完成 dMPC 测验并绑定 Phantom/Rabby 钱包。',
+    h1: 'Zenrock ($ROCK) Telegram 空投及 dMPC 任务指南',
+    badge: '融资 $3.2M • 零撸免费',
+    rewardLabel: '预估奖励',
+    costLabel: '参与成本',
+    snapshotLabel: '预期周期',
+    timeLabel: '每日耗时',
+    overviewHeading: '项目简介',
+    overview: 'Zenrock 获得 Spartan Group 与 Maven 11 领投的 320 万美元种子轮融资，致力于为跨链比特币（zenBTC）构建去中心化多方计算（dMPC）托管协议。用户可在 @ZenrockBot 完成每日签到与安全测验以累积 $ROCK 积分。',
+    tokenomicsHeading: '$ROCK 代币经济',
+    tokenomics: '$ROCK 代币用于保障去中心化 MPC 签名网络的安全，并奖励早期社区测试参与者。',
+    stepsHeading: '详细参与步骤',
+    steps: [
+      '在 Telegram 中打开官方 Zenrock 小程序（@ZenrockBot）。',
+      '初始化个人资料并领取新手欢迎 $ROCK 积分。',
+      '完成每日签到与 dMPC 安全科普答题任务。',
+      '前往设置页面绑定 Phantom（Solana）或 Rabby（EVM）钱包。',
+      '保持每周任务连击直至快照结束。'
+    ],
+    strategyHeading: '高收益策略',
+    strategy: '完成全部免费 dMPC 答题任务，保持每日连续签到不中断，并尽早完成 Phantom 或 Rabby 钱包绑定。',
+    sybilHeading: '防女巫机制与安全提示',
+    sybilSafety: '钱包签名验证与跨周连续记录能有效过滤批量脚本。切勿泄露助记词。',
+    faqHeading: '常见问题',
+    faqs: [
+      {
+        q: 'Zenrock 的投资方有哪些？',
+        a: '由 Spartan Group 与 Maven 11 投资 320 万美元种子轮。'
+      },
+      {
+        q: '参与 Zenrock 任务需要花钱吗？',
+        a: '不需要，@ZenrockBot 内的全部任务均完全免费（$0）。'
+      }
+    ],
+    ctaText: '打开 Zenrock',
+    englishVersionLabel: '英文原版'
+  },
+  {
+    id: 'zenrock-tg',
+    slug: 'hi',
+    lang: 'hi',
+    flag: '🇮🇳',
+    homeLabel: 'होम',
+    hubLabel: 'टेलीग्राम एयरड्रॉप',
+    hubHref: '/hi/telegram-airdrops/',
+    title: 'Zenrock एयरड्रॉप गाइड (2026): $ROCK पॉइंट्स और dMPC टास्क | Airdroplyx',
+    description: 'Spartan Group और Maven 11 समर्थित Zenrock ($3.2M Seed) टेलीग्राम मिनी-ऐप में मुफ्त $ROCK पॉइंट्स कमाने और Phantom/Rabby जोड़ने की गाइड।',
+    h1: 'Zenrock ($ROCK) टेलीग्राम एयरड्रॉप और dMPC क्वेस्ट गाइड',
+    badge: '$3.2M फंडिंग • मुफ़्त',
+    rewardLabel: 'अनुमानित इनाम',
+    costLabel: 'लागत',
+    snapshotLabel: 'अनुमानित समय',
+    timeLabel: 'दैनिक समय',
+    overviewHeading: 'प्रोजेक्ट का परिचय',
+    overview: 'Spartan Group और Maven 11 से $3.2M की फंडिंग प्राप्त Zenrock क्रॉस-चेन बिटकॉइन (zenBTC) के लिए विकेंद्रीकृत dMPC कस्टडी बनाता है। @ZenrockBot पर यूज़र्स रोज़ाना सिक्योरिटी क्वेस्ट और क्विज़ पूरे कर $ROCK पॉइंट्स जमा करते हैं।',
+    tokenomicsHeading: '$ROCK टोकनॉमिक्स',
+    tokenomics: '$ROCK टोकन विकेंद्रीकृत MPC साइनर्स को सुरक्षित करता है और शुरुआती कम्युनिटी टेस्टर्स को इनाम देता है।',
+    stepsHeading: 'भाग लेने के आसान चरण',
+    steps: [
+      'Telegram में आधिकारिक Zenrock मिनी-ऐप (@ZenrockBot) खोलें।',
+      'अपनी प्रोफ़ाइल सेट करें और शुरुआती $ROCK पॉइंट्स क्लेम करें।',
+      'दैनिक चेक-इन और dMPC एजुकेशनल क्विज़ पूरे करें।',
+      'Settings में जाकर अपना Phantom (Solana) या Rabby (EVM) वॉलेट कनेक्ट करें।',
+      'स्नैपशॉट तक साप्ताहिक लॉगिन स्ट्रीक बनाए रखें।'
+    ],
+    strategyHeading: 'अधिकतम इनाम की रणनीति',
+    strategy: 'सभी मुफ़्त dMPC क्विज़ हल करें, दैनिक चेक-इन स्ट्रीक न टूटने दें और जल्दी Phantom या Rabby वॉलेट लिंक करें।',
+    sybilHeading: 'सिबिल सुरक्षा और सावधानियाँ',
+    sybilSafety: 'वॉलेट सिग्नेचर जांच और मल्टी-वीक स्ट्रीक्स कम्युनिटी आवंटन को बॉट्स से बचाते हैं। अपनी सीड फ्रेज़ कभी साझा न करें।',
+    faqHeading: 'अक्सर पूछे जाने वाले प्रश्न',
+    faqs: [
+      {
+        q: 'Zenrock के निवेशक कौन हैं?',
+        a: 'Zenrock को Spartan Group और Maven 11 से $3.2M की सीड फंडिंग मिली है।'
+      },
+      {
+        q: 'क्या Zenrock के टेलीग्राम टास्क मुफ़्त हैं?',
+        a: 'हाँ, @ZenrockBot में सभी क्वेस्ट पूरी तरह मुफ़्त ($0) हैं।'
+      }
+    ],
+    ctaText: 'Zenrock खोलें',
+    englishVersionLabel: 'अंग्रेज़ी संस्करण'
+  },
+  {
+    id: 'zenrock-tg',
+    slug: 'it',
+    lang: 'it',
+    flag: '🇮🇹',
+    homeLabel: 'Home',
+    hubLabel: 'Airdrop Telegram',
+    hubHref: '/it/airdrop-telegram/',
+    title: 'Guida Airdrop Zenrock (2026): Punti $ROCK e Missioni dMPC | Airdroplyx',
+    description: 'Come partecipare gratis a Zenrock ($3.2M da Spartan Group e Maven 11): completa i quiz dMPC su @ZenrockBot e collega Phantom o Rabby.',
+    h1: 'Zenrock ($ROCK): Guida Airdrop Telegram e Protocollo dMPC',
+    badge: 'Finanziamento $3.2M • Gratis',
+    rewardLabel: 'Ricompensa stimata',
+    costLabel: 'Costo',
+    snapshotLabel: 'Periodo previsto',
+    timeLabel: 'Tempo giornaliero',
+    overviewHeading: 'Panoramica del progetto',
+    overview: 'Sostenuto da 3,2 milioni di dollari da Spartan Group e Maven 11, Zenrock sviluppa custodia decentralizzata dMPC per Bitcoin cross-chain (zenBTC). Su @ZenrockBot gli utenti completano quiz di sicurezza giornalieri per accumulare punti $ROCK.',
+    tokenomicsHeading: 'Tokenomics di $ROCK',
+    tokenomics: 'Il token $ROCK protegge i firmatari MPC decentralizzati e premia i primi tester della community.',
+    stepsHeading: 'Come partecipare passo dopo passo',
+    steps: [
+      'Apri la Mini App ufficiale Zenrock su Telegram (@ZenrockBot).',
+      'Inizializza il profilo e riscatta i punti di benvenuto $ROCK.',
+      'Completa i check-in giornalieri e i quiz educativi su dMPC.',
+      'Collega il wallet Phantom (Solana) o Rabby (EVM) dalle Impostazioni.',
+      'Mantieni attiva la serie settimanale fino allo snapshot.'
+    ],
+    strategyHeading: 'Strategia per massimizzare i punti',
+    strategy: 'Completa tutti i quiz dMPC gratuiti, mantieni la serie di accessi giornalieri e collega subito Phantom o Rabby.',
+    sybilHeading: 'Sicurezza e protezione Sybil',
+    sybilSafety: 'Le firme del wallet e le serie plurisettimanali filtrano gli account automatici. Non condividere mai la tua frase seed.',
+    faqHeading: 'Domande frequenti',
+    faqs: [
+      {
+        q: 'Chi finanzia Zenrock?',
+        a: 'Zenrock ha raccolto $3,2 milioni guidati da Spartan Group e Maven 11.'
+      },
+      {
+        q: 'Le missioni Zenrock sono gratuite?',
+        a: 'Sì, partecipare su @ZenrockBot è gratuito al 100% ($0).'
+      }
+    ],
+    ctaText: 'Apri Zenrock',
+    englishVersionLabel: 'Versione inglese'
+  },
+  {
+    id: 'zenrock-tg',
+    slug: 'pl',
+    lang: 'pl',
+    flag: '🇵🇱',
+    homeLabel: 'Strona główna',
+    hubLabel: 'Airdropy Telegram',
+    hubHref: '/pl/airdrop-telegram/',
+    title: 'Poradnik Airdrop Zenrock (2026): Punkty $ROCK i Misje dMPC | Airdroplyx',
+    description: 'Jak zdobywać punkty $ROCK za darmo w Zenrock ($3.2M od Spartan Group i Maven 11): quizy dMPC w @ZenrockBot i podłączenie Phantom lub Rabby.',
+    h1: 'Zenrock ($ROCK): Poradnik Airdropu Telegram i Misji dMPC',
+    badge: 'Finansowanie $3.2M • Darmowy',
+    rewardLabel: 'Szacowana nagroda',
+    costLabel: 'Koszt',
+    snapshotLabel: 'Przewidywany okres',
+    timeLabel: 'Czas dziennie',
+    overviewHeading: 'Opis projektu',
+    overview: 'Wspierany kwotą 3,2 mln USD przez Spartan Group i Maven 11 projekt Zenrock tworzy zdecentralizowaną infrastrukturę dMPC dla Bitcoina cross-chain (zenBTC). W @ZenrockBot użytkownicy rozwiązują codzienne quizy i zbierają punkty $ROCK.',
+    tokenomicsHeading: 'Tokenomika $ROCK',
+    tokenomics: 'Token $ROCK zabezpiecza zdecentralizowanych sygnatariuszy MPC i nagradza wczesnych testerów społeczności.',
+    stepsHeading: 'Instrukcja krok po kroku',
+    steps: [
+      'Uruchom oficjalną aplikację Zenrock na Telegramie (@ZenrockBot).',
+      'Utwórz profil i odbierz powitalne punkty $ROCK.',
+      'Wykonuj codzienne meldunki oraz edukacyjne quizy dMPC.',
+      'Podłącz portfel Phantom (Solana) lub Rabby (EVM) w ustawieniach.',
+      'Utrzymuj tygodniową serię aktywności do czasu migawki.'
+    ],
+    strategyHeading: 'Strategia maksymalizacji nagród',
+    strategy: 'Ukończ wszystkie darmowe quizy dMPC, utrzymuj codzienną serię logowań i wcześniej podepnij portfel Phantom lub Rabby.',
+    sybilHeading: 'Ochrona Anti-Sybil i bezpieczeństwo',
+    sybilSafety: 'Weryfikacja podpisu portfela oraz wielotygodniowe serie chronią pulę przed botami. Nigdy nie udostępniaj swojej frazy seed.',
+    faqHeading: 'Często zadawane pytania',
+    faqs: [
+      {
+        q: 'Kto wspiera projekt Zenrock?',
+        a: 'Zenrock pozyskał $3,2 mln w rundzie Seed od Spartan Group i Maven 11.'
+      },
+      {
+        q: 'Czy misje Zenrock są darmowe?',
+        a: 'Tak, udział w zadaniach na @ZenrockBot jest całkowicie darmowy ($0).'
+      }
+    ],
+    ctaText: 'Otwórz Zenrock',
+    englishVersionLabel: 'Wersja angielska'
   }
 ];
 
