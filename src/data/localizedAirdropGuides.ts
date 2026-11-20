@@ -7329,6 +7329,1482 @@ export const localizedAirdropGuides: LocalizedAirdropGuide[] = [
     ],
     ctaText: 'Otwórz Bums',
     englishVersionLabel: 'Wersja angielska'
+  },
+
+  // ================= MONAD (16 LANGUAGES) =================
+  {
+    id: 'monad',
+    slug: 'tr',
+    lang: 'tr',
+    flag: '🇹🇷',
+    homeLabel: 'Ana Sayfa',
+    hubLabel: 'Ücretsiz Testnetler',
+    hubHref: '/tr/ucretsiz-testnet-airdroplari/',
+    title: 'Monad Airdrop Rehberi (2026): $225M Yatırımlı Testnet & $MON | Airdroplyx',
+    description: 'Paradigm ve Electric Capital liderliğinde 225 milyon dolar yatırım alan 10.000 TPS paralel EVM ağı Monad testnet kurulumu, faucet ve $MON airdrop rehberi.',
+    h1: 'Monad ($MON) Ücretsiz Testnet ve Airdrop Rehberi',
+    badge: '$225M Yatırım • Ücretsiz Testnet',
+    rewardLabel: 'Tahmini Ödül',
+    costLabel: 'Maliyet',
+    snapshotLabel: 'Beklenen Dönem',
+    timeLabel: 'Haftalık Süre',
+    overviewHeading: 'Proje Özeti',
+    overview: 'Monad, paralel yürütme (Parallel Execution) ve MonadBFT konsensüsü sayesinde 10.000 TPS hızına ve 1 saniye kesinleşmeye ulaşan %100 EVM uyumlu yüksek performanslı bir Layer 1 blokzinciridir. Paradigm ve Electric Capital liderliğinde 225 milyon dolar yatırım alan proje, erken testnet kullanıcıları ve topluluk üyeleri için en çok beklenen $MON airdrop adaylarından biridir.',
+    tokenomicsHeading: '$MON Tokenomik ve Dağıtım',
+    tokenomics: '$MON, ağın gaz ücretleri, Proof-of-Stake doğrulayıcı ödülleri ve yönetişimi için kullanılan yerel varlıktır. Üst düzey Layer 1 ağlarında olduğu gibi erken testnet kullanıcılarına ve organik topluluk katkılarına önemli bir genesis payı ayrılması beklenmektedir.',
+    stepsHeading: 'Adım Adım Katılım Rehberi',
+    steps: [
+      'Resmi Monad web sitesini (monad.xyz) ve dokümantasyonu inceleyin.',
+      'Resmi Monad Discord sunucusuna katılın, doğrulamayı tamamlayın ve topluluk kanallarında organik katkı sunarak roller edinin.',
+      'Rabby veya Rainbow cüzdanınıza Monad Testnet RPC ağını ekleyin.',
+      'Resmi Monad Faucet üzerinden ücretsiz test $MON tokenı talep edin.',
+      'Ekosistemdeki DEX, borç verme ve likidite dApp’lerinde düzenli test işlemleri yapın.'
+    ],
+    strategyHeading: 'Maksimum Ödül Stratejisi',
+    strategy: 'Yalnızca tekrar eden tek tip işlemler yapmak yerine farklı dApp’ler kullanın; haftalık aralıklarla düzenli zincir üstü aktivite oluşturun ve Discord topluluğunda gerçek katkı sağlayın.',
+    sybilHeading: 'Sybil Koruması ve Güvenlik',
+    sybilSafety: 'Monad topluluk odaklı katı bir Sybil filtresi uygular; toplu bot cüzdanlar elenir. Gerçek cüzdan geçmişi, çeşitli işlemler ve yalnızca resmi faucet/RPC bağlantıları kullanmak güvenlidir.',
+    faqHeading: 'Sıkça Sorulan Sorular',
+    faqs: [
+      {
+        q: 'Monad testnet katılımı ücretsiz mi?',
+        a: 'Evet, halka açık faucet üzerinden alınan ücretsiz test $MON tokenları kullanıldığı için gerçek sermaye gerekmez ($0).'
+      },
+      {
+        q: 'Monad topluluk rolleri nasıl kazanılır?',
+        a: 'Nads gibi roller otomatik botlarla değil; içerik üretimi, teknik katkı ve topluluk desteğiyle moderatörler tarafından verilir.'
+      }
+    ],
+    ctaText: 'Monad Portalını Aç',
+    englishVersionLabel: 'İngilizce Sürüm'
+  },
+  {
+    id: 'monad',
+    slug: 'ru',
+    lang: 'ru',
+    flag: '🇷🇺',
+    homeLabel: 'Главная',
+    hubLabel: 'Бесплатные тестнеты',
+    hubHref: '/ru/free-testnets/',
+    title: 'Гайд по аирдропу Monad (2026): тестнет $MON и инвест $225M | Airdroplyx',
+    description: 'Как бесплатно участвовать в тестнете Monad ($225M от Paradigm и Electric Capital): добавление сети в Rabby, кран $MON и ончейн-активности.',
+    h1: 'Monad ($MON): подробный гайд по тестнету и аирдропу',
+    badge: 'Инвестиции $225M • Бесплатно',
+    rewardLabel: 'Ожидаемая награда',
+    costLabel: 'Затраты',
+    snapshotLabel: 'Ожидаемый период',
+    timeLabel: 'Время в неделю',
+    overviewHeading: 'Обзор проекта',
+    overview: 'Monad — высокопроизводительный Layer 1 блокчейн с полной совместимостью EVM и параллельным исполнением транзакций (до 10 000 TPS и финализацией 1 секунда). Проект привлёк $225 млн от Paradigm и Electric Capital и считается одним из главных кандидатов на крупный дроп $MON.',
+    tokenomicsHeading: 'Токеномика $MON',
+    tokenomics: 'Нативный токен $MON используется для оплаты газа, стейкинга валидаторов PoS и управления сетью, с фокусом на вознаграждение ранних тестировщиков и органического комьюнити.',
+    stepsHeading: 'Пошаговая инструкция',
+    steps: [
+      'Изучите официальный сайт Monad (monad.xyz) и документацию.',
+      'Вступите в официальный Discord Monad и проявите органическую активность в комьюнити.',
+      'Добавьте сеть Monad Testnet RPC в кошелек Rabby или Rainbow.',
+      'Запросите бесплатные тестовые токены $MON через официальный кран (faucet).',
+      'Совершайте разнообразные транзакции в экосистемных DEX, лендингах и dApps.'
+    ],
+    strategyHeading: 'Стратегия фарма',
+    strategy: 'Не ограничивайтесь однотипными свопами — взаимодействуйте с разными протоколами экосистемы еженедельно и участвуйте в жизни сообщества.',
+    sybilHeading: 'Защита от ботов и безопасность',
+    sybilSafety: 'Команда Monad жёстко отсеивает массовые бот-фермы. Используйте разнообразные сценарии транзакций и только официальные ссылки крана.',
+    faqHeading: 'Частые вопросы',
+    faqs: [
+      {
+        q: 'Бесплатно ли участвовать в тестнете Monad?',
+        a: 'Да, все действия выполняются на бесплатных тестовых токенах $MON из крана ($0).'
+      },
+      {
+        q: 'Как получить роли в Discord Monad?',
+        a: 'Роли вроде Nads выдаются вручную модераторами за реальный вклад, контент и помощь участникам.'
+      }
+    ],
+    ctaText: 'Открыть Monad',
+    englishVersionLabel: 'Английская версия'
+  },
+  {
+    id: 'monad',
+    slug: 'id',
+    lang: 'id',
+    flag: '🇮🇩',
+    homeLabel: 'Beranda',
+    hubLabel: 'Testnet Gratis',
+    hubHref: '/id/testnet-gratis/',
+    title: 'Panduan Airdrop Monad (2026): Testnet Gratis $MON & Faucet | Airdroplyx',
+    description: 'Panduan lengkap testnet Monad (didanai $225M oleh Paradigm & Electric Capital): cara klaim faucet $MON gratis dan interaksi dApp pakai Rabby.',
+    h1: 'Monad ($MON): Panduan Testnet Gratis & Airdrop Layer 1',
+    badge: 'Pendanaan $225M • Gratis',
+    rewardLabel: 'Estimasi Hadiah',
+    costLabel: 'Biaya',
+    snapshotLabel: 'Perkiraan Snapshot',
+    timeLabel: 'Waktu Mingguan',
+    overviewHeading: 'Ringkasan Proyek',
+    overview: 'Monad adalah blockchain Layer 1 EVM paralel berkecepatan 10.000 TPS dengan finalitas 1 detik. Didukung pendanaan $225 juta dari Paradigm dan Electric Capital, Monad menjadi salah satu kandidat airdrop $MON paling dinanti.',
+    tokenomicsHeading: 'Tokenomik $MON',
+    tokenomics: 'Token $MON berfungsi sebagai biaya gas, insentif validator Proof-of-Stake, dan tata kelola, dengan alokasi komunitas untuk penguji awal testnet.',
+    stepsHeading: 'Langkah-Langkah Mengikuti Airdrop',
+    steps: [
+      'Kunjungi situs resmi Monad (monad.xyz) dan pelajari ekosistemnya.',
+      'Bergabunglah dengan Discord resmi Monad dan berkontribusi secara aktif di komunitas.',
+      'Tambahkan RPC Monad Testnet ke dompet Rabby atau Rainbow Anda.',
+      'Klaim token gas uji coba $MON gratis melalui faucet resmi.',
+      'Lakukan swap, penyediaan likuiditas, dan uji coba berbagai dApp ekosistem Monad.'
+    ],
+    strategyHeading: 'Strategi Maksimal',
+    strategy: 'Variasikan interaksi dApp Anda setiap minggu alih-alih mengulang transaksi yang sama, serta bangun reputasi organik di komunitas Discord.',
+    sybilHeading: 'Keamanan & Anti-Sybil',
+    sybilSafety: 'Monad menyaring jaringan multi-dompet otomatis. Gunakan jalur transaksi yang beragam dan tautan faucet resmi saja.',
+    faqHeading: 'Pertanyaan Umum',
+    faqs: [
+      {
+        q: 'Apakah testnet Monad gratis?',
+        a: 'Ya, 100% gratis ($0) menggunakan token testnet $MON dari faucet publik.'
+      },
+      {
+        q: 'Bagaimana cara meraih peran komunitas di Discord Monad?',
+        a: 'Peran seperti Nads diberikan secara manual oleh moderator atas kontribusi nyata dan konten kreatif.'
+      }
+    ],
+    ctaText: 'Buka Monad',
+    englishVersionLabel: 'Versi Bahasa Inggris'
+  },
+  {
+    id: 'monad',
+    slug: 'vi',
+    lang: 'vi',
+    flag: '🇻🇳',
+    homeLabel: 'Trang chủ',
+    hubLabel: 'Testnet Miễn Phí',
+    hubHref: '/vi/testnet-mien-phi/',
+    title: 'Hướng dẫn Airdrop Monad (2026): Testnet $MON gọi vốn $225M | Airdroplyx',
+    description: 'Cách tham gia testnet Monad miễn phí (Paradigm & Electric Capital đầu tư $225M): thêm mạng vào ví Rabby, nhận faucet $MON và trải nghiệm dApp.',
+    h1: 'Monad ($MON): Hướng Dẫn Testnet Miễn Phí & Săn Airdrop',
+    badge: 'Gọi vốn $225M • Miễn phí',
+    rewardLabel: 'Phần thưởng dự kiến',
+    costLabel: 'Chi phí',
+    snapshotLabel: 'Thời gian dự kiến',
+    timeLabel: 'Thời gian mỗi tuần',
+    overviewHeading: 'Tổng quan dự án',
+    overview: 'Monad là blockchain Layer 1 EVM song song đạt 10.000 TPS với thời gian xác nhận 1 giây. Huy động $225 triệu từ Paradigm và Electric Capital, Monad là một trong những kèo testnet $MON đáng chú ý nhất.',
+    tokenomicsHeading: 'Tokenomics $MON',
+    tokenomics: '$MON là token gốc trả phí gas, staking validator PoS và quản trị mạng lưới, dành phần thưởng xứng đáng cho cộng đồng thử nghiệm sớm.',
+    stepsHeading: 'Các bước tham gia chi tiết',
+    steps: [
+      'Truy cập trang web chính thức Monad (monad.xyz) và đọc tài liệu.',
+      'Tham gia Discord chính thức của Monad và đóng góp tự nhiên để nhận role cộng đồng.',
+      'Thêm mạng Monad Testnet RPC vào ví Rabby hoặc Rainbow.',
+      'Nhận token thử nghiệm $MON miễn phí từ faucet chính thức.',
+      'Trải nghiệm swap, cung cấp thanh khoản và dùng thử các dApp trong hệ sinh thái.'
+    ],
+    strategyHeading: 'Chiến lược tối ưu điểm',
+    strategy: 'Tương tác đa dạng nhiều dApp mỗi tuần thay vì lặp lại một lệnh giống nhau, kết hợp hoạt động tích cực trên Discord.',
+    sybilHeading: 'Chống Sybil & Bảo mật',
+    sybilSafety: 'Monad lọc gắt gao các cụm ví bot hàng loạt. Hãy duy trì lịch sử giao dịch tự nhiên và chỉ dùng link faucet chính thức.',
+    faqHeading: 'Câu hỏi thường gặp',
+    faqs: [
+      {
+        q: 'Tham gia testnet Monad có mất phí không?',
+        a: 'Hoàn toàn miễn phí ($0) vì sử dụng token test $MON nhận từ faucet.'
+      },
+      {
+        q: 'Làm sao để có role cộng đồng trên Discord Monad?',
+        a: 'Các role như Nads được quản trị viên xét duyệt thủ công dựa trên đóng góp thực tế.'
+      }
+    ],
+    ctaText: 'Mở Monad',
+    englishVersionLabel: 'Bản tiếng Anh'
+  },
+  {
+    id: 'monad',
+    slug: 'es',
+    lang: 'es',
+    flag: '🇪🇸',
+    homeLabel: 'Inicio',
+    hubLabel: 'Testnets Gratis',
+    hubHref: '/es/testnets-gratis/',
+    title: 'Guía Airdrop Monad (2026): Testnet Gratis $MON ($225M) | Airdroplyx',
+    description: 'Cómo participar gratis en la testnet de Monad (respaldado con $225M por Paradigm y Electric Capital): faucet $MON, RPC en Rabby y dApps.',
+    h1: 'Monad ($MON): Guía de Testnet Gratuita y Airdrop',
+    badge: 'Financiación $225M • Gratis',
+    rewardLabel: 'Recompensa estimada',
+    costLabel: 'Costo',
+    snapshotLabel: 'Periodo estimado',
+    timeLabel: 'Tiempo semanal',
+    overviewHeading: 'Resumen del proyecto',
+    overview: 'Monad es una blockchain Layer 1 EVM paralela de 10.000 TPS y finalidad de 1 segundo. Con $225 millones recaudados de Paradigm y Electric Capital, destaca como uno de los airdrops de testnet más esperados.',
+    tokenomicsHeading: 'Tokenomics de $MON',
+    tokenomics: '$MON impulsa las comisiones de gas, el staking Proof-of-Stake y la gobernanza, con asignaciones pensadas para probadores tempranos y comunidad orgánica.',
+    stepsHeading: 'Pasos para participar',
+    steps: [
+      'Visita el sitio oficial de Monad (monad.xyz) y explora su documentación.',
+      'Únete al Discord oficial de Monad y participa de forma orgánica para obtener roles.',
+      'Agrega la red Monad Testnet RPC a tu billetera Rabby o Rainbow.',
+      'Solicita tokens $MON de prueba gratuitos en el faucet oficial.',
+      'Ejecuta intercambios y pruebas en distintas dApps del ecosistema.'
+    ],
+    strategyHeading: 'Estrategia para maximizar recompensas',
+    strategy: 'Mantén rutas on-chain variadas cada semana en lugar de repetir operaciones idénticas y aporta valor genuino en Discord.',
+    sybilHeading: 'Seguridad y protección Sybil',
+    sybilSafety: 'Monad filtra estrictamente redes automatizadas de múltiples billeteras. Usa actividad orgánica y enlaces oficiales de faucet.',
+    faqHeading: 'Preguntas frecuentes',
+    faqs: [
+      {
+        q: '¿Es gratis la testnet de Monad?',
+        a: 'Sí, es 100% gratuita ($0) mediante tokens de prueba del faucet público.'
+      },
+      {
+        q: '¿Cómo se consiguen roles en el Discord de Monad?',
+        a: 'Los moderadores otorgan roles como Nads manualmente por aportes reales y contenido original.'
+      }
+    ],
+    ctaText: 'Abrir Monad',
+    englishVersionLabel: 'Versión en inglés'
+  },
+  {
+    id: 'monad',
+    slug: 'pt',
+    lang: 'pt',
+    flag: '🇧🇷',
+    homeLabel: 'Início',
+    hubLabel: 'Testnets Grátis',
+    hubHref: '/pt/testnets-gratis/',
+    title: 'Guia Airdrop Monad (2026): Testnet Grátis $MON ($225M) | Airdroplyx',
+    description: 'Passo a passo da testnet gratuita da Monad ($225M da Paradigm e Electric Capital): faucet $MON, rede na Rabby e dApps do ecossistema.',
+    h1: 'Monad ($MON): Guia da Testnet Gratuita e Airdrop',
+    badge: 'Investimento $225M • Grátis',
+    rewardLabel: 'Recompensa estimada',
+    costLabel: 'Custo',
+    snapshotLabel: 'Previsão',
+    timeLabel: 'Tempo semanal',
+    overviewHeading: 'Visão geral do projeto',
+    overview: 'A Monad é uma Layer 1 EVM paralela capaz de 10.000 TPS com finalidade de 1 segundo. Com $225 milhões levantados com Paradigm e Electric Capital, é um dos principais candidatos a airdrop $MON.',
+    tokenomicsHeading: 'Tokenomics do $MON',
+    tokenomics: '$MON paga taxas de gás, garante validadores PoS e participa da governança, recompensando testadores iniciais e membros ativos.',
+    stepsHeading: 'Passo a passo para participar',
+    steps: [
+      'Acesse o site oficial da Monad (monad.xyz) e conheça a arquitetura.',
+      'Entre no Discord oficial da Monad e participe de forma genuína.',
+      'Adicione a rede Monad Testnet RPC à sua carteira Rabby ou Rainbow.',
+      'Solicite tokens $MON gratuitos no faucet oficial.',
+      'Interaja com DEXs, protocolos de empréstimo e dApps iniciais da rede.'
+    ],
+    strategyHeading: 'Estratégia de ganhos',
+    strategy: 'Diversifique seus testes semanalmente entre vários dApps em vez de repetir sempre a mesma transação.',
+    sybilHeading: 'Proteção Sybil e segurança',
+    sybilSafety: 'A Monad combate ativamente fazendas de bots. Mantenha uso orgânico e utilize apenas o faucet oficial.',
+    faqHeading: 'Perguntas frequentes',
+    faqs: [
+      {
+        q: 'A testnet da Monad é gratuita?',
+        a: 'Sim, 100% gratuita ($0) usando tokens de teste obtidos no faucet.'
+      },
+      {
+        q: 'Como ganhar cargos no Discord da Monad?',
+        a: 'Cargos como Nads são concedidos manualmente pelos moderadores por contribuições reais.'
+      }
+    ],
+    ctaText: 'Abrir Monad',
+    englishVersionLabel: 'Versão em inglês'
+  },
+  {
+    id: 'monad',
+    slug: 'ko',
+    lang: 'ko',
+    flag: '🇰🇷',
+    homeLabel: '홈',
+    hubLabel: '무료 테스트넷',
+    hubHref: '/ko/free-testnets/',
+    title: 'Monad 에어드랍 가이드 (2026): $225M 투자 무료 테스트넷 $MON | Airdroplyx',
+    description: 'Paradigm과 Electric Capital이 $225M을 투자한 10,000 TPS 병렬 EVM Monad 테스트넷 참여 방법: Rabby RPC 추가, 수도꼭지(Faucet) 및 dApp 체험.',
+    h1: 'Monad ($MON) 무료 테스트넷 및 에어드랍 공략 가이드',
+    badge: '$225M 투자 유치 • 무료 테스트넷',
+    rewardLabel: '예상 보상',
+    costLabel: '비용',
+    snapshotLabel: '예상 시기',
+    timeLabel: '주간 소요 시간',
+    overviewHeading: '프로젝트 개요',
+    overview: 'Monad는 병렬 실행(Parallel Execution)과 1초 완결성을 갖춘 10,000 TPS 고성능 EVM 호환 Layer 1 블록체인입니다. Paradigm과 Electric Capital 등으로부터 2억 2,500만 달러를 유치해 대표적인 $MON 에어드랍 유망주로 꼽힙니다.',
+    tokenomicsHeading: '$MON 토크노믹스',
+    tokenomics: '$MON은 가스비, PoS 검증인 스테이킹 및 거버넌스에 사용되며, 초기 테스트넷 참여자와 생태계 기여자에게 분배가 기대됩니다.',
+    stepsHeading: '단계별 참여 방법',
+    steps: [
+      '공식 Monad 웹사이트(monad.xyz)와 문서를 확인하세요.',
+      '공식 Monad Discord에 참여해 커뮤니티 활동을 통해 역할을 얻으세요.',
+      'Rabby 또는 Rainbow 지갑에 Monad Testnet RPC를 추가하세요.',
+      '공식 수도꼭지(Faucet)에서 무료 테스트용 $MON을 받으세요.',
+      '초기 DEX, 대출 프로토콜 등 생태계 dApp을 다양하게 테스트하세요.'
+    ],
+    strategyHeading: '보상 극대화 전략',
+    strategy: '단순 반복 거래 대신 매주 다양한 dApp과 상호작용하며 꾸준한 온체인 기록과 Discord 기여를 병행하세요.',
+    sybilHeading: '시빌 방지 및 보안',
+    sybilSafety: 'Monad는 다계정 매크로 봇을 철저히 걸러냅니다. 공식 Faucet 링크만 이용하고 자연스러운 거래 패턴을 유지하세요.',
+    faqHeading: '자주 묻는 질문',
+    faqs: [
+      {
+        q: 'Monad 테스트넷은 무료인가요?',
+        a: '네, Faucet에서 무료로 지급되는 테스트 $MON으로 비용 없이($0) 참여할 수 있습니다.'
+      },
+      {
+        q: 'Monad Discord 역할은 어떻게 받나요?',
+        a: 'Nads 같은 역할은 자동 봇이 아닌 운영진의 수동 심사로 실제 기여자에게 부여됩니다.'
+      }
+    ],
+    ctaText: 'Monad 열기',
+    englishVersionLabel: '영문 버전'
+  },
+  {
+    id: 'monad',
+    slug: 'ja',
+    lang: 'ja',
+    flag: '🇯🇵',
+    homeLabel: 'ホーム',
+    hubLabel: '無料テストネット',
+    hubHref: '/ja/free-testnets/',
+    title: 'Monad エアドロップ攻略 (2026): $225M調達テストネット $MON | Airdroplyx',
+    description: 'ParadigmやElectric Capitalが2.25億ドル出資した並列EVM「Monad」の無料テストネット参加方法：Rabby設定・Faucet請求・dApp操作手順。',
+    h1: 'Monad ($MON) 無料テストネット＆エアドロップ攻略ガイド',
+    badge: '$225M調達済み • 無料テストネット',
+    rewardLabel: '予想報酬',
+    costLabel: '費用',
+    snapshotLabel: '予定時期',
+    timeLabel: '週間作業時間',
+    overviewHeading: 'プロジェクト概要',
+    overview: 'Monadは並列実行（Parallel Execution）により10,000 TPSと1秒ファイナリティを実現する完全EVM互換Layer 1ブロックチェーンです。ParadigmとElectric Capital主導で2.25億ドルを調達し、大型$MONエアドロップ候補として注目されています。',
+    tokenomicsHeading: '$MON トケノミクス',
+    tokenomics: '$MONはガス代やPoSバリデータ報酬・ガバナンスに使われ、初期テストネット参加者やコミュニティ貢献者への配分が期待されています。',
+    stepsHeading: '参加ステップ',
+    steps: [
+      '公式Monadサイト（monad.xyz）とドキュメントを確認します。',
+      '公式Discordに参加し、コミュニティで自然な交流や貢献を行います。',
+      'RabbyまたはRainbowウォレットにMonad Testnet RPCを追加します。',
+      '公式Faucetから無料のテスト用$MONを取得します。',
+      'エコシステム内のDEXやレンディング等のdAppで取引を試します。'
+    ],
+    strategyHeading: '報酬最大化のコツ',
+    strategy: '同じ操作の繰り返しではなく、毎週複数のdAppをバランスよく使い、Discordでの貢献も組み合わせるのが効果的です。',
+    sybilSafety: 'Monadは自動ボットや複数ウォレット群を厳格に除外します。公式Faucetのみを利用し、多様なオンチェーン履歴を保ちましょう。',
+    sybilHeading: 'シビル対策と安全性',
+    faqHeading: 'よくある質問',
+    faqs: [
+      {
+        q: 'Monadテストネットは無料ですか？',
+        a: 'はい、公式Faucetの無料テスト$MONを使うため実費ゼロ（$0）で参加できます。'
+      },
+      {
+        q: 'Discordのロールはどうすればもらえますか？',
+        a: 'Nadsなどのロールはコンテンツ作成や技術的貢献に対してモデレーターから手動で付与されます。'
+      }
+    ],
+    ctaText: 'Monadを開く',
+    englishVersionLabel: '英語版を見る'
+  },
+  {
+    id: 'monad',
+    slug: 'ar',
+    lang: 'ar',
+    flag: '🇸🇦',
+    homeLabel: 'الرئيسية',
+    hubLabel: 'شبكات اختبار مجانية',
+    hubHref: '/ar/free-testnets/',
+    title: 'دليل إيردروب Monad (2026): شبكة اختبار مجانية بتمويل $225M | Airdroplyx',
+    description: 'دليل شامل للمشاركة مجاناً في شبكة اختبار Monad (بتمويل 225 مليون دولار من Paradigm وElectric Capital): إضافة RPC في Rabby وصنبور $MON.',
+    h1: 'Monad ($MON): دليل شبكة الاختبار المجانية والإيردروب',
+    badge: 'تمويل $225M • مجاني',
+    rewardLabel: 'المكافأة المتوقعة',
+    costLabel: 'التكلفة',
+    snapshotLabel: 'الفترة المتوقعة',
+    timeLabel: 'الوقت الأسبوعي',
+    overviewHeading: 'نظرة عامة على المشروع',
+    overview: 'شبكة Monad هي بلوكشين Layer 1 متوافق مع EVM يعمل بالتنفيذ المتوازي ليصل إلى 10,000 معاملة في الثانية ونهائية خلال ثانية واحدة. جمع المشروع 225 مليون دولار بقيادة Paradigm وElectric Capital، ويُعد من أبرز إيردروبات $MON المنتظرة.',
+    tokenomicsHeading: 'اقتصاديات $MON',
+    tokenomics: 'تُستخدم عملة $MON لدفع رسوم الغاز وتحفيز المدققين والحوكمة، مع توقع تخصيص حصة مجتمعية لمختبري الشبكة الأوائل.',
+    stepsHeading: 'خطوات المشاركة',
+    steps: [
+      'زر الموقع الرسمي لـ Monad (monad.xyz) واطلع على الوثائق التقنية.',
+      'انضم إلى خادم Discord الرسمي وشارك عضوياً للحصول على الأدوار المجتمعية.',
+      'أضف شبكة Monad Testnet RPC إلى محفظة Rabby أو Rainbow.',
+      'اطلب عملات اختبار $MON مجانية من الصنبور الرسمي (Faucet).',
+      'نفّذ عمليات مبادلة وتوفير سيولة عبر التطبيقات اللامركزية في النظام البيئي.'
+    ],
+    strategyHeading: 'استراتيجية تعظيم المكافآت',
+    strategy: 'نوّع تفاعلاتك أسبوعياً بين عدة تطبيقات dApps بدلاً من تكرار نفس العملية، وشارك بفعالية في مجتمع Discord.',
+    sybilHeading: 'الحماية من الحسابات الوهمية والأمان',
+    sybilSafety: 'يستبعد فريق Monad شبكات البوتات الآلية بصرامة. حافظ على نشاط طبيعي واستخدم روابط الصنبور الرسمية فقط.',
+    faqHeading: 'الأسئلة الشائعة',
+    faqs: [
+      {
+        q: 'هل شبكة اختبار Monad مجانية؟',
+        a: 'نعم، المشاركة مجانية 100% ($0) باستخدام عملات اختبار $MON من الصنبور العام.'
+      },
+      {
+        q: 'كيف أحصل على أدوار Discord في Monad؟',
+        a: 'تُمنح أدوار مثل Nads يدوياً من المشرفين مقابل المساهمات الحقيقية والمحتوى الإبداعي.'
+      }
+    ],
+    ctaText: 'افتح Monad',
+    englishVersionLabel: 'النسخة الإنجليزية'
+  },
+  {
+    id: 'monad',
+    slug: 'de',
+    lang: 'de',
+    flag: '🇩🇪',
+    homeLabel: 'Startseite',
+    hubLabel: 'Kostenlose Testnets',
+    hubHref: '/de/kostenlose-testnets/',
+    title: 'Monad Airdrop Guide (2026): $225M Testnet kostenlos testen | Airdroplyx',
+    description: 'Anleitung für das Monad-Testnet ($225M von Paradigm & Electric Capital): Kostenlose $MON Faucet-Token holen, Rabby RPC einrichten und dApps testen.',
+    h1: 'Monad ($MON): Kostenloser Testnet- & Airdrop-Guide',
+    badge: '$225M Finanzierung • Kostenlos',
+    rewardLabel: 'Geschätzte Belohnung',
+    costLabel: 'Kosten',
+    snapshotLabel: 'Erwarteter Zeitraum',
+    timeLabel: 'Wöchentlicher Aufwand',
+    overviewHeading: 'Projektübersicht',
+    overview: 'Monad ist eine parallele EVM-Layer-1-Blockchain mit 10.000 TPS und 1-Sekunden-Finalität. Mit 225 Millionen US-Dollar Finanzierung von Paradigm und Electric Capital zählt Monad zu den aussichtsreichsten $MON-Airdrop-Kandidaten.',
+    tokenomicsHeading: '$MON Tokenomics',
+    tokenomics: '$MON dient als Gas-, Staking- und Governance-Asset des Netzwerks und dürfte frühe Testnet-Nutzer sowie aktive Community-Mitglieder belohnen.',
+    stepsHeading: 'Schritt-für-Schritt-Anleitung',
+    steps: [
+      'Besuche die offizielle Monad-Website (monad.xyz) und die Dokumentation.',
+      'Tritt dem offiziellen Monad-Discord bei und bringe dich organisch ein.',
+      'Füge das Monad Testnet RPC deiner Rabby- oder Rainbow-Wallet hinzu.',
+      'Fordere kostenlose Test-$MON-Token über das offizielle Faucet an.',
+      'Teste regelmäßig DEXs, Kreditmärkte und frühe Ökosystem-dApps.'
+    ],
+    strategyHeading: 'Strategie für maximale Punkte',
+    strategy: 'Nutze jede Woche verschiedene Protokolle statt identischer Transaktionen und verdiene dir echte Community-Rollen im Discord.',
+    sybilHeading: 'Sybil-Schutz & Sicherheit',
+    sybilSafety: 'Monad filtert Massen-Bot-Wallets strikt heraus. Achte auf vielfältige On-Chain-Pfade und nutze nur offizielle Faucet-Links.',
+    faqHeading: 'Häufig gestellte Fragen',
+    faqs: [
+      {
+        q: 'Ist das Monad-Testnet kostenlos?',
+        a: 'Ja, alle Interaktionen nutzen kostenlose Test-$MON-Token aus dem Faucet ($0).'
+      },
+      {
+        q: 'Wie erhält man Rollen im Monad Discord?',
+        a: 'Rollen wie Nads werden manuell von Moderatoren für echte Beiträge vergeben.'
+      }
+    ],
+    ctaText: 'Monad öffnen',
+    englishVersionLabel: 'Englische Version'
+  },
+  {
+    id: 'monad',
+    slug: 'fr',
+    lang: 'fr',
+    flag: '🇫🇷',
+    homeLabel: 'Accueil',
+    hubLabel: 'Testnets Gratuits',
+    hubHref: '/fr/testnets-gratuits/',
+    title: 'Guide Airdrop Monad (2026) : Testnet Gratuit $MON ($225M) | Airdroplyx',
+    description: 'Comment participer gratuitement au testnet Monad (225 M$ par Paradigm et Electric Capital) : faucet $MON, RPC sur Rabby et dApps.',
+    h1: 'Monad ($MON) : Guide Testnet Gratuit et Airdrop Layer 1',
+    badge: 'Financement $225M • Gratuit',
+    rewardLabel: 'Récompense estimée',
+    costLabel: 'Coût',
+    snapshotLabel: 'Période estimée',
+    timeLabel: 'Temps hebdomadaire',
+    overviewHeading: 'Présentation du projet',
+    overview: 'Monad est une blockchain Layer 1 EVM parallèle atteignant 10 000 TPS avec finalité en 1 seconde. Soutenu à hauteur de 225 M$ par Paradigm et Electric Capital, Monad figure parmi les airdrops $MON les plus attendus.',
+    tokenomicsHeading: 'Tokenomics de $MON',
+    tokenomics: 'Le jeton $MON couvre les frais de gaz, le staking PoS et la gouvernance, avec une distribution communautaire attendue pour les testeurs précoces.',
+    stepsHeading: 'Étapes pour participer',
+    steps: [
+      'Consultez le site officiel Monad (monad.xyz) et sa documentation.',
+      'Rejoignez le Discord officiel de Monad et participez de manière authentique.',
+      'Ajoutez le réseau Monad Testnet RPC à votre portefeuille Rabby ou Rainbow.',
+      'Réclamez des jetons $MON de test gratuits via le faucet officiel.',
+      'Effectuez des swaps et interactions variées sur les dApps de l’écosystème.'
+    ],
+    strategyHeading: 'Stratégie d’optimisation',
+    strategy: 'Variez vos interactions chaque semaine sur plusieurs dApps et contribuez activement sur Discord.',
+    sybilHeading: 'Protection Anti-Sybil et sécurité',
+    sybilSafety: 'Monad écarte strictement les fermes de bots multi-portefeuilles. Privilégiez des transactions variées et les liens officiels.',
+    faqHeading: 'Questions fréquentes',
+    faqs: [
+      {
+        q: 'Le testnet Monad est-il gratuit ?',
+        a: 'Oui, il est 100 % gratuit ($0) grâce aux jetons de test issus du faucet public.'
+      },
+      {
+        q: 'Comment obtenir des rôles sur le Discord Monad ?',
+        a: 'Les rôles comme Nads sont attribués manuellement par les modérateurs pour des contributions réelles.'
+      }
+    ],
+    ctaText: 'Ouvrir Monad',
+    englishVersionLabel: 'Version anglaise'
+  },
+  {
+    id: 'monad',
+    slug: 'uk',
+    lang: 'uk',
+    flag: '🇺🇦',
+    homeLabel: 'Головна',
+    hubLabel: 'Безкоштовні тестнети',
+    hubHref: '/uk/bezkoshtovni-testnety/',
+    title: 'Гайд з аірдропу Monad (2026): безкоштовний тестнет $MON ($225M) | Airdroplyx',
+    description: 'Як безкоштовно брати участь у тестнеті Monad ($225M від Paradigm і Electric Capital): додавання мережі в Rabby, кран $MON та dApps.',
+    h1: 'Monad ($MON): гайд із безкоштовного тестнету й аірдропу',
+    badge: 'Інвестиції $225M • Безкоштовно',
+    rewardLabel: 'Очікувана винагорода',
+    costLabel: 'Витрати',
+    snapshotLabel: 'Очікуваний період',
+    timeLabel: 'Час на тиждень',
+    overviewHeading: 'Огляд проєкту',
+    overview: 'Monad — паралельний EVM-блокчейн першого рівня (Layer 1) зі швидкістю 10 000 TPS і фіналізацією за 1 секунду. Проєкт залучив $225 млн від Paradigm та Electric Capital і є одним із головних претендентів на великий дроп $MON.',
+    tokenomicsHeading: 'Токеноміка $MON',
+    tokenomics: 'Нативний токен $MON оплачує газ, забезпечує стейкінг PoS і управління мережею, передбачаючи винагороду для ранніх тестувальників.',
+    stepsHeading: 'Покрокова інструкція',
+    steps: [
+      'Відвідайте офіційний сайт Monad (monad.xyz) та документацію.',
+      'Приєднайтеся до офіційного Discord Monad і проявляйте щиру активність.',
+      'Додайте Monad Testnet RPC до гаманця Rabby або Rainbow.',
+      'Отримайте безкоштовні тестові токени $MON через офіційний кран.',
+      'Тестуйте свопи, ліквідність та інші dApps в екосистемі Monad.'
+    ],
+    strategyHeading: 'Стратегія максимізації нагород',
+    strategy: 'Щотижня взаємодійте з різними dApps замість однотипних повторень та здобувайте органічні ролі в Discord.',
+    sybilHeading: 'Захист від Sybil та безпека',
+    sybilSafety: 'Команда Monad суворо фільтрує масові бот-ферми. Підтримуйте різноманітні ончейн-дії та користуйтеся лише офіційним краном.',
+    faqHeading: 'Часті запитання',
+    faqs: [
+      {
+        q: 'Чи безкоштовний тестнет Monad?',
+        a: 'Так, тестування повністю безкоштовне ($0) за рахунок тестових токенів $MON із крана.'
+      },
+      {
+        q: 'Як отримати ролі в Discord Monad?',
+        a: 'Ролі на кшталт Nads видаються модераторами вручну за реальний внесок і допомогу спільноті.'
+      }
+    ],
+    ctaText: 'Відкрити Monad',
+    englishVersionLabel: 'Англійська версія'
+  },
+  {
+    id: 'monad',
+    slug: 'zh',
+    lang: 'zh-CN',
+    flag: '🇨🇳',
+    homeLabel: '首页',
+    hubLabel: '免费测试网',
+    hubHref: '/zh/free-testnets/',
+    title: 'Monad 空投教程 (2026)：$2.25亿融资零撸测试网与 $MON 领水 | Airdroplyx',
+    description: 'Paradigm 与 Electric Capital 领投 2.25 亿美元的 10,000 TPS 并行 EVM 公链 Monad 测试网教程：Rabby 添加网络、领水与 dApp 交互。',
+    h1: 'Monad ($MON) 免费测试网及空投攻略',
+    badge: '融资 $225M • 零撸免费',
+    rewardLabel: '预估奖励',
+    costLabel: '参与成本',
+    snapshotLabel: '预期周期',
+    timeLabel: '每周耗时',
+    overviewHeading: '项目简介',
+    overview: 'Monad 是具备 10,000 TPS 与 1 秒最终确认的 100% EVM 兼容并行执行 Layer 1 公链。项目完成由 Paradigm 与 Electric Capital 领投的 2.25 亿美元融资，是最受期待的 $MON 空投项目之一。',
+    tokenomicsHeading: '$MON 代币经济',
+    tokenomics: '$MON 作为网络原生燃料、PoS 验证者质押与治理代币，预计将向早期测试网用户及有机社区贡献者分配可观的创世份额。',
+    stepsHeading: '详细参与步骤',
+    steps: [
+      '访问 Monad 官网（monad.xyz）了解技术文档与生态进展。',
+      '加入官方 Monad Discord 社区并真实参与讨论以获取社区身份组。',
+      '在 Rabby 或 Rainbow 钱包中添加 Monad Testnet RPC 网络。',
+      '通过官方水龙头（Faucet）免费领取测试网 $MON 燃料代币。',
+      '在生态内的 DEX、借贷与流动性协议中进行多样化交互测试。'
+    ],
+    strategyHeading: '高收益策略',
+    strategy: '每周体验不同的生态 dApp 以形成自然的链上轨迹，避免机械重复刷单，并在 Discord 保持高质量互动。',
+    sybilHeading: '防女巫机制与安全提示',
+    sybilSafety: 'Monad 严厉打击批量脚本女巫号。请保持多路径真实交互，并仅使用官方水龙头与 RPC 链接。',
+    faqHeading: '常见问题',
+    faqs: [
+      {
+        q: '参与 Monad 测试网需要成本吗？',
+        a: '不需要，全程使用官方水龙头领取的免费测试 $MON，零成本（$0）参与。'
+      },
+      {
+        q: '如何获得 Monad Discord 身份组？',
+        a: '如 Nads 等身份组由管理员人工审核授予，需通过原创内容或帮助社区成员获取。'
+      }
+    ],
+    ctaText: '打开 Monad',
+    englishVersionLabel: '英文原版'
+  },
+  {
+    id: 'monad',
+    slug: 'hi',
+    lang: 'hi',
+    flag: '🇮🇳',
+    homeLabel: 'होम',
+    hubLabel: 'मुफ़्त टेस्टनेट',
+    hubHref: '/hi/free-testnets/',
+    title: 'Monad एयरड्रॉप गाइड (2026): $225M फंडिंग वाला मुफ़्त टेस्टनेट $MON | Airdroplyx',
+    description: 'Paradigm और Electric Capital द्वारा $225M फंडेड 10,000 TPS पैरेलल EVM Monad टेस्टनेट में मुफ़्त भाग लेने, Rabby RPC और फॉसेट की पूरी गाइड।',
+    h1: 'Monad ($MON) मुफ़्त टेस्टनेट और एयरड्रॉप गाइड',
+    badge: '$225M फंडिंग • मुफ़्त टेस्टनेट',
+    rewardLabel: 'अनुमानित इनाम',
+    costLabel: 'लागत',
+    snapshotLabel: 'अनुमानित समय',
+    timeLabel: 'साप्ताहिक समय',
+    overviewHeading: 'प्रोजेक्ट का परिचय',
+    overview: 'Monad एक 10,000 TPS और 1-सेकंड फाइनलिटी वाला 100% EVM-संगत पैरेलल Layer 1 ब्लॉकचेन है। Paradigm और Electric Capital से $225 मिलियन की फंडिंग के साथ यह $MON एयरड्रॉप का सबसे बड़ा दावेदार है।',
+    tokenomicsHeading: '$MON टोकनॉमिक्स',
+    tokenomics: '$MON नेटवर्क गैस फीस, PoS वैलिडेटर स्टेकिंग और गवर्नेंस के लिए उपयोग होता है, जिसमें शुरुआती टेस्टर्स के लिए कम्युनिटी हिस्सेदारी की उम्मीद है।',
+    stepsHeading: 'भाग लेने के आसान चरण',
+    steps: [
+      'आधिकारिक Monad वेबसाइट (monad.xyz) और दस्तावेज़ देखें।',
+      'आधिकारिक Monad Discord से जुड़ें और वास्तविक योगदान से कम्युनिटी रोल प्राप्त करें।',
+      'अपने Rabby या Rainbow वॉलेट में Monad Testnet RPC जोड़ें।',
+      'आधिकारिक फॉसेट (Faucet) से मुफ़्त टेस्ट $MON टोकन क्लेम करें।',
+      'इकोसिस्टम के DEX, लेंडिंग और लिक्विडिटी dApps पर नियमित ट्रांज़ैक्शन करें।'
+    ],
+    strategyHeading: 'अधिकतम इनाम की रणनीति',
+    strategy: 'एक ही तरह के ट्रांज़ैक्शन दोहराने के बजाय हर हफ्ते अलग-अलग dApps का उपयोग करें और Discord में सक्रिय रहें।',
+    sybilHeading: 'सिबिल सुरक्षा और सावधानियाँ',
+    sybilSafety: 'Monad मास बॉट वॉलेट्स को सख्ती से फ़िल्टर करता है। केवल आधिकारिक फॉसेट लिंक और स्वाभाविक ऑन-चेन गतिविधि का उपयोग करें।',
+    faqHeading: 'अक्सर पूछे जाने वाले प्रश्न',
+    faqs: [
+      {
+        q: 'क्या Monad टेस्टनेट मुफ़्त है?',
+        a: 'हाँ, यह पब्लिक फॉसेट के मुफ़्त टेस्ट $MON टोकन से 100% मुफ़्त ($0) चलता है।'
+      },
+      {
+        q: 'Monad Discord में रोल कैसे मिलते हैं?',
+        a: 'Nads जैसे रोल बॉट्स से नहीं, बल्कि वास्तविक योगदान पर मॉडरेटर्स द्वारा मैन्युअल रूप से दिए जाते हैं।'
+      }
+    ],
+    ctaText: 'Monad खोलें',
+    englishVersionLabel: 'अंग्रेज़ी संस्करण'
+  },
+  {
+    id: 'monad',
+    slug: 'it',
+    lang: 'it',
+    flag: '🇮🇹',
+    homeLabel: 'Home',
+    hubLabel: 'Testnet Gratuiti',
+    hubHref: '/it/testnet-gratuiti/',
+    title: 'Guida Airdrop Monad (2026): Testnet Gratuita $MON ($225M) | Airdroplyx',
+    description: 'Come partecipare gratis alla testnet di Monad ($225M da Paradigm ed Electric Capital): faucet $MON, RPC su Rabby e dApp dell’ecosistema.',
+    h1: 'Monad ($MON): Guida Testnet Gratuita e Airdrop Layer 1',
+    badge: 'Finanziamento $225M • Gratis',
+    rewardLabel: 'Ricompensa stimata',
+    costLabel: 'Costo',
+    snapshotLabel: 'Periodo previsto',
+    timeLabel: 'Tempo settimanale',
+    overviewHeading: 'Panoramica del progetto',
+    overview: 'Monad è una blockchain Layer 1 EVM parallela da 10.000 TPS con finalità in 1 secondo. Con 225 milioni di dollari raccolti da Paradigm ed Electric Capital, è tra gli airdrop $MON più attesi.',
+    tokenomicsHeading: 'Tokenomics di $MON',
+    tokenomics: '$MON alimenta gas, staking PoS e governance, con una quota attesa per i primi tester della testnet e la community organica.',
+    stepsHeading: 'Come partecipare passo dopo passo',
+    steps: [
+      'Visita il sito ufficiale di Monad (monad.xyz) e consulta la documentazione.',
+      'Unisciti al Discord ufficiale Monad partecipando in modo autentico.',
+      'Aggiungi la rete Monad Testnet RPC al tuo wallet Rabby o Rainbow.',
+      'Richiedi token di prova $MON gratuiti dal faucet ufficiale.',
+      'Effettua swap e test su diverse dApp dell’ecosistema Monad.'
+    ],
+    strategyHeading: 'Strategia per massimizzare i punti',
+    strategy: 'Alterna più protocolli ogni settimana evitando transazioni ripetitive identiche e contribuisci attivamente su Discord.',
+    sybilHeading: 'Sicurezza e protezione Sybil',
+    sybilSafety: 'Monad filtra severamente le farm automatizzate. Mantieni attività organica e usa solo i link ufficiali del faucet.',
+    faqHeading: 'Domande frequenti',
+    faqs: [
+      {
+        q: 'La testnet di Monad è gratuita?',
+        a: 'Sì, è gratuita al 100% ($0) utilizzando token di test $MON dal faucet pubblico.'
+      },
+      {
+        q: 'Come si ottengono i ruoli su Discord Monad?',
+        a: 'Ruoli come Nads vengono assegnati manualmente dai moderatori per contributi reali.'
+      }
+    ],
+    ctaText: 'Apri Monad',
+    englishVersionLabel: 'Versione inglese'
+  },
+  {
+    id: 'monad',
+    slug: 'pl',
+    lang: 'pl',
+    flag: '🇵🇱',
+    homeLabel: 'Strona główna',
+    hubLabel: 'Darmowe Testnety',
+    hubHref: '/pl/darmowe-testnety/',
+    title: 'Poradnik Airdrop Monad (2026): Darmowy Testnet $MON ($225M) | Airdroplyx',
+    description: 'Jak za darmo testować Monad ($225M od Paradigm i Electric Capital): dodanie sieci w Rabby, darmowy faucet $MON i testy dApps.',
+    h1: 'Monad ($MON): Poradnik Darmowego Testnetu i Airdropu',
+    badge: 'Finansowanie $225M • Darmowy',
+    rewardLabel: 'Szacowana nagroda',
+    costLabel: 'Koszt',
+    snapshotLabel: 'Przewidywany okres',
+    timeLabel: 'Czas tygodniowo',
+    overviewHeading: 'Opis projektu',
+    overview: 'Monad to równoległy blockchain EVM Layer 1 osiągający 10 000 TPS i 1-sekundową finalność. Z finansowaniem 225 mln USD od Paradigm i Electric Capital jest jednym z głównych kandydatów do airdropu $MON.',
+    tokenomicsHeading: 'Tokenomika $MON',
+    tokenomics: '$MON służy do opłat gas, stakingu walidatorów PoS i zarządzania siecią, z oczekiwaną pulą dla wczesnych testerów.',
+    stepsHeading: 'Instrukcja krok po kroku',
+    steps: [
+      'Odwiedź oficjalną stronę Monad (monad.xyz) i zapoznaj się z dokumentacją.',
+      'Dołącz do oficjalnego Discorda Monad i angażuj się organicznie w społeczność.',
+      'Dodaj sieć Monad Testnet RPC do portfela Rabby lub Rainbow.',
+      'Odbierz darmowe testowe tokeny $MON z oficjalnego kraniku (faucet).',
+      'Testuj swapy, płynność i różne dApps w ekosystemie Monad.'
+    ],
+    strategyHeading: 'Strategia maksymalizacji nagród',
+    strategy: 'Korzystaj co tydzień z różnych aplikacji zamiast powtarzać identyczne transakcje oraz buduj obecność na Discordzie.',
+    sybilHeading: 'Ochrona Anti-Sybil i bezpieczeństwo',
+    sybilSafety: 'Monad rygorystycznie eliminuje masowe farmy botów. Stosuj zróżnicowaną aktywność i wyłącznie oficjalne linki faucet.',
+    faqHeading: 'Często zadawane pytania',
+    faqs: [
+      {
+        q: 'Czy testnet Monad jest darmowy?',
+        a: 'Tak, jest w 100% darmowy ($0) dzięki testowym tokenom $MON z publicznego kraniku.'
+      },
+      {
+        q: 'Jak zdobyć role na Discordzie Monad?',
+        a: 'Role takie jak Nads są nadawane ręcznie przez moderatorów za realny wkład i pomoc.'
+      }
+    ],
+    ctaText: 'Otwórz Monad',
+    englishVersionLabel: 'Wersja angielska'
+  },
+
+  // ================= MEGAETH (16 LANGUAGES) =================
+  {
+    id: 'megaeth',
+    slug: 'tr',
+    lang: 'tr',
+    flag: '🇹🇷',
+    homeLabel: 'Ana Sayfa',
+    hubLabel: 'Ücretsiz Testnetler',
+    hubHref: '/tr/ucretsiz-testnet-airdroplari/',
+    title: 'MegaETH Airdrop Rehberi (2026): 100k TPS Real-Time Testnet | Airdroplyx',
+    description: 'Vitalik Buterin ve Dragonfly destekli ($20M Seed) dünyanın ilk gerçek zamanlı Ethereum Layer 2 ağı MegaETH testnet ve airdrop rehberi.',
+    h1: 'MegaETH Ücretsiz Testnet ve Ekosistem Airdrop Rehberi',
+    badge: '$20M Yatırım • Ücretsiz Testnet',
+    rewardLabel: 'Tahmini Ödül',
+    costLabel: 'Maliyet',
+    snapshotLabel: 'Beklenen Dönem',
+    timeLabel: 'Haftalık Süre',
+    overviewHeading: 'Proje Özeti',
+    overview: 'MegaETH, yüksek hızlı RAM içi durum hesaplaması sayesinde saniyede 100.000 işlem (TPS) ve milisaniye altı tepki süresi sunan dünyanın ilk gerçek zamanlı Ethereum Layer 2 ağıdır. Vitalik Buterin ve Dragonfly Capital liderliğinde 20 milyon dolar Seed yatırımı alan proje, erken testnet katılımcıları ve topluluk üyeleri için büyük bir airdrop adayıdır.',
+    tokenomicsHeading: 'Ekosistem ve Token Yapısı',
+    tokenomics: 'Yerel ağ varlığı; merkeziyetsiz sıralayıcı (sequencer) güvenliği, blok alanı ödemeleri ve yönetişim için kullanılacak olup erken testnet kullanıcıları ile geliştiricilere önemli pay ayrılması beklenmektedir.',
+    stepsHeading: 'Adım Adım Katılım Rehberi',
+    steps: [
+      'Resmi MegaETH web sitesini (megaeth.systems) ziyaret edin ve teknik mimariyi inceleyin.',
+      'Resmi MegaETH Discord sunucusuna katılın ve doğrulamanızı tamamlayın.',
+      'Topluluk tartışmalarına katılarak erken dönem katkı rozetleri kazanın.',
+      'Rabby veya Rainbow cüzdanınızı MegaETH Testnet portalına bağlayın.',
+      'Faucet üzerinden test tokenları talep edin ve yüksek hızlı gerçek zamanlı dApp’leri test edin.'
+    ],
+    strategyHeading: 'Maksimum Ödül Stratejisi',
+    strategy: 'Gerçek zamanlı uygulamaları (zincir üstü oyunlar ve yüksek frekanslı DEX’ler) test ederek düzenli geri bildirim paylaşın ve Discord rozetlerini erken toplayın.',
+    sybilHeading: 'Sybil Koruması ve Güvenlik',
+    sybilSafety: 'MegaETH, tekrarlayan düşük çeşitlilikli bot işlemlerini filtreler. Çeşitli dApp etkileşimleri ve yalnızca resmi testnet bağlantıları güvenli katılım sağlar.',
+    faqHeading: 'Sıkça Sorulan Sorular',
+    faqs: [
+      {
+        q: 'MegaETH yatırımcıları kimlerdir?',
+        a: 'MegaETH; Dragonfly Capital, Vitalik Buterin, Robot Ventures ve Big Brain Holdings’ten 20 milyon dolar Seed yatırımı almıştır.'
+      },
+      {
+        q: 'MegaETH testnet katılımı ücretsiz mi?',
+        a: 'Evet, halka açık test ağı ve faucet tokenları tamamen ücretsizdir ($0).'
+      }
+    ],
+    ctaText: 'MegaETH’i Aç',
+    englishVersionLabel: 'İngilizce Sürüm'
+  },
+  {
+    id: 'megaeth',
+    slug: 'ru',
+    lang: 'ru',
+    flag: '🇷🇺',
+    homeLabel: 'Главная',
+    hubLabel: 'Бесплатные тестнеты',
+    hubHref: '/ru/free-testnets/',
+    title: 'Гайд по аирдропу MegaETH (2026): тестнет 100k TPS | Airdroplyx',
+    description: 'Как бесплатно участвовать в тестнете MegaETH ($20M от Vitalik Buterin и Dragonfly Capital): подключение Rabby, получение тестовых токенов и dApps.',
+    h1: 'MegaETH: гайд по бесплатному тестнету и аирдропу Layer 2',
+    badge: 'Инвестиции $20M • Бесплатно',
+    rewardLabel: 'Ожидаемая награда',
+    costLabel: 'Затраты',
+    snapshotLabel: 'Ожидаемый период',
+    timeLabel: 'Время в неделю',
+    overviewHeading: 'Обзор проекта',
+    overview: 'MegaETH — первый в мире Ethereum Layer 2 блокчейн реального времени с пропускной способностью до 100 000 TPS за счёт вычислений в оперативной памяти. Проект привлёк $20M от Vitalik Buterin, Dragonfly Capital и Robot Ventures.',
+    tokenomicsHeading: 'Экосистема и токеномика',
+    tokenomics: 'Нативный токен обеспечит децентрализацию секвенсоров, оплату пространства блоков и управление сетью, с резервом для ранних участников тестнета.',
+    stepsHeading: 'Пошаговая инструкция',
+    steps: [
+      'Откройте официальный сайт MegaETH (megaeth.systems) и ознакомьтесь с архитектурой.',
+      'Вступите в официальный Discord MegaETH и пройдите верификацию.',
+      'Участвуйте в обсуждениях и AMA для получения ролей раннего участника.',
+      'Подключите кошелек Rabby или Rainbow к порталу публичного тестнета MegaETH.',
+      'Запросите тестовые токены и протестируйте высокочастотные dApps и ончейн-игры.'
+    ],
+    strategyHeading: 'Стратегия фарма',
+    strategy: 'Тестируйте именно интерактивные приложения реального времени и оставляйте отзывы об ошибках в официальных каналах.',
+    sybilHeading: 'Защита от ботов и безопасность',
+    sybilSafety: 'MegaETH отсекает однообразные микротранзакции ботов. Используйте разные dApps и только официальные ссылки.',
+    faqHeading: 'Частые вопросы',
+    faqs: [
+      {
+        q: 'Кто инвестировал в MegaETH?',
+        a: 'Dragonfly Capital, Vitalik Buterin, Robot Ventures и Big Brain Holdings вложили $20M в Seed-раунд.'
+      },
+      {
+        q: 'Участие в тестнете MegaETH платное?',
+        a: 'Нет, тестовая сеть и токены из крана полностью бесплатны ($0).'
+      }
+    ],
+    ctaText: 'Открыть MegaETH',
+    englishVersionLabel: 'Английская версия'
+  },
+  {
+    id: 'megaeth',
+    slug: 'id',
+    lang: 'id',
+    flag: '🇮🇩',
+    homeLabel: 'Beranda',
+    hubLabel: 'Testnet Gratis',
+    hubHref: '/id/testnet-gratis/',
+    title: 'Panduan Airdrop MegaETH (2026): Testnet Gratis 100k TPS | Airdroplyx',
+    description: 'Panduan lengkap testnet MegaETH ($20M Seed dari Vitalik Buterin & Dragonfly Capital): hubungkan dompet Rabby, klaim faucet, dan uji dApp real-time.',
+    h1: 'MegaETH: Panduan Testnet Gratis & Airdrop Layer 2 Real-Time',
+    badge: 'Pendanaan $20M • Gratis',
+    rewardLabel: 'Estimasi Hadiah',
+    costLabel: 'Biaya',
+    snapshotLabel: 'Perkiraan Snapshot',
+    timeLabel: 'Waktu Mingguan',
+    overviewHeading: 'Ringkasan Proyek',
+    overview: 'MegaETH adalah blockchain Ethereum Layer 2 real-time pertama yang dirancang mencapai 100.000 TPS dengan komputasi dalam memori. Didukung $20 juta dari Vitalik Buterin dan Dragonfly Capital, MegaETH menggelar fase testnet untuk komunitas.',
+    tokenomicsHeading: 'Ekosistem & Tokenomik',
+    tokenomics: 'Aset asli jaringan akan mendasari desentralisasi sequencer, tata kelola, serta insentif bagi penguji testnet dan pengembang awal.',
+    stepsHeading: 'Langkah-Langkah Mengikuti Airdrop',
+    steps: [
+      'Kunjungi situs resmi MegaETH (megaeth.systems) dan pelajari dokumentasinya.',
+      'Bergabunglah ke Discord resmi MegaETH dan selesaikan verifikasi akun.',
+      'Berpartisipasi aktif di komunitas untuk meraih lencana kontributor awal.',
+      'Hubungkan dompet Rabby atau Rainbow ke portal testnet MegaETH.',
+      'Minta token faucet uji coba dan uji aplikasi on-chain berkecepatan tinggi.'
+    ],
+    strategyHeading: 'Strategi Maksimal',
+    strategy: 'Fokus mencoba aplikasi real-time seperti game on-chain serta DEX berkecepatan tinggi dan laporkan masukan teknis di Discord.',
+    sybilHeading: 'Keamanan & Anti-Sybil',
+    sybilSafety: 'MegaETH menyaring akun bot dengan pola transaksi berulang. Pastikan interaksi beragam dan selalu gunakan tautan resmi.',
+    faqHeading: 'Pertanyaan Umum',
+    faqs: [
+      {
+        q: 'Siapa investor MegaETH?',
+        a: 'MegaETH meraih $20M dari Dragonfly Capital, Vitalik Buterin, Robot Ventures, dan Big Brain Holdings.'
+      },
+      {
+        q: 'Apakah testnet MegaETH gratis?',
+        a: 'Ya, seluruh tahap uji coba publik menggunakan token faucet gratis ($0).'
+      }
+    ],
+    ctaText: 'Buka MegaETH',
+    englishVersionLabel: 'Versi Bahasa Inggris'
+  },
+  {
+    id: 'megaeth',
+    slug: 'vi',
+    lang: 'vi',
+    flag: '🇻🇳',
+    homeLabel: 'Trang chủ',
+    hubLabel: 'Testnet Miễn Phí',
+    hubHref: '/vi/testnet-mien-phi/',
+    title: 'Hướng dẫn Airdrop MegaETH (2026): Testnet 100k TPS | Airdroplyx',
+    description: 'Cách tham gia testnet MegaETH miễn phí ($20M từ Vitalik Buterin & Dragonfly Capital): kết nối ví Rabby, nhận faucet và trải nghiệm dApp.',
+    h1: 'MegaETH: Hướng Dẫn Testnet Miễn Phí & Airdrop Layer 2',
+    badge: 'Gọi vốn $20M • Miễn phí',
+    rewardLabel: 'Phần thưởng dự kiến',
+    costLabel: 'Chi phí',
+    snapshotLabel: 'Thời gian dự kiến',
+    timeLabel: 'Thời gian mỗi tuần',
+    overviewHeading: 'Tổng quan dự án',
+    overview: 'MegaETH là blockchain Ethereum Layer 2 thời gian thực đầu tiên đạt tới 100.000 TPS nhờ xử lý trạng thái trực tiếp trên RAM. Với $20 triệu đầu tư từ Vitalik Buterin và Dragonfly Capital, đây là kèo testnet rất tiềm năng.',
+    tokenomicsHeading: 'Hệ sinh thái & Tokenomics',
+    tokenomics: 'Token gốc sẽ vận hành mạng lưới sequencer phi tập trung và quản trị, dành phần thưởng xứng đáng cho người thử nghiệm testnet sớm.',
+    stepsHeading: 'Các bước tham gia chi tiết',
+    steps: [
+      'Truy cập trang web chính thức MegaETH (megaeth.systems).',
+      'Tham gia Discord chính thức của MegaETH và xác minh tài khoản.',
+      'Đóng góp thảo luận để nhận huy hiệu người tham gia sớm.',
+      'Kết nối ví Rabby hoặc Rainbow vào cổng testnet công khai của MegaETH.',
+      'Nhận token gas thử nghiệm và tương tác với các dApp thời gian thực.'
+    ],
+    strategyHeading: 'Chiến lược tối ưu điểm',
+    strategy: 'Trải nghiệm các ứng dụng tốc độ cao như game on-chain hoặc sàn đặt lệnh, đồng thời đóng góp phản hồi lỗi trên kênh chính thức.',
+    sybilHeading: 'Chống Sybil & Bảo mật',
+    sybilSafety: 'MegaETH lọc bỏ các tài khoản bot lặp lại giao dịch giống hệt nhau. Hãy tương tác đa dạng và chỉ dùng link chính thức.',
+    faqHeading: 'Câu hỏi thường gặp',
+    faqs: [
+      {
+        q: 'Ai đầu tư vào MegaETH?',
+        a: 'MegaETH huy động $20M từ Dragonfly Capital, Vitalik Buterin, Robot Ventures và Big Brain Holdings.'
+      },
+      {
+        q: 'Tham gia testnet MegaETH có miễn phí không?',
+        a: 'Có, hoàn toàn miễn phí ($0) bằng token thử nghiệm.'
+      }
+    ],
+    ctaText: 'Mở MegaETH',
+    englishVersionLabel: 'Bản tiếng Anh'
+  },
+  {
+    id: 'megaeth',
+    slug: 'es',
+    lang: 'es',
+    flag: '🇪🇸',
+    homeLabel: 'Inicio',
+    hubLabel: 'Testnets Gratis',
+    hubHref: '/es/testnets-gratis/',
+    title: 'Guía Airdrop MegaETH (2026): Testnet Real-Time 100k TPS | Airdroplyx',
+    description: 'Cómo participar gratis en la testnet de MegaETH ($20M de Vitalik Buterin y Dragonfly Capital): conecta Rabby, pide faucet y prueba dApps.',
+    h1: 'MegaETH: Guía de Testnet Gratuita y Airdrop Layer 2',
+    badge: 'Financiación $20M • Gratis',
+    rewardLabel: 'Recompensa estimada',
+    costLabel: 'Costo',
+    snapshotLabel: 'Periodo estimado',
+    timeLabel: 'Tiempo semanal',
+    overviewHeading: 'Resumen del proyecto',
+    overview: 'MegaETH es la primera blockchain Ethereum Layer 2 en tiempo real capaz de procesar 100.000 TPS mediante computación en memoria. Respaldada con $20 millones por Vitalik Buterin y Dragonfly Capital, abre pruebas públicas para la comunidad.',
+    tokenomicsHeading: 'Ecosistema y Tokenomics',
+    tokenomics: 'El activo nativo asegurará los secuenciadores descentralizados y la gobernanza, reservando incentivos para probadores tempranos.',
+    stepsHeading: 'Pasos para participar',
+    steps: [
+      'Visita el sitio oficial de MegaETH (megaeth.systems).',
+      'Únete al Discord oficial de MegaETH y verifica tu cuenta.',
+      'Participa en debates comunitarios para ganar insignias tempranas.',
+      'Conecta tu billetera Rabby o Rainbow al portal de testnet pública.',
+      'Solicita tokens de prueba y utiliza aplicaciones en tiempo real.'
+    ],
+    strategyHeading: 'Estrategia para maximizar recompensas',
+    strategy: 'Prueba dApps interactivas como juegos on-chain o libros de órdenes y reporta comentarios técnicos en Discord.',
+    sybilHeading: 'Seguridad y protección Sybil',
+    sybilSafety: 'MegaETH filtra transacciones repetitivas de bots. Mantén variedad real de interacciones y usa solo enlaces oficiales.',
+    faqHeading: 'Preguntas frecuentes',
+    faqs: [
+      {
+        q: '¿Quién invirtió en MegaETH?',
+        a: 'Dragonfly Capital, Vitalik Buterin, Robot Ventures y Big Brain Holdings lideraron la ronda de $20M.'
+      },
+      {
+        q: '¿Es gratis la testnet de MegaETH?',
+        a: 'Sí, participar en las pruebas públicas es 100% gratuito ($0).'
+      }
+    ],
+    ctaText: 'Abrir MegaETH',
+    englishVersionLabel: 'Versión en inglés'
+  },
+  {
+    id: 'megaeth',
+    slug: 'pt',
+    lang: 'pt',
+    flag: '🇧🇷',
+    homeLabel: 'Início',
+    hubLabel: 'Testnets Grátis',
+    hubHref: '/pt/testnets-gratis/',
+    title: 'Guia Airdrop MegaETH (2026): Testnet Grátis 100k TPS | Airdroplyx',
+    description: 'Veja como testar grátis a MegaETH ($20M de Vitalik Buterin e Dragonfly Capital): conecte a Rabby, peça tokens de faucet e use dApps.',
+    h1: 'MegaETH: Guia da Testnet Gratuita e Airdrop Layer 2',
+    badge: 'Investimento $20M • Grátis',
+    rewardLabel: 'Recompensa estimada',
+    costLabel: 'Custo',
+    snapshotLabel: 'Previsão',
+    timeLabel: 'Tempo semanal',
+    overviewHeading: 'Visão geral do projeto',
+    overview: 'A MegaETH é a primeira Ethereum Layer 2 em tempo real do mundo, alcançando 100.000 TPS com computação em memória. Com $20 milhões de Vitalik Buterin e Dragonfly Capital, prepara testes públicos para recompensar adotantes iniciais.',
+    tokenomicsHeading: 'Ecossistema e Tokenomics',
+    tokenomics: 'O ativo nativo sustentará a descentralização de sequenciadores e governança, com foco em recompensar testadores e construtores iniciais.',
+    stepsHeading: 'Passo a passo para participar',
+    steps: [
+      'Acesse o site oficial da MegaETH (megaeth.systems).',
+      'Entre no Discord oficial da MegaETH e faça a verificação.',
+      'Participe da comunidade para conquistar selos de contribuidor inicial.',
+      'Conecte sua carteira Rabby ou Rainbow ao portal da testnet.',
+      'Solicite tokens de teste no faucet e experimente dApps em tempo real.'
+    ],
+    strategyHeading: 'Estratégia de ganhos',
+    strategy: 'Teste aplicativos de alta frequência e jogos on-chain na rede e envie feedback nos canais oficiais.',
+    sybilHeading: 'Proteção Sybil e segurança',
+    sybilSafety: 'A MegaETH bloqueia bots com microtransações repetitivas. Varie suas interações e utilize apenas o portal oficial.',
+    faqHeading: 'Perguntas frequentes',
+    faqs: [
+      {
+        q: 'Quem investe na MegaETH?',
+        a: 'A rodada de $20M contou com Dragonfly Capital, Vitalik Buterin, Robot Ventures e Big Brain Holdings.'
+      },
+      {
+        q: 'A testnet da MegaETH é gratuita?',
+        a: 'Sim, totalmente gratuita ($0) usando tokens de teste.'
+      }
+    ],
+    ctaText: 'Abrir MegaETH',
+    englishVersionLabel: 'Versão em inglês'
+  },
+  {
+    id: 'megaeth',
+    slug: 'ko',
+    lang: 'ko',
+    flag: '🇰🇷',
+    homeLabel: '홈',
+    hubLabel: '무료 테스트넷',
+    hubHref: '/ko/free-testnets/',
+    title: 'MegaETH 에어드랍 가이드 (2026): 100k TPS 무료 테스트넷 | Airdroplyx',
+    description: 'Vitalik Buterin과 Dragonfly Capital이 $20M을 투자한 실시간 L2 MegaETH 테스트넷 참여 방법: Rabby 지갑 연결, 테스트 토큰 및 dApp 체험.',
+    h1: 'MegaETH 무료 테스트넷 및 생태계 에어드랍 가이드',
+    badge: '$20M 투자 유치 • 무료 테스트넷',
+    rewardLabel: '예상 보상',
+    costLabel: '비용',
+    snapshotLabel: '예상 시기',
+    timeLabel: '주간 소요 시간',
+    overviewHeading: '프로젝트 개요',
+    overview: 'MegaETH는 인메모리 컴퓨팅으로 초당 10만 건(100,000 TPS)의 트랜잭션을 처리하는 세계 최초의 실시간 이더리움 Layer 2입니다. Vitalik Buterin과 Dragonfly Capital 등이 2,000만 달러를 투자해 차세대 L2 유망주로 주목받고 있습니다.',
+    tokenomicsHeading: '생태계 및 토크노믹스',
+    tokenomics: '네이티브 토큰은 탈중앙 시퀀서 운영과 거버넌스에 쓰이며, 초기 테스트넷 참여자와 생태계 빌더에게 보상이 배정될 예정입니다.',
+    stepsHeading: '단계별 참여 방법',
+    steps: [
+      '공식 MegaETH 웹사이트(megaeth.systems)에서 아키텍처를 확인하세요.',
+      '공식 MegaETH Discord에 참여해 계정 인증을 완료하세요.',
+      '커뮤니티 활동과 AMA에 참여해 초기 기여자 배지를 획득하세요.',
+      '공개 테스트넷 포털에 Rabby 또는 Rainbow 지갑을 연결하세요.',
+      '테스트용 가스 토큰을 받아 실시간 온체인 앱과 DEX를 체험하세요.'
+    ],
+    strategyHeading: '보상 극대화 전략',
+    strategy: '온체인 게임이나 고속 오더북 등 실시간 dApp을 직접 테스트하고 공식 채널에 피드백을 남기는 것이 유리합니다.',
+    sybilHeading: '시빌 방지 및 보안',
+    sybilSafety: '단순 반복 소액 거래를 실행하는 봇 계정은 자동 필터링됩니다. 다양한 dApp을 사용하고 공식 링크만 이용하세요.',
+    faqHeading: '자주 묻는 질문',
+    faqs: [
+      {
+        q: 'MegaETH의 투자자는 누구인가요?',
+        a: 'Dragonfly Capital, Vitalik Buterin, Robot Ventures, Big Brain Holdings가 $20M 시드 라운드에 참여했습니다.'
+      },
+      {
+        q: 'MegaETH 테스트넷은 무료인가요?',
+        a: '네, 무료($0) 테스트 토큰으로 참여할 수 있습니다.'
+      }
+    ],
+    ctaText: 'MegaETH 열기',
+    englishVersionLabel: '영문 버전'
+  },
+  {
+    id: 'megaeth',
+    slug: 'ja',
+    lang: 'ja',
+    flag: '🇯🇵',
+    homeLabel: 'ホーム',
+    hubLabel: '無料テストネット',
+    hubHref: '/ja/free-testnets/',
+    title: 'MegaETH エアドロップ攻略 (2026): 10万TPS無料テストネット | Airdroplyx',
+    description: 'Vitalik ButerinやDragonfly Capitalが出資（$20M）したリアルタイムEthereum L2「MegaETH」の無料テストネット参加・Rabby接続ガイド。',
+    h1: 'MegaETH 無料テストネット＆エアドロップ攻略ガイド',
+    badge: '$20M調達済み • 無料テストネット',
+    rewardLabel: '予想報酬',
+    costLabel: '費用',
+    snapshotLabel: '予定時期',
+    timeLabel: '週間作業時間',
+    overviewHeading: 'プロジェクト概要',
+    overview: 'MegaETHはインメモリ処理によって100,000 TPSとミリ秒未満の応答を実現するリアルタイムEthereum Layer 2です。Vitalik ButerinやDragonfly Capitalから2,000万ドルを調達し、公開テストネット参加者に注目が集まっています。',
+    tokenomicsHeading: 'エコシステムとトケノミクス',
+    tokenomics: 'ネイティブトークンはシーケンサーの分散化とガバナンスを担い、初期テストネット参加者への割り当てが期待されています。',
+    stepsHeading: '参加ステップ',
+    steps: [
+      '公式MegaETHサイト（megaeth.systems）で技術概要を確認します。',
+      '公式Discordに参加し、認証を完了します。',
+      'コミュニティ議論やAMAに参加して初期コントリビューターバッジを獲得します。',
+      '公開テストネットポータルにRabbyまたはRainbowウォレットを接続します。',
+      'テスト用ガストークンを受け取り、リアルタイム型dAppやゲームを試します。'
+    ],
+    strategyHeading: '報酬最大化のコツ',
+    strategy: 'オンチェーンゲームや高速DEXなどのリアルタイムアプリを幅広く試し、公式チャンネルへフィードバックを共有しましょう。',
+    sybilHeading: 'シビル対策と安全性',
+    sybilSafety: '単調な少額取引を繰り返すボットは自動的に除外されます。多様な操作を心がけ、必ず公式URLを使用してください。',
+    faqHeading: 'よくある質問',
+    faqs: [
+      {
+        q: 'MegaETHの出資者は誰ですか？',
+        a: 'Dragonfly Capital、Vitalik Buterin、Robot Ventures、Big Brain Holdingsから2,000万ドルを調達しています。'
+      },
+      {
+        q: 'MegaETHテストネットは無料ですか？',
+        a: 'はい、無料（$0）でテストネットに参加できます。'
+      }
+    ],
+    ctaText: 'MegaETHを開く',
+    englishVersionLabel: '英語版を見る'
+  },
+  {
+    id: 'megaeth',
+    slug: 'ar',
+    lang: 'ar',
+    flag: '🇸🇦',
+    homeLabel: 'الرئيسية',
+    hubLabel: 'شبكات اختبار مجانية',
+    hubHref: '/ar/free-testnets/',
+    title: 'دليل إيردروب MegaETH (2026): شبكة اختبار مجانية بسرعة 100k TPS | Airdroplyx',
+    description: 'دليل المشاركة مجاناً في شبكة اختبار MegaETH (بتمويل 20 مليون دولار من Vitalik Buterin وDragonfly Capital): ربط Rabby وتجربة التطبيقات.',
+    h1: 'MegaETH: دليل شبكة الاختبار المجانية وإيردروب Layer 2',
+    badge: 'تمويل $20M • مجاني',
+    rewardLabel: 'المكافأة المتوقعة',
+    costLabel: 'التكلفة',
+    snapshotLabel: 'الفترة المتوقعة',
+    timeLabel: 'الوقت الأسبوعي',
+    overviewHeading: 'نظرة عامة على المشروع',
+    overview: 'شبكة MegaETH هي أول بلوكشين Ethereum Layer 2 في الوقت الفعلي بقدرة 100,000 معاملة في الثانية عبر الحوسبة داخل الذاكرة. جمع المشروع 20 مليون دولار بدعم Vitalik Buterin وDragonfly Capital.',
+    tokenomicsHeading: 'النظام البيئي والاقتصاديات',
+    tokenomics: 'سيؤمن الأصل الأصلي لامركزية المُرتِّبات والحوكمة، مع تخصيص حوافز لمختبري شبكة الاختبار الأوائل.',
+    stepsHeading: 'خطوات المشاركة',
+    steps: [
+      'زر الموقع الرسمي لـ MegaETH (megaeth.systems) واطلع على البنية التقنية.',
+      'انضم إلى خادم Discord الرسمي ووثّق حسابك.',
+      'شارك في النقاشات المجتمعية للحصول على شارات المساهم المبكر.',
+      'اربط محفظة Rabby أو Rainbow ببوابة شبكة الاختبار العامة.',
+      'اطلب عملات اختبار وجرّب التطبيقات الفورية والألعاب على السلسلة.'
+    ],
+    strategyHeading: 'استراتيجية تعظيم المكافآت',
+    strategy: 'اختبر تطبيقات الوقت الفعلي المتنوعة وقدّم ملاحظات تقنية عبر القنوات الرسمية لتعزيز أهليتك.',
+    sybilHeading: 'الحماية من الحسابات الوهمية والأمان',
+    sybilSafety: 'تستبعد MegaETH الحسابات الآلية ذات المعاملات المتكررة. حافظ على تفاعلات متنوعة واستخدم الروابط الرسمية فقط.',
+    faqHeading: 'الأسئلة الشائعة',
+    faqs: [
+      {
+        q: 'من هم مستثمرو MegaETH؟',
+        a: 'حصلت على 20 مليون دولار من Dragonfly Capital وVitalik Buterin وRobot Ventures وBig Brain Holdings.'
+      },
+      {
+        q: 'هل شبكة اختبار MegaETH مجانية؟',
+        a: 'نعم، المشاركة مجانية 100% ($0) باستخدام عملات اختبار.'
+      }
+    ],
+    ctaText: 'افتح MegaETH',
+    englishVersionLabel: 'النسخة الإنجليزية'
+  },
+  {
+    id: 'megaeth',
+    slug: 'de',
+    lang: 'de',
+    flag: '🇩🇪',
+    homeLabel: 'Startseite',
+    hubLabel: 'Kostenlose Testnets',
+    hubHref: '/de/kostenlose-testnets/',
+    title: 'MegaETH Airdrop Guide (2026): 100k TPS Testnet kostenlos | Airdroplyx',
+    description: 'Anleitung für MegaETH ($20M Seed von Vitalik Buterin & Dragonfly Capital): Rabby verbinden, Test-Token anfordern und Echtzeit-dApps testen.',
+    h1: 'MegaETH: Kostenloser Testnet- & Layer-2-Airdrop Guide',
+    badge: '$20M Finanzierung • Kostenlos',
+    rewardLabel: 'Geschätzte Belohnung',
+    costLabel: 'Kosten',
+    snapshotLabel: 'Erwarteter Zeitraum',
+    timeLabel: 'Wöchentlicher Aufwand',
+    overviewHeading: 'Projektübersicht',
+    overview: 'MegaETH ist die weltweit erste Echtzeit-Ethereum-Layer-2-Blockchain für bis zu 100.000 TPS durch In-Memory-Computing. Mit 20 Millionen US-Dollar von Vitalik Buterin und Dragonfly Capital startet MegaETH öffentliche Testphasen.',
+    tokenomicsHeading: 'Ökosystem & Tokenomics',
+    tokenomics: 'Der native Token sichert dezentrale Sequencer sowie Governance und dürfte frühe Testnet-Teilnehmer belohnen.',
+    stepsHeading: 'Schritt-für-Schritt-Anleitung',
+    steps: [
+      'Besuche die offizielle MegaETH-Website (megaeth.systems).',
+      'Tritt dem offiziellen MegaETH-Discord bei und verifiziere dich.',
+      'Sammle durch aktive Community-Beiträge frühe Tester-Abzeichen.',
+      'Verbinde deine Rabby- oder Rainbow-Wallet mit dem Testnet-Portal.',
+      'Fordere Test-Gas-Token an und teste Echtzeit-dApps sowie On-Chain-Games.'
+    ],
+    strategyHeading: 'Strategie für maximale Punkte',
+    strategy: 'Probiere verschiedene Echtzeit-Anwendungen aus und melde Feedback oder Latenz-Beobachtungen in den offiziellen Kanälen.',
+    sybilHeading: 'Sybil-Schutz & Sicherheit',
+    sybilSafety: 'MegaETH filtert automatisierte Bots mit gleichförmigen Mikrotransaktionen heraus. Nutze vielfältige dApps und offizielle Links.',
+    faqHeading: 'Häufig gestellte Fragen',
+    faqs: [
+      {
+        q: 'Wer hat in MegaETH investiert?',
+        a: 'Dragonfly Capital, Vitalik Buterin, Robot Ventures und Big Brain Holdings beteiligten sich an der $20M-Runde.'
+      },
+      {
+        q: 'Ist das MegaETH-Testnet kostenlos?',
+        a: 'Ja, die Teilnahme ist mit kostenlosen Test-Token zu 100 % kostenlos ($0).'
+      }
+    ],
+    ctaText: 'MegaETH öffnen',
+    englishVersionLabel: 'Englische Version'
+  },
+  {
+    id: 'megaeth',
+    slug: 'fr',
+    lang: 'fr',
+    flag: '🇫🇷',
+    homeLabel: 'Accueil',
+    hubLabel: 'Testnets Gratuits',
+    hubHref: '/fr/testnets-gratuits/',
+    title: 'Guide Airdrop MegaETH (2026) : Testnet 100k TPS Gratuit | Airdroplyx',
+    description: 'Comment participer gratuitement au testnet MegaETH (20 M$ de Vitalik Buterin et Dragonfly Capital) avec Rabby et les dApps temps réel.',
+    h1: 'MegaETH : Guide Testnet Gratuit et Airdrop Layer 2',
+    badge: 'Financement $20M • Gratuit',
+    rewardLabel: 'Récompense estimée',
+    costLabel: 'Coût',
+    snapshotLabel: 'Période estimée',
+    timeLabel: 'Temps hebdomadaire',
+    overviewHeading: 'Présentation du projet',
+    overview: 'MegaETH est la première blockchain Ethereum Layer 2 temps réel capable d’atteindre 100 000 TPS grâce au calcul en mémoire. Soutenue par 20 M$ de Vitalik Buterin et Dragonfly Capital, elle lance ses phases de test publiques.',
+    tokenomicsHeading: 'Écosystème et Tokenomics',
+    tokenomics: 'L’actif natif sécurisera les séquenceurs décentralisés et la gouvernance, avec des incitations prévues pour les testeurs précoces.',
+    stepsHeading: 'Étapes pour participer',
+    steps: [
+      'Consultez le site officiel MegaETH (megaeth.systems).',
+      'Rejoignez le Discord officiel de MegaETH et vérifiez votre compte.',
+      'Participez aux échanges communautaires pour obtenir les badges précoces.',
+      'Connectez votre portefeuille Rabby ou Rainbow au portail testnet public.',
+      'Demandez des jetons de test et interagissez avec les dApps temps réel.'
+    ],
+    strategyHeading: 'Stratégie d’optimisation',
+    strategy: 'Testez des applications temps réel variées (jeux on-chain, DEX rapides) et partagez vos retours sur les canaux officiels.',
+    sybilHeading: 'Protection Anti-Sybil et sécurité',
+    sybilSafety: 'MegaETH écarte les bots répétant des micro-transactions identiques. Variez vos usages et passez uniquement par les liens officiels.',
+    faqHeading: 'Questions fréquentes',
+    faqs: [
+      {
+        q: 'Qui a investi dans MegaETH ?',
+        a: 'Dragonfly Capital, Vitalik Buterin, Robot Ventures et Big Brain Holdings ont mené la levée de 20 M$.'
+      },
+      {
+        q: 'Le testnet MegaETH est-il gratuit ?',
+        a: 'Oui, l’accès aux tests publics est 100 % gratuit ($0).'
+      }
+    ],
+    ctaText: 'Ouvrir MegaETH',
+    englishVersionLabel: 'Version anglaise'
+  },
+  {
+    id: 'megaeth',
+    slug: 'uk',
+    lang: 'uk',
+    flag: '🇺🇦',
+    homeLabel: 'Головна',
+    hubLabel: 'Безкоштовні тестнети',
+    hubHref: '/uk/bezkoshtovni-testnety/',
+    title: 'Гайд з аірдропу MegaETH (2026): тестнет 100k TPS безкоштовно | Airdroplyx',
+    description: 'Як безкоштовно брати участь у тестнеті MegaETH ($20M від Vitalik Buterin та Dragonfly Capital): гаманець Rabby і тестування dApps.',
+    h1: 'MegaETH: гайд із безкоштовного тестнету й аірдропу Layer 2',
+    badge: 'Інвестиції $20M • Безкоштовно',
+    rewardLabel: 'Очікувана винагорода',
+    costLabel: 'Витрати',
+    snapshotLabel: 'Очікуваний період',
+    timeLabel: 'Час на тиждень',
+    overviewHeading: 'Огляд проєкту',
+    overview: 'MegaETH — перший у світі Ethereum Layer 2 блокчейн реального часу зі швидкістю 100 000 TPS завдяки обчисленням у пам’яті. Проєкт залучив $20M від Vitalik Buterin і Dragonfly Capital.',
+    tokenomicsHeading: 'Екосистема та токеноміка',
+    tokenomics: 'Нативний актив відповідатиме за децентралізацію секвенсорів та управління, передбачаючи винагороди для ранніх тестувальників.',
+    stepsHeading: 'Покрокова інструкція',
+    steps: [
+      'Відвідайте офіційний сайт MegaETH (megaeth.systems).',
+      'Приєднайтеся до офіційного Discord MegaETH і пройдіть верифікацію.',
+      'Проявляйте активність у спільноті для отримання ранніх бейджів.',
+      'Підключіть гаманець Rabby або Rainbow до порталу публічного тестнету.',
+      'Отримайте тестові токени та випробуйте високошвидкісні dApps.'
+    ],
+    strategyHeading: 'Стратегія максимізації нагород',
+    strategy: 'Тестуйте інтерактивні додатки реального часу та діліться відгуками про швидкість або помилки в офіційних каналах.',
+    sybilHeading: 'Захист від Sybil та безпека',
+    sybilSafety: 'MegaETH відфільтровує одноманітні бот-транзакції. Використовуйте різні dApps і лише офіційні посилання.',
+    faqHeading: 'Часті запитання',
+    faqs: [
+      {
+        q: 'Хто інвестував у MegaETH?',
+        a: 'Dragonfly Capital, Vitalik Buterin, Robot Ventures і Big Brain Holdings вклали $20M.'
+      },
+      {
+        q: 'Чи безкоштовний тестнет MegaETH?',
+        a: 'Так, участь повністю безкоштовна ($0) на тестових токенах.'
+      }
+    ],
+    ctaText: 'Відкрити MegaETH',
+    englishVersionLabel: 'Англійська версія'
+  },
+  {
+    id: 'megaeth',
+    slug: 'zh',
+    lang: 'zh-CN',
+    flag: '🇨🇳',
+    homeLabel: '首页',
+    hubLabel: '免费测试网',
+    hubHref: '/zh/free-testnets/',
+    title: 'MegaETH 空投教程 (2026)：Vitalik 参投 10万 TPS 免费测试网 | Airdroplyx',
+    description: 'Vitalik Buterin 与 Dragonfly Capital 投资 2000 万美元的实时 Ethereum Layer 2 MegaETH 测试网攻略：Rabby 连接与 dApp 交互。',
+    h1: 'MegaETH 免费测试网及空投参与指南',
+    badge: '融资 $20M • 零撸免费',
+    rewardLabel: '预估奖励',
+    costLabel: '参与成本',
+    snapshotLabel: '预期周期',
+    timeLabel: '每周耗时',
+    overviewHeading: '项目简介',
+    overview: 'MegaETH 是全球首个实时以太坊 Layer 2 区块链，通过内存计算实现 100,000 TPS 与毫秒级响应。项目获得 Vitalik Buterin 与 Dragonfly Capital 2000 万美元种子轮融资，已逐步开放社区测试网。',
+    tokenomicsHeading: '生态与代币经济',
+    tokenomics: '原生网络代币将用于去中心化排序器安全与治理，并预计为早期测试网参与者与开发者预留激励份额。',
+    stepsHeading: '详细参与步骤',
+    steps: [
+      '访问 MegaETH 官网（megaeth.systems）了解技术架构。',
+      '加入官方 MegaETH Discord 社区并完成身份验证。',
+      '积极参与社区讨论与 AMA 以获取早期贡献者徽章。',
+      '使用 Rabby 或 Rainbow 钱包连接官方公共测试网入口。',
+      '领取测试网燃料代币并体验高速链上游戏与 DEX 应用。'
+    ],
+    strategyHeading: '高收益策略',
+    strategy: '重点体验链上高频订单簿和实时互动游戏，并在官方反馈频道提交测试体验报告。',
+    sybilHeading: '防女巫机制与安全提示',
+    sybilSafety: 'MegaETH 会自动识别重复低差异的刷号交易。请保持真实多样的交互路径，切勿点击非官方水龙头链接。',
+    faqHeading: '常见问题',
+    faqs: [
+      {
+        q: 'MegaETH 的投资方有哪些？',
+        a: '由 Dragonfly Capital、Vitalik Buterin、Robot Ventures 与 Big Brain Holdings 共同投资 2000 万美元。'
+      },
+      {
+        q: '参加 MegaETH 测试网免费吗？',
+        a: '是的，公共测试阶段全程使用免费测试代币，零资金成本（$0）。'
+      }
+    ],
+    ctaText: '打开 MegaETH',
+    englishVersionLabel: '英文原版'
+  },
+  {
+    id: 'megaeth',
+    slug: 'hi',
+    lang: 'hi',
+    flag: '🇮🇳',
+    homeLabel: 'होम',
+    hubLabel: 'मुफ़्त टेस्टनेट',
+    hubHref: '/hi/free-testnets/',
+    title: 'MegaETH एयरड्रॉप गाइड (2026): 100k TPS मुफ़्त टेस्टनेट | Airdroplyx',
+    description: 'Vitalik Buterin और Dragonfly Capital समर्थित ($20M) रियल-टाइम Ethereum Layer 2 MegaETH टेस्टनेट में मुफ़्त भाग लेने और Rabby जोड़ने की गाइड।',
+    h1: 'MegaETH मुफ़्त टेस्टनेट और Layer 2 एयरड्रॉप गाइड',
+    badge: '$20M फंडिंग • मुफ़्त टेस्टनेट',
+    rewardLabel: 'अनुमानित इनाम',
+    costLabel: 'लागत',
+    snapshotLabel: 'अनुमानित समय',
+    timeLabel: 'साप्ताहिक समय',
+    overviewHeading: 'प्रोजेक्ट का परिचय',
+    overview: 'MegaETH इन-मेमोरी कंप्यूटिंग के जरिए 100,000 TPS देने वाला दुनिया का पहला रियल-टाइम Ethereum Layer 2 है। Vitalik Buterin और Dragonfly Capital से $20 मिलियन की फंडिंग के साथ यह पब्लिक टेस्टनेट चला रहा है।',
+    tokenomicsHeading: 'इकोसिस्टम और टोकनॉमिक्स',
+    tokenomics: 'नेटिव टोकन विकेंद्रीकृत सीक्वेंसर सुरक्षा और गवर्नेंस को पावर देगा, जिसमें शुरुआती टेस्टनेट प्रतिभागियों के लिए इनाम अपेक्षित हैं।',
+    stepsHeading: 'भाग लेने के आसान चरण',
+    steps: [
+      'आधिकारिक MegaETH वेबसाइट (megaeth.systems) पर जाएं।',
+      'आधिकारिक MegaETH Discord से जुड़ें और अकाउंट वेरिफाई करें।',
+      'शुरुआती योगदानकर्ता बैज पाने के लिए कम्युनिटी चर्चाओं में हिस्सा लें।',
+      'पब्लिक टेस्टनेट पोर्टल से अपना Rabby या Rainbow वॉलेट कनेक्ट करें।',
+      'टेस्ट गैस टोकन क्लेम करें और रियल-टाइम dApps आज़माएं।'
+    ],
+    strategyHeading: 'अधिकतम इनाम की रणनीति',
+    strategy: 'ऑन-चेन गेम्स और हाई-स्पीड DEX जैसे रियल-टाइम ऐप्स टेस्ट करें और आधिकारिक चैनलों पर फीडबैक दें।',
+    sybilHeading: 'सिबिल सुरक्षा और सावधानियाँ',
+    sybilSafety: 'MegaETH एक जैसे माइक्रो-ट्रांज़ैक्शन करने वाले बॉट्स को फ़िल्टर करता है। विविध dApps इस्तेमाल करें और केवल आधिकारिक लिंक खोलें।',
+    faqHeading: 'अक्सर पूछे जाने वाले प्रश्न',
+    faqs: [
+      {
+        q: 'MegaETH के निवेशक कौन हैं?',
+        a: 'Dragonfly Capital, Vitalik Buterin, Robot Ventures और Big Brain Holdings ने $20M राउंड में निवेश किया है।'
+      },
+      {
+        q: 'क्या MegaETH टेस्टनेट मुफ़्त है?',
+        a: 'हाँ, पब्लिक टेस्टिंग मुफ़्त ($0) टेस्ट टोकन से होती है।'
+      }
+    ],
+    ctaText: 'MegaETH खोलें',
+    englishVersionLabel: 'अंग्रेज़ी संस्करण'
+  },
+  {
+    id: 'megaeth',
+    slug: 'it',
+    lang: 'it',
+    flag: '🇮🇹',
+    homeLabel: 'Home',
+    hubLabel: 'Testnet Gratuiti',
+    hubHref: '/it/testnet-gratuiti/',
+    title: 'Guida Airdrop MegaETH (2026): Testnet 100k TPS Gratis | Airdroplyx',
+    description: 'Come partecipare gratis alla testnet MegaETH ($20M da Vitalik Buterin e Dragonfly Capital): collega Rabby e prova le dApp in tempo reale.',
+    h1: 'MegaETH: Guida Testnet Gratuita e Airdrop Layer 2',
+    badge: 'Finanziamento $20M • Gratis',
+    rewardLabel: 'Ricompensa stimata',
+    costLabel: 'Costo',
+    snapshotLabel: 'Periodo previsto',
+    timeLabel: 'Tempo settimanale',
+    overviewHeading: 'Panoramica del progetto',
+    overview: 'MegaETH è la prima blockchain Ethereum Layer 2 in tempo reale capace di raggiungere 100.000 TPS tramite calcolo in memoria. Sostenuta da 20 milioni di dollari da Vitalik Buterin e Dragonfly Capital, avvia fasi di test pubbliche.',
+    tokenomicsHeading: 'Ecosistema e Tokenomics',
+    tokenomics: 'L’asset nativo supporterà sequencer decentralizzati e governance, con incentivi attesi per i primi tester della testnet.',
+    stepsHeading: 'Come partecipare passo dopo passo',
+    steps: [
+      'Visita il sito ufficiale di MegaETH (megaeth.systems).',
+      'Unisciti al Discord ufficiale MegaETH e verifica il tuo account.',
+      'Partecipa alla community per ottenere i badge da primi collaboratori.',
+      'Collega il wallet Rabby o Rainbow al portale testnet pubblico.',
+      'Richiedi i token di test e interagisci con dApp e giochi in tempo reale.'
+    ],
+    strategyHeading: 'Strategia per massimizzare i punti',
+    strategy: 'Prova diverse applicazioni ad alta frequenza e invia segnalazioni utili nei canali ufficiali di feedback.',
+    sybilHeading: 'Sicurezza e protezione Sybil',
+    sybilSafety: 'MegaETH filtra automaticamente i bot ripetitivi. Varia le tue interazioni e usa solo i link ufficiali.',
+    faqHeading: 'Domande frequenti',
+    faqs: [
+      {
+        q: 'Chi ha investito in MegaETH?',
+        a: 'Dragonfly Capital, Vitalik Buterin, Robot Ventures e Big Brain Holdings hanno partecipato al round da $20M.'
+      },
+      {
+        q: 'La testnet di MegaETH è gratuita?',
+        a: 'Sì, i test pubblici sono gratuiti al 100% ($0).'
+      }
+    ],
+    ctaText: 'Apri MegaETH',
+    englishVersionLabel: 'Versione inglese'
+  },
+  {
+    id: 'megaeth',
+    slug: 'pl',
+    lang: 'pl',
+    flag: '🇵🇱',
+    homeLabel: 'Strona główna',
+    hubLabel: 'Darmowe Testnety',
+    hubHref: '/pl/darmowe-testnety/',
+    title: 'Poradnik Airdrop MegaETH (2026): Darmowy Testnet 100k TPS | Airdroplyx',
+    description: 'Jak za darmo testować MegaETH ($20M od Vitalika Buterina i Dragonfly Capital): podłącz Rabby, odbierz tokeny testowe i sprawdź dApps.',
+    h1: 'MegaETH: Poradnik Darmowego Testnetu i Airdropu Layer 2',
+    badge: 'Finansowanie $20M • Darmowy',
+    rewardLabel: 'Szacowana nagroda',
+    costLabel: 'Koszt',
+    snapshotLabel: 'Przewidywany okres',
+    timeLabel: 'Czas tygodniowo',
+    overviewHeading: 'Opis projektu',
+    overview: 'MegaETH to pierwszy na świecie blockchain Ethereum Layer 2 działający w czasie rzeczywistym z wydajnością 100 000 TPS dzięki przetwarzaniu w pamięci RAM. Wspierany kwotą 20 mln USD przez Vitalika Buterina i Dragonfly Capital.',
+    tokenomicsHeading: 'Ekosystem i Tokenomika',
+    tokenomics: 'Natywny token zasili zdecentralizowane sekwencery i zarządzanie, nagradzając wczesnych uczestników publicznego testnetu.',
+    stepsHeading: 'Instrukcja krok po kroku',
+    steps: [
+      'Odwiedź oficjalną stronę MegaETH (megaeth.systems).',
+      'Dołącz do oficjalnego Discorda MegaETH i przejdź weryfikację.',
+      'Udzielaj się na kanałach społecznościowych po wczesne odznaki.',
+      'Podłącz portfel Rabby lub Rainbow do publicznego portalu testnetu.',
+      'Odbierz darmowe tokeny testowe i testuj aplikacje w czasie rzeczywistym.'
+    ],
+    strategyHeading: 'Strategia maksymalizacji nagród',
+    strategy: 'Testuj gry on-chain oraz szybkie DEX-y, a następnie dziel się opiniami na oficjalnych kanałach.',
+    sybilHeading: 'Ochrona Anti-Sybil i bezpieczeństwo',
+    sybilSafety: 'MegaETH automatycznie odrzuca powtarzalne mikrotransakcje botów. Zadbaj o różnorodną aktywność i korzystaj wyłącznie z oficjalnych linków.',
+    faqHeading: 'Często zadawane pytania',
+    faqs: [
+      {
+        q: 'Kto wspiera MegaETH?',
+        a: 'Dragonfly Capital, Vitalik Buterin, Robot Ventures i Big Brain Holdings zainwestowali łącznie $20M.'
+      },
+      {
+        q: 'Czy testnet MegaETH jest darmowy?',
+        a: 'Tak, udział jest całkowicie darmowy ($0) na tokenach testowych.'
+      }
+    ],
+    ctaText: 'Otwórz MegaETH',
+    englishVersionLabel: 'Wersja angielska'
   }
 ];
 

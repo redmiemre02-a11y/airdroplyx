@@ -2,6 +2,7 @@
 import Layout from '../../../layouts/Layout.astro';
 import Header from '../../../components/Header.astro';
 import { airdrops } from '../../../data/airdrops';
+import { localizedAirdropGuides } from '../../../data/localizedAirdropGuides';
 
 const currentDate = new Date().toISOString().split('T')[0];
 const freeTestnets = airdrops
@@ -112,8 +113,11 @@ const trTestnetAlternates = [
       </div>
 
       <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
-        {freeTestnets.map(drop => (
-          <a href={`/airdrop/${drop.id}/`} class="bg-white dark:bg-slate-800 rounded-2xl p-5 border border-slate-200 dark:border-slate-700 hover:border-indigo-500 hover:shadow-lg transition-all flex flex-col justify-between group">
+        {freeTestnets.map(drop => {
+          const hasTrGuide = localizedAirdropGuides.some(g => g.id === drop.id && g.lang === 'tr');
+          const href = hasTrGuide ? `/tr/airdrop/${drop.id}/` : `/airdrop/${drop.id}/`;
+          return (
+          <a href={href} class="bg-white dark:bg-slate-800 rounded-2xl p-5 border border-slate-200 dark:border-slate-700 hover:border-indigo-500 hover:shadow-lg transition-all flex flex-col justify-between group">
             <div>
               <div class="flex items-center gap-3 mb-3">
                 <img src={drop.logo} alt={drop.name} width="48" height="48" loading="lazy" decoding="async" class="w-12 h-12 rounded-xl object-cover bg-slate-50 p-1 border border-slate-100 dark:border-slate-700 shrink-0" />
@@ -131,7 +135,8 @@ const trTestnetAlternates = [
               <span class="font-bold text-indigo-600 dark:text-indigo-400">Adımlar →</span>
             </div>
           </a>
-        ))}
+          );
+        })}
       </div>
     </section>
 
