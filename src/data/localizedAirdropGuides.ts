@@ -2901,6 +2901,1482 @@ export const localizedAirdropGuides: LocalizedAirdropGuide[] = [
     ],
     ctaText: 'Otwórz Major',
     englishVersionLabel: 'Wersja angielska'
+  },
+
+  // ================= PAWS (16 LANGUAGES) =================
+  {
+    id: 'paws',
+    slug: 'tr',
+    lang: 'tr',
+    flag: '🇹🇷',
+    homeLabel: 'Ana Sayfa',
+    hubLabel: 'Telegram Airdropları',
+    hubHref: '/tr/telegram-airdroplari/',
+    title: 'PAWS Airdrop Rehberi (2026): $PAWS Puan & Tonkeeper Bağlantısı | Airdroplyx',
+    description: '25M+ kullanıcılı PAWS Telegram Mini-App ile ekran tıklamadan Telegram hesap yaşı ve geçmiş $NOT/$DOGS iziniz üzerinden $PAWS kazanma rehberi.',
+    h1: 'PAWS ($PAWS) Telegram Airdrop ve Ayak İzi Ödül Rehberi',
+    badge: 'TON Ekosistemi • Ücretsiz',
+    rewardLabel: 'Tahmini Ödül',
+    costLabel: 'Maliyet',
+    snapshotLabel: 'Beklenen Dönem',
+    timeLabel: 'Günlük Süre',
+    overviewHeading: 'Proje Özeti',
+    overview: 'PAWS, ilk haftasında 25 milyonu aşkın kullanıcıya ulaşan ve TON ekosistemi geliştiricileri tarafından tasarlanan viral bir Telegram Mini Uygulamasıdır. Sürekli ekrana tıklamak yerine "Proof-of-Footprint" modeliyle çalışır; Telegram hesap yaşınızı ve geçmiş Notcoin ($NOT) ile $DOGS katılımınızı analiz ederek başlangıç $PAWS ödülü tanımlar.',
+    tokenomicsHeading: '$PAWS Tokenomik ve Dağıtım',
+    tokenomics: '$PAWS, TON ve Telegram oyun ekosistemi için topluluk odaklı bir kültür tokenı olarak tasarlanmıştır. Başlangıç arzının büyük kısmı gerçek, uzun süreli Telegram kullanıcılarına ayrılmıştır.',
+    stepsHeading: 'Adım Adım Katılım Rehberi',
+    steps: [
+      'Resmi PAWS Telegram Mini Uygulamasını başlatın ve profil taramasının tamamlanmasını bekleyin.',
+      'Telegram hesap yaşınıza ve geçmiş $NOT, $DOGS veya Hamster Kombat katılımınıza göre verilen başlangıç $PAWS puanınızı kontrol edin.',
+      'Tasks sekmesindeki topluluk, kanal ve partner doğrulama görevlerini tamamlayarak puanınızı katlayın.',
+      'Daha önce $DOGS veya $NOT aldığınız birincil Tonkeeper veya MyTonWallet cüzdanınızı bağlayın.',
+      'Günlük giriş bonuslarını toplayın ve topluluk oylamalarına katılarak ek ödül kazanın.'
+    ],
+    strategyHeading: 'Maksimum Ödül Stratejisi',
+    strategy: 'Süreli görevleri kaçırmamak için Tasks sekmesini düzenli kontrol edin. Geçmiş airdrop işlemlerine sahip ana Tonkeeper cüzdanınızı bağlamak yüksek ödül kademesi için avantaj sağlar.',
+    sybilHeading: 'Sybil Koruması ve Güvenlik',
+    sybilSafety: 'PAWS, ödülleri Telegram kullanıcı kimliği yaşı ve zincir üstü geçmişe göre hesapladığı için yeni açılmış sahte bot hesaplar neredeyse sıfır puan alır. Yalnızca resmi botu kullanın ve kurtarma kelimelerinizi paylaşmayın.',
+    faqHeading: 'Sıkça Sorulan Sorular',
+    faqs: [
+      {
+        q: 'PAWS kazanmak için ekrana tıklamam gerekiyor mu?',
+        a: 'Hayır, PAWS tıklama gerektirmez; puanlar hesap geçmişiniz ve doğrulanan görevler üzerinden otomatik verilir.'
+      },
+      {
+        q: 'PAWS airdrop katılımı ücretsiz mi?',
+        a: 'Evet, ayak izi hesaplaması ve görev katılımı tamamen ücretsizdir ($0).'
+      }
+    ],
+    ctaText: 'PAWS’ı Başlat',
+    englishVersionLabel: 'İngilizce Sürüm'
+  },
+  {
+    id: 'paws',
+    slug: 'ru',
+    lang: 'ru',
+    flag: '🇷🇺',
+    homeLabel: 'Главная',
+    hubLabel: 'Telegram-аирдропы',
+    hubHref: '/ru/telegram-airdrops/',
+    title: 'Гайд по аирдропу PAWS (2026): награда за активность и $PAWS | Airdroplyx',
+    description: 'Как получить дроп $PAWS в Telegram без тапов: проверка возраста аккаунта, истории $NOT и $DOGS, выполнение заданий и привязка Tonkeeper.',
+    h1: 'PAWS ($PAWS): гайд по аирдропу и системе Proof-of-Footprint',
+    badge: 'Экосистема TON • Бесплатно',
+    rewardLabel: 'Ожидаемая награда',
+    costLabel: 'Затраты',
+    snapshotLabel: 'Ожидаемый период',
+    timeLabel: 'Время в день',
+    overviewHeading: 'Обзор проекта',
+    overview: 'PAWS — вирусный Telegram Mini App, собравший более 25 миллионов пользователей за первую неделю. Вместо бесконечных кликов приложение оценивает ваш цифровой след: возраст аккаунта Telegram и прошлое участие в Notcoin ($NOT), $DOGS и Hamster Kombat.',
+    tokenomicsHeading: 'Токеномика $PAWS',
+    tokenomics: 'Токен $PAWS создаётся как комьюнити-токен экосистемы TON. Основная доля генезис-эмиссии направлена реальным давним пользователям Telegram, а не фермам новых аккаунтов.',
+    stepsHeading: 'Пошаговая инструкция',
+    steps: [
+      'Откройте официальный бот PAWS в Telegram и дождитесь анализа профиля.',
+      'Получите стартовые $PAWS за возраст аккаунта и прошлую активность в $NOT и $DOGS.',
+      'Выполните все задания во вкладке Tasks для увеличения баланса.',
+      'Подключите основной некастодиальный кошелек Tonkeeper или MyTonWallet с историей транзакций.',
+      'Участвуйте в голосованиях сообщества и забирайте ежедневные бонусы.'
+    ],
+    strategyHeading: 'Стратегия фарма',
+    strategy: 'Привяжите именно тот кошелек TON, на который вы ранее получали дропы $DOGS или $NOT, и регулярно проверяйте ограниченные по времени задания в разделе Tasks.',
+    sybilHeading: 'Защита от ботов и безопасность',
+    sybilSafety: 'Механика Proof-of-Footprint опирается на возраст Telegram ID и ончейн-историю, поэтому свежие бот-аккаунты почти ничего не получают. Никогда не передавайте сид-фразу.',
+    faqHeading: 'Частые вопросы',
+    faqs: [
+      {
+        q: 'Нужно ли кликать по экрану в PAWS?',
+        a: 'Нет, механика PAWS работает без тапов — очки начисляются за ваш цифровой след и задания.'
+      },
+      {
+        q: 'Участие в PAWS бесплатное?',
+        a: 'Да, проверка активности и выполнение квестов полностью бесплатны ($0).'
+      }
+    ],
+    ctaText: 'Открыть PAWS',
+    englishVersionLabel: 'Английская версия'
+  },
+  {
+    id: 'paws',
+    slug: 'id',
+    lang: 'id',
+    flag: '🇮🇩',
+    homeLabel: 'Beranda',
+    hubLabel: 'Airdrop Telegram',
+    hubHref: '/id/airdrop-telegram/',
+    title: 'Panduan Airdrop PAWS (2026): Klaim $PAWS Tanpa Tap | Airdroplyx',
+    description: 'Cara dapat airdrop PAWS di Telegram secara gratis berdasarkan umur akun dan riwayat $NOT/$DOGS serta cara menghubungkan dompet Tonkeeper.',
+    h1: 'PAWS ($PAWS): Panduan Airdrop Telegram Proof-of-Footprint',
+    badge: 'Ekosistem TON • Gratis',
+    rewardLabel: 'Estimasi Hadiah',
+    costLabel: 'Biaya',
+    snapshotLabel: 'Perkiraan Snapshot',
+    timeLabel: 'Waktu Harian',
+    overviewHeading: 'Ringkasan Proyek',
+    overview: 'PAWS adalah aplikasi mini Telegram viral yang meraih lebih dari 25 juta pengguna di minggu pertamanya. Tanpa perlu mengetuk layar, PAWS menghitung alokasi awal $PAWS berdasarkan usia akun Telegram serta riwayat partisipasi Anda di Notcoin ($NOT) dan $DOGS.',
+    tokenomicsHeading: 'Tokenomik $PAWS',
+    tokenomics: 'Token $PAWS dirancang sebagai token komunitas utama di ekosistem game TON dan Telegram, dengan porsi terbesar dialokasikan untuk pengguna Telegram asli jangka panjang.',
+    stepsHeading: 'Langkah-Langkah Mengikuti Airdrop',
+    steps: [
+      'Buka Mini App resmi PAWS di Telegram dan biarkan sistem memindai profil Anda.',
+      'Cek poin awal $PAWS dari usia akun serta riwayat klaim $NOT dan $DOGS.',
+      'Buka tab Tasks dan selesaikan misi verifikasi komunitas untuk poin tambahan.',
+      'Hubungkan dompet Tonkeeper atau MyTonWallet utama Anda yang memiliki riwayat on-chain.',
+      'Ikuti pemungutan suara komunitas dan klaim bonus harian yang tersedia.'
+    ],
+    strategyHeading: 'Strategi Maksimal',
+    strategy: 'Gunakan dompet TON yang sama saat Anda mengklaim $DOGS atau $NOT, lalu selesaikan semua misi terbatas waktu di tab Tasks agar tidak tertinggal pengganda poin.',
+    sybilHeading: 'Keamanan & Anti-Sybil',
+    sybilSafety: 'Karena hadiah bergantung pada usia ID Telegram dan rekam jejak on-chain, akun bot baru hampir tidak mendapatkan poin. Jangan pernah membagikan seed phrase Anda.',
+    faqHeading: 'Pertanyaan Umum',
+    faqs: [
+      {
+        q: 'Apakah harus tap layar di PAWS?',
+        a: 'Tidak, PAWS tidak memakai sistem tap; poin dihitung otomatis dari rekam jejak dan tugas.'
+      },
+      {
+        q: 'Apakah airdrop PAWS gratis?',
+        a: 'Ya, 100% gratis tanpa biaya apa pun ($0).'
+      }
+    ],
+    ctaText: 'Buka PAWS',
+    englishVersionLabel: 'Versi Bahasa Inggris'
+  },
+  {
+    id: 'paws',
+    slug: 'vi',
+    lang: 'vi',
+    flag: '🇻🇳',
+    homeLabel: 'Trang chủ',
+    hubLabel: 'Airdrop Telegram',
+    hubHref: '/vi/airdrop-telegram/',
+    title: 'Hướng dẫn Airdrop PAWS (2026): Nhận $PAWS không cần Tap | Airdroplyx',
+    description: 'Cách tham gia airdrop PAWS trên Telegram miễn phí: nhận điểm $PAWS theo tuổi tài khoản, lịch sử $NOT/$DOGS và kết nối ví Tonkeeper.',
+    h1: 'PAWS ($PAWS): Hướng dẫn Airdrop Telegram & Dấu ấn On-Chain',
+    badge: 'Hệ sinh thái TON • Miễn phí',
+    rewardLabel: 'Phần thưởng dự kiến',
+    costLabel: 'Chi phí',
+    snapshotLabel: 'Thời gian dự kiến',
+    timeLabel: 'Thời gian mỗi ngày',
+    overviewHeading: 'Tổng quan dự án',
+    overview: 'PAWS là Telegram Mini-App bùng nổ với hơn 25 triệu người dùng chỉ trong tuần đầu ra mắt. Thay vì chạm màn hình liên tục, PAWS phân tích tuổi tài khoản Telegram và lịch sử tham gia Notcoin ($NOT), $DOGS để cấp phân bổ $PAWS ban đầu.',
+    tokenomicsHeading: 'Tokenomics $PAWS',
+    tokenomics: 'Token $PAWS đóng vai trò token cộng đồng trên hệ sinh thái TON, ưu tiên phần lớn nguồn cung cho người dùng Telegram lâu năm thay vì tài khoản bot mới tạo.',
+    stepsHeading: 'Các bước tham gia chi tiết',
+    steps: [
+      'Mở Mini-App chính thức của PAWS trên Telegram để hệ thống quét hồ sơ.',
+      'Nhận số điểm $PAWS khởi đầu dựa trên tuổi tài khoản và lịch sử $NOT, $DOGS.',
+      'Vào mục Tasks hoàn thành các nhiệm vụ xác minh cộng đồng để tăng điểm.',
+      'Kết nối ví Tonkeeper hoặc MyTonWallet chính có lịch sử giao dịch trên TON.',
+      'Tham gia bình chọn cộng đồng và điểm danh nhận thưởng bổ sung.'
+    ],
+    strategyHeading: 'Chiến lược tối ưu điểm',
+    strategy: 'Hãy liên kết đúng ví TON bạn từng dùng nhận $DOGS hoặc $NOT và hoàn thành sớm các nhiệm vụ giới hạn thời gian trong tab Tasks.',
+    sybilHeading: 'Chống Sybil & Bảo mật',
+    sybilSafety: 'Thuật toán dựa trên tuổi ID Telegram và dữ liệu on-chain giúp loại bỏ hiệu quả các farm bot mới tạo. Tuyệt đối không chia sẻ cụm từ khôi phục ví.',
+    faqHeading: 'Câu hỏi thường gặp',
+    faqs: [
+      {
+        q: 'Chơi PAWS có cần tap màn hình không?',
+        a: 'Không, PAWS không yêu cầu tap; điểm được tính từ dấu ấn tài khoản và nhiệm vụ.'
+      },
+      {
+        q: 'Tham gia PAWS có miễn phí không?',
+        a: 'Có, hoàn toàn miễn phí ($0) để kiểm tra điểm và làm nhiệm vụ.'
+      }
+    ],
+    ctaText: 'Mở PAWS',
+    englishVersionLabel: 'Bản tiếng Anh'
+  },
+  {
+    id: 'paws',
+    slug: 'es',
+    lang: 'es',
+    flag: '🇪🇸',
+    homeLabel: 'Inicio',
+    hubLabel: 'Airdrops de Telegram',
+    hubHref: '/es/airdrops-telegram/',
+    title: 'Guía Airdrop PAWS (2026): Reclamar $PAWS sin Taps en TON | Airdroplyx',
+    description: 'Cómo participar gratis en el airdrop PAWS en Telegram: calcula tu puntuación por antigüedad de cuenta, historial en $NOT/$DOGS y conecta Tonkeeper.',
+    h1: 'PAWS ($PAWS): Guía del Airdrop en Telegram por Huella Digital',
+    badge: 'Ecosistema TON • Gratis',
+    rewardLabel: 'Recompensa estimada',
+    costLabel: 'Costo',
+    snapshotLabel: 'Periodo estimado',
+    timeLabel: 'Tiempo diario',
+    overviewHeading: 'Resumen del proyecto',
+    overview: 'PAWS es una Mini App viral de Telegram que superó los 25 millones de usuarios en su primera semana. En lugar de hacer clics repetitivos, utiliza el modelo Proof-of-Footprint evaluando la antigüedad de tu cuenta y tu historial en Notcoin ($NOT) y $DOGS.',
+    tokenomicsHeading: 'Tokenomics de $PAWS',
+    tokenomics: 'El token $PAWS está diseñado como moneda comunitaria del ecosistema TON, destinando la mayor parte del suministro inicial a usuarios reales con historial verificado.',
+    stepsHeading: 'Pasos para participar',
+    steps: [
+      'Inicia la Mini App oficial de PAWS en Telegram para que analice tu perfil.',
+      'Reclama tu puntuación base de $PAWS según tu antigüedad e historial en $NOT y $DOGS.',
+      'Completa las misiones de la pestaña Tasks para multiplicar tus puntos.',
+      'Conecta tu billetera principal Tonkeeper o MyTonWallet con actividad previa en TON.',
+      'Participa en votaciones comunitarias y recoge bonos diarios.'
+    ],
+    strategyHeading: 'Estrategia para maximizar recompensas',
+    strategy: 'Vincula la misma billetera TON que usaste para $DOGS o $NOT y revisa con frecuencia las tareas temporales en Tasks.',
+    sybilHeading: 'Seguridad y protección Sybil',
+    sybilSafety: 'Al basarse en la antigüedad real del ID de Telegram y registros on-chain, las cuentas bot recién creadas apenas reciben puntos. Nunca compartas tu frase semilla.',
+    faqHeading: 'Preguntas frecuentes',
+    faqs: [
+      {
+        q: '¿Hay que pulsar la pantalla en PAWS?',
+        a: 'No, PAWS no requiere hacer taps; los puntos se asignan automáticamente por tu historial y tareas.'
+      },
+      {
+        q: '¿Es gratis el airdrop de PAWS?',
+        a: 'Sí, participar y calcular tu puntuación es 100% gratuito ($0).'
+      }
+    ],
+    ctaText: 'Abrir PAWS',
+    englishVersionLabel: 'Versión en inglés'
+  },
+  {
+    id: 'paws',
+    slug: 'pt',
+    lang: 'pt',
+    flag: '🇧🇷',
+    homeLabel: 'Início',
+    hubLabel: 'Airdrops do Telegram',
+    hubHref: '/pt/airdrops-telegram/',
+    title: 'Guia Airdrop PAWS (2026): Ganhar $PAWS Sem Cliques no TON | Airdroplyx',
+    description: 'Veja como participar do airdrop PAWS no Telegram grátis: pontuação por tempo de conta, histórico em $NOT/$DOGS e conexão com Tonkeeper.',
+    h1: 'PAWS ($PAWS): Guia do Airdrop no Telegram por Histórico',
+    badge: 'Ecossistema TON • Grátis',
+    rewardLabel: 'Recompensa estimada',
+    costLabel: 'Custo',
+    snapshotLabel: 'Previsão',
+    timeLabel: 'Tempo diário',
+    overviewHeading: 'Visão geral do projeto',
+    overview: 'PAWS é um Mini App viral do Telegram que ultrapassou 25 milhões de usuários na primeira semana. Em vez de exigir toques repetitivos, ele avalia a idade da sua conta e seu histórico em Notcoin ($NOT) e $DOGS para liberar tokens $PAWS.',
+    tokenomicsHeading: 'Tokenomics do $PAWS',
+    tokenomics: 'O token $PAWS atua como ativo comunitário do ecossistema TON, priorizando usuários antigos do Telegram com histórico real de participação.',
+    stepsHeading: 'Passo a passo para participar',
+    steps: [
+      'Abra o Mini App oficial do PAWS no Telegram e aguarde a análise do perfil.',
+      'Confira sua pontuação inicial em $PAWS pela idade da conta e histórico em $NOT e $DOGS.',
+      'Acesse a aba Tasks e conclua todas as missões sociais disponíveis.',
+      'Conecte sua carteira Tonkeeper ou MyTonWallet principal com histórico na rede TON.',
+      'Participe das votações da comunidade e garanta bônus extras.'
+    ],
+    strategyHeading: 'Estratégia de ganhos',
+    strategy: 'Conecte a mesma carteira TON usada para resgatar $DOGS ou $NOT e acompanhe as tarefas por tempo limitado na aba Tasks.',
+    sybilHeading: 'Proteção Sybil e segurança',
+    sybilSafety: 'Como a pontuação depende da idade do ID do Telegram e registros on-chain, contas bot recém-criadas recebem praticamente zero. Nunca revele sua frase secreta.',
+    faqHeading: 'Perguntas frequentes',
+    faqs: [
+      {
+        q: 'Precisa ficar tocando na tela no PAWS?',
+        a: 'Não, o PAWS não usa mecânica de clique; os pontos vêm do histórico e das missões.'
+      },
+      {
+        q: 'O airdrop PAWS é gratuito?',
+        a: 'Sim, totalmente gratuito ($0) para participar.'
+      }
+    ],
+    ctaText: 'Abrir PAWS',
+    englishVersionLabel: 'Versão em inglês'
+  },
+  {
+    id: 'paws',
+    slug: 'ko',
+    lang: 'ko',
+    flag: '🇰🇷',
+    homeLabel: '홈',
+    hubLabel: '텔레그램 에어드랍',
+    hubHref: '/ko/telegram-airdrops/',
+    title: 'PAWS 에어드랍 가이드 (2026): 탭 없이 $PAWS 받기 & Tonkeeper | Airdroplyx',
+    description: '출시 첫 주 2,500만 유저를 돌파한 PAWS 텔레그램 미니앱 가이드: 계정 연식 및 $NOT/$DOGS 이력 기반 $PAWS 보상 확인 및 Tonkeeper 연동.',
+    h1: 'PAWS ($PAWS) 텔레그램 에어드랍 및 활동 이력 보상 가이드',
+    badge: 'TON 생태계 • 무료',
+    rewardLabel: '예상 보상',
+    costLabel: '비용',
+    snapshotLabel: '예상 시기',
+    timeLabel: '일일 소요 시간',
+    overviewHeading: '프로젝트 개요',
+    overview: 'PAWS는 출시 첫 주 만에 2,500만 명 이상이 참여한 텔레그램 미니앱입니다. 화면을 반복해서 두드리는 대신 텔레그램 계정 연식과 과거 Notcoin($NOT), $DOGS 참여 기록을 분석해 $PAWS 포인트를 즉시 지급합니다.',
+    tokenomicsHeading: '$PAWS 토크노믹스',
+    tokenomics: '$PAWS는 TON 생태계의 커뮤니티 토큰으로, 신규 봇 계정이 아닌 실제 장기 텔레그램 사용자에게 초기 물량의 핵심 비중을 배정합니다.',
+    stepsHeading: '단계별 참여 방법',
+    steps: [
+      '텔레그램에서 공식 PAWS 미니앱을 실행하고 프로필 스캔을 완료하세요.',
+      '계정 연식과 $NOT, $DOGS 참여 이력에 따른 기본 $PAWS 점수를 확인하세요.',
+      'Tasks 탭의 커뮤니티 및 파트너 미션을 완료해 보너스 점수를 받으세요.',
+      '기존 온체인 거래 기록이 있는 기본 Tonkeeper 또는 MyTonWallet을 연결하세요.',
+      '커뮤니티 투표와 일일 보너스 이벤트에 참여하세요.'
+    ],
+    strategyHeading: '보상 극대화 전략',
+    strategy: '과거 $DOGS나 $NOT을 클레임했던 동일한 TON 지갑을 연결하고, Tasks 탭의 기간 한정 미션을 놓치지 않고 완료하는 것이 중요합니다.',
+    sybilHeading: '시빌 방지 및 보안',
+    sybilSafety: '텔레그램 ID 연식과 온체인 기록을 기반으로 점수를 산정하므로 신규 봇 계정은 사실상 보상을 받기 어렵습니다. 지갑 복구 구문은 절대 공유하지 마세요.',
+    faqHeading: '자주 묻는 질문',
+    faqs: [
+      {
+        q: 'PAWS는 화면을 탭해야 하나요?',
+        a: '아니요, 탭 작업 없이 활동 이력과 검증 미션만으로 포인트가 부여됩니다.'
+      },
+      {
+        q: 'PAWS 참여 비용이 드나요?',
+        a: '아니요, 비용 없이 무료($0)로 참여할 수 있습니다.'
+      }
+    ],
+    ctaText: 'PAWS 시작하기',
+    englishVersionLabel: '영문 버전'
+  },
+  {
+    id: 'paws',
+    slug: 'ja',
+    lang: 'ja',
+    flag: '🇯🇵',
+    homeLabel: 'ホーム',
+    hubLabel: 'Telegramエアドロップ',
+    hubHref: '/ja/telegram-airdrops/',
+    title: 'PAWS エアドロップ攻略 (2026): タップ不要で$PAWS獲得 | Airdroplyx',
+    description: '初週2,500万人超えのTelegramアプリPAWS完全ガイド：アカウント歴や$NOT/$DOGS実績に応じた$PAWS付与とTonkeeper接続手順。',
+    h1: 'PAWS ($PAWS) Telegramエアドロップ＆活動履歴報酬ガイド',
+    badge: 'TONエコシステム • 無料',
+    rewardLabel: '予想報酬',
+    costLabel: '費用',
+    snapshotLabel: '予定時期',
+    timeLabel: '1日の作業時間',
+    overviewHeading: 'プロジェクト概要',
+    overview: 'PAWSは公開初週で2,500万人以上のユーザーを集めたTelegramミニアプリです。画面連打の代わりに、Telegramアカウント歴や過去のNotcoin（$NOT）・$DOGSへの参加履歴を自動判定して$PAWSポイントを付与します。',
+    tokenomicsHeading: '$PAWS トケノミクス',
+    tokenomics: '$PAWSはTONエコシステム向けのコミュニティトークンとして設計され、新規ボットではなく長期のTelegramユーザーへ厚く配分されます。',
+    stepsHeading: '参加ステップ',
+    steps: [
+      'Telegramで公式PAWSミニアプリを起動し、プロフィールスキャンを実行します。',
+      'アカウント歴および$NOT・$DOGS参加実績に基づく初期$PAWSスコアを確認します。',
+      'Tasksタブのコミュニティミッションを完了してポイントを増やします。',
+      '過去の履歴があるメインのTonkeeperまたはMyTonWalletを接続します。',
+      'コミュニティ投票やデイリーボーナスに参加します。'
+    ],
+    strategyHeading: '報酬最大化のコツ',
+    strategy: '過去に$DOGSや$NOTを受け取ったTONウォレットを接続し、Tasksタブの期間限定クエストを早めに消化するのが有効です。',
+    sybilSafety: 'Telegram IDの年数とオンチェーン履歴に基づくため、新規作成ボットはほぼ報酬を得られません。シードフレーズは厳重に管理してください。',
+    sybilHeading: 'シビル対策と安全性',
+    faqHeading: 'よくある質問',
+    faqs: [
+      {
+        q: 'PAWSは画面タップが必要ですか？',
+        a: 'いいえ、タップは不要で活動履歴とタスク完了でポイントが付与されます。'
+      },
+      {
+        q: 'PAWSは無料で参加できますか？',
+        a: 'はい、完全無料（$0）で参加できます。'
+      }
+    ],
+    ctaText: 'PAWSを開く',
+    englishVersionLabel: '英語版を見る'
+  },
+  {
+    id: 'paws',
+    slug: 'ar',
+    lang: 'ar',
+    flag: '🇸🇦',
+    homeLabel: 'الرئيسية',
+    hubLabel: 'إيردروبات تيليجرام',
+    hubHref: '/ar/telegram-airdrops/',
+    title: 'دليل إيردروب PAWS (2026): ربح $PAWS بدون نقر | Airdroplyx',
+    description: 'دليل شامل للمشاركة مجاناً في إيردروب PAWS على تيليجرام: احصل على $PAWS بناءً على عمر حسابك ومشاركات $NOT و$DOGS وربط Tonkeeper.',
+    h1: 'PAWS ($PAWS): دليل إيردروب تيليجرام ومكافآت النشاط السابق',
+    badge: 'نظام TON • مجاني',
+    rewardLabel: 'المكافأة المتوقعة',
+    costLabel: 'التكلفة',
+    snapshotLabel: 'الفترة المتوقعة',
+    timeLabel: 'الوقت اليومي',
+    overviewHeading: 'نظرة عامة على المشروع',
+    overview: 'تطبيق PAWS هو تطبيق تيليجرام مصغر حقق أكثر من 25 مليون مستخدم في أسبوعه الأول. بدلاً من النقر المستمر، يحسب التطبيق نقاط $PAWS تلقائياً استناداً إلى عمر حسابك في تيليجرام وسجلك في Notcoin ($NOT) و$DOGS.',
+    tokenomicsHeading: 'اقتصاديات $PAWS',
+    tokenomics: 'صُممت عملة $PAWS كعملة مجتمعية لنظام TON، مع تخصيص الحصة الأكبر للمستخدمين الحقيقيين ذوي السجل التاريخي الموثق.',
+    stepsHeading: 'خطوات المشاركة',
+    steps: [
+      'افتح تطبيق PAWS الرسمي داخل تيليجرام وانتظر فحص ملفك الشخصي.',
+      'اطلع على نقاط $PAWS الأولية الممنوحة حسب عمر حسابك ومشاركتك في $NOT و$DOGS.',
+      'أكمل مهام التحقق المجتمعية في تبويب Tasks لزيادة رصيدك.',
+      'اربط محفظة Tonkeeper أو MyTonWallet الأساسية التي تحتوي على سجل معاملات على TON.',
+      'شارك في تصويت المجتمع واجمع المكافآت اليومية.'
+    ],
+    strategyHeading: 'استراتيجية تعظيم المكافآت',
+    strategy: 'اربط نفس محفظة TON التي استخدمتها في إيردروبات $DOGS أو $NOT، وتابع تبويب Tasks باستمرار لإنجاز المهام المؤقتة.',
+    sybilHeading: 'الحماية من الحسابات الوهمية والأمان',
+    sybilSafety: 'يعتمد PAWS على عمر معرّف تيليجرام والسجل على السلسلة، مما يحرم الحسابات الوهمية الجديدة من المكافآت. لا تشارك عبارة الاسترداد أبداً.',
+    faqHeading: 'الأسئلة الشائعة',
+    faqs: [
+      {
+        q: 'هل يتطلب PAWS النقر على الشاشة؟',
+        a: 'لا، لا يتطلب PAWS أي نقر؛ تُمنح النقاط تلقائياً حسب نشاطك السابق والمهام.'
+      },
+      {
+        q: 'هل المشاركة في PAWS مجانية؟',
+        a: 'نعم، الفحص والمشاركة مجانيان 100% ($0).'
+      }
+    ],
+    ctaText: 'افتح PAWS',
+    englishVersionLabel: 'النسخة الإنجليزية'
+  },
+  {
+    id: 'paws',
+    slug: 'de',
+    lang: 'de',
+    flag: '🇩🇪',
+    homeLabel: 'Startseite',
+    hubLabel: 'Telegram-Airdrops',
+    hubHref: '/de/telegram-airdrops/',
+    title: 'PAWS Airdrop Guide (2026): $PAWS ohne Klicken erhalten | Airdroplyx',
+    description: 'Anleitung für den PAWS Airdrop auf Telegram: Erhalte $PAWS basierend auf deinem Kontoalter, deiner $NOT/$DOGS-Historie und verbinde Tonkeeper.',
+    h1: 'PAWS ($PAWS): Telegram-Airdrop & Proof-of-Footprint Guide',
+    badge: 'TON-Ökosystem • Kostenlos',
+    rewardLabel: 'Geschätzte Belohnung',
+    costLabel: 'Kosten',
+    snapshotLabel: 'Erwarteter Zeitraum',
+    timeLabel: 'Täglicher Aufwand',
+    overviewHeading: 'Projektübersicht',
+    overview: 'PAWS ist eine virale Telegram Mini App mit über 25 Millionen Nutzern in der ersten Woche. Statt ständigem Tippen bewertet PAWS dein Telegram-Kontoalter sowie deine bisherige Teilnahme an Notcoin ($NOT) und $DOGS für deine $PAWS-Zuteilung.',
+    tokenomicsHeading: '$PAWS Tokenomics',
+    tokenomics: '$PAWS ist als Community-Token für das TON-Ökosystem konzipiert, wobei der größte Anteil an echte, langjährige Telegram-Nutzer geht.',
+    stepsHeading: 'Schritt-für-Schritt-Anleitung',
+    steps: [
+      'Öffne die offizielle PAWS Mini App in Telegram und lasse dein Profil scannen.',
+      'Prüfe deine Start-Zuteilung an $PAWS anhand von Kontoalter sowie $NOT- und $DOGS-Historie.',
+      'Erledige alle Community-Aufgaben im Reiter Tasks für zusätzliche Punkte.',
+      'Verbinde deine primäre Tonkeeper- oder MyTonWallet-Wallet mit On-Chain-Historie.',
+      'Nimm an Community-Abstimmungen teil und sichere dir tägliche Boni.'
+    ],
+    strategyHeading: 'Strategie für maximale Punkte',
+    strategy: 'Verknüpfe genau die TON-Wallet, mit der du zuvor $DOGS oder $NOT beansprucht hast, und erledige zeitlich begrenzte Quests im Reiter Tasks.',
+    sybilHeading: 'Sybil-Schutz & Sicherheit',
+    sybilSafety: 'Da PAWS Kontoalter und On-Chain-Historie prüft, gehen neu erstellte Bot-Konten praktisch leer aus. Teile niemals deine Seed-Phrase.',
+    faqHeading: 'Häufig gestellte Fragen',
+    faqs: [
+      {
+        q: 'Muss man bei PAWS auf den Bildschirm tippen?',
+        a: 'Nein, PAWS funktioniert komplett ohne Tippen über Historie und verifizierte Aufgaben.'
+      },
+      {
+        q: 'Ist der PAWS Airdrop kostenlos?',
+        a: 'Ja, die Teilnahme ist zu 100 % kostenlos ($0).'
+      }
+    ],
+    ctaText: 'PAWS öffnen',
+    englishVersionLabel: 'Englische Version'
+  },
+  {
+    id: 'paws',
+    slug: 'fr',
+    lang: 'fr',
+    flag: '🇫🇷',
+    homeLabel: 'Accueil',
+    hubLabel: 'Airdrops Telegram',
+    hubHref: '/fr/airdrops-telegram/',
+    title: 'Guide Airdrop PAWS (2026) : Gagner $PAWS sans cliquer | Airdroplyx',
+    description: 'Comment participer gratuitement à l’airdrop PAWS sur Telegram : score basé sur l’ancienneté, l’historique $NOT/$DOGS et connexion Tonkeeper.',
+    h1: 'PAWS ($PAWS) : Guide Airdrop Telegram et Empreinte On-Chain',
+    badge: 'Écosystème TON • Gratuit',
+    rewardLabel: 'Récompense estimée',
+    costLabel: 'Coût',
+    snapshotLabel: 'Période estimée',
+    timeLabel: 'Temps quotidien',
+    overviewHeading: 'Présentation du projet',
+    overview: 'PAWS est une Mini App Telegram virale ayant réuni plus de 25 millions d’utilisateurs dès sa première semaine. Au lieu de tapoter sans fin, PAWS analyse l’ancienneté de votre compte Telegram et votre participation passée à Notcoin ($NOT) et $DOGS.',
+    tokenomicsHeading: 'Tokenomics de $PAWS',
+    tokenomics: 'Le jeton $PAWS sert de jeton communautaire pour l’écosystème TON, en récompensant prioritairement les utilisateurs authentiques et anciens de Telegram.',
+    stepsHeading: 'Étapes pour participer',
+    steps: [
+      'Lancez la Mini App officielle PAWS sur Telegram et laissez l’analyse du profil se terminer.',
+      'Consultez votre score initial $PAWS issu de votre ancienneté et de votre historique $NOT et $DOGS.',
+      'Complétez les quêtes communautaires dans l’onglet Tasks pour multiplier vos points.',
+      'Connectez votre portefeuille principal Tonkeeper ou MyTonWallet disposant d’un historique TON.',
+      'Participez aux votes communautaires et réclamez les bonus quotidiens.'
+    ],
+    strategyHeading: 'Stratégie d’optimisation',
+    strategy: 'Liez le même portefeuille TON utilisé pour $DOGS ou $NOT et surveillez régulièrement les missions limitées dans le temps de l’onglet Tasks.',
+    sybilHeading: 'Protection Anti-Sybil et sécurité',
+    sybilSafety: 'L’attribution reposant sur l’âge réel de l’ID Telegram et les traces on-chain, les fermes de bots récentes ne reçoivent presque rien. Ne partagez jamais votre phrase secrète.',
+    faqHeading: 'Questions fréquentes',
+    faqs: [
+      {
+        q: 'Faut-il tapoter l’écran dans PAWS ?',
+        a: 'Non, PAWS ne demande aucun tapotement ; les points proviennent de votre historique et des tâches.'
+      },
+      {
+        q: 'L’airdrop PAWS est-il gratuit ?',
+        a: 'Oui, la participation est 100 % gratuite ($0).'
+      }
+    ],
+    ctaText: 'Ouvrir PAWS',
+    englishVersionLabel: 'Version anglaise'
+  },
+  {
+    id: 'paws',
+    slug: 'uk',
+    lang: 'uk',
+    flag: '🇺🇦',
+    homeLabel: 'Головна',
+    hubLabel: 'Telegram-аірдропи',
+    hubHref: '/uk/telegram-airdrops/',
+    title: 'Гайд з аірдропу PAWS (2026): нагорода $PAWS без кліків | Airdroplyx',
+    description: 'Як отримати аірдроп PAWS у Telegram без тапів: оцінка віку акаунта, історія $NOT/$DOGS, завдання та підключення Tonkeeper.',
+    h1: 'PAWS ($PAWS): гайд з аірдропу та системи Proof-of-Footprint',
+    badge: 'Екосистема TON • Безкоштовно',
+    rewardLabel: 'Очікувана винагорода',
+    costLabel: 'Витрати',
+    snapshotLabel: 'Очікуваний період',
+    timeLabel: 'Час на день',
+    overviewHeading: 'Огляд проєкту',
+    overview: 'PAWS — вірусний Telegram Mini App, який зібрав понад 25 мільйонів користувачів за перший тиждень. Замість нескінченних кліків сервіс оцінює вік вашого Telegram-акаунта та участь у Notcoin ($NOT) і $DOGS для нарахування $PAWS.',
+    tokenomicsHeading: 'Токеноміка $PAWS',
+    tokenomics: 'Токен $PAWS створюється як ком’юніті-актив екосистеми TON, де основна частка розподіляється серед реальних давніх користувачів Telegram.',
+    stepsHeading: 'Покрокова інструкція',
+    steps: [
+      'Відкрийте офіційний бот PAWS у Telegram і дочекайтеся сканування профілю.',
+      'Отримайте стартові бали $PAWS за вік акаунта та історію $NOT і $DOGS.',
+      'Виконайте всі завдання у вкладці Tasks для збільшення балансу.',
+      'Підключіть основний гаманець Tonkeeper або MyTonWallet з історією транзакцій у TON.',
+      'Беріть участь у голосуваннях спільноти та забирайте щоденні бонуси.'
+    ],
+    strategyHeading: 'Стратегія максимізації нагород',
+    strategy: 'Прив’яжіть той самий TON-гаманець, на який ви отримували $DOGS чи $NOT, і вчасно виконуйте обмежені за часом завдання у Tasks.',
+    sybilHeading: 'Захист від Sybil та безпека',
+    sybilSafety: 'Оскільки бали залежать від віку Telegram ID та ончейн-історії, свіжі бот-ферми майже нічого не отримують. Ніколи не передавайте сід-фразу.',
+    faqHeading: 'Часті запитання',
+    faqs: [
+      {
+        q: 'Чи потрібно тапати по екрану в PAWS?',
+        a: 'Ні, PAWS не вимагає кліків — бали нараховуються за ваш цифровий слід і завдання.'
+      },
+      {
+        q: 'Чи безкоштовна участь у PAWS?',
+        a: 'Так, участь і перевірка історії повністю безкоштовні ($0).'
+      }
+    ],
+    ctaText: 'Відкрити PAWS',
+    englishVersionLabel: 'Англійська версія'
+  },
+  {
+    id: 'paws',
+    slug: 'zh',
+    lang: 'zh-CN',
+    flag: '🇨🇳',
+    homeLabel: '首页',
+    hubLabel: 'Telegram 空投',
+    hubHref: '/zh/telegram-airdrops/',
+    title: 'PAWS 空投教程 (2026)：免点击领取 $PAWS 与 TON 绑定 | Airdroplyx',
+    description: '上线首周突破 2500 万用户的 PAWS Telegram 小程序攻略：依据账号注册年限及 $NOT/$DOGS 历史领取 $PAWS 并绑定 Tonkeeper。',
+    h1: 'PAWS ($PAWS) Telegram 空投及链上足迹奖励指南',
+    badge: 'TON 生态 • 零撸免费',
+    rewardLabel: '预估奖励',
+    costLabel: '参与成本',
+    snapshotLabel: '预期周期',
+    timeLabel: '每日耗时',
+    overviewHeading: '项目简介',
+    overview: 'PAWS 是上线首周即吸引超 2500 万用户的现象级 Telegram 小程序。它无需繁琐点击屏幕，而是通过分析你的 Telegram 账号年龄以及 Notcoin ($NOT) 与 $DOGS 的历史参与记录直接发放 $PAWS 积分。',
+    tokenomicsHeading: '$PAWS 代币经济',
+    tokenomics: '$PAWS 定位为 TON 与 Telegram 游戏生态的社区文化代币，创世供应的大部分份额优先分配给真实的老牌 Telegram 用户。',
+    stepsHeading: '详细参与步骤',
+    steps: [
+      '在 Telegram 中打开官方 PAWS 小程序并等待账号足迹扫描完成。',
+      '查看根据账号年限以及 $NOT、$DOGS 参与记录发放的初始 $PAWS 分数。',
+      '前往 Tasks 栏目完成社区与合作方验证任务以提升积分。',
+      '绑定曾领取过 $DOGS 或 $NOT 的主用 Tonkeeper 或 MyTonWallet 钱包。',
+      '参与社区投票并领取每日活跃奖励。'
+    ],
+    strategyHeading: '高收益策略',
+    strategy: '务必绑定拥有历史空投记录的同一 TON 钱包，并定期查看 Tasks 中的限时任务以获取额外加成。',
+    sybilHeading: '防女巫机制与安全提示',
+    sybilSafety: 'PAWS 根据不可篡改的 Telegram ID 年限和链上记录分配积分，批量新建的小号几乎零收益。切勿泄露钱包助记词。',
+    faqHeading: '常见问题',
+    faqs: [
+      {
+        q: '玩 PAWS 需要不停点击屏幕吗？',
+        a: '不需要，PAWS 无需点屏幕，积分完全由账号历史足迹和验证任务决定。'
+      },
+      {
+        q: '参与 PAWS 空投免费吗？',
+        a: '是的，足迹评估与任务参与 100% 免费（$0）。'
+      }
+    ],
+    ctaText: '打开 PAWS',
+    englishVersionLabel: '英文原版'
+  },
+  {
+    id: 'paws',
+    slug: 'hi',
+    lang: 'hi',
+    flag: '🇮🇳',
+    homeLabel: 'होम',
+    hubLabel: 'टेलीग्राम एयरड्रॉप',
+    hubHref: '/hi/telegram-airdrops/',
+    title: 'PAWS एयरड्रॉप गाइड (2026): बिना टैप किए $PAWS और Tonkeeper | Airdroplyx',
+    description: 'पहले हफ्ते में 2.5 करोड़+ यूज़र्स वाले PAWS Telegram मिनी-ऐप में मुफ्त भाग लें: अकाउंट की उम्र, $NOT/$DOGS हिस्ट्री और Tonkeeper कनेक्शन।',
+    h1: 'PAWS ($PAWS) टेलीग्राम एयरड्रॉप और फुटप्रिंट रिवॉर्ड गाइड',
+    badge: 'TON इकोसिस्टम • मुफ़्त',
+    rewardLabel: 'अनुमानित इनाम',
+    costLabel: 'लागत',
+    snapshotLabel: 'अनुमानित समय',
+    timeLabel: 'दैनिक समय',
+    overviewHeading: 'प्रोजेक्ट का परिचय',
+    overview: 'PAWS एक वायरल Telegram मिनी-ऐप है जिसने पहले ही सप्ताह में 2.5 करोड़ से अधिक यूज़र्स जोड़े। स्क्रीन टैप करने के बजाय, यह आपके Telegram अकाउंट की उम्र और Notcoin ($NOT) व $DOGS में पिछली भागीदारी के आधार पर $PAWS पॉइंट्स देता है।',
+    tokenomicsHeading: '$PAWS टोकनॉमिक्स',
+    tokenomics: '$PAWS को TON इकोसिस्टम के कम्युनिटी टोकन के रूप में बनाया गया है, जिसमें बड़ा हिस्सा असली और पुराने Telegram यूज़र्स के लिए आरक्षित है।',
+    stepsHeading: 'भाग लेने के आसान चरण',
+    steps: [
+      'Telegram में आधिकारिक PAWS मिनी-ऐप खोलें और प्रोफाइल स्कैन पूरा होने दें।',
+      'अकाउंट की उम्र और $NOT, $DOGS हिस्ट्री के अनुसार मिले शुरुआती $PAWS देखें।',
+      'अतिरिक्त पॉइंट्स के लिए Tasks टैब के सभी सोशल और कम्युनिटी मिशन पूरे करें।',
+      'ऑन-चेन हिस्ट्री वाला अपना मुख्य Tonkeeper या MyTonWallet वॉलेट कनेक्ट करें।',
+      'कम्युनिटी वोटिंग और दैनिक बोनस क्लेम में भाग लें।'
+    ],
+    strategyHeading: 'अधिकतम इनाम की रणनीति',
+    strategy: 'वही TON वॉलेट लिंक करें जिससे आपने पहले $DOGS या $NOT क्लेम किया था, और Tasks टैब के सीमित समय वाले मिशन समय पर पूरे करें।',
+    sybilHeading: 'सिबिल सुरक्षा और सावधानियाँ',
+    sybilSafety: 'क्योंकि इनाम Telegram ID की उम्र और ऑन-चेन रिकॉर्ड से तय होते हैं, नए बॉट अकाउंट्स को लगभग कोई रिवॉर्ड नहीं मिलता। अपनी सीड फ्रेज़ कभी साझा न करें।',
+    faqHeading: 'अक्सर पूछे जाने वाले प्रश्न',
+    faqs: [
+      {
+        q: 'क्या PAWS में स्क्रीन टैप करनी पड़ती है?',
+        a: 'नहीं, PAWS में टैप करने की ज़रूरत नहीं है; पॉइंट्स आपके रिकॉर्ड और टास्क से मिलते हैं।'
+      },
+      {
+        q: 'क्या PAWS एयरड्रॉप मुफ़्त है?',
+        a: 'हाँ, इसमें भाग लेना पूरी तरह मुफ़्त ($0) है।'
+      }
+    ],
+    ctaText: 'PAWS खोलें',
+    englishVersionLabel: 'अंग्रेज़ी संस्करण'
+  },
+  {
+    id: 'paws',
+    slug: 'it',
+    lang: 'it',
+    flag: '🇮🇹',
+    homeLabel: 'Home',
+    hubLabel: 'Airdrop Telegram',
+    hubHref: '/it/airdrop-telegram/',
+    title: 'Guida Airdrop PAWS (2026): Ottenere $PAWS senza Tap | Airdroplyx',
+    description: 'Come partecipare gratis all’airdrop PAWS su Telegram: punteggio basato su anzianità account, storico $NOT/$DOGS e collegamento Tonkeeper.',
+    h1: 'PAWS ($PAWS): Guida Airdrop Telegram Proof-of-Footprint',
+    badge: 'Ecosistema TON • Gratis',
+    rewardLabel: 'Ricompensa stimata',
+    costLabel: 'Costo',
+    snapshotLabel: 'Periodo previsto',
+    timeLabel: 'Tempo giornaliero',
+    overviewHeading: 'Panoramica del progetto',
+    overview: 'PAWS è una Mini App Telegram virale che ha superato i 25 milioni di utenti nella prima settimana. Invece di richiedere tap continui, calcola i punti $PAWS in base all’età dell’account Telegram e alla partecipazione passata a Notcoin ($NOT) e $DOGS.',
+    tokenomicsHeading: 'Tokenomics di $PAWS',
+    tokenomics: '$PAWS nasce come token comunitario per l’ecosistema TON, destinando gran parte dell’offerta iniziale a utenti Telegram reali e storici.',
+    stepsHeading: 'Come partecipare passo dopo passo',
+    steps: [
+      'Avvia la Mini App ufficiale di PAWS su Telegram e attendi la scansione del profilo.',
+      'Verifica il punteggio iniziale $PAWS ottenuto da anzianità account e storico $NOT e $DOGS.',
+      'Completa tutte le missioni nella scheda Tasks per incrementare il saldo.',
+      'Collega il tuo wallet principale Tonkeeper o MyTonWallet con storico su TON.',
+      'Partecipa alle votazioni della community e riscatta i bonus giornalieri.'
+    ],
+    strategyHeading: 'Strategia per massimizzare i punti',
+    strategy: 'Collega lo stesso wallet TON usato in precedenza per $DOGS o $NOT e controlla spesso le missioni a tempo nella sezione Tasks.',
+    sybilHeading: 'Sicurezza e protezione Sybil',
+    sybilSafety: 'Basandosi sull’anzianità reale dell’ID Telegram e sui dati on-chain, gli account bot appena creati ricevono quasi zero punti. Non condividere mai la tua frase seed.',
+    faqHeading: 'Domande frequenti',
+    faqs: [
+      {
+        q: 'Bisogna toccare lo schermo su PAWS?',
+        a: 'No, PAWS non richiede tap; i punti derivano dallo storico e dalle missioni completate.'
+      },
+      {
+        q: 'L’airdrop di PAWS è gratuito?',
+        a: 'Sì, la partecipazione è al 100% gratuita ($0).'
+      }
+    ],
+    ctaText: 'Apri PAWS',
+    englishVersionLabel: 'Versione inglese'
+  },
+  {
+    id: 'paws',
+    slug: 'pl',
+    lang: 'pl',
+    flag: '🇵🇱',
+    homeLabel: 'Strona główna',
+    hubLabel: 'Airdropy Telegram',
+    hubHref: '/pl/airdrop-telegram/',
+    title: 'Poradnik Airdrop PAWS (2026): Zdobądź $PAWS bez klikania | Airdroplyx',
+    description: 'Jak dołączyć za darmo do airdropu PAWS na Telegramie: punkty za staż konta, historię $NOT/$DOGS i podłączenie portfela Tonkeeper.',
+    h1: 'PAWS ($PAWS): Poradnik Airdropu Telegram i Śladu On-Chain',
+    badge: 'Ekosystem TON • Darmowy',
+    rewardLabel: 'Szacowana nagroda',
+    costLabel: 'Koszt',
+    snapshotLabel: 'Przewidywany okres',
+    timeLabel: 'Czas dziennie',
+    overviewHeading: 'Opis projektu',
+    overview: 'PAWS to wiralowa aplikacja Telegram Mini App, która zdobyła ponad 25 milionów użytkowników w pierwszym tygodniu. Zamiast ciągłego stukania w ekran, PAWS przyznaje punkty $PAWS na podstawie wieku konta Telegram oraz historii w Notcoin ($NOT) i $DOGS.',
+    tokenomicsHeading: 'Tokenomika $PAWS',
+    tokenomics: '$PAWS pełni rolę tokena społecznościowego w ekosystemie TON, kierując większość początkowej puli do autentycznych, wieloletnich użytkowników Telegrama.',
+    stepsHeading: 'Instrukcja krok po kroku',
+    steps: [
+      'Uruchom oficjalną aplikację PAWS na Telegramie i poczekaj na skanowanie profilu.',
+      'Sprawdź bazową liczbę punktów $PAWS za wiek konta oraz udział w $NOT i $DOGS.',
+      'Wykonaj wszystkie zadania społecznościowe w zakładce Tasks.',
+      'Podłącz główny portfel Tonkeeper lub MyTonWallet z historią transakcji w sieci TON.',
+      'Bierz udział w głosowaniach społeczności i odbieraj codzienne bonusy.'
+    ],
+    strategyHeading: 'Strategia maksymalizacji nagród',
+    strategy: 'Podepnij ten sam portfel TON, którego używałeś przy $DOGS lub $NOT, i regularnie kończ zadania czasowe w zakładce Tasks.',
+    sybilHeading: 'Ochrona Anti-Sybil i bezpieczeństwo',
+    sybilSafety: 'Ponieważ punkty zależą od wieku ID Telegrama i zapisów on-chain, świeże farmy botów nie otrzymują niemal żadnych nagród. Nigdy nie udostępniaj swojej frazy seed.',
+    faqHeading: 'Często zadawane pytania',
+    faqs: [
+      {
+        q: 'Czy w PAWS trzeba klikać w ekran?',
+        a: 'Nie, PAWS nie wymaga klikania; punkty wynikają z historii konta i wykonanych zadań.'
+      },
+      {
+        q: 'Czy airdrop PAWS jest darmowy?',
+        a: 'Tak, udział w projekcie jest całkowicie darmowy ($0).'
+      }
+    ],
+    ctaText: 'Otwórz PAWS',
+    englishVersionLabel: 'Wersja angielska'
+  },
+
+  // ================= NOT PIXEL (16 LANGUAGES) =================
+  {
+    id: 'not-pixel',
+    slug: 'tr',
+    lang: 'tr',
+    flag: '🇹🇷',
+    homeLabel: 'Ana Sayfa',
+    hubLabel: 'Telegram Airdropları',
+    hubHref: '/tr/telegram-airdroplari/',
+    title: 'Not Pixel Airdrop Rehberi (2026): $PX Token Madenciliği | Airdroplyx',
+    description: 'Notcoin ekibinin 1000x1000 piksel savaş oyunu Not Pixel ile ücretsiz $PX madenciliği, enerji yükseltmeleri ve Tonkeeper bağlantısı Türkçe rehberi.',
+    h1: 'Not Pixel ($PX) Telegram Airdrop ve Piksel Madenciliği Rehberi',
+    badge: 'Notcoin Ekosistemi • Ücretsiz',
+    rewardLabel: 'Tahmini Ödül',
+    costLabel: 'Maliyet',
+    snapshotLabel: 'Beklenen Dönem',
+    timeLabel: 'Günlük Süre',
+    overviewHeading: 'Proje Özeti',
+    overview: 'Not Pixel, orijinal Notcoin ($NOT) ekibi ve Open Builders tarafından geliştirilen devasa bir ortak piksel boyama oyunudur. Milyonlarca oyuncu Telegram içinde 1000x1000 boyutundaki dijital tuval üzerinde piksel boyayarak $PX madencilik gücü kazanır ve 8 saatlik pasif üretim havuzundan pay alır.',
+    tokenomicsHeading: '$PX Tokenomik ve Dağıtım',
+    tokenomics: '$PX tokenı TON blokzincirinde tamamen topluluk odaklı bir dağıtım modeliyle üretilecektir. Tıpkı Notcoin’de olduğu gibi, erken dönem piksel boyayıcıları ve aktif kadro (Squad) katılımcıları öncelikli olarak ödüllendirilir.',
+    stepsHeading: 'Adım Adım Katılım Rehberi',
+    steps: [
+      'Resmi Not Pixel Telegram Mini Uygulamasını başlatın.',
+      '1000x1000 tuval üzerinde bir koordinat ve renk seçerek ilk pikselinizi boyayın.',
+      'Boosts sekmesine girip Paint Reward, Recharge Speed ve Energy Limit seviyelerini yükseltin.',
+      'Tasks bölümündeki görevleri tamamlayarak anında ekstra enerji kazanın.',
+      'Her 8 saatte bir madencilik kasasından biriken pasif $PX ödüllerinizi talep edin ve Tonkeeper bağlayın.'
+    ],
+    strategyHeading: 'Maksimum Ödül Stratejisi',
+    strategy: 'İlk yükseltmelerde boyama hızı (Recharge Speed) ve enerji kapasitesine odaklanın. Aktif bir Squad (kadro) grubuna katılmak ve enerji doldukça düzenli piksel boyamak günlük $PX verimini belirgin biçimde artırır.',
+    sybilHeading: 'Sybil Koruması ve Güvenlik',
+    sybilSafety: 'Not Pixel, tuval koordinat doğrulaması ve enerji soğuma zamanlayıcıları ile otomatik tıklama botlarını tespit eder. Yalnızca manuel oynayın ve Tonkeeper kurtarma kelimelerinizi gizli tutun.',
+    faqHeading: 'Sıkça Sorulan Sorular',
+    faqs: [
+      {
+        q: 'Not Pixel oynamak ücretsiz mi?',
+        a: 'Evet, Telegram içinde yatırım gerektirmeden tamamen ücretsiz ($0) oynanabilir.'
+      },
+      {
+        q: 'Hangi cüzdanı bağlamalıyım?',
+        a: 'TON ağını destekleyen Tonkeeper veya MyTonWallet cüzdanınızı bağlayabilirsiniz.'
+      }
+    ],
+    ctaText: 'Not Pixel’i Başlat',
+    englishVersionLabel: 'İngilizce Sürüm'
+  },
+  {
+    id: 'not-pixel',
+    slug: 'ru',
+    lang: 'ru',
+    flag: '🇷🇺',
+    homeLabel: 'Главная',
+    hubLabel: 'Telegram-аирдропы',
+    hubHref: '/ru/telegram-airdrops/',
+    title: 'Гайд по аирдропу Not Pixel (2026): майнинг $PX и тактика | Airdroplyx',
+    description: 'Как майнить $PX в Not Pixel от команды Notcoin: закрашивание холста 1000x1000, прокачка бустов и подключение кошелька Tonkeeper в TON.',
+    h1: 'Not Pixel ($PX): гайд по аирдропу и майнингу на холсте в Telegram',
+    badge: 'Экосистема Notcoin • Бесплатно',
+    rewardLabel: 'Ожидаемая награда',
+    costLabel: 'Затраты',
+    snapshotLabel: 'Ожидаемый период',
+    timeLabel: 'Время в день',
+    overviewHeading: 'Обзор проекта',
+    overview: 'Not Pixel — масштабный совместный пиксельный холст 1000x1000 от команды Notcoin и Open Builders. Миллионы игроков закрашивают пиксели в реальном времени, увеличивая мощность пассивного майнинга токена $PX в сети TON.',
+    tokenomicsHeading: 'Токеномика $PX',
+    tokenomics: 'Токен $PX выпускается на блокчейне TON с комьюнити-распределением по модели Notcoin ($NOT) — без венчурных пресейлов и кабальных вестингов.',
+    stepsHeading: 'Пошаговая инструкция',
+    steps: [
+      'Откройте официальный бот Not Pixel в Telegram.',
+      'Выберите любую точку на холсте 1000x1000, подберите цвет и закрасьте первый пиксель.',
+      'В разделе Boosts улучшайте Paint Reward, Recharge Speed и Energy Limit.',
+      'Выполняйте задания во вкладке Tasks для мгновенного пополнения энергии.',
+      'Собирайте пассивный доход $PX каждые 8 часов и привяжите кошелек Tonkeeper.'
+    ],
+    strategyHeading: 'Стратегия фарма',
+    strategy: 'Сначала прокачивайте скорость восстановления энергии и максимальный запас, чтобы чаще ставить пиксели. Вступайте в активный Squad и забирайте пассивный майнинг каждые 8 часов.',
+    sybilHeading: 'Защита от ботов и безопасность',
+    sybilSafety: 'Система анализирует координаты на холсте и частоту нажатий, блокируя скрипты и автокликеры. Играйте вручную и не делитесь сид-фразой.',
+    faqHeading: 'Частые вопросы',
+    faqs: [
+      {
+        q: 'Бесплатно ли играть в Not Pixel?',
+        a: 'Да, игра полностью бесплатна ($0) и не требует обязательных депозитов.'
+      },
+      {
+        q: 'Какой кошелек подключить?',
+        a: 'Рекомендуется Tonkeeper или MyTonWallet с поддержкой сети TON.'
+      }
+    ],
+    ctaText: 'Открыть Not Pixel',
+    englishVersionLabel: 'Английская версия'
+  },
+  {
+    id: 'not-pixel',
+    slug: 'id',
+    lang: 'id',
+    flag: '🇮🇩',
+    homeLabel: 'Beranda',
+    hubLabel: 'Airdrop Telegram',
+    hubHref: '/id/airdrop-telegram/',
+    title: 'Panduan Airdrop Not Pixel (2026): Tambang $PX di TON | Airdroplyx',
+    description: 'Panduan lengkap Not Pixel dari tim Notcoin di Telegram: cara mewarnai kanvas 1000x1000, upgrade boost energi, dan klaim $PX gratis.',
+    h1: 'Not Pixel ($PX): Panduan Airdrop Telegram & Kanvas Piksel',
+    badge: 'Ekosistem Notcoin • Gratis',
+    rewardLabel: 'Estimasi Hadiah',
+    costLabel: 'Biaya',
+    snapshotLabel: 'Perkiraan Snapshot',
+    timeLabel: 'Waktu Harian',
+    overviewHeading: 'Ringkasan Proyek',
+    overview: 'Not Pixel adalah proyek kanvas piksel kolaboratif 1000x1000 dari tim Notcoin ($NOT) dan Open Builders. Setiap piksel yang Anda warnai menghasilkan daya tambang pasif untuk mengumpulkan token $PX di jaringan TON.',
+    tokenomicsHeading: 'Tokenomik $PX',
+    tokenomics: 'Token $PX dicetak di blockchain TON dengan distribusi komunitas murni mengikuti jejak Notcoin, memprioritaskan pemain aktif tanpa alokasi privat yang merugikan.',
+    stepsHeading: 'Langkah-Langkah Mengikuti Airdrop',
+    steps: [
+      'Buka Mini App resmi Not Pixel di Telegram.',
+      'Pilih koordinat di kanvas 1000x1000 lalu warnai piksel pertama Anda.',
+      'Masuk ke tab Boosts untuk meningkatkan Paint Reward, Recharge Speed, dan Energy Limit.',
+      'Selesaikan misi di tab Tasks untuk mendapatkan tambahan energi instan.',
+      'Klaim hasil tambang pasif $PX setiap 8 jam dan hubungkan dompet Tonkeeper.'
+    ],
+    strategyHeading: 'Strategi Maksimal',
+    strategy: 'Prioritaskan peningkatan Recharge Speed dan Energy Cap terlebih dahulu, bergabunglah dengan Squad yang aktif, dan klaim pasif $PX setiap 8 jam.',
+    sybilHeading: 'Keamanan & Anti-Sybil',
+    sybilSafety: 'Not Pixel memeriksa pola koordinat dan jeda energi untuk mendeteksi skrip otomatis. Bermainlah secara wajar dan jaga kerahasiaan seed phrase Anda.',
+    faqHeading: 'Pertanyaan Umum',
+    faqs: [
+      {
+        q: 'Apakah Not Pixel gratis dimainkan?',
+        a: 'Ya, Not Pixel 100% gratis ($0) langsung di dalam Telegram.'
+      },
+      {
+        q: 'Dompet apa yang harus dihubungkan?',
+        a: 'Gunakan dompet TON non-kustodial seperti Tonkeeper atau MyTonWallet.'
+      }
+    ],
+    ctaText: 'Buka Not Pixel',
+    englishVersionLabel: 'Versi Bahasa Inggris'
+  },
+  {
+    id: 'not-pixel',
+    slug: 'vi',
+    lang: 'vi',
+    flag: '🇻🇳',
+    homeLabel: 'Trang chủ',
+    hubLabel: 'Airdrop Telegram',
+    hubHref: '/vi/airdrop-telegram/',
+    title: 'Hướng dẫn Airdrop Not Pixel (2026): Đào $PX trên TON | Airdroplyx',
+    description: 'Cách chơi Not Pixel từ đội ngũ Notcoin trên Telegram: tô màu bảng 1000x1000, nâng cấp Boost năng lượng và kết nối ví Tonkeeper nhận $PX.',
+    h1: 'Not Pixel ($PX): Hướng dẫn Airdrop Telegram & Đào Token',
+    badge: 'Hệ sinh thái Notcoin • Miễn phí',
+    rewardLabel: 'Phần thưởng dự kiến',
+    costLabel: 'Chi phí',
+    snapshotLabel: 'Thời gian dự kiến',
+    timeLabel: 'Thời gian mỗi ngày',
+    overviewHeading: 'Tổng quan dự án',
+    overview: 'Not Pixel là trò chơi vẽ pixel hợp tác quy mô lớn 1000x1000 do đội ngũ Notcoin ($NOT) và Open Builders phát triển. Mỗi điểm ảnh bạn tô giúp tăng tốc độ đào thụ động token $PX trên mạng TON.',
+    tokenomicsHeading: 'Tokenomics $PX',
+    tokenomics: 'Token $PX được phát hành trên blockchain TON theo mô hình phân phối cộng đồng thuần túy giống Notcoin, ưu tiên người chơi thực thụ.',
+    stepsHeading: 'Các bước tham gia chi tiết',
+    steps: [
+      'Khởi chạy Mini-App chính thức của Not Pixel trên Telegram.',
+      'Chọn một tọa độ trên bảng 1000x1000, chọn màu và tô pixel đầu tiên.',
+      'Vào mục Boosts để nâng cấp Paint Reward, Recharge Speed và Energy Limit.',
+      'Hoàn thành nhiệm vụ ở mục Tasks để nhận thêm năng lượng miễn phí.',
+      'Quay lại mỗi 8 giờ để nhận $PX thụ động và kết nối ví Tonkeeper.'
+    ],
+    strategyHeading: 'Chiến lược tối ưu điểm',
+    strategy: 'Ưu tiên nâng Recharge Speed và Energy Limit trước, tham gia một Squad đông đảo và thu hoạch $PX thụ động đều đặn mỗi 8 giờ.',
+    sybilHeading: 'Chống Sybil & Bảo mật',
+    sybilSafety: 'Hệ thống kiểm tra tọa độ vẽ và thời gian hồi năng lượng để chặn auto-click. Hãy chơi thủ công và tuyệt đối giữ bí mật cụm từ khôi phục ví.',
+    faqHeading: 'Câu hỏi thường gặp',
+    faqs: [
+      {
+        q: 'Chơi Not Pixel có mất phí không?',
+        a: 'Không, Not Pixel hoàn toàn miễn phí ($0) trên Telegram.'
+      },
+      {
+        q: 'Nên dùng ví nào cho Not Pixel?',
+        a: 'Bạn nên kết nối Tonkeeper hoặc MyTonWallet hỗ trợ mạng TON.'
+      }
+    ],
+    ctaText: 'Mở Not Pixel',
+    englishVersionLabel: 'Bản tiếng Anh'
+  },
+  {
+    id: 'not-pixel',
+    slug: 'es',
+    lang: 'es',
+    flag: '🇪🇸',
+    homeLabel: 'Inicio',
+    hubLabel: 'Airdrops de Telegram',
+    hubHref: '/es/airdrops-telegram/',
+    title: 'Guía Airdrop Not Pixel (2026): Minar $PX en Telegram | Airdroplyx',
+    description: 'Guía de Not Pixel del equipo de Notcoin: pinta píxeles en el lienzo 1000x1000, mejora tus boosts de energía y conecta Tonkeeper para ganar $PX.',
+    h1: 'Not Pixel ($PX): Guía del Airdrop en Telegram y Minería de Píxeles',
+    badge: 'Ecosistema Notcoin • Gratis',
+    rewardLabel: 'Recompensa estimada',
+    costLabel: 'Costo',
+    snapshotLabel: 'Periodo estimado',
+    timeLabel: 'Tiempo diario',
+    overviewHeading: 'Resumen del proyecto',
+    overview: 'Not Pixel es un lienzo colaborativo de 1000x1000 píxeles creado por el equipo de Notcoin ($NOT) y Open Builders. Cada píxel pintado aporta potencia de minería pasiva para acumular tokens $PX en la red TON.',
+    tokenomicsHeading: 'Tokenomics de $PX',
+    tokenomics: 'El token $PX se emitirá en TON siguiendo una distribución puramente comunitaria al estilo Notcoin, premiando a los jugadores activos.',
+    stepsHeading: 'Pasos para participar',
+    steps: [
+      'Abre la Mini App oficial de Not Pixel en Telegram.',
+      'Elige cualquier coordenada en el lienzo 1000x1000 y pinta tu primer píxel.',
+      'Entra en la pestaña Boosts para mejorar Paint Reward, Recharge Speed y Energy Limit.',
+      'Completa misiones en Tasks para recargar energía extra al instante.',
+      'Reclama tus $PX pasivos cada 8 horas y vincula tu billetera Tonkeeper.'
+    ],
+    strategyHeading: 'Estrategia para maximizar recompensas',
+    strategy: 'Mejora primero la velocidad de recarga y el límite de energía, únete a un Squad activo y recoge tu producción pasiva cada 8 horas.',
+    sybilHeading: 'Seguridad y protección Sybil',
+    sybilSafety: 'Not Pixel verifica coordenadas y tiempos de recarga para frenar bots. Juega manualmente y nunca reveles tu frase semilla.',
+    faqHeading: 'Preguntas frecuentes',
+    faqs: [
+      {
+        q: '¿Es gratis jugar a Not Pixel?',
+        a: 'Sí, es 100% gratuito ($0) dentro de Telegram sin depósitos obligatorios.'
+      },
+      {
+        q: '¿Qué billetera debo conectar?',
+        a: 'Conecta Tonkeeper o MyTonWallet en la red TON.'
+      }
+    ],
+    ctaText: 'Abrir Not Pixel',
+    englishVersionLabel: 'Versión en inglés'
+  },
+  {
+    id: 'not-pixel',
+    slug: 'pt',
+    lang: 'pt',
+    flag: '🇧🇷',
+    homeLabel: 'Início',
+    hubLabel: 'Airdrops do Telegram',
+    hubHref: '/pt/airdrops-telegram/',
+    title: 'Guia Airdrop Not Pixel (2026): Minerar $PX na TON | Airdroplyx',
+    description: 'Aprenda a minerar $PX no Not Pixel da equipe Notcoin: pinte pixels na tela 1000x1000, evolua boosts de energia e conecte a Tonkeeper grátis.',
+    h1: 'Not Pixel ($PX): Guia do Airdrop no Telegram e Mineração',
+    badge: 'Ecossistema Notcoin • Grátis',
+    rewardLabel: 'Recompensa estimada',
+    costLabel: 'Custo',
+    snapshotLabel: 'Previsão',
+    timeLabel: 'Tempo diário',
+    overviewHeading: 'Visão geral do projeto',
+    overview: 'Not Pixel é um painel colaborativo de 1000x1000 pixels criado pela equipe do Notcoin ($NOT) e Open Builders. Cada pixel pintado aumenta sua taxa de mineração passiva de tokens $PX na rede TON.',
+    tokenomicsHeading: 'Tokenomics do $PX',
+    tokenomics: 'O token $PX será emitido na blockchain TON com distribuição voltada à comunidade, seguindo o modelo justo do Notcoin.',
+    stepsHeading: 'Passo a passo para participar',
+    steps: [
+      'Inicie o Mini App oficial do Not Pixel no Telegram.',
+      'Selecione uma coordenada no painel 1000x1000 e pinte seu primeiro pixel.',
+      'Acesse a aba Boosts para evoluir Paint Reward, Recharge Speed e Energy Limit.',
+      'Conclua tarefas na aba Tasks para ganhar recargas instantâneas de energia.',
+      'Resgate sua mineração passiva de $PX a cada 8 horas e conecte a Tonkeeper.'
+    ],
+    strategyHeading: 'Estratégia de ganhos',
+    strategy: 'Evolua primeiro Recharge Speed e Energy Cap, entre em um Squad ativo e faça o resgate do cofre a cada 8 horas.',
+    sybilHeading: 'Proteção Sybil e segurança',
+    sybilSafety: 'O sistema monitora coordenadas e intervalos de energia contra scripts automáticos. Jogue manualmente e proteja sua frase de recuperação.',
+    faqHeading: 'Perguntas frequentes',
+    faqs: [
+      {
+        q: 'Not Pixel é gratuito?',
+        a: 'Sim, totalmente gratuito ($0) no Telegram.'
+      },
+      {
+        q: 'Qual carteira conectar?',
+        a: 'Use Tonkeeper ou MyTonWallet na rede TON.'
+      }
+    ],
+    ctaText: 'Abrir Not Pixel',
+    englishVersionLabel: 'Versão em inglês'
+  },
+  {
+    id: 'not-pixel',
+    slug: 'ko',
+    lang: 'ko',
+    flag: '🇰🇷',
+    homeLabel: '홈',
+    hubLabel: '텔레그램 에어드랍',
+    hubHref: '/ko/telegram-airdrops/',
+    title: 'Not Pixel 에어드랍 가이드 (2026): $PX 토큰 무료 채굴 | Airdroplyx',
+    description: 'Notcoin 팀이 만든 1000x1000 픽셀 게임 Not Pixel 공략: 부스트 업그레이드, 8시간 패시브 채굴 및 Tonkeeper 지갑 연동 가이드.',
+    h1: 'Not Pixel ($PX) 텔레그램 에어드랍 및 픽셀 채굴 가이드',
+    badge: 'Notcoin 생태계 • 무료',
+    rewardLabel: '예상 보상',
+    costLabel: '비용',
+    snapshotLabel: '예상 시기',
+    timeLabel: '일일 소요 시간',
+    overviewHeading: '프로젝트 개요',
+    overview: 'Not Pixel은 Notcoin($NOT) 개발팀과 Open Builders가 선보인 대규모 1000x1000 협업 픽셀 캔버스 게임입니다. 텔레그램에서 픽셀을 칠할 때마다 TON 기반 $PX 토큰 채굴량이 늘어납니다.',
+    tokenomicsHeading: '$PX 토크노믹스',
+    tokenomics: '$PX는 Notcoin의 커뮤니티 중심 배포 모델을 계승해 TON 블록체인에서 발행되며, 활발한 픽셀 참여자에게 보상이 돌아갑니다.',
+    stepsHeading: '단계별 참여 방법',
+    steps: [
+      '텔레그램에서 공식 Not Pixel 미니앱을 실행하세요.',
+      '1000x1000 캔버스에서 원하는 위치와 색상을 골라 첫 픽셀을 칠하세요.',
+      'Boosts 탭에서 Paint Reward, Recharge Speed, Energy Limit을 업그레이드하세요.',
+      'Tasks 탭의 미션을 완료해 추가 에너지를 즉시 충전하세요.',
+      '8시간마다 패시브 $PX 채굴량을 수령하고 Tonkeeper 지갑을 연결하세요.'
+    ],
+    strategyHeading: '보상 극대화 전략',
+    strategy: '초반에는 에너지 충전 속도와 최대 에너지 한도를 우선 업그레이드하고, 활성 Squad에 합류해 8시간마다 꾸준히 수령하세요.',
+    sybilHeading: '시빌 방지 및 보안',
+    sybilSafety: '좌표 검증과 에너지 쿨다운으로 자동 매크로를 차단합니다. 직접 플레이하고 지갑 복구 구문을 안전하게 보관하세요.',
+    faqHeading: '자주 묻는 질문',
+    faqs: [
+      {
+        q: 'Not Pixel은 무료로 즐길 수 있나요?',
+        a: '네, 별도 입금 없이 무료($0)로 참여할 수 있습니다.'
+      },
+      {
+        q: '어떤 지갑을 연결해야 하나요?',
+        a: 'Tonkeeper 또는 MyTonWallet 같은 비수탁 TON 지갑을 연결하세요.'
+      }
+    ],
+    ctaText: 'Not Pixel 시작하기',
+    englishVersionLabel: '영문 버전'
+  },
+  {
+    id: 'not-pixel',
+    slug: 'ja',
+    lang: 'ja',
+    flag: '🇯🇵',
+    homeLabel: 'ホーム',
+    hubLabel: 'Telegramエアドロップ',
+    hubHref: '/ja/telegram-airdrops/',
+    title: 'Not Pixel エアドロップ攻略 (2026): $PXマイニング手順 | Airdroplyx',
+    description: 'Notcoin開発チームの1000x1000ピクセルゲームNot Pixel完全ガイド：ブースト強化、8時間ごとの$PX回収、Tonkeeper連携方法。',
+    h1: 'Not Pixel ($PX) Telegramエアドロップ＆ピクセル採掘ガイド',
+    badge: 'Notcoinエコシステム • 無料',
+    rewardLabel: '予想報酬',
+    costLabel: '費用',
+    snapshotLabel: '予定時期',
+    timeLabel: '1日の作業時間',
+    overviewHeading: 'プロジェクト概要',
+    overview: 'Not Pixelは、Notcoin（$NOT）チームとOpen Buildersが手掛ける1000×1000の巨大コラボピクセルゲームです。キャンバスを塗るたびにTON上の$PXトークン採掘パワーが蓄積されます。',
+    tokenomicsHeading: '$PX トケノミクス',
+    tokenomics: '$PXはNotcoin同様にコミュニティ主体の配布モデルを採用し、TONブロックチェーン上で発行されます。',
+    stepsHeading: '参加ステップ',
+    steps: [
+      'Telegramで公式Not Pixelミニアプリを起動します。',
+      '1000×1000キャンバス上の座標と色を選び、最初のピクセルを塗ります。',
+      'BoostsタブでPaint Reward、Recharge Speed、Energy Limitを強化します。',
+      'Tasksタブのクエストを完了してエネルギーを即時補充します。',
+      '8時間ごとにパッシブ$PXを回収し、Tonkeeperウォレットを接続します。'
+    ],
+    strategyHeading: '報酬最大化のコツ',
+    strategy: '序盤はエネルギー回復速度と上限アップを優先し、アクティブなSquadに参加して8時間ごとの回収を継続しましょう。',
+    sybilHeading: 'シビル対策と安全性',
+    sybilSafety: '座標チェックとエネルギークールダウンにより自動化ボットを検知・排除しています。手動プレイを心がけ、シードフレーズは共有しないでください。',
+    faqHeading: 'よくある質問',
+    faqs: [
+      {
+        q: 'Not Pixelは無料で遊べますか？',
+        a: 'はい、入金不要の完全無料（$0）で参加できます。'
+      },
+      {
+        q: 'どのウォレットを接続すればよいですか？',
+        a: 'TON対応のTonkeeperまたはMyTonWalletを接続してください。'
+      }
+    ],
+    ctaText: 'Not Pixelを開く',
+    englishVersionLabel: '英語版を見る'
+  },
+  {
+    id: 'not-pixel',
+    slug: 'ar',
+    lang: 'ar',
+    flag: '🇸🇦',
+    homeLabel: 'الرئيسية',
+    hubLabel: 'إيردروبات تيليجرام',
+    hubHref: '/ar/telegram-airdrops/',
+    title: 'دليل إيردروب Not Pixel (2026): تعدين $PX وربط Tonkeeper | Airdroplyx',
+    description: 'دليل شامل للعبة Not Pixel من فريق Notcoin على تيليجرام: تلوين لوحة 1000x1000، ترقية الطاقة وتعدين عملة $PX مجاناً على شبكة TON.',
+    h1: 'Not Pixel ($PX): دليل إيردروب تيليجرام وتعدين البكسلات',
+    badge: 'نظام Notcoin • مجاني',
+    rewardLabel: 'المكافأة المتوقعة',
+    costLabel: 'التكلفة',
+    snapshotLabel: 'الفترة المتوقعة',
+    timeLabel: 'الوقت اليومي',
+    overviewHeading: 'نظرة عامة على المشروع',
+    overview: 'تطبيق Not Pixel هو لوحة تلوين جماعية بحجم 1000x1000 بكسل من تطوير فريق Notcoin ($NOT) وOpen Builders. كل بكسل تقوم بتلوينه يمنحك قوة تعدين سلبية لجمع عملة $PX على شبكة TON.',
+    tokenomicsHeading: 'اقتصاديات $PX',
+    tokenomics: 'سيتم إصدار عملة $PX على بلوكشين TON بتوزيع مجتمعي خالص على غرار Notcoin، لمكافأة اللاعبين النشطين.',
+    stepsHeading: 'خطوات المشاركة',
+    steps: [
+      'افتح تطبيق Not Pixel الرسمي داخل تيليجرام.',
+      'اختر أي إحداثيات على لوحة 1000x1000 ولوّن البكسل الأول الخاص بك.',
+      'ادخل إلى تبويب Boosts وقم بترقية Paint Reward وRecharge Speed وEnergy Limit.',
+      'أكمل المهام في تبويب Tasks للحصول على تعبئة فورية للطاقة.',
+      'طالب بأرباح التعدين السلبية لـ $PX كل 8 ساعات واربط محفظة Tonkeeper.'
+    ],
+    strategyHeading: 'استراتيجية تعظيم المكافآت',
+    strategy: 'ركّز في البداية على سرعة شحن الطاقة وسعتها، وانضم إلى Squad نشط، واجمع التعدين السلبي كل 8 ساعات.',
+    sybilHeading: 'الحماية من الحسابات الوهمية والأمان',
+    sybilSafety: 'يتحقق Not Pixel من إحداثيات الرسم ومؤقتات الطاقة لاستبعاد برامج النقر التلقائي. العب يدوياً واحفظ عبارة الاسترداد بسرية تامة.',
+    faqHeading: 'الأسئلة الشائعة',
+    faqs: [
+      {
+        q: 'هل اللعب في Not Pixel مجاني؟',
+        a: 'نعم، اللعبة مجانية 100% ($0) داخل تيليجرام بدون أي إيداعات إلزامية.'
+      },
+      {
+        q: 'ما المحفظة المناسبة للربط؟',
+        a: 'اربط محفظة Tonkeeper أو MyTonWallet الداعمة لشبكة TON.'
+      }
+    ],
+    ctaText: 'افتح Not Pixel',
+    englishVersionLabel: 'النسخة الإنجليزية'
+  },
+  {
+    id: 'not-pixel',
+    slug: 'de',
+    lang: 'de',
+    flag: '🇩🇪',
+    homeLabel: 'Startseite',
+    hubLabel: 'Telegram-Airdrops',
+    hubHref: '/de/telegram-airdrops/',
+    title: 'Not Pixel Airdrop Guide (2026): $PX Token kostenlos minen | Airdroplyx',
+    description: 'Anleitung für Not Pixel vom Notcoin-Team: Pixel auf der 1000x1000-Leinwand malen, Boosts verbessern und Tonkeeper für $PX verbinden.',
+    h1: 'Not Pixel ($PX): Telegram-Airdrop & Pixel-Mining Guide',
+    badge: 'Notcoin-Ökosystem • Kostenlos',
+    rewardLabel: 'Geschätzte Belohnung',
+    costLabel: 'Kosten',
+    snapshotLabel: 'Erwarteter Zeitraum',
+    timeLabel: 'Täglicher Aufwand',
+    overviewHeading: 'Projektübersicht',
+    overview: 'Not Pixel ist eine kollaborative 1000x1000-Pixel-Leinwand vom Notcoin-Team ($NOT) und Open Builders. Jeder gemalte Pixel erhöht deine passive Mining-Rate für den $PX-Token im TON-Netzwerk.',
+    tokenomicsHeading: '$PX Tokenomics',
+    tokenomics: 'Der $PX-Token wird auf der TON-Blockchain mit reiner Community-Verteilung nach dem Vorbild von Notcoin ausgegeben.',
+    stepsHeading: 'Schritt-für-Schritt-Anleitung',
+    steps: [
+      'Starte die offizielle Not Pixel Mini App in Telegram.',
+      'Wähle eine Position auf der 1000x1000-Leinwand und male deinen ersten Pixel.',
+      'Verbessere unter Boosts deine Werte für Paint Reward, Recharge Speed und Energy Limit.',
+      'Erledige Aufgaben im Reiter Tasks für sofortige Energie-Nachschübe.',
+      'Sammle alle 8 Stunden deine passiven $PX-Erträge ein und verbinde Tonkeeper.'
+    ],
+    strategyHeading: 'Strategie für maximale Punkte',
+    strategy: 'Steigere zuerst Recharge Speed und Energy Cap, tritt einem aktiven Squad bei und leere den Mining-Tresor alle 8 Stunden.',
+    sybilHeading: 'Sybil-Schutz & Sicherheit',
+    sybilSafety: 'Not Pixel prüft Koordinaten und Energie-Timer gegen automatisierte Klick-Skripte. Spiele manuell und teile niemals deine Seed-Phrase.',
+    faqHeading: 'Häufig gestellte Fragen',
+    faqs: [
+      {
+        q: 'Ist Not Pixel kostenlos spielbar?',
+        a: 'Ja, das Spiel ist in Telegram zu 100 % kostenlos ($0).'
+      },
+      {
+        q: 'Welche Wallet sollte ich verbinden?',
+        a: 'Verbinde Tonkeeper oder MyTonWallet im TON-Netzwerk.'
+      }
+    ],
+    ctaText: 'Not Pixel öffnen',
+    englishVersionLabel: 'Englische Version'
+  },
+  {
+    id: 'not-pixel',
+    slug: 'fr',
+    lang: 'fr',
+    flag: '🇫🇷',
+    homeLabel: 'Accueil',
+    hubLabel: 'Airdrops Telegram',
+    hubHref: '/fr/airdrops-telegram/',
+    title: 'Guide Airdrop Not Pixel (2026) : Miner $PX sur TON | Airdroplyx',
+    description: 'Comment jouer gratuitement à Not Pixel de l’équipe Notcoin : peignez des pixels sur la grille 1000x1000, améliorez vos boosts et liez Tonkeeper.',
+    h1: 'Not Pixel ($PX) : Guide Airdrop Telegram et Minage de Pixels',
+    badge: 'Écosystème Notcoin • Gratuit',
+    rewardLabel: 'Récompense estimée',
+    costLabel: 'Coût',
+    snapshotLabel: 'Période estimée',
+    timeLabel: 'Temps quotidien',
+    overviewHeading: 'Présentation du projet',
+    overview: 'Not Pixel est une toile collaborative de 1000x1000 pixels créée par l’équipe de Notcoin ($NOT) et Open Builders. Chaque pixel peint augmente votre puissance de minage passif du jeton $PX sur TON.',
+    tokenomicsHeading: 'Tokenomics de $PX',
+    tokenomics: 'Le jeton $PX sera émis sur la blockchain TON avec une distribution communautaire fidèle au modèle Notcoin.',
+    stepsHeading: 'Étapes pour participer',
+    steps: [
+      'Lancez la Mini App officielle Not Pixel sur Telegram.',
+      'Choisissez une case sur la grille 1000x1000 et peignez votre premier pixel.',
+      'Rendez-vous dans Boosts pour améliorer Paint Reward, Recharge Speed et Energy Limit.',
+      'Complétez les quêtes de l’onglet Tasks pour recevoir des recharges d’énergie immédiates.',
+      'Réclamez votre rendement passif $PX toutes les 8 heures et connectez Tonkeeper.'
+    ],
+    strategyHeading: 'Stratégie d’optimisation',
+    strategy: 'Améliorez d’abord Recharge Speed et Energy Cap, rejoignez un Squad actif et videz le coffre toutes les 8 heures.',
+    sybilHeading: 'Protection Anti-Sybil et sécurité',
+    sybilSafety: 'Not Pixel analyse les coordonnées et les délais d’énergie pour bloquer les scripts. Jouez manuellement et gardez votre phrase secrète confidentielle.',
+    faqHeading: 'Questions fréquentes',
+    faqs: [
+      {
+        q: 'Not Pixel est-il gratuit ?',
+        a: 'Oui, Not Pixel est 100 % gratuit ($0) sur Telegram sans dépôt requis.'
+      },
+      {
+        q: 'Quel portefeuille connecter ?',
+        a: 'Utilisez Tonkeeper ou MyTonWallet sur le réseau TON.'
+      }
+    ],
+    ctaText: 'Ouvrir Not Pixel',
+    englishVersionLabel: 'Version anglaise'
+  },
+  {
+    id: 'not-pixel',
+    slug: 'uk',
+    lang: 'uk',
+    flag: '🇺🇦',
+    homeLabel: 'Головна',
+    hubLabel: 'Telegram-аірдропи',
+    hubHref: '/uk/telegram-airdrops/',
+    title: 'Гайд з аірдропу Not Pixel (2026): майнінг $PX у TON | Airdroplyx',
+    description: 'Як майнити $PX у Not Pixel від команди Notcoin: розфарбовуйте полотно 1000x1000, качайте бусти та підключайте Tonkeeper безкоштовно.',
+    h1: 'Not Pixel ($PX): гайд з аірдропу та піксельного майнінгу',
+    badge: 'Екосистема Notcoin • Безкоштовно',
+    rewardLabel: 'Очікувана винагорода',
+    costLabel: 'Витрати',
+    snapshotLabel: 'Очікуваний період',
+    timeLabel: 'Час на день',
+    overviewHeading: 'Огляд проєкту',
+    overview: 'Not Pixel — масштабне спільне піксельне полотно 1000x1000 від команди Notcoin ($NOT) і Open Builders. Кожен зафарбований піксель підвищує швидкість пасивного майнінгу токена $PX у мережі TON.',
+    tokenomicsHeading: 'Токеноміка $PX',
+    tokenomics: 'Токен $PX випускається на блокчейні TON із чисто ком’юніті-розподілом за моделлю Notcoin.',
+    stepsHeading: 'Покрокова інструкція',
+    steps: [
+      'Відкрийте офіційний міні-додаток Not Pixel у Telegram.',
+      'Оберіть координату на полотні 1000x1000 та зафарбуйте перший піксель.',
+      'У вкладці Boosts покращуйте Paint Reward, Recharge Speed та Energy Limit.',
+      'Виконуйте завдання у розділі Tasks для миттєвого поповнення енергії.',
+      'Збирайте пасивний $PX кожні 8 годин і підключіть гаманець Tonkeeper.'
+    ],
+    strategyHeading: 'Стратегія максимізації нагород',
+    strategy: 'На старті качайте швидкість відновлення енергії та її ліміт, приєднуйтесь до активного Squad і забирайте майнінг кожні 8 годин.',
+    sybilHeading: 'Захист від Sybil та безпека',
+    sybilSafety: 'Not Pixel відстежує координати та таймери енергії, блокуючи автоклікери. Грайте вручну та не розголошуйте сід-фразу.',
+    faqHeading: 'Часті запитання',
+    faqs: [
+      {
+        q: 'Чи безкоштовно грати в Not Pixel?',
+        a: 'Так, гра повністю безкоштовна ($0) і не потребує вкладень.'
+      },
+      {
+        q: 'Який гаманець підключити?',
+        a: 'Tonkeeper або MyTonWallet із підтримкою мережі TON.'
+      }
+    ],
+    ctaText: 'Відкрити Not Pixel',
+    englishVersionLabel: 'Англійська версія'
+  },
+  {
+    id: 'not-pixel',
+    slug: 'zh',
+    lang: 'zh-CN',
+    flag: '🇨🇳',
+    homeLabel: '首页',
+    hubLabel: 'Telegram 空投',
+    hubHref: '/zh/telegram-airdrops/',
+    title: 'Not Pixel 空投教程 (2026)：Notcoin 团队 $PX 像素挖矿 | Airdroplyx',
+    description: 'Notcoin 团队打造的 1000x1000 像素画布游戏 Not Pixel 完整指南：涂色升级精力、每 8 小时领取 $PX 及绑定 Tonkeeper。',
+    h1: 'Not Pixel ($PX) Telegram 空投及像素挖矿指南',
+    badge: 'Notcoin 生态 • 零撸免费',
+    rewardLabel: '预估奖励',
+    costLabel: '参与成本',
+    snapshotLabel: '预期周期',
+    timeLabel: '每日耗时',
+    overviewHeading: '项目简介',
+    overview: 'Not Pixel 是由 Notcoin ($NOT) 原班团队与 Open Builders 推出的 1000x1000 多人协作像素画布小程序。每次涂色都会提升你在 TON 链上 $PX 代币的被动挖矿算力。',
+    tokenomicsHeading: '$PX 代币经济',
+    tokenomics: '$PX 将在 TON 区块链发行，延续 Notcoin 纯社区公平分发理念，重点奖励持续参与涂色的玩家。',
+    stepsHeading: '详细参与步骤',
+    steps: [
+      '在 Telegram 中打开官方 Not Pixel 小程序。',
+      '在 1000x1000 画布上任选坐标与颜色，涂下你的第一个像素。',
+      '前往 Boosts 页面优先升级 Paint Reward、Recharge Speed 与 Energy Limit。',
+      '完成 Tasks 中的任务以立即获得额外精力补充。',
+      '每 8 小时领取一次矿池产出的被动 $PX，并绑定 Tonkeeper 钱包。'
+    ],
+    strategyHeading: '高收益策略',
+    strategy: '前期优先提升精力恢复速度与精力上限，加入活跃的 Squad 小队，并坚持每 8 小时领取一次被动收益。',
+    sybilHeading: '防女巫机制与安全提示',
+    sybilSafety: '系统通过坐标校验与冷却计时器检测自动化脚本。请保持纯手动操作，并妥善保管钱包助记词。',
+    faqHeading: '常见问题',
+    faqs: [
+      {
+        q: '玩 Not Pixel 需要花钱吗？',
+        a: '不需要，Telegram 内即可完全免费（$0）游玩与挖矿。'
+      },
+      {
+        q: '需要绑定什么钱包？',
+        a: '请绑定支持 TON 网络的 Tonkeeper 或 MyTonWallet。'
+      }
+    ],
+    ctaText: '打开 Not Pixel',
+    englishVersionLabel: '英文原版'
+  },
+  {
+    id: 'not-pixel',
+    slug: 'hi',
+    lang: 'hi',
+    flag: '🇮🇳',
+    homeLabel: 'होम',
+    hubLabel: 'टेलीग्राम एयरड्रॉप',
+    hubHref: '/hi/telegram-airdrops/',
+    title: 'Not Pixel एयरड्रॉप गाइड (2026): $PX टोकन माइनिंग | Airdroplyx',
+    description: 'Notcoin टीम के 1000x1000 पिक्सल गेम Not Pixel में मुफ्त $PX कमाने की गाइड: एनर्जी बूस्ट, हर 8 घंटे में क्लेम और Tonkeeper कनेक्शन।',
+    h1: 'Not Pixel ($PX) टेलीग्राम एयरड्रॉप और पिक्सल माइनिंग गाइड',
+    badge: 'Notcoin इकोसिस्टम • मुफ़्त',
+    rewardLabel: 'अनुमानित इनाम',
+    costLabel: 'लागत',
+    snapshotLabel: 'अनुमानित समय',
+    timeLabel: 'दैनिक समय',
+    overviewHeading: 'प्रोजेक्ट का परिचय',
+    overview: 'Not Pixel, Notcoin ($NOT) टीम और Open Builders द्वारा बनाया गया 1000x1000 पिक्सल कैनवास गेम है। आपके द्वारा पेंट किया गया हर पिक्सल TON नेटवर्क पर $PX टोकन की पैसिव माइनिंग स्पीड बढ़ाता है।',
+    tokenomicsHeading: '$PX टोकनॉमिक्स',
+    tokenomics: '$PX टोकन Notcoin की तरह शुद्ध कम्युनिटी डिस्ट्रीब्यूशन मॉडल के साथ TON ब्लॉकचेन पर जारी किया जाएगा।',
+    stepsHeading: 'भाग लेने के आसान चरण',
+    steps: [
+      'Telegram में आधिकारिक Not Pixel मिनी-ऐप खोलें।',
+      '1000x1000 कैनवास पर कोई भी स्थान और रंग चुनकर अपना पहला पिक्सल पेंट करें।',
+      'Boosts टैब में जाकर Paint Reward, Recharge Speed और Energy Limit अपग्रेड करें।',
+      'तुरंत अतिरिक्त एनर्जी पाने के लिए Tasks टैब के मिशन पूरे करें।',
+      'हर 8 घंटे में पैसिव $PX क्लेम करें और Tonkeeper वॉलेट जोड़ें।'
+    ],
+    strategyHeading: 'अधिकतम इनाम की रणनीति',
+    strategy: 'पहले Recharge Speed और Energy Cap अपग्रेड करें, एक सक्रिय Squad से जुड़ें और हर 8 घंटे में माइनिंग वॉल्ट से टोकन क्लेम करें।',
+    sybilHeading: 'सिबिल सुरक्षा और सावधानियाँ',
+    sybilSafety: 'सिस्टम बॉट्स को पकड़ने के लिए कोऑर्डिनेट और एनर्जी टाइमर जांचता है। मैन्युअल रूप से खेलें और सीड फ्रेज़ कभी साझा न करें।',
+    faqHeading: 'अक्सर पूछे जाने वाले प्रश्न',
+    faqs: [
+      {
+        q: 'क्या Not Pixel खेलना मुफ़्त है?',
+        a: 'हाँ, यह Telegram में बिना किसी जमा राशि के 100% मुफ़्त ($0) है।'
+      },
+      {
+        q: 'कौन सा वॉलेट जोड़ना चाहिए?',
+        a: 'TON नेटवर्क सपोर्ट करने वाला Tonkeeper या MyTonWallet जोड़ें।'
+      }
+    ],
+    ctaText: 'Not Pixel खोलें',
+    englishVersionLabel: 'अंग्रेज़ी संस्करण'
+  },
+  {
+    id: 'not-pixel',
+    slug: 'it',
+    lang: 'it',
+    flag: '🇮🇹',
+    homeLabel: 'Home',
+    hubLabel: 'Airdrop Telegram',
+    hubHref: '/it/airdrop-telegram/',
+    title: 'Guida Airdrop Not Pixel (2026): Minare $PX su TON | Airdroplyx',
+    description: 'Come minare $PX gratis con Not Pixel del team Notcoin su Telegram: dipingi pixel sulla tela 1000x1000, potenzia i boost e collega Tonkeeper.',
+    h1: 'Not Pixel ($PX): Guida Airdrop Telegram e Mining dei Pixel',
+    badge: 'Ecosistema Notcoin • Gratis',
+    rewardLabel: 'Ricompensa stimata',
+    costLabel: 'Costo',
+    snapshotLabel: 'Periodo previsto',
+    timeLabel: 'Tempo giornaliero',
+    overviewHeading: 'Panoramica del progetto',
+    overview: 'Not Pixel è una tela collaborativa 1000x1000 creata dal team di Notcoin ($NOT) e Open Builders. Ogni pixel colorato aumenta la potenza di mining passivo per accumulare token $PX sulla rete TON.',
+    tokenomicsHeading: 'Tokenomics di $PX',
+    tokenomics: 'Il token $PX verrà emesso su blockchain TON con distribuzione puramente comunitaria secondo il modello Notcoin.',
+    stepsHeading: 'Come partecipare passo dopo passo',
+    steps: [
+      'Avvia la Mini App ufficiale di Not Pixel su Telegram.',
+      'Seleziona una coordinata sulla tela 1000x1000 e dipingi il tuo primo pixel.',
+      'Apri la scheda Boosts per potenziare Paint Reward, Recharge Speed ed Energy Limit.',
+      'Completa le missioni nella sezione Tasks per ricaricare subito l’energia.',
+      'Riscatta i $PX passivi ogni 8 ore e collega il wallet Tonkeeper.'
+    ],
+    strategyHeading: 'Strategia per massimizzare i punti',
+    strategy: 'Potenzia per primi velocità di ricarica e capacità energetica, unisciti a una Squad attiva e riscatta il caveau ogni 8 ore.',
+    sybilHeading: 'Sicurezza e protezione Sybil',
+    sybilSafety: 'Not Pixel controlla coordinate e timer dell’energia per escludere script automatici. Gioca manualmente e custodisci la tua frase seed.',
+    faqHeading: 'Domande frequenti',
+    faqs: [
+      {
+        q: 'Not Pixel è gratuito?',
+        a: 'Sì, è gratuito al 100% ($0) su Telegram senza depositi richiesti.'
+      },
+      {
+        q: 'Quale wallet devo collegare?',
+        a: 'Usa Tonkeeper o MyTonWallet compatibili con la rete TON.'
+      }
+    ],
+    ctaText: 'Apri Not Pixel',
+    englishVersionLabel: 'Versione inglese'
+  },
+  {
+    id: 'not-pixel',
+    slug: 'pl',
+    lang: 'pl',
+    flag: '🇵🇱',
+    homeLabel: 'Strona główna',
+    hubLabel: 'Airdropy Telegram',
+    hubHref: '/pl/airdrop-telegram/',
+    title: 'Poradnik Airdrop Not Pixel (2026): Wydobycie $PX w TON | Airdroplyx',
+    description: 'Jak kopać $PX w Not Pixel od twórców Notcoin: maluj piksele na planszy 1000x1000, ulepszaj boosty energii i podłącz portfel Tonkeeper.',
+    h1: 'Not Pixel ($PX): Poradnik Airdropu Telegram i Kopania Pikseli',
+    badge: 'Ekosystem Notcoin • Darmowy',
+    rewardLabel: 'Szacowana nagroda',
+    costLabel: 'Koszt',
+    snapshotLabel: 'Przewidywany okres',
+    timeLabel: 'Czas dziennie',
+    overviewHeading: 'Opis projektu',
+    overview: 'Not Pixel to wspólna plansza 1000x1000 pikseli stworzona przez zespół Notcoin ($NOT) oraz Open Builders. Każdy zamalowany piksel zwiększa moc pasywnego wydobycia tokenów $PX w sieci TON.',
+    tokenomicsHeading: 'Tokenomika $PX',
+    tokenomics: 'Token $PX zostanie wydany na blockchainie TON z pełną dystrybucją społecznościową na wzór Notcoin.',
+    stepsHeading: 'Instrukcja krok po kroku',
+    steps: [
+      'Uruchom oficjalną aplikację Not Pixel na Telegramie.',
+      'Wybierz dowolne miejsce na siatce 1000x1000 i pomaluj swój pierwszy piksel.',
+      'Przejdź do zakładki Boosts, aby ulepszyć Paint Reward, Recharge Speed i Energy Limit.',
+      'Wykonuj zadania w zakładce Tasks po natychmiastowe doładowania energii.',
+      'Odbieraj pasywne $PX co 8 godzin i podłącz portfel Tonkeeper.'
+    ],
+    strategyHeading: 'Strategia maksymalizacji nagród',
+    strategy: 'Na początku rozwijaj szybkość odnawiania energii oraz jej limit, dołącz do aktywnego Squadu i odbieraj wydobycie co 8 godzin.',
+    sybilHeading: 'Ochrona Anti-Sybil i bezpieczeństwo',
+    sybilSafety: 'Not Pixel weryfikuje współrzędne oraz czasy odnowienia energii przeciwko botom. Graj ręcznie i nigdy nie ujawniaj swojej frazy seed.',
+    faqHeading: 'Często zadawane pytania',
+    faqs: [
+      {
+        q: 'Czy Not Pixel jest darmowy?',
+        a: 'Tak, gra jest w 100% darmowa ($0) na Telegramie bez żadnych wpłat.'
+      },
+      {
+        q: 'Jaki portfel podłączyć?',
+        a: 'Podłącz portfel Tonkeeper lub MyTonWallet obsługujący sieć TON.'
+      }
+    ],
+    ctaText: 'Otwórz Not Pixel',
+    englishVersionLabel: 'Wersja angielska'
   }
 ];
 
