@@ -5853,6 +5853,1482 @@ export const localizedAirdropGuides: LocalizedAirdropGuide[] = [
     ],
     ctaText: 'Otwórz Zenrock',
     englishVersionLabel: 'Wersja angielska'
+  },
+
+  // ================= TONX (16 LANGUAGES) =================
+  {
+    id: 'ton-x-dao',
+    slug: 'tr',
+    lang: 'tr',
+    flag: '🇹🇷',
+    homeLabel: 'Ana Sayfa',
+    hubLabel: 'Telegram Airdropları',
+    hubHref: '/tr/telegram-airdroplari/',
+    title: 'TONX Airdrop Rehberi (2026): SuperApp Puanları & TON | Airdroplyx',
+    description: 'SNZ Holding ve Summer Ventures’tan 4 milyon dolar yatırım alan TONX (@tonxstudio_bot) Telegram Mini-App görevleri ve Tonkeeper bağlantı rehberi.',
+    h1: 'TONX SuperApp Telegram Airdrop ve Ekosistem Rehberi',
+    badge: '$4.0M Yatırım • Ücretsiz',
+    rewardLabel: 'Tahmini Ödül',
+    costLabel: 'Maliyet',
+    snapshotLabel: 'Beklenen Dönem',
+    timeLabel: 'Haftalık Süre',
+    overviewHeading: 'Proje Özeti',
+    overview: 'SNZ Holding ve Summer Ventures’tan 4 milyon dolar Seed yatırımı alan TONX, TON blokzinciri için kurumsal RPC API altyapısı ve SuperApp geliştirici araçları sunar. @tonxstudio_bot Telegram Mini Uygulaması üzerinden erken kullanıcılar TONX destekli mini uygulamaları test ederek sadakat puanları toplar.',
+    tokenomicsHeading: 'Ekosistem Puanları ve Ödüller',
+    tokenomics: 'Topluluk görev puanları, TONX partner lansmanları ve SuperApp ekosistem ödülleri için erken dönem test kullanıcılarının katkısını takip eder.',
+    stepsHeading: 'Adım Adım Katılım Rehberi',
+    steps: [
+      'Resmi TONX Telegram Mini Uygulamasını (@tonxstudio_bot) başlatın.',
+      'Tonkeeper veya MyTonWallet cüzdanınızı TON Connect ile bağlayın.',
+      'Öne çıkan SuperApp keşif ve test görevlerini tamamlayın.',
+      'Yeni partner ekosistem görevlerini yakalamak için haftalık kontrol yapın.',
+      'Sadakat puanlarınızı düzenli artırarak erken kullanıcı statünüzü koruyun.'
+    ],
+    strategyHeading: 'Maksimum Ödül Stratejisi',
+    strategy: 'Tüm ücretsiz SuperApp keşif görevlerini ilk günlerde tamamlayın ve partner uygulama görevlerinin kaydedilmesi için Tonkeeper cüzdanınızı baştan bağlayın.',
+    sybilHeading: 'Sybil Koruması ve Güvenlik',
+    sybilSafety: 'TON Connect cüzdan bağlama ve partner görev doğrulaması otomatik çoklu hesap botlarını filtreler. Cüzdan kurtarma kelimelerinizi asla paylaşmayın.',
+    faqHeading: 'Sıkça Sorulan Sorular',
+    faqs: [
+      {
+        q: 'TONX projesine kimler yatırım yaptı?',
+        a: 'TONX, SNZ Holding ve Summer Ventures liderliğinde 4 milyon dolar yatırım aldı.'
+      },
+      {
+        q: 'TONX katılımı ücretsiz mi?',
+        a: 'Evet, Telegram içindeki topluluk keşif görevleri tamamen ücretsizdir ($0).'
+      }
+    ],
+    ctaText: 'TONX’u Başlat',
+    englishVersionLabel: 'İngilizce Sürüm'
+  },
+  {
+    id: 'ton-x-dao',
+    slug: 'ru',
+    lang: 'ru',
+    flag: '🇷🇺',
+    homeLabel: 'Главная',
+    hubLabel: 'Telegram-аирдропы',
+    hubHref: '/ru/telegram-airdrops/',
+    title: 'Гайд по аирдропу TONX (2026): квесты SuperApp и поинты | Airdroplyx',
+    description: 'Как бесплатно фармить поинты в TONX (@tonxstudio_bot) с инвестициями $4M от SNZ Holding и Summer Ventures: SuperApp-квесты и подключение Tonkeeper.',
+    h1: 'TONX: гайд по аирдропу и квестам SuperApp в Telegram',
+    badge: 'Инвестиции $4.0M • Бесплатно',
+    rewardLabel: 'Ожидаемая награда',
+    costLabel: 'Затраты',
+    snapshotLabel: 'Ожидаемый период',
+    timeLabel: 'Время в неделю',
+    overviewHeading: 'Обзор проекта',
+    overview: 'TONX привлёк $4 млн от SNZ Holding и Summer Ventures для развития RPC-инфраструктуры TON и инструментов SuperApp. В мини-приложении @tonxstudio_bot ранние пользователи тестируют партнёрские приложения и накапливают очки лояльности.',
+    tokenomicsHeading: 'Экосистемные очки и награды',
+    tokenomics: 'Баллы за квесты фиксируют вклад ранних тестировщиков SuperApp для будущих дропов партнёрских запусков TONX.',
+    stepsHeading: 'Пошаговая инструкция',
+    steps: [
+      'Откройте официальный мини-апп TONX в Telegram (@tonxstudio_bot).',
+      'Подключите некастодиальный кошелек Tonkeeper или MyTonWallet.',
+      'Выполните доступные задания по тестированию SuperApp.',
+      'Заходите раз в неделю для новых партнёрских квестов экосистемы.',
+      'Отслеживайте накопленные баллы лояльности.'
+    ],
+    strategyHeading: 'Стратегия фарма',
+    strategy: 'Выполняйте все бесплатные квесты открытия приложений сразу после их выхода и заранее привяжите Tonkeeper для фиксации ончейн-активности.',
+    sybilHeading: 'Защита от ботов и безопасность',
+    sybilSafety: 'Привязка через TON Connect и проверка партнёрских действий отсеивают автоматизированные фермы. Никому не передавайте сид-фразу.',
+    faqHeading: 'Частые вопросы',
+    faqs: [
+      {
+        q: 'Кто инвестировал в TONX?',
+        a: 'Проект привлёк $4M от SNZ Holding и Summer Ventures.'
+      },
+      {
+        q: 'Участие в TONX бесплатное?',
+        a: 'Да, исследовательские квесты в Telegram полностью бесплатны ($0).'
+      }
+    ],
+    ctaText: 'Открыть TONX',
+    englishVersionLabel: 'Английская версия'
+  },
+  {
+    id: 'ton-x-dao',
+    slug: 'id',
+    lang: 'id',
+    flag: '🇮🇩',
+    homeLabel: 'Beranda',
+    hubLabel: 'Airdrop Telegram',
+    hubHref: '/id/airdrop-telegram/',
+    title: 'Panduan Airdrop TONX (2026): Poin SuperApp & TON | Airdroplyx',
+    description: 'Cara ikut airdrop TONX ($4M Seed dari SNZ Holding & Summer Ventures) di @tonxstudio_bot: selesaikan misi SuperApp gratis dan hubungkan Tonkeeper.',
+    h1: 'TONX: Panduan Airdrop Telegram & Ekosistem SuperApp',
+    badge: 'Pendanaan $4.0M • Gratis',
+    rewardLabel: 'Estimasi Hadiah',
+    costLabel: 'Biaya',
+    snapshotLabel: 'Perkiraan Snapshot',
+    timeLabel: 'Waktu Mingguan',
+    overviewHeading: 'Ringkasan Proyek',
+    overview: 'Didukung pendanaan $4 juta dari SNZ Holding dan Summer Ventures, TONX menyediakan API RPC TON tingkat enterprise dan perangkat SuperApp. Di @tonxstudio_bot, pengguna awal menguji mini-app mitra untuk mengumpulkan poin loyalitas.',
+    tokenomicsHeading: 'Poin Ekosistem & Hadiah',
+    tokenomics: 'Poin misi komunitas mencatat kontribusi penguji awal SuperApp untuk potensi drop peluncuran mitra TONX.',
+    stepsHeading: 'Langkah-Langkah Mengikuti Airdrop',
+    steps: [
+      'Buka Mini App resmi TONX di Telegram (@tonxstudio_bot).',
+      'Hubungkan dompet Tonkeeper atau MyTonWallet Anda.',
+      'Selesaikan misi penemuan SuperApp yang tersedia.',
+      'Periksa setiap minggu untuk tugas mitra ekosistem baru.',
+      'Kumpulkan poin loyalitas secara konsisten.'
+    ],
+    strategyHeading: 'Strategi Maksimal',
+    strategy: 'Selesaikan seluruh tugas penemuan SuperApp gratis dan tautkan dompet Tonkeeper sejak awal agar setiap aktivitas tercatat.',
+    sybilHeading: 'Keamanan & Anti-Sybil',
+    sybilSafety: 'Integrasi TON Connect dan verifikasi tugas mitra menyaring akun bot massal. Jangan pernah membagikan seed phrase Anda.',
+    faqHeading: 'Pertanyaan Umum',
+    faqs: [
+      {
+        q: 'Siapa investor di balik TONX?',
+        a: 'TONX meraih pendanaan $4M yang dipimpin SNZ Holding dan Summer Ventures.'
+      },
+      {
+        q: 'Apakah airdrop TONX gratis?',
+        a: 'Ya, misi penemuan di dalam Telegram sepenuhnya gratis ($0).'
+      }
+    ],
+    ctaText: 'Buka TONX',
+    englishVersionLabel: 'Versi Bahasa Inggris'
+  },
+  {
+    id: 'ton-x-dao',
+    slug: 'vi',
+    lang: 'vi',
+    flag: '🇻🇳',
+    homeLabel: 'Trang chủ',
+    hubLabel: 'Airdrop Telegram',
+    hubHref: '/vi/airdrop-telegram/',
+    title: 'Hướng dẫn Airdrop TONX (2026): Điểm SuperApp trên TON | Airdroplyx',
+    description: 'Cách tham gia airdrop TONX (gọi vốn $4M từ SNZ Holding & Summer Ventures) qua @tonxstudio_bot và kết nối ví Tonkeeper miễn phí.',
+    h1: 'TONX: Hướng dẫn Airdrop Telegram & Khám Phá SuperApp',
+    badge: 'Gọi vốn $4.0M • Miễn phí',
+    rewardLabel: 'Phần thưởng dự kiến',
+    costLabel: 'Chi phí',
+    snapshotLabel: 'Thời gian dự kiến',
+    timeLabel: 'Thời gian mỗi tuần',
+    overviewHeading: 'Tổng quan dự án',
+    overview: 'Được SNZ Holding và Summer Ventures đầu tư $4 triệu, TONX cung cấp hạ tầng RPC API và bộ công cụ SuperApp cho hệ sinh thái TON. Thông qua @tonxstudio_bot, người dùng trải nghiệm các mini-app đối tác để tích lũy điểm thưởng.',
+    tokenomicsHeading: 'Điểm Hệ Sinh Thái & Phần Thưởng',
+    tokenomics: 'Điểm nhiệm vụ ghi nhận những người thử nghiệm SuperApp sớm cho các đợt airdrop từ đối tác TONX.',
+    stepsHeading: 'Các bước tham gia chi tiết',
+    steps: [
+      'Khởi chạy Mini-App chính thức của TONX trên Telegram (@tonxstudio_bot).',
+      'Kết nối ví Tonkeeper hoặc MyTonWallet của bạn.',
+      'Hoàn thành các nhiệm vụ khám phá SuperApp nổi bật.',
+      'Kiểm tra hàng tuần để không bỏ lỡ nhiệm vụ đối tác mới.',
+      'Tích lũy đều đặn điểm trung thành trên hệ thống.'
+    ],
+    strategyHeading: 'Chiến lược tối ưu điểm',
+    strategy: 'Hoàn thành tất cả nhiệm vụ miễn phí trong @tonxstudio_bot và liên kết ví Tonkeeper ngay từ đầu.',
+    sybilHeading: 'Chống Sybil & Bảo mật',
+    sybilSafety: 'Xác minh ví qua TON Connect và kiểm tra nhiệm vụ đối tác giúp loại bỏ bot. Luôn giữ bí mật cụm từ khôi phục ví.',
+    faqHeading: 'Câu hỏi thường gặp',
+    faqs: [
+      {
+        q: 'Ai đầu tư vào TONX?',
+        a: 'TONX huy động $4M từ SNZ Holding và Summer Ventures.'
+      },
+      {
+        q: 'Tham gia TONX có miễn phí không?',
+        a: 'Có, các nhiệm vụ khám phá trên Telegram hoàn toàn miễn phí ($0).'
+      }
+    ],
+    ctaText: 'Mở TONX',
+    englishVersionLabel: 'Bản tiếng Anh'
+  },
+  {
+    id: 'ton-x-dao',
+    slug: 'es',
+    lang: 'es',
+    flag: '🇪🇸',
+    homeLabel: 'Inicio',
+    hubLabel: 'Airdrops de Telegram',
+    hubHref: '/es/airdrops-telegram/',
+    title: 'Guía Airdrop TONX (2026): Puntos SuperApp en TON | Airdroplyx',
+    description: 'Cómo participar gratis en TONX ($4M de SNZ Holding y Summer Ventures) mediante @tonxstudio_bot, misiones SuperApp y billetera Tonkeeper.',
+    h1: 'TONX: Guía del Airdrop en Telegram y Ecosistema SuperApp',
+    badge: 'Financiación $4.0M • Gratis',
+    rewardLabel: 'Recompensa estimada',
+    costLabel: 'Costo',
+    snapshotLabel: 'Periodo estimado',
+    timeLabel: 'Tiempo semanal',
+    overviewHeading: 'Resumen del proyecto',
+    overview: 'Con $4 millones de SNZ Holding y Summer Ventures, TONX provee APIs RPC y herramientas SuperApp en TON. En @tonxstudio_bot, los primeros usuarios prueban mini apps asociadas y acumulan puntos de lealtad.',
+    tokenomicsHeading: 'Puntos del Ecosistema',
+    tokenomics: 'Los puntos comunitarios registran a los probadores tempranos para futuros repartos de socios lanzados con TONX.',
+    stepsHeading: 'Pasos para participar',
+    steps: [
+      'Abre la Mini App oficial de TONX en Telegram (@tonxstudio_bot).',
+      'Conecta tu billetera Tonkeeper o MyTonWallet.',
+      'Completa las tareas destacadas de descubrimiento SuperApp.',
+      'Vuelve semanalmente para nuevas misiones del ecosistema.',
+      'Acumula puntos de forma constante.'
+    ],
+    strategyHeading: 'Estrategia para maximizar recompensas',
+    strategy: 'Completa todas las misiones gratuitas de descubrimiento en Telegram y vincula tu Tonkeeper desde el primer día.',
+    sybilHeading: 'Seguridad y protección Sybil',
+    sybilSafety: 'La vinculación con TON Connect y la validación de socios filtran cuentas automatizadas. Nunca compartas tu frase semilla.',
+    faqHeading: 'Preguntas frecuentes',
+    faqs: [
+      {
+        q: '¿Quién invirtió en TONX?',
+        a: 'TONX recaudó $4M liderados por SNZ Holding y Summer Ventures.'
+      },
+      {
+        q: '¿Es gratis participar en TONX?',
+        a: 'Sí, las misiones de descubrimiento en Telegram son gratuitas ($0).'
+      }
+    ],
+    ctaText: 'Abrir TONX',
+    englishVersionLabel: 'Versión en inglés'
+  },
+  {
+    id: 'ton-x-dao',
+    slug: 'pt',
+    lang: 'pt',
+    flag: '🇧🇷',
+    homeLabel: 'Início',
+    hubLabel: 'Airdrops do Telegram',
+    hubHref: '/pt/airdrops-telegram/',
+    title: 'Guia Airdrop TONX (2026): Pontos SuperApp na TON | Airdroplyx',
+    description: 'Veja como ganhar pontos no TONX ($4M da SNZ Holding e Summer Ventures) via @tonxstudio_bot e conectar sua carteira Tonkeeper grátis.',
+    h1: 'TONX: Guia do Airdrop no Telegram e Missões SuperApp',
+    badge: 'Investimento $4.0M • Grátis',
+    rewardLabel: 'Recompensa estimada',
+    costLabel: 'Custo',
+    snapshotLabel: 'Previsão',
+    timeLabel: 'Tempo semanal',
+    overviewHeading: 'Visão geral do projeto',
+    overview: 'Apoiado por $4 milhões da SNZ Holding e Summer Ventures, o TONX oferece infraestrutura RPC e ferramentas SuperApp na TON. No @tonxstudio_bot, usuários testam mini apps parceiros e somam pontos de fidelidade.',
+    tokenomicsHeading: 'Pontos do Ecossistema',
+    tokenomics: 'Os pontos de missão acompanham os primeiros testadores para campanhas e lançamentos de parceiros TONX.',
+    stepsHeading: 'Passo a passo para participar',
+    steps: [
+      'Inicie o Mini App oficial da TONX no Telegram (@tonxstudio_bot).',
+      'Conecte sua carteira Tonkeeper ou MyTonWallet.',
+      'Conclua as tarefas em destaque de descoberta SuperApp.',
+      'Acesse semanalmente para novas missões de parceiros.',
+      'Mantenha seus pontos de fidelidade atualizados.'
+    ],
+    strategyHeading: 'Estratégia de ganhos',
+    strategy: 'Complete todas as missões gratuitas dentro do Telegram e vincule sua carteira Tonkeeper logo no início.',
+    sybilHeading: 'Proteção Sybil e segurança',
+    sybilSafety: 'A conexão via TON Connect e verificação de parceiros bloqueiam contas automatizadas. Nunca revele sua frase de recuperação.',
+    faqHeading: 'Perguntas frequentes',
+    faqs: [
+      {
+        q: 'Quem investiu no TONX?',
+        a: 'A TONX levantou $4M liderados pela SNZ Holding e Summer Ventures.'
+      },
+      {
+        q: 'É gratuito participar do TONX?',
+        a: 'Sim, todas as missões de descoberta no Telegram são gratuitas ($0).'
+      }
+    ],
+    ctaText: 'Abrir TONX',
+    englishVersionLabel: 'Versão em inglês'
+  },
+  {
+    id: 'ton-x-dao',
+    slug: 'ko',
+    lang: 'ko',
+    flag: '🇰🇷',
+    homeLabel: '홈',
+    hubLabel: '텔레그램 에어드랍',
+    hubHref: '/ko/telegram-airdrops/',
+    title: 'TONX 에어드랍 가이드 (2026): SuperApp 포인트 & TON | Airdroplyx',
+    description: 'SNZ Holding과 Summer Ventures에서 $4M 투자를 유치한 TONX(@tonxstudio_bot) 텔레그램 퀘스트 참여 및 Tonkeeper 연동 방법.',
+    h1: 'TONX 텔레그램 에어드랍 및 SuperApp 퀘스트 가이드',
+    badge: '$4.0M 투자 유치 • 무료',
+    rewardLabel: '예상 보상',
+    costLabel: '비용',
+    snapshotLabel: '예상 시기',
+    timeLabel: '주간 소요 시간',
+    overviewHeading: '프로젝트 개요',
+    overview: 'SNZ Holding과 Summer Ventures로부터 400만 달러를 투자받은 TONX는 TON RPC API와 SuperApp 도구를 제공합니다. @tonxstudio_bot에서 파트너 미니앱을 체험하고 로열티 포인트를 적립할 수 있습니다.',
+    tokenomicsHeading: '생태계 포인트 및 보상',
+    tokenomics: '커뮤니티 퀘스트 포인트는 TONX 파트너 런칭 및 생태계 드랍 대상 선별에 활용됩니다.',
+    stepsHeading: '단계별 참여 방법',
+    steps: [
+      '텔레그램에서 공식 TONX 미니앱(@tonxstudio_bot)을 실행하세요.',
+      'Tonkeeper 또는 MyTonWallet 지갑을 연결하세요.',
+      '추천 SuperApp 탐색 퀘스트를 완료하세요.',
+      '매주 새로운 파트너 생태계 미션을 확인하세요.',
+      '로열티 포인트를 꾸준히 적립하세요.'
+    ],
+    strategyHeading: '보상 극대화 전략',
+    strategy: '모든 무료 SuperApp 탐색 미션을 빠짐없이 수행하고 초기에 Tonkeeper 지갑을 연동해 두세요.',
+    sybilHeading: '시빌 방지 및 보안',
+    sybilSafety: 'TON Connect 지갑 연동 및 파트너 검증을 통해 자동화 계정을 걸러냅니다. 복구 구문은 절대 공유하지 마세요.',
+    faqHeading: '자주 묻는 질문',
+    faqs: [
+      {
+        q: 'TONX의 주요 투자자는 누구인가요?',
+        a: 'SNZ Holding과 Summer Ventures 주도로 400만 달러를 유치했습니다.'
+      },
+      {
+        q: 'TONX 참여는 무료인가요?',
+        a: '네, 텔레그램 내 탐색 퀘스트는 비용 없이 무료($0)입니다.'
+      }
+    ],
+    ctaText: 'TONX 시작하기',
+    englishVersionLabel: '영문 버전'
+  },
+  {
+    id: 'ton-x-dao',
+    slug: 'ja',
+    lang: 'ja',
+    flag: '🇯🇵',
+    homeLabel: 'ホーム',
+    hubLabel: 'Telegramエアドロップ',
+    hubHref: '/ja/telegram-airdrops/',
+    title: 'TONX エアドロップ攻略 (2026): SuperAppクエスト手順 | Airdroplyx',
+    description: 'SNZ HoldingとSummer Venturesから400万ドル調達したTONX（@tonxstudio_bot）の無料クエスト参加方法とTonkeeper連携手順。',
+    h1: 'TONX Telegramエアドロップ＆SuperAppクエストガイド',
+    badge: '$4.0M調達済み • 無料',
+    rewardLabel: '予想報酬',
+    costLabel: '費用',
+    snapshotLabel: '予定時期',
+    timeLabel: '週間作業時間',
+    overviewHeading: 'プロジェクト概要',
+    overview: 'SNZ HoldingおよびSummer Venturesから400万ドルを調達したTONXは、TON向けRPC APIとSuperApp開発ツールを提供します。@tonxstudio_bot上で提携ミニアプリを試し、ロイヤルティポイントを貯められます。',
+    tokenomicsHeading: 'エコシステムポイントと報酬',
+    tokenomics: 'クエストポイントはTONXパートナープロジェクトのローンチに伴うエコシステム報酬の指標となります。',
+    stepsHeading: '参加ステップ',
+    steps: [
+      'Telegramで公式TONXミニアプリ（@tonxstudio_bot）を起動します。',
+      'TonkeeperまたはMyTonWalletを接続します。',
+      '注目のSuperApp探索タスクを完了します。',
+      '毎週チェックして新しいパートナークエストをこなします。',
+      'ロイヤルティポイントを継続的に積み上げます。'
+    ],
+    strategyHeading: '報酬最大化のコツ',
+    strategy: '無料のSuperApp発見タスクをすべて完了し、最初からTonkeeperを連携させておきましょう。',
+    sybilHeading: 'シビル対策と安全性',
+    sybilSafety: 'TON Connect連携とパートナータスク検証で自動アカウントを除外します。シードフレーズは絶対に他人に教えないでください。',
+    faqHeading: 'よくある質問',
+    faqs: [
+      {
+        q: 'TONXの出資元はどこですか？',
+        a: 'SNZ HoldingとSummer Venturesから400万ドルを調達しています。'
+      },
+      {
+        q: 'TONXは無料で参加できますか？',
+        a: 'はい、Telegram内の探索クエストは完全無料（$0）です。'
+      }
+    ],
+    ctaText: 'TONXを開く',
+    englishVersionLabel: '英語版を見る'
+  },
+  {
+    id: 'ton-x-dao',
+    slug: 'ar',
+    lang: 'ar',
+    flag: '🇸🇦',
+    homeLabel: 'الرئيسية',
+    hubLabel: 'إيردروبات تيليجرام',
+    hubHref: '/ar/telegram-airdrops/',
+    title: 'دليل إيردروب TONX (2026): مهام SuperApp ونقاط TON | Airdroplyx',
+    description: 'دليل المشاركة مجاناً في مهام TONX (@tonxstudio_bot) الممول بـ 4 مليون دولار من SNZ Holding وSummer Ventures مع ربط Tonkeeper.',
+    h1: 'TONX: دليل إيردروب تيليجرام ومهام SuperApp',
+    badge: 'تمويل $4.0M • مجاني',
+    rewardLabel: 'المكافأة المتوقعة',
+    costLabel: 'التكلفة',
+    snapshotLabel: 'الفترة المتوقعة',
+    timeLabel: 'الوقت الأسبوعي',
+    overviewHeading: 'نظرة عامة على المشروع',
+    overview: 'حصل مشروع TONX على تمويل بقيمة 4 ملايين دولار من SNZ Holding وSummer Ventures لتطوير واجهات RPC وأدوات SuperApp على شبكة TON. يختبر المستخدمون الأوائل التطبيقات المصغرة عبر @tonxstudio_bot لجمع نقاط الولاء.',
+    tokenomicsHeading: 'نقاط النظام البيئي والمكافآت',
+    tokenomics: 'تتتبع نقاط المهام مساهمات المختبرين الأوائل لتوزيعات مشاريع شركاء TONX.',
+    stepsHeading: 'خطوات المشاركة',
+    steps: [
+      'افتح تطبيق TONX الرسمي داخل تيليجرام (@tonxstudio_bot).',
+      'اربط محفظة Tonkeeper أو MyTonWallet الخاصة بك.',
+      'أكمل مهام استكشاف SuperApp المتاحة.',
+      'تحقق أسبوعياً من المهام الجديدة لشركاء النظام البيئي.',
+      'واصل تجميع نقاط الولاء بانتظام.'
+    ],
+    strategyHeading: 'استراتيجية تعظيم المكافآت',
+    strategy: 'أنهِ جميع مهام استكشاف SuperApp المجانية مبكراً واربط محفظة Tonkeeper من البداية.',
+    sybilHeading: 'الحماية من الحسابات الوهمية والأمان',
+    sybilSafety: 'يساعد ربط TON Connect والتحقق من مهام الشركاء في استبعاد البوتات. لا تشارك عبارة الاسترداد مطلقاً.',
+    faqHeading: 'الأسئلة الشائعة',
+    faqs: [
+      {
+        q: 'من استثمر في TONX؟',
+        a: 'جمعت TONX تمويلاً بقيمة 4 ملايين دولار بقيادة SNZ Holding وSummer Ventures.'
+      },
+      {
+        q: 'هل المشاركة في TONX مجانية؟',
+        a: 'نعم، مهام الاستكشاف داخل تيليجرام مجانية تماماً ($0).'
+      }
+    ],
+    ctaText: 'افتح TONX',
+    englishVersionLabel: 'النسخة الإنجليزية'
+  },
+  {
+    id: 'ton-x-dao',
+    slug: 'de',
+    lang: 'de',
+    flag: '🇩🇪',
+    homeLabel: 'Startseite',
+    hubLabel: 'Telegram-Airdrops',
+    hubHref: '/de/telegram-airdrops/',
+    title: 'TONX Airdrop Guide (2026): SuperApp-Quests & TON Punkte | Airdroplyx',
+    description: 'Anleitung für TONX ($4M Seed von SNZ Holding & Summer Ventures): Kostenlose SuperApp-Quests in @tonxstudio_bot abschließen und Tonkeeper verbinden.',
+    h1: 'TONX: Telegram-Airdrop & SuperApp-Ökosystem Guide',
+    badge: '$4.0M Finanzierung • Kostenlos',
+    rewardLabel: 'Geschätzte Belohnung',
+    costLabel: 'Kosten',
+    snapshotLabel: 'Erwarteter Zeitraum',
+    timeLabel: 'Wöchentlicher Aufwand',
+    overviewHeading: 'Projektübersicht',
+    overview: 'Unterstützt mit 4 Millionen US-Dollar von SNZ Holding und Summer Ventures bietet TONX RPC-APIs und SuperApp-Tools für TON. Über @tonxstudio_bot testen frühe Nutzer Partner-Mini-Apps und sammeln Treuepunkte.',
+    tokenomicsHeading: 'Ökosystem-Punkte & Belohnungen',
+    tokenomics: 'Die Quest-Punkte erfassen frühe SuperApp-Tester für kommende Partner-Drops im TONX-Netzwerk.',
+    stepsHeading: 'Schritt-für-Schritt-Anleitung',
+    steps: [
+      'Starte die offizielle TONX Mini App in Telegram (@tonxstudio_bot).',
+      'Verbinde deine Tonkeeper- oder MyTonWallet-Wallet.',
+      'Erledige die vorgestellten SuperApp-Entdeckungsaufgaben.',
+      'Schau wöchentlich nach neuen Partner-Quests.',
+      'Sammle kontinuierlich Treuepunkte.'
+    ],
+    strategyHeading: 'Strategie für maximale Punkte',
+    strategy: 'Schließe alle kostenlosen SuperApp-Quests direkt ab und verknüpfe Tonkeeper gleich zu Beginn.',
+    sybilHeading: 'Sybil-Schutz & Sicherheit',
+    sybilSafety: 'TON Connect und Partnerprüfungen filtern automatisierte Farmen. Teile niemals deine Seed-Phrase.',
+    faqHeading: 'Häufig gestellte Fragen',
+    faqs: [
+      {
+        q: 'Wer hat in TONX investiert?',
+        a: 'TONX erhielt $4M von SNZ Holding und Summer Ventures.'
+      },
+      {
+        q: 'Ist TONX kostenlos?',
+        a: 'Ja, alle Community-Entdeckungsquests in Telegram sind kostenlos ($0).'
+      }
+    ],
+    ctaText: 'TONX öffnen',
+    englishVersionLabel: 'Englische Version'
+  },
+  {
+    id: 'ton-x-dao',
+    slug: 'fr',
+    lang: 'fr',
+    flag: '🇫🇷',
+    homeLabel: 'Accueil',
+    hubLabel: 'Airdrops Telegram',
+    hubHref: '/fr/airdrops-telegram/',
+    title: 'Guide Airdrop TONX (2026) : Quêtes SuperApp sur TON | Airdroplyx',
+    description: 'Comment participer gratuitement aux quêtes TONX (4 M$ de SNZ Holding et Summer Ventures) sur @tonxstudio_bot avec Tonkeeper.',
+    h1: 'TONX : Guide Airdrop Telegram et Quêtes SuperApp',
+    badge: 'Financement $4.0M • Gratuit',
+    rewardLabel: 'Récompense estimée',
+    costLabel: 'Coût',
+    snapshotLabel: 'Période estimée',
+    timeLabel: 'Temps hebdomadaire',
+    overviewHeading: 'Présentation du projet',
+    overview: 'Soutenu à hauteur de 4 M$ par SNZ Holding et Summer Ventures, TONX fournit des API RPC et des outils SuperApp sur TON. Dans @tonxstudio_bot, les premiers utilisateurs testent des Mini Apps partenaires pour cumuler des points.',
+    tokenomicsHeading: 'Points d’Écosystème',
+    tokenomics: 'Les points récompensent les testeurs précoces des lancements partenaires propulsés par TONX.',
+    stepsHeading: 'Étapes pour participer',
+    steps: [
+      'Lancez la Mini App officielle TONX sur Telegram (@tonxstudio_bot).',
+      'Connectez votre portefeuille Tonkeeper ou MyTonWallet.',
+      'Complétez les quêtes de découverte SuperApp proposées.',
+      'Revenez chaque semaine pour les nouvelles missions partenaires.',
+      'Cumulez régulièrement vos points de fidélité.'
+    ],
+    strategyHeading: 'Stratégie d’optimisation',
+    strategy: 'Validez toutes les quêtes gratuites dès leur publication et connectez Tonkeeper dès le départ.',
+    sybilHeading: 'Protection Anti-Sybil et sécurité',
+    sybilSafety: 'La liaison TON Connect et la vérification partenaire bloquent les bots. Ne divulguez jamais votre phrase secrète.',
+    faqHeading: 'Questions fréquentes',
+    faqs: [
+      {
+        q: 'Qui soutient TONX ?',
+        a: 'TONX a levé 4 M$ auprès de SNZ Holding et Summer Ventures.'
+      },
+      {
+        q: 'TONX est-il gratuit ?',
+        a: 'Oui, les quêtes communautaires sur Telegram sont 100 % gratuites ($0).'
+      }
+    ],
+    ctaText: 'Ouvrir TONX',
+    englishVersionLabel: 'Version anglaise'
+  },
+  {
+    id: 'ton-x-dao',
+    slug: 'uk',
+    lang: 'uk',
+    flag: '🇺🇦',
+    homeLabel: 'Головна',
+    hubLabel: 'Telegram-аірдропи',
+    hubHref: '/uk/telegram-airdrops/',
+    title: 'Гайд з аірдропу TONX (2026): квести SuperApp у TON | Airdroplyx',
+    description: 'Як безкоштовно заробляти бали в TONX ($4M від SNZ Holding і Summer Ventures) через @tonxstudio_bot та гаманець Tonkeeper.',
+    h1: 'TONX: гайд з аірдропу та SuperApp-квестів у Telegram',
+    badge: 'Інвестиції $4.0M • Безкоштовно',
+    rewardLabel: 'Очікувана винагорода',
+    costLabel: 'Витрати',
+    snapshotLabel: 'Очікуваний період',
+    timeLabel: 'Час на тиждень',
+    overviewHeading: 'Огляд проєкту',
+    overview: 'TONX залучив $4 млн від SNZ Holding і Summer Ventures для розвитку інфраструктури RPC і SuperApp у TON. Через @tonxstudio_bot ранні користувачі тестують партнерські міні-додатки та збирають бали лояльності.',
+    tokenomicsHeading: 'Бали екосистеми та нагороди',
+    tokenomics: 'Квестові бали фіксують ранніх тестувальників SuperApp для майбутніх партнерських дропів TONX.',
+    stepsHeading: 'Покрокова інструкція',
+    steps: [
+      'Запустіть офіційний Telegram Mini-App TONX (@tonxstudio_bot).',
+      'Підключіть гаманець Tonkeeper або MyTonWallet.',
+      'Виконайте рекомендовані завдання з тестування SuperApp.',
+      'Перевіряйте щотижня нові партнерські квести.',
+      'Систематично накопичуйте бали лояльності.'
+    ],
+    strategyHeading: 'Стратегія максимізації нагород',
+    strategy: 'Проходьте всі безкоштовні квести відкриття додатків і одразу підключайте Tonkeeper.',
+    sybilHeading: 'Захист від Sybil та безпека',
+    sybilSafety: 'Прив’язка TON Connect і перевірка партнерів відсіюють бот-ферми. Ніколи не передавайте сід-фразу.',
+    faqHeading: 'Часті запитання',
+    faqs: [
+      {
+        q: 'Хто інвестував у TONX?',
+        a: 'SNZ Holding і Summer Ventures вклали $4M у TONX.'
+      },
+      {
+        q: 'Чи безкоштовно брати участь у TONX?',
+        a: 'Так, квести у Telegram повністю безкоштовні ($0).'
+      }
+    ],
+    ctaText: 'Відкрити TONX',
+    englishVersionLabel: 'Англійська версія'
+  },
+  {
+    id: 'ton-x-dao',
+    slug: 'zh',
+    lang: 'zh-CN',
+    flag: '🇨🇳',
+    homeLabel: '首页',
+    hubLabel: 'Telegram 空投',
+    hubHref: '/zh/telegram-airdrops/',
+    title: 'TONX 空投教程 (2026)：$400万融资 SuperApp 任务指南 | Airdroplyx',
+    description: '由 SNZ Holding 与 Summer Ventures 投资 400 万美元的 TONX（@tonxstudio_bot）免费探索任务与 Tonkeeper 绑定教程。',
+    h1: 'TONX Telegram 空投及 SuperApp 探索指南',
+    badge: '融资 $4.0M • 零撸免费',
+    rewardLabel: '预估奖励',
+    costLabel: '参与成本',
+    snapshotLabel: '预期周期',
+    timeLabel: '每周耗时',
+    overviewHeading: '项目简介',
+    overview: '获得 SNZ Holding 与 Summer Ventures 400 万美元种子轮融资的 TONX，为 TON 生态提供企业级 RPC API 与 SuperApp 开发工具。玩家可通过 @tonxstudio_bot 测试合作方小程序并累积忠诚度积分。',
+    tokenomicsHeading: '生态积分与奖励',
+    tokenomics: '社区任务积分将用于记录早期 SuperApp 测试者贡献，对应 TONX 合作项目空投机会。',
+    stepsHeading: '详细参与步骤',
+    steps: [
+      '在 Telegram 中打开官方 TONX 小程序（@tonxstudio_bot）。',
+      '绑定你的 Tonkeeper 或 MyTonWallet 钱包。',
+      '完成精选的 SuperApp 探索与体验任务。',
+      '每周定期查看新增的合作生态任务。',
+      '持续累积积分保持活跃记录。'
+    ],
+    strategyHeading: '高收益策略',
+    strategy: '第一时间完成所有免费 SuperApp 体验任务，并在初期即绑定好 Tonkeeper 钱包。',
+    sybilHeading: '防女巫机制与安全提示',
+    sybilSafety: 'TON Connect 钱包绑定与合作任务核验可有效过滤脚本号。切勿泄露助记词。',
+    faqHeading: '常见问题',
+    faqs: [
+      {
+        q: 'TONX 的投资机构有哪些？',
+        a: '由 SNZ Holding 与 Summer Ventures 领投 400 万美元。'
+      },
+      {
+        q: '参与 TONX 需要花钱吗？',
+        a: '不需要，Telegram 内的社区探索任务完全免费（$0）。'
+      }
+    ],
+    ctaText: '打开 TONX',
+    englishVersionLabel: '英文原版'
+  },
+  {
+    id: 'ton-x-dao',
+    slug: 'hi',
+    lang: 'hi',
+    flag: '🇮🇳',
+    homeLabel: 'होम',
+    hubLabel: 'टेलीग्राम एयरड्रॉप',
+    hubHref: '/hi/telegram-airdrops/',
+    title: 'TONX एयरड्रॉप गाइड (2026): SuperApp पॉइंट्स और TON | Airdroplyx',
+    description: 'SNZ Holding और Summer Ventures से $4M फंडिंग प्राप्त TONX (@tonxstudio_bot) के मुफ्त SuperApp टास्क और Tonkeeper कनेक्शन की गाइड।',
+    h1: 'TONX टेलीग्राम एयरड्रॉप और SuperApp क्वेस्ट गाइड',
+    badge: '$4.0M फंडिंग • मुफ़्त',
+    rewardLabel: 'अनुमानित इनाम',
+    costLabel: 'लागत',
+    snapshotLabel: 'अनुमानित समय',
+    timeLabel: 'साप्ताहिक समय',
+    overviewHeading: 'प्रोजेक्ट का परिचय',
+    overview: 'SNZ Holding और Summer Ventures से $4 मिलियन की फंडिंग के साथ TONX, TON नेटवर्क के लिए RPC API और SuperApp टूल्स बनाता है। @tonxstudio_bot पर शुरुआती यूज़र्स पार्टनर मिनी-ऐप्स टेस्ट करके लॉयल्टी पॉइंट्स कमाते हैं।',
+    tokenomicsHeading: 'इकोसिस्टम पॉइंट्स और इनाम',
+    tokenomics: 'कम्युनिटी क्वेस्ट पॉइंट्स TONX पार्टनर लॉन्च के दौरान शुरुआती टेस्टर्स की भागीदारी ट्रैक करते हैं।',
+    stepsHeading: 'भाग लेने के आसान चरण',
+    steps: [
+      'Telegram में आधिकारिक TONX मिनी-ऐप (@tonxstudio_bot) खोलें।',
+      'अपना Tonkeeper या MyTonWallet कनेक्ट करें।',
+      'फीचर्ड SuperApp डिस्कवरी टास्क पूरे करें।',
+      'नए पार्टनर इकोसिस्टम क्वेस्ट के लिए साप्ताहिक जांच करें।',
+      'लगातार अपने लॉयल्टी पॉइंट्स बढ़ाते रहें।'
+    ],
+    strategyHeading: 'अधिकतम इनाम की रणनीति',
+    strategy: 'सभी मुफ्त SuperApp डिस्कवरी टास्क पूरे करें और शुरुआत में ही Tonkeeper वॉलेट लिंक करें।',
+    sybilHeading: 'सिबिल सुरक्षा और सावधानियाँ',
+    sybilSafety: 'TON Connect वॉलेट बाइंडिंग और पार्टनर वेरिफिकेशन बॉट अकाउंट्स को बाहर रखते हैं। अपनी सीड फ्रेज़ कभी साझा न करें।',
+    faqHeading: 'अक्सर पूछे जाने वाले प्रश्न',
+    faqs: [
+      {
+        q: 'TONX में किसने निवेश किया है?',
+        a: 'TONX ने SNZ Holding और Summer Ventures से $4M जुटाए हैं।'
+      },
+      {
+        q: 'क्या TONX से जुड़ना मुफ़्त है?',
+        a: 'हाँ, Telegram में कम्युनिटी डिस्कवरी क्वेस्ट पूरी तरह मुफ़्त ($0) हैं।'
+      }
+    ],
+    ctaText: 'TONX खोलें',
+    englishVersionLabel: 'अंग्रेज़ी संस्करण'
+  },
+  {
+    id: 'ton-x-dao',
+    slug: 'it',
+    lang: 'it',
+    flag: '🇮🇹',
+    homeLabel: 'Home',
+    hubLabel: 'Airdrop Telegram',
+    hubHref: '/it/airdrop-telegram/',
+    title: 'Guida Airdrop TONX (2026): Punti SuperApp su TON | Airdroplyx',
+    description: 'Come partecipare gratis alle missioni TONX ($4M da SNZ Holding e Summer Ventures) su @tonxstudio_bot e collegare Tonkeeper.',
+    h1: 'TONX: Guida Airdrop Telegram ed Ecosistema SuperApp',
+    badge: 'Finanziamento $4.0M • Gratis',
+    rewardLabel: 'Ricompensa stimata',
+    costLabel: 'Costo',
+    snapshotLabel: 'Periodo previsto',
+    timeLabel: 'Tempo settimanale',
+    overviewHeading: 'Panoramica del progetto',
+    overview: 'Supportato da 4 milioni di dollari da SNZ Holding e Summer Ventures, TONX offre API RPC e strumenti SuperApp su TON. Su @tonxstudio_bot i primi utenti testano mini-app partner accumulando punti fedeltà.',
+    tokenomicsHeading: 'Punti Ecosistema',
+    tokenomics: 'I punti missione tracciano i primi tester delle SuperApp per i lanci dei partner TONX.',
+    stepsHeading: 'Come partecipare passo dopo passo',
+    steps: [
+      'Avvia la Mini App ufficiale TONX su Telegram (@tonxstudio_bot).',
+      'Collega il wallet Tonkeeper o MyTonWallet.',
+      'Completa le attività di scoperta SuperApp in evidenza.',
+      'Controlla ogni settimana nuove missioni partner.',
+      'Accumula punti fedeltà con costanza.'
+    ],
+    strategyHeading: 'Strategia per massimizzare i punti',
+    strategy: 'Completa tutte le missioni gratuite di scoperta SuperApp e collega Tonkeeper fin da subito.',
+    sybilHeading: 'Sicurezza e protezione Sybil',
+    sybilSafety: 'Il collegamento TON Connect e la verifica delle attività partner filtrano i bot. Non condividere mai la frase seed.',
+    faqHeading: 'Domande frequenti',
+    faqs: [
+      {
+        q: 'Chi ha investito in TONX?',
+        a: 'TONX ha raccolto $4M guidati da SNZ Holding e Summer Ventures.'
+      },
+      {
+        q: 'TONX è gratuito?',
+        a: 'Sì, le missioni di scoperta su Telegram sono gratuite ($0).'
+      }
+    ],
+    ctaText: 'Apri TONX',
+    englishVersionLabel: 'Versione inglese'
+  },
+  {
+    id: 'ton-x-dao',
+    slug: 'pl',
+    lang: 'pl',
+    flag: '🇵🇱',
+    homeLabel: 'Strona główna',
+    hubLabel: 'Airdropy Telegram',
+    hubHref: '/pl/airdrop-telegram/',
+    title: 'Poradnik Airdrop TONX (2026): Punkty SuperApp w TON | Airdroplyx',
+    description: 'Jak za darmo zbierać punkty w TONX ($4M od SNZ Holding i Summer Ventures) przez @tonxstudio_bot i podłączyć portfel Tonkeeper.',
+    h1: 'TONX: Poradnik Airdropu Telegram i Misji SuperApp',
+    badge: 'Finansowanie $4.0M • Darmowy',
+    rewardLabel: 'Szacowana nagroda',
+    costLabel: 'Koszt',
+    snapshotLabel: 'Przewidywany okres',
+    timeLabel: 'Czas tygodniowo',
+    overviewHeading: 'Opis projektu',
+    overview: 'Wspierany kwotą 4 mln USD przez SNZ Holding i Summer Ventures projekt TONX dostarcza API RPC oraz narzędzia SuperApp dla sieci TON. W @tonxstudio_bot pierwsi użytkownicy testują aplikacje partnerskie i zbierają punkty.',
+    tokenomicsHeading: 'Punkty Ekosystemu',
+    tokenomics: 'Punkty zadań rejestrują wczesnych testerów SuperApp pod kątem airdropów partnerów TONX.',
+    stepsHeading: 'Instrukcja krok po kroku',
+    steps: [
+      'Uruchom oficjalną aplikację TONX na Telegramie (@tonxstudio_bot).',
+      'Podłącz portfel Tonkeeper lub MyTonWallet.',
+      'Wykonaj polecane zadania odkrywania SuperApp.',
+      'Sprawdzaj co tydzień nowe misje partnerskie.',
+      'Systematycznie powiększaj pulę punktów lojalnościowych.'
+    ],
+    strategyHeading: 'Strategia maksymalizacji nagród',
+    strategy: 'Wykonuj wszystkie darmowe zadania odkrywania SuperApp i od razu podepnij portfel Tonkeeper.',
+    sybilHeading: 'Ochrona Anti-Sybil i bezpieczeństwo',
+    sybilSafety: 'Powiązanie przez TON Connect i weryfikacja partnerów blokują farmy botów. Nigdy nie udostępniaj frazy seed.',
+    faqHeading: 'Często zadawane pytania',
+    faqs: [
+      {
+        q: 'Kto zainwestował w TONX?',
+        a: 'TONX pozyskał $4M od funduszy SNZ Holding i Summer Ventures.'
+      },
+      {
+        q: 'Czy udział w TONX jest darmowy?',
+        a: 'Tak, wszystkie zadania odkrywania w Telegramie są darmowe ($0).'
+      }
+    ],
+    ctaText: 'Otwórz TONX',
+    englishVersionLabel: 'Wersja angielska'
+  },
+
+  // ================= BUMS (16 LANGUAGES) =================
+  {
+    id: 'bums',
+    slug: 'tr',
+    lang: 'tr',
+    flag: '🇹🇷',
+    homeLabel: 'Ana Sayfa',
+    hubLabel: 'Telegram Airdropları',
+    hubHref: '/tr/telegram-airdroplari/',
+    title: 'Bums Airdrop Rehberi (2026): $BUMS Saatlik Kazanç & Mystery Box | Airdroplyx',
+    description: '10M+ oyunculu TON Telegram oyunu Bums ile ücretsiz $BUMS kazanma, College/Business yükseltmeleri, günlük Mystery Box kombosu ve Tonkeeper bağlantısı.',
+    h1: 'Bums ($BUMS) Telegram Airdrop ve Pasif Kazanç Rehberi',
+    badge: 'TON GameFi • Ücretsiz',
+    rewardLabel: 'Tahmini Ödül',
+    costLabel: 'Maliyet',
+    snapshotLabel: 'Beklenen Dönem',
+    timeLabel: 'Günlük Süre',
+    overviewHeading: 'Proje Özeti',
+    overview: 'Bums, TON ağı üzerinde 10 milyonu aşkın oyuncuya ulaşan viral bir Telegram Mini-App simülasyon oyunudur. Oyuncular sıfırdan başlayıp College ve Business kartlarını yükselterek saatlik pasif kazançlarını (Coins Per Hour) artırır ve TGE döneminde $BUMS token dağıtımından pay alır.',
+    tokenomicsHeading: '$BUMS Tokenomik ve Dağıtım',
+    tokenomics: '$BUMS tokenı yerel olarak TON üzerinde çalışır. Airdrop ağırlığı saatlik pasif kazanç hızı, karakter seviyesi ve günlük Mystery Box serilerine göre hesaplanır.',
+    stepsHeading: 'Adım Adım Katılım Rehberi',
+    steps: [
+      'Resmi Bums Telegram Mini Uygulamasını başlatın.',
+      'Başlangıç coinlerinizi toplayıp karakter seviyenizi yükseltin.',
+      'College / Business menüsünden saatlik pasif kazanç (Coins Per Hour) kartları satın alın.',
+      'Günlük Mystery Box kart kombinasyonunu tamamlayarak yüksek coin bonusu kazanın.',
+      'Tasks görevlerini bitirin ve airdrop portalından Tonkeeper cüzdanınızı bağlayın.'
+    ],
+    strategyHeading: 'Maksimum Ödül Stratejisi',
+    strategy: 'Tıklamayla elde ettiğiniz tüm coinleri en yüksek getirili saatlik kazanç kartlarına yatırın, günlük Mystery Box kombosunu kaçırmayın ve giriş serinizi koruyun.',
+    sybilHeading: 'Sybil Koruması ve Güvenlik',
+    sybilSafety: 'Hile karşıtı sistemler dokunma ritmini ve giriş anomalilerini izler. Gerçek işlem geçmişine sahip bir Tonkeeper cüzdanı bağlamak eleme riskini ortadan kaldırır.',
+    faqHeading: 'Sıkça Sorulan Sorular',
+    faqs: [
+      {
+        q: '$BUMS airdrop nasıl hesaplanır?',
+        a: 'Ödül ağırlığı esas olarak saatlik pasif kazanç, karakter seviyesi ve günlük aktivite serisine göre belirlenir.'
+      },
+      {
+        q: 'Bums oynamak ücretsiz mi?',
+        a: 'Evet, Bums tamamen ücretsiz ($0) oynanabilir.'
+      }
+    ],
+    ctaText: 'Bums’u Başlat',
+    englishVersionLabel: 'İngilizce Sürüm'
+  },
+  {
+    id: 'bums',
+    slug: 'ru',
+    lang: 'ru',
+    flag: '🇷🇺',
+    homeLabel: 'Главная',
+    hubLabel: 'Telegram-аирдропы',
+    hubHref: '/ru/telegram-airdrops/',
+    title: 'Гайд по аирдропу Bums (2026): прибыль в час и Mystery Box $BUMS | Airdroplyx',
+    description: 'Как играть и фармить $BUMS в Telegram бесплатно: прокачка карточек College/Business, ежедневное комбо Mystery Box и привязка кошелька Tonkeeper.',
+    h1: 'Bums ($BUMS): гайд по аирдропу и пассивному доходу в Telegram',
+    badge: 'TON GameFi • Бесплатно',
+    rewardLabel: 'Ожидаемая награда',
+    costLabel: 'Затраты',
+    snapshotLabel: 'Ожидаемый период',
+    timeLabel: 'Время в день',
+    overviewHeading: 'Обзор проекта',
+    overview: 'Bums — популярная Telegram Mini-App игра на блокчейне TON с аудиторией более 10 миллионов игроков. Улучшая карточки в разделе College / Business, пользователи повышают пассивную прибыль в час (Coins Per Hour) перед TGE токена $BUMS.',
+    tokenomicsHeading: 'Токеномика $BUMS',
+    tokenomics: 'Токен $BUMS работает в сети TON, а аллокация зависит от почасовой прибыли, уровня персонажа и регулярности открытия Mystery Box.',
+    stepsHeading: 'Пошаговая инструкция',
+    steps: [
+      'Запустите официальный бот Bums в Telegram.',
+      'Накопите стартовые монеты и улучшайте уровень персонажа.',
+      'Покупайте карточки пассивного дохода в разделе College / Business.',
+      'Собирайте ежедневную комбинацию Mystery Box для крупного бонуса монет.',
+      'Выполните задания в Tasks и подключите кошелек Tonkeeper в разделе аирдропа.'
+    ],
+    strategyHeading: 'Стратегия фарма',
+    strategy: 'Вкладывайте монеты в карточки с лучшей окупаемостью прибыли в час, ежедневно забирайте Mystery Box и не пропускайте серию входов.',
+    sybilHeading: 'Защита от ботов и безопасность',
+    sybilSafety: 'Античит отслеживает частоту нажатий и аномалии входов. Привязка активного кошелька Tonkeeper помогает успешно пройти проверку.',
+    faqHeading: 'Частые вопросы',
+    faqs: [
+      {
+        q: 'Как рассчитывается дроп $BUMS?',
+        a: 'Учитываются пассивный доход в час, уровень персонажа и ежедневная серия активности.'
+      },
+      {
+        q: 'Нужны ли вложения в Bums?',
+        a: 'Нет, игра полностью бесплатна ($0).'
+      }
+    ],
+    ctaText: 'Открыть Bums',
+    englishVersionLabel: 'Английская версия'
+  },
+  {
+    id: 'bums',
+    slug: 'id',
+    lang: 'id',
+    flag: '🇮🇩',
+    homeLabel: 'Beranda',
+    hubLabel: 'Airdrop Telegram',
+    hubHref: '/id/airdrop-telegram/',
+    title: 'Panduan Airdrop Bums (2026): Kejar Profit & Mystery Box $BUMS | Airdroplyx',
+    description: 'Cara ikut airdrop Bums di Telegram secara gratis: tingkatkan Coins Per Hour lewat kartu College/Business, kombo Mystery Box, dan hubungkan Tonkeeper.',
+    h1: 'Bums ($BUMS): Panduan Airdrop Telegram & Profit Per Jam',
+    badge: 'TON GameFi • Gratis',
+    rewardLabel: 'Estimasi Hadiah',
+    costLabel: 'Biaya',
+    snapshotLabel: 'Perkiraan Snapshot',
+    timeLabel: 'Waktu Harian',
+    overviewHeading: 'Ringkasan Proyek',
+    overview: 'Bums adalah game simulasi Telegram Mini-App di jaringan TON dengan lebih dari 10 juta pemain. Dengan meningkatkan kartu bisnis dan level karakter, pemain mengumpulkan Coins Per Hour untuk alokasi token $BUMS.',
+    tokenomicsHeading: 'Tokenomik $BUMS',
+    tokenomics: 'Token $BUMS berjalan di TON; bobot airdrop dihitung dari profit pasif per jam, peringkat evolusi karakter, dan rekor Mystery Box.',
+    stepsHeading: 'Langkah-Langkah Mengikuti Airdrop',
+    steps: [
+      'Buka Mini App resmi Bums di Telegram.',
+      'Kumpulkan koin awal dan tingkatkan level karakter Anda.',
+      'Beli kartu pendapatan pasif di menu College / Business.',
+      'Selesaikan kombinasi kartu Mystery Box harian untuk bonus koin besar.',
+      'Selesaikan misi di tab Tasks lalu hubungkan dompet Tonkeeper.'
+    ],
+    strategyHeading: 'Strategi Maksimal',
+    strategy: 'Investasikan kembali koin ke kartu dengan ROI Coins Per Hour tertinggi dan selesaikan kombo Mystery Box setiap hari.',
+    sybilHeading: 'Keamanan & Anti-Sybil',
+    sybilSafety: 'Sistem anti-cheat memantau pola tap dan anomali login. Tautkan dompet Tonkeeper aktif untuk memastikan kelayakan.',
+    faqHeading: 'Pertanyaan Umum',
+    faqs: [
+      {
+        q: 'Bagaimana perhitungan airdrop $BUMS?',
+        a: 'Berdasarkan profit pasif per jam, level karakter, dan konsistensi login harian.'
+      },
+      {
+        q: 'Apakah Bums gratis dimainkan?',
+        a: 'Ya, Bums sepenuhnya gratis ($0).'
+      }
+    ],
+    ctaText: 'Buka Bums',
+    englishVersionLabel: 'Versi Bahasa Inggris'
+  },
+  {
+    id: 'bums',
+    slug: 'vi',
+    lang: 'vi',
+    flag: '🇻🇳',
+    homeLabel: 'Trang chủ',
+    hubLabel: 'Airdrop Telegram',
+    hubHref: '/vi/airdrop-telegram/',
+    title: 'Hướng dẫn Airdrop Bums (2026): Cày $BUMS & Mystery Box | Airdroplyx',
+    description: 'Cách chơi Bums trên Telegram miễn phí: nâng cấp thẻ College/Business tăng lợi nhuận mỗi giờ, giải Mystery Box hàng ngày và kết nối ví Tonkeeper.',
+    h1: 'Bums ($BUMS): Hướng dẫn Airdrop Telegram & Tăng Lợi Nhuận Giờ',
+    badge: 'TON GameFi • Miễn phí',
+    rewardLabel: 'Phần thưởng dự kiến',
+    costLabel: 'Chi phí',
+    snapshotLabel: 'Thời gian dự kiến',
+    timeLabel: 'Thời gian mỗi ngày',
+    overviewHeading: 'Tổng quan dự án',
+    overview: 'Bums là Telegram Mini-App trên mạng TON thu hút hơn 10 triệu người chơi. Người dùng nâng cấp nhân vật và thẻ kinh doanh để tăng Coins Per Hour nhằm nhận phân bổ token $BUMS tại TGE.',
+    tokenomicsHeading: 'Tokenomics $BUMS',
+    tokenomics: 'Token $BUMS vận hành trên TON; tỷ lệ airdrop dựa trên lợi nhuận thụ động mỗi giờ, cấp độ nhân vật và chuỗi Mystery Box.',
+    stepsHeading: 'Các bước tham gia chi tiết',
+    steps: [
+      'Khởi chạy bot Telegram chính thức của Bums.',
+      'Kiếm xu khởi đầu và nâng cấp ngoại hình, cấp độ nhân vật.',
+      'Vào mục College / Business mua thẻ tăng thu nhập thụ động mỗi giờ.',
+      'Hoàn thành bộ thẻ Mystery Box hàng ngày để nhận thưởng xu lớn.',
+      'Làm nhiệm vụ ở mục Tasks và kết nối ví Tonkeeper.'
+    ],
+    strategyHeading: 'Chiến lược tối ưu điểm',
+    strategy: 'Dồn xu nâng các thẻ có hiệu suất Coins Per Hour cao nhất và giải Mystery Box đều đặn mỗi ngày.',
+    sybilHeading: 'Chống Sybil & Bảo mật',
+    sybilSafety: 'Hệ thống chống gian lận theo dõi nhịp chạm và đăng nhập bất thường. Liên kết ví Tonkeeper đang hoạt động giúp vượt qua kiểm duyệt.',
+    faqHeading: 'Câu hỏi thường gặp',
+    faqs: [
+      {
+        q: 'Airdrop $BUMS tính điểm như thế nào?',
+        a: 'Chủ yếu dựa vào lợi nhuận thụ động mỗi giờ, cấp nhân vật và chuỗi điểm danh hàng ngày.'
+      },
+      {
+        q: 'Chơi Bums có mất phí không?',
+        a: 'Không, Bums hoàn toàn miễn phí ($0).'
+      }
+    ],
+    ctaText: 'Mở Bums',
+    englishVersionLabel: 'Bản tiếng Anh'
+  },
+  {
+    id: 'bums',
+    slug: 'es',
+    lang: 'es',
+    flag: '🇪🇸',
+    homeLabel: 'Inicio',
+    hubLabel: 'Airdrops de Telegram',
+    hubHref: '/es/airdrops-telegram/',
+    title: 'Guía Airdrop Bums (2026): Ganancia por Hora y Mystery Box $BUMS | Airdroplyx',
+    description: 'Cómo jugar gratis a Bums en Telegram: sube tus Coins Per Hour con tarjetas College/Business, resuelve la Mystery Box diaria y conecta Tonkeeper.',
+    h1: 'Bums ($BUMS): Guía del Airdrop en Telegram y Beneficio Pasivo',
+    badge: 'TON GameFi • Gratis',
+    rewardLabel: 'Recompensa estimada',
+    costLabel: 'Costo',
+    snapshotLabel: 'Periodo estimado',
+    timeLabel: 'Tiempo diario',
+    overviewHeading: 'Resumen del proyecto',
+    overview: 'Bums es una Mini App viral en TON con más de 10 millones de jugadores. Los usuarios mejoran tarjetas de negocio para elevar sus Coins Per Hour y optar al reparto del token $BUMS.',
+    tokenomicsHeading: 'Tokenomics de $BUMS',
+    tokenomics: '$BUMS opera nativamente en TON y el airdrop valora el beneficio pasivo por hora, el nivel del personaje y las rachas de Mystery Box.',
+    stepsHeading: 'Pasos para participar',
+    steps: [
+      'Inicia la Mini App oficial de Bums en Telegram.',
+      'Consigue monedas iniciales y mejora el nivel de tu personaje.',
+      'Compra tarjetas de ingreso pasivo en la sección College / Business.',
+      'Resuelve la combinación diaria de Mystery Box para ganar grandes bonos.',
+      'Completa las tareas en Tasks y conecta tu billetera Tonkeeper.'
+    ],
+    strategyHeading: 'Estrategia para maximizar recompensas',
+    strategy: 'Reinvierte tus monedas en las tarjetas de mayor retorno por hora y mantén tu racha diaria de Mystery Box.',
+    sybilHeading: 'Seguridad y protección Sybil',
+    sybilSafety: 'Los algoritmos antifraude analizan el ritmo de toque y los accesos. Conectar una Tonkeeper activa con historial real protege tu cuenta.',
+    faqHeading: 'Preguntas frecuentes',
+    faqs: [
+      {
+        q: '¿Cómo se calcula el airdrop de $BUMS?',
+        a: 'Principalmente por tu ganancia pasiva por hora, nivel de personaje y racha diaria.'
+      },
+      {
+        q: '¿Es gratis jugar a Bums?',
+        a: 'Sí, Bums es completamente gratuito ($0).'
+      }
+    ],
+    ctaText: 'Abrir Bums',
+    englishVersionLabel: 'Versión en inglés'
+  },
+  {
+    id: 'bums',
+    slug: 'pt',
+    lang: 'pt',
+    flag: '🇧🇷',
+    homeLabel: 'Início',
+    hubLabel: 'Airdrops do Telegram',
+    hubHref: '/pt/airdrops-telegram/',
+    title: 'Guia Airdrop Bums (2026): Lucro por Hora e Mystery Box $BUMS | Airdroplyx',
+    description: 'Veja como jogar Bums no Telegram grátis: aumente Coins Per Hour com cartas College/Business, resolva a Mystery Box diária e conecte a Tonkeeper.',
+    h1: 'Bums ($BUMS): Guia do Airdrop no Telegram e Lucro Passivo',
+    badge: 'TON GameFi • Grátis',
+    rewardLabel: 'Recompensa estimada',
+    costLabel: 'Custo',
+    snapshotLabel: 'Previsão',
+    timeLabel: 'Tempo diário',
+    overviewHeading: 'Visão geral do projeto',
+    overview: 'Bums é um Mini App viral na rede TON com mais de 10 milhões de jogadores. Ao evoluir cartas de negócio para ampliar Coins Per Hour, os usuários disputam o airdrop do token $BUMS.',
+    tokenomicsHeading: 'Tokenomics do $BUMS',
+    tokenomics: 'O token $BUMS roda na TON e o peso do airdrop considera lucro passivo por hora, nível do personagem e sequência na Mystery Box.',
+    stepsHeading: 'Passo a passo para participar',
+    steps: [
+      'Abra o Mini App oficial do Bums no Telegram.',
+      'Colete moedas iniciais e suba o nível do seu personagem.',
+      'Compre cartas de renda passiva na aba College / Business.',
+      'Acerte a combinação diária da Mystery Box para ganhar grandes bônus.',
+      'Finalize as missões em Tasks e conecte sua carteira Tonkeeper.'
+    ],
+    strategyHeading: 'Estratégia de ganhos',
+    strategy: 'Reinvista suas moedas nas cartas com melhor retorno por hora e não perca a Mystery Box diária.',
+    sybilHeading: 'Proteção Sybil e segurança',
+    sybilSafety: 'O sistema antifraude avalia ritmo de toques e padrões de login. Vincular uma Tonkeeper ativa garante elegibilidade.',
+    faqHeading: 'Perguntas frequentes',
+    faqs: [
+      {
+        q: 'Como é calculado o airdrop de $BUMS?',
+        a: 'Pelo seu lucro passivo por hora, nível do personagem e sequência diária.'
+      },
+      {
+        q: 'O Bums é gratuito?',
+        a: 'Sim, totalmente gratuito ($0) para jogar.'
+      }
+    ],
+    ctaText: 'Abrir Bums',
+    englishVersionLabel: 'Versão em inglês'
+  },
+  {
+    id: 'bums',
+    slug: 'ko',
+    lang: 'ko',
+    flag: '🇰🇷',
+    homeLabel: '홈',
+    hubLabel: '텔레그램 에어드랍',
+    hubHref: '/ko/telegram-airdrops/',
+    title: 'Bums 에어드랍 가이드 (2026): 시간당 수익 & Mystery Box $BUMS | Airdroplyx',
+    description: '1,000만 유저가 즐기는 TON 텔레그램 게임 Bums 공략: College/Business 카드 업그레이드, 일일 Mystery Box 콤보 및 Tonkeeper 지갑 연동.',
+    h1: 'Bums ($BUMS) 텔레그램 에어드랍 및 패시브 수익 가이드',
+    badge: 'TON GameFi • 무료',
+    rewardLabel: '예상 보상',
+    costLabel: '비용',
+    snapshotLabel: '예상 시기',
+    timeLabel: '일일 소요 시간',
+    overviewHeading: '프로젝트 개요',
+    overview: 'Bums는 TON 네트워크에서 1,000만 명 이상의 플레이어를 확보한 텔레그램 미니앱 시뮬레이션 게임입니다. 비즈니스 카드를 업그레이드해 시간당 수익(Coins Per Hour)을 높이고 $BUMS 에어드랍을 준비할 수 있습니다.',
+    tokenomicsHeading: '$BUMS 토크노믹스',
+    tokenomics: '$BUMS는 TON에서 발행되며 시간당 패시브 수익, 캐릭터 진화 등급, 일일 Mystery Box 스트릭에 따라 에어드랍 비중이 결정됩니다.',
+    stepsHeading: '단계별 참여 방법',
+    steps: [
+      '텔레그램에서 공식 Bums 미니앱을 실행하세요.',
+      '초기 코인을 모아 캐릭터 레벨을 올리세요.',
+      'College / Business 메뉴에서 시간당 수익 카드를 구매하세요.',
+      '매일 Mystery Box 카드 조합을 맞춰 대량 코인 보너스를 받으세요.',
+      'Tasks 미션을 완료하고 에어드랍 메뉴에서 Tonkeeper 지갑을 연결하세요.'
+    ],
+    strategyHeading: '보상 극대화 전략',
+    strategy: '모든 코인을 시간당 수익 효율이 가장 높은 카드에 재투자하고 매일 Mystery Box 콤보와 출석 스트릭을 유지하세요.',
+    sybilHeading: '시빌 방지 및 보안',
+    sybilSafety: '안티 치트 알고리즘이 비정상적인 터치와 접속 패턴을 탐지합니다. 실제 거래 이력이 있는 Tonkeeper 지갑을 연결하세요.',
+    faqHeading: '자주 묻는 질문',
+    faqs: [
+      {
+        q: '$BUMS 에어드랍은 어떻게 산정되나요?',
+        a: '주로 시간당 패시브 수익, 캐릭터 레벨, 일일 활동 스트릭을 기준으로 산정됩니다.'
+      },
+      {
+        q: 'Bums는 무료로 플레이할 수 있나요?',
+        a: '네, 별도 비용 없이 무료($0)로 즐길 수 있습니다.'
+      }
+    ],
+    ctaText: 'Bums 시작하기',
+    englishVersionLabel: '영문 버전'
+  },
+  {
+    id: 'bums',
+    slug: 'ja',
+    lang: 'ja',
+    flag: '🇯🇵',
+    homeLabel: 'ホーム',
+    hubLabel: 'Telegramエアドロップ',
+    hubHref: '/ja/telegram-airdrops/',
+    title: 'Bums エアドロップ攻略 (2026): 時間給アップ＆Mystery Box $BUMS | Airdroplyx',
+    description: '1,000万人以上が遊ぶTONゲームBumsの攻略ガイド：College/Businessカード強化、毎日のMystery Boxコンボ、Tonkeeper接続手順。',
+    h1: 'Bums ($BUMS) Telegramエアドロップ＆放置収益ガイド',
+    badge: 'TON GameFi • 無料',
+    rewardLabel: '予想報酬',
+    costLabel: '費用',
+    snapshotLabel: '予定時期',
+    timeLabel: '1日の作業時間',
+    overviewHeading: 'プロジェクト概要',
+    overview: 'BumsはTON上で1,000万人以上のプレイヤーを集めたバイラルTelegramミニアプリです。ビジネスカードを強化して時間あたりの自動収益（Coins Per Hour）を伸ばし、$BUMSトークンの配分を狙えます。',
+    tokenomicsHeading: '$BUMS トケノミクス',
+    tokenomics: '$BUMSはTONネットワーク上で動作し、時間あたりの収益・キャラクターレベル・Mystery Boxの継続実績が配分基準となります。',
+    stepsHeading: '参加ステップ',
+    steps: [
+      'Telegramで公式Bumsミニアプリを起動します。',
+      '初期コインを集めてキャラクターをアップグレードします。',
+      'College / Businessメニューからパッシブ収益カードを購入します。',
+      '毎日のMystery Boxカードコンボを揃えて大量コインを獲得します。',
+      'Tasksのミッションを完了し、エアドロップ画面でTonkeeperを接続します。'
+    ],
+    strategyHeading: '報酬最大化のコツ',
+    strategy: '稼いだコインは時間あたり収益効率の高いカードへ再投資し、毎日のMystery Boxコンボを欠かさず回収しましょう。',
+    sybilHeading: 'シビル対策と安全性',
+    sybilSafety: 'アンチチートがタップリズムやログイン異常を監視しています。実際の利用履歴があるTonkeeperウォレットを接続しておくと安心です。',
+    faqHeading: 'よくある質問',
+    faqs: [
+      {
+        q: '$BUMSエアドロップの査定基準は？',
+        a: '主に時間あたりのパッシブ収益、キャラクターレベル、毎日のログイン継続数で決まります。'
+      },
+      {
+        q: 'Bumsは無料で遊べますか？',
+        a: 'はい、完全無料（$0）で参加できます。'
+      }
+    ],
+    ctaText: 'Bumsを開く',
+    englishVersionLabel: '英語版を見る'
+  },
+  {
+    id: 'bums',
+    slug: 'ar',
+    lang: 'ar',
+    flag: '🇸🇦',
+    homeLabel: 'الرئيسية',
+    hubLabel: 'إيردروبات تيليجرام',
+    hubHref: '/ar/telegram-airdrops/',
+    title: 'دليل إيردروب Bums (2026): الربح بالساعة وMystery Box لعملة $BUMS | Airdroplyx',
+    description: 'دليل لعبة Bums على تيليجرام وشبكة TON: ترقية بطاقات College/Business لزيادة Coins Per Hour وحل لغز Mystery Box وربط Tonkeeper.',
+    h1: 'Bums ($BUMS): دليل إيردروب تيليجرام والدخل السلبي',
+    badge: 'ألعاب TON • مجاني',
+    rewardLabel: 'المكافأة المتوقعة',
+    costLabel: 'التكلفة',
+    snapshotLabel: 'الفترة المتوقعة',
+    timeLabel: 'الوقت اليومي',
+    overviewHeading: 'نظرة عامة على المشروع',
+    overview: 'تطبيق Bums هو لعبة محاكاة شهيرة على شبكة TON وتيليجرام تضم أكثر من 10 ملايين لاعب. يقوم اللاعبون بترقية بطاقات الأعمال لزيادة الأرباح السلبية في الساعة (Coins Per Hour) للتأهل لتوزيع عملة $BUMS.',
+    tokenomicsHeading: 'اقتصاديات $BUMS',
+    tokenomics: 'تعمل عملة $BUMS على شبكة TON، ويعتمد وزن الإيردروب على الربح السلبي بالساعة، ومستوى الشخصية، وسلاسل Mystery Box اليومية.',
+    stepsHeading: 'خطوات المشاركة',
+    steps: [
+      'افتح تطبيق Bums الرسمي داخل تيليجرام.',
+      'اجمع العملات الأولية وقم بترقية مستوى شخصيتك.',
+      'ادخل إلى قسم College / Business واشترِ بطاقات الدخل السلبي.',
+      'أكمل توليفة بطاقات Mystery Box اليومية للحصول على مكافأة عملات ضخمة.',
+      'أنهِ المهام في تبويب Tasks واربط محفظة Tonkeeper.'
+    ],
+    strategyHeading: 'استراتيجية تعظيم المكافآت',
+    strategy: 'أعد استثمار عملاتك في البطاقات الأعلى عائداً في الساعة، وحافظ يومياً على إكمال Mystery Box وسلسلة الدخول.',
+    sybilHeading: 'الحماية من الحسابات الوهمية والأمان',
+    sybilSafety: 'تراقب خوارزميات مكافحة الغش أنماط النقر وتسجيل الدخول. ربط محفظة Tonkeeper نشطة يضمن أهليتك.',
+    faqHeading: 'الأسئلة الشائعة',
+    faqs: [
+      {
+        q: 'كيف يُحسب إيردروب $BUMS؟',
+        a: 'يعتمد بشكل أساسي على الربح السلبي في الساعة ومستوى الشخصية وسلاسل النشاط اليومي.'
+      },
+      {
+        q: 'هل لعبة Bums مجانية؟',
+        a: 'نعم، اللعبة مجانية تماماً ($0).'
+      }
+    ],
+    ctaText: 'افتح Bums',
+    englishVersionLabel: 'النسخة الإنجليزية'
+  },
+  {
+    id: 'bums',
+    slug: 'de',
+    lang: 'de',
+    flag: '🇩🇪',
+    homeLabel: 'Startseite',
+    hubLabel: 'Telegram-Airdrops',
+    hubHref: '/de/telegram-airdrops/',
+    title: 'Bums Airdrop Guide (2026): Stundenprofit & Mystery Box $BUMS | Airdroplyx',
+    description: 'Anleitung für das TON-Telegram-Spiel Bums: Coins Per Hour über College/Business-Karten steigern, tägliche Mystery Box lösen und Tonkeeper verbinden.',
+    h1: 'Bums ($BUMS): Telegram-Airdrop & Passives Einkommen Guide',
+    badge: 'TON GameFi • Kostenlos',
+    rewardLabel: 'Geschätzte Belohnung',
+    costLabel: 'Kosten',
+    snapshotLabel: 'Erwarteter Zeitraum',
+    timeLabel: 'Täglicher Aufwand',
+    overviewHeading: 'Projektübersicht',
+    overview: 'Bums ist eine virale Telegram Mini App auf TON mit über 10 Millionen Spielern. Durch Upgrades bei Business-Karten erhöhen Nutzer ihre Coins Per Hour für die Zuteilung des $BUMS-Tokens.',
+    tokenomicsHeading: '$BUMS Tokenomics',
+    tokenomics: '$BUMS läuft nativ auf TON; das Airdrop-Gewicht richtet sich nach dem passiven Stundenprofit, dem Charakter-Level und Mystery-Box-Serien.',
+    stepsHeading: 'Schritt-für-Schritt-Anleitung',
+    steps: [
+      'Starte die offizielle Bums Mini App in Telegram.',
+      'Sammle Startmünzen und verbessere dein Charakter-Level.',
+      'Kaufe im Bereich College / Business Karten für passives Stundeneinkommen.',
+      'Löse täglich die Mystery-Box-Kartenkombination für hohe Bonusmünzen.',
+      'Erledige Aufgaben unter Tasks und verbinde deine Tonkeeper-Wallet.'
+    ],
+    strategyHeading: 'Strategie für maximale Punkte',
+    strategy: 'Investiere Münzen in die Karten mit dem besten Stundenprofit-ROI und verpasse keine tägliche Mystery Box.',
+    sybilHeading: 'Sybil-Schutz & Sicherheit',
+    sybilSafety: 'Anti-Cheat-Systeme prüfen Tipp-Rhythmus und Login-Muster. Eine aktive Tonkeeper-Wallet sichert die Teilnahme.',
+    faqHeading: 'Häufig gestellte Fragen',
+    faqs: [
+      {
+        q: 'Wie wird der $BUMS-Airdrop berechnet?',
+        a: 'Maßgeblich sind passiver Gewinn pro Stunde, Charakterstufe und tägliche Aktivitätsserien.'
+      },
+      {
+        q: 'Ist Bums kostenlos?',
+        a: 'Ja, Bums ist komplett kostenlos ($0) spielbar.'
+      }
+    ],
+    ctaText: 'Bums öffnen',
+    englishVersionLabel: 'Englische Version'
+  },
+  {
+    id: 'bums',
+    slug: 'fr',
+    lang: 'fr',
+    flag: '🇫🇷',
+    homeLabel: 'Accueil',
+    hubLabel: 'Airdrops Telegram',
+    hubHref: '/fr/airdrops-telegram/',
+    title: 'Guide Airdrop Bums (2026) : Gain Horaire & Mystery Box $BUMS | Airdroplyx',
+    description: 'Comment jouer gratuitement à Bums sur Telegram : augmentez vos Coins Per Hour via College/Business, résolvez la Mystery Box et liez Tonkeeper.',
+    h1: 'Bums ($BUMS) : Guide Airdrop Telegram et Revenu Passif',
+    badge: 'TON GameFi • Gratuit',
+    rewardLabel: 'Récompense estimée',
+    costLabel: 'Coût',
+    snapshotLabel: 'Période estimée',
+    timeLabel: 'Temps quotidien',
+    overviewHeading: 'Présentation du projet',
+    overview: 'Bums est une Mini App Telegram virale sur TON réunissant plus de 10 millions de joueurs. En améliorant les cartes d’affaires, vous augmentez vos Coins Per Hour pour le futur airdrop $BUMS.',
+    tokenomicsHeading: 'Tokenomics de $BUMS',
+    tokenomics: '$BUMS fonctionne sur TON ; l’allocation dépend du profit horaire passif, du niveau du personnage et des séries Mystery Box.',
+    stepsHeading: 'Étapes pour participer',
+    steps: [
+      'Lancez la Mini App officielle Bums sur Telegram.',
+      'Récoltez vos premières pièces et faites évoluer votre personnage.',
+      'Achetez des cartes de revenu passif dans l’onglet College / Business.',
+      'Complétez chaque jour la combinaison Mystery Box pour de gros bonus.',
+      'Terminez les quêtes dans Tasks et connectez votre portefeuille Tonkeeper.'
+    ],
+    strategyHeading: 'Stratégie d’optimisation',
+    strategy: 'Réinvestissez vos pièces dans les cartes au meilleur rendement horaire et ne manquez jamais la Mystery Box quotidienne.',
+    sybilHeading: 'Protection Anti-Sybil et sécurité',
+    sybilSafety: 'Les algorithmes anti-triche analysent le rythme de frappe et les connexions. Liez un portefeuille Tonkeeper actif.',
+    faqHeading: 'Questions fréquentes',
+    faqs: [
+      {
+        q: 'Comment est calculé l’airdrop $BUMS ?',
+        a: 'Principalement selon votre profit passif par heure, votre niveau et votre régularité quotidienne.'
+      },
+      {
+        q: 'Bums est-il gratuit ?',
+        a: 'Oui, le jeu est 100 % gratuit ($0).'
+      }
+    ],
+    ctaText: 'Ouvrir Bums',
+    englishVersionLabel: 'Version anglaise'
+  },
+  {
+    id: 'bums',
+    slug: 'uk',
+    lang: 'uk',
+    flag: '🇺🇦',
+    homeLabel: 'Головна',
+    hubLabel: 'Telegram-аірдропи',
+    hubHref: '/uk/telegram-airdrops/',
+    title: 'Гайд з аірдропу Bums (2026): дохід за годину і Mystery Box $BUMS | Airdroplyx',
+    description: 'Як безкоштовно фармити $BUMS у Telegram: прокачування карток College/Business, щоденний Mystery Box і підключення Tonkeeper.',
+    h1: 'Bums ($BUMS): гайд з аірдропу та пасивного доходу в Telegram',
+    badge: 'TON GameFi • Безкоштовно',
+    rewardLabel: 'Очікувана винагорода',
+    costLabel: 'Витрати',
+    snapshotLabel: 'Очікуваний період',
+    timeLabel: 'Час на день',
+    overviewHeading: 'Огляд проєкту',
+    overview: 'Bums — популярна гра-симулятор у Telegram на блокчейні TON із понад 10 мільйонами гравців. Прокачуючи картки в College / Business, гравці нарощують Coins Per Hour перед лістингом $BUMS.',
+    tokenomicsHeading: 'Токеноміка $BUMS',
+    tokenomics: 'Токен $BUMS працює в мережі TON; частка аірдропу залежить від пасивного прибутку за годину, рівня персонажа та серій Mystery Box.',
+    stepsHeading: 'Покрокова інструкція',
+    steps: [
+      'Запустіть офіційний бот Bums у Telegram.',
+      'Зберіть стартові монети та підвищуйте рівень персонажа.',
+      'Купуйте картки пасивного доходу в розділі College / Business.',
+      'Складайте щоденну комбінацію Mystery Box для великого бонусу монет.',
+      'Виконайте завдання в Tasks і підключіть гаманець Tonkeeper.'
+    ],
+    strategyHeading: 'Стратегія максимізації нагород',
+    strategy: 'Вкладайте монети в найвигідніші картки годинного доходу та щодня відкривайте Mystery Box.',
+    sybilHeading: 'Захист від Sybil та безпека',
+    sybilSafety: 'Античіт відстежує ритм тапів і аномалії входу. Прив’язка активного Tonkeeper допоможе пройти перевірку.',
+    faqHeading: 'Часті запитання',
+    faqs: [
+      {
+        q: 'Як розраховується аірдроп $BUMS?',
+        a: 'Враховуються пасивний дохід за годину, рівень персонажа та щоденна активність.'
+      },
+      {
+        q: 'Чи безкоштовно грати в Bums?',
+        a: 'Так, гра повністю безкоштовна ($0).'
+      }
+    ],
+    ctaText: 'Відкрити Bums',
+    englishVersionLabel: 'Англійська версія'
+  },
+  {
+    id: 'bums',
+    slug: 'zh',
+    lang: 'zh-CN',
+    flag: '🇨🇳',
+    homeLabel: '首页',
+    hubLabel: 'Telegram 空投',
+    hubHref: '/zh/telegram-airdrops/',
+    title: 'Bums 空投教程 (2026)：时薪收益与 Mystery Box $BUMS 攻略 | Airdroplyx',
+    description: '超 1000 万玩家的 TON 链 Telegram 模拟游戏 Bums 指南：升级 College/Business 卡牌提升时薪、每日盲盒连击与 Tonkeeper 绑定。',
+    h1: 'Bums ($BUMS) Telegram 空投及被动收益攻略',
+    badge: 'TON GameFi • 零撸免费',
+    rewardLabel: '预估奖励',
+    costLabel: '参与成本',
+    snapshotLabel: '预期周期',
+    timeLabel: '每日耗时',
+    overviewHeading: '项目简介',
+    overview: 'Bums 是 TON 链上拥有超过 1000 万玩家的病毒式 Telegram 模拟小游戏。玩家通过升级 College / Business 卡牌提升每小时被动收益（Coins Per Hour），冲击 $BUMS 空投分配。',
+    tokenomicsHeading: '$BUMS 代币经济',
+    tokenomics: '$BUMS 运行在 TON 网络，空投权重主要依据每小时被动收益、角色进化等级及每日 Mystery Box 连续完成记录。',
+    stepsHeading: '详细参与步骤',
+    steps: [
+      '在 Telegram 中打开官方 Bums 小程序。',
+      '点击积攒初始金币并升级角色等级。',
+      '前往 College / Business 界面购买高回报时薪卡牌。',
+      '每日完成 Mystery Box 三张卡牌组合领取巨额金币奖励。',
+      '完成 Tasks 任务并在空投页面绑定 Tonkeeper 钱包。'
+    ],
+    strategyHeading: '高收益策略',
+    strategy: '将金币优先投入性价比最高的时薪卡牌，并坚持每天解锁 Mystery Box 与连续签到。',
+    sybilHeading: '防女巫机制与安全提示',
+    sybilSafety: '反作弊系统会监测点击节奏与登录异常，绑定有真实交互记录的 Tonkeeper 钱包更稳妥。',
+    faqHeading: '常见问题',
+    faqs: [
+      {
+        q: '$BUMS 空投如何计算权重？',
+        a: '主要取决于每小时被动收益、角色等级和每日活跃连击天数。'
+      },
+      {
+        q: '玩 Bums 需要投入资金吗？',
+        a: '不需要，游戏完全免费（$0）。'
+      }
+    ],
+    ctaText: '打开 Bums',
+    englishVersionLabel: '英文原版'
+  },
+  {
+    id: 'bums',
+    slug: 'hi',
+    lang: 'hi',
+    flag: '🇮🇳',
+    homeLabel: 'होम',
+    hubLabel: 'टेलीग्राम एयरड्रॉप',
+    hubHref: '/hi/telegram-airdrops/',
+    title: 'Bums एयरड्रॉप गाइड (2026): प्रति घंटा कमाई और Mystery Box $BUMS | Airdroplyx',
+    description: '1 करोड़+ खिलाड़ियों वाले TON गेम Bums में मुफ्त $BUMS कमाने की गाइड: College/Business कार्ड अपग्रेड, Mystery Box कॉम्बो और Tonkeeper कनेक्शन।',
+    h1: 'Bums ($BUMS) टेलीग्राम एयरड्रॉप और पैसिव प्रॉफिट गाइड',
+    badge: 'TON GameFi • मुफ़्त',
+    rewardLabel: 'अनुमानित इनाम',
+    costLabel: 'लागत',
+    snapshotLabel: 'अनुमानित समय',
+    timeLabel: 'दैनिक समय',
+    overviewHeading: 'प्रोजेक्ट का परिचय',
+    overview: 'Bums, TON नेटवर्क पर 1 करोड़ से अधिक खिलाड़ियों वाला एक लोकप्रिय Telegram मिनी-ऐप सिम्युलेटर गेम है। इसमें बिज़नेस कार्ड अपग्रेड करके Coins Per Hour बढ़ाने पर $BUMS टोकन एयरड्रॉप मिलता है।',
+    tokenomicsHeading: '$BUMS टोकनॉमिक्स',
+    tokenomics: '$BUMS टोकन TON पर चलता है और एयरड्रॉप आवंटन प्रति घंटा पैसिव प्रॉफिट, कैरेक्टर लेवल व Mystery Box स्ट्रीक्स पर आधारित है।',
+    stepsHeading: 'भाग लेने के आसान चरण',
+    steps: [
+      'Telegram में आधिकारिक Bums मिनी-ऐप खोलें।',
+      'शुरुआती कॉइन इकट्ठा करें और अपना कैरेक्टर लेवल बढ़ाएं।',
+      'College / Business सेक्शन से पैसिव इनकम कार्ड खरीदें।',
+      'बड़े कॉइन बोनस के लिए रोज़ाना Mystery Box कार्ड कॉम्बिनेशन पूरा करें।',
+      'Tasks मिशन पूरे करें और एयरड्रॉप पोर्टल में Tonkeeper जोड़ें।'
+    ],
+    strategyHeading: 'अधिकतम इनाम की रणनीति',
+    strategy: 'अपने कॉइन सबसे ज़्यादा Coins Per Hour देने वाले कार्ड में लगाएं और रोज़ाना Mystery Box कॉम्बो जरूर सॉल्व करें।',
+    sybilHeading: 'सिबिल सुरक्षा और सावधानियाँ',
+    sybilSafety: 'एंटी-चीट सिस्टम टैप पैटर्न और लॉगिन जांचता है। असली ट्रांजैक्शन हिस्ट्री वाला सक्रिय Tonkeeper वॉलेट जोड़ें।',
+    faqHeading: 'अक्सर पूछे जाने वाले प्रश्न',
+    faqs: [
+      {
+        q: '$BUMS एयरड्रॉप कैसे तय होता है?',
+        a: 'मुख्य रूप से प्रति घंटा पैसिव प्रॉफिट, कैरेक्टर लेवल और दैनिक लॉगिन स्ट्रीक से।'
+      },
+      {
+        q: 'क्या Bums खेलना मुफ़्त है?',
+        a: 'हाँ, Bums पूरी तरह मुफ़्त ($0) है।'
+      }
+    ],
+    ctaText: 'Bums खोलें',
+    englishVersionLabel: 'अंग्रेज़ी संस्करण'
+  },
+  {
+    id: 'bums',
+    slug: 'it',
+    lang: 'it',
+    flag: '🇮🇹',
+    homeLabel: 'Home',
+    hubLabel: 'Airdrop Telegram',
+    hubHref: '/it/airdrop-telegram/',
+    title: 'Guida Airdrop Bums (2026): Profitto Orario e Mystery Box $BUMS | Airdroplyx',
+    description: 'Come giocare gratis a Bums su Telegram: aumenta Coins Per Hour con le carte College/Business, risolvi la Mystery Box giornaliera e collega Tonkeeper.',
+    h1: 'Bums ($BUMS): Guida Airdrop Telegram e Profitto Passivo',
+    badge: 'TON GameFi • Gratis',
+    rewardLabel: 'Ricompensa stimata',
+    costLabel: 'Costo',
+    snapshotLabel: 'Periodo previsto',
+    timeLabel: 'Tempo giornaliero',
+    overviewHeading: 'Panoramica del progetto',
+    overview: 'Bums è una Mini App Telegram virale su TON con oltre 10 milioni di giocatori. Potenziando le carte business aumenti i Coins Per Hour per ottenere la distribuzione di token $BUMS.',
+    tokenomicsHeading: 'Tokenomics di $BUMS',
+    tokenomics: '$BUMS opera su TON e il peso dell’airdrop dipende dal profitto orario passivo, dal livello del personaggio e dalle serie Mystery Box.',
+    stepsHeading: 'Come partecipare passo dopo passo',
+    steps: [
+      'Avvia la Mini App ufficiale di Bums su Telegram.',
+      'Raccogli le monete iniziali e fai salire di livello il personaggio.',
+      'Acquista carte di rendita passiva nella sezione College / Business.',
+      'Completa ogni giorno la combinazione Mystery Box per grandi bonus.',
+      'Termina le missioni in Tasks e collega il wallet Tonkeeper.'
+    ],
+    strategyHeading: 'Strategia per massimizzare i punti',
+    strategy: 'Reinvesti le monete nelle carte con il miglior rendimento orario e completa ogni giorno la Mystery Box.',
+    sybilHeading: 'Sicurezza e protezione Sybil',
+    sybilSafety: 'Gli algoritmi anti-cheat monitorano il ritmo dei tap e gli accessi. Collega un wallet Tonkeeper attivo per superare i controlli.',
+    faqHeading: 'Domande frequenti',
+    faqs: [
+      {
+        q: 'Come viene calcolato l’airdrop $BUMS?',
+        a: 'In base al profitto passivo orario, al livello del personaggio e alla serie giornaliera.'
+      },
+      {
+        q: 'Bums è gratuito?',
+        a: 'Sì, Bums è completamente gratuito ($0).'
+      }
+    ],
+    ctaText: 'Apri Bums',
+    englishVersionLabel: 'Versione inglese'
+  },
+  {
+    id: 'bums',
+    slug: 'pl',
+    lang: 'pl',
+    flag: '🇵🇱',
+    homeLabel: 'Strona główna',
+    hubLabel: 'Airdropy Telegram',
+    hubHref: '/pl/airdrop-telegram/',
+    title: 'Poradnik Airdrop Bums (2026): Zysk na Godzinę i Mystery Box $BUMS | Airdroplyx',
+    description: 'Jak grać za darmo w Bums na Telegramie: rozwijaj karty College/Business dla Coins Per Hour, rozwiązuj codzienny Mystery Box i podłącz Tonkeeper.',
+    h1: 'Bums ($BUMS): Poradnik Airdropu Telegram i Zysku Pasywnego',
+    badge: 'TON GameFi • Darmowy',
+    rewardLabel: 'Szacowana nagroda',
+    costLabel: 'Koszt',
+    snapshotLabel: 'Przewidywany okres',
+    timeLabel: 'Czas dziennie',
+    overviewHeading: 'Opis projektu',
+    overview: 'Bums to wiralowa gra Telegram Mini-App w sieci TON z ponad 10 milionami graczy. Ulepszając karty biznesowe, zwiększasz przychód godzinowy (Coins Per Hour) pod dystrybucję tokenów $BUMS.',
+    tokenomicsHeading: 'Tokenomika $BUMS',
+    tokenomics: '$BUMS działa w sieci TON, a udział w airdropie zależy od pasywnego zysku na godzinę, poziomu postaci oraz serii Mystery Box.',
+    stepsHeading: 'Instrukcja krok po kroku',
+    steps: [
+      'Uruchom oficjalną aplikację Bums na Telegramie.',
+      'Zbierz pierwsze monety i podnieś poziom postaci.',
+      'Kupuj karty dochodu pasywnego w zakładce College / Business.',
+      'Rozwiązuj codzienną kombinację Mystery Box, aby zdobyć duży bonus monet.',
+      'Wykonaj zadania w Tasks i podłącz portfel Tonkeeper.'
+    ],
+    strategyHeading: 'Strategia maksymalizacji nagród',
+    strategy: 'Inwestuj monety w karty o najwyższym zwrocie godzinowym i codziennie odbieraj Mystery Box.',
+    sybilHeading: 'Ochrona Anti-Sybil i bezpieczeństwo',
+    sybilSafety: 'Systemy anty-cheat sprawdzają rytm kliknięć i logowania. Podłączenie aktywnego portfela Tonkeeper chroni konto.',
+    faqHeading: 'Często zadawane pytania',
+    faqs: [
+      {
+        q: 'Jak obliczany jest airdrop $BUMS?',
+        a: 'Głównie na podstawie pasywnego zysku na godzinę, poziomu postaci i codziennej serii.'
+      },
+      {
+        q: 'Czy gra Bums jest darmowa?',
+        a: 'Tak, Bums jest całkowicie darmowy ($0).'
+      }
+    ],
+    ctaText: 'Otwórz Bums',
+    englishVersionLabel: 'Wersja angielska'
   }
 ];
 
