@@ -8805,6 +8805,1482 @@ export const localizedAirdropGuides: LocalizedAirdropGuide[] = [
     ],
     ctaText: 'Otwórz MegaETH',
     englishVersionLabel: 'Wersja angielska'
+  },
+
+  // ================= BERACHAIN (16 LANGUAGES) =================
+  {
+    id: 'berachain',
+    slug: 'tr',
+    lang: 'tr',
+    flag: '🇹🇷',
+    homeLabel: 'Ana Sayfa',
+    hubLabel: 'Ücretsiz Testnetler',
+    hubHref: '/tr/ucretsiz-testnet-airdroplari/',
+    title: 'Berachain Airdrop Rehberi (2026): $142M Testnet & $BERA | Airdroplyx',
+    description: 'Polychain Capital ve Framework Ventures liderliğinde 142M$ yatırım alan Berachain Proof-of-Liquidity testneti, $BERA/$BGT/$HONEY ve BEX/BEND rehberi.',
+    h1: 'Berachain ($BERA) Ücretsiz Testnet ve Proof-of-Liquidity Rehberi',
+    badge: '$142M Yatırım • Ücretsiz Testnet',
+    rewardLabel: 'Tahmini Ödül',
+    costLabel: 'Maliyet',
+    snapshotLabel: 'Beklenen Dönem',
+    timeLabel: 'Haftalık Süre',
+    overviewHeading: 'Proje Özeti',
+    overview: 'Berachain, Proof-of-Liquidity (PoL) konsensüs mekanizmasıyla çalışan EVM uyumlu bir Layer 1 blokzinciridir. Polychain Capital ve Framework Ventures liderliğinde 142 milyon dolar yatırım alan ağ; $BERA (gaz), $BGT (devredilemez yönetişim tokenı) ve $HONEY (yerel stablecoin) üçlü token mimarisiyle bArtio testneti üzerinde on milyonlarca işlem kaydetmiştir.',
+    tokenomicsHeading: 'Üçlü Token Modeli ($BERA, $BGT, $HONEY)',
+    tokenomics: '$BERA ağ işlem ücretlerini öder, $BGT yalnızca uygun havuzlara likidite sağlayarak kazanılır ve 1:1 oranında $BERA’ya dönüştürülebilir; $HONEY ise teminatlı yerel USD sabit coinidir. Topluluk dağıtımı BEX, BEND ve BERPS kullanan erken testnet katılımcılarına odaklanır.',
+    stepsHeading: 'Adım Adım Katılım Rehberi',
+    steps: [
+      'Resmi Berachain portalına (berachain.com) girin ve Rabby veya Rainbow cüzdanınızı bağlayın.',
+      'Resmi Berachain Faucet üzerinden her 8 saatte bir ücretsiz test $BERA talep edin.',
+      'BEX borsasında $BERA’nın bir kısmını $HONEY ve $STGUSDC ile takas edip havuzlara likidite ekleyin.',
+      'BEND protokolünde teminat yatırıp $HONEY borç alın ve BERPS üzerinde kaldıraçlı test işlemi deneyin.',
+      'Kazandığınız $BGT yönetişim tokenlarını doğrulayıcılara delege edin ve Discord/Galxe görevlerini tamamlayın.'
+    ],
+    strategyHeading: 'Maksimum Ödül Stratejisi',
+    strategy: 'Yalnızca faucet çekimi yapmak yerine BEX, BEND ve BERPS üçlüsünün tamamında düzenli DeFi döngüsü kurun ve elde ettiğiniz $BGT’leri aktif doğrulayıcılara delege edin.',
+    sybilHeading: 'Sybil Koruması ve Güvenlik',
+    sybilSafety: 'Berachain testnet musluğu botlara karşı doğrulama ve IP/cüzdan yaşı limiti uygular. Çok adımlı DeFi etkileşimleri ve yalnızca resmi faucet bağlantıları güvenli katılım sağlar.',
+    faqHeading: 'Sıkça Sorulan Sorular',
+    faqs: [
+      {
+        q: 'Berachain bArtio testneti ücretsiz mi?',
+        a: 'Evet, resmi faucet üzerinden alınan ücretsiz test $BERA tokenları ile gerçek para harcamadan ($0) katılabilirsiniz.'
+      },
+      {
+        q: '$BGT satın alınabilir veya transfer edilebilir mi?',
+        a: 'Hayır, $BGT devredilemez (Soulbound) bir yönetişim tokenıdır; yalnızca likidite sağlayarak kazanılır.'
+      }
+    ],
+    ctaText: 'Berachain’i Aç',
+    englishVersionLabel: 'İngilizce Sürüm'
+  },
+  {
+    id: 'berachain',
+    slug: 'ru',
+    lang: 'ru',
+    flag: '🇷🇺',
+    homeLabel: 'Главная',
+    hubLabel: 'Бесплатные тестнеты',
+    hubHref: '/ru/free-testnets/',
+    title: 'Гайд по аирдропу Berachain (2026): тестнет $BERA ($142M) | Airdroplyx',
+    description: 'Как бесплатно пройти тестнет Berachain ($142M от Polychain Capital и Framework Ventures): кран $BERA, свапы в BEX, займы в BEND и делегация $BGT.',
+    h1: 'Berachain ($BERA): гайд по бесплатному тестнету и Proof-of-Liquidity',
+    badge: 'Инвестиции $142M • Бесплатно',
+    rewardLabel: 'Ожидаемая награда',
+    costLabel: 'Затраты',
+    snapshotLabel: 'Ожидаемый период',
+    timeLabel: 'Время в неделю',
+    overviewHeading: 'Обзор проекта',
+    overview: 'Berachain — EVM-совместимый Layer 1 блокчейн с механизмом консенсуса Proof-of-Liquidity (PoL), собравший $142 млн от Polychain Capital и Framework Ventures. Сеть использует три токена: $BERA (газ), $BGT (непередаваемое управление) и стейблкоин $HONEY.',
+    tokenomicsHeading: 'Трёхтокенная модель ($BERA, $BGT, $HONEY)',
+    tokenomics: '$BERA оплачивает газ, $BGT зарабатывается за предоставление ликвидности и сжигается 1:1 в $BERA, а $HONEY — нативный стейблкоин. Аирдроп поощряет активных пользователей BEX, BEND и BERPS.',
+    stepsHeading: 'Пошаговая инструкция',
+    steps: [
+      'Откройте официальный портал Berachain (berachain.com) и подключите Rabby или Rainbow.',
+      'Запрашивайте бесплатные тестовые $BERA в официальном кране каждые 8 часов.',
+      'На BEX обменяйте часть $BERA на $HONEY и добавьте ликвидность в пулы.',
+      'В BEND внесите залог и займите $HONEY, а на BERPS откройте тестовую позицию.',
+      'Делегируйте накопленные $BGT валидатору и участвуйте в квестах Galxe/Discord.'
+    ],
+    strategyHeading: 'Стратегия фарма',
+    strategy: 'Проходите весь цикл нативных DeFi-приложений (BEX + BEND + BERPS) и регулярно делегируйте заработанные $BGT валидаторам.',
+    sybilHeading: 'Защита от ботов и безопасность',
+    sybilSafety: 'Кран Berachain ограничивает ботов по IP и возрасту кошелька. Комплексные DeFi-действия подтверждают реальную активность.',
+    faqHeading: 'Частые вопросы',
+    faqs: [
+      {
+        q: 'Тестнет Berachain бесплатный?',
+        a: 'Да, все операции выполняются на бесплатных тестовых $BERA из официального крана ($0).'
+      },
+      {
+        q: 'Можно ли купить или перевести $BGT?',
+        a: 'Нет, $BGT — непередаваемый Soulbound-токен, получаемый только за ликвидность.'
+      }
+    ],
+    ctaText: 'Открыть Berachain',
+    englishVersionLabel: 'Английская версия'
+  },
+  {
+    id: 'berachain',
+    slug: 'id',
+    lang: 'id',
+    flag: '🇮🇩',
+    homeLabel: 'Beranda',
+    hubLabel: 'Testnet Gratis',
+    hubHref: '/id/testnet-gratis/',
+    title: 'Panduan Airdrop Berachain (2026): Testnet Gratis $BERA ($142M) | Airdroplyx',
+    description: 'Panduan lengkap testnet Berachain ($142M dari Polychain Capital & Framework Ventures): klaim faucet $BERA, swap di BEX, pinjam $HONEY di BEND.',
+    h1: 'Berachain ($BERA): Panduan Testnet Gratis & Proof-of-Liquidity',
+    badge: 'Pendanaan $142M • Gratis',
+    rewardLabel: 'Estimasi Hadiah',
+    costLabel: 'Biaya',
+    snapshotLabel: 'Perkiraan Snapshot',
+    timeLabel: 'Waktu Mingguan',
+    overviewHeading: 'Ringkasan Proyek',
+    overview: 'Berachain adalah blockchain Layer 1 EVM dengan konsensus Proof-of-Liquidity (PoL) yang meraih $142 juta dari Polychain Capital dan Framework Ventures. Ekosistemnya ditopang tiga token: $BERA, $BGT, dan stablecoin $HONEY.',
+    tokenomicsHeading: 'Model Tri-Token ($BERA, $BGT, $HONEY)',
+    tokenomics: '$BERA digunakan untuk gas, $BGT diperoleh dari penyediaan likuiditas dan dapat dibakar 1:1 menjadi $BERA, sementara $HONEY adalah stablecoin asli jaringan.',
+    stepsHeading: 'Langkah-Langkah Mengikuti Airdrop',
+    steps: [
+      'Kunjungi portal resmi Berachain (berachain.com) dan hubungkan dompet Rabby atau Rainbow.',
+      'Klaim token testnet $BERA gratis dari faucet resmi setiap 8 jam.',
+      'Gunakan BEX untuk menukar $BERA ke $HONEY dan menyediakan likuiditas.',
+      'Setor jaminan di BEND untuk meminjam $HONEY lalu coba perdagangan di BERPS.',
+      'Delegasikan $BGT ke validator aktif dan selesaikan misi komunitas.'
+    ],
+    strategyHeading: 'Strategi Maksimal',
+    strategy: 'Jalankan siklus lengkap di ketiga dApp inti (BEX, BEND, BERPS) dan delegasikan token $BGT secara rutin.',
+    sybilHeading: 'Keamanan & Anti-Sybil',
+    sybilSafety: 'Faucet menerapkan pembatasan IP dan usia dompet untuk menyaring bot. Interaksi DeFi bertahap menjaga kelayakan akun Anda.',
+    faqHeading: 'Pertanyaan Umum',
+    faqs: [
+      {
+        q: 'Apakah testnet Berachain gratis?',
+        a: 'Ya, 100% gratis ($0) memakai token testnet $BERA dari faucet resmi.'
+      },
+      {
+        q: 'Apakah $BGT bisa diperdagangkan?',
+        a: 'Tidak, $BGT bersifat Soulbound dan hanya didapat melalui penyediaan likuiditas.'
+      }
+    ],
+    ctaText: 'Buka Berachain',
+    englishVersionLabel: 'Versi Bahasa Inggris'
+  },
+  {
+    id: 'berachain',
+    slug: 'vi',
+    lang: 'vi',
+    flag: '🇻🇳',
+    homeLabel: 'Trang chủ',
+    hubLabel: 'Testnet Miễn Phí',
+    hubHref: '/vi/testnet-mien-phi/',
+    title: 'Hướng dẫn Airdrop Berachain (2026): Testnet $BERA ($142M) | Airdroplyx',
+    description: 'Cách tham gia testnet Berachain miễn phí ($142M từ Polychain Capital & Framework Ventures): nhận faucet $BERA, swap BEX, vay $HONEY tại BEND.',
+    h1: 'Berachain ($BERA): Hướng Dẫn Testnet Miễn Phí & Proof-of-Liquidity',
+    badge: 'Gọi vốn $142M • Miễn phí',
+    rewardLabel: 'Phần thưởng dự kiến',
+    costLabel: 'Chi phí',
+    snapshotLabel: 'Thời gian dự kiến',
+    timeLabel: 'Thời gian mỗi tuần',
+    overviewHeading: 'Tổng quan dự án',
+    overview: 'Berachain là blockchain Layer 1 EVM sử dụng cơ chế đồng thuận Proof-of-Liquidity (PoL), gọi vốn $142 triệu từ Polychain Capital và Framework Ventures với mô hình 3 token $BERA, $BGT và $HONEY.',
+    tokenomicsHeading: 'Mô hình 3 Token ($BERA, $BGT, $HONEY)',
+    tokenomics: '$BERA dùng trả phí gas, $BGT nhận được khi cung cấp thanh khoản và có thể quy đổi 1:1 sang $BERA, còn $HONEY là stablecoin gốc.',
+    stepsHeading: 'Các bước tham gia chi tiết',
+    steps: [
+      'Truy cập cổng chính thức Berachain (berachain.com) và kết nối ví Rabby hoặc Rainbow.',
+      'Nhận $BERA thử nghiệm miễn phí từ Faucet chính thức mỗi 8 giờ.',
+      'Mở sàn BEX để swap $BERA sang $HONEY và cung cấp thanh khoản.',
+      'Vào BEND thế chấp tài sản vay $HONEY và giao dịch thử trên BERPS.',
+      'Ủy quyền $BGT cho validator và hoàn thành nhiệm vụ Galxe/Discord.'
+    ],
+    strategyHeading: 'Chiến lược tối ưu điểm',
+    strategy: 'Trải nghiệm trọn vẹn bộ 3 dApp gốc gồm BEX, BEND và BERPS, đồng thời ủy quyền $BGT cho validator.',
+    sybilHeading: 'Chống Sybil & Bảo mật',
+    sybilSafety: 'Faucet giới hạn IP và tuổi ví để ngăn bot. Thực hiện chuỗi tương tác DeFi đa bước giúp chứng minh người dùng thật.',
+    faqHeading: 'Câu hỏi thường gặp',
+    faqs: [
+      {
+        q: 'Testnet Berachain có miễn phí không?',
+        a: 'Hoàn toàn miễn phí ($0) với token $BERA từ faucet chính thức.'
+      },
+      {
+        q: 'Có thể mua bán $BGT không?',
+        a: 'Không, $BGT là token Soulbound không thể chuyển nhượng, chỉ kiếm được qua thanh khoản.'
+      }
+    ],
+    ctaText: 'Mở Berachain',
+    englishVersionLabel: 'Bản tiếng Anh'
+  },
+  {
+    id: 'berachain',
+    slug: 'es',
+    lang: 'es',
+    flag: '🇪🇸',
+    homeLabel: 'Inicio',
+    hubLabel: 'Testnets Gratis',
+    hubHref: '/es/testnets-gratis/',
+    title: 'Guía Airdrop Berachain (2026): Testnet Gratis $BERA ($142M) | Airdroplyx',
+    description: 'Cómo completar gratis la testnet de Berachain ($142M de Polychain Capital y Framework Ventures): faucet $BERA, BEX, BEND, BERPS y delegación $BGT.',
+    h1: 'Berachain ($BERA): Guía de Testnet Gratuita y Proof-of-Liquidity',
+    badge: 'Financiación $142M • Gratis',
+    rewardLabel: 'Recompensa estimada',
+    costLabel: 'Costo',
+    snapshotLabel: 'Periodo estimado',
+    timeLabel: 'Tiempo semanal',
+    overviewHeading: 'Resumen del proyecto',
+    overview: 'Berachain es una blockchain Layer 1 compatible con EVM basada en Proof-of-Liquidity (PoL), con $142 millones recaudados de Polychain Capital y Framework Ventures y una arquitectura de tres tokens: $BERA, $BGT y $HONEY.',
+    tokenomicsHeading: 'Modelo Tri-Token ($BERA, $BGT, $HONEY)',
+    tokenomics: '$BERA cubre el gas, $BGT se obtiene aportando liquidez y puede quemarse 1:1 por $BERA, y $HONEY es la stablecoin nativa.',
+    stepsHeading: 'Pasos para participar',
+    steps: [
+      'Visita el portal oficial de Berachain (berachain.com) y conecta Rabby o Rainbow.',
+      'Reclama $BERA de prueba gratuitos en el faucet oficial cada 8 horas.',
+      'En BEX, intercambia parte de tus $BERA por $HONEY y aporta liquidez.',
+      'Deposita colateral en BEND para pedir prestado $HONEY y opera en BERPS.',
+      'Delega tus $BGT a un validador activo y completa misiones comunitarias.'
+    ],
+    strategyHeading: 'Estrategia para maximizar recompensas',
+    strategy: 'Recorre todo el ecosistema nativo (BEX, BEND y BERPS) y delega periódicamente tus $BGT acumulados.',
+    sybilHeading: 'Seguridad y protección Sybil',
+    sybilSafety: 'El faucet limita bots por IP y antigüedad de billetera. Ejecutar acciones DeFi variadas demuestra actividad legítima.',
+    faqHeading: 'Preguntas frecuentes',
+    faqs: [
+      {
+        q: '¿Es gratis la testnet de Berachain?',
+        a: 'Sí, es 100% gratuita ($0) mediante el faucet público de $BERA.'
+      },
+      {
+        q: '¿Se puede transferir $BGT?',
+        a: 'No, $BGT es un token Soulbound no transferible que solo se gana aportando liquidez.'
+      }
+    ],
+    ctaText: 'Abrir Berachain',
+    englishVersionLabel: 'Versión en inglés'
+  },
+  {
+    id: 'berachain',
+    slug: 'pt',
+    lang: 'pt',
+    flag: '🇧🇷',
+    homeLabel: 'Início',
+    hubLabel: 'Testnets Grátis',
+    hubHref: '/pt/testnets-gratis/',
+    title: 'Guia Airdrop Berachain (2026): Testnet Grátis $BERA ($142M) | Airdroplyx',
+    description: 'Passo a passo da testnet da Berachain ($142M da Polychain Capital e Framework Ventures): faucet $BERA, BEX, BEND, BERPS e delegação de $BGT.',
+    h1: 'Berachain ($BERA): Guia da Testnet Gratuita e Proof-of-Liquidity',
+    badge: 'Investimento $142M • Grátis',
+    rewardLabel: 'Recompensa estimada',
+    costLabel: 'Custo',
+    snapshotLabel: 'Previsão',
+    timeLabel: 'Tempo semanal',
+    overviewHeading: 'Visão geral do projeto',
+    overview: 'A Berachain é uma Layer 1 compatível com EVM movida pelo consenso Proof-of-Liquidity (PoL), com $142 milhões captados junto à Polychain Capital e Framework Ventures e arquitetura tri-token ($BERA, $BGT e $HONEY).',
+    tokenomicsHeading: 'Modelo Tri-Token ($BERA, $BGT, $HONEY)',
+    tokenomics: '$BERA paga gás, $BGT é ganho ao prover liquidez e pode ser queimado 1:1 por $BERA, enquanto $HONEY é a stablecoin nativa.',
+    stepsHeading: 'Passo a passo para participar',
+    steps: [
+      'Acesse o portal oficial da Berachain (berachain.com) e conecte a Rabby ou Rainbow.',
+      'Resgate $BERA de teste gratuitos no faucet oficial a cada 8 horas.',
+      'Na BEX, troque $BERA por $HONEY e forneça liquidez nos pools.',
+      'Deposite garantia na BEND para tomar $HONEY emprestado e opere na BERPS.',
+      'Delegue seus $BGT a um validador e conclua missões no Discord/Galxe.'
+    ],
+    strategyHeading: 'Estratégia de ganhos',
+    strategy: 'Use toda a tríade nativa DeFi (BEX, BEND e BERPS) e mantenha delegação ativa de $BGT.',
+    sybilHeading: 'Proteção Sybil e segurança',
+    sybilSafety: 'O faucet aplica limites contra bots. Interações completas em vários protocolos comprovam uso real.',
+    faqHeading: 'Perguntas frequentes',
+    faqs: [
+      {
+        q: 'A testnet da Berachain é gratuita?',
+        a: 'Sim, 100% gratuita ($0) com tokens de teste do faucet oficial.'
+      },
+      {
+        q: 'É possível comprar $BGT?',
+        a: 'Não, $BGT é Soulbound e só pode ser obtido fornecendo liquidez.'
+      }
+    ],
+    ctaText: 'Abrir Berachain',
+    englishVersionLabel: 'Versão em inglês'
+  },
+  {
+    id: 'berachain',
+    slug: 'ko',
+    lang: 'ko',
+    flag: '🇰🇷',
+    homeLabel: '홈',
+    hubLabel: '무료 테스트넷',
+    hubHref: '/ko/free-testnets/',
+    title: 'Berachain 에어드랍 가이드 (2026): $142M 투자 무료 테스트넷 $BERA | Airdroplyx',
+    description: 'Polychain Capital과 Framework Ventures가 $142M을 투자한 Berachain PoL 테스트넷 완벽 공략: BEX 스왑, BEND 대출, BERPS 및 $BGT 위임.',
+    h1: 'Berachain ($BERA) 무료 테스트넷 및 유동성 증명 가이드',
+    badge: '$142M 투자 유치 • 무료 테스트넷',
+    rewardLabel: '예상 보상',
+    costLabel: '비용',
+    snapshotLabel: '예상 시기',
+    timeLabel: '주간 소요 시간',
+    overviewHeading: '프로젝트 개요',
+    overview: 'Berachain은 Proof-of-Liquidity(PoL) 합의를 도입한 EVM 호환 Layer 1 블록체인으로, Polychain Capital과 Framework Ventures 등에서 1억 4,200만 달러를 유치했습니다. $BERA, $BGT, $HONEY 3중 토큰 구조로 운영됩니다.',
+    tokenomicsHeading: '3중 토큰 모델 ($BERA, $BGT, $HONEY)',
+    tokenomics: '$BERA는 가스비, $BGT는 유동성 공급 보상으로만 얻는 양도 불가 거버넌스 토큰(1:1 $BERA 전환 가능), $HONEY는 네이티브 스테이블코인입니다.',
+    stepsHeading: '단계별 참여 방법',
+    steps: [
+      '공식 Berachain 포털(berachain.com)에 접속해 Rabby 또는 Rainbow 지갑을 연결하세요.',
+      '공식 Faucet에서 8시간마다 무료 테스트용 $BERA를 받으세요.',
+      'BEX에서 $BERA를 $HONEY로 스왑하고 유동성 풀에 예치하세요.',
+      'BEND에서 담보를 예치해 $HONEY를 대출받고 BERPS에서 거래를 테스트하세요.',
+      '획득한 $BGT를 검증인에게 위임하고 Galxe/Discord 퀘스트를 완료하세요.'
+    ],
+    strategyHeading: '보상 극대화 전략',
+    strategy: '단순 Faucet 수령에 그치지 말고 BEX, BEND, BERPS 3종 핵심 dApp을 모두 순환 이용하고 $BGT를 위임하세요.',
+    sybilHeading: '시빌 방지 및 보안',
+    sybilSafety: 'Faucet은 IP와 지갑 연식을 검사해 봇을 차단합니다. 다단계 DeFi 상호작용이 정상 유저로 인정받는 핵심입니다.',
+    faqHeading: '자주 묻는 질문',
+    faqs: [
+      {
+        q: 'Berachain 테스트넷은 무료인가요?',
+        a: '네, 공식 Faucet의 무료 $BERA로 비용 없이($0) 참여할 수 있습니다.'
+      },
+      {
+        q: '$BGT를 사고팔 수 있나요?',
+        a: '아니요, $BGT는 양도 불가능한 Soulbound 토큰으로 유동성 공급으로만 획득합니다.'
+      }
+    ],
+    ctaText: 'Berachain 열기',
+    englishVersionLabel: '영문 버전'
+  },
+  {
+    id: 'berachain',
+    slug: 'ja',
+    lang: 'ja',
+    flag: '🇯🇵',
+    homeLabel: 'ホーム',
+    hubLabel: '無料テストネット',
+    hubHref: '/ja/free-testnets/',
+    title: 'Berachain エアドロップ攻略 (2026): $142M調達テストネット $BERA | Airdroplyx',
+    description: 'Polychain CapitalとFramework Venturesから1.42億ドル調達したBerachain無料テストネット手順：BEX・BEND・BERPS・$BGT委任を解説。',
+    h1: 'Berachain ($BERA) 無料テストネット＆PoL攻略ガイド',
+    badge: '$142M調達済み • 無料テストネット',
+    rewardLabel: '予想報酬',
+    costLabel: '費用',
+    snapshotLabel: '予定時期',
+    timeLabel: '週間作業時間',
+    overviewHeading: 'プロジェクト概要',
+    overview: 'BerachainはProof-of-Liquidity（PoL）コンセンサスを採用するEVM互換Layer 1で、Polychain CapitalやFramework Venturesから1.42億ドルを調達しています。$BERA・$BGT・$HONEYの3トークン設計が特徴です。',
+    tokenomicsHeading: '3トークンモデル ($BERA, $BGT, $HONEY)',
+    tokenomics: '$BERAはガス代、$BGTは流動性提供のみで獲得できる譲渡不可ガバナンス資産（1:1で$BERA変換可能）、$HONEYはネイティブステーブルコインです。',
+    stepsHeading: '参加ステップ',
+    steps: [
+      '公式Berachainポータル（berachain.com）を開き、RabbyまたはRainbowを接続します。',
+      '公式Faucetから8時間ごとに無料のテスト用$BERAを請求します。',
+      'BEXで$BERAを$HONEYにスワップし、流動性プールへ供給します。',
+      'BENDで担保を預けて$HONEYを借り、BERPSで取引を試します。',
+      '獲得した$BGTをバリデータに委任し、GalxeやDiscordクエストを完了します。'
+    ],
+    strategyHeading: '報酬最大化のコツ',
+    strategy: 'BEX・BEND・BERPSの主要3アプリを一通り循環利用し、獲得した$BGTをアクティブなバリデータへ委任しましょう。',
+    sybilHeading: 'シビル対策と安全性',
+    sybilSafety: 'FaucetはIPやウォレット履歴によるボット対策を実施しています。複合的なDeFi操作が正当なユーザー証明になります。',
+    faqHeading: 'よくある質問',
+    faqs: [
+      {
+        q: 'Berachainテストネットは無料ですか？',
+        a: 'はい、公式Faucetの無料テスト$BERAのみで実費ゼロ（$0）で参加できます。'
+      },
+      {
+        q: '$BGTは購入や送金ができますか？',
+        a: 'いいえ、$BGTは譲渡不可のSoulboundトークンであり流動性提供でのみ獲得できます。'
+      }
+    ],
+    ctaText: 'Berachainを開く',
+    englishVersionLabel: '英語版を見る'
+  },
+  {
+    id: 'berachain',
+    slug: 'ar',
+    lang: 'ar',
+    flag: '🇸🇦',
+    homeLabel: 'الرئيسية',
+    hubLabel: 'شبكات اختبار مجانية',
+    hubHref: '/ar/free-testnets/',
+    title: 'دليل إيردروب Berachain (2026): شبكة اختبار $BERA ($142M) | Airdroplyx',
+    description: 'دليل المشاركة مجاناً في شبكة اختبار Berachain (بتمويل 142 مليون دولار من Polychain Capital وFramework Ventures): صنبور $BERA وتطبيقات BEX وBEND.',
+    h1: 'Berachain ($BERA): دليل شبكة الاختبار المجانية وإثبات السيولة',
+    badge: 'تمويل $142M • مجاني',
+    rewardLabel: 'المكافأة المتوقعة',
+    costLabel: 'التكلفة',
+    snapshotLabel: 'الفترة المتوقعة',
+    timeLabel: 'الوقت الأسبوعي',
+    overviewHeading: 'نظرة عامة على المشروع',
+    overview: 'شبكة Berachain هي بلوكشين Layer 1 متوافق مع EVM يعتمد على آلية إثبات السيولة (PoL)، وقد جمعت 142 مليون دولار من Polychain Capital وFramework Ventures مع نموذج ثلاثي العملات: $BERA و$BGT و$HONEY.',
+    tokenomicsHeading: 'النموذج ثلاثي العملات ($BERA, $BGT, $HONEY)',
+    tokenomics: '$BERA لدفع رسوم الغاز، و$BGT عملة حوكمة غير قابلة للتحويل تُكتسب بتوفير السيولة، و$HONEY عملة مستقرة أصلية. تركز التوزيعات على مستخدمي BEX وBEND وBERPS.',
+    stepsHeading: 'خطوات المشاركة',
+    steps: [
+      'افتح بوابة Berachain الرسمية (berachain.com) واربط محفظة Rabby أو Rainbow.',
+      'اطلب عملات اختبار $BERA مجاناً من الصنبور الرسمي كل 8 ساعات.',
+      'استخدم منصة BEX لمبادلة $BERA إلى $HONEY وتوفير السيولة.',
+      'أودع ضماناً في BEND لاقتراض $HONEY وجرّب التداول في BERPS.',
+      'فوّض عملات $BGT إلى مدقق نشط وأكمل مهام Galxe وDiscord.'
+    ],
+    strategyHeading: 'استراتيجية تعظيم المكافآت',
+    strategy: 'جرّب التطبيقات الثلاثة الرئيسية (BEX وBEND وBERPS) بانتظام وفوّض رصيد $BGT للمدققين.',
+    sybilHeading: 'الحماية من الحسابات الوهمية والأمان',
+    sybilSafety: 'يضع الصنبور قيوداً على IP وعمر المحفظة لمنع البوتات. التفاعلات المتنوعة تثبت الاستخدام الحقيقي.',
+    faqHeading: 'الأسئلة الشائعة',
+    faqs: [
+      {
+        q: 'هل شبكة اختبار Berachain مجانية؟',
+        a: 'نعم، مجانية 100% ($0) باستخدام عملات اختبار $BERA من الصنبور الرسمي.'
+      },
+      {
+        q: 'هل يمكن شراء أو تحويل $BGT؟',
+        a: 'لا، عملة $BGT غير قابلة للتحويل (Soulbound) وتُكتسب فقط عبر توفير السيولة.'
+      }
+    ],
+    ctaText: 'افتح Berachain',
+    englishVersionLabel: 'النسخة الإنجليزية'
+  },
+  {
+    id: 'berachain',
+    slug: 'de',
+    lang: 'de',
+    flag: '🇩🇪',
+    homeLabel: 'Startseite',
+    hubLabel: 'Kostenlose Testnets',
+    hubHref: '/de/kostenlose-testnets/',
+    title: 'Berachain Airdrop Guide (2026): $142M Testnet & $BERA | Airdroplyx',
+    description: 'Anleitung für das Berachain-Testnet ($142M von Polychain Capital & Framework Ventures): $BERA-Faucet, BEX, BEND, BERPS und $BGT-Delegation.',
+    h1: 'Berachain ($BERA): Kostenloser Testnet- & Proof-of-Liquidity Guide',
+    badge: '$142M Finanzierung • Kostenlos',
+    rewardLabel: 'Geschätzte Belohnung',
+    costLabel: 'Kosten',
+    snapshotLabel: 'Erwarteter Zeitraum',
+    timeLabel: 'Wöchentlicher Aufwand',
+    overviewHeading: 'Projektübersicht',
+    overview: 'Berachain ist eine EVM-kompatible Layer-1-Blockchain mit Proof-of-Liquidity-Konsens (PoL) und 142 Millionen US-Dollar Finanzierung durch Polychain Capital und Framework Ventures. Das Tri-Token-System umfasst $BERA, $BGT und $HONEY.',
+    tokenomicsHeading: 'Tri-Token-Modell ($BERA, $BGT, $HONEY)',
+    tokenomics: '$BERA zahlt Gasgebühren, $BGT wird durch Liquiditätsbereitstellung verdient (1:1 in $BERA verbrennbar) und $HONEY ist der native Stablecoin.',
+    stepsHeading: 'Schritt-für-Schritt-Anleitung',
+    steps: [
+      'Besuche das offizielle Berachain-Portal (berachain.com) und verbinde Rabby oder Rainbow.',
+      'Fordere alle 8 Stunden kostenlose Test-$BERA über das offizielle Faucet an.',
+      'Tausche auf BEX $BERA in $HONEY und stelle Liquidität in den Pools bereit.',
+      'Hinterlege Sicherheiten auf BEND, leihe $HONEY und teste BERPS.',
+      'Delegiere deine $BGT an einen Validator und erledige Galxe-/Discord-Quests.'
+    ],
+    strategyHeading: 'Strategie für maximale Punkte',
+    strategy: 'Durchlaufe regelmäßig alle drei Kern-dApps (BEX, BEND, BERPS) und delegiere deine gesammelten $BGT an aktive Validatoren.',
+    sybilHeading: 'Sybil-Schutz & Sicherheit',
+    sybilSafety: 'Das Faucet begrenzt Bots per IP- und Wallet-Alter-Prüfung. Mehrstufige DeFi-Interaktionen sichern echte Nutzeraktivität.',
+    faqHeading: 'Häufig gestellte Fragen',
+    faqs: [
+      {
+        q: 'Ist das Berachain-Testnet kostenlos?',
+        a: 'Ja, komplett kostenlos ($0) über Test-$BERA aus dem öffentlichen Faucet.'
+      },
+      {
+        q: 'Kann man $BGT kaufen oder handeln?',
+        a: 'Nein, $BGT ist ein nicht übertragbarer Soulbound-Token, der nur über Liquidität verdient wird.'
+      }
+    ],
+    ctaText: 'Berachain öffnen',
+    englishVersionLabel: 'Englische Version'
+  },
+  {
+    id: 'berachain',
+    slug: 'fr',
+    lang: 'fr',
+    flag: '🇫🇷',
+    homeLabel: 'Accueil',
+    hubLabel: 'Testnets Gratuits',
+    hubHref: '/fr/testnets-gratuits/',
+    title: 'Guide Airdrop Berachain (2026) : Testnet $BERA ($142M) | Airdroplyx',
+    description: 'Comment participer gratuitement au testnet Berachain (142 M$ par Polychain Capital et Framework Ventures) : faucet $BERA, BEX, BEND et $BGT.',
+    h1: 'Berachain ($BERA) : Guide Testnet Gratuit et Proof-of-Liquidity',
+    badge: 'Financement $142M • Gratuit',
+    rewardLabel: 'Récompense estimée',
+    costLabel: 'Coût',
+    snapshotLabel: 'Période estimée',
+    timeLabel: 'Temps hebdomadaire',
+    overviewHeading: 'Présentation du projet',
+    overview: 'Berachain est une blockchain Layer 1 EVM reposant sur le consensus Proof-of-Liquidity (PoL), financée à hauteur de 142 M$ par Polychain Capital et Framework Ventures, avec une architecture à trois jetons ($BERA, $BGT et $HONEY).',
+    tokenomicsHeading: 'Modèle Tri-Token ($BERA, $BGT, $HONEY)',
+    tokenomics: '$BERA paie le gaz, $BGT s’obtient en fournissant de la liquidité (convertible 1:1 en $BERA) et $HONEY est le stablecoin natif.',
+    stepsHeading: 'Étapes pour participer',
+    steps: [
+      'Accédez au portail officiel Berachain (berachain.com) et connectez Rabby ou Rainbow.',
+      'Réclamez des $BERA de test gratuits via le faucet officiel toutes les 8 heures.',
+      'Sur BEX, échangez des $BERA contre du $HONEY et fournissez de la liquidité.',
+      'Déposez du collatéral sur BEND pour emprunter du $HONEY et testez BERPS.',
+      'Déléguez vos $BGT à un validateur actif et validez les quêtes Discord/Galxe.'
+    ],
+    strategyHeading: 'Stratégie d’optimisation',
+    strategy: 'Utilisez régulièrement l’ensemble des trois protocoles natifs (BEX, BEND, BERPS) et déléguez vos $BGT.',
+    sybilHeading: 'Protection Anti-Sybil et sécurité',
+    sybilSafety: 'Le faucet filtre les bots via IP et ancienneté de portefeuille. Des actions DeFi variées prouvent une activité authentique.',
+    faqHeading: 'Questions fréquentes',
+    faqs: [
+      {
+        q: 'Le testnet Berachain est-il gratuit ?',
+        a: 'Oui, il est 100 % gratuit ($0) avec les jetons $BERA du faucet officiel.'
+      },
+      {
+        q: 'Peut-on acheter ou transférer du $BGT ?',
+        a: 'Non, $BGT est un jeton Soulbound non transférable gagné uniquement via la liquidité.'
+      }
+    ],
+    ctaText: 'Ouvrir Berachain',
+    englishVersionLabel: 'Version anglaise'
+  },
+  {
+    id: 'berachain',
+    slug: 'uk',
+    lang: 'uk',
+    flag: '🇺🇦',
+    homeLabel: 'Головна',
+    hubLabel: 'Безкоштовні тестнети',
+    hubHref: '/uk/bezkoshtovni-testnety/',
+    title: 'Гайд з аірдропу Berachain (2026): тестнет $BERA ($142M) | Airdroplyx',
+    description: 'Як безкоштовно пройти тестнет Berachain ($142M від Polychain Capital та Framework Ventures): кран $BERA, BEX, BEND, BERPS і делегування $BGT.',
+    h1: 'Berachain ($BERA): гайд із безкоштовного тестнету та Proof-of-Liquidity',
+    badge: 'Інвестиції $142M • Безкоштовно',
+    rewardLabel: 'Очікувана винагорода',
+    costLabel: 'Витрати',
+    snapshotLabel: 'Очікуваний період',
+    timeLabel: 'Час на тиждень',
+    overviewHeading: 'Огляд проєкту',
+    overview: 'Berachain — EVM-сумісний Layer 1 блокчейн на консенсусі Proof-of-Liquidity (PoL), що залучив $142 млн від Polychain Capital і Framework Ventures і працює на моделі трьох токенів: $BERA, $BGT та $HONEY.',
+    tokenomicsHeading: 'Трьохтокенна модель ($BERA, $BGT, $HONEY)',
+    tokenomics: '$BERA оплачує газ, $BGT нараховується за надання ліквідності (спалюється 1:1 у $BERA), а $HONEY є нативним стейблкоїном мережі.',
+    stepsHeading: 'Покрокова інструкція',
+    steps: [
+      'Відкрийте офіційний портал Berachain (berachain.com) і підключіть Rabby або Rainbow.',
+      'Отримуйте безкоштовні тестові $BERA в офіційному крані кожні 8 годин.',
+      'На BEX обміняйте частину $BERA на $HONEY і додайте ліквідність у пули.',
+      'У BEND внесіть заставу та позичте $HONEY, а на BERPS відкрийте тестову угоду.',
+      'Делегуйте $BGT валідатору й виконайте квести в Discord та Galxe.'
+    ],
+    strategyHeading: 'Стратегія максимізації нагород',
+    strategy: 'Регулярно проходьте цикл у всіх трьох нативних протоколах (BEX, BEND, BERPS) і делегуйте зароблені $BGT.',
+    sybilHeading: 'Захист від Sybil та безпека',
+    sybilSafety: 'Кран обмежує ботів за IP та віком гаманця. Комплексні DeFi-дії підтверджують реальну активність.',
+    faqHeading: 'Часті запитання',
+    faqs: [
+      {
+        q: 'Чи безкоштовний тестнет Berachain?',
+        a: 'Так, усе тестування безкоштовне ($0) на тестових $BERA з крана.'
+      },
+      {
+        q: 'Чи можна купити або передати $BGT?',
+        a: 'Ні, $BGT — непередавальний Soulbound-токен, що заробляється лише ліквідністю.'
+      }
+    ],
+    ctaText: 'Відкрити Berachain',
+    englishVersionLabel: 'Англійська версія'
+  },
+  {
+    id: 'berachain',
+    slug: 'zh',
+    lang: 'zh-CN',
+    flag: '🇨🇳',
+    homeLabel: '首页',
+    hubLabel: '免费测试网',
+    hubHref: '/zh/free-testnets/',
+    title: 'Berachain 空投教程 (2026)：$1.42亿融资测试网与 $BERA 领水 | Airdroplyx',
+    description: 'Polychain Capital 与 Framework Ventures 领投 1.42 亿美元的 Berachain 流动性证明测试网教程：领水 $BERA、BEX 交互与 $BGT 委托。',
+    h1: 'Berachain ($BERA) 免费测试网及流动性证明攻略',
+    badge: '融资 $142M • 零撸免费',
+    rewardLabel: '预估奖励',
+    costLabel: '参与成本',
+    snapshotLabel: '预期周期',
+    timeLabel: '每周耗时',
+    overviewHeading: '项目简介',
+    overview: 'Berachain 是采用流动性证明（Proof-of-Liquidity, PoL）共识的 EVM 兼容 Layer 1 公链，获 Polychain Capital 与 Framework Ventures 领投 1.42 亿美元，采用 $BERA、$BGT 与 $HONEY 三代币经济模型。',
+    tokenomicsHeading: '三代币模型 ($BERA, $BGT, $HONEY)',
+    tokenomics: '$BERA 用于支付燃料费；$BGT 仅通过提供流动性获得且不可转账（可 1:1 销毁兑换 $BERA）；$HONEY 为原生锚定美元稳定币。',
+    stepsHeading: '详细参与步骤',
+    steps: [
+      '访问 Berachain 官方门户（berachain.com）并连接 Rabby 或 Rainbow 钱包。',
+      '每 8 小时从官方水龙头免费领取一次测试网 $BERA。',
+      '前往 BEX 将部分 $BERA 兑换为 $HONEY 并向资金池提供流动性。',
+      '在 BEND 存入抵押品借出 $HONEY，并在 BERPS 上体验永续合约测试。',
+      '将获得的 $BGT 委托给活跃验证者，并完成 Galxe 与 Discord 社区任务。'
+    ],
+    strategyHeading: '高收益策略',
+    strategy: '完整体验 BEX、BEND 与 BERPS 三大原生 DeFi 协议形成闭环交互，并持续将产出的 $BGT 委托给验证节点。',
+    sybilHeading: '防女巫机制与安全提示',
+    sybilSafety: '测试网水龙头对 IP 与钱包年龄有限制，避免单调领水，多步骤链上交互更有利于空投资格。',
+    faqHeading: '常见问题',
+    faqs: [
+      {
+        q: 'Berachain 测试网需要花钱吗？',
+        a: '不需要，使用官方水龙头领取的测试 $BERA 即可零成本（$0）参与。'
+      },
+      {
+        q: '$BGT 可以直接购买或转账吗？',
+        a: '不可以，$BGT 为灵魂绑定（Soulbound）治理代币，只能通过提供流动性赚取。'
+      }
+    ],
+    ctaText: '打开 Berachain',
+    englishVersionLabel: '英文原版'
+  },
+  {
+    id: 'berachain',
+    slug: 'hi',
+    lang: 'hi',
+    flag: '🇮🇳',
+    homeLabel: 'होम',
+    hubLabel: 'मुफ़्त टेस्टनेट',
+    hubHref: '/hi/free-testnets/',
+    title: 'Berachain एयरड्रॉप गाइड (2026): $142M टेस्टनेट और $BERA | Airdroplyx',
+    description: 'Polychain Capital और Framework Ventures द्वारा $142M फंडेड Berachain PoL टेस्टनेट में मुफ़्त भाग लेने, BEX, BEND और $BGT डेलिगेशन की गाइड।',
+    h1: 'Berachain ($BERA) मुफ़्त टेस्टनेट और Proof-of-Liquidity गाइड',
+    badge: '$142M फंडिंग • मुफ़्त टेस्टनेट',
+    rewardLabel: 'अनुमानित इनाम',
+    costLabel: 'लागत',
+    snapshotLabel: 'अनुमानित समय',
+    timeLabel: 'साप्ताहिक समय',
+    overviewHeading: 'प्रोजेक्ट का परिचय',
+    overview: 'Berachain एक EVM-संगत Layer 1 ब्लॉकचेन है जो Proof-of-Liquidity (PoL) पर काम करता है। Polychain Capital और Framework Ventures से $142M जुटाने वाला यह नेटवर्क $BERA, $BGT और $HONEY ट्राई-टोकन मॉडल पर चलता है।',
+    tokenomicsHeading: 'ट्राई-टोकन मॉडल ($BERA, $BGT, $HONEY)',
+    tokenomics: '$BERA गैस फीस के लिए है, $BGT लिक्विडिटी प्रदान करके कमाया जाता है (नॉन-ट्रांसफरेबल), और $HONEY नेटिव स्टेबलकॉइन है।',
+    stepsHeading: 'भाग लेने के आसान चरण',
+    steps: [
+      'आधिकारिक Berachain पोर्टल (berachain.com) पर जाएं और Rabby या Rainbow जोड़ें।',
+      'आधिकारिक फॉसेट से हर 8 घंटे में मुफ़्त टेस्ट $BERA क्लेम करें।',
+      'BEX पर $BERA को $HONEY में स्वैप करें और लिक्विडिटी पूल में जमा करें।',
+      'BEND पर कोलेटरल जमा कर $HONEY उधार लें और BERPS पर ट्रेड टेस्ट करें।',
+      'अपने $BGT को वैलिडेटर को डेलिगेट करें और Galxe/Discord टास्क पूरे करें।'
+    ],
+    strategyHeading: 'अधिकतम इनाम की रणनीति',
+    strategy: 'BEX, BEND और BERPS तीनों मुख्य नेटिव dApps का नियमित उपयोग करें और अर्जित $BGT को सक्रिय वैलिडेटर्स को डेलिगेट करें।',
+    sybilHeading: 'सिबिल सुरक्षा और सावधानियाँ',
+    sybilSafety: 'फॉसेट बॉट्स को रोकने के लिए IP और वॉलेट उम्र की जांच करता है। मल्टी-स्टेप DeFi इंटरैक्शन असली उपयोगकर्ता व्यवहार दर्शाते हैं।',
+    faqHeading: 'अक्सर पूछे जाने वाले प्रश्न',
+    faqs: [
+      {
+        q: 'क्या Berachain टेस्टनेट मुफ़्त है?',
+        a: 'हाँ, आधिकारिक फॉसेट के टेस्ट $BERA से यह 100% मुफ़्त ($0) है।'
+      },
+      {
+        q: 'क्या $BGT खरीदा या ट्रांसफर किया जा सकता है?',
+        a: 'नहीं, $BGT एक Soulbound टोकन है जिसे केवल लिक्विडिटी प्रदान करके कमाया जाता है।'
+      }
+    ],
+    ctaText: 'Berachain खोलें',
+    englishVersionLabel: 'अंग्रेज़ी संस्करण'
+  },
+  {
+    id: 'berachain',
+    slug: 'it',
+    lang: 'it',
+    flag: '🇮🇹',
+    homeLabel: 'Home',
+    hubLabel: 'Testnet Gratuiti',
+    hubHref: '/it/testnet-gratuiti/',
+    title: 'Guida Airdrop Berachain (2026): Testnet $BERA ($142M) | Airdroplyx',
+    description: 'Come partecipare gratis alla testnet Berachain ($142M da Polychain Capital e Framework Ventures): faucet $BERA, BEX, BEND, BERPS e delega $BGT.',
+    h1: 'Berachain ($BERA): Guida Testnet Gratuita e Proof-of-Liquidity',
+    badge: 'Finanziamento $142M • Gratis',
+    rewardLabel: 'Ricompensa stimata',
+    costLabel: 'Costo',
+    snapshotLabel: 'Periodo previsto',
+    timeLabel: 'Tempo settimanale',
+    overviewHeading: 'Panoramica del progetto',
+    overview: 'Berachain è una blockchain Layer 1 EVM basata su Proof-of-Liquidity (PoL), finanziata con 142 milioni di dollari da Polychain Capital e Framework Ventures e dotata di modello tri-token ($BERA, $BGT e $HONEY).',
+    tokenomicsHeading: 'Modello Tri-Token ($BERA, $BGT, $HONEY)',
+    tokenomics: '$BERA paga il gas, $BGT si ottiene fornendo liquidità (convertibile 1:1 in $BERA) e $HONEY è la stablecoin nativa.',
+    stepsHeading: 'Come partecipare passo dopo passo',
+    steps: [
+      'Apri il portale ufficiale Berachain (berachain.com) e collega Rabby o Rainbow.',
+      'Richiedi $BERA di test gratuiti dal faucet ufficiale ogni 8 ore.',
+      'Su BEX scambia parte di $BERA in $HONEY e aggiungi liquidità.',
+      'Su BEND deposita collaterale per prendere in prestito $HONEY e prova BERPS.',
+      'Delega i $BGT accumulati a un validatore e completa le quest Galxe/Discord.'
+    ],
+    strategyHeading: 'Strategia per massimizzare i punti',
+    strategy: 'Usa regolarmente tutte e tre le dApp native (BEX, BEND, BERPS) e delega costantemente i tuoi $BGT.',
+    sybilSafety: 'Il faucet applica limiti IP ed età wallet contro i bot. Interazioni DeFi articolate dimostrano un utilizzo autentico.',
+    sybilHeading: 'Sicurezza e protezione Sybil',
+    faqHeading: 'Domande frequenti',
+    faqs: [
+      {
+        q: 'La testnet di Berachain è gratuita?',
+        a: 'Sì, gratuita al 100% ($0) usando i token di prova del faucet ufficiale.'
+      },
+      {
+        q: 'Si può comprare o trasferire $BGT?',
+        a: 'No, $BGT è un token Soulbound non trasferibile ottenibile solo fornendo liquidità.'
+      }
+    ],
+    ctaText: 'Apri Berachain',
+    englishVersionLabel: 'Versione inglese'
+  },
+  {
+    id: 'berachain',
+    slug: 'pl',
+    lang: 'pl',
+    flag: '🇵🇱',
+    homeLabel: 'Strona główna',
+    hubLabel: 'Darmowe Testnety',
+    hubHref: '/pl/darmowe-testnety/',
+    title: 'Poradnik Airdrop Berachain (2026): Darmowy Testnet $BERA ($142M) | Airdroplyx',
+    description: 'Jak przejść za darmo testnet Berachain ($142M od Polychain Capital i Framework Ventures): kranik $BERA, BEX, BEND, BERPS i delegacja $BGT.',
+    h1: 'Berachain ($BERA): Poradnik Darmowego Testnetu i Proof-of-Liquidity',
+    badge: 'Finansowanie $142M • Darmowy',
+    rewardLabel: 'Szacowana nagroda',
+    costLabel: 'Koszt',
+    snapshotLabel: 'Przewidywany okres',
+    timeLabel: 'Czas tygodniowo',
+    overviewHeading: 'Opis projektu',
+    overview: 'Berachain to kompatybilny z EVM blockchain Layer 1 z konsensusem Proof-of-Liquidity (PoL), wsparty kwotą 142 mln USD przez Polychain Capital i Framework Ventures, oparty na trzech tokenach: $BERA, $BGT i $HONEY.',
+    tokenomicsHeading: 'Model Tri-Token ($BERA, $BGT, $HONEY)',
+    tokenomics: '$BERA opłaca gas, $BGT zdobywa się za dostarczanie płynności (można spalić 1:1 na $BERA), a $HONEY to natywny stablecoin.',
+    stepsHeading: 'Instrukcja krok po kroku',
+    steps: [
+      'Wejdź na oficjalny portal Berachain (berachain.com) i podłącz Rabby lub Rainbow.',
+      'Odbieraj darmowe testowe $BERA z oficjalnego kraniku co 8 godzin.',
+      'Na giełdzie BEX wymień część $BERA na $HONEY i dodaj płynność do pul.',
+      'W BEND wpłać zabezpieczenie, pożycz $HONEY i wypróbuj handel na BERPS.',
+      'Oddeleguj zdobyte $BGT do walidatora i ukończ zadania Galxe/Discord.'
+    ],
+    strategyHeading: 'Strategia maksymalizacji nagród',
+    strategy: 'Korzystaj regularnie z całej trójki natywnych dApps (BEX, BEND, BERPS) i deleguj swoje $BGT.',
+    sybilHeading: 'Ochrona Anti-Sybil i bezpieczeństwo',
+    sybilSafety: 'Kranik ogranicza boty poprzez limity IP i wieku portfela. Złożone interakcje DeFi potwierdzają autentyczną aktywność.',
+    faqHeading: 'Często zadawane pytania',
+    faqs: [
+      {
+        q: 'Czy testnet Berachain jest darmowy?',
+        a: 'Tak, jest w 100% darmowy ($0) dzięki testowym tokenom $BERA z kraniku.'
+      },
+      {
+        q: 'Czy można kupić lub przesłać $BGT?',
+        a: 'Nie, $BGT jest niezbywalnym tokenem Soulbound zdobywanym wyłącznie za płynność.'
+      }
+    ],
+    ctaText: 'Otwórz Berachain',
+    englishVersionLabel: 'Wersja angielska'
+  },
+
+  // ================= SAHARA AI (16 LANGUAGES) =================
+  {
+    id: 'sahara-ai',
+    slug: 'tr',
+    lang: 'tr',
+    flag: '🇹🇷',
+    homeLabel: 'Ana Sayfa',
+    hubLabel: 'Ücretsiz Testnetler',
+    hubHref: '/tr/ucretsiz-testnet-airdroplari/',
+    title: 'Sahara AI Airdrop Rehberi (2026): $43M Yatırımlı Testnet & Puanlar | Airdroplyx',
+    description: 'Pantera Capital ve Polychain liderliğinde 43 milyon dolar yatırım alan Sahara AI Data Lab testneti, günlük veri etiketleme görevleri ve cüzdan bağlantısı.',
+    h1: 'Sahara AI Ücretsiz Testnet ve Sahara Points Rehberi',
+    badge: '$43M Yatırım • Ücretsiz AI Testnet',
+    rewardLabel: 'Tahmini Ödül',
+    costLabel: 'Maliyet',
+    snapshotLabel: 'Beklenen Dönem',
+    timeLabel: 'Günlük Süre',
+    overviewHeading: 'Proje Özeti',
+    overview: 'Pantera Capital, Polychain Capital ve Samsung NEXT desteğiyle 43 milyon dolar yatırım alan Sahara AI, kullanıcıların yapay zeka veri setlerini ve modellerini sahiplenip gelir elde edebildiği merkeziyetsiz bir yapay zeka ağıdır. Teşvikli testnet döneminde Sahara Data Lab üzerinden veri etiketleme ve model değerlendirme görevleriyle Sahara Points toplanmaktadır.',
+    tokenomicsHeading: 'Ekosistem ve Dağıtım',
+    tokenomics: 'Sahara AI yerel tokenı; model lisanslama ödemeleri, doğrulayıcı staking’i ve Sahara Knowledge Vault yönetişiminde kullanılacak olup erken veri katkıcıları ile testnet katılımcılarına önemli pay ayrılmıştır.',
+    stepsHeading: 'Adım Adım Katılım Rehberi',
+    steps: [
+      'Resmi Sahara AI portalına (saharalabs.ai) gidin.',
+      'Rabby veya Rainbow EVM cüzdanınızı bağlayarak başlangıç kaydını tamamlayın.',
+      'Sahara Data Lab bölümüne girip açık testnet katkı görevlerini alın.',
+      'Günlük veri etiketleme, sıralama ve yapay zeka yanıt doğrulama görevlerini tamamlayın.',
+      'Resmi X ve Discord kanallarındaki topluluk rozetlerini toplayıp puanlarınızı takip edin.'
+    ],
+    strategyHeading: 'Maksimum Ödül Stratejisi',
+    strategy: 'Yalnızca hızlı tıklamak yerine veri kalitesi puanınızı yüksek tutun; günlük veri hizalama görevlerini düzenli çözün ve erken dönem testnet kilometre taşlarını tamamlayın.',
+    sybilHeading: 'Sybil Koruması ve Güvenlik',
+    sybilSafety: 'Sahara AI düşük kaliteli bot spam’ini engellemek için cüzdan yaşı kontrolleri ve katkı kalite puanlaması uygular. Yalnızca resmi saharalabs.ai portalını kullanın.',
+    faqHeading: 'Sıkça Sorulan Sorular',
+    faqs: [
+      {
+        q: 'Katılmak için yapay zeka kodlama bilgisi gerekiyor mu?',
+        a: 'Hayır, testnet görevleri herkesin kolayca yapabileceği veri değerlendirme ve sıralama adımlarından oluşur.'
+      },
+      {
+        q: 'Sahara AI testneti ücretsiz mi?',
+        a: 'Evet, Data Lab katkı görevleri ve testnet katılımı tamamen ücretsizdir ($0).'
+      }
+    ],
+    ctaText: 'Sahara AI’ı Aç',
+    englishVersionLabel: 'İngilizce Sürüm'
+  },
+  {
+    id: 'sahara-ai',
+    slug: 'ru',
+    lang: 'ru',
+    flag: '🇷🇺',
+    homeLabel: 'Главная',
+    hubLabel: 'Бесплатные тестнеты',
+    hubHref: '/ru/free-testnets/',
+    title: 'Гайд по аирдропу Sahara AI (2026): тестнет $43M и поинты | Airdroplyx',
+    description: 'Как бесплатно фармить Sahara Points в тестнете Sahara AI ($43M от Pantera Capital и Polychain Capital): задания Data Lab и привязка кошелька.',
+    h1: 'Sahara AI: гайд по бесплатному тестнету и Sahara Points',
+    badge: 'Инвестиции $43M • Бесплатно',
+    rewardLabel: 'Ожидаемая награда',
+    costLabel: 'Затраты',
+    snapshotLabel: 'Ожидаемый период',
+    timeLabel: 'Время в день',
+    overviewHeading: 'Обзор проекта',
+    overview: 'Sahara AI (привлекла $43 млн от Pantera Capital, Polychain Capital и Samsung NEXT) — децентрализованная ИИ-платформа для создания и монетизации датасетов и агентов. В рамках стимулируемого тестнета участники выполняют разметку и оценку данных в Sahara Data Lab за Sahara Points.',
+    tokenomicsHeading: 'Токеномика и распределение',
+    tokenomics: 'Нативный токен будет использоваться для оплаты лицензий, стейкинга валидаторов и управления, при этом значительная доля выделена ранним контрибьюторам данных.',
+    stepsHeading: 'Пошаговая инструкция',
+    steps: [
+      'Перейдите на официальный портал Sahara AI (saharalabs.ai).',
+      'Подключите EVM-кошелек Rabby или Rainbow и завершите регистрацию.',
+      'Откройте Sahara Data Lab и выберите доступные задания тестнета.',
+      'Ежедневно выполняйте разметку, ранжирование и проверку ответов ИИ.',
+      'Подпишитесь на Discord для получения ролей и следите за начислением поинтов.'
+    ],
+    strategyHeading: 'Стратегия фарма',
+    strategy: 'Следите за точностью ответов в Data Lab, поскольку качество данных напрямую влияет на рейтинг, и не пропускайте ежедневные микрозадания.',
+    sybilHeading: 'Защита от ботов и безопасность',
+    sybilSafety: 'Платформа проверяет возраст кошелька и оценивает качество разметки, отсеивая спам-ботов. Используйте только официальный домен saharalabs.ai.',
+    faqHeading: 'Частые вопросы',
+    faqs: [
+      {
+        q: 'Нужно ли уметь программировать для участия?',
+        a: 'Нет, задания сводятся к простой оценке и сравнению ответов ИИ.'
+      },
+      {
+        q: 'Участие в Sahara AI бесплатное?',
+        a: 'Да, тестнет и задания Data Lab полностью бесплатны ($0).'
+      }
+    ],
+    ctaText: 'Открыть Sahara AI',
+    englishVersionLabel: 'Английская версия'
+  },
+  {
+    id: 'sahara-ai',
+    slug: 'id',
+    lang: 'id',
+    flag: '🇮🇩',
+    homeLabel: 'Beranda',
+    hubLabel: 'Testnet Gratis',
+    hubHref: '/id/testnet-gratis/',
+    title: 'Panduan Airdrop Sahara AI (2026): Testnet Gratis $43M | Airdroplyx',
+    description: 'Cara dapat Sahara Points di testnet Sahara AI ($43M dari Pantera Capital & Polychain Capital): tugas harian Data Lab dan koneksi dompet Rabby.',
+    h1: 'Sahara AI: Panduan Testnet Gratis & Sahara Points',
+    badge: 'Pendanaan $43M • Gratis',
+    rewardLabel: 'Estimasi Hadiah',
+    costLabel: 'Biaya',
+    snapshotLabel: 'Perkiraan Snapshot',
+    timeLabel: 'Waktu Harian',
+    overviewHeading: 'Ringkasan Proyek',
+    overview: 'Didukung $43 juta oleh Pantera Capital, Polychain Capital, dan Samsung NEXT, Sahara AI adalah jaringan AI kolaboratif terdesentralisasi. Di testnet berinsentifnya, pengguna mengumpulkan Sahara Points lewat pelabelan data dan evaluasi model di Sahara Data Lab.',
+    tokenomicsHeading: 'Ekosistem & Distribusi',
+    tokenomics: 'Token asli Sahara AI akan mengatur pembayaran lisensi, staking validator, dan tata kelola, dengan porsi besar dialokasikan bagi kontributor data awal.',
+    stepsHeading: 'Langkah-Langkah Mengikuti Airdrop',
+    steps: [
+      'Kunjungi portal resmi Sahara AI (saharalabs.ai).',
+      'Hubungkan dompet EVM Rabby atau Rainbow Anda untuk onboarding.',
+      'Masuk ke Sahara Data Lab dan ambil tugas kontributor testnet.',
+      'Selesaikan tugas harian pelabelan data dan validasi respons AI.',
+      'Ikuti Discord resmi untuk lencana komunitas dan pantau poin Anda.'
+    ],
+    strategyHeading: 'Strategi Maksimal',
+    strategy: 'Jaga skor kualitas data tetap tinggi saat menilai respons AI dan kerjakan tugas harian secara konsisten.',
+    sybilHeading: 'Keamanan & Anti-Sybil',
+    sybilSafety: 'Sahara AI menerapkan pemeriksaan usia dompet dan algoritma penilaian kualitas untuk menyaring bot spam. Gunakan hanya saharalabs.ai.',
+    faqHeading: 'Pertanyaan Umum',
+    faqs: [
+      {
+        q: 'Apakah perlu keahlian coding AI?',
+        a: 'Tidak, tugas testnet berupa evaluasi dan pemeringkatan data sederhana yang mudah diikuti.'
+      },
+      {
+        q: 'Apakah testnet Sahara AI gratis?',
+        a: 'Ya, seluruh tugas di Sahara Data Lab 100% gratis ($0).'
+      }
+    ],
+    ctaText: 'Buka Sahara AI',
+    englishVersionLabel: 'Versi Bahasa Inggris'
+  },
+  {
+    id: 'sahara-ai',
+    slug: 'vi',
+    lang: 'vi',
+    flag: '🇻🇳',
+    homeLabel: 'Trang chủ',
+    hubLabel: 'Testnet Miễn Phí',
+    hubHref: '/vi/testnet-mien-phi/',
+    title: 'Hướng dẫn Airdrop Sahara AI (2026): Testnet $43M & Sahara Points | Airdroplyx',
+    description: 'Cách tham gia testnet Sahara AI miễn phí ($43M từ Pantera Capital & Polychain Capital): làm nhiệm vụ Sahara Data Lab hàng ngày và kết nối ví Rabby.',
+    h1: 'Sahara AI: Hướng Dẫn Testnet Miễn Phí & Săn Sahara Points',
+    badge: 'Gọi vốn $43M • Miễn phí',
+    rewardLabel: 'Phần thưởng dự kiến',
+    costLabel: 'Chi phí',
+    snapshotLabel: 'Thời gian dự kiến',
+    timeLabel: 'Thời gian mỗi ngày',
+    overviewHeading: 'Tổng quan dự án',
+    overview: 'Huy động $43 triệu từ Pantera Capital, Polychain Capital và Samsung NEXT, Sahara AI xây dựng mạng lưới AI phi tập trung giúp người dùng sở hữu và kiếm tiền từ dữ liệu. Người tham gia testnet nhận Sahara Points qua Sahara Data Lab.',
+    tokenomicsHeading: 'Hệ sinh thái & Phân bổ',
+    tokenomics: 'Token gốc Sahara AI dùng để thanh toán bản quyền mô hình, staking validator và quản trị, dành phần lớn nguồn cung cho người đóng góp dữ liệu sớm.',
+    stepsHeading: 'Các bước tham gia chi tiết',
+    steps: [
+      'Truy cập cổng chính thức Sahara AI (saharalabs.ai).',
+      'Kết nối ví EVM Rabby hoặc Rainbow để hoàn tất đăng ký.',
+      'Vào mục Sahara Data Lab và nhận các nhiệm vụ đóng góp testnet.',
+      'Hoàn thành nhiệm vụ gán nhãn dữ liệu và đánh giá câu trả lời AI mỗi ngày.',
+      'Tham gia Discord chính thức nhận huy hiệu và theo dõi điểm trên bảng điều khiển.'
+    ],
+    strategyHeading: 'Chiến lược tối ưu điểm',
+    strategy: 'Ưu tiên độ chính xác khi đánh giá dữ liệu vì thuật toán chấm điểm chất lượng ảnh hưởng trực tiếp đến phần thưởng.',
+    sybilHeading: 'Chống Sybil & Bảo mật',
+    sybilSafety: 'Sahara AI kiểm tra tuổi ví và chất lượng dữ liệu đóng góp để loại bỏ bot spam. Chỉ thao tác trên trang chính thức saharalabs.ai.',
+    faqHeading: 'Câu hỏi thường gặp',
+    faqs: [
+      {
+        q: 'Có cần biết lập trình AI để tham gia không?',
+        a: 'Không, các nhiệm vụ chỉ là đánh giá và xếp hạng dữ liệu đơn giản cho mọi người.'
+      },
+      {
+        q: 'Tham gia Sahara AI testnet có miễn phí không?',
+        a: 'Có, hoàn toàn miễn phí ($0).'
+      }
+    ],
+    ctaText: 'Mở Sahara AI',
+    englishVersionLabel: 'Bản tiếng Anh'
+  },
+  {
+    id: 'sahara-ai',
+    slug: 'es',
+    lang: 'es',
+    flag: '🇪🇸',
+    homeLabel: 'Inicio',
+    hubLabel: 'Testnets Gratis',
+    hubHref: '/es/testnets-gratis/',
+    title: 'Guía Airdrop Sahara AI (2026): Testnet Gratis $43M | Airdroplyx',
+    description: 'Cómo ganar Sahara Points en la testnet gratuita de Sahara AI ($43M de Pantera Capital y Polychain): tareas diarias en Data Lab y billetera Rabby.',
+    h1: 'Sahara AI: Guía de Testnet Gratuita y Sahara Points',
+    badge: 'Financiación $43M • Gratis',
+    rewardLabel: 'Recompensa estimada',
+    costLabel: 'Costo',
+    snapshotLabel: 'Periodo estimado',
+    timeLabel: 'Tiempo diario',
+    overviewHeading: 'Resumen del proyecto',
+    overview: 'Respaldada con $43 millones por Pantera Capital, Polychain Capital y Samsung NEXT, Sahara AI es una red descentralizada de inteligencia artificial colaborativa. En su testnet incentivada, los usuarios suman Sahara Points etiquetando datos en Sahara Data Lab.',
+    tokenomicsHeading: 'Ecosistema y Distribución',
+    tokenomics: 'El token nativo coordinará licencias de modelos, staking y gobernanza, con una asignación relevante para los primeros colaboradores de datos.',
+    stepsHeading: 'Pasos para participar',
+    steps: [
+      'Visita el portal oficial de Sahara AI (saharalabs.ai).',
+      'Conecta tu billetera EVM Rabby o Rainbow y completa el registro.',
+      'Accede a Sahara Data Lab y reclama las tareas disponibles.',
+      'Completa diariamente microtareas de anotación, clasificación y validación de IA.',
+      'Únete al Discord oficial para obtener insignias y revisa tus puntos.'
+    ],
+    strategyHeading: 'Estrategia para maximizar recompensas',
+    strategy: 'Cuida la precisión de tus evaluaciones de datos y completa las tareas diarias con constancia.',
+    sybilHeading: 'Seguridad y protección Sybil',
+    sybilSafety: 'Sahara AI verifica la antigüedad de la billetera y la calidad de las respuestas para filtrar bots. Usa únicamente saharalabs.ai.',
+    faqHeading: 'Preguntas frecuentes',
+    faqs: [
+      {
+        q: '¿Necesito saber programar IA para participar?',
+        a: 'No, las tareas consisten en evaluar y ordenar respuestas de forma sencilla.'
+      },
+      {
+        q: '¿Es gratis la testnet de Sahara AI?',
+        a: 'Sí, participar en Data Lab es 100% gratuito ($0).'
+      }
+    ],
+    ctaText: 'Abrir Sahara AI',
+    englishVersionLabel: 'Versión en inglés'
+  },
+  {
+    id: 'sahara-ai',
+    slug: 'pt',
+    lang: 'pt',
+    flag: '🇧🇷',
+    homeLabel: 'Início',
+    hubLabel: 'Testnets Grátis',
+    hubHref: '/pt/testnets-gratis/',
+    title: 'Guia Airdrop Sahara AI (2026): Testnet Grátis $43M | Airdroplyx',
+    description: 'Saiba como acumular Sahara Points na testnet gratuita da Sahara AI ($43M da Pantera Capital e Polychain): tarefas no Data Lab e conexão Rabby.',
+    h1: 'Sahara AI: Guia da Testnet Gratuita e Sahara Points',
+    badge: 'Investimento $43M • Grátis',
+    rewardLabel: 'Recompensa estimada',
+    costLabel: 'Custo',
+    snapshotLabel: 'Previsão',
+    timeLabel: 'Tempo diário',
+    overviewHeading: 'Visão geral do projeto',
+    overview: 'Com $43 milhões captados junto a Pantera Capital, Polychain Capital e Samsung NEXT, a Sahara AI é uma rede descentralizada de IA colaborativa. Na testnet incentivada, usuários ganham Sahara Points avaliando dados no Sahara Data Lab.',
+    tokenomicsHeading: 'Ecossistema e Distribuição',
+    tokenomics: 'O token nativo gerenciará pagamentos de licenças, staking e governança, destinando parcela relevante aos primeiros contribuidores de dados.',
+    stepsHeading: 'Passo a passo para participar',
+    steps: [
+      'Acesse o portal oficial da Sahara AI (saharalabs.ai).',
+      'Conecte sua carteira EVM Rabby ou Rainbow e finalize o cadastro.',
+      'Entre no Sahara Data Lab e pegue as tarefas de contribuidor.',
+      'Complete diariamente tarefas de rotulagem e validação de respostas de IA.',
+      'Participe do Discord oficial e acompanhe sua pontuação no painel.'
+    ],
+    strategyHeading: 'Estratégia de ganhos',
+    strategy: 'Mantenha alta precisão nas avaliações do Data Lab e complete as tarefas diárias sem falhar.',
+    sybilHeading: 'Proteção Sybil e segurança',
+    sybilSafety: 'A plataforma analisa idade da carteira e qualidade dos dados enviados contra bots. Acesse apenas saharalabs.ai.',
+    faqHeading: 'Perguntas frequentes',
+    faqs: [
+      {
+        q: 'Preciso saber programar IA?',
+        a: 'Não, as tarefas são simples avaliações e classificações de respostas.'
+      },
+      {
+        q: 'A testnet da Sahara AI é gratuita?',
+        a: 'Sim, totalmente gratuita ($0).'
+      }
+    ],
+    ctaText: 'Abrir Sahara AI',
+    englishVersionLabel: 'Versão em inglês'
+  },
+  {
+    id: 'sahara-ai',
+    slug: 'ko',
+    lang: 'ko',
+    flag: '🇰🇷',
+    homeLabel: '홈',
+    hubLabel: '무료 테스트넷',
+    hubHref: '/ko/free-testnets/',
+    title: 'Sahara AI 에어드랍 가이드 (2026): $43M 투자 무료 테스트넷 | Airdroplyx',
+    description: 'Pantera Capital과 Polychain Capital 등이 $43M 투자한 Sahara AI 테스트넷 공략: Sahara Data Lab 일일 데이터 라벨링 및 Rabby 지갑 연동.',
+    h1: 'Sahara AI 무료 테스트넷 및 Sahara Points 가이드',
+    badge: '$43M 투자 유치 • 무료 AI 테스트넷',
+    rewardLabel: '예상 보상',
+    costLabel: '비용',
+    snapshotLabel: '예상 시기',
+    timeLabel: '일일 소요 시간',
+    overviewHeading: '프로젝트 개요',
+    overview: 'Pantera Capital, Polychain Capital, Samsung NEXT로부터 4,300만 달러를 투자받은 Sahara AI는 탈중앙 AI 데이터·모델 소유권 플랫폼입니다. 인센티브 테스트넷 기간 동안 Sahara Data Lab에서 데이터 라벨링 및 AI 응답 평가 과제를 수행해 Sahara Points를 적립할 수 있습니다.',
+    tokenomicsHeading: '생태계 및 분배',
+    tokenomics: '네이티브 토큰은 모델 라이선스 결제, 검증인 스테이킹, 거버넌스에 사용되며 초기 데이터 기여자에게 상당한 물량이 배정될 예정입니다.',
+    stepsHeading: '단계별 참여 방법',
+    steps: [
+      '공식 Sahara AI 포털(saharalabs.ai)에 접속하세요.',
+      'Rabby 또는 Rainbow EVM 지갑을 연결하고 온보딩을 완료하세요.',
+      'Sahara Data Lab 메뉴에서 테스트넷 기여 작업을 선택하세요.',
+      '매일 데이터 라벨링, 순위 평가, AI 답변 검증 과제를 수행하세요.',
+      '공식 Discord 배지를 획득하고 대시보드에서 포인트를 확인하세요.'
+    ],
+    strategyHeading: '보상 극대화 전략',
+    strategy: '단순 클릭보다 데이터 품질 점수를 높게 유지하는 것이 중요하며, 매일 데이터 정렬 미션을 꾸준히 완료하세요.',
+    sybilHeading: '시빌 방지 및 보안',
+    sybilSafety: '지갑 연식 검증과 기여 데이터 품질 평가 알고리즘으로 스팸 봇을 걸러냅니다. 반드시 공식 saharalabs.ai만 이용하세요.',
+    faqHeading: '자주 묻는 질문',
+    faqs: [
+      {
+        q: 'AI 코딩 지식이 필요한가요?',
+        a: '아니요, 누구나 할 수 있는 간단한 데이터 평가 및 순위 선택 작업으로 구성되어 있습니다.'
+      },
+      {
+        q: 'Sahara AI 테스트넷은 무료인가요?',
+        a: '네, 비용 없이 무료($0)로 참여할 수 있습니다.'
+      }
+    ],
+    ctaText: 'Sahara AI 열기',
+    englishVersionLabel: '영문 버전'
+  },
+  {
+    id: 'sahara-ai',
+    slug: 'ja',
+    lang: 'ja',
+    flag: '🇯🇵',
+    homeLabel: 'ホーム',
+    hubLabel: '無料テストネット',
+    hubHref: '/ja/free-testnets/',
+    title: 'Sahara AI エアドロップ攻略 (2026): $43M調達AIテストネット | Airdroplyx',
+    description: 'Pantera CapitalやPolychain Capitalから4,300万ドル調達したSahara AI無料テストネット手順：Data Labでのデータ評価タスクとRabby接続。',
+    h1: 'Sahara AI 無料テストネット＆Sahara Points攻略ガイド',
+    badge: '$43M調達済み • 無料AIテストネット',
+    rewardLabel: '予想報酬',
+    costLabel: '費用',
+    snapshotLabel: '予定時期',
+    timeLabel: '1日の作業時間',
+    overviewHeading: 'プロジェクト概要',
+    overview: 'Pantera Capital、Polychain Capital、Samsung NEXTから4,300万ドルを調達したSahara AIは、分散型AIデータ・モデル経済圏を構築しています。インセンティブ付きテストネットではSahara Data Labでデータ評価タスクを行いSahara Pointsを稼げます。',
+    tokenomicsHeading: 'エコシステムと配分',
+    tokenomics: 'ネイティブトークンはモデル利用料、バリデータステーキング、ガバナンスに使われ、初期データ貢献者へ厚く配分される予定です。',
+    stepsHeading: '参加ステップ',
+    steps: [
+      '公式Sahara AIポータル（saharalabs.ai）にアクセスします。',
+      'RabbyまたはRainbowウォレットを接続して初期登録を済ませます。',
+      'Sahara Data Labを開き、テストネット貢献タスクを取得します。',
+      '毎日のデータラベリングやAI回答評価タスクを完了します。',
+      '公式Discordでコミュニティバッジを獲得し、獲得ポイントを確認します。'
+    ],
+    strategyHeading: '報酬最大化のコツ',
+    strategy: '適当なクリックではなく回答の正確性・データ品質スコアを高く保ち、毎日のマイクロタスクを継続することが重要です。',
+    sybilHeading: 'シビル対策と安全性',
+    sybilSafety: 'ウォレット履歴とデータ品質スコアリングにより低品質ボットを排除しています。必ず公式saharalabs.aiのみをご利用ください。',
+    faqHeading: 'よくある質問',
+    faqs: [
+      {
+        q: 'AIプログラミングの知識は必要ですか？',
+        a: 'いいえ、誰でも取り組めるシンプルなデータ評価・ランキングタスクです。'
+      },
+      {
+        q: 'Sahara AIテストネットは無料ですか？',
+        a: 'はい、完全無料（$0）で参加できます。'
+      }
+    ],
+    ctaText: 'Sahara AIを開く',
+    englishVersionLabel: '英語版を見る'
+  },
+  {
+    id: 'sahara-ai',
+    slug: 'ar',
+    lang: 'ar',
+    flag: '🇸🇦',
+    homeLabel: 'الرئيسية',
+    hubLabel: 'شبكات اختبار مجانية',
+    hubHref: '/ar/free-testnets/',
+    title: 'دليل إيردروب Sahara AI (2026): شبكة اختبار مجانية $43M | Airdroplyx',
+    description: 'دليل المشاركة مجاناً في شبكة اختبار Sahara AI (بتمويل 43 مليون دولار من Pantera Capital وPolychain): مهام Data Lab وربط Rabby.',
+    h1: 'Sahara AI: دليل شبكة الاختبار المجانية ونقاط Sahara Points',
+    badge: 'تمويل $43M • مجاني',
+    rewardLabel: 'المكافأة المتوقعة',
+    costLabel: 'التكلفة',
+    snapshotLabel: 'الفترة المتوقعة',
+    timeLabel: 'الوقت اليومي',
+    overviewHeading: 'نظرة عامة على المشروع',
+    overview: 'حصل مشروع Sahara AI على تمويل بقيمة 43 مليون دولار من Pantera Capital وPolychain Capital وSamsung NEXT لبناء شبكة ذكاء اصطناعي لامركزية. عبر Sahara Data Lab، يجمع المستخدمون نقاط Sahara Points من مهام تصنيف البيانات وتقييم النماذج.',
+    tokenomicsHeading: 'النظام البيئي والتوزيع',
+    tokenomics: 'تنسق العملة الأصلية مدفوعات التراخيص وتخزين المدققين والحوكمة، مع تخصيص حصة مهمة للمساهمين الأوائل في البيانات.',
+    stepsHeading: 'خطوات المشاركة',
+    steps: [
+      'زر البوابة الرسمية لمشروع Sahara AI (saharalabs.ai).',
+      'اربط محفظة Rabby أو Rainbow وأكمل التسجيل الأولي.',
+      'ادخل إلى Sahara Data Lab واستلم مهام المساهمة في شبكة الاختبار.',
+      'أكمل مهام تصنيف البيانات اليومية والتحقق من ردود الذكاء الاصطناعي.',
+      'انضم إلى Discord الرسمي وتابع رصيد نقاطك في لوحة التحكم.'
+    ],
+    strategyHeading: 'استراتيجية تعظيم المكافآت',
+    strategy: 'حافظ على دقة تقييماتك وجودة البيانات المرسلة مع الاستمرار في المهام اليومية.',
+    sybilHeading: 'الحماية من الحسابات الوهمية والأمان',
+    sybilSafety: 'تعتمد Sahara AI على فحص عمر المحفظة وتقييم جودة البيانات لاستبعاد البوتات. استخدم موقع saharalabs.ai الرسمي فقط.',
+    faqHeading: 'الأسئلة الشائعة',
+    faqs: [
+      {
+        q: 'هل أحتاج إلى خبرة برمجية في الذكاء الاصطناعي؟',
+        a: 'لا، المهام عبارة عن تقييم وترتيب بسيط للبيانات متاح للجميع.'
+      },
+      {
+        q: 'هل شبكة اختبار Sahara AI مجانية؟',
+        a: 'نعم، المشاركة مجانية 100% ($0).'
+      }
+    ],
+    ctaText: 'افتح Sahara AI',
+    englishVersionLabel: 'النسخة الإنجليزية'
+  },
+  {
+    id: 'sahara-ai',
+    slug: 'de',
+    lang: 'de',
+    flag: '🇩🇪',
+    homeLabel: 'Startseite',
+    hubLabel: 'Kostenlose Testnets',
+    hubHref: '/de/kostenlose-testnets/',
+    title: 'Sahara AI Airdrop Guide (2026): $43M Testnet & Punkte | Airdroplyx',
+    description: 'Anleitung für das kostenlose Sahara AI Testnet ($43M von Pantera Capital & Polychain): Data Lab Aufgaben erledigen und Rabby verbinden.',
+    h1: 'Sahara AI: Kostenloser Testnet- & Sahara Points Guide',
+    badge: '$43M Finanzierung • Kostenlos',
+    rewardLabel: 'Geschätzte Belohnung',
+    costLabel: 'Kosten',
+    snapshotLabel: 'Erwarteter Zeitraum',
+    timeLabel: 'Täglicher Aufwand',
+    overviewHeading: 'Projektübersicht',
+    overview: 'Mit 43 Millionen US-Dollar von Pantera Capital, Polychain Capital und Samsung NEXT baut Sahara AI ein dezentrales KI-Kollaborationsnetzwerk auf. Im Data Lab sammeln Teilnehmer durch Datenannotation und Modellbewertung Sahara Points.',
+    tokenomicsHeading: 'Ökosystem & Verteilung',
+    tokenomics: 'Der native Token steuert Modelllizenzen, Validator-Staking und Governance, wobei ein erheblicher Teil für frühe Daten-Kuratoren vorgesehen ist.',
+    stepsHeading: 'Schritt-für-Schritt-Anleitung',
+    steps: [
+      'Besuche das offizielle Sahara AI Portal (saharalabs.ai).',
+      'Verbinde deine Rabby- oder Rainbow-Wallet und schließe das Onboarding ab.',
+      'Öffne das Sahara Data Lab und übernimm Testnet-Aufgaben.',
+      'Erledige tägliche Aufgaben zur Datenannotation und KI-Antwortprüfung.',
+      'Tritt dem offiziellen Discord bei und verfolge deine Punkte im Dashboard.'
+    ],
+    strategyHeading: 'Strategie für maximale Punkte',
+    strategy: 'Achte auf hohe Genauigkeit bei der Datenbewertung und bleibe bei den täglichen Mikroaufgaben konsequent.',
+    sybilHeading: 'Sybil-Schutz & Sicherheit',
+    sybilSafety: 'Sahara AI prüft Wallet-Alter und Datenqualität gegen Bot-Spam. Nutze ausschließlich das offizielle Portal saharalabs.ai.',
+    faqHeading: 'Häufig gestellte Fragen',
+    faqs: [
+      {
+        q: 'Braucht man KI-Programmierkenntnisse?',
+        a: 'Nein, die Aufgaben bestehen aus einfachen Bewertungen und Rankings.'
+      },
+      {
+        q: 'Ist das Sahara AI Testnet kostenlos?',
+        a: 'Ja, die Teilnahme ist zu 100 % kostenlos ($0).'
+      }
+    ],
+    ctaText: 'Sahara AI öffnen',
+    englishVersionLabel: 'Englische Version'
+  },
+  {
+    id: 'sahara-ai',
+    slug: 'fr',
+    lang: 'fr',
+    flag: '🇫🇷',
+    homeLabel: 'Accueil',
+    hubLabel: 'Testnets Gratuits',
+    hubHref: '/fr/testnets-gratuits/',
+    title: 'Guide Airdrop Sahara AI (2026) : Testnet $43M & Points | Airdroplyx',
+    description: 'Comment gagner des Sahara Points sur le testnet gratuit Sahara AI (43 M$ par Pantera Capital et Polychain) avec Rabby et Sahara Data Lab.',
+    h1: 'Sahara AI : Guide Testnet Gratuit et Sahara Points',
+    badge: 'Financement $43M • Gratuit',
+    rewardLabel: 'Récompense estimée',
+    costLabel: 'Coût',
+    snapshotLabel: 'Période estimée',
+    timeLabel: 'Temps quotidien',
+    overviewHeading: 'Présentation du projet',
+    overview: 'Financé à hauteur de 43 M$ par Pantera Capital, Polychain Capital et Samsung NEXT, Sahara AI développe un réseau d’IA décentralisé. Dans Sahara Data Lab, les testeurs annotent et évaluent des données pour gagner des Sahara Points.',
+    tokenomicsHeading: 'Écosystème et Distribution',
+    tokenomics: 'Le jeton natif régira licences de modèles, staking des validateurs et gouvernance, avec une part importante dédiée aux premiers contributeurs.',
+    stepsHeading: 'Étapes pour participer',
+    steps: [
+      'Rendez-vous sur le portail officiel Sahara AI (saharalabs.ai).',
+      'Connectez votre portefeuille Rabby ou Rainbow et terminez l’inscription.',
+      'Accédez à Sahara Data Lab et réclamez vos missions testnet.',
+      'Complétez chaque jour l’annotation de données et la validation des réponses IA.',
+      'Rejoignez le Discord officiel pour les badges et suivez vos points.'
+    ],
+    strategyHeading: 'Stratégie d’optimisation',
+    strategy: 'Privilégiez la qualité et la précision de vos évaluations dans le Data Lab tout en maintenant un rythme quotidien.',
+    sybilHeading: 'Protection Anti-Sybil et sécurité',
+    sybilSafety: 'Sahara AI vérifie l’ancienneté des portefeuilles et la qualité des données contre le spam. Passez uniquement par saharalabs.ai.',
+    faqHeading: 'Questions fréquentes',
+    faqs: [
+      {
+        q: 'Faut-il savoir coder en IA pour participer ?',
+        a: 'Non, les tâches consistent en de simples évaluations et classements accessibles à tous.'
+      },
+      {
+        q: 'Le testnet Sahara AI est-il gratuit ?',
+        a: 'Oui, il est 100 % gratuit ($0).'
+      }
+    ],
+    ctaText: 'Ouvrir Sahara AI',
+    englishVersionLabel: 'Version anglaise'
+  },
+  {
+    id: 'sahara-ai',
+    slug: 'uk',
+    lang: 'uk',
+    flag: '🇺🇦',
+    homeLabel: 'Головна',
+    hubLabel: 'Безкоштовні тестнети',
+    hubHref: '/uk/bezkoshtovni-testnety/',
+    title: 'Гайд з аірдропу Sahara AI (2026): тестнет $43M і поінти | Airdroplyx',
+    description: 'Як безкоштовно заробляти Sahara Points у тестнеті Sahara AI ($43M від Pantera Capital і Polychain): завдання Data Lab та гаманець Rabby.',
+    h1: 'Sahara AI: гайд із безкоштовного тестнету й Sahara Points',
+    badge: 'Інвестиції $43M • Безкоштовно',
+    rewardLabel: 'Очікувана винагорода',
+    costLabel: 'Витрати',
+    snapshotLabel: 'Очікуваний період',
+    timeLabel: 'Час на день',
+    overviewHeading: 'Огляд проєкту',
+    overview: 'Sahara AI (залучила $43M від Pantera Capital, Polychain Capital і Samsung NEXT) будує децентралізовану мережу спільного ШІ. У Sahara Data Lab учасники тестнету розмічають дані та оцінюють моделі за Sahara Points.',
+    tokenomicsHeading: 'Екосистема та розподіл',
+    tokenomics: 'Нативний токен забезпечить оплату ліцензій, стейкінг валідаторів та управління, виділяючи суттєву частку раннім контриб’юторам даних.',
+    stepsHeading: 'Покрокова інструкція',
+    steps: [
+      'Перейдіть на офіційний портал Sahara AI (saharalabs.ai).',
+      'Підключіть гаманець Rabby або Rainbow і завершіть реєстрацію.',
+      'Відкрийте Sahara Data Lab і візьміть доступні завдання тестнету.',
+      'Щодня виконуйте розмітку, ранжування та перевірку відповідей ШІ.',
+      'Приєднайтеся до Discord за бейджами та відстежуйте бали в кабінеті.'
+    ],
+    strategyHeading: 'Стратегія максимізації нагород',
+    strategy: 'Дбайте про високу точність оцінки даних у Data Lab і не пропускайте щоденні мікрозавдання.',
+    sybilHeading: 'Захист від Sybil та безпека',
+    sybilSafety: 'Платформа перевіряє вік гаманця та якість відповідей для блокування спам-ботів. Користуйтеся лише saharalabs.ai.',
+    faqHeading: 'Часті запитання',
+    faqs: [
+      {
+        q: 'Чи потрібні навички програмування ШІ?',
+        a: 'Ні, завдання зводяться до простої оцінки та сортування даних.'
+      },
+      {
+        q: 'Чи безкоштовний тестнет Sahara AI?',
+        a: 'Так, участь повністю безкоштовна ($0).'
+      }
+    ],
+    ctaText: 'Відкрити Sahara AI',
+    englishVersionLabel: 'Англійська версія'
+  },
+  {
+    id: 'sahara-ai',
+    slug: 'zh',
+    lang: 'zh-CN',
+    flag: '🇨🇳',
+    homeLabel: '首页',
+    hubLabel: '免费测试网',
+    hubHref: '/zh/free-testnets/',
+    title: 'Sahara AI 空投教程 (2026)：$4300万融资 AI 测试网与积分 | Airdroplyx',
+    description: 'Pantera Capital 与 Polychain 领投 4300 万美元的 Sahara AI 免费测试网教程：Data Lab 每日标注任务与 Rabby 钱包绑定。',
+    h1: 'Sahara AI 免费测试网及 Sahara Points 攻略',
+    badge: '融资 $43M • 零撸免费',
+    rewardLabel: '预估奖励',
+    costLabel: '参与成本',
+    snapshotLabel: '预期周期',
+    timeLabel: '每日耗时',
+    overviewHeading: '项目简介',
+    overview: '获得 Pantera Capital、Polychain Capital 与 Samsung NEXT 共 4300 万美元融资的 Sahara AI，致力于打造去中心化人工智能协作网络。激励测试网期间，用户可在 Sahara Data Lab 完成数据标注与模型评估以赚取 Sahara Points。',
+    tokenomicsHeading: '生态与分配',
+    tokenomics: '原生代币将用于模型授权支付、验证节点质押与知识库治理，创世份额将重点奖励早期数据贡献者。',
+    stepsHeading: '详细参与步骤',
+    steps: [
+      '访问 Sahara AI 官方门户（saharalabs.ai）。',
+      '连接 Rabby 或 Rainbow EVM 钱包完成初始注册。',
+      '进入 Sahara Data Lab 领取测试网贡献任务。',
+      '每日完成数据标注、排序与 AI 回复校验任务。',
+      '加入官方 Discord 获取社区徽章，并在面板追踪积分进度。'
+    ],
+    strategyHeading: '高收益策略',
+    strategy: '切忌胡乱点击，保持高质量的标注准确率，并每天坚持完成对齐微任务。',
+    sybilHeading: '防女巫机制与安全提示',
+    sybilSafety: '平台通过钱包年限校验与数据质量评分算法过滤低质脚本。请认准官方域名 saharalabs.ai。',
+    faqHeading: '常见问题',
+    faqs: [
+      {
+        q: '参加 Sahara AI 需要会写 AI 代码吗？',
+        a: '不需要，任务主要为简单易懂的数据评估与排序提示。'
+      },
+      {
+        q: 'Sahara AI 测试网免费吗？',
+        a: '是的，Data Lab 任务全程零资金成本（$0）参与。'
+      }
+    ],
+    ctaText: '打开 Sahara AI',
+    englishVersionLabel: '英文原版'
+  },
+  {
+    id: 'sahara-ai',
+    slug: 'hi',
+    lang: 'hi',
+    flag: '🇮🇳',
+    homeLabel: 'होम',
+    hubLabel: 'मुफ़्त टेस्टनेट',
+    hubHref: '/hi/free-testnets/',
+    title: 'Sahara AI एयरड्रॉप गाइड (2026): $43M मुफ़्त AI टेस्टनेट | Airdroplyx',
+    description: 'Pantera Capital और Polychain द्वारा $43M फंडेड Sahara AI टेस्टनेट में मुफ़्त Sahara Points कमाने, Data Lab टास्क और Rabby जोड़ने की गाइड।',
+    h1: 'Sahara AI मुफ़्त टेस्टनेट और Sahara Points गाइड',
+    badge: '$43M फंडिंग • मुफ़्त AI टेस्टनेट',
+    rewardLabel: 'अनुमानित इनाम',
+    costLabel: 'लागत',
+    snapshotLabel: 'अनुमानित समय',
+    timeLabel: 'दैनिक समय',
+    overviewHeading: 'प्रोजेक्ट का परिचय',
+    overview: 'Pantera Capital, Polychain Capital और Samsung NEXT से $43 मिलियन की फंडिंग प्राप्त Sahara AI एक विकेंद्रीकृत AI नेटवर्क है। इसके इंसेंटिव टेस्टनेट में यूज़र्स Sahara Data Lab पर डेटा एनोटेशन कर Sahara Points कमाते हैं।',
+    tokenomicsHeading: 'इकोसिस्टम और वितरण',
+    tokenomics: 'नेटिव टोकन मॉडल लाइसेंसिंग, वैलिडेटर स्टेकिंग और गवर्नेंस को संभालेगा, जिसमें शुरुआती डेटा योगदानकर्ताओं के लिए बड़ा हिस्सा रखा गया है।',
+    stepsHeading: 'भाग लेने के आसान चरण',
+    steps: [
+      'आधिकारिक Sahara AI पोर्टल (saharalabs.ai) पर जाएं।',
+      'अपना Rabby या Rainbow EVM वॉलेट कनेक्ट कर ऑनबोर्डिंग पूरी करें।',
+      'Sahara Data Lab खोलें और टेस्टनेट योगदान टास्क चुनें।',
+      'रोज़ाना डेटा लेबलिंग, रैंकिंग और AI रिस्पॉन्स वैलिडेशन पूरा करें।',
+      'आधिकारिक Discord से जुड़ें और डैशबोर्ड पर अपने पॉइंट्स देखें।'
+    ],
+    strategyHeading: 'अधिकतम इनाम की रणनीति',
+    strategy: 'डेटा मूल्यांकन में सटीकता बनाए रखें और दैनिक माइक्रो-टास्क नियमित रूप से पूरे करें।',
+    sybilHeading: 'सिबिल सुरक्षा और सावधानियाँ',
+    sybilSafety: 'बॉट स्पैम रोकने के लिए वॉलेट उम्र और डेटा क्वालिटी स्कोरिंग की जांच होती है। केवल saharalabs.ai का ही उपयोग करें।',
+    faqHeading: 'अक्सर पूछे जाने वाले प्रश्न',
+    faqs: [
+      {
+        q: 'क्या भाग लेने के लिए AI कोडिंग आनी ज़रूरी है?',
+        a: 'नहीं, टेस्टनेट टास्क सरल डेटा मूल्यांकन और रैंकिंग पर आधारित हैं।'
+      },
+      {
+        q: 'क्या Sahara AI टेस्टनेट मुफ़्त है?',
+        a: 'हाँ, यह पूरी तरह मुफ़्त ($0) है।'
+      }
+    ],
+    ctaText: 'Sahara AI खोलें',
+    englishVersionLabel: 'अंग्रेज़ी संस्करण'
+  },
+  {
+    id: 'sahara-ai',
+    slug: 'it',
+    lang: 'it',
+    flag: '🇮🇹',
+    homeLabel: 'Home',
+    hubLabel: 'Testnet Gratuiti',
+    hubHref: '/it/testnet-gratuiti/',
+    title: 'Guida Airdrop Sahara AI (2026): Testnet $43M Gratis | Airdroplyx',
+    description: 'Come guadagnare Sahara Points sulla testnet gratuita Sahara AI ($43M da Pantera Capital e Polychain): Data Lab e wallet Rabby.',
+    h1: 'Sahara AI: Guida Testnet Gratuita e Sahara Points',
+    badge: 'Finanziamento $43M • Gratis',
+    rewardLabel: 'Ricompensa stimata',
+    costLabel: 'Costo',
+    snapshotLabel: 'Periodo previsto',
+    timeLabel: 'Tempo giornaliero',
+    overviewHeading: 'Panoramica del progetto',
+    overview: 'Sostenuta con 43 milioni di dollari da Pantera Capital, Polychain Capital e Samsung NEXT, Sahara AI è una rete AI collaborativa decentralizzata. Nel Sahara Data Lab i partecipanti accumulano Sahara Points con annotazione dati e valutazione modelli.',
+    tokenomicsHeading: 'Ecosistema e Distribuzione',
+    tokenomics: 'Il token nativo gestirà licenze dei modelli, staking dei validatori e governance, premiando i primi collaboratori dei dati.',
+    stepsHeading: 'Come partecipare passo dopo passo',
+    steps: [
+      'Visita il portale ufficiale Sahara AI (saharalabs.ai).',
+      'Collega il wallet EVM Rabby o Rainbow e completa la registrazione.',
+      'Accedi a Sahara Data Lab e seleziona le attività della testnet.',
+      'Completa ogni giorno etichettatura dati e validazione delle risposte AI.',
+      'Unisciti al Discord ufficiale e monitora i punti nella dashboard.'
+    ],
+    strategyHeading: 'Strategia per massimizzare i punti',
+    strategy: 'Mantieni alta la precisione delle valutazioni nel Data Lab e svolgi con costanza i micro-compiti quotidiani.',
+    sybilHeading: 'Sicurezza e protezione Sybil',
+    sybilSafety: 'Sahara AI controlla anzianità del wallet e qualità dei dati per filtrare i bot. Usa solo il sito ufficiale saharalabs.ai.',
+    faqHeading: 'Domande frequenti',
+    faqs: [
+      {
+        q: 'Serve saper programmare in AI?',
+        a: 'No, le attività richiedono semplici valutazioni e classifiche accessibili a tutti.'
+      },
+      {
+        q: 'La testnet Sahara AI è gratuita?',
+        a: 'Sì, gratuita al 100% ($0).'
+      }
+    ],
+    ctaText: 'Apri Sahara AI',
+    englishVersionLabel: 'Versione inglese'
+  },
+  {
+    id: 'sahara-ai',
+    slug: 'pl',
+    lang: 'pl',
+    flag: '🇵🇱',
+    homeLabel: 'Strona główna',
+    hubLabel: 'Darmowe Testnety',
+    hubHref: '/pl/darmowe-testnety/',
+    title: 'Poradnik Airdrop Sahara AI (2026): Darmowy Testnet $43M | Airdroplyx',
+    description: 'Jak za darmo zdobywać Sahara Points w testnecie Sahara AI ($43M od Pantera Capital i Polychain): zadania Data Lab i portfel Rabby.',
+    h1: 'Sahara AI: Poradnik Darmowego Testnetu i Sahara Points',
+    badge: 'Finansowanie $43M • Darmowy',
+    rewardLabel: 'Szacowana nagroda',
+    costLabel: 'Koszt',
+    snapshotLabel: 'Przewidywany okres',
+    timeLabel: 'Czas dziennie',
+    overviewHeading: 'Opis projektu',
+    overview: 'Wspierana kwotą 43 mln USD przez Pantera Capital, Polychain Capital i Samsung NEXT platforma Sahara AI buduje zdecentralizowaną sieć AI. W Sahara Data Lab użytkownicy wykonują zadania etykietowania danych i zdobywają Sahara Points.',
+    tokenomicsHeading: 'Ekosystem i Dystrybucja',
+    tokenomics: 'Natywny token obsłuży opłaty licencyjne, staking walidatorów i zarządzanie, z istotną pulą dla wczesnych współtwórców danych.',
+    stepsHeading: 'Instrukcja krok po kroku',
+    steps: [
+      'Odwiedź oficjalny portal Sahara AI (saharalabs.ai).',
+      'Podłącz portfel EVM Rabby lub Rainbow i dokończ rejestrację.',
+      'Wejdź do Sahara Data Lab i pobierz dostępne zadania testnetowe.',
+      'Wykonuj codziennie zadania oznaczania danych i oceny odpowiedzi AI.',
+      'Dołącz do oficjalnego Discorda po odznaki i śledź swoje punkty.'
+    ],
+    strategyHeading: 'Strategia maksymalizacji nagród',
+    strategy: 'Dbaj o wysoką jakość odpowiedzi w Data Lab oraz regularnie wykonuj codzienne zadania.',
+    sybilHeading: 'Ochrona Anti-Sybil i bezpieczeństwo',
+    sybilSafety: 'Sahara AI sprawdza wiek portfela i jakość przesyłanych danych, eliminując boty. Korzystaj wyłącznie z saharalabs.ai.',
+    faqHeading: 'Często zadawane pytania',
+    faqs: [
+      {
+        q: 'Czy trzeba znać programowanie AI?',
+        a: 'Nie, zadania polegają na prostej ocenie i porządkowaniu odpowiedzi.'
+      },
+      {
+        q: 'Czy testnet Sahara AI jest darmowy?',
+        a: 'Tak, udział jest całkowicie darmowy ($0).'
+      }
+    ],
+    ctaText: 'Otwórz Sahara AI',
+    englishVersionLabel: 'Wersja angielska'
   }
 ];
 
