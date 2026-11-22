@@ -14709,6 +14709,2220 @@ export const localizedAirdropGuides: LocalizedAirdropGuide[] = [
     ],
     ctaText: 'Otwórz Ink',
     englishVersionLabel: 'Wersja angielska'
+  },
+
+  // ================= MOVEMENT LABS (16 LANGUAGES) =================
+  {
+    id: 'movement',
+    slug: 'tr',
+    lang: 'tr',
+    flag: '🇹🇷',
+    homeLabel: 'Ana Sayfa',
+    hubLabel: 'Ücretsiz Testnetler',
+    hubHref: '/tr/ucretsiz-testnet-airdroplari/',
+    title: 'Movement Labs Airdrop Rehberi (2026): Olympus Testnet & $MOVE | Airdroplyx',
+    description: 'Polychain Capital ve Hack VC liderliğinde 38 milyon dolar yatırım alan Move-EVM Layer 2 ağı Movement Battle of Olympus testnet ve $MOVE rehberi.',
+    h1: 'Movement Labs ($MOVE) Olympus Testnet ve Airdrop Rehberi',
+    badge: '$38M Yatırım • Ücretsiz Testnet',
+    rewardLabel: 'Tahmini Ödül',
+    costLabel: 'Maliyet',
+    snapshotLabel: 'Beklenen Dönem',
+    timeLabel: 'Haftalık Süre',
+    overviewHeading: 'Proje Özeti',
+    overview: 'Polychain Capital ve Hack VC liderliğinde 38 milyon dolar Series A yatırımı alan Movement Labs, Ethereum üzerindeki ilk Move-EVM Layer 2 ağı olan M2’yi geliştirmektedir. Move programlama dilinin yüksek güvenliğini tam Solidity uyumluluğuyla birleştiren proje, Battle of Olympus teşvikli testnetiyle erken katılımcılara $MOVE dağıtımı planlamaktadır.',
+    tokenomicsHeading: '$MOVE Tokenomik ve Dağıtım',
+    tokenomics: '$MOVE tokenı Layer 2 işlem ücretleri, doğrulayıcı staking’i ve Movement DAO yönetişimi için kullanılır; başlangıç arzının önemli bir bölümü Battle of Olympus testnet katılımcılarına ayrılmıştır.',
+    stepsHeading: 'Adım Adım Katılım Rehberi',
+    steps: [
+      'Resmi Movement Labs portalına (movementlabs.xyz) gidin.',
+      'Movement ağını destekleyen Razor Wallet veya Nightly Wallet kurun.',
+      'Resmi Movement Faucet üzerinden ücretsiz test tokenları talep edin.',
+      'Battle of Olympus panosundaki aktif görevleri açıp Meridian ve Razor DEX üzerinde test takasları yapın.',
+      'Basit bir test sözleşmesi dağıtın ve guild.xyz/movement üzerinden Discord rollerinizi alın.'
+    ],
+    strategyHeading: 'Maksimum Ödül Stratejisi',
+    strategy: 'Battle of Olympus görev panosundaki tüm partner dApp’leri tamamlayın, düzenli test likiditesi ekleyin ve Guild doğrulamasını eksiksiz yapın.',
+    sybilHeading: 'Sybil Koruması ve Güvenlik',
+    sybilSafety: 'Olympus portalı doğrulanmış X ve Discord bağlantısı ister; aynı mikro işlemleri tekrarlayan botları eler. Resmi movementlabs.xyz adresini kullanın.',
+    faqHeading: 'Sıkça Sorulan Sorular',
+    faqs: [
+      {
+        q: 'Battle of Olympus testneti ücretsiz mi?',
+        a: 'Evet, halka açık musluktan alınan ücretsiz test tokenlarıyla %100 ücretsiz ($0) katılabilirsiniz.'
+      },
+      {
+        q: 'Movement için hangi cüzdan gerekir?',
+        a: 'Razor Wallet, Nightly Wallet veya Movement ağını destekleyen uyumlu çoklu ağ cüzdanlarını kullanabilirsiniz.'
+      }
+    ],
+    ctaText: 'Movement’ı Aç',
+    englishVersionLabel: 'İngilizce Sürüm'
+  },
+  {
+    id: 'movement',
+    slug: 'ru',
+    lang: 'ru',
+    flag: '🇷🇺',
+    homeLabel: 'Главная',
+    hubLabel: 'Бесплатные тестнеты',
+    hubHref: '/ru/free-testnets/',
+    title: 'Гайд по аирдропу Movement Labs (2026): тестнет Olympus и $MOVE | Airdroplyx',
+    description: 'Как бесплатно пройти тестнет Battle of Olympus от Movement Labs ($38M от Polychain Capital и Hack VC): Razor/Nightly Wallet, кран и квесты $MOVE.',
+    h1: 'Movement Labs ($MOVE): гайд по тестнету Olympus и аирдропу',
+    badge: 'Инвестиции $38M • Бесплатно',
+    rewardLabel: 'Ожидаемая награда',
+    costLabel: 'Затраты',
+    snapshotLabel: 'Ожидаемый период',
+    timeLabel: 'Время в неделю',
+    overviewHeading: 'Обзор проекта',
+    overview: 'Movement Labs (привлёк $38 млн от Polychain Capital и Hack VC) создаёт первый Move-EVM Layer 2 в сети Ethereum (M2), объединяя безопасность языка Move с полной совместимостью Solidity. В стимулируемом тестнете Battle of Olympus тестировщики претендуют на дроп $MOVE.',
+    tokenomicsHeading: 'Токеномика $MOVE',
+    tokenomics: 'Токен $MOVE оплачивает комиссии L2, стейкинг валидаторов и управление, причём значительная часть генезис-эмиссии выделена участникам Battle of Olympus.',
+    stepsHeading: 'Пошаговая инструкция',
+    steps: [
+      'Откройте официальный портал Movement Labs (movementlabs.xyz).',
+      'Установите совместимый кошелек Razor Wallet или Nightly Wallet.',
+      'Запросите бесплатные тестовые токены в официальном кране Movement.',
+      'Выполняйте квесты Battle of Olympus: свопы и ликвидность на Meridian и Razor DEX.',
+      'Разверните тестовый контракт и заберите роли на guild.xyz/movement.'
+    ],
+    strategyHeading: 'Стратегия фарма',
+    strategy: 'Проходите задания разных dApps на дашборде Olympus, тестируйте ликвидность и обязательно подтвердите роли в Guild.',
+    sybilHeading: 'Защита от ботов и безопасность',
+    sybilSafety: 'Портал требует привязки X и Discord и отфильтровывает однотипных ботов. Пользуйтесь только официальным сайтом movementlabs.xyz.',
+    faqHeading: 'Частые вопросы',
+    faqs: [
+      {
+        q: 'Бесплатно ли участвовать в тестнете Battle of Olympus?',
+        a: 'Да, все задания выполняются на бесплатных тестовых токенах из крана ($0).'
+      },
+      {
+        q: 'Какой кошелек нужен для Movement?',
+        a: 'Подойдёт Razor Wallet или Nightly Wallet с поддержкой сети Movement.'
+      }
+    ],
+    ctaText: 'Открыть Movement',
+    englishVersionLabel: 'Английская версия'
+  },
+  {
+    id: 'movement',
+    slug: 'id',
+    lang: 'id',
+    flag: '🇮🇩',
+    homeLabel: 'Beranda',
+    hubLabel: 'Testnet Gratis',
+    hubHref: '/id/testnet-gratis/',
+    title: 'Panduan Airdrop Movement Labs (2026): Testnet Olympus $MOVE | Airdroplyx',
+    description: 'Panduan lengkap testnet Battle of Olympus dari Movement Labs ($38M dari Polychain Capital & Hack VC): pasang Razor Wallet, klaim faucet, dan dApp.',
+    h1: 'Movement Labs ($MOVE): Panduan Testnet Olympus & Airdrop',
+    badge: 'Pendanaan $38M • Gratis',
+    rewardLabel: 'Estimasi Hadiah',
+    costLabel: 'Biaya',
+    snapshotLabel: 'Perkiraan Snapshot',
+    timeLabel: 'Waktu Mingguan',
+    overviewHeading: 'Ringkasan Proyek',
+    overview: 'Didukung $38 juta oleh Polychain Capital dan Hack VC, Movement Labs menghadirkan Layer 2 Move-EVM pertama di Ethereum (M2) yang menggabungkan keamanan Move dengan kompatibilitas Solidity. Testnet Battle of Olympus memberi peluang hadiah $MOVE bagi penguji awal.',
+    tokenomicsHeading: 'Tokenomik $MOVE',
+    tokenomics: 'Token $MOVE dipakai untuk biaya transaksi L2, staking validator, dan tata kelola, dengan alokasi besar untuk peserta Battle of Olympus.',
+    stepsHeading: 'Langkah-Langkah Mengikuti Airdrop',
+    steps: [
+      'Kunjungi portal resmi Movement Labs (movementlabs.xyz).',
+      'Pasang dompet yang mendukung Movement seperti Razor Wallet atau Nightly Wallet.',
+      'Klaim token uji coba gratis dari faucet resmi Movement.',
+      'Buka dasbor Battle of Olympus lalu lakukan swap di Meridian dan Razor DEX.',
+      'Deploy kontrak pintar sederhana dan klaim peran Discord di guild.xyz/movement.'
+    ],
+    strategyHeading: 'Strategi Maksimal',
+    strategy: 'Selesaikan seluruh misi mitra di Battle of Olympus secara bertahap dan pastikan peran Guild Anda terverifikasi.',
+    sybilHeading: 'Keamanan & Anti-Sybil',
+    sybilSafety: 'Portal Olympus memverifikasi akun X serta Discord dan menyaring bot berulang. Gunakan hanya movementlabs.xyz.',
+    faqHeading: 'Pertanyaan Umum',
+    faqs: [
+      {
+        q: 'Apakah testnet Battle of Olympus gratis?',
+        a: 'Ya, 100% gratis ($0) menggunakan token faucet publik.'
+      },
+      {
+        q: 'Dompet apa yang dibutuhkan untuk Movement?',
+        a: 'Anda dapat memakai Razor Wallet atau Nightly Wallet.'
+      }
+    ],
+    ctaText: 'Buka Movement',
+    englishVersionLabel: 'Versi Bahasa Inggris'
+  },
+  {
+    id: 'movement',
+    slug: 'vi',
+    lang: 'vi',
+    flag: '🇻🇳',
+    homeLabel: 'Trang chủ',
+    hubLabel: 'Testnet Miễn Phí',
+    hubHref: '/vi/testnet-mien-phi/',
+    title: 'Hướng dẫn Airdrop Movement Labs (2026): Testnet Olympus $MOVE | Airdroplyx',
+    description: 'Cách tham gia testnet Battle of Olympus miễn phí của Movement Labs ($38M từ Polychain Capital & Hack VC): cài Razor Wallet và săn $MOVE.',
+    h1: 'Movement Labs ($MOVE): Hướng Dẫn Testnet Olympus & Airdrop',
+    badge: 'Gọi vốn $38M • Miễn phí',
+    rewardLabel: 'Phần thưởng dự kiến',
+    costLabel: 'Chi phí',
+    snapshotLabel: 'Thời gian dự kiến',
+    timeLabel: 'Thời gian mỗi tuần',
+    overviewHeading: 'Tổng quan dự án',
+    overview: 'Huy động $38 triệu từ Polychain Capital và Hack VC, Movement Labs phát triển Layer 2 Move-EVM đầu tiên trên Ethereum (M2), kết hợp bảo mật ngôn ngữ Move và tương thích Solidity. Chiến dịch testnet Battle of Olympus thưởng cho cộng đồng tham gia sớm.',
+    tokenomicsHeading: 'Tokenomics $MOVE',
+    tokenomics: 'Token $MOVE trả phí gas L2, staking validator và quản trị DAO, dành tỷ trọng lớn cho người tham gia Battle of Olympus.',
+    stepsHeading: 'Các bước tham gia chi tiết',
+    steps: [
+      'Truy cập cổng chính thức Movement Labs (movementlabs.xyz).',
+      'Cài đặt ví hỗ trợ Movement như Razor Wallet hoặc Nightly Wallet.',
+      'Nhận token thử nghiệm miễn phí từ faucet chính thức của Movement.',
+      'Vào bảng điều khiển Battle of Olympus để thực hiện swap trên Meridian và Razor DEX.',
+      'Triển khai hợp đồng thông minh đơn giản và nhận role tại guild.xyz/movement.'
+    ],
+    strategyHeading: 'Chiến lược tối ưu điểm',
+    strategy: 'Hoàn thành đa dạng nhiệm vụ dApp trên bảng Battle of Olympus và xác minh đầy đủ các huy hiệu trên Guild.',
+    sybilHeading: 'Chống Sybil & Bảo mật',
+    sybilSafety: 'Cổng Olympus yêu cầu liên kết X và Discord để lọc bot giao dịch trùng lặp. Chỉ truy cập movementlabs.xyz.',
+    faqHeading: 'Câu hỏi thường gặp',
+    faqs: [
+      {
+        q: 'Testnet Battle of Olympus có miễn phí không?',
+        a: 'Hoàn toàn miễn phí ($0) với token từ faucet công khai.'
+      },
+      {
+        q: 'Cần dùng ví nào cho Movement?',
+        a: 'Bạn có thể dùng Razor Wallet hoặc Nightly Wallet.'
+      }
+    ],
+    ctaText: 'Mở Movement',
+    englishVersionLabel: 'Bản tiếng Anh'
+  },
+  {
+    id: 'movement',
+    slug: 'es',
+    lang: 'es',
+    flag: '🇪🇸',
+    homeLabel: 'Inicio',
+    hubLabel: 'Testnets Gratis',
+    hubHref: '/es/testnets-gratis/',
+    title: 'Guía Airdrop Movement Labs (2026): Testnet Olympus y $MOVE | Airdroplyx',
+    description: 'Cómo participar gratis en Battle of Olympus de Movement Labs ($38M de Polychain Capital y Hack VC): Razor Wallet, faucet y misiones $MOVE.',
+    h1: 'Movement Labs ($MOVE): Guía de Testnet Olympus y Airdrop',
+    badge: 'Financiación $38M • Gratis',
+    rewardLabel: 'Recompensa estimada',
+    costLabel: 'Costo',
+    snapshotLabel: 'Periodo estimado',
+    timeLabel: 'Tiempo semanal',
+    overviewHeading: 'Resumen del proyecto',
+    overview: 'Con $38 millones de Polychain Capital y Hack VC, Movement Labs construye la primera Layer 2 Move-EVM en Ethereum (M2), uniendo la seguridad de Move con compatibilidad Solidity. Su testnet Battle of Olympus posiciona a los usuarios para el token $MOVE.',
+    tokenomicsHeading: 'Tokenomics de $MOVE',
+    tokenomics: '$MOVE cubre comisiones L2, staking de validadores y gobernanza, destinando una parte importante del suministro inicial a participantes de Battle of Olympus.',
+    stepsHeading: 'Pasos para participar',
+    steps: [
+      'Visita el portal oficial de Movement Labs (movementlabs.xyz).',
+      'Instala una billetera compatible como Razor Wallet o Nightly Wallet.',
+      'Solicita tokens de prueba gratuitos en el faucet oficial de Movement.',
+      'Completa misiones en el panel Battle of Olympus operando en Meridian y Razor DEX.',
+      'Despliega un contrato sencillo y reclama roles en guild.xyz/movement.'
+    ],
+    strategyHeading: 'Estrategia para maximizar recompensas',
+    strategy: 'Completa misiones variadas en el panel Olympus y verifica tus insignias comunitarias en Guild.',
+    sybilHeading: 'Seguridad y protección Sybil',
+    sybilSafety: 'Olympus exige cuentas verificadas de X y Discord y descarta bots repetitivos. Usa solo movementlabs.xyz.',
+    faqHeading: 'Preguntas frecuentes',
+    faqs: [
+      {
+        q: '¿Es gratis la testnet Battle of Olympus?',
+        a: 'Sí, 100% gratuita ($0) mediante tokens del faucet público.'
+      },
+      {
+        q: '¿Qué billetera necesito para Movement?',
+        a: 'Puedes usar Razor Wallet o Nightly Wallet.'
+      }
+    ],
+    ctaText: 'Abrir Movement',
+    englishVersionLabel: 'Versión en inglés'
+  },
+  {
+    id: 'movement',
+    slug: 'pt',
+    lang: 'pt',
+    flag: '🇧🇷',
+    homeLabel: 'Início',
+    hubLabel: 'Testnets Grátis',
+    hubHref: '/pt/testnets-gratis/',
+    title: 'Guia Airdrop Movement Labs (2026): Testnet Olympus e $MOVE | Airdroplyx',
+    description: 'Passo a passo gratuito da testnet Battle of Olympus da Movement Labs ($38M da Polychain Capital e Hack VC): Razor Wallet, faucet e $MOVE.',
+    h1: 'Movement Labs ($MOVE): Guia da Testnet Olympus e Airdrop',
+    badge: 'Investimento $38M • Grátis',
+    rewardLabel: 'Recompensa estimada',
+    costLabel: 'Custo',
+    snapshotLabel: 'Previsão',
+    timeLabel: 'Tempo semanal',
+    overviewHeading: 'Visão geral do projeto',
+    overview: 'Com $38 milhões liderados por Polychain Capital e Hack VC, a Movement Labs desenvolve a primeira Layer 2 Move-EVM no Ethereum (M2), combinando execução paralela Move e compatibilidade Solidity na testnet Battle of Olympus para o token $MOVE.',
+    tokenomicsHeading: 'Tokenomics do $MOVE',
+    tokenomics: '$MOVE paga taxas de L2, staking de validadores e governança, reservando fatia expressiva aos participantes da Battle of Olympus.',
+    stepsHeading: 'Passo a passo para participar',
+    steps: [
+      'Acesse o portal oficial da Movement Labs (movementlabs.xyz).',
+      'Instale uma carteira compatível como a Razor Wallet ou Nightly Wallet.',
+      'Solicite tokens de teste gratuitos no faucet oficial da Movement.',
+      'No painel Battle of Olympus, faça swaps e liquidez na Meridian e Razor DEX.',
+      'Publique um contrato simples de teste e resgate cargos no guild.xyz/movement.'
+    ],
+    strategyHeading: 'Estratégia de ganhos',
+    strategy: 'Conclua missões de diversos dApps no painel Olympus e garanta seus selos na Guild.',
+    sybilHeading: 'Proteção Sybil e segurança',
+    sybilSafety: 'O portal solicita vínculo de X e Discord para filtrar bots repetitivos. Acesse apenas movementlabs.xyz.',
+    faqHeading: 'Perguntas frequentes',
+    faqs: [
+      {
+        q: 'A testnet Battle of Olympus é gratuita?',
+        a: 'Sim, 100% gratuita ($0) com tokens do faucet público.'
+      },
+      {
+        q: 'Qual carteira preciso para a Movement?',
+        a: 'Razor Wallet ou Nightly Wallet compatíveis com a rede.'
+      }
+    ],
+    ctaText: 'Abrir Movement',
+    englishVersionLabel: 'Versão em inglês'
+  },
+  {
+    id: 'movement',
+    slug: 'ko',
+    lang: 'ko',
+    flag: '🇰🇷',
+    homeLabel: '홈',
+    hubLabel: '무료 테스트넷',
+    hubHref: '/ko/free-testnets/',
+    title: 'Movement Labs 에어드랍 가이드 (2026): Olympus 테스트넷 $MOVE | Airdroplyx',
+    description: 'Polychain Capital과 Hack VC가 $38M 투자한 Move-EVM L2 Movement Battle of Olympus 무료 테스트넷 참여 방법: Razor/Nightly 지갑 및 dApp.',
+    h1: 'Movement Labs ($MOVE) Olympus 테스트넷 및 에어드랍 가이드',
+    badge: '$38M 투자 유치 • 무료 테스트넷',
+    rewardLabel: '예상 보상',
+    costLabel: '비용',
+    snapshotLabel: '예상 시기',
+    timeLabel: '주간 소요 시간',
+    overviewHeading: '프로젝트 개요',
+    overview: 'Polychain Capital과 Hack VC 등으로부터 3,800만 달러를 유치한 Movement Labs는 이더리움 최초의 Move-EVM Layer 2(M2)를 구축합니다. Battle of Olympus 인센티브 테스트넷 참여자들에게 $MOVE 토큰 분배가 예정되어 있습니다.',
+    tokenomicsHeading: '$MOVE 토크노믹스',
+    tokenomics: '$MOVE는 L2 가스비, 검증인 스테이킹 및 거버넌스에 쓰이며, Battle of Olympus 테스트넷 참여자에게 초기 물량의 핵심 비중이 할당됩니다.',
+    stepsHeading: '단계별 참여 방법',
+    steps: [
+      '공식 Movement Labs 포털(movementlabs.xyz)에 접속하세요.',
+      'Razor Wallet 또는 Nightly Wallet 등 Movement 지원 지갑을 설치하세요.',
+      '공식 Movement Faucet에서 무료 테스트 토큰을 받으세요.',
+      'Battle of Olympus 대시보드에서 Meridian, Razor DEX 스왑 및 유동성을 테스트하세요.',
+      '간단한 테스트 컨트랙트를 배포하고 guild.xyz/movement에서 Discord 역할을 받으세요.'
+    ],
+    strategyHeading: '보상 극대화 전략',
+    strategy: 'Olympus 대시보드의 다양한 파트너 dApp 퀘스트를 수행하고 Guild 배지 인증까지 완료하세요.',
+    sybilHeading: '시빌 방지 및 보안',
+    sybilSafety: 'X 및 Discord 연동과 행동 분석으로 반복 봇을 차단합니다. 반드시 공식 movementlabs.xyz만 이용하세요.',
+    faqHeading: '자주 묻는 질문',
+    faqs: [
+      {
+        q: 'Battle of Olympus 테스트넷은 무료인가요?',
+        a: '네, 공개 Faucet 토큰으로 비용 없이($0) 참여할 수 있습니다.'
+      },
+      {
+        q: '어떤 지갑을 사용해야 하나요?',
+        a: 'Razor Wallet 또는 Nightly Wallet을 사용하면 됩니다.'
+      }
+    ],
+    ctaText: 'Movement 열기',
+    englishVersionLabel: '영문 버전'
+  },
+  {
+    id: 'movement',
+    slug: 'ja',
+    lang: 'ja',
+    flag: '🇯🇵',
+    homeLabel: 'ホーム',
+    hubLabel: '無料テストネット',
+    hubHref: '/ja/free-testnets/',
+    title: 'Movement Labs エアドロップ攻略 (2026): Olympusテストネット $MOVE | Airdroplyx',
+    description: 'Polychain CapitalやHack VCから3,800万ドル調達したMove-EVM L2「Movement」の無料Battle of Olympusテストネット＆$MOVE攻略ガイド。',
+    h1: 'Movement Labs ($MOVE) Olympusテストネット＆エアドロップ攻略',
+    badge: '$38M調達済み • 無料テストネット',
+    rewardLabel: '予想報酬',
+    costLabel: '費用',
+    snapshotLabel: '予定時期',
+    timeLabel: '週間作業時間',
+    overviewHeading: 'プロジェクト概要',
+    overview: 'Polychain CapitalやHack VCから3,800万ドルを調達したMovement Labsは、Ethereum初のMove-EVM Layer 2（M2）を開発しています。公開テストネット「Battle of Olympus」を通じて$MOVEエアドロップ対象を狙えます。',
+    tokenomicsHeading: '$MOVE トケノミクス',
+    tokenomics: '$MOVEはL2手数料、バリデータステーキング、ガバナンスに使われ、Battle of Olympus参加者に大きな初期配分が割り当てられています。',
+    stepsHeading: '参加ステップ',
+    steps: [
+      '公式Movement Labsポータル（movementlabs.xyz）を開きます。',
+      'Razor WalletまたはNightly Walletをインストールします。',
+      '公式Faucetから無料のテスト用トークンを請求します。',
+      'Battle of Olympus画面でMeridianやRazor DEXのスワップ等を試します。',
+      '簡単なテストコントラクトを展開し、guild.xyz/movementでロールを取得します。'
+    ],
+    strategyHeading: '報酬最大化のコツ',
+    strategy: 'Olympusダッシュボード上の提携dAppクエストを幅広くこなし、Guildのコミュニティバッジも確保しておきましょう。',
+    sybilSafety: 'XおよびDiscord連携と行動解析により反復ボットを除外しています。必ず公式movementlabs.xyzを利用してください。',
+    sybilHeading: 'シビル対策と安全性',
+    faqHeading: 'よくある質問',
+    faqs: [
+      {
+        q: 'Battle of Olympusテストネットは無料ですか？',
+        a: 'はい、Faucetの無料テストトークンを使うため完全無料（$0）です。'
+      },
+      {
+        q: 'どのウォレットが必要ですか？',
+        a: 'Razor WalletまたはNightly Walletが利用できます。'
+      }
+    ],
+    ctaText: 'Movementを開く',
+    englishVersionLabel: '英語版を見る'
+  },
+  {
+    id: 'movement',
+    slug: 'ar',
+    lang: 'ar',
+    flag: '🇸🇦',
+    homeLabel: 'الرئيسية',
+    hubLabel: 'شبكات اختبار مجانية',
+    hubHref: '/ar/free-testnets/',
+    title: 'دليل إيردروب Movement Labs (2026): شبكة اختبار Olympus و$MOVE | Airdroplyx',
+    description: 'دليل المشاركة مجاناً في شبكة Battle of Olympus من Movement Labs ($38M من Polychain Capital وHack VC) باستخدام Razor Wallet.',
+    h1: 'Movement Labs ($MOVE): دليل شبكة الاختبار Olympus والإيردروب',
+    badge: 'تمويل $38M • مجاني',
+    rewardLabel: 'المكافأة المتوقعة',
+    costLabel: 'التكلفة',
+    snapshotLabel: 'الفترة المتوقعة',
+    timeLabel: 'الوقت الأسبوعي',
+    overviewHeading: 'نظرة عامة على المشروع',
+    overview: 'حصلت Movement Labs على 38 مليون دولار من Polychain Capital وHack VC لبناء أول Layer 2 بنظام Move-EVM على إيثيريوم (M2). تتيح شبكة اختبار Battle of Olympus للمشاركين التأهل لإيردروب عملة $MOVE.',
+    tokenomicsHeading: 'اقتصاديات $MOVE',
+    tokenomics: 'تُستخدم عملة $MOVE لرسوم المعاملات وتخزين المدققين والحوكمة، مع تخصيص حصة رئيسية لمشاركي Battle of Olympus.',
+    stepsHeading: 'خطوات المشاركة',
+    steps: [
+      'افتح بوابة Movement Labs الرسمية (movementlabs.xyz).',
+      'ثبّت محفظة متوافقة مثل Razor Wallet أو Nightly Wallet.',
+      'اطلب عملات اختبار مجانية من صنبور Movement الرسمي.',
+      'أكمل مهام Battle of Olympus عبر المبادلات والسيولة في Meridian وRazor DEX.',
+      'انشر عقداً ذكياً بسيطاً واحصل على أدوار Discord عبر guild.xyz/movement.'
+    ],
+    strategyHeading: 'استراتيجية تعظيم المكافآت',
+    strategy: 'أنجز مهام مختلف التطبيقات الشريكة في لوحة Olympus وأكمل التحقق في Guild.',
+    sybilHeading: 'الحماية من الحسابات الوهمية والأمان',
+    sybilSafety: 'تتطلب البوابة ربط X وDiscord وتستبعد البوتات المتكررة. استخدم الموقع الرسمي movementlabs.xyz فقط.',
+    faqHeading: 'الأسئلة الشائعة',
+    faqs: [
+      {
+        q: 'هل شبكة اختبار Battle of Olympus مجانية؟',
+        a: 'نعم، مجانية 100% ($0) باستخدام عملات الصنبور العام.'
+      },
+      {
+        q: 'ما المحفظة المطلوبة لشبكة Movement؟',
+        a: 'يمكنك استخدام Razor Wallet أو Nightly Wallet.'
+      }
+    ],
+    ctaText: 'افتح Movement',
+    englishVersionLabel: 'النسخة الإنجليزية'
+  },
+  {
+    id: 'movement',
+    slug: 'de',
+    lang: 'de',
+    flag: '🇩🇪',
+    homeLabel: 'Startseite',
+    hubLabel: 'Kostenlose Testnets',
+    hubHref: '/de/kostenlose-testnets/',
+    title: 'Movement Labs Airdrop Guide (2026): Olympus Testnet & $MOVE | Airdroplyx',
+    description: 'Anleitung für das kostenlose Battle of Olympus Testnet von Movement Labs ($38M von Polychain Capital & Hack VC) mit Razor Wallet und $MOVE.',
+    h1: 'Movement Labs ($MOVE): Olympus Testnet & Airdrop Guide',
+    badge: '$38M Finanzierung • Kostenlos',
+    rewardLabel: 'Geschätzte Belohnung',
+    costLabel: 'Kosten',
+    snapshotLabel: 'Erwarteter Zeitraum',
+    timeLabel: 'Wöchentlicher Aufwand',
+    overviewHeading: 'Projektübersicht',
+    overview: 'Mit 38 Millionen US-Dollar von Polychain Capital und Hack VC entwickelt Movement Labs die erste Move-EVM-Layer-2 auf Ethereum (M2). Im öffentlichen Battle of Olympus Testnet qualifizieren sich Teilnehmer für $MOVE.',
+    tokenomicsHeading: '$MOVE Tokenomics',
+    tokenomics: '$MOVE zahlt L2-Gebühren, Validator-Staking und Governance, mit einem großen Anteil für Teilnehmer von Battle of Olympus.',
+    stepsHeading: 'Schritt-für-Schritt-Anleitung',
+    steps: [
+      'Besuche das offizielle Movement Labs Portal (movementlabs.xyz).',
+      'Installiere eine kompatible Wallet wie Razor Wallet oder Nightly Wallet.',
+      'Fordere kostenlose Test-Token im offiziellen Movement Faucet an.',
+      'Erledige Battle of Olympus Quests wie Swaps auf Meridian und Razor DEX.',
+      'Stelle einen einfachen Test-Vertrag bereit und sichere Rollen auf guild.xyz/movement.'
+    ],
+    strategyHeading: 'Strategie für maximale Punkte',
+    strategy: 'Spiele alle Partner-Quests auf dem Olympus-Dashboard durch und sichere dir alle Guild-Abzeichen.',
+    sybilHeading: 'Sybil-Schutz & Sicherheit',
+    sybilSafety: 'Olympus prüft X- und Discord-Konten und filtert monotone Bot-Transaktionen. Nutze nur movementlabs.xyz.',
+    faqHeading: 'Häufig gestellte Fragen',
+    faqs: [
+      {
+        q: 'Ist das Battle of Olympus Testnet kostenlos?',
+        a: 'Ja, komplett kostenlos ($0) über Test-Token aus dem Faucet.'
+      },
+      {
+        q: 'Welche Wallet brauche ich für Movement?',
+        a: 'Razor Wallet oder Nightly Wallet.'
+      }
+    ],
+    ctaText: 'Movement öffnen',
+    englishVersionLabel: 'Englische Version'
+  },
+  {
+    id: 'movement',
+    slug: 'fr',
+    lang: 'fr',
+    flag: '🇫🇷',
+    homeLabel: 'Accueil',
+    hubLabel: 'Testnets Gratuits',
+    hubHref: '/fr/testnets-gratuits/',
+    title: 'Guide Airdrop Movement Labs (2026) : Testnet Olympus & $MOVE | Airdroplyx',
+    description: 'Comment participer gratuitement au testnet Battle of Olympus de Movement Labs (38 M$ par Polychain Capital et Hack VC) avec Razor Wallet.',
+    h1: 'Movement Labs ($MOVE) : Guide Testnet Olympus et Airdrop',
+    badge: 'Financement $38M • Gratuit',
+    rewardLabel: 'Récompense estimée',
+    costLabel: 'Coût',
+    snapshotLabel: 'Période estimée',
+    timeLabel: 'Temps hebdomadaire',
+    overviewHeading: 'Présentation du projet',
+    overview: 'Financée à hauteur de 38 M$ par Polychain Capital et Hack VC, Movement Labs lance la première Layer 2 Move-EVM sur Ethereum (M2). Le testnet Battle of Olympus permet de se positionner pour le jeton $MOVE.',
+    tokenomicsHeading: 'Tokenomics de $MOVE',
+    tokenomics: '$MOVE alimente les frais L2, le staking et la gouvernance, avec une allocation majeure destinée aux participants à Battle of Olympus.',
+    stepsHeading: 'Étapes pour participer',
+    steps: [
+      'Visitez le portail officiel Movement Labs (movementlabs.xyz).',
+      'Installez un portefeuille compatible comme Razor Wallet ou Nightly Wallet.',
+      'Réclamez des jetons de test gratuits sur le faucet officiel Movement.',
+      'Complétez les quêtes Battle of Olympus (swaps sur Meridian et Razor DEX).',
+      'Déployez un contrat simple et réclamez vos rôles sur guild.xyz/movement.'
+    ],
+    strategyHeading: 'Stratégie d’optimisation',
+    strategy: 'Validez les quêtes de plusieurs dApps sur le tableau Olympus et récupérez vos badges sur Guild.',
+    sybilHeading: 'Protection Anti-Sybil et sécurité',
+    sybilSafety: 'Le portail vérifie X et Discord pour écarter les bots répétitifs. Utilisez uniquement movementlabs.xyz.',
+    faqHeading: 'Questions fréquentes',
+    faqs: [
+      {
+        q: 'Le testnet Battle of Olympus est-il gratuit ?',
+        a: 'Oui, 100 % gratuit ($0) via le faucet public.'
+      },
+      {
+        q: 'Quel portefeuille utiliser pour Movement ?',
+        a: 'Razor Wallet ou Nightly Wallet.'
+      }
+    ],
+    ctaText: 'Ouvrir Movement',
+    englishVersionLabel: 'Version anglaise'
+  },
+  {
+    id: 'movement',
+    slug: 'uk',
+    lang: 'uk',
+    flag: '🇺🇦',
+    homeLabel: 'Головна',
+    hubLabel: 'Безкоштовні тестнети',
+    hubHref: '/uk/bezkoshtovni-testnety/',
+    title: 'Гайд з аірдропу Movement Labs (2026): тестнет Olympus і $MOVE | Airdroplyx',
+    description: 'Як безкоштовно пройти тестнет Battle of Olympus від Movement Labs ($38M від Polychain Capital та Hack VC) з Razor Wallet і $MOVE.',
+    h1: 'Movement Labs ($MOVE): гайд із тестнету Olympus та аірдропу',
+    badge: 'Інвестиції $38M • Безкоштовно',
+    rewardLabel: 'Очікувана винагорода',
+    costLabel: 'Витрати',
+    snapshotLabel: 'Очікуваний період',
+    timeLabel: 'Час на тиждень',
+    overviewHeading: 'Огляд проєкту',
+    overview: 'Movement Labs залучила $38 млн від Polychain Capital та Hack VC для створення першого Move-EVM Layer 2 на Ethereum (M2). Учасники публічного тестнету Battle of Olympus претендують на аірдроп $MOVE.',
+    tokenomicsHeading: 'Токеноміка $MOVE',
+    tokenomics: '$MOVE оплачує комісії L2, стейкінг валідаторів та управління, виділяючи основну частку учасникам Battle of Olympus.',
+    stepsHeading: 'Покрокова інструкція',
+    steps: [
+      'Відкрийте офіційний портал Movement Labs (movementlabs.xyz).',
+      'Встановіть сумісний гаманець Razor Wallet або Nightly Wallet.',
+      'Отримайте безкоштовні тестові токени з офіційного крана Movement.',
+      'Виконуйте квести Battle of Olympus, зокрема свопи на Meridian і Razor DEX.',
+      'Розгорніть простий смарт-контракт і заберіть ролі на guild.xyz/movement.'
+    ],
+    strategyHeading: 'Стратегія максимізації нагород',
+    strategy: 'Проходьте завдання різних партнерських dApps на панелі Olympus і підтвердьте бейджі в Guild.',
+    sybilHeading: 'Захист від Sybil та безпека',
+    sybilSafety: 'Портал вимагає прив’язки X та Discord для відсіювання ботів. Користуйтеся лише movementlabs.xyz.',
+    faqHeading: 'Часті запитання',
+    faqs: [
+      {
+        q: 'Чи безкоштовний тестнет Battle of Olympus?',
+        a: 'Так, усе тестування безкоштовне ($0) на токенах із крана.'
+      },
+      {
+        q: 'Який гаманець потрібен для Movement?',
+        a: 'Razor Wallet або Nightly Wallet.'
+      }
+    ],
+    ctaText: 'Відкрити Movement',
+    englishVersionLabel: 'Англійська версія'
+  },
+  {
+    id: 'movement',
+    slug: 'zh',
+    lang: 'zh-CN',
+    flag: '🇨🇳',
+    homeLabel: '首页',
+    hubLabel: '免费测试网',
+    hubHref: '/zh/free-testnets/',
+    title: 'Movement Labs 空投教程 (2026)：$3800万融资 Olympus 测试网与 $MOVE | Airdroplyx',
+    description: 'Polychain Capital 与 Hack VC 领投 3800 万美元的以太坊 Move-EVM Layer 2 Movement 免费 Battle of Olympus 测试网教程。',
+    h1: 'Movement Labs ($MOVE) Olympus 测试网及空投攻略',
+    badge: '融资 $38M • 零撸免费',
+    rewardLabel: '预估奖励',
+    costLabel: '参与成本',
+    snapshotLabel: '预期周期',
+    timeLabel: '每周耗时',
+    overviewHeading: '项目简介',
+    overview: '获得 Polychain Capital 与 Hack VC 等 3800 万美元 A 轮融资的 Movement Labs，正在以太坊上构建首个 Move-EVM Layer 2（M2）。通过参与 Battle of Olympus 激励测试网，早期用户可争夺 $MOVE 空投。',
+    tokenomicsHeading: '$MOVE 代币经济',
+    tokenomics: '$MOVE 用于 L2 手续费、验证节点质押与 DAO 治理，创世供应的重要部分将分配给 Battle of Olympus 测试网参与者。',
+    stepsHeading: '详细参与步骤',
+    steps: [
+      '访问 Movement Labs 官方门户（movementlabs.xyz）。',
+      '安装支持 Movement 的钱包（如 Razor Wallet 或 Nightly Wallet）。',
+      '从官方 Movement 水龙头免费领取测试代币。',
+      '进入 Battle of Olympus 面板，在 Meridian 与 Razor DEX 等生态应用完成兑换与测试。',
+      '尝试部署简单测试合约，并在 guild.xyz/movement 领取社区身份组。'
+    ],
+    strategyHeading: '高收益策略',
+    strategy: '尽量完成 Olympus 面板中的全部合作 dApp 任务，并同步完成 Guild 身份验证。',
+    sybilHeading: '防女巫机制与安全提示',
+    sybilSafety: '测试门户要求绑定已验证的 X 与 Discord 账号，过滤重复刷单脚本。请仅使用官网 movementlabs.xyz。',
+    faqHeading: '常见问题',
+    faqs: [
+      {
+        q: 'Battle of Olympus 测试网免费吗？',
+        a: '是的，使用公共水龙头免费测试币，零成本（$0）参与。'
+      },
+      {
+        q: '需要使用哪款钱包？',
+        a: '推荐使用 Razor Wallet 或 Nightly Wallet。'
+      }
+    ],
+    ctaText: '打开 Movement',
+    englishVersionLabel: '英文原版'
+  },
+  {
+    id: 'movement',
+    slug: 'hi',
+    lang: 'hi',
+    flag: '🇮🇳',
+    homeLabel: 'होम',
+    hubLabel: 'मुफ़्त टेस्टनेट',
+    hubHref: '/hi/free-testnets/',
+    title: 'Movement Labs एयरड्रॉप गाइड (2026): Olympus टेस्टनेट $MOVE | Airdroplyx',
+    description: 'Polychain Capital और Hack VC द्वारा $38M फंडेड Move-EVM L2 Movement के मुफ़्त Battle of Olympus टेस्टनेट और $MOVE की गाइड।',
+    h1: 'Movement Labs ($MOVE) Olympus टेस्टनेट और एयरड्रॉप गाइड',
+    badge: '$38M फंडिंग • मुफ़्त टेस्टनेट',
+    rewardLabel: 'अनुमानित इनाम',
+    costLabel: 'लागत',
+    snapshotLabel: 'अनुमानित समय',
+    timeLabel: 'साप्ताहिक समय',
+    overviewHeading: 'प्रोजेक्ट का परिचय',
+    overview: 'Polychain Capital और Hack VC से $38 मिलियन की फंडिंग के साथ Movement Labs, Ethereum पर पहला Move-EVM Layer 2 (M2) बना रहा है। इसके Battle of Olympus टेस्टनेट में भाग लेने वालों के लिए $MOVE इनाम की उम्मीद है।',
+    tokenomicsHeading: '$MOVE टोकनॉमिक्स',
+    tokenomics: '$MOVE L2 फीस, वैलिडेटर स्टेकिंग और गवर्नेंस को पावर देता है, जिसमें Battle of Olympus प्रतिभागियों के लिए बड़ा हिस्सा आरक्षित है।',
+    stepsHeading: 'भाग लेने के आसान चरण',
+    steps: [
+      'आधिकारिक Movement Labs पोर्टल (movementlabs.xyz) पर जाएं।',
+      'Razor Wallet या Nightly Wallet जैसा संगत वॉलेट इंस्टॉल करें।',
+      'आधिकारिक Movement फॉसेट से मुफ़्त टेस्टनेट टोकन क्लेम करें।',
+      'Battle of Olympus डैशबोर्ड पर Meridian और Razor DEX जैसे dApps आज़माएं।',
+      'एक सरल स्मार्ट कॉन्ट्रैक्ट डिप्लॉय करें और guild.xyz/movement पर रोल पाएं।'
+    ],
+    strategyHeading: 'अधिकतम इनाम की रणनीति',
+    strategy: 'Olympus डैशबोर्ड के सभी पार्टनर dApp क्वेस्ट पूरे करें और Guild वेरिफिकेशन जरूर पूरा करें।',
+    sybilHeading: 'सिबिल सुरक्षा और सावधानियाँ',
+    sybilSafety: 'पोर्टल X और Discord लिंकिंग के साथ रिपीटिटिव बॉट्स को हटाता है। केवल movementlabs.xyz का उपयोग करें।',
+    faqHeading: 'अक्सर पूछे जाने वाले प्रश्न',
+    faqs: [
+      {
+        q: 'क्या Battle of Olympus टेस्टनेट मुफ़्त है?',
+        a: 'हाँ, पब्लिक फॉसेट के मुफ़्त टेस्ट टोकन से यह 100% मुफ़्त ($0) है।'
+      },
+      {
+        q: 'Movement के लिए कौन सा वॉलेट चाहिए?',
+        a: 'आप Razor Wallet या Nightly Wallet का उपयोग कर सकते हैं।'
+      }
+    ],
+    ctaText: 'Movement खोलें',
+    englishVersionLabel: 'अंग्रेज़ी संस्करण'
+  },
+  {
+    id: 'movement',
+    slug: 'it',
+    lang: 'it',
+    flag: '🇮🇹',
+    homeLabel: 'Home',
+    hubLabel: 'Testnet Gratuiti',
+    hubHref: '/it/testnet-gratuiti/',
+    title: 'Guida Airdrop Movement Labs (2026): Testnet Olympus $MOVE | Airdroplyx',
+    description: 'Come partecipare gratis alla testnet Battle of Olympus di Movement Labs ($38M da Polychain Capital e Hack VC) con Razor Wallet.',
+    h1: 'Movement Labs ($MOVE): Guida Testnet Olympus e Airdrop',
+    badge: 'Finanziamento $38M • Gratis',
+    rewardLabel: 'Ricompensa stimata',
+    costLabel: 'Costo',
+    snapshotLabel: 'Periodo previsto',
+    timeLabel: 'Tempo settimanale',
+    overviewHeading: 'Panoramica del progetto',
+    overview: 'Finanziata con 38 milioni di dollari da Polychain Capital e Hack VC, Movement Labs sviluppa la prima Layer 2 Move-EVM su Ethereum (M2). La testnet incentivata Battle of Olympus premia i primi utenti per il token $MOVE.',
+    tokenomicsHeading: 'Tokenomics di $MOVE',
+    tokenomics: '$MOVE alimenta commissioni L2, staking e governance, destinando una quota rilevante ai partecipanti di Battle of Olympus.',
+    stepsHeading: 'Come partecipare passo dopo passo',
+    steps: [
+      'Visita il portale ufficiale Movement Labs (movementlabs.xyz).',
+      'Installa un wallet compatibile come Razor Wallet o Nightly Wallet.',
+      'Richiedi token di test gratuiti dal faucet ufficiale Movement.',
+      'Completa le quest Battle of Olympus operando su Meridian e Razor DEX.',
+      'Distribuisci un semplice smart contract di prova e riscatta i ruoli su guild.xyz/movement.'
+    ],
+    strategyHeading: 'Strategia per massimizzare i punti',
+    strategy: 'Completa tutte le missioni dei partner sulla dashboard Olympus e verifica i badge su Guild.',
+    sybilHeading: 'Sicurezza e protezione Sybil',
+    sybilSafety: 'Il portale richiede account X e Discord verificati ed esclude i bot ripetitivi. Usa solo movementlabs.xyz.',
+    faqHeading: 'Domande frequenti',
+    faqs: [
+      {
+        q: 'La testnet Battle of Olympus è gratuita?',
+        a: 'Sì, gratuita al 100% ($0) con token dal faucet pubblico.'
+      },
+      {
+        q: 'Quale wallet serve per Movement?',
+        a: 'Puoi usare Razor Wallet o Nightly Wallet.'
+      }
+    ],
+    ctaText: 'Apri Movement',
+    englishVersionLabel: 'Versione inglese'
+  },
+  {
+    id: 'movement',
+    slug: 'pl',
+    lang: 'pl',
+    flag: '🇵🇱',
+    homeLabel: 'Strona główna',
+    hubLabel: 'Darmowe Testnety',
+    hubHref: '/pl/darmowe-testnety/',
+    title: 'Poradnik Airdrop Movement Labs (2026): Testnet Olympus $MOVE | Airdroplyx',
+    description: 'Jak za darmo przejść testnet Battle of Olympus od Movement Labs ($38M od Polychain Capital i Hack VC) z portfelem Razor Wallet.',
+    h1: 'Movement Labs ($MOVE): Poradnik Testnetu Olympus i Airdropu',
+    badge: 'Finansowanie $38M • Darmowy',
+    rewardLabel: 'Szacowana nagroda',
+    costLabel: 'Koszt',
+    snapshotLabel: 'Przewidywany okres',
+    timeLabel: 'Czas tygodniowo',
+    overviewHeading: 'Opis projektu',
+    overview: 'Wspierany kwotą 38 mln USD przez Polychain Capital i Hack VC projekt Movement Labs buduje pierwszy Move-EVM Layer 2 na Ethereum (M2). Testnet Battle of Olympus otwiera drogę do airdropu $MOVE.',
+    tokenomicsHeading: 'Tokenomika $MOVE',
+    tokenomics: '$MOVE opłaca transakcje L2, staking walidatorów oraz zarządzanie, z dużą pulą dla uczestników Battle of Olympus.',
+    stepsHeading: 'Instrukcja krok po kroku',
+    steps: [
+      'Odwiedź oficjalny portal Movement Labs (movementlabs.xyz).',
+      'Zainstaluj kompatybilny portfel, np. Razor Wallet lub Nightly Wallet.',
+      'Odbierz darmowe tokeny testowe z oficjalnego kraniku Movement.',
+      'Wykonuj zadania Battle of Olympus, robiąc swapy na Meridian i Razor DEX.',
+      'Wdróż prosty testowy smart kontrakt i odbierz role na guild.xyz/movement.'
+    ],
+    strategyHeading: 'Strategia maksymalizacji nagród',
+    strategy: 'Ukończ wszystkie zadania partnerskie na panelu Olympus i zdobądź odznaki społecznościowe w Guild.',
+    sybilHeading: 'Ochrona Anti-Sybil i bezpieczeństwo',
+    sybilSafety: 'Portal weryfikuje konta X i Discord oraz filtruje powtarzalne boty. Korzystaj wyłącznie z movementlabs.xyz.',
+    faqHeading: 'Często zadawane pytania',
+    faqs: [
+      {
+        q: 'Czy testnet Battle of Olympus jest darmowy?',
+        a: 'Tak, jest w 100% darmowy ($0) dzięki tokenom z publicznego kraniku.'
+      },
+      {
+        q: 'Jaki portfel jest potrzebny do Movement?',
+        a: 'Razor Wallet lub Nightly Wallet.'
+      }
+    ],
+    ctaText: 'Otwórz Movement',
+    englishVersionLabel: 'Wersja angielska'
+  },
+
+  // ================= PLUME NETWORK (16 LANGUAGES) =================
+  {
+    id: 'plume-network',
+    slug: 'tr',
+    lang: 'tr',
+    flag: '🇹🇷',
+    homeLabel: 'Ana Sayfa',
+    hubLabel: 'Ücretsiz Testnetler',
+    hubHref: '/tr/ucretsiz-testnet-airdroplari/',
+    title: 'Plume Network Airdrop Rehberi (2026): Goon Pass & Plume Miles | Airdroplyx',
+    description: 'Haun Ventures ve Galaxy Ventures destekli ($10M) RWAfi Layer 2 ağı Plume Network için ücretsiz Goon testneti, Goon Pass NFT ve Plume Miles rehberi.',
+    h1: 'Plume Network ($PLUME) Ücretsiz RWA Testnet ve Miles Rehberi',
+    badge: '$10M Yatırım • Ücretsiz RWA Testnet',
+    rewardLabel: 'Tahmini Ödül',
+    costLabel: 'Maliyet',
+    snapshotLabel: 'Beklenen Dönem',
+    timeLabel: 'Günlük Süre',
+    overviewHeading: 'Proje Özeti',
+    overview: 'Haun Ventures ve Galaxy Ventures liderliğinde 10 milyon dolar yatırım alan Plume Network, Gerçek Dünya Varlıkları (RWAfi) için özel olarak tasarlanmış ilk modüler Layer 2 blokzinciridir. Teşvikli Plume Goon testneti kapsamında Goon Pass NFT’sini mint eden ve RWA tokenize etme görevlerini tamamlayan kullanıcılar Plume Miles biriktirerek $PLUME airdrop hakkı kazanır.',
+    tokenomicsHeading: '$PLUME Tokenomik ve Plume Miles',
+    tokenomics: '$PLUME, Layer 2 işlem ücretleri, uyumluluk doğrulayıcı staking’i ve yönetişim için kullanılır. Goon testnetinde kazanılan Plume Miles puanları TGE döneminde $PLUME dağıtımını belirler.',
+    stepsHeading: 'Adım Adım Katılım Rehberi',
+    steps: [
+      'Resmi Plume Network portalına (plumenetwork.xyz) gidin ve Rabby veya Rainbow cüzdanınızı bağlayın.',
+      'Plume Faucet üzerinden ücretsiz test gaz tokenı ve test teminatı talep edin.',
+      'Plume Miles takibini başlatmak için resmi Plume Goon Pass NFT’sini mint edin.',
+      'RWA dApp ekosisteminde test varlıkları tokenize edin, takas yapın ve stake edin.',
+      'Plume Goon portalındaki günlük check-in serisini bozmadan Miles biriktirin.'
+    ],
+    strategyHeading: 'Maksimum Ödül Stratejisi',
+    strategy: 'İlk gün Goon Pass NFT’nizi mint edin, günlük giriş serisini kesintisiz sürdürün ve tüm RWA dApp görevlerini (özel kredi, maden varlıkları, likidite) deneyin.',
+    sybilHeading: 'Sybil Koruması ve Güvenlik',
+    sybilSafety: 'Plume zincir üstü pasaport doğrulaması ve makine öğrenimi kontrolleri uygular; günlük giriş yapmadan toplu basım deneyen botlar elenir. Resmi plumenetwork.xyz adresini kullanın.',
+    faqHeading: 'Sıkça Sorulan Sorular',
+    faqs: [
+      {
+        q: 'Plume Goon Pass nedir?',
+        a: 'Plume Miles biriktirmenizi ve seviye atlamanızı sağlayan zincir üstü testnet pasaport NFT’sidir.'
+      },
+      {
+        q: 'Plume testneti ücretsiz mi?',
+        a: 'Evet, halka açık musluktan alınan ücretsiz test tokenlarıyla %100 ücretsizdir ($0).'
+      }
+    ],
+    ctaText: 'Plume Network’ü Aç',
+    englishVersionLabel: 'İngilizce Sürüm'
+  },
+  {
+    id: 'plume-network',
+    slug: 'ru',
+    lang: 'ru',
+    flag: '🇷🇺',
+    homeLabel: 'Главная',
+    hubLabel: 'Бесплатные тестнеты',
+    hubHref: '/ru/free-testnets/',
+    title: 'Гайд по аирдропу Plume Network (2026): Goon Pass и Plume Miles | Airdroplyx',
+    description: 'Как бесплатно пройти RWA-тестнет Plume Network ($10M от Haun Ventures и Galaxy Ventures): кран, минт Goon Pass NFT и фарм Plume Miles для $PLUME.',
+    h1: 'Plume Network ($PLUME): гайд по бесплатному RWA-тестнету и Miles',
+    badge: 'Инвестиции $10M • Бесплатно',
+    rewardLabel: 'Ожидаемая награда',
+    costLabel: 'Затраты',
+    snapshotLabel: 'Ожидаемый период',
+    timeLabel: 'Время в день',
+    overviewHeading: 'Обзор проекта',
+    overview: 'Plume Network (привлёк $10 млн от Haun Ventures и Galaxy Ventures) — первый модульный Layer 2 блокчейн для токенизации реальных активов (RWAfi). В стимулируемом тестнете Plume Goon участники минтят Goon Pass NFT и зарабатывают Plume Miles за RWA-квесты.',
+    tokenomicsHeading: 'Токеномика $PLUME и Miles',
+    tokenomics: '$PLUME используется для газа L2, стейкинга валидаторов и управления, а накопленные в тестнете Plume Miles конвертируются в аллокацию $PLUME на TGE.',
+    stepsHeading: 'Пошаговая инструкция',
+    steps: [
+      'Откройте официальный портал Plume Network (plumenetwork.xyz) и подключите Rabby или Rainbow.',
+      'Запросите бесплатные тестовые газ-токены в Plume Faucet.',
+      'Сминтите официальный паспорт Plume Goon Pass NFT для учёта Miles.',
+      'Тестируйте RWA dApps: токенизацию активов, свопы и стейкинг.',
+      'Поддерживайте ежедневную серию check-in на портале Plume Goon.'
+    ],
+    strategyHeading: 'Стратегия фарма',
+    strategy: 'Сразу сминтите Goon Pass NFT, не пропускайте ежедневные отметки и регулярно пробуйте все доступные RWA-приложения.',
+    sybilHeading: 'Защита от ботов и безопасность',
+    sybilSafety: 'Паспортная проверка отсеивает ботов без регулярных check-in. Используйте только официальный сайт plumenetwork.xyz.',
+    faqHeading: 'Частые вопросы',
+    faqs: [
+      {
+        q: 'Что такое Plume Goon Pass?',
+        a: 'Тестовый NFT-паспорт, открывающий трекинг Plume Miles и повышение уровня аккаунта.'
+      },
+      {
+        q: 'Тестнет Plume бесплатный?',
+        a: 'Да, все задания выполняются на бесплатных токенах из крана ($0).'
+      }
+    ],
+    ctaText: 'Открыть Plume Network',
+    englishVersionLabel: 'Английская версия'
+  },
+  {
+    id: 'plume-network',
+    slug: 'id',
+    lang: 'id',
+    flag: '🇮🇩',
+    homeLabel: 'Beranda',
+    hubLabel: 'Testnet Gratis',
+    hubHref: '/id/testnet-gratis/',
+    title: 'Panduan Airdrop Plume Network (2026): Goon Pass & Miles $PLUME | Airdroplyx',
+    description: 'Cara ikut testnet RWA gratis Plume Network ($10M dari Haun Ventures & Galaxy Ventures): cetak Goon Pass NFT dan kumpul Plume Miles untuk $PLUME.',
+    h1: 'Plume Network ($PLUME): Panduan Testnet RWA Gratis & Miles',
+    badge: 'Pendanaan $10M • Gratis',
+    rewardLabel: 'Estimasi Hadiah',
+    costLabel: 'Biaya',
+    snapshotLabel: 'Perkiraan Snapshot',
+    timeLabel: 'Waktu Harian',
+    overviewHeading: 'Ringkasan Proyek',
+    overview: 'Didukung $10 juta oleh Haun Ventures dan Galaxy Ventures, Plume Network adalah Layer 2 modular pertama yang dirancang khusus untuk Real World Assets (RWAfi). Di testnet Plume Goon, pengguna mencetak Goon Pass NFT dan menyelesaikan misi RWA demi Plume Miles.',
+    tokenomicsHeading: 'Tokenomik $PLUME & Miles',
+    tokenomics: 'Token $PLUME membayar gas L2 serta tata kelola, sementara Plume Miles yang dikumpulkan di testnet menentukan alokasi airdrop $PLUME.',
+    stepsHeading: 'Langkah-Langkah Mengikuti Airdrop',
+    steps: [
+      'Kunjungi portal resmi Plume Network (plumenetwork.xyz) dan hubungkan Rabby atau Rainbow.',
+      'Klaim token gas dan jaminan uji coba gratis dari Plume Faucet.',
+      'Cetak Plume Goon Pass NFT resmi untuk mengaktifkan pelacakan Miles.',
+      'Coba ekosistem dApp RWA (tokenisasi aset uji, swap, dan staking).',
+      'Lakukan check-in harian di portal Plume Goon secara konsisten.'
+    ],
+    strategyHeading: 'Strategi Maksimal',
+    strategy: 'Cetak Goon Pass NFT sejak awal, pertahankan rekor check-in harian, dan uji seluruh protokol RWA di testnet.',
+    sybilHeading: 'Keamanan & Anti-Sybil',
+    sybilSafety: 'Plume menyaring bot lewat verifikasi paspor on-chain dan kebiasaan check-in. Gunakan hanya plumenetwork.xyz.',
+    faqHeading: 'Pertanyaan Umum',
+    faqs: [
+      {
+        q: 'Apa itu Plume Goon Pass?',
+        a: 'NFT paspor testnet on-chain yang menjadi syarat mengumpulkan Plume Miles dan menaikkan tier.'
+      },
+      {
+        q: 'Apakah testnet Plume gratis?',
+        a: 'Ya, 100% gratis ($0) memakai token faucet.'
+      }
+    ],
+    ctaText: 'Buka Plume Network',
+    englishVersionLabel: 'Versi Bahasa Inggris'
+  },
+  {
+    id: 'plume-network',
+    slug: 'vi',
+    lang: 'vi',
+    flag: '🇻🇳',
+    homeLabel: 'Trang chủ',
+    hubLabel: 'Testnet Miễn Phí',
+    hubHref: '/vi/testnet-mien-phi/',
+    title: 'Hướng dẫn Airdrop Plume Network (2026): Goon Pass & Miles $PLUME | Airdroplyx',
+    description: 'Cách tham gia testnet Plume Network miễn phí ($10M từ Haun Ventures & Galaxy Ventures): mint Goon Pass NFT và cày Plume Miles nhận $PLUME.',
+    h1: 'Plume Network ($PLUME): Hướng Dẫn Testnet RWA Miễn Phí & Miles',
+    badge: 'Gọi vốn $10M • Miễn phí',
+    rewardLabel: 'Phần thưởng dự kiến',
+    costLabel: 'Chi phí',
+    snapshotLabel: 'Thời gian dự kiến',
+    timeLabel: 'Thời gian mỗi ngày',
+    overviewHeading: 'Tổng quan dự án',
+    overview: 'Huy động $10 triệu từ Haun Ventures và Galaxy Ventures, Plume Network là Layer 2 mô-đun đầu tiên chuyên về Tài sản thực (RWAfi). Trong testnet Plume Goon, người dùng mint Goon Pass NFT và làm nhiệm vụ token hóa tài sản để tích lũy Plume Miles.',
+    tokenomicsHeading: 'Tokenomics $PLUME & Miles',
+    tokenomics: '$PLUME trả phí gas L2 và quản trị, còn điểm Plume Miles kiếm được trên testnet sẽ quy đổi sang phân bổ $PLUME tại TGE.',
+    stepsHeading: 'Các bước tham gia chi tiết',
+    steps: [
+      'Truy cập cổng chính thức Plume Network (plumenetwork.xyz) và kết nối ví Rabby hoặc Rainbow.',
+      'Nhận token gas thử nghiệm miễn phí từ Plume Faucet.',
+      'Mint thẻ Plume Goon Pass NFT chính thức để kích hoạt tích điểm Miles.',
+      'Trải nghiệm hệ sinh thái dApp RWA (token hóa tài sản thử, swap và stake).',
+      'Điểm danh hàng ngày trên cổng Plume Goon để giữ chuỗi nhân điểm.'
+    ],
+    strategyHeading: 'Chiến lược tối ưu điểm',
+    strategy: 'Mint Goon Pass NFT ngay ngày đầu, duy trì điểm danh hàng ngày và thử hết các dApp RWA trên mạng thử nghiệm.',
+    sybilHeading: 'Chống Sybil & Bảo mật',
+    sybilSafety: 'Plume dùng hộ chiếu on-chain và phân tích hành vi để loại bỏ bot. Chỉ truy cập plumenetwork.xyz.',
+    faqHeading: 'Câu hỏi thường gặp',
+    faqs: [
+      {
+        q: 'Plume Goon Pass là gì?',
+        a: 'Là NFT hộ chiếu testnet giúp kích hoạt theo dõi điểm Plume Miles và nâng hạng tài khoản.'
+      },
+      {
+        q: 'Testnet Plume có miễn phí không?',
+        a: 'Hoàn toàn miễn phí ($0) với token nhận từ faucet.'
+      }
+    ],
+    ctaText: 'Mở Plume Network',
+    englishVersionLabel: 'Bản tiếng Anh'
+  },
+  {
+    id: 'plume-network',
+    slug: 'es',
+    lang: 'es',
+    flag: '🇪🇸',
+    homeLabel: 'Inicio',
+    hubLabel: 'Testnets Gratis',
+    hubHref: '/es/testnets-gratis/',
+    title: 'Guía Airdrop Plume Network (2026): Goon Pass y Plume Miles | Airdroplyx',
+    description: 'Cómo participar gratis en la testnet RWA de Plume Network ($10M de Haun Ventures y Galaxy Ventures): acuña Goon Pass NFT y suma Plume Miles.',
+    h1: 'Plume Network ($PLUME): Guía de Testnet RWA Gratuita y Miles',
+    badge: 'Financiación $10M • Gratis',
+    rewardLabel: 'Recompensa estimada',
+    costLabel: 'Costo',
+    snapshotLabel: 'Periodo estimado',
+    timeLabel: 'Tiempo diario',
+    overviewHeading: 'Resumen del proyecto',
+    overview: 'Con $10 millones de Haun Ventures y Galaxy Ventures, Plume Network es la primera Layer 2 modular enfocada en Activos del Mundo Real (RWAfi). En su testnet Plume Goon, quienes acuñan el Goon Pass NFT y prueban dApps RWA acumulan Plume Miles para $PLUME.',
+    tokenomicsHeading: 'Tokenomics de $PLUME y Miles',
+    tokenomics: '$PLUME cubre el gas L2 y la gobernanza, mientras que los Plume Miles obtenidos en testnet se convierten en asignación de $PLUME en el TGE.',
+    stepsHeading: 'Pasos para participar',
+    steps: [
+      'Visita el portal oficial de Plume Network (plumenetwork.xyz) y conecta Rabby o Rainbow.',
+      'Solicita tokens de gas de prueba gratuitos en el Plume Faucet.',
+      'Acuña tu NFT oficial Plume Goon Pass para activar el seguimiento de Miles.',
+      'Explora el ecosistema RWA (tokeniza activos de prueba, haz swaps y staking).',
+      'Completa rachas diarias de registro en el portal Plume Goon.'
+    ],
+    strategyHeading: 'Estrategia para maximizar recompensas',
+    strategy: 'Acuña el Goon Pass desde el primer día, mantén la racha diaria de check-in y prueba todas las dApps RWA.',
+    sybilHeading: 'Seguridad y protección Sybil',
+    sybilSafety: 'Plume verifica pasaportes on-chain y descarta bots sin registros diarios. Usa solo plumenetwork.xyz.',
+    faqHeading: 'Preguntas frecuentes',
+    faqs: [
+      {
+        q: '¿Qué es el Plume Goon Pass?',
+        a: 'Un NFT pasaporte en testnet que activa la acumulación de Plume Miles y el progreso de nivel.'
+      },
+      {
+        q: '¿Es gratis la testnet de Plume?',
+        a: 'Sí, 100% gratuita ($0) con tokens del faucet.'
+      }
+    ],
+    ctaText: 'Abrir Plume Network',
+    englishVersionLabel: 'Versión en inglés'
+  },
+  {
+    id: 'plume-network',
+    slug: 'pt',
+    lang: 'pt',
+    flag: '🇧🇷',
+    homeLabel: 'Início',
+    hubLabel: 'Testnets Grátis',
+    hubHref: '/pt/testnets-gratis/',
+    title: 'Guia Airdrop Plume Network (2026): Goon Pass e Miles $PLUME | Airdroplyx',
+    description: 'Passo a passo gratuito da testnet RWA da Plume Network ($10M da Haun Ventures e Galaxy Ventures): Goon Pass NFT e Plume Miles para $PLUME.',
+    h1: 'Plume Network ($PLUME): Guia da Testnet RWA Gratuita e Miles',
+    badge: 'Investimento $10M • Grátis',
+    rewardLabel: 'Recompensa estimada',
+    costLabel: 'Custo',
+    snapshotLabel: 'Previsão',
+    timeLabel: 'Tempo diário',
+    overviewHeading: 'Visão geral do projeto',
+    overview: 'Apoiado por $10 milhões da Haun Ventures e Galaxy Ventures, a Plume Network é a primeira Layer 2 modular dedicada a Real World Assets (RWAfi). Na testnet Plume Goon, usuários cunham o Goon Pass NFT e acumulam Plume Miles para o token $PLUME.',
+    tokenomicsHeading: 'Tokenomics do $PLUME e Miles',
+    tokenomics: '$PLUME paga gás L2 e governança, e os Plume Miles conquistados na testnet definem a elegibilidade ao airdrop de $PLUME.',
+    stepsHeading: 'Passo a passo para participar',
+    steps: [
+      'Acesse o portal oficial da Plume Network (plumenetwork.xyz) e conecte a Rabby ou Rainbow.',
+      'Peça tokens de gás de teste gratuitos no Plume Faucet.',
+      'Cunhe seu NFT oficial Plume Goon Pass para ativar a contagem de Miles.',
+      'Use o ecossistema RWA (tokenização de ativos de teste, swaps e staking).',
+      'Faça check-ins diários no portal Plume Goon para multiplicar seus Miles.'
+    ],
+    strategyHeading: 'Estratégia de ganhos',
+    strategy: 'Garanta o Goon Pass NFT cedo, mantenha a sequência diária e teste todos os dApps RWA da rede.',
+    sybilHeading: 'Proteção Sybil e segurança',
+    sybilSafety: 'A Plume utiliza verificação de passaporte on-chain contra bots. Acesse apenas plumenetwork.xyz.',
+    faqHeading: 'Perguntas frequentes',
+    faqs: [
+      {
+        q: 'O que é o Plume Goon Pass?',
+        a: 'Um NFT passaporte na testnet que libera o acúmulo de Plume Miles e evolução de nível.'
+      },
+      {
+        q: 'A testnet da Plume é gratuita?',
+        a: 'Sim, 100% gratuita ($0) com tokens do faucet.'
+      }
+    ],
+    ctaText: 'Abrir Plume Network',
+    englishVersionLabel: 'Versão em inglês'
+  },
+  {
+    id: 'plume-network',
+    slug: 'ko',
+    lang: 'ko',
+    flag: '🇰🇷',
+    homeLabel: '홈',
+    hubLabel: '무료 테스트넷',
+    hubHref: '/ko/free-testnets/',
+    title: 'Plume Network 에어드랍 가이드 (2026): Goon Pass & Plume Miles | Airdroplyx',
+    description: 'Haun Ventures와 Galaxy Ventures가 $10M 투자한 RWAfi L2 Plume Network 무료 테스트넷 공략: Goon Pass NFT 민팅 및 Miles 적립.',
+    h1: 'Plume Network ($PLUME) 무료 RWA 테스트넷 및 Miles 가이드',
+    badge: '$10M 투자 유치 • 무료 RWA 테스트넷',
+    rewardLabel: '예상 보상',
+    costLabel: '비용',
+    snapshotLabel: '예상 시기',
+    timeLabel: '일일 소요 시간',
+    overviewHeading: '프로젝트 개요',
+    overview: 'Haun Ventures와 Galaxy Ventures로부터 1,000만 달러를 유치한 Plume Network는 실물자산(RWAfi) 특화 모듈형 Layer 2입니다. 인센티브 테스트넷 Plume Goon에서 Goon Pass NFT를 민팅하고 RWA 퀘스트를 수행하면 $PLUME 에어드랍용 Plume Miles를 모을 수 있습니다.',
+    tokenomicsHeading: '$PLUME 토크노믹스 및 Miles',
+    tokenomics: '$PLUME은 L2 가스비와 거버넌스에 사용되며, 테스트넷에서 획득한 Plume Miles는 TGE 시 $PLUME 토큰 배분 기준으로 활용됩니다.',
+    stepsHeading: '단계별 참여 방법',
+    steps: [
+      '공식 Plume Network 포털(plumenetwork.xyz)에서 Rabby 또는 Rainbow 지갑을 연결하세요.',
+      'Plume Faucet에서 무료 테스트 가스 토큰을 받으세요.',
+      'Plume Miles 집계를 활성화하기 위해 공식 Plume Goon Pass NFT를 민팅하세요.',
+      'RWA dApp 생태계에서 테스트 자산 토큰화, 스왑, 스테이킹을 실행하세요.',
+      'Plume Goon 포털에서 매일 출석 체크(Check-in)를 이어가세요.'
+    ],
+    strategyHeading: '보상 극대화 전략',
+    strategy: 'Goon Pass NFT를 먼저 민팅한 뒤 매일 체크인 스트릭을 유지하고 다양한 RWA dApp 미션을 모두 수행하세요.',
+    sybilHeading: '시빌 방지 및 보안',
+    sybilSafety: '온체인 패스포트 검증으로 체크인 없는 대량 봇을 차단합니다. 공식 plumenetwork.xyz만 이용하세요.',
+    faqHeading: '자주 묻는 질문',
+    faqs: [
+      {
+        q: 'Plume Goon Pass가 무엇인가요?',
+        a: 'Plume Miles 적립과 등급 상승을 활성화하는 온체인 테스트넷 패스포트 NFT입니다.'
+      },
+      {
+        q: 'Plume 테스트넷은 무료인가요?',
+        a: '네, Faucet 토큰으로 비용 없이 무료($0)로 참여할 수 있습니다.'
+      }
+    ],
+    ctaText: 'Plume Network 열기',
+    englishVersionLabel: '영문 버전'
+  },
+  {
+    id: 'plume-network',
+    slug: 'ja',
+    lang: 'ja',
+    flag: '🇯🇵',
+    homeLabel: 'ホーム',
+    hubLabel: '無料テストネット',
+    hubHref: '/ja/free-testnets/',
+    title: 'Plume Network エアドロップ攻略 (2026): Goon Pass＆Miles $PLUME | Airdroplyx',
+    description: 'Haun VenturesとGalaxy Venturesから1,000万ドル調達したRWA特化L2「Plume Network」無料テストネット手順：Goon PassとMiles獲得法。',
+    h1: 'Plume Network ($PLUME) 無料RWAテストネット＆Miles攻略',
+    badge: '$10M調達済み • 無料RWAテストネット',
+    rewardLabel: '予想報酬',
+    costLabel: '費用',
+    snapshotLabel: '予定時期',
+    timeLabel: '1日の作業時間',
+    overviewHeading: 'プロジェクト概要',
+    overview: 'Haun VenturesやGalaxy Venturesから1,000万ドルを調達したPlume Networkは、実世界資産（RWAfi）特化型のモジュラーLayer 2です。公開テストネット「Plume Goon」でGoon Pass NFTをミントし、RWAタスクを進めると$PLUME対象のPlume Milesが貯まります。',
+    tokenomicsHeading: '$PLUME トケノミクスとMiles',
+    tokenomics: '$PLUMEはL2ガス代やガバナンスに利用され、テストネットで蓄積したPlume MilesがTGE時の$PLUME配分につながります。',
+    stepsHeading: '参加ステップ',
+    steps: [
+      '公式Plume Networkポータル（plumenetwork.xyz）を開き、RabbyまたはRainbowを接続します。',
+      'Plume Faucetから無料のテスト用ガストークンを請求します。',
+      'Plume Milesの計測を有効化するため、公式Plume Goon Pass NFTをミントします。',
+      'RWA dAppでテスト資産のトークン化、スワップ、ステーキングを行います。',
+      'Plume Goonポータルで毎日のチェックイン継続記録を伸ばします。'
+    ],
+    strategyHeading: '報酬最大化のコツ',
+    strategy: '最初にGoon Pass NFTをミントし、毎日のチェックインを欠かさず全種類のRWA dAppを体験しましょう。',
+    sybilSafety: 'オンチェーンパスポート認証でチェックインを伴わない自動ボットを除外しています。必ず公式plumenetwork.xyzをご利用ください。',
+    sybilHeading: 'シビル対策と安全性',
+    faqHeading: 'よくある質問',
+    faqs: [
+      {
+        q: 'Plume Goon Passとは何ですか？',
+        a: 'Plume Milesの獲得とティア昇格を有効にするテストネット用パスポートNFTです。'
+      },
+      {
+        q: 'Plumeテストネットは無料ですか？',
+        a: 'はい、公式Faucetの無料トークンを使うため完全無料（$0）です。'
+      }
+    ],
+    ctaText: 'Plume Networkを開く',
+    englishVersionLabel: '英語版を見る'
+  },
+  {
+    id: 'plume-network',
+    slug: 'ar',
+    lang: 'ar',
+    flag: '🇸🇦',
+    homeLabel: 'الرئيسية',
+    hubLabel: 'شبكات اختبار مجانية',
+    hubHref: '/ar/free-testnets/',
+    title: 'دليل إيردروب Plume Network (2026): جواز Goon Pass ونقاط Miles | Airdroplyx',
+    description: 'دليل المشاركة مجاناً في شبكة اختبار Plume Network ($10M من Haun Ventures وGalaxy Ventures): سك Goon Pass NFT وجمع Plume Miles.',
+    h1: 'Plume Network ($PLUME): دليل شبكة الاختبار RWA المجانية',
+    badge: 'تمويل $10M • مجاني',
+    rewardLabel: 'المكافأة المتوقعة',
+    costLabel: 'التكلفة',
+    snapshotLabel: 'الفترة المتوقعة',
+    timeLabel: 'الوقت اليومي',
+    overviewHeading: 'نظرة عامة على المشروع',
+    overview: 'حصلت Plume Network على 10 ملايين دولار من Haun Ventures وGalaxy Ventures لبناء أول Layer 2 معياري مخصص للأصول الحقيقية (RWAfi). في شبكة اختبار Plume Goon، يسك المشاركون جواز Goon Pass NFT ويجمعون نقاط Plume Miles.',
+    tokenomicsHeading: 'اقتصاديات $PLUME ونقاط Miles',
+    tokenomics: 'تُستخدم عملة $PLUME لرسوم الغاز والحوكمة، وتحدد نقاط Plume Miles المكتسبة في شبكة الاختبار حصة التوزيع عند TGE.',
+    stepsHeading: 'خطوات المشاركة',
+    steps: [
+      'افتح بوابة Plume Network الرسمية (plumenetwork.xyz) واربط محفظة Rabby أو Rainbow.',
+      'اطلب عملات غاز اختبارية مجانية من Plume Faucet.',
+      'اسك جواز Plume Goon Pass NFT لتفعيل تتبع نقاط Miles.',
+      'جرّب تطبيقات RWA (ترميز أصول الاختبار والمبادلات والتخزين).',
+      'أكمل سلسلة تسجيل الدخول اليومي في بوابة Plume Goon.'
+    ],
+    strategyHeading: 'استراتيجية تعظيم المكافآت',
+    strategy: 'اسك Goon Pass منذ اليوم الأول، وحافظ على سلسلة الدخول اليومية، وجرّب جميع تطبيقات RWA المتاحة.',
+    sybilHeading: 'الحماية من الحسابات الوهمية والأمان',
+    sybilSafety: 'تعتمد Plume على التحقق من الجواز على السلسلة لاستبعاد البوتات. استخدم الموقع الرسمي plumenetwork.xyz فقط.',
+    faqHeading: 'الأسئلة الشائعة',
+    faqs: [
+      {
+        q: 'ما هو Plume Goon Pass؟',
+        a: 'هو رمز NFT يعمل كجواز سفر على شبكة الاختبار لتفعيل جمع نقاط Plume Miles.'
+      },
+      {
+        q: 'هل شبكة اختبار Plume مجانية؟',
+        a: 'نعم، مجانية 100% ($0) باستخدام عملات الصنبور.'
+      }
+    ],
+    ctaText: 'افتح Plume Network',
+    englishVersionLabel: 'النسخة الإنجليزية'
+  },
+  {
+    id: 'plume-network',
+    slug: 'de',
+    lang: 'de',
+    flag: '🇩🇪',
+    homeLabel: 'Startseite',
+    hubLabel: 'Kostenlose Testnets',
+    hubHref: '/de/kostenlose-testnets/',
+    title: 'Plume Network Airdrop Guide (2026): Goon Pass & Miles | Airdroplyx',
+    description: 'Anleitung für das kostenlose Plume Network RWA-Testnet ($10M von Haun Ventures & Galaxy Ventures): Goon Pass NFT prägen und Plume Miles sammeln.',
+    h1: 'Plume Network ($PLUME): Kostenloser RWA-Testnet & Miles Guide',
+    badge: '$10M Finanzierung • Kostenlos',
+    rewardLabel: 'Geschätzte Belohnung',
+    costLabel: 'Kosten',
+    snapshotLabel: 'Erwarteter Zeitraum',
+    timeLabel: 'Täglicher Aufwand',
+    overviewHeading: 'Projektübersicht',
+    overview: 'Mit 10 Millionen US-Dollar von Haun Ventures und Galaxy Ventures ist Plume Network die erste modulare Layer-2-Blockchain speziell für Real World Assets (RWAfi). Im Plume Goon Testnet prägen Nutzer den Goon Pass NFT und sammeln Plume Miles.',
+    tokenomicsHeading: '$PLUME Tokenomics & Miles',
+    tokenomics: '$PLUME zahlt L2-Gasgebühren sowie Governance, und gesammelte Plume Miles bestimmen die spätere $PLUME-Zuteilung.',
+    stepsHeading: 'Schritt-für-Schritt-Anleitung',
+    steps: [
+      'Besuche das offizielle Plume Network Portal (plumenetwork.xyz) und verbinde Rabby oder Rainbow.',
+      'Fordere kostenlose Test-Gas-Token im Plume Faucet an.',
+      'Präge deinen offiziellen Plume Goon Pass NFT für das Miles-Tracking.',
+      'Teste das RWA-dApp-Ökosystem (Test-Assets tokenisieren, swappen, staken).',
+      'Halte deine tägliche Check-in-Serie im Plume Goon Portal aufrecht.'
+    ],
+    strategyHeading: 'Strategie für maximale Punkte',
+    strategy: 'Präge sofort den Goon Pass NFT, verpasse keinen täglichen Check-in und teste alle RWA-Protokolle.',
+    sybilHeading: 'Sybil-Schutz & Sicherheit',
+    sybilSafety: 'On-Chain-Pass-Prüfungen filtern Bots ohne regelmäßige Check-ins. Nutze nur plumenetwork.xyz.',
+    faqHeading: 'Häufig gestellte Fragen',
+    faqs: [
+      {
+        q: 'Was ist der Plume Goon Pass?',
+        a: 'Ein Testnet-Pass-NFT auf der Chain, der das Sammeln von Plume Miles freischaltet.'
+      },
+      {
+        q: 'Ist das Plume-Testnet kostenlos?',
+        a: 'Ja, komplett kostenlos ($0) über kostenlose Faucet-Token.'
+      }
+    ],
+    ctaText: 'Plume Network öffnen',
+    englishVersionLabel: 'Englische Version'
+  },
+  {
+    id: 'plume-network',
+    slug: 'fr',
+    lang: 'fr',
+    flag: '🇫🇷',
+    homeLabel: 'Accueil',
+    hubLabel: 'Testnets Gratuits',
+    hubHref: '/fr/testnets-gratuits/',
+    title: 'Guide Airdrop Plume Network (2026) : Goon Pass & Miles | Airdroplyx',
+    description: 'Comment participer gratuitement au testnet RWA Plume Network (10 M$ par Haun Ventures et Galaxy Ventures) : Goon Pass NFT et Plume Miles.',
+    h1: 'Plume Network ($PLUME) : Guide Testnet RWA Gratuit et Miles',
+    badge: 'Financement $10M • Gratuit',
+    rewardLabel: 'Récompense estimée',
+    costLabel: 'Coût',
+    snapshotLabel: 'Période estimée',
+    timeLabel: 'Temps quotidien',
+    overviewHeading: 'Présentation du projet',
+    overview: 'Financé à hauteur de 10 M$ par Haun Ventures et Galaxy Ventures, Plume Network est le premier Layer 2 modulaire dédié aux actifs réels (RWAfi). Sur le testnet Plume Goon, les participants mint le Goon Pass NFT et cumulent des Plume Miles.',
+    tokenomicsHeading: 'Tokenomics de $PLUME et Miles',
+    tokenomics: '$PLUME paie le gaz L2 et la gouvernance, tandis que les Plume Miles accumulés sur le testnet ouvrent droit à la distribution $PLUME.',
+    stepsHeading: 'Étapes pour participer',
+    steps: [
+      'Visitez le portail officiel Plume Network (plumenetwork.xyz) et connectez Rabby ou Rainbow.',
+      'Réclamez des jetons de gaz de test gratuits sur le Plume Faucet.',
+      'Mintez votre NFT officiel Plume Goon Pass pour activer le suivi des Miles.',
+      'Testez les dApps RWA (tokenisation d’actifs de test, swaps et staking).',
+      'Maintenez votre série quotidienne de check-in sur le portail Plume Goon.'
+    ],
+    strategyHeading: 'Stratégie d’optimisation',
+    strategy: 'Mintez le Goon Pass NFT dès le début, conservez la série quotidienne et testez toutes les dApps RWA.',
+    sybilHeading: 'Protection Anti-Sybil et sécurité',
+    sybilSafety: 'La vérification passeport on-chain exclut les bots sans connexions régulières. Utilisez uniquement plumenetwork.xyz.',
+    faqHeading: 'Questions fréquentes',
+    faqs: [
+      {
+        q: 'Qu’est-ce que le Plume Goon Pass ?',
+        a: 'Un NFT passeport sur testnet qui active l’accumulation de Plume Miles et la montée en niveau.'
+      },
+      {
+        q: 'Le testnet Plume est-il gratuit ?',
+        a: 'Oui, 100 % gratuit ($0) avec les jetons du faucet.'
+      }
+    ],
+    ctaText: 'Ouvrir Plume Network',
+    englishVersionLabel: 'Version anglaise'
+  },
+  {
+    id: 'plume-network',
+    slug: 'uk',
+    lang: 'uk',
+    flag: '🇺🇦',
+    homeLabel: 'Головна',
+    hubLabel: 'Безкоштовні тестнети',
+    hubHref: '/uk/bezkoshtovni-testnety/',
+    title: 'Гайд з аірдропу Plume Network (2026): Goon Pass і Plume Miles | Airdroplyx',
+    description: 'Як безкоштовно пройти RWA-тестнет Plume Network ($10M від Haun Ventures і Galaxy Ventures): мінт Goon Pass NFT і фарм Miles для $PLUME.',
+    h1: 'Plume Network ($PLUME): гайд із безкоштовного RWA-тестнету та Miles',
+    badge: 'Інвестиції $10M • Безкоштовно',
+    rewardLabel: 'Очікувана винагорода',
+    costLabel: 'Витрати',
+    snapshotLabel: 'Очікуваний період',
+    timeLabel: 'Час на день',
+    overviewHeading: 'Огляд проєкту',
+    overview: 'Plume Network залучила $10 млн від Haun Ventures і Galaxy Ventures як перший модульний Layer 2 для реальних активів (RWAfi). У тестнеті Plume Goon учасники мінтять Goon Pass NFT та заробляють Plume Miles за RWA-квести.',
+    tokenomicsHeading: 'Токеноміка $PLUME та Miles',
+    tokenomics: '$PLUME оплачує газ L2 й управління, а накопичені в тестнеті Plume Miles конвертуються в алокацію $PLUME на TGE.',
+    stepsHeading: 'Покрокова інструкція',
+    steps: [
+      'Відкрийте офіційний портал Plume Network (plumenetwork.xyz) і підключіть Rabby або Rainbow.',
+      'Отримайте безкоштовні тестові токени з Plume Faucet.',
+      'Смінтіть офіційний паспорт Plume Goon Pass NFT для обліку Miles.',
+      'Тестуйте RWA dApps (токенізацію тестових активів, свопи та стейкінг).',
+      'Підтримуйте щоденну серію чек-інів на порталі Plume Goon.'
+    ],
+    strategyHeading: 'Стратегія максимізації нагород',
+    strategy: 'Відразу смінтіть Goon Pass NFT, не пропускайте щоденні чек-іни й випробуйте всі RWA-протоколи.',
+    sybilHeading: 'Захист від Sybil та безпека',
+    sybilSafety: 'Паспортна перевірка відсіює ботів без регулярних відміток. Користуйтеся лише plumenetwork.xyz.',
+    faqHeading: 'Часті запитання',
+    faqs: [
+      {
+        q: 'Що таке Plume Goon Pass?',
+        a: 'Тестовий NFT-паспорт, який відкриває накопичення Plume Miles і підвищення рівня.'
+      },
+      {
+        q: 'Чи безкоштовний тестнет Plume?',
+        a: 'Так, усе тестування безкоштовне ($0) за рахунок токенів із крана.'
+      }
+    ],
+    ctaText: 'Відкрити Plume Network',
+    englishVersionLabel: 'Англійська версія'
+  },
+  {
+    id: 'plume-network',
+    slug: 'zh',
+    lang: 'zh-CN',
+    flag: '🇨🇳',
+    homeLabel: '首页',
+    hubLabel: '免费测试网',
+    hubHref: '/zh/free-testnets/',
+    title: 'Plume Network 空投教程 (2026)：Goon Pass 与 Plume Miles 指南 | Airdroplyx',
+    description: 'Haun Ventures 与 Galaxy Ventures 投资 1000 万美元的 RWAfi 专用 Layer 2 Plume Network 免费测试网教程：铸造 Goon Pass 赚取 Miles。',
+    h1: 'Plume Network ($PLUME) 免费 RWA 测试网及 Miles 攻略',
+    badge: '融资 $10M • 零撸免费',
+    rewardLabel: '预估奖励',
+    costLabel: '参与成本',
+    snapshotLabel: '预期周期',
+    timeLabel: '每日耗时',
+    overviewHeading: '项目简介',
+    overview: '获得 Haun Ventures 与 Galaxy Ventures 1000 万美元种子轮融资的 Plume Network，是首个专为现实世界资产（RWAfi）打造的模块化 Layer 2。在 Plume Goon 测试网中，铸造 Goon Pass NFT 并体验 RWA 资产代币化即可累积 Plume Miles 兑换 $PLUME。',
+    tokenomicsHeading: '$PLUME 代币经济与 Miles',
+    tokenomics: '$PLUME 用于 L2 燃料费与合规治理；测试网期间获取的 Plume Miles 将直接决定 TGE 时的社区空投份额。',
+    stepsHeading: '详细参与步骤',
+    steps: [
+      '访问 Plume Network 官方门户（plumenetwork.xyz）并连接 Rabby 或 Rainbow 钱包。',
+      '从官方 Plume 水龙头免费领取测试燃料代币与测试抵押品。',
+      '铸造官方 Plume Goon Pass NFT 以激活 Plume Miles 积分统计。',
+      '体验生态内的 RWA 应用（测试资产代币化、兑换与质押）。',
+      '在 Plume Goon 面板坚持每日签到（Check-in）累积复利 Miles。'
+    ],
+    strategyHeading: '高收益策略',
+    strategy: '第一时间铸造 Goon Pass NFT，保持每日连续签到不中断，并尽可能覆盖测试网上的全部 RWA dApp 任务。',
+    sybilHeading: '防女巫机制与安全提示',
+    sybilSafety: 'Plume 结合链上通行证验证与行为风控剔除未做日常签到的刷号脚本。请仅使用官网 plumenetwork.xyz。',
+    faqHeading: '常见问题',
+    faqs: [
+      {
+        q: '什么是 Plume Goon Pass？',
+        a: '测试网链上通行证 NFT，用于激活 Plume Miles 积分累计与等级提升。'
+      },
+      {
+        q: '参加 Plume 测试网免费吗？',
+        a: '是的，全部任务使用水龙头免费测试币，零成本（$0）参与。'
+      }
+    ],
+    ctaText: '打开 Plume Network',
+    englishVersionLabel: '英文原版'
+  },
+  {
+    id: 'plume-network',
+    slug: 'hi',
+    lang: 'hi',
+    flag: '🇮🇳',
+    homeLabel: 'होम',
+    hubLabel: 'मुफ़्त टेस्टनेट',
+    hubHref: '/hi/free-testnets/',
+    title: 'Plume Network एयरड्रॉप गाइड (2026): Goon Pass और Miles $PLUME | Airdroplyx',
+    description: 'Haun Ventures और Galaxy Ventures समर्थित ($10M) RWAfi L2 Plume Network टेस्टनेट में मुफ़्त Goon Pass NFT मिंट और Plume Miles की गाइड।',
+    h1: 'Plume Network ($PLUME) मुफ़्त RWA टेस्टनेट और Miles गाइड',
+    badge: '$10M फंडिंग • मुफ़्त टेस्टनेट',
+    rewardLabel: 'अनुमानित इनाम',
+    costLabel: 'लागत',
+    snapshotLabel: 'अनुमानित समय',
+    timeLabel: 'दैनिक समय',
+    overviewHeading: 'प्रोजेक्ट का परिचय',
+    overview: 'Haun Ventures और Galaxy Ventures से $10 मिलियन की फंडिंग प्राप्त Plume Network रियल वर्ल्ड एसेट्स (RWAfi) के लिए पहला मॉड्यूलर Layer 2 है। इसके Plume Goon टेस्टनेट में Goon Pass NFT मिंट कर और RWA टास्क पूरे कर Plume Miles कमाए जाते हैं।',
+    tokenomicsHeading: '$PLUME टोकनॉमिक्स और Miles',
+    tokenomics: '$PLUME L2 गैस और गवर्नेंस के काम आता है, जबकि टेस्टनेट में अर्जित Plume Miles TGE पर $PLUME आवंटन तय करते हैं।',
+    stepsHeading: 'भाग लेने के आसान चरण',
+    steps: [
+      'आधिकारिक Plume Network पोर्टल (plumenetwork.xyz) पर जाएं और Rabby या Rainbow जोड़ें।',
+      'Plume फॉसेट से मुफ़्त टेस्ट गैस टोकन क्लेम करें।',
+      'Plume Miles ट्रैकिंग शुरू करने के लिए आधिकारिक Goon Pass NFT मिंट करें।',
+      'RWA dApp इकोसिस्टम में टेस्ट एसेट्स टोकनाइज़, स्वैप और स्टेक करें।',
+      'Plume Goon पोर्टल पर दैनिक चेक-इन स्ट्रीक जारी रखें।'
+    ],
+    strategyHeading: 'अधिकतम इनाम की रणनीति',
+    strategy: 'पहले ही दिन Goon Pass NFT मिंट करें, दैनिक चेक-इन न चूकें और सभी RWA dApps आज़माएं।',
+    sybilHeading: 'सिबिल सुरक्षा और सावधानियाँ',
+    sybilSafety: 'ऑन-चेन पासपोर्ट जांच बिना चेक-इन वाले बॉट्स को हटा देती है। केवल plumenetwork.xyz का उपयोग करें।',
+    faqHeading: 'अक्सर पूछे जाने वाले प्रश्न',
+    faqs: [
+      {
+        q: 'Plume Goon Pass क्या है?',
+        a: 'यह एक टेस्टनेट पासपोर्ट NFT है जो Plume Miles जमा करने और टियर बढ़ाने की सुविधा देता है।'
+      },
+      {
+        q: 'क्या Plume टेस्टनेट मुफ़्त है?',
+        a: 'हाँ, फॉसेट टोकन से यह 100% मुफ़्त ($0) है।'
+      }
+    ],
+    ctaText: 'Plume Network खोलें',
+    englishVersionLabel: 'अंग्रेज़ी संस्करण'
+  },
+  {
+    id: 'plume-network',
+    slug: 'it',
+    lang: 'it',
+    flag: '🇮🇹',
+    homeLabel: 'Home',
+    hubLabel: 'Testnet Gratuiti',
+    hubHref: '/it/testnet-gratuiti/',
+    title: 'Guida Airdrop Plume Network (2026): Goon Pass e Miles $PLUME | Airdroplyx',
+    description: 'Come partecipare gratis alla testnet RWA di Plume Network ($10M da Haun Ventures e Galaxy Ventures): Goon Pass NFT e Plume Miles.',
+    h1: 'Plume Network ($PLUME): Guida Testnet RWA Gratuita e Miles',
+    badge: 'Finanziamento $10M • Gratis',
+    rewardLabel: 'Ricompensa stimata',
+    costLabel: 'Costo',
+    snapshotLabel: 'Periodo previsto',
+    timeLabel: 'Tempo giornaliero',
+    overviewHeading: 'Panoramica del progetto',
+    overview: 'Finanziata con 10 milioni di dollari da Haun Ventures e Galaxy Ventures, Plume Network è la prima Layer 2 modulare dedicata ai Real World Assets (RWAfi). Nella testnet Plume Goon gli utenti coniano il Goon Pass NFT e accumulano Plume Miles.',
+    tokenomicsHeading: 'Tokenomics di $PLUME e Miles',
+    tokenomics: '$PLUME paga il gas L2 e la governance, mentre i Plume Miles raccolti in testnet determinano la quota $PLUME al TGE.',
+    stepsHeading: 'Come partecipare passo dopo passo',
+    steps: [
+      'Visita il portale ufficiale Plume Network (plumenetwork.xyz) e collega Rabby o Rainbow.',
+      'Richiedi token gas di prova gratuiti dal Plume Faucet.',
+      'Conia il tuo NFT ufficiale Plume Goon Pass per attivare il tracciamento dei Miles.',
+      'Esplora le dApp RWA (tokenizzazione di asset di prova, swap e staking).',
+      'Mantieni le serie giornaliere di check-in sul portale Plume Goon.'
+    ],
+    strategyHeading: 'Strategia per massimizzare i punti',
+    strategy: 'Conia subito il Goon Pass NFT, non interrompere i check-in quotidiani e prova tutte le dApp RWA.',
+    sybilHeading: 'Sicurezza e protezione Sybil',
+    sybilSafety: 'La verifica del passaporto on-chain filtra i bot privi di check-in regolari. Usa solo plumenetwork.xyz.',
+    faqHeading: 'Domande frequenti',
+    faqs: [
+      {
+        q: 'Cos’è il Plume Goon Pass?',
+        a: 'Un NFT passaporto su testnet che abilita l’accumulo di Plume Miles e la salita di livello.'
+      },
+      {
+        q: 'La testnet di Plume è gratuita?',
+        a: 'Sì, gratuita al 100% ($0) con i token del faucet.'
+      }
+    ],
+    ctaText: 'Apri Plume Network',
+    englishVersionLabel: 'Versione inglese'
+  },
+  {
+    id: 'plume-network',
+    slug: 'pl',
+    lang: 'pl',
+    flag: '🇵🇱',
+    homeLabel: 'Strona główna',
+    hubLabel: 'Darmowe Testnety',
+    hubHref: '/pl/darmowe-testnety/',
+    title: 'Poradnik Airdrop Plume Network (2026): Goon Pass i Miles $PLUME | Airdroplyx',
+    description: 'Jak za darmo przejść testnet RWA Plume Network ($10M od Haun Ventures i Galaxy Ventures): odbierz Goon Pass NFT i zbieraj Plume Miles.',
+    h1: 'Plume Network ($PLUME): Poradnik Darmowego Testnetu RWA i Miles',
+    badge: 'Finansowanie $10M • Darmowy',
+    rewardLabel: 'Szacowana nagroda',
+    costLabel: 'Koszt',
+    snapshotLabel: 'Przewidywany okres',
+    timeLabel: 'Czas dziennie',
+    overviewHeading: 'Opis projektu',
+    overview: 'Wspierany kwotą 10 mln USD przez Haun Ventures i Galaxy Ventures projekt Plume Network to pierwszy modularny Layer 2 dla Real World Assets (RWAfi). W testnecie Plume Goon użytkownicy wybijają Goon Pass NFT i zbierają Plume Miles.',
+    tokenomicsHeading: 'Tokenomika $PLUME i Miles',
+    tokenomics: '$PLUME pokrywa opłaty L2 i zarządzanie, a zebrane w testnecie Plume Miles decydują o przydziale $PLUME podczas TGE.',
+    stepsHeading: 'Instrukcja krok po kroku',
+    steps: [
+      'Odwiedź oficjalny portal Plume Network (plumenetwork.xyz) i podłącz Rabby lub Rainbow.',
+      'Pobierz darmowe testowe tokeny z kraniku Plume Faucet.',
+      'Wybij oficjalny paszport Plume Goon Pass NFT, aby uruchomić naliczanie Miles.',
+      'Testuj aplikacje RWA (tokenizacja testowych aktywów, swapy i staking).',
+      'Utrzymuj codzienne serie meldunków na portalu Plume Goon.'
+    ],
+    strategyHeading: 'Strategia maksymalizacji nagród',
+    strategy: 'Od razu odbierz Goon Pass NFT, utrzymuj codzienną serię logowań i przetestuj wszystkie dApps RWA.',
+    sybilHeading: 'Ochrona Anti-Sybil i bezpieczeństwo',
+    sybilSafety: 'Weryfikacja paszportu on-chain odrzuca boty bez regularnych meldunków. Korzystaj wyłącznie z plumenetwork.xyz.',
+    faqHeading: 'Często zadawane pytania',
+    faqs: [
+      {
+        q: 'Czym jest Plume Goon Pass?',
+        a: 'Paszportowym NFT w testnecie, który aktywuje zbieranie Plume Miles i awansowanie na wyższe poziomy.'
+      },
+      {
+        q: 'Czy testnet Plume jest darmowy?',
+        a: 'Tak, jest w 100% darmowy ($0) dzięki tokenom z kraniku.'
+      }
+    ],
+    ctaText: 'Otwórz Plume Network',
+    englishVersionLabel: 'Wersja angielska'
+  },
+
+  // ================= CITY HOLDER (16 LANGUAGES) =================
+  {
+    id: 'city-holder',
+    slug: 'tr',
+    lang: 'tr',
+    flag: '🇹🇷',
+    homeLabel: 'Ana Sayfa',
+    hubLabel: 'Telegram Airdropları',
+    hubHref: '/tr/telegram-airdroplari/',
+    title: 'CITY Holder Airdrop Rehberi (2026): $CITY Token & Şehir Kurulumu | Airdroplyx',
+    description: 'TON üzerindeki Build-to-Earn şehir kurma oyunu CITY Holder (@cityholder) ile ücretsiz $CITY kazanma, saatlik vergi geliri ve Tonkeeper bağlantısı.',
+    h1: 'CITY Holder ($CITY) Telegram Airdrop ve Şehir Kurma Rehberi',
+    badge: 'TON Build-to-Earn • Ücretsiz',
+    rewardLabel: 'Tahmini Ödül',
+    costLabel: 'Maliyet',
+    snapshotLabel: 'Beklenen Dönem',
+    timeLabel: 'Günlük Süre',
+    overviewHeading: 'Proje Özeti',
+    overview: 'CITY Holder, TON ağı üzerinde doğrudan Telegram içinde çalışan kapsamlı bir "Build-to-Earn" şehir kurma ve ekonomi yönetimi simülasyonudur. Oyuncular belediye başkanı rolüne girerek konut, ticaret ve sanayi bölgeleri inşa eder; nüfus ve saatlik vergi gelirlerini büyüterek $CITY token airdrop dağıtımına hazırlanır.',
+    tokenomicsHeading: '$CITY Tokenomik ve Dağıtım',
+    tokenomics: '$CITY tokenı CITY Holder evreninin yönetişimini sağlar ve TON üzerinde staking işlevi sunar. Airdrop payı toplam şehir nüfusu, saatlik vergi geliri, anıt seviyeleri ve ittifak sıralamasına göre hesaplanır.',
+    stepsHeading: 'Adım Adım Katılım Rehberi',
+    steps: [
+      'Resmi CITY Holder Telegram Mini Uygulamasını (@cityholder) başlatın.',
+      'Belediye başkanlığı yetkinizi alıp ilk konut binalarınızı inşa edin.',
+      'Saatlik vergi geliri üretmek için ticari ve endüstriyel yapılara yatırım yapın.',
+      'Günlük City Quiz sorusunu yanıtlayarak anında inşaat hibesi kazanın.',
+      'Şehir hazinesi sekmesinden Tonkeeper veya MyTonWallet cüzdanınızı bağlayın.'
+    ],
+    strategyHeading: 'Maksimum Ödül Stratejisi',
+    strategy: 'Konut binalarıyla (nüfus) ticari/sanayi yapılarını (vergi geliri) dengede tutun, kalıcı vergi bonusu veren anıtları kurun ve günlük City Quiz’i kaçırmayın.',
+    sybilHeading: 'Sybil Koruması ve Güvenlik',
+    sybilSafety: 'Gerçekçi inşaat süreleri ve Telegram doğrulaması çoklu hesap botlarını eler. Yalnızca resmi @cityholder botunu ve Tonkeeper’ı kullanın.',
+    faqHeading: 'Sıkça Sorulan Sorular',
+    faqs: [
+      {
+        q: 'CITY Holder’da airdrop miktarını ne belirler?',
+        a: 'Şehir nüfusu, saatlik vergi geliri, inşa edilen anıt seviyeleri ve belediye ittifak sıralaması belirleyici olur.'
+      },
+      {
+        q: 'CITY Holder ücretsiz mi?',
+        a: 'Evet, Telegram içinde ücretsiz ($0) oynanabilir.'
+      }
+    ],
+    ctaText: 'CITY Holder’ı Başlat',
+    englishVersionLabel: 'İngilizce Sürüm'
+  },
+  {
+    id: 'city-holder',
+    slug: 'ru',
+    lang: 'ru',
+    flag: '🇷🇺',
+    homeLabel: 'Главная',
+    hubLabel: 'Telegram-аирдропы',
+    hubHref: '/ru/telegram-airdrops/',
+    title: 'Гайд по аирдропу CITY Holder (2026): город, налоги и $CITY | Airdroplyx',
+    description: 'Как бесплатно играть в CITY Holder (@cityholder) на TON: развитие мегаполиса, рост населения, ежедневная викторина City Quiz и привязка Tonkeeper.',
+    h1: 'CITY Holder ($CITY): гайд по аирдропу и строительству города в Telegram',
+    badge: 'TON Build-to-Earn • Бесплатно',
+    rewardLabel: 'Ожидаемая награда',
+    costLabel: 'Затраты',
+    snapshotLabel: 'Ожидаемый период',
+    timeLabel: 'Время в день',
+    overviewHeading: 'Обзор проекта',
+    overview: 'CITY Holder — градостроительный симулятор Build-to-Earn в Telegram на блокчейне TON. Игроки управляют мегаполисом, строят жилые и промышленные районы и повышают почасовой налоговый доход ради аирдропа $CITY.',
+    tokenomicsHeading: 'Токеномика $CITY',
+    tokenomics: '$CITY используется для управления и стейкинга в экосистеме, а размер дропа зависит от населения города, почасового дохода и построенных достопримечательностей.',
+    stepsHeading: 'Пошаговая инструкция',
+    steps: [
+      'Откройте официальный бот CITY Holder в Telegram (@cityholder).',
+      'Постройте первые жилые здания для старта роста населения.',
+      'Развивайте коммерческие и промышленные сектора ради почасового дохода.',
+      'Проходите ежедневную викторину City Quiz для бонусных грантов.',
+      'Подключите кошелек Tonkeeper или MyTonWallet во вкладке казны города.'
+    ],
+    strategyHeading: 'Стратегия фарма',
+    strategy: 'Балансируйте жилую застройку с коммерческими объектами, возводите достопримечательности с постоянным бонусом и ежедневно отвечайте на City Quiz.',
+    sybilHeading: 'Защита от ботов и безопасность',
+    sybilSafety: 'Реалистичные таймеры строительства и проверка TON-кошельков отсеивают бот-фермы. Используйте только @cityholder.',
+    faqHeading: 'Частые вопросы',
+    faqs: [
+      {
+        q: 'От чего зависит размер дропа $CITY?',
+        a: 'От населения города, налогового дохода в час, уровня достопримечательностей и рейтинга альянса.'
+      },
+      {
+        q: 'CITY Holder бесплатный?',
+        a: 'Да, игра полностью бесплатна ($0).'
+      }
+    ],
+    ctaText: 'Открыть CITY Holder',
+    englishVersionLabel: 'Английская версия'
+  },
+  {
+    id: 'city-holder',
+    slug: 'id',
+    lang: 'id',
+    flag: '🇮🇩',
+    homeLabel: 'Beranda',
+    hubLabel: 'Airdrop Telegram',
+    hubHref: '/id/airdrop-telegram/',
+    title: 'Panduan Airdrop CITY Holder (2026): Bangun Kota & Klaim $CITY | Airdroplyx',
+    description: 'Panduan game Build-to-Earn CITY Holder (@cityholder) di TON: tingkatkan populasi kota, pendapatan pajak per jam, City Quiz, dan hubungkan Tonkeeper.',
+    h1: 'CITY Holder ($CITY): Panduan Airdrop Telegram & Simulasi Kota',
+    badge: 'TON Build-to-Earn • Gratis',
+    rewardLabel: 'Estimasi Hadiah',
+    costLabel: 'Biaya',
+    snapshotLabel: 'Perkiraan Snapshot',
+    timeLabel: 'Waktu Harian',
+    overviewHeading: 'Ringkasan Proyek',
+    overview: 'CITY Holder adalah simulator pembangunan kota Build-to-Earn di Telegram di atas jaringan TON. Pemain berperan sebagai wali kota yang membangun kawasan hunian, komersial, dan industri untuk memperebutkan alokasi token $CITY.',
+    tokenomicsHeading: 'Tokenomik $CITY',
+    tokenomics: '$CITY mengatur tata kelola dan staking ekosistem, sedangkan ukuran airdrop dihitung dari populasi kota, pendapatan pajak per jam, dan peringkat aliansi.',
+    stepsHeading: 'Langkah-Langkah Mengikuti Airdrop',
+    steps: [
+      'Buka Mini App resmi CITY Holder di Telegram (@cityholder).',
+      'Bangun bangunan hunian pertama untuk menaikkan populasi.',
+      'Perluas sektor komersial dan industri agar pajak per jam terus mengalir.',
+      'Jawab City Quiz harian untuk memperoleh bonus dana pembangunan instan.',
+      'Hubungkan dompet Tonkeeper atau MyTonWallet di menu kas kota.'
+    ],
+    strategyHeading: 'Strategi Maksimal',
+    strategy: 'Seimbangkan bangunan hunian dengan infrastruktur komersial, bangun landmark bonus permanen, dan ikuti City Quiz setiap hari.',
+    sybilHeading: 'Keamanan & Anti-Sybil',
+    sybilSafety: 'Timer pembangunan realistis dan verifikasi dompet TON menyaring jaringan multi-akun otomatis. Gunakan hanya @cityholder.',
+    faqHeading: 'Pertanyaan Umum',
+    faqs: [
+      {
+        q: 'Apa penentu ukuran airdrop CITY Holder?',
+        a: 'Populasi kota, pendapatan pajak per jam, level landmark, dan peringkat aliansi kota.'
+      },
+      {
+        q: 'Apakah CITY Holder gratis?',
+        a: 'Ya, gratis dimainkan ($0) di Telegram.'
+      }
+    ],
+    ctaText: 'Buka CITY Holder',
+    englishVersionLabel: 'Versi Bahasa Inggris'
+  },
+  {
+    id: 'city-holder',
+    slug: 'vi',
+    lang: 'vi',
+    flag: '🇻🇳',
+    homeLabel: 'Trang chủ',
+    hubLabel: 'Airdrop Telegram',
+    hubHref: '/vi/airdrop-telegram/',
+    title: 'Hướng dẫn Airdrop CITY Holder (2026): Xây Thành Phố & Nhận $CITY | Airdroplyx',
+    description: 'Cách chơi CITY Holder (@cityholder) miễn phí trên TON: tăng dân số, thu thuế mỗi giờ, giải City Quiz hàng ngày và kết nối ví Tonkeeper.',
+    h1: 'CITY Holder ($CITY): Hướng Dẫn Airdrop Telegram & Xây Dựng Thành Phố',
+    badge: 'TON Build-to-Earn • Miễn phí',
+    rewardLabel: 'Phần thưởng dự kiến',
+    costLabel: 'Chi phí',
+    snapshotLabel: 'Thời gian dự kiến',
+    timeLabel: 'Thời gian mỗi ngày',
+    overviewHeading: 'Tổng quan dự án',
+    overview: 'CITY Holder là trò chơi mô phỏng xây dựng thành phố Build-to-Earn ngay trong Telegram trên mạng TON. Người chơi đóng vai thị trưởng quy hoạch khu dân cư, thương mại và công nghiệp để tích lũy điều kiện nhận $CITY.',
+    tokenomicsHeading: 'Tokenomics $CITY',
+    tokenomics: '$CITY dùng cho quản trị và staking trên TON; phần thưởng airdrop phụ thuộc vào tổng dân số, doanh thu thuế mỗi giờ và cấp công trình biểu tượng.',
+    stepsHeading: 'Các bước tham gia chi tiết',
+    steps: [
+      'Khởi chạy Mini-App chính thức CITY Holder trên Telegram (@cityholder).',
+      'Xây dựng các khu nhà ở đầu tiên để tăng dân số thành phố.',
+      'Mở rộng khu thương mại và công nghiệp để tạo nguồn thu thuế hàng giờ.',
+      'Trả lời câu hỏi City Quiz mỗi ngày để nhận thưởng xu xây dựng.',
+      'Kết nối ví Tonkeeper hoặc MyTonWallet trong mục ngân khố thành phố.'
+    ],
+    strategyHeading: 'Chiến lược tối ưu điểm',
+    strategy: 'Cân bằng giữa công trình dân cư và thương mại, xây dựng các kỳ quan tăng thuế vĩnh viễn và giải City Quiz mỗi ngày.',
+    sybilHeading: 'Chống Sybil & Bảo mật',
+    sybilSafety: 'Thời gian xây dựng thực tế và kiểm tra ví TON giúp loại bỏ bot đa tài khoản. Chỉ sử dụng bot chính thức @cityholder.',
+    faqHeading: 'Câu hỏi thường gặp',
+    faqs: [
+      {
+        q: 'Yếu tố nào quyết định airdrop CITY Holder?',
+        a: 'Dân số thành phố, doanh thu thuế mỗi giờ, cấp độ kỳ quan và hạng liên minh.'
+      },
+      {
+        q: 'Chơi CITY Holder có miễn phí không?',
+        a: 'Có, hoàn toàn miễn phí ($0) trên Telegram.'
+      }
+    ],
+    ctaText: 'Mở CITY Holder',
+    englishVersionLabel: 'Bản tiếng Anh'
+  },
+  {
+    id: 'city-holder',
+    slug: 'es',
+    lang: 'es',
+    flag: '🇪🇸',
+    homeLabel: 'Inicio',
+    hubLabel: 'Airdrops de Telegram',
+    hubHref: '/es/airdrops-telegram/',
+    title: 'Guía Airdrop CITY Holder (2026): Construye tu Ciudad y Gana $CITY | Airdroplyx',
+    description: 'Cómo jugar gratis a CITY Holder (@cityholder) en TON: aumenta población, ingresos fiscales por hora, resuelve el City Quiz y conecta Tonkeeper.',
+    h1: 'CITY Holder ($CITY): Guía del Airdrop en Telegram y Simulador Urbano',
+    badge: 'TON Build-to-Earn • Gratis',
+    rewardLabel: 'Recompensa estimada',
+    costLabel: 'Costo',
+    snapshotLabel: 'Periodo estimado',
+    timeLabel: 'Tiempo diario',
+    overviewHeading: 'Resumen del proyecto',
+    overview: 'CITY Holder es un simulador Build-to-Earn de gestión urbana en Telegram sobre la red TON. Los alcaldes diseñan zonas residenciales, comerciales e industriales para elevar población e ingresos y optar al token $CITY.',
+    tokenomicsHeading: 'Tokenomics de $CITY',
+    tokenomics: '$CITY gobierna el ecosistema y permite staking en TON; el tamaño del airdrop depende de la población total, ingresos fiscales por hora y monumentos.',
+    stepsHeading: 'Pasos para participar',
+    steps: [
+      'Abre la Mini App oficial CITY Holder en Telegram (@cityholder).',
+      'Construye tus primeros edificios residenciales para hacer crecer la población.',
+      'Expande sectores comerciales e industriales para generar impuestos por hora.',
+      'Responde al City Quiz diario para recibir subvenciones instantáneas.',
+      'Conecta tu billetera Tonkeeper o MyTonWallet en la tesorería municipal.'
+    ],
+    strategyHeading: 'Estrategia para maximizar recompensas',
+    strategy: 'Equilibra vivienda con comercio e industria, construye monumentos con bonos permanentes y completa el City Quiz diario.',
+    sybilHeading: 'Seguridad y protección Sybil',
+    sybilSafety: 'Los tiempos realistas de construcción y la reputación de billetera TON filtran granjas de bots. Usa solo @cityholder.',
+    faqHeading: 'Preguntas frecuentes',
+    faqs: [
+      {
+        q: '¿Qué determina el airdrop en CITY Holder?',
+        a: 'La población urbana, ingresos fiscales por hora, monumentos construidos y rango de alianza.'
+      },
+      {
+        q: '¿Es gratis jugar a CITY Holder?',
+        a: 'Sí, es gratuito ($0) dentro de Telegram.'
+      }
+    ],
+    ctaText: 'Abrir CITY Holder',
+    englishVersionLabel: 'Versión en inglés'
+  },
+  {
+    id: 'city-holder',
+    slug: 'pt',
+    lang: 'pt',
+    flag: '🇧🇷',
+    homeLabel: 'Início',
+    hubLabel: 'Airdrops do Telegram',
+    hubHref: '/pt/airdrops-telegram/',
+    title: 'Guia Airdrop CITY Holder (2026): Construa sua Cidade e Ganhe $CITY | Airdroplyx',
+    description: 'Veja como jogar CITY Holder (@cityholder) grátis na TON: amplie população, receita por hora, responda ao City Quiz diário e conecte a Tonkeeper.',
+    h1: 'CITY Holder ($CITY): Guia do Airdrop no Telegram e Cidade Virtual',
+    badge: 'TON Build-to-Earn • Grátis',
+    rewardLabel: 'Recompensa estimada',
+    costLabel: 'Custo',
+    snapshotLabel: 'Previsão',
+    timeLabel: 'Tempo diário',
+    overviewHeading: 'Visão geral do projeto',
+    overview: 'CITY Holder é um simulador Build-to-Earn de construção de cidades dentro do Telegram na rede TON. Os jogadores atuam como prefeitos expandindo moradias, comércio e indústria para conquistar alocações do token $CITY.',
+    tokenomicsHeading: 'Tokenomics do $CITY',
+    tokenomics: '$CITY coordena governança e staking na TON; a parcela do airdrop considera população total, receita fiscal por hora e marcos construídos.',
+    stepsHeading: 'Passo a passo para participar',
+    steps: [
+      'Inicie o Mini App oficial CITY Holder no Telegram (@cityholder).',
+      'Construa suas primeiras unidades residenciais para aumentar a população.',
+      'Invista nos setores comercial e industrial para gerar impostos por hora.',
+      'Responda ao City Quiz diário para ganhar bônus rápidos de construção.',
+      'Conecte sua carteira Tonkeeper ou MyTonWallet na tesouraria da cidade.'
+    ],
+    strategyHeading: 'Estratégia de ganhos',
+    strategy: 'Equilibre prédios residenciais com infraestrutura comercial, erga monumentos de bônus permanente e não perca o City Quiz diário.',
+    sybilHeading: 'Proteção Sybil e segurança',
+    sybilSafety: 'Prazos realistas de obra e checagem de carteira TON bloqueiam contas automatizadas. Utilize apenas @cityholder.',
+    faqHeading: 'Perguntas frequentes',
+    faqs: [
+      {
+        q: 'O que define o tamanho do airdrop no CITY Holder?',
+        a: 'População da cidade, receita tributária por hora, nível de monumentos e posição da aliança.'
+      },
+      {
+        q: 'O CITY Holder é gratuito?',
+        a: 'Sim, totalmente gratuito ($0) no Telegram.'
+      }
+    ],
+    ctaText: 'Abrir CITY Holder',
+    englishVersionLabel: 'Versão em inglês'
+  },
+  {
+    id: 'city-holder',
+    slug: 'ko',
+    lang: 'ko',
+    flag: '🇰🇷',
+    homeLabel: '홈',
+    hubLabel: '텔레그램 에어드랍',
+    hubHref: '/ko/telegram-airdrops/',
+    title: 'CITY Holder 에어드랍 가이드 (2026): 도시 건설 & $CITY | Airdroplyx',
+    description: 'TON 기반 텔레그램 도시 경영 게임 CITY Holder(@cityholder) 공략: 인구 및 시간당 세수 증대, 일일 City Quiz 및 Tonkeeper 연결.',
+    h1: 'CITY Holder ($CITY) 텔레그램 에어드랍 및 도시 건설 가이드',
+    badge: 'TON Build-to-Earn • 무료',
+    rewardLabel: '예상 보상',
+    costLabel: '비용',
+    snapshotLabel: '예상 시기',
+    timeLabel: '일일 소요 시간',
+    overviewHeading: '프로젝트 개요',
+    overview: 'CITY Holder는 TON 블록체인 위에서 텔레그램으로 즐기는 Build-to-Earn 도시 건설 시뮬레이터입니다. 시장(Mayor)이 되어 주거·상업·산업 구역을 개발하고 도시 인구와 시간당 세금 수익을 키워 $CITY 토큰 에어드랍을 노릴 수 있습니다.',
+    tokenomicsHeading: '$CITY 토크노믹스',
+    tokenomics: '$CITY는 거버넌스와 스테이킹에 쓰이며, 에어드랍 비중은 총 도시 인구, 시간당 세수, 랜드마크 등급 및 도시 동맹 순위에 따라 산정됩니다.',
+    stepsHeading: '단계별 참여 방법',
+    steps: [
+      '텔레그램에서 공식 CITY Holder 미니앱(@cityholder)을 실행하세요.',
+      '초기 주거 건물을 지어 도시 인구를 늘리세요.',
+      '상업 및 산업 시설을 확장해 시간당 세금 수익을 확보하세요.',
+      '매일 City Quiz를 풀어 즉시 건설 지원금 보너스를 받으세요.',
+      '도시 금고(Treasury) 메뉴에서 Tonkeeper 또는 MyTonWallet을 연결하세요.'
+    ],
+    strategyHeading: '보상 극대화 전략',
+    strategy: '주거 시설(인구)과 상업·산업 시설(수익)의 균형을 맞추고 영구 보너스를 주는 랜드마크를 우선 건설하세요.',
+    sybilHeading: '시빌 방지 및 보안',
+    sybilSafety: '현실적인 건설 타이머와 TON 지갑 평판 검사로 다계정 봇을 걸러냅니다. 공식 @cityholder만 이용하세요.',
+    faqHeading: '자주 묻는 질문',
+    faqs: [
+      {
+        q: 'CITY Holder 에어드랍 기준은 무엇인가요?',
+        a: '도시 인구수, 시간당 세금 수익, 건설된 랜드마크 등급 및 동맹 순위입니다.'
+      },
+      {
+        q: 'CITY Holder는 무료인가요?',
+        a: '네, 별도 비용 없이 무료($0)로 플레이할 수 있습니다.'
+      }
+    ],
+    ctaText: 'CITY Holder 시작하기',
+    englishVersionLabel: '영문 버전'
+  },
+  {
+    id: 'city-holder',
+    slug: 'ja',
+    lang: 'ja',
+    flag: '🇯🇵',
+    homeLabel: 'ホーム',
+    hubLabel: 'Telegramエアドロップ',
+    hubHref: '/ja/telegram-airdrops/',
+    title: 'CITY Holder エアドロップ攻略 (2026): 都市開発＆$CITY | Airdroplyx',
+    description: 'TON上のBuild-to-Earn都市経営ゲームCITY Holder（@cityholder）攻略：人口と時間あたり税収の伸ばし方、City Quiz、Tonkeeper接続手順。',
+    h1: 'CITY Holder ($CITY) Telegramエアドロップ＆都市開発ガイド',
+    badge: 'TON Build-to-Earn • 無料',
+    rewardLabel: '予想報酬',
+    costLabel: '費用',
+    snapshotLabel: '予定時期',
+    timeLabel: '1日の作業時間',
+    overviewHeading: 'プロジェクト概要',
+    overview: 'CITY HolderはTON上で動作するTelegram向けBuild-to-Earn都市建設シミュレーターです。市長として住宅・商業・工業エリアを開発し、人口や時間あたりの税収を増やすことで$CITYトークン配分を狙えます。',
+    tokenomicsHeading: '$CITY トケノミクス',
+    tokenomics: '$CITYはガバナンスやステーキングに使われ、エアドロップ量は総人口・時間あたり税収・ランドマーク建設状況・同盟順位で決まります。',
+    stepsHeading: '参加ステップ',
+    steps: [
+      'Telegramで公式CITY Holderミニアプリ（@cityholder）を起動します。',
+      '最初の住宅施設を建てて人口を増やします。',
+      '商業・工業施設へ投資し、時間あたりの税収を生み出します。',
+      '毎日のCity Quizに答えて建築ボーナスを受け取ります。',
+      '都市財務タブからTonkeeperまたはMyTonWalletを接続します。'
+    ],
+    strategyHeading: '報酬最大化のコツ',
+    strategy: '住宅（人口）と商業・工業（税収）をバランスよく伸ばし、永続ボーナス付きのランドマークと毎日のCity Quizを押さえましょう。',
+    sybilSafety: '現実的な建築タイマーとTONウォレット審査により複数アカウントボットを排除しています。公式@cityholderのみをご利用ください。',
+    sybilHeading: 'シビル対策と安全性',
+    faqHeading: 'よくある質問',
+    faqs: [
+      {
+        q: 'CITY Holderのエアドロップ査定基準は？',
+        a: '都市人口、時間あたりの税収、建設したランドマーク、同盟ランクで決まります。'
+      },
+      {
+        q: 'CITY Holderは無料で遊べますか？',
+        a: 'はい、完全無料（$0）で参加できます。'
+      }
+    ],
+    ctaText: 'CITY Holderを開く',
+    englishVersionLabel: '英語版を見る'
+  },
+  {
+    id: 'city-holder',
+    slug: 'ar',
+    lang: 'ar',
+    flag: '🇸🇦',
+    homeLabel: 'الرئيسية',
+    hubLabel: 'إيردروبات تيليجرام',
+    hubHref: '/ar/telegram-airdrops/',
+    title: 'دليل إيردروب CITY Holder (2026): بناء المدينة و$CITY | Airdroplyx',
+    description: 'دليل لعبة CITY Holder (@cityholder) على شبكة TON: زيادة السكان والضرائب بالساعة، حل اختبار City Quiz اليومي وربط Tonkeeper.',
+    h1: 'CITY Holder ($CITY): دليل إيردروب تيليجرام وبناء المدينة',
+    badge: 'TON Build-to-Earn • مجاني',
+    rewardLabel: 'المكافأة المتوقعة',
+    costLabel: 'التكلفة',
+    snapshotLabel: 'الفترة المتوقعة',
+    timeLabel: 'الوقت اليومي',
+    overviewHeading: 'نظرة عامة على المشروع',
+    overview: 'تطبيق CITY Holder هو محاكي بناء مدن Build-to-Earn داخل تيليجرام على شبكة TON. يدير اللاعبون أحياء سكنية وتجارية وصناعية لزيادة السكان والعائد الضريبي بالساعة والتأهل لتوزيع عملة $CITY.',
+    tokenomicsHeading: 'اقتصاديات $CITY',
+    tokenomics: 'تُستخدم عملة $CITY في الحوكمة والتخزين على TON، ويُحدد حجم الإيردروب بناءً على إجمالي السكان والضرائب بالساعة ومستوى المعالم.',
+    stepsHeading: 'خطوات المشاركة',
+    steps: [
+      'افتح تطبيق CITY Holder الرسمي داخل تيليجرام (@cityholder).',
+      'ابنِ أول مبانيك السكنية لبدء نمو السكان.',
+      'طوّر القطاعات التجارية والصناعية لتوليد عائد ضريبي كل ساعة.',
+      'أجب عن اختبار City Quiz اليومي لربح منح بناء فورية.',
+      'اربط محفظة Tonkeeper أو MyTonWallet من تبويب خزينة المدينة.'
+    ],
+    strategyHeading: 'استراتيجية تعظيم المكافآت',
+    strategy: 'وازن بين المباني السكنية والتجارية، وشيد المعالم ذات المكافآت الدائمة، ولا تفوّت اختبار City Quiz اليومي.',
+    sybilHeading: 'الحماية من الحسابات الوهمية والأمان',
+    sybilSafety: 'تفرض اللعبة مؤقتات بناء واقعية وفحصاً لمحافظ TON لاستبعاد البوتات. استخدم @cityholder الرسمي فقط.',
+    faqHeading: 'الأسئلة الشائعة',
+    faqs: [
+      {
+        q: 'ما الذي يحدد حجم الإيردروب في CITY Holder؟',
+        a: 'عدد السكان، الدخل الضريبي بالساعة، مستوى المعالم المبنية، وترتيب التحالف.'
+      },
+      {
+        q: 'هل لعبة CITY Holder مجانية؟',
+        a: 'نعم، مجانية بالكامل ($0) داخل تيليجرام.'
+      }
+    ],
+    ctaText: 'افتح CITY Holder',
+    englishVersionLabel: 'النسخة الإنجليزية'
+  },
+  {
+    id: 'city-holder',
+    slug: 'de',
+    lang: 'de',
+    flag: '🇩🇪',
+    homeLabel: 'Startseite',
+    hubLabel: 'Telegram-Airdrops',
+    hubHref: '/de/telegram-airdrops/',
+    title: 'CITY Holder Airdrop Guide (2026): Stadt bauen & $CITY | Airdroplyx',
+    description: 'Anleitung für das TON-Aufbauspiel CITY Holder (@cityholder): Bevölkerung & Steuereinnahmen steigern, City Quiz lösen und Tonkeeper verknüpfen.',
+    h1: 'CITY Holder ($CITY): Telegram-Airdrop & Städtebau-Guide',
+    badge: 'TON Build-to-Earn • Kostenlos',
+    rewardLabel: 'Geschätzte Belohnung',
+    costLabel: 'Kosten',
+    snapshotLabel: 'Erwarteter Zeitraum',
+    timeLabel: 'Täglicher Aufwand',
+    overviewHeading: 'Projektübersicht',
+    overview: 'CITY Holder ist eine Build-to-Earn-Städtebausimulation in Telegram auf der TON-Blockchain. Spieler bauen Wohn-, Gewerbe- und Industriegebiete aus, um Bevölkerung sowie stündliche Steuern für $CITY-Zuteilungen zu steigern.',
+    tokenomicsHeading: '$CITY Tokenomics',
+    tokenomics: '$CITY dient für Governance und Staking auf TON; die Airdrop-Größe richtet sich nach Stadtbevölkerung, Stundensteuern und Wahrzeichen.',
+    stepsHeading: 'Schritt-für-Schritt-Anleitung',
+    steps: [
+      'Starte die offizielle CITY Holder Mini App in Telegram (@cityholder).',
+      'Errichte erste Wohngebäude für das Bevölkerungswachstum.',
+      'Erweitere Gewerbe- und Industrieflächen für laufende Stundensteuern.',
+      'Beantworte täglich das City Quiz für sofortige Bauzuschüsse.',
+      'Verbinde deine Tonkeeper- oder MyTonWallet-Wallet im Stadtkassen-Menü.'
+    ],
+    strategyHeading: 'Strategie für maximale Punkte',
+    strategy: 'Halte Wohn- und Gewerbegebäude im Gleichgewicht, baue Wahrzeichen mit Dauerbonus und löse täglich das City Quiz.',
+    sybilHeading: 'Sybil-Schutz & Sicherheit',
+    sybilSafety: 'Realistische Bauzeiten und TON-Wallet-Prüfungen filtern Bot-Netzwerke heraus. Nutze nur @cityholder.',
+    faqHeading: 'Häufig gestellte Fragen',
+    faqs: [
+      {
+        q: 'Was bestimmt die Airdrop-Größe bei CITY Holder?',
+        a: 'Stadtbevölkerung, stündliche Steuereinnahmen, Wahrzeichen-Stufe und Allianz-Rang.'
+      },
+      {
+        q: 'Ist CITY Holder kostenlos?',
+        a: 'Ja, komplett kostenlos ($0) in Telegram spielbar.'
+      }
+    ],
+    ctaText: 'CITY Holder öffnen',
+    englishVersionLabel: 'Englische Version'
+  },
+  {
+    id: 'city-holder',
+    slug: 'fr',
+    lang: 'fr',
+    flag: '🇫🇷',
+    homeLabel: 'Accueil',
+    hubLabel: 'Airdrops Telegram',
+    hubHref: '/fr/airdrops-telegram/',
+    title: 'Guide Airdrop CITY Holder (2026) : Bâtir sa Ville & $CITY | Airdroplyx',
+    description: 'Comment jouer gratuitement à CITY Holder (@cityholder) sur TON : développer population et impôts horaires, réussir le City Quiz et lier Tonkeeper.',
+    h1: 'CITY Holder ($CITY) : Guide Airdrop Telegram et Simulation Urbaine',
+    badge: 'TON Build-to-Earn • Gratuit',
+    rewardLabel: 'Récompense estimée',
+    costLabel: 'Coût',
+    snapshotLabel: 'Période estimée',
+    timeLabel: 'Temps quotidien',
+    overviewHeading: 'Présentation du projet',
+    overview: 'CITY Holder est un simulateur Build-to-Earn de construction urbaine sur Telegram et TON. Les maires aménagent quartiers résidentiels, commerciaux et industriels pour augmenter population et revenus fiscaux en vue du jeton $CITY.',
+    tokenomicsHeading: 'Tokenomics de $CITY',
+    tokenomics: '$CITY gouverne l’écosystème et permet le staking sur TON ; l’allocation dépend de la population, des impôts horaires et des monuments.',
+    stepsHeading: 'Étapes pour participer',
+    steps: [
+      'Lancez la Mini App officielle CITY Holder sur Telegram (@cityholder).',
+      'Construisez vos premiers immeubles résidentiels pour accroître la population.',
+      'Développez les secteurs commerciaux et industriels pour générer des taxes horaires.',
+      'Répondez chaque jour au City Quiz pour obtenir des bonus immédiats.',
+      'Connectez votre portefeuille Tonkeeper ou MyTonWallet dans la trésorerie.'
+    ],
+    strategyHeading: 'Stratégie d’optimisation',
+    strategy: 'Équilibrez logements et infrastructures commerciales, érigez des monuments à bonus permanent et réussissez le City Quiz quotidien.',
+    sybilHeading: 'Protection Anti-Sybil et sécurité',
+    sybilSafety: 'Des délais de construction réalistes et la vérification TON filtrent les bots. Utilisez uniquement @cityholder.',
+    faqHeading: 'Questions fréquentes',
+    faqs: [
+      {
+        q: 'Qu’est-ce qui détermine la part d’airdrop dans CITY Holder ?',
+        a: 'La population totale, les revenus fiscaux horaires, le niveau des monuments et le rang d’alliance.'
+      },
+      {
+        q: 'CITY Holder est-il gratuit ?',
+        a: 'Oui, entièrement gratuit ($0) sur Telegram.'
+      }
+    ],
+    ctaText: 'Ouvrir CITY Holder',
+    englishVersionLabel: 'Version anglaise'
+  },
+  {
+    id: 'city-holder',
+    slug: 'uk',
+    lang: 'uk',
+    flag: '🇺🇦',
+    homeLabel: 'Головна',
+    hubLabel: 'Telegram-аірдропи',
+    hubHref: '/uk/telegram-airdrops/',
+    title: 'Гайд з аірдропу CITY Holder (2026): місто, податки і $CITY | Airdroplyx',
+    description: 'Як безкоштовно грати в CITY Holder (@cityholder) на TON: розвиток міста, погодинний дохід, щоденний City Quiz і підключення Tonkeeper.',
+    h1: 'CITY Holder ($CITY): гайд з аірдропу та будівництва міста в Telegram',
+    badge: 'TON Build-to-Earn • Безкоштовно',
+    rewardLabel: 'Очікувана винагорода',
+    costLabel: 'Витрати',
+    snapshotLabel: 'Очікуваний період',
+    timeLabel: 'Час на день',
+    overviewHeading: 'Огляд проєкту',
+    overview: 'CITY Holder — містобудівний симулятор Build-to-Earn у Telegram на блокчейні TON. Гравці розбудовують житлові, комерційні та промислові райони, збільшуючи населення та погодинні податки для дропу $CITY.',
+    tokenomicsHeading: 'Токеноміка $CITY',
+    tokenomics: '$CITY слугує для управління й стейкінгу на TON, а розмір аірдропу визначають населення міста, погодинний дохід та зведені пам’ятки.',
+    stepsHeading: 'Покрокова інструкція',
+    steps: [
+      'Відкрийте офіційний бот CITY Holder у Telegram (@cityholder).',
+      'Збудуйте перші житлові будинки для зростання населення.',
+      'Розвивайте комерційні та промислові об’єкти для погодинного доходу.',
+      'Відповідайте на щоденну вікторину City Quiz за миттєві гранти.',
+      'Підключіть гаманець Tonkeeper або MyTonWallet у розділі міської скарбниці.'
+    ],
+    strategyHeading: 'Стратегія максимізації нагород',
+    strategy: 'Балансуйте житло з комерцією, зводьте пам’ятки з постійним бонусом і не пропускайте щоденний City Quiz.',
+    sybilHeading: 'Захист від Sybil та безпека',
+    sybilSafety: 'Реалістичні таймери будівництва та перевірка TON-гаманця блокують ботів. Користуйтеся лише @cityholder.',
+    faqHeading: 'Часті запитання',
+    faqs: [
+      {
+        q: 'Що визначає розмір аірдропу в CITY Holder?',
+        a: 'Населення міста, погодинний податковий дохід, рівень пам’яток і рейтинг альянсу.'
+      },
+      {
+        q: 'Чи безкоштовно грати в CITY Holder?',
+        a: 'Так, гра повністю безкоштовна ($0).'
+      }
+    ],
+    ctaText: 'Відкрити CITY Holder',
+    englishVersionLabel: 'Англійська версія'
+  },
+  {
+    id: 'city-holder',
+    slug: 'zh',
+    lang: 'zh-CN',
+    flag: '🇨🇳',
+    homeLabel: '首页',
+    hubLabel: 'Telegram 空投',
+    hubHref: '/zh/telegram-airdrops/',
+    title: 'CITY Holder 空投教程 (2026)：建造虚拟城市赚取 $CITY | Airdroplyx',
+    description: 'TON 链 Build-to-Earn 城市建设游戏 CITY Holder（@cityholder）攻略：提升人口与每小时税收、每日 City Quiz 及 Tonkeeper 绑定。',
+    h1: 'CITY Holder ($CITY) Telegram 空投及城市建设指南',
+    badge: 'TON Build-to-Earn • 零撸免费',
+    rewardLabel: '预估奖励',
+    costLabel: '参与成本',
+    snapshotLabel: '预期周期',
+    timeLabel: '每日耗时',
+    overviewHeading: '项目简介',
+    overview: 'CITY Holder 是运行在 TON 链上的 Telegram Build-to-Earn 城市模拟经营游戏。玩家扮演市长规划住宅、商业与工业区，持续提升城市人口与每小时税收收入以获取 $CITY 空投。',
+    tokenomicsHeading: '$CITY 代币经济',
+    tokenomics: '$CITY 用于生态治理与 TON 链质押，空投权重主要由城市总人口、每小时税收、地标建筑等级及联盟排名决定。',
+    stepsHeading: '详细参与步骤',
+    steps: [
+      '在 Telegram 中打开官方 CITY Holder 小程序（@cityholder）。',
+      '建造首批住宅建筑以拉升城市人口基数。',
+      '扩建商业与工业设施，打造稳定的每小时税收现金流。',
+      '每日回答 City Quiz 问答赢取即时建设补助金。',
+      '在城市金库页面绑定你的 Tonkeeper 或 MyTonWallet 钱包。'
+    ],
+    strategyHeading: '高收益策略',
+    strategy: '合理平衡住宅（人口）与商业工业（时薪税收），优先建造提供永久加成的地标并坚持每天完成 City Quiz。',
+    sybilHeading: '防女巫机制与安全提示',
+    sybilSafety: '游戏采用真实建造冷却机制与 TON 钱包信誉核验来过滤多号脚本。请仅使用官方 @cityholder。',
+    faqHeading: '常见问题',
+    faqs: [
+      {
+        q: 'CITY Holder 的空投大小由什么决定？',
+        a: '由城市人口数量、每小时税收收入、地标等级及城市联盟排名综合决定。'
+      },
+      {
+        q: '玩 CITY Holder 需要花钱吗？',
+        a: '不需要，游戏完全免费（$0）游玩。'
+      }
+    ],
+    ctaText: '打开 CITY Holder',
+    englishVersionLabel: '英文原版'
+  },
+  {
+    id: 'city-holder',
+    slug: 'hi',
+    lang: 'hi',
+    flag: '🇮🇳',
+    homeLabel: 'होम',
+    hubLabel: 'टेलीग्राम एयरड्रॉप',
+    hubHref: '/hi/telegram-airdrops/',
+    title: 'CITY Holder एयरड्रॉप गाइड (2026): शहर बनाएं और $CITY पाएं | Airdroplyx',
+    description: 'TON पर Build-to-Earn सिटी बिल्डिंग गेम CITY Holder (@cityholder) की गाइड: जनसंख्या व प्रति घंटा टैक्स बढ़ाएं, City Quiz हल करें और Tonkeeper जोड़ें।',
+    h1: 'CITY Holder ($CITY) टेलीग्राम एयरड्रॉप और सिटी सिम्युलेटर गाइड',
+    badge: 'TON Build-to-Earn • मुफ़्त',
+    rewardLabel: 'अनुमानित इनाम',
+    costLabel: 'लागत',
+    snapshotLabel: 'अनुमानित समय',
+    timeLabel: 'दैनिक समय',
+    overviewHeading: 'प्रोजेक्ट का परिचय',
+    overview: 'CITY Holder, TON नेटवर्क पर Telegram के अंदर चलने वाला एक Build-to-Earn वर्चुअल सिटी सिम्युलेटर है। खिलाड़ी मेयर बनकर रिहायशी, कमर्शियल और इंडस्ट्रियल इमारतें बनाकर $CITY एयरड्रॉप के लिए जनसंख्या और प्रति घंटा टैक्स आय बढ़ाते हैं।',
+    tokenomicsHeading: '$CITY टोकनॉमिक्स',
+    tokenomics: '$CITY गवर्नेंस और TON स्टेकिंग को पावर देता है; एयरड्रॉप का आकार शहर की आबादी, प्रति घंटा टैक्स और लैंडमार्क स्तर पर निर्भर करता है।',
+    stepsHeading: 'भाग लेने के आसान चरण',
+    steps: [
+      'Telegram में आधिकारिक CITY Holder मिनी-ऐप (@cityholder) खोलें।',
+      'आबादी बढ़ाने के लिए अपनी पहली रिहायशी इमारतें बनाएं।',
+      'प्रति घंटा टैक्स रेवेन्यू पाने के लिए कमर्शियल और इंडस्ट्रियल सेक्टर बढ़ाएं।',
+      'तुरंत कंस्ट्रक्शन बोनस पाने के लिए रोज़ाना City Quiz का उत्तर दें।',
+      'सिटी ट्रेजरी टैब में अपना Tonkeeper या MyTonWallet कनेक्ट करें।'
+    ],
+    strategyHeading: 'अधिकतम इनाम की रणनीति',
+    strategy: 'रिहायशी इमारतों और कमर्शियल ढांचे में संतुलन रखें, स्थायी टैक्स बोनस वाले लैंडमार्क बनाएं और दैनिक City Quiz न चूकें।',
+    sybilHeading: 'सिबिल सुरक्षा और सावधानियाँ',
+    sybilSafety: 'यथार्थवादी बिल्ड टाइमर और TON वॉलेट जांच बॉट नेटवर्क को बाहर रखते हैं। केवल आधिकारिक @cityholder का उपयोग करें।',
+    faqHeading: 'अक्सर पूछे जाने वाले प्रश्न',
+    faqs: [
+      {
+        q: 'CITY Holder में एयरड्रॉप कैसे तय होता है?',
+        a: 'शहर की कुल आबादी, प्रति घंटा टैक्स रेवेन्यू, लैंडमार्क टियर और अलायंस रैंक से।'
+      },
+      {
+        q: 'क्या CITY Holder खेलना मुफ़्त है?',
+        a: 'हाँ, यह पूरी तरह मुफ़्त ($0) है।'
+      }
+    ],
+    ctaText: 'CITY Holder खोलें',
+    englishVersionLabel: 'अंग्रेज़ी संस्करण'
+  },
+  {
+    id: 'city-holder',
+    slug: 'it',
+    lang: 'it',
+    flag: '🇮🇹',
+    homeLabel: 'Home',
+    hubLabel: 'Airdrop Telegram',
+    hubHref: '/it/airdrop-telegram/',
+    title: 'Guida Airdrop CITY Holder (2026): Costruisci la Città & $CITY | Airdroplyx',
+    description: 'Come giocare gratis a CITY Holder (@cityholder) su TON: aumenta popolazione e tasse orarie, risolvi il City Quiz e collega Tonkeeper.',
+    h1: 'CITY Holder ($CITY): Guida Airdrop Telegram e Simulatore Urbano',
+    badge: 'TON Build-to-Earn • Gratis',
+    rewardLabel: 'Ricompensa stimata',
+    costLabel: 'Costo',
+    snapshotLabel: 'Periodo previsto',
+    timeLabel: 'Tempo giornaliero',
+    overviewHeading: 'Panoramica del progetto',
+    overview: 'CITY Holder è un simulatore Build-to-Earn di costruzione urbana su Telegram e TON. I giocatori vestono i panni del sindaco sviluppando aree residenziali, commerciali e industriali per ottenere l’airdrop $CITY.',
+    tokenomicsHeading: 'Tokenomics di $CITY',
+    tokenomics: '$CITY governa l’ecosistema e supporta staking su TON; la quota di airdrop dipende da popolazione, entrate fiscali orarie e monumenti.',
+    stepsHeading: 'Come partecipare passo dopo passo',
+    steps: [
+      'Avvia la Mini App ufficiale CITY Holder su Telegram (@cityholder).',
+      'Costruisci i primi edifici residenziali per far crescere la popolazione.',
+      'Espandi i settori commerciali e industriali per generare tasse ogni ora.',
+      'Rispondi ogni giorno al City Quiz per ricevere bonus immediati.',
+      'Collega il wallet Tonkeeper o MyTonWallet nella sezione tesoreria.'
+    ],
+    strategyHeading: 'Strategia per massimizzare i punti',
+    strategy: 'Bilancia abitazioni e strutture commerciali, costruisci monumenti con bonus permanenti e completa sempre il City Quiz giornaliero.',
+    sybilHeading: 'Sicurezza e protezione Sybil',
+    sybilSafety: 'Tempi di costruzione realistici e controlli sui wallet TON filtrano le bot farm. Usa solo @cityholder.',
+    faqHeading: 'Domande frequenti',
+    faqs: [
+      {
+        q: 'Cosa determina l’airdrop di CITY Holder?',
+        a: 'Popolazione urbana, gettito fiscale orario, livello dei monumenti e classifica dell’alleanza.'
+      },
+      {
+        q: 'CITY Holder è gratuito?',
+        a: 'Sì, gratuito al 100% ($0) su Telegram.'
+      }
+    ],
+    ctaText: 'Apri CITY Holder',
+    englishVersionLabel: 'Versione inglese'
+  },
+  {
+    id: 'city-holder',
+    slug: 'pl',
+    lang: 'pl',
+    flag: '🇵🇱',
+    homeLabel: 'Strona główna',
+    hubLabel: 'Airdropy Telegram',
+    hubHref: '/pl/airdrop-telegram/',
+    title: 'Poradnik Airdrop CITY Holder (2026): Zbuduj Miasto i Zdobądź $CITY | Airdroplyx',
+    description: 'Jak grać za darmo w CITY Holder (@cityholder) w sieci TON: rozwijaj populację i podatki godzinowe, rozwiązuj City Quiz i podłącz Tonkeeper.',
+    h1: 'CITY Holder ($CITY): Poradnik Airdropu Telegram i Budowy Miasta',
+    badge: 'TON Build-to-Earn • Darmowy',
+    rewardLabel: 'Szacowana nagroda',
+    costLabel: 'Koszt',
+    snapshotLabel: 'Przewidywany okres',
+    timeLabel: 'Czas dziennie',
+    overviewHeading: 'Opis projektu',
+    overview: 'CITY Holder to symulator budowy miasta Build-to-Earn na Telegramie w sieci TON. Gracze jako burmistrzowie rozbudowują dzielnice mieszkalne, handlowe i przemysłowe, rywalizując o alokację tokenów $CITY.',
+    tokenomicsHeading: 'Tokenomika $CITY',
+    tokenomics: '$CITY służy do zarządzania i stakingu w TON, a wielkość airdropu zależy od populacji miasta, przychodu godzinowego z podatków i zabytków.',
+    stepsHeading: 'Instrukcja krok po kroku',
+    steps: [
+      'Uruchom oficjalną aplikację CITY Holder na Telegramie (@cityholder).',
+      'Wybuduj pierwsze domy mieszkalne, aby zwiększyć populację.',
+      'Rozwijaj sektory handlowe i przemysłowe dla godzinowych przychodów podatkowych.',
+      'Codziennie odpowiadaj na City Quiz, aby zdobyć natychmiastowe dotacje.',
+      'Podłącz portfel Tonkeeper lub MyTonWallet w zakładce skarbca miasta.'
+    ],
+    strategyHeading: 'Strategia maksymalizacji nagród',
+    strategy: 'Równoważ budynki mieszkalne z komercyjnymi, stawiaj zabytki ze stałym bonusem i nie pomijaj codziennego City Quiz.',
+    sybilHeading: 'Ochrona Anti-Sybil i bezpieczeństwo',
+    sybilSafety: 'Realistyczne czasy budowy oraz weryfikacja portfeli TON eliminują sieci botów. Korzystaj wyłącznie z @cityholder.',
+    faqHeading: 'Często zadawane pytania',
+    faqs: [
+      {
+        q: 'Co decyduje o wielkości airdropu w CITY Holder?',
+        a: 'Populacja miasta, godzinowe wpływy z podatków, poziom zabytków i pozycja sojuszu.'
+      },
+      {
+        q: 'Czy gra CITY Holder jest darmowa?',
+        a: 'Tak, jest całkowicie darmowa ($0) na Telegramie.'
+      }
+    ],
+    ctaText: 'Otwórz CITY Holder',
+    englishVersionLabel: 'Wersja angielska'
   }
 ];
 
