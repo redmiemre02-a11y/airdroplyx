@@ -10281,6 +10281,1482 @@ export const localizedAirdropGuides: LocalizedAirdropGuide[] = [
     ],
     ctaText: 'Otwórz Sahara AI',
     englishVersionLabel: 'Wersja angielska'
+  },
+
+  // ================= STORY PROTOCOL (16 LANGUAGES) =================
+  {
+    id: 'story-protocol',
+    slug: 'tr',
+    lang: 'tr',
+    flag: '🇹🇷',
+    homeLabel: 'Ana Sayfa',
+    hubLabel: 'Ücretsiz Testnetler',
+    hubHref: '/tr/ucretsiz-testnet-airdroplari/',
+    title: 'Story Protocol Airdrop Rehberi (2026): $140M Odyssey Testnet & $IP | Airdroplyx',
+    description: 'a16z crypto ve Polychain liderliğinde 140 milyon dolar yatırım alan Story Protocol Odyssey testneti, .story alan adı, SBT rozetleri ve $IP airdrop rehberi.',
+    h1: 'Story Protocol ($IP) Odyssey Testnet ve Airdrop Rehberi',
+    badge: '$140M Yatırım • Ücretsiz Testnet',
+    rewardLabel: 'Tahmini Ödül',
+    costLabel: 'Maliyet',
+    snapshotLabel: 'Beklenen Dönem',
+    timeLabel: 'Haftalık Süre',
+    overviewHeading: 'Proje Özeti',
+    overview: 'a16z crypto, Polychain Capital ve Samsung Next desteğiyle 140 milyon dolar yatırım alan Story Protocol, Programlanabilir Fikri Mülkiyet (IP) için geliştirilmiş özel bir Layer 1 blokzinciridir. Odyssey teşvikli testnet sürecinde yaratıcı eserleri zincir üstü IP Asset olarak kaydeden ve Soulbound rozetler (SBT) toplayan kullanıcılar $IP ödülleri için konumlanır.',
+    tokenomicsHeading: '$IP Tokenomik ve Dağıtım',
+    tokenomics: '$IP tokenı Layer 1 Proof-of-Stake güvenliğini sağlar, lisans ücretleri ile telif dağıtımlarını öder ve Odyssey kampanyasında SBT rozetleri toplayan erken katkıcılara ayrılan topluluk payını temsil eder.',
+    stepsHeading: 'Adım Adım Katılım Rehberi',
+    steps: [
+      'Resmi Story portalına (mint.story.foundation) gidin ve Rabby veya Rainbow cüzdanınızı bağlayın.',
+      'Resmi Story Faucet üzerinden ücretsiz Odyssey testnet tokenları talep edin.',
+      'Storyname dApp üzerinden kendinize özel .story alan adınızı kaydedin.',
+      'Odyssey ekosistem merkezindeki partner görevlerini tamamlayıp Soulbound rozetler (SBT) toplayın.',
+      'Proof of Creativity ile bir dijital eseri IP Asset olarak kaydedin ve guild.xyz üzerinden Discord rollerinizi alın.'
+    ],
+    strategyHeading: 'Maksimum Ödül Stratejisi',
+    strategy: 'Odyssey ekosistemindeki farklı partner uygulamalarından olabildiğince çok benzersiz SBT rozeti toplayın, .story alan adınızı alın ve Guild doğrulamasını tamamlayın.',
+    sybilHeading: 'Sybil Koruması ve Güvenlik',
+    sybilSafety: 'Story Protocol boş akıllı sözleşme basımlarını eler. Sosyal hesap doğrulaması, .story alan adı ve gerçek Odyssey rozetleri organik katılımı kanıtlar.',
+    faqHeading: 'Sıkça Sorulan Sorular',
+    faqs: [
+      {
+        q: 'Story Protocol Odyssey testneti ücretsiz mi?',
+        a: 'Evet, halka açık faucet üzerinden alınan ücretsiz test tokenlarıyla gerçek para harcamadan ($0) katılabilirsiniz.'
+      },
+      {
+        q: 'Odyssey SBT rozetleri ne işe yarar?',
+        a: 'Partner dApp görevlerini tamamladığınızda verilen devredilemez rozetlerdir ve erken dönem katkınızı zincir üstünde kanıtlar.'
+      }
+    ],
+    ctaText: 'Story Portalını Aç',
+    englishVersionLabel: 'İngilizce Sürüm'
+  },
+  {
+    id: 'story-protocol',
+    slug: 'ru',
+    lang: 'ru',
+    flag: '🇷🇺',
+    homeLabel: 'Главная',
+    hubLabel: 'Бесплатные тестнеты',
+    hubHref: '/ru/free-testnets/',
+    title: 'Гайд по аирдропу Story Protocol (2026): тестнет Odyssey и $IP ($140M) | Airdroplyx',
+    description: 'Как бесплатно пройти тестнет Story Protocol ($140M от a16z crypto и Polychain): кран, домен .story, значки SBT и роли в Guild для $IP.',
+    h1: 'Story Protocol ($IP): гайд по тестнету Odyssey и аирдропу',
+    badge: 'Инвестиции $140M • Бесплатно',
+    rewardLabel: 'Ожидаемая награда',
+    costLabel: 'Затраты',
+    snapshotLabel: 'Ожидаемый период',
+    timeLabel: 'Время в неделю',
+    overviewHeading: 'Обзор проекта',
+    overview: 'Story Protocol привлёк $140 млн от a16z crypto, Polychain Capital и Samsung Next для создания Layer 1 блокчейна программируемой интеллектуальной собственности (IP). В стимулируемом тестнете Odyssey участники собирают значки SBT и регистрируют IP-активы за будущий дроп $IP.',
+    tokenomicsHeading: 'Токеномика $IP',
+    tokenomics: 'Токен $IP обеспечивает консенсус PoS, оплату лицензий и роялти, а значительная часть эмиссии предназначена для ранних участников Odyssey и держателей SBT.',
+    stepsHeading: 'Пошаговая инструкция',
+    steps: [
+      'Откройте официальный портал Story (mint.story.foundation) и подключите Rabby или Rainbow.',
+      'Запросите бесплатные тестовые токены $IP в официальном кране Story.',
+      'Зарегистрируйте персональный Web3-домен .story.',
+      'Выполняйте квесты партнёров на странице Odyssey для получения значков SBT.',
+      'Зарегистрируйте цифровой IP-актив и заберите роли на guild.xyz/story-protocol.'
+    ],
+    strategyHeading: 'Стратегия фарма',
+    strategy: 'Соберите как можно больше уникальных значков SBT у разных партнёров Odyssey, оформите домен .story и подтвердите роли в Guild.',
+    sybilHeading: 'Защита от ботов и безопасность',
+    sybilSafety: 'Фильтр отсеивает пустые деплои контрактов без метаданных и привязки соцсетей. Подтвердите аккаунты через Guild и используйте только официальный портал.',
+    faqHeading: 'Частые вопросы',
+    faqs: [
+      {
+        q: 'Бесплатно ли участвовать в тестнете Odyssey?',
+        a: 'Да, все задания выполняются на бесплатных тестовых токенах из крана ($0).'
+      },
+      {
+        q: 'Что такое значки Odyssey SBT?',
+        a: 'Это непередаваемые Soulbound-токены, подтверждающие выполнение квестов партнёрских dApps.'
+      }
+    ],
+    ctaText: 'Открыть Story Protocol',
+    englishVersionLabel: 'Английская версия'
+  },
+  {
+    id: 'story-protocol',
+    slug: 'id',
+    lang: 'id',
+    flag: '🇮🇩',
+    homeLabel: 'Beranda',
+    hubLabel: 'Testnet Gratis',
+    hubHref: '/id/testnet-gratis/',
+    title: 'Panduan Airdrop Story Protocol (2026): Testnet Odyssey $IP ($140M) | Airdroplyx',
+    description: 'Panduan lengkap testnet Odyssey Story Protocol ($140M dari a16z crypto & Polychain): klaim faucet, domain .story, dan lencana SBT untuk $IP.',
+    h1: 'Story Protocol ($IP): Panduan Testnet Odyssey & Airdrop',
+    badge: 'Pendanaan $140M • Gratis',
+    rewardLabel: 'Estimasi Hadiah',
+    costLabel: 'Biaya',
+    snapshotLabel: 'Perkiraan Snapshot',
+    timeLabel: 'Waktu Mingguan',
+    overviewHeading: 'Ringkasan Proyek',
+    overview: 'Didukung $140 juta dari a16z crypto, Polychain Capital, dan Samsung Next, Story Protocol adalah blockchain Layer 1 khusus untuk Kekayaan Intelektual (IP) yang dapat diprogram. Di testnet Odyssey, pengguna mengumpulkan lencana SBT untuk peluang airdrop $IP.',
+    tokenomicsHeading: 'Tokenomik $IP',
+    tokenomics: 'Token $IP mengamankan konsensus PoS, biaya lisensi, dan royalti, dengan alokasi komunitas bagi penguji awal Odyssey dan pemegang SBT.',
+    stepsHeading: 'Langkah-Langkah Mengikuti Airdrop',
+    steps: [
+      'Kunjungi portal resmi Story (mint.story.foundation) dan hubungkan Rabby atau Rainbow.',
+      'Klaim token testnet gratis dari faucet resmi Story.',
+      'Daftarkan identitas domain .story Anda.',
+      'Selesaikan tantangan mitra di Odyssey Hub untuk mengoleksi lencana SBT.',
+      'Daftarkan aset IP kreatif Anda dan klaim peran Discord di guild.xyz.'
+    ],
+    strategyHeading: 'Strategi Maksimal',
+    strategy: 'Kumpulkan sebanyak mungkin lencana SBT unik dari mitra Odyssey, miliki domain .story, dan klaim peran di Story Guild.',
+    sybilHeading: 'Keamanan & Anti-Sybil',
+    sybilSafety: 'Dompet yang hanya men-deploy kontrak kosong akan disaring. Hubungkan media sosial terverifikasi dan lencana Odyssey asli.',
+    faqHeading: 'Pertanyaan Umum',
+    faqs: [
+      {
+        q: 'Apakah testnet Odyssey gratis?',
+        a: 'Ya, 100% gratis ($0) memakai token uji coba dari faucet publik.'
+      },
+      {
+        q: 'Apa itu Odyssey Badges (SBT)?',
+        a: 'Token Soulbound yang tidak dapat dipindahtangankan sebagai bukti kontribusi awal di ekosistem Story.'
+      }
+    ],
+    ctaText: 'Buka Story Protocol',
+    englishVersionLabel: 'Versi Bahasa Inggris'
+  },
+  {
+    id: 'story-protocol',
+    slug: 'vi',
+    lang: 'vi',
+    flag: '🇻🇳',
+    homeLabel: 'Trang chủ',
+    hubLabel: 'Testnet Miễn Phí',
+    hubHref: '/vi/testnet-mien-phi/',
+    title: 'Hướng dẫn Airdrop Story Protocol (2026): Testnet Odyssey $IP ($140M) | Airdroplyx',
+    description: 'Cách tham gia testnet Odyssey của Story Protocol ($140M từ a16z crypto & Polychain): nhận faucet, đăng ký tên miền .story và săn huy hiệu SBT.',
+    h1: 'Story Protocol ($IP): Hướng Dẫn Testnet Odyssey & Săn Airdrop',
+    badge: 'Gọi vốn $140M • Miễn phí',
+    rewardLabel: 'Phần thưởng dự kiến',
+    costLabel: 'Chi phí',
+    snapshotLabel: 'Thời gian dự kiến',
+    timeLabel: 'Thời gian mỗi tuần',
+    overviewHeading: 'Tổng quan dự án',
+    overview: 'Huy động $140 triệu từ a16z crypto, Polychain Capital và Samsung Next, Story Protocol là Layer 1 chuyên biệt cho Sở hữu trí tuệ lập trình được (IP). Trong testnet Odyssey, người dùng thu thập huy hiệu SBT và đăng ký tài sản IP để nhận $IP.',
+    tokenomicsHeading: 'Tokenomics $IP',
+    tokenomics: 'Token $IP vận hành đồng thuận PoS, thanh toán phí bản quyền và tiền tác quyền, dành phần thưởng cho người đóng góp sớm và chủ sở hữu SBT.',
+    stepsHeading: 'Các bước tham gia chi tiết',
+    steps: [
+      'Truy cập cổng chính thức Story (mint.story.foundation) và kết nối ví Rabby hoặc Rainbow.',
+      'Nhận token testnet miễn phí từ faucet chính thức của Story.',
+      'Đăng ký tên miền định danh .story của riêng bạn.',
+      'Hoàn thành nhiệm vụ đối tác trên Odyssey Ecosystem Hub để sưu tầm huy hiệu SBT.',
+      'Đăng ký một IP Asset sáng tạo và nhận role Discord qua guild.xyz.'
+    ],
+    strategyHeading: 'Chiến lược tối ưu điểm',
+    strategy: 'Sưu tầm càng nhiều huy hiệu SBT từ các dApp đối tác Odyssey càng tốt, đăng ký tên miền .story và xác minh đầy đủ trên Guild.',
+    sybilHeading: 'Chống Sybil & Bảo mật',
+    sybilSafety: 'Hệ thống loại bỏ ví chỉ deploy hợp đồng rỗng. Liên kết mạng xã hội và hoàn thành nhiệm vụ Odyssey thật giúp đảm bảo điều kiện.',
+    faqHeading: 'Câu hỏi thường gặp',
+    faqs: [
+      {
+        q: 'Testnet Odyssey có miễn phí không?',
+        a: 'Hoàn toàn miễn phí ($0) vì sử dụng token test từ faucet công khai.'
+      },
+      {
+        q: 'Huy hiệu Odyssey SBT là gì?',
+        a: 'Là Soulbound Token không thể chuyển nhượng chứng minh bạn đã hoàn thành nhiệm vụ trên mạng thử nghiệm.'
+      }
+    ],
+    ctaText: 'Mở Story Protocol',
+    englishVersionLabel: 'Bản tiếng Anh'
+  },
+  {
+    id: 'story-protocol',
+    slug: 'es',
+    lang: 'es',
+    flag: '🇪🇸',
+    homeLabel: 'Inicio',
+    hubLabel: 'Testnets Gratis',
+    hubHref: '/es/testnets-gratis/',
+    title: 'Guía Airdrop Story Protocol (2026): Testnet Odyssey $IP ($140M) | Airdroplyx',
+    description: 'Cómo participar gratis en la testnet Odyssey de Story Protocol ($140M de a16z crypto y Polychain): faucet, dominio .story e insignias SBT.',
+    h1: 'Story Protocol ($IP): Guía de Testnet Odyssey y Airdrop',
+    badge: 'Financiación $140M • Gratis',
+    rewardLabel: 'Recompensa estimada',
+    costLabel: 'Costo',
+    snapshotLabel: 'Periodo estimado',
+    timeLabel: 'Tiempo semanal',
+    overviewHeading: 'Resumen del proyecto',
+    overview: 'Con $140 millones recaudados de a16z crypto, Polychain Capital y Samsung Next, Story Protocol es una Layer 1 dedicada a la Propiedad Intelectual Programable (IP). En su testnet Odyssey, los usuarios acumulan insignias SBT para optar al reparto de $IP.',
+    tokenomicsHeading: 'Tokenomics de $IP',
+    tokenomics: 'El token $IP asegura la red PoS y liquida licencias y regalías, reservando una asignación importante para participantes de Odyssey y poseedores de SBT.',
+    stepsHeading: 'Pasos para participar',
+    steps: [
+      'Visita el portal oficial de Story (mint.story.foundation) y conecta Rabby o Rainbow.',
+      'Solicita tokens de prueba gratuitos en el faucet oficial de Story.',
+      'Registra tu dominio de identidad Web3 (.story).',
+      'Completa los retos de socios en el Odyssey Hub para reunir insignias SBT.',
+      'Registra un activo creativo como IP Asset y reclama tus roles en guild.xyz.'
+    ],
+    strategyHeading: 'Estrategia para maximizar recompensas',
+    strategy: 'Consigue tantas insignias SBT únicas de Odyssey como sea posible, registra tu dominio .story y verifica tus roles en Guild.',
+    sybilHeading: 'Seguridad y protección Sybil',
+    sybilSafety: 'Story filtra despliegues automatizados sin metadatos reales. Vincular redes verificadas y completar misiones Odyssey valida tu participación.',
+    faqHeading: 'Preguntas frecuentes',
+    faqs: [
+      {
+        q: '¿Es gratis la testnet Odyssey?',
+        a: 'Sí, 100% gratuita ($0) usando tokens del faucet público.'
+      },
+      {
+        q: '¿Qué son las insignias SBT de Odyssey?',
+        a: 'Son tokens Soulbound intransferibles que acreditan tu contribución temprana en las dApps asociadas.'
+      }
+    ],
+    ctaText: 'Abrir Story Protocol',
+    englishVersionLabel: 'Versión en inglés'
+  },
+  {
+    id: 'story-protocol',
+    slug: 'pt',
+    lang: 'pt',
+    flag: '🇧🇷',
+    homeLabel: 'Início',
+    hubLabel: 'Testnets Grátis',
+    hubHref: '/pt/testnets-gratis/',
+    title: 'Guia Airdrop Story Protocol (2026): Testnet Odyssey $IP ($140M) | Airdroplyx',
+    description: 'Passo a passo gratuito da testnet Odyssey do Story Protocol ($140M da a16z crypto e Polychain): faucet, domínio .story e selos SBT.',
+    h1: 'Story Protocol ($IP): Guia da Testnet Odyssey e Airdrop',
+    badge: 'Investimento $140M • Grátis',
+    rewardLabel: 'Recompensa estimada',
+    costLabel: 'Custo',
+    snapshotLabel: 'Previsão',
+    timeLabel: 'Tempo semanal',
+    overviewHeading: 'Visão geral do projeto',
+    overview: 'Com $140 milhões liderados por a16z crypto, Polychain Capital e Samsung Next, o Story Protocol é uma Layer 1 dedicada à Propriedade Intelectual Programável (IP). Na testnet Odyssey, usuários coletam selos SBT para se qualificar ao token $IP.',
+    tokenomicsHeading: 'Tokenomics do $IP',
+    tokenomics: 'O token $IP protege o consenso PoS e paga taxas de licenciamento e royalties, contemplando colaboradores da campanha Odyssey e detentores de SBT.',
+    stepsHeading: 'Passo a passo para participar',
+    steps: [
+      'Acesse o portal oficial da Story (mint.story.foundation) e conecte a Rabby ou Rainbow.',
+      'Solicite tokens de teste gratuitos no faucet oficial da Story.',
+      'Registre seu nome de domínio Web3 (.story).',
+      'Conclua desafios de parceiros no Odyssey Hub para juntar selos SBT.',
+      'Registre uma obra criativa como IP Asset e resgate cargos no guild.xyz.'
+    ],
+    strategyHeading: 'Estratégia de ganhos',
+    strategy: 'Acumule o máximo de selos SBT únicos dos parceiros Odyssey, garanta seu domínio .story e valide seus cargos na Guild.',
+    sybilHeading: 'Proteção Sybil e segurança',
+    sybilSafety: 'Contas que apenas publicam contratos vazios são filtradas. Redes sociais verificadas e selos Odyssey comprovam uso legítimo.',
+    faqHeading: 'Perguntas frequentes',
+    faqs: [
+      {
+        q: 'A testnet Odyssey é gratuita?',
+        a: 'Sim, 100% gratuita ($0) com tokens do faucet público.'
+      },
+      {
+        q: 'O que são os selos SBT da Odyssey?',
+        a: 'Tokens Soulbound intransferíveis que comprovam sua participação inicial no ecossistema.'
+      }
+    ],
+    ctaText: 'Abrir Story Protocol',
+    englishVersionLabel: 'Versão em inglês'
+  },
+  {
+    id: 'story-protocol',
+    slug: 'ko',
+    lang: 'ko',
+    flag: '🇰🇷',
+    homeLabel: '홈',
+    hubLabel: '무료 테스트넷',
+    hubHref: '/ko/free-testnets/',
+    title: 'Story Protocol 에어드랍 가이드 (2026): $140M Odyssey 테스트넷 $IP | Airdroplyx',
+    description: 'a16z crypto와 Polychain Capital이 $140M 투자한 Story Protocol Odyssey 테스트넷 무료 공략: .story 도메인, SBT 배지 및 Guild 역할.',
+    h1: 'Story Protocol ($IP) Odyssey 테스트넷 및 에어드랍 가이드',
+    badge: '$140M 투자 유치 • 무료 테스트넷',
+    rewardLabel: '예상 보상',
+    costLabel: '비용',
+    snapshotLabel: '예상 시기',
+    timeLabel: '주간 소요 시간',
+    overviewHeading: '프로젝트 개요',
+    overview: 'a16z crypto, Polychain Capital, Samsung Next로부터 1억 4,000만 달러를 투자받은 Story Protocol은 프로그래머블 지식재산권(IP) 전용 Layer 1 블록체인입니다. Odyssey 인센티브 테스트넷에서 IP 자산을 등록하고 SBT 배지를 모으면 $IP 보상을 기대할 수 있습니다.',
+    tokenomicsHeading: '$IP 토크노믹스',
+    tokenomics: '$IP 토큰은 PoS 검증인 보안과 라이선스·로열티 정산에 쓰이며, Odyssey 캠페인 참여자와 SBT 보유자에게 커뮤니티 물량이 배정될 예정입니다.',
+    stepsHeading: '단계별 참여 방법',
+    steps: [
+      '공식 Story 포털(mint.story.foundation)에 접속해 Rabby 또는 Rainbow 지갑을 연결하세요.',
+      '공식 Story Faucet에서 무료 테스트용 토큰을 받으세요.',
+      'Storyname dApp에서 나만의 .story 도메인을 등록하세요.',
+      'Odyssey 허브의 파트너 퀘스트를 완료해 Soulbound 배지(SBT)를 수집하세요.',
+      '창작물을 온체인 IP Asset으로 등록하고 guild.xyz에서 Discord 역할을 받으세요.'
+    ],
+    strategyHeading: '보상 극대화 전략',
+    strategy: 'Odyssey 파트너 앱별 고유 SBT 배지를 최대한 많이 모으고, .story 도메인 등록과 Guild 인증까지 빠짐없이 완료하세요.',
+    sybilHeading: '시빌 방지 및 보안',
+    sybilSafety: '단순 반복 컨트랙트 배포 지갑은 필터링됩니다. 소셜 계정 연동과 실제 Odyssey 배지가 정상 참여를 증명합니다.',
+    faqHeading: '자주 묻는 질문',
+    faqs: [
+      {
+        q: 'Odyssey 테스트넷은 무료인가요?',
+        a: '네, 공개 Faucet의 무료 테스트 토큰으로 비용 없이($0) 참여할 수 있습니다.'
+      },
+      {
+        q: 'Odyssey SBT 배지가 무엇인가요?',
+        a: '파트너 dApp 미션 완료 시 지급되는 양도 불가 Soulbound 토큰으로 초기 기여 증빙 역할을 합니다.'
+      }
+    ],
+    ctaText: 'Story Protocol 열기',
+    englishVersionLabel: '영문 버전'
+  },
+  {
+    id: 'story-protocol',
+    slug: 'ja',
+    lang: 'ja',
+    flag: '🇯🇵',
+    homeLabel: 'ホーム',
+    hubLabel: '無料テストネット',
+    hubHref: '/ja/free-testnets/',
+    title: 'Story Protocol エアドロップ攻略 (2026): $140M Odysseyテストネット | Airdroplyx',
+    description: 'a16z cryptoやPolychainが1.4億ドル出資したStory Protocolの無料Odysseyテストネット攻略：.storyドメイン、SBTバッジ、$IP報酬を狙う手順。',
+    h1: 'Story Protocol ($IP) Odysseyテストネット＆エアドロップ攻略',
+    badge: '$140M調達済み • 無料テストネット',
+    rewardLabel: '予想報酬',
+    costLabel: '費用',
+    snapshotLabel: '予定時期',
+    timeLabel: '週間作業時間',
+    overviewHeading: 'プロジェクト概要',
+    overview: 'a16z crypto、Polychain Capital、Samsung Nextから1.4億ドルを調達したStory Protocolは、プログラマブル知的財産（IP）特化型Layer 1ブロックチェーンです。OdysseyテストネットでSBTバッジを集め、IP Assetを登録することで$IPエアドロップ対象を目指せます。',
+    tokenomicsHeading: '$IP トケノミクス',
+    tokenomics: '$IPトークンはPoSセキュリティおよびライセンス・ロイヤリティ決済に利用され、Odyssey参加者やSBT保有者へのコミュニティ配分が見込まれています。',
+    stepsHeading: '参加ステップ',
+    steps: [
+      '公式Storyポータル（mint.story.foundation）を開き、RabbyまたはRainbowを接続します。',
+      '公式Faucetから無料のテストネットトークンを請求します。',
+      'Storyname dAppで独自の.storyドメインを取得します。',
+      'Odysseyエコシステムハブで提携タスクを完了し、Soulboundバッジ（SBT）を集めます。',
+      '創作物をIP Assetとして登録し、guild.xyzでDiscordロールを受け取ります。'
+    ],
+    strategyHeading: '報酬最大化のコツ',
+    strategy: '提携dAppごとのユニークなSBTバッジをできる限り多く集め、.storyドメイン取得とGuild連携を済ませておきましょう。',
+    sybilHeading: 'シビル対策と安全性',
+    sybilSafety: '中身の伴わないボット的コントラクト連打は除外されます。SNS認証とOdysseyバッジの取得で正当性を示せます。',
+    faqHeading: 'よくある質問',
+    faqs: [
+      {
+        q: 'Odysseyテストネットは無料ですか？',
+        a: 'はい、公式Faucetの無料トークンを使うため完全無料（$0）です。'
+      },
+      {
+        q: 'Odyssey SBTバッジとは？',
+        a: '提携クエスト完了で付与される譲渡不可のSoulboundトークンで、初期貢献の証明になります。'
+      }
+    ],
+    ctaText: 'Story Protocolを開く',
+    englishVersionLabel: '英語版を見る'
+  },
+  {
+    id: 'story-protocol',
+    slug: 'ar',
+    lang: 'ar',
+    flag: '🇸🇦',
+    homeLabel: 'الرئيسية',
+    hubLabel: 'شبكات اختبار مجانية',
+    hubHref: '/ar/free-testnets/',
+    title: 'دليل إيردروب Story Protocol (2026): شبكة اختبار Odyssey ($140M) | Airdroplyx',
+    description: 'دليل المشاركة مجاناً في شبكة اختبار Odyssey من Story Protocol (بتمويل 140 مليون دولار من a16z crypto وPolychain): نطاق .story وشارات SBT.',
+    h1: 'Story Protocol ($IP): دليل شبكة الاختبار Odyssey والإيردروب',
+    badge: 'تمويل $140M • مجاني',
+    rewardLabel: 'المكافأة المتوقعة',
+    costLabel: 'التكلفة',
+    snapshotLabel: 'الفترة المتوقعة',
+    timeLabel: 'الوقت الأسبوعي',
+    overviewHeading: 'نظرة عامة على المشروع',
+    overview: 'حصلت Story Protocol على 140 مليون دولار من a16z crypto وPolychain Capital وSamsung Next لبناء بلوكشين Layer 1 مخصص للملكية الفكرية القابلة للبرمجة (IP). في شبكة اختبار Odyssey، يجمع المستخدمون شارات SBT للتأهل لمكافآت $IP.',
+    tokenomicsHeading: 'اقتصاديات $IP',
+    tokenomics: 'يؤمّن رمز $IP إجماع PoS ويسوي رسوم التراخيص والعوائد، مع تخصيص حصة مجتمعية للمشاركين في حملة Odyssey وحاملي شارات SBT.',
+    stepsHeading: 'خطوات المشاركة',
+    steps: [
+      'افتح بوابة Story الرسمية (mint.story.foundation) واربط محفظة Rabby أو Rainbow.',
+      'اطلب عملات اختبار مجانية من الصنبور الرسمي لـ Story.',
+      'سجّل نطاق الهوية الخاص بك (.story) عبر Storyname.',
+      'أكمل تحديات الشركاء في مركز Odyssey لجمع شارات SBT غير القابلة للتحويل.',
+      'سجّل أصلاً إبداعياً كـ IP Asset واحصل على أدوار Discord عبر guild.xyz.'
+    ],
+    strategyHeading: 'استراتيجية تعظيم المكافآت',
+    strategy: 'اجمع أكبر عدد ممكن من شارات SBT الفريدة من تطبيقات شركاء Odyssey، وسجل نطاق .story، وأكمل التحقق في Guild.',
+    sybilHeading: 'الحماية من الحسابات الوهمية والأمان',
+    sybilSafety: 'تُستبعد المحافظ التي تنشر عقوداً فارغة بدون بيانات حقيقية. ربط الحسابات الاجتماعية وشارات Odyssey يثبت أصالة المشاركة.',
+    faqHeading: 'الأسئلة الشائعة',
+    faqs: [
+      {
+        q: 'هل شبكة اختبار Odyssey مجانية؟',
+        a: 'نعم، مجانية 100% ($0) باستخدام عملات الصنبور العام.'
+      },
+      {
+        q: 'ما هي شارات Odyssey (SBT)؟',
+        a: 'هي رموز Soulbound غير قابلة للتحويل تُمنح عند إكمال مهام الشركاء لإثبات المساهمة المبكرة.'
+      }
+    ],
+    ctaText: 'افتح Story Protocol',
+    englishVersionLabel: 'النسخة الإنجليزية'
+  },
+  {
+    id: 'story-protocol',
+    slug: 'de',
+    lang: 'de',
+    flag: '🇩🇪',
+    homeLabel: 'Startseite',
+    hubLabel: 'Kostenlose Testnets',
+    hubHref: '/de/kostenlose-testnets/',
+    title: 'Story Protocol Airdrop Guide (2026): $140M Odyssey Testnet $IP | Airdroplyx',
+    description: 'Anleitung für das kostenlose Story Protocol Odyssey Testnet ($140M von a16z crypto & Polychain): Faucet, .story-Domain und SBT-Badges für $IP.',
+    h1: 'Story Protocol ($IP): Odyssey Testnet & Airdrop Guide',
+    badge: '$140M Finanzierung • Kostenlos',
+    rewardLabel: 'Geschätzte Belohnung',
+    costLabel: 'Kosten',
+    snapshotLabel: 'Erwarteter Zeitraum',
+    timeLabel: 'Wöchentlicher Aufwand',
+    overviewHeading: 'Projektübersicht',
+    overview: 'Mit 140 Millionen US-Dollar von a16z crypto, Polychain Capital und Samsung Next entwickelt Story Protocol eine Layer-1-Blockchain für programmierbares geistiges Eigentum (IP). Im Odyssey-Testnet sammeln Teilnehmer SBT-Badges für $IP-Belohnungen.',
+    tokenomicsHeading: '$IP Tokenomics',
+    tokenomics: '$IP sichert den PoS-Konsens und begleicht Lizenzgebühren sowie Tantiemen, mit einer Community-Zuteilung für frühe Odyssey-Tester.',
+    stepsHeading: 'Schritt-für-Schritt-Anleitung',
+    steps: [
+      'Besuche das offizielle Story-Portal (mint.story.foundation) und verbinde Rabby oder Rainbow.',
+      'Fordere kostenlose Test-Token über das offizielle Story Faucet an.',
+      'Registriere deine persönliche .story-Domain über Storyname.',
+      'Erledige Partner-Quests im Odyssey Hub, um Soulbound-Badges (SBTs) zu sammeln.',
+      'Registriere ein kreatives Werk als IP Asset und sichere dir Rollen auf guild.xyz.'
+    ],
+    strategyHeading: 'Strategie für maximale Punkte',
+    strategy: 'Sammle möglichst viele verschiedene Odyssey-SBT-Badges bei Partner-dApps, sichere deine .story-Domain und verknüpfe Guild.',
+    sybilHeading: 'Sybil-Schutz & Sicherheit',
+    sybilSafety: 'Leere Bot-Verträge ohne echte Metadaten werden herausgefiltert. Verifizierte Social-Links und echte Odyssey-Badges schützen dein Konto.',
+    faqHeading: 'Häufig gestellte Fragen',
+    faqs: [
+      {
+        q: 'Ist das Odyssey-Testnet kostenlos?',
+        a: 'Ja, alle Aufgaben nutzen kostenlose Faucet-Token ($0).'
+      },
+      {
+        q: 'Was sind Odyssey-Badges (SBTs)?',
+        a: 'Nicht übertragbare Soulbound-Token als Nachweis früher Testnet-Beiträge.'
+      }
+    ],
+    ctaText: 'Story Protocol öffnen',
+    englishVersionLabel: 'Englische Version'
+  },
+  {
+    id: 'story-protocol',
+    slug: 'fr',
+    lang: 'fr',
+    flag: '🇫🇷',
+    homeLabel: 'Accueil',
+    hubLabel: 'Testnets Gratuits',
+    hubHref: '/fr/testnets-gratuits/',
+    title: 'Guide Airdrop Story Protocol (2026) : Testnet Odyssey $IP ($140M) | Airdroplyx',
+    description: 'Comment participer gratuitement au testnet Odyssey de Story Protocol (140 M$ par a16z crypto et Polychain) : faucet, domaine .story et badges SBT.',
+    h1: 'Story Protocol ($IP) : Guide Testnet Odyssey et Airdrop',
+    badge: 'Financement $140M • Gratuit',
+    rewardLabel: 'Récompense estimée',
+    costLabel: 'Coût',
+    snapshotLabel: 'Période estimée',
+    timeLabel: 'Temps hebdomadaire',
+    overviewHeading: 'Présentation du projet',
+    overview: 'Financé à hauteur de 140 M$ par a16z crypto, Polychain Capital et Samsung Next, Story Protocol est une Layer 1 dédiée à la propriété intellectuelle programmable (IP). Sur son testnet Odyssey, les utilisateurs collectent des badges SBT pour le jeton $IP.',
+    tokenomicsHeading: 'Tokenomics de $IP',
+    tokenomics: 'Le jeton $IP sécurise le consensus PoS et règle licences et redevances, avec une allocation communautaire prévue pour les participants Odyssey.',
+    stepsHeading: 'Étapes pour participer',
+    steps: [
+      'Visitez le portail officiel Story (mint.story.foundation) et connectez Rabby ou Rainbow.',
+      'Réclamez des jetons de test gratuits sur le faucet officiel Story.',
+      'Enregistrez votre nom de domaine Web3 (.story) via Storyname.',
+      'Accomplissez les défis partenaires dans l’Odyssey Hub pour obtenir des badges SBT.',
+      'Enregistrez une création en IP Asset et réclamez vos rôles sur guild.xyz.'
+    ],
+    strategyHeading: 'Stratégie d’optimisation',
+    strategy: 'Accumulez un maximum de badges SBT uniques d’Odyssey, enregistrez votre domaine .story et validez vos rôles sur Guild.',
+    sybilHeading: 'Protection Anti-Sybil et sécurité',
+    sybilSafety: 'Les déploiements automatisés sans métadonnées réelles sont exclus. Les comptes sociaux vérifiés et les badges Odyssey attestent d’une activité authentique.',
+    faqHeading: 'Questions fréquentes',
+    faqs: [
+      {
+        q: 'Le testnet Odyssey est-il gratuit ?',
+        a: 'Oui, il est 100 % gratuit ($0) avec les jetons du faucet public.'
+      },
+      {
+        q: 'Que sont les badges Odyssey (SBT) ?',
+        a: 'Des jetons Soulbound non transférables prouvant vos quêtes sur les dApps partenaires.'
+      }
+    ],
+    ctaText: 'Ouvrir Story Protocol',
+    englishVersionLabel: 'Version anglaise'
+  },
+  {
+    id: 'story-protocol',
+    slug: 'uk',
+    lang: 'uk',
+    flag: '🇺🇦',
+    homeLabel: 'Головна',
+    hubLabel: 'Безкоштовні тестнети',
+    hubHref: '/uk/bezkoshtovni-testnety/',
+    title: 'Гайд з аірдропу Story Protocol (2026): тестнет Odyssey і $IP ($140M) | Airdroplyx',
+    description: 'Як безкоштовно пройти тестнет Odyssey від Story Protocol ($140M від a16z crypto і Polychain): кран, домен .story, значки SBT та ролі Guild.',
+    h1: 'Story Protocol ($IP): гайд із тестнету Odyssey та аірдропу',
+    badge: 'Інвестиції $140M • Безкоштовно',
+    rewardLabel: 'Очікувана винагорода',
+    costLabel: 'Витрати',
+    snapshotLabel: 'Очікуваний період',
+    timeLabel: 'Час на тиждень',
+    overviewHeading: 'Огляд проєкту',
+    overview: 'Story Protocol залучив $140 млн від a16z crypto, Polychain Capital та Samsung Next для створення спеціалізованого Layer 1 блокчейна для програмованої інтелектуальної власності (IP). У тестнеті Odyssey учасники збирають значки SBT за майбутній дроп $IP.',
+    tokenomicsHeading: 'Токеноміка $IP',
+    tokenomics: 'Токен $IP забезпечує консенсус PoS, оплату ліцензій та роялті, передбачаючи розподіл серед учасників Odyssey і власників SBT.',
+    stepsHeading: 'Покрокова інструкція',
+    steps: [
+      'Відкрийте офіційний портал Story (mint.story.foundation) та підключіть Rabby або Rainbow.',
+      'Отримайте безкоштовні тестові токени в офіційному крані Story.',
+      'Зареєструйте власний домен .story у Storyname.',
+      'Виконайте завдання партнерів на Odyssey Hub, щоб зібрати значки SBT.',
+      'Зареєструйте творчий IP Asset і заберіть ролі на guild.xyz.'
+    ],
+    strategyHeading: 'Стратегія максимізації нагород',
+    strategy: 'Зберіть якомога більше унікальних значків SBT у партнерських dApps Odyssey, оформіть домен .story та підтвердьте ролі в Guild.',
+    sybilHeading: 'Захист від Sybil та безпека',
+    sybilSafety: 'Порожні автоматизовані контракти відсіюються. Прив’язка соцмереж і реальні значки Odyssey гарантують допуск.',
+    faqHeading: 'Часті запитання',
+    faqs: [
+      {
+        q: 'Чи безкоштовний тестнет Odyssey?',
+        a: 'Так, усе тестування безкоштовне ($0) за рахунок токенів із публічного крана.'
+      },
+      {
+        q: 'Що таке значки Odyssey SBT?',
+        a: 'Це непередавані Soulbound-токени, які підтверджують виконання завдань на партнерських dApps.'
+      }
+    ],
+    ctaText: 'Відкрити Story Protocol',
+    englishVersionLabel: 'Англійська версія'
+  },
+  {
+    id: 'story-protocol',
+    slug: 'zh',
+    lang: 'zh-CN',
+    flag: '🇨🇳',
+    homeLabel: '首页',
+    hubLabel: '免费测试网',
+    hubHref: '/zh/free-testnets/',
+    title: 'Story Protocol 空投教程 (2026)：$1.4亿 Odyssey 测试网与 $IP 徽章 | Airdroplyx',
+    description: 'a16z crypto 与 Polychain 领投 1.4 亿美元的 Story Protocol Odyssey 免费测试网教程：领水、注册 .story 域名、收集 SBT 徽章。',
+    h1: 'Story Protocol ($IP) Odyssey 测试网及空投攻略',
+    badge: '融资 $140M • 零撸免费',
+    rewardLabel: '预估奖励',
+    costLabel: '参与成本',
+    snapshotLabel: '预期周期',
+    timeLabel: '每周耗时',
+    overviewHeading: '项目简介',
+    overview: '由 a16z crypto、Polychain Capital 与 Samsung Next 投资 1.4 亿美元的 Story Protocol，是专为可编程知识产权（IP）打造的 Layer 1 公链。在 Odyssey 激励测试网中，用户可通过注册 IP 资产与收集 SBT 徽章获取 $IP 空投资格。',
+    tokenomicsHeading: '$IP 代币经济',
+    tokenomics: '$IP 用于保障 PoS 网络安全与支付授权版税，并预计为 Odyssey 早期参与者及 SBT 持有者分配社区激励份额。',
+    stepsHeading: '详细参与步骤',
+    steps: [
+      '访问 Story 官方铸造门户（mint.story.foundation）并连接 Rabby 或 Rainbow 钱包。',
+      '从官方水龙头免费领取测试网燃料代币。',
+      '前往 Storyname 注册你的专属 .story 链上域名。',
+      '在 Odyssey 生态中心完成合作 dApp 挑战以领取灵魂绑定徽章（SBT）。',
+      '通过 Proof of Creativity 注册一个原创 IP Asset，并在 guild.xyz 领取 Discord 身份组。'
+    ],
+    strategyHeading: '高收益策略',
+    strategy: '尽可能收集 Odyssey 合作生态内不同项目的独立 SBT 徽章，完成 .story 域名注册并同步绑定 Guild 身份验证。',
+    sybilHeading: '防女巫机制与安全提示',
+    sybilSafety: '系统会过滤缺乏真实元数据的批量空合约部署。绑定已验证社交账号与真实 Odyssey 徽章有助于通过审核。',
+    faqHeading: '常见问题',
+    faqs: [
+      {
+        q: 'Story Protocol Odyssey 测试网免费吗？',
+        a: '是的，使用公共水龙头领取的测试代币即可零成本（$0）参与。'
+      },
+      {
+        q: '什么是 Odyssey SBT 徽章？',
+        a: '完成合作生态任务后发放的不可转让灵魂绑定代币，用于链上证明早期贡献。'
+      }
+    ],
+    ctaText: '打开 Story Protocol',
+    englishVersionLabel: '英文原版'
+  },
+  {
+    id: 'story-protocol',
+    slug: 'hi',
+    lang: 'hi',
+    flag: '🇮🇳',
+    homeLabel: 'होम',
+    hubLabel: 'मुफ़्त टेस्टनेट',
+    hubHref: '/hi/free-testnets/',
+    title: 'Story Protocol एयरड्रॉप गाइड (2026): $140M Odyssey टेस्टनेट $IP | Airdroplyx',
+    description: 'a16z crypto और Polychain समर्थित ($140M) Story Protocol Odyssey टेस्टनेट में मुफ़्त भाग लेने, .story डोमेन और SBT बैज पाने की गाइड।',
+    h1: 'Story Protocol ($IP) Odyssey टेस्टनेट और एयरड्रॉप गाइड',
+    badge: '$140M फंडिंग • मुफ़्त टेस्टनेट',
+    rewardLabel: 'अनुमानित इनाम',
+    costLabel: 'लागत',
+    snapshotLabel: 'अनुमानित समय',
+    timeLabel: 'साप्ताहिक समय',
+    overviewHeading: 'प्रोजेक्ट का परिचय',
+    overview: 'a16z crypto, Polychain Capital और Samsung Next से $140 मिलियन जुटाने वाला Story Protocol प्रोग्रामेबल इंटेलेक्चुअल प्रॉपर्टी (IP) के लिए समर्पित Layer 1 ब्लॉकचेन है। इसके Odyssey टेस्टनेट में SBT बैज इकट्ठा कर $IP इनाम पाए जा सकते हैं।',
+    tokenomicsHeading: '$IP टोकनॉमिक्स',
+    tokenomics: '$IP टोकन PoS सुरक्षा और लाइसेंसिंग रॉयल्टी का निपटान करता है, जिसमें Odyssey प्रतिभागियों और SBT धारकों के लिए कम्युनिटी हिस्सा रखा गया है।',
+    stepsHeading: 'भाग लेने के आसान चरण',
+    steps: [
+      'आधिकारिक Story पोर्टल (mint.story.foundation) पर जाएं और Rabby या Rainbow जोड़ें।',
+      'आधिकारिक Story फॉसेट से मुफ़्त टेस्टनेट टोकन क्लेम करें।',
+      'Storyname पर अपना .story Web3 डोमेन रजिस्टर करें।',
+      'Odyssey इकोसिस्टम हब में पार्टनर चैलेंज पूरे कर Soulbound बैज (SBT) पाएं।',
+      'एक क्रिएटिव IP Asset रजिस्टर करें और guild.xyz पर Discord रोल क्लेम करें।'
+    ],
+    strategyHeading: 'अधिकतम इनाम की रणनीति',
+    strategy: 'Odyssey पार्टनर dApps से ज़्यादा से ज़्यादा यूनिक SBT बैज इकट्ठा करें, .story डोमेन लें और Guild वेरिफिकेशन पूरा करें।',
+    sybilHeading: 'सिबिल सुरक्षा और सावधानियाँ',
+    sybilSafety: 'बिना असली मेटाडेटा वाले बॉट कॉन्ट्रैक्ट्स को बाहर कर दिया जाता है। वेरिफाइड सोशल लिंक और असली Odyssey बैज सुरक्षित भागीदारी सुनिश्चित करते हैं।',
+    faqHeading: 'अक्सर पूछे जाने वाले प्रश्न',
+    faqs: [
+      {
+        q: 'क्या Odyssey टेस्टनेट मुफ़्त है?',
+        a: 'हाँ, पब्लिक फॉसेट टोकन से यह 100% मुफ़्त ($0) है।'
+      },
+      {
+        q: 'Odyssey SBT बैज क्या हैं?',
+        a: 'ये नॉन-ट्रांसफरेबल Soulbound टोकन हैं जो शुरुआती योगदान को ऑन-चेन साबित करते हैं।'
+      }
+    ],
+    ctaText: 'Story Protocol खोलें',
+    englishVersionLabel: 'अंग्रेज़ी संस्करण'
+  },
+  {
+    id: 'story-protocol',
+    slug: 'it',
+    lang: 'it',
+    flag: '🇮🇹',
+    homeLabel: 'Home',
+    hubLabel: 'Testnet Gratuiti',
+    hubHref: '/it/testnet-gratuiti/',
+    title: 'Guida Airdrop Story Protocol (2026): Testnet Odyssey $IP ($140M) | Airdroplyx',
+    description: 'Come partecipare gratis alla testnet Odyssey di Story Protocol ($140M da a16z crypto e Polychain): faucet, dominio .story e badge SBT.',
+    h1: 'Story Protocol ($IP): Guida Testnet Odyssey e Airdrop',
+    badge: 'Finanziamento $140M • Gratis',
+    rewardLabel: 'Ricompensa stimata',
+    costLabel: 'Costo',
+    snapshotLabel: 'Periodo previsto',
+    timeLabel: 'Tempo settimanale',
+    overviewHeading: 'Panoramica del progetto',
+    overview: 'Finanziata con 140 milioni di dollari da a16z crypto, Polychain Capital e Samsung Next, Story Protocol è una Layer 1 dedicata alla Proprietà Intellettuale Programmabile (IP). Nella testnet Odyssey si raccolgono badge SBT per il token $IP.',
+    tokenomicsHeading: 'Tokenomics di $IP',
+    tokenomics: 'Il token $IP protegge il consenso PoS e regola licenze e royalty, premiando i primi partecipanti a Odyssey e i possessori di SBT.',
+    stepsHeading: 'Come partecipare passo dopo passo',
+    steps: [
+      'Visita il portale ufficiale Story (mint.story.foundation) e collega Rabby o Rainbow.',
+      'Richiedi token di test gratuiti dal faucet ufficiale Story.',
+      'Registra il tuo dominio Web3 (.story) tramite Storyname.',
+      'Completa le sfide partner nell’Odyssey Hub per ottenere i badge SBT.',
+      'Registra un’opera come IP Asset e riscatta i ruoli Discord su guild.xyz.'
+    ],
+    strategyHeading: 'Strategia per massimizzare i punti',
+    strategy: 'Raccogli il maggior numero possibile di badge SBT unici dai partner Odyssey, registra il dominio .story e completa Guild.',
+    sybilHeading: 'Sicurezza e protezione Sybil',
+    sybilSafety: 'I contratti automatici privi di metadati reali vengono esclusi. Social verificati e badge Odyssey autentici proteggono l’idoneità.',
+    faqHeading: 'Domande frequenti',
+    faqs: [
+      {
+        q: 'La testnet Odyssey è gratuita?',
+        a: 'Sì, gratuita al 100% ($0) usando i token del faucet pubblico.'
+      },
+      {
+        q: 'Cosa sono i badge Odyssey (SBT)?',
+        a: 'Token Soulbound non trasferibili che attestano i contributi sulle dApp partner.'
+      }
+    ],
+    ctaText: 'Apri Story Protocol',
+    englishVersionLabel: 'Versione inglese'
+  },
+  {
+    id: 'story-protocol',
+    slug: 'pl',
+    lang: 'pl',
+    flag: '🇵🇱',
+    homeLabel: 'Strona główna',
+    hubLabel: 'Darmowe Testnety',
+    hubHref: '/pl/darmowe-testnety/',
+    title: 'Poradnik Airdrop Story Protocol (2026): Testnet Odyssey $IP ($140M) | Airdroplyx',
+    description: 'Jak za darmo przejść testnet Odyssey Story Protocol ($140M od a16z crypto i Polychain): kranik, domena .story i odznaki SBT dla $IP.',
+    h1: 'Story Protocol ($IP): Poradnik Testnetu Odyssey i Airdropu',
+    badge: 'Finansowanie $140M • Darmowy',
+    rewardLabel: 'Szacowana nagroda',
+    costLabel: 'Koszt',
+    snapshotLabel: 'Przewidywany okres',
+    timeLabel: 'Czas tygodniowo',
+    overviewHeading: 'Opis projektu',
+    overview: 'Wspierany kwotą 140 mln USD przez a16z crypto, Polychain Capital i Samsung Next projekt Story Protocol to blockchain Layer 1 dla programowalnej własności intelektualnej (IP). W testnecie Odyssey gracze zbierają odznaki SBT pod airdrop $IP.',
+    tokenomicsHeading: 'Tokenomika $IP',
+    tokenomics: 'Token $IP zabezpiecza PoS oraz rozlicza opłaty licencyjne i tantiemy, przewidując pulę dla uczestników Odyssey i posiadaczy SBT.',
+    stepsHeading: 'Instrukcja krok po kroku',
+    steps: [
+      'Odwiedź oficjalny portal Story (mint.story.foundation) i podłącz Rabby lub Rainbow.',
+      'Odbierz darmowe tokeny testowe z oficjalnego kraniku Story.',
+      'Zarejestruj własną domenę Web3 (.story) w Storyname.',
+      'Wykonuj wyzwania partnerów w Odyssey Hub, aby zebrać odznaki SBT.',
+      'Zarejestruj własne dzieło jako IP Asset i odbierz role na guild.xyz.'
+    ],
+    strategyHeading: 'Strategia maksymalizacji nagród',
+    strategy: 'Zbierz jak najwięcej unikalnych odznak SBT w aplikacjach partnerskich Odyssey, zdobądź domenę .story i zweryfikuj Guild.',
+    sybilHeading: 'Ochrona Anti-Sybil i bezpieczeństwo',
+    sybilSafety: 'Puste wdrożenia kontraktów bez realnych metadanych są odrzucane. Zweryfikowane konta społecznościowe i odznaki Odyssey chronią udział.',
+    faqHeading: 'Często zadawane pytania',
+    faqs: [
+      {
+        q: 'Czy testnet Odyssey jest darmowy?',
+        a: 'Tak, jest w 100% darmowy ($0) dzięki tokenom z publicznego kraniku.'
+      },
+      {
+        q: 'Czym są odznaki Odyssey (SBT)?',
+        a: 'Niezbywalnymi tokenami Soulbound potwierdzającymi wykonanie zadań u partnerów.'
+      }
+    ],
+    ctaText: 'Otwórz Story Protocol',
+    englishVersionLabel: 'Wersja angielska'
+  },
+
+  // ================= ABSTRACT (16 LANGUAGES) =================
+  {
+    id: 'abstract',
+    slug: 'tr',
+    lang: 'tr',
+    flag: '🇹🇷',
+    homeLabel: 'Ana Sayfa',
+    hubLabel: 'Ücretsiz Testnetler',
+    hubHref: '/tr/ucretsiz-testnet-airdroplari/',
+    title: 'Abstract Airdrop Rehberi (2026): AGW Kurulumu & $ABS XP | Airdroplyx',
+    description: 'Pudgy Penguins (Igloo Inc) ve Founders Fund destekli tüketici Layer 2 ağı Abstract için Abstract Global Wallet (AGW) kurulumu ve testnet XP rehberi.',
+    h1: 'Abstract ($ABS) Ücretsiz Testnet ve AGW Airdrop Rehberi',
+    badge: 'ZK Stack • Ücretsiz Testnet',
+    rewardLabel: 'Tahmini Ödül',
+    costLabel: 'Maliyet',
+    snapshotLabel: 'Beklenen Dönem',
+    timeLabel: 'Haftalık Süre',
+    overviewHeading: 'Proje Özeti',
+    overview: 'Pudgy Penguins’in ana şirketi Igloo Inc tarafından ZK Stack teknolojisiyle geliştirilen ve Founders Fund liderliğinde 11 milyon doların üzerinde yatırım alan Abstract, tüketici odaklı bir Layer 2 ağıdır. Abstract Global Wallet (AGW) sayesinde kurtarma kelimesi karmaşası olmadan tek tıkla dApp deneyimi sunar ve erken testnet kullanıcılarını XP ile ödüllendirir.',
+    tokenomicsHeading: '$ABS Tokenomik ve Dağıtım',
+    tokenomics: '$ABS tokenı Abstract ZK-Rollup ağının yönetişim, sıralayıcı staking’i ve ekosistem teşviklerinde kullanılacak olup erken AGW oluşturanlar ile rozet sahiplerine odaklanır.',
+    stepsHeading: 'Adım Adım Katılım Rehberi',
+    steps: [
+      'Resmi Abstract portalına (abs.xyz) gidin.',
+      'Sosyal giriş veya passkey kullanarak Abstract Global Wallet (AGW) cüzdanınızı oluşturun.',
+      'Resmi Abstract Sepolia Faucet üzerinden ücretsiz test ETH talep edin.',
+      'Test varlıklarınızı Ethereum Sepolia ağından Abstract testnetine köprüleyin.',
+      'Öne çıkan tüketici dApp’lerini test edip erken dönem rozetlerini toplayın ve XP görevlerini tamamlayın.'
+    ],
+    strategyHeading: 'Maksimum Ödül Stratejisi',
+    strategy: 'AGW cüzdanınızı erken oluşturup erken benimseyen rozetini alın, resmi görev panosundaki sosyal doğrulamaları tamamlayın ve düzenli testnet işlemleri yapın.',
+    sybilHeading: 'Sybil Koruması ve Güvenlik',
+    sybilSafety: 'Abstract Global Wallet biyometrik/passkey bağlantısı ve sosyal doğrulamalar otomatik bot çiftliklerine karşı güçlü koruma sağlar. Yalnızca abs.xyz adresini kullanın.',
+    faqHeading: 'Sıkça Sorulan Sorular',
+    faqs: [
+      {
+        q: 'Abstract Global Wallet (AGW) nedir?',
+        a: 'Tüm Abstract uygulamalarında gazsız ve tek tıkla katılım sağlayan akıllı sözleşme cüzdanıdır.'
+      },
+      {
+        q: 'Abstract testneti ücretsiz mi?',
+        a: 'Evet, Sepolia test ETH musluğu kullanılarak tamamen ücretsiz ($0) katılabilirsiniz.'
+      }
+    ],
+    ctaText: 'Abstract’ı Aç',
+    englishVersionLabel: 'İngilizce Sürüm'
+  },
+  {
+    id: 'abstract',
+    slug: 'ru',
+    lang: 'ru',
+    flag: '🇷🇺',
+    homeLabel: 'Главная',
+    hubLabel: 'Бесплатные тестнеты',
+    hubHref: '/ru/free-testnets/',
+    title: 'Гайд по аирдропу Abstract (2026): AGW, XP и тестнет $ABS | Airdroplyx',
+    description: 'Как бесплатно создать Abstract Global Wallet (AGW) и пройти тестнет L2-сети Abstract от Pudgy Penguins ($11M+ от Founders Fund) для дропа $ABS.',
+    h1: 'Abstract ($ABS): гайд по тестнету и Abstract Global Wallet',
+    badge: 'ZK Stack • Бесплатно',
+    rewardLabel: 'Ожидаемая награда',
+    costLabel: 'Затраты',
+    snapshotLabel: 'Ожидаемый период',
+    timeLabel: 'Время в неделю',
+    overviewHeading: 'Обзор проекта',
+    overview: 'Abstract — потребительский Layer 2 на базе ZK Stack от Igloo Inc (создателей Pudgy Penguins), привлёкший $11M+ от Founders Fund. Кошелек Abstract Global Wallet (AGW) убирает барьер сид-фраз и открывает путь к ранним XP и дропу $ABS.',
+    tokenomicsHeading: 'Токеномика $ABS',
+    tokenomics: 'Токен $ABS обеспечит управление и стейкинг секвенсоров ZK-Rollup, с фокусом на ранних владельцев AGW и участников квестов.',
+    stepsHeading: 'Пошаговая инструкция',
+    steps: [
+      'Откройте официальный портал Abstract (abs.xyz).',
+      'Создайте Abstract Global Wallet (AGW) через социальный вход или passkey.',
+      'Запросите бесплатный тестовый ETH в официальном кране Abstract Sepolia.',
+      'Переведите тестовые средства через мост из Ethereum Sepolia в тестнет Abstract.',
+      'Тестируйте потребительские dApps, забирайте значки и выполняйте задания на XP.'
+    ],
+    strategyHeading: 'Стратегия фарма',
+    strategy: 'Рано создайте AGW, заберите бейдж раннего пользователя и поддерживайте регулярные транзакции в тестовых приложениях.',
+    sybilHeading: 'Защита от ботов и безопасность',
+    sybilSafety: 'Привязка passkey в AGW и проверка соцсетей защищают пул от бот-ферм. Пользуйтесь только официальным сайтом abs.xyz.',
+    faqHeading: 'Частые вопросы',
+    faqs: [
+      {
+        q: 'Что такое Abstract Global Wallet (AGW)?',
+        a: 'Это смарт-контрактный кошелек для быстрого входа без сид-фраз во все приложения Abstract.'
+      },
+      {
+        q: 'Бесплатно ли участвовать в тестнете Abstract?',
+        a: 'Да, используются бесплатные тестовые токены Sepolia ($0).'
+      }
+    ],
+    ctaText: 'Открыть Abstract',
+    englishVersionLabel: 'Английская версия'
+  },
+  {
+    id: 'abstract',
+    slug: 'id',
+    lang: 'id',
+    flag: '🇮🇩',
+    homeLabel: 'Beranda',
+    hubLabel: 'Testnet Gratis',
+    hubHref: '/id/testnet-gratis/',
+    title: 'Panduan Airdrop Abstract (2026): Buat AGW & Kumpul XP $ABS | Airdroplyx',
+    description: 'Panduan lengkap testnet Abstract dari Pudgy Penguins ($11M+ Founders Fund): cara buat Abstract Global Wallet (AGW), bridge Sepolia, dan klaim XP.',
+    h1: 'Abstract ($ABS): Panduan Testnet Gratis & Abstract Global Wallet',
+    badge: 'ZK Stack • Gratis',
+    rewardLabel: 'Estimasi Hadiah',
+    costLabel: 'Biaya',
+    snapshotLabel: 'Perkiraan Snapshot',
+    timeLabel: 'Waktu Mingguan',
+    overviewHeading: 'Ringkasan Proyek',
+    overview: 'Abstract adalah Layer 2 konsumen berbasis ZK Stack yang dibangun oleh Igloo Inc (Pudgy Penguins) dengan pendanaan $11M+ dari Founders Fund. Melalui Abstract Global Wallet (AGW), pengguna bisa ikut testnet dan mengumpulkan XP untuk airdrop $ABS.',
+    tokenomicsHeading: 'Tokenomik $ABS',
+    tokenomics: 'Token $ABS berfungsi untuk tata kelola serta staking sequencer ZK-Rollup, memprioritaskan pembuat AGW awal dan pengumpul lencana ekosistem.',
+    stepsHeading: 'Langkah-Langkah Mengikuti Airdrop',
+    steps: [
+      'Kunjungi portal resmi Abstract (abs.xyz).',
+      'Buat Abstract Global Wallet (AGW) menggunakan login sosial atau passkey.',
+      'Klaim ETH testnet gratis dari faucet resmi Abstract Sepolia.',
+      'Bridge dana uji coba dari Ethereum Sepolia ke testnet Abstract.',
+      'Coba dApp konsumen unggulan, cetak NFT uji coba, dan selesaikan misi XP.'
+    ],
+    strategyHeading: 'Strategi Maksimal',
+    strategy: 'Buat AGW lebih awal, klaim lencana early adopter, dan lakukan interaksi rutin di aplikasi testnet hingga snapshot.',
+    sybilHeading: 'Keamanan & Anti-Sybil',
+    sybilSafety: 'Autentikasi passkey AGW dan verifikasi sosial menyaring bot otomatis. Pastikan hanya mengakses abs.xyz.',
+    faqHeading: 'Pertanyaan Umum',
+    faqs: [
+      {
+        q: 'Apa itu Abstract Global Wallet (AGW)?',
+        a: 'Dompet kontrak pintar yang memungkinkan login sekali klik tanpa repot seed phrase di seluruh aplikasi Abstract.'
+      },
+      {
+        q: 'Apakah testnet Abstract gratis?',
+        a: 'Ya, 100% gratis ($0) menggunakan ETH uji coba Sepolia.'
+      }
+    ],
+    ctaText: 'Buka Abstract',
+    englishVersionLabel: 'Versi Bahasa Inggris'
+  },
+  {
+    id: 'abstract',
+    slug: 'vi',
+    lang: 'vi',
+    flag: '🇻🇳',
+    homeLabel: 'Trang chủ',
+    hubLabel: 'Testnet Miễn Phí',
+    hubHref: '/vi/testnet-mien-phi/',
+    title: 'Hướng dẫn Airdrop Abstract (2026): Tạo ví AGW & Săn $ABS | Airdroplyx',
+    description: 'Cách tham gia testnet Abstract của Pudgy Penguins ($11M+ từ Founders Fund) miễn phí: tạo Abstract Global Wallet (AGW), bridge Sepolia và cày XP.',
+    h1: 'Abstract ($ABS): Hướng Dẫn Testnet & Abstract Global Wallet',
+    badge: 'ZK Stack • Miễn phí',
+    rewardLabel: 'Phần thưởng dự kiến',
+    costLabel: 'Chi phí',
+    snapshotLabel: 'Thời gian dự kiến',
+    timeLabel: 'Thời gian mỗi tuần',
+    overviewHeading: 'Tổng quan dự án',
+    overview: 'Abstract là Layer 2 hướng đến người dùng đại chúng xây dựng trên ZK Stack bởi Igloo Inc (công ty mẹ Pudgy Penguins), gọi vốn hơn $11M từ Founders Fund. Nhờ Abstract Global Wallet (AGW), người dùng trải nghiệm dApp không rào cản và tích lũy XP cho airdrop $ABS.',
+    tokenomicsHeading: 'Tokenomics $ABS',
+    tokenomics: 'Token $ABS dùng cho quản trị và staking sequencer của ZK-Rollup, dành phần thưởng cho người tạo AGW sớm và chủ sở hữu huy hiệu.',
+    stepsHeading: 'Các bước tham gia chi tiết',
+    steps: [
+      'Truy cập cổng chính thức Abstract (abs.xyz).',
+      'Tạo Abstract Global Wallet (AGW) bằng đăng nhập mạng xã hội hoặc passkey.',
+      'Nhận ETH testnet miễn phí từ faucet chính thức Abstract Sepolia.',
+      'Bridge tài sản thử nghiệm từ Ethereum Sepolia sang testnet Abstract.',
+      'Trải nghiệm dApp nổi bật, mint NFT thử nghiệm và hoàn thành nhiệm vụ XP.'
+    ],
+    strategyHeading: 'Chiến lược tối ưu điểm',
+    strategy: 'Tạo AGW sớm để nhận huy hiệu người dùng tiên phong và duy trì giao dịch đều đặn trên mạng thử nghiệm.',
+    sybilHeading: 'Chống Sybil & Bảo mật',
+    sybilSafety: 'Xác thực passkey của AGW cùng nhiệm vụ xã hội giúp ngăn chặn farm bot. Chỉ sử dụng trang chính thức abs.xyz.',
+    faqHeading: 'Câu hỏi thường gặp',
+    faqs: [
+      {
+        q: 'Abstract Global Wallet (AGW) là gì?',
+        a: 'Là ví hợp đồng thông minh cho phép đăng nhập một chạm không cần seed phrase trên mọi ứng dụng Abstract.'
+      },
+      {
+        q: 'Tham gia testnet Abstract có miễn phí không?',
+        a: 'Có, hoàn toàn miễn phí ($0) bằng ETH thử nghiệm Sepolia.'
+      }
+    ],
+    ctaText: 'Mở Abstract',
+    englishVersionLabel: 'Bản tiếng Anh'
+  },
+  {
+    id: 'abstract',
+    slug: 'es',
+    lang: 'es',
+    flag: '🇪🇸',
+    homeLabel: 'Inicio',
+    hubLabel: 'Testnets Gratis',
+    hubHref: '/es/testnets-gratis/',
+    title: 'Guía Airdrop Abstract (2026): Crear AGW y Testnet $ABS | Airdroplyx',
+    description: 'Cómo participar gratis en la testnet de Abstract de Pudgy Penguins ($11M+ de Founders Fund): configura Abstract Global Wallet (AGW) y gana XP.',
+    h1: 'Abstract ($ABS): Guía de Testnet y Abstract Global Wallet',
+    badge: 'ZK Stack • Gratis',
+    rewardLabel: 'Recompensa estimada',
+    costLabel: 'Costo',
+    snapshotLabel: 'Periodo estimado',
+    timeLabel: 'Tiempo semanal',
+    overviewHeading: 'Resumen del proyecto',
+    overview: 'Abstract es una Layer 2 de consumo construida sobre ZK Stack por Igloo Inc (Pudgy Penguins) con más de $11 millones de Founders Fund. Su Abstract Global Wallet (AGW) elimina la fricción de frases semilla y premia con XP a los primeros usuarios.',
+    tokenomicsHeading: 'Tokenomics de $ABS',
+    tokenomics: 'El token $ABS servirá para gobernanza y staking de secuenciadores, enfocándose en primeros creadores de AGW y coleccionistas de insignias.',
+    stepsHeading: 'Pasos para participar',
+    steps: [
+      'Visita el portal oficial de Abstract (abs.xyz).',
+      'Crea tu Abstract Global Wallet (AGW) mediante inicio social o passkey.',
+      'Solicita ETH de prueba gratuito en el faucet oficial Abstract Sepolia.',
+      'Envía fondos de prueba mediante el puente desde Ethereum Sepolia a Abstract.',
+      'Prueba las dApps destacadas, acuña NFTs de testnet y completa las misiones de XP.'
+    ],
+    strategyHeading: 'Estrategia para maximizar recompensas',
+    strategy: 'Configura tu AGW cuanto antes, reclama la insignia de adoptante temprano y mantén actividad constante en testnet.',
+    sybilHeading: 'Seguridad y protección Sybil',
+    sybilSafety: 'La vinculación passkey de AGW y las verificaciones sociales protegen contra granjas de bots. Accede solo a abs.xyz.',
+    faqHeading: 'Preguntas frecuentes',
+    faqs: [
+      {
+        q: '¿Qué es Abstract Global Wallet (AGW)?',
+        a: 'Una billetera inteligente que permite acceso en un clic sin fricción de gas ni frases semilla en Abstract.'
+      },
+      {
+        q: '¿Es gratis la testnet de Abstract?',
+        a: 'Sí, 100% gratuita ($0) usando ETH de prueba Sepolia.'
+      }
+    ],
+    ctaText: 'Abrir Abstract',
+    englishVersionLabel: 'Versión en inglés'
+  },
+  {
+    id: 'abstract',
+    slug: 'pt',
+    lang: 'pt',
+    flag: '🇧🇷',
+    homeLabel: 'Início',
+    hubLabel: 'Testnets Grátis',
+    hubHref: '/pt/testnets-gratis/',
+    title: 'Guia Airdrop Abstract (2026): Criar AGW e Testnet $ABS | Airdroplyx',
+    description: 'Passo a passo gratuito da testnet da Abstract da Pudgy Penguins ($11M+ da Founders Fund): crie sua Abstract Global Wallet (AGW) e acumule XP.',
+    h1: 'Abstract ($ABS): Guia da Testnet e Abstract Global Wallet',
+    badge: 'ZK Stack • Grátis',
+    rewardLabel: 'Recompensa estimada',
+    costLabel: 'Custo',
+    snapshotLabel: 'Previsão',
+    timeLabel: 'Tempo semanal',
+    overviewHeading: 'Visão geral do projeto',
+    overview: 'A Abstract é uma Layer 2 voltada ao consumidor construída no ZK Stack pela Igloo Inc (Pudgy Penguins), com mais de $11 milhões liderados pelo Founders Fund. Com a Abstract Global Wallet (AGW), usuários acumulam XP na testnet para o airdrop $ABS.',
+    tokenomicsHeading: 'Tokenomics do $ABS',
+    tokenomics: 'O token $ABS atuará na governança e staking de sequenciadores do ZK-Rollup, recompensando primeiros criadores de AGW e colecionadores de selos.',
+    stepsHeading: 'Passo a passo para participar',
+    steps: [
+      'Acesse o portal oficial da Abstract (abs.xyz).',
+      'Crie sua Abstract Global Wallet (AGW) usando login social ou passkey.',
+      'Resgate ETH de teste gratuito no faucet oficial Abstract Sepolia.',
+      'Faça a ponte (bridge) de Ethereum Sepolia para a testnet da Abstract.',
+      'Interaja com dApps de consumo, cunhe NFTs de teste e complete missões de XP.'
+    ],
+    strategyHeading: 'Estratégia de ganhos',
+    strategy: 'Crie sua AGW cedo para garantir o selo de pioneiro e mantenha transações frequentes na testnet até o snapshot.',
+    sybilHeading: 'Proteção Sybil e segurança',
+    sybilSafety: 'O vínculo passkey da AGW e as verificações sociais bloqueiam fazendas de bots. Use somente abs.xyz.',
+    faqHeading: 'Perguntas frequentes',
+    faqs: [
+      {
+        q: 'O que é a Abstract Global Wallet (AGW)?',
+        a: 'Uma carteira inteligente que oferece entrada em um clique sem complicação de seed phrase nos apps da Abstract.'
+      },
+      {
+        q: 'A testnet da Abstract é gratuita?',
+        a: 'Sim, 100% gratuita ($0) com ETH de teste Sepolia.'
+      }
+    ],
+    ctaText: 'Abrir Abstract',
+    englishVersionLabel: 'Versão em inglês'
+  },
+  {
+    id: 'abstract',
+    slug: 'ko',
+    lang: 'ko',
+    flag: '🇰🇷',
+    homeLabel: '홈',
+    hubLabel: '무료 테스트넷',
+    hubHref: '/ko/free-testnets/',
+    title: 'Abstract 에어드랍 가이드 (2026): AGW 생성 및 $ABS XP | Airdroplyx',
+    description: 'Pudgy Penguins 모회사 Igloo Inc와 Founders Fund가 투자한($11M+) 컨슈머 L2 Abstract 테스트넷 공략: AGW 지갑 생성 및 브릿지 가이드.',
+    h1: 'Abstract ($ABS) 무료 테스트넷 및 AGW 에어드랍 가이드',
+    badge: 'ZK Stack • 무료 테스트넷',
+    rewardLabel: '예상 보상',
+    costLabel: '비용',
+    snapshotLabel: '예상 시기',
+    timeLabel: '주간 소요 시간',
+    overviewHeading: '프로젝트 개요',
+    overview: 'Pudgy Penguins의 모회사 Igloo Inc가 ZK Stack 기반으로 구축하고 Founders Fund 등에서 1,100만 달러 이상을 투자받은 Abstract는 소비자 특화 Layer 2입니다. Abstract Global Wallet(AGW)을 통해 시드 구문 없이 간편하게 참여하고 XP를 모아 $ABS 에어드랍을 노릴 수 있습니다.',
+    tokenomicsHeading: '$ABS 토크노믹스',
+    tokenomics: '$ABS는 ZK-Rollup 거버넌스와 시퀀서 스테이킹에 사용되며, 초기 AGW 생성자와 생태계 배지 보유자에게 보상이 기대됩니다.',
+    stepsHeading: '단계별 참여 방법',
+    steps: [
+      '공식 Abstract 포털(abs.xyz)에 접속하세요.',
+      '소셜 로그인 또는 패스키(passkey)로 Abstract Global Wallet(AGW)을 생성하세요.',
+      '공식 Abstract Sepolia 수도꼭지에서 무료 테스트 ETH를 받으세요.',
+      'Ethereum Sepolia에서 Abstract 테스트넷으로 테스트 자산을 브릿지하세요.',
+      '추천 dApp을 이용하고 테스트 NFT 민팅 및 XP 퀘스트를 완료하세요.'
+    ],
+    strategyHeading: '보상 극대화 전략',
+    strategy: '초기에 AGW를 만들어 얼리 어답터 배지를 확보하고, 공식 퀘스트 보드 미션과 꾸준한 테스트넷 트랜잭션을 유지하세요.',
+    sybilHeading: '시빌 방지 및 보안',
+    sybilSafety: 'AGW 패스키 인증과 소셜 검증이 다계정 봇을 방어합니다. 반드시 공식 사이트 abs.xyz만 이용하세요.',
+    faqHeading: '자주 묻는 질문',
+    faqs: [
+      {
+        q: 'Abstract Global Wallet(AGW)이란 무엇인가요?',
+        a: 'Abstract 생태계 모든 앱에서 시드 구문 없이 원클릭으로 이용 가능한 스마트 컨트랙트 지갑입니다.'
+      },
+      {
+        q: 'Abstract 테스트넷은 무료인가요?',
+        a: '네, 무료($0) Sepolia 테스트 ETH로 참여할 수 있습니다.'
+      }
+    ],
+    ctaText: 'Abstract 열기',
+    englishVersionLabel: '영문 버전'
+  },
+  {
+    id: 'abstract',
+    slug: 'ja',
+    lang: 'ja',
+    flag: '🇯🇵',
+    homeLabel: 'ホーム',
+    hubLabel: '無料テストネット',
+    hubHref: '/ja/free-testnets/',
+    title: 'Abstract エアドロップ攻略 (2026): AGW作成＆テストネット$ABS | Airdroplyx',
+    description: 'Pudgy Penguins運営Igloo IncとFounders Fund出資（$11M+）のコンシューマーL2「Abstract」攻略：AGWウォレット作成とSepoliaブリッジ手順。',
+    h1: 'Abstract ($ABS) 無料テストネット＆AGW攻略ガイド',
+    badge: 'ZK Stack • 無料テストネット',
+    rewardLabel: '予想報酬',
+    costLabel: '費用',
+    snapshotLabel: '予定時期',
+    timeLabel: '週間作業時間',
+    overviewHeading: 'プロジェクト概要',
+    overview: 'AbstractはPudgy Penguinsを手掛けるIgloo IncがZK Stack上に構築し、Founders Fund等から1,100万ドル以上を調達したコンシューマー向けLayer 2です。Abstract Global Wallet（AGW）によりシードフレーズ不要で参加でき、XP獲得で$ABSエアドロップを目指せます。',
+    tokenomicsHeading: '$ABS トケノミクス',
+    tokenomics: '$ABSはガバナンスとシーケンサーステーキングを担い、初期のAGW作成者やバッジ収集者へのコミュニティ配分が見込まれます。',
+    stepsHeading: '参加ステップ',
+    steps: [
+      '公式Abstractポータル（abs.xyz）にアクセスします。',
+      'SNSログインまたはパスキーを使ってAbstract Global Wallet（AGW）を作成します。',
+      '公式Abstract Sepolia Faucetから無料のテストETHを受け取ります。',
+      'Ethereum SepoliaからAbstractテストネットへテスト資産をブリッジします。',
+      '注目dAppの利用やテストNFTミント、XPクエストを完了します。'
+    ],
+    strategyHeading: '報酬最大化のコツ',
+    strategy: '早めにAGWを作成してアーリーアダプターバッジを取得し、継続的にテストネット取引を重ねておきましょう。',
+    sybilSafety: 'AGWのパスキー連携とSNS認証によってボットファームを排除しています。必ず公式ドメインabs.xyzをご利用ください。',
+    sybilHeading: 'シビル対策と安全性',
+    faqHeading: 'よくある質問',
+    faqs: [
+      {
+        q: 'Abstract Global Wallet（AGW）とは？',
+        a: 'Abstract上の全アプリへワンクリック・シードフレーズ不要で接続できるスマートコントラクトウォレットです。'
+      },
+      {
+        q: 'Abstractテストネットは無料ですか？',
+        a: 'はい、SepoliaテストETHを使うため完全無料（$0）です。'
+      }
+    ],
+    ctaText: 'Abstractを開く',
+    englishVersionLabel: '英語版を見る'
+  },
+  {
+    id: 'abstract',
+    slug: 'ar',
+    lang: 'ar',
+    flag: '🇸🇦',
+    homeLabel: 'الرئيسية',
+    hubLabel: 'شبكات اختبار مجانية',
+    hubHref: '/ar/free-testnets/',
+    title: 'دليل إيردروب Abstract (2026): إنشاء AGW ونقاط $ABS | Airdroplyx',
+    description: 'دليل المشاركة مجاناً في شبكة Abstract من Igloo Inc وFounders Fund ($11M+): إنشاء محفظة Abstract Global Wallet وجمع نقاط XP.',
+    h1: 'Abstract ($ABS): دليل شبكة الاختبار المجانية ومحفظة AGW',
+    badge: 'ZK Stack • مجاني',
+    rewardLabel: 'المكافأة المتوقعة',
+    costLabel: 'التكلفة',
+    snapshotLabel: 'الفترة المتوقعة',
+    timeLabel: 'الوقت الأسبوعي',
+    overviewHeading: 'نظرة عامة على المشروع',
+    overview: 'شبكة Abstract هي Layer 2 موجهة للمستهلكين مبنية على ZK Stack من تطوير Igloo Inc (شركة Pudgy Penguins) وبتمويل يتجاوز 11 مليون دولار من Founders Fund. تتيح محفظة Abstract Global Wallet (AGW) تجربة سلسة وجمع نقاط XP لإيردروب $ABS.',
+    tokenomicsHeading: 'اقتصاديات $ABS',
+    tokenomics: 'سيُستخدم رمز $ABS في الحوكمة وتخزين المُرتِّبات على ZK-Rollup، مع التركيز على منشئي محفظة AGW الأوائل وجامعي الشارات.',
+    stepsHeading: 'خطوات المشاركة',
+    steps: [
+      'افتح بوابة Abstract الرسمية (abs.xyz).',
+      'أنشئ محفظة Abstract Global Wallet (AGW) عبر تسجيل الدخول الاجتماعي أو passkey.',
+      'اطلب ETH اختبار مجاني من صنبور Abstract Sepolia الرسمي.',
+      'انقل أصول الاختبار عبر الجسر من Ethereum Sepolia إلى شبكة Abstract.',
+      'جرّب التطبيقات المميزة وسك رموز NFT الاختبارية وأكمل مهام XP.'
+    ],
+    strategyHeading: 'استراتيجية تعظيم المكافآت',
+    strategy: 'أنشئ محفظتك مبكراً للحصول على شارة المتبني المبكر، وأتمم المهام الاجتماعية مع استمرار المعاملات على شبكة الاختبار.',
+    sybilHeading: 'الحماية من الحسابات الوهمية والأمان',
+    sybilSafety: 'يوفر ربط passkey والتحقق الاجتماعي حماية قوية ضد مزارع البوتات. استخدم الموقع الرسمي abs.xyz فقط.',
+    faqHeading: 'الأسئلة الشائعة',
+    faqs: [
+      {
+        q: 'ما هي محفظة Abstract Global Wallet (AGW)؟',
+        a: 'محفظة عقود ذكية تتيح الدخول بنقرة واحدة بدون تعقيد عبارات الاسترداد في تطبيقات Abstract.'
+      },
+      {
+        q: 'هل شبكة اختبار Abstract مجانية؟',
+        a: 'نعم، مجانية 100% ($0) باستخدام ETH اختبار Sepolia.'
+      }
+    ],
+    ctaText: 'افتح Abstract',
+    englishVersionLabel: 'النسخة الإنجليزية'
+  },
+  {
+    id: 'abstract',
+    slug: 'de',
+    lang: 'de',
+    flag: '🇩🇪',
+    homeLabel: 'Startseite',
+    hubLabel: 'Kostenlose Testnets',
+    hubHref: '/de/kostenlose-testnets/',
+    title: 'Abstract Airdrop Guide (2026): AGW einrichten & $ABS XP | Airdroplyx',
+    description: 'Anleitung für das kostenlose Abstract Testnet von Igloo Inc ($11M+ Founders Fund): Abstract Global Wallet (AGW) erstellen, Sepolia-Bridge und XP.',
+    h1: 'Abstract ($ABS): Kostenloser Testnet- & AGW-Guide',
+    badge: 'ZK Stack • Kostenlos',
+    rewardLabel: 'Geschätzte Belohnung',
+    costLabel: 'Kosten',
+    snapshotLabel: 'Erwarteter Zeitraum',
+    timeLabel: 'Wöchentlicher Aufwand',
+    overviewHeading: 'Projektübersicht',
+    overview: 'Abstract ist eine Consumer-Layer-2-Blockchain auf ZK-Stack-Basis von Igloo Inc (Pudgy Penguins), finanziert mit über 11 Millionen US-Dollar von Founders Fund. Die Abstract Global Wallet (AGW) ermöglicht nahtloses Onboarding und das Sammeln von XP für $ABS.',
+    tokenomicsHeading: '$ABS Tokenomics',
+    tokenomics: '$ABS dient als Governance- und Sequencer-Staking-Token des ZK-Rollups und richtet sich an frühe AGW-Nutzer und Badge-Sammler.',
+    stepsHeading: 'Schritt-für-Schritt-Anleitung',
+    steps: [
+      'Besuche das offizielle Abstract-Portal (abs.xyz).',
+      'Erstelle deine Abstract Global Wallet (AGW) per Social-Login oder Passkey.',
+      'Fordere kostenloses Test-ETH im offiziellen Abstract-Sepolia-Faucet an.',
+      'Übertrage Testguthaben über die Bridge von Ethereum Sepolia zu Abstract.',
+      'Nutze vorgestellte Consumer-dApps, präge Testnet-NFTs und sammle XP.'
+    ],
+    strategyHeading: 'Strategie für maximale Punkte',
+    strategy: 'Richte deine AGW früh ein, sichere dir das Early-Adopter-Abzeichen und halte regelmäßige Testnet-Aktivität bis zum Snapshot aufrecht.',
+    sybilHeading: 'Sybil-Schutz & Sicherheit',
+    sybilSafety: 'Passkey-Bindung und soziale Verifizierungen schützen zuverlässig vor Bot-Farmen. Nutze ausschließlich abs.xyz.',
+    faqHeading: 'Häufig gestellte Fragen',
+    faqs: [
+      {
+        q: 'Was ist die Abstract Global Wallet (AGW)?',
+        a: 'Eine Smart-Contract-Wallet für Ein-Klick-Zugang ohne Seed-Phrase in allen Abstract-Anwendungen.'
+      },
+      {
+        q: 'Ist das Abstract-Testnet kostenlos?',
+        a: 'Ja, komplett kostenlos ($0) über Sepolia-Test-ETH.'
+      }
+    ],
+    ctaText: 'Abstract öffnen',
+    englishVersionLabel: 'Englische Version'
+  },
+  {
+    id: 'abstract',
+    slug: 'fr',
+    lang: 'fr',
+    flag: '🇫🇷',
+    homeLabel: 'Accueil',
+    hubLabel: 'Testnets Gratuits',
+    hubHref: '/fr/testnets-gratuits/',
+    title: 'Guide Airdrop Abstract (2026) : Créer AGW et Testnet $ABS | Airdroplyx',
+    description: 'Comment participer gratuitement au testnet Abstract de Pudgy Penguins (11 M$+ Founders Fund) : créer Abstract Global Wallet (AGW) et gagner des XP.',
+    h1: 'Abstract ($ABS) : Guide Testnet Gratuit et Abstract Global Wallet',
+    badge: 'ZK Stack • Gratuit',
+    rewardLabel: 'Récompense estimée',
+    costLabel: 'Coût',
+    snapshotLabel: 'Période estimée',
+    timeLabel: 'Temps hebdomadaire',
+    overviewHeading: 'Présentation du projet',
+    overview: 'Abstract est une Layer 2 grand public bâtie sur ZK Stack par Igloo Inc (Pudgy Penguins) avec plus de 11 M$ menés par Founders Fund. Grâce à l’Abstract Global Wallet (AGW), les utilisateurs cumulent des XP sur testnet en vue du jeton $ABS.',
+    tokenomicsHeading: 'Tokenomics de $ABS',
+    tokenomics: 'Le jeton $ABS assurera la gouvernance et le staking des séquenceurs du ZK-Rollup, récompensant les premiers créateurs d’AGW et détenteurs de badges.',
+    stepsHeading: 'Étapes pour participer',
+    steps: [
+      'Rendez-vous sur le portail officiel Abstract (abs.xyz).',
+      'Créez votre Abstract Global Wallet (AGW) via connexion sociale ou passkey.',
+      'Réclamez de l’ETH de test gratuit sur le faucet officiel Abstract Sepolia.',
+      'Transférez des fonds de test via le pont d’Ethereum Sepolia vers Abstract.',
+      'Interagissez avec les dApps grand public, mintez des NFT de test et validez les quêtes XP.'
+    ],
+    strategyHeading: 'Stratégie d’optimisation',
+    strategy: 'Créez votre AGW tôt pour obtenir le badge pionnier et maintenez des transactions régulières jusqu’au snapshot.',
+    sybilHeading: 'Protection Anti-Sybil et sécurité',
+    sybilSafety: 'L’authentification passkey et les vérifications sociales bloquent efficacement les fermes de bots. Utilisez uniquement abs.xyz.',
+    faqHeading: 'Questions fréquentes',
+    faqs: [
+      {
+        q: 'Qu’est-ce que l’Abstract Global Wallet (AGW) ?',
+        a: 'Un portefeuille intelligent permettant une connexion en un clic sans phrase secrète sur tout l’écosystème Abstract.'
+      },
+      {
+        q: 'Le testnet Abstract est-il gratuit ?',
+        a: 'Oui, 100 % gratuit ($0) avec de l’ETH de test Sepolia.'
+      }
+    ],
+    ctaText: 'Ouvrir Abstract',
+    englishVersionLabel: 'Version anglaise'
+  },
+  {
+    id: 'abstract',
+    slug: 'uk',
+    lang: 'uk',
+    flag: '🇺🇦',
+    homeLabel: 'Головна',
+    hubLabel: 'Безкоштовні тестнети',
+    hubHref: '/uk/bezkoshtovni-testnety/',
+    title: 'Гайд з аірдропу Abstract (2026): гаманець AGW і тестнет $ABS | Airdroplyx',
+    description: 'Як безкоштовно пройти тестнет Abstract від Pudgy Penguins ($11M+ від Founders Fund): створення Abstract Global Wallet (AGW), міст Sepolia та XP.',
+    h1: 'Abstract ($ABS): гайд із тестнету й Abstract Global Wallet',
+    badge: 'ZK Stack • Безкоштовно',
+    rewardLabel: 'Очікувана винагорода',
+    costLabel: 'Витрати',
+    snapshotLabel: 'Очікуваний період',
+    timeLabel: 'Час на тиждень',
+    overviewHeading: 'Огляд проєкту',
+    overview: 'Abstract — споживчий Layer 2 на базі ZK Stack від Igloo Inc (авторів Pudgy Penguins) із фінансуванням понад $11M від Founders Fund. Через Abstract Global Wallet (AGW) користувачі збирають XP у тестнеті під дроп $ABS.',
+    tokenomicsHeading: 'Токеноміка $ABS',
+    tokenomics: 'Токен $ABS відповідатиме за управління і стейкінг секвенсорів ZK-Rollup, нагороджуючи ранніх власників AGW та бейджів.',
+    stepsHeading: 'Покрокова інструкція',
+    steps: [
+      'Перейдіть на офіційний портал Abstract (abs.xyz).',
+      'Створіть Abstract Global Wallet (AGW) через соціальний вхід або passkey.',
+      'Отримайте безкоштовний тестовий ETH в офіційному крані Abstract Sepolia.',
+      'Переведіть тестові кошти через міст із Ethereum Sepolia в тестнет Abstract.',
+      'Тестуйте dApps, мінтіть тестові NFT та виконуйте завдання на XP.'
+    ],
+    strategyHeading: 'Стратегія максимізації нагород',
+    strategy: 'Рано створіть AGW, заберіть бейдж раннього користувача та регулярно здійснюйте транзакції в тестнеті.',
+    sybilHeading: 'Захист від Sybil та безпека',
+    sybilSafety: 'Прив’язка passkey в AGW і соціальна перевірка захищають пул від ботів. Користуйтеся лише сайтом abs.xyz.',
+    faqHeading: 'Часті запитання',
+    faqs: [
+      {
+        q: 'Що таке Abstract Global Wallet (AGW)?',
+        a: 'Смарт-гаманець для входу в один клік без сід-фраз у всіх додатках Abstract.'
+      },
+      {
+        q: 'Чи безкоштовний тестнет Abstract?',
+        a: 'Так, участь повністю безкоштовна ($0) на тестовому ETH Sepolia.'
+      }
+    ],
+    ctaText: 'Відкрити Abstract',
+    englishVersionLabel: 'Англійська версія'
+  },
+  {
+    id: 'abstract',
+    slug: 'zh',
+    lang: 'zh-CN',
+    flag: '🇨🇳',
+    homeLabel: '首页',
+    hubLabel: '免费测试网',
+    hubHref: '/zh/free-testnets/',
+    title: 'Abstract 空投教程 (2026)：胖企鹅 L2 创建 AGW 与赚取 $ABS XP | Airdroplyx',
+    description: 'Pudgy Penguins 母公司 Igloo Inc 与 Founders Fund 投资的消费级 L2 Abstract 免费测试网教程：创建 AGW 钱包、Sepolia 跨链与 XP 任务。',
+    h1: 'Abstract ($ABS) 免费测试网及 AGW 钱包攻略',
+    badge: 'ZK Stack • 零撸免费',
+    rewardLabel: '预估奖励',
+    costLabel: '参与成本',
+    snapshotLabel: '预期周期',
+    timeLabel: '每周耗时',
+    overviewHeading: '项目简介',
+    overview: 'Abstract 是由 Pudgy Penguins 母公司 Igloo Inc 基于 ZK Stack 打造的消费级 Layer 2 网络，获 Founders Fund 领投超 1100 万美元。通过 Abstract Global Wallet（AGW）可免助记词一键体验生态应用并累积 $ABS 空投积分。',
+    tokenomicsHeading: '$ABS 代币经济',
+    tokenomics: '$ABS 将作为 ZK-Rollup 治理与排序器质押代币，重点激励早期创建 AGW 钱包及收集徽章的用户。',
+    stepsHeading: '详细参与步骤',
+    steps: [
+      '访问 Abstract 官方门户（abs.xyz）。',
+      '使用社交登录或通行密钥（passkey）创建你的 Abstract Global Wallet（AGW）。',
+      '从官方 Abstract Sepolia 水龙头免费领取测试 ETH。',
+      '将测试资金从 Ethereum Sepolia 跨链桥接至 Abstract 测试网。',
+      '体验精选消费级 dApp、铸造测试网 NFT 并完成 XP 积分任务。'
+    ],
+    strategyHeading: '高收益策略',
+    strategy: '尽早创建 AGW 领取早鸟徽章，完成官方任务面板验证并保持定期的测试网链上交互。',
+    sybilHeading: '防女巫机制与安全提示',
+    sybilSafety: 'AGW 生物识别/Passkey 绑定与社交验证可有效抵御脚本批量刷号。请务必认准官网 abs.xyz。',
+    faqHeading: '常见问题',
+    faqs: [
+      {
+        q: '什么是 Abstract Global Wallet（AGW）？',
+        a: '支持在 Abstract 生态所有应用中一键免助记词体验的智能合约钱包。'
+      },
+      {
+        q: '参与 Abstract 测试网免费吗？',
+        a: '是的，全程使用免费 Sepolia 测试 ETH，零成本（$0）参与。'
+      }
+    ],
+    ctaText: '打开 Abstract',
+    englishVersionLabel: '英文原版'
+  },
+  {
+    id: 'abstract',
+    slug: 'hi',
+    lang: 'hi',
+    flag: '🇮🇳',
+    homeLabel: 'होम',
+    hubLabel: 'मुफ़्त टेस्टनेट',
+    hubHref: '/hi/free-testnets/',
+    title: 'Abstract एयरड्रॉप गाइड (2026): AGW सेटअप और $ABS XP | Airdroplyx',
+    description: 'Pudgy Penguins (Igloo Inc) और Founders Fund समर्थित ($11M+) Abstract टेस्टनेट में मुफ़्त भाग लेने, AGW वॉलेट बनाने और XP कमाने की गाइड।',
+    h1: 'Abstract ($ABS) मुफ़्त टेस्टनेट और AGW एयरड्रॉप गाइड',
+    badge: 'ZK Stack • मुफ़्त टेस्टनेट',
+    rewardLabel: 'अनुमानित इनाम',
+    costLabel: 'लागत',
+    snapshotLabel: 'अनुमानित समय',
+    timeLabel: 'साप्ताहिक समय',
+    overviewHeading: 'प्रोजेक्ट का परिचय',
+    overview: 'Pudgy Penguins की मूल कंपनी Igloo Inc द्वारा ZK Stack पर निर्मित और Founders Fund से $11M+ फंडिंग प्राप्त Abstract एक कंज्यूमर Layer 2 है। Abstract Global Wallet (AGW) बिना सीड फ्रेज़ के आसान एंट्री और $ABS के लिए XP देता है।',
+    tokenomicsHeading: '$ABS टोकनॉमिक्स',
+    tokenomics: '$ABS टोकन ZK-Rollup की गवर्नेंस और सीक्वेंसर स्टेकिंग में उपयोग होगा, जिसमें शुरुआती AGW निर्माताओं को प्राथमिकता मिलेगी।',
+    stepsHeading: 'भाग लेने के आसान चरण',
+    steps: [
+      'आधिकारिक Abstract पोर्टल (abs.xyz) पर जाएं।',
+      'सोशल साइन-इन या पासकी (passkey) से अपना Abstract Global Wallet (AGW) बनाएं।',
+      'आधिकारिक Abstract Sepolia फॉसेट से मुफ़्त टेस्ट ETH क्लेम करें।',
+      'Ethereum Sepolia से Abstract टेस्टनेट पर टेस्ट फंड्स ब्रिज करें।',
+      'फीचर्ड कंज्यूमर dApps इस्तेमाल करें, टेस्टनेट NFT मिंट करें और XP मिशन पूरे करें।'
+    ],
+    strategyHeading: 'अधिकतम इनाम की रणनीति',
+    strategy: 'जल्दी AGW बनाकर अर्ली एडॉप्टर बैज पाएं और स्नैपशॉट से पहले टेस्टनेट पर नियमित ट्रांज़ैक्शन बनाए रखें।',
+    sybilHeading: 'सिबिल सुरक्षा और सावधानियाँ',
+    sybilSafety: 'AGW पासकी बाइंडिंग और सोशल वेरिफिकेशन बॉट फार्म्स से सुरक्षा देते हैं। केवल abs.xyz वेबसाइट का ही उपयोग करें।',
+    faqHeading: 'अक्सर पूछे जाने वाले प्रश्न',
+    faqs: [
+      {
+        q: 'Abstract Global Wallet (AGW) क्या है?',
+        a: 'यह एक स्मार्ट कॉन्ट्रैक्ट वॉलेट है जो Abstract के सभी ऐप्स में वन-क्लिक एंट्री देता है।'
+      },
+      {
+        q: 'क्या Abstract टेस्टनेट मुफ़्त है?',
+        a: 'हाँ, Sepolia टेस्ट ETH से यह 100% मुफ़्त ($0) है।'
+      }
+    ],
+    ctaText: 'Abstract खोलें',
+    englishVersionLabel: 'अंग्रेज़ी संस्करण'
+  },
+  {
+    id: 'abstract',
+    slug: 'it',
+    lang: 'it',
+    flag: '🇮🇹',
+    homeLabel: 'Home',
+    hubLabel: 'Testnet Gratuiti',
+    hubHref: '/it/testnet-gratuiti/',
+    title: 'Guida Airdrop Abstract (2026): Creare AGW e XP $ABS | Airdroplyx',
+    description: 'Come partecipare gratis alla testnet Abstract di Pudgy Penguins ($11M+ da Founders Fund): configura Abstract Global Wallet (AGW) e ottieni XP.',
+    h1: 'Abstract ($ABS): Guida Testnet Gratuita e Abstract Global Wallet',
+    badge: 'ZK Stack • Gratis',
+    rewardLabel: 'Ricompensa stimata',
+    costLabel: 'Costo',
+    snapshotLabel: 'Periodo previsto',
+    timeLabel: 'Tempo settimanale',
+    overviewHeading: 'Panoramica del progetto',
+    overview: 'Abstract è la blockchain Layer 2 consumer basata su ZK Stack sviluppata da Igloo Inc (Pudgy Penguins) con oltre 11 milioni di dollari guidati da Founders Fund. Con Abstract Global Wallet (AGW) accumuli XP sulla testnet per il token $ABS.',
+    tokenomicsHeading: 'Tokenomics di $ABS',
+    tokenomics: 'Il token $ABS supporterà governance e staking dei sequencer del ZK-Rollup, premiando i primi creatori di AGW e i collezionisti di badge.',
+    stepsHeading: 'Come partecipare passo dopo passo',
+    steps: [
+      'Visita il portale ufficiale Abstract (abs.xyz).',
+      'Crea il tuo Abstract Global Wallet (AGW) tramite accesso social o passkey.',
+      'Richiedi ETH di test gratuito dal faucet ufficiale Abstract Sepolia.',
+      'Trasferisci i fondi di prova tramite bridge da Ethereum Sepolia ad Abstract.',
+      'Interagisci con le dApp consumer, conia NFT di test e completa le missioni XP.'
+    ],
+    strategyHeading: 'Strategia per massimizzare i punti',
+    strategy: 'Configura subito AGW per ottenere il badge da pioniere e mantieni transazioni regolari sulla testnet.',
+    sybilSafety: 'L’associazione passkey di AGW e i controlli social proteggono dalle bot farm. Accedi esclusivamente ad abs.xyz.',
+    sybilHeading: 'Sicurezza e protezione Sybil',
+    faqHeading: 'Domande frequenti',
+    faqs: [
+      {
+        q: 'Cos’è l’Abstract Global Wallet (AGW)?',
+        a: 'Un wallet smart contract per accedere con un clic senza frase seed a tutte le applicazioni Abstract.'
+      },
+      {
+        q: 'La testnet di Abstract è gratuita?',
+        a: 'Sì, gratuita al 100% ($0) usando ETH di prova Sepolia.'
+      }
+    ],
+    ctaText: 'Apri Abstract',
+    englishVersionLabel: 'Versione inglese'
+  },
+  {
+    id: 'abstract',
+    slug: 'pl',
+    lang: 'pl',
+    flag: '🇵🇱',
+    homeLabel: 'Strona główna',
+    hubLabel: 'Darmowe Testnety',
+    hubHref: '/pl/darmowe-testnety/',
+    title: 'Poradnik Airdrop Abstract (2026): Portfel AGW i XP $ABS | Airdroplyx',
+    description: 'Jak za darmo przejść testnet Abstract od Pudgy Penguins ($11M+ z Founders Fund): utwórz Abstract Global Wallet (AGW) i zbieraj XP.',
+    h1: 'Abstract ($ABS): Poradnik Darmowego Testnetu i AGW',
+    badge: 'ZK Stack • Darmowy',
+    rewardLabel: 'Szacowana nagroda',
+    costLabel: 'Koszt',
+    snapshotLabel: 'Przewidywany okres',
+    timeLabel: 'Czas tygodniowo',
+    overviewHeading: 'Opis projektu',
+    overview: 'Abstract to konsumencki Layer 2 na ZK Stack stworzony przez Igloo Inc (Pudgy Penguins) ze wsparciem ponad 11 mln USD od Founders Fund. Dzięki Abstract Global Wallet (AGW) zbierasz punkty XP w testnecie pod airdrop $ABS.',
+    tokenomicsHeading: 'Tokenomika $ABS',
+    tokenomics: 'Token $ABS posłuży do zarządzania i stakingu sekwencerów ZK-Rollup, nagradzając wczesnych twórców AGW oraz posiadaczy odznak.',
+    stepsHeading: 'Instrukcja krok po kroku',
+    steps: [
+      'Odwiedź oficjalny portal Abstract (abs.xyz).',
+      'Utwórz Abstract Global Wallet (AGW) za pomocą logowania społecznościowego lub passkey.',
+      'Odbierz darmowy testowy ETH z oficjalnego kraniku Abstract Sepolia.',
+      'Prześlij środki testowe mostem z Ethereum Sepolia do sieci testowej Abstract.',
+      'Testuj wybrane aplikacje konsumenckie, odbieraj NFT testowe i wykonuj misje XP.'
+    ],
+    strategyHeading: 'Strategia maksymalizacji nagród',
+    strategy: 'Załóż AGW jak najwcześniej po odznakę pioniera i utrzymuj regularną aktywność na testnecie aż do migawki.',
+    sybilHeading: 'Ochrona Anti-Sybil i bezpieczeństwo',
+    sybilSafety: 'Powiązanie passkey w AGW i weryfikacja społecznościowa chronią przed farmami botów. Korzystaj wyłącznie z abs.xyz.',
+    faqHeading: 'Często zadawane pytania',
+    faqs: [
+      {
+        q: 'Czym jest Abstract Global Wallet (AGW)?',
+        a: 'Inteligentnym portfelem zapewniającym logowanie jednym kliknięciem bez frazy seed we wszystkich aplikacjach Abstract.'
+      },
+      {
+        q: 'Czy testnet Abstract jest darmowy?',
+        a: 'Tak, jest w 100% darmowy ($0) przy użyciu testowego ETH Sepolia.'
+      }
+    ],
+    ctaText: 'Otwórz Abstract',
+    englishVersionLabel: 'Wersja angielska'
   }
 ];
 
