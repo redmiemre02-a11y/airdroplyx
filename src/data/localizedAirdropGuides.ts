@@ -13233,6 +13233,1482 @@ export const localizedAirdropGuides: LocalizedAirdropGuide[] = [
     ],
     ctaText: 'Otwórz Initia',
     englishVersionLabel: 'Wersja angielska'
+  },
+
+  // ================= ECLIPSE (16 LANGUAGES) =================
+  {
+    id: 'eclipse',
+    slug: 'tr',
+    lang: 'tr',
+    flag: '🇹🇷',
+    homeLabel: 'Ana Sayfa',
+    hubLabel: 'Ücretsiz Testnetler',
+    hubHref: '/tr/ucretsiz-testnet-airdroplari/',
+    title: 'Eclipse Airdrop Rehberi (2026): $65M SVM Layer 2 & Backpack | Airdroplyx',
+    description: 'Polychain Capital ve Tribe Capital destekli ($65M) Ethereum SVM Layer 2 ağı Eclipse için Backpack cüzdan kurulumu, ETH köprüsü ve dApp rehberi.',
+    h1: 'Eclipse (SVM L2) Ekosistem ve Testnet Airdrop Rehberi',
+    badge: '$65M Yatırım • SVM Layer 2',
+    rewardLabel: 'Tahmini Ödül',
+    costLabel: 'Maliyet',
+    snapshotLabel: 'Beklenen Dönem',
+    timeLabel: 'Haftalık Süre',
+    overviewHeading: 'Proje Özeti',
+    overview: 'Polychain Capital, Tribe Capital, Placeholder ve Hack VC’den 65 milyon dolar yatırım alan Eclipse, Solana Sanal Makinesi (SVM) ile çalışan Ethereum’un en hızlı Layer 2 ağıdır. Yürütme için paralel SVM, veri erişilebilirliği için Celestia ve yerleşim için Ethereum Layer 1 kullanan modüler mimarisiyle erken köprü ve SVM dApp kullanıcılarını ödüllendirmeye hazırlanmaktadır.',
+    tokenomicsHeading: 'Ekosistem ve Token Yapısı',
+    tokenomics: 'Eclipse, Layer 2 işlem ücretleri için yerel gaz varlığı olarak ETH kullanır. Gelecekteki yerel ekosistem tokenının merkeziyetsiz sıralayıcı teşvikleri, yönetişim ve erken köprü/dApp katılımcılarına dağıtım için kullanılması beklenmektedir.',
+    stepsHeading: 'Adım Adım Katılım Rehberi',
+    steps: [
+      'Resmi Eclipse portalına (eclipse.xyz) gidin ve modüler mimari dokümanlarını inceleyin.',
+      'Eclipse SVM ağını destekleyen Backpack veya Salmon cüzdanını kurun.',
+      'Resmi Eclipse köprü sözleşmesi üzerinden Ethereum ağından Eclipse ağına ETH aktarın.',
+      'Erken dönem Eclipse merkeziyetsiz borsalarında takas yapın ve likidite sağlayın.',
+      'Ekosistem partner NFT’lerini mint edin ve resmi Discord kanallarında doğrulama yapın.'
+    ],
+    strategyHeading: 'Maksimum Ödül Stratejisi',
+    strategy: 'Yalnızca köprü yapmakla kalmayın; Backpack cüzdanınızla Eclipse üzerindeki SVM DEX ve borç verme protokollerinde çeşitli işlemler gerçekleştirip Discord topluluk rollerini alın.',
+    sybilHeading: 'Sybil Koruması ve Güvenlik',
+    sybilSafety: 'Eclipse, sıfır değerli hızlı bot işlemlerini makine öğrenimiyle eler. Gerçek köprüleme ve çeşitli SVM dApp etkileşimleri güvenli katılım sağlar.',
+    faqHeading: 'Sıkça Sorulan Sorular',
+    faqs: [
+      {
+        q: 'Eclipse ağı için hangi cüzdan gerekiyor?',
+        a: 'Eclipse, Solana Sanal Makinesi (SVM) kullandığı için Backpack Wallet gibi SVM uyumlu bir cüzdan gerekir.'
+      },
+      {
+        q: 'Eclipse ağında gaz ücreti hangi tokenla ödenir?',
+        a: 'Layer 2 işlem ücretleri yerel olarak Ethereum (ETH) ile ödenir.'
+      }
+    ],
+    ctaText: 'Eclipse’i Aç',
+    englishVersionLabel: 'İngilizce Sürüm'
+  },
+  {
+    id: 'eclipse',
+    slug: 'ru',
+    lang: 'ru',
+    flag: '🇷🇺',
+    homeLabel: 'Главная',
+    hubLabel: 'Бесплатные тестнеты',
+    hubHref: '/ru/free-testnets/',
+    title: 'Гайд по аирдропу Eclipse (2026): SVM Layer 2 ($65M) и Backpack | Airdroplyx',
+    description: 'Как участвовать в экосистеме Eclipse ($65M от Polychain Capital и Tribe Capital): установка Backpack, мост ETH, SVM dApps и активности.',
+    h1: 'Eclipse (SVM L2): гайд по экосистеме и аирдропу',
+    badge: 'Инвестиции $65M • SVM Layer 2',
+    rewardLabel: 'Ожидаемая награда',
+    costLabel: 'Затраты',
+    snapshotLabel: 'Ожидаемый период',
+    timeLabel: 'Время в неделю',
+    overviewHeading: 'Обзор проекта',
+    overview: 'Eclipse — первый Ethereum Layer 2 на базе виртуальной машины Solana (SVM), привлёкший $65 млн от Polychain Capital, Tribe Capital, Placeholder и Hack VC. Сеть объединяет скорость SVM, доступность данных Celestia и безопасность расчётов Ethereum L1.',
+    tokenomicsHeading: 'Экосистема и токеномика',
+    tokenomics: 'В качестве газа используется ETH, а будущий токен экосистемы обеспечит децентрализацию секвенсоров, управление и ретроактивное поощрение ранних пользователей моста и SVM dApps.',
+    stepsHeading: 'Пошаговая инструкция',
+    steps: [
+      'Перейдите на официальный портал Eclipse (eclipse.xyz).',
+      'Установите совместимый SVM-кошелек, например Backpack Wallet или Salmon.',
+      'Переведите ETH в сеть Eclipse через официальный контракт моста.',
+      'Совершайте обмены на ранних нативных DEX в сети Eclipse.',
+      'Сминтите партнёрские NFT и подтвердите участие в официальном Discord Eclipse.'
+    ],
+    strategyHeading: 'Стратегия фарма',
+    strategy: 'После бриджа в Backpack активно тестируйте различные SVM DEX и лендинги, а также отслеживайте задания экосистемы в Discord.',
+    sybilHeading: 'Защита от ботов и безопасность',
+    sybilSafety: 'Eclipse отсекает скрипты с пустыми транзакциями. Разнообразные действия в проверенных SVM dApps подтверждают реального пользователя.',
+    faqHeading: 'Частые вопросы',
+    faqs: [
+      {
+        q: 'Какой кошелек нужен для Eclipse?',
+        a: 'Поскольку сеть работает на SVM, требуется совместимый кошелек вроде Backpack Wallet.'
+      },
+      {
+        q: 'Какой токен используется для оплаты газа?',
+        a: 'Комиссии в L2-сети Eclipse оплачиваются нативным ETH.'
+      }
+    ],
+    ctaText: 'Открыть Eclipse',
+    englishVersionLabel: 'Английская версия'
+  },
+  {
+    id: 'eclipse',
+    slug: 'id',
+    lang: 'id',
+    flag: '🇮🇩',
+    homeLabel: 'Beranda',
+    hubLabel: 'Testnet Gratis',
+    hubHref: '/id/testnet-gratis/',
+    title: 'Panduan Airdrop Eclipse (2026): SVM Layer 2 ($65M) & Backpack | Airdroplyx',
+    description: 'Panduan lengkap Eclipse ($65M dari Polychain Capital & Tribe Capital): pasang dompet Backpack, bridge ETH, dan coba dApp SVM di Ethereum.',
+    h1: 'Eclipse (SVM L2): Panduan Ekosistem & Airdrop',
+    badge: 'Pendanaan $65M • SVM Layer 2',
+    rewardLabel: 'Estimasi Hadiah',
+    costLabel: 'Biaya',
+    snapshotLabel: 'Perkiraan Snapshot',
+    timeLabel: 'Waktu Mingguan',
+    overviewHeading: 'Ringkasan Proyek',
+    overview: 'Didukung $65 juta oleh Polychain Capital, Tribe Capital, Placeholder, dan Hack VC, Eclipse adalah Layer 2 Ethereum bertenaga Solana Virtual Machine (SVM). Arsitektur modularnya memadukan eksekusi paralel SVM, ketersediaan data Celestia, dan penyelesaian Ethereum L1.',
+    tokenomicsHeading: 'Ekosistem & Tokenomik',
+    tokenomics: 'Eclipse memakai ETH sebagai token gas; token ekosistemnya kelak mengatur insentif sequencer, tata kelola, serta alokasi bagi pengguna bridge awal.',
+    stepsHeading: 'Langkah-Langkah Mengikuti Airdrop',
+    steps: [
+      'Kunjungi portal resmi Eclipse (eclipse.xyz).',
+      'Pasang dompet kompatibel SVM seperti Backpack Wallet atau Salmon.',
+      'Bridge ETH dari Ethereum ke Eclipse melalui kontrak deposit resmi.',
+      'Lakukan swap di bursa terdesentralisasi awal berbasis SVM di Eclipse.',
+      'Cetak NFT mitra ekosistem dan verifikasi akun Anda di Discord Eclipse.'
+    ],
+    strategyHeading: 'Strategi Maksimal',
+    strategy: 'Gunakan dompet Backpack untuk mencoba berbagai DEX serta pasar pinjaman SVM dan kumpulkan peran komunitas di Discord.',
+    sybilHeading: 'Keamanan & Anti-Sybil',
+    sybilSafety: 'Eclipse memfilter transaksi bot bernilai nol yang berulang. Aktivitas nyata di dApp terverifikasi menjaga kelayakan Anda.',
+    faqHeading: 'Pertanyaan Umum',
+    faqs: [
+      {
+        q: 'Dompet apa yang dibutuhkan untuk Eclipse?',
+        a: 'Karena memakai SVM, Anda memerlukan dompet kompatibel SVM seperti Backpack Wallet.'
+      },
+      {
+        q: 'Token apa yang dipakai untuk gas di Eclipse?',
+        a: 'Ethereum ($ETH) digunakan secara native untuk membayar biaya gas.'
+      }
+    ],
+    ctaText: 'Buka Eclipse',
+    englishVersionLabel: 'Versi Bahasa Inggris'
+  },
+  {
+    id: 'eclipse',
+    slug: 'vi',
+    lang: 'vi',
+    flag: '🇻🇳',
+    homeLabel: 'Trang chủ',
+    hubLabel: 'Testnet Miễn Phí',
+    hubHref: '/vi/testnet-mien-phi/',
+    title: 'Hướng dẫn Airdrop Eclipse (2026): SVM Layer 2 ($65M) & Backpack | Airdroplyx',
+    description: 'Cách tham gia hệ sinh thái Eclipse ($65M từ Polychain Capital & Tribe Capital): cài ví Backpack, bridge ETH và trải nghiệm dApp SVM.',
+    h1: 'Eclipse (SVM L2): Hướng Dẫn Hệ Sinh Thái & Săn Airdrop',
+    badge: 'Gọi vốn $65M • SVM Layer 2',
+    rewardLabel: 'Phần thưởng dự kiến',
+    costLabel: 'Chi phí',
+    snapshotLabel: 'Thời gian dự kiến',
+    timeLabel: 'Thời gian mỗi tuần',
+    overviewHeading: 'Tổng quan dự án',
+    overview: 'Huy động $65 triệu từ Polychain Capital, Tribe Capital, Placeholder và Hack VC, Eclipse là Layer 2 đầu tiên trên Ethereum chạy Solana Virtual Machine (SVM), kết hợp tốc độ SVM, Celestia DA và bảo mật thanh toán của Ethereum L1.',
+    tokenomicsHeading: 'Hệ sinh thái & Tokenomics',
+    tokenomics: 'Eclipse sử dụng ETH làm phí gas; token hệ sinh thái trong tương lai sẽ điều phối sequencer phi tập trung và thưởng cho người dùng bridge cùng dApp sớm.',
+    stepsHeading: 'Các bước tham gia chi tiết',
+    steps: [
+      'Truy cập cổng chính thức Eclipse (eclipse.xyz).',
+      'Cài đặt ví hỗ trợ SVM tương thích như Backpack Wallet hoặc Salmon.',
+      'Bridge ETH từ Ethereum sang Eclipse qua hợp đồng gửi tiền chính thức.',
+      'Thực hiện swap trên các sàn DEX đầu tiên của hệ sinh thái Eclipse.',
+      'Mint NFT đối tác nổi bật và xác minh thông tin trên Discord chính thức của Eclipse.'
+    ],
+    strategyHeading: 'Chiến lược tối ưu điểm',
+    strategy: 'Sử dụng ví Backpack để trải nghiệm nhiều DEX và nền tảng cho vay SVM trên Eclipse, đồng thời theo dõi nhiệm vụ Discord.',
+    sybilHeading: 'Chống Sybil & Bảo mật',
+    sybilSafety: 'Eclipse dùng thuật toán loại bỏ các bot chạy giao dịch 0 đồng liên tục. Hãy tương tác đa dạng trên các dApp uy tín.',
+    faqHeading: 'Câu hỏi thường gặp',
+    faqs: [
+      {
+        q: 'Cần dùng ví nào cho Eclipse?',
+        a: 'Do sử dụng máy ảo SVM, bạn cần ví tương thích như Backpack Wallet.'
+      },
+      {
+        q: 'Dùng token nào để trả phí gas trên Eclipse?',
+        a: 'Ethereum ($ETH) được dùng làm phí gas gốc trên mạng Layer 2 Eclipse.'
+      }
+    ],
+    ctaText: 'Mở Eclipse',
+    englishVersionLabel: 'Bản tiếng Anh'
+  },
+  {
+    id: 'eclipse',
+    slug: 'es',
+    lang: 'es',
+    flag: '🇪🇸',
+    homeLabel: 'Inicio',
+    hubLabel: 'Testnets Gratis',
+    hubHref: '/es/testnets-gratis/',
+    title: 'Guía Airdrop Eclipse (2026): SVM Layer 2 ($65M) y Backpack | Airdroplyx',
+    description: 'Cómo posicionarte en Eclipse ($65M de Polychain Capital y Tribe Capital): configura Backpack Wallet, puentea ETH y usa dApps SVM en Ethereum.',
+    h1: 'Eclipse (SVM L2): Guía del Ecosistema y Airdrop',
+    badge: 'Financiación $65M • SVM Layer 2',
+    rewardLabel: 'Recompensa estimada',
+    costLabel: 'Costo',
+    snapshotLabel: 'Periodo estimado',
+    timeLabel: 'Tiempo semanal',
+    overviewHeading: 'Resumen del proyecto',
+    overview: 'Con $65 millones de Polychain Capital, Tribe Capital, Placeholder y Hack VC, Eclipse es la Layer 2 de Ethereum impulsada por la Solana Virtual Machine (SVM), uniendo la ejecución paralela de SVM, disponibilidad de datos en Celestia y liquidación en Ethereum.',
+    tokenomicsHeading: 'Ecosistema y Tokenomics',
+    tokenomics: 'Eclipse usa ETH como gas; su futuro token coordinará los incentivos de secuenciadores, la gobernanza y las asignaciones retroactivas para primeros usuarios.',
+    stepsHeading: 'Pasos para participar',
+    steps: [
+      'Visita el portal oficial de Eclipse (eclipse.xyz).',
+      'Instala una billetera compatible con SVM como Backpack Wallet o Salmon.',
+      'Envía ETH mediante el puente oficial desde Ethereum hacia Eclipse.',
+      'Realiza intercambios en los primeros DEX nativos del ecosistema Eclipse.',
+      'Acuña NFTs de socios destacados y verifica tus credenciales en Discord.'
+    ],
+    strategyHeading: 'Estrategia para maximizar recompensas',
+    strategy: 'Explora varios DEX y mercados de préstamo SVM con tu billetera Backpack y participa en el Discord oficial.',
+    sybilHeading: 'Seguridad y protección Sybil',
+    sybilSafety: 'Eclipse filtra cuentas automáticas con transacciones repetidas de valor cero. Mantén interacciones variadas en dApps verificadas.',
+    faqHeading: 'Preguntas frecuentes',
+    faqs: [
+      {
+        q: '¿Qué billetera necesito para Eclipse?',
+        a: 'Al ejecutar SVM, necesitas una billetera compatible como Backpack Wallet.'
+      },
+      {
+        q: '¿Qué token paga el gas en Eclipse?',
+        a: 'Ethereum ($ETH) se utiliza nativamente para pagar el gas en Eclipse.'
+      }
+    ],
+    ctaText: 'Abrir Eclipse',
+    englishVersionLabel: 'Versión en inglés'
+  },
+  {
+    id: 'eclipse',
+    slug: 'pt',
+    lang: 'pt',
+    flag: '🇧🇷',
+    homeLabel: 'Início',
+    hubLabel: 'Testnets Grátis',
+    hubHref: '/pt/testnets-gratis/',
+    title: 'Guia Airdrop Eclipse (2026): SVM Layer 2 ($65M) e Backpack | Airdroplyx',
+    description: 'Saiba como participar do ecossistema Eclipse ($65M da Polychain Capital e Tribe Capital): instale a Backpack Wallet, faça bridge de ETH e use dApps SVM.',
+    h1: 'Eclipse (SVM L2): Guia do Ecossistema e Airdrop',
+    badge: 'Investimento $65M • SVM Layer 2',
+    rewardLabel: 'Recompensa estimada',
+    costLabel: 'Custo',
+    snapshotLabel: 'Previsão',
+    timeLabel: 'Tempo semanal',
+    overviewHeading: 'Visão geral do projeto',
+    overview: 'Apoiado por $65 milhões da Polychain Capital, Tribe Capital, Placeholder e Hack VC, o Eclipse é o primeiro Ethereum Layer 2 com Solana Virtual Machine (SVM), unindo execução paralela SVM, dados na Celestia e liquidação no Ethereum.',
+    tokenomicsHeading: 'Ecossistema e Tokenomics',
+    tokenomics: 'O Eclipse utiliza ETH como gás; um futuro token nativo coordenará sequenciadores, governança e distribuições retroativas para adotantes iniciais.',
+    stepsHeading: 'Passo a passo para participar',
+    steps: [
+      'Acesse o portal oficial do Eclipse (eclipse.xyz).',
+      'Instale uma carteira compatível com SVM, como a Backpack Wallet ou Salmon.',
+      'Transfira ETH via contrato oficial de depósito do Ethereum para o Eclipse.',
+      'Faça swaps nas primeiras exchanges descentralizadas nativas do Eclipse.',
+      'Cunhe NFTs de parceiros em destaque e valide sua conta no Discord oficial.'
+    ],
+    strategyHeading: 'Estratégia de ganhos',
+    strategy: 'Use sua carteira Backpack para testar diferentes DEXs e mercados de empréstimo SVM enquanto acompanha as missões no Discord.',
+    sybilHeading: 'Proteção Sybil e segurança',
+    sybilSafety: 'O Eclipse descarta scripts com transações rápidas de valor zero. Interações variadas em dApps oficiais garantem elegibilidade.',
+    faqHeading: 'Perguntas frequentes',
+    faqs: [
+      {
+        q: 'Qual carteira é necessária para o Eclipse?',
+        a: 'Por usar SVM, você precisa de uma carteira compatível como a Backpack Wallet.'
+      },
+      {
+        q: 'Qual token paga o gás no Eclipse?',
+        a: 'Ethereum ($ETH) é usado nativamente para taxas de gás.'
+      }
+    ],
+    ctaText: 'Abrir Eclipse',
+    englishVersionLabel: 'Versão em inglês'
+  },
+  {
+    id: 'eclipse',
+    slug: 'ko',
+    lang: 'ko',
+    flag: '🇰🇷',
+    homeLabel: '홈',
+    hubLabel: '무료 테스트넷',
+    hubHref: '/ko/free-testnets/',
+    title: 'Eclipse 에어드랍 가이드 (2026): $65M SVM L2 & Backpack | Airdroplyx',
+    description: 'Polychain Capital과 Tribe Capital이 $65M 투자한 이더리움 기반 SVM L2 Eclipse 공략: Backpack 지갑 설정, ETH 브릿지 및 생태계 dApp.',
+    h1: 'Eclipse (SVM L2) 생태계 및 에어드랍 공략 가이드',
+    badge: '$65M 투자 유치 • SVM Layer 2',
+    rewardLabel: '예상 보상',
+    costLabel: '비용',
+    snapshotLabel: '예상 시기',
+    timeLabel: '주간 소요 시간',
+    overviewHeading: '프로젝트 개요',
+    overview: 'Polychain Capital, Tribe Capital, Placeholder, Hack VC 등으로부터 6,500만 달러를 유치한 Eclipse는 솔라나 가상머신(SVM)을 실행 레이어로 채택한 이더리움 Layer 2입니다. Celestia DA와 이더리움 L1 결제를 결합한 모듈형 구조가 특징입니다.',
+    tokenomicsHeading: '생태계 및 토크노믹스',
+    tokenomics: 'Eclipse는 ETH를 가스비로 사용하며, 향후 네이티브 토큰을 통해 시퀀서 인센티브와 초기 브릿지·dApp 이용자에 대한 소급 보상이 기대됩니다.',
+    stepsHeading: '단계별 참여 방법',
+    steps: [
+      '공식 Eclipse 포털(eclipse.xyz)을 방문해 가이드를 확인하세요.',
+      'Backpack Wallet 또는 Salmon 같은 SVM 호환 지갑을 설치하세요.',
+      '공식 브릿지 컨트랙트를 통해 이더리움에서 Eclipse로 ETH를 전송하세요.',
+      'Eclipse 초기 네이티브 DEX에서 스왑 및 유동성 공급을 진행하세요.',
+      '주요 파트너 NFT를 민팅하고 공식 Eclipse Discord 인증을 완료하세요.'
+    ],
+    strategyHeading: '보상 극대화 전략',
+    strategy: 'Backpack 지갑으로 다양한 SVM DEX와 대출 프로토콜을 이용하고 공식 Discord 커뮤니티 활동을 병행하세요.',
+    sybilHeading: '시빌 방지 및 보안',
+    sybilSafety: '단순 반복 0원 트랜잭션 봇은 머신러닝으로 걸러집니다. 검증된 dApp에서 다양한 온체인 기록을 남기세요.',
+    faqHeading: '자주 묻는 질문',
+    faqs: [
+      {
+        q: 'Eclipse에는 어떤 지갑이 필요한가요?',
+        a: 'SVM 기반이므로 Backpack Wallet 같은 SVM 호환 지갑이 필요합니다.'
+      },
+      {
+        q: 'Eclipse 가스비는 무엇으로 내나요?',
+        a: '네이티브 ETH로 Layer 2 가스비를 결제합니다.'
+      }
+    ],
+    ctaText: 'Eclipse 열기',
+    englishVersionLabel: '영문 버전'
+  },
+  {
+    id: 'eclipse',
+    slug: 'ja',
+    lang: 'ja',
+    flag: '🇯🇵',
+    homeLabel: 'ホーム',
+    hubLabel: '無料テストネット',
+    hubHref: '/ja/free-testnets/',
+    title: 'Eclipse エアドロップ攻略 (2026): $65M SVM L2＆Backpack | Airdroplyx',
+    description: 'Polychain CapitalやTribe Capitalから6,500万ドル調達したSVM搭載Ethereum L2「Eclipse」攻略：Backpack導入・ETHブリッジ・dApp手順。',
+    h1: 'Eclipse (SVM L2) エコシステム＆エアドロップ攻略ガイド',
+    badge: '$65M調達済み • SVM Layer 2',
+    rewardLabel: '予想報酬',
+    costLabel: '費用',
+    snapshotLabel: '予定時期',
+    timeLabel: '週間作業時間',
+    overviewHeading: 'プロジェクト概要',
+    overview: 'Polychain Capital、Tribe Capital、Placeholder、Hack VCから6,500万ドルを調達したEclipseは、Solana仮想マシン（SVM）を実行環境とするEthereum Layer 2です。CelestiaのDAとEthereum L1決済を組み合わせたモジュラー構成を採用しています。',
+    tokenomicsHeading: 'エコシステムとトケノミクス',
+    tokenomics: 'ガス代にはETHが使われ、将来のエコシステムトークンは分散型シーケンサー報酬や初期ブリッジ・dApp利用者への還元が想定されています。',
+    stepsHeading: '参加ステップ',
+    steps: [
+      '公式Eclipseポータル（eclipse.xyz）にアクセスします。',
+      'Backpack WalletやSalmonなどのSVM対応ウォレットをインストールします。',
+      '公式デポジットコントラクト経由でEthereumからEclipseへETHをブリッジします。',
+      'Eclipse上の初期ネイティブDEXでスワップや流動性提供を行います。',
+      '注目パートナーNFTをミントし、公式Discordで認証を済ませます。'
+    ],
+    strategyHeading: '報酬最大化のコツ',
+    strategy: 'Backpackウォレットで複数のSVM DEXやレンディングを横断利用し、Discordでの最新キャンペーンも追っておきましょう。',
+    sybilSafety: 'ゼロ額取引を高速で繰り返すボットは機械学習で除外されます。正規dAppでの多様な取引が有効です。',
+    sybilHeading: 'シビル対策と安全性',
+    faqHeading: 'よくある質問',
+    faqs: [
+      {
+        q: 'Eclipseにはどのウォレットが必要ですか？',
+        a: 'SVMを採用しているため、Backpack WalletなどのSVM対応ウォレットが必要です。'
+      },
+      {
+        q: 'ガス代は何で支払いますか？',
+        a: 'Eclipse Layer 2のガス代はネイティブのETHで支払います。'
+      }
+    ],
+    ctaText: 'Eclipseを開く',
+    englishVersionLabel: '英語版を見る'
+  },
+  {
+    id: 'eclipse',
+    slug: 'ar',
+    lang: 'ar',
+    flag: '🇸🇦',
+    homeLabel: 'الرئيسية',
+    hubLabel: 'شبكات اختبار مجانية',
+    hubHref: '/ar/free-testnets/',
+    title: 'دليل إيردروب Eclipse (2026): شبكة SVM Layer 2 ($65M) | Airdroplyx',
+    description: 'دليل المشاركة في شبكة Eclipse ($65M من Polychain Capital وTribe Capital): إعداد محفظة Backpack وجسر ETH وتطبيقات SVM.',
+    h1: 'Eclipse (SVM L2): دليل النظام البيئي والإيردروب',
+    badge: 'تمويل $65M • SVM Layer 2',
+    rewardLabel: 'المكافأة المتوقعة',
+    costLabel: 'التكلفة',
+    snapshotLabel: 'الفترة المتوقعة',
+    timeLabel: 'الوقت الأسبوعي',
+    overviewHeading: 'نظرة عامة على المشروع',
+    overview: 'حصلت Eclipse على 65 مليون دولار من Polychain Capital وTribe Capital وPlaceholder وHack VC لتطوير أول Ethereum Layer 2 يعمل بآلة Solana الافتراضية (SVM) مع Celestia لتوافر البيانات وEthereum L1 للتسوية.',
+    tokenomicsHeading: 'النظام البيئي والاقتصاديات',
+    tokenomics: 'تستخدم Eclipse عملة ETH للغاز، ومن المنتظر أن يدعم رمزها المستقبلي حوافز المُرتِّبات ومكافأة مستخدمي الجسر الأوائل وتطبيقات SVM.',
+    stepsHeading: 'خطوات المشاركة',
+    steps: [
+      'افتح بوابة Eclipse الرسمية (eclipse.xyz).',
+      'ثبّت محفظة متوافقة مع SVM مثل Backpack Wallet أو Salmon.',
+      'حوّل ETH من Ethereum إلى Eclipse عبر عقد الإيداع الرسمي.',
+      'نفّذ مبادلات على المنصات اللامركزية الأولى في شبكة Eclipse.',
+      'اسك رموز NFT للشركاء ووثّق حسابك في خادم Discord الرسمي.'
+    ],
+    strategyHeading: 'استراتيجية تعظيم المكافآت',
+    strategy: 'استخدم محفظة Backpack لتجربة عدة منصات مبادلة وإقراض SVM مع متابعة المهام المجتمعية في Discord.',
+    sybilHeading: 'الحماية من الحسابات الوهمية والأمان',
+    sybilSafety: 'تستبعد خوارزميات التعلم الآلي المعاملات الآلية المتكررة بقيمة صفر. التفاعل الحقيقي المتنوع يضمن أهليتك.',
+    faqHeading: 'الأسئلة الشائعة',
+    faqs: [
+      {
+        q: 'ما المحفظة المطلوبة لشبكة Eclipse؟',
+        a: 'تحتاج إلى محفظة متوافقة مع SVM مثل Backpack Wallet.'
+      },
+      {
+        q: 'ما العملة المستخدمة لدفع الغاز؟',
+        a: 'تُدفع رسوم الغاز على Eclipse بعملة ETH الأصلية.'
+      }
+    ],
+    ctaText: 'افتح Eclipse',
+    englishVersionLabel: 'النسخة الإنجليزية'
+  },
+  {
+    id: 'eclipse',
+    slug: 'de',
+    lang: 'de',
+    flag: '🇩🇪',
+    homeLabel: 'Startseite',
+    hubLabel: 'Kostenlose Testnets',
+    hubHref: '/de/kostenlose-testnets/',
+    title: 'Eclipse Airdrop Guide (2026): $65M SVM Layer 2 & Backpack | Airdroplyx',
+    description: 'Anleitung für Eclipse ($65M von Polychain Capital & Tribe Capital): Backpack Wallet einrichten, ETH überbrücken und SVM-dApps nutzen.',
+    h1: 'Eclipse (SVM L2): Ökosystem- & Airdrop-Guide',
+    badge: '$65M Finanzierung • SVM Layer 2',
+    rewardLabel: 'Geschätzte Belohnung',
+    costLabel: 'Kosten',
+    snapshotLabel: 'Erwarteter Zeitraum',
+    timeLabel: 'Wöchentlicher Aufwand',
+    overviewHeading: 'Projektübersicht',
+    overview: 'Unterstützt mit 65 Millionen US-Dollar von Polychain Capital, Tribe Capital, Placeholder und Hack VC ist Eclipse das erste Ethereum-Layer-2-Netzwerk mit Solana Virtual Machine (SVM), Celestia DA und Ethereum-L1-Settlement.',
+    tokenomicsHeading: 'Ökosystem & Tokenomics',
+    tokenomics: 'ETH dient als Gas-Token; ein künftiger Ökosystem-Token soll dezentrale Sequencer, Governance und frühe Bridge-Nutzer belohnen.',
+    stepsHeading: 'Schritt-für-Schritt-Anleitung',
+    steps: [
+      'Besuche das offizielle Eclipse-Portal (eclipse.xyz).',
+      'Installiere eine SVM-kompatible Wallet wie Backpack Wallet oder Salmon.',
+      'Übertrage ETH über den offiziellen Einzahlungsvertrag von Ethereum nach Eclipse.',
+      'Führe Swaps auf frühen nativen Eclipse-DEXs aus.',
+      'Präge Partner-NFTs und verifiziere dich im offiziellen Eclipse-Discord.'
+    ],
+    strategyHeading: 'Strategie für maximale Punkte',
+    strategy: 'Nutze verschiedene SVM-DEXs und Kreditprotokolle mit Backpack und sichere dir Community-Rollen auf Discord.',
+    sybilHeading: 'Sybil-Schutz & Sicherheit',
+    sybilSafety: 'Automatisierte Null-Wert-Transaktionen werden per Machine Learning herausgefiltert. Vielfältige echte dApp-Nutzung schützt deinen Status.',
+    faqHeading: 'Häufig gestellte Fragen',
+    faqs: [
+      {
+        q: 'Welche Wallet wird für Eclipse benötigt?',
+        a: 'Da Eclipse auf der SVM basiert, benötigst du eine SVM-Wallet wie Backpack Wallet.'
+      },
+      {
+        q: 'Womit werden Gasgebühren auf Eclipse bezahlt?',
+        a: 'Transaktionsgebühren werden nativ in Ethereum ($ETH) bezahlt.'
+      }
+    ],
+    ctaText: 'Eclipse öffnen',
+    englishVersionLabel: 'Englische Version'
+  },
+  {
+    id: 'eclipse',
+    slug: 'fr',
+    lang: 'fr',
+    flag: '🇫🇷',
+    homeLabel: 'Accueil',
+    hubLabel: 'Testnets Gratuits',
+    hubHref: '/fr/testnets-gratuits/',
+    title: 'Guide Airdrop Eclipse (2026) : SVM Layer 2 ($65M) & Backpack | Airdroplyx',
+    description: 'Comment participer à Eclipse (65 M$ par Polychain Capital et Tribe Capital) : configurer Backpack Wallet, bridger ETH et tester les dApps SVM.',
+    h1: 'Eclipse (SVM L2) : Guide Écosystème et Airdrop',
+    badge: 'Financement $65M • SVM Layer 2',
+    rewardLabel: 'Récompense estimée',
+    costLabel: 'Coût',
+    snapshotLabel: 'Période estimée',
+    timeLabel: 'Temps hebdomadaire',
+    overviewHeading: 'Présentation du projet',
+    overview: 'Financé à hauteur de 65 M$ par Polychain Capital, Tribe Capital, Placeholder et Hack VC, Eclipse est le premier Ethereum Layer 2 propulsé par la Solana Virtual Machine (SVM), combinant exécution SVM, disponibilité de données Celestia et règlement Ethereum L1.',
+    tokenomicsHeading: 'Écosystème et Tokenomics',
+    tokenomics: 'ETH paie le gaz ; un futur jeton natif coordonnera séquenceurs, gouvernance et récompenses rétroactives pour les premiers utilisateurs du pont.',
+    stepsHeading: 'Étapes pour participer',
+    steps: [
+      'Visitez le portail officiel Eclipse (eclipse.xyz).',
+      'Installez un portefeuille compatible SVM tel que Backpack Wallet ou Salmon.',
+      'Transférez de l’ETH vers Eclipse via le contrat de dépôt officiel.',
+      'Effectuez des échanges sur les premiers DEX natifs d’Eclipse.',
+      'Mintez les NFT partenaires et validez votre profil sur le Discord Eclipse.'
+    ],
+    strategyHeading: 'Stratégie d’optimisation',
+    strategy: 'Explorez plusieurs DEX et protocoles de prêt SVM avec Backpack tout en participant aux événements Discord.',
+    sybilHeading: 'Protection Anti-Sybil et sécurité',
+    sybilSafety: 'Les scripts exécutant des transactions nulles répétées sont filtrés. Variez vos interactions sur les dApps vérifiées.',
+    faqHeading: 'Questions fréquentes',
+    faqs: [
+      {
+        q: 'Quel portefeuille faut-il pour Eclipse ?',
+        a: 'Un portefeuille compatible SVM comme Backpack Wallet est nécessaire.'
+      },
+      {
+        q: 'Quel jeton paie le gaz sur Eclipse ?',
+        a: 'Ethereum ($ETH) sert nativement au paiement du gaz.'
+      }
+    ],
+    ctaText: 'Ouvrir Eclipse',
+    englishVersionLabel: 'Version anglaise'
+  },
+  {
+    id: 'eclipse',
+    slug: 'uk',
+    lang: 'uk',
+    flag: '🇺🇦',
+    homeLabel: 'Головна',
+    hubLabel: 'Безкоштовні тестнети',
+    hubHref: '/uk/bezkoshtovni-testnety/',
+    title: 'Гайд з аірдропу Eclipse (2026): SVM Layer 2 ($65M) і Backpack | Airdroplyx',
+    description: 'Як долучитися до екосистеми Eclipse ($65M від Polychain Capital та Tribe Capital): гаманець Backpack, міст ETH та SVM dApps.',
+    h1: 'Eclipse (SVM L2): гайд із екосистеми та аірдропу',
+    badge: 'Інвестиції $65M • SVM Layer 2',
+    rewardLabel: 'Очікувана винагорода',
+    costLabel: 'Витрати',
+    snapshotLabel: 'Очікуваний період',
+    timeLabel: 'Час на тиждень',
+    overviewHeading: 'Огляд проєкту',
+    overview: 'Eclipse залучила $65 млн від Polychain Capital, Tribe Capital, Placeholder та Hack VC для створення першого Ethereum Layer 2 на базі Solana Virtual Machine (SVM) із Celestia DA і розрахунками на Ethereum L1.',
+    tokenomicsHeading: 'Екосистема та токеноміка',
+    tokenomics: 'Газ оплачується в ETH, а майбутній токен екосистеми відповідатиме за стимули секвенсорів, управління та ретродроп раннім користувачам.',
+    stepsHeading: 'Покрокова інструкція',
+    steps: [
+      'Перейдіть на офіційний портал Eclipse (eclipse.xyz).',
+      'Встановіть сумісний SVM-гаманець, наприклад Backpack Wallet або Salmon.',
+      'Переведіть ETH у мережу Eclipse через офіційний депозитний контракт.',
+      'Виконуйте свопи на ранніх нативних DEX у мережі Eclipse.',
+      'Смінтіть партнерські NFT та підтвердьте акаунт у Discord Eclipse.'
+    ],
+    strategyHeading: 'Стратегія максимізації нагород',
+    strategy: 'Використовуйте Backpack у різних SVM DEX та протоколах кредитування, а також забирайте ролі в Discord.',
+    sybilHeading: 'Захист від Sybil та безпека',
+    sybilSafety: 'Машинне навчання відсіює ботів із частими нульовими транзакціями. Різноманітна активність у перевірених dApps захищає статус.',
+    faqHeading: 'Часті запитання',
+    faqs: [
+      {
+        q: 'Який гаманець потрібен для Eclipse?',
+        a: 'Потрібен SVM-сумісний гаманець, зокрема Backpack Wallet.'
+      },
+      {
+        q: 'Яким токеном оплачується газ на Eclipse?',
+        a: 'Комісії на Layer 2 сплачуються нативним Ethereum ($ETH).'
+      }
+    ],
+    ctaText: 'Відкрити Eclipse',
+    englishVersionLabel: 'Англійська версія'
+  },
+  {
+    id: 'eclipse',
+    slug: 'zh',
+    lang: 'zh-CN',
+    flag: '🇨🇳',
+    homeLabel: '首页',
+    hubLabel: '免费测试网',
+    hubHref: '/zh/free-testnets/',
+    title: 'Eclipse 空投教程 (2026)：$6500万融资 SVM Layer 2 与 Backpack 攻略 | Airdroplyx',
+    description: 'Polychain Capital 与 Tribe Capital 领投 6500 万美元的以太坊 SVM Layer 2 Eclipse 完整教程：安装 Backpack 钱包、ETH 跨链与生态交互。',
+    h1: 'Eclipse (SVM L2) 生态及空投参与指南',
+    badge: '融资 $65M • SVM Layer 2',
+    rewardLabel: '预估奖励',
+    costLabel: '参与成本',
+    snapshotLabel: '预期周期',
+    timeLabel: '每周耗时',
+    overviewHeading: '项目简介',
+    overview: '获得 Polychain Capital、Tribe Capital、Placeholder 与 Hack VC 共 6500 万美元融资的 Eclipse，是首个采用 Solana 虚拟机（SVM）执行的以太坊 Layer 2。它结合 SVM 并行性能、Celestia 数据可用性与以太坊 L1 结算安全，预计将向早期跨链与生态用户发放代币激励。',
+    tokenomicsHeading: '生态与代币结构',
+    tokenomics: 'Eclipse 使用 ETH 作为原生燃料费；未来生态代币将用于去中心化排序器激励、治理以及对早期跨链和 SVM dApp 用户的追溯性奖励。',
+    stepsHeading: '详细参与步骤',
+    steps: [
+      '访问 Eclipse 官方门户（eclipse.xyz）了解模块化架构指南。',
+      '安装支持 Eclipse 网络的 SVM 钱包（如 Backpack Wallet 或 Salmon）。',
+      '通过官方存款合约将 ETH 从以太坊主网跨链至 Eclipse。',
+      '在 Eclipse 早期原生去中心化交易所进行兑换与流动性交互。',
+      '铸造合作方纪念 NFT 徽章，并加入官方 Discord 完成身份验证。'
+    ],
+    strategyHeading: '高收益策略',
+    strategy: '使用 Backpack 钱包多维度体验 Eclipse 上的 SVM DEX、借贷协议与 NFT 铸造，并持续关注 Discord 社区活动。',
+    sybilHeading: '防女巫机制与安全提示',
+    sybilSafety: 'Eclipse 通过机器学习识别零价值高频刷单脚本。保持真实跨链与多样化 SVM dApp 交互即可保障空投资格。',
+    faqHeading: '常见问题',
+    faqs: [
+      {
+        q: '使用 Eclipse 需要哪款钱包？',
+        a: '由于基于 SVM 架构，需使用 Backpack Wallet 等兼容 SVM 的钱包。'
+      },
+      {
+        q: 'Eclipse 上用什么代币支付 Gas 费？',
+        a: '在 Eclipse Layer 2 上原生使用以太坊（$ETH）支付燃料费。'
+      }
+    ],
+    ctaText: '打开 Eclipse',
+    englishVersionLabel: '英文原版'
+  },
+  {
+    id: 'eclipse',
+    slug: 'hi',
+    lang: 'hi',
+    flag: '🇮🇳',
+    homeLabel: 'होम',
+    hubLabel: 'मुफ़्त टेस्टनेट',
+    hubHref: '/hi/free-testnets/',
+    title: 'Eclipse एयरड्रॉप गाइड (2026): $65M SVM Layer 2 और Backpack | Airdroplyx',
+    description: 'Polychain Capital और Tribe Capital द्वारा $65M फंडेड Ethereum SVM Layer 2 Eclipse के लिए Backpack वॉलेट, ETH ब्रिज और dApps की गाइड।',
+    h1: 'Eclipse (SVM L2) इकोसिस्टम और एयरड्रॉप गाइड',
+    badge: '$65M फंडिंग • SVM Layer 2',
+    rewardLabel: 'अनुमानित इनाम',
+    costLabel: 'लागत',
+    snapshotLabel: 'अनुमानित समय',
+    timeLabel: 'साप्ताहिक समय',
+    overviewHeading: 'प्रोजेक्ट का परिचय',
+    overview: 'Polychain Capital, Tribe Capital, Placeholder और Hack VC से $65 मिलियन जुटाने वाला Eclipse, Solana Virtual Machine (SVM) पर चलने वाला पहला Ethereum Layer 2 है। यह SVM की गति, Celestia DA और Ethereum L1 सुरक्षा को जोड़ता है।',
+    tokenomicsHeading: 'इकोसिस्टम और टोकनॉमिक्स',
+    tokenomics: 'Eclipse गैस फीस के लिए ETH का उपयोग करता है; भविष्य का नेटिव टोकन सीक्वेंसर प्रोत्साहन, गवर्नेंस और शुरुआती ब्रिज यूज़र्स को इनाम देगा।',
+    stepsHeading: 'भाग लेने के आसान चरण',
+    steps: [
+      'आधिकारिक Eclipse पोर्टल (eclipse.xyz) पर जाएं।',
+      'Backpack Wallet या Salmon जैसा SVM-संगत वॉलेट इंस्टॉल करें।',
+      'आधिकारिक डिपॉज़िट कॉन्ट्रैक्ट से Ethereum से Eclipse पर ETH ब्रिज करें।',
+      'Eclipse के शुरुआती नेटिव DEX पर स्वैप और लिक्विडिटी टेस्ट करें।',
+      'पार्टनर NFT मिंट करें और आधिकारिक Discord सर्वर पर वेरिफाई करें।'
+    ],
+    strategyHeading: 'अधिकतम इनाम की रणनीति',
+    strategy: 'अपने Backpack वॉलेट से कई SVM DEX और लेंडिंग प्रोटोकॉल आज़माएं तथा Discord कम्युनिटी रोल्स हासिल करें।',
+    sybilHeading: 'सिबिल सुरक्षा और सावधानियाँ',
+    sybilSafety: 'ज़्यादा बार ज़ीरो-वैल्यू ट्रांज़ैक्शन करने वाले बॉट्स मशीन लर्निंग से बाहर कर दिए जाते हैं। वास्तविक dApp उपयोग सुरक्षित है।',
+    faqHeading: 'अक्सर पूछे जाने वाले प्रश्न',
+    faqs: [
+      {
+        q: 'Eclipse के लिए कौन सा वॉलेट चाहिए?',
+        a: 'चूंकि यह SVM का उपयोग करता है, आपको Backpack Wallet जैसे SVM वॉलेट की आवश्यकता होगी।'
+      },
+      {
+        q: 'Eclipse पर गैस फीस किस टोकन में लगती है?',
+        a: 'Layer 2 गैस फीस नेटिव रूप से Ethereum ($ETH) में चुकाई जाती है।'
+      }
+    ],
+    ctaText: 'Eclipse खोलें',
+    englishVersionLabel: 'अंग्रेज़ी संस्करण'
+  },
+  {
+    id: 'eclipse',
+    slug: 'it',
+    lang: 'it',
+    flag: '🇮🇹',
+    homeLabel: 'Home',
+    hubLabel: 'Testnet Gratuiti',
+    hubHref: '/it/testnet-gratuiti/',
+    title: 'Guida Airdrop Eclipse (2026): SVM Layer 2 ($65M) e Backpack | Airdroplyx',
+    description: 'Come posizionarsi su Eclipse ($65M da Polychain Capital e Tribe Capital): installa Backpack Wallet, fai bridge ETH e usa le dApp SVM.',
+    h1: 'Eclipse (SVM L2): Guida Ecosistema e Airdrop',
+    badge: 'Finanziamento $65M • SVM Layer 2',
+    rewardLabel: 'Ricompensa stimata',
+    costLabel: 'Costo',
+    snapshotLabel: 'Periodo previsto',
+    timeLabel: 'Tempo settimanale',
+    overviewHeading: 'Panoramica del progetto',
+    overview: 'Finanziata con 65 milioni di dollari da Polychain Capital, Tribe Capital, Placeholder e Hack VC, Eclipse è la prima Ethereum Layer 2 alimentata dalla Solana Virtual Machine (SVM), con disponibilità dati su Celestia e regolamento su Ethereum L1.',
+    tokenomicsHeading: 'Ecosistema e Tokenomics',
+    tokenomics: 'ETH funge da token gas; un futuro token nativo gestirà incentivi ai sequencer, governance e allocazioni retroattive per i primi utenti del bridge.',
+    stepsHeading: 'Come partecipare passo dopo passo',
+    steps: [
+      'Visita il portale ufficiale Eclipse (eclipse.xyz).',
+      'Installa un wallet compatibile SVM come Backpack Wallet o Salmon.',
+      'Trasferisci ETH da Ethereum a Eclipse tramite il contratto di deposito ufficiale.',
+      'Esegui swap sui primi DEX nativi dell’ecosistema Eclipse.',
+      'Conia gli NFT partner e verifica il tuo account sul Discord ufficiale.'
+    ],
+    strategyHeading: 'Strategia per massimizzare i punti',
+    strategy: 'Usa Backpack su diversi DEX e mercati di prestito SVM e partecipa alle iniziative su Discord.',
+    sybilHeading: 'Sicurezza e protezione Sybil',
+    sybilSafety: 'Gli script con transazioni ripetute a valore zero vengono filtrati automaticamente. Mantieni interazioni varie su dApp verificate.',
+    faqHeading: 'Domande frequenti',
+    faqs: [
+      {
+        q: 'Quale wallet serve per Eclipse?',
+        a: 'Basandosi su SVM, occorre un wallet compatibile come Backpack Wallet.'
+      },
+      {
+        q: 'Quale token paga il gas su Eclipse?',
+        a: 'Ethereum ($ETH) viene utilizzato nativamente per le commissioni di rete.'
+      }
+    ],
+    ctaText: 'Apri Eclipse',
+    englishVersionLabel: 'Versione inglese'
+  },
+  {
+    id: 'eclipse',
+    slug: 'pl',
+    lang: 'pl',
+    flag: '🇵🇱',
+    homeLabel: 'Strona główna',
+    hubLabel: 'Darmowe Testnety',
+    hubHref: '/pl/darmowe-testnety/',
+    title: 'Poradnik Airdrop Eclipse (2026): SVM Layer 2 ($65M) i Backpack | Airdroplyx',
+    description: 'Jak dołączyć do ekosystemu Eclipse ($65M od Polychain Capital i Tribe Capital): portfel Backpack, most ETH i aplikacje SVM na Ethereum.',
+    h1: 'Eclipse (SVM L2): Poradnik Ekosystemu i Airdropu',
+    badge: 'Finansowanie $65M • SVM Layer 2',
+    rewardLabel: 'Szacowana nagroda',
+    costLabel: 'Koszt',
+    snapshotLabel: 'Przewidywany okres',
+    timeLabel: 'Czas tygodniowo',
+    overviewHeading: 'Opis projektu',
+    overview: 'Wspierany kwotą 65 mln USD przez Polychain Capital, Tribe Capital, Placeholder i Hack VC projekt Eclipse to pierwszy Ethereum Layer 2 działający na Solana Virtual Machine (SVM), łączący szybkość SVM, Celestia DA i bezpieczeństwo Ethereum L1.',
+    tokenomicsHeading: 'Ekosystem i Tokenomika',
+    tokenomics: 'ETH służy do opłat gas, a przyszły natywny token będzie wspierał sekwencery, zarządzanie i nagrody dla wczesnych użytkowników mostu oraz dApps.',
+    stepsHeading: 'Instrukcja krok po kroku',
+    steps: [
+      'Odwiedź oficjalny portal Eclipse (eclipse.xyz).',
+      'Zainstaluj portfel obsługujący SVM, np. Backpack Wallet lub Salmon.',
+      'Prześlij ETH z Ethereum do Eclipse przez oficjalny kontrakt depozytowy.',
+      'Wykonuj wymiany na wczesnych natywnych giełdach DEX w sieci Eclipse.',
+      'Odbierz partnerskie NFT i zweryfikuj konto na oficjalnym Discordzie Eclipse.'
+    ],
+    strategyHeading: 'Strategia maksymalizacji nagród',
+    strategy: 'Testuj różne DEX-y i protokoły pożyczkowe SVM za pomocą portfela Backpack oraz zbieraj role na Discordzie.',
+    sybilHeading: 'Ochrona Anti-Sybil i bezpieczeństwo',
+    sybilSafety: 'Boty wykonujące masowe transakcje o zerowej wartości są odrzucane. Różnorodna aktywność w oficjalnych dApps chroni Twój udział.',
+    faqHeading: 'Często zadawane pytania',
+    faqs: [
+      {
+        q: 'Jaki portfel jest potrzebny do Eclipse?',
+        a: 'Ponieważ sieć działa na SVM, wymagany jest portfel SVM taki jak Backpack Wallet.'
+      },
+      {
+        q: 'Czym płaci się gas w sieci Eclipse?',
+        a: 'Opłaty transakcyjne na Layer 2 są rozliczane natywnie w Ethereum ($ETH).'
+      }
+    ],
+    ctaText: 'Otwórz Eclipse',
+    englishVersionLabel: 'Wersja angielska'
+  },
+
+  // ================= INK (16 LANGUAGES) =================
+  {
+    id: 'ink',
+    slug: 'tr',
+    lang: 'tr',
+    flag: '🇹🇷',
+    homeLabel: 'Ana Sayfa',
+    hubLabel: 'Ücretsiz Testnetler',
+    hubHref: '/tr/ucretsiz-testnet-airdroplari/',
+    title: 'Ink Airdrop Rehberi (2026): Superchain L2 Testnet & $INK | Airdroplyx',
+    description: 'Optimism OP Stack Superchain üzerinde inşa edilen kurumsal Layer 2 ağı Ink (inkonchain.com) için ücretsiz Sepolia testnet, köprü ve $INK rehberi.',
+    h1: 'Ink ($INK) Ücretsiz Superchain Testnet ve Airdrop Rehberi',
+    badge: 'OP Superchain • Ücretsiz Testnet',
+    rewardLabel: 'Tahmini Ödül',
+    costLabel: 'Maliyet',
+    snapshotLabel: 'Beklenen Dönem',
+    timeLabel: 'Haftalık Süre',
+    overviewHeading: 'Proje Özeti',
+    overview: 'Ink, Optimism OP Stack üzerinde geliştirilen ve Base ile Optimism’in yer aldığı Superchain ekosistemine katılan kurumsal odaklı bir Ethereum Layer 2 ağıdır. Saniye altı blok süreleri ve düşük işlem ücretleri sunan Ink ağı; test ağına köprü kuran, akıllı sözleşme dağıtan ve ilk ekosistem uygulamalarını deneyen erken katılımcılar için $INK ödül potansiyeli taşır.',
+    tokenomicsHeading: '$INK Tokenomik ve Dağıtım',
+    tokenomics: '$INK tokenının merkeziyetsiz sıralayıcı yönetişimi, köprü güvenliği staking’i ve Superchain genelinde işlem ücreti indirimleri için kullanılması beklenmektedir.',
+    stepsHeading: 'Adım Adım Katılım Rehberi',
+    steps: [
+      'Resmi Ink ağı portalına (inkonchain.com) gidin.',
+      'Rabby veya Rainbow cüzdanınıza Ink Sepolia Testnet RPC ayarlarını ekleyin.',
+      'Halka açık musluklardan (faucet) ücretsiz Sepolia test ETH talep edin.',
+      'Resmi Ink köprüsü üzerinden test ETH’lerinizi Ink test ağına aktarın.',
+      'Doğrulanmış testnet dApp’lerinde takas ve likidite işlemleri yapıp haftalık aktifliğinizi koruyun.'
+    ],
+    strategyHeading: 'Maksimum Ödül Stratejisi',
+    strategy: 'Sepolia köprüsüyle yetinmeyip testnet üzerinde basit bir akıllı sözleşme veya test tokenı oluşturun ve haftalık düzenli dApp etkileşimi sürdürün.',
+    sybilHeading: 'Sybil Koruması ve Güvenlik',
+    sybilSafety: 'Zincir üstü testnet sözleşme doğrulamaları ve düzenli haftalık aktivite bot hesapları eler. Yalnızca resmi inkonchain.com portalını kullanın.',
+    faqHeading: 'Sıkça Sorulan Sorular',
+    faqs: [
+      {
+        q: 'Ink hangi teknoloji altyapısını kullanıyor?',
+        a: 'Ink, Optimism’in OP Stack altyapısı üzerinde Superchain ekosisteminin bir parçası olarak inşa edilmiştir.'
+      },
+      {
+        q: 'Ink testnetine katılım ücretsiz mi?',
+        a: 'Evet, Sepolia test ağı muslukları ve köprü işlemleri tamamen ücretsizdir ($0).'
+      }
+    ],
+    ctaText: 'Ink Portalını Aç',
+    englishVersionLabel: 'İngilizce Sürüm'
+  },
+  {
+    id: 'ink',
+    slug: 'ru',
+    lang: 'ru',
+    flag: '🇷🇺',
+    homeLabel: 'Главная',
+    hubLabel: 'Бесплатные тестнеты',
+    hubHref: '/ru/free-testnets/',
+    title: 'Гайд по аирдропу Ink (2026): тестнет Superchain L2 и $INK | Airdroplyx',
+    description: 'Как бесплатно пройти тестнет Ink (inkonchain.com) на базе Optimism OP Stack: добавление RPC в Rabby, мост Sepolia ETH и активности для $INK.',
+    h1: 'Ink ($INK): гайд по бесплатному тестнету Superchain и аирдропу',
+    badge: 'OP Superchain • Бесплатно',
+    rewardLabel: 'Ожидаемая награда',
+    costLabel: 'Затраты',
+    snapshotLabel: 'Ожидаемый период',
+    timeLabel: 'Время в неделю',
+    overviewHeading: 'Обзор проекта',
+    overview: 'Ink — институциональный Ethereum Layer 2 на базе Optimism OP Stack и участник экосистемы Superchain наряду с Base и Optimism. Сеть предлагает субсекундные блоки и низкие комиссии, а ранние участники тестнета претендуют на награды $INK.',
+    tokenomicsHeading: 'Токеномика $INK',
+    tokenomics: 'Токен $INK предназначен для управления децентрализованными секвенсорами, стейкинга безопасности моста и скидок на комиссии.',
+    stepsHeading: 'Пошаговая инструкция',
+    steps: [
+      'Откройте официальный портал Ink (inkonchain.com).',
+      'Добавьте параметры Ink Sepolia Testnet RPC в кошелек Rabby или Rainbow.',
+      'Получите бесплатный тестовый Sepolia ETH из публичных кранов.',
+      'Переведите тестовый ETH через официальный мост Ink.',
+      'Взаимодействуйте с проверенными dApps тестнета (свопы, пулы ликвидности) каждую неделю.'
+    ],
+    strategyHeading: 'Стратегия фарма',
+    strategy: 'Помимо моста разверните простой смарт-контракт или сминтьте тестовый токен и поддерживайте еженедельную активность.',
+    sybilHeading: 'Защита от ботов и безопасность',
+    sybilSafety: 'Ончейн-проверки деплоев и регулярная активность защищают распределение от ботов. Пользуйтесь только официальным сайтом inkonchain.com.',
+    faqHeading: 'Частые вопросы',
+    faqs: [
+      {
+        q: 'На какой технологии построен Ink?',
+        a: 'Ink создан на стеке Optimism OP Stack как часть экосистемы Superchain.'
+      },
+      {
+        q: 'Участие в тестнете Ink бесплатное?',
+        a: 'Да, тестовый кран Sepolia и мост не требуют реальных средств ($0).'
+      }
+    ],
+    ctaText: 'Открыть Ink',
+    englishVersionLabel: 'Английская версия'
+  },
+  {
+    id: 'ink',
+    slug: 'id',
+    lang: 'id',
+    flag: '🇮🇩',
+    homeLabel: 'Beranda',
+    hubLabel: 'Testnet Gratis',
+    hubHref: '/id/testnet-gratis/',
+    title: 'Panduan Airdrop Ink (2026): Testnet Gratis Superchain $INK | Airdroplyx',
+    description: 'Panduan lengkap testnet Ink (inkonchain.com) di OP Stack Superchain: tambah RPC di Rabby, bridge Sepolia ETH gratis, dan uji dApp untuk $INK.',
+    h1: 'Ink ($INK): Panduan Testnet Gratis Superchain & Airdrop',
+    badge: 'OP Superchain • Gratis',
+    rewardLabel: 'Estimasi Hadiah',
+    costLabel: 'Biaya',
+    snapshotLabel: 'Perkiraan Snapshot',
+    timeLabel: 'Waktu Mingguan',
+    overviewHeading: 'Ringkasan Proyek',
+    overview: 'Ink adalah Ethereum Layer 2 berbasis Optimism OP Stack yang menjadi bagian resmi ekosistem Superchain bersama Base dan Optimism. Pengguna awal yang melakukan bridge ke testnet, men-deploy kontrak pintar, dan mencoba dApp berpeluang meraih poin $INK.',
+    tokenomicsHeading: 'Tokenomik $INK',
+    tokenomics: 'Token $INK akan mendukung tata kelola sequencer terdesentralisasi, staking keamanan bridge, serta rabat biaya di Superchain.',
+    stepsHeading: 'Langkah-Langkah Mengikuti Airdrop',
+    steps: [
+      'Kunjungi portal resmi Ink (inkonchain.com).',
+      'Tambahkan RPC Ink Sepolia Testnet ke dompet Rabby atau Rainbow Anda.',
+      'Dapatkan Sepolia ETH uji coba gratis dari faucet publik.',
+      'Bridge ETH uji coba ke Ink melalui jembatan resmi Ink.',
+      'Coba swap dan pool likuiditas di dApp testnet terverifikasi setiap minggu.'
+    ],
+    strategyHeading: 'Strategi Maksimal',
+    strategy: 'Selain melakukan bridge, deploy kontrak pintar sederhana atau cetak token uji coba dan jaga transaksi mingguan tetap aktif.',
+    sybilHeading: 'Keamanan & Anti-Sybil',
+    sybilSafety: 'Verifikasi deployment on-chain memastikan pengembang dan penguji asli yang dihargai. Akses hanya inkonchain.com.',
+    faqHeading: 'Pertanyaan Umum',
+    faqs: [
+      {
+        q: 'Teknologi apa yang dipakai Ink?',
+        a: 'Ink dibangun di atas Optimism OP Stack sebagai bagian dari Superchain.'
+      },
+      {
+        q: 'Apakah ikut testnet Ink gratis?',
+        a: 'Ya, faucet dan bridge testnet 100% gratis ($0).'
+      }
+    ],
+    ctaText: 'Buka Ink',
+    englishVersionLabel: 'Versi Bahasa Inggris'
+  },
+  {
+    id: 'ink',
+    slug: 'vi',
+    lang: 'vi',
+    flag: '🇻🇳',
+    homeLabel: 'Trang chủ',
+    hubLabel: 'Testnet Miễn Phí',
+    hubHref: '/vi/testnet-mien-phi/',
+    title: 'Hướng dẫn Airdrop Ink (2026): Testnet Superchain & $INK | Airdroplyx',
+    description: 'Cách tham gia testnet miễn phí mạng Ink (inkonchain.com) trên OP Stack Superchain: thêm RPC vào Rabby, bridge Sepolia ETH và săn điểm $INK.',
+    h1: 'Ink ($INK): Hướng Dẫn Testnet Superchain Miễn Phí & Airdrop',
+    badge: 'OP Superchain • Miễn phí',
+    rewardLabel: 'Phần thưởng dự kiến',
+    costLabel: 'Chi phí',
+    snapshotLabel: 'Thời gian dự kiến',
+    timeLabel: 'Thời gian mỗi tuần',
+    overviewHeading: 'Tổng quan dự án',
+    overview: 'Ink là mạng Ethereum Layer 2 xây dựng trên OP Stack của Optimism và gia nhập hệ sinh thái Superchain cùng Base và Optimism. Người dùng sớm bridge vào testnet, triển khai hợp đồng thông minh và trải nghiệm dApp có cơ hội nhận thưởng $INK.',
+    tokenomicsHeading: 'Tokenomics $INK',
+    tokenomics: 'Token $INK sẽ dùng cho quản trị sequencer phi tập trung, staking bảo mật cầu nối và hoàn phí giao dịch trên Superchain.',
+    stepsHeading: 'Các bước tham gia chi tiết',
+    steps: [
+      'Truy cập cổng chính thức mạng Ink (inkonchain.com).',
+      'Thêm cấu hình Ink Sepolia Testnet RPC vào ví Rabby hoặc Rainbow.',
+      'Nhận ETH thử nghiệm Sepolia miễn phí từ các faucet công khai.',
+      'Bridge ETH thử nghiệm sang Ink qua cầu nối chính thức của Ink.',
+      'Tương tác swap và cung cấp thanh khoản trên các dApp testnet hàng tuần.'
+    ],
+    strategyHeading: 'Chiến lược tối ưu điểm',
+    strategy: 'Ngoài thao tác bridge, hãy thử triển khai một smart contract đơn giản hoặc mint token thử nghiệm và duy trì hoạt động mỗi tuần.',
+    sybilHeading: 'Chống Sybil & Bảo mật',
+    sybilSafety: 'Kiểm tra lịch sử triển khai hợp đồng on-chain giúp lọc tài khoản bot. Chỉ truy cập inkonchain.com.',
+    faqHeading: 'Câu hỏi thường gặp',
+    faqs: [
+      {
+        q: 'Ink sử dụng công nghệ gì?',
+        a: 'Ink được xây dựng trên OP Stack của Optimism trong hệ sinh thái Superchain.'
+      },
+      {
+        q: 'Tham gia testnet Ink có miễn phí không?',
+        a: 'Có, faucet và bridge testnet hoàn toàn miễn phí ($0).'
+      }
+    ],
+    ctaText: 'Mở Ink',
+    englishVersionLabel: 'Bản tiếng Anh'
+  },
+  {
+    id: 'ink',
+    slug: 'es',
+    lang: 'es',
+    flag: '🇪🇸',
+    homeLabel: 'Inicio',
+    hubLabel: 'Testnets Gratis',
+    hubHref: '/es/testnets-gratis/',
+    title: 'Guía Airdrop Ink (2026): Testnet Superchain L2 y $INK | Airdroplyx',
+    description: 'Cómo participar gratis en la testnet de Ink (inkonchain.com) sobre Optimism OP Stack: RPC en Rabby, puente Sepolia ETH y puntos $INK.',
+    h1: 'Ink ($INK): Guía de Testnet Gratuita Superchain y Airdrop',
+    badge: 'OP Superchain • Gratis',
+    rewardLabel: 'Recompensa estimada',
+    costLabel: 'Costo',
+    snapshotLabel: 'Periodo estimado',
+    timeLabel: 'Tiempo semanal',
+    overviewHeading: 'Resumen del proyecto',
+    overview: 'Ink es una Ethereum Layer 2 construida sobre Optimism OP Stack e integrada en la Superchain junto a Base y Optimism. Quienes prueben la testnet puenteando fondos, desplegando contratos e interactuando con las primeras dApps se posicionan para $INK.',
+    tokenomicsHeading: 'Tokenomics de $INK',
+    tokenomics: 'El token $INK impulsará la gobernanza de secuenciadores, el staking de puentes y descuentos de comisiones en la Superchain.',
+    stepsHeading: 'Pasos para participar',
+    steps: [
+      'Visita el portal oficial de Ink (inkonchain.com).',
+      'Agrega la configuración RPC de Ink Sepolia Testnet a tu billetera Rabby o Rainbow.',
+      'Consigue ETH de prueba Sepolia gratis en faucets públicos.',
+      'Envía el ETH de prueba a Ink mediante el puente oficial.',
+      'Interactúa semanalmente con las dApps verificadas en testnet (swaps y pools).'
+    ],
+    strategyHeading: 'Estrategia para maximizar recompensas',
+    strategy: 'Además del puente, despliega un contrato sencillo o acuña tokens de prueba y mantén actividad constante cada semana.',
+    sybilHeading: 'Seguridad y protección Sybil',
+    sybilSafety: 'Las verificaciones de actividad on-chain filtran granjas automatizadas. Usa únicamente inkonchain.com.',
+    faqHeading: 'Preguntas frecuentes',
+    faqs: [
+      {
+        q: '¿Sobre qué tecnología corre Ink?',
+        a: 'Ink utiliza el OP Stack de Optimism como parte oficial de la Superchain.'
+      },
+      {
+        q: '¿Es gratis participar en la testnet de Ink?',
+        a: 'Sí, los faucets y el puente en testnet son 100% gratuitos ($0).'
+      }
+    ],
+    ctaText: 'Abrir Ink',
+    englishVersionLabel: 'Versión en inglés'
+  },
+  {
+    id: 'ink',
+    slug: 'pt',
+    lang: 'pt',
+    flag: '🇧🇷',
+    homeLabel: 'Início',
+    hubLabel: 'Testnets Grátis',
+    hubHref: '/pt/testnets-gratis/',
+    title: 'Guia Airdrop Ink (2026): Testnet Grátis Superchain $INK | Airdroplyx',
+    description: 'Passo a passo gratuito da testnet da Ink (inkonchain.com) no Optimism OP Stack: RPC na Rabby, bridge de Sepolia ETH e dApps para $INK.',
+    h1: 'Ink ($INK): Guia da Testnet Gratuita Superchain e Airdrop',
+    badge: 'OP Superchain • Grátis',
+    rewardLabel: 'Recompensa estimada',
+    costLabel: 'Custo',
+    snapshotLabel: 'Previsão',
+    timeLabel: 'Tempo semanal',
+    overviewHeading: 'Visão geral do projeto',
+    overview: 'A Ink é uma Ethereum Layer 2 construída no Optimism OP Stack dentro do ecossistema Superchain ao lado da Base e Optimism. Usuários iniciais que fizerem bridge na testnet e interagirem com os dApps gênese concorrem a recompensas $INK.',
+    tokenomicsHeading: 'Tokenomics do $INK',
+    tokenomics: 'O token $INK será usado na governança descentralizada de sequenciadores, staking de ponte e descontos de taxas na Superchain.',
+    stepsHeading: 'Passo a passo para participar',
+    steps: [
+      'Acesse o portal oficial da Ink (inkonchain.com).',
+      'Adicione a rede Ink Sepolia Testnet RPC na carteira Rabby ou Rainbow.',
+      'Obtenha Sepolia ETH de teste gratuito em faucets públicos.',
+      'Faça bridge do ETH de teste para a Ink pela ponte oficial.',
+      'Interaja semanalmente com dApps verificados da testnet (swaps e liquidez).'
+    ],
+    strategyHeading: 'Estratégia de ganhos',
+    strategy: 'Além da bridge, publique um contrato inteligente simples de teste e mantenha transações semanais regulares.',
+    sybilHeading: 'Proteção Sybil e segurança',
+    sybilSafety: 'Verificações de deploy na testnet filtram bots automáticos. Acesse apenas o site oficial inkonchain.com.',
+    faqHeading: 'Perguntas frequentes',
+    faqs: [
+      {
+        q: 'Qual tecnologia alimenta a Ink?',
+        a: 'A Ink é construída no OP Stack da Optimism como membro da Superchain.'
+      },
+      {
+        q: 'A testnet da Ink é gratuita?',
+        a: 'Sim, faucets e bridge em testnet não custam dinheiro real ($0).'
+      }
+    ],
+    ctaText: 'Abrir Ink',
+    englishVersionLabel: 'Versão em inglês'
+  },
+  {
+    id: 'ink',
+    slug: 'ko',
+    lang: 'ko',
+    flag: '🇰🇷',
+    homeLabel: '홈',
+    hubLabel: '무료 테스트넷',
+    hubHref: '/ko/free-testnets/',
+    title: 'Ink 에어드랍 가이드 (2026): OP Superchain L2 테스트넷 $INK | Airdroplyx',
+    description: 'Optimism OP Stack 기반 Superchain L2 네트워크 Ink(inkonchain.com) 무료 테스트넷 참여법: Rabby RPC 추가, Sepolia ETH 브릿지 및 dApp.',
+    h1: 'Ink ($INK) 무료 Superchain 테스트넷 및 에어드랍 가이드',
+    badge: 'OP Superchain • 무료 테스트넷',
+    rewardLabel: '예상 보상',
+    costLabel: '비용',
+    snapshotLabel: '예상 시기',
+    timeLabel: '주간 소요 시간',
+    overviewHeading: '프로젝트 개요',
+    overview: 'Ink는 Optimism OP Stack으로 구축되어 Base, Optimism과 함께 Superchain 생태계에 합류한 기관급 Ethereum Layer 2입니다. 테스트넷 브릿지, 스마트 컨트랙트 배포 및 초기 dApp 참여자에게 $INK 보상 기회가 열려 있습니다.',
+    tokenomicsHeading: '$INK 토크노믹스',
+    tokenomics: '$INK 토큰은 탈중앙 시퀀서 거버넌스, 브릿지 보안 스테이킹, Superchain 거래 수수료 할인에 활용될 예정입니다.',
+    stepsHeading: '단계별 참여 방법',
+    steps: [
+      '공식 Ink 포털(inkonchain.com)을 방문하세요.',
+      'Rabby 또는 Rainbow 지갑에 Ink Sepolia Testnet RPC를 추가하세요.',
+      '공개 수도꼭지에서 무료 Sepolia 테스트 ETH를 받으세요.',
+      '공식 Ink 브릿지를 통해 테스트 ETH를 Ink 테스트넷으로 전송하세요.',
+      '검증된 테스트넷 dApp에서 매주 스왑과 유동성 풀 상호작용을 이어가세요.'
+    ],
+    strategyHeading: '보상 극대화 전략',
+    strategy: '브릿지 외에도 간단한 테스트 스마트 컨트랙트를 배포해 보고 매주 꾸준히 dApp 트랜잭션을 남기는 것이 유리합니다.',
+    sybilHeading: '시빌 방지 및 보안',
+    sybilSafety: '온체인 컨트랙트 배포 검증을 통해 다계정 봇을 걸러냅니다. 공식 inkonchain.com 도메인만 사용하세요.',
+    faqHeading: '자주 묻는 질문',
+    faqs: [
+      {
+        q: 'Ink는 어떤 기술을 사용하나요?',
+        a: 'Optimism의 OP Stack 기반으로 Superchain 생태계에 구축되었습니다.'
+      },
+      {
+        q: 'Ink 테스트넷 참여는 무료인가요?',
+        a: '네, Sepolia 수도꼭지와 브릿지 이용 모두 비용 없이 무료($0)입니다.'
+      }
+    ],
+    ctaText: 'Ink 열기',
+    englishVersionLabel: '영문 버전'
+  },
+  {
+    id: 'ink',
+    slug: 'ja',
+    lang: 'ja',
+    flag: '🇯🇵',
+    homeLabel: 'ホーム',
+    hubLabel: '無料テストネット',
+    hubHref: '/ja/free-testnets/',
+    title: 'Ink エアドロップ攻略 (2026): OP Superchain L2 テストネット $INK | Airdroplyx',
+    description: 'Optimism OP Stackで構築されたSuperchain L2「Ink」（inkonchain.com）の無料テストネット手順：Rabby設定・Sepoliaブリッジ・dApp操作。',
+    h1: 'Ink ($INK) 無料Superchainテストネット＆エアドロップ攻略',
+    badge: 'OP Superchain • 無料テストネット',
+    rewardLabel: '予想報酬',
+    costLabel: '費用',
+    snapshotLabel: '予定時期',
+    timeLabel: '週間作業時間',
+    overviewHeading: 'プロジェクト概要',
+    overview: 'InkはOptimismのOP Stack上に構築され、BaseやOptimismとともにSuperchainへ参加するEthereum Layer 2です。テストネットへのブリッジ、コントラクト展開、初期dApp利用で$INK報酬を狙えます。',
+    tokenomicsHeading: '$INK トケノミクス',
+    tokenomics: '$INKトークンは分散型シーケンサーのガバナンス、ブリッジセキュリティのステーキング、手数料割引などに使われる予定です。',
+    stepsHeading: '参加ステップ',
+    steps: [
+      '公式Inkポータル（inkonchain.com）にアクセスします。',
+      'RabbyまたはRainbowウォレットにInk Sepolia Testnet RPCを追加します。',
+      'パブリックFaucetから無料のSepoliaテストETHを取得します。',
+      '公式Inkブリッジを使ってテストETHをInkテストネットへ送ります。',
+      '検証済みテストネットdAppで毎週スワップや流動性提供を行います。'
+    ],
+    strategyHeading: '報酬最大化のコツ',
+    strategy: 'ブリッジだけでなくテストネット上で簡単なコントラクトを展開し、毎週継続してオンチェーン履歴を作りましょう。',
+    sybilHeading: 'シビル対策と安全性',
+    sybilSafety: 'オンチェーンのデプロイ履歴と継続性によりボットを排除しています。必ず公式サイトinkonchain.comを利用してください。',
+    faqHeading: 'よくある質問',
+    faqs: [
+      {
+        q: 'Inkはどの技術スタックを使っていますか？',
+        a: 'OptimismのOP Stackを採用し、Superchainの一員として稼働します。'
+      },
+      {
+        q: 'Inkテストネットは無料ですか？',
+        a: 'はい、Faucetとブリッジは完全無料（$0）で試せます。'
+      }
+    ],
+    ctaText: 'Inkを開く',
+    englishVersionLabel: '英語版を見る'
+  },
+  {
+    id: 'ink',
+    slug: 'ar',
+    lang: 'ar',
+    flag: '🇸🇦',
+    homeLabel: 'الرئيسية',
+    hubLabel: 'شبكات اختبار مجانية',
+    hubHref: '/ar/free-testnets/',
+    title: 'دليل إيردروب Ink (2026): شبكة اختبار Superchain و$INK | Airdroplyx',
+    description: 'دليل المشاركة مجاناً في شبكة اختبار Ink (inkonchain.com) المبنية على Optimism OP Stack: إضافة RPC في Rabby وجسر Sepolia ETH.',
+    h1: 'Ink ($INK): دليل شبكة الاختبار المجانية Superchain والإيردروب',
+    badge: 'OP Superchain • مجاني',
+    rewardLabel: 'المكافأة المتوقعة',
+    costLabel: 'التكلفة',
+    snapshotLabel: 'الفترة المتوقعة',
+    timeLabel: 'الوقت الأسبوعي',
+    overviewHeading: 'نظرة عامة على المشروع',
+    overview: 'شبكة Ink هي Ethereum Layer 2 مبنية على Optimism OP Stack وتنضم رسمياً إلى نظام Superchain إلى جانب Base وOptimism. تمنح المشاركة المبكرة في الجسر الاختباري ونشر العقود الذكية وتجربة التطبيقات فرصة للتأهل لمكافآت $INK.',
+    tokenomicsHeading: 'اقتصاديات $INK',
+    tokenomics: 'سيُستخدم رمز $INK في حوكمة المُرتِّبات اللامركزية وتخزين أمان الجسر وخصومات الرسوم عبر Superchain.',
+    stepsHeading: 'خطوات المشاركة',
+    steps: [
+      'زر البوابة الرسمية لشبكة Ink (inkonchain.com).',
+      'أضف إعدادات Ink Sepolia Testnet RPC إلى محفظة Rabby أو Rainbow.',
+      'احصل على ETH اختبار Sepolia مجاني من الصنابير العامة.',
+      'انقل ETH الاختباري إلى شبكة Ink عبر الجسر الرسمي.',
+      'تفاعل أسبوعياً مع التطبيقات الموثقة على شبكة الاختبار.'
+    ],
+    strategyHeading: 'استراتيجية تعظيم المكافآت',
+    strategy: 'إلى جانب الجسر، انشر عقداً ذكياً بسيطاً على شبكة الاختبار وحافظ على نشاط أسبوعي منتظم.',
+    sybilHeading: 'الحماية من الحسابات الوهمية والأمان',
+    sybilSafety: 'تضمن عمليات التحقق على السلسلة مكافأة المطورين والمستخدمين الحقيقيين. استخدم الموقع الرسمي inkonchain.com فقط.',
+    faqHeading: 'الأسئلة الشائعة',
+    faqs: [
+      {
+        q: 'ما التقنية التي تعتمد عليها شبكة Ink؟',
+        a: 'تعتمد Ink على Optimism OP Stack كجزء من منظومة Superchain.'
+      },
+      {
+        q: 'هل المشاركة في شبكة اختبار Ink مجانية؟',
+        a: 'نعم، الصنبور والجسر على شبكة الاختبار مجانيان تماماً ($0).'
+      }
+    ],
+    ctaText: 'افتح Ink',
+    englishVersionLabel: 'النسخة الإنجليزية'
+  },
+  {
+    id: 'ink',
+    slug: 'de',
+    lang: 'de',
+    flag: '🇩🇪',
+    homeLabel: 'Startseite',
+    hubLabel: 'Kostenlose Testnets',
+    hubHref: '/de/kostenlose-testnets/',
+    title: 'Ink Airdrop Guide (2026): Superchain L2 Testnet & $INK | Airdroplyx',
+    description: 'Anleitung für das kostenlose Ink Testnet (inkonchain.com) auf dem Optimism OP Stack: Rabby RPC einrichten, Sepolia ETH bridgen und dApps testen.',
+    h1: 'Ink ($INK): Kostenloser Superchain Testnet- & Airdrop-Guide',
+    badge: 'OP Superchain • Kostenlos',
+    rewardLabel: 'Geschätzte Belohnung',
+    costLabel: 'Kosten',
+    snapshotLabel: 'Erwarteter Zeitraum',
+    timeLabel: 'Wöchentlicher Aufwand',
+    overviewHeading: 'Projektübersicht',
+    overview: 'Ink ist eine auf dem Optimism OP Stack entwickelte Ethereum-Layer-2-Blockchain im Superchain-Ökosystem neben Base und Optimism. Frühe Teilnehmer, die das Testnet bridgen, Verträge bereitstellen und Genesis-dApps nutzen, positionieren sich für $INK.',
+    tokenomicsHeading: '$INK Tokenomics',
+    tokenomics: '$INK unterstützt dezentrale Sequencer-Governance, Bridge-Sicherheit und Gebührenrabatte in der Superchain.',
+    stepsHeading: 'Schritt-für-Schritt-Anleitung',
+    steps: [
+      'Besuche das offizielle Ink-Netzwerkportal (inkonchain.com).',
+      'Füge Ink Sepolia Testnet RPC deiner Rabby- oder Rainbow-Wallet hinzu.',
+      'Hole dir kostenloses Sepolia-Test-ETH aus öffentlichen Faucets.',
+      'Übertrage Test-ETH über die offizielle Ink-Bridge.',
+      'Nutze wöchentlich verifizierte Testnet-dApps wie Swaps und Liquiditätspools.'
+    ],
+    strategyHeading: 'Strategie für maximale Punkte',
+    strategy: 'Stelle zusätzlich zum Bridge-Transfer einen einfachen Test-Smart-Contract bereit und halte wöchentliche Aktivität aufrecht.',
+    sybilHeading: 'Sybil-Schutz & Sicherheit',
+    sybilSafety: 'On-Chain-Prüfungen der Testnet-Nutzung schließen Bots aus. Nutze ausschließlich inkonchain.com.',
+    faqHeading: 'Häufig gestellte Fragen',
+    faqs: [
+      {
+        q: 'Auf welcher Technologie basiert Ink?',
+        a: 'Ink basiert auf dem Optimism OP Stack als Teil der Superchain.'
+      },
+      {
+        q: 'Ist die Teilnahme am Ink-Testnet kostenlos?',
+        a: 'Ja, Faucets und Testnet-Bridging sind zu 100 % kostenlos ($0).'
+      }
+    ],
+    ctaText: 'Ink öffnen',
+    englishVersionLabel: 'Englische Version'
+  },
+  {
+    id: 'ink',
+    slug: 'fr',
+    lang: 'fr',
+    flag: '🇫🇷',
+    homeLabel: 'Accueil',
+    hubLabel: 'Testnets Gratuits',
+    hubHref: '/fr/testnets-gratuits/',
+    title: 'Guide Airdrop Ink (2026) : Testnet Superchain L2 & $INK | Airdroplyx',
+    description: 'Comment participer gratuitement au testnet Ink (inkonchain.com) sur l’OP Stack d’Optimism : RPC sur Rabby, pont Sepolia ETH et dApps.',
+    h1: 'Ink ($INK) : Guide Testnet Gratuit Superchain et Airdrop',
+    badge: 'OP Superchain • Gratuit',
+    rewardLabel: 'Récompense estimée',
+    costLabel: 'Coût',
+    snapshotLabel: 'Période estimée',
+    timeLabel: 'Temps hebdomadaire',
+    overviewHeading: 'Présentation du projet',
+    overview: 'Ink est une blockchain Ethereum Layer 2 bâtie sur l’OP Stack d’Optimism au sein de la Superchain aux côtés de Base et Optimism. Les utilisateurs précoces qui testent le pont, déploient des contrats et utilisent les dApps visent les récompenses $INK.',
+    tokenomicsHeading: 'Tokenomics de $INK',
+    tokenomics: 'Le jeton $INK animera la gouvernance des séquenceurs, le staking du pont et les remises de frais sur la Superchain.',
+    stepsHeading: 'Étapes pour participer',
+    steps: [
+      'Visitez le portail officiel Ink (inkonchain.com).',
+      'Ajoutez le réseau Ink Sepolia Testnet RPC à votre portefeuille Rabby ou Rainbow.',
+      'Réclamez de l’ETH Sepolia de test gratuit via les faucets publics.',
+      'Transférez cet ETH de test vers Ink via le pont natif officiel.',
+      'Interagissez chaque semaine avec les dApps vérifiées du testnet.'
+    ],
+    strategyHeading: 'Stratégie d’optimisation',
+    strategy: 'En plus du pont, déployez un simple contrat intelligent de test et maintenez des transactions hebdomadaires régulières.',
+    sybilHeading: 'Protection Anti-Sybil et sécurité',
+    sybilSafety: 'Les vérifications on-chain des déploiements écartent les bots. Utilisez uniquement inkonchain.com.',
+    faqHeading: 'Questions fréquentes',
+    faqs: [
+      {
+        q: 'Quelle technologie utilise Ink ?',
+        a: 'Ink repose sur l’OP Stack d’Optimism dans l’écosystème Superchain.'
+      },
+      {
+        q: 'Le testnet d’Ink est-il gratuit ?',
+        a: 'Oui, les faucets et le pont sur testnet sont 100 % gratuits ($0).'
+      }
+    ],
+    ctaText: 'Ouvrir Ink',
+    englishVersionLabel: 'Version anglaise'
+  },
+  {
+    id: 'ink',
+    slug: 'uk',
+    lang: 'uk',
+    flag: '🇺🇦',
+    homeLabel: 'Головна',
+    hubLabel: 'Безкоштовні тестнети',
+    hubHref: '/uk/bezkoshtovni-testnety/',
+    title: 'Гайд з аірдропу Ink (2026): тестнет Superchain L2 та $INK | Airdroplyx',
+    description: 'Як безкоштовно пройти тестнет Ink (inkonchain.com) на базі Optimism OP Stack: RPC у Rabby, міст Sepolia ETH та тестування dApps.',
+    h1: 'Ink ($INK): гайд із безкоштовного тестнету Superchain та аірдропу',
+    badge: 'OP Superchain • Безкоштовно',
+    rewardLabel: 'Очікувана винагорода',
+    costLabel: 'Витрати',
+    snapshotLabel: 'Очікуваний період',
+    timeLabel: 'Час на тиждень',
+    overviewHeading: 'Огляд проєкту',
+    overview: 'Ink — Ethereum Layer 2 на базі Optimism OP Stack, що входить до екосистеми Superchain разом із Base та Optimism. Ранні учасники тестнету, які тестують міст, розгортають контракти та користуються dApps, претендують на нагороди $INK.',
+    tokenomicsHeading: 'Токеноміка $INK',
+    tokenomics: 'Токен $INK відповідатиме за управління децентралізованими секвенсорами, стейкінг мосту та знижки на комісії в Superchain.',
+    stepsHeading: 'Покрокова інструкція',
+    steps: [
+      'Відкрийте офіційний портал Ink (inkonchain.com).',
+      'Додайте налаштування Ink Sepolia Testnet RPC до гаманця Rabby або Rainbow.',
+      'Отримайте безкоштовний тестовий Sepolia ETH із публічних кранів.',
+      'Переведіть тестовий ETH у мережу Ink через офіційний міст.',
+      'Щотижня взаємодійте з перевіреними dApps тестнету (свопи та пули).'
+    ],
+    strategyHeading: 'Стратегія максимізації нагород',
+    strategy: 'Окрім мосту розгорніть простий смарт-контракт або випустіть тестовий токен і підтримуйте щотижневу активність.',
+    sybilHeading: 'Захист від Sybil та безпека',
+    sybilSafety: 'Ончейн-перевірка активності та деплоїв відсіює бот-ферми. Користуйтеся лише сайтом inkonchain.com.',
+    faqHeading: 'Часті запитання',
+    faqs: [
+      {
+        q: 'На якій технології працює Ink?',
+        a: 'Ink побудовано на Optimism OP Stack як частину Superchain.'
+      },
+      {
+        q: 'Чи безкоштовний тестнет Ink?',
+        a: 'Так, крани та міст тестнету повністю безкоштовні ($0).'
+      }
+    ],
+    ctaText: 'Відкрити Ink',
+    englishVersionLabel: 'Англійська версія'
+  },
+  {
+    id: 'ink',
+    slug: 'zh',
+    lang: 'zh-CN',
+    flag: '🇨🇳',
+    homeLabel: '首页',
+    hubLabel: '免费测试网',
+    hubHref: '/zh/free-testnets/',
+    title: 'Ink 空投教程 (2026)：OP Superchain 免费测试网与 $INK 指南 | Airdroplyx',
+    description: '基于 Optimism OP Stack 打造的 Superchain Layer 2 网络 Ink（inkonchain.com）免费测试网教程：Rabby 添加 RPC、Sepolia 跨链与交互。',
+    h1: 'Ink ($INK) 免费 Superchain 测试网及空投攻略',
+    badge: 'OP Superchain • 零撸免费',
+    rewardLabel: '预估奖励',
+    costLabel: '参与成本',
+    snapshotLabel: '预期周期',
+    timeLabel: '每周耗时',
+    overviewHeading: '项目简介',
+    overview: 'Ink 是基于 Optimism OP Stack 构建并正式加入 Superchain 生态（与 Base、Optimism 并列）的机构级以太坊 Layer 2。早期参与测试网跨链、部署合约与体验创世 dApp 的用户有望获得 $INK 激励。',
+    tokenomicsHeading: '$INK 代币经济',
+    tokenomics: '$INK 将用于去中心化排序器治理、跨链桥安全质押以及 Superchain 生态内的手续费折扣。',
+    stepsHeading: '详细参与步骤',
+    steps: [
+      '访问 Ink 官方网络门户（inkonchain.com）。',
+      '在 Rabby 或 Rainbow 钱包中添加 Ink Sepolia Testnet RPC 配置。',
+      '从公共水龙头免费领取 Sepolia 测试网 ETH。',
+      '使用官方 Ink 跨链桥将测试 ETH 转入 Ink 测试网。',
+      '每周在已验证的测试网 dApp 中进行兑换与流动性池交互。'
+    ],
+    strategyHeading: '高收益策略',
+    strategy: '除测试跨链桥外，建议在测试网上部署一个简单智能合约或铸造测试代币，并保持每周稳定活跃记录。',
+    sybilHeading: '防女巫机制与安全提示',
+    sybilSafety: '链上合约部署与持续周活校验可有效过滤批量刷号机器人。请务必仅访问官网 inkonchain.com。',
+    faqHeading: '常见问题',
+    faqs: [
+      {
+        q: 'Ink 采用什么底层技术？',
+        a: 'Ink 基于 Optimism 的 OP Stack 构建，属于 Superchain 核心成员。'
+      },
+      {
+        q: '参与 Ink 测试网需要费用吗？',
+        a: '不需要，测试网领水与跨链全程免费（$0）。'
+      }
+    ],
+    ctaText: '打开 Ink',
+    englishVersionLabel: '英文原版'
+  },
+  {
+    id: 'ink',
+    slug: 'hi',
+    lang: 'hi',
+    flag: '🇮🇳',
+    homeLabel: 'होम',
+    hubLabel: 'मुफ़्त टेस्टनेट',
+    hubHref: '/hi/free-testnets/',
+    title: 'Ink एयरड्रॉप गाइड (2026): Superchain L2 टेस्टनेट और $INK | Airdroplyx',
+    description: 'Optimism OP Stack पर बने Superchain Layer 2 नेटवर्क Ink (inkonchain.com) के मुफ़्त टेस्टनेट, Rabby RPC और Sepolia ब्रिज की पूरी गाइड।',
+    h1: 'Ink ($INK) मुफ़्त Superchain टेस्टनेट और एयरड्रॉप गाइड',
+    badge: 'OP Superchain • मुफ़्त टेस्टनेट',
+    rewardLabel: 'अनुमानित इनाम',
+    costLabel: 'लागत',
+    snapshotLabel: 'अनुमानित समय',
+    timeLabel: 'साप्ताहिक समय',
+    overviewHeading: 'प्रोजेक्ट का परिचय',
+    overview: 'Ink, Optimism OP Stack पर बना और Base व Optimism के साथ Superchain इकोसिस्टम से जुड़ा Ethereum Layer 2 है। टेस्टनेट पर ब्रिज करने, स्मार्ट कॉन्ट्रैक्ट डिप्लॉय करने और शुरुआती dApps इस्तेमाल करने वाले यूज़र्स $INK के लिए पात्र हो सकते हैं।',
+    tokenomicsHeading: '$INK टोकनॉमिक्स',
+    tokenomics: '$INK टोकन विकेंद्रीकृत सीक्वेंसर गवर्नेंस, ब्रिज सिक्योरिटी स्टेकिंग और Superchain फीस छूट में काम आएगा।',
+    stepsHeading: 'भाग लेने के आसान चरण',
+    steps: [
+      'आधिकारिक Ink नेटवर्क पोर्टल (inkonchain.com) पर जाएं।',
+      'अपने Rabby या Rainbow वॉलेट में Ink Sepolia Testnet RPC जोड़ें।',
+      'पब्लिक फॉसेट से मुफ़्त Sepolia टेस्ट ETH प्राप्त करें।',
+      'आधिकारिक Ink नेटिव ब्रिज से टेस्ट ETH को Ink पर भेजें।',
+      'साप्ताहिक रूप से वेरिफाइड टेस्टनेट dApps (स्वैप, लिक्विडिटी पूल) का उपयोग करें।'
+    ],
+    strategyHeading: 'अधिकतम इनाम की रणनीति',
+    strategy: 'ब्रिजिंग के साथ टेस्टनेट पर एक सरल स्मार्ट कॉन्ट्रैक्ट डिप्लॉय करें और हर हफ्ते नियमित ट्रांज़ैक्शन बनाए रखें।',
+    sybilHeading: 'सिबिल सुरक्षा और सावधानियाँ',
+    sybilSafety: 'ऑन-चेन डिप्लॉयमेंट जांच बॉट्स को बाहर रखती है। केवल आधिकारिक पोर्टल inkonchain.com का ही उपयोग करें।',
+    faqHeading: 'अक्सर पूछे जाने वाले प्रश्न',
+    faqs: [
+      {
+        q: 'Ink किस तकनीक पर आधारित है?',
+        a: 'Ink को Superchain के हिस्से के रूप में Optimism के OP Stack पर बनाया गया है।'
+      },
+      {
+        q: 'क्या Ink टेस्टनेट में भाग लेना मुफ़्त है?',
+        a: 'हाँ, टेस्टनेट फॉसेट और ब्रिजिंग पूरी तरह मुफ़्त ($0) हैं।'
+      }
+    ],
+    ctaText: 'Ink खोलें',
+    englishVersionLabel: 'अंग्रेज़ी संस्करण'
+  },
+  {
+    id: 'ink',
+    slug: 'it',
+    lang: 'it',
+    flag: '🇮🇹',
+    homeLabel: 'Home',
+    hubLabel: 'Testnet Gratuiti',
+    hubHref: '/it/testnet-gratuiti/',
+    title: 'Guida Airdrop Ink (2026): Testnet Superchain L2 e $INK | Airdroplyx',
+    description: 'Come partecipare gratis alla testnet Ink (inkonchain.com) su Optimism OP Stack: RPC su Rabby, bridge Sepolia ETH e dApp per $INK.',
+    h1: 'Ink ($INK): Guida Testnet Gratuita Superchain e Airdrop',
+    badge: 'OP Superchain • Gratis',
+    rewardLabel: 'Ricompensa stimata',
+    costLabel: 'Costo',
+    snapshotLabel: 'Periodo previsto',
+    timeLabel: 'Tempo settimanale',
+    overviewHeading: 'Panoramica del progetto',
+    overview: 'Ink è una blockchain Ethereum Layer 2 costruita su Optimism OP Stack e parte dell’ecosistema Superchain insieme a Base e Optimism. Chi effettua bridge sulla testnet, distribuisce contratti e usa le dApp iniziali si posiziona per $INK.',
+    tokenomicsHeading: 'Tokenomics di $INK',
+    tokenomics: 'Il token $INK supporterà governance dei sequencer, staking del bridge e sconti sulle commissioni nella Superchain.',
+    stepsHeading: 'Come partecipare passo dopo passo',
+    steps: [
+      'Visita il portale ufficiale Ink (inkonchain.com).',
+      'Aggiungi la rete Ink Sepolia Testnet RPC al wallet Rabby o Rainbow.',
+      'Ottieni ETH Sepolia di prova gratuito dai faucet pubblici.',
+      'Trasferisci l’ETH di prova su Ink tramite il bridge ufficiale.',
+      'Interagisci ogni settimana con le dApp verificate della testnet.'
+    ],
+    strategyHeading: 'Strategia per massimizzare i punti',
+    strategy: 'Oltre al bridge, distribuisci un semplice smart contract di prova e mantieni una regolare attività settimanale.',
+    sybilHeading: 'Sicurezza e protezione Sybil',
+    sybilSafety: 'I controlli on-chain sui deploy escludono le bot farm. Accedi solo tramite inkonchain.com.',
+    faqHeading: 'Domande frequenti',
+    faqs: [
+      {
+        q: 'Su quale tecnologia si basa Ink?',
+        a: 'Ink è costruita sull’OP Stack di Optimism come parte della Superchain.'
+      },
+      {
+        q: 'Partecipare alla testnet di Ink è gratuito?',
+        a: 'Sì, faucet e bridge su testnet sono al 100% gratuiti ($0).'
+      }
+    ],
+    ctaText: 'Apri Ink',
+    englishVersionLabel: 'Versione inglese'
+  },
+  {
+    id: 'ink',
+    slug: 'pl',
+    lang: 'pl',
+    flag: '🇵🇱',
+    homeLabel: 'Strona główna',
+    hubLabel: 'Darmowe Testnety',
+    hubHref: '/pl/darmowe-testnety/',
+    title: 'Poradnik Airdrop Ink (2026): Darmowy Testnet Superchain $INK | Airdroplyx',
+    description: 'Jak za darmo przejść testnet Ink (inkonchain.com) na Optimism OP Stack: RPC w Rabby, most Sepolia ETH i aplikacje pod airdrop $INK.',
+    h1: 'Ink ($INK): Poradnik Darmowego Testnetu Superchain i Airdropu',
+    badge: 'OP Superchain • Darmowy',
+    rewardLabel: 'Szacowana nagroda',
+    costLabel: 'Koszt',
+    snapshotLabel: 'Przewidywany okres',
+    timeLabel: 'Czas tygodniowo',
+    overviewHeading: 'Opis projektu',
+    overview: 'Ink to Ethereum Layer 2 zbudowane na Optimism OP Stack jako część ekosystemu Superchain obok Base i Optimism. Wcześni uczestnicy testujący most, wdrażający kontrakty i korzystający z dApps mogą liczyć na nagrody $INK.',
+    tokenomicsHeading: 'Tokenomika $INK',
+    tokenomics: 'Token $INK zasili zarządzanie sekwencerami, staking bezpieczeństwa mostu oraz zniżki opłat w Superchain.',
+    stepsHeading: 'Instrukcja krok po kroku',
+    steps: [
+      'Odwiedź oficjalny portal Ink (inkonchain.com).',
+      'Dodaj ustawienia Ink Sepolia Testnet RPC do portfela Rabby lub Rainbow.',
+      'Pobierz darmowe testowe Sepolia ETH z publicznych kraników.',
+      'Prześlij testowe ETH do Ink poprzez oficjalny most.',
+      'Korzystaj co tydzień ze zweryfikowanych dApps na testnecie (swapy i pule płynności).'
+    ],
+    strategyHeading: 'Strategia maksymalizacji nagród',
+    strategy: 'Oprócz mostkowania wdróż prosty testowy smart kontrakt i utrzymuj cotygodniową aktywność.',
+    sybilHeading: 'Ochrona Anti-Sybil i bezpieczeństwo',
+    sybilSafety: 'Weryfikacje wdrożeń on-chain eliminują boty. Korzystaj wyłącznie z oficjalnej strony inkonchain.com.',
+    faqHeading: 'Często zadawane pytania',
+    faqs: [
+      {
+        q: 'Na jakiej technologii działa Ink?',
+        a: 'Ink działa na Optimism OP Stack w ramach ekosystemu Superchain.'
+      },
+      {
+        q: 'Czy udział w testnecie Ink jest darmowy?',
+        a: 'Tak, kraniki oraz most na testnecie są całkowicie darmowe ($0).'
+      }
+    ],
+    ctaText: 'Otwórz Ink',
+    englishVersionLabel: 'Wersja angielska'
   }
 ];
 
