@@ -11757,6 +11757,1482 @@ export const localizedAirdropGuides: LocalizedAirdropGuide[] = [
     ],
     ctaText: 'Otwórz Abstract',
     englishVersionLabel: 'Wersja angielska'
+  },
+
+  // ================= SONEIUM (16 LANGUAGES) =================
+  {
+    id: 'soneium',
+    slug: 'tr',
+    lang: 'tr',
+    flag: '🇹🇷',
+    homeLabel: 'Ana Sayfa',
+    hubLabel: 'Ücretsiz Testnetler',
+    hubHref: '/tr/ucretsiz-testnet-airdroplari/',
+    title: 'Soneium (Sony L2) Airdrop Rehberi (2026): Soneium Score 80+ | Airdroplyx',
+    description: 'Sony Block Solutions Labs ve Startale Labs tarafından OP Stack ile geliştirilen Soneium ağı için 28 günlük Soneium Score 80+ ve Copass PoH rehberi.',
+    h1: 'Soneium (Sony L2) Soneium Score ve Ekosistem Airdrop Rehberi',
+    badge: 'Sony & OP Stack • Ana Ağ',
+    rewardLabel: 'Tahmini Ödül',
+    costLabel: 'Maliyet',
+    snapshotLabel: 'Dönem',
+    timeLabel: 'Haftalık Süre',
+    overviewHeading: 'Proje Özeti',
+    overview: 'Soneium, Sony Group Corporation ve Startale Labs ortak girişimi olan Sony Block Solutions Labs tarafından Optimism OP Stack üzerinde geliştirilen Ethereum Layer 2 ağıdır. 28 günlük Soneium Score sezonlarında Aktivite, Likidite, NFT ve Bonus Görev sütunlarından 80+ puan toplayan kullanıcılar sezonluk Soulbound rozetler ve ekosistem protokolü ödülleri kazanır.',
+    tokenomicsHeading: 'Soneium Score ve Ekosistem Ödülleri',
+    tokenomics: 'Soneium ağ ücretleri için ETH kullanır; henüz resmi yerel token açıklanmamış olsa da 80+ puana ulaşan Soneium Score sahipleri Kyo Finance, Pocket Knights ve Dice or Die gibi ekosistem protokollerinden doğrudan token tahsisi almaktadır.',
+    stepsHeading: 'Adım Adım Katılım Rehberi',
+    steps: [
+      'Resmi Soneium portalına (portal.soneium.org) gidin ve Rabby veya Rainbow cüzdanınızı bağlayın.',
+      'Resmi köprü veya Superchain köprüleri üzerinden Soneium ağına küçük bir miktar ETH aktarın.',
+      'Soneium Score panosunu açıp aktif 28 günlük sezon hedeflerini inceleyin.',
+      'Kyo Finance gibi öne çıkan DEX’lerde takas yapın ve likidite sağlayarak Likidite puanınızı yükseltin.',
+      'Copass Proof-of-Humanity doğrulama rozetini mint edin ve 80+ puana ulaşıp Sezon Rozeti NFT’nizi alın.'
+    ],
+    strategyHeading: 'Maksimum Ödül Stratejisi',
+    strategy: 'Yalnızca takas yapmak yerine likidite sağlama daha yüksek puan ağırlığına sahiptir. Ayrıca sezonluk oyunlarda (Dice or Die, Pocket Knights) günlük giriş serisi kurarak 80+ puan eşiğini kolayca aşabilirsiniz.',
+    sybilHeading: 'Sybil Koruması ve Güvenlik',
+    sybilSafety: 'Soneium, Copass Proof-of-Humanity (PoH) doğrulaması kullanır ve aynı tokenı dakikalar içinde döndüren yapay döngüleri puan dışı bırakır. Doğal çoklu protokol kullanımı şarttır.',
+    faqHeading: 'Sıkça Sorulan Sorular',
+    faqs: [
+      {
+        q: 'Soneium doğrudan Sony tarafından mı geliştiriliyor?',
+        a: 'Evet, Sony Group Corporation ve Startale Labs ortak girişimi Sony Block Solutions Labs tarafından geliştirilmektedir.'
+      },
+      {
+        q: '28 günlük bir sezonu kaçırırsam ne olur?',
+        a: 'Her sezon bağımsız puanlanır; bir sezonu kaçırmak sonraki sezonlara veya partner ödüllerine katılmanızı engellemez.'
+      }
+    ],
+    ctaText: 'Soneium Portalını Aç',
+    englishVersionLabel: 'İngilizce Sürüm'
+  },
+  {
+    id: 'soneium',
+    slug: 'ru',
+    lang: 'ru',
+    flag: '🇷🇺',
+    homeLabel: 'Главная',
+    hubLabel: 'Бесплатные тестнеты',
+    hubHref: '/ru/free-testnets/',
+    title: 'Гайд по аирдропу Soneium (Sony L2) 2026: Soneium Score 80+ | Airdroplyx',
+    description: 'Как набрать 80+ баллов Soneium Score в сети от Sony Block Solutions Labs и Startale Labs: мост ETH, ликвидность в Kyo Finance и бейдж Copass PoH.',
+    h1: 'Soneium (Sony L2): гайд по Soneium Score и дропам экосистемы',
+    badge: 'Sony и OP Stack • Мейннет',
+    rewardLabel: 'Ожидаемая награда',
+    costLabel: 'Затраты',
+    snapshotLabel: 'Период',
+    timeLabel: 'Время в неделю',
+    overviewHeading: 'Обзор проекта',
+    overview: 'Soneium — Ethereum Layer 2 на базе Optimism OP Stack от Sony Block Solutions Labs (совместное предприятие Sony Group и Startale Labs). В рамках 28-дневных сезонов Soneium Score участники набирают баллы за активность, ликвидность и NFT, получая значки и дропы проектов экосистемы.',
+    tokenomicsHeading: 'Soneium Score и награды партнёров',
+    tokenomics: 'Сеть использует ETH для газа; владельцы 80+ баллов Soneium Score получают непередаваемые сезонные значки и аллокации от нативных протоколов вроде Kyo Finance, Pocket Knights и Dice or Die.',
+    stepsHeading: 'Пошаговая инструкция',
+    steps: [
+      'Откройте официальный портал Soneium (portal.soneium.org) и подключите Rabby или Rainbow.',
+      'Переведите немного ETH в сеть Soneium через официальный или Superchain-мост.',
+      'Проверьте текущий прогресс и задания на дашборде Soneium Score.',
+      'Делайте свопы и добавляйте ликвидность в Kyo Finance для роста Liquidity Score.',
+      'Получите значок Copass Proof-of-Humanity и заберите Season Badge NFT при 80+ баллах.'
+    ],
+    strategyHeading: 'Стратегия фарма',
+    strategy: 'Предоставление ликвидности даёт больше баллов, чем обычные свопы; дополните его ежедневными активностями в сезонных играх Pocket Knights и Dice or Die.',
+    sybilHeading: 'Защита от ботов и безопасность',
+    sybilSafety: 'Soneium применяет верификацию Copass PoH и обнуляет циклическую накрутку одного и того же токена. Важна живая диверсифицированная активность.',
+    faqHeading: 'Частые вопросы',
+    faqs: [
+      {
+        q: 'Soneium действительно разработан Sony?',
+        a: 'Да, сеть развивает Sony Block Solutions Labs — совместное предприятие Sony Group Corporation и Startale Labs.'
+      },
+      {
+        q: 'Что будет, если пропустить один 28-дневный сезон?',
+        a: 'Каждый сезон считается отдельно, поэтому пропуск одного окна не закрывает доступ к следующим.'
+      }
+    ],
+    ctaText: 'Открыть Soneium',
+    englishVersionLabel: 'Английская версия'
+  },
+  {
+    id: 'soneium',
+    slug: 'id',
+    lang: 'id',
+    flag: '🇮🇩',
+    homeLabel: 'Beranda',
+    hubLabel: 'Testnet Gratis',
+    hubHref: '/id/testnet-gratis/',
+    title: 'Panduan Airdrop Soneium (Sony L2) 2026: Soneium Score 80+ | Airdroplyx',
+    description: 'Cara meraih skor 80+ di Soneium Score jaringan L2 dari Sony & Startale Labs: bridge ETH, likuiditas Kyo Finance, dan verifikasi Copass PoH.',
+    h1: 'Soneium (Sony L2): Panduan Soneium Score & Airdrop Ekosistem',
+    badge: 'Sony & OP Stack • Mainnet',
+    rewardLabel: 'Estimasi Hadiah',
+    costLabel: 'Biaya',
+    snapshotLabel: 'Periode',
+    timeLabel: 'Waktu Mingguan',
+    overviewHeading: 'Ringkasan Proyek',
+    overview: 'Soneium adalah blockchain Ethereum Layer 2 berbasis OP Stack yang dikembangkan oleh Sony Block Solutions Labs (Sony Group & Startale Labs). Setiap musim 28 hari, pengguna mengejar Soneium Score 80+ melalui aktivitas, likuiditas, NFT, dan game untuk meraih lencana serta drop ekosistem.',
+    tokenomicsHeading: 'Soneium Score & Hadiah Ekosistem',
+    tokenomics: 'Jaringan memakai ETH untuk gas; peraih skor 80+ memperoleh lencana Soulbound musiman dan alokasi token dari proyek seperti Kyo Finance, Pocket Knights, dan Dice or Die.',
+    stepsHeading: 'Langkah-Langkah Mengikuti Airdrop',
+    steps: [
+      'Kunjungi portal resmi Soneium (portal.soneium.org) dan hubungkan Rabby atau Rainbow.',
+      'Bridge sedikit ETH ke jaringan Soneium lewat jembatan resmi.',
+      'Buka dasbor Soneium Score untuk memantau target musim 28 hari.',
+      'Lakukan swap dan sediakan likuiditas di Kyo Finance untuk menaikkan Liquidity Score.',
+      'Cetak lencana Copass Proof-of-Humanity lalu klaim Season Badge NFT setelah skor 80+.'
+    ],
+    strategyHeading: 'Strategi Maksimal',
+    strategy: 'Penyediaan likuiditas memiliki bobot poin lebih tinggi daripada sekadar swap; kombinasikan dengan check-in harian di game musiman.',
+    sybilHeading: 'Keamanan & Anti-Sybil',
+    sybilSafety: 'Soneium memadukan Copass PoH dan menyaring transaksi bolak-balik otomatis. Gunakan beberapa protokol secara alami.',
+    faqHeading: 'Pertanyaan Umum',
+    faqs: [
+      {
+        q: 'Apakah Soneium dibuat langsung oleh Sony?',
+        a: 'Ya, dikembangkan oleh Sony Block Solutions Labs bersama Startale Labs.'
+      },
+      {
+        q: 'Bagaimana jika melewatkan satu musim 28 hari?',
+        a: 'Setiap musim dinilai terpisah sehingga Anda tetap bisa mengikuti musim berikutnya.'
+      }
+    ],
+    ctaText: 'Buka Soneium',
+    englishVersionLabel: 'Versi Bahasa Inggris'
+  },
+  {
+    id: 'soneium',
+    slug: 'vi',
+    lang: 'vi',
+    flag: '🇻🇳',
+    homeLabel: 'Trang chủ',
+    hubLabel: 'Testnet Miễn Phí',
+    hubHref: '/vi/testnet-mien-phi/',
+    title: 'Hướng dẫn Airdrop Soneium (Sony L2) 2026: Soneium Score 80+ | Airdroplyx',
+    description: 'Cách đạt 80+ điểm Soneium Score trên Layer 2 của Sony & Startale Labs: bridge ETH, cung cấp thanh khoản Kyo Finance và xác minh Copass PoH.',
+    h1: 'Soneium (Sony L2): Hướng Dẫn Soneium Score & Airdrop Hệ Sinh Thái',
+    badge: 'Sony & OP Stack • Mainnet',
+    rewardLabel: 'Phần thưởng dự kiến',
+    costLabel: 'Chi phí',
+    snapshotLabel: 'Thời gian',
+    timeLabel: 'Thời gian mỗi tuần',
+    overviewHeading: 'Tổng quan dự án',
+    overview: 'Soneium là mạng Ethereum Layer 2 xây dựng trên OP Stack bởi Sony Block Solutions Labs (liên doanh giữa Sony Group và Startale Labs). Qua các mùa 28 ngày của Soneium Score, người dùng tích lũy 80+ điểm từ hoạt động, thanh khoản, NFT và game để nhận huy hiệu và drop từ đối tác.',
+    tokenomicsHeading: 'Soneium Score & Phần Thưởng Đối Tác',
+    tokenomics: 'Mạng dùng ETH làm phí gas; người đạt mốc 80+ điểm nhận huy hiệu Soulbound mùa và được ưu tiên phân bổ token từ các dApp như Kyo Finance, Pocket Knights hay Dice or Die.',
+    stepsHeading: 'Các bước tham gia chi tiết',
+    steps: [
+      'Truy cập cổng chính thức Soneium (portal.soneium.org) và kết nối ví Rabby hoặc Rainbow.',
+      'Bridge một ít ETH sang mạng Soneium qua cầu nối chính thức.',
+      'Mở bảng điều khiển Soneium Score để theo dõi 4 trụ cột điểm số.',
+      'Thực hiện swap và cung cấp thanh khoản trên Kyo Finance để tăng điểm Liquidity.',
+      'Mint huy hiệu Copass Proof-of-Humanity và nhận Season Badge NFT khi đạt 80+ điểm.'
+    ],
+    strategyHeading: 'Chiến lược tối ưu điểm',
+    strategy: 'Cung cấp thanh khoản mang lại trọng số điểm cao hơn swap đơn thuần; kết hợp chơi game hàng ngày như Dice or Die để sớm vượt mốc 80 điểm.',
+    sybilHeading: 'Chống Sybil & Bảo mật',
+    sybilSafety: 'Soneium tích hợp xác minh nhân tính Copass PoH và loại bỏ vòng lặp giao dịch ảo. Hãy tương tác đa dạng tự nhiên.',
+    faqHeading: 'Câu hỏi thường gặp',
+    faqs: [
+      {
+        q: 'Soneium có phải do Sony phát triển không?',
+        a: 'Đúng, dự án được phát triển bởi Sony Block Solutions Labs (Sony Group và Startale Labs).'
+      },
+      {
+        q: 'Nếu lỡ một mùa 28 ngày thì sao?',
+        a: 'Mỗi mùa tính điểm độc lập nên bạn vẫn tham gia bình thường ở các mùa tiếp theo.'
+      }
+    ],
+    ctaText: 'Mở Soneium',
+    englishVersionLabel: 'Bản tiếng Anh'
+  },
+  {
+    id: 'soneium',
+    slug: 'es',
+    lang: 'es',
+    flag: '🇪🇸',
+    homeLabel: 'Inicio',
+    hubLabel: 'Testnets Gratis',
+    hubHref: '/es/testnets-gratis/',
+    title: 'Guía Airdrop Soneium (Sony L2) 2026: Soneium Score 80+ | Airdroplyx',
+    description: 'Cómo alcanzar 80+ puntos en Soneium Score de Sony Block Solutions Labs y Startale Labs: puente ETH, liquidez en Kyo Finance y Copass PoH.',
+    h1: 'Soneium (Sony L2): Guía de Soneium Score y Airdrops del Ecosistema',
+    badge: 'Sony & OP Stack • Mainnet',
+    rewardLabel: 'Recompensa estimada',
+    costLabel: 'Costo',
+    snapshotLabel: 'Periodo',
+    timeLabel: 'Tiempo semanal',
+    overviewHeading: 'Resumen del proyecto',
+    overview: 'Soneium es la Layer 2 de Ethereum construida sobre OP Stack por Sony Block Solutions Labs (Sony Group y Startale Labs). Durante temporadas de 28 días en Soneium Score, quienes superan los 80 puntos obtienen insignias Soulbound y asignaciones de protocolos del ecosistema.',
+    tokenomicsHeading: 'Soneium Score y Recompensas',
+    tokenomics: 'Usa ETH para gas; aunque aún no hay token nativo anunciado, los titulares con 80+ puntos reciben repartos de proyectos nativos como Kyo Finance, Pocket Knights y Dice or Die.',
+    stepsHeading: 'Pasos para participar',
+    steps: [
+      'Visita el portal oficial de Soneium (portal.soneium.org) y conecta Rabby o Rainbow.',
+      'Envía una pequeña cantidad de ETH mediante el puente oficial hacia Soneium.',
+      'Revisa tu progreso en el panel de Soneium Score.',
+      'Realiza intercambios y aporta liquidez en Kyo Finance para subir tu puntuación.',
+      'Acuña tu insignia Copass Proof-of-Humanity y reclama el Season Badge NFT al llegar a 80+.'
+    ],
+    strategyHeading: 'Estrategia para maximizar recompensas',
+    strategy: 'Aportar liquidez pondera más que los swaps simples; combínalo con juegos estacionales diarios como Dice or Die o Pocket Knights.',
+    sybilHeading: 'Seguridad y protección Sybil',
+    sybilSafety: 'Soneium integra Copass PoH y descarta bucles automatizados con el mismo token. Mantén uso orgánico en múltiples dApps.',
+    faqHeading: 'Preguntas frecuentes',
+    faqs: [
+      {
+        q: '¿Soneium está desarrollado por Sony?',
+        a: 'Sí, por Sony Block Solutions Labs junto con Startale Labs.'
+      },
+      {
+        q: '¿Qué pasa si me pierdo una temporada de 28 días?',
+        a: 'Cada temporada puntúa por separado, así que puedes participar en las siguientes sin penalización.'
+      }
+    ],
+    ctaText: 'Abrir Soneium',
+    englishVersionLabel: 'Versión en inglés'
+  },
+  {
+    id: 'soneium',
+    slug: 'pt',
+    lang: 'pt',
+    flag: '🇧🇷',
+    homeLabel: 'Início',
+    hubLabel: 'Testnets Grátis',
+    hubHref: '/pt/testnets-gratis/',
+    title: 'Guia Airdrop Soneium (Sony L2) 2026: Soneium Score 80+ | Airdroplyx',
+    description: 'Como atingir 80+ pontos no Soneium Score da Sony Block Solutions Labs e Startale Labs: bridge de ETH, liquidez na Kyo Finance e Copass PoH.',
+    h1: 'Soneium (Sony L2): Guia do Soneium Score e Airdrops do Ecossistema',
+    badge: 'Sony & OP Stack • Mainnet',
+    rewardLabel: 'Recompensa estimada',
+    costLabel: 'Custo',
+    snapshotLabel: 'Período',
+    timeLabel: 'Tempo semanal',
+    overviewHeading: 'Visão geral do projeto',
+    overview: 'A Soneium é uma Ethereum Layer 2 criada sobre o OP Stack pela Sony Block Solutions Labs (Sony Group e Startale Labs). Em temporadas de 28 dias no Soneium Score, usuários que atingem 80+ pontos ganham selos Soulbound e recompensas de parceiros.',
+    tokenomicsHeading: 'Soneium Score e Recompensas',
+    tokenomics: 'A rede usa ETH como gás; quem alcança 80+ pontos no Soneium Score recebe selos sazonais e alocações de protocolos como Kyo Finance, Pocket Knights e Dice or Die.',
+    stepsHeading: 'Passo a passo para participar',
+    steps: [
+      'Acesse o portal oficial da Soneium (portal.soneium.org) e conecte a Rabby ou Rainbow.',
+      'Transfira um pouco de ETH para a Soneium pela ponte oficial.',
+      'Acompanhe seus pilares de pontuação no painel Soneium Score.',
+      'Faça swaps e forneça liquidez na Kyo Finance para elevar o Liquidity Score.',
+      'Emita o selo Copass Proof-of-Humanity e resgate o Season Badge NFT com 80+ pontos.'
+    ],
+    strategyHeading: 'Estratégia de ganhos',
+    strategy: 'Fornecer liquidez dá mais pontos do que swaps simples; combine com jogos sazonais como Dice or Die e Pocket Knights.',
+    sybilHeading: 'Proteção Sybil e segurança',
+    sybilSafety: 'A Soneium usa verificação Copass PoH e descarta loops repetitivos do mesmo token. Utilize protocolos variados.',
+    faqHeading: 'Perguntas frequentes',
+    faqs: [
+      {
+        q: 'A Soneium é desenvolvida pela Sony?',
+        a: 'Sim, pela Sony Block Solutions Labs, joint venture entre Sony Group e Startale Labs.'
+      },
+      {
+        q: 'E se eu perder uma temporada de 28 dias?',
+        a: 'Cada janela de 28 dias é pontuada de forma independente.'
+      }
+    ],
+    ctaText: 'Abrir Soneium',
+    englishVersionLabel: 'Versão em inglês'
+  },
+  {
+    id: 'soneium',
+    slug: 'ko',
+    lang: 'ko',
+    flag: '🇰🇷',
+    homeLabel: '홈',
+    hubLabel: '무료 테스트넷',
+    hubHref: '/ko/free-testnets/',
+    title: 'Soneium (Sony L2) 에어드랍 가이드 (2026): 스코어 80+ 공략 | Airdroplyx',
+    description: 'Sony Block Solutions Labs와 Startale Labs의 OP Stack L2 Soneium 28일 시즌 스코어 80+ 달성법: ETH 브릿지, Kyo Finance 유동성 및 Copass PoH.',
+    h1: 'Soneium (Sony L2) Soneium Score 및 생태계 에어드랍 가이드',
+    badge: 'Sony & OP Stack • 메인넷',
+    rewardLabel: '예상 보상',
+    costLabel: '비용',
+    snapshotLabel: '진행 기간',
+    timeLabel: '주간 소요 시간',
+    overviewHeading: '프로젝트 개요',
+    overview: 'Soneium은 Sony Group Corporation과 Startale Labs의 합작사 Sony Block Solutions Labs가 OP Stack으로 구축한 이더리움 Layer 2입니다. 28일 단위 Soneium Score 시즌 동안 활동·유동성·NFT·보너스 미션으로 80점 이상을 달성하면 시즌 Soulbound 배지와 생태계 보상을 받을 수 있습니다.',
+    tokenomicsHeading: 'Soneium Score 및 생태계 보상',
+    tokenomics: '가스비로 ETH를 사용하며, 공식 네트워크 토큰 발표 전이라도 80+ 스코어 보유자에게 Kyo Finance, Pocket Knights, Dice or Die 등 주요 생태계 프로젝트의 토큰 분배가 진행됩니다.',
+    stepsHeading: '단계별 참여 방법',
+    steps: [
+      '공식 Soneium 포털(portal.soneium.org)에 접속해 Rabby 또는 Rainbow 지갑을 연결하세요.',
+      '공식 브릿지를 통해 Soneium 네트워크로 소량의 ETH를 전송하세요.',
+      'Soneium Score 대시보드에서 시즌 챌린지와 실시간 점수를 확인하세요.',
+      'Kyo Finance 등 주요 DEX에서 스왑 및 유동성 공급으로 Liquidity 점수를 높이세요.',
+      'Copass Proof-of-Humanity 배지를 민팅하고 80점 이상 달성 시 Season Badge NFT를 수령하세요.'
+    ],
+    strategyHeading: '보상 극대화 전략',
+    strategy: '단순 스왑보다 유동성 공급의 점수 비중이 높습니다. Dice or Die와 Pocket Knights 같은 시즌 게임 일일 출석도 함께 챙기세요.',
+    sybilHeading: '시빌 방지 및 보안',
+    sybilSafety: 'Soneium은 Copass PoH 인증을 도입했으며 단시간 내 동일 토큰 반복 순환 거래는 점수에서 제외합니다.',
+    faqHeading: '자주 묻는 질문',
+    faqs: [
+      {
+        q: 'Soneium은 Sony가 직접 개발하나요?',
+        a: '네, Sony Group과 Startale Labs의 합작 법인인 Sony Block Solutions Labs가 개발합니다.'
+      },
+      {
+        q: '28일 시즌을 하나 놓치면 어떻게 되나요?',
+        a: '각 시즌은 독립적으로 집계되므로 다음 시즌 참여에 불이익이 없습니다.'
+      }
+    ],
+    ctaText: 'Soneium 열기',
+    englishVersionLabel: '영문 버전'
+  },
+  {
+    id: 'soneium',
+    slug: 'ja',
+    lang: 'ja',
+    flag: '🇯🇵',
+    homeLabel: 'ホーム',
+    hubLabel: '無料テストネット',
+    hubHref: '/ja/free-testnets/',
+    title: 'Soneium (Sony L2) エアドロップ攻略 (2026): Score 80+達成法 | Airdroplyx',
+    description: 'Sony Block Solutions LabsとStartale LabsによるOP Stack L2「Soneium」攻略：28日シーズン80点超え・Kyo Finance流動性・Copass PoH解説。',
+    h1: 'Soneium (Sony L2) Soneium Score＆エコシステム攻略ガイド',
+    badge: 'Sony & OP Stack • メインネット',
+    rewardLabel: '予想報酬',
+    costLabel: '費用',
+    snapshotLabel: '開催期間',
+    timeLabel: '週間作業時間',
+    overviewHeading: 'プロジェクト概要',
+    overview: 'Soneiumは、ソニーグループとStartale Labsの合弁会社Sony Block Solutions LabsがOP Stackで開発したEthereum Layer 2です。28日間のSoneium Scoreシーズンで80点以上を達成すると、シーズンSoulboundバッジやエコシステム報酬の対象になります。',
+    tokenomicsHeading: 'Soneium Scoreとエコシステム報酬',
+    tokenomics: 'ガス代にはETHを使用し、Kyo Finance、Pocket Knights、Dice or Dieなどの提携プロトコルが高スコア保有者へ独自トークンを割り当てています。',
+    stepsHeading: '参加ステップ',
+    steps: [
+      '公式Soneiumポータル（portal.soneium.org）を開き、RabbyまたはRainbowを接続します。',
+      '公式ブリッジからSoneiumへ少額のETHをブリッジします。',
+      'Soneium Scoreダッシュボードで4項目のスコア状況を確認します。',
+      'Kyo Finance等でスワップや流動性提供を行いLiquidityスコアを伸ばします。',
+      'Copass Proof-of-Humanityバッジを取得し、80点到達後にSeason Badge NFTをミントします。'
+    ],
+    strategyHeading: '報酬最大化のコツ',
+    strategy: '単純なスワップより流動性提供の方が高配点です。Dice or DieやPocket Knightsのデイリーチェックインも組み合わせて80点を目指しましょう。',
+    sybilHeading: 'シビル対策と安全性',
+    sybilSafety: 'Copass PoH認証が導入されており、短時間で同じトークンを往復させる自動ループ取引はスコア対象外になります。',
+    faqHeading: 'よくある質問',
+    faqs: [
+      {
+        q: 'Soneiumはソニーが開発していますか？',
+        a: 'はい、ソニーグループとStartale Labsの合弁会社Sony Block Solutions Labsが開発しています。'
+      },
+      {
+        q: '28日シーズンを1回逃したらどうなりますか？',
+        a: '各シーズンは独立して集計されるため、次回以降のシーズンに問題なく参加できます。'
+      }
+    ],
+    ctaText: 'Soneiumを開く',
+    englishVersionLabel: '英語版を見る'
+  },
+  {
+    id: 'soneium',
+    slug: 'ar',
+    lang: 'ar',
+    flag: '🇸🇦',
+    homeLabel: 'الرئيسية',
+    hubLabel: 'شبكات اختبار مجانية',
+    hubHref: '/ar/free-testnets/',
+    title: 'دليل إيردروب Soneium (Sony L2) 2026: نقاط Score +80 | Airdroplyx',
+    description: 'دليل المشاركة في شبكة Soneium من Sony Block Solutions Labs وStartale Labs: جسر ETH والسيولة في Kyo Finance وشارة Copass PoH.',
+    h1: 'Soneium (Sony L2): دليل Soneium Score وإيردروبات النظام البيئي',
+    badge: 'Sony و OP Stack • الشبكة الرئيسية',
+    rewardLabel: 'المكافأة المتوقعة',
+    costLabel: 'التكلفة',
+    snapshotLabel: 'الفترة',
+    timeLabel: 'الوقت الأسبوعي',
+    overviewHeading: 'نظرة عامة على المشروع',
+    overview: 'شبكة Soneium هي بلوكشين Ethereum Layer 2 مطور على OP Stack من شركة Sony Block Solutions Labs (مشروع مشترك بين Sony Group وStartale Labs). خلال مواسم 28 يوماً في Soneium Score، يحصد اللاعبون 80+ نقطة للحصول على شارات وتوزيعات النظام البيئي.',
+    tokenomicsHeading: 'محرك Soneium Score والمكافآت',
+    tokenomics: 'تستخدم الشبكة ETH للغاز؛ ويحصل أصحاب نقاط 80+ على شارات موسمية وتوزيعات من تطبيقات مثل Kyo Finance وPocket Knights وDice or Die.',
+    stepsHeading: 'خطوات المشاركة',
+    steps: [
+      'افتح بوابة Soneium الرسمية (portal.soneium.org) واربط محفظة Rabby أو Rainbow.',
+      'انقل مبلغاً صغيراً من ETH عبر الجسر الرسمي إلى شبكة Soneium.',
+      'افتح لوحة Soneium Score لمتابعة التحديات الموسمية.',
+      'نفّذ مبادلات ووفّر سيولة في Kyo Finance لرفع نقاط السيولة.',
+      'اسك شارة Copass Proof-of-Humanity واحصل على Season Badge NFT عند بلوغ 80+ نقطة.'
+    ],
+    strategyHeading: 'استراتيجية تعظيم المكافآت',
+    strategy: 'توفير السيولة يحمل وزناً أكبر من المبادلات البسيطة؛ ادمجه مع المهام اليومية في ألعاب الموسم مثل Dice or Die.',
+    sybilHeading: 'الحماية من الحسابات الوهمية والأمان',
+    sybilSafety: 'تدمج Soneium تحقق Copass PoH وتستبعد الدورات الآلية المتكررة لنفس العملة.',
+    faqHeading: 'الأسئلة الشائعة',
+    faqs: [
+      {
+        q: 'هل Soneium مطورة مباشرة من Sony؟',
+        a: 'نعم، تطورها شركة Sony Block Solutions Labs بالشراكة مع Startale Labs.'
+      },
+      {
+        q: 'ماذا يحدث إذا فاتني موسم 28 يوماً؟',
+        a: 'يُقيّم كل موسم بشكل مستقل، ويمكنك المشاركة في المواسم التالية بشكل طبيعي.'
+      }
+    ],
+    ctaText: 'افتح Soneium',
+    englishVersionLabel: 'النسخة الإنجليزية'
+  },
+  {
+    id: 'soneium',
+    slug: 'de',
+    lang: 'de',
+    flag: '🇩🇪',
+    homeLabel: 'Startseite',
+    hubLabel: 'Kostenlose Testnets',
+    hubHref: '/de/kostenlose-testnets/',
+    title: 'Soneium (Sony L2) Airdrop Guide (2026): Soneium Score 80+ | Airdroplyx',
+    description: 'Anleitung für die Sony & Startale Labs Layer-2-Blockchain Soneium: 28-Tage-Soneium-Score 80+, Kyo Finance Liquidität und Copass PoH.',
+    h1: 'Soneium (Sony L2): Soneium Score & Ökosystem-Airdrop Guide',
+    badge: 'Sony & OP Stack • Mainnet',
+    rewardLabel: 'Geschätzte Belohnung',
+    costLabel: 'Kosten',
+    snapshotLabel: 'Zeitraum',
+    timeLabel: 'Wöchentlicher Aufwand',
+    overviewHeading: 'Projektübersicht',
+    overview: 'Soneium ist eine Ethereum-Layer-2-Blockchain auf OP-Stack-Basis von Sony Block Solutions Labs (Joint Venture von Sony Group und Startale Labs). In 28-Tage-Saisons sammeln Nutzer 80+ Soneium-Score-Punkte für Soulbound-Badges und Ökosystem-Drops.',
+    tokenomicsHeading: 'Soneium Score & Partner-Belohnungen',
+    tokenomics: 'Das Netzwerk nutzt ETH für Gas; Nutzer mit 80+ Punkten erhalten saisonale Badges und Zuteilungen von Protokollen wie Kyo Finance, Pocket Knights und Dice or Die.',
+    stepsHeading: 'Schritt-für-Schritt-Anleitung',
+    steps: [
+      'Besuche das offizielle Soneium-Portal (portal.soneium.org) und verbinde Rabby oder Rainbow.',
+      'Übertrage etwas ETH über die offizielle Bridge ins Soneium-Netzwerk.',
+      'Prüfe die 28-Tage-Ziele auf dem Soneium-Score-Dashboard.',
+      'Tausche Token und stelle Liquidität auf Kyo Finance bereit.',
+      'Präge dein Copass Proof-of-Humanity-Badge und sichere dir ab 80+ Punkten das Season Badge NFT.'
+    ],
+    strategyHeading: 'Strategie für maximale Punkte',
+    strategy: 'Liquiditätsbereitstellung zählt stärker als einfache Swaps; kombiniere sie mit täglichen Check-ins bei Spielen wie Dice or Die.',
+    sybilHeading: 'Sybil-Schutz & Sicherheit',
+    sybilSafety: 'Soneium nutzt Copass PoH und wertet automatische Hin-und-her-Transaktionen nicht.',
+    faqHeading: 'Häufig gestellte Fragen',
+    faqs: [
+      {
+        q: 'Wird Soneium direkt von Sony entwickelt?',
+        a: 'Ja, von Sony Block Solutions Labs gemeinsam mit Startale Labs.'
+      },
+      {
+        q: 'Was passiert, wenn ich eine 28-Tage-Saison verpasse?',
+        a: 'Jede Saison wird unabhängig gewertet.'
+      }
+    ],
+    ctaText: 'Soneium öffnen',
+    englishVersionLabel: 'Englische Version'
+  },
+  {
+    id: 'soneium',
+    slug: 'fr',
+    lang: 'fr',
+    flag: '🇫🇷',
+    homeLabel: 'Accueil',
+    hubLabel: 'Testnets Gratuits',
+    hubHref: '/fr/testnets-gratuits/',
+    title: 'Guide Airdrop Soneium (Sony L2) 2026 : Soneium Score 80+ | Airdroplyx',
+    description: 'Comment atteindre 80+ points Soneium Score sur la Layer 2 de Sony et Startale Labs : pont ETH, liquidité Kyo Finance et Copass PoH.',
+    h1: 'Soneium (Sony L2) : Guide Soneium Score et Airdrops Écosystème',
+    badge: 'Sony & OP Stack • Mainnet',
+    rewardLabel: 'Récompense estimée',
+    costLabel: 'Coût',
+    snapshotLabel: 'Période',
+    timeLabel: 'Temps hebdomadaire',
+    overviewHeading: 'Présentation du projet',
+    overview: 'Soneium est une blockchain Ethereum Layer 2 bâtie sur l’OP Stack par Sony Block Solutions Labs (coentreprise Sony Group et Startale Labs). Lors des saisons de 28 jours, atteindre 80+ au Soneium Score débloque badges Soulbound et distributions partenaires.',
+    tokenomicsHeading: 'Soneium Score et Récompenses',
+    tokenomics: 'Le réseau utilise ETH pour le gaz ; les détenteurs de 80+ points reçoivent des badges saisonniers et des allocations de protocoles comme Kyo Finance, Pocket Knights et Dice or Die.',
+    stepsHeading: 'Étapes pour participer',
+    steps: [
+      'Visitez le portail officiel Soneium (portal.soneium.org) et connectez Rabby ou Rainbow.',
+      'Transférez un peu d’ETH vers Soneium via le pont officiel.',
+      'Consultez vos défis sur le tableau de bord Soneium Score.',
+      'Effectuez des swaps et fournissez de la liquidité sur Kyo Finance.',
+      'Mintez votre badge Copass Proof-of-Humanity et réclamez le Season Badge NFT à 80+.'
+    ],
+    strategyHeading: 'Stratégie d’optimisation',
+    strategy: 'La fourniture de liquidité pèse davantage que les simples swaps ; complétez-la par les jeux saisonniers comme Dice or Die.',
+    sybilHeading: 'Protection Anti-Sybil et sécurité',
+    sybilSafety: 'Soneium intègre Copass PoH et ignore les boucles automatisées sur un même jeton.',
+    faqHeading: 'Questions fréquentes',
+    faqs: [
+      {
+        q: 'Soneium est-il développé par Sony ?',
+        a: 'Oui, par Sony Block Solutions Labs avec Startale Labs.'
+      },
+      {
+        q: 'Et si je manque une saison de 28 jours ?',
+        a: 'Chaque saison est notée indépendamment des autres.'
+      }
+    ],
+    ctaText: 'Ouvrir Soneium',
+    englishVersionLabel: 'Version anglaise'
+  },
+  {
+    id: 'soneium',
+    slug: 'uk',
+    lang: 'uk',
+    flag: '🇺🇦',
+    homeLabel: 'Головна',
+    hubLabel: 'Безкоштовні тестнети',
+    hubHref: '/uk/bezkoshtovni-testnety/',
+    title: 'Гайд з аірдропу Soneium (Sony L2) 2026: Soneium Score 80+ | Airdroplyx',
+    description: 'Як набрати 80+ балів Soneium Score у мережі Sony Block Solutions Labs та Startale Labs: міст ETH, ліквідність Kyo Finance і бейдж Copass PoH.',
+    h1: 'Soneium (Sony L2): гайд із Soneium Score та дропів екосистеми',
+    badge: 'Sony та OP Stack • Мейннет',
+    rewardLabel: 'Очікувана винагорода',
+    costLabel: 'Витрати',
+    snapshotLabel: 'Період',
+    timeLabel: 'Час на тиждень',
+    overviewHeading: 'Огляд проєкту',
+    overview: 'Soneium — Ethereum Layer 2 на базі OP Stack від Sony Block Solutions Labs (спільне підприємство Sony Group і Startale Labs). У 28-денних сезонах Soneium Score учасники набирають 80+ балів за активність, ліквідність і NFT для отримання бейджів і дропів.',
+    tokenomicsHeading: 'Soneium Score і нагороди партнерів',
+    tokenomics: 'Мережа використовує ETH для газу; власники 80+ балів отримують сезонні Soulbound-бейджі та алокації від Kyo Finance, Pocket Knights і Dice or Die.',
+    stepsHeading: 'Покрокова інструкція',
+    steps: [
+      'Відкрийте офіційний портал Soneium (portal.soneium.org) і підключіть Rabby або Rainbow.',
+      'Переведіть трохи ETH у мережу Soneium через офіційний міст.',
+      'Відстежуйте 28-денний прогрес на панелі Soneium Score.',
+      'Робіть свопи та додавайте ліквідність у Kyo Finance для підвищення Liquidity Score.',
+      'Отримайте бейдж Copass Proof-of-Humanity та заберіть Season Badge NFT при 80+ балах.'
+    ],
+    strategyHeading: 'Стратегія максимізації нагород',
+    strategy: 'Надання ліквідності дає більше балів, ніж звичайні свопи; поєднуйте його з щоденними іграми на кшталт Dice or Die.',
+    sybilHeading: 'Захист від Sybil та безпека',
+    sybilSafety: 'Soneium використовує перевірку Copass PoH і не зараховує штучні цикли обміну одного токена.',
+    faqHeading: 'Часті запитання',
+    faqs: [
+      {
+        q: 'Чи справді Soneium розроблено Sony?',
+        a: 'Так, проєкт розвиває Sony Block Solutions Labs разом зі Startale Labs.'
+      },
+      {
+        q: 'Що буде, якщо пропустити один 28-денний сезон?',
+        a: 'Кожен сезон оцінюється незалежно, тому ви зможете брати участь у наступних.'
+      }
+    ],
+    ctaText: 'Відкрити Soneium',
+    englishVersionLabel: 'Англійська версія'
+  },
+  {
+    id: 'soneium',
+    slug: 'zh',
+    lang: 'zh-CN',
+    flag: '🇨🇳',
+    homeLabel: '首页',
+    hubLabel: '免费测试网',
+    hubHref: '/zh/free-testnets/',
+    title: 'Soneium (Sony L2) 空投教程 (2026)：Soneium Score 80+ 攻略 | Airdroplyx',
+    description: '索尼 Sony Block Solutions Labs 与 Startale Labs 打造的 OP Stack L2 网络 Soneium 28天积分冲 80+、Kyo Finance 流动性及 Copass PoH 教程。',
+    h1: 'Soneium (Sony L2) Soneium Score 与生态空投指南',
+    badge: 'Sony & OP Stack • 主网',
+    rewardLabel: '预估奖励',
+    costLabel: '参与成本',
+    snapshotLabel: '活动周期',
+    timeLabel: '每周耗时',
+    overviewHeading: '项目简介',
+    overview: 'Soneium 是索尼集团与 Startale Labs 合资成立的 Sony Block Solutions Labs 基于 Optimism OP Stack 打造的以太坊 Layer 2。在每期 28 天的 Soneium Score 赛季中，通过活跃度、流动性与 NFT 交互达到 80+ 分即可铸造赛季徽章并赢取生态协议空投。',
+    tokenomicsHeading: 'Soneium Score 与生态激励',
+    tokenomics: '网络以 ETH 作为燃料费；达到 80+ 分的用户不仅能获得灵魂绑定赛季徽章，还可获 Kyo Finance、Pocket Knights 与 Dice or Die 等生态项目的直接空投。',
+    stepsHeading: '详细参与步骤',
+    steps: [
+      '访问 Soneium 官方门户（portal.soneium.org）并连接 Rabby 或 Rainbow 钱包。',
+      '通过官方跨链桥向 Soneium 主网转入少量 ETH 作为 Gas。',
+      '在 Soneium Score 面板查看四大计分维度的实时进度。',
+      '前往 Kyo Finance 等主流 DEX 进行兑换并提供流动性以提升得分。',
+      '前往 Copass 铸造真人验证徽章，满 80+ 分后领取本赛季 Season Badge NFT。'
+    ],
+    strategyHeading: '高收益策略',
+    strategy: '提供流动性的积分权重高于单纯兑换，建议搭配 Dice or Die 与 Pocket Knights 等链游每日签到轻松突破 80 分。',
+    sybilHeading: '防女巫机制与安全提示',
+    sybilSafety: 'Soneium 引入了 Copass PoH 真人验证，并会自动剔除短时间内同币种反复刷量交易。',
+    faqHeading: '常见问题',
+    faqs: [
+      {
+        q: 'Soneium 是索尼官方开发的吗？',
+        a: '是的，由索尼集团与 Startale Labs 合资的 Sony Block Solutions Labs 开发。'
+      },
+      {
+        q: '错过某一期 28 天赛季怎么办？',
+        a: '每个赛季独立计分，错过一期不影响后续赛季及合作方空投。'
+      }
+    ],
+    ctaText: '打开 Soneium',
+    englishVersionLabel: '英文原版'
+  },
+  {
+    id: 'soneium',
+    slug: 'hi',
+    lang: 'hi',
+    flag: '🇮🇳',
+    homeLabel: 'होम',
+    hubLabel: 'मुफ़्त टेस्टनेट',
+    hubHref: '/hi/free-testnets/',
+    title: 'Soneium (Sony L2) एयरड्रॉप गाइड (2026): Score 80+ रणनीति | Airdroplyx',
+    description: 'Sony Block Solutions Labs और Startale Labs के OP Stack L2 नेटवर्क Soneium पर 28-दिन का Soneium Score 80+ पाने और Copass PoH की गाइड।',
+    h1: 'Soneium (Sony L2) Soneium Score और इकोसिस्टम एयरड्रॉप गाइड',
+    badge: 'Sony & OP Stack • मेननेट',
+    rewardLabel: 'अनुमानित इनाम',
+    costLabel: 'लागत',
+    snapshotLabel: 'अवधि',
+    timeLabel: 'साप्ताहिक समय',
+    overviewHeading: 'प्रोजेक्ट का परिचय',
+    overview: 'Soneium, Sony Group और Startale Labs के संयुक्त उद्यम Sony Block Solutions Labs द्वारा OP Stack पर बनाया गया Ethereum Layer 2 है। 28-दिन के Soneium Score सीज़न में 80+ अंक पाने वाले यूज़र्स को सीज़नल बैज और इकोसिस्टम टोकन रिवॉर्ड्स मिलते हैं।',
+    tokenomicsHeading: 'Soneium Score और पार्टनर इनाम',
+    tokenomics: 'नेटवर्क गैस के लिए ETH का उपयोग करता है; 80+ स्कोर हासिल करने वालों को Kyo Finance, Pocket Knights और Dice or Die जैसे प्रोटोकॉल से इनाम मिलते हैं।',
+    stepsHeading: 'भाग लेने के आसान चरण',
+    steps: [
+      'आधिकारिक Soneium पोर्टल (portal.soneium.org) पर जाएं और Rabby या Rainbow जोड़ें।',
+      'आधिकारिक ब्रिज के जरिए Soneium नेटवर्क पर थोड़ा ETH भेजें।',
+      'Soneium Score डैशबोर्ड पर 28-दिन के सीज़न लक्ष्य देखें।',
+      'Kyo Finance पर स्वैप करें और Liquidity Score बढ़ाने के लिए लिक्विडिटी जोड़ें।',
+      'Copass Proof-of-Humanity बैज मिंट करें और 80+ स्कोर पर Season Badge NFT क्लेम करें।'
+    ],
+    strategyHeading: 'अधिकतम इनाम की रणनीति',
+    strategy: 'सामान्य स्वैप की तुलना में लिक्विडिटी प्रदान करने पर अधिक अंक मिलते हैं; इसे Dice or Die जैसे गेम्स में दैनिक चेक-इन के साथ जोड़ें।',
+    sybilHeading: 'सिबिल सुरक्षा और सावधानियाँ',
+    sybilSafety: 'Soneium ने Copass PoH वेरिफिकेशन जोड़ा है और एक ही टोकन के बार-बार बॉट लूप्स को अमान्य करता है।',
+    faqHeading: 'अक्सर पूछे जाने वाले प्रश्न',
+    faqs: [
+      {
+        q: 'क्या Soneium सीधे Sony द्वारा विकसित है?',
+        a: 'हाँ, इसे Sony Group और Startale Labs के संयुक्त उपक्रम Sony Block Solutions Labs द्वारा बनाया गया है।'
+      },
+      {
+        q: 'अगर मैं एक 28-दिन का सीज़न चूक जाऊँ तो क्या होगा?',
+        a: 'प्रत्येक सीज़न अलग से गिना जाता है, इसलिए आप अगले सीज़न में भाग ले सकते हैं।'
+      }
+    ],
+    ctaText: 'Soneium खोलें',
+    englishVersionLabel: 'अंग्रेज़ी संस्करण'
+  },
+  {
+    id: 'soneium',
+    slug: 'it',
+    lang: 'it',
+    flag: '🇮🇹',
+    homeLabel: 'Home',
+    hubLabel: 'Testnet Gratuiti',
+    hubHref: '/it/testnet-gratuiti/',
+    title: 'Guida Airdrop Soneium (Sony L2) 2026: Soneium Score 80+ | Airdroplyx',
+    description: 'Come raggiungere 80+ punti su Soneium Score della rete Layer 2 di Sony e Startale Labs: bridge ETH, liquidità Kyo Finance e Copass PoH.',
+    h1: 'Soneium (Sony L2): Guida Soneium Score e Airdrop Ecosistema',
+    badge: 'Sony & OP Stack • Mainnet',
+    rewardLabel: 'Ricompensa stimata',
+    costLabel: 'Costo',
+    snapshotLabel: 'Periodo',
+    timeLabel: 'Tempo settimanale',
+    overviewHeading: 'Panoramica del progetto',
+    overview: 'Soneium è la blockchain Ethereum Layer 2 su OP Stack sviluppata da Sony Block Solutions Labs (joint venture tra Sony Group e Startale Labs). Nelle stagioni da 28 giorni di Soneium Score, chi supera 80 punti riceve badge Soulbound e ricompense dai protocolli partner.',
+    tokenomicsHeading: 'Soneium Score e Ricompense',
+    tokenomics: 'Usa ETH per il gas; i possessori di 80+ punti ottengono badge stagionali e allocazioni da progetti nativi come Kyo Finance, Pocket Knights e Dice or Die.',
+    stepsHeading: 'Come partecipare passo dopo passo',
+    steps: [
+      'Visita il portale ufficiale Soneium (portal.soneium.org) e collega Rabby o Rainbow.',
+      'Trasferisci una piccola quantità di ETH su Soneium tramite il bridge ufficiale.',
+      'Controlla i tuoi progressi nella dashboard Soneium Score.',
+      'Esegui swap e fornisci liquidità su Kyo Finance per alzare il Liquidity Score.',
+      'Conia il badge Copass Proof-of-Humanity e riscatta il Season Badge NFT a 80+.'
+    ],
+    strategyHeading: 'Strategia per massimizzare i punti',
+    strategy: 'Fornire liquidità pesa più dei semplici swap; abbinalo ai check-in giornalieri su giochi come Dice or Die e Pocket Knights.',
+    sybilHeading: 'Sicurezza e protezione Sybil',
+    sybilSafety: 'Soneium integra Copass PoH ed esclude i loop automatizzati sullo stesso token.',
+    faqHeading: 'Domande frequenti',
+    faqs: [
+      {
+        q: 'Soneium è sviluppata direttamente da Sony?',
+        a: 'Sì, da Sony Block Solutions Labs insieme a Startale Labs.'
+      },
+      {
+        q: 'Cosa succede se salto una stagione da 28 giorni?',
+        a: 'Ogni stagione viene valutata in modo indipendente dalle successive.'
+      }
+    ],
+    ctaText: 'Apri Soneium',
+    englishVersionLabel: 'Versione inglese'
+  },
+  {
+    id: 'soneium',
+    slug: 'pl',
+    lang: 'pl',
+    flag: '🇵🇱',
+    homeLabel: 'Strona główna',
+    hubLabel: 'Darmowe Testnety',
+    hubHref: '/pl/darmowe-testnety/',
+    title: 'Poradnik Airdrop Soneium (Sony L2) 2026: Soneium Score 80+ | Airdroplyx',
+    description: 'Jak zdobyć 80+ punktów Soneium Score w sieci Layer 2 od Sony i Startale Labs: most ETH, płynność na Kyo Finance oraz odznaka Copass PoH.',
+    h1: 'Soneium (Sony L2): Poradnik Soneium Score i Airdropów Ekosystemu',
+    badge: 'Sony & OP Stack • Mainnet',
+    rewardLabel: 'Szacowana nagroda',
+    costLabel: 'Koszt',
+    snapshotLabel: 'Okres',
+    timeLabel: 'Czas tygodniowo',
+    overviewHeading: 'Opis projektu',
+    overview: 'Soneium to sieć Ethereum Layer 2 na OP Stack tworzona przez Sony Block Solutions Labs (spółkę Sony Group i Startale Labs). W 28-dniowych sezonach Soneium Score wynik 80+ zapewnia odznaki Soulbound i nagrody od projektów ekosystemowych.',
+    tokenomicsHeading: 'Soneium Score i Nagrody',
+    tokenomics: 'Sieć korzysta z ETH do opłat gas; osoby z wynikiem 80+ otrzymują sezonowe odznaki oraz alokacje m.in. z Kyo Finance, Pocket Knights i Dice or Die.',
+    stepsHeading: 'Instrukcja krok po kroku',
+    steps: [
+      'Odwiedź oficjalny portal Soneium (portal.soneium.org) i podłącz Rabby lub Rainbow.',
+      'Prześlij niewielką ilość ETH do sieci Soneium oficjalnym mostem.',
+      'Sprawdź swoje cele w panelu Soneium Score.',
+      'Rób swapy i dodaj płynność na Kyo Finance, aby podnieść Liquidity Score.',
+      'Wykonaj weryfikację Copass Proof-of-Humanity i odbierz Season Badge NFT po osiągnięciu 80+.'
+    ],
+    strategyHeading: 'Strategia maksymalizacji nagród',
+    strategy: 'Dostarczanie płynności ma wyższą wagę niż zwykłe swapy; połącz je z codziennym graniem w Dice or Die lub Pocket Knights.',
+    sybilHeading: 'Ochrona Anti-Sybil i bezpieczeństwo',
+    sybilSafety: 'Soneium korzysta z weryfikacji Copass PoH i odrzuca automatyczne pętle obrotu tym samym tokenem.',
+    faqHeading: 'Często zadawane pytania',
+    faqs: [
+      {
+        q: 'Czy Soneium tworzy firma Sony?',
+        a: 'Tak, projekt rozwija Sony Block Solutions Labs we współpracy ze Startale Labs.'
+      },
+      {
+        q: 'Co jeśli przegapię jeden 28-dniowy sezon?',
+        a: 'Każdy sezon jest oceniany osobno, bez blokady udziału w kolejnych.'
+      }
+    ],
+    ctaText: 'Otwórz Soneium',
+    englishVersionLabel: 'Wersja angielska'
+  },
+
+  // ================= INITIA (16 LANGUAGES) =================
+  {
+    id: 'initia',
+    slug: 'tr',
+    lang: 'tr',
+    flag: '🇹🇷',
+    homeLabel: 'Ana Sayfa',
+    hubLabel: 'Ücretsiz Testnetler',
+    hubHref: '/tr/ucretsiz-testnet-airdroplari/',
+    title: 'Initia Airdrop Rehberi (2026): Jennie XP & $INIT Testnet | Airdroplyx',
+    description: 'Theory Ventures ve Delphi Ventures destekli ($22.5M) modüler rollup ağı Initia ücretsiz testneti, Jennie evcil hayvanı, Initia Wallet ve $INIT rehberi.',
+    h1: 'Initia ($INIT) Ücretsiz Testnet ve Jennie XP Airdrop Rehberi',
+    badge: '$22.5M Yatırım • Ücretsiz Testnet',
+    rewardLabel: 'Tahmini Ödül',
+    costLabel: 'Maliyet',
+    snapshotLabel: 'Beklenen Dönem',
+    timeLabel: 'Haftalık Süre',
+    overviewHeading: 'Proje Özeti',
+    overview: 'Theory Ventures, Delphi Ventures ve Hack VC’den 22,5 milyon dolar yatırım alan Initia, birbirine örülü rollup (Interwoven Rollups / Minitias) mimarisi sunan bir Layer 1 koordinasyon ağıdır. CosmWasm, MoveVM ve EVM katmanlarını tek ekosistemde birleştiren Initia, teşvikli testnetinde sanal yoldaş Jennie ile oyunlaştırılmış görevler sunar.',
+    tokenomicsHeading: '$INIT Tokenomik ve Dağıtım',
+    tokenomics: '$INIT tokenı tüm Minitia rollup’larında evrensel gaz tokenı olarak işlev görür, Layer 1 doğrulayıcı güvenliğini sağlar ve erken Jennie bakıcıları ile testnet katılımcılarına ayrılan topluluk payını temsil eder.',
+    stepsHeading: 'Adım Adım Katılım Rehberi',
+    steps: [
+      'Resmi Initia portalına (initia.xyz) gidin ve Initia Wallet veya Keplr tarayıcı eklentisini kurun.',
+      'Resmi Initia Faucet üzerinden ücretsiz test $INIT tokenları talep edin.',
+      'Testnet panosundan sanal yoldaşınız Jennie’yi yumurtadan çıkarın ve günlük bakım/besleme görevlerini yapın.',
+      'Blackwing ve Tucana gibi öne çıkan Minitia rollup’larında takas ve likidite işlemleri gerçekleştirin.',
+      'Initia yönetişim portalında doğrulayıcılara test $INIT stake edin.'
+    ],
+    strategyHeading: 'Maksimum Ödül Stratejisi',
+    strategy: 'Jennie’nin seviyesini yükseltmek için haftalık görevleri aksatmayın, farklı Minitia rollup’ları arasında çapraz işlemler yapın ve Discord rollerini toplayın.',
+    sybilHeading: 'Sybil Koruması ve Güvenlik',
+    sybilSafety: 'Initia, Jennie besleme ve çok faktörlü aktivite doğrulaması kullanarak yalnızca tekil sözleşme çalıştıran botları XP sıralamasından eler. Resmi initia.xyz bağlantısını kullanın.',
+    faqHeading: 'Sıkça Sorulan Sorular',
+    faqs: [
+      {
+        q: 'Initia testnetindeki Jennie nedir?',
+        a: 'Zincir üstü görevlerle besleyip seviye atlattığınız sanal evcil hayvandır; topladığınız XP airdrop ödüllerine katkı sağlar.'
+      },
+      {
+        q: 'Initia VIP testneti ücretsiz mi?',
+        a: 'Evet, halka açık faucet üzerinden alınan ücretsiz test tokenlarıyla %100 ücretsiz ($0) katılabilirsiniz.'
+      }
+    ],
+    ctaText: 'Initia’yı Aç',
+    englishVersionLabel: 'İngilizce Sürüm'
+  },
+  {
+    id: 'initia',
+    slug: 'ru',
+    lang: 'ru',
+    flag: '🇷🇺',
+    homeLabel: 'Главная',
+    hubLabel: 'Бесплатные тестнеты',
+    hubHref: '/ru/free-testnets/',
+    title: 'Гайд по аирдропу Initia (2026): тестнет, Jennie XP и $INIT | Airdroplyx',
+    description: 'Как бесплатно пройти тестнет Initia ($22.5M от Theory Ventures и Delphi Ventures): кошелек Initia Wallet, кран $INIT, питомец Jennie и роллапы Minitia.',
+    h1: 'Initia ($INIT): гайд по бесплатному тестнету и Jennie XP',
+    badge: 'Инвестиции $22.5M • Бесплатно',
+    rewardLabel: 'Ожидаемая награда',
+    costLabel: 'Затраты',
+    snapshotLabel: 'Ожидаемый период',
+    timeLabel: 'Время в неделю',
+    overviewHeading: 'Обзор проекта',
+    overview: 'Initia (привлекла $22.5M от Theory Ventures, Delphi Ventures и Hack VC) — сеть взаимосвязанных роллапов (Interwoven Rollups / Minitias) с поддержкой CosmWasm, MoveVM и EVM. В тестнете пользователи развивают виртуального питомца Jennie и тестируют Minitias за будущий дроп $INIT.',
+    tokenomicsHeading: 'Токеномика $INIT',
+    tokenomics: '$INIT служит универсальным токеном газа во всех Minitia и обеспечивает безопасность L1, выделяя существенную долю активным участникам тестнета и владельцам Jennie.',
+    stepsHeading: 'Пошаговая инструкция',
+    steps: [
+      'Откройте официальный сайт Initia (initia.xyz) и установите Initia Wallet или Keplr.',
+      'Запросите бесплатные тестовые токены $INIT в официальном кране.',
+      'Выведите питомца Jennie на дашборде тестнета и выполняйте ежедневные задания по уходу.',
+      'Тестируйте свопы и стейкинг в роллапах Minitia, таких как Blackwing и Tucana.',
+      'Застейкайте тестовые $INIT валидаторам на портале управления.'
+    ],
+    strategyHeading: 'Стратегия фарма',
+    strategy: 'Регулярно кормите и повышайте уровень Jennie, взаимодействуйте с разными Minitia и забирайте подтверждённые роли в Discord.',
+    sybilHeading: 'Защита от ботов и безопасность',
+    sybilSafety: 'Система учитывает уход за Jennie и многофакторную активность, отсеивая однотипных ботов. Используйте только официальный домен initia.xyz.',
+    faqHeading: 'Частые вопросы',
+    faqs: [
+      {
+        q: 'Что такое Jennie в тестнете Initia?',
+        a: 'Виртуальный питомец, которого вы кормите и прокачиваете за ончейн-квесты для получения XP.'
+      },
+      {
+        q: 'Бесплатно ли участвовать в тестнете Initia?',
+        a: 'Да, все действия выполняются на бесплатных тестовых токенах из крана ($0).'
+      }
+    ],
+    ctaText: 'Открыть Initia',
+    englishVersionLabel: 'Английская версия'
+  },
+  {
+    id: 'initia',
+    slug: 'id',
+    lang: 'id',
+    flag: '🇮🇩',
+    homeLabel: 'Beranda',
+    hubLabel: 'Testnet Gratis',
+    hubHref: '/id/testnet-gratis/',
+    title: 'Panduan Airdrop Initia (2026): Testnet Gratis Jennie XP $INIT | Airdroplyx',
+    description: 'Cara ikut testnet Initia ($22.5M dari Theory Ventures & Delphi Ventures): pasang Initia Wallet, klaim faucet $INIT, rawat Jennie, dan coba Minitias.',
+    h1: 'Initia ($INIT): Panduan Testnet Gratis & Jennie XP',
+    badge: 'Pendanaan $22.5M • Gratis',
+    rewardLabel: 'Estimasi Hadiah',
+    costLabel: 'Biaya',
+    snapshotLabel: 'Perkiraan Snapshot',
+    timeLabel: 'Waktu Mingguan',
+    overviewHeading: 'Ringkasan Proyek',
+    overview: 'Didukung $22,5 juta dari Theory Ventures, Delphi Ventures, dan Hack VC, Initia adalah jaringan Layer 1 untuk Interwoven Rollups (Minitias) yang mendukung CosmWasm, MoveVM, dan EVM. Di testnetnya, pemain merawat peliharaan virtual Jennie untuk mengumpulkan XP.',
+    tokenomicsHeading: 'Tokenomik $INIT',
+    tokenomics: '$INIT menjadi token gas universal di semua rollup Minitia dan mengamankan L1, dengan alokasi bagi penguji testnet dan perawat Jennie.',
+    stepsHeading: 'Langkah-Langkah Mengikuti Airdrop',
+    steps: [
+      'Kunjungi portal resmi Initia (initia.xyz) dan pasang ekstensi Initia Wallet atau Keplr.',
+      'Klaim token $INIT uji coba gratis dari faucet resmi Initia.',
+      'Tetaskan peliharaan Jennie di dasbor testnet dan selesaikan tugas perawatan harian.',
+      'Coba swap dan deposit di rollup Minitia seperti Blackwing dan Tucana.',
+      'Stake $INIT uji coba ke validator aktif di portal tata kelola.'
+    ],
+    strategyHeading: 'Strategi Maksimal',
+    strategy: 'Naikkan level Jennie dengan misi mingguan, jelajahi beberapa Minitia berbeda, dan kumpulkan peran Discord resmi.',
+    sybilHeading: 'Keamanan & Anti-Sybil',
+    sybilSafety: 'Sistem verifikasi Jennie menyaring bot otomatis yang hanya menjalankan satu kontrak. Gunakan initia.xyz resmi.',
+    faqHeading: 'Pertanyaan Umum',
+    faqs: [
+      {
+        q: 'Apa itu Jennie di testnet Initia?',
+        a: 'Peliharaan virtual yang Anda beri makan dan tingkatkan lewat misi on-chain untuk memperoleh XP.'
+      },
+      {
+        q: 'Apakah testnet Initia gratis?',
+        a: 'Ya, 100% gratis ($0) menggunakan token faucet publik.'
+      }
+    ],
+    ctaText: 'Buka Initia',
+    englishVersionLabel: 'Versi Bahasa Inggris'
+  },
+  {
+    id: 'initia',
+    slug: 'vi',
+    lang: 'vi',
+    flag: '🇻🇳',
+    homeLabel: 'Trang chủ',
+    hubLabel: 'Testnet Miễn Phí',
+    hubHref: '/vi/testnet-mien-phi/',
+    title: 'Hướng dẫn Airdrop Initia (2026): Testnet Jennie XP & $INIT | Airdroplyx',
+    description: 'Cách tham gia testnet Initia miễn phí ($22.5M từ Theory Ventures & Delphi Ventures): cài Initia Wallet, nhận faucet $INIT và nuôi thú ảo Jennie.',
+    h1: 'Initia ($INIT): Hướng Dẫn Testnet Miễn Phí & Săn Jennie XP',
+    badge: 'Gọi vốn $22.5M • Miễn phí',
+    rewardLabel: 'Phần thưởng dự kiến',
+    costLabel: 'Chi phí',
+    snapshotLabel: 'Thời gian dự kiến',
+    timeLabel: 'Thời gian mỗi tuần',
+    overviewHeading: 'Tổng quan dự án',
+    overview: 'Huy động $22,5 triệu từ Theory Ventures, Delphi Ventures và Hack VC, Initia xây dựng mạng lưới Interwoven Rollups (Minitias) kết hợp CosmWasm, MoveVM và EVM. Trong testnet, người dùng nuôi thú cưng ảo Jennie để cày XP cho airdrop $INIT.',
+    tokenomicsHeading: 'Tokenomics $INIT',
+    tokenomics: '$INIT là token gas chung cho toàn bộ Minitia và bảo mật mạng L1, dành phần lớn nguồn cung cho người tham gia testnet chăm sóc Jennie.',
+    stepsHeading: 'Các bước tham gia chi tiết',
+    steps: [
+      'Truy cập cổng chính thức Initia (initia.xyz) và cài đặt ví Initia Wallet hoặc Keplr.',
+      'Nhận token $INIT thử nghiệm miễn phí từ faucet chính thức.',
+      'Ấp thú cưng Jennie trên bảng điều khiển testnet và hoàn thành nhiệm vụ chăm sóc hàng ngày.',
+      'Tương tác swap và nạp thanh khoản trên các Minitia như Blackwing và Tucana.',
+      'Stake $INIT thử nghiệm cho các validator trên cổng quản trị.'
+    ],
+    strategyHeading: 'Chiến lược tối ưu điểm',
+    strategy: 'Nâng cấp Jennie đều đặn hàng tuần, trải nghiệm nhiều Minitia khác nhau và lấy role Discord chính thức.',
+    sybilHeading: 'Chống Sybil & Bảo mật',
+    sybilSafety: 'Cơ chế xác minh đa yếu tố quanh Jennie giúp loại bỏ bot chỉ chạy lệnh đơn lẻ. Chỉ thao tác trên initia.xyz.',
+    faqHeading: 'Câu hỏi thường gặp',
+    faqs: [
+      {
+        q: 'Jennie trong testnet Initia là gì?',
+        a: 'Là thú cưng ảo bạn nuôi và tăng cấp qua các nhiệm vụ on-chain để tích lũy XP.'
+      },
+      {
+        q: 'Testnet Initia có miễn phí không?',
+        a: 'Hoàn toàn miễn phí ($0) với token nhận từ faucet công khai.'
+      }
+    ],
+    ctaText: 'Mở Initia',
+    englishVersionLabel: 'Bản tiếng Anh'
+  },
+  {
+    id: 'initia',
+    slug: 'es',
+    lang: 'es',
+    flag: '🇪🇸',
+    homeLabel: 'Inicio',
+    hubLabel: 'Testnets Gratis',
+    hubHref: '/es/testnets-gratis/',
+    title: 'Guía Airdrop Initia (2026): Testnet Jennie XP y $INIT | Airdroplyx',
+    description: 'Cómo participar gratis en la testnet de Initia ($22.5M de Theory Ventures y Delphi Ventures): Initia Wallet, faucet $INIT, mascota Jennie y Minitias.',
+    h1: 'Initia ($INIT): Guía de Testnet Gratuita y Jennie XP',
+    badge: 'Financiación $22.5M • Gratis',
+    rewardLabel: 'Recompensa estimada',
+    costLabel: 'Costo',
+    snapshotLabel: 'Periodo estimado',
+    timeLabel: 'Tiempo semanal',
+    overviewHeading: 'Resumen del proyecto',
+    overview: 'Con $22,5 millones recaudados de Theory Ventures, Delphi Ventures y Hack VC, Initia conecta rollups específicos (Minitias) bajo una arquitectura unificada compatible con CosmWasm, MoveVM y EVM. En su testnet los usuarios crían a la mascota Jennie para acumular XP.',
+    tokenomicsHeading: 'Tokenomics de $INIT',
+    tokenomics: '$INIT funciona como token de gas universal en todas las Minitias y asegura la Layer 1, premiando a los cuidadores de Jennie y probadores tempranos.',
+    stepsHeading: 'Pasos para participar',
+    steps: [
+      'Visita el portal oficial de Initia (initia.xyz) e instala Initia Wallet o Keplr.',
+      'Solicita $INIT de prueba gratuitos en el faucet oficial.',
+      'Eclosiona a tu compañero Jennie en el panel de testnet y cuídalo a diario.',
+      'Realiza intercambios y pruebas en Minitias destacadas como Blackwing y Tucana.',
+      'Delega $INIT de prueba a validadores activos en el portal de gobernanza.'
+    ],
+    strategyHeading: 'Estrategia para maximizar recompensas',
+    strategy: 'Sube de nivel a Jennie completando misiones semanales, interactúa con varias Minitias y consigue roles en Discord.',
+    sybilHeading: 'Seguridad y protección Sybil',
+    sybilSafety: 'El sistema multifactor de Jennie descalifica scripts automáticos sin interacción real. Usa solo initia.xyz.',
+    faqHeading: 'Preguntas frecuentes',
+    faqs: [
+      {
+        q: '¿Qué es Jennie en la testnet de Initia?',
+        a: 'Una mascota virtual que alimentas y subes de nivel mediante misiones on-chain para ganar XP.'
+      },
+      {
+        q: '¿Es gratis la testnet de Initia?',
+        a: 'Sí, 100% gratuita ($0) con tokens del faucet público.'
+      }
+    ],
+    ctaText: 'Abrir Initia',
+    englishVersionLabel: 'Versión en inglés'
+  },
+  {
+    id: 'initia',
+    slug: 'pt',
+    lang: 'pt',
+    flag: '🇧🇷',
+    homeLabel: 'Início',
+    hubLabel: 'Testnets Grátis',
+    hubHref: '/pt/testnets-gratis/',
+    title: 'Guia Airdrop Initia (2026): Testnet Grátis Jennie XP $INIT | Airdroplyx',
+    description: 'Passo a passo da testnet da Initia ($22.5M da Theory Ventures e Delphi Ventures): Initia Wallet, faucet $INIT, mascote Jennie e Minitias.',
+    h1: 'Initia ($INIT): Guia da Testnet Gratuita e Jennie XP',
+    badge: 'Investimento $22.5M • Grátis',
+    rewardLabel: 'Recompensa estimada',
+    costLabel: 'Custo',
+    snapshotLabel: 'Previsão',
+    timeLabel: 'Tempo semanal',
+    overviewHeading: 'Visão geral do projeto',
+    overview: 'Com $22,5 milhões captados com Theory Ventures, Delphi Ventures e Hack VC, a Initia une uma Layer 1 coordenadora a rollups específicos (Minitias) com suporte a CosmWasm, MoveVM e EVM. Na testnet, usuários evoluem o pet virtual Jennie para somar XP.',
+    tokenomicsHeading: 'Tokenomics do $INIT',
+    tokenomics: '$INIT é o gás universal das Minitias e protege a Layer 1, destinando parcela relevante aos participantes que cuidam de Jennie na testnet.',
+    stepsHeading: 'Passo a passo para participar',
+    steps: [
+      'Acesse o portal oficial da Initia (initia.xyz) e instale a Initia Wallet ou Keplr.',
+      'Resgate tokens $INIT de teste gratuitos no faucet oficial.',
+      'Choque seu mascote Jennie no painel da testnet e cumpra tarefas diárias.',
+      'Faça swaps e depósitos em Minitias em destaque como Blackwing e Tucana.',
+      'Faça staking de $INIT de teste com validadores ativos.'
+    ],
+    strategyHeading: 'Estratégia de ganhos',
+    strategy: 'Evolua o Jennie com missões semanais, explore diferentes Minitias e garanta seus cargos no Discord.',
+    sybilHeading: 'Proteção Sybil e segurança',
+    sybilSafety: 'A verificação multifator do Jennie elimina scripts automatizados. Utilize apenas initia.xyz.',
+    faqHeading: 'Perguntas frequentes',
+    faqs: [
+      {
+        q: 'O que é o Jennie na testnet da Initia?',
+        a: 'Um mascote virtual alimentado por missões on-chain que gera XP para recompensas.'
+      },
+      {
+        q: 'A testnet da Initia é gratuita?',
+        a: 'Sim, 100% gratuita ($0) com tokens do faucet público.'
+      }
+    ],
+    ctaText: 'Abrir Initia',
+    englishVersionLabel: 'Versão em inglês'
+  },
+  {
+    id: 'initia',
+    slug: 'ko',
+    lang: 'ko',
+    flag: '🇰🇷',
+    homeLabel: '홈',
+    hubLabel: '무료 테스트넷',
+    hubHref: '/ko/free-testnets/',
+    title: 'Initia 에어드랍 가이드 (2026): Jennie XP & 무료 테스트넷 $INIT | Airdroplyx',
+    description: 'Theory Ventures와 Delphi Ventures가 $22.5M 투자한 Initia 테스트넷 공략: Initia Wallet 설치, $INIT 수도꼭지, 가상 펫 Jennie 키우기.',
+    h1: 'Initia ($INIT) 무료 테스트넷 및 Jennie XP 가이드',
+    badge: '$22.5M 투자 유치 • 무료 테스트넷',
+    rewardLabel: '예상 보상',
+    costLabel: '비용',
+    snapshotLabel: '예상 시기',
+    timeLabel: '주간 소요 시간',
+    overviewHeading: '프로젝트 개요',
+    overview: 'Theory Ventures, Delphi Ventures, Hack VC 등에서 2,250만 달러를 유치한 Initia는 CosmWasm·MoveVM·EVM을 지원하는 상호 연결 롤업(Minitias) 네트워크입니다. 인센티브 테스트넷에서 가상 펫 Jennie를 키우며 XP를 모아 $INIT 에어드랍을 준비할 수 있습니다.',
+    tokenomicsHeading: '$INIT 토크노믹스',
+    tokenomics: '$INIT은 모든 Minitia 롤업의 공용 가스 토큰이자 L1 스테이킹 자산으로, 테스트넷에서 Jennie를 성장시킨 참여자에게 상당한 물량이 배정될 예정입니다.',
+    stepsHeading: '단계별 참여 방법',
+    steps: [
+      '공식 Initia 포털(initia.xyz)에서 Initia Wallet 또는 Keplr 확장 프로그램을 설치하세요.',
+      '공식 Initia Faucet에서 무료 테스트용 $INIT을 받으세요.',
+      '테스트넷 대시보드에서 Jennie 펫을 부화시키고 매일 돌봄·먹이주기 미션을 수행하세요.',
+      'Blackwing, Tucana 등 주요 Minitia 롤업에서 스왑 및 유동성 예치를 진행하세요.',
+      '거버넌스 포털에서 검증인에게 테스트 $INIT을 스테이킹하세요.'
+    ],
+    strategyHeading: '보상 극대화 전략',
+    strategy: '매주 Jennie 레벨업을 꾸준히 챙기고, 여러 Minitia 롤업을 넘나드는 거래 기록과 Discord 역할을 확보하세요.',
+    sybilHeading: '시빌 방지 및 보안',
+    sybilSafety: 'Jennie 육성 시스템의 다중 활동 검증이 단순 매크로 봇을 걸러냅니다. 공식 initia.xyz만 이용하세요.',
+    faqHeading: '자주 묻는 질문',
+    faqs: [
+      {
+        q: 'Initia 테스트넷의 Jennie란 무엇인가요?',
+        a: '온체인 퀘스트를 완료해 먹이를 주고 레벨업시키면 에어드랍 XP가 쌓이는 가상 펫입니다.'
+      },
+      {
+        q: 'Initia 테스트넷은 무료인가요?',
+        a: '네, 공개 Faucet 토큰으로 비용 없이($0) 참여할 수 있습니다.'
+      }
+    ],
+    ctaText: 'Initia 열기',
+    englishVersionLabel: '영문 버전'
+  },
+  {
+    id: 'initia',
+    slug: 'ja',
+    lang: 'ja',
+    flag: '🇯🇵',
+    homeLabel: 'ホーム',
+    hubLabel: '無料テストネット',
+    hubHref: '/ja/free-testnets/',
+    title: 'Initia エアドロップ攻略 (2026): Jennie XP＆無料テストネット $INIT | Airdroplyx',
+    description: 'Theory VenturesとDelphi Venturesから2,250万ドル調達したInitiaの無料テストネット手順：Initia Wallet・Jennie育成・Minitia操作を解説。',
+    h1: 'Initia ($INIT) 無料テストネット＆Jennie XP攻略ガイド',
+    badge: '$22.5M調達済み • 無料テストネット',
+    rewardLabel: '予想報酬',
+    costLabel: '費用',
+    snapshotLabel: '予定時期',
+    timeLabel: '週間作業時間',
+    overviewHeading: 'プロジェクト概要',
+    overview: 'Theory Ventures、Delphi Ventures、Hack VCから2,250万ドルを調達したInitiaは、CosmWasm・MoveVM・EVMに対応した相互接続ロールアップ（Minitias）ネットワークです。公開テストネットではバーチャルペット「Jennie」を育ててXPを貯められます。',
+    tokenomicsHeading: '$INIT トケノミクス',
+    tokenomics: '$INITは全Minitia共通のガストークンおよびL1ステーキング資産として機能し、Jennieを育成した初期テストネット参加者への配分が予定されています。',
+    stepsHeading: '参加ステップ',
+    steps: [
+      '公式Initiaポータル（initia.xyz）を開き、Initia WalletまたはKeplrを導入します。',
+      '公式Faucetから無料のテスト用$INITを請求します。',
+      'テストネット画面でJennieを孵化させ、毎日のお世話タスクを進めます。',
+      'BlackwingやTucanaなどのMinitiaロールアップでスワップや流動性提供を行います。',
+      'ガバナンス画面でアクティブなバリデータへテスト$INITをステーキングします。'
+    ],
+    strategyHeading: '報酬最大化のコツ',
+    strategy: '毎週欠かさずJennieのレベルを上げ、複数のMinitiaを横断して利用しつつDiscordロールも取得しましょう。',
+    sybilHeading: 'シビル対策と安全性',
+    sybilSafety: 'Jennie育成システムの多要素アクティビティ検証により単発ボットは除外されます。公式URL initia.xyzのみをご利用ください。',
+    faqHeading: 'よくある質問',
+    faqs: [
+      {
+        q: 'InitiaテストネットのJennieとは？',
+        a: 'オンチェーンクエストで餌をあげて育成し、エアドロップ向けXPを獲得できるバーチャルペットです。'
+      },
+      {
+        q: 'Initiaテストネットは無料ですか？',
+        a: 'はい、公式Faucetの無料トークンを使うため完全無料（$0）です。'
+      }
+    ],
+    ctaText: 'Initiaを開く',
+    englishVersionLabel: '英語版を見る'
+  },
+  {
+    id: 'initia',
+    slug: 'ar',
+    lang: 'ar',
+    flag: '🇸🇦',
+    homeLabel: 'الرئيسية',
+    hubLabel: 'شبكات اختبار مجانية',
+    hubHref: '/ar/free-testnets/',
+    title: 'دليل إيردروب Initia (2026): نقاط Jennie XP وشبكة اختبار $INIT | Airdroplyx',
+    description: 'دليل المشاركة مجاناً في شبكة اختبار Initia ($22.5M من Theory Ventures وDelphi Ventures): محفظة Initia Wallet وتربية Jennie.',
+    h1: 'Initia ($INIT): دليل شبكة الاختبار المجانية ونقاط Jennie XP',
+    badge: 'تمويل $22.5M • مجاني',
+    rewardLabel: 'المكافأة المتوقعة',
+    costLabel: 'التكلفة',
+    snapshotLabel: 'الفترة المتوقعة',
+    timeLabel: 'الوقت الأسبوعي',
+    overviewHeading: 'نظرة عامة على المشروع',
+    overview: 'حصل مشروع Initia على تمويل 22.5 مليون دولار من Theory Ventures وDelphi Ventures وHack VC لبناء شبكة رول أب مترابطة (Minitias) تدعم CosmWasm وMoveVM وEVM. في شبكة الاختبار، يربي المستخدمون الرفيق الافتراضي Jennie لجمع XP لإيردروب $INIT.',
+    tokenomicsHeading: 'اقتصاديات $INIT',
+    tokenomics: 'يعمل $INIT كعملة غاز موحدة لجميع Minitias ويؤمّن الطبقة الأولى، مع تخصيص حصة مهمة لمختبري شبكة الاختبار ومربي Jennie.',
+    stepsHeading: 'خطوات المشاركة',
+    steps: [
+      'افتح بوابة Initia الرسمية (initia.xyz) وثبّت إضافة Initia Wallet أو Keplr.',
+      'اطلب عملات اختبار $INIT مجانية من الصنبور الرسمي.',
+      'افقس رفيقك الافتراضي Jennie في لوحة الاختبار وأكمل مهام الرعاية اليومية.',
+      'نفّذ مبادلات وإيداعات سيولة في رول أب Minitia مثل Blackwing وTucana.',
+      'قم بتخزين $INIT الاختبارية لدى المدققين في بوابة الحوكمة.'
+    ],
+    strategyHeading: 'استراتيجية تعظيم المكافآت',
+    strategy: 'ارفع مستوى Jennie أسبوعياً، وتفاعل عبر عدة رول أب Minitias مختلفة، واجمع أدوار Discord.',
+    sybilHeading: 'الحماية من الحسابات الوهمية والأمان',
+    sybilSafety: 'يستبعد التحقق متعدد العوامل في نظام Jennie البوتات الآلية البسيطة. استخدم الموقع الرسمي initia.xyz فقط.',
+    faqHeading: 'الأسئلة الشائعة',
+    faqs: [
+      {
+        q: 'ما هو Jennie في شبكة اختبار Initia؟',
+        a: 'رفيق افتراضي تطعمه وترقّيه عبر المهام على السلسلة لكسب نقاط XP.'
+      },
+      {
+        q: 'هل شبكة اختبار Initia مجانية؟',
+        a: 'نعم، مجانية 100% ($0) باستخدام عملات الصنبور العام.'
+      }
+    ],
+    ctaText: 'افتح Initia',
+    englishVersionLabel: 'النسخة الإنجليزية'
+  },
+  {
+    id: 'initia',
+    slug: 'de',
+    lang: 'de',
+    flag: '🇩🇪',
+    homeLabel: 'Startseite',
+    hubLabel: 'Kostenlose Testnets',
+    hubHref: '/de/kostenlose-testnets/',
+    title: 'Initia Airdrop Guide (2026): Jennie XP & Testnet $INIT | Airdroplyx',
+    description: 'Anleitung für das kostenlose Initia Testnet ($22.5M von Theory Ventures & Delphi Ventures): Initia Wallet, $INIT Faucet, Jennie und Minitias.',
+    h1: 'Initia ($INIT): Kostenloser Testnet- & Jennie-XP Guide',
+    badge: '$22.5M Finanzierung • Kostenlos',
+    rewardLabel: 'Geschätzte Belohnung',
+    costLabel: 'Kosten',
+    snapshotLabel: 'Erwarteter Zeitraum',
+    timeLabel: 'Wöchentlicher Aufwand',
+    overviewHeading: 'Projektübersicht',
+    overview: 'Unterstützt mit 22,5 Millionen US-Dollar von Theory Ventures, Delphi Ventures und Hack VC verbindet Initia eine Layer-1-Koordinationskette mit anwendungsspezifischen Rollups (Minitias) für CosmWasm, MoveVM und EVM. Im Testnet ziehen Nutzer den virtuellen Begleiter Jennie für XP groß.',
+    tokenomicsHeading: '$INIT Tokenomics',
+    tokenomics: '$INIT dient als universeller Gas-Token aller Minitias und sichert die L1-Validatoren, mit einer Zuteilung für frühe Testnet-Teilnehmer und Jennie-Pfleger.',
+    stepsHeading: 'Schritt-für-Schritt-Anleitung',
+    steps: [
+      'Besuche das offizielle Initia-Portal (initia.xyz) und installiere Initia Wallet oder Keplr.',
+      'Fordere kostenlose Test-$INIT-Token über das offizielle Faucet an.',
+      'Schlüpfe deinen Begleiter Jennie im Testnet-Dashboard und erledige tägliche Aufgaben.',
+      'Interagiere mit vorgestellten Minitias wie Blackwing und Tucana.',
+      'Stake Test-$INIT bei aktiven Validatoren im Governance-Portal.'
+    ],
+    strategyHeading: 'Strategie für maximale Punkte',
+    strategy: 'Steigere Jennies Level wöchentlich, nutze verschiedene Minitia-Rollups und sichere dir offizielle Discord-Rollen.',
+    sybilHeading: 'Sybil-Schutz & Sicherheit',
+    sybilSafety: 'Die mehrstufige Aktivitätsprüfung im Jennie-System schließt einfache Bot-Skripte aus. Nutze nur initia.xyz.',
+    faqHeading: 'Häufig gestellte Fragen',
+    faqs: [
+      {
+        q: 'Was ist Jennie im Initia-Testnet?',
+        a: 'Ein virtueller Begleiter, den du durch On-Chain-Quests fütterst und auflevelst, um XP zu sammeln.'
+      },
+      {
+        q: 'Ist das Initia-Testnet kostenlos?',
+        a: 'Ja, komplett kostenlos ($0) über Test-Token aus dem Faucet.'
+      }
+    ],
+    ctaText: 'Initia öffnen',
+    englishVersionLabel: 'Englische Version'
+  },
+  {
+    id: 'initia',
+    slug: 'fr',
+    lang: 'fr',
+    flag: '🇫🇷',
+    homeLabel: 'Accueil',
+    hubLabel: 'Testnets Gratuits',
+    hubHref: '/fr/testnets-gratuits/',
+    title: 'Guide Airdrop Initia (2026) : Jennie XP & Testnet $INIT | Airdroplyx',
+    description: 'Comment participer gratuitement au testnet Initia (22,5 M$ par Theory Ventures et Delphi Ventures) : Initia Wallet, faucet $INIT et compagnon Jennie.',
+    h1: 'Initia ($INIT) : Guide Testnet Gratuit et Jennie XP',
+    badge: 'Financement $22.5M • Gratuit',
+    rewardLabel: 'Récompense estimée',
+    costLabel: 'Coût',
+    snapshotLabel: 'Période estimée',
+    timeLabel: 'Temps hebdomadaire',
+    overviewHeading: 'Présentation du projet',
+    overview: 'Financée à hauteur de 22,5 M$ par Theory Ventures, Delphi Ventures et Hack VC, Initia relie une chaîne L1 à des rollups dédiés (Minitias) compatibles CosmWasm, MoveVM et EVM. Sur son testnet, les utilisateurs élèvent le compagnon virtuel Jennie pour gagner des XP.',
+    tokenomicsHeading: 'Tokenomics de $INIT',
+    tokenomics: 'Le jeton $INIT sert de gaz universel sur les Minitias et sécurise les validateurs L1, récompensant les testeurs prenant soin de Jennie.',
+    stepsHeading: 'Étapes pour participer',
+    steps: [
+      'Visitez le portail officiel Initia (initia.xyz) et installez Initia Wallet ou Keplr.',
+      'Réclamez des jetons $INIT de test gratuits sur le faucet officiel.',
+      'Faites éclore votre compagnon Jennie sur le tableau de bord et nourrissez-le chaque jour.',
+      'Effectuez des swaps et dépôts sur des Minitias comme Blackwing et Tucana.',
+      'Stakez des $INIT de test auprès de validateurs actifs.'
+    ],
+    strategyHeading: 'Stratégie d’optimisation',
+    strategy: 'Faites monter Jennie de niveau chaque semaine, interagissez avec plusieurs Minitias et obtenez les rôles Discord.',
+    sybilHeading: 'Protection Anti-Sybil et sécurité',
+    sybilSafety: 'La vérification multifactorielle liée à Jennie disqualifie les bots automatisés. Accédez uniquement à initia.xyz.',
+    faqHeading: 'Questions fréquentes',
+    faqs: [
+      {
+        q: 'Qu’est-ce que Jennie sur le testnet Initia ?',
+        a: 'Un animal virtuel que vous nourrissez via des quêtes on-chain pour accumuler des XP.'
+      },
+      {
+        q: 'Le testnet Initia est-il gratuit ?',
+        a: 'Oui, 100 % gratuit ($0) avec les jetons du faucet public.'
+      }
+    ],
+    ctaText: 'Ouvrir Initia',
+    englishVersionLabel: 'Version anglaise'
+  },
+  {
+    id: 'initia',
+    slug: 'uk',
+    lang: 'uk',
+    flag: '🇺🇦',
+    homeLabel: 'Головна',
+    hubLabel: 'Безкоштовні тестнети',
+    hubHref: '/uk/bezkoshtovni-testnety/',
+    title: 'Гайд з аірдропу Initia (2026): Jennie XP і тестнет $INIT | Airdroplyx',
+    description: 'Як безкоштовно пройти тестнет Initia ($22.5M від Theory Ventures і Delphi Ventures): Initia Wallet, кран $INIT, улюбленець Jennie та Minitias.',
+    h1: 'Initia ($INIT): гайд із безкоштовного тестнету й Jennie XP',
+    badge: 'Інвестиції $22.5M • Безкоштовно',
+    rewardLabel: 'Очікувана винагорода',
+    costLabel: 'Витрати',
+    snapshotLabel: 'Очікуваний період',
+    timeLabel: 'Час на тиждень',
+    overviewHeading: 'Огляд проєкту',
+    overview: 'Initia залучила $22,5 млн від Theory Ventures, Delphi Ventures і Hack VC для мережі взаємопов’язаних ролапів (Minitias) із підтримкою CosmWasm, MoveVM та EVM. У тестнеті користувачі доглядають за віртуальним улюбленцем Jennie заради XP та дропу $INIT.',
+    tokenomicsHeading: 'Токеноміка $INIT',
+    tokenomics: '$INIT є універсальним газовим токеном усіх Minitia й забезпечує безпеку L1, виділяючи частку раннім тестувальникам та опікунам Jennie.',
+    stepsHeading: 'Покрокова інструкція',
+    steps: [
+      'Відкрийте офіційний портал Initia (initia.xyz) і встановіть Initia Wallet або Keplr.',
+      'Отримайте безкоштовні тестові токени $INIT в офіційному крані.',
+      'Виведіть улюбленця Jennie на панелі тестнету та виконуйте щоденний догляд.',
+      'Робіть свопи та депозити в Minitias, таких як Blackwing і Tucana.',
+      'Застейкайте тестові $INIT у валідаторів на порталі управління.'
+    ],
+    strategyHeading: 'Стратегія максимізації нагород',
+    strategy: 'Щотижня піднімайте рівень Jennie, тестуйте різні Minitia-ролапи та здобудьте ролі в Discord.',
+    sybilHeading: 'Захист від Sybil та безпека',
+    sybilSafety: 'Багатофакторна перевірка активності Jennie відсіює примітивних ботів. Користуйтеся лише initia.xyz.',
+    faqHeading: 'Часті запитання',
+    faqs: [
+      {
+        q: 'Що таке Jennie у тестнеті Initia?',
+        a: 'Віртуальний улюбленець, якого ви годуєте і прокачуєте за ончейн-квести для отримання XP.'
+      },
+      {
+        q: 'Чи безкоштовний тестнет Initia?',
+        a: 'Так, усе тестування безкоштовне ($0) на тестових токенах із крана.'
+      }
+    ],
+    ctaText: 'Відкрити Initia',
+    englishVersionLabel: 'Англійська версія'
+  },
+  {
+    id: 'initia',
+    slug: 'zh',
+    lang: 'zh-CN',
+    flag: '🇨🇳',
+    homeLabel: '首页',
+    hubLabel: '免费测试网',
+    hubHref: '/zh/free-testnets/',
+    title: 'Initia 空投教程 (2026)：养成 Jennie 宠物赚取 $INIT 测试网积分 | Airdroplyx',
+    description: 'Theory Ventures 与 Delphi Ventures 投资 2250 万美元的模块化全链 Rollup 网络 Initia 免费测试网教程：Initia Wallet、领水与 Minitias 交互。',
+    h1: 'Initia ($INIT) 免费测试网及 Jennie XP 攻略',
+    badge: '融资 $22.5M • 零撸免费',
+    rewardLabel: '预估奖励',
+    costLabel: '参与成本',
+    snapshotLabel: '预期周期',
+    timeLabel: '每周耗时',
+    overviewHeading: '项目简介',
+    overview: '获得 Theory Ventures、Delphi Ventures 与 Hack VC 共 2250 万美元融资的 Initia，是支持 CosmWasm、MoveVM 与 EVM 的交织 Rollup（Minitias）协调网络。玩家在激励测试网中孵化并喂养虚拟宠物 Jennie 即可累积 XP 冲击 $INIT 空投。',
+    tokenomicsHeading: '$INIT 代币经济',
+    tokenomics: '$INIT 作为所有 Minitia 的通用燃料与 L1 质押资产，创世供应中有相当比例专门预留给测试网中悉心照料 Jennie 的参与者。',
+    stepsHeading: '详细参与步骤',
+    steps: [
+      '访问 Initia 官网（initia.xyz）并安装官方 Initia Wallet 或 Keplr 插件。',
+      '从官方水龙头免费领取测试网 $INIT 代币。',
+      '在测试网面板孵化你的 Jennie 宠物并完成每日喂养与照料任务。',
+      '前往 Blackwing、Tucana 等精选 Minitia 子链进行兑换与流动性测试。',
+      '在治理页面将测试 $INIT 质押给活跃验证节点。'
+    ],
+    strategyHeading: '高收益策略',
+    strategy: '坚持每周完成任务为 Jennie 升级，体验多条 Minitia 子链跨链交互，并加入 Discord 获取社区身份。',
+    sybilHeading: '防女巫机制与安全提示',
+    sybilSafety: 'Jennie 养成体系内嵌多重行为校验，可剔除仅跑单合约的脚本号。请务必认准官网 initia.xyz。',
+    faqHeading: '常见问题',
+    faqs: [
+      {
+        q: 'Initia 测试网里的 Jennie 是什么？',
+        a: '一只通过链上任务喂养升级的虚拟宠物，成长后可获得兑换空投奖励的 XP。'
+      },
+      {
+        q: '参加 Initia 测试网免费吗？',
+        a: '是的，使用公共水龙头免费测试币，全程零成本（$0）。'
+      }
+    ],
+    ctaText: '打开 Initia',
+    englishVersionLabel: '英文原版'
+  },
+  {
+    id: 'initia',
+    slug: 'hi',
+    lang: 'hi',
+    flag: '🇮🇳',
+    homeLabel: 'होम',
+    hubLabel: 'मुफ़्त टेस्टनेट',
+    hubHref: '/hi/free-testnets/',
+    title: 'Initia एयरड्रॉप गाइड (2026): Jennie XP और मुफ़्त टेस्टनेट $INIT | Airdroplyx',
+    description: 'Theory Ventures और Delphi Ventures समर्थित ($22.5M) Initia टेस्टनेट में मुफ़्त भाग लेने, Initia Wallet, $INIT फॉसेट और Jennie पेट की गाइड।',
+    h1: 'Initia ($INIT) मुफ़्त टेस्टनेट और Jennie XP गाइड',
+    badge: '$22.5M फंडिंग • मुफ़्त टेस्टनेट',
+    rewardLabel: 'अनुमानित इनाम',
+    costLabel: 'लागत',
+    snapshotLabel: 'अनुमानित समय',
+    timeLabel: 'साप्ताहिक समय',
+    overviewHeading: 'प्रोजेक्ट का परिचय',
+    overview: 'Theory Ventures, Delphi Ventures और Hack VC से $22.5 मिलियन जुटाने वाला Initia, CosmWasm, MoveVM और EVM को जोड़ने वाला Interwoven Rollups (Minitias) नेटवर्क है। टेस्टनेट में यूज़र्स वर्चुअल पेट Jennie को पालकर XP कमाते हैं।',
+    tokenomicsHeading: '$INIT टोकनॉमिक्स',
+    tokenomics: '$INIT सभी Minitia रोलअप्स में यूनिवर्सल गैस टोकन है और L1 सुरक्षा संभालता है, जिसमें Jennie पालने वाले टेस्टनेट प्रतिभागियों के लिए हिस्सा आरक्षित है।',
+    stepsHeading: 'भाग लेने के आसान चरण',
+    steps: [
+      'आधिकारिक Initia पोर्टल (initia.xyz) पर जाएं और Initia Wallet या Keplr इंस्टॉल करें।',
+      'आधिकारिक फॉसेट से मुफ़्त टेस्ट $INIT टोकन क्लेम करें।',
+      'टेस्टनेट डैशबोर्ड पर अपने Jennie साथी को हैच करें और दैनिक देखभाल टास्क करें।',
+      'Blackwing और Tucana जैसे Minitia रोलअप्स पर स्वैप और डिपॉज़िट करें।',
+      'गवर्नेंस पोर्टल पर सक्रिय वैलिडेटर्स के साथ टेस्ट $INIT स्टेक करें।'
+    ],
+    strategyHeading: 'अधिकतम इनाम की रणनीति',
+    strategy: 'साप्ताहिक मिशनों से Jennie का लेवल बढ़ाते रहें, अलग-अलग Minitias आज़माएं और Discord रोल हासिल करें।',
+    sybilHeading: 'सिबिल सुरक्षा और सावधानियाँ',
+    sybilSafety: 'Jennie सिस्टम में मल्टी-फैक्टर एक्टिविटी जांच सिंगल-कॉन्ट्रैक्ट बॉट्स को हटा देती है। केवल initia.xyz का उपयोग करें।',
+    faqHeading: 'अक्सर पूछे जाने वाले प्रश्न',
+    faqs: [
+      {
+        q: 'Initia टेस्टनेट में Jennie क्या है?',
+        a: 'एक वर्चुअल पेट जिसे आप ऑन-चेन क्वेस्ट से खिलाकर और लेवल अप करके XP कमाते हैं।'
+      },
+      {
+        q: 'क्या Initia टेस्टनेट मुफ़्त है?',
+        a: 'हाँ, पब्लिक फॉसेट के टेस्ट टोकन से यह 100% मुफ़्त ($0) है।'
+      }
+    ],
+    ctaText: 'Initia खोलें',
+    englishVersionLabel: 'अंग्रेज़ी संस्करण'
+  },
+  {
+    id: 'initia',
+    slug: 'it',
+    lang: 'it',
+    flag: '🇮🇹',
+    homeLabel: 'Home',
+    hubLabel: 'Testnet Gratuiti',
+    hubHref: '/it/testnet-gratuiti/',
+    title: 'Guida Airdrop Initia (2026): Jennie XP e Testnet $INIT | Airdroplyx',
+    description: 'Come partecipare gratis alla testnet Initia ($22.5M da Theory Ventures e Delphi Ventures): Initia Wallet, faucet $INIT e pet Jennie.',
+    h1: 'Initia ($INIT): Guida Testnet Gratuita e Jennie XP',
+    badge: 'Finanziamento $22.5M • Gratis',
+    rewardLabel: 'Ricompensa stimata',
+    costLabel: 'Costo',
+    snapshotLabel: 'Periodo previsto',
+    timeLabel: 'Tempo settimanale',
+    overviewHeading: 'Panoramica del progetto',
+    overview: 'Finanziata con 22,5 milioni di dollari da Theory Ventures, Delphi Ventures e Hack VC, Initia è una rete di rollup interconnessi (Minitias) compatibile con CosmWasm, MoveVM ed EVM. Nella testnet gli utenti allevano il pet virtuale Jennie per accumulare XP.',
+    tokenomicsHeading: 'Tokenomics di $INIT',
+    tokenomics: '$INIT funge da gas universale su tutte le Minitia e protegge il Layer 1, premiando i partecipanti che curano Jennie nella testnet.',
+    stepsHeading: 'Come partecipare passo dopo passo',
+    steps: [
+      'Visita il portale ufficiale Initia (initia.xyz) e installa Initia Wallet o Keplr.',
+      'Richiedi token di test $INIT gratuiti dal faucet ufficiale.',
+      'Fai schiudere il tuo pet Jennie nella dashboard e completa le cure giornaliere.',
+      'Interagisci con Minitia in evidenza come Blackwing e Tucana.',
+      'Metti in staking i $INIT di prova con validatori attivi.'
+    ],
+    strategyHeading: 'Strategia per massimizzare i punti',
+    strategy: 'Fai salire di livello Jennie ogni settimana, usa più rollup Minitia diversi e ottieni i ruoli Discord.',
+    sybilHeading: 'Sicurezza e protezione Sybil',
+    sybilSafety: 'La verifica multifattoriale di Jennie esclude gli script automatici ripetitivi. Usa solo initia.xyz.',
+    faqHeading: 'Domande frequenti',
+    faqs: [
+      {
+        q: 'Cos’è Jennie nella testnet di Initia?',
+        a: 'Un pet virtuale che nutri e potenzi tramite missioni on-chain per ottenere XP.'
+      },
+      {
+        q: 'La testnet di Initia è gratuita?',
+        a: 'Sì, gratuita al 100% ($0) grazie ai token del faucet pubblico.'
+      }
+    ],
+    ctaText: 'Apri Initia',
+    englishVersionLabel: 'Versione inglese'
+  },
+  {
+    id: 'initia',
+    slug: 'pl',
+    lang: 'pl',
+    flag: '🇵🇱',
+    homeLabel: 'Strona główna',
+    hubLabel: 'Darmowe Testnety',
+    hubHref: '/pl/darmowe-testnety/',
+    title: 'Poradnik Airdrop Initia (2026): Jennie XP i Testnet $INIT | Airdroplyx',
+    description: 'Jak za darmo przejść testnet Initia ($22.5M od Theory Ventures i Delphi Ventures): Initia Wallet, kranik $INIT, zwierzak Jennie i Minitias.',
+    h1: 'Initia ($INIT): Poradnik Darmowego Testnetu i Jennie XP',
+    badge: 'Finansowanie $22.5M • Darmowy',
+    rewardLabel: 'Szacowana nagroda',
+    costLabel: 'Koszt',
+    snapshotLabel: 'Przewidywany okres',
+    timeLabel: 'Czas tygodniowo',
+    overviewHeading: 'Opis projektu',
+    overview: 'Wspierana kwotą 22,5 mln USD przez Theory Ventures, Delphi Ventures i Hack VC sieć Initia łączy warstwę L1 z rollupami Minitias wspierającymi CosmWasm, MoveVM i EVM. W testnecie użytkownicy opiekują się wirtualnym zwierzakiem Jennie, zdobywając XP.',
+    tokenomicsHeading: 'Tokenomika $INIT',
+    tokenomics: '$INIT służy jako uniwersalny gas we wszystkich Minitias i zabezpiecza L1, z pulą dla uczestników testnetu opiekujących się Jennie.',
+    stepsHeading: 'Instrukcja krok po kroku',
+    steps: [
+      'Odwiedź oficjalny portal Initia (initia.xyz) i zainstaluj rozszerzenie Initia Wallet lub Keplr.',
+      'Odbierz darmowe testowe tokeny $INIT z oficjalnego kraniku.',
+      'Wykluj swojego towarzysza Jennie w panelu testnetu i wykonuj codzienną opiekę.',
+      'Testuj swapy i depozyty na wybranych rollupach Minitia, np. Blackwing i Tucana.',
+      'Stakuj testowe $INIT u aktywnych walidatorów.'
+    ],
+    strategyHeading: 'Strategia maksymalizacji nagród',
+    strategy: 'Regularnie podnoś poziom Jennie w misjach tygodniowych, korzystaj z różnych Minitias i zdobądź role na Discordzie.',
+    sybilHeading: 'Ochrona Anti-Sybil i bezpieczeństwo',
+    sybilSafety: 'Wieloczynnikowa weryfikacja w systemie Jennie eliminuje proste boty. Korzystaj wyłącznie z initia.xyz.',
+    faqHeading: 'Często zadawane pytania',
+    faqs: [
+      {
+        q: 'Kim jest Jennie w testnecie Initia?',
+        a: 'Wirtualnym zwierzakiem karmionym i rozwijanym poprzez zadania on-chain w celu zdobywania XP.'
+      },
+      {
+        q: 'Czy testnet Initia jest darmowy?',
+        a: 'Tak, jest w 100% darmowy ($0) dzięki tokenom z publicznego kraniku.'
+      }
+    ],
+    ctaText: 'Otwórz Initia',
+    englishVersionLabel: 'Wersja angielska'
   }
 ];
 
