@@ -16923,6 +16923,2220 @@ export const localizedAirdropGuides: LocalizedAirdropGuide[] = [
     ],
     ctaText: 'Otwórz CITY Holder',
     englishVersionLabel: 'Wersja angielska'
+  },
+
+  // ================= MITOSIS (16 LANGUAGES) =================
+  {
+    id: 'mitosis',
+    slug: 'tr',
+    lang: 'tr',
+    flag: '🇹🇷',
+    homeLabel: 'Ana Sayfa',
+    hubLabel: 'Ücretsiz Testnetler',
+    hubHref: '/tr/ucretsiz-testnet-airdroplari/',
+    title: 'Mitosis Airdrop Rehberi (2026): Matrix & $MITO Puanları | Airdroplyx',
+    description: 'Amber Group ve Foresight Ventures destekli ($7M) modüler likidite protokolü Mitosis Matrix kampanyası, miAssets ve $MITO airdrop rehberi.',
+    h1: 'Mitosis ($MITO) Matrix Kampanyası ve Likidite Airdrop Rehberi',
+    badge: '$7.0M Yatırım • Modüler Likidite',
+    rewardLabel: 'Tahmini Ödül',
+    costLabel: 'Maliyet',
+    snapshotLabel: 'Beklenen Dönem',
+    timeLabel: 'Haftalık Süre',
+    overviewHeading: 'Proje Özeti',
+    overview: 'Amber Group ve Foresight Ventures liderliğinde 7 milyon dolar yatırım alan Mitosis, modüler blokzincirlerdeki likidite parçalanmasını çözen ekosistem likidite protokolüdür. Kullanıcılar desteklenen varlıkları yatırarak 1:1 oranında getiri üreten likit miAssets (ör. miweETH, miUSDT) alır ve Matrix kampanyası üzerinden $MITO puanı biriktirir.',
+    tokenomicsHeading: '$MITO Tokenomik ve miAssets',
+    tokenomics: '$MITO tokenı zincirler arası likidite dağıtımını, Mitosis doğrulayıcı konsensüsünü ve yönetişimi koordine eder. Matrix kampanyası yatırımcılarına ve miAsset sahiplerine önemli bir topluluk payı ayrılmıştır.',
+    stepsHeading: 'Adım Adım Katılım Rehberi',
+    steps: [
+      'Resmi Mitosis Matrix portalına (mitosis.org) gidin.',
+      'Rabby veya Rainbow EVM cüzdanınızı Ethereum veya desteklenen Layer 2 ağlarına bağlayın.',
+      'Desteklenen varlıkları (weETH, ETH veya USDT) Mitosis kasasına yatırın.',
+      'Çok katmanlı getiri üreten 1:1 likit miAssets (ör. miweETH) tokenlarınızı alın.',
+      'Expedition görevlerine katılarak ekstra çarpan kazanın ve MITO puanlarınızı takip edin.'
+    ],
+    strategyHeading: 'Maksimum Ödül Stratejisi',
+    strategy: 'miAssets varlıklarınızı Expedition portalındaki öne çıkan modüler rollup görevlerine yönlendirerek yüksek puan çarpanları elde edin ve snapshot dönemlerinde varlıklarınızı tutun.',
+    sybilHeading: 'Sybil Koruması ve Güvenlik',
+    sybilSafety: 'Matrix puanları yatırılan gerçek varlık değeri ve süreye göre ölçeklendiği için sıfır değerli bot hesapları sıralamayı manipüle edemez. Yalnızca resmi mitosis.org adresini kullanın.',
+    faqHeading: 'Sıkça Sorulan Sorular',
+    faqs: [
+      {
+        q: 'miAssets nedir ve geri çekilebilir mi?',
+        a: 'miAssets çoklu ağ getirisi üreten likit makbuz tokenlarıdır ve Mitosis köprüsü üzerinden 1:1 oranında her zaman ana varlığa dönüştürülebilir.'
+      },
+      {
+        q: 'Mitosis Matrix kampanyası ne işe yarar?',
+        a: 'Likidite sağlayıcılarının TGE döneminde $MITO tokenına dönüşecek MITO Puanları biriktirdiği resmi sadakat programıdır.'
+      }
+    ],
+    ctaText: 'Mitosis’i Aç',
+    englishVersionLabel: 'İngilizce Sürüm'
+  },
+  {
+    id: 'mitosis',
+    slug: 'ru',
+    lang: 'ru',
+    flag: '🇷🇺',
+    homeLabel: 'Главная',
+    hubLabel: 'Бесплатные тестнеты',
+    hubHref: '/ru/free-testnets/',
+    title: 'Гайд по аирдропу Mitosis (2026): кампания Matrix и $MITO | Airdroplyx',
+    description: 'Как участвовать в кампании Matrix от Mitosis ($7M от Amber Group и Foresight Ventures): депозит в miAssets, квесты Expedition и фарм $MITO.',
+    h1: 'Mitosis ($MITO): гайд по кампании Matrix и модульной ликвидности',
+    badge: 'Инвестиции $7.0M • Модульная ликвидность',
+    rewardLabel: 'Ожидаемая награда',
+    costLabel: 'Затраты',
+    snapshotLabel: 'Ожидаемый период',
+    timeLabel: 'Время в неделю',
+    overviewHeading: 'Обзор проекта',
+    overview: 'Mitosis (привлёк $7 млн от Amber Group и Foresight Ventures) — протокол модульной ликвидности, превращающий кросс-чейн депозиты в доходные ликвидные токены miAssets (miweETH, miUSDT). Участники кампании Matrix накапливают MITO Points перед TGE токена $MITO.',
+    tokenomicsHeading: 'Токеномика $MITO и miAssets',
+    tokenomics: '$MITO управляет кросс-чейн маршрутизацией ликвидности и консенсусом валидаторов, а значительная часть эмиссии выделена участникам Matrix и держателям miAssets.',
+    stepsHeading: 'Пошаговая инструкция',
+    steps: [
+      'Перейдите на официальный портал Mitosis Matrix (mitosis.org).',
+      'Подключите кошелек Rabby или Rainbow к Ethereum или поддерживаемым L2.',
+      'Внесите поддерживаемые активы (weETH, ETH или USDT) в хранилище Mitosis.',
+      'Получите ликвидные miAssets 1:1 (например, miweETH), приносящие доходность.',
+      'Участвуйте в квестах Expedition для множителей и отслеживайте баллы MITO.'
+    ],
+    strategyHeading: 'Стратегия фарма',
+    strategy: 'Направляйте miAssets в кампании Expedition на партнёрских модульных роллапах ради буста баллов и удерживайте депозиты к снимкам.',
+    sybilHeading: 'Защита от ботов и безопасность',
+    sybilSafety: 'Баллы Matrix зависят от объёма и длительности блокировки капитала, что защищает от нулевых ботов. Используйте только официальный сайт mitosis.org.',
+    faqHeading: 'Частые вопросы',
+    faqs: [
+      {
+        q: 'Можно ли вывести miAssets обратно в базовые токены?',
+        a: 'Да, miAssets можно в любой момент обменять 1:1 обратно через мост Mitosis.'
+      },
+      {
+        q: 'Что такое кампания Mitosis Matrix?',
+        a: 'Официальная программа лояльности, где поставщики ликвидности зарабатывают MITO Points под дроп $MITO.'
+      }
+    ],
+    ctaText: 'Открыть Mitosis',
+    englishVersionLabel: 'Английская версия'
+  },
+  {
+    id: 'mitosis',
+    slug: 'id',
+    lang: 'id',
+    flag: '🇮🇩',
+    homeLabel: 'Beranda',
+    hubLabel: 'Testnet Gratis',
+    hubHref: '/id/testnet-gratis/',
+    title: 'Panduan Airdrop Mitosis (2026): Kampanye Matrix & $MITO | Airdroplyx',
+    description: 'Panduan lengkap Mitosis ($7M dari Amber Group & Foresight Ventures): setor aset untuk miAssets, ikut Expedition, dan kumpul poin $MITO.',
+    h1: 'Mitosis ($MITO): Panduan Kampanye Matrix & Likuiditas Modular',
+    badge: 'Pendanaan $7.0M • Likuiditas Modular',
+    rewardLabel: 'Estimasi Hadiah',
+    costLabel: 'Biaya',
+    snapshotLabel: 'Perkiraan Snapshot',
+    timeLabel: 'Waktu Mingguan',
+    overviewHeading: 'Ringkasan Proyek',
+    overview: 'Didukung $7 juta oleh Amber Group dan Foresight Ventures, Mitosis mengatasi fragmentasi likuiditas lintas rantai dengan mengubah deposit menjadi aset likuid berbunga miAssets (seperti miweETH). Peserta kampanye Matrix meraih MITO Points menjelang peluncuran $MITO.',
+    tokenomicsHeading: 'Tokenomik $MITO & miAssets',
+    tokenomics: '$MITO mengatur alokasi likuiditas lintas rollup, konsensus validator, dan tata kelola dengan porsi besar bagi depositor awal Matrix.',
+    stepsHeading: 'Langkah-Langkah Mengikuti Airdrop',
+    steps: [
+      'Kunjungi portal resmi Mitosis Matrix (mitosis.org).',
+      'Hubungkan dompet Rabby atau Rainbow ke Ethereum atau jaringan L2 yang didukung.',
+      'Setor aset yang didukung (weETH, ETH, atau USDT) ke brankas Mitosis.',
+      'Terima miAssets 1:1 yang menghasilkan imbal hasil otomatis.',
+      'Ikuti portal Expedition untuk pengganda poin dan pantau MITO Points Anda.'
+    ],
+    strategyHeading: 'Strategi Maksimal',
+    strategy: 'Kirim miAssets Anda ke misi Expedition di rollup mitra untuk mendapatkan pengganda poin maksimal.',
+    sybilHeading: 'Keamanan & Anti-Sybil',
+    sybilSafety: 'Poin Matrix dihitung berdasarkan nilai USD nyata dan durasi penyimpanan sehingga bot tanpa modal tidak berpengaruh. Gunakan hanya mitosis.org.',
+    faqHeading: 'Pertanyaan Umum',
+    faqs: [
+      {
+        q: 'Apakah miAssets dapat ditukar kembali ke token asal?',
+        a: 'Ya, miAssets dapat ditebus 1:1 kapan saja melalui jembatan Mitosis.'
+      },
+      {
+        q: 'Apa itu kampanye Matrix?',
+        a: 'Program loyalitas resmi Mitosis tempat penyedia likuiditas meraih MITO Points untuk airdrop $MITO.'
+      }
+    ],
+    ctaText: 'Buka Mitosis',
+    englishVersionLabel: 'Versi Bahasa Inggris'
+  },
+  {
+    id: 'mitosis',
+    slug: 'vi',
+    lang: 'vi',
+    flag: '🇻🇳',
+    homeLabel: 'Trang chủ',
+    hubLabel: 'Testnet Miễn Phí',
+    hubHref: '/vi/testnet-mien-phi/',
+    title: 'Hướng dẫn Airdrop Mitosis (2026): Chiến dịch Matrix & $MITO | Airdroplyx',
+    description: 'Cách tham gia Mitosis ($7M từ Amber Group & Foresight Ventures): nạp tài sản nhận miAssets, làm nhiệm vụ Expedition và tích lũy điểm $MITO.',
+    h1: 'Mitosis ($MITO): Hướng Dẫn Chiến Dịch Matrix & Thanh Khoản Mô-đun',
+    badge: 'Gọi vốn $7.0M • Thanh khoản mô-đun',
+    rewardLabel: 'Phần thưởng dự kiến',
+    costLabel: 'Chi phí',
+    snapshotLabel: 'Thời gian dự kiến',
+    timeLabel: 'Thời gian mỗi tuần',
+    overviewHeading: 'Tổng quan dự án',
+    overview: 'Huy động $7 triệu từ Amber Group và Foresight Ventures, Mitosis biến tiền nạp đa chuỗi thành tài sản thanh khoản sinh lời miAssets (như miweETH, miUSDT). Người tham gia chiến dịch Matrix nhận MITO Points cho đợt phân bổ $MITO.',
+    tokenomicsHeading: 'Tokenomics $MITO & miAssets',
+    tokenomics: '$MITO điều phối thanh khoản xuyên chuỗi, đồng thuận validator và quản trị, dành phần lớn cho người nạp Matrix và nắm giữ miAssets.',
+    stepsHeading: 'Các bước tham gia chi tiết',
+    steps: [
+      'Truy cập cổng chính thức Mitosis Matrix (mitosis.org).',
+      'Kết nối ví Rabby hoặc Rainbow trên Ethereum hoặc các mạng L2 được hỗ trợ.',
+      'Nạp tài sản hỗ trợ (weETH, ETH hoặc USDT) vào vault của Mitosis.',
+      'Nhận token miAssets tỷ lệ 1:1 (như miweETH) để tự động sinh lãi.',
+      'Tham gia cổng Expedition để nhận hệ số nhân điểm và theo dõi MITO Points.'
+    ],
+    strategyHeading: 'Chiến lược tối ưu điểm',
+    strategy: 'Đưa miAssets tham gia các nhiệm vụ Expedition trên rollup đối tác để nhận mức nhân điểm vượt trội và giữ đến ngày snapshot.',
+    sybilHeading: 'Chống Sybil & Bảo mật',
+    sybilSafety: 'Điểm Matrix tính theo giá trị vốn thực và thời gian khóa nên bot 0 đồng không thể thao túng. Chỉ sử dụng mitosis.org.',
+    faqHeading: 'Câu hỏi thường gặp',
+    faqs: [
+      {
+        q: 'Có thể quy đổi miAssets về token gốc không?',
+        a: 'Có, miAssets được quy đổi 1:1 bất cứ lúc nào qua cầu nối Mitosis.'
+      },
+      {
+        q: 'Chiến dịch Matrix là gì?',
+        a: 'Là chương trình tích điểm MITO Points cho người cung cấp thanh khoản để nhận airdrop $MITO.'
+      }
+    ],
+    ctaText: 'Mở Mitosis',
+    englishVersionLabel: 'Bản tiếng Anh'
+  },
+  {
+    id: 'mitosis',
+    slug: 'es',
+    lang: 'es',
+    flag: '🇪🇸',
+    homeLabel: 'Inicio',
+    hubLabel: 'Testnets Gratis',
+    hubHref: '/es/testnets-gratis/',
+    title: 'Guía Airdrop Mitosis (2026): Campaña Matrix y $MITO | Airdroplyx',
+    description: 'Cómo participar en Mitosis ($7M de Amber Group y Foresight Ventures): deposita para recibir miAssets, completa Expedition y suma puntos $MITO.',
+    h1: 'Mitosis ($MITO): Guía de la Campaña Matrix y Liquidez Modular',
+    badge: 'Financiación $7.0M • Liquidez Modular',
+    rewardLabel: 'Recompensa estimada',
+    costLabel: 'Costo',
+    snapshotLabel: 'Periodo estimado',
+    timeLabel: 'Tiempo semanal',
+    overviewHeading: 'Resumen del proyecto',
+    overview: 'Con $7 millones de Amber Group y Foresight Ventures, Mitosis transforma depósitos multicadena en activos líquidos con rendimiento llamados miAssets (miweETH, miUSDT). Los usuarios de la campaña Matrix acumulan MITO Points para el airdrop de $MITO.',
+    tokenomicsHeading: 'Tokenomics de $MITO y miAssets',
+    tokenomics: '$MITO coordina la asignación de liquidez, el consenso de validadores y la gobernanza, destinando una parte importante a depositantes de Matrix.',
+    stepsHeading: 'Pasos para participar',
+    steps: [
+      'Visita el portal oficial Mitosis Matrix (mitosis.org).',
+      'Conecta tu billetera Rabby o Rainbow a Ethereum o L2 compatibles.',
+      'Deposita activos admitidos (weETH, ETH o USDT) en la bóveda de Mitosis.',
+      'Recibe miAssets líquidos 1:1 (ej. miweETH) con rendimiento multicapa.',
+      'Participa en Expedition para obtener multiplicadores y revisa tus MITO Points.'
+    ],
+    strategyHeading: 'Estrategia para maximizar recompensas',
+    strategy: 'Envía tus miAssets a las misiones de Expedition en rollups asociados para conseguir multiplicadores y mantenlos durante el snapshot.',
+    sybilHeading: 'Seguridad y protección Sybil',
+    sybilSafety: 'Los puntos Matrix escalan según capital real y duración, impidiendo ataques Sybil sin fondos. Usa únicamente mitosis.org.',
+    faqHeading: 'Preguntas frecuentes',
+    faqs: [
+      {
+        q: '¿Puedo canjear mis miAssets por los tokens originales?',
+        a: 'Sí, son canjeables 1:1 en cualquier momento mediante el puente de Mitosis.'
+      },
+      {
+        q: '¿Qué es la campaña Matrix?',
+        a: 'El programa oficial de lealtad donde los proveedores de liquidez ganan MITO Points convertibles en $MITO.'
+      }
+    ],
+    ctaText: 'Abrir Mitosis',
+    englishVersionLabel: 'Versión en inglés'
+  },
+  {
+    id: 'mitosis',
+    slug: 'pt',
+    lang: 'pt',
+    flag: '🇧🇷',
+    homeLabel: 'Início',
+    hubLabel: 'Testnets Grátis',
+    hubHref: '/pt/testnets-gratis/',
+    title: 'Guia Airdrop Mitosis (2026): Campanha Matrix e $MITO | Airdroplyx',
+    description: 'Saiba como participar da Mitosis ($7M da Amber Group e Foresight Ventures): receba miAssets, faça missões Expedition e acumule pontos $MITO.',
+    h1: 'Mitosis ($MITO): Guia da Campanha Matrix e Liquidez Modular',
+    badge: 'Investimento $7.0M • Liquidez Modular',
+    rewardLabel: 'Recompensa estimada',
+    costLabel: 'Custo',
+    snapshotLabel: 'Previsão',
+    timeLabel: 'Tempo semanal',
+    overviewHeading: 'Visão geral do projeto',
+    overview: 'Apoiado por $7 milhões da Amber Group e Foresight Ventures, a Mitosis transforma depósitos multichain em ativos líquidos rentáveis chamados miAssets (como miweETH). Participantes da campanha Matrix acumulam MITO Points para o airdrop $MITO.',
+    tokenomicsHeading: 'Tokenomics do $MITO e miAssets',
+    tokenomics: '$MITO coordena liquidez entre rollups, validadores e governança, com alocação relevante aos primeiros depositantes da Matrix.',
+    stepsHeading: 'Passo a passo para participar',
+    steps: [
+      'Acesse o portal oficial Mitosis Matrix (mitosis.org).',
+      'Conecte sua carteira Rabby ou Rainbow no Ethereum ou L2s compatíveis.',
+      'Deposite ativos suportados (weETH, ETH ou USDT) no cofre da Mitosis.',
+      'Receba miAssets líquidos 1:1 (ex.: miweETH) gerando rendimento.',
+      'Participe das missões Expedition para multiplicar seus MITO Points.'
+    ],
+    strategyHeading: 'Estratégia de ganhos',
+    strategy: 'Aloque seus miAssets nas expedições de rollups parceiros no portal Expedition para maximizar os multiplicadores até o snapshot.',
+    sybilHeading: 'Proteção Sybil e segurança',
+    sybilSafety: 'Os pontos escalam com capital real e tempo de depósito, evitando manipulação por bots sem saldo. Utilize apenas mitosis.org.',
+    faqHeading: 'Perguntas frequentes',
+    faqs: [
+      {
+        q: 'Posso resgatar meus miAssets pelos tokens originais?',
+        a: 'Sim, são resgatáveis 1:1 a qualquer momento pela ponte da Mitosis.'
+      },
+      {
+        q: 'O que é a campanha Matrix?',
+        a: 'O programa oficial onde provedores de liquidez acumulam MITO Points para o airdrop de $MITO.'
+      }
+    ],
+    ctaText: 'Abrir Mitosis',
+    englishVersionLabel: 'Versão em inglês'
+  },
+  {
+    id: 'mitosis',
+    slug: 'ko',
+    lang: 'ko',
+    flag: '🇰🇷',
+    homeLabel: '홈',
+    hubLabel: '무료 테스트넷',
+    hubHref: '/ko/free-testnets/',
+    title: 'Mitosis 에어드랍 가이드 (2026): Matrix 캠페인 & $MITO | Airdroplyx',
+    description: 'Amber Group과 Foresight Ventures가 $7M 투자한 모듈러 유동성 프로토콜 Mitosis Matrix 캠페인, miAssets 예치 및 $MITO 포인트 공략.',
+    h1: 'Mitosis ($MITO) Matrix 캠페인 및 유동성 에어드랍 가이드',
+    badge: '$7.0M 투자 유치 • 모듈러 유동성',
+    rewardLabel: '예상 보상',
+    costLabel: '비용',
+    snapshotLabel: '예상 시기',
+    timeLabel: '주간 소요 시간',
+    overviewHeading: '프로젝트 개요',
+    overview: 'Amber Group과 Foresight Ventures로부터 700만 달러 시드 투자를 유치한 Mitosis는 멀티체인 예치 자산을 이자 발생형 유동성 토큰인 miAssets(miweETH, miUSDT 등)로 전환하는 모듈러 유동성 프로토콜입니다. Matrix 캠페인을 통해 $MITO 전환용 포인트를 적립할 수 있습니다.',
+    tokenomicsHeading: '$MITO 토크노믹스 및 miAssets',
+    tokenomics: '$MITO는 크로스체인 유동성 배분과 검증인 합의, 거버넌스를 담당하며 초기 Matrix 예치자와 miAsset 보유자에게 상당한 물량이 배정됩니다.',
+    stepsHeading: '단계별 참여 방법',
+    steps: [
+      '공식 Mitosis Matrix 포털(mitosis.org)에 접속하세요.',
+      'Rabby 또는 Rainbow 지갑을 Ethereum 또는 지원 L2 네트워크에 연결하세요.',
+      '지원 자산(weETH, ETH, USDT)을 Mitosis 볼트에 예치하세요.',
+      '1:1 유동성 miAssets(예: miweETH)를 수령해 다층 수익을 얻으세요.',
+      'Expedition 퀘스트에 참여해 추가 포인트 배율을 확보하세요.'
+    ],
+    strategyHeading: '보상 극대화 전략',
+    strategy: 'Expedition 포털의 파트너 모듈러 롤업 미션에 miAssets를 활용해 높은 부스트 배율을 챙기고 스냅샷까지 유지하세요.',
+    sybilHeading: '시빌 방지 및 보안',
+    sybilSafety: 'Matrix 포인트는 실제 예치 금액과 기간에 비례하므로 무자본 봇의 순위 조작이 불가능합니다. 공식 mitosis.org만 이용하세요.',
+    faqHeading: '자주 묻는 질문',
+    faqs: [
+      {
+        q: 'miAssets를 원래 토큰으로 다시 출금할 수 있나요?',
+        a: '네, Mitosis 브릿지를 통해 언제든 1:1 비율로 상환할 수 있습니다.'
+      },
+      {
+        q: 'Matrix 캠페인이란 무엇인가요?',
+        a: '유동성 공급자가 $MITO 에어드랍용 MITO Points를 적립하는 공식 로열티 프로그램입니다.'
+      }
+    ],
+    ctaText: 'Mitosis 열기',
+    englishVersionLabel: '영문 버전'
+  },
+  {
+    id: 'mitosis',
+    slug: 'ja',
+    lang: 'ja',
+    flag: '🇯🇵',
+    homeLabel: 'ホーム',
+    hubLabel: '無料テストネット',
+    hubHref: '/ja/free-testnets/',
+    title: 'Mitosis エアドロップ攻略 (2026): Matrixキャンペーン＆$MITO | Airdroplyx',
+    description: 'Amber GroupやForesight Venturesから700万ドル調達したモジュラー流動性プロトコルMitosisのMatrixキャンペーン＆miAssets攻略手順。',
+    h1: 'Mitosis ($MITO) Matrixキャンペーン＆流動性攻略ガイド',
+    badge: '$7.0M調達済み • モジュラー流動性',
+    rewardLabel: '予想報酬',
+    costLabel: '費用',
+    snapshotLabel: '予定時期',
+    timeLabel: '週間作業時間',
+    overviewHeading: 'プロジェクト概要',
+    overview: 'Amber GroupとForesight Venturesから700万ドルを調達したMitosisは、マルチチェーンの預入資産を利回り付き流動性トークン「miAssets」（miweETH等）へ変換するプロトコルです。MatrixキャンペーンでMITO Pointsを貯めて$MITOを狙えます。',
+    tokenomicsHeading: '$MITO トケノミクスとmiAssets',
+    tokenomics: '$MITOはクロスチェーン流動性配分やガバナンスを担い、初期Matrix預入者とmiAsset保有者へ厚い配分が予定されています。',
+    stepsHeading: '参加ステップ',
+    steps: [
+      '公式Mitosis Matrixポータル（mitosis.org）を開きます。',
+      'RabbyまたはRainbowウォレットをEthereumや対応L2へ接続します。',
+      '対応資産（weETH、ETH、USDT）をMitosisボールトへ預け入れます。',
+      '1:1の流動性miAssets（例：miweETH）を受け取り利回りを獲得します。',
+      'Expeditionクエストへ参加して倍率ブーストとMITO Pointsを伸ばします。'
+    ],
+    strategyHeading: '報酬最大化のコツ',
+    strategy: 'Expeditionポータルで提携ロールアップ向けのタスクにmiAssetsを活用し、スナップショット期間中も保有を継続しましょう。',
+    sybilHeading: 'シビル対策と安全性',
+    sybilSafety: 'Matrixポイントは実際の預入額と期間に応じて計算されるため、ゼロ資金ボットによる不正が効きません。必ずmitosis.orgを利用してください。',
+    faqHeading: 'よくある質問',
+    faqs: [
+      {
+        q: 'miAssetsは元の資産に戻せますか？',
+        a: 'はい、Mitosisブリッジ経由でいつでも1:1で償還できます。'
+      },
+      {
+        q: 'Matrixキャンペーンとは？',
+        a: '流動性提供者が$MITOエアドロップに交換可能なMITO Pointsを貯める公式プログラムです。'
+      }
+    ],
+    ctaText: 'Mitosisを開く',
+    englishVersionLabel: '英語版を見る'
+  },
+  {
+    id: 'mitosis',
+    slug: 'ar',
+    lang: 'ar',
+    flag: '🇸🇦',
+    homeLabel: 'الرئيسية',
+    hubLabel: 'شبكات اختبار مجانية',
+    hubHref: '/ar/free-testnets/',
+    title: 'دليل إيردروب Mitosis (2026): حملة Matrix و$MITO | Airdroplyx',
+    description: 'دليل المشاركة في بروتوكول السيولة المعياري Mitosis ($7M من Amber Group وForesight Ventures): إيداع miAssets وحملة Expedition.',
+    h1: 'Mitosis ($MITO): دليل حملة Matrix والسيولة المعيارية',
+    badge: 'تمويل $7.0M • سيولة معيارية',
+    rewardLabel: 'المكافأة المتوقعة',
+    costLabel: 'التكلفة',
+    snapshotLabel: 'الفترة المتوقعة',
+    timeLabel: 'الوقت الأسبوعي',
+    overviewHeading: 'نظرة عامة على المشروع',
+    overview: 'حصلت Mitosis على 7 ملايين دولار من Amber Group وForesight Ventures لبناء بروتوكول سيولة معياري يحوّل الودائع متعددة السلاسل إلى أصول سائلة مدرة للعائد تُعرف بـ miAssets (مثل miweETH) مع مكافأة المشاركين في حملة Matrix بنقاط MITO.',
+    tokenomicsHeading: 'اقتصاديات $MITO وmiAssets',
+    tokenomics: 'ينسق $MITO توزيع السيولة عبر السلاسل وإجماع المدققين والحوكمة، مع تخصيص حصة مهمة لمودعي حملة Matrix.',
+    stepsHeading: 'خطوات المشاركة',
+    steps: [
+      'افتح بوابة Mitosis Matrix الرسمية (mitosis.org).',
+      'اربط محفظة Rabby أو Rainbow على شبكة إيثيريوم أو شبكات L2 المدعومة.',
+      'أودع الأصول المدعومة (weETH أو ETH أو USDT) في خزنة Mitosis.',
+      'استلم رموز miAssets سائلة بنسبة 1:1 لتحصيل عوائد متعددة الطبقات.',
+      'شارك في بوابة Expedition لرفع مضاعف النقاط وتتبع نقاط MITO.'
+    ],
+    strategyHeading: 'استراتيجية تعظيم المكافآت',
+    strategy: 'وجّه أصول miAssets إلى مهام Expedition على شبكات الرول أب الشريكة للحصول على مضاعفات إضافية.',
+    sybilHeading: 'الحماية من الحسابات الوهمية والأمان',
+    sybilSafety: 'تتناسب نقاط Matrix مع القيمة الفعلية المودعة ومدة القفل، مما يمنع تلاعب البوتات. استخدم mitosis.org الرسمي فقط.',
+    faqHeading: 'الأسئلة الشائعة',
+    faqs: [
+      {
+        q: 'هل يمكن استرداد miAssets إلى الأصول الأصلية؟',
+        a: 'نعم، يمكن استردادها بنسبة 1:1 في أي وقت عبر جسر Mitosis.'
+      },
+      {
+        q: 'ما هي حملة Matrix؟',
+        a: 'برنامج الولاء الرسمي حيث يكسب مزودو السيولة نقاط MITO قابلة للتحويل إلى إيردروب $MITO.'
+      }
+    ],
+    ctaText: 'افتح Mitosis',
+    englishVersionLabel: 'النسخة الإنجليزية'
+  },
+  {
+    id: 'mitosis',
+    slug: 'de',
+    lang: 'de',
+    flag: '🇩🇪',
+    homeLabel: 'Startseite',
+    hubLabel: 'Kostenlose Testnets',
+    hubHref: '/de/kostenlose-testnets/',
+    title: 'Mitosis Airdrop Guide (2026): Matrix-Kampagne & $MITO | Airdroplyx',
+    description: 'Anleitung für Mitosis ($7M von Amber Group & Foresight Ventures): miAssets prägen, an Expedition teilnehmen und MITO Points sammeln.',
+    h1: 'Mitosis ($MITO): Matrix-Kampagne & Modulare Liquidität Guide',
+    badge: '$7.0M Finanzierung • Modulare Liquidität',
+    rewardLabel: 'Geschätzte Belohnung',
+    costLabel: 'Kosten',
+    snapshotLabel: 'Erwarteter Zeitraum',
+    timeLabel: 'Wöchentlicher Aufwand',
+    overviewHeading: 'Projektübersicht',
+    overview: 'Unterstützt mit 7 Millionen US-Dollar von Amber Group und Foresight Ventures verwandelt Mitosis Cross-Chain-Einzahlungen in renditebringende miAssets (z. B. miweETH). Teilnehmer der Matrix-Kampagne sammeln MITO Points für den $MITO-Airdrop.',
+    tokenomicsHeading: '$MITO Tokenomics & miAssets',
+    tokenomics: '$MITO steuert Cross-Chain-Liquidität, Validator-Konsens und Governance mit einer großen Zuteilung für frühe Matrix-Einzahler.',
+    stepsHeading: 'Schritt-für-Schritt-Anleitung',
+    steps: [
+      'Besuche das offizielle Mitosis Matrix Portal (mitosis.org).',
+      'Verbinde deine Rabby- oder Rainbow-Wallet mit Ethereum oder unterstützten L2s.',
+      'Zahle unterstützte Assets (weETH, ETH oder USDT) in den Mitosis-Vault ein.',
+      'Erhalte liquide 1:1 miAssets (z. B. miweETH) mit laufender Rendite.',
+      'Nutze das Expedition-Portal für Multiplikatoren und verfolge deine MITO Points.'
+    ],
+    strategyHeading: 'Strategie für maximale Punkte',
+    strategy: 'Setze deine miAssets bei Expedition-Quests auf Partner-Rollups ein, um hohe Punkte-Multiplikatoren zu sichern.',
+    sybilHeading: 'Sybil-Schutz & Sicherheit',
+    sybilSafety: 'Matrix-Punkte skalieren mit realem Kapital und Haltedauer, sodass Null-Wert-Bots wirkungslos bleiben. Nutze nur mitosis.org.',
+    faqHeading: 'Häufig gestellte Fragen',
+    faqs: [
+      {
+        q: 'Kann ich miAssets jederzeit zurücktauschen?',
+        a: 'Ja, miAssets sind jederzeit 1:1 über die Mitosis-Bridge einlösbar.'
+      },
+      {
+        q: 'Was ist die Matrix-Kampagne?',
+        a: 'Das offizielle Treueprogramm von Mitosis, bei dem Liquiditätsgeber MITO Points für den $MITO-Airdrop sammeln.'
+      }
+    ],
+    ctaText: 'Mitosis öffnen',
+    englishVersionLabel: 'Englische Version'
+  },
+  {
+    id: 'mitosis',
+    slug: 'fr',
+    lang: 'fr',
+    flag: '🇫🇷',
+    homeLabel: 'Accueil',
+    hubLabel: 'Testnets Gratuits',
+    hubHref: '/fr/testnets-gratuits/',
+    title: 'Guide Airdrop Mitosis (2026) : Campagne Matrix & $MITO | Airdroplyx',
+    description: 'Comment participer à Mitosis (7 M$ par Amber Group et Foresight Ventures) : recevoir des miAssets, faire Expedition et cumuler des points $MITO.',
+    h1: 'Mitosis ($MITO) : Guide Campagne Matrix et Liquidité Modulaire',
+    badge: 'Financement $7.0M • Liquidité Modulaire',
+    rewardLabel: 'Récompense estimée',
+    costLabel: 'Coût',
+    snapshotLabel: 'Période estimée',
+    timeLabel: 'Temps hebdomadaire',
+    overviewHeading: 'Présentation du projet',
+    overview: 'Financé à hauteur de 7 M$ par Amber Group et Foresight Ventures, Mitosis transforme les dépôts multi-chaînes en actifs liquides productifs appelés miAssets (comme miweETH). Les participants à la campagne Matrix accumulent des MITO Points avant le TGE $MITO.',
+    tokenomicsHeading: 'Tokenomics de $MITO et miAssets',
+    tokenomics: '$MITO coordonne la liquidité inter-chaînes, le consensus et la gouvernance, avec une large part dédiée aux déposants Matrix.',
+    stepsHeading: 'Étapes pour participer',
+    steps: [
+      'Visitez le portail officiel Mitosis Matrix (mitosis.org).',
+      'Connectez votre portefeuille Rabby ou Rainbow sur Ethereum ou L2 pris en charge.',
+      'Déposez des actifs éligibles (weETH, ETH ou USDT) dans le coffre Mitosis.',
+      'Recevez des miAssets liquides 1:1 (ex. miweETH) générant des rendements.',
+      'Participez au portail Expedition pour obtenir des multiplicateurs de points.'
+    ],
+    strategyHeading: 'Stratégie d’optimisation',
+    strategy: 'Engagez vos miAssets dans les quêtes Expedition des rollups partenaires pour profiter des meilleurs multiplicateurs jusqu’au snapshot.',
+    sybilHeading: 'Protection Anti-Sybil et sécurité',
+    sybilSafety: 'Les points Matrix dépendent de la valeur réelle et de la durée de blocage, empêchant toute manipulation par bots. Utilisez uniquement mitosis.org.',
+    faqHeading: 'Questions fréquentes',
+    faqs: [
+      {
+        q: 'Puis-je récupérer mes jetons d’origine contre des miAssets ?',
+        a: 'Oui, les miAssets sont échangeables 1:1 à tout moment via le pont Mitosis.'
+      },
+      {
+        q: 'Qu’est-ce que la campagne Matrix ?',
+        a: 'Le programme officiel où les fournisseurs de liquidité gagnent des MITO Points convertibles en $MITO.'
+      }
+    ],
+    ctaText: 'Ouvrir Mitosis',
+    englishVersionLabel: 'Version anglaise'
+  },
+  {
+    id: 'mitosis',
+    slug: 'uk',
+    lang: 'uk',
+    flag: '🇺🇦',
+    homeLabel: 'Головна',
+    hubLabel: 'Безкоштовні тестнети',
+    hubHref: '/uk/bezkoshtovni-testnety/',
+    title: 'Гайд з аірдропу Mitosis (2026): кампанія Matrix і $MITO | Airdroplyx',
+    description: 'Як брати участь у Mitosis ($7M від Amber Group та Foresight Ventures): депозит у miAssets, квести Expedition і фарм поінтів $MITO.',
+    h1: 'Mitosis ($MITO): гайд із кампанії Matrix та модульної ліквідності',
+    badge: 'Інвестиції $7.0M • Модульна ліквідність',
+    rewardLabel: 'Очікувана винагорода',
+    costLabel: 'Витрати',
+    snapshotLabel: 'Очікуваний період',
+    timeLabel: 'Час на тиждень',
+    overviewHeading: 'Огляд проєкту',
+    overview: 'Mitosis залучила $7 млн від Amber Group і Foresight Ventures для створення протоколу модульної ліквідності, що перетворює крос-чейн депозити на дохідні токени miAssets (miweETH, miUSDT). Учасники кампанії Matrix заробляють MITO Points перед TGE $MITO.',
+    tokenomicsHeading: 'Токеноміка $MITO і miAssets',
+    tokenomics: '$MITO керує крос-чейн розподілом ліквідності, консенсусом валідаторів та управлінням, виділяючи суттєву частку раннім вкладникам Matrix.',
+    stepsHeading: 'Покрокова інструкція',
+    steps: [
+      'Перейдіть на офіційний портал Mitosis Matrix (mitosis.org).',
+      'Підключіть гаманець Rabby або Rainbow до Ethereum чи підтримуваних L2.',
+      'Внесіть підтримувані активи (weETH, ETH або USDT) до сховища Mitosis.',
+      'Отримайте ліквідні miAssets 1:1 (наприклад, miweETH) із пасивним доходом.',
+      'Беріть участь у квестах Expedition для множників і відстежуйте MITO Points.'
+    ],
+    strategyHeading: 'Стратегія максимізації нагород',
+    strategy: 'Залучайте miAssets у кампаніях Expedition на партнерських ролапах заради бустів і утримуйте активи до знімків.',
+    sybilHeading: 'Захист від Sybil та безпека',
+    sybilSafety: 'Бали Matrix залежать від реального капіталу та часу утримання, тож боти без коштів не впливають на рейтинг. Користуйтеся лише mitosis.org.',
+    faqHeading: 'Часті запитання',
+    faqs: [
+      {
+        q: 'Чи можна обміняти miAssets назад на початкові токени?',
+        a: 'Так, miAssets можна вивести 1:1 у будь-який час через міст Mitosis.'
+      },
+      {
+        q: 'Що таке кампанія Mitosis Matrix?',
+        a: 'Офіційна програма лояльності, де постачальники ліквідності отримують MITO Points під дроп $MITO.'
+      }
+    ],
+    ctaText: 'Відкрити Mitosis',
+    englishVersionLabel: 'Англійська версія'
+  },
+  {
+    id: 'mitosis',
+    slug: 'zh',
+    lang: 'zh-CN',
+    flag: '🇨🇳',
+    homeLabel: '首页',
+    hubLabel: '免费测试网',
+    hubHref: '/zh/free-testnets/',
+    title: 'Mitosis 空投教程 (2026)：Matrix 活动与 miAssets $MITO 攻略 | Airdroplyx',
+    description: 'Amber Group 与 Foresight Ventures 领投 700 万美元的模块化流动性协议 Mitosis Matrix 教程：存入获 miAssets 与 Expedition 加成。',
+    h1: 'Mitosis ($MITO) Matrix 活动及模块化流动性空投指南',
+    badge: '融资 $7.0M • 模块化流动性',
+    rewardLabel: '预估奖励',
+    costLabel: '参与成本',
+    snapshotLabel: '预期周期',
+    timeLabel: '每周耗时',
+    overviewHeading: '项目简介',
+    overview: '获得 Amber Group 与 Foresight Ventures 700 万美元种子轮融资的 Mitosis，旨在解决模块化区块链的流动性碎片化问题。用户存入资产即可铸造生息流动凭证 miAssets（如 miweETH），并在 Matrix 活动中累积 MITO Points 兑换 $MITO 空投。',
+    tokenomicsHeading: '$MITO 代币经济与 miAssets',
+    tokenomics: '$MITO 负责协调跨链流动性分配、验证节点共识与治理，创世份额重点向早期 Matrix 存款用户及 miAsset 持有者倾斜。',
+    stepsHeading: '详细参与步骤',
+    steps: [
+      '访问 Mitosis Matrix 官方门户（mitosis.org）。',
+      '使用 Rabby 或 Rainbow 钱包连接以太坊或支持的 Layer 2 网络。',
+      '将支持的资产（weETH、ETH 或 USDT）存入 Mitosis 金库。',
+      '获得 1:1 流动凭证 miAssets（如 miweETH），持续累积多层收益。',
+      '参与 Expedition 任务将 miAssets 部署至合作 Rollup 获取高倍积分加成。'
+    ],
+    strategyHeading: '高收益策略',
+    strategy: '优先参与 Expedition 中的合作模块化 Rollup 任务以获得积分倍增，并在快照期间保持 miAssets 持仓。',
+    sybilHeading: '防女巫机制与安全提示',
+    sybilSafety: 'Matrix 积分严格挂钩真实资产价值与锁定时长，零资金刷号机器人无法操控排名。请认准官网 mitosis.org。',
+    faqHeading: '常见问题',
+    faqs: [
+      {
+        q: 'miAssets 可以赎回为原代币吗？',
+        a: '可以，随时可通过 Mitosis 跨链桥按 1:1 赎回底层存款资产。'
+      },
+      {
+        q: '什么是 Mitosis Matrix 活动？',
+        a: 'Mitosis 官方流动性忠诚度计划，参与者通过提供流动性赚取可兑换 $MITO 的积分。'
+      }
+    ],
+    ctaText: '打开 Mitosis',
+    englishVersionLabel: '英文原版'
+  },
+  {
+    id: 'mitosis',
+    slug: 'hi',
+    lang: 'hi',
+    flag: '🇮🇳',
+    homeLabel: 'होम',
+    hubLabel: 'मुफ़्त टेस्टनेट',
+    hubHref: '/hi/free-testnets/',
+    title: 'Mitosis एयरड्रॉप गाइड (2026): Matrix कैंपेन और $MITO | Airdroplyx',
+    description: 'Amber Group और Foresight Ventures समर्थित ($7M) मॉड्यूलर लिक्विडिटी प्रोटोकॉल Mitosis Matrix कैंपेन, miAssets और $MITO पॉइंट्स की गाइड।',
+    h1: 'Mitosis ($MITO) Matrix कैंपेन और लिक्विडिटी एयरड्रॉप गाइड',
+    badge: '$7.0M फंडिंग • मॉड्यूलर लिक्विडिटी',
+    rewardLabel: 'अनुमानित इनाम',
+    costLabel: 'लागत',
+    snapshotLabel: 'अनुमानित समय',
+    timeLabel: 'साप्ताहिक समय',
+    overviewHeading: 'प्रोजेक्ट का परिचय',
+    overview: 'Amber Group और Foresight Ventures से $7 मिलियन जुटाने वाला Mitosis, मल्टी-चेन डिपॉज़िट को यील्ड-बेयरिंग लिक्विड टोकन miAssets (जैसे miweETH) में बदलता है। Matrix कैंपेन में भाग लेकर यूज़र्स $MITO एयरड्रॉप के लिए MITO Points कमाते हैं।',
+    tokenomicsHeading: '$MITO टोकनॉमिक्स और miAssets',
+    tokenomics: '$MITO क्रॉस-चेन लिक्विडिटी, वैलिडेटर कंसेंसस और गवर्नेंस को संभालता है, जिसमें शुरुआती Matrix डिपॉज़िटर्स के लिए बड़ा हिस्सा आरक्षित है।',
+    stepsHeading: 'भाग लेने के आसान चरण',
+    steps: [
+      'आधिकारिक Mitosis Matrix पोर्टल (mitosis.org) पर जाएं।',
+      'Ethereum या समर्थित L2 पर अपना Rabby या Rainbow वॉलेट कनेक्ट करें।',
+      'Mitosis वॉल्ट में समर्थित एसेट्स (weETH, ETH या USDT) जमा करें।',
+      'लिक्विड 1:1 miAssets (जैसे miweETH) प्राप्त करें जो मल्टी-लेयर यील्ड कमाते हैं।',
+      'बोनस मल्टीप्लायर पाने के लिए Expedition पोर्टल में भाग लें और MITO Points ट्रैक करें।'
+    ],
+    strategyHeading: 'अधिकतम इनाम की रणनीति',
+    strategy: 'पार्टनर मॉड्यूलर रोलअप्स के लिए Expedition अभियानों में miAssets लगाएं और स्नैपशॉट तक होल्ड रखें।',
+    sybilHeading: 'सिबिल सुरक्षा और सावधानियाँ',
+    sybilSafety: 'Matrix पॉइंट्स वास्तविक जमा पूंजी और अवधि के आधार पर मिलते हैं, जिससे बॉट्स प्रभावहीन रहते हैं। केवल mitosis.org का उपयोग करें।',
+    faqHeading: 'अक्सर पूछे जाने वाले प्रश्न',
+    faqs: [
+      {
+        q: 'क्या मैं अपने miAssets को मूल टोकन में रिडीम कर सकता हूँ?',
+        a: 'हाँ, Mitosis ब्रिज के जरिए इन्हें कभी भी 1:1 रिडीम किया जा सकता है।'
+      },
+      {
+        q: 'Matrix कैंपेन क्या है?',
+        a: 'यह Mitosis का आधिकारिक लॉयल्टी प्रोग्राम है जहाँ लिक्विडिटी प्रदाता $MITO के लिए पॉइंट्स कमाते हैं।'
+      }
+    ],
+    ctaText: 'Mitosis खोलें',
+    englishVersionLabel: 'अंग्रेज़ी संस्करण'
+  },
+  {
+    id: 'mitosis',
+    slug: 'it',
+    lang: 'it',
+    flag: '🇮🇹',
+    homeLabel: 'Home',
+    hubLabel: 'Testnet Gratuiti',
+    hubHref: '/it/testnet-gratuiti/',
+    title: 'Guida Airdrop Mitosis (2026): Campagna Matrix e $MITO | Airdroplyx',
+    description: 'Come partecipare a Mitosis ($7M da Amber Group e Foresight Ventures): deposita per ricevere miAssets, completa Expedition e accumula punti $MITO.',
+    h1: 'Mitosis ($MITO): Guida Campagna Matrix e Liquidità Modulare',
+    badge: 'Finanziamento $7.0M • Liquidità Modulare',
+    rewardLabel: 'Ricompensa stimata',
+    costLabel: 'Costo',
+    snapshotLabel: 'Periodo previsto',
+    timeLabel: 'Tempo settimanale',
+    overviewHeading: 'Panoramica del progetto',
+    overview: 'Finanziata con 7 milioni di dollari da Amber Group e Foresight Ventures, Mitosis trasforma i depositi multi-chain in asset liquidi fruttiferi chiamati miAssets (come miweETH). I partecipanti a Matrix guadagnano MITO Points per l’airdrop $MITO.',
+    tokenomicsHeading: 'Tokenomics di $MITO e miAssets',
+    tokenomics: '$MITO coordina liquidità cross-chain, consenso dei validatori e governance, riservando una quota rilevante ai primi depositanti Matrix.',
+    stepsHeading: 'Come partecipare passo dopo passo',
+    steps: [
+      'Visita il portale ufficiale Mitosis Matrix (mitosis.org).',
+      'Collega il wallet Rabby o Rainbow su Ethereum o L2 supportati.',
+      'Deposita gli asset supportati (weETH, ETH o USDT) nel vault Mitosis.',
+      'Ricevi miAssets liquidi 1:1 (es. miweETH) con rendimento multi-livello.',
+      'Partecipa al portale Expedition per i moltiplicatori e monitora i tuoi MITO Points.'
+    ],
+    strategyHeading: 'Strategia per massimizzare i punti',
+    strategy: 'Impiega i tuoi miAssets nelle missioni Expedition sui rollup partner per sbloccare moltiplicatori elevati fino allo snapshot.',
+    sybilHeading: 'Sicurezza e protezione Sybil',
+    sybilSafety: 'I punti Matrix scalano con il valore reale depositato e la durata, rendendo inutili i bot a saldo zero. Usa solo mitosis.org.',
+    faqHeading: 'Domande frequenti',
+    faqs: [
+      {
+        q: 'Posso riscattare i miAssets nei token originali?',
+        a: 'Sì, sono riscattabili 1:1 in qualsiasi momento tramite il bridge Mitosis.'
+      },
+      {
+        q: 'Cos’è la campagna Matrix?',
+        a: 'Il programma fedeltà ufficiale in cui i fornitori di liquidità guadagnano MITO Points per l’airdrop $MITO.'
+      }
+    ],
+    ctaText: 'Apri Mitosis',
+    englishVersionLabel: 'Versione inglese'
+  },
+  {
+    id: 'mitosis',
+    slug: 'pl',
+    lang: 'pl',
+    flag: '🇵🇱',
+    homeLabel: 'Strona główna',
+    hubLabel: 'Darmowe Testnety',
+    hubHref: '/pl/darmowe-testnety/',
+    title: 'Poradnik Airdrop Mitosis (2026): Kampania Matrix i $MITO | Airdroplyx',
+    description: 'Jak wziąć udział w Mitosis ($7M od Amber Group i Foresight Ventures): wpłać aktywa po miAssets, wykonuj Expedition i zbieraj punkty $MITO.',
+    h1: 'Mitosis ($MITO): Poradnik Kampanii Matrix i Płynności Modularnej',
+    badge: 'Finansowanie $7.0M • Płynność Modularna',
+    rewardLabel: 'Szacowana nagroda',
+    costLabel: 'Koszt',
+    snapshotLabel: 'Przewidywany okres',
+    timeLabel: 'Czas tygodniowo',
+    overviewHeading: 'Opis projektu',
+    overview: 'Wspierany kwotą 7 mln USD przez Amber Group i Foresight Ventures protokół Mitosis przekształca depozyty wielołańcuchowe w płynne tokeny miAssets (np. miweETH) generujące zysk. Uczestnicy kampanii Matrix zbierają MITO Points pod airdrop $MITO.',
+    tokenomicsHeading: 'Tokenomika $MITO i miAssets',
+    tokenomics: '$MITO zarządza płynnością między łańcuchami, konsensusem walidatorów oraz zarządzaniem, z istotną pulą dla wczesnych uczestników Matrix.',
+    stepsHeading: 'Instrukcja krok po kroku',
+    steps: [
+      'Odwiedź oficjalny portal Mitosis Matrix (mitosis.org).',
+      'Podłącz portfel Rabby lub Rainbow do Ethereum lub obsługiwanych sieci L2.',
+      'Wpłać obsługiwane aktywa (weETH, ETH lub USDT) do skarbca Mitosis.',
+      'Odbierz płynne miAssets 1:1 (np. miweETH) naliczające wielowarstwowe zyski.',
+      'Weź udział w misjach Expedition po mnożniki i śledź swoje MITO Points.'
+    ],
+    strategyHeading: 'Strategia maksymalizacji nagród',
+    strategy: 'Wykorzystuj miAssets w zadaniach Expedition na partnerskich rollupach, aby zdobyć mnożniki aż do dnia migawki.',
+    sybilHeading: 'Ochrona Anti-Sybil i bezpieczeństwo',
+    sybilSafety: 'Punkty Matrix skalują się z realnym kapitałem i czasem blokady, eliminując puste boty. Korzystaj wyłącznie z mitosis.org.',
+    faqHeading: 'Często zadawane pytania',
+    faqs: [
+      {
+        q: 'Czy mogę wymienić miAssets z powrotem na pierwotne tokeny?',
+        a: 'Tak, miAssets można wymienić 1:1 w dowolnym momencie przez most Mitosis.'
+      },
+      {
+        q: 'Czym jest kampania Matrix?',
+        a: 'Oficjalnym programem lojalnościowym, w którym dostawcy płynności zbierają MITO Points na airdrop $MITO.'
+      }
+    ],
+    ctaText: 'Otwórz Mitosis',
+    englishVersionLabel: 'Wersja angielska'
+  },
+
+  // ================= SYMBIOTIC (16 LANGUAGES) =================
+  {
+    id: 'symbiotic',
+    slug: 'tr',
+    lang: 'tr',
+    flag: '🇹🇷',
+    homeLabel: 'Ana Sayfa',
+    hubLabel: 'Ücretsiz Testnetler',
+    hubHref: '/tr/ucretsiz-testnet-airdroplari/',
+    title: 'Symbiotic Airdrop Rehberi (2026): Restaking Puanları & Mellow | Airdroplyx',
+    description: 'Paradigm ve Cyber Fund destekli izinsiz restaking protokolü Symbiotic için wstETH/USDe yatırma, Mellow Protocol ile çift puan ve airdrop rehberi.',
+    h1: 'Symbiotic Restaking Puanları ve Yönetişim Airdrop Rehberi',
+    badge: 'Paradigm Destekli • Restaking',
+    rewardLabel: 'Tahmini Ödül',
+    costLabel: 'Maliyet',
+    snapshotLabel: 'Beklenen Dönem',
+    timeLabel: 'Haftalık Süre',
+    overviewHeading: 'Proje Özeti',
+    overview: 'Paradigm ve Cyber Fund desteğiyle ve çekirdek Lido DAO katkıcılarının iş birliğiyle geliştirilen Symbiotic, merkeziyetsiz ağlara esnek ortak güvenlik sunan izinsiz bir restaking protokolüdür. wstETH, sUSDe ve rETH gibi pek çok ERC-20 varlığını teminat olarak kabul eden platformda yatırımcılar Symbiotic Points biriktirir.',
+    tokenomicsHeading: 'Puan Sistemi ve Yönetişim',
+    tokenomics: 'Aktif teminat yatıran kullanıcıların biriktirdiği Symbiotic Points puanları, protokolün merkeziyetsiz topluluk yönetişim tokenı dağıtımında temel ölçüt olarak değerlendirilmektedir.',
+    stepsHeading: 'Adım Adım Katılım Rehberi',
+    steps: [
+      'Resmi Symbiotic uygulamasına (symbiotic.fi) gidin.',
+      'Ethereum ağında Rabby veya Rainbow cüzdanınızı bağlayın.',
+      'Açık teminat havuzlarını (wstETH, USDe, rETH veya WBTC) inceleyin ve limitler açıldığında yatırın.',
+      'Çift puan için Mellow Protocol gibi entegre LRT kasaları üzerinden de katılım sağlayın.',
+      'Yatırımınızı tutarak sürekli Symbiotic Points biriktirin ve sıralamanızı takip edin.'
+    ],
+    strategyHeading: 'Maksimum Ödül Stratejisi',
+    strategy: 'Ana Symbiotic havuz limitleri dolduğunda Mellow Protocol gibi Symbiotic kasalarını entegre eden likit restaking protokolleri (LRT) üzerinden yatırarak hem LRT hem de Symbiotic puanı kazanın.',
+    sybilHeading: 'Sybil Koruması ve Güvenlik',
+    sybilSafety: 'Ödüller yatırılan gerçek teminat miktarı ve süresine göre hesaplandığı için Sybil saldırıları etkisizdir. Yalnızca resmi symbiotic.fi adresini kullanın.',
+    faqHeading: 'Sıkça Sorulan Sorular',
+    faqs: [
+      {
+        q: 'Symbiotic’e hangi varlıklar yatırılabilir?',
+        a: 'wstETH, rETH, USDe, WBTC ve desteklenen partner LRT varlıkları yatırılabilir.'
+      },
+      {
+        q: 'Yatırılan varlıklar geri çekilebilir mi?',
+        a: 'Evet, her havuzun çözülme (unbonding) süresine bağlı olarak çekim başlatılabilir.'
+      }
+    ],
+    ctaText: 'Symbiotic’i Aç',
+    englishVersionLabel: 'İngilizce Sürüm'
+  },
+  {
+    id: 'symbiotic',
+    slug: 'ru',
+    lang: 'ru',
+    flag: '🇷🇺',
+    homeLabel: 'Главная',
+    hubLabel: 'Бесплатные тестнеты',
+    hubHref: '/ru/free-testnets/',
+    title: 'Гайд по аирдропу Symbiotic (2026): рестейкинг, поинты и Mellow | Airdroplyx',
+    description: 'Как фармить Symbiotic Points (при поддержке Paradigm и Cyber Fund): депозит wstETH и USDe, двойной фарм через Mellow Protocol и пулы.',
+    h1: 'Symbiotic: гайд по рестейкингу, поинтам и аирдропу',
+    badge: 'При поддержке Paradigm • Рестейкинг',
+    rewardLabel: 'Ожидаемая награда',
+    costLabel: 'Затраты',
+    snapshotLabel: 'Ожидаемый период',
+    timeLabel: 'Время в неделю',
+    overviewHeading: 'Обзор проекта',
+    overview: 'Symbiotic — протокол безразрешительного рестейкинга при поддержке Paradigm, Cyber Fund и ключевых контрибьюторов Lido DAO. В отличие от ограниченных платформ, Symbiotic принимает любые ERC-20 активы (wstETH, USDe, rETH), начисляя депозиторам Symbiotic Points.',
+    tokenomicsHeading: 'Поинты и управление',
+    tokenomics: 'Накопленные за активные депозиты Symbiotic Points формируют основу для будущего распределения токенов управления протокола.',
+    stepsHeading: 'Пошаговая инструкция',
+    steps: [
+      'Откройте официальное приложение Symbiotic (symbiotic.fi).',
+      'Подключите кошелек Rabby или Rainbow в сети Ethereum.',
+      'Выберите открытый пул (wstETH, USDe, rETH или WBTC) и внесите депозит при наличии лимита.',
+      'Для двойного фарма используйте LRT-хранилища вроде Mellow Protocol.',
+      'Удерживайте депозит для непрерывного начисления Symbiotic Points.'
+    ],
+    strategyHeading: 'Стратегия фарма',
+    strategy: 'Если прямые капы заполнены, заходите через LRT-протоколы вроде Mellow Protocol, чтобы одновременно копить поинты Symbiotic и баллы LRT.',
+    sybilHeading: 'Защита от ботов и безопасность',
+    sybilSafety: 'Награды пропорциональны объёму залога и сроку хранения, что исключает сибил-атаки. Пользуйтесь только официальным сайтом symbiotic.fi.',
+    faqHeading: 'Частые вопросы',
+    faqs: [
+      {
+        q: 'Какие активы принимает Symbiotic?',
+        a: 'wstETH, rETH, USDe, WBTC и активы поддерживаемых LRT-партнёров.'
+      },
+      {
+        q: 'Можно ли вывести средства обратно?',
+        a: 'Да, вывод доступен с учётом периода разблокировки конкретного пула.'
+      }
+    ],
+    ctaText: 'Открыть Symbiotic',
+    englishVersionLabel: 'Английская версия'
+  },
+  {
+    id: 'symbiotic',
+    slug: 'id',
+    lang: 'id',
+    flag: '🇮🇩',
+    homeLabel: 'Beranda',
+    hubLabel: 'Testnet Gratis',
+    hubHref: '/id/testnet-gratis/',
+    title: 'Panduan Airdrop Symbiotic (2026): Restaking Points & Mellow | Airdroplyx',
+    description: 'Panduan lengkap restaking Symbiotic (didukung Paradigm & Cyber Fund): setor wstETH/USDe dan gandakan poin lewat Mellow Protocol.',
+    h1: 'Symbiotic: Panduan Restaking Points & Airdrop Tata Kelola',
+    badge: 'Didukung Paradigm • Restaking',
+    rewardLabel: 'Estimasi Hadiah',
+    costLabel: 'Biaya',
+    snapshotLabel: 'Perkiraan Snapshot',
+    timeLabel: 'Waktu Mingguan',
+    overviewHeading: 'Ringkasan Proyek',
+    overview: 'Didukung Paradigm dan Cyber Fund bersama kontributor inti Lido DAO, Symbiotic adalah protokol restaking tanpa izin yang menerima berbagai aset ERC-20 seperti wstETH, rETH, dan USDe. Penyedia jaminan meraih Symbiotic Points untuk potensi airdrop tata kelola.',
+    tokenomicsHeading: 'Sistem Poin & Tata Kelola',
+    tokenomics: 'Poin yang terakumulasi dari setoran agunan aktif menjadi dasar matematis alokasi token tata kelola protokol di masa mendatang.',
+    stepsHeading: 'Langkah-Langkah Mengikuti Airdrop',
+    steps: [
+      'Kunjungi aplikasi resmi Symbiotic (symbiotic.fi).',
+      'Hubungkan dompet Rabby atau Rainbow Anda di jaringan Ethereum.',
+      'Pilih pool jaminan yang tersedia (wstETH, USDe, rETH, atau WBTC) saat kuota dibuka.',
+      'Alternatifnya, setor melalui LRT mitra seperti Mellow Protocol untuk poin ganda.',
+      'Pertahankan setoran Anda untuk terus mengumpulkan Symbiotic Points.'
+    ],
+    strategyHeading: 'Strategi Maksimal',
+    strategy: 'Gunakan protokol Liquid Restaking (LRT) seperti Mellow Protocol yang terintegrasi dengan brankas Symbiotic agar meraih poin LRT sekaligus Symbiotic Points.',
+    sybilHeading: 'Keamanan & Anti-Sybil',
+    sybilSafety: 'Karena hadiah bergantung pada jumlah jaminan dan durasi setor, serangan Sybil tidak efektif. Akses hanya symbiotic.fi.',
+    faqHeading: 'Pertanyaan Umum',
+    faqs: [
+      {
+        q: 'Aset apa saja yang dapat disetor ke Symbiotic?',
+        a: 'wstETH, rETH, USDe, WBTC, serta aset LRT mitra.'
+      },
+      {
+        q: 'Bisakah saya menarik aset kapan saja?',
+        a: 'Ya, penarikan dapat diajukan sesuai masa unbonding masing-masing pool.'
+      }
+    ],
+    ctaText: 'Buka Symbiotic',
+    englishVersionLabel: 'Versi Bahasa Inggris'
+  },
+  {
+    id: 'symbiotic',
+    slug: 'vi',
+    lang: 'vi',
+    flag: '🇻🇳',
+    homeLabel: 'Trang chủ',
+    hubLabel: 'Testnet Miễn Phí',
+    hubHref: '/vi/testnet-mien-phi/',
+    title: 'Hướng dẫn Airdrop Symbiotic (2026): Restaking Points & Mellow | Airdroplyx',
+    description: 'Cách kiếm Symbiotic Points (được Paradigm & Cyber Fund hậu thuẫn): nạp wstETH/USDe và cày điểm kép qua Mellow Protocol.',
+    h1: 'Symbiotic: Hướng Dẫn Restaking Points & Airdrop Quản Trị',
+    badge: 'Paradigm hậu thuẫn • Restaking',
+    rewardLabel: 'Phần thưởng dự kiến',
+    costLabel: 'Chi phí',
+    snapshotLabel: 'Thời gian dự kiến',
+    timeLabel: 'Thời gian mỗi tuần',
+    overviewHeading: 'Tổng quan dự án',
+    overview: 'Được Paradigm, Cyber Fund và các cộng tác viên cốt lõi của Lido DAO hậu thuẫn, Symbiotic là giao thức restaking không cần cấp phép chấp nhận đa dạng tài sản ERC-20 (wstETH, rETH, USDe) để tích lũy Symbiotic Points.',
+    tokenomicsHeading: 'Hệ thống điểm & Quản trị',
+    tokenomics: 'Điểm Symbiotic Points tích lũy từ tài sản thế chấp đang hoạt động sẽ làm cơ sở phân bổ token quản trị trong tương lai.',
+    stepsHeading: 'Các bước tham gia chi tiết',
+    steps: [
+      'Truy cập ứng dụng chính thức Symbiotic (symbiotic.fi).',
+      'Kết nối ví Rabby hoặc Rainbow trên mạng Ethereum.',
+      'Chọn pool tài sản mở hạn mức (wstETH, USDe, rETH hoặc WBTC) để nạp.',
+      'Hoặc stake qua giao thức LRT đối tác như Mellow Protocol để nhận điểm kép.',
+      'Giữ vị thế để tích lũy Symbiotic Points liên tục theo thời gian.'
+    ],
+    strategyHeading: 'Chiến lược tối ưu điểm',
+    strategy: 'Nạp qua các giao thức Liquid Restaking (LRT) như Mellow Protocol tích hợp vault Symbiotic để nhận đồng thời điểm LRT và Symbiotic Points.',
+    sybilHeading: 'Chống Sybil & Bảo mật',
+    sybilSafety: 'Phần thưởng tỷ lệ thuận với khối lượng tài sản và thời gian nạp nên tấn công Sybil không hiệu quả. Chỉ dùng symbiotic.fi.',
+    faqHeading: 'Câu hỏi thường gặp',
+    faqs: [
+      {
+        q: 'Có thể nạp những tài sản nào vào Symbiotic?',
+        a: 'wstETH, rETH, USDe, WBTC và các tài sản LRT đối tác.'
+      },
+      {
+        q: 'Tôi có thể rút tài sản đã nạp không?',
+        a: 'Có, bạn có thể rút theo thời gian unbonding của từng pool.'
+      }
+    ],
+    ctaText: 'Mở Symbiotic',
+    englishVersionLabel: 'Bản tiếng Anh'
+  },
+  {
+    id: 'symbiotic',
+    slug: 'es',
+    lang: 'es',
+    flag: '🇪🇸',
+    homeLabel: 'Inicio',
+    hubLabel: 'Testnets Gratis',
+    hubHref: '/es/testnets-gratis/',
+    title: 'Guía Airdrop Symbiotic (2026): Puntos Restaking y Mellow | Airdroplyx',
+    description: 'Cómo acumular Symbiotic Points (respaldado por Paradigm y Cyber Fund): deposita wstETH/USDe y haz farming doble con Mellow Protocol.',
+    h1: 'Symbiotic: Guía de Puntos Restaking y Airdrop de Gobernanza',
+    badge: 'Respaldo de Paradigm • Restaking',
+    rewardLabel: 'Recompensa estimada',
+    costLabel: 'Costo',
+    snapshotLabel: 'Periodo estimado',
+    timeLabel: 'Tiempo semanal',
+    overviewHeading: 'Resumen del proyecto',
+    overview: 'Respaldado por Paradigm y Cyber Fund junto a colaboradores de Lido DAO, Symbiotic es un protocolo de restaking sin permisos que acepta múltiples activos ERC-20 como wstETH, rETH y USDe para generar Symbiotic Points.',
+    tokenomicsHeading: 'Sistema de Puntos y Gobernanza',
+    tokenomics: 'Los Symbiotic Points acumulados mediante depósitos activos serán la base matemática para la futura asignación de tokens de gobernanza.',
+    stepsHeading: 'Pasos para participar',
+    steps: [
+      'Visita la aplicación oficial de Symbiotic (symbiotic.fi).',
+      'Conecta tu billetera Rabby o Rainbow en Ethereum.',
+      'Explora los pools disponibles (wstETH, USDe, rETH o WBTC) y deposita cuando haya cupo.',
+      'También puedes depositar mediante LRTs como Mellow Protocol para ganar puntos dobles.',
+      'Mantén tu depósito para acumular Symbiotic Points de forma continua.'
+    ],
+    strategyHeading: 'Estrategia para maximizar recompensas',
+    strategy: 'Deposita a través de protocolos LRT como Mellow Protocol integrados con Symbiotic para obtener puntos de ambos ecosistemas al mismo tiempo.',
+    sybilHeading: 'Seguridad y protección Sybil',
+    sybilSafety: 'Las recompensas escalan según el colateral real y su permanencia, haciendo ineficaces los ataques Sybil. Usa solo symbiotic.fi.',
+    faqHeading: 'Preguntas frecuentes',
+    faqs: [
+      {
+        q: '¿Qué activos se pueden depositar en Symbiotic?',
+        a: 'wstETH, rETH, USDe, WBTC y activos de socios LRT compatibles.'
+      },
+      {
+        q: '¿Puedo retirar mis activos depositados?',
+        a: 'Sí, según el periodo de desvinculación (unbonding) de cada pool.'
+      }
+    ],
+    ctaText: 'Abrir Symbiotic',
+    englishVersionLabel: 'Versión en inglés'
+  },
+  {
+    id: 'symbiotic',
+    slug: 'pt',
+    lang: 'pt',
+    flag: '🇧🇷',
+    homeLabel: 'Início',
+    hubLabel: 'Testnets Grátis',
+    hubHref: '/pt/testnets-gratis/',
+    title: 'Guia Airdrop Symbiotic (2026): Pontos Restaking e Mellow | Airdroplyx',
+    description: 'Saiba como ganhar Symbiotic Points (apoiado por Paradigm e Cyber Fund): deposite wstETH/USDe e faça farm duplo via Mellow Protocol.',
+    h1: 'Symbiotic: Guia de Pontos Restaking e Airdrop de Governança',
+    badge: 'Apoio Paradigm • Restaking',
+    rewardLabel: 'Recompensa estimada',
+    costLabel: 'Custo',
+    snapshotLabel: 'Previsão',
+    timeLabel: 'Tempo semanal',
+    overviewHeading: 'Visão geral do projeto',
+    overview: 'Apoiado pela Paradigm e Cyber Fund com colaboradores centrais da Lido DAO, o Symbiotic é um protocolo de restaking sem permissão que aceita vários tokens ERC-20 (wstETH, rETH, USDe) e recompensa depositantes com Symbiotic Points.',
+    tokenomicsHeading: 'Sistema de Pontos e Governança',
+    tokenomics: 'Os Symbiotic Points acumulados em depósitos ativos servirão de base matemática para a futura distribuição do token de governança.',
+    stepsHeading: 'Passo a passo para participar',
+    steps: [
+      'Acesse o aplicativo oficial do Symbiotic (symbiotic.fi).',
+      'Conecte sua carteira Rabby ou Rainbow na rede Ethereum.',
+      'Verifique os pools abertos (wstETH, USDe, rETH ou WBTC) e deposite quando houver limite.',
+      'Como alternativa, faça staking via LRTs parceiros como o Mellow Protocol para pontos duplos.',
+      'Mantenha o depósito ativo para acumular Symbiotic Points continuamente.'
+    ],
+    strategyHeading: 'Estratégia de ganhos',
+    strategy: 'Use protocolos de Liquid Restaking como o Mellow Protocol integrados ao Symbiotic para acumular pontos dos dois protocolos simultaneamente.',
+    sybilHeading: 'Proteção Sybil e segurança',
+    sybilSafety: 'As recompensas são proporcionais ao capital e tempo depositado, tornando ataques Sybil ineficazes. Utilize apenas symbiotic.fi.',
+    faqHeading: 'Perguntas frequentes',
+    faqs: [
+      {
+        q: 'Quais ativos podem ser depositados no Symbiotic?',
+        a: 'wstETH, rETH, USDe, WBTC e ativos de LRTs parceiros.'
+      },
+      {
+        q: 'Posso sacar meus ativos depositados?',
+        a: 'Sim, seguindo o prazo de desvinculação (unbonding) de cada pool.'
+      }
+    ],
+    ctaText: 'Abrir Symbiotic',
+    englishVersionLabel: 'Versão em inglês'
+  },
+  {
+    id: 'symbiotic',
+    slug: 'ko',
+    lang: 'ko',
+    flag: '🇰🇷',
+    homeLabel: '홈',
+    hubLabel: '무료 테스트넷',
+    hubHref: '/ko/free-testnets/',
+    title: 'Symbiotic 에어드랍 가이드 (2026): 리스테이킹 포인트 & Mellow | Airdroplyx',
+    description: 'Paradigm과 Cyber Fund가 투자한 무허가 리스테이킹 프로토콜 Symbiotic 공략: wstETH/USDe 예치 및 Mellow Protocol 더블 파밍.',
+    h1: 'Symbiotic 리스테이킹 포인트 및 거버넌스 에어드랍 가이드',
+    badge: 'Paradigm 투자 • 리스테이킹',
+    rewardLabel: '예상 보상',
+    costLabel: '비용',
+    snapshotLabel: '예상 시기',
+    timeLabel: '주간 소요 시간',
+    overviewHeading: '프로젝트 개요',
+    overview: 'Paradigm, Cyber Fund 및 Lido DAO 핵심 기여자들과 함께 구축된 Symbiotic은 wstETH, rETH, USDe 등 다양한 ERC-20 자산을 담보로 받는 무허가 공유 보안 리스테이킹 프로토콜입니다. 예치자는 Symbiotic Points를 적립해 향후 거버넌스 에어드랍을 노릴 수 있습니다.',
+    tokenomicsHeading: '포인트 시스템 및 거버넌스',
+    tokenomics: '활성 담보 예치로 누적된 Symbiotic Points는 향후 프로토콜 거버넌스 토큰 분배의 핵심 기준으로 활용될 예정입니다.',
+    stepsHeading: '단계별 참여 방법',
+    steps: [
+      '공식 Symbiotic 앱(symbiotic.fi)에 접속하세요.',
+      '이더리움 네트워크에서 Rabby 또는 Rainbow 지갑을 연결하세요.',
+      '지원 담보 풀(wstETH, USDe, rETH, WBTC)의 한도가 열릴 때 예치하세요.',
+      'Mellow Protocol 같은 파트너 LRT 볼트를 통해 예치하면 이중 포인트 적립이 가능합니다.',
+      '예치를 유지하며 Symbiotic Points 및 순위를 확인하세요.'
+    ],
+    strategyHeading: '보상 극대화 전략',
+    strategy: '직접 풀 한도가 가득 찼을 때는 Symbiotic 볼트와 연동된 Mellow Protocol 등 LRT를 통해 예치하여 LRT 보상과 Symbiotic 포인트를 동시에 얻으세요.',
+    sybilHeading: '시빌 방지 및 보안',
+    sybilSafety: '보상이 실제 예치 규모와 기간에 비례하므로 시빌 공격이 무의미합니다. 공식 symbiotic.fi만 이용하세요.',
+    faqHeading: '자주 묻는 질문',
+    faqs: [
+      {
+        q: 'Symbiotic에 어떤 자산을 예치할 수 있나요?',
+        a: 'wstETH, rETH, USDe, WBTC 및 파트너 LRT 자산을 지원합니다.'
+      },
+      {
+        q: '예치한 자산을 출금할 수 있나요?',
+        a: '네, 각 풀의 언본딩 기간에 따라 출금을 신청할 수 있습니다.'
+      }
+    ],
+    ctaText: 'Symbiotic 열기',
+    englishVersionLabel: '영문 버전'
+  },
+  {
+    id: 'symbiotic',
+    slug: 'ja',
+    lang: 'ja',
+    flag: '🇯🇵',
+    homeLabel: 'ホーム',
+    hubLabel: '無料テストネット',
+    hubHref: '/ja/free-testnets/',
+    title: 'Symbiotic エアドロップ攻略 (2026): リステーキング＆Mellow二重取り | Airdroplyx',
+    description: 'ParadigmとCyber Fundが出資するパーミッションレス・リステーキング「Symbiotic」攻略：wstETH/USDe預入とMellow Protocol活用法。',
+    h1: 'Symbiotic リステーキングポイント＆ガバナンス攻略ガイド',
+    badge: 'Paradigm出資 • リステーキング',
+    rewardLabel: '予想報酬',
+    costLabel: '費用',
+    snapshotLabel: '予定時期',
+    timeLabel: '週間作業時間',
+    overviewHeading: 'プロジェクト概要',
+    overview: 'Paradigm、Cyber Fund、Lido DAO主要コントリビューターの支援で構築されたSymbioticは、wstETH・rETH・USDeなど多様なERC-20を担保にできるパーミッションレスのリステーキングプロトコルです。預入によりSymbiotic Pointsを獲得できます。',
+    tokenomicsHeading: 'ポイント制度とガバナンス',
+    tokenomics: '有効な担保預入で貯まったSymbiotic Pointsは、将来のガバナンストークン配分を算出する基盤となります。',
+    stepsHeading: '参加ステップ',
+    steps: [
+      '公式Symbioticアプリ（symbiotic.fi）を開きます。',
+      'Ethereum上でRabbyまたはRainbowウォレットを接続します。',
+      '上限が開いている担保プール（wstETH、USDe、rETH、WBTC）に預入します。',
+      'Mellow Protocolなどの提携LRTボールト経由で二重ポイント獲得も狙えます。',
+      '預入を維持してSymbiotic Pointsを継続的に積み上げます。'
+    ],
+    strategyHeading: '報酬最大化のコツ',
+    strategy: '直接プールの上限が埋まっている場合でも、Mellow ProtocolなどSymbiotic対応LRT経由ならLRTとSymbiotic双方のポイントを同時に稼げます。',
+    sybilSafety: '報酬は預入額と期間に比例するためシビル攻撃は機能しません。必ず公式サイトsymbiotic.fiを利用してください。',
+    sybilHeading: 'シビル対策と安全性',
+    faqHeading: 'よくある質問',
+    faqs: [
+      {
+        q: 'Symbioticに預けられる資産は？',
+        a: 'wstETH、rETH、USDe、WBTCおよび提携LRT資産に対応しています。'
+      },
+      {
+        q: '預けた資産は引き出せますか？',
+        a: 'はい、各プールのアンボンディング期間に従って出金できます。'
+      }
+    ],
+    ctaText: 'Symbioticを開く',
+    englishVersionLabel: '英語版を見る'
+  },
+  {
+    id: 'symbiotic',
+    slug: 'ar',
+    lang: 'ar',
+    flag: '🇸🇦',
+    homeLabel: 'الرئيسية',
+    hubLabel: 'شبكات اختبار مجانية',
+    hubHref: '/ar/free-testnets/',
+    title: 'دليل إيردروب Symbiotic (2026): نقاط Restaking وMellow | Airdroplyx',
+    description: 'دليل المشاركة في بروتوكول Symbiotic المدعوم من Paradigm وCyber Fund: إيداع wstETH وUSDe ومضاعفة النقاط عبر Mellow Protocol.',
+    h1: 'Symbiotic: دليل نقاط Restaking وإيردروب الحوكمة',
+    badge: 'بدعم Paradigm • Restaking',
+    rewardLabel: 'المكافأة المتوقعة',
+    costLabel: 'التكلفة',
+    snapshotLabel: 'الفترة المتوقعة',
+    timeLabel: 'الوقت الأسبوعي',
+    overviewHeading: 'نظرة عامة على المشروع',
+    overview: 'بروتوكول Symbiotic هو بروتوكول إعادة تخزين (Restaking) غير مقيد مدعوم من Paradigm وCyber Fund ومساهمي Lido DAO، يتيح استخدام أصول ERC-20 متعددة مثل wstETH وrETH وUSDe كضمان لكسب نقاط Symbiotic Points.',
+    tokenomicsHeading: 'نظام النقاط والحوكمة',
+    tokenomics: 'تُعد نقاط Symbiotic Points المكتسبة من الودائع النشطة الأساس الرياضي لتوزيع عملة الحوكمة المستقبلية للبروتوكول.',
+    stepsHeading: 'خطوات المشاركة',
+    steps: [
+      'افتح تطبيق Symbiotic الرسمي (symbiotic.fi).',
+      'اربط محفظة Rabby أو Rainbow على شبكة إيثيريوم.',
+      'تصفح المجمعات المتاحة (wstETH أو USDe أو rETH أو WBTC) وأودع عند فتح السقف.',
+      'يمكنك أيضاً الإيداع عبر بروتوكولات LRT مثل Mellow Protocol لمضاعفة النقاط.',
+      'حافظ على إيداعك لمواصلة تجميع نقاط Symbiotic Points.'
+    ],
+    strategyHeading: 'استراتيجية تعظيم المكافآت',
+    strategy: 'استخدم بروتوكولات Liquid Restaking مثل Mellow Protocol المدمجة مع خزائن Symbiotic لربح نقاط البروتوكولين معاً.',
+    sybilHeading: 'الحماية من الحسابات الوهمية والأمان',
+    sybilSafety: 'تتناسب المكافآت طردياً مع حجم الضمان ومدة الإيداع، مما يمنع هجمات Sybil. استخدم symbiotic.fi الرسمي فقط.',
+    faqHeading: 'الأسئلة الشائعة',
+    faqs: [
+      {
+        q: 'ما الأصول التي يمكن إيداعها في Symbiotic؟',
+        a: 'تدعم المنصة wstETH وrETH وUSDe وWBTC وأصول LRT الشريكة.'
+      },
+      {
+        q: 'هل يمكنني سحب أصولي المودعة؟',
+        a: 'نعم، يمكن بدء السحب وفق فترة فك الارتباط الخاصة بكل مجمع.'
+      }
+    ],
+    ctaText: 'افتح Symbiotic',
+    englishVersionLabel: 'النسخة الإنجليزية'
+  },
+  {
+    id: 'symbiotic',
+    slug: 'de',
+    lang: 'de',
+    flag: '🇩🇪',
+    homeLabel: 'Startseite',
+    hubLabel: 'Kostenlose Testnets',
+    hubHref: '/de/kostenlose-testnets/',
+    title: 'Symbiotic Airdrop Guide (2026): Restaking Points & Mellow | Airdroplyx',
+    description: 'Anleitung für Symbiotic (unterstützt von Paradigm & Cyber Fund): wstETH/USDe einzahlen und doppelt punkten über Mellow Protocol.',
+    h1: 'Symbiotic: Restaking Points & Governance-Airdrop Guide',
+    badge: 'Paradigm-Backed • Restaking',
+    rewardLabel: 'Geschätzte Belohnung',
+    costLabel: 'Kosten',
+    snapshotLabel: 'Erwarteter Zeitraum',
+    timeLabel: 'Wöchentlicher Aufwand',
+    overviewHeading: 'Projektübersicht',
+    overview: 'Unterstützt von Paradigm, Cyber Fund und Lido-DAO-Mitwirkenden ist Symbiotic ein erlaubnisfreies Restaking-Protokoll für beliebige ERC-20-Sicherheiten wie wstETH, rETH und USDe. Einzahler sammeln Symbiotic Points für künftige Governance-Rewards.',
+    tokenomicsHeading: 'Punktesystem & Governance',
+    tokenomics: 'Durch aktive Einzahlungen gesammelte Symbiotic Points bilden die Grundlage für die spätere Verteilung des Governance-Tokens.',
+    stepsHeading: 'Schritt-für-Schritt-Anleitung',
+    steps: [
+      'Besuche die offizielle Symbiotic-App (symbiotic.fi).',
+      'Verbinde deine Rabby- oder Rainbow-Wallet im Ethereum-Netzwerk.',
+      'Prüfe geöffnete Pools (wstETH, USDe, rETH oder WBTC) und zahle ein, sobald Caps frei sind.',
+      'Alternativ kannst du über Partner-LRTs wie Mellow Protocol doppelt farmen.',
+      'Halte deine Einzahlung, um fortlaufend Symbiotic Points zu sammeln.'
+    ],
+    strategyHeading: 'Strategie für maximale Punkte',
+    strategy: 'Nutze integrierte Liquid-Restaking-Protokolle wie Mellow Protocol, um gleichzeitig LRT- und Symbiotic-Punkte zu erhalten.',
+    sybilHeading: 'Sybil-Schutz & Sicherheit',
+    sybilSafety: 'Belohnungen skalieren direkt mit Kapital und Haltedauer, sodass Sybil-Angriffe wirkungslos bleiben. Nutze nur symbiotic.fi.',
+    faqHeading: 'Häufig gestellte Fragen',
+    faqs: [
+      {
+        q: 'Welche Assets akzeptiert Symbiotic?',
+        a: 'Unter anderem wstETH, rETH, USDe, WBTC und Partner-LRT-Assets.'
+      },
+      {
+        q: 'Kann ich eingezahlte Assets wieder abheben?',
+        a: 'Ja, Auszahlungen sind gemäß der Unbonding-Frist des jeweiligen Pools möglich.'
+      }
+    ],
+    ctaText: 'Symbiotic öffnen',
+    englishVersionLabel: 'Englische Version'
+  },
+  {
+    id: 'symbiotic',
+    slug: 'fr',
+    lang: 'fr',
+    flag: '🇫🇷',
+    homeLabel: 'Accueil',
+    hubLabel: 'Testnets Gratuits',
+    hubHref: '/fr/testnets-gratuits/',
+    title: 'Guide Airdrop Symbiotic (2026) : Points Restaking & Mellow | Airdroplyx',
+    description: 'Comment cumuler des Symbiotic Points (soutenu par Paradigm et Cyber Fund) : déposer wstETH/USDe et doubler via Mellow Protocol.',
+    h1: 'Symbiotic : Guide Points Restaking et Airdrop de Gouvernance',
+    badge: 'Soutenu par Paradigm • Restaking',
+    rewardLabel: 'Récompense estimée',
+    costLabel: 'Coût',
+    snapshotLabel: 'Période estimée',
+    timeLabel: 'Temps hebdomadaire',
+    overviewHeading: 'Présentation du projet',
+    overview: 'Soutenu par Paradigm, Cyber Fund et des contributeurs de Lido DAO, Symbiotic est un protocole de restaking sans permission acceptant divers jetons ERC-20 (wstETH, rETH, USDe) pour accumuler des Symbiotic Points.',
+    tokenomicsHeading: 'Système de Points et Gouvernance',
+    tokenomics: 'Les Symbiotic Points acquis via des dépôts actifs serviront de base à la distribution du futur jeton de gouvernance.',
+    stepsHeading: 'Étapes pour participer',
+    steps: [
+      'Ouvrez l’application officielle Symbiotic (symbiotic.fi).',
+      'Connectez votre portefeuille Rabby ou Rainbow sur Ethereum.',
+      'Consultez les pools ouverts (wstETH, USDe, rETH ou WBTC) et déposez lorsque les plafonds s’ouvrent.',
+      'Vous pouvez aussi déposer via des LRT partenaires comme Mellow Protocol pour cumuler deux fois plus.',
+      'Conservez votre dépôt afin d’accumuler des Symbiotic Points en continu.'
+    ],
+    strategyHeading: 'Stratégie d’optimisation',
+    strategy: 'Passez par des protocoles LRT comme Mellow Protocol reliés aux coffres Symbiotic pour obtenir simultanément les points des deux protocoles.',
+    sybilHeading: 'Protection Anti-Sybil et sécurité',
+    sybilSafety: 'Les récompenses étant proportionnelles au collatéral et à la durée, les attaques Sybil sont inefficaces. Utilisez uniquement symbiotic.fi.',
+    faqHeading: 'Questions fréquentes',
+    faqs: [
+      {
+        q: 'Quels actifs peut-on déposer sur Symbiotic ?',
+        a: 'wstETH, rETH, USDe, WBTC et les actifs LRT partenaires.'
+      },
+      {
+        q: 'Puis-je retirer mes actifs déposés ?',
+        a: 'Oui, selon la période de déblocage propre à chaque pool.'
+      }
+    ],
+    ctaText: 'Ouvrir Symbiotic',
+    englishVersionLabel: 'Version anglaise'
+  },
+  {
+    id: 'symbiotic',
+    slug: 'uk',
+    lang: 'uk',
+    flag: '🇺🇦',
+    homeLabel: 'Головна',
+    hubLabel: 'Безкоштовні тестнети',
+    hubHref: '/uk/bezkoshtovni-testnety/',
+    title: 'Гайд з аірдропу Symbiotic (2026): рестейкінг, поінти та Mellow | Airdroplyx',
+    description: 'Як фармити Symbiotic Points (за підтримки Paradigm і Cyber Fund): депозит wstETH/USDe та подвійний фарм через Mellow Protocol.',
+    h1: 'Symbiotic: гайд із рестейкінгу, поінтів та аірдропу',
+    badge: 'Підтримка Paradigm • Рестейкінг',
+    rewardLabel: 'Очікувана винагорода',
+    costLabel: 'Витрати',
+    snapshotLabel: 'Очікуваний період',
+    timeLabel: 'Час на тиждень',
+    overviewHeading: 'Огляд проєкту',
+    overview: 'Symbiotic — протокол бездозвільного рестейкінгу за підтримки Paradigm, Cyber Fund і контриб’юторів Lido DAO, який приймає різні ERC-20 активи (wstETH, rETH, USDe) та нараховує Symbiotic Points.',
+    tokenomicsHeading: 'Система поінтів та управління',
+    tokenomics: 'Накопичені за активні депозити Symbiotic Points стануть основою для майбутнього розподілу токенів управління протоколу.',
+    stepsHeading: 'Покрокова інструкція',
+    steps: [
+      'Відкрийте офіційний додаток Symbiotic (symbiotic.fi).',
+      'Підключіть гаманець Rabby або Rainbow у мережі Ethereum.',
+      'Оберіть відкритий пул (wstETH, USDe, rETH або WBTC) і зробіть депозит.',
+      'Також можна зайти через партнерські LRT на кшталт Mellow Protocol для подвійних балів.',
+      'Утримуйте депозит для безперервного накопичення Symbiotic Points.'
+    ],
+    strategyHeading: 'Стратегія максимізації нагород',
+    strategy: 'Коли ліміти прямих пулів заповнені, використовуйте Mellow Protocol для одночасного заробітку балів LRT і Symbiotic.',
+    sybilHeading: 'Захист від Sybil та безпека',
+    sybilSafety: 'Винагорода прямо залежить від суми застави та терміну зберігання, що робить атаки Sybil безглуздими. Користуйтеся лише symbiotic.fi.',
+    faqHeading: 'Часті запитання',
+    faqs: [
+      {
+        q: 'Які активи можна внести в Symbiotic?',
+        a: 'wstETH, rETH, USDe, WBTC та активи партнерських LRT.'
+      },
+      {
+        q: 'Чи можна вивести внесені активи?',
+        a: 'Так, виведення доступне з урахуванням періоду розблокування конкретного пулу.'
+      }
+    ],
+    ctaText: 'Відкрити Symbiotic',
+    englishVersionLabel: 'Англійська версія'
+  },
+  {
+    id: 'symbiotic',
+    slug: 'zh',
+    lang: 'zh-CN',
+    flag: '🇨🇳',
+    homeLabel: '首页',
+    hubLabel: '免费测试网',
+    hubHref: '/zh/free-testnets/',
+    title: 'Symbiotic 空投教程 (2026)：Paradigm 参投再质押积分与 Mellow 双挖 | Airdroplyx',
+    description: 'Paradigm 与 Cyber Fund 支持的无许可再质押协议 Symbiotic 攻略：存入 wstETH/USDe 及通过 Mellow Protocol 实现积分双挖。',
+    h1: 'Symbiotic 再质押积分及治理空投攻略',
+    badge: 'Paradigm 支持 • 再质押',
+    rewardLabel: '预估奖励',
+    costLabel: '参与成本',
+    snapshotLabel: '预期周期',
+    timeLabel: '每周耗时',
+    overviewHeading: '项目简介',
+    overview: '由 Paradigm、Cyber Fund 与 Lido DAO 核心贡献者共同支持的 Symbiotic，是一个支持任意 ERC-20 资产（如 wstETH、rETH、USDe）的无许可共享安全再质押协议。存款用户可累积 Symbiotic Points 以争夺未来治理代币空投。',
+    tokenomicsHeading: '积分机制与治理',
+    tokenomics: '通过有效质押资产获得的 Symbiotic Points 将作为未来协议治理代币分配的核心计算依据。',
+    stepsHeading: '详细参与步骤',
+    steps: [
+      '访问 Symbiotic 官方应用（symbiotic.fi）。',
+      '在以太坊网络上连接 Rabby 或 Rainbow 钱包。',
+      '查看开放额度池（wstETH、USDe、rETH 或 WBTC）并在额度开放时存入。',
+      '也可通过 Mellow Protocol 等合作 LRT 协议存入以实现双倍积分挖矿。',
+      '长期持有仓位以持续累积 Symbiotic Points 并关注排行榜等级。'
+    ],
+    strategyHeading: '高收益策略',
+    strategy: '当原生池额度满额时，可通过集成了 Symbiotic 金库的 Mellow Protocol 等流动性再质押协议同时赚取 LRT 与 Symbiotic 积分。',
+    sybilHeading: '防女巫机制与安全提示',
+    sybilSafety: '奖励直接与实际质押资金量和时长挂钩，女巫刷号无效。请认准官网 symbiotic.fi。',
+    faqHeading: '常见问题',
+    faqs: [
+      {
+        q: 'Symbiotic 支持存入哪些资产？',
+        a: '支持 wstETH、rETH、USDe、WBTC 及合作方 LRT 资产。'
+      },
+      {
+        q: '存入的资产可以随时提取吗？',
+        a: '可以，按各资金池的解锁周期（unbonding）即可发起提现。'
+      }
+    ],
+    ctaText: '打开 Symbiotic',
+    englishVersionLabel: '英文原版'
+  },
+  {
+    id: 'symbiotic',
+    slug: 'hi',
+    lang: 'hi',
+    flag: '🇮🇳',
+    homeLabel: 'होम',
+    hubLabel: 'मुफ़्त टेस्टनेट',
+    hubHref: '/hi/free-testnets/',
+    title: 'Symbiotic एयरड्रॉप गाइड (2026): रीस्टेकिंग पॉइंट्स और Mellow | Airdroplyx',
+    description: 'Paradigm और Cyber Fund समर्थित परमिशनलेस रीस्टेकिंग प्रोटोकॉल Symbiotic में wstETH/USDe जमा और Mellow Protocol से डबल पॉइंट्स की गाइड।',
+    h1: 'Symbiotic रीस्टेकिंग पॉइंट्स और गवर्नेंस एयरड्रॉप गाइड',
+    badge: 'Paradigm समर्थित • रीस्टेकिंग',
+    rewardLabel: 'अनुमानित इनाम',
+    costLabel: 'लागत',
+    snapshotLabel: 'अनुमानित समय',
+    timeLabel: 'साप्ताहिक समय',
+    overviewHeading: 'प्रोजेक्ट का परिचय',
+    overview: 'Paradigm, Cyber Fund और Lido DAO के मुख्य योगदानकर्ताओं द्वारा समर्थित Symbiotic एक परमिशनलेस रीस्टेकिंग प्रोटोकॉल है जो wstETH, rETH और USDe जैसे कई ERC-20 एसेट्स को स्वीकार करता है और डिपॉज़िटर्स को Symbiotic Points देता है।',
+    tokenomicsHeading: 'पॉइंट्स सिस्टम और गवर्नेंस',
+    tokenomics: 'सक्रिय कोलेटरल डिपॉज़िट से अर्जित Symbiotic Points भविष्य के प्रोटोकॉल गवर्नेंस टोकन आवंटन का आधार बनेंगे।',
+    stepsHeading: 'भाग लेने के आसान चरण',
+    steps: [
+      'आधिकारिक Symbiotic ऐप (symbiotic.fi) पर जाएं।',
+      'Ethereum नेटवर्क पर अपना Rabby या Rainbow वॉलेट कनेक्ट करें।',
+      'उपलब्ध कोलेटरल पूल (wstETH, USDe, rETH या WBTC) देखें और कैप खुलने पर जमा करें।',
+      'डबल पॉइंट्स के लिए Mellow Protocol जैसे पार्टनर LRT वॉल्ट के माध्यम से भी स्टेक कर सकते हैं।',
+      'लगातार Symbiotic Points जमा करने के लिए अपनी स्थिति बनाए रखें।'
+    ],
+    strategyHeading: 'अधिकतम इनाम की रणनीति',
+    strategy: 'सीधे पूल भर जाने पर Mellow Protocol जैसे लिक्विड रीस्टेकिंग (LRT) प्रोटोकॉल से जमा कर LRT और Symbiotic दोनों के पॉइंट्स एक साथ कमाएं।',
+    sybilHeading: 'सिबिल सुरक्षा और सावधानियाँ',
+    sybilSafety: 'इनाम सीधे जमा राशि और अवधि से तय होते हैं, इसलिए सिबिल हमले बेअसर रहते हैं। केवल symbiotic.fi का उपयोग करें।',
+    faqHeading: 'अक्सर पूछे जाने वाले प्रश्न',
+    faqs: [
+      {
+        q: 'Symbiotic में कौन से एसेट्स जमा किए जा सकते हैं?',
+        a: 'wstETH, rETH, USDe, WBTC और पार्टनर LRT एसेट्स।'
+      },
+      {
+        q: 'क्या मैं अपने जमा एसेट्स निकाल सकता हूँ?',
+        a: 'हाँ, प्रत्येक पूल की अनबॉन्डिंग अवधि के अनुसार निकासी की जा सकती है।'
+      }
+    ],
+    ctaText: 'Symbiotic खोलें',
+    englishVersionLabel: 'अंग्रेज़ी संस्करण'
+  },
+  {
+    id: 'symbiotic',
+    slug: 'it',
+    lang: 'it',
+    flag: '🇮🇹',
+    homeLabel: 'Home',
+    hubLabel: 'Testnet Gratuiti',
+    hubHref: '/it/testnet-gratuiti/',
+    title: 'Guida Airdrop Symbiotic (2026): Punti Restaking e Mellow | Airdroplyx',
+    description: 'Come accumulare Symbiotic Points (sostenuto da Paradigm e Cyber Fund): deposita wstETH/USDe e ottieni doppi punti con Mellow Protocol.',
+    h1: 'Symbiotic: Guida Punti Restaking e Airdrop Governance',
+    badge: 'Supportato da Paradigm • Restaking',
+    rewardLabel: 'Ricompensa stimata',
+    costLabel: 'Costo',
+    snapshotLabel: 'Periodo previsto',
+    timeLabel: 'Tempo settimanale',
+    overviewHeading: 'Panoramica del progetto',
+    overview: 'Sostenuto da Paradigm, Cyber Fund e collaboratori di Lido DAO, Symbiotic è un protocollo di restaking permissionless che accetta vari token ERC-20 (wstETH, rETH, USDe) premiando i depositanti con Symbiotic Points.',
+    tokenomicsHeading: 'Sistema a Punti e Governance',
+    tokenomics: 'I Symbiotic Points maturati sui depositi attivi costituiranno la base matematica per la futura assegnazione del token di governance.',
+    stepsHeading: 'Come partecipare passo dopo passo',
+    steps: [
+      'Visita l’app ufficiale Symbiotic (symbiotic.fi).',
+      'Collega il wallet Rabby o Rainbow su rete Ethereum.',
+      'Controlla i pool aperti (wstETH, USDe, rETH o WBTC) e deposita quando i limiti sono disponibili.',
+      'In alternativa usa LRT partner come Mellow Protocol per ottenere doppi punti.',
+      'Mantieni il deposito per accumulare Symbiotic Points in modo continuo.'
+    ],
+    strategyHeading: 'Strategia per massimizzare i punti',
+    strategy: 'Quando i pool diretti sono pieni, deposita tramite protocolli LRT come Mellow Protocol per accumulare punti di entrambi i protocolli.',
+    sybilHeading: 'Sicurezza e protezione Sybil',
+    sybilSafety: 'Le ricompense scalano in base a collaterale reale e durata, rendendo inutili gli attacchi Sybil. Usa solo symbiotic.fi.',
+    faqHeading: 'Domande frequenti',
+    faqs: [
+      {
+        q: 'Quali asset posso depositare su Symbiotic?',
+        a: 'wstETH, rETH, USDe, WBTC e asset LRT partner.'
+      },
+      {
+        q: 'Posso prelevare i fondi depositati?',
+        a: 'Sì, rispettando il periodo di unbonding previsto da ciascun pool.'
+      }
+    ],
+    ctaText: 'Apri Symbiotic',
+    englishVersionLabel: 'Versione inglese'
+  },
+  {
+    id: 'symbiotic',
+    slug: 'pl',
+    lang: 'pl',
+    flag: '🇵🇱',
+    homeLabel: 'Strona główna',
+    hubLabel: 'Darmowe Testnety',
+    hubHref: '/pl/darmowe-testnety/',
+    title: 'Poradnik Airdrop Symbiotic (2026): Punkty Restaking i Mellow | Airdroplyx',
+    description: 'Jak zbierać Symbiotic Points (wsparcie Paradigm i Cyber Fund): wpłać wstETH/USDe i zdobywaj podwójne punkty przez Mellow Protocol.',
+    h1: 'Symbiotic: Poradnik Punktów Restaking i Airdropu Governance',
+    badge: 'Wsparcie Paradigm • Restaking',
+    rewardLabel: 'Szacowana nagroda',
+    costLabel: 'Koszt',
+    snapshotLabel: 'Przewidywany okres',
+    timeLabel: 'Czas tygodniowo',
+    overviewHeading: 'Opis projektu',
+    overview: 'Wspierany przez Paradigm, Cyber Fund i współtwórców Lido DAO protokół Symbiotic to otwarty system restakingu przyjmujący różne tokeny ERC-20 (wstETH, rETH, USDe) i nagradzający użytkowników punktami Symbiotic Points.',
+    tokenomicsHeading: 'System Punktów i Governance',
+    tokenomics: 'Punkty Symbiotic Points naliczane za aktywne depozyty będą podstawą przyszłej dystrybucji tokena zarządzającego.',
+    stepsHeading: 'Instrukcja krok po kroku',
+    steps: [
+      'Odwiedź oficjalną aplikację Symbiotic (symbiotic.fi).',
+      'Podłącz portfel Rabby lub Rainbow w sieci Ethereum.',
+      'Sprawdź otwarte pule (wstETH, USDe, rETH lub WBTC) i wpłać środki po otwarciu limitów.',
+      'Alternatywnie wpłać przez partnerskie LRT jak Mellow Protocol po podwójne punkty.',
+      'Utrzymuj depozyt, aby stale zbierać Symbiotic Points.'
+    ],
+    strategyHeading: 'Strategia maksymalizacji nagród',
+    strategy: 'Gdy bezpośrednie limity są zapełnione, skorzystaj z Mellow Protocol zintegrowanego z Symbiotic, aby jednocześnie zdobywać punkty obu projektów.',
+    sybilHeading: 'Ochrona Anti-Sybil i bezpieczeństwo',
+    sybilSafety: 'Nagrody skalują się z kapitałem i czasem trwania depozytu, co wyklucza ataki Sybil. Korzystaj wyłącznie z symbiotic.fi.',
+    faqHeading: 'Często zadawane pytania',
+    faqs: [
+      {
+        q: 'Jakie aktywa można wpłacić do Symbiotic?',
+        a: 'wstETH, rETH, USDe, WBTC oraz obsługiwane aktywa LRT.'
+      },
+      {
+        q: 'Czy mogę wypłacić wpłacone środki?',
+        a: 'Tak, wypłaty działają zgodnie z okresem unbonding danej puli.'
+      }
+    ],
+    ctaText: 'Otwórz Symbiotic',
+    englishVersionLabel: 'Wersja angielska'
+  },
+
+  // ================= POCKETFI (16 LANGUAGES) =================
+  {
+    id: 'pocketfi',
+    slug: 'tr',
+    lang: 'tr',
+    flag: '🇹🇷',
+    homeLabel: 'Ana Sayfa',
+    hubLabel: 'Telegram Airdropları',
+    hubHref: '/tr/telegram-airdroplari/',
+    title: 'PocketFi (XPocket) Airdrop Rehberi (2026): $SWITCH Madenciliği | Airdroplyx',
+    description: 'Telegram içi çapraz zincir takas ve DeFi toplayıcısı PocketFi (@pocketfi_bot) ile 6 saatte bir $SWITCH madenciliği ve Tonkeeper bağlantısı.',
+    h1: 'PocketFi ($SWITCH) Telegram Airdrop ve DeFi Madencilik Rehberi',
+    badge: 'TON DeFi • Ücretsiz',
+    rewardLabel: 'Tahmini Ödül',
+    costLabel: 'Maliyet',
+    snapshotLabel: 'Beklenen Dönem',
+    timeLabel: 'Günlük Süre',
+    overviewHeading: 'Proje Özeti',
+    overview: 'PocketFi (XPocket), Telegram içinden çıkmadan TON, Ethereum, Arbitrum, Optimism ve BNB Chain ağlarında tek tıkla takas imkânı sunan çoklu zincir DeFi toplayıcısıdır. Oyuncular 6 saatlik yakım (burn) mekanizmasına sahip madencilik kasasından düzenli olarak $SWITCH tokenı kazar.',
+    tokenomicsHeading: '$SWITCH Tokenomik ve Yarılanma',
+    tokenomics: '$SWITCH, PocketFi çoklu zincir DEX ekosisteminde yönetişim, köprü ücreti paylaşımı ve staking kademelerini yönetir; birden fazla yarılanma (halving) aşamasıyla arz kontrolü sağlar.',
+    stepsHeading: 'Adım Adım Katılım Rehberi',
+    steps: [
+      'Resmi PocketFi Telegram botunu (@pocketfi_bot) başlatın.',
+      'Madencilik hesabınızı aktif edin ve başlangıç $SWITCH bonusunuzu alın.',
+      'Kasadaki tokenlar yanmadan önce her 5-6 saatte bir biriken $SWITCH ödülünü talep edin.',
+      'Boost sekmesindeki sosyal görevleri tamamlayın ve Tonkeeper veya MyTonWallet bağlayın.',
+      'Madencilik hızınızı kalıcı artırmak için PocketFi içinde TON veya EVM üzerinde küçük bir takas deneyin.'
+    ],
+    strategyHeading: 'Maksimum Ödül Stratejisi',
+    strategy: '6 saatlik yanma (burn) süresi dolmadan günde birkaç kez talep yapın ve Boost görevleriyle saatlik $SWITCH üretim hızınızı yükseltin.',
+    sybilHeading: 'Sybil Koruması ve Güvenlik',
+    sybilSafety: '6 saatlik talep zorunluluğu aktif olmayan hayalet hesapları eler; gerçek TON cüzdan bakiyesi ve takaslar madencilik çarpanını artırır.',
+    faqHeading: 'Sıkça Sorulan Sorular',
+    faqs: [
+      {
+        q: 'Talep edilmeyen $SWITCH tokenları neden yanar?',
+        a: 'Aktif kullanıcıları ödüllendirmek ve hareketsiz bot hesapları elemek için 6 saatlik yakım mekanizması uygulanır.'
+      },
+      {
+        q: 'PocketFi TON ağı üzerinde mi çalışıyor?',
+        a: 'Evet, yerel olarak TON üzerinde çalışır ve Ethereum, Arbitrum gibi ağlarla likidite köprüsü kurar.'
+      }
+    ],
+    ctaText: 'PocketFi’ı Başlat',
+    englishVersionLabel: 'İngilizce Sürüm'
+  },
+  {
+    id: 'pocketfi',
+    slug: 'ru',
+    lang: 'ru',
+    flag: '🇷🇺',
+    homeLabel: 'Главная',
+    hubLabel: 'Telegram-аирдропы',
+    hubHref: '/ru/telegram-airdrops/',
+    title: 'Гайд по аирдропу PocketFi (2026): майнинг $SWITCH каждые 6 часов | Airdroplyx',
+    description: 'Как майнить $SWITCH в Telegram-агрегаторе PocketFi (@pocketfi_bot): сбор каждые 6 часов до сгорания, бусты и привязка Tonkeeper.',
+    h1: 'PocketFi ($SWITCH): гайд по аирдропу и DeFi-майнингу в Telegram',
+    badge: 'TON DeFi • Бесплатно',
+    rewardLabel: 'Ожидаемая награда',
+    costLabel: 'Затраты',
+    snapshotLabel: 'Ожидаемый период',
+    timeLabel: 'Время в день',
+    overviewHeading: 'Обзор проекта',
+    overview: 'PocketFi (XPocket) — кросс-чейн DeFi-агрегатор в Telegram для обменов между TON, Ethereum, Arbitrum и Optimism. В приложении работает DeFi-майнинг токена $SWITCH: накопления нужно забирать каждые 6 часов до автоматического сгорания.',
+    tokenomicsHeading: 'Токеномика $SWITCH и халвинг',
+    tokenomics: 'Токен $SWITCH отвечает за управление, распределение комиссий кросс-чейн моста и уровни стейкинга, с регулярными этапами халвинга.',
+    stepsHeading: 'Пошаговая инструкция',
+    steps: [
+      'Откройте официальный бот PocketFi в Telegram (@pocketfi_bot).',
+      'Активируйте майнинг и заберите приветственные $SWITCH.',
+      'Клеймите накопленные $SWITCH каждые 5–6 часов, пока хранилище не сожгло их.',
+      'Выполните задания во вкладке Boost и подключите Tonkeeper или MyTonWallet.',
+      'Сделайте небольшой своп в TON или EVM внутри PocketFi для постоянного буста скорости.'
+    ],
+    strategyHeading: 'Стратегия фарма',
+    strategy: 'Не допускайте сгорания каждые 6 часов, выполняйте все задания в разделе Boost и поддерживайте активный баланс в Tonkeeper.',
+    sybilHeading: 'Защита от ботов и безопасность',
+    sybilSafety: '6-часовой механизм сгорания отсеивает неактивные фермы, а реальные свопы повышают множитель добычи.',
+    faqHeading: 'Частые вопросы',
+    faqs: [
+      {
+        q: 'Почему $SWITCH сгорают, если их не забирать?',
+        a: 'Таймер на 6 часов введён для поощрения живых пользователей и отсева мёртвых аккаунтов.'
+      },
+      {
+        q: 'PocketFi работает на TON?',
+        a: 'Да, он работает нативно на TON и связывает ликвидность с Ethereum и L2.'
+      }
+    ],
+    ctaText: 'Открыть PocketFi',
+    englishVersionLabel: 'Английская версия'
+  },
+  {
+    id: 'pocketfi',
+    slug: 'id',
+    lang: 'id',
+    flag: '🇮🇩',
+    homeLabel: 'Beranda',
+    hubLabel: 'Airdrop Telegram',
+    hubHref: '/id/airdrop-telegram/',
+    title: 'Panduan Airdrop PocketFi (2026): Tambang $SWITCH Tiap 6 Jam | Airdroplyx',
+    description: 'Cara menambang $SWITCH gratis di agregator DeFi Telegram PocketFi (@pocketfi_bot): klaim sebelum hangus 6 jam dan hubungkan dompet Tonkeeper.',
+    h1: 'PocketFi ($SWITCH): Panduan Airdrop Telegram & DeFi Mining',
+    badge: 'TON DeFi • Gratis',
+    rewardLabel: 'Estimasi Hadiah',
+    costLabel: 'Biaya',
+    snapshotLabel: 'Perkiraan Snapshot',
+    timeLabel: 'Waktu Harian',
+    overviewHeading: 'Ringkasan Proyek',
+    overview: 'PocketFi (XPocket) adalah agregator swap lintas rantai di dalam Telegram yang menghubungkan TON, Ethereum, Arbitrum, dan Optimism. Pengguna menambang token utilitas $SWITCH dengan mekanisme klaim setiap 6 jam sebelum token di brankas terbakar otomatis.',
+    tokenomicsHeading: 'Tokenomik $SWITCH & Halving',
+    tokenomics: 'Token $SWITCH menggerakkan tata kelola, bagi hasil biaya jembatan lintas rantai, dan tingkat staking dengan jadwal halving otomatis.',
+    stepsHeading: 'Langkah-Langkah Mengikuti Airdrop',
+    steps: [
+      'Buka bot Telegram resmi PocketFi (@pocketfi_bot).',
+      'Aktifkan akun mining dan klaim bonus awal $SWITCH.',
+      'Klaim token yang terkumpul setiap 5–6 jam sebelum hangus otomatis.',
+      'Selesaikan tugas di tab Boost lalu hubungkan Tonkeeper atau MyTonWallet.',
+      'Lakukan swap kecil di TON atau EVM lewat PocketFi untuk meningkatkan kecepatan mining permanen.'
+    ],
+    strategyHeading: 'Strategi Maksimal',
+    strategy: 'Klaim $SWITCH sebelum batas waktu 6 jam dan selesaikan tugas Boost untuk mempercepat produksi per jam.',
+    sybilHeading: 'Keamanan & Anti-Sybil',
+    sybilSafety: 'Mekanisme pembakaran 6 jam menyaring akun pasif, sementara saldo dompet TON dan swap nyata memberi pengali lebih besar.',
+    faqHeading: 'Pertanyaan Umum',
+    faqs: [
+      {
+        q: 'Mengapa token $SWITCH hangus jika tidak diklaim?',
+        a: 'Aturan 6 jam memastikan hanya pengguna aktif yang terus menambang dan mencegah akun hantu.'
+      },
+      {
+        q: 'Apakah PocketFi berjalan di jaringan TON?',
+        a: 'Ya, PocketFi beroperasi native di TON serta terhubung ke Ethereum, Arbitrum, dan jaringan EVM lainnya.'
+      }
+    ],
+    ctaText: 'Buka PocketFi',
+    englishVersionLabel: 'Versi Bahasa Inggris'
+  },
+  {
+    id: 'pocketfi',
+    slug: 'vi',
+    lang: 'vi',
+    flag: '🇻🇳',
+    homeLabel: 'Trang chủ',
+    hubLabel: 'Airdrop Telegram',
+    hubHref: '/vi/airdrop-telegram/',
+    title: 'Hướng dẫn Airdrop PocketFi (2026): Đào $SWITCH mỗi 6 giờ | Airdroplyx',
+    description: 'Cách đào $SWITCH trên ứng dụng DeFi đa chuỗi Telegram PocketFi (@pocketfi_bot): nhận token trước 6 giờ cháy và kết nối ví Tonkeeper.',
+    h1: 'PocketFi ($SWITCH): Hướng Dẫn Airdrop Telegram & Đào DeFi',
+    badge: 'TON DeFi • Miễn phí',
+    rewardLabel: 'Phần thưởng dự kiến',
+    costLabel: 'Chi phí',
+    snapshotLabel: 'Thời gian dự kiến',
+    timeLabel: 'Thời gian mỗi ngày',
+    overviewHeading: 'Tổng quan dự án',
+    overview: 'PocketFi (XPocket) là bộ tổng hợp swap đa chuỗi ngay trong Telegram, kết nối TON, Ethereum, Arbitrum và Optimism. Người dùng khai thác token $SWITCH mỗi giờ và cần nhận trước khi hết hạn 6 giờ để tránh bị đốt tự động.',
+    tokenomicsHeading: 'Tokenomics $SWITCH & Halving',
+    tokenomics: '$SWITCH dùng cho quản trị, chia sẻ phí cầu nối đa chuỗi và staking, kèm cơ chế giảm nửa phần thưởng (halving) tự động.',
+    stepsHeading: 'Các bước tham gia chi tiết',
+    steps: [
+      'Khởi chạy bot Telegram chính thức PocketFi (@pocketfi_bot).',
+      'Kích hoạt tài khoản đào và nhận thưởng $SWITCH chào mừng.',
+      'Vào nhận $SWITCH tích lũy mỗi 5–6 giờ trước khi kho tự động đốt.',
+      'Hoàn thành nhiệm vụ trong mục Boost và kết nối Tonkeeper hoặc MyTonWallet.',
+      'Thực hiện một lệnh swap nhỏ trên TON hoặc EVM trong PocketFi để tăng tốc độ đào.'
+    ],
+    strategyHeading: 'Chiến lược tối ưu điểm',
+    strategy: 'Đặt nhắc nhở nhận $SWITCH trước mốc 6 giờ và hoàn thành các nhiệm vụ Boost để tăng tốc độ khai thác.',
+    sybilHeading: 'Chống Sybil & Bảo mật',
+    sybilSafety: 'Cơ chế đốt sau 6 giờ loại bỏ tài khoản ảo không hoạt động; ví TON có số dư và swap thật được nhân tốc độ cao hơn.',
+    faqHeading: 'Câu hỏi thường gặp',
+    faqs: [
+      {
+        q: 'Tại sao $SWITCH bị đốt nếu không nhận?',
+        a: 'Cơ chế 6 giờ nhằm thưởng cho người dùng tương tác thực sự và loại bỏ tài khoản ma.'
+      },
+      {
+        q: 'PocketFi có hoạt động trên TON không?',
+        a: 'Có, PocketFi chạy gốc trên TON và kết nối thanh khoản với Ethereum, Arbitrum.'
+      }
+    ],
+    ctaText: 'Mở PocketFi',
+    englishVersionLabel: 'Bản tiếng Anh'
+  },
+  {
+    id: 'pocketfi',
+    slug: 'es',
+    lang: 'es',
+    flag: '🇪🇸',
+    homeLabel: 'Inicio',
+    hubLabel: 'Airdrops de Telegram',
+    hubHref: '/es/airdrops-telegram/',
+    title: 'Guía Airdrop PocketFi (2026): Minar $SWITCH cada 6 horas | Airdroplyx',
+    description: 'Cómo minar $SWITCH en el agregador DeFi multicadena de Telegram PocketFi (@pocketfi_bot) antes de la quema de 6 horas y conectar Tonkeeper.',
+    h1: 'PocketFi ($SWITCH): Guía del Airdrop en Telegram y Minería DeFi',
+    badge: 'TON DeFi • Gratis',
+    rewardLabel: 'Recompensa estimada',
+    costLabel: 'Costo',
+    snapshotLabel: 'Periodo estimado',
+    timeLabel: 'Tiempo diario',
+    overviewHeading: 'Resumen del proyecto',
+    overview: 'PocketFi (XPocket) es un agregador DeFi y plataforma de swaps multicadena dentro de Telegram que conecta TON, Ethereum, Arbitrum y Optimism. Los usuarios minan el token $SWITCH y deben reclamarlo cada 6 horas antes de que se queme en la bóveda.',
+    tokenomicsHeading: 'Tokenomics de $SWITCH y Halving',
+    tokenomics: '$SWITCH impulsa la gobernanza, el reparto de comisiones de puente y los niveles de staking con halvings automáticos.',
+    stepsHeading: 'Pasos para participar',
+    steps: [
+      'Abre el bot oficial de PocketFi en Telegram (@pocketfi_bot).',
+      'Activa tu cuenta de minería y reclama tu bienvenida en $SWITCH.',
+      'Reclama tus $SWITCH acumulados cada 5–6 horas antes de que se quemen.',
+      'Completa las tareas en Boost y vincula tu billetera Tonkeeper o MyTonWallet.',
+      'Realiza un pequeño swap en TON o EVM dentro de PocketFi para aumentar tu velocidad.'
+    ],
+    strategyHeading: 'Estrategia para maximizar recompensas',
+    strategy: 'Reclama antes de que venza el límite de 6 horas y aprovecha las misiones Boost para acelerar tu tasa por hora.',
+    sybilHeading: 'Seguridad y protección Sybil',
+    sybilSafety: 'La quema cada 6 horas elimina cuentas fantasma; mantener saldo en Tonkeeper y hacer swaps reales multiplica la minería.',
+    faqHeading: 'Preguntas frecuentes',
+    faqs: [
+      {
+        q: '¿Por qué se queman mis $SWITCH si no los reclamo?',
+        a: 'El límite de 6 horas premia a usuarios activos reales y descarta cuentas inactivas.'
+      },
+      {
+        q: '¿Funciona PocketFi en TON?',
+        a: 'Sí, opera nativamente en TON y conecta liquidez con Ethereum y redes L2.'
+      }
+    ],
+    ctaText: 'Abrir PocketFi',
+    englishVersionLabel: 'Versión en inglés'
+  },
+  {
+    id: 'pocketfi',
+    slug: 'pt',
+    lang: 'pt',
+    flag: '🇧🇷',
+    homeLabel: 'Início',
+    hubLabel: 'Airdrops do Telegram',
+    hubHref: '/pt/airdrops-telegram/',
+    title: 'Guia Airdrop PocketFi (2026): Minerar $SWITCH a cada 6h | Airdroplyx',
+    description: 'Saiba como minerar $SWITCH no agregador DeFi do Telegram PocketFi (@pocketfi_bot) antes da queima de 6 horas e conectar a Tonkeeper.',
+    h1: 'PocketFi ($SWITCH): Guia do Airdrop no Telegram e Mineração DeFi',
+    badge: 'TON DeFi • Grátis',
+    rewardLabel: 'Recompensa estimada',
+    costLabel: 'Custo',
+    snapshotLabel: 'Previsão',
+    timeLabel: 'Tempo diário',
+    overviewHeading: 'Visão geral do projeto',
+    overview: 'PocketFi (XPocket) é um agregador DeFi e protocolo de swaps multichain dentro do Telegram conectando TON, Ethereum, Arbitrum e Optimism. Os usuários mineram $SWITCH e precisam resgatar a cada 6 horas antes da queima automática.',
+    tokenomicsHeading: 'Tokenomics do $SWITCH e Halving',
+    tokenomics: '$SWITCH sustenta a governança, divisão de taxas de ponte e níveis de staking com reduções programadas (halving).',
+    stepsHeading: 'Passo a passo para participar',
+    steps: [
+      'Abra o bot oficial do PocketFi no Telegram (@pocketfi_bot).',
+      'Ative sua conta de mineração e receba o bônus inicial em $SWITCH.',
+      'Resgate os $SWITCH acumulados a cada 5–6 horas antes que queimem.',
+      'Conclua as missões na aba Boost e conecte a Tonkeeper ou MyTonWallet.',
+      'Faça um pequeno swap em TON ou EVM dentro do PocketFi para acelerar a mineração.'
+    ],
+    strategyHeading: 'Estratégia de ganhos',
+    strategy: 'Resgate sempre antes do prazo de 6 horas e conclua todas as tarefas de Boost para ampliar o rendimento por hora.',
+    sybilHeading: 'Proteção Sybil e segurança',
+    sybilSafety: 'A queima em 6 horas bloqueia contas inativas, enquanto saldo em Tonkeeper e swaps reais aumentam o multiplicador.',
+    faqHeading: 'Perguntas frequentes',
+    faqs: [
+      {
+        q: 'Por que meus $SWITCH queimam se eu não resgatar?',
+        a: 'O mecanismo de 6 horas recompensa usuários ativos e filtra contas fantasmas.'
+      },
+      {
+        q: 'O PocketFi funciona na rede TON?',
+        a: 'Sim, opera nativamente na TON ligando liquidez com Ethereum e L2s.'
+      }
+    ],
+    ctaText: 'Abrir PocketFi',
+    englishVersionLabel: 'Versão em inglês'
+  },
+  {
+    id: 'pocketfi',
+    slug: 'ko',
+    lang: 'ko',
+    flag: '🇰🇷',
+    homeLabel: '홈',
+    hubLabel: '텔레그램 에어드랍',
+    hubHref: '/ko/telegram-airdrops/',
+    title: 'PocketFi 에어드랍 가이드 (2026): 6시간마다 $SWITCH 채굴 | Airdroplyx',
+    description: '텔레그램 크로스체인 DeFi 스왑 앱 PocketFi(@pocketfi_bot) 공략: 6시간 소각 전 $SWITCH 수령 및 Tonkeeper 연동 방법.',
+    h1: 'PocketFi ($SWITCH) 텔레그램 에어드랍 및 DeFi 채굴 가이드',
+    badge: 'TON DeFi • 무료',
+    rewardLabel: '예상 보상',
+    costLabel: '비용',
+    snapshotLabel: '예상 시기',
+    timeLabel: '일일 소요 시간',
+    overviewHeading: '프로젝트 개요',
+    overview: 'PocketFi(XPocket)는 텔레그램 안에서 TON, Ethereum, Arbitrum, Optimism 토큰을 원클릭으로 스왑할 수 있는 크로스체인 DeFi 애그리게이터입니다. 사용자는 매시간 $SWITCH 토큰을 채굴하며, 6시간 이내에 수령하지 않으면 자동 소각되는 구조입니다.',
+    tokenomicsHeading: '$SWITCH 토크노믹스 및 반감기',
+    tokenomics: '$SWITCH는 거버넌스, 크로스체인 브릿지 수수료 공유 및 스테이킹 등급에 활용되며 자동 반감기(Halving)가 적용됩니다.',
+    stepsHeading: '단계별 참여 방법',
+    steps: [
+      '텔레그램에서 공식 PocketFi 봇(@pocketfi_bot)을 실행하세요.',
+      '채굴 계정을 활성화하고 초기 $SWITCH 환영 보너스를 받으세요.',
+      '볼트 내 토큰이 자동 소각되기 전 5~6시간마다 $SWITCH를 수령(Claim)하세요.',
+      'Boost 탭의 미션을 완료하고 Tonkeeper 또는 MyTonWallet을 연결하세요.',
+      'PocketFi 내에서 TON 또는 EVM 소액 스왑을 실행해 채굴 속도를 영구적으로 높이세요.'
+    ],
+    strategyHeading: '보상 극대화 전략',
+    strategy: '6시간 소각 타이머가 끝나기 전에 하루 여러 번 꾸준히 수령하고 Boost 퀘스트로 시간당 채굴량을 키우세요.',
+    sybilHeading: '시빌 방지 및 보안',
+    sybilSafety: '6시간 소각 규칙으로 유령 계정을 걸러내며, 실제 TON 지갑 잔액과 스왑 기록이 채굴 배율을 크게 높여줍니다.',
+    faqHeading: '자주 묻는 질문',
+    faqs: [
+      {
+        q: '수령하지 않은 $SWITCH는 왜 소각되나요?',
+        a: '비활성 유령 계정을 배제하고 실제 활성 사용자에게 보상을 집중하기 위한 6시간 소각 메커니즘 때문입니다.'
+      },
+      {
+        q: 'PocketFi는 TON 기반인가요?',
+        a: '네, TON에서 네이티브로 작동하며 Ethereum 및 L2와 유동성을 연결합니다.'
+      }
+    ],
+    ctaText: 'PocketFi 시작하기',
+    englishVersionLabel: '영문 버전'
+  },
+  {
+    id: 'pocketfi',
+    slug: 'ja',
+    lang: 'ja',
+    flag: '🇯🇵',
+    homeLabel: 'ホーム',
+    hubLabel: 'Telegramエアドロップ',
+    hubHref: '/ja/telegram-airdrops/',
+    title: 'PocketFi エアドロップ攻略 (2026): 6時間ごとの$SWITCH採掘 | Airdroplyx',
+    description: 'Telegram内のクロスチェーンDeFiアグリゲーターPocketFi（@pocketfi_bot）攻略：6時間バーン前の$SWITCH回収とTonkeeper連携手順。',
+    h1: 'PocketFi ($SWITCH) Telegramエアドロップ＆DeFiマイニングガイド',
+    badge: 'TON DeFi • 無料',
+    rewardLabel: '予想報酬',
+    costLabel: '費用',
+    snapshotLabel: '予定時期',
+    timeLabel: '1日の作業時間',
+    overviewHeading: 'プロジェクト概要',
+    overview: 'PocketFi（XPocket）はTelegramから離れることなくTON、Ethereum、Arbitrum、Optimism間でスワップできるクロスチェーンDeFiアグリゲーターです。$SWITCHトークンは毎時採掘され、6時間以内に回収しないと自動バーンされます。',
+    tokenomicsHeading: '$SWITCH トケノミクスと半減期',
+    tokenomics: '$SWITCHはガバナンス、ブリッジ手数料分配、ステーキング階層に使われ、段階的な半減期メカニズムを備えています。',
+    stepsHeading: '参加ステップ',
+    steps: [
+      'Telegramで公式PocketFiボット（@pocketfi_bot）を起動します。',
+      'マイニングを有効化し、初回ウェルカム$SWITCHを受け取ります。',
+      'ボールト内のトークンがバーンされる前に5〜6時間ごとに$SWITCHを回収します。',
+      'Boostタブのタスクを完了し、TonkeeperまたはMyTonWalletを接続します。',
+      'PocketFi内で少額のTONまたはEVMスワップを行い、採掘速度を恒久的に引き上げます。'
+    ],
+    strategyHeading: '報酬最大化のコツ',
+    strategy: '6時間のバーン期限が切れる前にこまめに回収し、Boostクエストで時給を底上げしましょう。',
+    sybilSafety: '6時間バーン仕様により非アクティブな幽霊アカウントが排除され、実際のTON残高やスワップ履歴が倍率を上げます。',
+    sybilHeading: 'シビル対策と安全性',
+    faqHeading: 'よくある質問',
+    faqs: [
+      {
+        q: '回収しないと$SWITCHがバーンされるのはなぜ？',
+        a: 'アクティブな実ユーザーに報酬を集中させ、放置アカウントを排除するための6時間ルールです。'
+      },
+      {
+        q: 'PocketFiはTON上のサービスですか？',
+        a: 'はい、TON上でネイティブに稼働しEthereumやArbitrum等と流動性を接続しています。'
+      }
+    ],
+    ctaText: 'PocketFiを開く',
+    englishVersionLabel: '英語版を見る'
+  },
+  {
+    id: 'pocketfi',
+    slug: 'ar',
+    lang: 'ar',
+    flag: '🇸🇦',
+    homeLabel: 'الرئيسية',
+    hubLabel: 'إيردروبات تيليجرام',
+    hubHref: '/ar/telegram-airdrops/',
+    title: 'دليل إيردروب PocketFi (2026): تعدين $SWITCH كل 6 ساعات | Airdroplyx',
+    description: 'دليل مجمّع التداول اللامركزي داخل تيليجرام PocketFi (@pocketfi_bot): المطالبة بـ $SWITCH قبل الحرق خلال 6 ساعات وربط Tonkeeper.',
+    h1: 'PocketFi ($SWITCH): دليل إيردروب تيليجرام وتعدين DeFi',
+    badge: 'تمويل ذاتي TON DeFi • مجاني',
+    rewardLabel: 'المكافأة المتوقعة',
+    costLabel: 'التكلفة',
+    snapshotLabel: 'الفترة المتوقعة',
+    timeLabel: 'الوقت اليومي',
+    overviewHeading: 'نظرة عامة على المشروع',
+    overview: 'تطبيق PocketFi (XPocket) هو مجمّع DeFi ومبادلات عبر السلاسل داخل تيليجرام يربط TON وEthereum وArbitrum وOptimism. يقوم المستخدمون بتعدين عملة $SWITCH مع آلية حرق تلقائي إذا لم يتم المطالبة بها خلال 6 ساعات.',
+    tokenomicsHeading: 'اقتصاديات $SWITCH والتنصيف',
+    tokenomics: 'تدعم عملة $SWITCH الحوكمة وتقاسم رسوم الجسر ومستويات التخزين، مع مراحل تنصيف تلقائية للتحكم بالمعروض.',
+    stepsHeading: 'خطوات المشاركة',
+    steps: [
+      'افتح بوت PocketFi الرسمي في تيليجرام (@pocketfi_bot).',
+      'فعّل حساب التعدين واحصل على مكافأة الترحيب بـ $SWITCH.',
+      'طالب بالعملات المتراكمة كل 5 إلى 6 ساعات قبل أن تحترق تلقائياً.',
+      'أكمل مهام تبويب Boost واربط محفظة Tonkeeper أو MyTonWallet.',
+      'نفّذ مبادلة صغيرة على TON أو EVM داخل PocketFi لزيادة سرعة التعدين بشكل دائم.'
+    ],
+    strategyHeading: 'استراتيجية تعظيم المكافآت',
+    strategy: 'طالب بـ $SWITCH قبل انتهاء مهلة 6 ساعات عدة مرات يومياً، وأكمل مهام Boost لرفع معدل الإنتاج بالساعة.',
+    sybilHeading: 'الحماية من الحسابات الوهمية والأمان',
+    sybilSafety: 'يستبعد الحرق كل 6 ساعات الحسابات الخاملة، كما يرفع رصيد Tonkeeper والمبادلات الفعلية مضاعف التعدين.',
+    faqHeading: 'الأسئلة الشائعة',
+    faqs: [
+      {
+        q: 'لماذا تحترق عملات $SWITCH إذا لم أطالب بها؟',
+        a: 'تطبق آلية الـ 6 ساعات لمكافأة المستخدمين النشطين واستبعاد الحسابات الوهمية الخاملة.'
+      },
+      {
+        q: 'هل يعمل PocketFi على شبكة TON؟',
+        a: 'نعم، يعمل أصلياً على TON ويربط السيولة مع Ethereum وشبكات L2.'
+      }
+    ],
+    ctaText: 'افتح PocketFi',
+    englishVersionLabel: 'النسخة الإنجليزية'
+  },
+  {
+    id: 'pocketfi',
+    slug: 'de',
+    lang: 'de',
+    flag: '🇩🇪',
+    homeLabel: 'Startseite',
+    hubLabel: 'Telegram-Airdrops',
+    hubHref: '/de/telegram-airdrops/',
+    title: 'PocketFi Airdrop Guide (2026): $SWITCH alle 6h minen | Airdroplyx',
+    description: 'Anleitung für den Telegram Cross-Chain-Aggregator PocketFi (@pocketfi_bot): $SWITCH vor dem 6-Stunden-Burn claimen und Tonkeeper verbinden.',
+    h1: 'PocketFi ($SWITCH): Telegram-Airdrop & DeFi-Mining Guide',
+    badge: 'TON DeFi • Kostenlos',
+    rewardLabel: 'Geschätzte Belohnung',
+    costLabel: 'Kosten',
+    snapshotLabel: 'Erwarteter Zeitraum',
+    timeLabel: 'Täglicher Aufwand',
+    overviewHeading: 'Projektübersicht',
+    overview: 'PocketFi (XPocket) ist ein Cross-Chain-DeFi-Aggregator direkt in Telegram für Swaps zwischen TON, Ethereum, Arbitrum und Optimism. Nutzer minen $SWITCH, das alle 6 Stunden vor der automatischen Verbrennung beansprucht werden muss.',
+    tokenomicsHeading: '$SWITCH Tokenomics & Halving',
+    tokenomics: '$SWITCH steuert Governance, Bridge-Gebührenbeteiligung und Staking-Stufen mit automatischen Halving-Zyklen.',
+    stepsHeading: 'Schritt-für-Schritt-Anleitung',
+    steps: [
+      'Starte den offiziellen PocketFi Telegram-Bot (@pocketfi_bot).',
+      'Aktiviere dein Mining-Konto und sichere dir den $SWITCH-Willkommensbonus.',
+      'Fordere deine angesammelten $SWITCH alle 5–6 Stunden an, bevor sie verbrannt werden.',
+      'Erledige Aufgaben im Reiter Boost und verbinde Tonkeeper oder MyTonWallet.',
+      'Führe einen kleinen TON- oder EVM-Swap in PocketFi aus, um dein Tempo dauerhaft zu steigern.'
+    ],
+    strategyHeading: 'Strategie für maximale Punkte',
+    strategy: 'Claime $SWITCH mehrmals täglich vor Ablauf der 6-Stunden-Frist und nutze Boost-Quests für höhere Stundenraten.',
+    sybilHeading: 'Sybil-Schutz & Sicherheit',
+    sybilSafety: 'Der 6-Stunden-Burn filtert Geisterkonten heraus; echtes Tonkeeper-Guthaben und Swaps erhöhen den Multiplikator.',
+    faqHeading: 'Häufig gestellte Fragen',
+    faqs: [
+      {
+        q: 'Warum verbrennen meine $SWITCH ohne Claim?',
+        a: 'Das 6-Stunden-Limit belohnt aktive Nutzer und verhindert inaktive Geisterkonten.'
+      },
+      {
+        q: 'Läuft PocketFi auf der TON-Blockchain?',
+        a: 'Ja, nativ auf TON mit Liquiditätsbrücken zu Ethereum und Arbitrum.'
+      }
+    ],
+    ctaText: 'PocketFi öffnen',
+    englishVersionLabel: 'Englische Version'
+  },
+  {
+    id: 'pocketfi',
+    slug: 'fr',
+    lang: 'fr',
+    flag: '🇫🇷',
+    homeLabel: 'Accueil',
+    hubLabel: 'Airdrops Telegram',
+    hubHref: '/fr/airdrops-telegram/',
+    title: 'Guide Airdrop PocketFi (2026) : Miner $SWITCH toutes les 6h | Airdroplyx',
+    description: 'Comment miner $SWITCH sur l’agrégateur DeFi Telegram PocketFi (@pocketfi_bot) avant le burn de 6 heures et connecter Tonkeeper.',
+    h1: 'PocketFi ($SWITCH) : Guide Airdrop Telegram et Minage DeFi',
+    badge: 'TON DeFi • Gratuit',
+    rewardLabel: 'Récompense estimée',
+    costLabel: 'Coût',
+    snapshotLabel: 'Période estimée',
+    timeLabel: 'Temps quotidien',
+    overviewHeading: 'Présentation du projet',
+    overview: 'PocketFi (XPocket) est un agrégateur DeFi multi-chaînes intégré à Telegram reliant TON, Ethereum, Arbitrum et Optimism. Les utilisateurs minent du $SWITCH et doivent le réclamer toutes les 6 heures avant destruction automatique.',
+    tokenomicsHeading: 'Tokenomics de $SWITCH et Halving',
+    tokenomics: '$SWITCH assure gouvernance, partage des frais de pont et niveaux de staking avec des halvings automatisés.',
+    stepsHeading: 'Étapes pour participer',
+    steps: [
+      'Lancez le bot Telegram officiel PocketFi (@pocketfi_bot).',
+      'Activez votre compte de minage et réclamez votre allocation de bienvenue en $SWITCH.',
+      'Réclamez vos $SWITCH toutes les 5 à 6 heures avant que le coffre ne les brûle.',
+      'Complétez les quêtes de l’onglet Boost et connectez Tonkeeper ou MyTonWallet.',
+      'Exécutez un petit swap TON ou EVM dans PocketFi pour booster durablement votre vitesse.'
+    ],
+    strategyHeading: 'Stratégie d’optimisation',
+    strategy: 'Réclamez toujours avant l’expiration des 6 heures et accomplissez les tâches Boost pour accroître votre rythme horaire.',
+    sybilHeading: 'Protection Anti-Sybil et sécurité',
+    sybilSafety: 'Le burn à 6 heures élimine les comptes fantômes ; un solde Tonkeeper actif et de vrais swaps augmentent le multiplicateur.',
+    faqHeading: 'Questions fréquentes',
+    faqs: [
+      {
+        q: 'Pourquoi mes $SWITCH brûlent-ils sans réclamation ?',
+        a: 'La règle des 6 heures récompense les utilisateurs actifs et écarte les comptes inactifs.'
+      },
+      {
+        q: 'PocketFi fonctionne-t-il sur TON ?',
+        a: 'Oui, nativement sur TON avec passerelles vers Ethereum et Arbitrum.'
+      }
+    ],
+    ctaText: 'Ouvrir PocketFi',
+    englishVersionLabel: 'Version anglaise'
+  },
+  {
+    id: 'pocketfi',
+    slug: 'uk',
+    lang: 'uk',
+    flag: '🇺🇦',
+    homeLabel: 'Головна',
+    hubLabel: 'Telegram-аірдропи',
+    hubHref: '/uk/telegram-airdrops/',
+    title: 'Гайд з аірдропу PocketFi (2026): майнінг $SWITCH кожні 6 годин | Airdroplyx',
+    description: 'Як безкоштовно майнити $SWITCH у Telegram-агрегаторі PocketFi (@pocketfi_bot): клейм кожні 6 годин до спалювання і прив’язка Tonkeeper.',
+    h1: 'PocketFi ($SWITCH): гайд з аірдропу та DeFi-майнінгу в Telegram',
+    badge: 'TON DeFi • Безкоштовно',
+    rewardLabel: 'Очікувана винагорода',
+    costLabel: 'Витрати',
+    snapshotLabel: 'Очікуваний період',
+    timeLabel: 'Час на день',
+    overviewHeading: 'Огляд проєкту',
+    overview: 'PocketFi (XPocket) — крос-чейн DeFi-агрегатор у Telegram для обмінів між TON, Ethereum, Arbitrum та Optimism. Користувачі майнять токен $SWITCH із механікою автоматичного спалювання через 6 годин без клейму.',
+    tokenomicsHeading: 'Токеноміка $SWITCH і халвінг',
+    tokenomics: 'Токен $SWITCH керує голосуванням, розподілом комісій мосту та рівнями стейкінгу з автоматичними етапами халвінгу.',
+    stepsHeading: 'Покрокова інструкція',
+    steps: [
+      'Запустіть офіційний бот PocketFi у Telegram (@pocketfi_bot).',
+      'Активуйте акаунт майнінгу та заберіть вітальні $SWITCH.',
+      'Клейміть накопичені $SWITCH кожні 5–6 годин до спалювання.',
+      'Виконайте завдання у вкладці Boost і підключіть Tonkeeper або MyTonWallet.',
+      'Зробіть невеликий своп у TON або EVM всередині PocketFi для постійного бусту швидкості.'
+    ],
+    strategyHeading: 'Стратегія максимізації нагород',
+    strategy: 'Збирайте $SWITCH до спливу 6 годин і виконуйте завдання Boost для підвищення погодинного видобутку.',
+    sybilHeading: 'Захист від Sybil та безпека',
+    sybilSafety: '6-годинне спалювання відсіює неактивні боти, а баланс у Tonkeeper і реальні свопи підвищують множник.',
+    faqHeading: 'Часті запитання',
+    faqs: [
+      {
+        q: 'Чому $SWITCH згоряють, якщо їх не забирати?',
+        a: 'Таймер на 6 годин заохочує активних користувачів і прибирає мертві акаунти.'
+      },
+      {
+        q: 'Чи працює PocketFi на TON?',
+        a: 'Так, він працює нативно на TON та поєднує ліквідність з Ethereum і L2.'
+      }
+    ],
+    ctaText: 'Відкрити PocketFi',
+    englishVersionLabel: 'Англійська версія'
+  },
+  {
+    id: 'pocketfi',
+    slug: 'zh',
+    lang: 'zh-CN',
+    flag: '🇨🇳',
+    homeLabel: '首页',
+    hubLabel: 'Telegram 空投',
+    hubHref: '/zh/telegram-airdrops/',
+    title: 'PocketFi (XPocket) 空投教程 (2026)：每6小时领取 $SWITCH 挖矿 | Airdroplyx',
+    description: 'Telegram 跨链 DeFi 聚合器 PocketFi（@pocketfi_bot）攻略：每 6 小时防销毁领取 $SWITCH、链上兑换加速与 Tonkeeper 绑定。',
+    h1: 'PocketFi ($SWITCH) Telegram 空投及 DeFi 挖矿指南',
+    badge: 'TON DeFi • 零撸免费',
+    rewardLabel: '预估奖励',
+    costLabel: '参与成本',
+    snapshotLabel: '预期周期',
+    timeLabel: '每日耗时',
+    overviewHeading: '项目简介',
+    overview: 'PocketFi（XPocket）是原生运行在 Telegram 内的跨链 DeFi 聚合器，支持 TON、Ethereum、Arbitrum 与 Optimism 一键兑换。用户可持续挖矿 $SWITCH 代币，且需每 6 小时领取一次以免金库自动销毁。',
+    tokenomicsHeading: '$SWITCH 代币经济与减半',
+    tokenomics: '$SWITCH 用于社区治理、跨链桥手续费分成与质押等级，并已执行多轮自动减半机制保障长期稀缺性。',
+    stepsHeading: '详细参与步骤',
+    steps: [
+      '在 Telegram 中打开官方 PocketFi 机器人（@pocketfi_bot）。',
+      '激活挖矿账户并领取初始 $SWITCH 欢迎奖励。',
+      '在自动销毁倒计时前每隔 5–6 小时领取一次已产出的 $SWITCH。',
+      '完成 Boost 栏目任务并绑定 Tonkeeper 或 MyTonWallet 钱包。',
+      '在 PocketFi 内完成一笔小额 TON 或 EVM 兑换以永久提升挖矿速率。'
+    ],
+    strategyHeading: '高收益策略',
+    strategy: '务必在 6 小时销毁上限前定时领取，并通过 Boost 任务与实盘小额兑换拉高每小时挖矿倍率。',
+    sybilHeading: '防女巫机制与安全提示',
+    sybilSafety: '6 小时未领即焚毁机制能精准清除僵尸脚本号；保持 TON 钱包余额与真实兑换可显著提升倍率。',
+    faqHeading: '常见问题',
+    faqs: [
+      {
+        q: '为什么不领取的 $SWITCH 会被销毁？',
+        a: '6 小时销毁机制旨在奖励真实活跃用户并淘汰长期不在线的僵尸账号。'
+      },
+      {
+        q: 'PocketFi 是建在 TON 上的吗？',
+        a: '是的，PocketFi 原生运行在 TON 上，并打通了以太坊与多条二层网络流动性。'
+      }
+    ],
+    ctaText: '打开 PocketFi',
+    englishVersionLabel: '英文原版'
+  },
+  {
+    id: 'pocketfi',
+    slug: 'hi',
+    lang: 'hi',
+    flag: '🇮🇳',
+    homeLabel: 'होम',
+    hubLabel: 'टेलीग्राम एयरड्रॉप',
+    hubHref: '/hi/telegram-airdrops/',
+    title: 'PocketFi एयरड्रॉप गाइड (2026): हर 6 घंटे में $SWITCH माइनिंग | Airdroplyx',
+    description: 'Telegram क्रॉस-चेन DeFi एग्रीगेटर PocketFi (@pocketfi_bot) की गाइड: 6 घंटे बर्न से पहले $SWITCH क्लेम और Tonkeeper कनेक्शन।',
+    h1: 'PocketFi ($SWITCH) टेलीग्राम एयरड्रॉप और DeFi माइनिंग गाइड',
+    badge: 'TON DeFi • मुफ़्त',
+    rewardLabel: 'अनुमानित इनाम',
+    costLabel: 'लागत',
+    snapshotLabel: 'अनुमानित समय',
+    timeLabel: 'दैनिक समय',
+    overviewHeading: 'प्रोजेक्ट का परिचय',
+    overview: 'PocketFi (XPocket) Telegram के अंदर TON, Ethereum, Arbitrum और Optimism पर स्वैप की सुविधा देने वाला क्रॉस-चेन DeFi एग्रीगेटर है। इसमें यूज़र्स $SWITCH टोकन माइन करते हैं जिसे 6 घंटे के अंदर क्लेम न करने पर वह बर्न हो जाता है।',
+    tokenomicsHeading: '$SWITCH टोकनॉमिक्स और हाल्विंग',
+    tokenomics: '$SWITCH गवर्नेंस, क्रॉस-चेन ब्रिज फीस शेयरिंग और स्टेकिंग टियर्स को पावर देता है, जिसमें ऑटोमेटिक हाल्विंग लागू है।',
+    stepsHeading: 'भाग लेने के आसान चरण',
+    steps: [
+      'Telegram में आधिकारिक PocketFi बॉट (@pocketfi_bot) खोलें।',
+      'अपना माइनिंग अकाउंट एक्टिवेट करें और शुरुआती $SWITCH बोनस क्लेम करें।',
+      'वॉल्ट ऑटो-बर्न होने से पहले हर 5–6 घंटे में जमा $SWITCH क्लेम करें।',
+      'Boost सेक्शन के टास्क पूरे करें और Tonkeeper या MyTonWallet कनेक्ट करें।',
+      'स्थायी रूप से माइनिंग स्पीड बढ़ाने के लिए PocketFi में TON या EVM पर छोटा स्वैप करें।'
+    ],
+    strategyHeading: 'अधिकतम इनाम की रणनीति',
+    strategy: '6 घंटे की बर्न समय-सीमा से पहले दिन में कई बार क्लेम करें और Boost मिशन से प्रति घंटा स्पीड बढ़ाएं।',
+    sybilHeading: 'सिबिल सुरक्षा और सावधानियाँ',
+    sybilSafety: '6-घंटे का बर्न नियम निष्क्रिय बॉट खातों को हटाता है; सक्रिय TON वॉलेट बैलेंस और असली स्वैप से अधिक गुणक मिलता है।',
+    faqHeading: 'अक्सर पूछे जाने वाले प्रश्न',
+    faqs: [
+      {
+        q: 'क्लेम न करने पर $SWITCH बर्न क्यों हो जाते हैं?',
+        a: '6-घंटे का नियम सक्रिय यूज़र्स को इनाम देने और निष्क्रिय घोस्ट अकाउंट्स को रोकने के लिए बनाया गया है।'
+      },
+      {
+        q: 'क्या PocketFi TON नेटवर्क पर बना है?',
+        a: 'हाँ, यह TON पर नेटिव रूप से चलता है और Ethereum व L2 से लिक्विडिटी जोड़ता है।'
+      }
+    ],
+    ctaText: 'PocketFi खोलें',
+    englishVersionLabel: 'अंग्रेज़ी संस्करण'
+  },
+  {
+    id: 'pocketfi',
+    slug: 'it',
+    lang: 'it',
+    flag: '🇮🇹',
+    homeLabel: 'Home',
+    hubLabel: 'Airdrop Telegram',
+    hubHref: '/it/airdrop-telegram/',
+    title: 'Guida Airdrop PocketFi (2026): Minare $SWITCH ogni 6 ore | Airdroplyx',
+    description: 'Come minare $SWITCH sull’aggregatore DeFi Telegram PocketFi (@pocketfi_bot) prima del burn di 6 ore e collegare il wallet Tonkeeper.',
+    h1: 'PocketFi ($SWITCH): Guida Airdrop Telegram e Mining DeFi',
+    badge: 'TON DeFi • Gratis',
+    rewardLabel: 'Ricompensa stimata',
+    costLabel: 'Costo',
+    snapshotLabel: 'Periodo previsto',
+    timeLabel: 'Tempo giornaliero',
+    overviewHeading: 'Panoramica del progetto',
+    overview: 'PocketFi (XPocket) è un aggregatore DeFi e piattaforma di swap cross-chain integrata in Telegram tra TON, Ethereum, Arbitrum e Optimism. Gli utenti minano il token $SWITCH, che va riscattato ogni 6 ore prima della distruzione automatica.',
+    tokenomicsHeading: 'Tokenomics di $SWITCH e Halving',
+    tokenomics: '$SWITCH alimenta governance, condivisione delle commissioni bridge e livelli di staking con halving programmati.',
+    stepsHeading: 'Come partecipare passo dopo passo',
+    steps: [
+      'Avvia il bot Telegram ufficiale PocketFi (@pocketfi_bot).',
+      'Attiva il tuo account di mining e riscatta il bonus iniziale in $SWITCH.',
+      'Riscatta i token accumulati ogni 5–6 ore prima che il caveau li bruci.',
+      'Completa le attività nella sezione Boost e collega Tonkeeper o MyTonWallet.',
+      'Esegui un piccolo swap su TON o EVM dentro PocketFi per aumentare la velocità.'
+    ],
+    strategyHeading: 'Strategia per massimizzare i punti',
+    strategy: 'Riscatta sempre prima della scadenza delle 6 ore e completa le missioni Boost per aumentare la produzione oraria.',
+    sybilHeading: 'Sicurezza e protezione Sybil',
+    sybilSafety: 'Il burn ogni 6 ore elimina gli account fantasma; un saldo attivo su Tonkeeper e swap reali aumentano il moltiplicatore.',
+    faqHeading: 'Domande frequenti',
+    faqs: [
+      {
+        q: 'Perché i $SWITCH bruciano se non riscattati?',
+        a: 'Il limite di 6 ore premia gli utenti realmente attivi ed esclude gli account inattivi.'
+      },
+      {
+        q: 'PocketFi è costruito su TON?',
+        a: 'Sì, opera nativamente su TON collegando liquidità con Ethereum e L2.'
+      }
+    ],
+    ctaText: 'Apri PocketFi',
+    englishVersionLabel: 'Versione inglese'
+  },
+  {
+    id: 'pocketfi',
+    slug: 'pl',
+    lang: 'pl',
+    flag: '🇵🇱',
+    homeLabel: 'Strona główna',
+    hubLabel: 'Airdropy Telegram',
+    hubHref: '/pl/airdrop-telegram/',
+    title: 'Poradnik Airdrop PocketFi (2026): Kopanie $SWITCH co 6h | Airdroplyx',
+    description: 'Jak kopać $SWITCH w agregatorze DeFi na Telegramie PocketFi (@pocketfi_bot) przed 6-godzinnym spalaniem i podłączyć portfel Tonkeeper.',
+    h1: 'PocketFi ($SWITCH): Poradnik Airdropu Telegram i Kopania DeFi',
+    badge: 'TON DeFi • Darmowy',
+    rewardLabel: 'Szacowana nagroda',
+    costLabel: 'Koszt',
+    snapshotLabel: 'Przewidywany okres',
+    timeLabel: 'Czas dziennie',
+    overviewHeading: 'Opis projektu',
+    overview: 'PocketFi (XPocket) to wielołańcuchowy agregator swapów DeFi wewnątrz Telegrama łączący TON, Ethereum, Arbitrum i Optimism. Użytkownicy wydobywają token $SWITCH, który należy odebrać co 6 godzin przed automatycznym spaleniem.',
+    tokenomicsHeading: 'Tokenomika $SWITCH i Halving',
+    tokenomics: '$SWITCH napędza zarządzanie, podział opłat mostu i poziomy stakingu z wbudowanymi etapami halvingu.',
+    stepsHeading: 'Instrukcja krok po kroku',
+    steps: [
+      'Uruchom oficjalnego bota PocketFi na Telegramie (@pocketfi_bot).',
+      'Aktywuj konto wydobywcze i odbierz powitalne $SWITCH.',
+      'Odbieraj zgromadzone $SWITCH co 5–6 godzin, zanim skarbiec je spali.',
+      'Wykonaj zadania w zakładce Boost i podłącz Tonkeeper lub MyTonWallet.',
+      'Wykonaj mały swap w sieci TON lub EVM w PocketFi, aby trwale przyspieszyć kopanie.'
+    ],
+    strategyHeading: 'Strategia maksymalizacji nagród',
+    strategy: 'Odbieraj $SWITCH przed upływem 6 godzin i wykonuj misje Boost dla wyższej stawki godzinowej.',
+    sybilHeading: 'Ochrona Anti-Sybil i bezpieczeństwo',
+    sybilSafety: '6-godzinne spalanie eliminuje martwe konta, a saldo w Tonkeeper i prawdziwe swapy podnoszą mnożnik.',
+    faqHeading: 'Często zadawane pytania',
+    faqs: [
+      {
+        q: 'Dlaczego nieodebrane $SWITCH ulegają spaleniu?',
+        a: 'Limit 6 godzin nagradza aktywnych użytkowników i wyklucza nieaktywne konta widma.'
+      },
+      {
+        q: 'Czy PocketFi działa na sieci TON?',
+        a: 'Tak, działa natywnie na TON i łączy płynność z Ethereum oraz Arbitrum.'
+      }
+    ],
+    ctaText: 'Otwórz PocketFi',
+    englishVersionLabel: 'Wersja angielska'
   }
 ];
 
